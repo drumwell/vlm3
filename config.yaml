@@ -1,0 +1,32 @@
+sections:
+  include_patterns: ["^[0-9]{2} - .*"]
+  exclude_patterns: []
+
+unit_canon:
+  torque: "Nm"
+  pressure: "bar"
+  length: "mm"
+  volume: "L"
+  temp: "°C"
+
+regex_fixes:
+  - { pattern: "\\bMM\\b", replace: "Nm" }
+  - { pattern: "\\bIitre(s)?\\b", replace: "litre" }
+
+type_keywords:
+  procedure: ["remove and install","adjust","overhaul","installation","removal","bleed"]
+  troubleshooting: ["symptom","troubleshoot","checks","fault","diagnosis"]
+  wiring: ["wiring diagram","schematic","connector","pin","legend"]
+  spec_table: ["torque","capacity","pressure","clearance","thickness","diameter"]
+  explanation: ["description","operation","general information"]
+
+task_rules:
+  spec: { value_only: true, allow_alt_units: true }
+  procedure: { numbered: true, max_steps: 12 }
+  troubleshooting: { numbered: true, max_checks: 10 }
+  explanation: { max_sentences: 4 }
+
+validation:
+  spec_output_regex: "^[0-9~≈><=.,/\\-\\s]+[A-Za-z°µ]+$"
+  step_line_regex: "^\\s*\\d[\\)\\.]\\s"
+  max_output_tokens: 200
