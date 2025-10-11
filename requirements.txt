@@ -1,0 +1,10 @@
+pillow
+opencv-python
+numpy
+pandas
+tqdm
+pyyaml
+regex
+beautifulsoup4
+rapidfuzz
+paddleocr==2.7.0.3
