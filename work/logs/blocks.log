@@ -1,0 +1,826 @@
+python scripts/04_parse_blocks.py --ocr work/ocr_raw --tables work/ocr_tables --out work/blocks --config config.yaml
+[04_parse_blocks] OCR directory: /Users/jonb/projects/llm3/work/ocr_raw
+[04_parse_blocks] Tables directory: /Users/jonb/projects/llm3/work/ocr_tables
+[04_parse_blocks] Section filter: .*
+[04_parse_blocks] Output directory: /Users/jonb/projects/llm3/work/blocks
+[04_parse_blocks] Loaded 129 table rows
+
+[04_parse_blocks] Processing section Reference Images...
+  Bosch Motronic system drawing: 1 blocks (explanation)
+
+[04_parse_blocks] Processing section 35...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+
+[04_parse_blocks] Processing section 51...
+  00-index-a: 1 blocks (spec)
+  110: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  114: 2 blocks (spec, spec)
+  124: 1 blocks (spec)
+  130: 1 blocks (explanation)
+  140: 1 blocks (spec)
+  141: 1 blocks (explanation)
+  210: 1 blocks (explanation)
+  213: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  241: 1 blocks (procedure)
+  251: 1 blocks (procedure)
+  252: 1 blocks (procedure)
+  260: 1 blocks (procedure)
+  261: 1 blocks (procedure)
+  262: 1 blocks (procedure)
+    [Filtered 1 non-numeric spec entries]
+  312: 1 blocks (procedure)
+    [Filtered 1 non-numeric spec entries]
+  313: 1 blocks (spec)
+  314: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  319a: 1 blocks (procedure)
+  321: 1 blocks (procedure)
+  360: 1 blocks (explanation)
+  370: 1 blocks (spec)
+  372: 1 blocks (procedure)
+  432: 1 blocks (explanation)
+  451: 1 blocks (explanation)
+  452: 1 blocks (wiring)
+  453: 1 blocks (explanation)
+  456: 1 blocks (explanation)
+  470: 1 blocks (explanation)
+  475: 1 blocks (explanation)
+  713: 1 blocks (explanation)
+  714: 2 blocks (spec, spec)
+  715: 1 blocks (explanation)
+  717: 1 blocks (explanation)
+  756: 1 blocks (explanation)
+  757: 1 blocks (wiring)
+  758: 1 blocks (explanation)
+  800: 1 blocks (explanation)
+  803: 1 blocks (procedure)
+  804: 1 blocks (procedure)
+  806: 1 blocks (procedure)
+  807: 1 blocks (procedure)
+  808: 1 blocks (wiring)
+  812: 1 blocks (wiring)
+  815: 1 blocks (explanation)
+
+[04_parse_blocks] Processing section 34...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  14: 1 blocks (spec)
+  15: 1 blocks (spec)
+  16: 2 blocks (spec, spec)
+  17: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  21: 1 blocks (procedure)
+  22: 1 blocks (spec)
+  26: 1 blocks (wiring)
+  27: 1 blocks (procedure)
+    [Filtered 1 non-numeric spec entries]
+  32: 1 blocks (spec)
+  33: 1 blocks (explanation)
+  34a: 2 blocks (spec, spec)
+  34c: 2 blocks (spec, spec)
+  36: 1 blocks (spec)
+  37: 1 blocks (procedure)
+    [Filtered 1 non-numeric spec entries]
+
+[04_parse_blocks] Processing section 33...
+  00-index-a: 1 blocks (spec)
+  00: 1 blocks (explanation)
+  00_1: 1 blocks (explanation)
+  00_2: 1 blocks (explanation)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+  11: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  14: 1 blocks (spec)
+  15: 1 blocks (spec)
+  17: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+
+[04_parse_blocks] Processing section 18...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+
+[04_parse_blocks] Processing section 11...
+  00-index-a: 1 blocks (spec)
+  101: 1 blocks (spec)
+  102: 1 blocks (spec)
+  103: 1 blocks (explanation)
+  104: 2 blocks (spec, spec)
+  106: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  107: 1 blocks (spec)
+  108: 1 blocks (explanation)
+  109: 1 blocks (spec)
+  51: 1 blocks (spec)
+  52: 1 blocks (spec)
+  53: 1 blocks (spec)
+  53b: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  55a: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  62: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  65: 1 blocks (spec)
+  67: 1 blocks (spec)
+  70: 1 blocks (spec)
+  71: 1 blocks (procedure)
+  73: 1 blocks (procedure)
+  74: 1 blocks (spec)
+  75: 1 blocks (procedure)
+  79: 1 blocks (spec)
+
+[04_parse_blocks] Processing section 16...
+  00-index-a: 1 blocks (spec)
+  00: 1 blocks (explanation)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+
+[04_parse_blocks] Processing section favicon...
+
+[04_parse_blocks] Processing section 17...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  06_1: 1 blocks (procedure)
+  07: 1 blocks (spec)
+
+[04_parse_blocks] Processing section 26...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  15: 1 blocks (spec)
+  16: 2 blocks (spec, spec)
+
+[04_parse_blocks] Processing section 21...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+
+[04_parse_blocks] Processing section 72...
+  00-index-a: 1 blocks (spec)
+  110: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  114: 2 blocks (spec, spec)
+  116: 1 blocks (wiring)
+  117: 1 blocks (explanation)
+  120: 1 blocks (explanation)
+
+[04_parse_blocks] Processing section 00...
+  00-index-a: 1 blocks (spec)
+  00-intro-03: 1 blocks (spec)
+  00-intro-04: 1 blocks (explanation)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+  11: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  14: 1 blocks (spec)
+  15: 1 blocks (spec)
+  16: 2 blocks (spec, spec)
+  17: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  19: 1 blocks (explanation)
+  21: 1 blocks (explanation)
+  22: 1 blocks (spec)
+  24: 1 blocks (explanation)
+  26: 1 blocks (explanation)
+  28: 1 blocks (explanation)
+  29: 1 blocks (explanation)
+  30: 1 blocks (explanation)
+  31: 1 blocks (explanation)
+  32: 1 blocks (spec)
+  33: 1 blocks (explanation)
+  34: 1 blocks (explanation)
+  35: 1 blocks (explanation)
+  36: 1 blocks (spec)
+  37: 1 blocks (explanation)
+  38: 1 blocks (explanation)
+  39: 1 blocks (explanation)
+  40: 1 blocks (explanation)
+
+[04_parse_blocks] Processing section 36...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+
+[04_parse_blocks] Processing section 31...
+  00-index-a: 1 blocks (spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+  09_1: 2 blocks (spec, spec)
+  09_2: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  14: 1 blocks (spec)
+  15: 1 blocks (spec)
+  16: 2 blocks (spec, spec)
+  16_2: 1 blocks (spec)
+  16_3: 1 blocks (explanation)
+  16_4: 1 blocks (explanation)
+  17: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  21: 1 blocks (wiring)
+  22: 1 blocks (spec)
+  25: 1 blocks (explanation)
+  28: 1 blocks (procedure)
+  32: 1 blocks (spec)
+  34: 1 blocks (explanation)
+  36: 1 blocks (spec)
+  39: 1 blocks (procedure)
+  40: 1 blocks (procedure)
+  41: 1 blocks (explanation)
+  42: 1 blocks (procedure)
+  43: 1 blocks (procedure)
+  44: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  47: 1 blocks (explanation)
+  48: 1 blocks (explanation)
+
+[04_parse_blocks] Processing section 65...
+  00-index-a: 1 blocks (spec)
+  101: 1 blocks (spec)
+  102: 1 blocks (spec)
+  103: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  301: 1 blocks (explanation)
+  304: 1 blocks (explanation)
+  305: 1 blocks (explanation)
+  353: 1 blocks (explanation)
+  355: 1 blocks (wiring)
+  361: 1 blocks (explanation)
+  500: 1 blocks (wiring)
+  501: 1 blocks (wiring)
+  502: 1 blocks (wiring)
+  503: 1 blocks (wiring)
+  92: 1 blocks (wiring)
+  93: 1 blocks (procedure)
+  94: 1 blocks (explanation)
+
+[04_parse_blocks] Processing section Bosch Motronic ML 3-1...
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  16: 2 blocks (spec, spec)
+    [Filtered 2 non-numeric spec entries]
+
+[04_parse_blocks] Processing section 62...
+  00-index-a: 1 blocks (spec)
+  00-index-b: 1 blocks (explanation)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  53: 1 blocks (spec)
+  74: 1 blocks (spec)
+  75: 1 blocks (explanation)
+  77: 1 blocks (explanation)
+  78: 1 blocks (explanation)
+  79: 1 blocks (spec)
+  80: 1 blocks (wiring)
+  82: 1 blocks (explanation)
+  83: 1 blocks (explanation)
+  84: 1 blocks (explanation)
+  86: 1 blocks (explanation)
+  87: 1 blocks (explanation)
+
+[04_parse_blocks] Processing section 54...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  14: 1 blocks (spec)
+  14_2: 1 blocks (procedure)
+  17: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  19: 1 blocks (explanation)
+
+[04_parse_blocks] Processing section 52...
+  00-index-a: 1 blocks (spec)
+  101: 1 blocks (spec)
+  102: 1 blocks (spec)
+  103: 1 blocks (explanation)
+  201: 1 blocks (explanation)
+
+[04_parse_blocks] Processing section 97...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+
+[04_parse_blocks] Processing section 63...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+  02a: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+
+[04_parse_blocks] Processing section 64...
+  00-index-a: 1 blocks (spec)
+  01-operation: 1 blocks (explanation)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+  110: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  114: 2 blocks (spec, spec)
+  119: 1 blocks (procedure)
+  120: 1 blocks (explanation)
+  124: 1 blocks (spec)
+
+[04_parse_blocks] Processing section 1990...
+  00-foreword: 1 blocks (explanation)
+  00: 1 blocks (explanation)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+  11: 1 blocks (wiring)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  14: 1 blocks (spec)
+  15: 1 blocks (spec)
+  16: 2 blocks (spec, spec)
+  5126A-01: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  6500A-00: 1 blocks (troubleshooting)
+  6500A-01: 1 blocks (wiring)
+    [Filtered 3 non-numeric spec entries]
+
+[04_parse_blocks] Processing section 41...
+  00-index-a: 1 blocks (spec)
+  00-index-c: 1 blocks (explanation)
+  00-index-d: 1 blocks (explanation)
+  00-index-f: 1 blocks (explanation)
+  00-index-g: 1 blocks (explanation)
+  001: 1 blocks (procedure)
+  002_1: 1 blocks (procedure)
+  004: 1 blocks (explanation)
+  005: 1 blocks (explanation)
+  006: 1 blocks (wiring)
+  010: 1 blocks (wiring)
+  011: 1 blocks (wiring)
+  012: 1 blocks (explanation)
+  013: 1 blocks (explanation)
+  014: 1 blocks (explanation)
+  015: 1 blocks (explanation)
+  101: 1 blocks (spec)
+  101c: 1 blocks (procedure)
+  102: 1 blocks (spec)
+  102c: 1 blocks (explanation)
+  104: 2 blocks (spec, spec)
+  104c: 1 blocks (explanation)
+  105: 1 blocks (explanation)
+  105c: 1 blocks (explanation)
+  106: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  107: 1 blocks (spec)
+  107c: 1 blocks (explanation)
+  108: 1 blocks (explanation)
+  109: 1 blocks (spec)
+  109c: 1 blocks (wiring)
+  110: 1 blocks (spec)
+  110c: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  111c: 1 blocks (explanation)
+  112: 1 blocks (explanation)
+  113: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  114: 2 blocks (spec, spec)
+  114c: 1 blocks (explanation)
+  115: 1 blocks (explanation)
+  115c: 1 blocks (explanation)
+  116: 1 blocks (explanation)
+  116c: 1 blocks (explanation)
+  118: 1 blocks (explanation)
+  119: 1 blocks (explanation)
+  121: 1 blocks (explanation)
+  123: 1 blocks (procedure)
+  124: 1 blocks (spec)
+  125: 1 blocks (explanation)
+  127: 1 blocks (wiring)
+  128: 1 blocks (explanation)
+  129: 1 blocks (explanation)
+  130: 1 blocks (explanation)
+  201: 1 blocks (explanation)
+  201c: 1 blocks (explanation)
+  202: 1 blocks (explanation)
+  203: 1 blocks (explanation)
+  203c: 1 blocks (explanation)
+  204: 1 blocks (explanation)
+  204c: 1 blocks (explanation)
+  205: 1 blocks (explanation)
+  207: 1 blocks (explanation)
+  208: 1 blocks (explanation)
+  209: 1 blocks (explanation)
+  210: 1 blocks (explanation)
+  212: 1 blocks (explanation)
+  213: 1 blocks (explanation)
+  215: 1 blocks (explanation)
+  216: 1 blocks (explanation)
+  217: 1 blocks (explanation)
+  301c: 1 blocks (explanation)
+  302c: 1 blocks (explanation)
+  303: 1 blocks (explanation)
+  303c: 1 blocks (explanation)
+  304: 1 blocks (explanation)
+  305: 1 blocks (explanation)
+  305c: 1 blocks (explanation)
+  306: 1 blocks (explanation)
+  307: 1 blocks (explanation)
+  308: 1 blocks (explanation)
+  309: 1 blocks (explanation)
+  310: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  312: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  313: 1 blocks (spec)
+  314: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  317: 1 blocks (explanation)
+  318: 1 blocks (explanation)
+    [Filtered 2 non-numeric spec entries]
+  320: 1 blocks (explanation)
+  321: 1 blocks (explanation)
+  323: 1 blocks (explanation)
+  325: 1 blocks (explanation)
+  326: 1 blocks (explanation)
+  327: 1 blocks (explanation)
+  328: 1 blocks (explanation)
+  329: 1 blocks (explanation)
+  330: 1 blocks (explanation)
+  331: 1 blocks (explanation)
+  332: 1 blocks (explanation)
+  333: 1 blocks (explanation)
+  334: 1 blocks (explanation)
+  335: 1 blocks (explanation)
+  507: 1 blocks (wiring)
+
+[04_parse_blocks] Processing section 23...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+  101: 1 blocks (spec)
+  102: 1 blocks (spec)
+  104: 2 blocks (spec, spec)
+  105: 1 blocks (explanation)
+  106: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  107: 1 blocks (spec)
+  108: 1 blocks (explanation)
+  109: 1 blocks (spec)
+  110: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  112: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  114: 2 blocks (spec, spec)
+  119: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  122: 1 blocks (procedure)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  14: 1 blocks (spec)
+  15: 1 blocks (spec)
+  16: 2 blocks (spec, spec)
+  165: 1 blocks (explanation)
+  167: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  168a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  178: 1 blocks (explanation)
+    [Filtered 2 non-numeric spec entries]
+  181: 1 blocks (explanation)
+  182: 1 blocks (explanation)
+  22: 1 blocks (spec)
+  300: 1 blocks (explanation)
+  301: 1 blocks (procedure)
+  309: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  313: 1 blocks (spec)
+  314: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  320: 1 blocks (explanation)
+  321: 1 blocks (procedure)
+  323: 1 blocks (explanation)
+
+[04_parse_blocks] Processing section 12...
+  00-index-a: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+  01: 7 blocks (spec, spec, spec, spec, spec, spec, spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 2 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+  102: 1 blocks (spec)
+  103: 1 blocks (explanation)
+  104: 2 blocks (spec, spec)
+  106: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  107: 1 blocks (spec)
+  110: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  112: 1 blocks (explanation)
+  112_3: 1 blocks (wiring)
+    [Filtered 1 non-numeric spec entries]
+  114: 2 blocks (spec, spec)
+  114_1: 1 blocks (explanation)
+  132_2: 1 blocks (spec)
+  133: 1 blocks (explanation)
+  135: 1 blocks (procedure)
+  140: 1 blocks (spec)
+  143: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+  155: 1 blocks (spec)
+  21: 1 blocks (wiring)
+  22: 1 blocks (spec)
+  24: 1 blocks (explanation)
+    [Filtered 1 non-numeric spec entries]
+  50: 1 blocks (spec)
+  51: 1 blocks (spec)
+  52: 1 blocks (spec)
+  53: 1 blocks (spec)
+
+[04_parse_blocks] Processing section 13...
+  00-index-a: 1 blocks (spec)
+  621: 1 blocks (procedure)
+  627: 2 blocks (spec, spec)
+  632: 1 blocks (spec)
+  700a: 1 blocks (procedure)
+  702: 1 blocks (procedure)
+  710: 1 blocks (explanation)
+  731: 1 blocks (procedure)
+  750: 1 blocks (explanation)
+  801: 1 blocks (procedure)
+  803: 1 blocks (explanation)
+  805: 1 blocks (explanation)
+  806: 1 blocks (explanation)
+  811: 1 blocks (procedure)
+  813: 1 blocks (explanation)
+  815: 1 blocks (explanation)
+  816: 1 blocks (explanation)
+  851: 1 blocks (explanation)
+  853: 1 blocks (spec)
+  854: 1 blocks (explanation)
+  855: 1 blocks (wiring)
+  900: 1 blocks (spec)
+  911: 1 blocks (wiring)
+
+[04_parse_blocks] Processing section 25...
+  00-index-a: 1 blocks (spec)
+    [Filtered 3 non-numeric spec entries]
+  02: 5 blocks (spec, spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  03: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+  05: 3 blocks (spec, spec, spec)
+    [Filtered 2 non-numeric spec entries]
+  07: 1 blocks (spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  09: 2 blocks (spec, spec)
+    [Filtered 1 non-numeric spec entries]
+  10: 4 blocks (spec, spec, spec, spec)
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 1 non-numeric spec entries]
+    [Filtered 2 non-numeric spec entries]
+  14: 1 blocks (spec)
+  15: 1 blocks (spec)
+  17: 1 blocks (spec)
+  22: 1 blocks (spec)
+
+[04_parse_blocks] Summary:
+  Total blocks: 794
+
+[04_parse_blocks] Per-task histogram:
+  explanation         : 186
+  procedure           : 43
+  spec                : 538
+  troubleshooting     : 1
+  wiring              : 26
+
+[04_parse_blocks] Sample blocks (first 5, truncated to 200 chars):
+  1. [explanation] {"task": "explanation", "explain": "Motronic\ncontrol unit\n\n———— i\n\nFuel tank\n\n[ | Fuel pump i\n{J\n\n= Fuel filter = ’. As\n7 an _ fe I ello =\n\neB:\na TW. Fuel pressure\nregulator\n\n|\n\nIgn...
+  2. [spec] {"task": "spec", "value": {"name": "Model M3", "answer": "2", "units": "", "alt_units": null}, "ocr_excerpt": "Model M3: 2", "section_dir": "35 - Pedals", "section_id": "35", "source_path": "work/imag...
+  3. [spec] {"task": "spec", "value": {"name": "Ie", "answer": "3.5", "units": "", "alt_units": null}, "ocr_excerpt": "Ie: 3.5", "section_dir": "35 - Pedals", "section_id": "35", "source_path": "work/images_clean...
+  4. [spec] {"task": "spec", "value": {"name": "R Reverse gear", "answer": "8 Layshaft", "units": "Layshaft", "alt_units": null}, "ocr_excerpt": "R Reverse gear: 8 Layshaft", "section_dir": "35 - Pedals", "sectio...
+  5. [spec] {"task": "spec", "value": {"name": "Pressure should remain constant during", "answer": "5 minute", "units": "minute", "alt_units": null}, "ocr_excerpt": "Pressure should remain constant during: 5 minu...
+
+[04_parse_blocks] Done!

@@ -1,0 +1,24 @@
+python scripts/07_make_splits.py --data-dir data --pattern "*.slice.jsonl" --train-split 0.8
+[07_make_splits] Data directory: /Users/jonb/projects/llm3/data
+[07_make_splits] Pattern: *.slice.jsonl
+[07_make_splits] Train split: 0.8
+[07_make_splits] Random seed: 42
+[07_make_splits] Found 5 files:
+  - explanation.slice.jsonl
+  - procedure.slice.jsonl
+  - spec.slice.jsonl
+  - troubleshooting.slice.jsonl
+  - wiring.slice.jsonl
+
+[07_make_splits] Total rows loaded: 794
+
+[07_make_splits] Split complete:
+  Train: 636 rows → train.jsonl
+  Val:   158 rows → val.jsonl
+  Total: 794 rows
+
+[07_make_splits] Task distribution:
+  Train: {'explanation': 153, 'procedure': 33, 'spec': 428, 'wiring': 22}
+  Val:   {'explanation': 33, 'procedure': 10, 'spec': 110, 'troubleshooting': 1, 'wiring': 4}
+
+[07_make_splits] Done!

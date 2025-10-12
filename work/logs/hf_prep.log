@@ -1,0 +1,61 @@
+================================================================================
+HuggingFace Dataset Preparation Report
+================================================================================
+
+TRAINING SET
+--------------------------------------------------------------------------------
+Original entries: 636
+After weighting: 1185
+Expansion ratio: 1.86x
+
+Task Distribution (Train):
+Task                 Before       After           Ratio
+----------------------------------------------------
+explanation           153 (24.1%)  306 (25.8%)     2.0x
+procedure              33 ( 5.2%)  231 (19.5%)     7.0x
+spec                  428 (67.3%)  428 (36.1%)     1.0x
+wiring                 22 ( 3.5%)  220 (18.6%)    10.0x
+
+Balance ratio (max/min): 1.95x ✅ BALANCED
+
+VALIDATION SET
+--------------------------------------------------------------------------------
+Total entries: 158
+
+Task Distribution (Val):
+  explanation            33 ( 20.9%)
+  procedure              10 (  6.3%)
+  spec                  110 ( 69.6%)
+  troubleshooting         1 (  0.6%)
+  wiring                  4 (  2.5%)
+
+TOKEN STATISTICS
+--------------------------------------------------------------------------------
+Train set:
+  Min tokens:     14
+  Max tokens:     267
+  Mean tokens:    55.2
+  Over 512 tokens: 0 (0.0%)
+  ✅ All examples under 512 tokens
+
+Val set:
+  Min tokens:     16
+  Max tokens:     286
+  Mean tokens:    40.1
+  Over 512 tokens: 0 (0.0%)
+  ✅ All examples under 512 tokens
+
+VALIDATION ERRORS
+--------------------------------------------------------------------------------
+✅ No validation errors detected
+
+================================================================================
+ACCEPTANCE CRITERIA
+================================================================================
+✅ Train set balanced (max/min ≤ 2x): 1.95x
+✅ All examples in proper chat format
+✅ Train: 0 examples over 512 tokens
+✅ Val: 0 examples over 512 tokens
+✅ Validation errors: 0
+
+================================================================================

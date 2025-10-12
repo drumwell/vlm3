@@ -25,4 +25,25 @@ split:
 hf_prep:
 	python scripts/08_prepare_hf_dataset.py --train data/train.jsonl --val data/val.jsonl --output-dir data --config config.yaml --duplicate-weights "spec=1,explanation=2,procedure=7,wiring=10,troubleshooting=50"
 
+gdrive_upload:
+	@echo "📤 Uploading files to Google Drive..."
+	@echo "📁 Target: /MyDrive/llm3/"
+	@echo ""
+	@echo "📊 Uploading datasets..."
+	rclone copy data/hf_train.jsonl gdrive:llm3/data/ --progress
+	rclone copy data/hf_val.jsonl gdrive:llm3/data/ --progress
+	@echo ""
+	@echo "⚙️  Uploading config..."
+	rclone copy config.yaml gdrive:llm3/ --progress
+	@echo ""
+	@echo "📓 Uploading notebooks..."
+	rclone copy notebooks/finetune_qlora.ipynb gdrive:llm3/notebooks/ --progress
+	rclone copy notebooks/test_inference.ipynb gdrive:llm3/notebooks/ --progress
+	@echo ""
+	@echo "✅ Upload complete!"
+	@echo "Files available at: /MyDrive/llm3/"
+	@echo "  - Data: /MyDrive/llm3/data/"
+	@echo "  - Config: /MyDrive/llm3/config.yaml"
+	@echo "  - Notebooks: /MyDrive/llm3/notebooks/"
+
 all: inventory preprocess ocr blocks emit validate split
