@@ -10,26 +10,24 @@ Successfully converted BMW E30 M3 service manual dataset to AutoTrain-compatible
 
 ### Training Set
 - **File**: `data/hf_train_autotrain.jsonl`
-- **Examples**: 2,112 (consolidated from 1,877 train + 235 val)
+- **Examples**: 2,510 (all service manual data)
 - **Source**: All service manual OCR data + HTML tech specs
 - **Format**: `{"text": "User: [TASK] question\nAssistant: answer"}`
 
 ### Validation Set
 - **File**: `data/hf_val_synthetic.jsonl`
-- **Examples**: 180 (synthetically generated)
+- **Examples**: 248 (synthetically generated)
 - **Source**: Paraphrased questions from training set
 - **Strategy**: Question variation to test generalization
 
 ## Task Distribution
 
-| Task | Count | Percentage |
-|------|-------|------------|
-| spec | 719 | 34.0% |
-| explanation | 339 | 16.0% |
-| procedure | 241 | 11.4% |
-| wiring | 224 | 10.6% |
-| unknown | 583 | 27.6% |
-| troubleshooting | 1 | 0.05% |
+Task distribution will vary based on OCR extraction results. The dataset includes:
+- **spec**: Technical specifications and values
+- **explanation**: Component descriptions and operation
+- **procedure**: Step-by-step repair instructions (significantly improved with fallback extraction)
+- **wiring**: Wiring diagram annotations
+- **troubleshooting**: Diagnostic checklists
 
 ## Key Improvements
 
@@ -38,12 +36,14 @@ Successfully converted BMW E30 M3 service manual dataset to AutoTrain-compatible
 **After**: Flat `text` format with newline-separated User/Assistant
 
 ### ✅ No Data Loss
-**Before**: Split 1,877/235 wasted validation data
-**After**: All 2,112 examples used for training
+**After**: All 2,510 examples used for training (no split waste)
+
+### ✅ Improved Block Extraction
+**New**: Fallback logic for non-numbered procedures
+**Result**: 27.6% more blocks (794 → 1,013), 6x more procedures (43 → 262)
 
 ### ✅ Better Validation Strategy
-**Before**: Real validation data = less training data
-**After**: Synthetic validation tests generalization without sacrificing coverage
+**After**: Synthetic validation (248 examples) tests generalization without sacrificing coverage
 
 ### ✅ Proven Format
 Successfully trained `meta-llama/Llama-3.1-8B-Instruct` with this exact format
@@ -77,8 +77,8 @@ Visit: https://huggingface.co/autotrain
 
 ### 3. Configure Dataset
 - **Dataset**: `drumwell/llm3`
-- **Train split**: `train` (2,112 examples)
-- **Validation split**: `validation` (180 examples)
+- **Train split**: `train` (2,510 examples)
+- **Validation split**: `validation` (248 examples)
 - **Text column**: `text`
 
 ### 4. Model Settings
@@ -113,16 +113,16 @@ The synthetic validation set was generated using:
 
 ```
 data/
-├── hf_train_autotrain.jsonl     # 2,112 training examples (376 KB)
-└── hf_val_synthetic.jsonl       # 180 validation examples (37 KB)
+├── dataset.jsonl                # 2,510 consolidated examples
+├── hf_train_autotrain.jsonl     # 2,510 training examples (438 KB)
+└── hf_val_synthetic.jsonl       # 248 validation examples (42 KB)
 
 scripts/
-├── 08_prepare_hf_dataset.py     # Updated for flat text format
-├── 09_upload_to_hf.py           # Updated to detect AutoTrain format
-└── 11_generate_synthetic_validation.py  # NEW: Synthetic validation generator
-
-work/logs/
-└── hf_prep_autotrain.log        # Conversion statistics
+├── 05_emit_jsonl.py                    # Generates consolidated dataset
+├── 07_extract_html_specs.py            # Appends HTML tech specs
+├── 08_convert_to_autotrain.py          # Converts to flat text format
+├── 09_generate_synthetic_validation.py # Synthetic validation generator
+└── 10_upload_to_hf.py                  # Uploads to HuggingFace Hub
 ```
 
 ## Makefile Targets
@@ -135,7 +135,7 @@ make autotrain_prep
 make synthetic_val
 
 # Upload to HuggingFace
-python scripts/09_upload_to_hf.py --repo drumwell/llm3
+python scripts/10_upload_to_hf.py --repo drumwell/llm3
 ```
 
 ## Expected Results
@@ -160,15 +160,15 @@ A: 197 BHP / 147 kW @ 6750 rpm ✅
 
 See related documentation:
 - **README.md** - Project overview and quick start
-- **MODEL_CONFIG.md** - Model configuration and training setup
-- **HF_DATASET_README.md** - Dataset format and statistics
 - **LEARNING_EXPERIMENTS.md** - QLoRA experiments guide
+- **CLAUDE.md** - Project brief for Claude Code
 
 ## Success Criteria
 
 - ✅ Dataset uploaded to HuggingFace Hub
 - ✅ Flat text format compatible with AutoTrain
-- ✅ All 2,112 service manual examples included
+- ✅ All 2,510 service manual examples included
+- ✅ Improved block extraction with fallback logic
 - ✅ Synthetic validation for generalization testing
 - ✅ No Parquet serialization errors
 - ✅ Ready for immediate training

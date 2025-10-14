@@ -15,18 +15,16 @@ make inventory       # Catalog all images
 make preprocess      # Clean and deskew
 make ocr             # Extract text and tables
 make blocks          # Parse into structured blocks
-make emit            # Generate JSONL
+make emit            # Generate consolidated JSONL
 make validate        # QA report
-make split           # Train/val split
-make hf_prep         # HuggingFace format (nested messages)
 make extract_html    # Add tech specs from HTML
 make autotrain_prep  # Convert to AutoTrain flat text format
 make synthetic_val   # Generate synthetic validation
 ```
 
 **Output**:
-- `data/hf_train_autotrain.jsonl` (2,112 training examples)
-- `data/hf_val_synthetic.jsonl` (180 synthetic validation examples)
+- `data/hf_train_autotrain.jsonl` (2,510 training examples)
+- `data/hf_val_synthetic.jsonl` (248 synthetic validation examples)
 
 ### 2. Upload to HuggingFace
 
@@ -36,7 +34,7 @@ pip install datasets huggingface_hub
 huggingface-cli login
 
 # Upload dataset
-python scripts/09_upload_to_hf.py --repo drumwell/llm3
+python scripts/10_upload_to_hf.py --repo drumwell/llm3
 ```
 
 ### 3. Train on AutoTrain
@@ -56,13 +54,13 @@ python scripts/09_upload_to_hf.py --repo drumwell/llm3
 
 | Split | Examples | Source |
 |-------|----------|--------|
-| **Training** | 2,112 | All service manual + HTML specs (consolidated) |
-| **Validation** | 180 | Synthetic (question paraphrasing) |
-| **Total** | 2,292 | - |
+| **Training** | 2,510 | All service manual + HTML specs (consolidated) |
+| **Validation** | 248 | Synthetic (question paraphrasing) |
+| **Total** | 2,758 | - |
 
 **Data Sources**:
-- OCR (scanned pages): 1,343 examples
-- HTML (tech specs): 769 examples
+- OCR (scanned pages): ~1,800 examples (improved block extraction)
+- HTML (tech specs): ~700 examples
 
 **Task Types**:
 - `[SPEC]` - Extract technical values (torque, clearances, part numbers)
@@ -78,19 +76,23 @@ python scripts/09_upload_to_hf.py --repo drumwell/llm3
 - Format: `{"text": "User: [TASK] Q\nAssistant: A"}`
 - Successfully tested with Llama-3.1-8B-Instruct
 
-✅ **All 2,112 examples used for training**
-- No validation split waste (was 1,877/235)
+✅ **All 2,510 examples used for training**
+- No validation split waste
 - Maximizes service manual coverage
 - Synthetic validation for generalization testing
 
+✅ **Improved block extraction**
+- Added fallback logic for non-numbered procedures
+- Increased blocks by 27.6% (794 → 1,013)
+- Procedures increased 6x (43 → 262 examples)
+
 ✅ **Synthetic validation strategy**
-- 180 paraphrased questions
+- 248 paraphrased questions
 - Tests model generalization without data overlap
-- Generated via `scripts/11_generate_synthetic_validation.py`
+- Generated via `scripts/09_generate_synthetic_validation.py`
 
 ✅ **Complete training documentation**
 - `AUTOTRAIN_READY.md` - Step-by-step training guide
-- `MODEL_CONFIG.md` - Model configuration explained
 - `LEARNING_EXPERIMENTS.md` - QLoRA learning experiments
 
 ## Project Structure
@@ -102,10 +104,9 @@ llm3/
 │   ├── M3-techspec.html        # ← NEW: Tech specifications
 │   └── 320is-techspec.html     # ← NEW: 320is variant specs
 ├── data/               # Generated datasets
-│   ├── hf_train_autotrain.jsonl  # 2,112 training examples (flat text)
-│   ├── hf_val_synthetic.jsonl    # 180 validation examples (synthetic)
-│   ├── train.jsonl                # 636 OCR examples (intermediate)
-│   └── val.jsonl                  # 158 OCR examples (intermediate)
+│   ├── dataset.jsonl              # 2,510 consolidated examples (all data)
+│   ├── hf_train_autotrain.jsonl   # 2,510 training examples (flat text)
+│   └── hf_val_synthetic.jsonl     # 248 validation examples (synthetic)
 ├── work/               # Intermediate artifacts
 │   ├── images_clean/   # Preprocessed images
 │   ├── ocr_raw/        # OCR JSON outputs
@@ -115,13 +116,14 @@ llm3/
 │   ├── 01_inventory.py                    # Catalog images
 │   ├── 02_preprocess.py                   # Clean/deskew
 │   ├── 03_ocr.py                          # PaddleOCR extraction
+│   ├── 03b_ocr_tables.py                  # Table extraction
 │   ├── 04_parse_blocks.py                 # Structure content
-│   ├── 05_emit_jsonl.py                   # Generate JSONL
-│   ├── 06_split_validate.py              # QA checks
-│   ├── 07_extract_html_specs.py          # HTML parsing
-│   ├── 08_prepare_hf_dataset.py          # HF format (nested messages)
-│   ├── 09_upload_to_hf.py                 # HF upload
-│   └── 11_generate_synthetic_validation.py # Synthetic validation
+│   ├── 05_emit_jsonl.py                   # Generate consolidated JSONL
+│   ├── 06_validate.py                     # QA checks
+│   ├── 07_extract_html_specs.py           # HTML parsing
+│   ├── 08_convert_to_autotrain.py         # AutoTrain flat text format
+│   ├── 09_generate_synthetic_validation.py # Synthetic validation
+│   └── 10_upload_to_hf.py                 # HF upload
 ├── config.yaml         # Pipeline configuration
 ├── Makefile            # Orchestration
 └── *.md                # Documentation
@@ -140,8 +142,8 @@ llm3/
 - **Platform**: HuggingFace AutoTrain (recommended)
 
 **Dataset Configuration**:
-- Training: 2,112 examples (all service manual data)
-- Validation: 180 synthetic examples
+- Training: 2,510 examples (all service manual data)
+- Validation: 248 synthetic examples
 - Format: Flat text `{"text": "User: [TASK] Q\nAssistant: A"}`
 
 ## Expected Results
@@ -204,10 +206,7 @@ pip install -r requirements.txt
 |------|---------|
 | **README.md** | This file - project overview and quick start |
 | **AUTOTRAIN_READY.md** | **→ START HERE for training guide** |
-| **MODEL_CONFIG.md** | Model configuration and training setup |
-| **HF_DATASET_README.md** | Dataset format, statistics, and usage |
 | **LEARNING_EXPERIMENTS.md** | QLoRA learning experiments and iteration |
-| **MODEL_DIAGNOSIS.md** | Troubleshooting and diagnostic guide |
 | **CLAUDE.md** | Project brief for Claude Code |
 
 ## License
