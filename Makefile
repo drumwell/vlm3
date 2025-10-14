@@ -30,11 +30,7 @@ emit:
 
 validate:
 	@echo "✅ Validating dataset quality..."
-	python scripts/06_split_validate.py --data-dir data --output work/logs/qa_report.md
-
-split:
-	@echo "🔀 Splitting train/val (80/20)..."
-	python scripts/07_make_splits.py --data-dir data --pattern "*.slice.jsonl" --train-split 0.8
+	python scripts/06_validate.py --data-dir data --file dataset.jsonl --output work/logs/qa_report.md
 
 # ============================================================================
 # STAGE 2: Enhancement (Add HTML tech specs)
@@ -44,30 +40,17 @@ extract_html:
 	@echo "🌐 Extracting tech specs from HTML..."
 	python scripts/07_extract_html_specs.py
 
-hf_prep:
-	@echo "🤗 Preparing HuggingFace format (nested messages)..."
-	python scripts/08_prepare_hf_dataset.py --train data/train.jsonl --val data/val.jsonl --output-dir data --config config.yaml --duplicate-weights "spec=1,explanation=2,procedure=7,wiring=10,troubleshooting=50"
-
 # ============================================================================
 # STAGE 3: AutoTrain Preparation (Final format)
 # ============================================================================
 
 autotrain_prep:
 	@echo "🚀 Converting to AutoTrain flat text format..."
-	@python3 -c 'import json; from pathlib import Path; \
-	train_path = Path("data/hf_train.jsonl"); \
-	val_path = Path("data/hf_val.jsonl"); \
-	output_path = Path("data/hf_train_autotrain.jsonl"); \
-	combined = []; \
-	[combined.append({"text": f"User: {json.loads(line)[\"messages\"][0][\"content\"]}\\nAssistant: {json.loads(line)[\"messages\"][1][\"content\"]}"}) for line in open(train_path) if line.strip()]; \
-	train_count = len(combined); \
-	[combined.append({"text": f"User: {json.loads(line)[\"messages\"][0][\"content\"]}\\nAssistant: {json.loads(line)[\"messages\"][1][\"content\"]}"}) for line in open(val_path) if line.strip()]; \
-	output_path.write_text("\\n".join(json.dumps(e) for e in combined)); \
-	print(f"✅ Wrote {len(combined)} examples ({train_count} train + {len(combined)-train_count} val)")'
+	python scripts/08_convert_to_autotrain.py
 
 synthetic_val:
 	@echo "🧪 Generating synthetic validation examples..."
-	python scripts/11_generate_synthetic_validation.py --train data/hf_train_autotrain.jsonl --output data/hf_val_synthetic.jsonl --count 250
+	python scripts/09_generate_synthetic_validation.py --train data/hf_train_autotrain.jsonl --output data/hf_val_synthetic.jsonl --count 250
 
 # ============================================================================
 # UPLOAD & TRAIN
@@ -75,7 +58,7 @@ synthetic_val:
 
 upload:
 	@echo "📤 Uploading to HuggingFace Hub..."
-	python scripts/09_upload_to_hf.py --repo drumwell/llm3
+	python scripts/10_upload_to_hf.py --repo drumwell/llm3
 
 upload_help:
 	@echo "📤 HuggingFace Upload Instructions"
@@ -98,17 +81,17 @@ upload_help:
 # ============================================================================
 
 # Run complete pipeline from scratch
-all: inventory preprocess ocr blocks emit validate split hf_prep extract_html autotrain_prep synthetic_val
+all: inventory preprocess ocr blocks emit validate extract_html autotrain_prep synthetic_val
 	@echo ""
 	@echo "✅ Pipeline complete!"
 	@echo "📊 Results:"
-	@echo "   - Training: data/hf_train_autotrain.jsonl (2,112 examples)"
-	@echo "   - Validation: data/hf_val_synthetic.jsonl (180 examples)"
+	@echo "   - Training: data/hf_train_autotrain.jsonl"
+	@echo "   - Validation: data/hf_val_synthetic.jsonl"
 	@echo ""
 	@echo "📤 Next step: make upload"
 
 # Quick rebuild (assumes OCR already done)
-quick: emit validate split hf_prep extract_html autotrain_prep synthetic_val
+quick: emit validate extract_html autotrain_prep synthetic_val
 
 # Clean intermediate files
 clean:
@@ -126,8 +109,8 @@ status:
 	@test -d work/ocr_raw && echo "  ✅ ocr_raw/" || echo "  ❌ ocr_raw/ (run: make ocr)"
 	@echo ""
 	@echo "Training Data:"
-	@test -f data/train.jsonl && echo "  ✅ train.jsonl" || echo "  ❌ train.jsonl (run: make split)"
+	@test -f data/dataset.jsonl && echo "  ✅ dataset.jsonl" || echo "  ❌ dataset.jsonl (run: make emit extract_html)"
 	@test -f data/hf_train_autotrain.jsonl && echo "  ✅ hf_train_autotrain.jsonl" || echo "  ❌ hf_train_autotrain.jsonl (run: make autotrain_prep)"
 	@test -f data/hf_val_synthetic.jsonl && echo "  ✅ hf_val_synthetic.jsonl" || echo "  ❌ hf_val_synthetic.jsonl (run: make synthetic_val)"
 
-.PHONY: all quick clean status upload upload_help inventory preprocess ocr blocks emit validate split extract_html hf_prep autotrain_prep synthetic_val
+.PHONY: all quick clean status upload upload_help inventory preprocess ocr blocks emit validate extract_html autotrain_prep synthetic_val

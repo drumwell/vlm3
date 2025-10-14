@@ -177,6 +177,30 @@ def extract_procedure_blocks(ocr_data, config):
         if steps:
             steps[-1] = (steps[-1] + " " + l.strip()).strip()
 
+    # Fallback: if no numbered steps, check for action-verb sentences
+    if not steps:
+        action_verbs = ['remove', 'install', 'unscrew', 'check', 'adjust', 'replace',
+                        'tighten', 'loosen', 'disconnect', 'connect', 'lift', 'pull',
+                        'push', 'turn', 'align', 'lubricate', 'clean']
+
+        text_lower = text_full.lower()
+        has_action = any(verb in text_lower for verb in action_verbs)
+
+        if has_action and len(text_full) > 100:
+            # Split by common sentence/step separators
+            potential_steps = []
+            for line in lines:
+                line_stripped = line.strip()
+                if not line_stripped or len(line_stripped) < 10:
+                    continue
+                # Look for lines that start with action verbs or capitals
+                if any(line_stripped.lower().startswith(verb) for verb in action_verbs):
+                    potential_steps.append(line_stripped)
+
+            # If we found action steps, use them
+            if potential_steps:
+                steps = potential_steps[:config['task_rules']['procedure']['max_steps']]
+
     if not steps:
         return []
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-06_split_validate.py - Validate JSONL entries against config rules.
+validate.py - Validate consolidated dataset against config rules.
 Generates QA report with validation results and error counts.
 """
 
@@ -247,8 +247,8 @@ def main():
     parser = argparse.ArgumentParser(description="Validate JSONL entries and generate QA report")
     parser.add_argument('--data-dir', default='data',
                         help='Directory containing JSONL files')
-    parser.add_argument('--pattern', default='*.slice.jsonl',
-                        help='File pattern to match')
+    parser.add_argument('--file', default='dataset.jsonl',
+                        help='JSONL file to validate (default: dataset.jsonl)')
     parser.add_argument('--config', default='config.yaml',
                         help='Path to config.yaml')
     parser.add_argument('--output', default='work/logs/qa_report.md',
@@ -263,77 +263,72 @@ def main():
     
     # Load config
     config = load_config(config_path)
-    
-    print(f"[06_split_validate] Data directory: {data_dir}")
-    print(f"[06_split_validate] Pattern: {args.pattern}")
-    print(f"[06_split_validate] Output: {output_path}")
-    
-    # Find JSONL files
-    jsonl_files = sorted(data_dir.glob(args.pattern))
-    print(f"[06_split_validate] Found {len(jsonl_files)} JSONL files")
-    
-    if not jsonl_files:
-        print("[06_split_validate] ⚠ No JSONL files found")
+
+    # Validate consolidated dataset file
+    dataset_file = data_dir / args.file
+
+    print(f"[validate] Validating file: {dataset_file}")
+    print(f"[validate] Output: {output_path}")
+
+    if not dataset_file.exists():
+        print(f"[validate] ❌ File not found: {dataset_file}")
         return
-    
+
     # Validate all entries
     validation_results = defaultdict(list)
-    
-    for jsonl_file in jsonl_files:
-        task = jsonl_file.stem.split('.')[0]  # Extract task from filename
-        
-        print(f"\n[06_split_validate] Validating {jsonl_file.name}...")
-        
-        with open(jsonl_file, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
-        
-        for i, line in enumerate(lines, 1):
-            try:
-                entry = json.loads(line)
-                results = validate_entry(entry, config)
-                
-                validation_results[task].append({
-                    'index': i,
-                    'entry': entry,
-                    'results': results
-                })
-                
-                # Print inline status
-                if results['critical_errors']:
-                    print(f"  ✗ Entry {i}: {len(results['critical_errors'])} critical error(s)")
-                elif results['warnings']:
-                    print(f"  ⚠ Entry {i}: {len(results['warnings'])} warning(s)")
-                else:
-                    print(f"  ✓ Entry {i}: valid")
-                
-            except json.JSONDecodeError as e:
-                print(f"  ✗ Entry {i}: JSON parse error - {e}")
-                validation_results[task].append({
-                    'index': i,
-                    'entry': None,
-                    'results': {
-                        'critical_errors': [f"JSON parse error: {e}"],
-                        'warnings': [],
-                        'token_count': 0
-                    }
-                })
-    
+
+    print(f"\n[validate] Reading and validating entries...")
+
+    with open(dataset_file, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+
+    for i, line in enumerate(lines, 1):
+        if not line.strip():
+            continue
+
+        try:
+            entry = json.loads(line)
+            task = entry['meta'].get('task', 'unknown')
+            results = validate_entry(entry, config)
+
+            validation_results[task].append({
+                'index': i,
+                'entry': entry,
+                'results': results
+            })
+
+            # Print progress every 100 entries
+            if i % 100 == 0:
+                print(f"  Validated {i} entries...")
+
+        except json.JSONDecodeError as e:
+            print(f"  ✗ Entry {i}: JSON parse error - {e}")
+            validation_results['unknown'].append({
+                'index': i,
+                'entry': None,
+                'results': {
+                    'critical_errors': [f"JSON parse error: {e}"],
+                    'warnings': [],
+                    'token_count': 0
+                }
+            })
+
     # Generate report
-    print(f"\n[06_split_validate] Generating QA report...")
+    print(f"\n[validate] Generating QA report...")
     total_critical, total_warnings = generate_qa_report(validation_results, output_path)
-    
-    print(f"\n[06_split_validate] Summary:")
+
+    print(f"\n[validate] Summary:")
     print(f"  Total entries: {sum(len(e) for e in validation_results.values())}")
     print(f"  Critical errors: {total_critical}")
     print(f"  Warnings: {total_warnings}")
-    print(f"\n[06_split_validate] ✓ QA report written to {output_path}")
-    
+    print(f"\n[validate] ✓ QA report written to {output_path}")
+
     if total_critical == 0:
-        print(f"[06_split_validate] ✅ PASS: 0 critical errors")
+        print(f"[validate] ✅ PASS: 0 critical errors")
     else:
-        print(f"[06_split_validate] ❌ FAIL: {total_critical} critical error(s)")
-    
-    print(f"\n[06_split_validate] Done!")
+        print(f"[validate] ❌ FAIL: {total_critical} critical error(s)")
+
+    print(f"\n[validate] Done!")
 
 
 if __name__ == '__main__':

@@ -22,9 +22,9 @@ type_keywords:
 
 task_rules:
   spec: { value_only: true, allow_alt_units: true }
-  procedure: { numbered: true, max_steps: 12 }
-  troubleshooting: { numbered: true, max_checks: 10 }
-  explanation: { max_sentences: 4 }
+  procedure: { numbered: true, max_steps: 25 }
+  troubleshooting: { numbered: true, max_checks: 15 }
+  explanation: { max_sentences: 6 }
 
 validation:
   spec_output_regex: "^[0-9~≈><=.,/\\-\\s]+[A-Za-z°µ]*$"

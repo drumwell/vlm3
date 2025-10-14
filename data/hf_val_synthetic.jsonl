@@ -1,180 +1,248 @@
-{"text": "User: [SPEC] What's the value for minimum value?\nAssistant: ~ 0.35 bar"}
-{"text": "User: [SPEC] Tell me the orr vg\nAssistant: - , Cautions"}
-{"text": "User: [SPEC] Can you provide the tightening torque?\nAssistant: 50 Nm"}
-{"text": "User: [SPEC] What is the pressure should not drop by more than?\nAssistant: 50 mbar"}
-{"text": "User: [SPEC] Tell me the hbr\nAssistant: 5 BR"}
-{"text": "User: [SPEC] What is the version with?\nAssistant: 4 Speed"}
-{"text": "User: [SPEC] Can you provide the bmw?\nAssistant: 325 Ix"}
-{"text": "User: [SPEC] I need to know the a slave cylinder with a diameter of\nAssistant: 22.2 Nm"}
-{"text": "User: [SPEC] Can you provide the coupling nuts?\nAssistant: 35 Nm"}
-{"text": "User: [SPEC] What is the transmission:?\nAssistant: Getrag 265/6 5-speed manual (US spec) Getrag 265/5 dogleg 5-speed manual (European spec)"}
-{"text": "User: [SPEC] Tell me the of pedal base that there is still\nAssistant: 0.5 Nm"}
-{"text": "User: [SPEC] What's the value for lamp on the simulator comes on?\nAssistant: ~ the"}
-{"text": "User: [SPEC] Can you provide the starter motor:?\nAssistant: 0001108063 / 12 41 1 312 130 (1.4 kW)"}
-{"text": "User: [SPEC] Tell me the a slave cylinder with a diameter of\nAssistant: 22.2 Nm"}
-{"text": "User: [SPEC] I need to know the lamp on the simulator comes on\nAssistant: ~ the"}
-{"text": "User: [SPEC] I need to know the tightening torque\nAssistant: 45 Nm"}
-{"text": "User: [SPEC] I need to know the tighlening torque\nAssistant: 9 Nm"}
-{"text": "User: [SPEC] Tell me the approved final drive gear lube\nAssistant: - see"}
-{"text": "User: [SPEC] Can you provide the mixed?\nAssistant: 8.3"}
-{"text": "User: [SPEC] Tell me the maggiore di\nAssistant: 4,2 V"}
-{"text": "User: [SPEC] Tell me the bridge connection\nAssistant: 30 with"}
-{"text": "User: [SPEC] What's the value for axle ratio (final drive):?\nAssistant: 3.46"}
-{"text": "User: [SPEC] What's the value for pressure should remain constant during?\nAssistant: 5 minute"}
-{"text": "User: [SPEC] Can you provide the tool?\nAssistant: 23 0 080, y"}
-{"text": "User: [SPEC] What's the value for timing by:?\nAssistant: double roller chain"}
-{"text": "User: [SPEC] I need to know the air flow meter:\nAssistant: 0280203028 / 13 62 1 307 486"}
-{"text": "User: [SPEC] What's the value for pressure should not drop by more than?\nAssistant: 50 mbar"}
-{"text": "User: [SPEC] I need to know the alternator:\nAssistant: 0120469804 / 12 31 1 711 375 (90A)"}
-{"text": "User: [SPEC] Can you provide the tool 33 7 260 or 33 7 2?\nAssistant: ."}
-{"text": "User: [SPEC] Tell me the ie\nAssistant: 3.5"}
-{"text": "User: [SPEC] Tell me the 28\nAssistant: 35 001"}
-{"text": "User: [SPEC] What's the value for marca della vettura?\nAssistant: 1 BMW"}
-{"text": "User: [SPEC] I need to know the catalytic converter:\nAssistant: N/A"}
-{"text": "User: [SPEC] What is the pressure should remain constant during?\nAssistant: 5 minute"}
-{"text": "User: [SPEC] What is the charsing pressure must not exceed?\nAssistant: 2 bar"}
-{"text": "User: [SPEC] What is the introduction date?\nAssistant: 8.85"}
-{"text": "User: [SPEC] Tell me the drive flange with special tools\nAssistant: 33 1 307 and"}
-{"text": "User: [SPEC] Tell me the t\nAssistant: 5 Lockpin"}
-{"text": "User: [SPEC] I need to know the model m3\nAssistant: 2"}
-{"text": "User: [SPEC] What's the value for model m3?\nAssistant: 2"}
-{"text": "User: [SPEC] What is the tool 33 7 260 or 33 7 2?\nAssistant: ."}
-{"text": "User: [SPEC] I need to know the maggiore di\nAssistant: 4,5 V"}
-{"text": "User: [SPEC] I need to know the 28\nAssistant: 35 001"}
-{"text": "User: [SPEC] What's the value for of pedal base that there is still?\nAssistant: 0.5 Nm"}
-{"text": "User: [SPEC] I need to know the with automatic transmission\nAssistant: - middle"}
-{"text": "User: [SPEC] What's the value for cw (coeff) / cx (drag area)aerodynamics:?\nAssistant: 0.33"}
-{"text": "User: [SPEC] Can you provide the ignition coil:?\nAssistant: ?? / 12 13 1 286 087"}
-{"text": "User: [SPEC] What's the value for tool?\nAssistant: 23 0 080, y"}
-{"text": "User: [SPEC] What is the pressure should remain constant during?\nAssistant: 5 minute"}
-{"text": "User: [SPEC] What is the remove rear seat cushion and backrest?\nAssistant: - see"}
-{"text": "User: [SPEC] What's the value for intake vacuum:?\nAssistant: 300 mBar +/- 50 mBar"}
-{"text": "User: [SPEC] Can you provide the a slave cylinder with a diameter of?\nAssistant: 22.2 Nm"}
-{"text": "User: [SPEC] Can you provide the model?\nAssistant: 318 i"}
-{"text": "User: [SPEC] What is the tool 33 7 260 or 33 7 2?\nAssistant: ."}
+{"text": "User: [SPEC] Can you provide the air flow meter:?\nAssistant: 0280203028 / 13 62 1 307 486"}
+{"text": "User: [SPEC] What is the model m3?\nAssistant: 2"}
 {"text": "User: [SPEC] Can you provide the pressure should not drop by more than?\nAssistant: 50 mbar"}
-{"text": "User: [SPEC] I need to know the ie\nAssistant: 3.5"}
-{"text": "User: [SPEC] Tell me the \u2018ahtening torque\nAssistant: 9 Nm"}
-{"text": "User: [SPEC] I need to know the maggiore di\nAssistant: 4,2 V"}
-{"text": "User: [SPEC] What is the disassemble output shaft?\nAssistant: ~ see"}
-{"text": "User: [SPEC] Can you provide the tool 33 7 260 or 33 7 2?\nAssistant: ."}
-{"text": "User: [SPEC] What's the value for 28?\nAssistant: 35 001"}
-{"text": "User: [SPEC] Tell me the r reverse gear\nAssistant: 8 Layshaft"}
-{"text": "User: [SPEC] What's the value for maggiore di?\nAssistant: 4,5 V"}
-{"text": "User: [SPEC] What is the disassemble output shaft?\nAssistant: ~ see"}
-{"text": "User: [SPEC] Can you provide the power output?\nAssistant: 192 BHP / 141 kW @ 6900 rpm"}
-{"text": "User: [SPEC] What's the value for tool 33 7 260 or 33 7 2?\nAssistant: ."}
+{"text": "User: [SPEC] I need to know the electrode clearance:\nAssistant: 0.7 mm"}
+{"text": "User: [SPEC] Tell me the bmw\nAssistant: 325 Ix"}
+{"text": "User: [SPEC] I need to know the since\nAssistant: 1988 Model"}
+{"text": "User: [SPEC] What is the pressione corburante?\nAssistant: . 2,8.,.3,2 bar"}
+{"text": "User: [SPEC] Can you provide the lamp on the simulator comes on?\nAssistant: ~ the"}
+{"text": "User: [SPEC] What's the value for valve shims:?\nAssistant: 33 mm \u00d8 BMW shims interchangeable with Ferrari, Fiat, Lancia and Volvo shims"}
+{"text": "User: [SPEC] Tell me the t\nAssistant: 5 Lockpin"}
+{"text": "User: [SPEC] What's the value for oil filter, individual capacity:?\nAssistant: 0.30 litres"}
+{"text": "User: [SPEC] What is the electrode clearance: in the Introduction section?\nAssistant: 0.7 mm"}
+{"text": "User: [SPEC] Can you provide the valve shims: in the Introduction section?\nAssistant: 33 mm \u00d8 BMW shims interchangeable with Ferrari, Fiat, Lancia and Volvo shims"}
+{"text": "User: [SPEC] What's the value for bridge connection?\nAssistant: 30 with"}
+{"text": "User: [SPEC] What's the value for length x width x height:?\nAssistant: 4345 x 1680 x 1370 mm"}
+{"text": "User: [SPEC] Tell me the of pedal base that there is still\nAssistant: 0.5 Nm"}
+{"text": "User: [SPEC] Tell me the screw in special tools\nAssistant: 33 1.431 1442 and"}
+{"text": "User: [SPEC] Can you provide the introduction date?\nAssistant: 8.85"}
+{"text": "User: [SPEC] Tell me the open throttle after making adjustment\nAssistant: ~ the"}
+{"text": "User: [SPEC] What's the value for coupling nuts?\nAssistant: 35 Nm"}
 {"text": "User: [SPEC] What's the value for power in fourth gear at about?\nAssistant: 100 kmih"}
-{"text": "User: [SPEC] Tell me the case rear section with special tools\nAssistant: 23 1 300 and"}
-{"text": "User: [SPEC] Tell me the pressure should remain constant during\nAssistant: 5 minute"}
-{"text": "User: [SPEC] Can you provide the bmw?\nAssistant: 325 Ix"}
-{"text": "User: [SPEC] Tell me the with automatic transmission\nAssistant: - middle"}
-{"text": "User: [SPEC] What's the value for tighlening torque?\nAssistant: 9 Nm"}
-{"text": "User: [SPEC] What's the value for pressure should remain constant during?\nAssistant: 5 minute"}
-{"text": "User: [SPEC] What is the spark plugs:?\nAssistant: Bosch X 5 DTC"}
-{"text": "User: [SPEC] What's the value for maggiore di?\nAssistant: 4,5 V"}
-{"text": "User: [SPEC] Can you provide the power in fourth gear at about?\nAssistant: 100 kmih"}
-{"text": "User: [SPEC] I need to know the model\nAssistant: 318 i"}
-{"text": "User: [SPEC] What is the pressure should remain constant during?\nAssistant: 5 minute"}
-{"text": "User: [SPEC] What is the max engine torque:?\nAssistant: 240 Nm @ 4750 rpm"}
-{"text": "User: [SPEC] Can you provide the case rear section with special tools?\nAssistant: 23 1 300 and"}
-{"text": "User: [SPEC] Can you provide the wheels & tires:?\nAssistant: alloy 14\" x 6.5J ET 30 / 195/65R14H cross spoke 15\" x 7J ET 24 / 205/55VR15"}
+{"text": "User: [SPEC] What is the pressione corburante?\nAssistant: . 2,8.,.3,2 bar"}
+{"text": "User: [SPEC] What's the value for track (front / rear): in the Chassis &Drivetrain section?\nAssistant: 1412 mm / 1433 mm"}
+{"text": "User: [SPEC] Can you provide the maggiore di?\nAssistant: 4,5 V"}
+{"text": "User: [SPEC] I need to know the engine power output: in the Introduction section\nAssistant: 197 BHP / 147 kW @ 6750 rpm (w/ catalyst)"}
+{"text": "User: [SPEC] What is the tightening torque?\nAssistant: 50 Nm"}
+{"text": "User: [SPEC] What is the engine:?\nAssistant: S14 B20"}
+{"text": "User: [SPEC] Can you provide the ignition coil:?\nAssistant: ?? / 12 13 1 286 087"}
+{"text": "User: [SPEC] Can you provide the power steering fluid quantity:?\nAssistant: 1.2 litres"}
+{"text": "User: [SPEC] Tell me the version with\nAssistant: 4 Speed"}
+{"text": "User: [SPEC] What is the enough with special tool?\nAssistant: 23 2 170 until"}
+{"text": "User: [SPEC] Tell me the power in fourth gear at about\nAssistant: 100 kmih"}
+{"text": "User: [SPEC] What's the value for rear suspension:?\nAssistant: Semi-trailing arm, Minibloc-coil springs, torsion stabilizer bar, gas pressure shock absorbers"}
+{"text": "User: [SPEC] What is the bmw 325 e?\nAssistant: 325"}
+{"text": "User: [SPEC] What is the @ 90 km/h?\nAssistant: 6.3"}
+{"text": "User: [SPEC] I need to know the gearbox oil quantity:\nAssistant: 1.25 litres"}
+{"text": "User: [SPEC] What is the tool 33 7 260 or 33 7 2?\nAssistant: ."}
+{"text": "User: [SPEC] What's the value for hc at idle:?\nAssistant: < 600 ppm"}
+{"text": "User: [SPEC] Tell me the maximum speed:\nAssistant: 231 km/h"}
 {"text": "User: [SPEC] Tell me the since\nAssistant: 1988 Model"}
-{"text": "User: [SPEC] What is the screw in special tools?\nAssistant: 33 1.431 1442 and"}
-{"text": "User: [SPEC] Tell me the coupling nuts\nAssistant: 35 Nm"}
-{"text": "User: [SPEC] What's the value for city?\nAssistant: 12.8"}
-{"text": "User: [EXPLANATION] Explain 30 52 039 52-201 5220000 removing and installing\nAssistant: 30 52 039\n\n52-201\n\n5220000 REMOVING AND INSTALLING ~\nREAR SEAT CUSHION AND\nBACKREST\n\nLift out seat cushion. Convertibles:\nUnserew bolt (1a). Disengage backrest in holders (2) by lifting up."}
-{"text": "User: [EXPLANATION] What is 23-165 assembly drawing of getrag 260 five speed?\nAssistant: 23-165\n\nASSEMBLY DRAWING OF GETRAG 260 FIVE SPEED OVERDRIVE MANUAL TRANSMISSION\n\n\u201c| x\nff\ni\n\u2014 Wy\ne\nCc\u2019\nexam\n1 First gear 4 Fourth gear 6 Input shaft\n2 Second gear 5 Fifth gear 7 Output shaft\n\n3 Third gear 6 Reverse gear 8 Layshaft."}
-{"text": "User: [EXPLANATION] Explain reinforcement, \u2018spot weld tail panel on side panel\nAssistant: Reinforcement,\n\u2018Spot weld tail panel on side panel\n\n30 41088\n\nSpot weld side panel in trunk tid opening\n\n30 41089]\n\nSpot weld side panel in wheel house opening. 41090,\n\nSpot weld side panel on joint of trunk floor\nand whee. Braze mating surface joint,\n\nBraze side panel/tail panel reinforcement plate. Grind down all weldi\n\nseams."}
-{"text": "User: [EXPLANATION] I need information on leds and light bulbs for st signs (not\nAssistant: LEDs and Light Bulbs for St Signs\n\n(Not with 2nd Generation SI)\n3\" Series Ca\nConnect printed circuit board. All LEDs and both light bulbs must come on. '6\" and '7\" Series Cars:\nConnect plug of printed circuit board. Alll LEDs and both signs must light up."}
-{"text": "User: [EXPLANATION] Tell me about 4111043/ replacing left/right engine carrier front section without\nAssistant: 4111043/ REPLACING LEFT/RIGHT ENGINE CARRIER FRONT SECTION WITHOUT\n044 WHEEL HOUSE\n\nRefer to information on page 41 - 001. Remove or disconnect following parts. Disconnect battery ground lead,\n\nRemove radiator grill, headlight, front fog light, two-tone horns, engine hood lock, data plate\nand radiator. Disconnect wire harness as required."}
-{"text": "User: [EXPLANATION] What is 65-305 connect ground wire of extra wire harness?\nAssistant: 65-305\n\nConnect ground wire of extra wire harness on\nground wire, which is mounted on central\nground point (1) (see wire harness sketch). Connect plug (1) of extra wire harness on\nspecial equipment plug (2) (see wire harness\nsketch). Note:\n= Connection for cruise control\n\nMark location of holes on left front wheel\nhouse. 677)\n\nDistance 2 = 104 mm (4."}
-{"text": "User: [EXPLANATION] Can you describe 65-305 connect ground wire of extra wire harness?\nAssistant: 65-305\n\nConnect ground wire of extra wire harness on\nground wire, which is mounted on central\nground point (1) (see wire harness sketch). Connect plug (1) of extra wire harness on\nspecial equipment plug (2) (see wire harness\nsketch). Note:\n= Connection for cruise control\n\nMark location of holes on left front wheel\nhouse. 677)\n\nDistance 2 = 104 mm (4."}
-{"text": "User: [EXPLANATION] Tell me about 30 41341 plug spot weld the b pillar\nAssistant: 30 41341\n\nPlug spot weld the B pillar joint. Plug spot weld the A pillar joint. Plug spot weld the C pillar joint. Braze edge of A pillar connection and C pillar\nbutt joint,\n\nGrind mating surfaces."}
-{"text": "User: [EXPLANATION] I need information on 41-216 remove scrap metal straighten and grind mating\nAssistant: 41-216\n\nRemove scrap metal\nStraighten and grind mating surfaces. Coat mating surfaces needed for spot welding\n\nwith zine dust paint. 4122541 REPLACING FRONT ROOF\nFRAME\n\u2014 ROOF PANEL REMOVED \u2014\n\nRefer to information on page 41 -001. Cut through roof frame on left and right sides."}
-{"text": "User: [EXPLANATION] Tell me about 41-128 plug spot weld mating surfaces not accessible\nAssistant: 41-128\n\nPlug spot weld mating surfaces not accessible\nfor spot welding\n\nInert gas weld wheel house outside section on\ncover for side member."}
-{"text": "User: [EXPLANATION] I need information on mabe be four wheel drive cars: (see 31\nAssistant: mabe be Four Wheel Drive Cars:\n(see 31 33. for explanations)\n\nInformation:\n\nonly aa coll springs with stripes of\n\ntogether with thick rubber\nrings eer\n\nAdditional helght corrections with\nrubber rings are not possible. Four Wheel Drive Cars with M-Technic\n(see 31 33. for explanations)\n\nInformation:\nSee above."}
+{"text": "User: [SPEC] I need to know the power steering fluid:\nAssistant: Dexron III"}
+{"text": "User: [SPEC] What's the value for hbr?\nAssistant: 5 BR"}
+{"text": "User: [SPEC] Tell me the r reverse gear\nAssistant: 8 Layshaft"}
+{"text": "User: [SPEC] Can you provide the approved final drive gear lube?\nAssistant: - see"}
+{"text": "User: [SPEC] What's the value for lamp on the simulator comes on?\nAssistant: ~ the"}
+{"text": "User: [SPEC] What's the value for max. cylider variance: in the Introduction section?\nAssistant: 5 mBar"}
+{"text": "User: [SPEC] I need to know the wiring diagram\nAssistant: ~ 325 ix"}
+{"text": "User: [SPEC] Tell me the with atmospheric pressure of\nAssistant: < 880 mbar"}
+{"text": "User: [SPEC] What's the value for model?\nAssistant: 318 i"}
+{"text": "User: [SPEC] Tell me the charsing pressure must not exceed\nAssistant: 2 bar"}
+{"text": "User: [SPEC] Can you provide the approved final drive gear lube?\nAssistant: - see"}
+{"text": "User: [SPEC] I need to know the fuel:\nAssistant: Unleaded 98"}
+{"text": "User: [SPEC] Can you provide the bmw?\nAssistant: 325 Ix"}
+{"text": "User: [SPEC] I need to know the track (front / rear):\nAssistant: 1412 mm / 1433 mm"}
+{"text": "User: [SPEC] What's the value for marca della vettura?\nAssistant: 1 BMW"}
+{"text": "User: [SPEC] I need to know the maximum speed: in the Chassis &Drivetrain section\nAssistant: 231 km/h"}
+{"text": "User: [SPEC] What is the tightening torque?\nAssistant: 45 Nm"}
+{"text": "User: [SPEC] Tell me the What are the bore and stroke measurements\nAssistant: 93.4 x 72.6 mm"}
+{"text": "User: [SPEC] Tell me the since\nAssistant: 1988 Model"}
+{"text": "User: [SPEC] What is the valve operation:?\nAssistant: DOHC"}
+{"text": "User: [SPEC] Can you provide the bmw?\nAssistant: 325 Ix"}
+{"text": "User: [SPEC] What is the pressure should remain constant during?\nAssistant: 5 minute"}
+{"text": "User: [SPEC] What's the value for lamp on the simulator comes on?\nAssistant: ~ the"}
+{"text": "User: [SPEC] What's the value for injection:?\nAssistant: Motronic DME M1.3"}
+{"text": "User: [SPEC] Tell me the introduction date\nAssistant: 8.85"}
+{"text": "User: [SPEC] What's the value for air flow meter:?\nAssistant: 0280203028 / 13 62 1 307 486"}
+{"text": "User: [SPEC] Tell me the minimum disc thickness(front / rear):\nAssistant: ??? / ???"}
+{"text": "User: [SPEC] What is the @ 120 km/h?\nAssistant: 7.5"}
+{"text": "User: [SPEC] What is the brake / clutch fluid:?\nAssistant: ATE / Castrol / DOT 4"}
+{"text": "User: [SPEC] What is the oil cooler, individual capacity: in the StandardEquipment section?\nAssistant: 0.55 litres"}
+{"text": "User: [SPEC] Tell me the a slave cylinder with a diameter of\nAssistant: 22.2 Nm"}
+{"text": "User: [SPEC] What is the clutch:?\nAssistant: Single plate dry clutch"}
+{"text": "User: [SPEC] What is the a slave cylinder with a diameter of?\nAssistant: 22.2 Nm"}
+{"text": "User: [SPEC] Can you provide the a/c charge (r12):?\nAssistant: 875 gr. +/- 25 gr. (1.93 +/- 0.05 lbs)"}
+{"text": "User: [SPEC] What is the model m3?\nAssistant: 2"}
+{"text": "User: [SPEC] What's the value for \u2018ahtening torque?\nAssistant: 9 Nm"}
+{"text": "User: [SPEC] Tell me the fuel:\nAssistant: Unleaded 98"}
+{"text": "User: [SPEC] Can you provide the maggiore di?\nAssistant: 4,5 V"}
+{"text": "User: [SPEC] I need to know the battery:\nAssistant: 12 V 66 Ah"}
+{"text": "User: [SPEC] Tell me the bmw 325 e\nAssistant: 325"}
+{"text": "User: [SPEC] What's the value for maggiore di?\nAssistant: 4,2 V"}
+{"text": "User: [SPEC] Tell me the oil quantity (no oil filter change):\nAssistant: 4.10 litres"}
+{"text": "User: [SPEC] What's the value for gearbox oil: in the StandardEquipment section?\nAssistant: SAE 80 75W80 GL-4"}
+{"text": "User: [SPEC] What's the value for lamp on the simulator comes on?\nAssistant: ~ the"}
+{"text": "User: [SPEC] I need to know the ie\nAssistant: 3.5"}
+{"text": "User: [SPEC] Tell me the starter motor:\nAssistant: 0001108063 / 12 41 1 312 130 (1.4 kW)"}
+{"text": "User: [SPEC] I need to know the throttle position sensor:\nAssistant: 0280120301 / 13 62 1 273 277"}
+{"text": "User: [SPEC] I need to know the t\nAssistant: 5 Lockpin"}
+{"text": "User: [SPEC] Tell me the maggiore di\nAssistant: 4,5 V"}
+{"text": "User: [SPEC] What is the power in fourth gear at about?\nAssistant: 100 kmih"}
+{"text": "User: [SPEC] What is the wiring diagram?\nAssistant: 325 IX"}
+{"text": "User: [SPEC] I need to know the marca della vettura\nAssistant: 1 BMW"}
+{"text": "User: [SPEC] Can you provide the oil quantity (no oil filter change):?\nAssistant: 4.10 litres"}
+{"text": "User: [SPEC] I need to know the since\nAssistant: 1988 Model"}
+{"text": "User: [SPEC] I need to know the coolant quantity:\nAssistant: 9.0 litres (9.5 litres with A/C)"}
+{"text": "User: [SPEC] I need to know the oil temp to not exceed:\nAssistant: 130 \u00b0C"}
+{"text": "User: [SPEC] What is the ignition coil:?\nAssistant: ?? / 12 13 1 286 087"}
+{"text": "User: [SPEC] What is the with automatic transmission?\nAssistant: - middle"}
+{"text": "User: [SPEC] What is the maximum speed:?\nAssistant: 235 km/h"}
+{"text": "User: [SPEC] I need to know the starter motor: in the EngineElectrical section\nAssistant: 0001108063 / 12 41 1 312 130 (1.4 kW)"}
+{"text": "User: [SPEC] Can you provide the marca della vettura?\nAssistant: 1 BMW"}
+{"text": "User: [SPEC] What is the What are the cylinder dimensions?\nAssistant: 93.4 x 84.0 mm"}
+{"text": "User: [SPEC] Tell me the bore x stroke:\nAssistant: 93.4 x 72.6 mm"}
+{"text": "User: [SPEC] Tell me the maggiore di\nAssistant: 4,2 V"}
+{"text": "User: [SPEC] Tell me the approved final drive gear lube\nAssistant: - see"}
+{"text": "User: [SPEC] What's the value for approved final drive gear lube?\nAssistant: - see"}
+{"text": "User: [SPEC] I need to know the lamp on the simulator comes on\nAssistant: ~ the"}
+{"text": "User: [SPEC] Tell me the air flow meter:\nAssistant: 0280203028 / 13 62 1 307 486"}
+{"text": "User: [SPEC] I need to know the gearbox oil quantity:\nAssistant: 1.25 litres"}
+{"text": "User: [SPEC] Tell me the injector specs:\nAssistant: Bosch EV1 0280150201 / BMW 13 64 1 273 272 254.4 cc/min | 182.9 g/min | 3 Bar Jetronic port / 2.4 Ohm"}
+{"text": "User: [SPEC] Can you provide the tightening torque?\nAssistant: 9 Nm"}
+{"text": "User: [SPEC] I need to know the gearbox oil:\nAssistant: SAE 80 75W80 GL-4"}
+{"text": "User: [SPEC] Tell me the model\nAssistant: 318 i"}
+{"text": "User: [SPEC] What is the air con belt: in the EngineElectrical section?\nAssistant: 12.5 x 810 mm BMW # 64 52 1 706 826"}
+{"text": "User: [SPEC] I need to know the oil temperature: in the Introduction section\nAssistant: 80 \u2013 120 \u00b0C operating temp Do not exceed 130 \u00b0C Do not exceed 4000 rpm below 50 \u00b0C"}
+{"text": "User: [SPEC] What's the value for clutch:?\nAssistant: Single plate dry clutch"}
+{"text": "User: [SPEC] What is the tool 33 7 260 or 33 7 2?\nAssistant: ."}
+{"text": "User: [SPEC] What is the of pedal base that there is still?\nAssistant: 0.5 Nm"}
+{"text": "User: [SPEC] What's the value for minimum disc thickness(front / rear):?\nAssistant: 22.5 mm / 10.8 mm"}
+{"text": "User: [SPEC] What is the tyre pressure (front / rear):?\nAssistant: 2.0 / 2.3 bar"}
+{"text": "User: [SPEC] What is the 28?\nAssistant: 35 001"}
+{"text": "User: [SPEC] Tell me the tool\nAssistant: 23 0 080, y"}
+{"text": "User: [SPEC] Tell me the a slave cylinder with a diameter of\nAssistant: 22.2 Nm"}
+{"text": "User: [SPEC] I need to know the 12\nAssistant: 31 009,"}
+{"text": "User: [SPEC] I need to know the charsing pressure must not exceed\nAssistant: 2 bar"}
+{"text": "User: [SPEC] I need to know the timing by:\nAssistant: double roller chain"}
+{"text": "User: [SPEC] Tell me the power steering fluid:\nAssistant: Dexron III"}
+{"text": "User: [SPEC] I need to know the engine type: in the Introduction section\nAssistant: inline four, longitudinal, watercooled"}
+{"text": "User: [SPEC] What is the tool 33 7 260 or 33 7 2?\nAssistant: ."}
+{"text": "User: [SPEC] Tell me the 28\nAssistant: 35 001"}
+{"text": "User: [SPEC] I need to know the air con belt:\nAssistant: 12.5 x 810 mm BMW # 64 52 1 706 826"}
+{"text": "User: [SPEC] What is the approved final drive gear lube?\nAssistant: - see"}
+{"text": "User: [SPEC] I need to know the tightening torque\nAssistant: 20 Nm"}
+{"text": "User: [SPEC] Can you provide the a/c charge (r12):?\nAssistant: 875 gr. +/- 25 gr. (1.93 +/- 0.05 lbs)"}
+{"text": "User: [SPEC] I need to know the in-tank fuel pump:\nAssistant: 0580453019 / 16 14 1 179 992"}
+{"text": "User: [SPEC] Can you provide the tool 33 7 260 or 33 7 2?\nAssistant: ."}
+{"text": "User: [SPEC] I need to know the remove side radiator grill section\nAssistant: -- soe"}
+{"text": "User: [SPEC] What's the value for power in fourth gear at about?\nAssistant: 100 kmih"}
+{"text": "User: [SPEC] I need to know the pressure should not drop by more than\nAssistant: 50 mbar"}
+{"text": "User: [SPEC] Tell me the injection system pressure:\nAssistant: 2.3-2.7 Bar"}
+{"text": "User: [SPEC] Tell me the valves:\nAssistant: 4 valves per cylinder, 45\u00b0 v-shaped, 36.7 mm intake / 31.6 mm exhaust"}
+{"text": "User: [SPEC] Can you provide the approved final drive gear lube?\nAssistant: - see"}
+{"text": "User: [SPEC] Tell me the injector specs:\nAssistant: Bosch EV1 0280150201 / BMW 13 64 1 273 272 254.4 cc/min | 182.9 g/min | 3 Bar Jetronic port / 2.4 Ohm"}
+{"text": "User: [SPEC] What is the front suspension:?\nAssistant: McPherson struts, coil springs, torsion stabilizer bar, gas pressure shock absorbers"}
+{"text": "User: [SPEC] What's the value for bmw?\nAssistant: 325 Ix"}
+{"text": "User: [SPEC] What's the value for axle ratio (final drive):?\nAssistant: 3.25"}
+{"text": "User: [SPEC] What is the case rear section with special tools?\nAssistant: 23 1 300 and"}
+{"text": "User: [SPEC] Can you provide the bmw 325 e?\nAssistant: 325"}
+{"text": "User: [SPEC] What is the pressure should not drop by more than?\nAssistant: 50 mbar"}
+{"text": "User: [SPEC] What is the t?\nAssistant: 5 Lockpin"}
+{"text": "User: [SPEC] What's the value for ie?\nAssistant: 3.5"}
+{"text": "User: [SPEC] I need to know the connect jetronic test lead\nAssistant: 61 1440 on"}
+{"text": "User: [SPEC] What's the value for timing by:?\nAssistant: double roller chain"}
+{"text": "User: [SPEC] What's the value for st bearing?\nAssistant: 15 Washer"}
+{"text": "User: [SPEC] Tell me the oil cooler, individual capacity:\nAssistant: 0.55 litres"}
+{"text": "User: [SPEC] What is the maggiore di?\nAssistant: 4,5 V"}
+{"text": "User: [SPEC] What's the value for if the doors did not lock in operation?\nAssistant: 1, perform"}
+{"text": "User: [SPEC] What is the rear brakes: in the Chassis &Drivetrain section?\nAssistant: Single piston floating caliper, 282 mm solid disc"}
+{"text": "User: [SPEC] Tell me the 28\nAssistant: 35 001"}
+{"text": "User: [SPEC] What is the permissible total weight:?\nAssistant: 1660 kg"}
+{"text": "User: [SPEC] What's the value for operating oil temp:?\nAssistant: 80-120 \u00b0C"}
+{"text": "User: [SPEC] What is the weight:?\nAssistant: 1200 kg"}
+{"text": "User: [SPEC] Tell me the tightening torque\nAssistant: 50 Nm"}
+{"text": "User: [SPEC] I need to know the bmw 325 e\nAssistant: 325"}
+{"text": "User: [SPEC] What is the power in fourth gear at about?\nAssistant: 100 kmih"}
+{"text": "User: [SPEC] What's the value for weight:?\nAssistant: 1200 kg"}
+{"text": "User: [SPEC] Tell me the pressure should remain constant during\nAssistant: 5 minute"}
+{"text": "User: [SPEC] What's the value for cylinder head:?\nAssistant: Aluminium"}
+{"text": "User: [SPEC] What's the value for marca della vettura?\nAssistant: 1 BMW"}
+{"text": "User: [SPEC] What is the injection system pressure:?\nAssistant: 2.3-2.7 Bar"}
+{"text": "User: [SPEC] What's the value for oil cooler, individual capacity:?\nAssistant: 0.55 litres"}
+{"text": "User: [SPEC] What is the t?\nAssistant: 5 Lockpin"}
+{"text": "User: [SPEC] I need to know the How many liters is the engine\nAssistant: 1990 CC"}
+{"text": "User: [SPEC] What's the value for model?\nAssistant: 318 i"}
+{"text": "User: [SPEC] What's the value for operating oil temp: in the EngineElectrical section?\nAssistant: 80-120 \u00b0C"}
+{"text": "User: [SPEC] What's the value for brake / clutch fluid:?\nAssistant: ATE / Castrol / DOT 4"}
+{"text": "User: [SPEC] Can you provide the valve operation:?\nAssistant: DOHC"}
+{"text": "User: [SPEC] Can you provide the engine power output:?\nAssistant: 192 BHP / 141 kW @ 6900 rpm"}
+{"text": "User: [SPEC] Tell me the oil temperature:\nAssistant: 80 \u2013 120 \u00b0C operating temp Do not exceed 130 \u00b0C Do not exceed 4000 rpm below 50 \u00b0C"}
+{"text": "User: [SPEC] Can you provide the in-tank fuel pump:?\nAssistant: 0580453019 / 16 14 1 179 992"}
+{"text": "User: [EXPLANATION] Explain enter period of time (ms) in diagram, \u2018ter\nAssistant: Enter Period of time (ms) in diagram,\n\u2018ter braking force (on brake test seend,\n\nvisco lock is seen at point of\n\nCondition of\nIntersection of both lines,\n\n;\nFS\n$\n=. EF:\nii\n\nboth linesio,\n\ntion point of\n\nIntersectio;\nshaded srea:\nVisco\n\n3233005 |\n\n[km/h]\n\nRoller speed\nWheel speed [min-1]\nPulse wheel cycle time [ms]\n\nJ\n\nrh\nWAN A\nMA AIOOOIK KAA\nVy MAOOOON A\n\nVOOCX]\nOOK)\n\n700\n600\n500\n400\n\n346 \u2014 ya] \u2018sAeidsip PUES 358} yo wng."}
+{"text": "User: [EXPLANATION] I need information on 41-005 eve: frame alignment control dimensions \u2014 bmw\nAssistant: 41-005\n\neve: FRAME ALIGNMENT CONTROL DIMENSIONS \u2014 BMW \u20183\u2019 Series / E 30\n\u2018Only use the following values for a rough ~All Wheel Drive Cars \u2014\n\ninspection. Repairs can only be carried out A Front axle take-up\n\ncorrectly with the approved set of attachments B_ Rear Axle take-up\n\nand a straightening bench, All dimensions in mm. 477215\n3716215\n\n2017215\n\n\"29 41192."}
+{"text": "User: [EXPLANATION] Tell me about grind down c pillar joint, tinning if necessary\nAssistant: Grind down C pillar joint, tinning if necessary. Repair spot welded flange and damaged anti-\ndrumming coat in wheel house and on trunk\n\nfloor plate. \u2018The spot welded flange in rear area of the\nwheel opening must be cringed on cars\nbeginning with 1988 models or when using\nwider tires. \u2018Compare with opposite side if necessary."}
+{"text": "User: [EXPLANATION] What is after selecting a drive range (cars with automatic?\nAssistant: After selecting a drive range (cars with automatic trans-\nmission) always only the nominal idle speed (700 + 50\npm) is regulated (preferred circuit). ) Checking Periphery for Air Conditioner Speed:\n\nConnect voltmeter (M 01) between terminal 4 and terminal 9. no \u2014_s Check blue/white wire for breaks with ohmmeter\nTurn on ignition, (06). Turn on air conditioner."}
+{"text": "User: [EXPLANATION] What is 65-304 unscrew mounting nuts for cover (1) and?\nAssistant: 65-304\n\nUnscrew mounting nuts for cover (1) and lift\nout cover. Connect plug (2) of extra wire harness (see wire\nharness sketch). Install instrument carrie\n\nUnscrew screws. The two inside screws must not be mixed up\nwith outside screws (max."}
+{"text": "User: [EXPLANATION] I need information on description of integrated heating and air conditi \u2018system\nAssistant: Description of Integrated Heating and Air Conditi\n\n\u2018System\n\nThe heating system is an air side controlled unit, i. the temperature is regulated by the\nratio of cold and warm ait with help of the tem e mixing flap. All outlets can be heated. Flaps are operated via cables."}
+{"text": "User: [EXPLANATION] Tell me about 41-116 4111510 replacing cover for left or right\nAssistant: 41-116\n\n4111510 REPLACING COVER FOR LEFT OR RIGHT SIDE MEMBER\n(REAR SIDE PANEL REMOVED)\nTWO DOOR MODEL -\n\nRemove brazing solder. Pull out cover underneath front door pillar. Refer to information on page 41 - 001\n\nRemove or disconnect following parts:\n\nground lead on battery, rear bumper, left tail light assembly, trunk mats, wall trim,\nleft wheel house trim, tail panel trim, trunk lid seal, rear window complete with\nrubber frame, side window, rear seat cushion and backrest, front seat, side trim\nPanel, hatrack, entrance cover strip, front door pillar carpet, passenger compartment\ncarpets partially, roof liner partially, seat belt, door pillar trim, front door seals, door\nstriker, C pillar air extraction mask, rear side panel rubbing strip, left wheel house\nCover, fuel tank complete, brace on floor assembly and wire harness in trunk\n\nper\n\nStraighten and grind mating surfaces. Coat mating surfaces needed for spot welding\nwith zine dust paint,\n\n17730 41586\n\nSMBH Remove side panel \u2014 see 41 35 101 4 Grind mating surfaces on new cover."}
+{"text": "User: [EXPLANATION] What is 41-119 remove scrap metal?\nAssistant: 41-119\n\nRemove scrap metal. \u2018Straighten and grind mating surfaces,\n\nCoat mating surfaces intended for spot welding\nwith zine dust paint. Set up car on straightening bench. Fit in trunk floor plate."}
+{"text": "User: [EXPLANATION] Tell me about grind mating surfaces on new wheel house inside\nAssistant: Grind mating surfaces on new wheel house\ninside section. Coat mating surfaces needed for spot welding\nwith zine dust paint\n\n\u2018Spot weld wheel house. Inert gas weld those mating surfaces which are\nnot accessible for spot welding\n\nSpot weld or, if necessary, plug spot weld\ntrunk lid hinge support. Place car on straightening bench."}
+{"text": "User: [EXPLANATION] What is disconnect electric leads (2 and 3) on starter?\nAssistant: Disconnect electric leads (2 and 3) on\nstarter. Pull off plugs (1 and 2) and unelip\nelectric leads In holders. Disconnect electric lead (3) on ol pan\n(pull off plug and unscrew holder) and\ntake out lead from above. Pull off plugs (1 and 2)."}
 {"text": "User: [EXPLANATION] I need information on a1b 20/10/97 1135 intermediate shaft 1az \u2014toothed belt\nAssistant: A1b 20/10/97\n\n1135 Intermediate Shaft\n\n1AZ \u2014Toothed belt pulley to intermediate M2021."}
-{"text": "User: [EXPLANATION] Can you describe remove rep\" fand cut off 10 siz2- important?\nAssistant: Remove rep\"\nfand cut off 10 SiZ2-\nImportant. \u2018Material hardens i\u201d sunshin. Close aluminum ueediately to KeeP oUF\n\nlight. REPAIRING GLASS FIBER\nREINFORCED PLASTIC PARTS\n\nassumed Damage:\n\u2018Damaged Corner on Trunk Lidt\n\nformation."}
-{"text": "User: [EXPLANATION] Tell me about 41-213 make up reinforcement a = approx\nAssistant: 41-213\n\nMake up reinforcement A = approx. 575\") from remaining panel and fit i\n\n30 41138. Grind down reinforcement. Coat mating surfaces with zinc dust paint."}
-{"text": "User: [EXPLANATION] Can you describe 41 587% * drill out spot welds?\nAssistant: 41 587%\n\n* Drill out spot welds. 4114161 REPLACING RIGHT WHEEL\nHOUSE OUTER SECTION AND\nREAR SIDE PANEL\n\u2014 Convertible \u2014\n\nRefer to information on page 41 - 001. Remove right rear side panel \u2014 see 41 35 110. Remove anti-drumming coat on cutting\nsurfaces."}
-{"text": "User: [EXPLANATION] Can you describe 23-300 zte iliee olli essn qs ess a?\nAssistant: 23-300\n\nZTE ILIEE OLLI ESSN\n\nQS ESS a\n\n730 23032\n\nSection Drawing of GETRAG 265/6 Overdrive Manual Transmission\n\n1 First gear\n2 Second gear\n3 Third gear\n\n4 Fourth gear\n5 Fifth gear\n\nR Reverse gear\n6 Input shaft\n\n7 Output shaft\n8 Layshaft."}
-{"text": "User: [EXPLANATION] Tell me about 23-178 mount shaft with bolt (3) install bolt\nAssistant: 23-178\n\nMount shaft with bolt (3)\nInstall bolt with a bolt cement**. Insert holder (2), press out and secure in this\nposition. Install output flange. Install collar nut with a bolt cement."}
-{"text": "User: [EXPLANATION] Explain 61 41 body 4133001 front panel complete with\nAssistant: 61\n\n41 Body\n\n4133001 Front panel complete with front wall \u2014 replace - we - 41-306\n\n4134041 Tail panel \u2014 replace satis. + 41-309\n\n4135101 Rear side panel, left (up to roof joint) \u2014 replace (2-door cars). = 41-312\n291 Rear side panel, right (partial replacement up to window line) \u2014 replace. 41-318\n\n(2-door cars)."}
-{"text": "User: [EXPLANATION] Explain yes is there voltage or ground in sockets\nAssistant: yes\n\nIs there voltage or ground in sockets 2 or 3. of the plug connection between left rear\ndoor wire harness and power window motor\nwhile operating the push button. yes\n\n|\n\nCheck power window motor, replacing if\nnecessary. 51-815\n\nno \u2014\u00bb Check door wire harness for breaks, repairing if necessary."}
-{"text": "User: [EXPLANATION] Can you describe test 2 \u2014 ignition coil check wires for?\nAssistant: Test 2 \u2014 IGNITION COIL\n\nCheck wires for tight fit. Check connection plate and ignition lead contacts for\n\u2018traces of burning, cracks and oxidation. Check code number* of ignition coil \u2014 see 12 13 009. Check resistance* (M 06) and inductivity* (M 07) of\nprimary and secondary coils \u2014 see 12 13 009."}
-{"text": "User: [EXPLANATION] What is pull out bearing ne sor \u00a382\u20ac (1) with?\nAssistant: Pull out bearing ne Sor \u00a382\u20ac (1) With S50 i\n001 00 8 550 and rt. /mportane}\nUse a flat iron bap Feat item between\nne Sealing surface ta 2V0id damage\n\u00a9M Sealing surface,\n{Heat case rear section 1728,\u00b0F Grooved bay taba 356 r60r section in area of roller bearing\nring to about Bq. \u00a91769 Ey Wien ahor {0 about 89\u00b0 \u00a2 \u00a31769 Fy with hot air blower. air blower, Drive in roller bearing with Specin Too."}
-{"text": "User: [EXPLANATION] Can you describe 31-34 = rs orfront ax differen\u2019?\nAssistant: 31-34\n= RS\norFront Ax\n\nDIFFEREN\u2019."}
-{"text": "User: [EXPLANATION] Can you describe test: engine oil check engine oil level \u2014?\nAssistant: TEST: ENGINE OIL\n\nCheck engine oil level \u2014 okay. yes\n\nheck transmitter in oil pan \u2014 static\n0 ohm \u2014 dyn. no \u2014m \u2014 Apply extra ground wi\n\u2014 Replace transmitter. yes\n\n'\nCheck power flow in wires from transmitter__no \u2014\u00bb- Repair or replace wires."}
-{"text": "User: [EXPLANATION] Can you describe inert gas weld the partial replacement section, mount?\nAssistant: Inert gas weld the partial replacement\nsection,\n\nMount and weld the reinforcement. 30 41 547\n\nBraze in area of the cowl panel. Seal off all mating surfaces with a joint\n\nsealing compound. 30916528\n\n~~ Grind down joints, tinning if necessary."}
-{"text": "User: [EXPLANATION] Explain b 20/10/97 11-21 engine 1131 camshaft 4az camshaft\nAssistant: b 20/10/97\n\n11-21 Engine\n\n1131 Camshaft\n\n4AZ Camshaft bearing cap\n\nAll\n\n2AZ Sprocket to camshaft\n\n3AZ Sprocket to camshaft flange\n\nm2oim21/m40\nMeo/1/m\u00e9o/2/Me2\n\nAll others\n\nM50/M52/S52/S50 US/M50\nVANOS\n\nApplication torque\n\nAll others\n\n4AZ Sprocket to camshaft\n\nM5444\n\nTorque\n\nTorque angle\n\n5AZ \u2014 Splined shaft to intake camshaft\n\nTorque\n\nM52/S52/S50 US/M50 VANOS."}
-{"text": "User: [EXPLANATION] Explain 41-2010 4121501 replacing left or right grind off\nAssistant: 41-2010\n\n4121501 REPLACING LEFT OR RIGHT Grind off welding seams,\nFRONT DOOR PILLAR Drill out spot welds from underneath. (Front Side Panel Removed) Take off end plate,\n\u2014 Convertible\n\nRefer to information on page 41 - 001\nRemove or cover up all car parts, which are\nlocated in the repair area or subjected to heat,\nsparks and dust. Drill off spot welding seam. Grind off welding beads."}
-{"text": "User: [EXPLANATION] Explain 51-210 8121003 replacing left or right front door\nAssistant: 51-210\n\n8121003 REPLACING LEFT OR RIGHT\nFRONT DOOR stRIKER\n\n{f applicable, mark installed Position,\nUnscrew bolts\n\nFour Door Model:\n\nAf applicable, remove & pillar trim ~ see\n5143 150,\n\nTwo Door Model:\n\n1 applicable, remove side trim Panel ~ see\n5143 000,\n\nJostalfation,\nTighten striker bolts lightly in middle\nPosition,\n\nClose door with opened door handle,\nThis aligns the striker. Tighten striker bolts,\nlose door. correcting if necessary\nEdge of front door must be same plane\nwith rear door or side panel,."}
-{"text": "User: [EXPLANATION] Can you describe 51-141 5114110 replacing rear model sign \u2018the model?\nAssistant: 51-141\n\n5114110 REPLACING REAR MODEL SIGN\n\n\u2018The model sign is cemented and cannot be reused. Coat a nylon string or garn with Tenside (e. dish washing detergent) and \u201csaw through\u2019\ncoat of cement between trunk lid and model sign. Remove residual cement with gasoline,\n\nInstall new model sign at room temperature."}
-{"text": "User: [EXPLANATION] What is 23-323 heat new bearing inner race to approx?\nAssistant: 23-323\n\nHeat new bearing inner race to approx. 80\u00b0 C\n(175\u00b0 F) with a hot air blower and install on\nlayshaft, driving on with Special Too. Collar of bearing race faces gear\n\nC) Output Shaft, Layshaft in Intermediate\nCase:\n\nRemove input and output shaft assembly \u2014\nsee 23 21 503. Drive roller bearings for input shaft and lay-\nshaft out of intermediate case with Special\nTools 23 1 130 and 00 5 500."}
-{"text": "User: [EXPLANATION] Explain 30 62 036 30 62 035 62 11\nAssistant: 30 62 036\n\n30 62 035\n\n62\n\n11. 2 'S','6\u2019 and 7\u2019 Series Cars\n\nPlug connection plate (1) of \u20195*, \u201c6\" and \u20187\u2019\nseries wire harness on instrument cluster and\nsecure with clamps (2). Be careful not to bend spring contacts when\n\u2018mounting the connection plate. Connect blue and white plugs of wire\nharness on instrument cluster."}
-{"text": "User: [EXPLANATION] Tell me about 41-333 grind mating surfaces on partial replacement aa\nAssistant: 41-333\nGrind mating surfaces on partial replacement aA AR 2 ete ating surtoce join\n\nsection. Apply coat of spot welding paint on wheel\nhouse opening and end plate/trunk floor plate. 30 41081\n\nApply body sealing compound. in area of fuel Inert gas weld mating surface joint."}
-{"text": "User: [EXPLANATION] Tell me about 41-335 if applicable, tin upper tail panel connecting\nAssistant: 41-335\n\nIf applicable, tin upper tail panel connecting\njoint. The spot welding flange in the rear area of\nthe wheel housing opening must be cringed\nCa ca eal with 1868 modes or when\n= using wider tires. Compare with opposite side if necessary. 3041740\n\n\u2018Seal all joints with body sealing compound*."}
-{"text": "User: [EXPLANATION] Tell me about yi rj 1 lies, , n ae, i\nAssistant: yi rj 1 lies, , n\nae, i eng fg\n6 Tr oy li mae :\nmaith te jer ond tang\n\nin i Nocy."}
-{"text": "User: [EXPLANATION] I need information on 41-332 remove scrap metal\nAssistant: 41-332\n\nRemove scrap metal. Cut mating surface to size that mating surface\n\noverlaps by distance A = 10 mm (0,384\")\n\n30 81072\n\n30 41 076)\n\u2019\n\nF\n\nRemove scrap metal. Make cuts in edges of partial replacement section\n\nand shoulder with a shouldering pliers\nDisengage wheel house on connection. 30 41077\n\nRemove scrap metal."}
-{"text": "User: [EXPLANATION] Can you describe braze outside edge on entrance?\nAssistant: Braze outside edge on entrance. Braze joint with cowl panel. 3041543\n\nGrind mating surface. Install new end plate."}
-{"text": "User: [EXPLANATION] Tell me about 3041067 4135338 replacing right rear ge u} side\nAssistant: 3041067\n\n4135338 REPLACING RIGHT REAR ge u}\nSIDE PANEL (PARTIAL i\n\nREPLACEMENT UP TO\n\nWHEEL HOUSE)\n\nRefer to information on page 41 - 001. Remove bumper assembly, tail lights, trunk\n\u2018mat, rear trim panel, right wheel house trim\npanel, tail panel trim panel, tail panel plate,\n\u2018trunk lid seal, fuel tank assembly, right wheel\nhouse cover, fuel filler neck and right\nexpansion tank,\n\nDraw cutting line for partial replacement. Cut off side panel along the line. Cut off side panel around the wheel opening."}
-{"text": "User: [EXPLANATION] Can you describe 12 13 009 checking ignition coil connect bmw?\nAssistant: 12 13 009 CHECKING IGNITION COIL\n\nConnect BMW service test unit. Carry out engine test step 09,\n\nObserve oscillograph \u2014 ignition voltage\nand ignition voltage deviation must agree\nwith nominal values **\n\nMultimeter Test (M06):\n\nMeasure resistance * of primary coil\n(term. 1/15) and secondary coil (term. 15/4)\n\nCheck for hairline cracks and signs of bur\nning."}
-{"text": "User: [EXPLANATION] Tell me about 30 62 035 62 2 checking instruments separately\nAssistant: 30 62 035\n\n62\n\n2 Checking Instruments Separately\n2. 1 Connecting Simulator\n2. 1 '3',5', 6\" and '7\" Series Cars\n\nConnect plug (1) and \u20183 series wire harness on\nadapter for instruments,\n\nConnect lead (1) and power supply lead (2)\non simulator. Connect red terminal (3) on B + and black\nterminal (4) on B ~ of a 12 V battery."}
-{"text": "User: [EXPLANATION] What is 7 41-208 remove scrap metal?\nAssistant: 7 41-208\n\nRemove scrap metal. Straighten and grind mating surfaces. Coat mating surfaces needed for spot welding\n\nwith zinc dust paint,\n\nClamp and align door pillar. Tack weld at several points."}
 {"text": "User: [EXPLANATION] Can you describe leds and light bulbs for st signs (not?\nAssistant: LEDs and Light Bulbs for St Signs\n\n(Not with 2nd Generation SI)\n3\" Series Ca\nConnect printed circuit board. All LEDs and both light bulbs must come on. '6\" and '7\" Series Cars:\nConnect plug of printed circuit board. Alll LEDs and both signs must light up."}
-{"text": "User: [EXPLANATION] Can you describe What are the wiring details for painting instructions??\nAssistant: Painting Instructions: \nMethod: BMW plastic part painting\nMaximum temperature for baking the enamel: 50\u00b0 C (122\u00b0 F) - deformation Is\nCars with Standard Rear Spoiler: \nPasting Instructions: "}
-{"text": "User: [EXPLANATION] What is What are the wiring details for board background specification??\nAssistant: board background Specification: 10 V \u2014 Replace light bulbs; depending on defect pull out light slider with a small pliers\n\u2018Specification: U = U battery,"}
-{"text": "User: [EXPLANATION] Can you describe What are the wiring details for correct installed order??\nAssistant: Correct Installed Order: \nSound System: "}
-{"text": "User: [EXPLANATION] I need information on What are the wiring details for personal protective equipment?\nAssistant: Personal Protective Equipment: \nWorking Hyglene: \nFirst Ald: \nInformation on Toxicology: "}
-{"text": "User: [EXPLANATION] Can you describe What are the wiring details for note??\nAssistant: Note: "}
-{"text": "User: [EXPLANATION] Tell me about What are the wiring details for test?\nAssistant: TEST: POWER SUPPLY AND OUTLET WIRES ON CHECK CONTROL"}
-{"text": "User: [EXPLANATION] Tell me about What are the wiring details for ) electric air flow sensor test?\nAssistant: ) Electric air flow sensor test: "}
-{"text": "User: [EXPLANATION] What is What are the wiring details for board background specification??\nAssistant: board background Specification: 10 V \u2014 Replace light bulbs; depending on defect pull out light slider with a small pliers\n\u2018Specification: U = U battery,"}
-{"text": "User: [EXPLANATION] Tell me about What are the wiring details for \u2014 testers required?\nAssistant: \u2014 Testers Required: Universal adapter with connecting lead as well as BMW service test unit (multimeter tests).\nNote: The type of coding plug* can be called in i"}
-{"text": "User: [EXPLANATION] Explain What are the wiring details for routing of terminal 15u wire*?\nAssistant: Routing of terminal 15u wire*: \nTCHi Control Unit (Bosch): "}
-{"text": "User: [EXPLANATION] I need information on What are the wiring details for note?\nAssistant: Note: "}
-{"text": "User: [EXPLANATION] I need information on What are the wiring details for ) electric air flow sensor test?\nAssistant: ) Electric air flow sensor test: "}
-{"text": "User: [EXPLANATION] Explain What are the wiring details for displays?\nAssistant: Displays: \u2014 30\u00b0C"}
-{"text": "User: [EXPLANATION] What is What are the wiring details for painting instructions??\nAssistant: Painting Instructions: \nMethod: BMW plastic part painting\nMaximum temperature for baking the enamel: 50\u00b0 C (122\u00b0 F) - deformation Is\nCars with Standard Rear Spoiler: \nPasting Instructions: "}
-{"text": "User: [EXPLANATION] Explain What are the wiring details for replace right rear side panel (partial replace?\nAssistant: Replace right rear side panel (partial replace: "}
-{"text": "User: [EXPLANATION] Explain What are the wiring details for other tests?\nAssistant: Other Tests: "}
-{"text": "User: [EXPLANATION] I need information on What are the wiring details for have ground? power flow test?\nAssistant: have ground? Power flow test: "}
-{"text": "User: [EXPLANATION] Can you describe What are the wiring details for have ground? power flow test??\nAssistant: have ground? Power flow test: "}
-{"text": "User: [EXPLANATION] I need information on What are the wiring details for type of teeth?\nAssistant: Type of teeth: Gleason hypold spiral teeth, right-hand spiral direction\nRatio\": On data plate (oll sump).\nOll grade: \u2018See Operating Fluids\nll volume*: Pour in oll slowly \u2014 recheck oll level approx. 30 seconds"}
-{"text": "User: [EXPLANATION] I need information on What are the wiring details for other tests?\nAssistant: Other Tests: "}
-{"text": "User: [EXPLANATION] Tell me about What are the wiring details for board background specification?\nAssistant: board background Specification: 10 V \u2014 Replace light bulbs; depending on defect pull out light slider with a small pliers\n\u2018Specification: U = U battery,"}
-{"text": "User: [EXPLANATION] Explain What are the wiring details for personal protective equipment?\nAssistant: Personal Protective Equipment: \nWorking Hyglene: \nFirst Ald: \nInformation on Toxicology: "}
-{"text": "User: [EXPLANATION] I need information on What are the wiring details for | seat belts?\nAssistant: | Seat Belts: "}
-{"text": "User: [EXPLANATION] Explain What are the wiring details for note?\nAssistant: Note: "}
-{"text": "User: [EXPLANATION] Tell me about What are the wiring details for | seat belts?\nAssistant: | Seat Belts: "}
-{"text": "User: [EXPLANATION] Explain What are the wiring details for painting instructions?\nAssistant: Painting Instructions: \nMethod: BMW plastic part painting\nMaximum temperature for baking the enamel: 50\u00b0 C (122\u00b0 F) - deformation Is\nCars with Standard Rear Spoiler: \nPasting Instructions: "}
-{"text": "User: [PROCEDURE] Walk me through 5131... repairng flying stone damage on laminated safety glass wind-\nAssistant: 1. Only damage on outside surface of windows may be repaired.\n2. Repairing should be carried out as soon as possible after occurrence of the damage.\n3. Impact spot cavities must not exceed a diameter of 5 mm (0.\n4. Repairs must only be carried out- outside of the fleld of vision (see sketch).\n5. Conform with working instructions."}
-{"text": "User: [PROCEDURE] What's the procedure for (cars with catatytie converter) requirements for ay adjustments:?\nAssistant: 1. Checking Engine tate Speed Adjust engine idle spec with screw (1), * S0\u00ae Specifications ang Nominal Value Microfiche."}
-{"text": "User: [PROCEDURE] Can you explain how to 5126010 replacing switch for?\nAssistant: 1. Locking linkage in LOCKED position.\n2. Engage drive in connecting link and hold in installed position with a screw (screw is not tightened).\n3. Screw in second screw.\n4. Tighten the screw installed first Rear Door Lock Arrangement: \u2018ock 2 = Locking linkage 3 = Door remote contro! linkage 4 = Drive/connecting link 3051 489."}
-{"text": "User: [PROCEDURE] Walk me through 3. no function when operating passenger\u2019s door lock \u2014 see test requirements \u2014 a. unlocking not possi\nAssistant: 1. No Function When Operating Passenger\u2019s Door Lock \u2014 See Test Requirements \u2014 A."}
-{"text": "User: [PROCEDURE] Can you explain how to 4. tooth contact pattern \u2018type of teeth \u2014 gleason. coat ring gear with printer's ink. turn different?\nAssistant: 1. Tooth Contact Pattern \u2018Type of teeth \u2014 Gleason.\n2. High, narrow tooth contact pattern (head) on ring gear.\n3. Deep, narrow tooth contact pattern (base) on ring gear.\n4. Brief tooth contact pattern on small tooth end (tip) of ring gear."}
-{"text": "User: [PROCEDURE] How do you procedures: place repair patches on the damaged surface and hold them in position with adhesive tape?\nAssistant: 1. Remove old cement and clean the repair surface.\n2. Repair damaged point in the honeycomb structure with a fiber filler and harden with ultraviolet light.\n3. Grind and clean repair surface.\n4. Mix cement and hardener In ratlo of 15 to 1.\n5. Apply a thin coat of the mixed cement on the repair surface and back of patches,.\n6. Allow about 15 minutes drying time for the cement.\n7. Apply patches (edges butted) and press on firmly with a rubber roller.\n8. Dip a glass rod In Plastisol and coat the butt edges thoroughly.\n9. Allow about 15 minutes drying time for the butt edges (dust dry).\n10. Paint part of or the entire hardtop with clear lacquer."}
-{"text": "User: [PROCEDURE] How do you 5126000 replacing switch for left or right front door?\nAssistant: 1. Lock in LOCKED position.\n2. Engage drive in connecting link and hold in installed position with a screw (screw is not tightened).\n3. Tighten the screw installed first."}
-{"text": "User: [PROCEDURE] Walk me through 6514000 service installing cassette box lift out ashtray. unscrew nut.\nAssistant: 1. 30 65 062 65-93 30 65 066 Install console from installation kit."}
-{"text": "User: [PROCEDURE] What are the steps to 2. checking speed signal and idle signal for idle control unit 2) speed signal connect voltmeter (m?\nAssistant: 1. CHECKING SPEED SIGNAL AND IDLE SIGNAL FOR IDLE CONTROL UNIT.\n2. Speed Signal Connect voltmeter (M 01) between terminals no \u2014e Connect ohmmeter between terminal 3 and Sand 4, socket 13 of the diagnosis socket."}
-{"text": "User: [PROCEDURE] What are the steps to 2. checking speed signal and idle signal for idle control unit a) speed signal terminal 3 must have?\nAssistant: 1. CHECKING SPEED SIGNAL AND IDLE SIGNAL FOR IDLE CONTROL UNIT a) Speed Signal Terminal 3 must have \u201cterminal 1 signal\u201d with the engine running."}
-{"text": "User: [PROCEDURE] How do you 5131... repairng flying stone damage on laminated safety glass wind-?\nAssistant: 1. Only damage on outside surface of windows may be repaired.\n2. Repairing should be carried out as soon as possible after occurrence of the damage.\n3. Impact spot cavities must not exceed a diameter of 5 mm (0.\n4. Repairs must only be carried out- outside of the fleld of vision (see sketch).\n5. Conform with working instructions."}
-{"text": "User: [PROCEDURE] How do you 1362000 removing and installing air flow sensor until model \u201885: loosen hose clamp (1)?\nAssistant: 1. * See Specifications + Nom."}
-{"text": "User: [PROCEDURE] What are the steps to ?\nAssistant: 1. Output Shaft, Layshaft in Rear Case Section: Remove rear case section - see 23 11022."}
-{"text": "User: [PROCEDURE] What's the procedure for troubleshooting brakes?\nAssistant: 1. Parking brake lever not released fully 9 brake and parking brake cables, repairing Braking effect insufficient inspite of great force on pedal Brake pedal travel normal a) Brake pads oil splattered or burnt; wrong type of brake | a) Replace brake pads pads short b) Brake booster malfunctions \u2014 engine vacuum b) Check power brake system \u2014 insufficient check engine (valves, cylinder head, gasket, etc."}
-{"text": "User: [PROCEDURE] What are the steps to (cars with catatytie converter) requirements for ay adjustments:?\nAssistant: 1. Checking Engine tate Speed Adjust engine idle spec with screw (1), * S0\u00ae Specifications ang Nominal Value Microfiche."}
-{"text": "User: [PROCEDURE] Can you explain how to 1214 pulse sender, check pulse sender for tight fit and damage.?\nAssistant: 1. TDC mark must be in middle of a tooth.\n2. Gap must be located 9 teeth away from the TDC mark in engine\u2019s direction of rotation, If not, replace vibration damper."}
-{"text": "User: [PROCEDURE] What's the procedure for 5126010 replacing switch for?\nAssistant: 1. Locking linkage in LOCKED position.\n2. Engage drive in connecting link and hold in installed position with a screw (screw is not tightened).\n3. Screw in second screw.\n4. Tighten the screw installed first Rear Door Lock Arrangement: \u2018ock 2 = Locking linkage 3 = Door remote contro! linkage 4 = Drive/connecting link 3051 489."}
-{"text": "User: [PROCEDURE] Can you explain how to 5131... repairng flying stone damage on laminated safety glass wind-?\nAssistant: 1. Only damage on outside surface of windows may be repaired.\n2. Repairing should be carried out as soon as possible after occurrence of the damage.\n3. Impact spot cavities must not exceed a diameter of 5 mm (0.\n4. Repairs must only be carried out- outside of the fleld of vision (see sketch).\n5. Conform with working instructions."}
-{"text": "User: [PROCEDURE] How do you 2. checking speed signal and idle signal for idle control unit 2) speed signal connect voltmeter (m?\nAssistant: 1. CHECKING SPEED SIGNAL AND IDLE SIGNAL FOR IDLE CONTROL UNIT.\n2. Speed Signal Connect voltmeter (M 01) between terminals no \u2014e Connect ohmmeter between terminal 3 and Sand 4, socket 13 of the diagnosis socket."}
+{"text": "User: [EXPLANATION] What is 51-210 8121003 replacing left or right front door?\nAssistant: 51-210\n\n8121003 REPLACING LEFT OR RIGHT\nFRONT DOOR stRIKER\n\n{f applicable, mark installed Position,\nUnscrew bolts\n\nFour Door Model:\n\nAf applicable, remove & pillar trim ~ see\n5143 150,\n\nTwo Door Model:\n\n1 applicable, remove side trim Panel ~ see\n5143 000,\n\nJostalfation,\nTighten striker bolts lightly in middle\nPosition,\n\nClose door with opened door handle,\nThis aligns the striker. Tighten striker bolts,\nlose door. correcting if necessary\nEdge of front door must be same plane\nwith rear door or side panel,."}
+{"text": "User: [EXPLANATION] Explain 12-24 test 7 \u2014 ignition timing / ignition\nAssistant: 12-24\n\nTest 7 \u2014 IGNITION TIMING / IGNITION TIMING CONTROL\n\nnot okay \u2014\u2014\u2014pe If engine does not run, check position of\ndistributor \u2014 move piston in cylinder no. 1\nion position; mark on distributor\nhousing must be aligned with contact on\ndistributor rotor \u2014 see 12 11 060. ** (P06), adju:\nif necessary \u2014 see 12 11 005\n\nOkay\n\nStart engine not okay > If engine does not run \u2014 check fuel supply\n\u2014 see Goups 13 and 16. Check engine for mechanical defect \u2014 s\n\nGroup 11."}
+{"text": "User: [EXPLANATION] Explain 41-325 4135291 replacing right rear side panel (partial\nAssistant: 41-325\n\n4135291 REPLACING RIGHT REAR\nSIDE PANEL (PARTIAL\nREPLACEMENT UP TO\nWINDOW LINE)\n\n\u2014 Four Door Model \u2014\n\nRemove brazing solder. Drill off welding spots. Refer to information on page 41 - 001. Remove or disconnect following parts."}
+{"text": "User: [EXPLANATION] Can you describe 3031 595 3031597 31-47 3160020 replacing one constant?\nAssistant: 3031 595\n\n3031597\n\n31-47\n\n3160020 REPLACING ONE CONSTANT\nVELOCITY JOINT (OUTER)\n\n3160021 REPLACING ONE CONSTANT\nVELOCITY JOINT (INNER)\nOF OUTPUT SHAFT\n\nRemove front output shaft 31 60 000. Loosen both hose clamps and pull dust cover\noff of joint\n\n\u2018Spread open circlip and drive joint off of the\nshaft with a plastic hammer. Constant Velocity Joint (Outer):\nAdd about half of the grease in a 80 gr. Constant Velocity Joint (Inner):\n\u2018Add grease from a 80 gr."}
+{"text": "User: [EXPLANATION] What is 41-303 spot weld roof panel on left and?\nAssistant: 41-303\n\nSpot weld roof panel on left and right rain Grind mating surfaces on roof brace. moldings\n\n3041188\n\nBraze cowl joints on left and right sides\n\nPaste Terostat tape on bearing surfaces of roof\npanel,\n\nBraze C pillar joints on left and right sides,\n\nInstall roof brace and\nlightly. Weld on roof brace on left and right sides. Use inert gas welder,\n\nress against roof panel\n\nGrind front and rear joints, tinning out if Seal joint between roof frame and roof panel\nnecessary, with a body sealing compound."}
+{"text": "User: [EXPLANATION] Explain chae, of check, pf rubber wing, heck jo\nAssistant: Chae, Of\n\nCheck, pF rubber Wing,\nheck jo\nCurva,\n\nture be,\nedge,."}
+{"text": "User: [EXPLANATION] Explain 509 7m ste 0128 pisconnect pipe (2)- get\nAssistant: 509 7m ste 0128\n\npisconnect pipe (2)- get wnuerat eallpers 10 Tees ine\n(Urscrew bolt (3)- C Set wserer whee mesHTES cam\n\ntations quameter Ot cOM (er ore\n\u2018Compare measured Co\u201d otlawer ply\n\n\u2018Cam follower rayinstalied dtstanes\nCass 1, 0. 0026\"),\n\nunscrew timing \u20acase- Unsccow bolts. \u2018nstabaton: < Unscrew evnder head BONS order\nReprace O-Fng (2) 19 08 Bey nso through + and Wit off cylinder\nRenee oncngs (0) eplacins # ead. necessary nstaliaton\nSSO utes mth Tse BoM J Instat yen in earn\n1207\" pe Crea sits -tubricate eWNGer \u2018need\noits uniformly tpotts wit ol."}
+{"text": "User: [EXPLANATION] What is select test p ram 03 abs on bmw?\nAssistant: Select Test p ram 03 ABS on Bmw\nSERVICE TESTER\nSelect ABS Test Step 03,\n\n3027 09\n\ncold\nSwitch on brake tand cy). Cylinder speed of brake ar tt am tt Sh\n(wa se),\n30 27 005\nDonat tt\u00ae Pressure and te size Press\nmate Brake test stan a SeAvice regnee. Button - ~y lll\nmatic, slue Now displayed, I I\nwheels 2 and with is ray Soe ieee 10 et or mare 8 the cy\nSwitch off ignition, See dlagram,\nFront wheeis on :\nShift lever in ist gocr\nvic Het 88 connected on Bany sen, Read braki force of lett or 1 ht\nped ene ae et Wheel on brake tear cyt tg\nand igo electric equipo \u2018mportants\nConner on ite Ang Total operation time = max. unit (2yand ass\n\n30 27 oo."}
+{"text": "User: [EXPLANATION] Tell me about 41-309 4134041 replacing tail panel drill off welding\nAssistant: 41-309\n\n4134041 REPLACING TAIL PANEL\n\nDrill off welding spots. Refer to information on page 41 - 001\n\nRemove rear bumper. Unscrew tail and license plate lights. Disconnect wire harness partially."}
+{"text": "User: [EXPLANATION] What is 4111043/ replacing left/right engine carrier front section without?\nAssistant: 4111043/ REPLACING LEFT/RIGHT ENGINE CARRIER FRONT SECTION WITHOUT\n044 WHEEL HOUSE\n\nRefer to information on page 41 - 001. Remove or disconnect following parts. Disconnect battery ground lead,\n\nRemove radiator grill, headlight, front fog light, two-tone horns, engine hood lock, data plate\nand radiator. Disconnect wire harness as required."}
+{"text": "User: [EXPLANATION] Tell me about 23-112 push or drive on output flange\nAssistant: 23-112\n\nPush or drive on output flange. Install collar nut with locking compound**\nApply Special Tool 23 1 200. Hold output flange with Special Too. Tighten collar nut with Special Too."}
+{"text": "User: [EXPLANATION] Can you describe 41-10 c install tail panel?\nAssistant: 41-10 C\n\nInstall tail panel. Seal off all mating surfaces from top and\nbottom with a body sealing compound. \u2018Spray an anti-drumming compound on\nbottom of car, wheel houses and tail panel\nfrom underneath."}
+{"text": "User: [EXPLANATION] I need information on 41-328 mount and clamp side panel, tack welding\nAssistant: 41-328\n\nMount and clamp side panel, tack welding if Spot weld side panel on trunk floor plate. necessary,\nCheck door gaps. N04: 397\nCheck trunk lid gap. Spot weld side panel in wheel opening,\n\nInert gas plug weld joint on entrance."}
+{"text": "User: [EXPLANATION] Can you describe grind off welding beads?\nAssistant: Grind off welding beads. Grind mating surfaces on new wheel house\nouter section. Coat mating surfaces required for spot\nwelding with zinc dust paint. 30 41596\n\nLift end plate slightly\nRemove scrap metal\n\nInsert and clamp down new wheel house\n\u2018outer section, tack welding if necessary."}
+{"text": "User: [EXPLANATION] I need information on test: license plate lights license plate lights okay\nAssistant: TEST: LICENSE PLATE LIGHTS\n\nLicense plate lights okay. no\n\nyes =\n\n62-78\n\nPower supply from term. no \u2014_\u00bb Supply electric power. |\nves\n\nCheck light switch."}
+{"text": "User: [EXPLANATION] Explain 65-103 plug antenna wire (1) in jack of\nAssistant: 65-103\n\nPlug antenna wire (1) in jack of radio. 28 65 023\n\nRe-install all removed parts."}
+{"text": "User: [EXPLANATION] Explain 30 41739 w= 9041472 41-317 grind joint, tinning\nAssistant: 30 41739\n\nw= 9041472\n\n41-317\n\nGrind joint, tinning if necessary. The spot welded flange in the rear area of the\nwheel opening must be cringed on cars\nbeginning with 1988 models or when using\nwider tires,\n\nCompare with opposite side if necessary. Seal all joints with a joint sealing compound,\nReplace damaged anti-drumming coat in\nwheel house, on bottom of side panel or in\ntrunk."}
+{"text": "User: [EXPLANATION] Explain 65-103 plug antenna wire (1) in jack of\nAssistant: 65-103\n\nPlug antenna wire (1) in jack of radio. 28 65 023\n\nRe-install all removed parts."}
+{"text": "User: [EXPLANATION] Tell me about 41-333 grind mating surfaces on partial replacement aa\nAssistant: 41-333\nGrind mating surfaces on partial replacement aA AR 2 ete ating surtoce join\n\nsection. Apply coat of spot welding paint on wheel\nhouse opening and end plate/trunk floor plate. 30 41081\n\nApply body sealing compound. in area of fuel Inert gas weld mating surface joint."}
+{"text": "User: [EXPLANATION] I need information on 65 81060 removing and installing air temperature sensor\nAssistant: 65 81060 REMOVING AND INSTALLING\nAIR TEMPERATURE SENSOR\n\na) Before 9/85:\n\u2018The temperature sensor is located in the air\ninlet opening of the front spoiler. Press out temperature sensor with a bent\n8 mm ring wrench. Pull plug out of holder and disconnect. (The front spoiler had been removed for\nbetter understanding, but this is not\nnecessary to remove the temperature\nsensor."}
+{"text": "User: [EXPLANATION] Explain plug connections for control unit \u2018connected on the\nAssistant: PLUG CONNECTIONS FOR\nCONTROL UNIT\n\n\u2018connected on the control unit plug for\noperation with unleaded gasoline. (1) = Black\n\n(2) = Blue\n\nPlugs (1 and 2) must be disconnected or C /\n\nPlug Connections:\nA) 1+0= unleaded prem. grade US\nB) 0 +0 = unleaded reg. grade ECE\nC) 1+1= leaded prem."}
+{"text": "User: [EXPLANATION] What is b \u2014 85 b) air temperature switch connect?\nAssistant: B \u2014 85\nb) Air Temperature Switch\n\nConnect voltmeter (M 01) between terminal 4 and terminal 10. \u2014\u2014 no\u00bb Connect chmmeter (M 06) between terminal 2 and no \u2014\u2014\u00bb- Eliminate wire breaks. Voltmeter displaying at least 9 volts with an air temperature terminal 10. Pull off both wire plugs on air temperature switch\n\nand connect."}
+{"text": "User: [EXPLANATION] I need information on after selecting a drive range (cars with automatic\nAssistant: After selecting a drive range (cars with automatic trans-\nmmission) the nominal idle speed (700 = 50 rpm) is\nalways regulated. (cars with automatic transmission) no >\u00bb Check blue/brown wire for breaks with ohmmeter (M 06). Connect voltmeter (M 01) between terminal 4 and terminal 7. Check or replace selector lever switch."}
+{"text": "User: [PROCEDURE] How do you ?\nAssistant: 1. Lift out seat cushion,.\n2. Pull off covers and unscrew bolts on left and.\n3. Unscrew left and right bolts.\n4. Pull up and remove backrest.\n5. Installation:."}
+{"text": "User: [PROCEDURE] Walk me through \nAssistant: 1. Check throttle valve switch.\n2. Adjusting:.\n3. Adjust by loosening screws (1) and turning.\n4. Pull off multiple-pin plug (3).\n5. Unscrew screws (1).\n6. Installation:.\n7. Check cade number (1)*.\n8. Adjust throttle valve switch \u2014 see 13 63 544,."}
+{"text": "User: [PROCEDURE] What's the procedure for 5126020 replacing switch for trunk lid lock (drive) if applicable, remove battery cover.?\nAssistant: 1. Turn lock to LOCKED position.\n2. Engage drive in connecting link and hold with a screw (screw is not tightened).\n3. Serew in second screw.\n4. Tighten the screw installed first."}
+{"text": "User: [PROCEDURE] What's the procedure for 1300054 adjusting engine idle speed and co level requirements for all adjustments: engine at operati?\nAssistant: 1. Engine Idle Speed* Adjust idle speed with screw (1).\n2. Emission Test: First make sure that there are no faults in the engine, ignition or fuel injection before correct ing the CO adjustment (see Troubleshooting)."}
+{"text": "User: [PROCEDURE] Walk me through \nAssistant: 1. K 114060 o* 11-75 1140000 CHECKING ENGINE OIL PRESSURE Remove air cleaner with air flow sensor."}
+{"text": "User: [PROCEDURE] Can you explain how to 3431000 removing and installing brake master cylinder?\nAssistant: 1. Pull off plug.\n2. Pull off clutch hydraulic hose (1).\n3. Installation:.\n4. Disconnect brake: tines (2 and 3).\n5. Pull off tank.\n6. Unscrew mounting bolts (4 and 5).\n7. Installation:.\n8. Check rubber seal and connections.\n9. Installation:."}
+{"text": "User: [PROCEDURE] Can you explain how to remove brazing solder. loosen pillar. remove brazing solder.?\nAssistant: 1. Remove brazing solder.\n2. Loosen pillar.\n3. Remove brazing solder.\n4. Lift off the door pillar.\n5. Remove scrap metal.\n6. Install door.\n7. Check gaps of entrance and rear side panel.\n8. Remove door."}
 {"text": "User: [PROCEDURE] What's the procedure for 11.34.0004 adjusting valve?\nAssistant: 1. Valves and valve seats must be inspected, if gasoline runs past the valve heads."}
-{"text": "User: [PROCEDURE] Can you explain how to remove brazing solder. lift off end plate. cut off holder for end plate. drill out spot welds. remov?\nAssistant: 1. engine compartment wall /-\u00a2 Remove scrap metal Straighten and grind mating surfaces."}
-{"text": "User: [PROCEDURE] Can you explain how to 2. checking speed signal and idle signal for idle control unit a) speed signal terminal 3 must have?\nAssistant: 1. CHECKING SPEED SIGNAL AND IDLE SIGNAL FOR IDLE CONTROL UNIT a) Speed Signal Terminal 3 must have \u201cterminal 1 signal\u201d with the engine running."}
-{"text": "User: [PROCEDURE] What's the procedure for 2. no function when operating driver's door lock (unlocking ~ locking) \u2014 see test requirements \u2014 lin?\nAssistant: 1. No Function When Operating Driver's Door Lock (Unlocking ~ Locking) \u2014 See Test Requirements \u2014 Linkage connected \u2014 drive adjusted no ____\u00bb Connect linkage, adjust/mount drive, correctly and mounted \u2014 plug con- connect plug.\n2. Betw.\n3. Betw."}
-{"text": "User: [PROCEDURE] Walk me through 5126010 replacing switch for\nAssistant: 1. Locking linkage in LOCKED position.\n2. Engage drive in connecting link and hold in installed position with a screw (screw is not tightened).\n3. Screw in second screw.\n4. Tighten the screw installed first Rear Door Lock Arrangement: \u2018ock 2 = Locking linkage 3 = Door remote contro! linkage 4 = Drive/connecting link 3051 489."}
-{"text": "User: [PROCEDURE] What are the steps to 5125,.. removing and installing or replacing top lid?\nAssistant: 1. Preload the short cable lightly by adjusting the remote control.\n2. Proload the long cable lightly by adjusting."}
-{"text": "User: [PROCEDURE] Can you explain how to 1300054 adjusting engine idle speed and co level requirements for all adjustments: engine at operati?\nAssistant: 1. Engine Idle Speed* Adjust idle speed with screw (1).\n2. Emission Test: First make sure that there are no faults in the engine, ignition or fuel injection before correct ing the CO adjustment (see Troubleshooting)."}
-{"text": "User: [PROCEDURE] What are the steps to 4. tooth contact pattern \u2018type of teeth \u2014 gleason. coat ring gear with printer's ink. turn different?\nAssistant: 1. Tooth Contact Pattern \u2018Type of teeth \u2014 Gleason.\n2. High, narrow tooth contact pattern (head) on ring gear.\n3. Deep, narrow tooth contact pattern (base) on ring gear.\n4. Brief tooth contact pattern on small tooth end (tip) of ring gear."}
-{"text": "User: [PROCEDURE] What are the steps to 2. checking speed signal and idle signal for idle control unit a) speed signal terminal 3 must have?\nAssistant: 1. CHECKING SPEED SIGNAL AND IDLE SIGNAL FOR IDLE CONTROL UNIT a) Speed Signal Terminal 3 must have \u201cterminal 1 signal\u201d with the engine running."}
+{"text": "User: [PROCEDURE] What's the procedure for ?\nAssistant: 1. Install tail panel."}
+{"text": "User: [PROCEDURE] How do you remove selector arm from above. installation:?\nAssistant: 1. Remove selector arm from above.\n2. Installation:.\n3. Install spring (2).\n4. Install selector arm with Special Too!.\n5. Install socket head bolt with a locking.\n6. Unscrew bolt.\n7. Remove locking lever (4) and shim (5).\n8. Remove bearing holder (6).\n9. Installation.\n10. Install bolt with a large washer.\n11. Installation:.\n12. Check installed position of locking.\n13. Lift out radial oll seat,."}
+{"text": "User: [PROCEDURE] What's the procedure for installation: check installed position of dust guard \u2014 flush with center mount.?\nAssistant: 1. Installation:.\n2. Check installed position of dust guard \u2014 flush.\n3. Check clearance of center mount."}
+{"text": "User: [PROCEDURE] Walk me through 2. checking speed signal and idle signal for idle control unit a) speed signal terminal 3 must have\nAssistant: 1. CHECKING SPEED SIGNAL AND IDLE SIGNAL FOR IDLE CONTROL UNIT a) Speed Signal Terminal 3 must have \u201cterminal 1 signal\u201d with the engine running."}
+{"text": "User: [PROCEDURE] Can you explain how to fit in the rear side panel install door. check gaps.?\nAssistant: 1. Install door.\n2. Check gaps.\n3. Remove door and rear side panel."}
+{"text": "User: [PROCEDURE] Can you explain how to testing procedures for electronic cruise control test requirement: battery charged \u2014 battery voltage?\nAssistant: 1. Check fuse no.\n2. check bulbs of stop lights and their contact.\n3. Check cable adjustment.\n4. Replace cable, see 65 71 040 in Repair Manual.\n5. Check cable and strap of operating motor for damage\u2014no_+- Replace cable or operating motor.\n6. Check adjustment of brake and clutch pedal switch.\n7. Adjustment okay? \u2018See Group 36 of Repair Manual.\n8. Check all plugs (see wiring diagram) and wires for."}
+{"text": "User: [PROCEDURE] How do you ?\nAssistant: 1. Installation:.\n2. Installation:.\n3. Installation:.\n4. Checking Microswitch:.\n5. Installation:.\n6. Checking Microswitch:."}
+{"text": "User: [PROCEDURE] Can you explain how to cause \u2018check / correct?\nAssistant: 1. Check throttle switch with BMW service.\n2. Adjust or replace throttle switch.\n3. Adjust throttle (see Group 13 in Repair."}
+{"text": "User: [PROCEDURE] Can you explain how to drive out ball bearing with special tools 00 5 500 23 1080 and 00 5 500.?\nAssistant: 1. Adjust play between bearing holder and case.\n2. Tightening torque*.\n3. Pull ball bearing inner race off of output shaft.\n4. Installation:.\n5. Lift out roller bearing (2),.\n6. Installation:."}
+{"text": "User: [PROCEDURE] What are the steps to 1711509 flushing radiator if oil has penetrated into the coolant circuit, the radiator and expansion?\nAssistant: 1. Pour in 2 to 3 liters (4 to 6 pints) of Solvethane.\n2. Shake radiator and tank thoroughly and drain after oil has been dissolved (2 to 3 utes).\n3. Fill entire cooling system with hot water and flush thoroughly by replacing hot ater several times to guarantee removal of solvethane residue.\n4. Check drained coolant for traces of oil and repeat test step 5 (if necessary)."}
+{"text": "User: [PROCEDURE] Walk me through 23215865 replacing output shaft ~ output shaft removed \u2014 pull off input shaft (1), synchromesh ring\nAssistant: 1. Pull off input shaft (1), synchromesh ring (2).\n2. Lift out cirelip (4).\n3. Installation:.\n4. Installation:.\n5. Adjust guide sleeve with circlip (4) to take up.\n6. Remove needle bearing.\n7. Remove needle bearing and sintered steel.\n8. Installation:.\n9. Remove needle bearing.\n10. Remove brass synchromesh ring and needle."}
+{"text": "User: [PROCEDURE] What are the steps to ?\nAssistant: 1. Unscrew bolts.\n2. Installation.\n3. Tighten striker bolts lightly in middle.\n4. Tighten striker bolts.\n5. Check, correcting if necessary."}
+{"text": "User: [PROCEDURE] Can you explain how to ?\nAssistant: 1. Lift out woodrutt key (1).\n2. Pull off sprocket with Special Too!.\n3. Installation:.\n4. Install pilot bearing for the transmis-.\n5. Installed Order:.\n6. Replacement crankshafts are only.\n7. Check the ground size of main bearing.\n8. Installing Instructions:.\n9. Install bearing shells in bearing caps."}
+{"text": "User: [PROCEDURE] How do you ?\nAssistant: 1. Install needle bearing, 1st gear and sintered stee!.\n2. Install guide sleeve and sliding sleeve with nar.\n3. Install circlip (5).\n4. Install sintered steel synchromesh ring with.\n5. Install needle bearing and 2nd gear.\n6. Install needle bearing, 3rd gear and brass synchro-.\n7. Install guide sleeve and sli.\n8. Install circlip."}
+{"text": "User: [PROCEDURE] How do you instalation: adjust brake pedal to distance (a)* on the brake master cylinder push rod.?\nAssistant: 1. Adjust brake pedal to distance (A)* on.\n2. Installation:.\n3. Lubricate brake pedal with grease* in.\n4. Adjust stop light switch to distance.\n5. Adjust - see Group 61.\n6. Check function of stop lights."}
+{"text": "User: [PROCEDURE] Can you explain how to 5121300 removing and installing or replacing outside window recess cover 5121330 removing and instal?\nAssistant: 1. Lift out cover strip from above carefully,.\n2. Remove door trim panel \u2014 see 141 001,.\n3. Lift out cover strip.\n4. Installation: Installation:.\n5. Replace damaged clips.\n6. Lift out cover strip.\n7. Installation:.\n8. Check for correct fit of cover strip in clips."}
+{"text": "User: [PROCEDURE] What's the procedure for 3131000 removing and installing left or right front spring strut assembly \u2014 all wheel drive \u2014 remove?\nAssistant: 1. Remove front wheel \u2014 see Group 36,.\n2. Remove ABS pulse transmitter \u2014 see Gr.\n3. Lift out lockplate with a screwdriver.\n4. Unscrew collar nut.\n5. Installation:.\n6. Tightening torque*.\n7. Replace lockplate and lock with Special Tools.\n8. Disconnect brake pad wear indicator plug,.\n9. Disconnect ground wire.\n10. Disconnect wires end brake hose on spring.\n11. Unscrew push rod.\n12. Tightening torque*.\n13. Unscrew brake caliper and suspend from body.\n14. Installation:.\n15. Tightening torque*.\n16. Unscrew nut and press off tie rod joint with.\n17. Installation:.\n18. Replace self-locking nut.\n19. Unscrew nut and press off guide joint with.\n20. Installation:.\n21. Tightening torque*.\n22. Installation:.\n23. Lubricate splines of output shaft lightly with."}
+{"text": "User: [PROCEDURE] What are the steps to n 14\u2014 throttle housing | check throttle cable adjustment. \u2014___\u00bb see groups 24 / 35 / 65. check full?\nAssistant: 1. Check throttle cable adjustment.\n2. Check full toad position.\n3. Check movement of throttle.\n4. Check basic setting of throttle, __."}
+{"text": "User: [PROCEDURE] Can you explain how to 1362000 removing and installing air flow sensor until model \u201885: loosen hose clamp (1)?\nAssistant: 1. * See Specifications + Nom."}
+{"text": "User: [PROCEDURE] How do you 4161014 aligning engine hood engine hood, trunk lid and doors are fitted and bolted in an unfinished?\nAssistant: 1. Installation:.\n2. Unscrew stop pads after finishing adjustments.\n3. Loosen bolts on left and right sides.\n4. Align engine hood to side panels at front and.\n5. Loosen bolts (1 and 2) on left and right sides.\n6. Adjust console up or down with screw (2).\n7. Adjust height of engine hood that hood is.\n8. Adjusting Rear Guide Roller:.\n9. Loosen bolts.\n10. Adjust holder laterally until guide roller slides.\n11. Check gap between side panel and engine hood.\n12. Loosen bolts (1 and 2).\n13. Adjust catch with bolt (2) in such a manner."}
+{"text": "User: [EXPLANATION] What is What are the wiring details for ) electric air flow sensor test??\nAssistant: ) Electric air flow sensor test: "}
+{"text": "User: [EXPLANATION] Can you describe What are the wiring details for and turn ignition lock to r or 15??\nAssistant: and turn ignition lock to R or 15: "}
+{"text": "User: [EXPLANATION] I need information on What are the wiring details for note?\nAssistant: Note: "}
+{"text": "User: [EXPLANATION] I need information on What are the wiring details for note?\nAssistant: Note: "}
 {"text": "User: [PROCEDURE] Walk me through What checks should be performed for symptom for diagnosis\nAssistant: 3. Check power input to the Amplifier.\n4. Check that the Antenna 1s properly con\n8. Check Amplifier Fuse located on back of"}

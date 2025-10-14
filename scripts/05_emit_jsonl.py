@@ -294,19 +294,29 @@ def main():
     print(f"[05_emit_jsonl] Skipped {skipped_filter} blocks (section filter)")
     print(f"[05_emit_jsonl] Skipped {skipped_invalid} invalid procedures (no valid steps)")
     
-    # Write JSONL files per task
+    # Write JSONL files per task (for organization/debugging)
     output_dir.mkdir(parents=True, exist_ok=True)
-    
+
     task_counts = {}
+    all_entries = []
+
     for task, entries in entries_by_task.items():
         output_file = output_dir / f"{task}.{args.output_prefix}.jsonl"
-        
+
         with open(output_file, 'w', encoding='utf-8') as f:
             for entry in entries:
                 f.write(json.dumps(entry, ensure_ascii=False) + '\n')
-        
+
         task_counts[task] = len(entries)
+        all_entries.extend(entries)
         print(f"[05_emit_jsonl] ✓ Wrote {len(entries)} entries to {output_file.name}")
+
+    # Write consolidated file (all tasks combined)
+    consolidated_file = output_dir / "dataset.jsonl"
+    with open(consolidated_file, 'w', encoding='utf-8') as f:
+        for entry in all_entries:
+            f.write(json.dumps(entry, ensure_ascii=False) + '\n')
+    print(f"[05_emit_jsonl] ✓ Wrote {len(all_entries)} total entries to {consolidated_file.name}")
     
     # Summary
     print(f"\n[05_emit_jsonl] Summary:")

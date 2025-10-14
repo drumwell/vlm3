@@ -1,0 +1,1817 @@
+OCR Files with Text but No Blocks
+================================================================================
+
+Total: 453 files
+
+35/06
+  Text length: 970 chars
+  OCR file: work/ocr_raw/35/06.json
+
+35/04
+  Text length: 875 chars
+  OCR file: work/ocr_raw/35/04.json
+
+35/08
+  Text length: 890 chars
+  OCR file: work/ocr_raw/35/08.json
+
+35/05_1
+  Text length: 511 chars
+  OCR file: work/ocr_raw/35/05_1.json
+
+51/115
+  Text length: 483 chars
+  OCR file: work/ocr_raw/51/115.json
+
+51/230
+  Text length: 635 chars
+  OCR file: work/ocr_raw/51/230.json
+
+51/322
+  Text length: 251 chars
+  OCR file: work/ocr_raw/51/322.json
+
+51/318
+  Text length: 708 chars
+  OCR file: work/ocr_raw/51/318.json
+
+51/420
+  Text length: 725 chars
+  OCR file: work/ocr_raw/51/420.json
+
+51/162
+  Text length: 571 chars
+  OCR file: work/ocr_raw/51/162.json
+
+51/122
+  Text length: 382 chars
+  OCR file: work/ocr_raw/51/122.json
+
+51/319
+  Text length: 1059 chars
+  OCR file: work/ocr_raw/51/319.json
+
+51/460
+  Text length: 450 chars
+  OCR file: work/ocr_raw/51/460.json
+
+51/323
+  Text length: 430 chars
+  OCR file: work/ocr_raw/51/323.json
+
+51/211
+  Text length: 804 chars
+  OCR file: work/ocr_raw/51/211.json
+
+51/712
+  Text length: 676 chars
+  OCR file: work/ocr_raw/51/712.json
+
+51/342
+  Text length: 458 chars
+  OCR file: work/ocr_raw/51/342.json
+
+51/250
+  Text length: 829 chars
+  OCR file: work/ocr_raw/51/250.json
+
+51/315
+  Text length: 602 chars
+  OCR file: work/ocr_raw/51/315.json
+
+51/801
+  Text length: 857 chars
+  OCR file: work/ocr_raw/51/801.json
+
+51/440
+  Text length: 461 chars
+  OCR file: work/ocr_raw/51/440.json
+
+51/769
+  Text length: 1005 chars
+  OCR file: work/ocr_raw/51/769.json
+
+51/324
+  Text length: 666 chars
+  OCR file: work/ocr_raw/51/324.json
+
+51/220
+  Text length: 404 chars
+  OCR file: work/ocr_raw/51/220.json
+
+51/125
+  Text length: 320 chars
+  OCR file: work/ocr_raw/51/125.json
+
+51/471
+  Text length: 346 chars
+  OCR file: work/ocr_raw/51/471.json
+
+51/164
+  Text length: 331 chars
+  OCR file: work/ocr_raw/51/164.json
+
+51/810
+  Text length: 488 chars
+  OCR file: work/ocr_raw/51/810.json
+
+51/410
+  Text length: 570 chars
+  OCR file: work/ocr_raw/51/410.json
+
+51/345
+  Text length: 126 chars
+  OCR file: work/ocr_raw/51/345.json
+
+51/216
+  Text length: 535 chars
+  OCR file: work/ocr_raw/51/216.json
+
+51/240
+  Text length: 656 chars
+  OCR file: work/ocr_raw/51/240.json
+
+51/344
+  Text length: 831 chars
+  OCR file: work/ocr_raw/51/344.json
+
+51/411
+  Text length: 395 chars
+  OCR file: work/ocr_raw/51/411.json
+
+51/811
+  Text length: 700 chars
+  OCR file: work/ocr_raw/51/811.json
+
+51/431
+  Text length: 468 chars
+  OCR file: work/ocr_raw/51/431.json
+
+51/221
+  Text length: 699 chars
+  OCR file: work/ocr_raw/51/221.json
+
+51/325
+  Text length: 469 chars
+  OCR file: work/ocr_raw/51/325.json
+
+51/473
+  Text length: 336 chars
+  OCR file: work/ocr_raw/51/473.json
+
+51/131
+  Text length: 421 chars
+  OCR file: work/ocr_raw/51/131.json
+
+51/330
+  Text length: 705 chars
+  OCR file: work/ocr_raw/51/330.json
+
+51/263
+  Text length: 248 chars
+  OCR file: work/ocr_raw/51/263.json
+
+51/00-index-b
+  Text length: 1416 chars
+  OCR file: work/ocr_raw/51/00-index-b.json
+
+51/371
+  Text length: 343 chars
+  OCR file: work/ocr_raw/51/371.json
+
+51/214
+  Text length: 966 chars
+  OCR file: work/ocr_raw/51/214.json
+
+51/310
+  Text length: 1035 chars
+  OCR file: work/ocr_raw/51/310.json
+
+51/150
+  Text length: 994 chars
+  OCR file: work/ocr_raw/51/150.json
+
+51/111
+  Text length: 1239 chars
+  OCR file: work/ocr_raw/51/111.json
+
+51/813
+  Text length: 866 chars
+  OCR file: work/ocr_raw/51/813.json
+
+51/805
+  Text length: 949 chars
+  OCR file: work/ocr_raw/51/805.json
+
+51/311
+  Text length: 309 chars
+  OCR file: work/ocr_raw/51/311.json
+
+51/716
+  Text length: 1087 chars
+  OCR file: work/ocr_raw/51/716.json
+
+51/215
+  Text length: 884 chars
+  OCR file: work/ocr_raw/51/215.json
+
+51/00-index-c
+  Text length: 1086 chars
+  OCR file: work/ocr_raw/51/00-index-c.json
+
+51/472
+  Text length: 527 chars
+  OCR file: work/ocr_raw/51/472.json
+
+51/212
+  Text length: 474 chars
+  OCR file: work/ocr_raw/51/212.json
+
+51/711
+  Text length: 860 chars
+  OCR file: work/ocr_raw/51/711.json
+
+51/341
+  Text length: 402 chars
+  OCR file: work/ocr_raw/51/341.json
+
+51/802
+  Text length: 537 chars
+  OCR file: work/ocr_raw/51/802.json
+
+51/455
+  Text length: 728 chars
+  OCR file: work/ocr_raw/51/455.json
+
+51/814
+  Text length: 903 chars
+  OCR file: work/ocr_raw/51/814.json
+
+51/361
+  Text length: 481 chars
+  OCR file: work/ocr_raw/51/361.json
+
+51/770
+  Text length: 651 chars
+  OCR file: work/ocr_raw/51/770.json
+
+51/00-index-d
+  Text length: 1266 chars
+  OCR file: work/ocr_raw/51/00-index-d.json
+
+51/00-index-e
+  Text length: 1096 chars
+  OCR file: work/ocr_raw/51/00-index-e.json
+
+51/161
+  Text length: 655 chars
+  OCR file: work/ocr_raw/51/161.json
+
+51/116
+  Text length: 698 chars
+  OCR file: work/ocr_raw/51/116.json
+
+51/454
+  Text length: 294 chars
+  OCR file: work/ocr_raw/51/454.json
+
+51/710
+  Text length: 249 chars
+  OCR file: work/ocr_raw/51/710.json
+
+51/340
+  Text length: 553 chars
+  OCR file: work/ocr_raw/51/340.json
+
+34/20
+  Text length: 1327 chars
+  OCR file: work/ocr_raw/34/20.json
+
+34/41
+  Text length: 861 chars
+  OCR file: work/ocr_raw/34/41.json
+
+34/31c
+  Text length: 1955 chars
+  OCR file: work/ocr_raw/34/31c.json
+
+34/31b
+  Text length: 653 chars
+  OCR file: work/ocr_raw/34/31b.json
+
+34/40
+  Text length: 1130 chars
+  OCR file: work/ocr_raw/34/40.json
+
+34/06
+  Text length: 1117 chars
+  OCR file: work/ocr_raw/34/06.json
+
+34/34b
+  Text length: 951 chars
+  OCR file: work/ocr_raw/34/34b.json
+
+34/30
+  Text length: 1296 chars
+  OCR file: work/ocr_raw/34/30.json
+
+34/31
+  Text length: 628 chars
+  OCR file: work/ocr_raw/34/31.json
+
+34/11
+  Text length: 1329 chars
+  OCR file: work/ocr_raw/34/11.json
+
+34/28
+  Text length: 2401 chars
+  OCR file: work/ocr_raw/34/28.json
+
+34/04
+  Text length: 1296 chars
+  OCR file: work/ocr_raw/34/04.json
+
+34/00-index-b
+  Text length: 1078 chars
+  OCR file: work/ocr_raw/34/00-index-b.json
+
+34/12
+  Text length: 1818 chars
+  OCR file: work/ocr_raw/34/12.json
+
+34/45
+  Text length: 1217 chars
+  OCR file: work/ocr_raw/34/45.json
+
+34/24
+  Text length: 1097 chars
+  OCR file: work/ocr_raw/34/24.json
+
+34/08
+  Text length: 1065 chars
+  OCR file: work/ocr_raw/34/08.json
+
+34/25
+  Text length: 2069 chars
+  OCR file: work/ocr_raw/34/25.json
+
+34/44
+  Text length: 898 chars
+  OCR file: work/ocr_raw/34/44.json
+
+34/13
+  Text length: 1329 chars
+  OCR file: work/ocr_raw/34/13.json
+
+34/00-index-c
+  Text length: 85 chars
+  OCR file: work/ocr_raw/34/00-index-c.json
+
+34/29
+  Text length: 1646 chars
+  OCR file: work/ocr_raw/34/29.json
+
+34/34
+  Text length: 669 chars
+  OCR file: work/ocr_raw/34/34.json
+
+34/18
+  Text length: 443 chars
+  OCR file: work/ocr_raw/34/18.json
+
+34/38
+  Text length: 2348 chars
+  OCR file: work/ocr_raw/34/38.json
+
+34/31a
+  Text length: 1877 chars
+  OCR file: work/ocr_raw/34/31a.json
+
+34/43
+  Text length: 836 chars
+  OCR file: work/ocr_raw/34/43.json
+
+34/42
+  Text length: 945 chars
+  OCR file: work/ocr_raw/34/42.json
+
+34/39
+  Text length: 1868 chars
+  OCR file: work/ocr_raw/34/39.json
+
+34/19
+  Text length: 791 chars
+  OCR file: work/ocr_raw/34/19.json
+
+34/23
+  Text length: 1800 chars
+  OCR file: work/ocr_raw/34/23.json
+
+34/35
+  Text length: 2627 chars
+  OCR file: work/ocr_raw/34/35.json
+
+33/06
+  Text length: 1570 chars
+  OCR file: work/ocr_raw/33/06.json
+
+33/01_1
+  Text length: 402 chars
+  OCR file: work/ocr_raw/33/01_1.json
+
+33/04
+  Text length: 727 chars
+  OCR file: work/ocr_raw/33/04.json
+
+33/08
+  Text length: 614 chars
+  OCR file: work/ocr_raw/33/08.json
+
+33/13
+  Text length: 830 chars
+  OCR file: work/ocr_raw/33/13.json
+
+33/18
+  Text length: 1151 chars
+  OCR file: work/ocr_raw/33/18.json
+
+18/06
+  Text length: 705 chars
+  OCR file: work/ocr_raw/18/06.json
+
+18/04
+  Text length: 939 chars
+  OCR file: work/ocr_raw/18/04.json
+
+18/08
+  Text length: 878 chars
+  OCR file: work/ocr_raw/18/08.json
+
+11/61
+  Text length: 1664 chars
+  OCR file: work/ocr_raw/11/61.json
+
+11/57
+  Text length: 888 chars
+  OCR file: work/ocr_raw/11/57.json
+
+11/61a
+  Text length: 1742 chars
+  OCR file: work/ocr_raw/11/61a.json
+
+11/56
+  Text length: 757 chars
+  OCR file: work/ocr_raw/11/56.json
+
+11/60
+  Text length: 321 chars
+  OCR file: work/ocr_raw/11/60.json
+
+11/76
+  Text length: 1118 chars
+  OCR file: work/ocr_raw/11/76.json
+
+11/52b
+  Text length: 1013 chars
+  OCR file: work/ocr_raw/11/52b.json
+
+11/105
+  Text length: 300 chars
+  OCR file: work/ocr_raw/11/105.json
+
+11/53c
+  Text length: 1274 chars
+  OCR file: work/ocr_raw/11/53c.json
+
+11/66
+  Text length: 393 chars
+  OCR file: work/ocr_raw/11/66.json
+
+11/69
+  Text length: 884 chars
+  OCR file: work/ocr_raw/11/69.json
+
+11/00-index-b
+  Text length: 960 chars
+  OCR file: work/ocr_raw/11/00-index-b.json
+
+11/53a
+  Text length: 1248 chars
+  OCR file: work/ocr_raw/11/53a.json
+
+11/72
+  Text length: 841 chars
+  OCR file: work/ocr_raw/11/72.json
+
+11/64
+  Text length: 1467 chars
+  OCR file: work/ocr_raw/11/64.json
+
+11/00-index-c
+  Text length: 339 chars
+  OCR file: work/ocr_raw/11/00-index-c.json
+
+11/68
+  Text length: 1092 chars
+  OCR file: work/ocr_raw/11/68.json
+
+11/63
+  Text length: 1039 chars
+  OCR file: work/ocr_raw/11/63.json
+
+11/52a
+  Text length: 986 chars
+  OCR file: work/ocr_raw/11/52a.json
+
+11/55
+  Text length: 699 chars
+  OCR file: work/ocr_raw/11/55.json
+
+11/78b
+  Text length: 365 chars
+  OCR file: work/ocr_raw/11/78b.json
+
+11/78
+  Text length: 508 chars
+  OCR file: work/ocr_raw/11/78.json
+
+11/58
+  Text length: 1134 chars
+  OCR file: work/ocr_raw/11/58.json
+
+16/06
+  Text length: 57 chars
+  OCR file: work/ocr_raw/16/06.json
+
+16/11
+  Text length: 972 chars
+  OCR file: work/ocr_raw/16/11.json
+
+16/04
+  Text length: 392 chars
+  OCR file: work/ocr_raw/16/04.json
+
+16/08
+  Text length: 1175 chars
+  OCR file: work/ocr_raw/16/08.json
+
+17/06
+  Text length: 1038 chars
+  OCR file: work/ocr_raw/17/06.json
+
+17/04_1
+  Text length: 832 chars
+  OCR file: work/ocr_raw/17/04_1.json
+
+17/04
+  Text length: 817 chars
+  OCR file: work/ocr_raw/17/04.json
+
+26/06
+  Text length: 878 chars
+  OCR file: work/ocr_raw/26/06.json
+
+26/01a
+  Text length: 82 chars
+  OCR file: work/ocr_raw/26/01a.json
+
+26/11
+  Text length: 143 chars
+  OCR file: work/ocr_raw/26/11.json
+
+26/04
+  Text length: 1195 chars
+  OCR file: work/ocr_raw/26/04.json
+
+26/12
+  Text length: 364 chars
+  OCR file: work/ocr_raw/26/12.json
+
+26/08
+  Text length: 1088 chars
+  OCR file: work/ocr_raw/26/08.json
+
+26/13
+  Text length: 205 chars
+  OCR file: work/ocr_raw/26/13.json
+
+21/06
+  Text length: 805 chars
+  OCR file: work/ocr_raw/21/06.json
+
+21/04
+  Text length: 891 chars
+  OCR file: work/ocr_raw/21/04.json
+
+72/115
+  Text length: 1752 chars
+  OCR file: work/ocr_raw/72/115.json
+
+72/118
+  Text length: 1417 chars
+  OCR file: work/ocr_raw/72/118.json
+
+72/113
+  Text length: 860 chars
+  OCR file: work/ocr_raw/72/113.json
+
+72/112
+  Text length: 527 chars
+  OCR file: work/ocr_raw/72/112.json
+
+72/111
+  Text length: 756 chars
+  OCR file: work/ocr_raw/72/111.json
+
+00/20
+  Text length: 188 chars
+  OCR file: work/ocr_raw/00/20.json
+
+00/06
+  Text length: 382 chars
+  OCR file: work/ocr_raw/00/06.json
+
+00/27
+  Text length: 282 chars
+  OCR file: work/ocr_raw/00/27.json
+
+00/04
+  Text length: 408 chars
+  OCR file: work/ocr_raw/00/04.json
+
+00/12
+  Text length: 534 chars
+  OCR file: work/ocr_raw/00/12.json
+
+00/08
+  Text length: 212 chars
+  OCR file: work/ocr_raw/00/08.json
+
+00/25
+  Text length: 743 chars
+  OCR file: work/ocr_raw/00/25.json
+
+00/13
+  Text length: 127 chars
+  OCR file: work/ocr_raw/00/13.json
+
+00/00-intro-01
+  Text length: 1766 chars
+  OCR file: work/ocr_raw/00/00-intro-01.json
+
+00/18
+  Text length: 302 chars
+  OCR file: work/ocr_raw/00/18.json
+
+00/23
+  Text length: 139 chars
+  OCR file: work/ocr_raw/00/23.json
+
+36/06
+  Text length: 752 chars
+  OCR file: work/ocr_raw/36/06.json
+
+36/11
+  Text length: 1628 chars
+  OCR file: work/ocr_raw/36/11.json
+
+36/04
+  Text length: 1371 chars
+  OCR file: work/ocr_raw/36/04.json
+
+36/08
+  Text length: 915 chars
+  OCR file: work/ocr_raw/36/08.json
+
+31/20
+  Text length: 848 chars
+  OCR file: work/ocr_raw/31/20.json
+
+31/05_2
+  Text length: 653 chars
+  OCR file: work/ocr_raw/31/05_2.json
+
+31/10_1
+  Text length: 349 chars
+  OCR file: work/ocr_raw/31/10_1.json
+
+31/37
+  Text length: 1198 chars
+  OCR file: work/ocr_raw/31/37.json
+
+31/06
+  Text length: 690 chars
+  OCR file: work/ocr_raw/31/06.json
+
+31/11_2
+  Text length: 130 chars
+  OCR file: work/ocr_raw/31/11_2.json
+
+31/06_1
+  Text length: 444 chars
+  OCR file: work/ocr_raw/31/06_1.json
+
+31/26
+  Text length: 492 chars
+  OCR file: work/ocr_raw/31/26.json
+
+31/30
+  Text length: 1091 chars
+  OCR file: work/ocr_raw/31/30.json
+
+31/31
+  Text length: 451 chars
+  OCR file: work/ocr_raw/31/31.json
+
+31/27
+  Text length: 786 chars
+  OCR file: work/ocr_raw/31/27.json
+
+31/16_1
+  Text length: 1598 chars
+  OCR file: work/ocr_raw/31/16_1.json
+
+31/46
+  Text length: 368 chars
+  OCR file: work/ocr_raw/31/46.json
+
+31/04
+  Text length: 919 chars
+  OCR file: work/ocr_raw/31/04.json
+
+31/00-index-b
+  Text length: 976 chars
+  OCR file: work/ocr_raw/31/00-index-b.json
+
+31/12
+  Text length: 333 chars
+  OCR file: work/ocr_raw/31/12.json
+
+31/45
+  Text length: 1084 chars
+  OCR file: work/ocr_raw/31/45.json
+
+31/08
+  Text length: 573 chars
+  OCR file: work/ocr_raw/31/08.json
+
+31/13
+  Text length: 1025 chars
+  OCR file: work/ocr_raw/31/13.json
+
+31/00-index-c
+  Text length: 650 chars
+  OCR file: work/ocr_raw/31/00-index-c.json
+
+31/11_1
+  Text length: 1271 chars
+  OCR file: work/ocr_raw/31/11_1.json
+
+31/29
+  Text length: 594 chars
+  OCR file: work/ocr_raw/31/29.json
+
+31/18
+  Text length: 1311 chars
+  OCR file: work/ocr_raw/31/18.json
+
+31/38
+  Text length: 293 chars
+  OCR file: work/ocr_raw/31/38.json
+
+31/05_1
+  Text length: 1288 chars
+  OCR file: work/ocr_raw/31/05_1.json
+
+31/19
+  Text length: 920 chars
+  OCR file: work/ocr_raw/31/19.json
+
+31/23
+  Text length: 1030 chars
+  OCR file: work/ocr_raw/31/23.json
+
+31/35
+  Text length: 542 chars
+  OCR file: work/ocr_raw/31/35.json
+
+65/302
+  Text length: 944 chars
+  OCR file: work/ocr_raw/65/302.json
+
+65/303
+  Text length: 735 chars
+  OCR file: work/ocr_raw/65/303.json
+
+65/354
+  Text length: 918 chars
+  OCR file: work/ocr_raw/65/354.json
+
+65/152
+  Text length: 1194 chars
+  OCR file: work/ocr_raw/65/152.json
+
+65/352
+  Text length: 1326 chars
+  OCR file: work/ocr_raw/65/352.json
+
+65/151a
+  Text length: 373 chars
+  OCR file: work/ocr_raw/65/151a.json
+
+65/153
+  Text length: 515 chars
+  OCR file: work/ocr_raw/65/153.json
+
+65/00-index-b
+  Text length: 264 chars
+  OCR file: work/ocr_raw/65/00-index-b.json
+
+65/351
+  Text length: 1196 chars
+  OCR file: work/ocr_raw/65/351.json
+
+65/151
+  Text length: 840 chars
+  OCR file: work/ocr_raw/65/151.json
+
+65/307
+  Text length: 1427 chars
+  OCR file: work/ocr_raw/65/307.json
+
+65/91
+  Text length: 470 chars
+  OCR file: work/ocr_raw/65/91.json
+
+65/360
+  Text length: 509 chars
+  OCR file: work/ocr_raw/65/360.json
+
+65/356
+  Text length: 522 chars
+  OCR file: work/ocr_raw/65/356.json
+
+Bosch Motronic ML 3-1/20
+  Text length: 706 chars
+  OCR file: work/ocr_raw/Bosch Motronic ML 3-1/20.json
+
+Bosch Motronic ML 3-1/06
+  Text length: 2110 chars
+  OCR file: work/ocr_raw/Bosch Motronic ML 3-1/06.json
+
+Bosch Motronic ML 3-1/12
+  Text length: 1616 chars
+  OCR file: work/ocr_raw/Bosch Motronic ML 3-1/12.json
+
+Bosch Motronic ML 3-1/18
+  Text length: 1035 chars
+  OCR file: work/ocr_raw/Bosch Motronic ML 3-1/18.json
+
+62/61
+  Text length: 1205 chars
+  OCR file: work/ocr_raw/62/61.json
+
+62/76
+  Text length: 1484 chars
+  OCR file: work/ocr_raw/62/76.json
+
+62/71
+  Text length: 930 chars
+  OCR file: work/ocr_raw/62/71.json
+
+62/85
+  Text length: 1554 chars
+  OCR file: work/ocr_raw/62/85.json
+
+62/04
+  Text length: 410 chars
+  OCR file: work/ocr_raw/62/04.json
+
+62/73
+  Text length: 840 chars
+  OCR file: work/ocr_raw/62/73.json
+
+62/72
+  Text length: 804 chars
+  OCR file: work/ocr_raw/62/72.json
+
+62/81
+  Text length: 1134 chars
+  OCR file: work/ocr_raw/62/81.json
+
+54/14_1
+  Text length: 2848 chars
+  OCR file: work/ocr_raw/54/14_1.json
+
+54/06
+  Text length: 585 chars
+  OCR file: work/ocr_raw/54/06.json
+
+54/04
+  Text length: 458 chars
+  OCR file: work/ocr_raw/54/04.json
+
+54/08
+  Text length: 964 chars
+  OCR file: work/ocr_raw/54/08.json
+
+54/18
+  Text length: 756 chars
+  OCR file: work/ocr_raw/54/18.json
+
+63/04
+  Text length: 393 chars
+  OCR file: work/ocr_raw/63/04.json
+
+64/504
+  Text length: 685 chars
+  OCR file: work/ocr_raw/64/504.json
+
+64/123
+  Text length: 442 chars
+  OCR file: work/ocr_raw/64/123.json
+
+64/122
+  Text length: 234 chars
+  OCR file: work/ocr_raw/64/122.json
+
+64/118
+  Text length: 576 chars
+  OCR file: work/ocr_raw/64/118.json
+
+64/505
+  Text length: 966 chars
+  OCR file: work/ocr_raw/64/505.json
+
+64/06
+  Text length: 1135 chars
+  OCR file: work/ocr_raw/64/06.json
+
+64/113
+  Text length: 877 chars
+  OCR file: work/ocr_raw/64/113.json
+
+64/502
+  Text length: 343 chars
+  OCR file: work/ocr_raw/64/502.json
+
+64/505a
+  Text length: 1150 chars
+  OCR file: work/ocr_raw/64/505a.json
+
+64/503
+  Text length: 795 chars
+  OCR file: work/ocr_raw/64/503.json
+
+64/112
+  Text length: 811 chars
+  OCR file: work/ocr_raw/64/112.json
+
+64/04
+  Text length: 1902 chars
+  OCR file: work/ocr_raw/64/04.json
+
+64/00-index-b
+  Text length: 430 chars
+  OCR file: work/ocr_raw/64/00-index-b.json
+
+64/08
+  Text length: 1450 chars
+  OCR file: work/ocr_raw/64/08.json
+
+64/500
+  Text length: 721 chars
+  OCR file: work/ocr_raw/64/500.json
+
+64/111
+  Text length: 880 chars
+  OCR file: work/ocr_raw/64/111.json
+
+64/501
+  Text length: 397 chars
+  OCR file: work/ocr_raw/64/501.json
+
+64/506
+  Text length: 880 chars
+  OCR file: work/ocr_raw/64/506.json
+
+64/117
+  Text length: 439 chars
+  OCR file: work/ocr_raw/64/117.json
+
+64/121
+  Text length: 447 chars
+  OCR file: work/ocr_raw/64/121.json
+
+64/116
+  Text length: 958 chars
+  OCR file: work/ocr_raw/64/116.json
+
+64/507
+  Text length: 861 chars
+  OCR file: work/ocr_raw/64/507.json
+
+1990/6500A-02
+  Text length: 1436 chars
+  OCR file: work/ocr_raw/1990/6500A-02.json
+
+1990/5126A-02
+  Text length: 1837 chars
+  OCR file: work/ocr_raw/1990/5126A-02.json
+
+1990/5126A-03
+  Text length: 2990 chars
+  OCR file: work/ocr_raw/1990/5126A-03.json
+
+1990/6500A-03
+  Text length: 988 chars
+  OCR file: work/ocr_raw/1990/6500A-03.json
+
+1990/06
+  Text length: 815 chars
+  OCR file: work/ocr_raw/1990/06.json
+
+1990/01-index-a
+  Text length: 366 chars
+  OCR file: work/ocr_raw/1990/01-index-a.json
+
+1990/02-index-b
+  Text length: 2876 chars
+  OCR file: work/ocr_raw/1990/02-index-b.json
+
+1990/04
+  Text length: 2648 chars
+  OCR file: work/ocr_raw/1990/04.json
+
+1990/12
+  Text length: 197 chars
+  OCR file: work/ocr_raw/1990/12.json
+
+1990/08
+  Text length: 471 chars
+  OCR file: work/ocr_raw/1990/08.json
+
+1990/00-cover
+  Text length: 102 chars
+  OCR file: work/ocr_raw/1990/00-cover.json
+
+1990/13
+  Text length: 860 chars
+  OCR file: work/ocr_raw/1990/13.json
+
+1990/5126A-00
+  Text length: 1332 chars
+  OCR file: work/ocr_raw/1990/5126A-00.json
+
+41/504
+  Text length: 883 chars
+  OCR file: work/ocr_raw/41/504.json
+
+41/103
+  Text length: 691 chars
+  OCR file: work/ocr_raw/41/103.json
+
+41/601
+  Text length: 1131 chars
+  OCR file: work/ocr_raw/41/601.json
+
+41/508
+  Text length: 846 chars
+  OCR file: work/ocr_raw/41/508.json
+
+41/122
+  Text length: 1183 chars
+  OCR file: work/ocr_raw/41/122.json
+
+41/319
+  Text length: 432 chars
+  OCR file: work/ocr_raw/41/319.json
+
+41/106c
+  Text length: 674 chars
+  OCR file: work/ocr_raw/41/106c.json
+
+41/211
+  Text length: 710 chars
+  OCR file: work/ocr_raw/41/211.json
+
+41/315
+  Text length: 300 chars
+  OCR file: work/ocr_raw/41/315.json
+
+41/505
+  Text length: 1158 chars
+  OCR file: work/ocr_raw/41/505.json
+
+41/202c
+  Text length: 649 chars
+  OCR file: work/ocr_raw/41/202c.json
+
+41/103c
+  Text length: 285 chars
+  OCR file: work/ocr_raw/41/103c.json
+
+41/502
+  Text length: 482 chars
+  OCR file: work/ocr_raw/41/502.json
+
+41/304c
+  Text length: 391 chars
+  OCR file: work/ocr_raw/41/304c.json
+
+41/503
+  Text length: 566 chars
+  OCR file: work/ocr_raw/41/503.json
+
+41/00-index-b
+  Text length: 617 chars
+  OCR file: work/ocr_raw/41/00-index-b.json
+
+41/003
+  Text length: 1498 chars
+  OCR file: work/ocr_raw/41/003.json
+
+41/111
+  Text length: 733 chars
+  OCR file: work/ocr_raw/41/111.json
+
+41/002
+  Text length: 2016 chars
+  OCR file: work/ocr_raw/41/002.json
+
+41/501
+  Text length: 1025 chars
+  OCR file: work/ocr_raw/41/501.json
+
+41/311
+  Text length: 295 chars
+  OCR file: work/ocr_raw/41/311.json
+
+41/126
+  Text length: 331 chars
+  OCR file: work/ocr_raw/41/126.json
+
+41/316
+  Text length: 455 chars
+  OCR file: work/ocr_raw/41/316.json
+
+41/506
+  Text length: 454 chars
+  OCR file: work/ocr_raw/41/506.json
+
+41/117
+  Text length: 240 chars
+  OCR file: work/ocr_raw/41/117.json
+
+41/108c
+  Text length: 619 chars
+  OCR file: work/ocr_raw/41/108c.json
+
+41/113c
+  Text length: 660 chars
+  OCR file: work/ocr_raw/41/113c.json
+
+41/117c
+  Text length: 718 chars
+  OCR file: work/ocr_raw/41/117c.json
+
+41/00-index-e
+  Text length: 672 chars
+  OCR file: work/ocr_raw/41/00-index-e.json
+
+41/120
+  Text length: 413 chars
+  OCR file: work/ocr_raw/41/120.json
+
+41/602
+  Text length: 947 chars
+  OCR file: work/ocr_raw/41/602.json
+
+41/301
+  Text length: 941 chars
+  OCR file: work/ocr_raw/41/301.json
+
+23/115
+  Text length: 1372 chars
+  OCR file: work/ocr_raw/23/115.json
+
+23/103
+  Text length: 735 chars
+  OCR file: work/ocr_raw/23/103.json
+
+23/20
+  Text length: 984 chars
+  OCR file: work/ocr_raw/23/20.json
+
+23/302
+  Text length: 1129 chars
+  OCR file: work/ocr_raw/23/302.json
+
+23/00-index-f
+  Text length: 306 chars
+  OCR file: work/ocr_raw/23/00-index-f.json
+
+23/322
+  Text length: 1044 chars
+  OCR file: work/ocr_raw/23/322.json
+
+23/174
+  Text length: 1218 chars
+  OCR file: work/ocr_raw/23/174.json
+
+23/318
+  Text length: 789 chars
+  OCR file: work/ocr_raw/23/318.json
+
+23/319
+  Text length: 1436 chars
+  OCR file: work/ocr_raw/23/319.json
+
+23/175
+  Text length: 1005 chars
+  OCR file: work/ocr_raw/23/175.json
+
+23/118
+  Text length: 1250 chars
+  OCR file: work/ocr_raw/23/118.json
+
+23/180
+  Text length: 1712 chars
+  OCR file: work/ocr_raw/23/180.json
+
+23/303
+  Text length: 822 chars
+  OCR file: work/ocr_raw/23/303.json
+
+23/179
+  Text length: 1191 chars
+  OCR file: work/ocr_raw/23/179.json
+
+23/21
+  Text length: 680 chars
+  OCR file: work/ocr_raw/23/21.json
+
+23/315
+  Text length: 944 chars
+  OCR file: work/ocr_raw/23/315.json
+
+23/324
+  Text length: 840 chars
+  OCR file: work/ocr_raw/23/324.json
+
+23/06
+  Text length: 1052 chars
+  OCR file: work/ocr_raw/23/06.json
+
+23/172
+  Text length: 943 chars
+  OCR file: work/ocr_raw/23/172.json
+
+23/173a
+  Text length: 943 chars
+  OCR file: work/ocr_raw/23/173a.json
+
+23/308
+  Text length: 1055 chars
+  OCR file: work/ocr_raw/23/308.json
+
+23/113
+  Text length: 1030 chars
+  OCR file: work/ocr_raw/23/113.json
+
+23/312
+  Text length: 833 chars
+  OCR file: work/ocr_raw/23/312.json
+
+23/304
+  Text length: 775 chars
+  OCR file: work/ocr_raw/23/304.json
+
+23/187
+  Text length: 567 chars
+  OCR file: work/ocr_raw/23/187.json
+
+23/168
+  Text length: 1393 chars
+  OCR file: work/ocr_raw/23/168.json
+
+23/186
+  Text length: 1116 chars
+  OCR file: work/ocr_raw/23/186.json
+
+23/169
+  Text length: 1186 chars
+  OCR file: work/ocr_raw/23/169.json
+
+23/305
+  Text length: 933 chars
+  OCR file: work/ocr_raw/23/305.json
+
+23/03a
+  Text length: 400 chars
+  OCR file: work/ocr_raw/23/03a.json
+
+23/173
+  Text length: 983 chars
+  OCR file: work/ocr_raw/23/173.json
+
+23/11
+  Text length: 792 chars
+  OCR file: work/ocr_raw/23/11.json
+
+23/166
+  Text length: 391 chars
+  OCR file: work/ocr_raw/23/166.json
+
+23/170
+  Text length: 1492 chars
+  OCR file: work/ocr_raw/23/170.json
+
+23/04
+  Text length: 1036 chars
+  OCR file: work/ocr_raw/23/04.json
+
+23/00-index-b
+  Text length: 835 chars
+  OCR file: work/ocr_raw/23/00-index-b.json
+
+23/12
+  Text length: 439 chars
+  OCR file: work/ocr_raw/23/12.json
+
+23/185
+  Text length: 973 chars
+  OCR file: work/ocr_raw/23/185.json
+
+23/306
+  Text length: 603 chars
+  OCR file: work/ocr_raw/23/306.json
+
+23/03b
+  Text length: 1280 chars
+  OCR file: work/ocr_raw/23/03b.json
+
+23/310
+  Text length: 1427 chars
+  OCR file: work/ocr_raw/23/310.json
+
+23/08
+  Text length: 1185 chars
+  OCR file: work/ocr_raw/23/08.json
+
+23/111
+  Text length: 761 chars
+  OCR file: work/ocr_raw/23/111.json
+
+23/311
+  Text length: 680 chars
+  OCR file: work/ocr_raw/23/311.json
+
+23/307
+  Text length: 1002 chars
+  OCR file: work/ocr_raw/23/307.json
+
+23/184
+  Text length: 1029 chars
+  OCR file: work/ocr_raw/23/184.json
+
+23/13
+  Text length: 1190 chars
+  OCR file: work/ocr_raw/23/13.json
+
+23/00-index-c
+  Text length: 633 chars
+  OCR file: work/ocr_raw/23/00-index-c.json
+
+23/171
+  Text length: 675 chars
+  OCR file: work/ocr_raw/23/171.json
+
+23/188
+  Text length: 1566 chars
+  OCR file: work/ocr_raw/23/188.json
+
+23/18
+  Text length: 1091 chars
+  OCR file: work/ocr_raw/23/18.json
+
+23/121
+  Text length: 1277 chars
+  OCR file: work/ocr_raw/23/121.json
+
+23/176
+  Text length: 1167 chars
+  OCR file: work/ocr_raw/23/176.json
+
+23/00-index-d
+  Text length: 328 chars
+  OCR file: work/ocr_raw/23/00-index-d.json
+
+23/00-index-e
+  Text length: 735 chars
+  OCR file: work/ocr_raw/23/00-index-e.json
+
+23/177
+  Text length: 806 chars
+  OCR file: work/ocr_raw/23/177.json
+
+23/120
+  Text length: 917 chars
+  OCR file: work/ocr_raw/23/120.json
+
+23/116
+  Text length: 693 chars
+  OCR file: work/ocr_raw/23/116.json
+
+23/19
+  Text length: 991 chars
+  OCR file: work/ocr_raw/23/19.json
+
+23/317
+  Text length: 1207 chars
+  OCR file: work/ocr_raw/23/317.json
+
+12/115
+  Text length: 403 chars
+  OCR file: work/ocr_raw/12/115.json
+
+12/142
+  Text length: 951 chars
+  OCR file: work/ocr_raw/12/142.json
+
+12/154
+  Text length: 987 chars
+  OCR file: work/ocr_raw/12/154.json
+
+12/20
+  Text length: 1248 chars
+  OCR file: work/ocr_raw/12/20.json
+
+12/41
+  Text length: 1166 chars
+  OCR file: work/ocr_raw/12/41.json
+
+12/00
+  Text length: 1336 chars
+  OCR file: work/ocr_raw/12/00.json
+
+12/134
+  Text length: 1457 chars
+  OCR file: work/ocr_raw/12/134.json
+
+12/108_1
+  Text length: 825 chars
+  OCR file: work/ocr_raw/12/108_1.json
+
+12/143_1
+  Text length: 377 chars
+  OCR file: work/ocr_raw/12/143_1.json
+
+12/107_4
+  Text length: 443 chars
+  OCR file: work/ocr_raw/12/107_4.json
+
+12/132_1
+  Text length: 462 chars
+  OCR file: work/ocr_raw/12/132_1.json
+
+12/40
+  Text length: 1576 chars
+  OCR file: work/ocr_raw/12/40.json
+
+12/142_2
+  Text length: 201 chars
+  OCR file: work/ocr_raw/12/142_2.json
+
+12/107_3
+  Text length: 1712 chars
+  OCR file: work/ocr_raw/12/107_3.json
+
+12/06
+  Text length: 928 chars
+  OCR file: work/ocr_raw/12/06.json
+
+12/113
+  Text length: 710 chars
+  OCR file: work/ocr_raw/12/113.json
+
+12/152
+  Text length: 704 chars
+  OCR file: work/ocr_raw/12/152.json
+
+12/105
+  Text length: 443 chars
+  OCR file: work/ocr_raw/12/105.json
+
+12/200
+  Text length: 920 chars
+  OCR file: work/ocr_raw/12/200.json
+
+12/153
+  Text length: 1395 chars
+  OCR file: work/ocr_raw/12/153.json
+
+12/108
+  Text length: 194 chars
+  OCR file: work/ocr_raw/12/108.json
+
+12/01a
+  Text length: 909 chars
+  OCR file: work/ocr_raw/12/01a.json
+
+12/107_2
+  Text length: 960 chars
+  OCR file: work/ocr_raw/12/107_2.json
+
+12/142_3
+  Text length: 327 chars
+  OCR file: work/ocr_raw/12/142_3.json
+
+12/131
+  Text length: 836 chars
+  OCR file: work/ocr_raw/12/131.json
+
+12/04
+  Text length: 1040 chars
+  OCR file: work/ocr_raw/12/04.json
+
+12/00-index-b
+  Text length: 325 chars
+  OCR file: work/ocr_raw/12/00-index-b.json
+
+12/107_1
+  Text length: 699 chars
+  OCR file: work/ocr_raw/12/107_1.json
+
+12/45
+  Text length: 1124 chars
+  OCR file: work/ocr_raw/12/45.json
+
+12/08
+  Text length: 450 chars
+  OCR file: work/ocr_raw/12/08.json
+
+12/150
+  Text length: 992 chars
+  OCR file: work/ocr_raw/12/150.json
+
+12/111
+  Text length: 1213 chars
+  OCR file: work/ocr_raw/12/111.json
+
+12/151
+  Text length: 625 chars
+  OCR file: work/ocr_raw/12/151.json
+
+12/44
+  Text length: 623 chars
+  OCR file: work/ocr_raw/12/44.json
+
+12/142_1
+  Text length: 940 chars
+  OCR file: work/ocr_raw/12/142_1.json
+
+12/00-index-c
+  Text length: 1111 chars
+  OCR file: work/ocr_raw/12/00-index-c.json
+
+12/107a
+  Text length: 611 chars
+  OCR file: work/ocr_raw/12/107a.json
+
+12/112_2
+  Text length: 961 chars
+  OCR file: work/ocr_raw/12/112_2.json
+
+12/130
+  Text length: 889 chars
+  OCR file: work/ocr_raw/12/130.json
+
+12/160
+  Text length: 864 chars
+  OCR file: work/ocr_raw/12/160.json
+
+12/143_2
+  Text length: 651 chars
+  OCR file: work/ocr_raw/12/143_2.json
+
+12/00-index-d
+  Text length: 1344 chars
+  OCR file: work/ocr_raw/12/00-index-d.json
+
+12/43
+  Text length: 618 chars
+  OCR file: work/ocr_raw/12/43.json
+
+12/42
+  Text length: 415 chars
+  OCR file: work/ocr_raw/12/42.json
+
+12/00-index-e
+  Text length: 231 chars
+  OCR file: work/ocr_raw/12/00-index-e.json
+
+12/141
+  Text length: 1180 chars
+  OCR file: work/ocr_raw/12/141.json
+
+12/100
+  Text length: 1356 chars
+  OCR file: work/ocr_raw/12/100.json
+
+12/23
+  Text length: 863 chars
+  OCR file: work/ocr_raw/12/23.json
+
+13/904
+  Text length: 976 chars
+  OCR file: work/ocr_raw/13/904.json
+
+13/912
+  Text length: 2095 chars
+  OCR file: work/ocr_raw/13/912.json
+
+13/800
+  Text length: 1056 chars
+  OCR file: work/ocr_raw/13/800.json
+
+13/713
+  Text length: 964 chars
+  OCR file: work/ocr_raw/13/713.json
+
+13/640
+  Text length: 855 chars
+  OCR file: work/ocr_raw/13/640.json
+
+13/908
+  Text length: 213 chars
+  OCR file: work/ocr_raw/13/908.json
+
+13/932
+  Text length: 2141 chars
+  OCR file: work/ocr_raw/13/932.json
+
+13/732
+  Text length: 1188 chars
+  OCR file: work/ocr_raw/13/732.json
+
+13/620
+  Text length: 549 chars
+  OCR file: work/ocr_raw/13/620.json
+
+13/909
+  Text length: 231 chars
+  OCR file: work/ocr_raw/13/909.json
+
+13/641
+  Text length: 792 chars
+  OCR file: work/ocr_raw/13/641.json
+
+13/856
+  Text length: 1047 chars
+  OCR file: work/ocr_raw/13/856.json
+
+13/631
+  Text length: 261 chars
+  OCR file: work/ocr_raw/13/631.json
+
+13/762
+  Text length: 857 chars
+  OCR file: work/ocr_raw/13/762.json
+
+13/810
+  Text length: 1078 chars
+  OCR file: work/ocr_raw/13/810.json
+
+13/902
+  Text length: 490 chars
+  OCR file: work/ocr_raw/13/902.json
+
+13/781
+  Text length: 642 chars
+  OCR file: work/ocr_raw/13/781.json
+
+13/703
+  Text length: 1030 chars
+  OCR file: work/ocr_raw/13/703.json
+
+13/850
+  Text length: 816 chars
+  OCR file: work/ocr_raw/13/850.json
+
+13/903
+  Text length: 678 chars
+  OCR file: work/ocr_raw/13/903.json
+
+13/626
+  Text length: 889 chars
+  OCR file: work/ocr_raw/13/626.json
+
+13/630
+  Text length: 642 chars
+  OCR file: work/ocr_raw/13/630.json
+
+13/760
+  Text length: 744 chars
+  OCR file: work/ocr_raw/13/760.json
+
+13/613
+  Text length: 402 chars
+  OCR file: work/ocr_raw/13/613.json
+
+13/804
+  Text length: 1068 chars
+  OCR file: work/ocr_raw/13/804.json
+
+13/629
+  Text length: 874 chars
+  OCR file: work/ocr_raw/13/629.json
+
+13/812
+  Text length: 1165 chars
+  OCR file: work/ocr_raw/13/812.json
+
+13/901
+  Text length: 1308 chars
+  OCR file: work/ocr_raw/13/901.json
+
+13/852
+  Text length: 1260 chars
+  OCR file: work/ocr_raw/13/852.json
+
+13/700
+  Text length: 481 chars
+  OCR file: work/ocr_raw/13/700.json
+
+13/720
+  Text length: 627 chars
+  OCR file: work/ocr_raw/13/720.json
+
+13/642
+  Text length: 485 chars
+  OCR file: work/ocr_raw/13/642.json
+
+13/802
+  Text length: 1148 chars
+  OCR file: work/ocr_raw/13/802.json
+
+13/910
+  Text length: 339 chars
+  OCR file: work/ocr_raw/13/910.json
+
+13/906
+  Text length: 704 chars
+  OCR file: work/ocr_raw/13/906.json
+
+13/814
+  Text length: 1143 chars
+  OCR file: work/ocr_raw/13/814.json
+
+13/771
+  Text length: 934 chars
+  OCR file: work/ocr_raw/13/771.json
+
+13/730
+  Text length: 965 chars
+  OCR file: work/ocr_raw/13/730.json
+
+13/907
+  Text length: 446 chars
+  OCR file: work/ocr_raw/13/907.json
+
+13/643
+  Text length: 1112 chars
+  OCR file: work/ocr_raw/13/643.json
+
+25/20
+  Text length: 747 chars
+  OCR file: work/ocr_raw/25/20.json
+
+25/21
+  Text length: 750 chars
+  OCR file: work/ocr_raw/25/21.json
+
+25/06
+  Text length: 256 chars
+  OCR file: work/ocr_raw/25/06.json
+
+25/11
+  Text length: 618 chars
+  OCR file: work/ocr_raw/25/11.json
+
+25/12
+  Text length: 672 chars
+  OCR file: work/ocr_raw/25/12.json
+
+25/08
+  Text length: 855 chars
+  OCR file: work/ocr_raw/25/08.json
+
+25/13
+  Text length: 931 chars
+  OCR file: work/ocr_raw/25/13.json
+
+25/19
+  Text length: 740 chars
+  OCR file: work/ocr_raw/25/19.json
+

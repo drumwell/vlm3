@@ -148,13 +148,15 @@ def generate_question_variations(label: str, value: str, model: str, section: st
     # Limit to 4-5 variations to avoid over-representation
     questions = list(set(questions))[:5]
 
-    # Create training examples
+    # Create training examples in instruction/output format
     for question in questions:
+        # Remove [SPEC] prefix if present for instruction field
+        instruction = question.replace("[SPEC] ", "")
+
         example = {
-            "messages": [
-                {"role": "user", "content": question},
-                {"role": "assistant", "content": value}
-            ],
+            "instruction": instruction,
+            "input": "",
+            "output": value,
             "meta": {
                 "task": "spec",
                 "source": f"{model}_techspec_html",
@@ -204,51 +206,32 @@ def main():
         print("❌ No examples extracted. Check HTML files.")
         return
 
-    # Shuffle and split 90/10
-    random.shuffle(all_examples)
-    split_idx = int(len(all_examples) * 0.9)
-    train_examples = all_examples[:split_idx]
-    val_examples = all_examples[split_idx:]
-
-    print(f"\n📊 Split: {len(train_examples)} train, {len(val_examples)} val")
-
-    # Append to existing HF datasets
-    train_file = data_dir / 'hf_train.jsonl'
-    val_file = data_dir / 'hf_val.jsonl'
+    # Append to consolidated dataset
+    dataset_file = data_dir / 'dataset.jsonl'
 
     # Count existing examples
-    existing_train = 0
-    existing_val = 0
+    existing_count = 0
+    if dataset_file.exists():
+        with open(dataset_file, 'r') as f:
+            existing_count = sum(1 for _ in f)
 
-    if train_file.exists():
-        with open(train_file, 'r') as f:
-            existing_train = sum(1 for _ in f)
+    print(f"\n📝 Appending to consolidated dataset:")
+    print(f"   Existing: {existing_count} examples")
+    print(f"   Adding:   {len(all_examples)} HTML specs")
+    print(f"   Total:    {existing_count + len(all_examples)} examples")
 
-    if val_file.exists():
-        with open(val_file, 'r') as f:
-            existing_val = sum(1 for _ in f)
-
-    print(f"\n📝 Appending to existing datasets:")
-    print(f"   Train: {existing_train} → {existing_train + len(train_examples)}")
-    print(f"   Val:   {existing_val} → {existing_val + len(val_examples)}")
-
-    # Append training examples
-    with open(train_file, 'a') as f:
-        for example in train_examples:
-            f.write(json.dumps(example) + '\n')
-
-    # Append validation examples
-    with open(val_file, 'a') as f:
-        for example in val_examples:
+    # Append all HTML examples
+    with open(dataset_file, 'a') as f:
+        for example in all_examples:
             f.write(json.dumps(example) + '\n')
 
     print(f"\n✅ Successfully appended HTML tech spec examples!")
 
     # Show sample
     print(f"\n📝 Sample extracted example:")
-    sample = train_examples[0]
-    print(f"   Question: {sample['messages'][0]['content']}")
-    print(f"   Answer: {sample['messages'][1]['content']}")
+    sample = all_examples[0]
+    print(f"   Question: {sample['instruction']}")
+    print(f"   Answer: {sample['output']}")
     print(f"   Section: {sample['meta']['section']}")
     print(f"   Topic: {sample['meta']['topic']}")
 
