@@ -10,19 +10,23 @@
 # Run full pipeline (from scratch)
 make all
 
-# Or run individual stages
-make inventory    # Catalog all images
-make preprocess   # Clean and deskew
-make ocr          # Extract text and tables
-make blocks       # Parse into structured blocks
-make emit         # Generate JSONL
-make validate     # QA report
-make split        # Train/val split
-make hf_prep      # HuggingFace format
-make extract_html # Add tech specs from HTML
+# This runs:
+make inventory       # Catalog all images
+make preprocess      # Clean and deskew
+make ocr             # Extract text and tables
+make blocks          # Parse into structured blocks
+make emit            # Generate JSONL
+make validate        # QA report
+make split           # Train/val split
+make hf_prep         # HuggingFace format (nested messages)
+make extract_html    # Add tech specs from HTML
+make autotrain_prep  # Convert to AutoTrain flat text format
+make synthetic_val   # Generate synthetic validation
 ```
 
-**Output**: `data/hf_train.jsonl` (1,877 examples) + `data/hf_val.jsonl` (235 examples)
+**Output**:
+- `data/hf_train_autotrain.jsonl` (2,112 training examples)
+- `data/hf_val_synthetic.jsonl` (180 synthetic validation examples)
 
 ### 2. Upload to HuggingFace
 
@@ -32,26 +36,33 @@ pip install datasets huggingface_hub
 huggingface-cli login
 
 # Upload dataset
-python scripts/09_upload_to_hf.py --repo your-username/bmw-e30-service-manual
+python scripts/09_upload_to_hf.py --repo drumwell/llm3
 ```
 
 ### 3. Train on AutoTrain
 
 1. Go to https://huggingface.co/autotrain
 2. Create new project → "LLM Fine-tuning"
-3. Select your dataset
-4. Choose `meta-llama/Llama-3.2-3B-Instruct`
-5. Train (~15-30 min on A100, ~$5-10)
+3. Select dataset: `drumwell/llm3`
+4. Choose base model: `meta-llama/Llama-3.1-8B-Instruct`
+5. Column mapping: `text_column = 'text'`
+6. Train (~30-60 min on A100, ~$5-10)
+
+**See `AUTOTRAIN_READY.md` for complete training guide**
 
 ## Dataset Overview
 
-**Enhanced with HTML tech specs!**
+**AutoTrain-compatible format with synthetic validation!**
 
-| Source | Train | Val | Total |
-|--------|-------|-----|-------|
-| OCR (scanned pages) | 1,185 | 158 | 1,343 |
-| HTML (tech specs) | 692 | 77 | 769 |
-| **Total** | **1,877** | **235** | **2,112** |
+| Split | Examples | Source |
+|-------|----------|--------|
+| **Training** | 2,112 | All service manual + HTML specs (consolidated) |
+| **Validation** | 180 | Synthetic (question paraphrasing) |
+| **Total** | 2,292 | - |
+
+**Data Sources**:
+- OCR (scanned pages): 1,343 examples
+- HTML (tech specs): 769 examples
 
 **Task Types**:
 - `[SPEC]` - Extract technical values (torque, clearances, part numbers)
@@ -60,24 +71,26 @@ python scripts/09_upload_to_hf.py --repo your-username/bmw-e30-service-manual
 - `[WIRING]` - Wiring diagram annotations
 - `[TROUBLESHOOTING]` - Diagnostic checklists
 
-## What's New
+## What's New (Latest)
 
-✅ **Added 769 HTML tech spec examples** (fixes engine displacement hallucination!)
-- Engine displacement: 2302 CC
-- Bore × Stroke: 93.4 × 84.0 mm
-- Compression ratio: 10.5:1
-- Power output: 197 BHP / 147 kW
-- Plus: transmission ratios, fluid capacities, electrical specs, etc.
+✅ **AutoTrain-compatible flat text format**
+- No more Parquet serialization errors
+- Format: `{"text": "User: [TASK] Q\nAssistant: A"}`
+- Successfully tested with Llama-3.1-8B-Instruct
 
-✅ **Removed Colab/GDrive dependencies**
-- Streamlined for HuggingFace AutoTrain
-- No more bitsandbytes compatibility issues
-- Simpler, more reliable workflow
+✅ **All 2,112 examples used for training**
+- No validation split waste (was 1,877/235)
+- Maximizes service manual coverage
+- Synthetic validation for generalization testing
 
-✅ **Updated documentation**
+✅ **Synthetic validation strategy**
+- 180 paraphrased questions
+- Tests model generalization without data overlap
+- Generated via `scripts/11_generate_synthetic_validation.py`
+
+✅ **Complete training documentation**
+- `AUTOTRAIN_READY.md` - Step-by-step training guide
 - `MODEL_CONFIG.md` - Model configuration explained
-- `HF_DATASET_README.md` - Dataset details and statistics
-- `MODEL_DIAGNOSIS.md` - Troubleshooting guide
 - `LEARNING_EXPERIMENTS.md` - QLoRA learning experiments
 
 ## Project Structure
@@ -89,23 +102,26 @@ llm3/
 │   ├── M3-techspec.html        # ← NEW: Tech specifications
 │   └── 320is-techspec.html     # ← NEW: 320is variant specs
 ├── data/               # Generated datasets
-│   ├── hf_train.jsonl  # 1,877 training examples
-│   └── hf_val.jsonl    # 235 validation examples
+│   ├── hf_train_autotrain.jsonl  # 2,112 training examples (flat text)
+│   ├── hf_val_synthetic.jsonl    # 180 validation examples (synthetic)
+│   ├── train.jsonl                # 636 OCR examples (intermediate)
+│   └── val.jsonl                  # 158 OCR examples (intermediate)
 ├── work/               # Intermediate artifacts
 │   ├── images_clean/   # Preprocessed images
 │   ├── ocr_raw/        # OCR JSON outputs
 │   ├── blocks/         # Parsed content blocks
 │   └── logs/           # QA reports
 ├── scripts/            # Pipeline stages
-│   ├── 01_inventory.py           # Catalog images
-│   ├── 02_preprocess.py          # Clean/deskew
-│   ├── 03_ocr.py                 # PaddleOCR extraction
-│   ├── 04_parse_blocks.py        # Structure content
-│   ├── 05_emit_jsonl.py          # Generate JSONL
-│   ├── 06_split_validate.py     # QA checks
-│   ├── 07_extract_html_specs.py # ← NEW: HTML parsing
-│   ├── 08_prepare_hf_dataset.py # HF format
-│   └── 09_upload_to_hf.py       # ← NEW: HF upload
+│   ├── 01_inventory.py                    # Catalog images
+│   ├── 02_preprocess.py                   # Clean/deskew
+│   ├── 03_ocr.py                          # PaddleOCR extraction
+│   ├── 04_parse_blocks.py                 # Structure content
+│   ├── 05_emit_jsonl.py                   # Generate JSONL
+│   ├── 06_split_validate.py              # QA checks
+│   ├── 07_extract_html_specs.py          # HTML parsing
+│   ├── 08_prepare_hf_dataset.py          # HF format (nested messages)
+│   ├── 09_upload_to_hf.py                 # HF upload
+│   └── 11_generate_synthetic_validation.py # Synthetic validation
 ├── config.yaml         # Pipeline configuration
 ├── Makefile            # Orchestration
 └── *.md                # Documentation
@@ -113,20 +129,20 @@ llm3/
 
 ## Model Training
 
-**Recommended Configuration** (see `MODEL_CONFIG.md`):
+**Recommended Configuration** (see `MODEL_CONFIG.md` and `AUTOTRAIN_READY.md`):
 
-- **Base Model**: `meta-llama/Llama-3.2-3B-Instruct`
+- **Base Model**: `meta-llama/Llama-3.1-8B-Instruct` (proven to work)
 - **Method**: QLoRA (4-bit quantization)
 - **LoRA rank**: 16
 - **Learning rate**: 2e-4
 - **Epochs**: 3
-- **Batch size**: 8 (effective 16 with gradient accumulation)
+- **Batch size**: 4-8
+- **Platform**: HuggingFace AutoTrain (recommended)
 
-**Why Llama-3.2-3B?**
-- ✅ Lower memory (~8 GB vs 16 GB for 7B)
-- ✅ Faster training (~15-30 min vs 60+ min)
-- ✅ Sufficient for technical/factual tasks
-- ✅ Better for small datasets (1,877 examples)
+**Dataset Configuration**:
+- Training: 2,112 examples (all service manual data)
+- Validation: 180 synthetic examples
+- Format: Flat text `{"text": "User: [TASK] Q\nAssistant: A"}`
 
 ## Expected Results
 
@@ -187,10 +203,11 @@ pip install -r requirements.txt
 | File | Purpose |
 |------|---------|
 | **README.md** | This file - project overview and quick start |
+| **AUTOTRAIN_READY.md** | **→ START HERE for training guide** |
 | **MODEL_CONFIG.md** | Model configuration and training setup |
 | **HF_DATASET_README.md** | Dataset format, statistics, and usage |
-| **MODEL_DIAGNOSIS.md** | Troubleshooting and diagnostic guide |
 | **LEARNING_EXPERIMENTS.md** | QLoRA learning experiments and iteration |
+| **MODEL_DIAGNOSIS.md** | Troubleshooting and diagnostic guide |
 | **CLAUDE.md** | Project brief for Claude Code |
 
 ## License
