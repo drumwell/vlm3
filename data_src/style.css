@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./SourceCodePro-Regular.ttf.woff2') format('woff2'),
+         url('./SourceCodePro-Regular.otf.woff') format('woff');
+}
+
+body {
+    background: url('./m.png') no-repeat top left fixed;
+    background-color: white;
+    background-size: 12.5%; 
+    padding: 2% 10% 10% 10%;
+    min-width: 500px;
+    text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+}
+
+/* MOBILE DEVICES */
+
+@media only screen and (max-device-width: 500px) {
+    body {
+        background-size: 7% !important; 
+        padding: 0% 2% 10% 2% !important;
+        text-size-adjust: 200% !important;
+        -ms-text-size-adjust: 200% !important; 
+        -moz-text-size-adjust: 200% !important; 
+        -webkit-text-size-adjust: 200% !important;
+        line-height: 140% !important;
+    }
+    h2, .sectionTitle, .sectionMore {
+        border-left: 1.6rem solid black !important;
+    }
+    i {
+        display: inline-block !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+}
+
+/* GENERAL TYPOGRAPHY */
+
+body {
+    font-family: 'Source Code Pro', monospace, sans-serif;  
+    color: black;
+    line-height: 1.4rem;
+    font-size: medium;
+    white-space: nowrap;
+    transform-origin: top left;
+    transform: scale(0.9, 1.0);
+}
+
+.globe::before {
+/* &#127760;&#xfe0e; */
+/* https://www.amp-what.com/#q=%3E */
+    display: inline-block;
+    content: "\01f310\00fe0e";
+    transform: scale(0.9, 0.8);
+    margin-left: -0.15rem;
+    margin-right: 0.20rem;
+}
+
+/* LINK STYLE */
+
+a {
+    text-decoration: none;
+}
+
+a:visited { 
+    color:black; 
+}
+
+a:link { 
+    text-decoration : none;
+    color: #888; 
+}
+
+a:hover { 
+    background-color: yellow; 
+}
+
+/* SPECIFIC TYPOGRAPHY */
+
+.sectionTitle {
+    font-size: large;
+    color: black !important;
+    padding: 0rem 1rem;
+    border-left: 1rem solid black;
+    margin-left: -0.22rem;
+}
+
+.sectionMore {
+    border-left: 1rem solid;
+    border-image: linear-gradient(0deg, black, white) 1;
+}
+
+.torque .sectionTitle {
+    border: none;
+    padding: none;
+    margin-left: -1rem;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
+h2 {
+    border-left: 1rem solid black;
+    padding-left: 1rem;
+}
+
+.blockText {
+    padding: 1rem 0 2rem 0;
+    width: 80vw !important;
+    max-width: 500px;
+    white-space: normal;
+}
+
+/* ADD VERSION NUMBER TO ALL PAGES USING CSS
+   REMEMBER TO UPDATE VERSION NUMBER */
+
+.footer:before {
+    display: block;
+    text-align: left;
+    content: "Version 0.1.41 : 2025.01.09";
+}
+
+/* CHEERS! */
+
+.footer {
+    margin-top: 5rem;
+    padding-top: 1rem;
+    border-top: 1px solid black;
+    color: black;
+    font-size:xx-small;
+}
+
+/* <i> TAG RE-PURPOSED AS A BULK TEXT SELECTOR */
+
+i {
+    font-style: normal;
+    color: #888;
+    white-space: pre;
+    max-width: 70%;
+    display: inline-block;
+    visibility: visible;
+    text-transform: uppercase;
+    font-size: smaller;
+    line-height: 1.0rem;
+}
+
+i:hover {
+    background-color: rgba(255, 255, 0, 0.15);
+}
+
+i:before {
+    content: "...";
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+}
+
+.s14:after {
+    content: "[S14]";
+    padding-left: 0.7rem;
+    color: #D1002A;
+}
+
+/* THUMBNAIL CODE ONLY APPLIES TO INDEX-PAGES.HTML */
+
+.thumbnail {
+    width: 100px;
+    border-left: 0.1rem solid black;
+    margin: -0.4rem 0 -0.4rem 0.25rem;
+    padding: 1rem;
+    -webkit-transition: width 100ms ease-in-out;
+    -moz-transition: width 100ms ease-in-out;
+    -o-transition: width 100ms ease-in-out;
+    transition: width 100ms ease-in-out;
+}
+
+.thumbnail:hover, 
+.thumbnail:active {
+    width: 80vh;
+    -webkit-transition: width 100ms ease-in-out;
+    -moz-transition: width 100ms ease-in-out;
+    -o-transition: width 100ms ease-in-out;
+    transition: width 100ms ease-in-out;
+}
+
+/* TABLES */
+
+table {
+    width: 500px !important;
+    text-align: left;
+    vertical-align: middle !important;
+    border-spacing: 0px !important;
+    word-wrap: break-word;
+}
+
+#techTable td, 
+#techTable th {
+    background-color: rgba(128, 128, 128, 0.1);
+    padding: 0.35rem;
+    padding-left: 1rem;
+    margin: 0rem;
+}
+  
+#techTable tr:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.2);
+}
+  
+.tableCellA {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+}
+
+/* END OF FILE */
