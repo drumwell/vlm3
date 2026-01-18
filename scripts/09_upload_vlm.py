@@ -9,7 +9,7 @@ Usage:
         --train data/vlm_train.jsonl \
         --val data/vlm_val.jsonl \
         --images data/images \
-        --repo drumwell/vlm3-vlm \
+        --repo drumwell/vlm3 \
         --report work/logs/upload_report.md \
         --config config.yaml
 """
@@ -25,7 +25,10 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
+from dotenv import load_dotenv
 import yaml
+
+load_dotenv()
 
 logging.basicConfig(
     level=logging.INFO,

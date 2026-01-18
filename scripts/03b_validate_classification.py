@@ -19,7 +19,10 @@ import os
 import sys
 from pathlib import Path
 
+from dotenv import load_dotenv
 import yaml
+
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(

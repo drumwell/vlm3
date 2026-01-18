@@ -203,7 +203,7 @@ validation:
 
 # HuggingFace upload settings (Stage 6)
 upload:
-  repo_id: null                  # e.g., "drumwell/vlm3-vlm" (required for upload)
+  repo_id: vlm3                  # e.g., "drumwell/vlm3" (required for upload)
   private: false                 # Whether dataset is private
   commit_message: "Update VLM training dataset"
 
@@ -1061,7 +1061,7 @@ python scripts/09_upload_vlm.py \
   --train data/vlm_train.jsonl \
   --val data/vlm_val.jsonl \
   --images data/images \
-  --repo drumwell/vlm3-vlm \
+  --repo drumwell/vlm3 \
   --report work/logs/upload_report.md \
   --config config.yaml \
   [--token HF_TOKEN]         # HuggingFace token (or use HF_TOKEN env var)
@@ -1168,7 +1168,7 @@ Visual question-answering dataset for BMW E30 M3 and 320is service procedures.
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("drumwell/vlm3-vlm")
+dataset = load_dataset("drumwell/vlm3")
 ```
 
 ## Data Format
@@ -1283,8 +1283,8 @@ Report template:
 
 | Field | Value |
 |-------|-------|
-| Repository | drumwell/vlm3-vlm |
-| URL | https://huggingface.co/datasets/drumwell/vlm3-vlm |
+| Repository | drumwell/vlm3 |
+| URL | https://huggingface.co/datasets/drumwell/vlm3 |
 | Visibility | Public |
 | Commit | abc123... |
 
@@ -1715,7 +1715,7 @@ upload:
 		--train data/vlm_train.jsonl \
 		--val data/vlm_val.jsonl \
 		--images data/images \
-		--repo drumwell/vlm3-vlm \
+		--repo drumwell/vlm3 \
 		--report work/logs/upload_report.md \
 		--config config.yaml
 

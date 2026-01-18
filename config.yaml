@@ -322,7 +322,7 @@ vlm_validation:
 
 # Stage 6: HuggingFace upload settings
 upload:
-  repo_id: null                  # e.g., "drumwell/vlm3-vlm" (required for upload)
+  repo_id: vlm3                  # e.g., "drumwell/vlm3" (required for upload)
   private: false                 # Whether dataset is private
   commit_message: "Update VLM training dataset"
 

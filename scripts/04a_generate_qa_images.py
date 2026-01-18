@@ -28,7 +28,10 @@ from fnmatch import fnmatch
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+from dotenv import load_dotenv
 import yaml
+
+load_dotenv()
 from PIL import Image
 
 # Configure logging

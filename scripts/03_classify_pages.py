@@ -28,7 +28,10 @@ from pathlib import Path
 from typing import List, Dict, Optional, Tuple
 from datetime import datetime
 
+from dotenv import load_dotenv
 import yaml
+
+load_dotenv()
 from PIL import Image
 
 # Configure logging
