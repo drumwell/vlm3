@@ -254,6 +254,13 @@ Output CSV schema:
         help='Enable verbose debug logging'
     )
 
+    parser.add_argument(
+        '--section-filter',
+        type=str,
+        default="",
+        help='Filter to specific section (e.g., "21" for Clutch)'
+    )
+
     args = parser.parse_args()
 
     # Set log level
