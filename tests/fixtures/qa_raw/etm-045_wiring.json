@@ -1,0 +1,33 @@
+{
+  "page_id": "etm-045_wiring",
+  "image_path": "data_src/ETM/etm-045.jpg",
+  "section_id": "ETM",
+  "section_name": "Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2025-01-15T11:00:00Z",
+    "prompt_template": "wiring"
+  },
+  "qa_pairs": [
+    {
+      "id": "etm-045-q01",
+      "question": "What wire color connects to the fuel pump relay?",
+      "answer": "The green/white wire connects to the fuel pump relay at pin 87.",
+      "question_type": "wiring"
+    },
+    {
+      "id": "etm-045-q02",
+      "question": "What is the connector pinout for the fuel pump?",
+      "answer": "Pin 1 is ground (brown), Pin 2 is +12V switched (green/white), Pin 3 is fuel level signal (yellow/blue).",
+      "question_type": "connector"
+    },
+    {
+      "id": "etm-045-q03",
+      "question": "Is this a wiring diagram",
+      "answer": "Yes.",
+      "question_type": "visual"
+    }
+  ]
+}

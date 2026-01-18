@@ -1,0 +1,59 @@
+{
+  "page_id": "21-03_clutch",
+  "image_path": "data_src/21 - Clutch/21-03.jpg",
+  "section_id": "21",
+  "section_name": "Clutch",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": ["21 21 000"],
+  "procedures_names": ["Clutch disc - remove and install"],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2025-01-15T10:30:00Z",
+    "prompt_template": "procedure"
+  },
+  "qa_pairs": [
+    {
+      "id": "21-03_clutch-q01",
+      "question": "What should I visually inspect the clutch pressure plate for?",
+      "answer": "Visually inspect the clutch for cracks, wear, and burnt spots. The pressure contact surface must be level.",
+      "question_type": "inspection"
+    },
+    {
+      "id": "21-03_clutch-q02",
+      "question": "What is the torque specification for the flywheel bolts?",
+      "answer": "The flywheel bolts should be torqued to 85 Nm.",
+      "question_type": "factual"
+    },
+    {
+      "id": "21-03_clutch-q03",
+      "question": "What tools are required to remove the clutch disc?",
+      "answer": "You need a clutch alignment tool, torque wrench, and socket set to remove the clutch disc.",
+      "question_type": "tool"
+    },
+    {
+      "id": "21-03_clutch-q04",
+      "question": "What is shown on this page?",
+      "answer": "The page shows the clutch removal procedure.",
+      "question_type": "visual"
+    },
+    {
+      "id": "21-03_clutch-q05",
+      "question": "What is the clutch disc thickness?",
+      "answer": "85 Nm",
+      "question_type": "factual"
+    },
+    {
+      "id": "21-03_clutch-q06",
+      "question": "How do I determine the clutch wear?",
+      "answer": "I cannot determine from this image.",
+      "question_type": "inspection"
+    },
+    {
+      "id": "21-03_clutch-q07",
+      "question": "What flywheel bolt torque should I use?",
+      "answer": "The flywheel bolts require 85 Nm of torque as specified in the service manual.",
+      "question_type": "factual"
+    }
+  ]
+}

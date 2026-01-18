@@ -7,10 +7,9 @@ venv/
 *.egg-info/
 
 # Work artifacts (large intermediate files)
-work/images_clean/
-work/ocr_raw/
-work/ocr_tables/
-work/blocks/
+work/
+todo
+*~
 
 # Keep only logs and final data
 !work/logs/

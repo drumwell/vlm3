@@ -1,11 +1,25 @@
-pillow
+# Core
+pillow>=10.0.0
 opencv-python==4.10.0.84
 numpy
 pandas
 tqdm
 pyyaml
-regex
-beautifulsoup4
-rapidfuzz
-pytesseract
-layoutparser
+
+# Stage 2: Source Preparation
+pdf2image>=1.16.0
+
+# Stage 4: Q&A Generation
+anthropic>=0.18.0
+beautifulsoup4                    # HTML parsing for 04b
+
+# Stage 5: Q&A Quality Control
+sentence-transformers>=2.2.0      # Semantic deduplication
+rapidfuzz                         # Fuzzy string matching
+
+# Stage 6: HuggingFace Upload
+datasets>=2.14.0
+huggingface_hub>=0.17.0
+
+# Testing
+pytest>=7.0.0

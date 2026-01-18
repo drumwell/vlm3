@@ -1,154 +1,290 @@
 #!/usr/bin/env python3
 """
-01_inventory.py - Scan data_src/ and generate work/inventory.csv
-Filters sections by pattern and computes file metadata.
+Stage 1: Inventory
+Catalogs all source files in data_src/ and produces work/inventory.csv
+
+This script recursively scans the data_src directory for supported file types
+(jpg, png, pdf, html) and creates a CSV inventory with metadata about each file.
+
+Usage:
+    python scripts/01_inventory.py --data-src data_src --output work/inventory.csv
 """
 
 import argparse
 import csv
-import hashlib
-import re
+import logging
+import sys
+from dataclasses import dataclass
 from pathlib import Path
-from collections import defaultdict
-
-import yaml
+from typing import List, Dict, Optional
 
 
-def load_config(config_path):
-    """Load config.yaml."""
-    with open(config_path, 'r') as f:
-        return yaml.safe_load(f)
+# ============================================================================
+# Configuration
+# ============================================================================
 
 
-def sha1_file(filepath):
-    """Compute SHA1 hash of file."""
-    h = hashlib.sha1()
-    with open(filepath, 'rb') as f:
-        while chunk := f.read(8192):
-            h.update(chunk)
-    return h.hexdigest()
+@dataclass
+class InventoryConfig:
+    """Configuration for inventory scanning."""
+
+    data_src: Path
+    output: Path
+    section_filter: str = ""
+    verbose: bool = False
+
+    @classmethod
+    def from_args(cls, args: argparse.Namespace) -> "InventoryConfig":
+        """Create config from parsed CLI arguments."""
+        return cls(
+            data_src=args.data_src,
+            output=args.output,
+            section_filter=getattr(args, 'section_filter', "") or "",
+            verbose=args.verbose,
+        )
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+logger = logging.getLogger(__name__)
 
 
-def extract_page_no(filename):
-    """Extract page number from filename like '11-100.jpg' -> '100'."""
-    stem = Path(filename).stem
-    parts = stem.split('-', 1)
-    if len(parts) == 2:
-        return parts[1]
-    return stem
-
-
-def guess_type(ocr_text_dir, rel_path):
+def normalize_file_type(extension: str) -> Optional[str]:
     """
-    Placeholder for guessing document type.
-    Returns empty string for now (will be filled in step 5).
+    Normalize file extension to standard type.
+
+    Args:
+        extension: File extension including dot (e.g., '.jpg', '.PDF')
+
+    Returns:
+        Normalized type ('jpg', 'pdf', 'html', 'png') or None if unsupported
+
+    Examples:
+        >>> normalize_file_type('.jpg')
+        'jpg'
+        >>> normalize_file_type('.PDF')
+        'pdf'
+        >>> normalize_file_type('.txt')
+        None
     """
-    return ""
+    # Normalize to lowercase for case-insensitive matching
+    ext_lower = extension.lower()
+
+    # Map to standard types
+    type_map = {
+        '.jpg': 'jpg',
+        '.jpeg': 'jpg',
+        '.png': 'png',
+        '.pdf': 'pdf',
+        '.html': 'html',
+        '.htm': 'html',
+    }
+
+    return type_map.get(ext_lower)
+
+
+def scan_directory(data_src: Path) -> List[Dict[str, str]]:
+    """
+    Recursively scan data_src for supported files.
+
+    Args:
+        data_src: Path to the data source directory
+
+    Returns:
+        List of file records with keys: file_path, file_type, section_dir,
+        filename, needs_conversion
+
+    Raises:
+        FileNotFoundError: If data_src doesn't exist
+        PermissionError: If data_src is not readable
+    """
+    if not data_src.exists():
+        raise FileNotFoundError(f"Data source directory not found: {data_src}")
+
+    if not data_src.is_dir():
+        raise NotADirectoryError(f"Data source is not a directory: {data_src}")
+
+    records = []
+
+    # Walk through all files recursively
+    for file_path in sorted(data_src.rglob('*')):
+        # Skip directories
+        if not file_path.is_file():
+            continue
+
+        # Check if file type is supported
+        file_type = normalize_file_type(file_path.suffix)
+        if file_type is None:
+            logger.debug(f"Skipping unsupported file: {file_path}")
+            continue
+
+        # Extract section directory (immediate parent)
+        if file_path.parent == data_src:
+            # File is directly in data_src
+            section_dir = ''
+        else:
+            # Get the immediate parent directory name
+            section_dir = file_path.parent.name
+
+        # Determine if file needs conversion
+        needs_conversion = 'true' if file_type == 'pdf' else 'false'
+
+        # Create record
+        record = {
+            'file_path': str(file_path),
+            'file_type': file_type,
+            'section_dir': section_dir,
+            'filename': file_path.name,
+            'needs_conversion': needs_conversion
+        }
+
+        records.append(record)
+        logger.debug(f"Cataloged: {file_path.name} ({file_type})")
+
+    # Sort by file_path for reproducibility
+    records.sort(key=lambda r: r['file_path'])
+
+    return records
+
+
+def write_inventory_csv(records: List[Dict[str, str]], output_path: Path):
+    """
+    Write inventory records to CSV file.
+
+    Args:
+        records: List of file records
+        output_path: Path to output CSV file
+
+    The output CSV has columns: file_path, file_type, section_dir, filename, needs_conversion
+    """
+    # Ensure output directory exists
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Define CSV columns
+    fieldnames = ['file_path', 'file_type', 'section_dir', 'filename', 'needs_conversion']
+
+    # Write CSV
+    with open(output_path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(records)
+
+    logger.info(f"Wrote {len(records)} records to {output_path}")
+
+
+def print_summary(records: List[Dict[str, str]]):
+    """
+    Print summary statistics to stdout.
+
+    Args:
+        records: List of file records
+    """
+    if not records:
+        logger.info("No supported files found")
+        return
+
+    # Count by type
+    type_counts = {}
+    conversion_count = 0
+
+    for record in records:
+        file_type = record['file_type']
+        type_counts[file_type] = type_counts.get(file_type, 0) + 1
+
+        if record['needs_conversion'] == 'true':
+            conversion_count += 1
+
+    # Print summary
+    logger.info(f"=== Inventory Summary ===")
+    logger.info(f"Total files cataloged: {len(records)}")
+    logger.info(f"Files by type:")
+    for file_type in sorted(type_counts.keys()):
+        logger.info(f"  {file_type}: {type_counts[file_type]}")
+    logger.info(f"Files needing conversion: {conversion_count}")
+    logger.info(f"=========================")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate inventory.csv from data_src/")
-    parser.add_argument('--section-filter', default='.*', 
-                        help='Regex to filter section folders (e.g., "^11 - ")')
-    parser.add_argument('--config', default='config.yaml',
-                        help='Path to config.yaml')
-    parser.add_argument('--data-src', default='data_src',
-                        help='Source directory')
-    parser.add_argument('--output', default='work/inventory.csv',
-                        help='Output CSV path')
-    
+    """Main entry point"""
+    parser = argparse.ArgumentParser(
+        description='Stage 1: Inventory - Catalog all source files in data_src/',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Basic usage
+  python scripts/01_inventory.py --data-src data_src --output work/inventory.csv
+
+  # With verbose logging
+  python scripts/01_inventory.py --data-src data_src --output work/inventory.csv --verbose
+
+Supported file types:
+  - Images: .jpg, .jpeg, .png
+  - Documents: .pdf
+  - Web pages: .html, .htm
+
+Output CSV schema:
+  file_path        - Relative path from project root
+  file_type        - Normalized type (jpg, png, pdf, html)
+  section_dir      - Immediate parent directory name
+  filename         - Base filename with extension
+  needs_conversion - true for PDFs, false otherwise
+        """
+    )
+
+    parser.add_argument(
+        '--data-src',
+        type=Path,
+        required=True,
+        help='Path to data source directory (read-only)'
+    )
+
+    parser.add_argument(
+        '--output',
+        type=Path,
+        required=True,
+        help='Path to output CSV file (will be created/overwritten)'
+    )
+
+    parser.add_argument(
+        '--verbose',
+        action='store_true',
+        help='Enable verbose debug logging'
+    )
+
     args = parser.parse_args()
-    
-    # Load config
-    project_root = Path(__file__).parent.parent
-    config_path = project_root / args.config
-    data_src = project_root / args.data_src
-    output_path = project_root / args.output
-    
-    config = load_config(config_path)
-    
-    # Compile section filter
-    section_pattern = re.compile(args.section_filter)
-    
-    print(f"[01_inventory] Scanning {data_src} with section filter: {args.section_filter}")
-    
-    # Find all section directories
-    section_dirs = [d for d in data_src.iterdir() 
-                    if d.is_dir() and section_pattern.match(d.name)]
-    
-    if not section_dirs:
-        print(f"[01_inventory] ⚠ No sections match filter: {args.section_filter}")
-        return
-    
-    print(f"[01_inventory] Found {len(section_dirs)} matching section(s):")
-    for sd in section_dirs:
-        print(f"  - {sd.name}")
-    
-    # Collect image files
-    image_exts = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff'}
-    rows = []
-    type_counts = defaultdict(int)
-    
-    for section_dir in section_dirs:
-        section_name = section_dir.name
-        
-        # Extract section_id (e.g., "11" from "11 - Engine")
-        section_id_match = re.match(r'^(\d+)', section_name)
-        section_id = section_id_match.group(1) if section_id_match else section_name
-        
-        image_files = [f for f in section_dir.iterdir() 
-                       if f.is_file() and f.suffix.lower() in image_exts]
-        
-        for img_file in sorted(image_files):
-            rel_path = img_file.relative_to(data_src)
-            page_no = extract_page_no(img_file.name)
-            file_size = img_file.stat().st_size
-            sha1 = sha1_file(img_file)
-            guessed_type = guess_type(None, rel_path)
-            
-            rows.append({
-                'rel_path': str(rel_path),
-                'section_dir': section_name,
-                'section_id': section_id,
-                'page_no': page_no,
-                'bytes': file_size,
-                'sha1': sha1,
-                'guessed_type': guessed_type
-            })
-            
-            type_counts[guessed_type if guessed_type else '(unknown)'] += 1
-    
-    # Write CSV
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    
-    fieldnames = ['rel_path', 'section_dir', 'section_id', 'page_no', 
-                  'bytes', 'sha1', 'guessed_type']
-    
-    with open(output_path, 'w', newline='') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
-    
-    print(f"[01_inventory] ✓ Wrote {len(rows)} images to {output_path}")
-    
-    # Validation checks
-    print(f"[01_inventory] Validation:")
-    print(f"  ✓ All paths exist: {all(Path(data_src / r['rel_path']).exists() for r in rows)}")
-    print(f"  ✓ No duplicates: {len(rows) == len(set(r['rel_path'] for r in rows))}")
-    print(f"  ✓ All sha1 non-empty: {all(r['sha1'] for r in rows)}")
-    
-    # Type distribution
-    print(f"\n[01_inventory] Type distribution:")
-    for dtype, count in sorted(type_counts.items()):
-        print(f"  {dtype}: {count}")
-    
-    # Sample rows
-    print(f"\n[01_inventory] Sample rows (first 5):")
-    for i, row in enumerate(rows[:5]):
-        print(f"  {i+1}. {row['rel_path']} | section={row['section_id']} | page={row['page_no']} | {row['bytes']} bytes")
-    
-    print(f"\n[01_inventory] Done: {len(rows)} images cataloged")
+
+    # Set log level
+    if args.verbose:
+        logger.setLevel(logging.DEBUG)
+
+    try:
+        logger.info(f"Starting inventory scan of {args.data_src}")
+
+        # Scan directory
+        records = scan_directory(args.data_src)
+
+        # Write output
+        write_inventory_csv(records, args.output)
+
+        # Print summary
+        print_summary(records)
+
+        logger.info("Inventory completed successfully")
+        return 0
+
+    except FileNotFoundError as e:
+        logger.error(f"Error: {e}")
+        return 1
+    except PermissionError as e:
+        logger.error(f"Permission error: {e}")
+        return 1
+    except Exception as e:
+        logger.error(f"Unexpected error: {e}", exc_info=True)
+        return 1
 
 
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    sys.exit(main())

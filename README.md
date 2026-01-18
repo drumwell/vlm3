@@ -1,237 +1,229 @@
-# BMW E30 M3 Service Manual - Instruction Tuning Dataset
+# BMW E30 M3 Service Manual - VLM Training Dataset
 
-> Convert scanned service manual pages into high-quality instruction-tuning data for finetuning LLMs on automotive technical knowledge.
+> Convert scanned service manual pages into Vision-Language Model (VLM) training data using Claude API for Q&A generation directly from images.
+
+## Overview
+
+This pipeline generates training data for fine-tuning Vision-Language Models on automotive technical knowledge. Instead of traditional OCR-based text extraction, it uses Claude's vision capabilities to generate context-aware Q&A pairs directly from service manual images—preserving visual semantics like diagrams, callouts, and spatial relationships that text extraction loses.
 
 ## Quick Start
 
-### 1. Prepare Dataset
+### 1. Setup
 
 ```bash
-# Run full pipeline (from scratch)
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# Required for Q&A generation (Stage 3-4)
+export ANTHROPIC_API_KEY=your_key_here
+```
+
+### 2. Run Pipeline
+
+```bash
+# Run full pipeline
 make all
 
 # This runs:
-make inventory       # Catalog all images
-make preprocess      # Clean and deskew
-make ocr             # Extract text and tables
-make blocks          # Parse into structured blocks
-make emit            # Generate consolidated JSONL
-make validate        # QA report
-make extract_html    # Add tech specs from HTML
-make autotrain_prep  # Convert to AutoTrain flat text format
-make synthetic_val   # Generate synthetic validation
+make inventory        # Stage 1: Catalog source files
+make prepare          # Stage 2: Convert PDFs, validate images
+make classify         # Stage 3: Classify pages, parse indices (Claude API)
+make generate-qa      # Stage 4: Generate Q&A pairs (Claude API)
+make quality-control  # Stage 5: Filter and deduplicate
+make emit             # Stage 6a: Emit VLM JSONL
+make validate         # Stage 6b: Validate dataset
 ```
 
 **Output**:
-- `data/hf_train_autotrain.jsonl` (2,510 training examples)
-- `data/hf_val_synthetic.jsonl` (248 synthetic validation examples)
+- `data/vlm_train.jsonl` - Training examples (90%)
+- `data/vlm_val.jsonl` - Validation examples (10%)
+- `data/images/` - Referenced images
 
-### 2. Upload to HuggingFace
+### 3. Upload to HuggingFace
 
 ```bash
-# First time setup
-pip install datasets huggingface_hub
 huggingface-cli login
-
-# Upload dataset
-python scripts/10_upload_to_hf.py --repo drumwell/llm3
+make upload
+# Or: python scripts/09_upload_vlm.py --repo your-username/vlm3
 ```
 
-### 3. Train on AutoTrain
+## Pipeline Architecture
 
-1. Go to https://huggingface.co/autotrain
-2. Create new project → "LLM Fine-tuning"
-3. Select dataset: `drumwell/llm3`
-4. Choose base model: `meta-llama/Llama-3.1-8B-Instruct`
-5. Column mapping: `text_column = 'text'`
-6. Train (~30-60 min on A100, ~$5-10)
+```
+data_src/ (JPG/PDF/HTML)
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Stage 1: INVENTORY                                          │
+│ 01_inventory.py → work/inventory.csv                        │
+│ Catalogs all source files (JPG, PDF, HTML)                  │
+└─────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Stage 2: SOURCE PREPARATION                                 │
+│ 02_prepare_sources.py → work/inventory_prepared.csv         │
+│ Converts PDFs to JPG, validates all images                  │
+└─────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Stage 3: CLASSIFICATION & INDEX PARSING (Claude API)        │
+│ 03_classify_pages.py → work/classified/pages.csv            │
+│                      → work/indices/*.json                  │
+│ Classifies content type, extracts repair codes from indices │
+└─────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Stage 4: Q&A GENERATION                                     │
+│ 04a_generate_qa_images.py → work/qa_raw/*.json (Claude API) │
+│ 04b_generate_qa_html.py   → work/qa_raw/*.json (no API)     │
+│ Generates Q&A pairs with source-specific prompts            │
+└─────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Stage 5: QUALITY CONTROL                                    │
+│ 05_filter_qa.py      → work/qa_filtered/*.json              │
+│ 06_deduplicate_qa.py → work/qa_unique/*.json                │
+│ Filters low-quality, removes duplicates                     │
+└─────────────────────────────────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────┐
+│ Stage 6: EMIT & VALIDATE                                    │
+│ 07_emit_vlm_dataset.py → data/vlm_train.jsonl               │
+│                        → data/vlm_val.jsonl                 │
+│ 08_validate_vlm.py     → work/logs/vlm_qa_report.md         │
+│ 09_upload_vlm.py       → HuggingFace Hub                    │
+└─────────────────────────────────────────────────────────────┘
+```
 
-**See `AUTOTRAIN_READY.md` for complete training guide**
+## Source Materials
 
-## Dataset Overview
+| Source | Format | Handling |
+|--------|--------|----------|
+| Service Manual sections (00-97) | JPG scans | Main pipeline with procedure/spec prompts |
+| 1990 Electrical Troubleshooting Manual | JPG scans | Wiring-specific prompts |
+| Bosch Motronic ML 3-1 | JPG scans | ECU technical prompts |
+| M3-techspec.html, 320is-techspec.html | HTML | Direct parsing, no API needed |
+| Getrag 265/5 Rebuild PDF | PDF | Converted to JPG in Stage 2 |
 
-**AutoTrain-compatible format with synthetic validation!**
+## Output Format
 
-| Split | Examples | Source |
-|-------|----------|--------|
-| **Training** | 2,510 | All service manual + HTML specs (consolidated) |
-| **Validation** | 248 | Synthetic (question paraphrasing) |
-| **Total** | 2,758 | - |
+**VLM Training Record** (`data/vlm_train.jsonl`):
+```json
+{
+  "image": "images/21-03.jpg",
+  "conversations": [
+    {"role": "user", "content": "What should I visually inspect the clutch pressure plate for?"},
+    {"role": "assistant", "content": "Visually inspect the clutch for cracks, wear, and burnt spots. The pressure contact surface must be level."}
+  ],
+  "metadata": {
+    "page_id": "21-03",
+    "section_id": "21",
+    "section_name": "Clutch",
+    "source_type": "service_manual",
+    "content_type": "procedure",
+    "question_type": "inspection"
+  }
+}
+```
 
-**Data Sources**:
-- OCR (scanned pages): ~1,800 examples (improved block extraction)
-- HTML (tech specs): ~700 examples
+**Question Types**:
+- `factual` - Specific values, part names, specifications
+- `procedural` - How to perform tasks, step sequences
+- `visual` - Diagram callouts, component identification
+- `inspection` - What to look for, acceptance criteria
+- `tool` - Required tools and supplies
+- `safety` - Cautions and warnings
+- `navigation` - Repair codes, page references
 
-**Task Types**:
-- `[SPEC]` - Extract technical values (torque, clearances, part numbers)
-- `[PROCEDURE]` - Step-by-step repair instructions
-- `[EXPLANATION]` - Component descriptions and operation
-- `[WIRING]` - Wiring diagram annotations
-- `[TROUBLESHOOTING]` - Diagnostic checklists
+## Make Targets
 
-## What's New (Latest)
-
-✅ **AutoTrain-compatible flat text format**
-- No more Parquet serialization errors
-- Format: `{"text": "User: [TASK] Q\nAssistant: A"}`
-- Successfully tested with Llama-3.1-8B-Instruct
-
-✅ **All 2,510 examples used for training**
-- No validation split waste
-- Maximizes service manual coverage
-- Synthetic validation for generalization testing
-
-✅ **Improved block extraction**
-- Added fallback logic for non-numbered procedures
-- Increased blocks by 27.6% (794 → 1,013)
-- Procedures increased 6x (43 → 262 examples)
-
-✅ **Synthetic validation strategy**
-- 248 paraphrased questions
-- Tests model generalization without data overlap
-- Generated via `scripts/09_generate_synthetic_validation.py`
-
-✅ **Complete training documentation**
-- `AUTOTRAIN_READY.md` - Step-by-step training guide
-- `LEARNING_EXPERIMENTS.md` - QLoRA learning experiments
+| Target | Description |
+|--------|-------------|
+| `make all` | Run complete pipeline (Stages 1-6) |
+| `make status` | Show pipeline progress |
+| `make quick` | Skip Stages 1-2 (sources already prepared) |
+| `make regen-qa` | Regenerate from Stage 4 |
+| `make refilter` | Rerun from Stage 5 |
+| `make finalize` | Just emit and validate |
+| `make clean` | Clean intermediate files |
+| `make clean-all` | Clean everything including outputs |
 
 ## Project Structure
 
 ```
-llm3/
-├── data_src/           # Source images and HTML files
-│   ├── 11 - Engine/    # Service manual sections
-│   ├── M3-techspec.html        # ← NEW: Tech specifications
-│   └── 320is-techspec.html     # ← NEW: 320is variant specs
-├── data/               # Generated datasets
-│   ├── dataset.jsonl              # 2,510 consolidated examples (all data)
-│   ├── hf_train_autotrain.jsonl   # 2,510 training examples (flat text)
-│   └── hf_val_synthetic.jsonl     # 248 validation examples (synthetic)
+vlm3/
+├── data_src/           # Source images, PDFs, HTML (read-only input)
+│   ├── 00 - Maintenance/
+│   ├── 11 - Engine/
+│   ├── 21 - Clutch/
+│   ├── ...
+│   ├── M3-techspec.html
+│   └── 320is-techspec.html
 ├── work/               # Intermediate artifacts
-│   ├── images_clean/   # Preprocessed images
-│   ├── ocr_raw/        # OCR JSON outputs
-│   ├── blocks/         # Parsed content blocks
-│   └── logs/           # QA reports
-├── scripts/            # Pipeline stages
-│   ├── 01_inventory.py                    # Catalog images
-│   ├── 02_preprocess.py                   # Clean/deskew
-│   ├── 03_ocr.py                          # PaddleOCR extraction
-│   ├── 03b_ocr_tables.py                  # Table extraction
-│   ├── 04_parse_blocks.py                 # Structure content
-│   ├── 05_emit_jsonl.py                   # Generate consolidated JSONL
-│   ├── 06_validate.py                     # QA checks
-│   ├── 07_extract_html_specs.py           # HTML parsing
-│   ├── 08_convert_to_autotrain.py         # AutoTrain flat text format
-│   ├── 09_generate_synthetic_validation.py # Synthetic validation
-│   └── 10_upload_to_hf.py                 # HF upload
+│   ├── inventory.csv
+│   ├── inventory_prepared.csv
+│   ├── classified/pages.csv
+│   ├── indices/*.json
+│   ├── qa_raw/, qa_filtered/, qa_unique/
+│   └── logs/
+├── data/               # Final outputs
+│   ├── vlm_train.jsonl
+│   ├── vlm_val.jsonl
+│   └── images/
+├── scripts/            # Pipeline scripts (01-09)
+├── specs/              # Detailed specifications per stage
+├── tests/              # pytest test suite
 ├── config.yaml         # Pipeline configuration
 ├── Makefile            # Orchestration
-└── *.md                # Documentation
+└── CLAUDE.md           # Claude Code project brief
 ```
 
-## Model Training
+## Configuration
 
-**Recommended Configuration** (see `MODEL_CONFIG.md` and `AUTOTRAIN_READY.md`):
+All settings in `config.yaml`:
 
-- **Base Model**: `meta-llama/Llama-3.1-8B-Instruct` (proven to work)
-- **Method**: QLoRA (4-bit quantization)
-- **LoRA rank**: 16
-- **Learning rate**: 2e-4
-- **Epochs**: 3
-- **Batch size**: 4-8
-- **Platform**: HuggingFace AutoTrain (recommended)
-
-**Dataset Configuration**:
-- Training: 2,510 examples (all service manual data)
-- Validation: 248 synthetic examples
-- Format: Flat text `{"text": "User: [TASK] Q\nAssistant: A"}`
-
-## Expected Results
-
-With the enhanced dataset, your model should correctly answer:
-
-```python
-# Previously failed (hallucinated "4.0 V"):
-"[SPEC] What is the engine displacement?" → "2302 CC" or "2.3 L" ✅
-
-# Now also works:
-"What is the bore and stroke?" → "93.4 × 84.0 mm" ✅
-"What is the compression ratio?" → "10.5:1" ✅
-"What is the power output?" → "197 BHP / 147 kW @ 6750 rpm" ✅
-```
-
-## Iterating on Model Quality
-
-See `LEARNING_EXPERIMENTS.md` for systematic experimentation guide:
-
-1. **Experiment 1**: Baseline with enhanced dataset
-2. **Experiment 2**: Try different base models (Mistral-7B)
-3. **Experiment 3**: Hyperparameter tuning (LoRA rank, learning rate)
-4. **Experiment 4**: Data quality improvements (OCR cleanup)
+- **API**: Model selection, rate limits, retries
+- **Classification**: Content type patterns, source detection
+- **Generation**: Questions per page by type, skip patterns, cost controls
+- **Filters**: Answer length, generic patterns, similarity thresholds
+- **Output**: Train/val split ratio, image handling mode
 
 ## Requirements
 
 ```bash
-# Python dependencies
 pip install -r requirements.txt
-
-# Key packages:
-# - paddlepaddle, paddleocr (OCR)
-# - opencv-python, pillow (image processing)
-# - pyyaml (config)
-# - datasets, huggingface_hub (for upload)
 ```
 
-## Troubleshooting
+Key dependencies:
+- `anthropic` - Claude API for classification and Q&A generation
+- `pillow`, `opencv-python` - Image processing
+- `pdf2image` - PDF to JPG conversion
+- `sentence-transformers` - Semantic deduplication
+- `pyyaml` - Configuration
+- `datasets`, `huggingface_hub` - Dataset upload
 
-### "Model hallucinated engine displacement"
-✅ **Fixed!** Run `make extract_html` to add HTML tech specs to dataset.
+## Testing
 
-### "Dataset has gaps in general specs"
-✅ **Fixed!** HTML extraction now includes:
-- Engine: displacement, bore/stroke, compression, power/torque
-- Transmission: ratios, clutch specs
-- Chassis: suspension, brakes, wheels
-- Fluids: oil, coolant, brake fluid capacities
-
-### "Training failed with bitsandbytes error"
-✅ **Solved!** Use HuggingFace AutoTrain instead of Colab:
-- No environment setup needed
-- Reliable training infrastructure
-- Auto-configured QLoRA parameters
-
-## Documentation
-
-| File | Purpose |
-|------|---------|
-| **README.md** | This file - project overview and quick start |
-| **AUTOTRAIN_READY.md** | **→ START HERE for training guide** |
-| **LEARNING_EXPERIMENTS.md** | QLoRA learning experiments and iteration |
-| **CLAUDE.md** | Project brief for Claude Code |
+```bash
+pytest tests/                      # Run all tests
+pytest tests/test_01_inventory.py  # Single test file
+pytest tests/ -k "classify"        # Tests matching pattern
+pytest tests/ -v                   # Verbose output
+```
 
 ## License
 
 This dataset is for research/educational purposes only. Check original BMW service manual licensing.
 
-## Citation
-
-```bibtex
-@dataset{bmw_service_manual_2025,
-  title={BMW E30 M3 Service Manual Instruction-Tuning Dataset},
-  author={Your Name},
-  year={2025},
-  howpublished={\url{https://github.com/yourusername/llm3}},
-  note={Extracted from scanned BMW service manual pages and HTML tech specs}
-}
-```
-
 ## Acknowledgments
 
 - BMW E30 M3 service manual (original source)
-- PaddleOCR for text extraction
-- HuggingFace for AutoTrain platform
+- Anthropic Claude for vision-based Q&A generation
+- HuggingFace for dataset hosting
 - BMW enthusiast community
-
----
-
-**Ready to start?** Run `make all` and then upload to HuggingFace AutoTrain!

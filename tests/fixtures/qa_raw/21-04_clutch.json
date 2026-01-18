@@ -1,0 +1,41 @@
+{
+  "page_id": "21-04_clutch",
+  "image_path": "data_src/21 - Clutch/21-04.jpg",
+  "section_id": "21",
+  "section_name": "Clutch",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": ["21 21 010"],
+  "procedures_names": ["Clutch - adjust"],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2025-01-15T10:35:00Z",
+    "prompt_template": "procedure"
+  },
+  "qa_pairs": [
+    {
+      "id": "21-04_clutch-q01",
+      "question": "What is the correct pedal free play for the clutch?",
+      "answer": "The clutch pedal free play should be between 15-25 mm measured at the pedal pad.",
+      "question_type": "factual"
+    },
+    {
+      "id": "21-04_clutch-q02",
+      "question": "What is the flywheel bolt torque specification?",
+      "answer": "Torque the flywheel bolts to 85 Nm.",
+      "question_type": "factual"
+    },
+    {
+      "id": "21-04_clutch-q03",
+      "question": "How do I adjust the clutch cable tension?",
+      "answer": "Loosen the locknut on the cable adjuster, turn the adjuster until correct free play is achieved, then tighten the locknut.",
+      "question_type": "procedural"
+    },
+    {
+      "id": "21-04_clutch-q04",
+      "question": "What safety precautions should I take?",
+      "answer": "Ensure the vehicle is on a level surface with the parking brake engaged. Disconnect the battery before working.",
+      "question_type": "safety"
+    }
+  ]
+}

@@ -1,116 +1,245 @@
-# BMW E30 M3 Service Manual - Dataset Pipeline
-# Converts scanned service manual pages to AutoTrain-ready format
+# BMW E30 M3 Service Manual - VLM Dataset Pipeline
+# Converts scanned service manual pages to Vision-Language Model training format
 
 SECT_FILTER?=
 
 # ============================================================================
-# STAGE 1: OCR Pipeline (Extract text from scanned images)
+# STAGE 1: INVENTORY
 # ============================================================================
 
 inventory:
-	@echo "📋 Cataloging service manual images..."
-	python scripts/01_inventory.py --data-src data_src --output work/inventory.csv --section-filter "$(SECT_FILTER)"
+	@echo "📋 Stage 1: Cataloging source files..."
+	python scripts/01_inventory.py \
+		--data-src data_src \
+		--output work/inventory.csv \
+		--section-filter "$(SECT_FILTER)"
 
-preprocess:
-	@echo "🖼️  Preprocessing images (deskew, clean)..."
-	python scripts/02_preprocess.py --inventory work/inventory.csv --out work/images_clean
+# ============================================================================
+# STAGE 2: SOURCE PREPARATION
+# ============================================================================
 
-ocr:
-	@echo "🔍 Running OCR (text + tables)..."
-	python scripts/03_ocr.py --input-dir work/images_clean --output-dir work/ocr_raw
-	python scripts/03b_ocr_tables.py --ocr-dir work/ocr_raw --images-dir work/images_clean --output-dir work/ocr_tables
+prepare:
+	@echo "🔄 Stage 2: Converting PDFs and validating images..."
+	python scripts/02_prepare_sources.py \
+		--inventory work/inventory.csv \
+		--data-src data_src \
+		--output work/inventory_prepared.csv \
+		--log work/logs/source_preparation.csv
 
-blocks:
-	@echo "📦 Parsing OCR into structured blocks..."
-	python scripts/04_parse_blocks.py --ocr work/ocr_raw --tables work/ocr_tables --out work/blocks --config config.yaml
+# ============================================================================
+# STAGE 3: CLASSIFICATION & INDEX PARSING
+# ============================================================================
+
+classify:
+	@echo "🏷️  Stage 3: Classifying pages and parsing indices..."
+	python scripts/03_classify_pages.py \
+		--inventory work/inventory_prepared.csv \
+		--output-csv work/classified/pages.csv \
+		--output-indices work/indices \
+		--config config.yaml
+
+# Optional: Validate classification results
+classify-validate:
+	@echo "✅ Validating classification results..."
+	python scripts/03b_validate_classification.py \
+		--classified work/classified/pages.csv \
+		--indices work/indices \
+		--output work/logs/classification_report.md
+
+# ============================================================================
+# STAGE 4: Q&A GENERATION
+# ============================================================================
+
+generate-qa-images:
+	@echo "🤖 Stage 4a: Generating Q&A from images via Claude API..."
+	python scripts/04a_generate_qa_images.py \
+		--classified work/classified/pages.csv \
+		--indices work/indices \
+		--data-src data_src \
+		--output work/qa_raw \
+		--config config.yaml
+
+generate-qa-html:
+	@echo "📄 Stage 4b: Generating Q&A from HTML specs..."
+	python scripts/04b_generate_qa_html.py \
+		--data-src data_src \
+		--output work/qa_raw \
+		--config config.yaml
+
+generate-qa: generate-qa-images generate-qa-html
+
+# ============================================================================
+# STAGE 5: Q&A QUALITY CONTROL
+# ============================================================================
+
+filter-qa:
+	@echo "🔍 Stage 5a: Filtering Q&A for quality..."
+	python scripts/05_filter_qa.py \
+		--input work/qa_raw \
+		--output work/qa_filtered \
+		--log work/logs/qa_filtered_out.csv \
+		--report work/logs/qa_filter_report.md \
+		--config config.yaml
+
+deduplicate-qa:
+	@echo "🧹 Stage 5b: Deduplicating Q&A pairs..."
+	python scripts/06_deduplicate_qa.py \
+		--input work/qa_filtered \
+		--output work/qa_unique \
+		--log work/logs/qa_duplicates.csv \
+		--report work/logs/qa_dedup_report.md \
+		--config config.yaml
+
+quality-control: filter-qa deduplicate-qa
+
+# ============================================================================
+# STAGE 6: EMIT & VALIDATE
+# ============================================================================
 
 emit:
-	@echo "📝 Generating JSONL from blocks..."
-	python scripts/05_emit_jsonl.py --blocks-dir work/blocks --output-dir data
+	@echo "📝 Stage 6a: Emitting VLM training dataset..."
+	python scripts/07_emit_vlm_dataset.py \
+		--qa work/qa_unique \
+		--data-src data_src \
+		--output data \
+		--report work/logs/emit_report.md \
+		--config config.yaml
 
 validate:
-	@echo "✅ Validating dataset quality..."
-	python scripts/06_validate.py --data-dir data --file dataset.jsonl --output work/logs/qa_report.md
-
-# ============================================================================
-# STAGE 2: Enhancement (Add HTML tech specs)
-# ============================================================================
-
-extract_html:
-	@echo "🌐 Extracting tech specs from HTML..."
-	python scripts/07_extract_html_specs.py
-
-# ============================================================================
-# STAGE 3: AutoTrain Preparation (Final format)
-# ============================================================================
-
-autotrain_prep:
-	@echo "🚀 Converting to AutoTrain flat text format..."
-	python scripts/08_convert_to_autotrain.py
-
-synthetic_val:
-	@echo "🧪 Generating synthetic validation examples..."
-	python scripts/09_generate_synthetic_validation.py --train data/hf_train_autotrain.jsonl --output data/hf_val_synthetic.jsonl --count 250
-
-# ============================================================================
-# UPLOAD & TRAIN
-# ============================================================================
+	@echo "✅ Stage 6b: Validating VLM dataset..."
+	python scripts/08_validate_vlm.py \
+		--train data/vlm_train.jsonl \
+		--val data/vlm_val.jsonl \
+		--images data \
+		--output work/logs/vlm_qa_report.md \
+		--config config.yaml
 
 upload:
-	@echo "📤 Uploading to HuggingFace Hub..."
-	python scripts/10_upload_to_hf.py --repo drumwell/llm3
-
-upload_help:
-	@echo "📤 HuggingFace Upload Instructions"
-	@echo "=================================="
-	@echo ""
-	@echo "First time setup:"
-	@echo "  pip install datasets huggingface_hub"
-	@echo "  huggingface-cli login"
-	@echo ""
-	@echo "Upload:"
-	@echo "  make upload"
-	@echo "  OR: python scripts/09_upload_to_hf.py --repo drumwell/llm3"
-	@echo ""
-	@echo "Train on AutoTrain:"
-	@echo "  1. Go to https://huggingface.co/autotrain"
-	@echo "  2. See AUTOTRAIN_READY.md for complete guide"
+	@echo "📤 Stage 6c: Uploading to HuggingFace Hub..."
+	python scripts/09_upload_vlm.py \
+		--train data/vlm_train.jsonl \
+		--val data/vlm_val.jsonl \
+		--images data/images \
+		--config config.yaml
 
 # ============================================================================
 # CONVENIENCE TARGETS
 # ============================================================================
 
 # Run complete pipeline from scratch
-all: inventory preprocess ocr blocks emit validate extract_html autotrain_prep synthetic_val
+all: inventory prepare classify generate-qa quality-control emit validate
 	@echo ""
-	@echo "✅ Pipeline complete!"
+	@echo "✅ VLM Pipeline complete!"
 	@echo "📊 Results:"
-	@echo "   - Training: data/hf_train_autotrain.jsonl"
-	@echo "   - Validation: data/hf_val_synthetic.jsonl"
+	@echo "   - Training: data/vlm_train.jsonl"
+	@echo "   - Validation: data/vlm_val.jsonl"
+	@echo "   - Images: data/images/"
 	@echo ""
 	@echo "📤 Next step: make upload"
 
-# Quick rebuild (assumes OCR already done)
-quick: emit validate extract_html autotrain_prep synthetic_val
+# Skip source preparation (already done)
+quick: classify generate-qa quality-control emit validate
 
-# Clean intermediate files
+# Regenerate Q&A only (classification unchanged)
+regen-qa: generate-qa quality-control emit validate
+
+# Reprocess quality control only (Q&A already generated)
+refilter: quality-control emit validate
+
+# Just emit and validate (Q&A already filtered)
+finalize: emit validate
+
+# ============================================================================
+# CLEAN TARGETS
+# ============================================================================
+
+# Clean Q&A artifacts only (keeps inventory and classification)
+clean-qa:
+	@echo "🧹 Cleaning Q&A artifacts..."
+	rm -rf work/qa_raw work/qa_filtered work/qa_unique
+	rm -f work/logs/qa_*.csv work/logs/vlm_qa_report.md
+
+# Clean classification (keeps inventory)
+clean-classify:
+	@echo "🧹 Cleaning classification artifacts..."
+	rm -rf work/classified work/indices
+
+# Clean all intermediate files
 clean:
-	@echo "🧹 Cleaning work directory..."
-	rm -rf work/images_clean work/ocr_raw work/ocr_tables work/blocks
+	@echo "🧹 Cleaning all work artifacts..."
+	rm -rf work/qa_raw work/qa_filtered work/qa_unique
+	rm -rf work/classified work/indices
+	rm -f work/logs/*.csv work/logs/*.md
 
-# Show pipeline status
+# Clean everything including outputs
+clean-all:
+	@echo "🧹 Cleaning everything..."
+	rm -rf work/ data/
+
+# ============================================================================
+# STATUS & HELP
+# ============================================================================
+
 status:
-	@echo "📊 Pipeline Status"
-	@echo "================="
+	@echo "📊 VLM Pipeline Status"
+	@echo "======================"
 	@echo ""
-	@echo "OCR Data:"
-	@test -f work/inventory.csv && echo "  ✅ inventory.csv" || echo "  ❌ inventory.csv (run: make inventory)"
-	@test -d work/images_clean && echo "  ✅ images_clean/" || echo "  ❌ images_clean/ (run: make preprocess)"
-	@test -d work/ocr_raw && echo "  ✅ ocr_raw/" || echo "  ❌ ocr_raw/ (run: make ocr)"
+	@echo "Stage 1 - Inventory:"
+	@test -f work/inventory.csv && echo "  ✅ work/inventory.csv" || echo "  ❌ work/inventory.csv (run: make inventory)"
 	@echo ""
-	@echo "Training Data:"
-	@test -f data/dataset.jsonl && echo "  ✅ dataset.jsonl" || echo "  ❌ dataset.jsonl (run: make emit extract_html)"
-	@test -f data/hf_train_autotrain.jsonl && echo "  ✅ hf_train_autotrain.jsonl" || echo "  ❌ hf_train_autotrain.jsonl (run: make autotrain_prep)"
-	@test -f data/hf_val_synthetic.jsonl && echo "  ✅ hf_val_synthetic.jsonl" || echo "  ❌ hf_val_synthetic.jsonl (run: make synthetic_val)"
+	@echo "Stage 2 - Source Preparation:"
+	@test -f work/inventory_prepared.csv && echo "  ✅ work/inventory_prepared.csv" || echo "  ❌ work/inventory_prepared.csv (run: make prepare)"
+	@echo ""
+	@echo "Stage 3 - Classification:"
+	@test -f work/classified/pages.csv && echo "  ✅ work/classified/pages.csv" || echo "  ❌ work/classified/pages.csv (run: make classify)"
+	@test -d work/indices && echo "  ✅ work/indices/" || echo "  ❌ work/indices/ (run: make classify)"
+	@echo ""
+	@echo "Stage 4 - Q&A Generation:"
+	@test -d work/qa_raw && echo "  ✅ work/qa_raw/" || echo "  ❌ work/qa_raw/ (run: make generate-qa)"
+	@echo ""
+	@echo "Stage 5 - Quality Control:"
+	@test -d work/qa_filtered && echo "  ✅ work/qa_filtered/" || echo "  ❌ work/qa_filtered/ (run: make filter-qa)"
+	@test -d work/qa_unique && echo "  ✅ work/qa_unique/" || echo "  ❌ work/qa_unique/ (run: make deduplicate-qa)"
+	@echo ""
+	@echo "Stage 6 - Output:"
+	@test -f data/vlm_train.jsonl && echo "  ✅ data/vlm_train.jsonl" || echo "  ❌ data/vlm_train.jsonl (run: make emit)"
+	@test -f data/vlm_val.jsonl && echo "  ✅ data/vlm_val.jsonl" || echo "  ❌ data/vlm_val.jsonl (run: make emit)"
+	@test -d data/images && echo "  ✅ data/images/" || echo "  ❌ data/images/ (run: make emit)"
+	@test -f work/logs/vlm_qa_report.md && echo "  ✅ work/logs/vlm_qa_report.md" || echo "  ❌ work/logs/vlm_qa_report.md (run: make validate)"
 
-.PHONY: all quick clean status upload upload_help inventory preprocess ocr blocks emit validate extract_html autotrain_prep synthetic_val
+help:
+	@echo "BMW E30 M3 Service Manual - VLM Pipeline"
+	@echo "========================================="
+	@echo ""
+	@echo "Full Pipeline:"
+	@echo "  make all              Run complete pipeline (Stages 1-6)"
+	@echo ""
+	@echo "Individual Stages:"
+	@echo "  make inventory        Stage 1: Catalog source files"
+	@echo "  make prepare          Stage 2: Convert PDFs, validate images"
+	@echo "  make classify         Stage 3: Classify pages, parse indices"
+	@echo "  make generate-qa      Stage 4: Generate Q&A (images + HTML)"
+	@echo "  make quality-control  Stage 5: Filter and deduplicate Q&A"
+	@echo "  make emit             Stage 6a: Emit VLM JSONL dataset"
+	@echo "  make validate         Stage 6b: Validate dataset"
+	@echo "  make upload           Stage 6c: Upload to HuggingFace"
+	@echo ""
+	@echo "Partial Runs:"
+	@echo "  make quick            Skip Stage 1-2 (sources already prepared)"
+	@echo "  make regen-qa         Regenerate from Stage 4"
+	@echo "  make refilter         Rerun from Stage 5"
+	@echo "  make finalize         Just emit and validate"
+	@echo ""
+	@echo "Utilities:"
+	@echo "  make status           Show pipeline status"
+	@echo "  make clean            Clean intermediate files"
+	@echo "  make clean-all        Clean everything"
+	@echo "  make help             Show this help"
+
+.PHONY: all quick regen-qa refilter finalize \
+        inventory prepare classify classify-validate \
+        generate-qa generate-qa-images generate-qa-html \
+        filter-qa deduplicate-qa quality-control \
+        emit validate upload \
+        clean clean-qa clean-classify clean-all \
+        status help
