@@ -88,7 +88,7 @@ jobs:
               InstanceType=${{ github.event.inputs.instance_type }} \
               S3Bucket=${{ env.S3_BUCKET }} \
               ProjectName=${{ env.PROJECT_NAME }} \
-            --capabilities CAPABILITY_IAM \
+            --capabilities CAPABILITY_NAMED_IAM \
             --no-fail-on-empty-changeset
 
       - name: Get instance ID
