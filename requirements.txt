@@ -6,6 +6,7 @@ numpy
 pandas
 tqdm
 pyyaml
+requests>=2.28.0                   # HTTP requests for scraper
 
 # Stage 2: Source Preparation
 pdf2image>=1.16.0

@@ -1,0 +1,8 @@
+# vBulletin Forum Scraper Dependencies
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+PyYAML>=6.0
+urllib3>=2.0.0
+
+# Testing (optional, for local development)
+pytest>=7.0.0

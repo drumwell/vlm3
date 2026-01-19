@@ -1,0 +1,202 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'vBulletin Forum Scraper - EC2 Spot Instance Infrastructure'
+
+Parameters:
+  InstanceType:
+    Type: String
+    Default: t3.small
+    AllowedValues:
+      - t3.micro
+      - t3.small
+      - t3.medium
+    Description: EC2 instance type
+
+  S3Bucket:
+    Type: String
+    Description: S3 bucket for storing scraper results
+
+  ProjectName:
+    Type: String
+    Default: vlm3-scraper
+    Description: Project name for tagging
+
+  VolumeSize:
+    Type: Number
+    Default: 50
+    Description: EBS volume size in GB (for images)
+
+  # Dynamic AMI lookup via SSM Parameter Store
+  LatestAmiId:
+    Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
+    Default: /aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64
+    Description: Latest Amazon Linux 2023 AMI (auto-updated via SSM)
+
+Resources:
+  # IAM Role for EC2 instance
+  ScraperRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub '${ProjectName}-role'
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ec2.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
+      Policies:
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:PutObject
+                  - s3:GetObject
+                  - s3:ListBucket
+                  - s3:DeleteObject
+                Resource:
+                  - !Sub 'arn:aws:s3:::${S3Bucket}'
+                  - !Sub 'arn:aws:s3:::${S3Bucket}/*'
+        - PolicyName: CloudWatchLogs
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogGroup
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: '*'
+
+  ScraperInstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      InstanceProfileName: !Sub '${ProjectName}-profile'
+      Roles:
+        - !Ref ScraperRole
+
+  # Security Group
+  ScraperSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: !Sub '${ProjectName}-sg'
+      GroupDescription: Security group for forum scraper
+      SecurityGroupEgress:
+        - IpProtocol: tcp
+          FromPort: 443
+          ToPort: 443
+          CidrIp: 0.0.0.0/0
+          Description: HTTPS outbound for scraping
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+          Description: HTTP outbound for scraping
+      Tags:
+        - Key: Name
+          Value: !Sub '${ProjectName}-sg'
+
+  # Launch Template for Spot Instance
+  ScraperLaunchTemplate:
+    Type: AWS::EC2::LaunchTemplate
+    Properties:
+      LaunchTemplateName: !Sub '${ProjectName}-template'
+      LaunchTemplateData:
+        ImageId: !Ref LatestAmiId
+        InstanceType: !Ref InstanceType
+        IamInstanceProfile:
+          Arn: !GetAtt ScraperInstanceProfile.Arn
+        SecurityGroupIds:
+          - !Ref ScraperSecurityGroup
+        BlockDeviceMappings:
+          - DeviceName: /dev/xvda
+            Ebs:
+              VolumeSize: !Ref VolumeSize
+              VolumeType: gp3
+              DeleteOnTermination: true
+        InstanceMarketOptions:
+          MarketType: spot
+          SpotOptions:
+            SpotInstanceType: persistent
+            InstanceInterruptionBehavior: stop
+        UserData:
+          Fn::Base64: !Sub |
+            #!/bin/bash
+            set -ex
+
+            # Update system
+            yum update -y
+            yum install -y python3 python3-pip git
+
+            # Create working directory
+            mkdir -p /home/ec2-user/scraper
+            chown ec2-user:ec2-user /home/ec2-user/scraper
+
+            # Install AWS CLI v2
+            curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+            unzip -q awscliv2.zip
+            ./aws/install
+            rm -rf aws awscliv2.zip
+
+            # Create sync script
+            cat > /home/ec2-user/sync_to_s3.sh << 'SYNCEOF'
+            #!/bin/bash
+            aws s3 sync /home/ec2-user/scraper/forum_archive s3://${S3Bucket}/forum_archive --exclude "*.log"
+            SYNCEOF
+            chmod +x /home/ec2-user/sync_to_s3.sh
+
+            # Setup cron for periodic sync (every 6 hours)
+            echo "0 */6 * * * /home/ec2-user/sync_to_s3.sh" | crontab -u ec2-user -
+
+            # Signal completion
+            echo "Setup complete" > /home/ec2-user/setup_complete
+
+        TagSpecifications:
+          - ResourceType: instance
+            Tags:
+              - Key: Name
+                Value: !Sub '${ProjectName}-instance'
+              - Key: Project
+                Value: !Ref ProjectName
+
+  # EC2 Instance
+  ScraperInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      LaunchTemplate:
+        LaunchTemplateId: !Ref ScraperLaunchTemplate
+        Version: !GetAtt ScraperLaunchTemplate.LatestVersionNumber
+      Tags:
+        - Key: Name
+          Value: !Sub '${ProjectName}-instance'
+
+  # CloudWatch Log Group
+  ScraperLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub '/scraper/${ProjectName}'
+      RetentionInDays: 30
+
+Outputs:
+  InstanceId:
+    Description: EC2 Instance ID
+    Value: !Ref ScraperInstance
+    Export:
+      Name: !Sub '${ProjectName}-InstanceId'
+
+  InstancePublicIP:
+    Description: Public IP address
+    Value: !GetAtt ScraperInstance.PublicIp
+    Export:
+      Name: !Sub '${ProjectName}-PublicIP'
+
+  SSMConnectCommand:
+    Description: Command to connect via SSM
+    Value: !Sub 'aws ssm start-session --target ${ScraperInstance}'
+
+  S3ResultsPath:
+    Description: S3 path for results
+    Value: !Sub 's3://${S3Bucket}/forum_archive'

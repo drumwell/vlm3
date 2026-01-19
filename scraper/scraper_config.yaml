@@ -1,0 +1,185 @@
+# Forum Scraper Configuration
+# Supports multiple forums with custom selectors and authentication
+
+# =============================================================================
+# Global Settings (apply to all forums unless overridden)
+# =============================================================================
+
+defaults:
+  rate_limiting:
+    min_delay_seconds: 1.5
+    max_delay_seconds: 2.5
+    retry_delay_seconds: 5
+    max_retries: 3
+    backoff_multiplier: 2
+
+  http:
+    timeout_seconds: 30
+    user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    headers:
+      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+      Accept-Language: "en-US,en;q=0.5"
+      Accept-Encoding: "gzip, deflate, br"
+      Connection: "keep-alive"
+
+  checkpoints:
+    save_interval: 10
+    auto_resume: true
+
+  images:
+    download_enabled: true
+    max_size_mb: 10
+    allowed_extensions: [".jpg", ".jpeg", ".png", ".gif", ".webp"]
+    skip_patterns: ["emoji", "smil", "icon", "avatar", "/misc/", "/images/buttons/"]
+
+  logging:
+    level: "INFO"
+    file_enabled: true
+
+# =============================================================================
+# Platform Selector Presets
+# These define CSS selectors for different forum software platforms
+# =============================================================================
+
+platforms:
+  vbulletin6:
+    name: "vBulletin 6.x"
+    selectors:
+      # Forum index page
+      forum_container: ".b-channel, .forumbit, [data-node-id]"
+      forum_link: ".b-channel__title a, .forum-title a, a[href*='/forum/']"
+      forum_description: ".b-channel__description, .forum-desc"
+
+      # Forum page (thread listings)
+      subforum_link: ".subforum-item a, .child-forum a, [class*='subforum'] a"
+      thread_container: ".b-post, .threadbit, [id*='thread_'], .topic-item"
+      thread_link: ".b-post__title a, .thread-title a, a[href*='/threads/']"
+      thread_author: ".b-post__author a, .author a, .username"
+      thread_stats: ".b-post__stats span, [class*='count'], [class*='stats']"
+      thread_sticky_class: "sticky, pinned"
+      thread_locked_class: "locked, closed"
+
+      # Thread page (posts)
+      post_container: ".b-post, [class*='postbit'], [data-post-id], article[class*='post']"
+      post_author: ".b-post__author a, .username, [class*='author'] a"
+      post_content: ".b-post__content, .postcontent, [class*='message-body'], .js-post__content-text"
+      post_timestamp: "time, .b-post__timestamp, [datetime], [class*='date']"
+      post_quote: "blockquote, .bbcode_quote, [class*='quote']"
+
+      # Pagination
+      pagination_container: ".pagination, .b-pagination, [class*='pagenav'], .pageNav"
+      pagination_current: ".current, [class*='active'], .b-pagination__current, strong"
+      pagination_next: "a[class*='next'], [class*='next'] a, a[rel='next']"
+      pagination_prev: "a[class*='prev'], [class*='prev'] a, a[rel='prev']"
+      pagination_last: "[class*='last'] a, a[title*='Last']"
+
+    url_patterns:
+      forum: "/forum/{id}-{slug}"
+      thread: "/threads/{id}-{slug}"
+      page_param: "page"
+
+    # Login configuration
+    auth:
+      login_url: "/login"
+      login_form_selector: "form[action*='login']"
+      username_field: "username"
+      password_field: "password"
+      csrf_field: "securitytoken"
+      success_indicator: ".logout, .user-menu"
+
+  xenforo2:
+    name: "XenForo 2.x"
+    selectors:
+      forum_container: ".node--forum, .node-body"
+      forum_link: ".node-title a, a[href*='/forums/']"
+      forum_description: ".node-description"
+
+      subforum_link: ".node--subForum a, .subNodeLink"
+      thread_container: ".structItem--thread"
+      thread_link: ".structItem-title a"
+      thread_author: ".username"
+      thread_stats: ".structItem-cell--meta"
+      thread_sticky_class: "is-sticky"
+      thread_locked_class: "is-locked"
+
+      post_container: ".message--post, [data-content='post']"
+      post_author: ".message-userDetails a.username"
+      post_content: ".message-body .bbWrapper"
+      post_timestamp: "time.u-dt"
+      post_quote: "blockquote.bbCodeBlock--quote"
+
+      pagination_container: ".pageNav"
+      pagination_current: ".pageNav-page--current"
+      pagination_next: ".pageNav-jump--next"
+      pagination_prev: ".pageNav-jump--prev"
+      pagination_last: ".pageNav-page:last-child a"
+
+    url_patterns:
+      forum: "/forums/{slug}.{id}/"
+      thread: "/threads/{slug}.{id}/"
+      page_param: "page"
+
+    auth:
+      login_url: "/login"
+      login_form_selector: "form[action*='login']"
+      username_field: "login"
+      password_field: "password"
+      csrf_field: "_xfToken"
+      success_indicator: "[data-logged-in='true']"
+
+# =============================================================================
+# Forum Configurations
+# Define each forum you want to scrape
+# =============================================================================
+
+forums:
+  e30m3datasrc:
+    name: "E30 M3 Forum"
+    base_url: ""  # Set via E30M3_FORUM_URL environment variable or CLI
+    platform: vbulletin6
+    enabled: true
+
+    # Storage (relative to scraper root)
+    storage:
+      base_dir: "forum_archive/e30m3datasrc"
+
+    # Override default rate limiting if needed
+    # rate_limiting:
+    #   min_delay_seconds: 2.0
+
+    # Authentication (optional)
+    # Credentials should be in environment variables or .env file
+    auth:
+      enabled: false
+      # username_env: "E30M3_USERNAME"
+      # password_env: "E30M3_PASSWORD"
+
+    # Forum-specific selector overrides (if needed)
+    # selector_overrides:
+    #   thread_container: ".custom-thread-class"
+
+    # Test target for validation (update for your forum)
+    test_target:
+      name: "Test Subforum"
+      expected_topics: 0
+      expected_posts: 0
+
+  # Example: Another forum configuration
+  # other_forum:
+  #   name: "Other Forum"
+  #   base_url: "https://example.com"
+  #   platform: xenforo2
+  #   enabled: false
+  #   storage:
+  #     base_dir: "forum_archive/other_forum"
+  #   auth:
+  #     enabled: true
+  #     username_env: "OTHER_USERNAME"
+  #     password_env: "OTHER_PASSWORD"
+
+# =============================================================================
+# Active Forum Selection
+# Which forum to scrape (can be overridden via CLI --forum flag)
+# =============================================================================
+
+active_forum: e30m3datasrc
