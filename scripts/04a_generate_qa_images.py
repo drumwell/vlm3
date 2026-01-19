@@ -1324,9 +1324,11 @@ Examples:
 
         # Resolve image paths relative to data_src if provided
         if args.data_src:
+            data_src_str = str(args.data_src)
             for record in classification_data:
-                img_path = Path(record.get("image_path", ""))
-                if not img_path.is_absolute():
+                img_path = record.get("image_path", "")
+                # Avoid double-prefixing if path already starts with data_src
+                if not Path(img_path).is_absolute() and not img_path.startswith(data_src_str):
                     record["image_path"] = str(args.data_src / img_path)
             logger.info(f"Resolved image paths relative to {args.data_src}")
 

@@ -120,6 +120,8 @@ upload:
 		--train data/vlm_train.jsonl \
 		--val data/vlm_val.jsonl \
 		--images data/images \
+		--repo drumwell/vlm3 \
+		--report work/logs/upload_report.md \
 		--config config.yaml
 
 # ============================================================================
