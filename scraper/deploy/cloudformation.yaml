@@ -31,6 +31,10 @@ Parameters:
     Default: /aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64
     Description: Latest Amazon Linux 2023 AMI (auto-updated via SSM)
 
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+    Description: VPC to deploy into (use default VPC)
+
 Resources:
   # IAM Role for EC2 instance
   ScraperRole:
@@ -84,6 +88,7 @@ Resources:
     Properties:
       GroupName: !Sub '${ProjectName}-sg'
       GroupDescription: Security group for forum scraper
+      VpcId: !Ref VpcId
       SecurityGroupEgress:
         - IpProtocol: tcp
           FromPort: 443

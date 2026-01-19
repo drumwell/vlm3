@@ -79,6 +79,13 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ env.AWS_REGION }}
 
+      - name: Get default VPC
+        id: vpc
+        run: |
+          VPC_ID=$(aws ec2 describe-vpcs --filters "Name=isDefault,Values=true" --query "Vpcs[0].VpcId" --output text)
+          echo "vpc_id=$VPC_ID" >> $GITHUB_OUTPUT
+          echo "Using VPC: $VPC_ID"
+
       - name: Deploy CloudFormation stack
         run: |
           aws cloudformation deploy \
@@ -88,6 +95,7 @@ jobs:
               InstanceType=${{ github.event.inputs.instance_type }} \
               S3Bucket=${{ env.S3_BUCKET }} \
               ProjectName=${{ env.PROJECT_NAME }} \
+              VpcId=${{ steps.vpc.outputs.vpc_id }} \
             --capabilities CAPABILITY_NAMED_IAM \
             --no-fail-on-empty-changeset
 
