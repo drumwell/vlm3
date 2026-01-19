@@ -220,11 +220,14 @@ This creates:
 - CloudWatch log group
 - Automatic S3 sync (every 6 hours)
 
-### Step 3: Configure Forum URL
+### Step 3: Connect and Configure Instance
 
-After deployment succeeds, connect to the instance and set the forum URL:
+After deployment succeeds, connect to the instance:
 
 ```bash
+# Install SSM plugin if needed (macOS)
+brew install --cask session-manager-plugin
+
 # Get instance ID
 INSTANCE_ID=$(aws cloudformation describe-stacks \
   --stack-name e30-forum-scraper \
@@ -235,10 +238,28 @@ INSTANCE_ID=$(aws cloudformation describe-stacks \
 aws ssm start-session --target $INSTANCE_ID
 ```
 
-On the instance:
+**First time setup on the instance** (run these once after deployment):
+
 ```bash
-cd /home/ec2-user/scraper
+# Switch to ec2-user
+sudo su - ec2-user
+
+# Fix repo ownership (cloned as root during setup)
+sudo chown -R ec2-user:ec2-user ~/scraper
+
+# Add git safe directory
+git config --global --add safe.directory /home/ec2-user/scraper
+
+# Create data directories with correct permissions
+mkdir -p ~/scraper/data_src/forum/{logs,raw,data,checkpoints}
+
+# Set the forum URL
+cd ~/scraper
 echo "E30M3_FORUM_URL=https://your-forum-url.com" > .env
+
+# Verify setup
+cat .env
+ls -la data_src/forum/
 ```
 
 ### Step 4: Run the Scraper

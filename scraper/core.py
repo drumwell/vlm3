@@ -24,6 +24,13 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import yaml
 
+# Optional cloudscraper for Cloudflare bypass
+try:
+    import cloudscraper
+    CLOUDSCRAPER_AVAILABLE = True
+except ImportError:
+    CLOUDSCRAPER_AVAILABLE = False
+
 # Load environment variables from .env file
 try:
     from dotenv import load_dotenv
@@ -305,8 +312,24 @@ class ScraperSession:
         self.authenticated = False
 
     def _create_session(self) -> requests.Session:
-        """Create configured requests session with retry adapter."""
-        session = requests.Session()
+        """Create configured requests session with retry adapter.
+
+        Uses cloudscraper if available to bypass Cloudflare protection.
+        Falls back to standard requests.Session otherwise.
+        """
+        # Use cloudscraper for Cloudflare-protected sites
+        if CLOUDSCRAPER_AVAILABLE:
+            self.logger.info("Using cloudscraper for Cloudflare bypass")
+            session = cloudscraper.create_scraper(
+                browser={
+                    'browser': 'chrome',
+                    'platform': 'windows',
+                    'desktop': True
+                }
+            )
+        else:
+            self.logger.debug("Using standard requests session")
+            session = requests.Session()
 
         # Set headers
         session.headers.update(self.config.headers)
