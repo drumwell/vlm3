@@ -36,6 +36,22 @@ defaults:
     level: "INFO"
     file_enabled: true
 
+  # Residential proxy settings (Oxylabs or compatible)
+  proxy:
+    enabled: false
+    provider: oxylabs
+    host: pr.oxylabs.io
+    port: 7777
+    username_env: OXYLABS_USERNAME  # Environment variable for username
+    password_env: OXYLABS_PASSWORD  # Environment variable for password
+    country: ""          # Geographic targeting (e.g., "US", "GB")
+    city: ""             # City targeting (e.g., "Los Angeles")
+    state: ""            # State targeting (e.g., "California")
+    sticky_session: false
+    fallback_on_failure: true
+    max_proxy_retries: 3
+    track_bandwidth: true
+
 # =============================================================================
 # Platform Selector Presets
 # These define CSS selectors for different forum software platforms
@@ -154,6 +170,12 @@ forums:
       enabled: false
       # username_env: "E30M3_USERNAME"
       # password_env: "E30M3_PASSWORD"
+
+    # Proxy settings (override defaults if needed)
+    # Uncomment to enable proxy for this forum
+    # proxy:
+    #   enabled: true
+    #   country: "US"  # Target US residential IPs
 
     # Forum-specific selector overrides (if needed)
     # selector_overrides:

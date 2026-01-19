@@ -11,6 +11,9 @@
 #
 # Optional secrets:
 #   SLACK_WEBHOOK_URL      - For notifications (optional)
+#   OXYLABS_SECRET_ARN     - ARN of Secrets Manager secret with Oxylabs credentials
+#   OXYLABS_USERNAME       - Oxylabs username (alternative to Secrets Manager)
+#   OXYLABS_PASSWORD       - Oxylabs password (alternative to Secrets Manager)
 
 name: Forum Scraper
 
@@ -88,14 +91,21 @@ jobs:
 
       - name: Deploy CloudFormation stack
         run: |
+          # Build parameter overrides
+          PARAMS="InstanceType=${{ github.event.inputs.instance_type }}"
+          PARAMS="$PARAMS S3Bucket=${{ env.S3_BUCKET }}"
+          PARAMS="$PARAMS ProjectName=${{ env.PROJECT_NAME }}"
+          PARAMS="$PARAMS VpcId=${{ steps.vpc.outputs.vpc_id }}"
+
+          # Add Oxylabs secret ARN if configured
+          if [ -n "${{ secrets.OXYLABS_SECRET_ARN }}" ]; then
+            PARAMS="$PARAMS OxylabsSecretArn=${{ secrets.OXYLABS_SECRET_ARN }}"
+          fi
+
           aws cloudformation deploy \
             --template-file scraper/deploy/cloudformation.yaml \
             --stack-name ${{ env.STACK_NAME }} \
-            --parameter-overrides \
-              InstanceType=${{ github.event.inputs.instance_type }} \
-              S3Bucket=${{ env.S3_BUCKET }} \
-              ProjectName=${{ env.PROJECT_NAME }} \
-              VpcId=${{ steps.vpc.outputs.vpc_id }} \
+            --parameter-overrides $PARAMS \
             --capabilities CAPABILITY_NAMED_IAM \
             --no-fail-on-empty-changeset
 
@@ -116,16 +126,27 @@ jobs:
 
       - name: Setup scraper on instance
         run: |
+          # Build setup commands
+          SETUP_CMDS='[
+            "sudo -u ec2-user bash -c '\''cd /home/ec2-user && git clone https://github.com/${{ github.repository }}.git scraper || (cd scraper && git pull)'\''",
+            "sudo -u ec2-user bash -c '\''cd /home/ec2-user/scraper && python3 -m venv .venv'\''",
+            "sudo -u ec2-user bash -c '\''cd /home/ec2-user/scraper && source .venv/bin/activate && pip install -r scraper/requirements.txt'\''",
+            "sudo -u ec2-user bash -c '\''mkdir -p /home/ec2-user/scraper/data_src/forum/{raw,data,checkpoints,logs}'\''",
+            "sudo -u ec2-user bash -c '\''git config --global --add safe.directory /home/ec2-user/scraper'\''"'
+
+          # Add Oxylabs credentials to environment if provided directly (alternative to Secrets Manager)
+          if [ -n "${{ secrets.OXYLABS_USERNAME }}" ] && [ -n "${{ secrets.OXYLABS_PASSWORD }}" ]; then
+            SETUP_CMDS="${SETUP_CMDS},
+            \"echo 'export OXYLABS_USERNAME=\\\"${{ secrets.OXYLABS_USERNAME }}\\\"' >> /home/ec2-user/.bashrc\",
+            \"echo 'export OXYLABS_PASSWORD=\\\"${{ secrets.OXYLABS_PASSWORD }}\\\"' >> /home/ec2-user/.bashrc\""
+          fi
+
+          SETUP_CMDS="${SETUP_CMDS}]"
+
           aws ssm send-command \
             --instance-ids ${{ steps.instance.outputs.instance_id }} \
             --document-name "AWS-RunShellScript" \
-            --parameters commands='[
-              "sudo -u ec2-user bash -c '\''cd /home/ec2-user && git clone https://github.com/${{ github.repository }}.git scraper || (cd scraper && git pull)'\''",
-              "sudo -u ec2-user bash -c '\''cd /home/ec2-user/scraper && python3 -m venv .venv'\''",
-              "sudo -u ec2-user bash -c '\''cd /home/ec2-user/scraper && source .venv/bin/activate && pip install -r scraper/requirements.txt'\''",
-              "sudo -u ec2-user bash -c '\''mkdir -p /home/ec2-user/scraper/data_src/forum/{raw,data,checkpoints,logs}'\''",
-              "sudo -u ec2-user bash -c '\''git config --global --add safe.directory /home/ec2-user/scraper'\''"
-            ]' \
+            --parameters commands="$SETUP_CMDS" \
             --output text
 
       - name: Output connection info

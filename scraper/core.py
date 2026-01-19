@@ -96,6 +96,183 @@ class AuthConfig:
 
 
 @dataclass
+class ProxyConfig:
+    """Proxy configuration for residential proxy services (e.g., Oxylabs)."""
+
+    enabled: bool = False
+    provider: str = "oxylabs"
+    host: str = "pr.oxylabs.io"
+    port: int = 7777
+    username: str = ""  # Loaded from env
+    password: str = ""  # Loaded from env
+    country: str = ""   # e.g., "US"
+    city: str = ""
+    state: str = ""
+    sticky_session: bool = False
+    session_id: str = ""
+    fallback_on_failure: bool = True
+    max_proxy_retries: int = 3
+    track_bandwidth: bool = True
+
+    def build_proxy_url(self) -> Optional[str]:
+        """
+        Build Oxylabs proxy URL with targeting options.
+
+        Returns:
+            Proxy URL string or None if disabled/misconfigured
+        """
+        if not self.enabled or not self.username or not self.password:
+            return None
+
+        # Build username with targeting options
+        parts = [f"customer-{self.username}"]
+
+        if self.country:
+            parts.append(f"cc-{self.country.upper()}")
+
+        if self.city:
+            parts.append(f"city-{self.city.lower().replace(' ', '_')}")
+
+        if self.state:
+            parts.append(f"st-{self.state.lower().replace(' ', '_')}")
+
+        if self.sticky_session and self.session_id:
+            parts.append(f"sessid-{self.session_id}")
+
+        username = "-".join(parts)
+        return f"http://{username}:{self.password}@{self.host}:{self.port}"
+
+
+class ProxyManager:
+    """
+    Manages proxy sessions, rotation, and bandwidth tracking.
+
+    Features:
+    - Proxy URL generation with session control
+    - IP rotation on failure
+    - Bandwidth tracking for cost monitoring
+    """
+
+    def __init__(self, config: ProxyConfig, logger: Optional[logging.Logger] = None):
+        """
+        Initialize proxy manager.
+
+        Args:
+            config: Proxy configuration
+            logger: Optional logger instance
+        """
+        self.config = config
+        self.logger = logger or logging.getLogger(__name__)
+        self.request_count = 0
+        self.error_count = 0
+        self.consecutive_errors = 0
+        self.bytes_downloaded = 0
+        self.rotation_count = 0
+
+        # Generate initial session ID if sticky sessions enabled but no ID set
+        if self.config.sticky_session and not self.config.session_id:
+            self._generate_session_id()
+
+    def _generate_session_id(self) -> str:
+        """Generate a random session ID."""
+        import uuid
+        self.config.session_id = uuid.uuid4().hex[:16]
+        return self.config.session_id
+
+    def get_proxy_dict(self, force_sticky: bool = False) -> Optional[Dict[str, str]]:
+        """
+        Get proxy dictionary for requests.
+
+        Args:
+            force_sticky: Force sticky session even if not configured
+
+        Returns:
+            Dict with 'http' and 'https' proxy URLs, or None if disabled
+        """
+        if not self.config.enabled:
+            return None
+
+        # Handle forced sticky session
+        original_sticky = self.config.sticky_session
+        original_session_id = self.config.session_id
+
+        if force_sticky and not self.config.sticky_session:
+            self.config.sticky_session = True
+            if not self.config.session_id:
+                self._generate_session_id()
+
+        proxy_url = self.config.build_proxy_url()
+
+        # Restore original settings if we forced sticky
+        if force_sticky and not original_sticky:
+            self.config.sticky_session = original_sticky
+            self.config.session_id = original_session_id
+
+        if not proxy_url:
+            return None
+
+        return {
+            "http": proxy_url,
+            "https": proxy_url,
+        }
+
+    def rotate_session(self):
+        """Rotate to a new proxy session (new IP)."""
+        old_id = self.config.session_id
+        self._generate_session_id()
+        self.rotation_count += 1
+        self.consecutive_errors = 0
+        self.logger.info(f"Rotated proxy session: {old_id[:8]}... -> {self.config.session_id[:8]}...")
+
+    def track_bandwidth(self, response) -> int:
+        """
+        Track bandwidth usage from response.
+
+        Args:
+            response: requests.Response object
+
+        Returns:
+            Bytes tracked
+        """
+        if not self.config.track_bandwidth:
+            return 0
+
+        # Try Content-Length header first
+        content_length = response.headers.get("Content-Length")
+        if content_length:
+            bytes_count = int(content_length)
+        else:
+            # Fall back to actual content length
+            bytes_count = len(response.content) if hasattr(response, 'content') else 0
+
+        self.bytes_downloaded += bytes_count
+        return bytes_count
+
+    def increment_error(self):
+        """Record a proxy error and potentially rotate session."""
+        self.error_count += 1
+        self.consecutive_errors += 1
+
+        # Rotate session after consecutive errors exceed threshold
+        if self.consecutive_errors >= self.config.max_proxy_retries:
+            self.rotate_session()
+
+    def reset_errors(self):
+        """Reset consecutive error count after successful request."""
+        self.consecutive_errors = 0
+
+    def get_stats(self) -> Dict[str, Any]:
+        """Return proxy statistics."""
+        return {
+            "proxy_requests": self.request_count,
+            "proxy_errors": self.error_count,
+            "bytes_downloaded": self.bytes_downloaded,
+            "mb_downloaded": self.bytes_downloaded / (1024 * 1024),
+            "session_rotations": self.rotation_count,
+        }
+
+
+@dataclass
 class ForumConfig:
     """Configuration for a specific forum."""
 
@@ -126,6 +303,9 @@ class ForumConfig:
 
     # Authentication
     auth: AuthConfig
+
+    # Proxy
+    proxy: ProxyConfig = field(default_factory=ProxyConfig)
 
     # Image settings
     image_skip_patterns: List[str] = field(default_factory=list)
@@ -193,6 +373,39 @@ def load_forum_config(config_path: Path, forum_id: Optional[str] = None) -> Foru
         password=os.environ.get(forum_auth.get("password_env", ""), ""),
     )
 
+    # Build proxy config
+    default_proxy = defaults.get("proxy", {})
+    forum_proxy = forum_cfg.get("proxy", {})
+    proxy_cfg = {**default_proxy, **forum_proxy}
+
+    # Load credentials from environment variables
+    proxy_username_env = proxy_cfg.get("username_env", "OXYLABS_USERNAME")
+    proxy_password_env = proxy_cfg.get("password_env", "OXYLABS_PASSWORD")
+    proxy_username = os.environ.get(proxy_username_env, "")
+    proxy_password = os.environ.get(proxy_password_env, "")
+
+    # Auto-enable proxy if credentials are present and not explicitly disabled
+    proxy_enabled = proxy_cfg.get("enabled", False)
+    if proxy_username and proxy_password and not proxy_cfg.get("enabled") is False:
+        proxy_enabled = proxy_cfg.get("enabled", True)
+
+    proxy = ProxyConfig(
+        enabled=proxy_enabled,
+        provider=proxy_cfg.get("provider", "oxylabs"),
+        host=proxy_cfg.get("host", "pr.oxylabs.io"),
+        port=proxy_cfg.get("port", 7777),
+        username=proxy_username,
+        password=proxy_password,
+        country=proxy_cfg.get("country", ""),
+        city=proxy_cfg.get("city", ""),
+        state=proxy_cfg.get("state", ""),
+        sticky_session=proxy_cfg.get("sticky_session", False),
+        session_id=proxy_cfg.get("session_id", ""),
+        fallback_on_failure=proxy_cfg.get("fallback_on_failure", True),
+        max_proxy_retries=proxy_cfg.get("max_proxy_retries", 3),
+        track_bandwidth=proxy_cfg.get("track_bandwidth", True),
+    )
+
     # Image skip patterns
     image_cfg = {**defaults.get("images", {}), **forum_cfg.get("images", {})}
     image_skip_patterns = image_cfg.get("skip_patterns", [])
@@ -229,6 +442,7 @@ def load_forum_config(config_path: Path, forum_id: Optional[str] = None) -> Foru
         checkpoint_interval=checkpoint_cfg.get("save_interval", 10),
         selectors=selectors,
         auth=auth,
+        proxy=proxy,
         image_skip_patterns=image_skip_patterns,
     )
 
@@ -311,6 +525,19 @@ class ScraperSession:
         self.error_count = 0
         self.authenticated = False
 
+        # Initialize proxy manager
+        self.proxy_manager = ProxyManager(config.proxy, self.logger)
+        if config.proxy.enabled:
+            geo_info = []
+            if config.proxy.country:
+                geo_info.append(f"country={config.proxy.country}")
+            if config.proxy.city:
+                geo_info.append(f"city={config.proxy.city}")
+            if config.proxy.state:
+                geo_info.append(f"state={config.proxy.state}")
+            geo_str = f" ({', '.join(geo_info)})" if geo_info else ""
+            self.logger.info(f"Proxy enabled: {config.proxy.provider}{geo_str}")
+
     def _create_session(self) -> requests.Session:
         """Create configured requests session with retry adapter.
 
@@ -380,11 +607,20 @@ class ScraperSession:
         self.logger.info(f"Authenticating at {login_url}")
 
         try:
+            # Use sticky session for login flow (same IP for GET and POST)
+            proxy_dict = self.proxy_manager.get_proxy_dict(force_sticky=True)
+
             # First, fetch the login page to get any CSRF token
             self._wait_for_rate_limit()
-            login_page = self.session.get(login_url, timeout=self.config.timeout)
+            login_page = self.session.get(
+                login_url,
+                timeout=self.config.timeout,
+                proxies=proxy_dict,
+            )
             self.last_request_time = time.time()
             self.request_count += 1
+            if proxy_dict:
+                self.proxy_manager.request_count += 1
             login_page.raise_for_status()
 
             # Extract CSRF token if configured
@@ -412,16 +648,19 @@ class ScraperSession:
             if csrf_token:
                 payload[auth.csrf_field] = csrf_token
 
-            # Submit login form
+            # Submit login form (same proxy session for consistent IP)
             self._wait_for_rate_limit()
             response = self.session.post(
                 login_url,
                 data=payload,
                 timeout=self.config.timeout,
                 allow_redirects=True,
+                proxies=proxy_dict,
             )
             self.last_request_time = time.time()
             self.request_count += 1
+            if proxy_dict:
+                self.proxy_manager.request_count += 1
 
             # Check for success
             if auth.success_indicator:
@@ -444,13 +683,14 @@ class ScraperSession:
             self.logger.error(f"Authentication error: {e}")
             return False
 
-    def get(self, url: str, allow_redirects: bool = True) -> Optional[requests.Response]:
+    def get(self, url: str, allow_redirects: bool = True, _use_proxy: bool = True) -> Optional[requests.Response]:
         """
-        Make a GET request with rate limiting and error handling.
+        Make a GET request with rate limiting, error handling, and proxy support.
 
         Args:
             url: URL to fetch (can be relative to base_url)
             allow_redirects: Whether to follow redirects
+            _use_proxy: Internal flag for fallback (don't set manually)
 
         Returns:
             Response object or None on failure
@@ -462,27 +702,51 @@ class ScraperSession:
         # Rate limiting
         self._wait_for_rate_limit()
 
+        # Get proxy settings
+        proxy_dict = self.proxy_manager.get_proxy_dict() if _use_proxy else None
+
         try:
-            self.logger.debug(f"GET {url}")
+            self.logger.debug(f"GET {url}" + (" (via proxy)" if proxy_dict else ""))
             response = self.session.get(
-                url, timeout=self.config.timeout, allow_redirects=allow_redirects
+                url,
+                timeout=self.config.timeout,
+                allow_redirects=allow_redirects,
+                proxies=proxy_dict,
             )
             self.last_request_time = time.time()
             self.request_count += 1
+            if proxy_dict:
+                self.proxy_manager.request_count += 1
+                self.proxy_manager.track_bandwidth(response)
+                self.proxy_manager.reset_errors()
 
             # Check for rate limiting response
             if response.status_code == 429:
                 self.logger.warning(f"Rate limited (429), waiting {self.config.retry_delay}s")
                 time.sleep(self.config.retry_delay)
-                return self.get(url, allow_redirects)  # Retry
+                return self.get(url, allow_redirects, _use_proxy)  # Retry
 
             response.raise_for_status()
             self.logger.debug(f"Success: {response.status_code}, {len(response.content)} bytes")
             return response
 
+        except requests.exceptions.ProxyError as e:
+            self.logger.warning(f"Proxy error fetching {url}: {e}")
+            self.error_count += 1
+            if proxy_dict:
+                self.proxy_manager.increment_error()
+
+            # Fallback to direct connection if enabled
+            if self.config.proxy.fallback_on_failure and _use_proxy:
+                self.logger.info("Falling back to direct connection (no proxy)")
+                return self.get(url, allow_redirects, _use_proxy=False)
+            return None
+
         except requests.exceptions.Timeout:
             self.logger.error(f"Timeout fetching {url}")
             self.error_count += 1
+            if proxy_dict:
+                self.proxy_manager.increment_error()
             return None
 
         except requests.exceptions.HTTPError as e:
@@ -493,6 +757,8 @@ class ScraperSession:
         except requests.exceptions.RequestException as e:
             self.logger.error(f"Request error fetching {url}: {e}")
             self.error_count += 1
+            if proxy_dict:
+                self.proxy_manager.increment_error()
             return None
 
     def get_html(self, url: str) -> Optional[str]:
@@ -527,25 +793,46 @@ class ScraperSession:
 
         self._wait_for_rate_limit()
 
+        # Get proxy settings
+        proxy_dict = self.proxy_manager.get_proxy_dict()
+
         try:
-            self.logger.debug(f"Downloading {url} -> {dest_path}")
-            response = self.session.get(url, timeout=timeout, stream=True)
+            self.logger.debug(f"Downloading {url} -> {dest_path}" + (" (via proxy)" if proxy_dict else ""))
+            response = self.session.get(url, timeout=timeout, stream=True, proxies=proxy_dict)
             self.last_request_time = time.time()
             self.request_count += 1
+            if proxy_dict:
+                self.proxy_manager.request_count += 1
 
             response.raise_for_status()
 
             dest_path.parent.mkdir(parents=True, exist_ok=True)
+            total_bytes = 0
             with open(dest_path, "wb") as f:
                 for chunk in response.iter_content(chunk_size=8192):
                     f.write(chunk)
+                    total_bytes += len(chunk)
+
+            # Track bandwidth for file downloads
+            if proxy_dict and self.proxy_manager.config.track_bandwidth:
+                self.proxy_manager.bytes_downloaded += total_bytes
+                self.proxy_manager.reset_errors()
 
             self.logger.debug(f"Downloaded {dest_path.stat().st_size} bytes")
             return True
 
+        except requests.exceptions.ProxyError as e:
+            self.logger.warning(f"Proxy error downloading {url}: {e}")
+            self.error_count += 1
+            if proxy_dict:
+                self.proxy_manager.increment_error()
+            return False
+
         except Exception as e:
             self.logger.error(f"Failed to download {url}: {e}")
             self.error_count += 1
+            if proxy_dict:
+                self.proxy_manager.increment_error()
             return False
 
     def save_cookies(self, path: Path):
@@ -570,12 +857,16 @@ class ScraperSession:
             self.logger.warning(f"Failed to load cookies: {e}")
             return False
 
-    def get_stats(self) -> Dict[str, int]:
-        """Return session statistics."""
-        return {
+    def get_stats(self) -> Dict[str, Any]:
+        """Return session statistics including proxy metrics."""
+        stats = {
             "requests": self.request_count,
             "errors": self.error_count,
         }
+        # Add proxy stats if proxy is enabled
+        if self.proxy_manager:
+            stats.update(self.proxy_manager.get_stats())
+        return stats
 
 
 # ============================================================================
