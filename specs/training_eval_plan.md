@@ -45,7 +45,7 @@ vlm3/
 │   ├── reports/                 # Generated eval reports
 │   └── requirements.txt         # deepeval, anthropic, etc.
 │
-├── data/                        # Pipeline outputs (unchanged)
+├── training_data/               # Pipeline outputs (unchanged)
 │   ├── vlm_train.jsonl
 │   ├── vlm_val.jsonl
 │   └── images/
@@ -74,7 +74,7 @@ vlm3/
 
 ### 2.1 Dataset Preparation
 
-The pipeline outputs `data/vlm_train.jsonl` in this format:
+The pipeline outputs `training_data/vlm_train.jsonl` in this format:
 ```json
 {
   "image": "images/21-03.jpg",
@@ -283,7 +283,7 @@ deepeval test run eval/test_vlm.py --output eval/reports/
 ### 3.5 Eval Pipeline Flow
 
 ```
-data/vlm_val.jsonl
+training_data/vlm_val.jsonl
        │
        ▼
 ┌──────────────────┐
@@ -475,8 +475,8 @@ model = PeftModel.from_pretrained(base_model, "path/to/adapter")
 
 prepare-dataset:
 	python training/prepare_dataset.py \
-		--train data/vlm_train.jsonl \
-		--val data/vlm_val.jsonl \
+		--train training_data/vlm_train.jsonl \
+		--val training_training_data/vlm_val.jsonl \
 		--output-repo $(HF_DATASET_REPO)
 
 train:
@@ -511,7 +511,7 @@ eval-probes:
 eval-compare:  # Compare two model versions
 	python eval/run_eval.py \
 		--models $(MODEL_A) $(MODEL_B) \
-		--val data/vlm_val.jsonl \
+		--val training_training_data/vlm_val.jsonl \
 		--output eval/reports/comparison.json
 
 # Serve targets

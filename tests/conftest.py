@@ -195,7 +195,7 @@ def temp_image_dir():
 
 @pytest.fixture
 def temp_output_dir():
-    """Temporary output directory for data/."""
+    """Temporary output directory for training_data/."""
     with tempfile.TemporaryDirectory() as tmpdir:
         yield Path(tmpdir)
 

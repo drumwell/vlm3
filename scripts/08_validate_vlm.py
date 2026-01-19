@@ -6,9 +6,9 @@ Stage 6 of the data pipeline: Validate dataset integrity before upload.
 
 Usage:
     python scripts/08_validate_vlm.py \
-        --train data/vlm_train.jsonl \
-        --val data/vlm_val.jsonl \
-        --images data/images \
+        --train training_data/vlm_train.jsonl \
+        --val training_data/vlm_val.jsonl \
+        --images training_data/images \
         --output work/logs/vlm_qa_report.md \
         --config config.yaml
 """

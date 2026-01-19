@@ -284,7 +284,7 @@ output:
 
   # Image handling
   image_copy_mode: symlink       # Options: symlink, copy, relative
-  image_output_dir: images       # Subdirectory within data/
+  image_output_dir: images       # Subdirectory within training_data/
 
   # Image filename normalization
   normalize_image_names: true    # Convert spaces/special chars to underscores

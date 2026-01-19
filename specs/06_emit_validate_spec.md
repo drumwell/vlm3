@@ -23,17 +23,17 @@
 - `config.yaml` — Output settings (split ratio, random seed, image copy mode)
 
 **Outputs**:
-- `data/vlm_train.jsonl` — Training dataset (90% by default)
-- `data/vlm_val.jsonl` — Validation dataset (10% by default)
-- `data/images/` — Directory containing referenced images (copied or symlinked)
+- `training_data/vlm_train.jsonl` — Training dataset (90% by default)
+- `training_data/vlm_val.jsonl` — Validation dataset (10% by default)
+- `training_data/images/` — Directory containing referenced images (copied or symlinked)
 - `work/logs/emit_report.md` — Summary report with statistics
 
 ### 08_validate_vlm.py
 
 **Inputs**:
-- `data/vlm_train.jsonl` — Training dataset
-- `data/vlm_val.jsonl` — Validation dataset
-- `data/images/` — Image directory
+- `training_data/vlm_train.jsonl` — Training dataset
+- `training_data/vlm_val.jsonl` — Validation dataset
+- `training_data/images/` — Image directory
 
 **Outputs**:
 - `work/logs/vlm_qa_report.md` — Validation report with statistics and errors
@@ -42,9 +42,9 @@
 ### 09_upload_vlm.py
 
 **Inputs**:
-- `data/vlm_train.jsonl` — Training dataset
-- `data/vlm_val.jsonl` — Validation dataset
-- `data/images/` — Image directory
+- `training_data/vlm_train.jsonl` — Training dataset
+- `training_data/vlm_val.jsonl` — Validation dataset
+- `training_data/images/` — Image directory
 - HuggingFace token (environment variable or CLI arg)
 
 **Outputs**:
@@ -85,7 +85,7 @@
 }
 ```
 
-### Output VLM Training Schema (`data/vlm_train.jsonl`)
+### Output VLM Training Schema (`training_data/vlm_train.jsonl`)
 
 **For image-based Q&A:**
 ```json
@@ -165,7 +165,7 @@ output:
 
   # Image handling
   image_copy_mode: symlink       # Options: symlink, copy, relative
-  image_output_dir: images       # Subdirectory within data/
+  image_output_dir: images       # Subdirectory within training_data/
 
   # Image filename normalization
   normalize_image_names: true    # Convert spaces/special chars to underscores
@@ -590,7 +590,7 @@ def main():
     parser = argparse.ArgumentParser(description="Emit VLM training dataset")
     parser.add_argument("--qa", type=Path, required=True, help="Input directory with qa_unique/*.json")
     parser.add_argument("--data-src", type=Path, required=True, help="Source images directory")
-    parser.add_argument("--output", type=Path, required=True, help="Output directory for data/")
+    parser.add_argument("--output", type=Path, required=True, help="Output directory for training_data/")
     parser.add_argument("--report", type=Path, required=True, help="Markdown summary report")
     parser.add_argument("--config", type=Path, required=True, help="Config YAML file")
     parser.add_argument("--train-split", type=float, help="Override train split ratio")
@@ -697,9 +697,9 @@ def main():
 
 ```bash
 python scripts/08_validate_vlm.py \
-  --train data/vlm_train.jsonl \
-  --val data/vlm_val.jsonl \
-  --images data/images \
+  --train training_data/vlm_train.jsonl \
+  --val training_data/vlm_val.jsonl \
+  --images training_data/images \
   --output work/logs/vlm_qa_report.md \
   --config config.yaml \
   [--strict]                 # Treat warnings as errors
@@ -1058,9 +1058,9 @@ def main():
 
 ```bash
 python scripts/09_upload_vlm.py \
-  --train data/vlm_train.jsonl \
-  --val data/vlm_val.jsonl \
-  --images data/images \
+  --train training_data/vlm_train.jsonl \
+  --val training_data/vlm_val.jsonl \
+  --images training_data/images \
   --repo drumwell/vlm3 \
   --report work/logs/upload_report.md \
   --config config.yaml \
@@ -1704,17 +1704,17 @@ emit:
 
 validate:
 	python scripts/08_validate_vlm.py \
-		--train data/vlm_train.jsonl \
-		--val data/vlm_val.jsonl \
-		--images data/images \
+		--train training_data/vlm_train.jsonl \
+		--val training_data/vlm_val.jsonl \
+		--images training_data/images \
 		--output work/logs/vlm_qa_report.md \
 		--config config.yaml
 
 upload:
 	python scripts/09_upload_vlm.py \
-		--train data/vlm_train.jsonl \
-		--val data/vlm_val.jsonl \
-		--images data/images \
+		--train training_data/vlm_train.jsonl \
+		--val training_data/vlm_val.jsonl \
+		--images training_data/images \
 		--repo drumwell/vlm3 \
 		--report work/logs/upload_report.md \
 		--config config.yaml

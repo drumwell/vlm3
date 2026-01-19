@@ -36,9 +36,9 @@ make validate         # Stage 6b: Validate dataset
 ```
 
 **Output**:
-- `data/vlm_train.jsonl` - Training examples (90%)
-- `data/vlm_val.jsonl` - Validation examples (10%)
-- `data/images/` - Referenced images
+- `training_data/vlm_train.jsonl` - Training examples (90%)
+- `training_data/vlm_val.jsonl` - Validation examples (10%)
+- `training_data/images/` - Referenced images
 
 ### 3. Upload to HuggingFace
 
@@ -94,8 +94,8 @@ data_src/ (JPG/PDF/HTML)
     ▼
 ┌─────────────────────────────────────────────────────────────┐
 │ Stage 6: EMIT & VALIDATE                                    │
-│ 07_emit_vlm_dataset.py → data/vlm_train.jsonl               │
-│                        → data/vlm_val.jsonl                 │
+│ 07_emit_vlm_dataset.py → training_data/vlm_train.jsonl               │
+│                        → training_data/vlm_val.jsonl                 │
 │ 08_validate_vlm.py     → work/logs/vlm_qa_report.md         │
 │ 09_upload_vlm.py       → HuggingFace Hub                    │
 └─────────────────────────────────────────────────────────────┘
@@ -113,7 +113,7 @@ data_src/ (JPG/PDF/HTML)
 
 ## Output Format
 
-**VLM Training Record** (`data/vlm_train.jsonl`):
+**VLM Training Record** (`training_data/vlm_train.jsonl`):
 ```json
 {
   "image": "images/21-03.jpg",
@@ -172,7 +172,7 @@ vlm3/
 │   ├── indices/*.json
 │   ├── qa_raw/, qa_filtered/, qa_unique/
 │   └── logs/
-├── data/               # Final outputs
+├── training_data/      # Final outputs
 │   ├── vlm_train.jsonl
 │   ├── vlm_val.jsonl
 │   └── images/

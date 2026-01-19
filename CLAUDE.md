@@ -62,7 +62,7 @@ data_src/ (JPG/PDF/HTML)
 05_filter_qa.py        → work/qa_filtered/*.json
 06_deduplicate_qa.py   → work/qa_unique/*.json
     ↓
-07_emit_vlm_dataset.py → data/vlm_train.jsonl + data/vlm_val.jsonl + data/images/
+07_emit_vlm_dataset.py → training_data/vlm_train.jsonl + training_data/vlm_val.jsonl + training_data/images/
 08_validate_vlm.py     → work/logs/vlm_qa_report.md
 09_upload_vlm.py       → HuggingFace Hub
 ```
@@ -91,7 +91,7 @@ page_id, image_path, section_id, section_name, source_type, content_type, is_ind
  "content_type": "procedure", "qa_pairs": [{"question": "...", "answer": "...", "question_type": "inspection"}]}
 ```
 
-**VLM output** (`data/vlm_train.jsonl`):
+**VLM output** (`training_data/vlm_train.jsonl`):
 ```json
 {"image": "images/21-03.jpg", "conversations": [{"role": "user", "content": "..."}, {"role": "assistant", "content": "..."}], "metadata": {...}}
 ```
@@ -110,7 +110,7 @@ page_id, image_path, section_id, section_name, source_type, content_type, is_ind
 ```
 data_src/       # Source images/PDFs/HTML (read-only)
 work/           # Intermediate artifacts
-data/           # Final outputs (vlm_train.jsonl, vlm_val.jsonl, images/)
+training_data/  # Final outputs (vlm_train.jsonl, vlm_val.jsonl, images/)
 scripts/        # Pipeline scripts 01-09
 specs/          # Detailed stage specifications
 tests/          # pytest suite with fixtures in conftest.py

@@ -9,7 +9,7 @@ Usage:
     python scripts/07_emit_vlm_dataset.py \
         --qa work/qa_unique \
         --data-src data_src \
-        --output data \
+        --output training_data \
         --report work/logs/emit_report.md \
         --config config.yaml
 """
@@ -572,7 +572,7 @@ def main():
     )
     parser.add_argument(
         "--output", type=Path, required=True,
-        help="Output directory for data/"
+        help="Output directory for training_data/"
     )
     parser.add_argument(
         "--report", type=Path, required=True,

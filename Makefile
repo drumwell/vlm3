@@ -101,25 +101,25 @@ emit:
 	python scripts/07_emit_vlm_dataset.py \
 		--qa work/qa_unique \
 		--data-src data_src \
-		--output data \
+		--output training_data \
 		--report work/logs/emit_report.md \
 		--config config.yaml
 
 validate:
 	@echo "✅ Stage 6b: Validating VLM dataset..."
 	python scripts/08_validate_vlm.py \
-		--train data/vlm_train.jsonl \
-		--val data/vlm_val.jsonl \
-		--images data \
+		--train training_data/vlm_train.jsonl \
+		--val training_data/vlm_val.jsonl \
+		--images training_data \
 		--output work/logs/vlm_qa_report.md \
 		--config config.yaml
 
 upload:
 	@echo "📤 Stage 6c: Uploading to HuggingFace Hub..."
 	python scripts/09_upload_vlm.py \
-		--train data/vlm_train.jsonl \
-		--val data/vlm_val.jsonl \
-		--images data/images \
+		--train training_data/vlm_train.jsonl \
+		--val training_data/vlm_val.jsonl \
+		--images training_data/images \
 		--repo drumwell/vlm3 \
 		--report work/logs/upload_report.md \
 		--config config.yaml
@@ -133,9 +133,9 @@ all: inventory prepare classify generate-qa quality-control emit validate
 	@echo ""
 	@echo "✅ VLM Pipeline complete!"
 	@echo "📊 Results:"
-	@echo "   - Training: data/vlm_train.jsonl"
-	@echo "   - Validation: data/vlm_val.jsonl"
-	@echo "   - Images: data/images/"
+	@echo "   - Training: training_data/vlm_train.jsonl"
+	@echo "   - Validation: training_data/vlm_val.jsonl"
+	@echo "   - Images: training_data/images/"
 	@echo ""
 	@echo "📤 Next step: make upload"
 
@@ -176,7 +176,7 @@ clean:
 # Clean everything including outputs
 clean-all:
 	@echo "🧹 Cleaning everything..."
-	rm -rf work/ data/
+	rm -rf work/ training_data/
 
 # ============================================================================
 # STATUS & HELP
@@ -204,9 +204,9 @@ status:
 	@test -d work/qa_unique && echo "  ✅ work/qa_unique/" || echo "  ❌ work/qa_unique/ (run: make deduplicate-qa)"
 	@echo ""
 	@echo "Stage 6 - Output:"
-	@test -f data/vlm_train.jsonl && echo "  ✅ data/vlm_train.jsonl" || echo "  ❌ data/vlm_train.jsonl (run: make emit)"
-	@test -f data/vlm_val.jsonl && echo "  ✅ data/vlm_val.jsonl" || echo "  ❌ data/vlm_val.jsonl (run: make emit)"
-	@test -d data/images && echo "  ✅ data/images/" || echo "  ❌ data/images/ (run: make emit)"
+	@test -f training_data/vlm_train.jsonl && echo "  ✅ training_data/vlm_train.jsonl" || echo "  ❌ training_data/vlm_train.jsonl (run: make emit)"
+	@test -f training_data/vlm_val.jsonl && echo "  ✅ training_data/vlm_val.jsonl" || echo "  ❌ training_data/vlm_val.jsonl (run: make emit)"
+	@test -d training_data/images && echo "  ✅ training_data/images/" || echo "  ❌ training_data/images/ (run: make emit)"
 	@test -f work/logs/vlm_qa_report.md && echo "  ✅ work/logs/vlm_qa_report.md" || echo "  ❌ work/logs/vlm_qa_report.md (run: make validate)"
 
 help:

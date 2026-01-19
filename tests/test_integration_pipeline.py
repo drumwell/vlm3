@@ -93,7 +93,7 @@ def integration_temp_dir(sample_images):
         (tmp_path / "work" / "indices").mkdir()
         (tmp_path / "work" / "qa_raw").mkdir()
         (tmp_path / "work" / "logs").mkdir()
-        (tmp_path / "data").mkdir()
+        (tmp_path / "training_data").mkdir()
 
         # Copy sample images to temp data_src
         section_dir = tmp_path / "data_src" / "23 - Manual Transmission"
