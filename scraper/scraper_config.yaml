@@ -135,13 +135,14 @@ platforms:
 forums:
   e30m3datasrc:
     name: "E30 M3 Forum"
-    base_url: ""  # Set via E30M3_FORUM_URL environment variable or CLI
+    base_url: ""  # Leave empty - loaded from environment variable
+    base_url_env: "E30M3_FORUM_URL"  # Environment variable name for base URL
     platform: vbulletin6
     enabled: true
 
-    # Storage (relative to scraper root)
+    # Storage (relative to project root)
     storage:
-      base_dir: "forum_archive/e30m3datasrc"
+      base_dir: "data_src/forum"  # Consistent with other source data
 
     # Override default rate limiting if needed
     # rate_limiting:

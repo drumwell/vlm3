@@ -7,7 +7,7 @@ Outputs a JSON file with all forums and their hierarchy.
 
 Usage:
     python scraper/10_discover_forums.py
-    python scraper/10_discover_forums.py --output forum_archive/data/forums.json
+    python scraper/10_discover_forums.py --output data_src/forum/data/forums.json
 """
 
 import argparse
@@ -19,7 +19,7 @@ from typing import List, Set
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scraper.core import (
-    ScraperConfig,
+    load_forum_config,
     ScraperSession,
     Checkpoint,
     setup_logging,
@@ -62,7 +62,7 @@ def discover_forums(
 
         # Save raw HTML
         forum_id = parser._extract_id(url) or "index"
-        html_path = Path("forum_archive/raw/forums") / f"{forum_id}.html"
+        html_path = Path("data_src/forum/raw/forums") / f"{forum_id}.html"
         save_html(html, html_path)
 
         forums = []
@@ -115,7 +115,7 @@ def main():
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("forum_archive/data/forums.json"),
+        default=Path("data_src/forum/data/forums.json"),
         help="Output JSON file for forum structure",
     )
 
@@ -132,12 +132,12 @@ def main():
     log_level = logging.DEBUG if args.verbose else logging.INFO
     logger = setup_logging(
         "discover_forums",
-        log_dir=Path("forum_archive/logs"),
+        log_dir=Path("data_src/forum/logs"),
         level=log_level,
     )
 
     # Load config
-    config = ScraperConfig.from_yaml(args.config)
+    config = load_forum_config(args.config)
     logger.info(f"Base URL: {config.base_url}")
 
     # Initialize session and parser

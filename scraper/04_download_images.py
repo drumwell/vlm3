@@ -26,7 +26,7 @@ from urllib.parse import urlparse, unquote
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scraper.core import (
-    ScraperConfig,
+    load_forum_config,
     ScraperSession,
     Checkpoint,
     setup_logging,
@@ -152,7 +152,7 @@ def download_images(
 
         # Save checkpoint periodically
         if (i + 1) % 50 == 0:
-            checkpoint.save(Path("forum_archive/checkpoints/images.json"))
+            checkpoint.save(Path("data_src/forum/checkpoints/images.json"))
 
     return success, failed
 
@@ -216,14 +216,14 @@ def main():
     arg_parser.add_argument(
         "--data-dir",
         type=Path,
-        default=Path("forum_archive/data"),
+        default=Path("data_src/forum/data"),
         help="Data directory with post JSONL files",
     )
 
     arg_parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("forum_archive/raw/images"),
+        default=Path("data_src/forum/raw/images"),
         help="Output directory for downloaded images",
     )
 
@@ -253,11 +253,11 @@ def main():
     log_level = logging.DEBUG if args.verbose else logging.INFO
     logger = setup_logging(
         "download_images",
-        log_dir=Path("forum_archive/logs"),
+        log_dir=Path("data_src/forum/logs"),
         level=log_level,
     )
 
-    config = ScraperConfig.from_yaml(args.config)
+    config = load_forum_config(args.config)
     session = ScraperSession(config, logger)
 
     try:
@@ -272,7 +272,7 @@ def main():
             return 0
 
         # Load checkpoint
-        checkpoint_path = Path("forum_archive/checkpoints/images.json")
+        checkpoint_path = Path("data_src/forum/checkpoints/images.json")
         if args.resume:
             checkpoint = Checkpoint.load_or_create(checkpoint_path, "images")
         else:

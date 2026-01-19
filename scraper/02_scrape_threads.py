@@ -27,7 +27,7 @@ from typing import List, Optional
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scraper.core import (
-    ScraperConfig,
+    load_forum_config,
     ScraperSession,
     Checkpoint,
     setup_logging,
@@ -82,7 +82,7 @@ def scrape_forum_threads(
             break
 
         # Save raw HTML
-        html_path = Path(f"forum_archive/raw/forums/{forum_id}_page{page}.html")
+        html_path = Path(f"data_src/forum/raw/forums/{forum_id}_page{page}.html")
         save_html(html, html_path)
 
         # Parse threads
@@ -96,13 +96,13 @@ def scrape_forum_threads(
                 # Save thread to JSONL incrementally
                 append_jsonl(
                     thread.to_dict(),
-                    Path(f"forum_archive/data/threads_{forum_id}.jsonl"),
+                    Path(f"data_src/forum/data/threads_{forum_id}.jsonl"),
                 )
                 checkpoint.mark_completed(thread.thread_id)
 
         # Save checkpoint periodically
         if page % 5 == 0:
-            checkpoint.save(Path(f"forum_archive/checkpoints/threads_{forum_id}.json"))
+            checkpoint.save(Path(f"data_src/forum/checkpoints/threads_{forum_id}.json"))
 
         # Move to next page
         if pagination.has_next and pagination.next_url:
@@ -149,14 +149,14 @@ def main():
     arg_parser.add_argument(
         "--forums-file",
         type=Path,
-        default=Path("forum_archive/data/forums.json"),
+        default=Path("data_src/forum/data/forums.json"),
         help="Path to forums.json (for --all mode)",
     )
 
     arg_parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("forum_archive/data"),
+        default=Path("data_src/forum/data"),
         help="Output directory for thread data",
     )
 
@@ -187,12 +187,12 @@ def main():
     log_level = logging.DEBUG if args.verbose else logging.INFO
     logger = setup_logging(
         "scrape_threads",
-        log_dir=Path("forum_archive/logs"),
+        log_dir=Path("data_src/forum/logs"),
         level=log_level,
     )
 
     # Load config
-    config = ScraperConfig.from_yaml(args.config)
+    config = load_forum_config(args.config)
     session = ScraperSession(config, logger)
     parser = VBulletinParser(config.base_url)
 
@@ -205,7 +205,26 @@ def main():
             forums_to_scrape.append({"id": forum_id, "url": args.forum_url})
 
         elif args.forum_id:
-            forum_url = f"{config.base_url}/forum/{args.forum_id}"
+            # Look up forum URL from forums.json
+            forums_data = load_json(args.forums_file)
+            forum_url = None
+            if forums_data:
+                def find_forum(forums, target_id):
+                    for f in forums:
+                        if f["forum_id"] == target_id:
+                            return f["url"]
+                        if f.get("subforums"):
+                            found = find_forum(f["subforums"], target_id)
+                            if found:
+                                return found
+                    return None
+                forum_url = find_forum(forums_data["forums"], args.forum_id)
+
+            if not forum_url:
+                # Fallback to constructed URL (may not work for nested forums)
+                forum_url = f"{config.base_url}/forum/{args.forum_id}"
+                logger.warning(f"Forum {args.forum_id} not found in {args.forums_file}, using constructed URL")
+
             forums_to_scrape.append({"id": args.forum_id, "url": forum_url})
 
         elif args.all:
@@ -232,7 +251,7 @@ def main():
             logger.info(f"\n=== Scraping forum {forum_id} ===")
 
             # Load or create checkpoint
-            checkpoint_path = Path(f"forum_archive/checkpoints/threads_{forum_id}.json")
+            checkpoint_path = Path(f"data_src/forum/checkpoints/threads_{forum_id}.json")
             if args.resume:
                 checkpoint = Checkpoint.load_or_create(checkpoint_path, f"threads_{forum_id}")
             else:

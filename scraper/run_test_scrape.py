@@ -130,7 +130,7 @@ Or run 'all' after setting TEST_FORUM_ID.
             if not args.dry_run:
                 print("\n" + "=" * 60)
                 print("Forum discovery complete!")
-                print("Check forum_archive/data/forums.json for forum IDs")
+                print("Check data_src/forum/data/forums.json for forum IDs")
                 print("Then set --forum-id and run threads stage")
                 print("=" * 60)
 
@@ -197,11 +197,11 @@ Or run 'all' after setting TEST_FORUM_ID.
     print("Scraping complete!")
     print("=" * 60)
     print("\nOutput locations:")
-    print("  Raw HTML:   forum_archive/raw/")
-    print("  Data:       forum_archive/data/")
-    print("  Images:     forum_archive/raw/images/")
-    print("  Logs:       forum_archive/logs/")
-    print("  Checkpoints: forum_archive/checkpoints/")
+    print("  Raw HTML:   data_src/forum/raw/")
+    print("  Data:       data_src/forum/data/")
+    print("  Images:     data_src/forum/raw/images/")
+    print("  Logs:       data_src/forum/logs/")
+    print("  Checkpoints: data_src/forum/checkpoints/")
 
     return 0
 

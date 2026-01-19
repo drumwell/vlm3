@@ -130,13 +130,24 @@ class VBulletinParser:
             return urljoin(self.base_url + "/", url)
         return url
 
-    def _extract_id(self, url: str, prefix: str = "") -> str:
-        """Extract numeric ID from URL path."""
+    def _extract_id(self, url: str, prefix: str = "", allow_slug: bool = True) -> str:
+        """
+        Extract ID from URL path.
+
+        Handles both numeric IDs (/forum/123-name) and slug-based URLs (/forum/s14/faqs/no-start).
+
+        Args:
+            url: URL to extract ID from
+            prefix: Optional prefix to filter by
+            allow_slug: If True, return last path segment as ID when no numeric ID found
+        """
         if not url:
             return ""
         # Handle URLs like /threads/12345-thread-title or /forum/67-name
         path = urlparse(url).path
-        parts = path.strip("/").split("/")
+        parts = [p for p in path.strip("/").split("/") if p]
+
+        # First, try to find a numeric ID
         for part in parts:
             if "-" in part:
                 potential_id = part.split("-")[0]
@@ -144,6 +155,15 @@ class VBulletinParser:
                     return potential_id
             elif part.isdigit():
                 return part
+
+        # If no numeric ID and slugs are allowed, use the last path segment
+        # (excluding common prefixes like 'forum', 'forums', 'threads')
+        if allow_slug and parts:
+            # Filter out common path prefixes
+            slug_parts = [p for p in parts if p not in ('forum', 'forums', 'threads', 'thread')]
+            if slug_parts:
+                return slug_parts[-1]  # Return the last meaningful segment
+
         return ""
 
     def _clean_text(self, text: str) -> str:
@@ -234,7 +254,24 @@ class VBulletinParser:
                 continue
 
             url = self._resolve_url(href)
-            forum_id = self._extract_id(url)
+
+            # Check if this is a thread URL (numeric ID in the last path segment)
+            # Thread URLs look like: /forum/s14/general/1330282-thread-title
+            # Forum URLs look like: /forum/5-general or /forum/s14/general
+            path = urlparse(url).path
+            parts = [p for p in path.strip("/").split("/") if p]
+            if len(parts) >= 2:
+                last_segment = parts[-1]
+                # If last segment starts with digits followed by dash, it's likely a thread
+                if "-" in last_segment:
+                    first_part = last_segment.split("-")[0]
+                    # Thread IDs are typically large numbers, forum IDs are small
+                    # Also check path depth - threads in nested forums have 4+ parts
+                    if first_part.isdigit() and (int(first_part) > 1000 or len(parts) > 3):
+                        continue  # This is a thread, not a forum
+
+            # Get the forum ID (numeric or slug)
+            forum_id = self._extract_id(url, allow_slug=True)
 
             if not forum_id or forum_id in seen_ids:
                 continue
@@ -345,9 +382,11 @@ class VBulletinParser:
     def _parse_thread_from_listing(self, container: Tag, forum_id: str) -> Optional[Thread]:
         """Parse thread information from a listing container."""
         # Find thread link
+        # vBulletin 6 uses <a class="topic-title"> directly, not nested in a container
         link = container.select_one(
             "a[href*='/threads/'], .thread-title a, "
-            ".b-post__title a, [class*='title'] a"
+            ".b-post__title a, [class*='title'] a, "
+            "a.topic-title, a.js-topic-title"
         )
         if not link:
             return None

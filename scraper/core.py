@@ -24,6 +24,16 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import yaml
 
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    # Look for .env in project root (parent of scraper/)
+    _env_path = Path(__file__).parent.parent / ".env"
+    if _env_path.exists():
+        load_dotenv(_env_path)
+except ImportError:
+    pass  # python-dotenv not installed, rely on shell environment
+
 
 # ============================================================================
 # Configuration
@@ -181,12 +191,22 @@ def load_forum_config(config_path: Path, forum_id: Optional[str] = None) -> Foru
     image_skip_patterns = image_cfg.get("skip_patterns", [])
 
     # Storage path
-    storage_base = Path(forum_cfg.get("storage", {}).get("base_dir", f"forum_archive/{forum_id}"))
+    storage_base = Path(forum_cfg.get("storage", {}).get("base_dir", f"data_src/forum"))
+
+    # Base URL: check environment variable first, then config
+    # Environment variable name can be specified in config (e.g., "E30M3_FORUM_URL")
+    base_url_env = forum_cfg.get("base_url_env", f"{forum_id.upper()}_FORUM_URL")
+    base_url = os.environ.get(base_url_env) or forum_cfg.get("base_url", "")
+    if not base_url:
+        raise ValueError(
+            f"Forum '{forum_id}' has no base_url configured. "
+            f"Set the {base_url_env} environment variable or add base_url to config."
+        )
 
     return ForumConfig(
         name=forum_cfg.get("name", forum_id),
         forum_id=forum_id,
-        base_url=forum_cfg["base_url"],
+        base_url=base_url,
         platform=platform_id,
         min_delay=rate_cfg.get("min_delay_seconds", 1.5),
         max_delay=rate_cfg.get("max_delay_seconds", 2.5),
