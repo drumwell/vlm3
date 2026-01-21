@@ -1,0 +1,37 @@
+# VLM Evaluation Framework Dependencies
+# Install: pip install -r eval/requirements.txt
+
+# Core evaluation framework
+deepeval>=0.21.0
+
+# Metrics libraries
+rouge-score>=0.1.2
+nltk>=3.8.0
+
+# LLM-as-judge (Claude API)
+anthropic>=0.25.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization (optional - for reports)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# VLM model loading (Qwen2-VL)
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=0.27.0
+peft>=0.10.0  # For LoRA adapter loading
+qwen-vl-utils>=0.0.2  # Qwen VL utilities
+
+# Progress bars
+tqdm>=4.65.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0

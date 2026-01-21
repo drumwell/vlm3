@@ -1,0 +1,25 @@
+# VLM Training Dependencies
+# For fine-tuning Qwen2-VL-7B with LoRA on Modal
+
+# Core ML
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=0.27.0
+
+# LoRA / PEFT
+peft>=0.10.0
+bitsandbytes>=0.43.0
+
+# Data handling
+datasets>=2.18.0
+Pillow>=10.0.0
+
+# Qwen2-VL specific
+qwen-vl-utils>=0.0.8
+
+# Modal for cloud training
+modal>=0.62.0
+
+# Utilities
+tqdm>=4.66.0
+PyYAML>=6.0
