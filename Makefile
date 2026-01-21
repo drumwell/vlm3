@@ -227,6 +227,28 @@ help:
 	@echo "  make validate         Stage 6b: Validate dataset"
 	@echo "  make upload           Stage 6c: Upload to HuggingFace"
 	@echo ""
+	@echo "Training:"
+	@echo "  make train            Full training on Modal"
+	@echo "  make train-dev        Dev training (100 samples)"
+	@echo "  make train-resume     Resume from checkpoint"
+	@echo ""
+	@echo "Evaluation (Local GPU):"
+	@echo "  make eval-sample      Create stratified eval sample (~300 examples)"
+	@echo "  make eval-baseline    Evaluate base model (requires local GPU)"
+	@echo "  make eval-finetuned   Evaluate fine-tuned (requires ADAPTER_PATH + GPU)"
+	@echo "  make eval-compare     Generate comparison report"
+	@echo "  make eval-probes      Run manual probe tests"
+	@echo "  make eval-mock        Test eval infrastructure (no GPU)"
+	@echo "  make eval-test        Run pytest evaluation tests"
+	@echo ""
+	@echo "Evaluation (Modal Cloud GPU - Recommended):"
+	@echo "  make eval-modal-baseline    Baseline eval on Modal"
+	@echo "  make eval-modal-finetuned   Fine-tuned eval (requires ADAPTER_REPO)"
+	@echo "  make eval-modal-checkpoint  Fine-tuned eval (from Modal checkpoint)"
+	@echo "  make eval-modal-probes      Manual probes on Modal"
+	@echo "  make eval-modal-quick       Quick test (10 samples)"
+	@echo "  make eval-modal-all         Full pipeline on Modal"
+	@echo ""
 	@echo "Partial Runs:"
 	@echo "  make quick            Skip Stage 1-2 (sources already prepared)"
 	@echo "  make regen-qa         Regenerate from Stage 4"
@@ -236,13 +258,190 @@ help:
 	@echo "Utilities:"
 	@echo "  make status           Show pipeline status"
 	@echo "  make clean            Clean intermediate files"
+	@echo "  make clean-eval       Clean evaluation artifacts"
 	@echo "  make clean-all        Clean everything"
 	@echo "  make help             Show this help"
+
+# ============================================================================
+# STAGE 7: TRAINING (requires Modal setup - see training/README.md)
+# ============================================================================
+
+# Variables for training (override via command line)
+HF_DATASET_REPO ?= drumwell/vlm3
+HF_MODEL_REPO ?= drumwell/vlm3-lora
+
+train:
+	@echo "🚀 Starting full training on Modal..."
+	@echo "   Dataset: $(HF_DATASET_REPO)"
+	@echo "   Output:  $(HF_MODEL_REPO)"
+	modal run training/modal_train.py \
+		--dataset-repo $(HF_DATASET_REPO) \
+		--output-repo $(HF_MODEL_REPO)
+
+train-dev:
+	@echo "🧪 Starting dev training run (100 samples)..."
+	modal run training/modal_train.py \
+		--dataset-repo $(HF_DATASET_REPO) \
+		--max-samples 100
+
+train-resume:
+	@echo "🔄 Resuming training from checkpoint..."
+	modal run training/modal_train.py \
+		--dataset-repo $(HF_DATASET_REPO) \
+		--resume
+
+# ============================================================================
+# STAGE 8: EVALUATION (compare baseline vs fine-tuned models)
+# ============================================================================
+
+# Variables for evaluation
+ADAPTER_PATH ?=
+EVAL_SAMPLES ?= 300
+
+# Create stratified evaluation sample from validation set
+eval-sample:
+	@echo "📊 Creating stratified evaluation sample..."
+	python eval/sample_eval_set.py \
+		--input training_data/vlm_val.jsonl \
+		--output eval/eval_sample.jsonl \
+		--n-samples $(EVAL_SAMPLES) \
+		--stats-output eval/reports/sample_stats.json
+
+# Run baseline model evaluation (Qwen2-VL-7B-Instruct without fine-tuning)
+eval-baseline:
+	@echo "🔬 Running baseline evaluation..."
+	python eval/run_eval.py \
+		--model Qwen/Qwen2-VL-7B-Instruct \
+		--eval-set eval/eval_sample.jsonl \
+		--image-base training_data \
+		--output eval/reports/baseline.json
+
+# Run fine-tuned model evaluation (with LoRA adapter)
+eval-finetuned:
+	@test -n "$(ADAPTER_PATH)" || (echo "Error: ADAPTER_PATH not set. Usage: make eval-finetuned ADAPTER_PATH=/path/to/adapter" && exit 1)
+	@echo "🔬 Running fine-tuned evaluation..."
+	@echo "   Adapter: $(ADAPTER_PATH)"
+	python eval/run_eval.py \
+		--model Qwen/Qwen2-VL-7B-Instruct \
+		--adapter $(ADAPTER_PATH) \
+		--eval-set eval/eval_sample.jsonl \
+		--image-base training_data \
+		--output eval/reports/finetuned.json
+
+# Generate comparison report between baseline and fine-tuned
+eval-compare:
+	@echo "📈 Generating comparison report..."
+	python eval/compare_results.py \
+		--baseline eval/reports/baseline.json \
+		--finetuned eval/reports/finetuned.json \
+		--output eval/reports/comparison.md
+	@echo ""
+	@echo "📊 Report saved to: eval/reports/comparison.md"
+
+# Run evaluation on manual probes (hand-crafted test cases)
+eval-probes:
+	@echo "🎯 Running manual probe evaluation..."
+	python eval/run_eval.py \
+		--model Qwen/Qwen2-VL-7B-Instruct \
+		$(if $(ADAPTER_PATH),--adapter $(ADAPTER_PATH),) \
+		--eval-set eval/benchmarks/manual_probes.json \
+		--image-base training_data \
+		--output eval/reports/probes.json
+
+# ----------------------------------------------------------------------------
+# Modal-based evaluation (runs on cloud GPU - no local GPU required)
+# ----------------------------------------------------------------------------
+
+# Variables for Modal evaluation
+ADAPTER_REPO ?=
+
+# Run baseline evaluation on Modal (recommended if no local GPU)
+eval-modal-baseline:
+	@echo "🔬 Running baseline evaluation on Modal..."
+	modal run eval/modal_eval.py \
+		--dataset-repo $(HF_DATASET_REPO) \
+		--output eval/reports/baseline.json
+
+# Run fine-tuned evaluation on Modal (adapter from HuggingFace)
+eval-modal-finetuned:
+	@test -n "$(ADAPTER_REPO)" || (echo "Error: ADAPTER_REPO not set. Usage: make eval-modal-finetuned ADAPTER_REPO=username/vlm3-lora" && exit 1)
+	@echo "🔬 Running fine-tuned evaluation on Modal..."
+	@echo "   Adapter: $(ADAPTER_REPO)"
+	modal run eval/modal_eval.py \
+		--dataset-repo $(HF_DATASET_REPO) \
+		--adapter-repo $(ADAPTER_REPO) \
+		--output eval/reports/finetuned.json
+
+# Run fine-tuned evaluation on Modal (adapter from Modal volume checkpoint)
+eval-modal-checkpoint:
+	@echo "🔬 Running fine-tuned evaluation on Modal (from checkpoint)..."
+	modal run eval/modal_eval.py \
+		--dataset-repo $(HF_DATASET_REPO) \
+		--adapter-path /checkpoints/vlm3-lora/final \
+		--output eval/reports/finetuned.json
+
+# Quick Modal evaluation test (10 samples)
+eval-modal-quick:
+	@echo "🧪 Running quick Modal evaluation (10 samples)..."
+	modal run eval/modal_eval.py \
+		--dataset-repo $(HF_DATASET_REPO) \
+		--max-samples 10
+
+# Run only manual probes on Modal
+eval-modal-probes:
+	@echo "🎯 Running manual probes on Modal..."
+	modal run eval/modal_eval.py \
+		--dataset-repo $(HF_DATASET_REPO) \
+		$(if $(ADAPTER_REPO),--adapter-repo $(ADAPTER_REPO),) \
+		--probes-only
+
+# Full Modal evaluation pipeline: baseline -> train -> finetuned -> compare
+eval-modal-all: eval-sample eval-modal-baseline train eval-modal-checkpoint eval-compare
+	@echo ""
+	@echo "✅ Full Modal evaluation pipeline complete!"
+	@echo "📊 Results:"
+	@echo "   - Baseline: eval/reports/baseline.json"
+	@echo "   - Fine-tuned: eval/reports/finetuned.json"
+	@echo "   - Comparison: eval/reports/comparison.md"
+
+# Run mock evaluation (for testing infrastructure without GPU)
+eval-mock:
+	@echo "🧪 Running mock evaluation (no GPU required)..."
+	python eval/run_eval.py \
+		--mock \
+		--eval-set eval/eval_sample.jsonl \
+		--image-base training_data \
+		--max-samples 10 \
+		--output eval/reports/mock.json
+
+# Run pytest evaluation tests
+eval-test:
+	@echo "🧪 Running evaluation unit tests..."
+	pytest eval/test_vlm.py -v
+
+# Run full evaluation pipeline: sample -> baseline -> finetuned -> compare
+eval-all: eval-sample eval-baseline eval-finetuned eval-compare eval-probes
+	@echo ""
+	@echo "✅ Full evaluation complete!"
+	@echo "📊 Results:"
+	@echo "   - Baseline: eval/reports/baseline.json"
+	@echo "   - Fine-tuned: eval/reports/finetuned.json"
+	@echo "   - Comparison: eval/reports/comparison.md"
+	@echo "   - Probes: eval/reports/probes.json"
+
+# Clean evaluation artifacts
+clean-eval:
+	@echo "🧹 Cleaning evaluation artifacts..."
+	rm -f eval/eval_sample.jsonl
+	rm -rf eval/reports/*.json eval/reports/*.md
 
 .PHONY: all quick regen-qa refilter finalize \
         inventory prepare classify classify-validate \
         generate-qa generate-qa-images generate-qa-html \
         filter-qa deduplicate-qa quality-control \
         emit validate upload \
+        train train-dev train-resume \
+        eval-sample eval-baseline eval-finetuned eval-compare eval-probes eval-mock eval-test eval-all clean-eval \
+        eval-modal-baseline eval-modal-finetuned eval-modal-checkpoint eval-modal-quick eval-modal-probes eval-modal-all \
         clean clean-qa clean-classify clean-all \
         status help
