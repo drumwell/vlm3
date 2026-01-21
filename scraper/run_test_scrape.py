@@ -14,9 +14,13 @@ Usage:
 
     # Dry run (show what would be done)
     python scraper/run_test_scrape.py --dry-run
+
+    # Run without S3 sync (local testing)
+    python scraper/run_test_scrape.py --no-sync
 """
 
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -27,6 +31,10 @@ from pathlib import Path
 # or by manually finding it on the forum
 TEST_FORUM_ID = None  # Will be set after forum discovery
 TEST_FORUM_URL = None  # Will be discovered
+
+# S3 sync configuration
+S3_BUCKET = os.environ.get("S3_BUCKET", "")
+S3_SYNC_INTERVAL = 50  # Sync every N items during scraping (via checkpoint)
 
 
 def run_command(cmd: list, dry_run: bool = False) -> int:
@@ -40,6 +48,54 @@ def run_command(cmd: list, dry_run: bool = False) -> int:
 
     result = subprocess.run(cmd)
     return result.returncode
+
+
+def sync_to_s3(dry_run: bool = False, stage: str = "") -> int:
+    """Sync local data to S3 bucket.
+
+    Args:
+        dry_run: If True, only print what would be done
+        stage: Current stage name (for logging)
+
+    Returns:
+        0 on success, non-zero on failure
+    """
+    if not S3_BUCKET:
+        print("[S3 Sync] Skipped: S3_BUCKET environment variable not set")
+        return 0
+
+    source = "data_src/forum"
+    dest = f"s3://{S3_BUCKET}/data_src/forum"
+
+    cmd = [
+        "aws", "s3", "sync",
+        source, dest,
+        "--exclude", "*.log",  # Logs can be large and change frequently
+    ]
+
+    stage_info = f" (after {stage})" if stage else ""
+    print(f"\n[S3 Sync{stage_info}] Syncing {source} -> {dest}")
+
+    if dry_run:
+        print(f"[DRY RUN] Would run: {' '.join(cmd)}")
+        return 0
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode == 0:
+            # Count uploaded files from output
+            lines = result.stdout.strip().split('\n') if result.stdout.strip() else []
+            upload_count = sum(1 for l in lines if l.startswith('upload:'))
+            print(f"[S3 Sync] Complete: {upload_count} files uploaded")
+        else:
+            print(f"[S3 Sync] Warning: {result.stderr}")
+        return result.returncode
+    except FileNotFoundError:
+        print("[S3 Sync] Warning: aws CLI not found, skipping S3 sync")
+        return 0
+    except Exception as e:
+        print(f"[S3 Sync] Error: {e}")
+        return 1
 
 
 def main():
@@ -103,7 +159,26 @@ Running '--stage all' without --forum-id will scrape ALL discovered forums.
         help="Enable verbose output",
     )
 
+    parser.add_argument(
+        "--no-sync",
+        action="store_true",
+        help="Disable S3 sync (for local testing)",
+    )
+
+    parser.add_argument(
+        "--sync-only",
+        action="store_true",
+        help="Only sync to S3, don't run any stages",
+    )
+
     args = parser.parse_args()
+
+    # Handle sync-only mode
+    if args.sync_only:
+        if not S3_BUCKET:
+            print("ERROR: S3_BUCKET environment variable not set")
+            return 1
+        return sync_to_s3(args.dry_run, "manual")
 
     base_dir = Path(__file__).parent.parent
     python = sys.executable
@@ -133,6 +208,10 @@ Running '--stage all' without --forum-id will scrape ALL discovered forums.
                 print("Check data_src/forum/data/forums.json for forum IDs")
                 print("Then set --forum-id and run threads stage")
                 print("=" * 60)
+
+            # Sync after discover stage
+            if not args.no_sync:
+                sync_to_s3(args.dry_run, "discover")
 
         elif stage == "threads":
             forum_id = args.forum_id
@@ -166,6 +245,10 @@ Running '--stage all' without --forum-id will scrape ALL discovered forums.
                 print(f"Stage 'threads' failed with code {ret}")
                 return ret
 
+            # Sync after threads stage
+            if not args.no_sync:
+                sync_to_s3(args.dry_run, "threads")
+
         elif stage == "posts":
             forum_id = args.forum_id
             running_all_stages = args.stage == "all"
@@ -198,6 +281,10 @@ Running '--stage all' without --forum-id will scrape ALL discovered forums.
                 print(f"Stage 'posts' failed with code {ret}")
                 return ret
 
+            # Sync after posts stage
+            if not args.no_sync:
+                sync_to_s3(args.dry_run, "posts")
+
         elif stage == "images":
             forum_id = args.forum_id
             if forum_id:
@@ -219,6 +306,17 @@ Running '--stage all' without --forum-id will scrape ALL discovered forums.
                 print(f"Stage 'images' failed with code {ret}")
                 return ret
 
+            # Sync after images stage
+            if not args.no_sync:
+                sync_to_s3(args.dry_run, "images")
+
+    # Final sync to ensure all data is uploaded
+    if not args.no_sync and S3_BUCKET:
+        print("\n" + "=" * 60)
+        print("Running final S3 sync...")
+        print("=" * 60)
+        sync_to_s3(args.dry_run, "final")
+
     print("\n" + "=" * 60)
     print("Scraping complete!")
     print("=" * 60)
@@ -228,6 +326,8 @@ Running '--stage all' without --forum-id will scrape ALL discovered forums.
     print("  Images:     data_src/forum/raw/images/")
     print("  Logs:       data_src/forum/logs/")
     print("  Checkpoints: data_src/forum/checkpoints/")
+    if S3_BUCKET and not args.no_sync:
+        print(f"  S3 Bucket:  s3://{S3_BUCKET}/data_src/forum/")
 
     return 0
 
