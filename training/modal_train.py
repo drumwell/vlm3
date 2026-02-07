@@ -23,6 +23,9 @@ Usage:
 
 import json
 import os
+import sys
+import traceback
+from datetime import datetime
 from pathlib import Path
 
 import modal
@@ -78,6 +81,53 @@ app = modal.App("vlm3-training")
 
 # Persistent volume for checkpoints
 volume = modal.Volume.from_name(VOLUME_NAME, create_if_missing=True)
+
+# Log file path (on the persistent volume)
+LOG_DIR = Path("/checkpoints/logs")
+LOG_FILE = None  # Set during training
+
+
+def setup_logging():
+    """Setup logging to both console and persistent file."""
+    global LOG_FILE
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    LOG_FILE = LOG_DIR / f"training_{timestamp}.log"
+
+    # Also create a symlink to latest log
+    latest_link = LOG_DIR / "latest.log"
+    if latest_link.exists():
+        latest_link.unlink()
+    latest_link.symlink_to(LOG_FILE.name)
+
+    return LOG_FILE
+
+
+def log(message: str, also_print: bool = True):
+    """Log message to file and optionally to console."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_line = f"[{timestamp}] {message}"
+
+    if also_print:
+        print(log_line)
+
+    if LOG_FILE:
+        with open(LOG_FILE, "a") as f:
+            f.write(log_line + "\n")
+            f.flush()  # Ensure immediate write
+
+
+def log_gpu_memory(prefix: str = ""):
+    """Log current GPU memory usage."""
+    try:
+        import torch
+        if torch.cuda.is_available():
+            allocated = torch.cuda.memory_allocated() / 1024**3
+            reserved = torch.cuda.memory_reserved() / 1024**3
+            max_allocated = torch.cuda.max_memory_allocated() / 1024**3
+            log(f"{prefix}GPU Memory: {allocated:.2f}GB allocated, {reserved:.2f}GB reserved, {max_allocated:.2f}GB max")
+    except Exception as e:
+        log(f"{prefix}GPU Memory: Unable to read ({e})")
 
 
 def load_dataset_from_repo(repo_id: str, token: str, max_samples: int | None = None):
@@ -196,9 +246,15 @@ def train(
         Qwen2VLForConditionalGeneration,
         Trainer,
         TrainingArguments,
+        TrainerCallback,
     )
     from torch.utils.data import Dataset as TorchDataset
     from huggingface_hub import HfApi
+
+    # Setup persistent logging
+    log_file = setup_logging()
+    log(f"=== Training session started ===")
+    log(f"Log file: {log_file}")
 
     # Get HF token
     hf_token = os.environ.get("HF_TOKEN")
@@ -206,28 +262,33 @@ def train(
     # Merge config
     config = {**DEFAULT_CONFIG, **(config_overrides or {})}
 
-    print("=" * 60)
-    print("VLM3 Training - Qwen2-VL-7B LoRA Fine-tuning")
-    print("=" * 60)
-    print(f"Dataset: {dataset_repo}")
-    print(f"Base model: {config['base_model']}")
-    print(f"GPU: {GPU_TYPE}")
-    print(f"Max samples: {max_samples or 'all'}")
-    print(f"LoRA r={config['lora_r']}, alpha={config['lora_alpha']}")
-    print("=" * 60)
+    log("=" * 60)
+    log("VLM3 Training - Qwen2-VL-7B LoRA Fine-tuning")
+    log("=" * 60)
+    log(f"Dataset: {dataset_repo}")
+    log(f"Base model: {config['base_model']}")
+    log(f"GPU: {GPU_TYPE}")
+    log(f"Max samples: {max_samples or 'all'}")
+    log(f"LoRA r={config['lora_r']}, alpha={config['lora_alpha']}")
+    log("=" * 60)
 
     # Load dataset
-    print("\n📦 Loading dataset...")
-    dataset_data = load_dataset_from_repo(dataset_repo, hf_token, max_samples)
-    train_records = dataset_data["train"]
-    val_records = dataset_data["val"]
-    download_image = dataset_data["download_image"]
-
-    print(f"Train samples: {len(train_records)}")
-    print(f"Val samples: {len(val_records)}")
+    log("\n📦 Loading dataset...")
+    try:
+        dataset_data = load_dataset_from_repo(dataset_repo, hf_token, max_samples)
+        train_records = dataset_data["train"]
+        val_records = dataset_data["val"]
+        download_image = dataset_data["download_image"]
+        log(f"Train samples: {len(train_records)}")
+        log(f"Val samples: {len(val_records)}")
+    except Exception as e:
+        log(f"❌ DATASET LOADING FAILED: {type(e).__name__}: {e}")
+        log(f"Traceback:\n{traceback.format_exc()}")
+        volume.commit()
+        raise
 
     # Configure quantization
-    print("\n🔧 Configuring 4-bit quantization...")
+    log("\n🔧 Configuring 4-bit quantization...")
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
@@ -236,23 +297,33 @@ def train(
     )
 
     # Load model and processor
-    print("\n🤖 Loading Qwen2-VL-7B...")
-    model = Qwen2VLForConditionalGeneration.from_pretrained(
-        config["base_model"],
-        quantization_config=bnb_config,
-        device_map="auto",
-        trust_remote_code=True,
-        torch_dtype=torch.bfloat16,
-    )
+    log("\n🤖 Loading Qwen2-VL-7B...")
+    try:
+        model = Qwen2VLForConditionalGeneration.from_pretrained(
+            config["base_model"],
+            quantization_config=bnb_config,
+            device_map="auto",
+            trust_remote_code=True,
+            torch_dtype=torch.bfloat16,
+        )
+        log("Model loaded successfully")
+        log_gpu_memory(prefix="Post-model-load ")
 
-    processor = AutoProcessor.from_pretrained(
-        config["base_model"],
-        trust_remote_code=True,
-    )
+        processor = AutoProcessor.from_pretrained(
+            config["base_model"],
+            trust_remote_code=True,
+        )
+        log("Processor loaded successfully")
+    except Exception as e:
+        log(f"❌ MODEL LOADING FAILED: {type(e).__name__}: {e}")
+        log(f"Traceback:\n{traceback.format_exc()}")
+        volume.commit()
+        raise
 
     # Prepare model for training
-    print("\n🔧 Preparing model for LoRA training...")
+    log("\n🔧 Preparing model for LoRA training...")
     model = prepare_model_for_kbit_training(model)
+    log_gpu_memory(prefix="Post-kbit-prep ")
 
     # Configure LoRA
     lora_config = LoraConfig(
@@ -362,15 +433,30 @@ def train(
             return item
 
     # Create datasets (VLMDataset filters out records with failed images)
-    train_dataset = VLMDataset(train_records, processor, download_image)
-    val_dataset = VLMDataset(val_records, processor, download_image) if val_records else None
+    log("\n📊 Creating training dataset...")
+    try:
+        train_dataset = VLMDataset(train_records, processor, download_image)
+        log(f"Training dataset created: {len(train_dataset)} samples")
+        log_gpu_memory(prefix="Post-train-dataset ")
+
+        if val_records:
+            log("Creating validation dataset...")
+            val_dataset = VLMDataset(val_records, processor, download_image)
+            log(f"Validation dataset created: {len(val_dataset)} samples")
+        else:
+            val_dataset = None
+    except Exception as e:
+        log(f"❌ DATASET CREATION FAILED: {type(e).__name__}: {e}")
+        log(f"Traceback:\n{traceback.format_exc()}")
+        volume.commit()
+        raise
 
     # Report actual counts after filtering
     train_skipped = len(train_records) - len(train_dataset)
-    print(f"Training with {len(train_dataset)} samples ({train_skipped} skipped due to missing images)")
+    log(f"Training with {len(train_dataset)} samples ({train_skipped} skipped due to missing images)")
     if val_dataset:
         val_skipped = len(val_records) - len(val_dataset)
-        print(f"Validation with {len(val_dataset)} samples ({val_skipped} skipped)")
+        log(f"Validation with {len(val_dataset)} samples ({val_skipped} skipped)")
 
     # Data collator with dynamic padding for Qwen2-VL
     def collate_fn(examples):
@@ -445,7 +531,38 @@ def train(
         report_to="none",
     )
 
+    # Custom callback for detailed logging
+    class LoggingCallback(TrainerCallback):
+        def __init__(self):
+            self.last_log_step = 0
+
+        def on_step_end(self, args, state, control, **kwargs):
+            # Log every 10 steps
+            if state.global_step % 10 == 0 and state.global_step != self.last_log_step:
+                self.last_log_step = state.global_step
+                log(f"Step {state.global_step}/{state.max_steps} (epoch {state.epoch:.2f})")
+                log_gpu_memory(prefix="  ")
+
+        def on_evaluate(self, args, state, control, **kwargs):
+            log(f"Starting evaluation at step {state.global_step}...")
+            log_gpu_memory(prefix="  Pre-eval ")
+            # Commit logs before eval (in case it crashes)
+            volume.commit()
+
+        def on_save(self, args, state, control, **kwargs):
+            log(f"Checkpoint saved at step {state.global_step}")
+            log_gpu_memory(prefix="  ")
+            # Commit logs after save
+            volume.commit()
+
+        def on_log(self, args, state, control, logs=None, **kwargs):
+            if logs:
+                # Log training metrics
+                metrics_str = ", ".join(f"{k}={v:.4f}" if isinstance(v, float) else f"{k}={v}" for k, v in logs.items())
+                log(f"Metrics: {metrics_str}")
+
     # Initialize trainer
+    log("\n🏋️ Starting training...")
     print("\n🏋️ Starting training...")
     trainer = Trainer(
         model=model,
@@ -453,15 +570,36 @@ def train(
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
         data_collator=collate_fn,
+        callbacks=[LoggingCallback()],
     )
 
-    # Train
-    if resume:
-        trainer.train(resume_from_checkpoint=True)
-    else:
-        trainer.train()
+    # Train with exception handling
+    try:
+        log_gpu_memory(prefix="Pre-training ")
+        log(f"Training config: epochs={config['epochs']}, batch_size={config['batch_size']}, "
+            f"grad_accum={config['gradient_accumulation_steps']}, lr={config['learning_rate']}")
+
+        if resume:
+            log("Resuming from checkpoint...")
+            trainer.train(resume_from_checkpoint=True)
+        else:
+            trainer.train()
+
+        log("Training loop completed successfully")
+
+    except Exception as e:
+        log(f"❌ TRAINING FAILED: {type(e).__name__}: {e}")
+        log(f"Traceback:\n{traceback.format_exc()}")
+        log_gpu_memory(prefix="At crash ")
+
+        # Commit logs so we can see what happened
+        volume.commit()
+
+        # Re-raise to signal failure
+        raise
 
     # Save final adapter
+    log("\n💾 Saving adapter...")
     print("\n💾 Saving adapter...")
     final_adapter_path = f"{output_dir}/final"
     trainer.save_model(final_adapter_path)
@@ -472,6 +610,7 @@ def train(
 
     # Push to Hub if requested
     if output_repo:
+        log(f"\n📤 Pushing adapter to HuggingFace Hub: {output_repo}")
         print(f"\n📤 Pushing adapter to HuggingFace Hub: {output_repo}")
         api = HfApi()
         api.upload_folder(
@@ -481,9 +620,12 @@ def train(
             token=hf_token,
             commit_message="Upload Qwen2-VL LoRA adapter from VLM3 training",
         )
+        log(f"✅ Adapter pushed to: https://huggingface.co/{output_repo}")
         print(f"✅ Adapter pushed to: https://huggingface.co/{output_repo}")
 
+    log("\n✅ Training complete!")
     print("\n✅ Training complete!")
+    log(f"Adapter saved to: {final_adapter_path}")
     print(f"Adapter saved to: {final_adapter_path}")
 
     return {
@@ -492,6 +634,37 @@ def train(
         "train_samples": len(train_records),
         "val_samples": len(val_records) if val_records else 0,
         "output_repo": output_repo,
+    }
+
+
+@app.function(
+    image=modal.Image.debian_slim(python_version="3.11"),
+    volumes={"/checkpoints": volume},
+)
+def check_logs(tail: int = 100):
+    """Read training logs from the persistent volume."""
+    log_dir = Path("/checkpoints/logs")
+
+    if not log_dir.exists():
+        return {"status": "no_logs", "message": "No logs directory found"}
+
+    # List all log files
+    log_files = sorted(log_dir.glob("training_*.log"), key=lambda p: p.stat().st_mtime, reverse=True)
+
+    if not log_files:
+        return {"status": "no_logs", "message": "No log files found"}
+
+    # Get the latest log
+    latest = log_files[0]
+    with open(latest, "r") as f:
+        lines = f.readlines()
+
+    return {
+        "status": "ok",
+        "log_file": latest.name,
+        "total_lines": len(lines),
+        "last_lines": "".join(lines[-tail:]) if tail else "".join(lines),
+        "all_logs": [f.name for f in log_files],
     }
 
 
@@ -520,6 +693,9 @@ def main(
 
         # Custom dataset repo
         modal run training/modal_train.py --dataset-repo username/my-vlm-dataset
+
+        # Check training logs (useful after a crash)
+        modal run training/modal_train.py::check_logs_cli
     """
     # Build config overrides
     config_overrides = {}
@@ -548,3 +724,28 @@ def main(
     print("=" * 60)
     for k, v in result.items():
         print(f"  {k}: {v}")
+
+
+@app.local_entrypoint()
+def check_logs_cli(tail: int = 100):
+    """
+    Check training logs from the persistent volume.
+
+    Usage:
+        modal run training/modal_train.py::check_logs_cli
+        modal run training/modal_train.py::check_logs_cli --tail 50
+    """
+    print("Fetching logs from Modal volume...")
+    result = check_logs.remote(tail=tail)
+
+    if result["status"] == "no_logs":
+        print(f"⚠️  {result['message']}")
+        return
+
+    print(f"\n📋 Log file: {result['log_file']}")
+    print(f"📊 Total lines: {result['total_lines']}")
+    print(f"📁 All log files: {', '.join(result['all_logs'])}")
+    print("\n" + "=" * 60)
+    print(f"Last {tail} lines:")
+    print("=" * 60)
+    print(result["last_lines"])
