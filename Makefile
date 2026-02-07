@@ -231,6 +231,7 @@ help:
 	@echo "  make train            Full training on Modal"
 	@echo "  make train-dev        Dev training (100 samples)"
 	@echo "  make train-resume     Resume from checkpoint"
+	@echo "  make train-logs       Check training logs (after crash)"
 	@echo ""
 	@echo "Evaluation (Local GPU):"
 	@echo "  make eval-sample      Create stratified eval sample (~300 examples)"
@@ -274,21 +275,25 @@ train:
 	@echo "🚀 Starting full training on Modal..."
 	@echo "   Dataset: $(HF_DATASET_REPO)"
 	@echo "   Output:  $(HF_MODEL_REPO)"
-	modal run training/modal_train.py \
+	modal run training/modal_train.py::main \
 		--dataset-repo $(HF_DATASET_REPO) \
 		--output-repo $(HF_MODEL_REPO)
 
 train-dev:
 	@echo "🧪 Starting dev training run (100 samples)..."
-	modal run training/modal_train.py \
+	modal run training/modal_train.py::main \
 		--dataset-repo $(HF_DATASET_REPO) \
 		--max-samples 100
 
 train-resume:
 	@echo "🔄 Resuming training from checkpoint..."
-	modal run training/modal_train.py \
+	modal run training/modal_train.py::main \
 		--dataset-repo $(HF_DATASET_REPO) \
 		--resume
+
+train-logs:
+	@echo "📋 Checking training logs from Modal volume..."
+	modal run training/modal_train.py::check_logs_cli
 
 # ============================================================================
 # STAGE 8: EVALUATION (compare baseline vs fine-tuned models)
@@ -440,7 +445,7 @@ clean-eval:
         generate-qa generate-qa-images generate-qa-html \
         filter-qa deduplicate-qa quality-control \
         emit validate upload \
-        train train-dev train-resume \
+        train train-dev train-resume train-logs \
         eval-sample eval-baseline eval-finetuned eval-compare eval-probes eval-mock eval-test eval-all clean-eval \
         eval-modal-baseline eval-modal-finetuned eval-modal-checkpoint eval-modal-quick eval-modal-probes eval-modal-all \
         clean clean-qa clean-classify clean-all \
