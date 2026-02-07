@@ -672,15 +672,21 @@ def main():
     # Copy/link images
     image_mapping = {}  # original path -> output path
     for img_path in unique_images:
-        # Resolve source path
+        # Resolve source path - handle both absolute and various relative formats
         if Path(img_path).is_absolute():
             src = Path(img_path)
+        elif img_path.startswith("data_src/"):
+            # Legacy path format: "data_src/..." - resolve relative to data_src parent
+            src = args.data_src.parent / img_path
         else:
-            # Try relative to data_src parent (for paths like "data_src/...")
-            if img_path.startswith("data_src/"):
-                src = args.data_src.parent / img_path
-            else:
-                src = args.data_src / img_path
+            # Standard relative path within data_src
+            src = args.data_src / img_path
+            # If not found, try without leading components (handles nested sources)
+            if not src.exists():
+                # Try recursive search as fallback
+                potential = list(args.data_src.rglob(Path(img_path).name))
+                if potential:
+                    src = potential[0]
 
         # Determine destination filename
         if config.normalize_image_names:

@@ -15,8 +15,18 @@ A polite web scraper for archiving vBulletin forums, designed for E30 M3 knowled
 # From project root
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r scraper/requirements.txt
 ```
+
+## Configuration
+
+1. Copy `.env.example` to `.env` and set the forum URL:
+```bash
+cp .env.example .env
+# Edit .env and set E30M3_FORUM_URL=https://your-forum-url.com
+```
+
+The scraper automatically loads environment variables from `.env` in the project root.
 
 ## Quick Start (Test on Small Subforum)
 
@@ -91,8 +101,10 @@ python scraper/run_test_scrape.py --stage images --forum-id 42
 
 ## Directory Structure
 
+Output goes to `data_src/forum/` (consistent with other source data):
+
 ```
-forum_archive/
+data_src/forum/
 ├── raw/
 │   ├── forums/          # Raw HTML of forum pages
 │   ├── threads/         # Raw HTML of thread pages

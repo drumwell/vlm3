@@ -1,6 +1,7 @@
 # BMW E30 M3 Service Manual - VLM Dataset Pipeline
 # Converts scanned service manual pages to Vision-Language Model training format
 
+DATA_SRC ?= data_src
 SECT_FILTER?=
 
 # ============================================================================
@@ -10,7 +11,7 @@ SECT_FILTER?=
 inventory:
 	@echo "📋 Stage 1: Cataloging source files..."
 	python pipeline/scripts/01_inventory.py \
-		--data-src data_src \
+		--data-src $(DATA_SRC) \
 		--output work/inventory.csv \
 		--section-filter "$(SECT_FILTER)"
 
@@ -22,7 +23,7 @@ prepare:
 	@echo "🔄 Stage 2: Converting PDFs and validating images..."
 	python pipeline/scripts/02_prepare_sources.py \
 		--inventory work/inventory.csv \
-		--data-src data_src \
+		--data-src $(DATA_SRC) \
 		--output work/inventory_prepared.csv \
 		--log work/logs/source_preparation.csv
 
@@ -55,14 +56,14 @@ generate-qa-images:
 	python pipeline/scripts/04a_generate_qa_images.py \
 		--classified work/classified/pages.csv \
 		--indices work/indices \
-		--data-src data_src \
+		--data-src $(DATA_SRC) \
 		--output work/qa_raw \
 		--config pipeline/config.yaml
 
 generate-qa-html:
 	@echo "📄 Stage 4b: Generating Q&A from HTML specs..."
 	python pipeline/scripts/04b_generate_qa_html.py \
-		--data-src data_src \
+		--data-src $(DATA_SRC) \
 		--output work/qa_raw \
 		--config pipeline/config.yaml
 
@@ -100,7 +101,7 @@ emit:
 	@echo "📝 Stage 6a: Emitting VLM training dataset..."
 	python pipeline/scripts/07_emit_vlm_dataset.py \
 		--qa work/qa_unique \
-		--data-src data_src \
+		--data-src $(DATA_SRC) \
 		--output training_data \
 		--report work/logs/emit_report.md \
 		--config pipeline/config.yaml

@@ -21,6 +21,7 @@ from scraper.core import (
     Checkpoint,
     Selectors,
     AuthConfig,
+    ProxyConfig,
     load_forum_config,
     setup_logging,
     save_json,
@@ -273,6 +274,7 @@ class TestScraperSession:
         config.user_agent = "TestBot/1.0"
         config.headers = {"Accept": "text/html"}
         config.auth = AuthConfig(enabled=False)
+        config.proxy = ProxyConfig(enabled=False)
         return config
 
     def test_creates_session_with_headers(self, mock_config):
@@ -584,6 +586,7 @@ class TestAuthentication:
             username="testuser",
             password="testpass",
         )
+        config.proxy = ProxyConfig(enabled=False)
         return config
 
     def test_login_disabled(self):
@@ -599,6 +602,7 @@ class TestAuthentication:
         config.user_agent = "TestBot/1.0"
         config.headers = {"Accept": "text/html"}
         config.auth = AuthConfig(enabled=False)
+        config.proxy = ProxyConfig(enabled=False)
         session = ScraperSession(config)
 
         result = session.login()
@@ -617,6 +621,7 @@ class TestAuthentication:
         config.user_agent = "TestBot/1.0"
         config.headers = {"Accept": "text/html"}
         config.auth = AuthConfig(enabled=True, username="", password="")
+        config.proxy = ProxyConfig(enabled=False)
         session = ScraperSession(config)
 
         result = session.login()

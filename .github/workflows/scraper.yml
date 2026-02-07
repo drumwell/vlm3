@@ -8,8 +8,11 @@
 #   AWS_SECRET_ACCESS_KEY  - AWS secret key
 #   AWS_REGION             - AWS region (e.g., us-east-1)
 #   S3_BUCKET              - S3 bucket for storing results
+#   E30M3_FORUM_URL        - Base URL of the forum to scrape
 #
 # Optional secrets:
+#   OXYLABS_USERNAME       - Oxylabs proxy username
+#   OXYLABS_PASSWORD       - Oxylabs proxy password
 #   SLACK_WEBHOOK_URL      - For notifications (optional)
 
 name: Forum Scraper
@@ -22,14 +25,15 @@ on:
         required: true
         type: choice
         options:
-          - deploy        # Deploy infrastructure and start scraper
-          - start         # Start scraper on existing instance
+          - deploy        # Deploy infrastructure (no scraping)
+          - test          # Quick validation scrape (discover only)
+          - start         # Start full scraper
           - stop          # Stop scraper gracefully
           - status        # Check scraper status
           - sync          # Sync results to S3
           - teardown      # Terminate instance and cleanup
       stage:
-        description: 'Scraper stage to run'
+        description: 'Scraper stage to run (for start action)'
         required: false
         type: choice
         default: 'all'
@@ -63,11 +67,14 @@ env:
   S3_BUCKET: ${{ secrets.S3_BUCKET }}
   STACK_NAME: e30-forum-scraper
   PROJECT_NAME: vlm3-scraper
+  SSM_TIMEOUT: 300
 
 jobs:
   deploy:
     if: github.event.inputs.action == 'deploy'
     runs-on: ubuntu-latest
+    outputs:
+      instance_id: ${{ steps.instance.outputs.instance_id }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -79,16 +86,35 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ env.AWS_REGION }}
 
+      - name: Validate required secrets
+        run: |
+          missing=""
+          [ -z "${{ secrets.S3_BUCKET }}" ] && missing="$missing S3_BUCKET"
+          [ -z "${{ secrets.E30M3_FORUM_URL }}" ] && missing="$missing E30M3_FORUM_URL"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing required secrets:$missing"
+            exit 1
+          fi
+
+      - name: Get default VPC
+        id: vpc
+        run: |
+          VPC_ID=$(aws ec2 describe-vpcs --filters "Name=isDefault,Values=true" --query "Vpcs[0].VpcId" --output text)
+          echo "vpc_id=$VPC_ID" >> $GITHUB_OUTPUT
+          echo "Using VPC: $VPC_ID"
+
       - name: Deploy CloudFormation stack
         run: |
+          PARAMS="InstanceType=${{ github.event.inputs.instance_type }}"
+          PARAMS="$PARAMS S3Bucket=${{ env.S3_BUCKET }}"
+          PARAMS="$PARAMS ProjectName=${{ env.PROJECT_NAME }}"
+          PARAMS="$PARAMS VpcId=${{ steps.vpc.outputs.vpc_id }}"
+
           aws cloudformation deploy \
             --template-file scraper/deploy/cloudformation.yaml \
             --stack-name ${{ env.STACK_NAME }} \
-            --parameter-overrides \
-              InstanceType=${{ github.event.inputs.instance_type }} \
-              S3Bucket=${{ env.S3_BUCKET }} \
-              ProjectName=${{ env.PROJECT_NAME }} \
-            --capabilities CAPABILITY_IAM \
+            --parameter-overrides $PARAMS \
+            --capabilities CAPABILITY_NAMED_IAM \
             --no-fail-on-empty-changeset
 
       - name: Get instance ID
@@ -103,35 +129,205 @@ jobs:
 
       - name: Wait for instance to be ready
         run: |
+          echo "Waiting for instance to pass status checks..."
           aws ec2 wait instance-status-ok \
             --instance-ids ${{ steps.instance.outputs.instance_id }}
+          echo "Instance ready"
 
-      - name: Setup scraper on instance
+      - name: Wait for SSM agent
         run: |
-          aws ssm send-command \
+          echo "Waiting for SSM agent to come online..."
+          for i in {1..30}; do
+            STATUS=$(aws ssm describe-instance-information \
+              --filters "Key=InstanceIds,Values=${{ steps.instance.outputs.instance_id }}" \
+              --query "InstanceInformationList[0].PingStatus" \
+              --output text 2>/dev/null || echo "None")
+            if [ "$STATUS" = "Online" ]; then
+              echo "SSM agent online"
+              break
+            fi
+            echo "Waiting for SSM agent... ($i/30)"
+            sleep 10
+          done
+
+      - name: Setup scraper environment
+        id: setup
+        run: |
+          # Create .env content with all secrets
+          ENV_CONTENT="E30M3_FORUM_URL=${{ secrets.E30M3_FORUM_URL }}"
+          if [ -n "${{ secrets.OXYLABS_USERNAME }}" ]; then
+            ENV_CONTENT="$ENV_CONTENT\nOXYLABS_USERNAME=${{ secrets.OXYLABS_USERNAME }}"
+            ENV_CONTENT="$ENV_CONTENT\nOXYLABS_PASSWORD=${{ secrets.OXYLABS_PASSWORD }}"
+          fi
+
+          # Send setup command
+          COMMAND_ID=$(aws ssm send-command \
             --instance-ids ${{ steps.instance.outputs.instance_id }} \
             --document-name "AWS-RunShellScript" \
             --parameters commands='[
+              "set -e",
               "cd /home/ec2-user",
-              "git clone https://github.com/${{ github.repository }}.git scraper || (cd scraper && git pull)",
+              "sudo -u ec2-user git clone https://github.com/${{ github.repository }}.git scraper 2>/dev/null || (cd scraper && sudo -u ec2-user git pull)",
               "cd scraper",
-              "python3 -m venv .venv",
-              "source .venv/bin/activate",
-              "pip install -r scraper/requirements.txt",
-              "mkdir -p forum_archive/{raw,data,checkpoints,logs}"
+              "sudo -u ec2-user python3 -m venv .venv",
+              "sudo -u ec2-user bash -c \"source .venv/bin/activate && pip install -q -r scraper/requirements.txt\"",
+              "sudo -u ec2-user mkdir -p data_src/forum/{raw,data,checkpoints,logs}",
+              "sudo -u ec2-user git config --global --add safe.directory /home/ec2-user/scraper",
+              "echo -e \"'"$ENV_CONTENT"'\" | sudo -u ec2-user tee .env > /dev/null",
+              "echo \"Setup complete\""
             ]' \
-            --output text
-
-      - name: Output connection info
-        run: |
-          PUBLIC_IP=$(aws ec2 describe-instances \
-            --instance-ids ${{ steps.instance.outputs.instance_id }} \
-            --query "Reservations[0].Instances[0].PublicIpAddress" \
+            --timeout-seconds ${{ env.SSM_TIMEOUT }} \
+            --query "Command.CommandId" \
             --output text)
+
+          echo "command_id=$COMMAND_ID" >> $GITHUB_OUTPUT
+          echo "Setup command ID: $COMMAND_ID"
+
+      - name: Wait for setup to complete
+        run: |
+          echo "Waiting for setup to complete..."
+          for i in {1..60}; do
+            STATUS=$(aws ssm get-command-invocation \
+              --command-id ${{ steps.setup.outputs.command_id }} \
+              --instance-id ${{ steps.instance.outputs.instance_id }} \
+              --query "Status" \
+              --output text 2>/dev/null || echo "Pending")
+
+            if [ "$STATUS" = "Success" ]; then
+              echo "Setup completed successfully"
+              break
+            elif [ "$STATUS" = "Failed" ] || [ "$STATUS" = "Cancelled" ] || [ "$STATUS" = "TimedOut" ]; then
+              echo "Setup failed with status: $STATUS"
+              aws ssm get-command-invocation \
+                --command-id ${{ steps.setup.outputs.command_id }} \
+                --instance-id ${{ steps.instance.outputs.instance_id }} \
+                --query "StandardErrorContent" \
+                --output text
+              exit 1
+            fi
+
+            echo "Setup status: $STATUS ($i/60)"
+            sleep 5
+          done
+
+      - name: Verify setup
+        run: |
+          COMMAND_ID=$(aws ssm send-command \
+            --instance-ids ${{ steps.instance.outputs.instance_id }} \
+            --document-name "AWS-RunShellScript" \
+            --parameters commands='[
+              "echo === Environment ===",
+              "cat /home/ec2-user/scraper/.env | sed s/=.*/=****/",
+              "echo",
+              "echo === Python packages ===",
+              "cd /home/ec2-user/scraper && source .venv/bin/activate && pip list | grep -i -e requests -e beautifulsoup -e cloudscraper",
+              "echo",
+              "echo === Directory structure ===",
+              "ls -la /home/ec2-user/scraper/data_src/forum/"
+            ]' \
+            --query "Command.CommandId" \
+            --output text)
+
+          sleep 5
+
+          OUTPUT=$(aws ssm get-command-invocation \
+            --command-id $COMMAND_ID \
+            --instance-id ${{ steps.instance.outputs.instance_id }} \
+            --query "StandardOutputContent" \
+            --output text)
+
+          echo "$OUTPUT"
+          echo ""
           echo "## Deployment Complete" >> $GITHUB_STEP_SUMMARY
-          echo "- Instance ID: ${{ steps.instance.outputs.instance_id }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Public IP: $PUBLIC_IP" >> $GITHUB_STEP_SUMMARY
-          echo "- Connect via SSM: aws ssm start-session --target ${{ steps.instance.outputs.instance_id }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Instance ID: \`${{ steps.instance.outputs.instance_id }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- Next: Run \`test\` action to validate, then \`start\` to begin scraping" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "$OUTPUT" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+
+  test:
+    if: github.event.inputs.action == 'test'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Get instance ID
+        id: instance
+        run: |
+          INSTANCE_ID=$(aws cloudformation describe-stacks \
+            --stack-name ${{ env.STACK_NAME }} \
+            --query "Stacks[0].Outputs[?OutputKey=='InstanceId'].OutputValue" \
+            --output text)
+          echo "instance_id=$INSTANCE_ID" >> $GITHUB_OUTPUT
+
+      - name: Run discovery test
+        id: test
+        run: |
+          COMMAND_ID=$(aws ssm send-command \
+            --instance-ids ${{ steps.instance.outputs.instance_id }} \
+            --document-name "AWS-RunShellScript" \
+            --parameters commands='[
+              "set -e",
+              "cd /home/ec2-user/scraper",
+              "source .venv/bin/activate",
+              "echo \"=== Starting discovery test ===\"",
+              "python scraper/01_discover_forums.py 2>&1",
+              "echo \"\"",
+              "echo \"=== Results ===\"",
+              "ls -la data_src/forum/data/ 2>/dev/null || echo \"No data files yet\"",
+              "cat data_src/forum/data/forums.json 2>/dev/null | head -100 || echo \"No forums.json\""
+            ]' \
+            --timeout-seconds 600 \
+            --query "Command.CommandId" \
+            --output text)
+
+          echo "command_id=$COMMAND_ID" >> $GITHUB_OUTPUT
+          echo "Test command ID: $COMMAND_ID"
+
+      - name: Wait for test to complete
+        run: |
+          echo "Running discovery test (this may take a few minutes)..."
+          for i in {1..120}; do
+            STATUS=$(aws ssm get-command-invocation \
+              --command-id ${{ steps.test.outputs.command_id }} \
+              --instance-id ${{ steps.instance.outputs.instance_id }} \
+              --query "Status" \
+              --output text 2>/dev/null || echo "Pending")
+
+            if [ "$STATUS" = "Success" ]; then
+              echo "Test completed successfully"
+              OUTPUT=$(aws ssm get-command-invocation \
+                --command-id ${{ steps.test.outputs.command_id }} \
+                --instance-id ${{ steps.instance.outputs.instance_id }} \
+                --query "StandardOutputContent" \
+                --output text)
+              echo "$OUTPUT"
+              echo ""
+              echo "## Test Results" >> $GITHUB_STEP_SUMMARY
+              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+              echo "$OUTPUT" >> $GITHUB_STEP_SUMMARY
+              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+              exit 0
+            elif [ "$STATUS" = "Failed" ] || [ "$STATUS" = "Cancelled" ] || [ "$STATUS" = "TimedOut" ]; then
+              echo "Test failed with status: $STATUS"
+              aws ssm get-command-invocation \
+                --command-id ${{ steps.test.outputs.command_id }} \
+                --instance-id ${{ steps.instance.outputs.instance_id }} \
+                --query "StandardErrorContent" \
+                --output text
+              echo "## Test Failed" >> $GITHUB_STEP_SUMMARY
+              exit 1
+            fi
+
+            echo "Test status: $STATUS ($i/120)"
+            sleep 5
+          done
 
   start:
     if: github.event.inputs.action == 'start'
@@ -153,58 +349,76 @@ jobs:
             --output text)
           echo "instance_id=$INSTANCE_ID" >> $GITHUB_OUTPUT
 
-      - name: Build scraper command
-        id: cmd
+      - name: Update code on instance
+        run: |
+          COMMAND_ID=$(aws ssm send-command \
+            --instance-ids ${{ steps.instance.outputs.instance_id }} \
+            --document-name "AWS-RunShellScript" \
+            --parameters commands='[
+              "cd /home/ec2-user/scraper && sudo -u ec2-user git pull"
+            ]' \
+            --query "Command.CommandId" \
+            --output text)
+          sleep 10
+
+      - name: Build and start scraper command
         run: |
           STAGE="${{ github.event.inputs.stage }}"
           FORUM_ID="${{ github.event.inputs.forum_id }}"
           MAX_THREADS="${{ github.event.inputs.max_threads }}"
 
-          CMD="cd /home/ec2-user/scraper && source .venv/bin/activate && "
-
+          # Build the scraper command
+          # Note: run_test_scrape.py defaults to test limits, so pass 0 for unlimited
           if [ "$STAGE" = "all" ]; then
-            CMD="${CMD}python scraper/run_test_scrape.py --stage all"
-            if [ -n "$FORUM_ID" ]; then
-              CMD="${CMD} --forum-id $FORUM_ID"
+            SCRAPER_CMD="python scraper/run_test_scrape.py --stage all"
+            [ -n "$FORUM_ID" ] && SCRAPER_CMD="$SCRAPER_CMD --forum-id $FORUM_ID"
+            # Pass unlimited unless user specified limits
+            if [ -z "$MAX_THREADS" ]; then
+              SCRAPER_CMD="$SCRAPER_CMD --max-threads 0 --max-pages 0"
+            else
+              SCRAPER_CMD="$SCRAPER_CMD --max-threads $MAX_THREADS --max-pages 0"
             fi
           else
             case $STAGE in
-              discover)
-                CMD="${CMD}python scraper/01_discover_forums.py"
-                ;;
-              threads)
-                CMD="${CMD}python scraper/02_scrape_threads.py --forum-id $FORUM_ID"
-                ;;
-              posts)
-                CMD="${CMD}python scraper/03_scrape_posts.py --forum-id $FORUM_ID"
-                ;;
-              images)
-                CMD="${CMD}python scraper/04_download_images.py --forum-id $FORUM_ID"
-                ;;
+              discover) SCRAPER_CMD="python scraper/01_discover_forums.py" ;;
+              threads)  SCRAPER_CMD="python scraper/02_scrape_threads.py --forum-id $FORUM_ID" ;;
+              posts)    SCRAPER_CMD="python scraper/03_scrape_posts.py --forum-id $FORUM_ID" ;;
+              images)   SCRAPER_CMD="python scraper/04_download_images.py --forum-id $FORUM_ID" ;;
             esac
+            [ -n "$MAX_THREADS" ] && SCRAPER_CMD="$SCRAPER_CMD --max-threads $MAX_THREADS"
           fi
 
-          if [ -n "$MAX_THREADS" ]; then
-            CMD="${CMD} --max-threads $MAX_THREADS"
-          fi
-
-          # Run in background with nohup
-          CMD="nohup ${CMD} > forum_archive/logs/scraper.log 2>&1 &"
-
-          echo "command=$CMD" >> $GITHUB_OUTPUT
-          echo "Running: $CMD"
-
-      - name: Start scraper
-        run: |
-          aws ssm send-command \
+          # Start scraper in background with proper logging
+          COMMAND_ID=$(aws ssm send-command \
             --instance-ids ${{ steps.instance.outputs.instance_id }} \
             --document-name "AWS-RunShellScript" \
-            --parameters commands='["${{ steps.cmd.outputs.command }}"]' \
-            --output text
+            --parameters commands="[
+              \"cd /home/ec2-user/scraper\",
+              \"source .venv/bin/activate\",
+              \"nohup $SCRAPER_CMD > data_src/forum/logs/scraper.log 2>&1 &\",
+              \"sleep 2\",
+              \"pgrep -a python || echo 'Warning: No python process found'\",
+              \"echo 'Scraper started in background'\"
+            ]" \
+            --query "Command.CommandId" \
+            --output text)
 
+          sleep 5
+
+          OUTPUT=$(aws ssm get-command-invocation \
+            --command-id $COMMAND_ID \
+            --instance-id ${{ steps.instance.outputs.instance_id }} \
+            --query "StandardOutputContent" \
+            --output text 2>/dev/null || echo "Command sent")
+
+          echo "$OUTPUT"
+          echo ""
           echo "## Scraper Started" >> $GITHUB_STEP_SUMMARY
-          echo "Stage: ${{ github.event.inputs.stage }}" >> $GITHUB_STEP_SUMMARY
-          echo "Forum ID: ${{ github.event.inputs.forum_id }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Stage: \`$STAGE\`" >> $GITHUB_STEP_SUMMARY
+          echo "- Forum ID: \`${FORUM_ID:-all}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- Max threads: \`${MAX_THREADS:-unlimited}\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Next: Use \`status\` action to monitor progress, \`sync\` to save to S3" >> $GITHUB_STEP_SUMMARY
 
   status:
     if: github.event.inputs.action == 'status'
@@ -235,14 +449,14 @@ jobs:
               "echo \"=== Process Status ===\"",
               "pgrep -a python || echo \"No Python processes running\"",
               "echo \"\"",
-              "echo \"=== Last 50 log lines ===\"",
-              "tail -50 /home/ec2-user/scraper/forum_archive/logs/scraper.log 2>/dev/null || echo \"No log file\"",
+              "echo \"=== Last 100 log lines ===\"",
+              "tail -100 /home/ec2-user/scraper/data_src/forum/logs/scraper.log 2>/dev/null || echo \"No log file\"",
               "echo \"\"",
               "echo \"=== Checkpoint Status ===\"",
-              "ls -la /home/ec2-user/scraper/forum_archive/checkpoints/ 2>/dev/null || echo \"No checkpoints\"",
+              "ls -la /home/ec2-user/scraper/data_src/forum/checkpoints/ 2>/dev/null || echo \"No checkpoints\"",
               "echo \"\"",
               "echo \"=== Data Files ===\"",
-              "ls -lh /home/ec2-user/scraper/forum_archive/data/ 2>/dev/null || echo \"No data files\"",
+              "ls -lh /home/ec2-user/scraper/data_src/forum/data/ 2>/dev/null || echo \"No data files\"",
               "echo \"\"",
               "echo \"=== Disk Usage ===\"",
               "df -h /home/ec2-user"
@@ -250,13 +464,20 @@ jobs:
             --query "Command.CommandId" \
             --output text)
 
-          sleep 5
+          sleep 10
 
-          aws ssm get-command-invocation \
+          OUTPUT=$(aws ssm get-command-invocation \
             --command-id $COMMAND_ID \
             --instance-id ${{ steps.instance.outputs.instance_id }} \
             --query "StandardOutputContent" \
-            --output text
+            --output text)
+
+          echo "$OUTPUT"
+          echo ""
+          echo "## Scraper Status" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "$OUTPUT" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
 
   sync:
     if: github.event.inputs.action == 'sync'
@@ -279,20 +500,56 @@ jobs:
           echo "instance_id=$INSTANCE_ID" >> $GITHUB_OUTPUT
 
       - name: Sync results to S3
+        id: sync
         run: |
           TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 
-          aws ssm send-command \
+          COMMAND_ID=$(aws ssm send-command \
             --instance-ids ${{ steps.instance.outputs.instance_id }} \
             --document-name "AWS-RunShellScript" \
             --parameters commands="[
-              \"aws s3 sync /home/ec2-user/scraper/forum_archive s3://${{ env.S3_BUCKET }}/forum_archive --exclude '*.log'\",
-              \"aws s3 cp /home/ec2-user/scraper/forum_archive/logs/scraper.log s3://${{ env.S3_BUCKET }}/logs/scraper_${TIMESTAMP}.log || true\"
+              \"echo 'Syncing data to S3...'\",
+              \"aws s3 sync /home/ec2-user/scraper/data_src/forum s3://${{ env.S3_BUCKET }}/data_src/forum --exclude '*.log'\",
+              \"aws s3 cp /home/ec2-user/scraper/data_src/forum/logs/scraper.log s3://${{ env.S3_BUCKET }}/logs/scraper_${TIMESTAMP}.log 2>/dev/null || true\",
+              \"echo ''\",
+              \"echo 'Sync complete. S3 contents:'\",
+              \"aws s3 ls s3://${{ env.S3_BUCKET }}/data_src/forum/ --recursive --summarize | tail -20\"
             ]" \
-            --output text
+            --timeout-seconds 300 \
+            --query "Command.CommandId" \
+            --output text)
 
-          echo "## Sync Complete" >> $GITHUB_STEP_SUMMARY
-          echo "Results synced to s3://${{ env.S3_BUCKET }}/forum_archive" >> $GITHUB_STEP_SUMMARY
+          echo "command_id=$COMMAND_ID" >> $GITHUB_OUTPUT
+
+      - name: Wait for sync to complete
+        run: |
+          for i in {1..60}; do
+            STATUS=$(aws ssm get-command-invocation \
+              --command-id ${{ steps.sync.outputs.command_id }} \
+              --instance-id ${{ steps.instance.outputs.instance_id }} \
+              --query "Status" \
+              --output text 2>/dev/null || echo "Pending")
+
+            if [ "$STATUS" = "Success" ]; then
+              OUTPUT=$(aws ssm get-command-invocation \
+                --command-id ${{ steps.sync.outputs.command_id }} \
+                --instance-id ${{ steps.instance.outputs.instance_id }} \
+                --query "StandardOutputContent" \
+                --output text)
+              echo "$OUTPUT"
+              echo ""
+              echo "## Sync Complete" >> $GITHUB_STEP_SUMMARY
+              echo "Results synced to \`s3://${{ env.S3_BUCKET }}/data_src/forum\`" >> $GITHUB_STEP_SUMMARY
+              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+              echo "$OUTPUT" >> $GITHUB_STEP_SUMMARY
+              echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+              exit 0
+            elif [ "$STATUS" = "Failed" ]; then
+              echo "Sync failed"
+              exit 1
+            fi
+            sleep 5
+          done
 
   stop:
     if: github.event.inputs.action == 'stop'
@@ -314,18 +571,38 @@ jobs:
             --output text)
           echo "instance_id=$INSTANCE_ID" >> $GITHUB_OUTPUT
 
-      - name: Stop scraper gracefully
+      - name: Stop scraper and sync
         run: |
-          aws ssm send-command \
+          COMMAND_ID=$(aws ssm send-command \
             --instance-ids ${{ steps.instance.outputs.instance_id }} \
             --document-name "AWS-RunShellScript" \
             --parameters commands='[
-              "pkill -SIGINT -f \"python scraper/\" || true",
+              "echo \"Stopping scraper gracefully...\"",
+              "pkill -SIGINT -f \"python scraper/\" || echo \"No scraper running\"",
               "sleep 5",
-              "echo \"Scraper stopped. Syncing to S3...\"",
-              "aws s3 sync /home/ec2-user/scraper/forum_archive s3://${{ env.S3_BUCKET }}/forum_archive"
+              "pgrep -a python && echo \"Warning: Process still running\" || echo \"Scraper stopped\"",
+              "echo \"\"",
+              "echo \"Syncing to S3...\"",
+              "aws s3 sync /home/ec2-user/scraper/data_src/forum s3://${{ env.S3_BUCKET }}/data_src/forum",
+              "echo \"Sync complete\""
             ]' \
-            --output text
+            --timeout-seconds 120 \
+            --query "Command.CommandId" \
+            --output text)
+
+          sleep 15
+
+          OUTPUT=$(aws ssm get-command-invocation \
+            --command-id $COMMAND_ID \
+            --instance-id ${{ steps.instance.outputs.instance_id }} \
+            --query "StandardOutputContent" \
+            --output text 2>/dev/null || echo "Stop command sent")
+
+          echo "$OUTPUT"
+          echo "## Scraper Stopped" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "$OUTPUT" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
 
   teardown:
     if: github.event.inputs.action == 'teardown'
@@ -338,28 +615,36 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ env.AWS_REGION }}
 
-      - name: Sync final results before teardown
+      - name: Final sync before teardown
         run: |
           INSTANCE_ID=$(aws cloudformation describe-stacks \
             --stack-name ${{ env.STACK_NAME }} \
             --query "Stacks[0].Outputs[?OutputKey=='InstanceId'].OutputValue" \
             --output text 2>/dev/null || echo "")
 
-          if [ -n "$INSTANCE_ID" ]; then
-            aws ssm send-command \
+          if [ -n "$INSTANCE_ID" ] && [ "$INSTANCE_ID" != "None" ]; then
+            echo "Performing final sync..."
+            COMMAND_ID=$(aws ssm send-command \
               --instance-ids $INSTANCE_ID \
               --document-name "AWS-RunShellScript" \
               --parameters commands='[
-                "aws s3 sync /home/ec2-user/scraper/forum_archive s3://${{ env.S3_BUCKET }}/forum_archive"
+                "aws s3 sync /home/ec2-user/scraper/data_src/forum s3://${{ env.S3_BUCKET }}/data_src/forum"
               ]' \
-              --output text || true
-            sleep 30
+              --query "Command.CommandId" \
+              --output text 2>/dev/null || echo "")
+
+            if [ -n "$COMMAND_ID" ]; then
+              echo "Waiting for sync to complete..."
+              sleep 30
+            fi
           fi
 
       - name: Delete CloudFormation stack
         run: |
+          echo "Deleting CloudFormation stack..."
           aws cloudformation delete-stack --stack-name ${{ env.STACK_NAME }}
           aws cloudformation wait stack-delete-complete --stack-name ${{ env.STACK_NAME }}
 
           echo "## Teardown Complete" >> $GITHUB_STEP_SUMMARY
-          echo "Stack deleted. Results preserved in S3." >> $GITHUB_STEP_SUMMARY
+          echo "Stack deleted. Results preserved in S3 at:" >> $GITHUB_STEP_SUMMARY
+          echo "\`s3://${{ env.S3_BUCKET }}/data_src/forum\`" >> $GITHUB_STEP_SUMMARY

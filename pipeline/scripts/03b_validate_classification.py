@@ -34,12 +34,12 @@ logger = logging.getLogger(__name__)
 
 # Sample images with known/expected content types
 SAMPLES = [
-    ("data_src/21 - Clutch/21-01.jpg", "procedure", "Photos with numbered callouts + steps"),
-    ("data_src/21 - Clutch/21-07.jpg", "troubleshooting", "3-column Condition/Cause/Correction table"),
-    ("data_src/11 - Engine/11-50.jpg", "diagram", "Full-page engine cutaway illustration"),
-    ("data_src/00 - Torque Specs/00-01.jpg", "specification", "Data table with values/units"),
-    ("data_src/1990 BMW M3 Electrical Troubleshooting Manual/0670-01.jpg", "fuse_chart", "Fuse data chart"),
-    ("data_src/34 - Brakes/34-10.jpg", "procedure", "Photos with steps"),
+    ("data_src/e30-m3-320is/21 - Clutch/21-01.jpg", "procedure", "Photos with numbered callouts + steps"),
+    ("data_src/e30-m3-320is/21 - Clutch/21-07.jpg", "troubleshooting", "3-column Condition/Cause/Correction table"),
+    ("data_src/e30-m3-320is/11 - Engine/11-50.jpg", "diagram", "Full-page engine cutaway illustration"),
+    ("data_src/e30-m3-320is/00 - Torque Specs/00-01.jpg", "specification", "Data table with values/units"),
+    ("data_src/e30-m3-320is/1990 BMW M3 Electrical Troubleshooting Manual/0670-01.jpg", "fuse_chart", "Fuse data chart"),
+    ("data_src/e30-m3-320is/34 - Brakes/34-10.jpg", "procedure", "Photos with steps"),
 ]
 
 SYSTEM_PROMPT = """You are classifying pages from a BMW E30 M3 service manual.

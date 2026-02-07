@@ -28,7 +28,7 @@ import json
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scraper.core import (
-    ScraperConfig,
+    load_forum_config,
     ScraperSession,
     Checkpoint,
     setup_logging,
@@ -92,7 +92,7 @@ def scrape_thread_posts(
             break
 
         # Save raw HTML
-        html_path = Path(f"forum_archive/raw/threads/{thread_id}_page{page}.html")
+        html_path = Path(f"data_src/forum/raw/threads/{thread_id}_page{page}.html")
         save_html(html, html_path)
 
         # Parse posts
@@ -151,7 +151,7 @@ def main():
     arg_parser.add_argument(
         "--data-dir",
         type=Path,
-        default=Path("forum_archive/data"),
+        default=Path("data_src/forum/data"),
         help="Data directory with thread JSONL files",
     )
 
@@ -189,11 +189,11 @@ def main():
     log_level = logging.DEBUG if args.verbose else logging.INFO
     logger = setup_logging(
         "scrape_posts",
-        log_dir=Path("forum_archive/logs"),
+        log_dir=Path("data_src/forum/logs"),
         level=log_level,
     )
 
-    config = ScraperConfig.from_yaml(args.config)
+    config = load_forum_config(args.config)
     session = ScraperSession(config, logger)
     parser = VBulletinParser(config.base_url)
 
@@ -238,7 +238,7 @@ def main():
         logger.info(f"Will scrape {len(threads_to_scrape)} thread(s)")
 
         # Load checkpoint
-        checkpoint_path = Path("forum_archive/checkpoints/posts.json")
+        checkpoint_path = Path("data_src/forum/checkpoints/posts.json")
         if args.resume:
             checkpoint = Checkpoint.load_or_create(checkpoint_path, "posts")
         else:

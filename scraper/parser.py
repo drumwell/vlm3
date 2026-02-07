@@ -130,13 +130,24 @@ class VBulletinParser:
             return urljoin(self.base_url + "/", url)
         return url
 
-    def _extract_id(self, url: str, prefix: str = "") -> str:
-        """Extract numeric ID from URL path."""
+    def _extract_id(self, url: str, prefix: str = "", allow_slug: bool = True) -> str:
+        """
+        Extract ID from URL path.
+
+        Handles both numeric IDs (/forum/123-name) and slug-based URLs (/forum/s14/faqs/no-start).
+
+        Args:
+            url: URL to extract ID from
+            prefix: Optional prefix to filter by
+            allow_slug: If True, return last path segment as ID when no numeric ID found
+        """
         if not url:
             return ""
         # Handle URLs like /threads/12345-thread-title or /forum/67-name
         path = urlparse(url).path
-        parts = path.strip("/").split("/")
+        parts = [p for p in path.strip("/").split("/") if p]
+
+        # First, try to find a numeric ID
         for part in parts:
             if "-" in part:
                 potential_id = part.split("-")[0]
@@ -144,6 +155,15 @@ class VBulletinParser:
                     return potential_id
             elif part.isdigit():
                 return part
+
+        # If no numeric ID and slugs are allowed, use the last path segment
+        # (excluding common prefixes like 'forum', 'forums', 'threads')
+        if allow_slug and parts:
+            # Filter out common path prefixes
+            slug_parts = [p for p in parts if p not in ('forum', 'forums', 'threads', 'thread')]
+            if slug_parts:
+                return slug_parts[-1]  # Return the last meaningful segment
+
         return ""
 
     def _clean_text(self, text: str) -> str:
@@ -234,7 +254,24 @@ class VBulletinParser:
                 continue
 
             url = self._resolve_url(href)
-            forum_id = self._extract_id(url)
+
+            # Check if this is a thread URL (numeric ID in the last path segment)
+            # Thread URLs look like: /forum/s14/general/1330282-thread-title
+            # Forum URLs look like: /forum/5-general or /forum/s14/general
+            path = urlparse(url).path
+            parts = [p for p in path.strip("/").split("/") if p]
+            if len(parts) >= 2:
+                last_segment = parts[-1]
+                # If last segment starts with digits followed by dash, it's likely a thread
+                if "-" in last_segment:
+                    first_part = last_segment.split("-")[0]
+                    # Thread IDs are typically large numbers, forum IDs are small
+                    # Also check path depth - threads in nested forums have 4+ parts
+                    if first_part.isdigit() and (int(first_part) > 1000 or len(parts) > 3):
+                        continue  # This is a thread, not a forum
+
+            # Get the forum ID (numeric or slug)
+            forum_id = self._extract_id(url, allow_slug=True)
 
             if not forum_id or forum_id in seen_ids:
                 continue
@@ -345,9 +382,11 @@ class VBulletinParser:
     def _parse_thread_from_listing(self, container: Tag, forum_id: str) -> Optional[Thread]:
         """Parse thread information from a listing container."""
         # Find thread link
+        # vBulletin 6 uses <a class="topic-title"> directly, not nested in a container
         link = container.select_one(
             "a[href*='/threads/'], .thread-title a, "
-            ".b-post__title a, [class*='title'] a"
+            ".b-post__title a, [class*='title'] a, "
+            "a.topic-title, a.js-topic-title"
         )
         if not link:
             return None
@@ -521,68 +560,119 @@ class VBulletinParser:
     # ========================================================================
 
     def _parse_pagination(self, soup: BeautifulSoup) -> Pagination:
-        """Parse pagination information from page."""
+        """Parse pagination information from page.
+
+        vBulletin 6 uses AJAX-driven pagination, so the visible controls often
+        show "Page 1 of 1" even when more pages exist. We check <link rel="next">
+        in the HTML head as the authoritative source for pagination.
+        """
         pagination = Pagination()
 
-        # Look for pagination container
+        # PRIORITY 1: Check <link rel="next"> in HTML head (most reliable for vBulletin 6)
+        # This is set server-side and works even when JS pagination shows "Page 1 of 1"
+        head_next = soup.select_one('link[rel="next"]')
+        head_prev = soup.select_one('link[rel="prev"]')
+
+        if head_next:
+            next_href = head_next.get("href", "")
+            if next_href:
+                pagination.next_url = self._resolve_url(next_href)
+                pagination.has_next = True
+                # Extract page number from URL (e.g., /page2 or ?page=2)
+                import re
+                page_match = re.search(r'/page(\d+)|[?&]page=(\d+)', next_href)
+                if page_match:
+                    next_page = int(page_match.group(1) or page_match.group(2))
+                    pagination.current_page = next_page - 1
+                    # We don't know total pages, but we know there's at least one more
+                    pagination.total_pages = max(pagination.total_pages, next_page)
+
+        if head_prev:
+            prev_href = head_prev.get("href", "")
+            if prev_href:
+                pagination.prev_url = self._resolve_url(prev_href)
+                pagination.has_prev = True
+
+        # PRIORITY 2: Parse visible pagination controls (fallback)
         pager = soup.select_one(
             ".pagination, .b-pagination, [class*='pagenav'], "
             ".pageNav, [class*='pager']"
         )
 
-        if not pager:
-            return pagination
-
-        # Find current page
-        current = pager.select_one(
-            ".current, [class*='active'], [aria-current='page'], "
-            "strong, .b-pagination__current"
-        )
-        if current:
-            try:
-                pagination.current_page = int(self._clean_text(current.get_text()))
-            except ValueError:
-                pass
-
-        # Find total pages (often in "Page X of Y" or last page link)
-        page_links = pager.select("a[href]")
-        max_page = pagination.current_page
-
-        for link in page_links:
-            text = self._clean_text(link.get_text())
-            try:
-                page_num = int(text)
-                max_page = max(max_page, page_num)
-            except ValueError:
-                pass
-
-        # Check for "last" link
-        last_link = pager.select_one("[class*='last'] a, a[title*='Last']")
-        if last_link:
-            href = last_link.get("href", "")
-            # Try to extract page number from URL
-            if "page=" in href:
+        if pager:
+            # Find current page from input field or active element
+            page_input = pager.select_one('input.js-pagenum, input[name="page"]')
+            if page_input:
                 try:
-                    page_num = int(href.split("page=")[-1].split("&")[0])
-                    max_page = max(max_page, page_num)
+                    pagination.current_page = int(page_input.get("value", 1))
+                except ValueError:
+                    pass
+            else:
+                current = pager.select_one(
+                    ".current, [class*='active'], [aria-current='page'], "
+                    "strong, .b-pagination__current"
+                )
+                if current:
+                    try:
+                        pagination.current_page = int(self._clean_text(current.get_text()))
+                    except ValueError:
+                        pass
+
+            # Find total pages from pagetotal span or page links
+            pagetotal = pager.select_one('.pagetotal, [class*="total"]')
+            if pagetotal:
+                try:
+                    total = int(self._clean_text(pagetotal.get_text()))
+                    pagination.total_pages = max(pagination.total_pages, total)
                 except ValueError:
                     pass
 
-        pagination.total_pages = max_page
-        pagination.has_next = pagination.current_page < pagination.total_pages
-        pagination.has_prev = pagination.current_page > 1
+            # Also check page links for max page number
+            page_links = pager.select("a[href]")
+            for link in page_links:
+                text = self._clean_text(link.get_text())
+                try:
+                    page_num = int(text)
+                    pagination.total_pages = max(pagination.total_pages, page_num)
+                except ValueError:
+                    pass
 
-        # Find next/prev URLs
-        next_link = pager.select_one(
-            "a[class*='next'], [class*='next'] a, a[rel='next'], [aria-label*='Next'] a"
-        )
-        if next_link:
-            pagination.next_url = self._resolve_url(next_link.get("href", ""))
+            # Check for "last" link
+            last_link = pager.select_one("[class*='last'] a, a[title*='Last']")
+            if last_link:
+                href = last_link.get("href", "")
+                import re
+                page_match = re.search(r'/page(\d+)|[?&]page=(\d+)', href)
+                if page_match:
+                    page_num = int(page_match.group(1) or page_match.group(2))
+                    pagination.total_pages = max(pagination.total_pages, page_num)
 
-        prev_link = pager.select_one(
-            "a[class*='prev'], [class*='prev'] a, a[rel='prev'], [aria-label*='Previous'] a"
-        )
-        if prev_link:
-            pagination.prev_url = self._resolve_url(prev_link.get("href", ""))
+            # Find next/prev URLs from controls (only if not already set from head links)
+            if not pagination.next_url:
+                # Look for non-disabled next links
+                next_link = pager.select_one(
+                    "a[class*='next']:not(.h-disabled), "
+                    "[class*='next']:not(.h-disabled) a, "
+                    "a[rel='next']:not(.h-disabled), "
+                    "[aria-label*='Next'] a:not(.h-disabled)"
+                )
+                if next_link and 'h-disabled' not in next_link.get('class', []):
+                    pagination.next_url = self._resolve_url(next_link.get("href", ""))
+                    pagination.has_next = bool(pagination.next_url)
+
+            if not pagination.prev_url:
+                prev_link = pager.select_one(
+                    "a[class*='prev']:not(.h-disabled), "
+                    "[class*='prev']:not(.h-disabled) a, "
+                    "a[rel='prev']:not(.h-disabled), "
+                    "[aria-label*='Previous'] a:not(.h-disabled)"
+                )
+                if prev_link and 'h-disabled' not in prev_link.get('class', []):
+                    pagination.prev_url = self._resolve_url(prev_link.get("href", ""))
+                    pagination.has_prev = bool(pagination.prev_url)
+
+        # Update has_next based on total_pages if we didn't find a next link
+        if not pagination.has_next and pagination.total_pages > pagination.current_page:
+            pagination.has_next = True
 
         return pagination

@@ -31,6 +31,19 @@ Parameters:
     Default: /aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64
     Description: Latest Amazon Linux 2023 AMI (auto-updated via SSM)
 
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+    Description: VPC to deploy into (use default VPC)
+
+  # Oxylabs proxy credentials (optional)
+  OxylabsSecretArn:
+    Type: String
+    Default: ''
+    Description: ARN of Secrets Manager secret containing Oxylabs credentials (optional)
+
+Conditions:
+  HasOxylabsSecret: !Not [!Equals [!Ref OxylabsSecretArn, '']]
+
 Resources:
   # IAM Role for EC2 instance
   ScraperRole:
@@ -70,6 +83,17 @@ Resources:
                   - logs:CreateLogStream
                   - logs:PutLogEvents
                 Resource: '*'
+        - PolicyName: SecretsManagerAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - secretsmanager:GetSecretValue
+                Resource: !If
+                  - HasOxylabsSecret
+                  - !Ref OxylabsSecretArn
+                  - !Sub 'arn:aws:secretsmanager:${AWS::Region}:${AWS::AccountId}:secret:dummy-*'
 
   ScraperInstanceProfile:
     Type: AWS::IAM::InstanceProfile
@@ -84,6 +108,7 @@ Resources:
     Properties:
       GroupName: !Sub '${ProjectName}-sg'
       GroupDescription: Security group for forum scraper
+      VpcId: !Ref VpcId
       SecurityGroupEgress:
         - IpProtocol: tcp
           FromPort: 443
@@ -95,6 +120,11 @@ Resources:
           ToPort: 80
           CidrIp: 0.0.0.0/0
           Description: HTTP outbound for scraping
+        - IpProtocol: tcp
+          FromPort: 7777
+          ToPort: 7777
+          CidrIp: 0.0.0.0/0
+          Description: Oxylabs proxy outbound
       Tags:
         - Key: Name
           Value: !Sub '${ProjectName}-sg'
@@ -117,11 +147,8 @@ Resources:
               VolumeSize: !Ref VolumeSize
               VolumeType: gp3
               DeleteOnTermination: true
-        InstanceMarketOptions:
-          MarketType: spot
-          SpotOptions:
-            SpotInstanceType: persistent
-            InstanceInterruptionBehavior: stop
+        # On-demand for reliability (~$0.02/hr for t3.small)
+        # Spot kept getting interrupted due to capacity-not-available
         UserData:
           Fn::Base64: !Sub |
             #!/bin/bash
@@ -129,7 +156,7 @@ Resources:
 
             # Update system
             yum update -y
-            yum install -y python3 python3-pip git
+            yum install -y python3 python3-pip git jq
 
             # Create working directory
             mkdir -p /home/ec2-user/scraper
@@ -141,10 +168,27 @@ Resources:
             ./aws/install
             rm -rf aws awscliv2.zip
 
+            # Load Oxylabs credentials from Secrets Manager (if configured)
+            OXYLABS_SECRET_ARN="${OxylabsSecretArn}"
+            if [ -n "$OXYLABS_SECRET_ARN" ]; then
+              echo "Loading Oxylabs credentials from Secrets Manager..."
+              SECRET_JSON=$(aws secretsmanager get-secret-value --secret-id "$OXYLABS_SECRET_ARN" --query SecretString --output text)
+              OXYLABS_USERNAME=$(echo "$SECRET_JSON" | jq -r '.username // empty')
+              OXYLABS_PASSWORD=$(echo "$SECRET_JSON" | jq -r '.password // empty')
+
+              if [ -n "$OXYLABS_USERNAME" ] && [ -n "$OXYLABS_PASSWORD" ]; then
+                cat >> /home/ec2-user/.bashrc << PROXYEOF
+            export OXYLABS_USERNAME="$OXYLABS_USERNAME"
+            export OXYLABS_PASSWORD="$OXYLABS_PASSWORD"
+            PROXYEOF
+                echo "Oxylabs credentials configured"
+              fi
+            fi
+
             # Create sync script
             cat > /home/ec2-user/sync_to_s3.sh << 'SYNCEOF'
             #!/bin/bash
-            aws s3 sync /home/ec2-user/scraper/forum_archive s3://${S3Bucket}/forum_archive --exclude "*.log"
+            aws s3 sync /home/ec2-user/scraper/data_src/forum s3://${S3Bucket}/data_src/forum --exclude "*.log"
             SYNCEOF
             chmod +x /home/ec2-user/sync_to_s3.sh
 
