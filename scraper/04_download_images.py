@@ -35,15 +35,20 @@ from scraper.core import (
 )
 
 
-def get_image_filename(url: str, post_id: str, index: int) -> str:
+def get_image_filename(url: str, post_id: str, index: int) -> str | None:
     """
     Generate a safe filename for an image.
 
     Uses hash of URL to ensure uniqueness while keeping it short.
+    Returns None if URL is malformed and cannot be parsed.
     """
-    # Parse URL
-    parsed = urlparse(url)
-    path = unquote(parsed.path)
+    # Parse URL - handle malformed URLs gracefully
+    try:
+        parsed = urlparse(url)
+        path = unquote(parsed.path)
+    except ValueError:
+        # Malformed URL (e.g., invalid IPv6)
+        return None
 
     # Get extension
     ext = Path(path).suffix.lower()
@@ -130,6 +135,11 @@ def download_images(
 
         # Generate filename
         filename = get_image_filename(url, post_id, img["index"])
+        if filename is None:
+            logger.warning(f"[{i+1}/{len(images)}] Skipping malformed URL: {url[:80]}")
+            checkpoint.mark_failed(url)
+            failed += 1
+            continue
         dest_path = output_dir / filename
 
         if dry_run:
