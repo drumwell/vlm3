@@ -14,6 +14,7 @@ todo
 # Scraped forum data (large, not committed)
 data_src/forum/
 forum_archive/
+aws_results/
 
 # Keep only logs and final data
 !work/logs/
