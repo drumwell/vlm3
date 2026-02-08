@@ -286,9 +286,10 @@ train-dev:
 		--max-samples 100
 
 train-resume:
-	@echo "🔄 Resuming training from checkpoint..."
-	modal run training/modal_train.py::main \
+	@echo "🔄 Resuming training from checkpoint (detached)..."
+	modal run --detach training/modal_train.py::main \
 		--dataset-repo $(HF_DATASET_REPO) \
+		--output-repo $(HF_MODEL_REPO) \
 		--resume
 
 train-logs:

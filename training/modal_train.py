@@ -32,7 +32,7 @@ import modal
 
 # Modal configuration
 GPU_TYPE = "A100-80GB"  # or "A100" for 40GB, "H100" for faster
-TIMEOUT_HOURS = 6
+TIMEOUT_HOURS = 24  # Modal max is 86400s (24h)
 VOLUME_NAME = "vlm3-checkpoints"
 
 # Training defaults (can be overridden via CLI)
@@ -49,8 +49,8 @@ DEFAULT_CONFIG = {
     "warmup_ratio": 0.03,
     "max_grad_norm": 1.0,
     "max_length": 2048,
-    "eval_steps": 100,
-    "save_steps": 100,
+    "eval_steps": 500,
+    "save_steps": 500,
     "logging_steps": 10,
 }
 
