@@ -61,13 +61,19 @@ def generate_comparison_report(
     lines.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     lines.append("")
 
-    # Model info
+    # Model info - support both old format (model_info) and new format (model, adapter_repo)
+    base_model = baseline.get('model_info', {}).get('model_path') or baseline.get('model', 'N/A')
+    fine_model = finetuned.get('model_info', {}).get('model_path') or finetuned.get('model', 'N/A')
+    fine_adapter = (finetuned.get('model_info', {}).get('adapter_path') or
+                    finetuned.get('adapter_repo') or
+                    finetuned.get('adapter_path') or 'N/A')
+
     lines.append("## Models Compared")
     lines.append("")
     lines.append("| | Baseline | Fine-tuned |")
     lines.append("|---|---|---|")
-    lines.append(f"| Model | `{baseline['model_info']['model_path']}` | `{finetuned['model_info']['model_path']}` |")
-    lines.append(f"| Adapter | - | `{finetuned['model_info'].get('adapter_path', 'N/A')}` |")
+    lines.append(f"| Model | `{base_model}` | `{fine_model}` |")
+    lines.append(f"| Adapter | - | `{fine_adapter}` |")
     lines.append(f"| Samples | {len(baseline['samples'])} | {len(finetuned['samples'])} |")
     lines.append("")
 
@@ -130,28 +136,32 @@ def generate_comparison_report(
 
     lines.append("")
 
-    # By content type
-    lines.append("## By Content Type")
-    lines.append("")
-    lines.append("ROUGE-L scores by content type:")
-    lines.append("")
-    lines.append("| Type | Baseline | Fine-tuned | Delta | n (base) |")
-    lines.append("|------|----------|------------|-------|----------|")
+    # By content type (if available)
+    base_content_types = baseline.get("by_content_type", {})
+    fine_content_types = finetuned.get("by_content_type", {})
 
-    all_ctypes = set(baseline["by_content_type"].keys()) | set(finetuned["by_content_type"].keys())
+    if base_content_types or fine_content_types:
+        lines.append("## By Content Type")
+        lines.append("")
+        lines.append("ROUGE-L scores by content type:")
+        lines.append("")
+        lines.append("| Type | Baseline | Fine-tuned | Delta | n (base) |")
+        lines.append("|------|----------|------------|-------|----------|")
 
-    for ctype in sorted(all_ctypes):
-        base_metrics = baseline["by_content_type"].get(ctype, {})
-        fine_metrics = finetuned["by_content_type"].get(ctype, {})
+        all_ctypes = set(base_content_types.keys()) | set(fine_content_types.keys())
 
-        base_rouge = base_metrics.get("rouge_l", {}).get("mean_score", 0)
-        fine_rouge = fine_metrics.get("rouge_l", {}).get("mean_score", 0)
-        count = base_metrics.get("rouge_l", {}).get("count", 0)
+        for ctype in sorted(all_ctypes):
+            base_metrics = base_content_types.get(ctype, {})
+            fine_metrics = fine_content_types.get(ctype, {})
 
-        delta, delta_str = compute_delta(base_rouge, fine_rouge)
-        lines.append(f"| {ctype} | {base_rouge:.3f} | {fine_rouge:.3f} | {delta_str} | {count} |")
+            base_rouge = base_metrics.get("rouge_l", {}).get("mean_score", 0)
+            fine_rouge = fine_metrics.get("rouge_l", {}).get("mean_score", 0)
+            count = base_metrics.get("rouge_l", {}).get("count", 0)
 
-    lines.append("")
+            delta, delta_str = compute_delta(base_rouge, fine_rouge)
+            lines.append(f"| {ctype} | {base_rouge:.3f} | {fine_rouge:.3f} | {delta_str} | {count} |")
+
+        lines.append("")
 
     # Safety-critical analysis
     lines.append("## Safety-Critical Analysis")
@@ -177,23 +187,28 @@ def generate_comparison_report(
 
     lines.append("")
 
-    # Pass rate comparison
-    lines.append("## Pass Rates")
-    lines.append("")
-    lines.append("| Metric | Baseline | Fine-tuned | Improvement |")
-    lines.append("|--------|----------|------------|-------------|")
+    # Manual probes comparison (if available)
+    base_probes = baseline.get("probe_summary", {})
+    fine_probes = finetuned.get("probe_summary", {})
 
-    for metric in sorted(all_metrics):
-        base_data = baseline["aggregate_metrics"].get(metric, {})
-        fine_data = finetuned["aggregate_metrics"].get(metric, {})
+    if base_probes or fine_probes:
+        lines.append("## Manual Probes")
+        lines.append("")
+        lines.append("| Metric | Baseline | Fine-tuned | Change |")
+        lines.append("|--------|----------|------------|--------|")
 
-        base_pass = base_data.get("pass_rate", 0)
-        fine_pass = fine_data.get("pass_rate", 0)
+        base_rate = base_probes.get("pass_rate", 0)
+        fine_rate = fine_probes.get("pass_rate", 0)
+        delta = fine_rate - base_rate
+        lines.append(f"| Pass Rate | {base_rate:.1%} | {fine_rate:.1%} | {delta:+.1%} |")
 
-        improvement = fine_pass - base_pass
-        imp_str = f"{improvement:+.1%}" if improvement != 0 else "0.0%"
+        base_crit = base_probes.get("critical_pass_rate", 0)
+        fine_crit = fine_probes.get("critical_pass_rate", 0)
+        delta_crit = fine_crit - base_crit
+        lines.append(f"| Critical Pass Rate | {base_crit:.1%} | {fine_crit:.1%} | {delta_crit:+.1%} |")
 
-        lines.append(f"| {metric} | {base_pass:.1%} | {fine_pass:.1%} | {imp_str} |")
+        lines.append("")
+        lines.append(f"Total probes: {base_probes.get('total', 0)} | Passed: {base_probes.get('passed', 0)} (baseline) vs {fine_probes.get('passed', 0)} (finetuned)")
 
     lines.append("")
 
