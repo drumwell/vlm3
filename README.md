@@ -24,11 +24,12 @@ export ANTHROPIC_API_KEY=your_key  # Required for pipeline Stages 3-4
 ### Run Data Pipeline
 
 ```bash
-make all      # Full pipeline: inventory → prepare → classify → generate → filter → emit
-make status   # Check progress
+make data             # Run all data source pipelines
+make data-status      # Check progress
+make data-manual      # Run manual pipeline only
 ```
 
-**Output**: `training_data/vlm_train.jsonl` (11,154 examples) + `training_data/vlm_val.jsonl` (1,256 examples)
+**Output**: `data/src/manual/prepared/manual_train.jsonl` (11,154 examples) + `manual_val.jsonl` (1,256 examples)
 
 ### Run Scraper
 
@@ -44,54 +45,59 @@ python scraper/04_download_images.py    # Download images
 
 ```
 vlm3/
-├── pipeline/                 # Data processing pipeline
-│   ├── scripts/              # Stages 01-09
-│   ├── tests/                # pytest suite
-│   └── config.yaml           # Pipeline configuration
+├── data/                         # All data concerns
+│   ├── src/
+│   │   ├── manual/               # Service manual data source
+│   │   │   ├── Makefile           # Source-level targets
+│   │   │   ├── config.yaml        # Pipeline configuration
+│   │   │   ├── raw/               # Scanned manual pages (read-only)
+│   │   │   ├── pipeline/          # Scripts 01-09
+│   │   │   ├── work/              # Pipeline intermediates
+│   │   │   ├── prepared/          # Final outputs (manual_train.jsonl, etc.)
+│   │   │   └── tests/             # pytest suite
+│   │   └── forum/                 # Forum data source (future)
+│   ├── training/                  # Merge layer (config + merge.py)
+│   └── Makefile                   # Data orchestrator
 │
-├── scraper/                  # Web scraper for community knowledge
-│   ├── 01_discover_forums.py # Discover site structure
-│   ├── 02_scrape_threads.py  # Scrape thread listings
-│   ├── 03_scrape_posts.py    # Download post content
-│   ├── 04_download_images.py # Download images
-│   ├── core.py               # HTTP client, checkpointing
-│   ├── parser.py             # HTML parsing
-│   └── tests/                # Scraper tests
+├── scraper/                       # Web scraper for community knowledge
+│   ├── 01_discover_forums.py
+│   ├── 02_scrape_threads.py
+│   ├── 03_scrape_posts.py
+│   ├── 04_download_images.py
+│   ├── core.py
+│   ├── parser.py
+│   └── tests/
 │
-├── training/                 # VLM fine-tuning (⚙️)
+├── training/                      # VLM fine-tuning
 │   └── configs/
-│       └── lora_qwen2vl.yaml # LoRA training config
+│       └── lora_qwen2vl.yaml
 │
-├── eval/                     # Model evaluation (📋)
+├── eval/                          # Model evaluation
 │   └── benchmarks/
 │       └── manual_probes.json
 │
-├── data_src/                 # Source materials (read-only)
-├── work/                     # Pipeline intermediates
-├── training_data/            # Final outputs
-├── forum_archive/            # Scraped web data
-│
-├── Makefile                  # Pipeline orchestration
-└── specs/                    # Project specifications
+├── specs/                         # Project specifications
+├── Makefile                       # Root: delegates to data/, training/, eval/
+└── README.md
 ```
 
 ---
 
 ## Data Pipeline
 
-Converts scanned service manual pages into VLM training data using Claude's vision capabilities—no OCR needed.
+Converts scanned service manual pages into VLM training data using Claude's vision capabilities—no OCR needed. Each data source is self-contained under `data/src/<name>/`.
 
 ### Pipeline Flow
 
 ```
-data_src/ (JPG/PDF/HTML)
+data/src/manual/raw/ (JPG/PDF/HTML)
     ↓
 Stage 1: Inventory    → work/inventory.csv
 Stage 2: Prepare      → work/inventory_prepared.csv (PDF→JPG)
 Stage 3: Classify     → work/classified/pages.csv [Claude API]
 Stage 4: Generate Q&A → work/qa_raw/*.json [Claude API]
 Stage 5: Filter       → work/qa_filtered/*.json → work/qa_unique/*.json
-Stage 6: Emit         → training_data/vlm_train.jsonl + vlm_val.jsonl
+Stage 6: Emit         → prepared/manual_train.jsonl + manual_val.jsonl
 ```
 
 ### Source Materials
@@ -126,12 +132,12 @@ Stage 6: Emit         → training_data/vlm_train.jsonl + vlm_val.jsonl
 
 | Target | Description |
 |--------|-------------|
-| `make all` | Complete pipeline |
-| `make status` | Show progress |
-| `make quick` | Skip Stages 1-2 |
-| `make regen-qa` | Regenerate from Stage 4 |
-| `make refilter` | Rerun from Stage 5 |
-| `make clean` | Clean intermediates |
+| `make data` | Run all data source pipelines |
+| `make data-manual` | Run manual pipeline only |
+| `make data-status` | Show progress |
+| `make data-clean` | Clean intermediates |
+| `make -C data/src/manual quick` | Skip Stages 1-2 |
+| `make -C data/src/manual regen-qa` | Regenerate from Stage 4 |
 
 ---
 
@@ -230,10 +236,10 @@ Key dependencies:
 ## Testing
 
 ```bash
-pytest pipeline/tests/           # Pipeline tests
-pytest scraper/tests/            # Scraper tests
-pytest -v                        # Verbose
-pytest -k "classify"             # Pattern match
+pytest data/src/manual/tests/      # Pipeline tests
+pytest scraper/tests/              # Scraper tests
+pytest -v                          # Verbose
+pytest -k "classify"               # Pattern match
 ```
 
 ---

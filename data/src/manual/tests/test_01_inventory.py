@@ -10,8 +10,8 @@ import pytest
 import csv
 from pathlib import Path
 
-# Import from scripts package using clean aliases
-from scripts import inventory
+# Import from pipeline package using clean aliases
+from pipeline import inventory
 
 # Get functions from the module
 scan_directory = getattr(inventory, 'scan_directory', None)

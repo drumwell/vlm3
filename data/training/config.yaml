@@ -1,0 +1,7 @@
+sources:
+  manual:
+    path: ../src/manual/prepared
+    weight: 1.0
+
+upsample_to_balance: true
+shuffle_seed: 42

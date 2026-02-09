@@ -7,17 +7,16 @@ venv/
 *.egg-info/
 
 # Work artifacts (large intermediate files)
-work/
+data/src/*/work/
 todo
 *~
 
 # Scraped forum data (large, not committed)
-data_src/forum/
 forum_archive/
 aws_results/
 
-# Keep only logs and final data
-!work/logs/
+# Merged training output (generated, don't commit)
+data/training/merged_*.jsonl
 
 # Jupyter
 .ipynb_checkpoints/

@@ -8,34 +8,42 @@ VLM training data pipeline for BMW E30 M3 service manuals. Converts scanned serv
 
 ## Commands
 
-### Pipeline
+### Data Pipeline
 ```bash
-make all                    # Run complete pipeline (Stages 1-6)
-make status                 # Show pipeline progress
-make quick                  # Skip Stages 1-2 (sources already prepared)
-make regen-qa               # Regenerate from Stage 4
-make refilter               # Rerun from Stage 5
-make clean                  # Clean intermediate files
+make data                   # Run all data source pipelines
+make data-manual            # Run manual pipeline only
+make data-status            # Show pipeline progress
+make data-clean             # Clean pipeline artifacts
 ```
 
-### Individual Stages
+### Manual Pipeline (from data/src/manual/)
 ```bash
-make inventory              # Stage 1: Catalog source files
-make prepare                # Stage 2: Convert PDFs, validate images
-make classify               # Stage 3: Classify pages, parse indices
-make generate-qa            # Stage 4: Generate Q&A pairs
-make quality-control        # Stage 5: Filter and deduplicate
-make emit                   # Stage 6a: Emit VLM JSONL
-make validate               # Stage 6b: Validate dataset
-make upload                 # Stage 6c: Upload to HuggingFace
+make -C data/src/manual all              # Full pipeline
+make -C data/src/manual status           # Show progress
+make -C data/src/manual quick            # Skip Stages 1-2
+make -C data/src/manual regen-qa         # Regenerate from Stage 4
+make -C data/src/manual refilter         # Rerun from Stage 5
+make -C data/src/manual clean            # Clean intermediate files
+```
+
+### Individual Stages (from data/src/manual/)
+```bash
+make -C data/src/manual inventory        # Stage 1: Catalog source files
+make -C data/src/manual prepare          # Stage 2: Convert PDFs, validate images
+make -C data/src/manual classify         # Stage 3: Classify pages, parse indices
+make -C data/src/manual generate-qa      # Stage 4: Generate Q&A pairs
+make -C data/src/manual quality-control  # Stage 5: Filter and deduplicate
+make -C data/src/manual emit             # Stage 6a: Emit VLM JSONL
+make -C data/src/manual validate         # Stage 6b: Validate dataset
+make -C data/src/manual upload           # Stage 6c: Upload to HuggingFace
 ```
 
 ### Testing
 ```bash
-pytest pipeline/tests/                           # All tests
-pytest pipeline/tests/test_01_inventory.py       # Single file
-pytest pipeline/tests/ -k "classify"             # Pattern match
-pytest pipeline/tests/ -v                        # Verbose
+pytest data/src/manual/tests/                           # All tests
+pytest data/src/manual/tests/test_01_inventory.py       # Single file
+pytest data/src/manual/tests/ -k "classify"             # Pattern match
+pytest data/src/manual/tests/ -v                        # Verbose
 ```
 
 ### Environment
@@ -46,25 +54,40 @@ export ANTHROPIC_API_KEY=your_key      # Required for Stages 3-4
 
 ## Architecture
 
-### Pipeline Flow
+### Data Source Convention
+
+Every data source lives under `data/src/<name>/` and is self-contained:
+
 ```
-data_src/ (JPG/PDF/HTML)
+data/src/<name>/
+├── Makefile            # Source-level targets: all, status, clean
+├── config.yaml         # Source-specific configuration
+├── raw/                # Immutable input data
+├── pipeline/           # Numbered scripts: 01_*.py, 02_*.py, ...
+├── work/               # Intermediate outputs (safe to delete)
+├── prepared/           # Final output: <name>_train.jsonl, <name>_val.jsonl
+└── tests/              # Pipeline tests
+```
+
+### Manual Pipeline Flow
+```
+data/src/manual/raw/ (JPG/PDF/HTML)
     ↓
-pipeline/scripts/01_inventory.py        → work/inventory.csv
+pipeline/01_inventory.py        → work/inventory.csv
     ↓
-pipeline/scripts/02_prepare_sources.py  → work/inventory_prepared.csv (+ PDF→JPG)
+pipeline/02_prepare_sources.py  → work/inventory_prepared.csv (+ PDF→JPG)
     ↓
-pipeline/scripts/03_classify_pages.py   → work/classified/pages.csv + work/indices/*.json
+pipeline/03_classify_pages.py   → work/classified/pages.csv + work/indices/*.json
     ↓
-pipeline/scripts/04a_generate_qa_images.py  ┐
-pipeline/scripts/04b_generate_qa_html.py    ┘→ work/qa_raw/*.json
+pipeline/04a_generate_qa_images.py  ┐
+pipeline/04b_generate_qa_html.py    ┘→ work/qa_raw/*.json
     ↓
-pipeline/scripts/05_filter_qa.py        → work/qa_filtered/*.json
-pipeline/scripts/06_deduplicate_qa.py   → work/qa_unique/*.json
+pipeline/05_filter_qa.py        → work/qa_filtered/*.json
+pipeline/06_deduplicate_qa.py   → work/qa_unique/*.json
     ↓
-pipeline/scripts/07_emit_vlm_dataset.py → training_data/vlm_train.jsonl + training_data/vlm_val.jsonl + training_data/images/
-pipeline/scripts/08_validate_vlm.py     → work/logs/vlm_qa_report.md
-pipeline/scripts/09_upload_vlm.py       → HuggingFace Hub
+pipeline/07_emit_vlm_dataset.py → prepared/manual_train.jsonl + prepared/manual_val.jsonl + prepared/images/
+pipeline/08_validate_vlm.py     → work/logs/vlm_qa_report.md
+pipeline/09_upload_vlm.py       → HuggingFace Hub
 ```
 
 ### Source Types (different prompt templates)
@@ -91,14 +114,14 @@ page_id, image_path, section_id, section_name, source_type, content_type, is_ind
  "content_type": "procedure", "qa_pairs": [{"question": "...", "answer": "...", "question_type": "inspection"}]}
 ```
 
-**VLM output** (`training_data/vlm_train.jsonl`):
+**VLM output** (`prepared/manual_train.jsonl`):
 ```json
 {"image": "images/21-03.jpg", "conversations": [{"role": "user", "content": "..."}, {"role": "assistant", "content": "..."}], "metadata": {...}}
 ```
 
 ## Configuration
 
-`pipeline/config.yaml` contains all pipeline settings:
+`data/src/manual/config.yaml` contains all pipeline settings:
 - `api` — Model selection, rate limits, retries
 - `classification` — Content type patterns
 - `generation` — Questions per page, skip patterns, cost controls
@@ -109,19 +132,24 @@ page_id, image_path, section_id, section_name, source_type, content_type, is_ind
 
 ```
 vlm3/
-├── pipeline/             # Data pipeline
-│   ├── scripts/          # Pipeline scripts 01-09
-│   ├── tests/            # pytest suite with fixtures in conftest.py
-│   └── config.yaml       # Pipeline configuration
-├── training/             # VLM fine-tuning (future)
-│   └── configs/          # LoRA training configs
-├── eval/                 # Model evaluation (future)
-│   └── benchmarks/       # Manual test probes
-├── scraping/             # Data collection (future)
-├── specs/                # Project-wide specifications
-├── data_src/             # Source images/PDFs/HTML (read-only)
-├── work/                 # Intermediate artifacts
-└── training_data/        # Final outputs (vlm_train.jsonl, vlm_val.jsonl, images/)
+├── data/
+│   ├── src/
+│   │   ├── manual/                 # Service manual data source
+│   │   │   ├── Makefile            # Source-level targets
+│   │   │   ├── config.yaml         # Pipeline configuration
+│   │   │   ├── raw/                # Scanned manual pages
+│   │   │   ├── pipeline/           # Scripts 01-09
+│   │   │   ├── work/               # Intermediate artifacts
+│   │   │   ├── prepared/           # Final outputs (manual_train.jsonl, etc.)
+│   │   │   └── tests/              # pytest suite
+│   │   └── forum/                  # Forum data source (future)
+│   ├── training/                   # Merge layer (config + merge.py)
+│   └── Makefile                    # Data orchestrator
+├── training/                       # VLM fine-tuning
+├── eval/                           # Model evaluation
+├── scraper/                        # Data collection
+├── specs/                          # Project specifications
+└── Makefile                        # Root: delegates to data/, training/, eval/
 ```
 
 ## Script Pattern
@@ -129,5 +157,5 @@ vlm3/
 All scripts follow consistent conventions:
 - CLI with argparse and `--help`
 - Idempotent (safe to rerun)
-- Config loaded from `pipeline/config.yaml`
+- Config loaded from `config.yaml`
 - Logging to stdout and `work/logs/`
