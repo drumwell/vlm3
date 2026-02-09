@@ -11,8 +11,8 @@ import csv
 from pathlib import Path
 from PIL import Image
 
-# Import from scripts package using clean aliases
-from scripts import prepare_sources
+# Import from pipeline package using clean aliases
+from pipeline import prepare_sources
 
 
 def get_func(name):
