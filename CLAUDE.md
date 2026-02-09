@@ -199,6 +199,10 @@ Pipeline scripts follow consistent patterns:
 - PR title should be concise (<70 chars). Use the body for details.
 - Ensure CI passes (tests, lint) before requesting merge.
 
+### Merging
+- **Prefer rebase** over squash merges or merge commits. Use `git rebase main` to update feature branches before merging.
+- Keep commit history linear and clean on main.
+
 ### Commits & Testing
 - Run relevant tests before committing: `pytest data/src/manual/tests/` for pipeline changes, `pytest scraper/tests/` for scraper changes, etc.
 - New pipeline scripts should have corresponding tests.
