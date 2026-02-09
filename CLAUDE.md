@@ -186,3 +186,20 @@ Pipeline scripts follow consistent patterns:
 - Config loaded from source-local `config.yaml`
 - Logging to stdout and `work/logs/`
 - Zero inter-script Python imports
+
+## Workflow
+
+### Branching
+- **Never commit directly to main.** Always create a feature branch first.
+- Branch naming: `feat/<topic>`, `fix/<topic>`, or `data/<topic>` (e.g., `feat/forum-pipeline`, `fix/filter-edge-case`).
+- Keep branches focused — one logical change per branch.
+
+### Pull Requests
+- All changes reach main via pull request. Never push directly to main.
+- PR title should be concise (<70 chars). Use the body for details.
+- Ensure CI passes (tests, lint) before requesting merge.
+
+### Commits & Testing
+- Run relevant tests before committing: `pytest data/src/manual/tests/` for pipeline changes, `pytest scraper/tests/` for scraper changes, etc.
+- New pipeline scripts should have corresponding tests.
+- Don't commit secrets, large binaries, or `work/` artifacts (`.gitignore` covers most of this, but be mindful).
