@@ -103,6 +103,7 @@ emit:
 		--qa work/qa_unique \
 		--data-src $(DATA_SRC) \
 		--output prepared \
+		--prefix manual \
 		--report work/logs/emit_report.md \
 		--config config.yaml
 

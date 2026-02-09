@@ -599,6 +599,10 @@ def main():
         help="Show what would be emitted without writing"
     )
     parser.add_argument(
+        "--prefix", type=str, default="vlm",
+        help="Output filename prefix (e.g. 'manual' → manual_train.jsonl)"
+    )
+    parser.add_argument(
         "--verbose", action="store_true",
         help="Log each Q&A pair"
     )
@@ -712,8 +716,8 @@ def main():
     val_formatted = [format_record(r) for r in val_records]
 
     # Write JSONL files
-    train_path = output_dir / "vlm_train.jsonl"
-    val_path = output_dir / "vlm_val.jsonl"
+    train_path = output_dir / f"{args.prefix}_train.jsonl"
+    val_path = output_dir / f"{args.prefix}_val.jsonl"
 
     write_jsonl(train_formatted, train_path)
     write_jsonl(val_formatted, val_path)
