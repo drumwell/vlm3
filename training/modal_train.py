@@ -749,3 +749,68 @@ def check_logs_cli(tail: int = 100):
     print(f"Last {tail} lines:")
     print("=" * 60)
     print(result["last_lines"])
+
+
+@app.function(
+    image=modal.Image.debian_slim(python_version="3.11").pip_install("huggingface_hub>=0.21.0"),
+    secrets=[modal.Secret.from_name("huggingface")],
+    volumes={"/checkpoints": volume},
+)
+def push_adapter(
+    output_repo: str,
+    adapter_path: str = "/checkpoints/vlm3-lora/final",
+):
+    """Push adapter from Modal volume to HuggingFace Hub."""
+    from huggingface_hub import HfApi
+    from pathlib import Path
+
+    hf_token = os.environ.get("HF_TOKEN")
+    adapter_dir = Path(adapter_path)
+
+    if not adapter_dir.exists():
+        return {"status": "error", "message": f"Adapter not found at {adapter_path}"}
+
+    # List files in adapter directory
+    files = list(adapter_dir.iterdir())
+    print(f"Found {len(files)} files in {adapter_path}:")
+    for f in files:
+        print(f"  - {f.name}")
+
+    # Push to Hub
+    print(f"\n📤 Pushing adapter to HuggingFace Hub: {output_repo}")
+    api = HfApi()
+    api.upload_folder(
+        folder_path=str(adapter_dir),
+        repo_id=output_repo,
+        repo_type="model",
+        token=hf_token,
+        commit_message="Upload Qwen2-VL LoRA adapter from VLM3 training",
+    )
+
+    return {
+        "status": "success",
+        "repo": output_repo,
+        "url": f"https://huggingface.co/{output_repo}",
+    }
+
+
+@app.local_entrypoint()
+def push_adapter_cli(
+    output_repo: str,
+    adapter_path: str = "/checkpoints/vlm3-lora/final",
+):
+    """
+    Push trained adapter from Modal volume to HuggingFace Hub.
+
+    Usage:
+        modal run training/modal_train.py::push_adapter_cli --output-repo drumwell/vlm3-lora
+    """
+    print(f"Pushing adapter to {output_repo}...")
+    result = push_adapter.remote(output_repo=output_repo, adapter_path=adapter_path)
+
+    if result["status"] == "error":
+        print(f"❌ {result['message']}")
+        return
+
+    print(f"\n✅ Adapter pushed successfully!")
+    print(f"   URL: {result['url']}")
