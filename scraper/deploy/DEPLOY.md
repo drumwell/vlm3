@@ -263,7 +263,7 @@ aws ssm start-session --target $INSTANCE_ID
 sudo su - ec2-user
 cd scraper
 source .venv/bin/activate
-tail -f data_src/forum/logs/scraper.log
+tail -f data/src/forum/logs/scraper.log
 ```
 
 ---
@@ -289,7 +289,7 @@ tail -f data_src/forum/logs/scraper.log
 INSTANCE_ID=$(aws cloudformation describe-stacks --stack-name e30-forum-scraper \
   --query "Stacks[0].Outputs[?OutputKey=='InstanceId'].OutputValue" --output text)
 aws ssm start-session --target $INSTANCE_ID
-# Then: tail -f /home/ec2-user/scraper/data_src/forum/logs/scraper.log
+# Then: tail -f /home/ec2-user/scraper/data/src/forum/logs/scraper.log
 ```
 
 ### Sync to S3
@@ -317,7 +317,7 @@ aws ssm start-session --target $INSTANCE_ID
 **On EC2:**
 ```
 /home/ec2-user/scraper/
-├── data_src/forum/
+├── data/src/forum/
 │   ├── data/           # Scraped data (JSON)
 │   ├── raw/            # Raw HTML
 │   ├── checkpoints/    # Resume state
@@ -328,7 +328,7 @@ aws ssm start-session --target $INSTANCE_ID
 **On S3:**
 ```
 s3://YOUR-BUCKET/
-├── data_src/forum/     # Synced data
+├── data/src/forum/     # Synced data
 └── logs/               # Archived logs
 ```
 

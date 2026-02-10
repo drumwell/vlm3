@@ -295,7 +295,8 @@ class ForumConfig:
     headers: Dict[str, str]
 
     # Storage
-    storage_base: Path
+    storage_base_dir: Path  # raw base_dir from config (no domain suffix)
+    storage_base: Path      # base_dir / domain (for multi-forum isolation)
     checkpoint_interval: int
 
     # Selectors
@@ -421,7 +422,7 @@ def load_forum_config(config_path: Path, forum_id: Optional[str] = None) -> Foru
         )
 
     # Storage path - include domain from base_url for organization
-    storage_base_dir = Path(forum_cfg.get("storage", {}).get("base_dir", "data_src/forum"))
+    storage_base_dir = Path(forum_cfg.get("storage", {}).get("base_dir", "data/src/forum"))
     domain = urlparse(base_url).netloc if base_url else forum_id
     storage_base = storage_base_dir / domain
 
@@ -438,6 +439,7 @@ def load_forum_config(config_path: Path, forum_id: Optional[str] = None) -> Foru
         timeout=http_cfg.get("timeout_seconds", 30),
         user_agent=http_cfg.get("user_agent", "Mozilla/5.0"),
         headers=http_cfg.get("headers", {}),
+        storage_base_dir=storage_base_dir,
         storage_base=storage_base,
         checkpoint_interval=checkpoint_cfg.get("save_interval", 10),
         selectors=selectors,

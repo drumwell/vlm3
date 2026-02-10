@@ -6,8 +6,8 @@ Discovers the forum structure by crawling from the index page.
 Outputs a JSON file with all forums and their hierarchy.
 
 Usage:
-    python scraper/10_discover_forums.py
-    python scraper/10_discover_forums.py --output data_src/forum/data/forums.json
+    python scraper/01_discover_forums.py
+    python scraper/01_discover_forums.py --base-dir data/src/forum
 """
 
 import argparse
@@ -33,6 +33,7 @@ def discover_forums(
     session: ScraperSession,
     parser: VBulletinParser,
     start_url: str,
+    raw_dir: Path,
     logger,
 ) -> List[Forum]:
     """
@@ -42,6 +43,7 @@ def discover_forums(
         session: HTTP session for requests
         parser: HTML parser
         start_url: Starting URL (forum index)
+        raw_dir: Directory for saving raw HTML
         logger: Logger instance
 
     Returns:
@@ -62,7 +64,7 @@ def discover_forums(
 
         # Save raw HTML
         forum_id = parser._extract_id(url) or "index"
-        html_path = Path("data_src/forum/raw/forums") / f"{forum_id}.html"
+        html_path = raw_dir / "forums" / f"{forum_id}.html"
         save_html(html, html_path)
 
         forums = []
@@ -113,10 +115,17 @@ def main():
     )
 
     parser.add_argument(
+        "--base-dir",
+        type=Path,
+        default=None,
+        help="Base storage directory (default: from config storage.base_dir)",
+    )
+
+    parser.add_argument(
         "--output",
         type=Path,
-        default=Path("data_src/forum/data/forums.json"),
-        help="Output JSON file for forum structure",
+        default=None,
+        help="Output JSON file for forum structure (default: <base-dir>/data/forums.json)",
     )
 
     parser.add_argument(
@@ -127,18 +136,27 @@ def main():
 
     args = parser.parse_args()
 
+    # Load config
+    config = load_forum_config(args.config)
+
+    # Derive all paths from base_dir
+    base_dir = args.base_dir or config.storage_base_dir
+    raw_dir = base_dir / "raw"
+    data_dir = base_dir / "data"
+    log_dir = base_dir / "logs"
+    output_path = args.output or data_dir / "forums.json"
+
     # Setup
     import logging
     log_level = logging.DEBUG if args.verbose else logging.INFO
     logger = setup_logging(
         "discover_forums",
-        log_dir=Path("data_src/forum/logs"),
+        log_dir=log_dir,
         level=log_level,
     )
 
-    # Load config
-    config = load_forum_config(args.config)
     logger.info(f"Base URL: {config.base_url}")
+    logger.info(f"Storage: {base_dir}")
 
     # Initialize session and parser
     session = ScraperSession(config, logger)
@@ -147,7 +165,7 @@ def main():
     try:
         # Discover forums
         logger.info("Starting forum discovery...")
-        forums = discover_forums(session, html_parser, config.base_url, logger)
+        forums = discover_forums(session, html_parser, config.base_url, raw_dir, logger)
 
         # Save results
         forum_data = {
@@ -155,8 +173,8 @@ def main():
             "forums": [f.to_dict() for f in forums],
             "total_forums": sum(1 for _ in _count_forums(forums)),
         }
-        save_json(forum_data, args.output)
-        logger.info(f"Saved {forum_data['total_forums']} forums to {args.output}")
+        save_json(forum_data, output_path)
+        logger.info(f"Saved {forum_data['total_forums']} forums to {output_path}")
 
         # Print summary
         logger.info("\n=== Forum Structure ===")

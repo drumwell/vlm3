@@ -64,8 +64,8 @@ def sync_to_s3(dry_run: bool = False, stage: str = "") -> int:
         print("[S3 Sync] Skipped: S3_BUCKET environment variable not set")
         return 0
 
-    source = "data_src/forum"
-    dest = f"s3://{S3_BUCKET}/data_src/forum"
+    source = "data/src/forum"
+    dest = f"s3://{S3_BUCKET}/data/src/forum"
 
     cmd = [
         "aws", "s3", "sync",
@@ -205,7 +205,7 @@ Running '--stage all' without --forum-id will scrape ALL discovered forums.
             if not args.dry_run:
                 print("\n" + "=" * 60)
                 print("Forum discovery complete!")
-                print("Check data_src/forum/data/forums.json for forum IDs")
+                print("Check data/src/forum/data/forums.json for forum IDs")
                 print("Then set --forum-id and run threads stage")
                 print("=" * 60)
 
@@ -321,13 +321,13 @@ Running '--stage all' without --forum-id will scrape ALL discovered forums.
     print("Scraping complete!")
     print("=" * 60)
     print("\nOutput locations:")
-    print("  Raw HTML:   data_src/forum/raw/")
-    print("  Data:       data_src/forum/data/")
-    print("  Images:     data_src/forum/raw/images/")
-    print("  Logs:       data_src/forum/logs/")
-    print("  Checkpoints: data_src/forum/checkpoints/")
+    print("  Raw HTML:   data/src/forum/raw/")
+    print("  Data:       data/src/forum/data/")
+    print("  Images:     data/src/forum/raw/images/")
+    print("  Logs:       data/src/forum/logs/")
+    print("  Checkpoints: data/src/forum/checkpoints/")
     if S3_BUCKET and not args.no_sync:
-        print(f"  S3 Bucket:  s3://{S3_BUCKET}/data_src/forum/")
+        print(f"  S3 Bucket:  s3://{S3_BUCKET}/data/src/forum/")
 
     return 0
 

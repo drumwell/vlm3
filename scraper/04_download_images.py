@@ -6,13 +6,13 @@ Downloads images referenced in posts and updates post records with local paths.
 
 Usage:
     # Download images from posts in a specific forum
-    python scraper/13_download_images.py --forum-id 42
+    python scraper/04_download_images.py --forum-id 42
 
     # Download all images
-    python scraper/13_download_images.py --all
+    python scraper/04_download_images.py --all
 
     # Dry run (list images without downloading)
-    python scraper/13_download_images.py --all --dry-run
+    python scraper/04_download_images.py --all --dry-run
 """
 
 import argparse
@@ -111,6 +111,7 @@ def download_images(
     images: List[Dict],
     output_dir: Path,
     checkpoint: Checkpoint,
+    checkpoint_path: Path,
     logger,
     dry_run: bool = False,
 ) -> Tuple[int, int]:
@@ -162,7 +163,7 @@ def download_images(
 
         # Save checkpoint periodically
         if (i + 1) % 50 == 0:
-            checkpoint.save(Path("data_src/forum/checkpoints/images.json"))
+            checkpoint.save(checkpoint_path)
 
     return success, failed
 
@@ -224,17 +225,24 @@ def main():
     )
 
     arg_parser.add_argument(
+        "--base-dir",
+        type=Path,
+        default=None,
+        help="Base storage directory (default: from config storage.base_dir)",
+    )
+
+    arg_parser.add_argument(
         "--data-dir",
         type=Path,
-        default=Path("data_src/forum/data"),
-        help="Data directory with post JSONL files",
+        default=None,
+        help="Data directory with post JSONL files (default: <base-dir>/data)",
     )
 
     arg_parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("data_src/forum/raw/images"),
-        help="Output directory for downloaded images",
+        default=None,
+        help="Output directory for downloaded images (default: <base-dir>/raw/images)",
     )
 
     arg_parser.add_argument(
@@ -258,23 +266,32 @@ def main():
 
     args = arg_parser.parse_args()
 
+    # Load config
+    config = load_forum_config(args.config)
+
+    # Derive all paths from base_dir
+    base_dir = args.base_dir or config.storage_base_dir
+    data_dir = args.data_dir or base_dir / "data"
+    output_dir = args.output_dir or base_dir / "raw" / "images"
+    checkpoint_dir = base_dir / "checkpoints"
+    log_dir = base_dir / "logs"
+
     # Setup
     import logging
     log_level = logging.DEBUG if args.verbose else logging.INFO
     logger = setup_logging(
         "download_images",
-        log_dir=Path("data_src/forum/logs"),
+        log_dir=log_dir,
         level=log_level,
     )
 
-    config = load_forum_config(args.config)
     session = ScraperSession(config, logger)
 
     try:
         # Collect images
         logger.info("Collecting image URLs from posts...")
         forum_id = args.forum_id if args.forum_id else None
-        images = collect_images_from_posts(args.data_dir, forum_id)
+        images = collect_images_from_posts(data_dir, forum_id)
         logger.info(f"Found {len(images)} unique images")
 
         if not images:
@@ -282,16 +299,16 @@ def main():
             return 0
 
         # Load checkpoint
-        checkpoint_path = Path("data_src/forum/checkpoints/images.json")
+        checkpoint_path = checkpoint_dir / "images.json"
         if args.resume:
             checkpoint = Checkpoint.load_or_create(checkpoint_path, "images")
         else:
             checkpoint = Checkpoint(stage="images")
 
         # Download
-        logger.info(f"Downloading images to {args.output_dir}...")
+        logger.info(f"Downloading images to {output_dir}...")
         success, failed = download_images(
-            session, images, args.output_dir, checkpoint, logger,
+            session, images, output_dir, checkpoint, checkpoint_path, logger,
             dry_run=args.dry_run,
         )
 
@@ -299,7 +316,7 @@ def main():
         checkpoint.save(checkpoint_path)
 
         # Create manifest
-        manifest_path = args.data_dir / "image_manifest.json"
+        manifest_path = data_dir / "image_manifest.json"
         create_image_manifest(images, checkpoint, manifest_path)
         logger.info(f"Created manifest: {manifest_path}")
 

@@ -7,16 +7,16 @@ Stores both raw HTML and parsed structured data.
 
 Usage:
     # Scrape posts from threads in a specific forum
-    python scraper/12_scrape_posts.py --forum-id 42
+    python scraper/03_scrape_posts.py --forum-id 42
 
     # Scrape a specific thread
-    python scraper/12_scrape_posts.py --thread-id 12345
+    python scraper/03_scrape_posts.py --thread-id 12345
 
     # Scrape all threads from all forums
-    python scraper/12_scrape_posts.py --all
+    python scraper/03_scrape_posts.py --all
 
     # Limit for testing
-    python scraper/12_scrape_posts.py --forum-id 42 --max-threads 5
+    python scraper/03_scrape_posts.py --forum-id 42 --max-threads 5
 """
 
 import argparse
@@ -57,6 +57,7 @@ def scrape_thread_posts(
     parser: VBulletinParser,
     thread: dict,
     checkpoint: Checkpoint,
+    raw_dir: Path,
     logger,
     max_pages: Optional[int] = None,
 ) -> List[Post]:
@@ -68,6 +69,7 @@ def scrape_thread_posts(
         parser: HTML parser
         thread: Thread dict with thread_id and url
         checkpoint: Checkpoint for resume
+        raw_dir: Directory for saving raw HTML
         logger: Logger instance
         max_pages: Optional page limit
 
@@ -92,7 +94,7 @@ def scrape_thread_posts(
             break
 
         # Save raw HTML
-        html_path = Path(f"data_src/forum/raw/threads/{thread_id}_page{page}.html")
+        html_path = raw_dir / "threads" / f"{thread_id}_page{page}.html"
         save_html(html, html_path)
 
         # Parse posts
@@ -149,10 +151,17 @@ def main():
     )
 
     arg_parser.add_argument(
+        "--base-dir",
+        type=Path,
+        default=None,
+        help="Base storage directory (default: from config storage.base_dir)",
+    )
+
+    arg_parser.add_argument(
         "--data-dir",
         type=Path,
-        default=Path("data_src/forum/data"),
-        help="Data directory with thread JSONL files",
+        default=None,
+        help="Data directory with thread JSONL files (default: <base-dir>/data)",
     )
 
     arg_parser.add_argument(
@@ -184,16 +193,25 @@ def main():
 
     args = arg_parser.parse_args()
 
+    # Load config
+    config = load_forum_config(args.config)
+
+    # Derive all paths from base_dir
+    base_dir = args.base_dir or config.storage_base_dir
+    raw_dir = base_dir / "raw"
+    data_dir = args.data_dir or base_dir / "data"
+    checkpoint_dir = base_dir / "checkpoints"
+    log_dir = base_dir / "logs"
+
     # Setup
     import logging
     log_level = logging.DEBUG if args.verbose else logging.INFO
     logger = setup_logging(
         "scrape_posts",
-        log_dir=Path("data_src/forum/logs"),
+        log_dir=log_dir,
         level=log_level,
     )
 
-    config = load_forum_config(args.config)
     session = ScraperSession(config, logger)
     parser = VBulletinParser(config.base_url)
 
@@ -219,16 +237,16 @@ def main():
 
         elif args.forum_id:
             # Load threads from JSONL
-            for thread in load_threads_for_forum(args.forum_id, args.data_dir):
+            for thread in load_threads_for_forum(args.forum_id, data_dir):
                 threads_to_scrape.append(thread)
                 if args.max_threads and len(threads_to_scrape) >= args.max_threads:
                     break
 
         elif args.all:
             # Find all thread JSONL files
-            for threads_file in args.data_dir.glob("threads_*.jsonl"):
+            for threads_file in data_dir.glob("threads_*.jsonl"):
                 forum_id = threads_file.stem.replace("threads_", "")
-                for thread in load_threads_for_forum(forum_id, args.data_dir):
+                for thread in load_threads_for_forum(forum_id, data_dir):
                     threads_to_scrape.append(thread)
                     if args.max_threads and len(threads_to_scrape) >= args.max_threads:
                         break
@@ -238,7 +256,7 @@ def main():
         logger.info(f"Will scrape {len(threads_to_scrape)} thread(s)")
 
         # Load checkpoint
-        checkpoint_path = Path("data_src/forum/checkpoints/posts.json")
+        checkpoint_path = checkpoint_dir / "posts.json"
         if args.resume:
             checkpoint = Checkpoint.load_or_create(checkpoint_path, "posts")
         else:
@@ -258,12 +276,12 @@ def main():
             logger.info(f"[{i+1}/{len(threads_to_scrape)}] Thread {thread_id}: {thread.get('title', 'Unknown')[:50]}")
 
             posts = scrape_thread_posts(
-                session, parser, thread, checkpoint, logger,
+                session, parser, thread, checkpoint, raw_dir, logger,
                 max_pages=args.max_pages,
             )
 
             # Save posts to JSONL
-            output_file = args.data_dir / f"posts_{forum_id}.jsonl"
+            output_file = data_dir / f"posts_{forum_id}.jsonl"
             for post in posts:
                 post_data = post.to_dict()
                 post_data["thread_title"] = thread.get("title", "")
