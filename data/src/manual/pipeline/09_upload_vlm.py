@@ -330,7 +330,8 @@ def upload_to_huggingface(
             repo_id=config.repo_id,
             repo_type="dataset",
             token=token,
-            commit_message=config.commit_message
+            commit_message=config.commit_message,
+            delete_patterns=["*"],
         )
 
     url = f"https://huggingface.co/datasets/{config.repo_id}"
