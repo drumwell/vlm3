@@ -85,6 +85,7 @@ class TestFullPipelineIntegration:
             timeout=30,
             user_agent="Mozilla/5.0",
             headers={},
+            storage_base_dir=Path("/tmp/test"),
             storage_base=Path("/tmp/test"),
             checkpoint_interval=10,
         )
@@ -418,6 +419,7 @@ class TestPipelineResilience:
             timeout=30,
             user_agent="Mozilla/5.0",
             headers={},
+            storage_base_dir=Path("/tmp/test"),
             storage_base=Path("/tmp/test"),
             checkpoint_interval=10,
         )

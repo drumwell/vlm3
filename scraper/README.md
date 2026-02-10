@@ -101,10 +101,10 @@ python scraper/run_test_scrape.py --stage images --forum-id 42
 
 ## Directory Structure
 
-Output goes to `data_src/forum/` (consistent with other source data):
+Output goes to `data/src/forum/` (consistent with other source data):
 
 ```
-data_src/forum/
+data/src/forum/
 ├── raw/
 │   ├── forums/          # Raw HTML of forum pages
 │   ├── threads/         # Raw HTML of thread pages

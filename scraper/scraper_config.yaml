@@ -158,7 +158,7 @@ forums:
 
     # Storage (relative to project root)
     storage:
-      base_dir: "data_src/forum"  # Consistent with other source data
+      base_dir: "data/src/forum"  # Consistent with other source data
 
     # Override default rate limiting if needed
     # rate_limiting:

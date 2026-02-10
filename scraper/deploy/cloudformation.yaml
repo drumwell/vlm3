@@ -188,7 +188,7 @@ Resources:
             # Create sync script
             cat > /home/ec2-user/sync_to_s3.sh << 'SYNCEOF'
             #!/bin/bash
-            aws s3 sync /home/ec2-user/scraper/data_src/forum s3://${S3Bucket}/data_src/forum --exclude "*.log"
+            aws s3 sync /home/ec2-user/scraper/data/src/forum s3://${S3Bucket}/data/src/forum --exclude "*.log"
             SYNCEOF
             chmod +x /home/ec2-user/sync_to_s3.sh
 
