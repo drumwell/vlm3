@@ -1,6 +1,6 @@
-# VLM Fine-tuning & Evaluation Plan
+# Training & Evaluation Reference
 
-> Implementation plan for training and evaluation infrastructure.
+> Reference for training infrastructure, evaluation pipeline, and results.
 
 ## Overview
 
@@ -13,57 +13,27 @@
 
 **Current state:**
 - Dataset: 11,154 train / 1,256 val examples, 1,408 images (HuggingFace: `drumwell/vlm3`)
-- HuggingFace: Personal account
-- Training: Implemented (`training/modal_train.py`), has been run on Modal A100-80GB
-- Evaluation: Framework implemented, not yet run against a fine-tuned model
+- Adapter: `drumwell/vlm3-lora` (on HuggingFace)
+- Training: Complete (LoRA on A100-80GB, 3 epochs)
+- Eval: Baseline + fine-tuned complete (334 samples) — ROUGE-L 0.507 → 0.759 (+49.5%)
+- Manual probes: 22.5% pass rate (target 85%) — probes need regeneration (see `specs/manual_probes_fix_spec.md`)
+
+**Infrastructure status:**
+- [x] Data pipeline (Stages 01-09), dataset on HuggingFace
+- [x] Training script (`training/modal_train.py`), config, Modal secrets
+- [x] Full training run, adapter pushed to HuggingFace
+- [x] Eval framework (`eval/metrics.py`, `eval/modal_eval.py`, `eval/compare_results.py`)
+- [x] Baseline eval, fine-tuned eval, comparison report
+- [x] Manual probes (`eval/benchmarks/manual_probes.json`) — 40 probes, but need regeneration
+- [ ] Probe regeneration (image paths incorrect, questions not grounded in actual images)
+- [ ] Serving endpoint (`modal_serve.py` not yet built)
+- [ ] Forum data source (planned, `data/src/forum/` stub only)
 
 ---
 
-## Directory Structure
+## Training
 
-```
-vlm3-training/
-├── data/
-│   ├── src/
-│   │   ├── manual/                 # Service manual data source (complete)
-│   │   │   ├── Makefile
-│   │   │   ├── config.yaml         # Pipeline config (API model, rate limits, filters, split)
-│   │   │   ├── raw/                # ~45 section folders of scanned pages
-│   │   │   ├── pipeline/           # Scripts 01-09
-│   │   │   ├── work/               # Intermediate artifacts (not committed)
-│   │   │   ├── prepared/           # 11,154 train + 1,256 val examples + 1,408 images
-│   │   │   │   ├── manual_train.jsonl
-│   │   │   │   ├── manual_val.jsonl
-│   │   │   │   └── images/
-│   │   │   └── tests/              # 11 test files + fixtures
-│   │   └── forum/                  # Forum data source (planned, raw/ stub only)
-│   ├── training/                   # Merge layer (placeholder merge.py + config)
-│   └── Makefile                    # Data orchestrator
-├── training/                       # Modal training infrastructure
-│   ├── modal_train.py              # LoRA fine-tuning on A100-80GB
-│   └── configs/lora_qwen2vl.yaml   # LoRA training config
-├── eval/                           # Evaluation framework
-│   ├── run_eval.py                 # Local GPU evaluation runner
-│   ├── modal_eval.py               # Modal cloud GPU evaluation
-│   ├── sample_eval_set.py          # Stratified sampling from val set
-│   ├── compare_results.py          # Generate comparison reports
-│   ├── metrics.py                  # VLMEvaluator + custom metrics
-│   ├── model_wrapper.py            # Model loading/inference abstraction
-│   ├── test_vlm.py                 # Evaluation tests
-│   ├── benchmarks/
-│   │   └── manual_probes.json      # Hand-crafted critical questions
-│   └── reports/                    # Evaluation output (not committed)
-├── scraper/                        # Forum scraper (01-04 scripts)
-├── specs/                          # Architecture specs
-│   └── training_eval_plan.md       # This file
-└── Makefile                        # Root: delegates to data/, training/, eval/
-```
-
----
-
-## Phase 2: Training Infrastructure
-
-### 2.1 Dataset
+### Dataset
 
 The manual pipeline outputs `data/src/manual/prepared/manual_train.jsonl` in this format:
 ```json
@@ -79,7 +49,7 @@ The manual pipeline outputs `data/src/manual/prepared/manual_train.jsonl` in thi
 
 Dataset is uploaded to HuggingFace (`drumwell/vlm3`) via `data/src/manual/pipeline/09_upload_vlm.py`. Training loads from HuggingFace, not local files.
 
-### 2.2 Modal Training App
+### Modal Training App
 
 `training/modal_train.py` implements LoRA fine-tuning on Modal:
 
@@ -89,7 +59,7 @@ Dataset is uploaded to HuggingFace (`drumwell/vlm3`) via `data/src/manual/pipeli
 - Trains with HF Trainer
 - Saves adapter weights to Modal volume + optionally pushes to HuggingFace Hub
 
-### 2.3 Training Configuration
+### Training Configuration
 
 **LoRA Config:** `training/configs/lora_qwen2vl.yaml`
 ```yaml
@@ -129,7 +99,7 @@ eval:
   logging_steps: 10
 ```
 
-### 2.4 Estimated Training Costs
+### Estimated Training Costs
 
 | Config | GPU | Time (est.) | Cost (Modal) |
 |--------|-----|-------------|--------------|
@@ -141,26 +111,9 @@ eval:
 
 ---
 
-## Phase 3: Evaluation Framework
+## Evaluation
 
-### 3.0 Baseline Eval (Run First!)
-
-**Before fine-tuning**, establish baseline performance on Qwen2-VL-7B-Instruct:
-
-```bash
-# Create stratified eval sample from validation set
-make eval-sample
-
-# Run baseline eval on Modal (no local GPU needed)
-make eval-modal-baseline
-
-# Or run locally if you have a GPU
-make eval-baseline
-```
-
-This provides a reference point to measure fine-tuning improvement.
-
-### 3.1 Metrics Framework
+### Metrics Framework
 
 The evaluation uses custom metrics implemented in `eval/metrics.py`. No external eval framework is required for the core automated metrics.
 
@@ -181,39 +134,13 @@ The evaluation uses custom metrics implemented in `eval/metrics.py`. No external
 | `VisualGrounding` | Answer uses image-specific details | > 0.3 | `VisualGrounding` |
 | `ProcedureStepOrdering` | Procedural steps are numbered and sequential | > 0.7 | `ProcedureStepOrdering` |
 
+`NumericExactMatch` extracts numbers with units and compares within tolerance (e.g., ±1 Nm for torque, ±0.05 mm for clearances). `UnitConsistency` flags non-canonical units (ft-lbs, psi, inches, gallons, Fahrenheit).
+
 **Optional LLM-as-judge metrics (via DeepEval):**
 
 The `VLMEvaluator` class can optionally load DeepEval metrics (AnswerRelevancy, Faithfulness, GEval) using Claude as the judge model. These require `pip install deepeval` and are not used by the Modal eval pipeline.
 
-### 3.2 Metric Implementation
-
-```python
-# eval/metrics.py — key classes
-
-class VLMEvaluator:
-    """Aggregated evaluator combining all metrics."""
-
-    def __init__(self, use_llm_judge: bool = True):
-        self.rouge_l = RougeL()
-        self.numeric_match = NumericExactMatch()
-        self.unit_consistency = UnitConsistency()
-        self.keyword_presence = KeywordPresence()
-        self.safety_accuracy = SafetyCriticalAccuracy()
-        self.visual_grounding = VisualGrounding()
-        self.procedure_ordering = ProcedureStepOrdering()
-
-    def evaluate(self, prediction, reference, question, ...) -> dict[str, MetricResult]:
-        """Run all applicable metrics on a single example."""
-        ...
-
-    def compute_aggregate_scores(self, results) -> dict:
-        """Compute mean scores and pass rates across examples."""
-        ...
-```
-
-`NumericExactMatch` extracts numbers with units and compares within tolerance (e.g., ±1 Nm for torque, ±0.05 mm for clearances). `UnitConsistency` flags non-canonical units (ft-lbs, psi, inches, gallons, Fahrenheit).
-
-### 3.3 Eval Pipeline Flow
+### Eval Pipeline Flow
 
 ```
 data/src/manual/prepared/manual_val.jsonl
@@ -255,7 +182,7 @@ data/src/manual/prepared/manual_val.jsonl
   eval/reports/comparison.md
 ```
 
-### 3.4 Running Evals
+### Running Evals
 
 ```bash
 # Create eval sample (stratified from val set)
@@ -281,33 +208,31 @@ make eval-modal-probes
 make eval-mock
 ```
 
-### 3.5 Manual Benchmark Probes
+### Manual Benchmark Probes
 
-Hand-crafted critical test cases in `eval/benchmarks/manual_probes.json`:
+Hand-crafted critical test cases in `eval/benchmarks/manual_probes.json` (40 probes):
 
 ```json
 [
     {
         "id": "torque_001",
-        "category": "specifications",
-        "image": "images/27-05.jpg",
-        "question": "What is the torque specification for the cylinder head bolts?",
-        "expected": "Stage 1: 40 Nm, Stage 2: 90 degrees, Stage 3: 90 degrees",
-        "is_critical": true
-    },
-    {
-        "id": "procedure_001",
-        "category": "procedures",
-        "image": "images/21-12.jpg",
-        "question": "What are the steps to remove the clutch assembly?",
-        "expected_keywords": ["transmission", "pressure plate", "alignment tool"]
+        "category": "specification",
+        "question_type": "factual",
+        "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_046.jpg",
+        "question": "What is the torque specification for the control pipe to bypass valve/turbocharger?",
+        "expected": "30 Nm",
+        "keywords": ["30", "Nm"],
+        "is_critical": false,
+        "notes": "Basic torque spec extraction from table"
     }
 ]
 ```
 
 Probes include hallucination/out-of-distribution checks where the expected behavior is for the model to decline answering questions not shown in the image.
 
-### 3.6 Success Criteria
+**Known issue:** Current probes were written without viewing actual images, resulting in mismatched questions and low pass rates. See `specs/manual_probes_fix_spec.md` for the regeneration plan using Claude API to view actual images and produce grounded probes.
+
+### Success Criteria
 
 | Metric | Threshold | Notes |
 |--------|-----------|-------|
@@ -318,187 +243,101 @@ Probes include hallucination/out-of-distribution checks where the expected behav
 | Manual probe pass rate | > 85% | Hand-crafted critical questions |
 | Critical probe pass rate | > 90% | Safety-critical subset |
 
-### 3.7 Iteration Based on Results
+---
 
-**If thresholds not met:**
-1. Check aggregate metric breakdown — which metric fails most?
-2. Check `by_question_type` breakdown — which question types underperform?
-3. Review training data for failing categories
-4. Regenerate QA for weak sections → retrain → re-eval
+## Results
 
-**Adding complexity later:**
-- Enable LLM-as-judge metrics via DeepEval for richer evaluation
-- Hallucination detection for safety-critical info
-- A/B comparison between model versions (supported by `compare_results.py`)
+Evaluation run on 334 stratified samples from the validation set. Adapter: `drumwell/vlm3-lora`.
+
+### Overall Scores
+
+| Metric | Baseline | Fine-tuned | Delta | Change |
+|--------|----------|------------|-------|--------|
+| rouge_l | 0.507 | 0.759 | +0.251 | **+49.5%** |
+| numeric | 0.832 | 0.904 | +0.072 | +8.6% |
+| unit | 0.995 | 0.997 | +0.002 | +0.2% |
+| keyword | 1.000 | 1.000 | +0.000 | +0.0% |
+
+All core thresholds met: ROUGE-L 0.759 > 0.3, NumericExactMatch 0.904 > 0.9, UnitConsistency 0.997 ≈ 1.0, KeywordPresence 1.0 > 0.7.
+
+### By Question Type (ROUGE-L)
+
+Sorted by improvement delta:
+
+| Type | Baseline | Fine-tuned | Delta | n |
+|------|----------|------------|-------|---|
+| parameter | 0.365 | 0.792 | +0.427 | 4 |
+| diagnostic | 0.346 | 0.678 | +0.332 | 16 |
+| troubleshooting | 0.468 | 0.774 | +0.306 | 10 |
+| procedural | 0.531 | 0.828 | +0.297 | 87 |
+| factual | 0.480 | 0.738 | +0.258 | 75 |
+| component | 0.539 | 0.779 | +0.241 | 21 |
+| inspection | 0.496 | 0.737 | +0.241 | 10 |
+| navigation | 0.535 | 0.768 | +0.233 | 21 |
+| safety | 0.613 | 0.831 | +0.218 | 16 |
+| tool | 0.596 | 0.809 | +0.213 | 10 |
+| visual | 0.482 | 0.694 | +0.212 | 27 |
+| wiring | 0.486 | 0.673 | +0.187 | 16 |
+| connector | 0.489 | 0.593 | +0.104 | 11 |
+| operation | 0.605 | 0.692 | +0.087 | 10 |
+
+### Safety-Critical Analysis
+
+| Metric | Baseline | Fine-tuned | Delta |
+|--------|----------|------------|-------|
+| rouge_l | 0.613 | 0.831 | +0.218 |
+| numeric_match | 0.000 | 0.000 | +0.000 |
+| safety_accuracy | 0.000 | 0.000 | +0.000 |
+
+Safety samples: 16. ROUGE-L improved substantially, but `safety_accuracy` and `numeric_match` score 0.000 for both models — likely a metric implementation issue (safety questions may not contain extractable numeric values for `NumericExactMatch`, and `SafetyCriticalAccuracy` scoring may need review).
+
+### Manual Probes
+
+| Metric | Baseline | Fine-tuned | Change |
+|--------|----------|------------|--------|
+| Pass Rate | 15.0% | 22.5% | +7.5% |
+| Critical Pass Rate | 40.0% | 40.0% | +0.0% |
+
+Total probes: 40 | Passed: 6 (baseline) → 9 (fine-tuned)
+
+Probe pass rate is well below the 85% target. This is primarily due to probes being written without viewing actual images (mismatched questions, incorrect image paths). Critical pass rate did not improve. See `specs/manual_probes_fix_spec.md` for the fix plan.
+
+### Known Issues
+
+1. **Manual probe pass rate 22.5% vs 85% target** — Probes need regeneration with actual image viewing
+2. **safety_accuracy 0.000 for both models** — Metric may not be triggering correctly on safety-typed questions; needs investigation
+3. **connector (0.593) and operation (0.692)** — Weakest post-fine-tuning categories; may need more training examples in these areas
+4. **Critical probe rate flat at 40%** — No improvement on safety-critical probes; blocked by probe quality issue
 
 ---
 
-## Phase 4: Inference & Deployment
+## Next Steps
 
-### 4.1 Modal Serving
+### High Priority
 
-```python
-# training/modal_serve.py (pseudocode)
+1. **Regenerate manual probes** — Use Claude API to view actual images and produce grounded probes with correct image paths. Script and image list spec'd in `specs/manual_probes_fix_spec.md`.
+2. **Investigate safety_accuracy metric** — Determine why it scores 0.000 for both models. Check whether safety-typed questions are being routed to the metric correctly and whether the scoring logic is appropriate.
+3. **Improve weak categories** — connector (+0.104) and operation (+0.087) showed the smallest gains. Review training data for these question types and consider adding more examples.
 
-@app.cls(
-    image=inference_image,
-    gpu="A10G",  # Cheaper GPU for inference
-    container_idle_timeout=300,
-)
-class VLM3Model:
-    @modal.enter()
-    def load_model(self):
-        # Load base model + LoRA adapter
-        pass
+### Medium Priority
 
-    @modal.method()
-    def predict(self, image_path: str, question: str) -> str:
-        # Run inference
-        pass
+4. **Re-evaluate after probe fix** — Once probes are regenerated, rerun `make eval-modal-finetuned ADAPTER_REPO=drumwell/vlm3-lora` and `make eval-compare` to get accurate probe pass rates.
+5. **Add ETM training examples** — Wiring questions (+0.187) could benefit from more electrical manual content in the training set.
+6. **Try DeepEval LLM-as-judge** — Enable the optional DeepEval metrics (AnswerRelevancy, Faithfulness) for richer evaluation on a subset.
 
-    @modal.web_endpoint(method="POST")
-    def api(self, request):
-        # HTTP endpoint for external access
-        pass
-```
+### Lower Priority
 
-### 4.2 Local Testing
+7. **Forum data pipeline** — Build `data/src/forum/` pipeline to add community knowledge to the training set.
+8. **Hyperparameter experiments** — Try different LoRA rank, learning rate, or epoch count if weak categories don't improve with data changes.
+9. **Serving endpoint** — Build `training/modal_serve.py` for inference API when model quality is sufficient.
 
-```python
-# Simple local test script
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
-from peft import PeftModel
+### Iteration Process
 
-base_model = Qwen2VLForConditionalGeneration.from_pretrained(...)
-model = PeftModel.from_pretrained(base_model, "path/to/adapter")
-
-# Test inference
-```
-
----
-
-## Phase 5: Iteration Loop
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│   Pipeline Output ──► Train ──► Eval ──► Analyze        │
-│        ▲                                    │           │
-│        │                                    │           │
-│        └────── Regenerate weak sections ◄───┘           │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
-
-**Iteration triggers:**
-- Eval scores below threshold
-- Specific content types underperforming
-- New source materials added to `data/src/`
-
----
-
-## Implementation Checklist
-
-### Data Pipeline ✅ COMPLETE
-- [x] Service manual pipeline (Stages 01-09)
-- [x] 11,154 train + 1,256 val examples + 1,408 images
-- [x] Dataset uploaded to HuggingFace (`drumwell/vlm3`)
-- [x] Pipeline tests (`data/src/manual/tests/`)
-- [x] Config: `data/src/manual/config.yaml`
-
-### Training ✅ INFRASTRUCTURE COMPLETE
-- [x] Write `training/modal_train.py`
-- [x] Training config: `training/configs/lora_qwen2vl.yaml`
-- [x] Set up Modal secrets (HF token)
-- [x] Test training on small subset (~100 examples)
-- [x] Run full training
-- [ ] Push final adapter to HuggingFace
-- [ ] Verify adapter quality with eval
-
-### Evaluation ✅ FRAMEWORK COMPLETE
-- [x] Write `eval/metrics.py` (RougeL, NumericExactMatch, UnitConsistency, KeywordPresence, SafetyCriticalAccuracy, VisualGrounding, ProcedureStepOrdering)
-- [x] Write `eval/run_eval.py` (local GPU evaluation runner)
-- [x] Write `eval/modal_eval.py` (Modal cloud evaluation)
-- [x] Write `eval/sample_eval_set.py` (stratified sampling)
-- [x] Write `eval/compare_results.py` (comparison reports)
-- [x] Write `eval/model_wrapper.py` (model loading abstraction)
-- [x] Create `eval/benchmarks/manual_probes.json` (hand-crafted probes)
-- [x] Write `eval/test_vlm.py` (evaluation tests)
-- [ ] Run baseline eval: `make eval-modal-baseline`
-- [ ] Run fine-tuned eval: `make eval-modal-finetuned ADAPTER_REPO=...`
-- [ ] Compare baseline vs fine-tuned: `make eval-compare`
-- [ ] Analyze failures by content type
-
-### Deployment
-- [ ] Write `training/modal_serve.py`
-- [ ] Test inference endpoint
-- [ ] Document API usage
-
-### Iteration
-- [ ] Review eval failures
-- [ ] Identify weak areas
-- [ ] Regenerate/improve data
-- [ ] Retrain and re-eval
-
----
-
-## Makefile Targets
-
-From the root `Makefile`:
-
-```makefile
-# Training
-make train                  # Full training on Modal (A100-80GB)
-make train-dev              # Dev run (100 samples)
-make train-resume           # Resume from checkpoint (detached)
-make train-logs             # Check training logs from Modal volume
-
-# Evaluation — create sample first
-make eval-sample            # Stratified sample from val set (300 samples default)
-
-# Evaluation — local GPU
-make eval-baseline          # Base model
-make eval-finetuned ADAPTER_PATH=/path  # Fine-tuned model
-make eval-probes            # Manual probes
-make eval-mock              # Test infra (no GPU)
-make eval-test              # Pytest evaluation tests
-
-# Evaluation — Modal cloud GPU (recommended)
-make eval-modal-baseline    # Base model on Modal
-make eval-modal-finetuned ADAPTER_REPO=user/repo  # Fine-tuned on Modal
-make eval-modal-checkpoint  # Fine-tuned from Modal volume checkpoint
-make eval-modal-quick       # Quick test (10 samples)
-make eval-modal-probes      # Manual probes on Modal
-make eval-modal-all         # Full pipeline: sample → baseline → train → eval → compare
-
-# Comparison
-make eval-compare           # Generate comparison report (baseline vs finetuned)
-make eval-all               # Full local pipeline: sample → baseline → finetuned → compare → probes
-
-# Cleanup
-make clean-eval             # Remove eval artifacts
-```
-
----
-
-## Open Questions (Resolved)
-
-| Question | Resolution |
-|----------|------------|
-| Dataset size | 11,154 train / 1,256 val (from `data/src/manual/prepared/`) |
-| Validation split | 90/10 (configured in `data/src/manual/config.yaml`) |
-| HuggingFace org | Personal account (`drumwell/vlm3`) |
-| Experiment tracking | Skip W&B for simplicity (can add later) |
-| Multi-image support | No — each QA pair references single image |
-| Eval framework | Custom `VLMEvaluator` in `eval/metrics.py` (optional DeepEval LLM-as-judge) |
-
----
-
-## Notes
-
-- Training infrastructure is implemented and has been run on Modal
-- Evaluation framework is implemented but not yet run against a fine-tuned model
-- Modal account required (free tier has GPU credits)
-- HuggingFace account required for dataset/model hosting
-- **Baseline eval on Qwen2-VL-7B-Instruct should run BEFORE fine-tuning**
-- Optional: `pip install deepeval` for LLM-as-judge metrics using Claude as evaluator
+When improving a weak question type:
+1. Check `by_question_type` breakdown to identify the weakest category
+2. Review training data for that category (`grep` for `question_type` in `manual_train.jsonl`)
+3. Identify whether the issue is data volume, data quality, or question difficulty
+4. Regenerate or add Q&A pairs for weak sections → re-upload to HuggingFace
+5. Retrain: `make train`
+6. Re-eval: `make eval-modal-finetuned ADAPTER_REPO=drumwell/vlm3-lora && make eval-compare`
+7. Compare `by_question_type` deltas to confirm improvement
