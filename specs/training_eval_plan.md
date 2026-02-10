@@ -1,7 +1,6 @@
 # VLM Fine-tuning & Evaluation Plan
 
-> Implementation plan for Phase 2: Training and evaluation infrastructure.
-> **Phase 1 (reorganization) is complete.** The project has been restructured as documented below.
+> Implementation plan for training and evaluation infrastructure.
 
 ## Overview
 
@@ -10,61 +9,63 @@
 **Stack:**
 - Model: Qwen2-VL-7B-Instruct
 - Training: Modal (GPU cloud) + HuggingFace Transformers + LoRA
-- Eval: DeepEval framework + Claude-as-judge
+- Eval: Custom `VLMEvaluator` (ROUGE-L, NumericExactMatch, UnitConsistency, KeywordPresence) + optional DeepEval LLM-as-judge
 
-**Resolved Configuration:**
-- Dataset: 12,410 Q&A pairs (90/10 train/val split)
-- HuggingFace: Personal account (user's choice)
-- Model: Qwen2-VL-7B-Instruct
-- DeepEval: Free tier (Confident AI dashboard optional)
+**Current state:**
+- Dataset: 11,154 train / 1,256 val examples, 1,408 images (HuggingFace: `drumwell/vlm3`)
+- HuggingFace: Personal account
+- Training: Implemented (`training/modal_train.py`), has been run on Modal A100-80GB
+- Evaluation: Framework implemented, not yet run against a fine-tuned model
 
 ---
 
-## Phase 1: Project Reorganization ✅ COMPLETE
-
-### Current Directory Structure
+## Directory Structure
 
 ```
-vlm3/
-├── pipeline/                    # Data pipeline
-│   ├── scripts/                 # 01-09 scripts
-│   ├── tests/                   # Pipeline tests
-│   └── config.yaml              # Pipeline config
-│
-├── training/                    # Fine-tuning infrastructure
-│   ├── configs/
-│   │   └── lora_qwen2vl.yaml    # LoRA training config
-│   └── README.md
-│
-├── eval/                        # Evaluation framework (DeepEval)
+vlm3-training/
+├── data/
+│   ├── src/
+│   │   ├── manual/                 # Service manual data source (complete)
+│   │   │   ├── Makefile
+│   │   │   ├── config.yaml         # Pipeline config (API model, rate limits, filters, split)
+│   │   │   ├── raw/                # ~45 section folders of scanned pages
+│   │   │   ├── pipeline/           # Scripts 01-09
+│   │   │   ├── work/               # Intermediate artifacts (not committed)
+│   │   │   ├── prepared/           # 11,154 train + 1,256 val examples + 1,408 images
+│   │   │   │   ├── manual_train.jsonl
+│   │   │   │   ├── manual_val.jsonl
+│   │   │   │   └── images/
+│   │   │   └── tests/              # 11 test files + fixtures
+│   │   └── forum/                  # Forum data source (planned, raw/ stub only)
+│   ├── training/                   # Merge layer (placeholder merge.py + config)
+│   └── Makefile                    # Data orchestrator
+├── training/                       # Modal training infrastructure
+│   ├── modal_train.py              # LoRA fine-tuning on A100-80GB
+│   └── configs/lora_qwen2vl.yaml   # LoRA training config
+├── eval/                           # Evaluation framework
+│   ├── run_eval.py                 # Local GPU evaluation runner
+│   ├── modal_eval.py               # Modal cloud GPU evaluation
+│   ├── sample_eval_set.py          # Stratified sampling from val set
+│   ├── compare_results.py          # Generate comparison reports
+│   ├── metrics.py                  # VLMEvaluator + custom metrics
+│   ├── model_wrapper.py            # Model loading/inference abstraction
+│   ├── test_vlm.py                 # Evaluation tests
 │   ├── benchmarks/
-│   │   └── manual_probes.json   # Hand-crafted critical questions
-│   └── README.md
-│
-├── scraping/                    # Data collection (placeholder)
-│   └── README.md
-│
-├── specs/                       # Project-wide specifications
-│   └── training_eval_plan.md    # This file
-│
-├── training_data/               # Pipeline outputs
-│   ├── vlm_train.jsonl          # ~11,169 examples
-│   ├── vlm_val.jsonl            # ~1,241 examples
-│   └── images/
-│
-├── data_src/                    # Source materials (unchanged)
-├── work/                        # Pipeline intermediates (unchanged)
-├── Makefile                     # Pipeline orchestration
-└── README.md                    # Project overview
+│   │   └── manual_probes.json      # Hand-crafted critical questions
+│   └── reports/                    # Evaluation output (not committed)
+├── scraper/                        # Forum scraper (01-04 scripts)
+├── specs/                          # Architecture specs
+│   └── training_eval_plan.md       # This file
+└── Makefile                        # Root: delegates to data/, training/, eval/
 ```
 
 ---
 
 ## Phase 2: Training Infrastructure
 
-### 2.1 Dataset Preparation
+### 2.1 Dataset
 
-The pipeline outputs `training_data/vlm_train.jsonl` in this format:
+The manual pipeline outputs `data/src/manual/prepared/manual_train.jsonl` in this format:
 ```json
 {
   "image": "images/21-03.jpg",
@@ -76,69 +77,22 @@ The pipeline outputs `training_data/vlm_train.jsonl` in this format:
 }
 ```
 
-Qwen2-VL expects a slightly different format. `prepare_dataset.py` will:
-1. Load the JSONL files
-2. Convert to HuggingFace Dataset
-3. Format conversations for Qwen2-VL chat template
-4. Push to HuggingFace Hub (private dataset)
+Dataset is uploaded to HuggingFace (`drumwell/vlm3`) via `data/src/manual/pipeline/09_upload_vlm.py`. Training loads from HuggingFace, not local files.
 
 ### 2.2 Modal Training App
 
-```python
-# training/modal_train.py (pseudocode structure)
+`training/modal_train.py` implements LoRA fine-tuning on Modal:
 
-import modal
-
-app = modal.App("vlm3-training")
-
-# Docker image with all dependencies
-training_image = (
-    modal.Image.debian_slim(python_version="3.11")
-    .pip_install([
-        "torch", "transformers", "accelerate", "peft",
-        "bitsandbytes", "datasets", "qwen-vl-utils"
-    ])
-)
-
-# Shared volume for checkpoints
-volume = modal.Volume.from_name("vlm3-checkpoints", create_if_missing=True)
-
-@app.function(
-    image=training_image,
-    gpu="A100-80GB",  # or H100 if available
-    timeout=3600 * 8,  # 8 hours max
-    volumes={"/checkpoints": volume},
-    secrets=[modal.Secret.from_name("huggingface")]
-)
-def train(
-    dataset_id: str,           # HuggingFace dataset ID
-    base_model: str = "Qwen/Qwen2-VL-7B-Instruct",
-    lora_r: int = 64,
-    lora_alpha: int = 128,
-    epochs: int = 3,
-    batch_size: int = 4,
-    learning_rate: float = 2e-4,
-    output_name: str = "vlm3-e30m3"
-):
-    """Fine-tune Qwen2-VL with LoRA on the E30 M3 dataset."""
-    # Load model with 4-bit quantization
-    # Configure LoRA adapters
-    # Load dataset from HuggingFace
-    # Train with HF Trainer
-    # Save adapter weights to volume
-    # Push to HuggingFace Hub
-    pass
-
-@app.local_entrypoint()
-def main(dataset_id: str, epochs: int = 3):
-    train.remote(dataset_id=dataset_id, epochs=epochs)
-```
+- Loads Qwen2-VL-7B-Instruct with 4-bit quantization
+- Applies LoRA adapters (rank 64, alpha 128)
+- Loads dataset from HuggingFace Hub
+- Trains with HF Trainer
+- Saves adapter weights to Modal volume + optionally pushes to HuggingFace Hub
 
 ### 2.3 Training Configuration
 
-**LoRA Config (recommended starting point):**
+**LoRA Config:** `training/configs/lora_qwen2vl.yaml`
 ```yaml
-# training/configs/lora_qwen2vl.yaml
 base_model: Qwen/Qwen2-VL-7B-Instruct
 method: lora
 
@@ -179,210 +133,203 @@ eval:
 
 | Config | GPU | Time (est.) | Cost (Modal) |
 |--------|-----|-------------|--------------|
-| LoRA 7B, 3 epochs, ~5k examples | A100-80GB | 2-4 hours | $8-16 |
-| LoRA 7B, 3 epochs, ~5k examples | H100 | 1-2 hours | $10-20 |
+| LoRA 7B, 3 epochs, ~11k examples | A100-80GB | 2-4 hours | $8-16 |
+| LoRA 7B, 3 epochs, ~11k examples | H100 | 1-2 hours | $10-20 |
 | Full fine-tune (not recommended) | 4xA100 | 8-12 hours | $100+ |
 
 **Recommendation:** Start with LoRA on A100-80GB. Only consider full fine-tune if LoRA results are insufficient.
 
 ---
 
-## Phase 3: Evaluation Framework (DeepEval)
+## Phase 3: Evaluation Framework
 
-### 3.0 Baseline Eval (IMPORTANT: Run First!)
+### 3.0 Baseline Eval (Run First!)
 
 **Before fine-tuning**, establish baseline performance on Qwen2-VL-7B-Instruct:
 
 ```bash
-# Run baseline eval on unmodified model
-deepeval test run eval/test_vlm.py --model Qwen/Qwen2-VL-7B-Instruct
+# Create stratified eval sample from validation set
+make eval-sample
 
-# Save baseline results
-deepeval test run eval/test_vlm.py \
-    --model Qwen/Qwen2-VL-7B-Instruct \
-    --output eval/reports/baseline_qwen2vl.json
+# Run baseline eval on Modal (no local GPU needed)
+make eval-modal-baseline
+
+# Or run locally if you have a GPU
+make eval-baseline
 ```
 
 This provides a reference point to measure fine-tuning improvement.
 
-### 3.1 Why DeepEval
+### 3.1 Metrics Framework
 
-- Built-in LLM-as-judge metrics (no custom prompt engineering)
-- Pytest integration — run evals like tests
-- Supports Claude as evaluator model
-- Dashboard for tracking runs over time (Confident AI - optional)
-- Simple to start, extensible when needed
+The evaluation uses custom metrics implemented in `eval/metrics.py`. No external eval framework is required for the core automated metrics.
 
-### 3.2 DeepEval Metrics We'll Use
+**Core automated metrics:**
 
-**Core metrics (implement immediately):**
+| Metric | What it measures | Threshold | Class |
+|--------|------------------|-----------|-------|
+| `ROUGE-L` | General text quality (F1) | > 0.3 | `RougeL` |
+| `NumericExactMatch` | Torque specs, measurements match within tolerance | > 0.9 | `NumericExactMatch` |
+| `UnitConsistency` | Uses canonical units (Nm, mm, bar, L, C) | = 1.0 | `UnitConsistency` |
+| `KeywordPresence` | Required technical terms present | > 0.7 | `KeywordPresence` |
 
-| Metric | What it measures | Threshold | Use case |
-|--------|------------------|-----------|----------|
-| `AnswerRelevancyMetric` | Does answer address the question? | > 0.7 | All QA pairs |
-| `FaithfulnessMetric` | Is answer grounded in context? | > 0.7 | Verify against ground truth |
-| `GEval` | Custom criteria via LLM | > 0.7 | Domain-specific quality |
-| `NumericExactMatch` | Torque specs, measurements match exactly | > 0.85 | Specifications |
-| `KeywordPresence` | Required technical terms present | > 0.80 | Procedures, components |
+**Domain-specific metrics:**
 
-**Custom metrics to implement:**
+| Metric | What it measures | Threshold | Class |
+|--------|------------------|-----------|-------|
+| `SafetyCriticalAccuracy` | Higher bar for safety-related answers | > 0.9 | `SafetyCriticalAccuracy` |
+| `VisualGrounding` | Answer uses image-specific details | > 0.3 | `VisualGrounding` |
+| `ProcedureStepOrdering` | Procedural steps are numbered and sequential | > 0.7 | `ProcedureStepOrdering` |
+
+**Optional LLM-as-judge metrics (via DeepEval):**
+
+The `VLMEvaluator` class can optionally load DeepEval metrics (AnswerRelevancy, Faithfulness, GEval) using Claude as the judge model. These require `pip install deepeval` and are not used by the Modal eval pipeline.
+
+### 3.2 Metric Implementation
 
 ```python
-# eval/metrics.py
-from deepeval.metrics import BaseMetric
+# eval/metrics.py — key classes
 
-class NumericExactMatch(BaseMetric):
-    """Check if numeric values (torque, pressure, etc.) match exactly."""
-    def measure(self, test_case):
-        # Extract numbers from expected and actual
-        # Compare with tolerance (e.g., ±1 Nm for torque)
-        pass
+class VLMEvaluator:
+    """Aggregated evaluator combining all metrics."""
 
-class KeywordPresence(BaseMetric):
-    """Check if required technical keywords are present."""
-    def measure(self, test_case):
-        # Extract expected keywords from metadata
-        # Check presence in actual output
-        pass
+    def __init__(self, use_llm_judge: bool = True):
+        self.rouge_l = RougeL()
+        self.numeric_match = NumericExactMatch()
+        self.unit_consistency = UnitConsistency()
+        self.keyword_presence = KeywordPresence()
+        self.safety_accuracy = SafetyCriticalAccuracy()
+        self.visual_grounding = VisualGrounding()
+        self.procedure_ordering = ProcedureStepOrdering()
+
+    def evaluate(self, prediction, reference, question, ...) -> dict[str, MetricResult]:
+        """Run all applicable metrics on a single example."""
+        ...
+
+    def compute_aggregate_scores(self, results) -> dict:
+        """Compute mean scores and pass rates across examples."""
+        ...
 ```
 
-### 3.3 Basic Test Structure
+`NumericExactMatch` extracts numbers with units and compares within tolerance (e.g., ±1 Nm for torque, ±0.05 mm for clearances). `UnitConsistency` flags non-canonical units (ft-lbs, psi, inches, gallons, Fahrenheit).
 
-```python
-# eval/test_vlm.py
-import pytest
-from deepeval import assert_test
-from deepeval.metrics import AnswerRelevancyMetric, GEval
-from deepeval.test_case import LLMTestCase
+### 3.3 Eval Pipeline Flow
 
-# Configure Claude as the evaluator
-import deepeval
-deepeval.set_evaluator_model("claude-3-5-sonnet-20241022")
-
-@pytest.fixture
-def answer_relevancy():
-    return AnswerRelevancyMetric(threshold=0.7)
-
-@pytest.fixture
-def correctness():
-    return GEval(
-        name="Correctness",
-        criteria="Is the answer factually correct for BMW E30 M3 service information?",
-        evaluation_params=["input", "actual_output", "expected_output"],
-        threshold=0.7
-    )
-
-def test_vlm_response(answer_relevancy, correctness, vlm_model, test_case):
-    """Test a single VLM response."""
-    # Generate model output
-    model_output = vlm_model.predict(test_case["image"], test_case["question"])
-
-    # Create DeepEval test case
-    eval_case = LLMTestCase(
-        input=test_case["question"],
-        actual_output=model_output,
-        expected_output=test_case["expected_answer"],
-        context=[test_case.get("context", "")]
-    )
-
-    # Assert passes thresholds
-    assert_test(eval_case, [answer_relevancy, correctness])
+```
+data/src/manual/prepared/manual_val.jsonl
+       │
+       ▼
+┌──────────────────┐
+│ sample_eval_set.py│  Stratified sampling by question_type
+│ (make eval-sample)│  and content_type
+└────────┬─────────┘
+         │
+         ▼
+    eval/eval_sample.jsonl
+         │
+         ▼
+┌──────────────────┐
+│  modal_eval.py   │  (or run_eval.py for local GPU)
+│  - Load model    │
+│  - Load images   │
+│    from HF Hub   │
+│  - Generate      │
+│    predictions   │
+│  - Compute       │
+│    metrics       │
+└────────┬─────────┘
+         │
+         ▼
+  eval/reports/baseline.json   (or finetuned.json)
+         │
+         ▼
+┌──────────────────┐
+│ compare_results.py│
+│  - Score deltas  │
+│  - By q-type     │
+│  - By content    │
+│  - Probe results │
+└────────┬─────────┘
+         │
+         ▼
+  eval/reports/comparison.md
 ```
 
 ### 3.4 Running Evals
 
 ```bash
-# Run all eval tests
-deepeval test run eval/test_vlm.py
+# Create eval sample (stratified from val set)
+make eval-sample
 
-# Run with specific model
-deepeval test run eval/test_vlm.py --model hf://your-model
+# Modal-based evaluation (recommended — no local GPU needed)
+make eval-modal-baseline                        # Baseline
+make eval-modal-finetuned ADAPTER_REPO=user/vlm3-lora  # Fine-tuned
+make eval-modal-quick                           # Quick test (10 samples)
 
-# Quick smoke test (subset)
-deepeval test run eval/test_vlm.py -k "torque or procedure" --max-samples 20
+# Local evaluation (requires GPU)
+make eval-baseline                              # Baseline
+make eval-finetuned ADAPTER_PATH=/path/to/adapter  # Fine-tuned
 
-# Generate report
-deepeval test run eval/test_vlm.py --output eval/reports/
+# Compare results
+make eval-compare
+
+# Run manual probes
+make eval-probes
+make eval-modal-probes
+
+# Test infrastructure without GPU
+make eval-mock
 ```
 
-### 3.5 Eval Pipeline Flow
+### 3.5 Manual Benchmark Probes
 
-```
-training_data/vlm_val.jsonl
-       │
-       ▼
-┌──────────────────┐
-│  run_eval.py     │
-│  - Load model    │
-│  - Load val set  │
-│  - Generate      │
-│    predictions   │
-└────────┬─────────┘
-         │
-         ▼
-┌──────────────────┐
-│  DeepEval        │
-│  - AnswerRelevancy│
-│  - Faithfulness  │
-│  - GEval         │
-│  (Claude judge)  │
-└────────┬─────────┘
-         │
-         ▼
-┌──────────────────┐
-│  DeepEval Report │
-│  - Pass/fail     │
-│  - Score breakdown│
-│  - Failure details│
-└──────────────────┘
-```
+Hand-crafted critical test cases in `eval/benchmarks/manual_probes.json`:
 
-### 3.6 Manual Benchmark Probes
-
-Still hand-craft critical test cases for known-answer validation:
-
-```python
-# eval/benchmarks/manual_probes.py
-PROBES = [
+```json
+[
     {
         "id": "torque_001",
         "category": "specifications",
         "image": "images/27-05.jpg",
         "question": "What is the torque specification for the cylinder head bolts?",
-        "expected_answer": "Stage 1: 40 Nm, Stage 2: 90 degrees, Stage 3: 90 degrees",
+        "expected": "Stage 1: 40 Nm, Stage 2: 90 degrees, Stage 3: 90 degrees",
+        "is_critical": true
     },
     {
         "id": "procedure_001",
         "category": "procedures",
         "image": "images/21-12.jpg",
         "question": "What are the steps to remove the clutch assembly?",
-        "expected_keywords": ["transmission", "pressure plate", "alignment tool"],
-    },
-    # ... 20-30 total probes
+        "expected_keywords": ["transmission", "pressure plate", "alignment tool"]
+    }
 ]
 ```
 
-### 3.7 Success Criteria
+Probes include hallucination/out-of-distribution checks where the expected behavior is for the model to decline answering questions not shown in the image.
+
+### 3.6 Success Criteria
 
 | Metric | Threshold | Notes |
 |--------|-----------|-------|
-| AnswerRelevancy | > 0.7 | DeepEval default |
-| Faithfulness | > 0.7 | Grounded in context |
-| GEval Correctness | > 0.7 | Domain-specific |
-| Manual probe pass rate | > 85% | Critical questions |
+| ROUGE-L | > 0.3 | General text quality baseline |
+| NumericExactMatch | > 0.9 | Critical for specifications |
+| UnitConsistency | = 1.0 | Must use canonical metric units |
+| KeywordPresence | > 0.7 | Required technical terms |
+| Manual probe pass rate | > 85% | Hand-crafted critical questions |
+| Critical probe pass rate | > 90% | Safety-critical subset |
 
-### 3.8 Iteration Based on Results
+### 3.7 Iteration Based on Results
 
 **If thresholds not met:**
-1. Check DeepEval failure breakdown — which metric fails most?
-2. Analyze by content_type — diagrams worse than text?
+1. Check aggregate metric breakdown — which metric fails most?
+2. Check `by_question_type` breakdown — which question types underperform?
 3. Review training data for failing categories
 4. Regenerate QA for weak sections → retrain → re-eval
 
 **Adding complexity later:**
-- Custom numeric match metric for specs
+- Enable LLM-as-judge metrics via DeepEval for richer evaluation
 - Hallucination detection for safety-critical info
-- A/B comparison between model versions
+- A/B comparison between model versions (supported by `compare_results.py`)
 
 ---
 
@@ -446,50 +393,48 @@ model = PeftModel.from_pretrained(base_model, "path/to/adapter")
 **Iteration triggers:**
 - Eval scores below threshold
 - Specific content types underperforming
-- New source materials added to data_src/
+- New source materials added to `data/src/`
 
 ---
 
 ## Implementation Checklist
 
-### Phase 1: Reorganization ✅ COMPLETE
-- [x] Create new directory structure
-- [x] Move pipeline files to `pipeline/`
-- [x] Update Makefile paths
-- [x] Remove legacy LLM config from `pipeline/config.yaml`
-- [x] Verify pipeline still works (`make status`, `pytest pipeline/tests/`)
-- [x] Update root README and CLAUDE.md
-- [x] Add placeholder READMEs to `training/`, `eval/`, `scraping/`
+### Data Pipeline ✅ COMPLETE
+- [x] Service manual pipeline (Stages 01-09)
+- [x] 11,154 train + 1,256 val examples + 1,408 images
+- [x] Dataset uploaded to HuggingFace (`drumwell/vlm3`)
+- [x] Pipeline tests (`data/src/manual/tests/`)
+- [x] Config: `data/src/manual/config.yaml`
 
-### Phase 2: Training
-- [ ] Write `training/prepare_dataset.py`
-- [ ] Write `training/modal_train.py`
-- [ ] Training configs already created: `training/configs/lora_qwen2vl.yaml`
-- [ ] Set up Modal secrets (HF token only — W&B skipped)
-- [ ] Test training on small subset (~100 examples)
-- [ ] Run full training
-- [ ] Push model to HuggingFace
+### Training ✅ INFRASTRUCTURE COMPLETE
+- [x] Write `training/modal_train.py`
+- [x] Training config: `training/configs/lora_qwen2vl.yaml`
+- [x] Set up Modal secrets (HF token)
+- [x] Test training on small subset (~100 examples)
+- [x] Run full training
+- [ ] Push final adapter to HuggingFace
+- [ ] Verify adapter quality with eval
 
-### Phase 3: Evaluation (DeepEval)
-- [ ] **Run baseline eval on Qwen2-VL-7B-Instruct FIRST**
-- [ ] Install DeepEval (`pip install deepeval`)
-- [ ] Configure Claude as evaluator model
-- [ ] Write `eval/run_eval.py` (load model, generate predictions)
-- [ ] Write `eval/test_vlm.py` (DeepEval test cases)
-- [ ] Implement `eval/metrics.py` (NumericExactMatch, KeywordPresence)
-- [ ] Create `eval/conftest.py` (fixtures for model, test data)
-- [ ] Create manual benchmark probes (20-30 questions) in `eval/benchmarks/manual_probes.json`
-- [ ] Run baseline eval: `deepeval test run eval/test_vlm.py --model Qwen/Qwen2-VL-7B-Instruct`
-- [ ] Run fine-tuned eval: `deepeval test run eval/test_vlm.py --model your-model`
-- [ ] Compare baseline vs fine-tuned results
+### Evaluation ✅ FRAMEWORK COMPLETE
+- [x] Write `eval/metrics.py` (RougeL, NumericExactMatch, UnitConsistency, KeywordPresence, SafetyCriticalAccuracy, VisualGrounding, ProcedureStepOrdering)
+- [x] Write `eval/run_eval.py` (local GPU evaluation runner)
+- [x] Write `eval/modal_eval.py` (Modal cloud evaluation)
+- [x] Write `eval/sample_eval_set.py` (stratified sampling)
+- [x] Write `eval/compare_results.py` (comparison reports)
+- [x] Write `eval/model_wrapper.py` (model loading abstraction)
+- [x] Create `eval/benchmarks/manual_probes.json` (hand-crafted probes)
+- [x] Write `eval/test_vlm.py` (evaluation tests)
+- [ ] Run baseline eval: `make eval-modal-baseline`
+- [ ] Run fine-tuned eval: `make eval-modal-finetuned ADAPTER_REPO=...`
+- [ ] Compare baseline vs fine-tuned: `make eval-compare`
 - [ ] Analyze failures by content type
 
-### Phase 4: Deployment
+### Deployment
 - [ ] Write `training/modal_serve.py`
 - [ ] Test inference endpoint
 - [ ] Document API usage
 
-### Phase 5: Iteration
+### Iteration
 - [ ] Review eval failures
 - [ ] Identify weak areas
 - [ ] Regenerate/improve data
@@ -497,79 +442,42 @@ model = PeftModel.from_pretrained(base_model, "path/to/adapter")
 
 ---
 
-## Makefile Additions
+## Makefile Targets
+
+From the root `Makefile`:
 
 ```makefile
-# Training targets
-.PHONY: train train-dev prepare-dataset
+# Training
+make train                  # Full training on Modal (A100-80GB)
+make train-dev              # Dev run (100 samples)
+make train-resume           # Resume from checkpoint (detached)
+make train-logs             # Check training logs from Modal volume
 
-prepare-dataset:
-	python training/prepare_dataset.py \
-		--train training_data/vlm_train.jsonl \
-		--val training_training_data/vlm_val.jsonl \
-		--output-repo $(HF_DATASET_REPO)
+# Evaluation — create sample first
+make eval-sample            # Stratified sample from val set (300 samples default)
 
-train:
-	cd training && modal run modal_train.py \
-		--dataset-id $(HF_DATASET_REPO) \
-		--epochs 3
+# Evaluation — local GPU
+make eval-baseline          # Base model
+make eval-finetuned ADAPTER_PATH=/path  # Fine-tuned model
+make eval-probes            # Manual probes
+make eval-mock              # Test infra (no GPU)
+make eval-test              # Pytest evaluation tests
 
-train-dev:  # Quick test run
-	cd training && modal run modal_train.py \
-		--dataset-id $(HF_DATASET_REPO) \
-		--epochs 1 \
-		--max-samples 100
+# Evaluation — Modal cloud GPU (recommended)
+make eval-modal-baseline    # Base model on Modal
+make eval-modal-finetuned ADAPTER_REPO=user/repo  # Fine-tuned on Modal
+make eval-modal-checkpoint  # Fine-tuned from Modal volume checkpoint
+make eval-modal-quick       # Quick test (10 samples)
+make eval-modal-probes      # Manual probes on Modal
+make eval-modal-all         # Full pipeline: sample → baseline → train → eval → compare
 
-# Eval targets (DeepEval)
-.PHONY: eval eval-quick eval-probes
+# Comparison
+make eval-compare           # Generate comparison report (baseline vs finetuned)
+make eval-all               # Full local pipeline: sample → baseline → finetuned → compare → probes
 
-eval:
-	deepeval test run eval/test_vlm.py \
-		--verbose \
-		--output eval/reports/
-
-eval-quick:
-	deepeval test run eval/test_vlm.py \
-		-k "not slow" \
-		--max-samples 50
-
-eval-probes:
-	deepeval test run eval/test_vlm.py \
-		-k "manual_probe" \
-		--verbose
-
-eval-compare:  # Compare two model versions
-	python eval/run_eval.py \
-		--models $(MODEL_A) $(MODEL_B) \
-		--val training_training_data/vlm_val.jsonl \
-		--output eval/reports/comparison.json
-
-# Serve targets
-.PHONY: serve serve-local
-
-serve:
-	cd training && modal serve modal_serve.py
-
-serve-local:
-	python training/serve_local.py --model $(HF_MODEL_REPO)
+# Cleanup
+make clean-eval             # Remove eval artifacts
 ```
-
----
-
-## Timeline Estimate
-
-| Phase | Tasks | Duration |
-|-------|-------|----------|
-| 1. Reorganization | Move files, update paths | 1-2 hours |
-| 2. Training infra | Scripts, configs, test run | 4-6 hours |
-| 3. Eval framework | DeepEval setup, test cases, probes | 2-3 hours |
-| 4. First training run | Full LoRA training | 2-4 hours (compute) |
-| 5. First eval cycle | Run eval, analyze results | 1-2 hours |
-| 6. Iteration (if needed) | Data fixes, retrain | Variable |
-
-**Total estimated effort:** 10-18 hours of work + compute time
-
-*Note: DeepEval reduces eval setup time vs. custom framework.*
 
 ---
 
@@ -577,20 +485,20 @@ serve-local:
 
 | Question | Resolution |
 |----------|------------|
-| Dataset size | 12,410 QA pairs (90/10 split → ~11,169 train, ~1,241 val) |
-| Validation split | 90/10 (configured in pipeline/config.yaml) |
-| HuggingFace org | Personal account |
+| Dataset size | 11,154 train / 1,256 val (from `data/src/manual/prepared/`) |
+| Validation split | 90/10 (configured in `data/src/manual/config.yaml`) |
+| HuggingFace org | Personal account (`drumwell/vlm3`) |
 | Experiment tracking | Skip W&B for simplicity (can add later) |
 | Multi-image support | No — each QA pair references single image |
-| DeepEval account | Free tier sufficient; Confident AI dashboard optional |
+| Eval framework | Custom `VLMEvaluator` in `eval/metrics.py` (optional DeepEval LLM-as-judge) |
 
 ---
 
 ## Notes
 
-- Phase 1 (reorganization) complete
-- Phase 2 ready for implementation by separate agent
+- Training infrastructure is implemented and has been run on Modal
+- Evaluation framework is implemented but not yet run against a fine-tuned model
 - Modal account required (free tier has GPU credits)
 - HuggingFace account required for dataset/model hosting
-- DeepEval: `pip install deepeval` — uses Claude as evaluator via existing Anthropic API key
 - **Baseline eval on Qwen2-VL-7B-Instruct should run BEFORE fine-tuning**
+- Optional: `pip install deepeval` for LLM-as-judge metrics using Claude as evaluator
