@@ -1,407 +1,660 @@
 [
   {
-    "id": "torque_001",
     "category": "specification",
-    "question_type": "factual",
-    "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_046.jpg",
-    "question": "What is the torque specification for the control pipe to bypass valve/turbocharger?",
-    "expected": "30 Nm",
-    "keywords": ["30", "Nm"],
+    "question": "What is the torque specification for the exhaust manifold to cylinder head screws on all engine types?",
+    "expected": "10 Nm",
+    "expected_keywords": [
+      "10",
+      "Nm",
+      "M6"
+    ],
     "is_critical": false,
-    "notes": "Basic torque spec extraction from table"
+    "notes": "Tests ability to read specific torque values from the specification table",
+    "id": "specification_001",
+    "image": "images/raw_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg"
   },
   {
-    "id": "torque_002",
     "category": "specification",
-    "question_type": "factual",
-    "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg",
-    "question": "What special coating should be used on exhaust manifold screw connections?",
-    "expected": "Molykote HSC compound coat",
-    "keywords": ["Molykote", "HSC"],
+    "question": "What screw size and torque should be used for the upper row of staybolts installed with bolt cement?",
+    "expected": "M8, 22 Nm",
+    "expected_keywords": [
+      "M8",
+      "22",
+      "Nm"
+    ],
     "is_critical": false,
-    "notes": "Tests specific product/coating recall"
+    "notes": "Tests ability to correlate component description with correct specifications",
+    "id": "specification_002",
+    "image": "images/raw_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg"
   },
   {
-    "id": "torque_003",
+    "category": "procedural",
+    "question": "What special compound should be used when screwing exhaust manifold connections and what maintenance is required after 2000 km?",
+    "expected_keywords": [
+      "Molykote",
+      "HSC",
+      "compound",
+      "retorque",
+      "2000",
+      "km",
+      "loosen",
+      "bolt",
+      "first"
+    ],
+    "is_critical": false,
+    "notes": "Tests understanding of assembly procedures and maintenance requirements",
+    "id": "procedural_001",
+    "image": "images/raw_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg"
+  },
+  {
+    "category": "hallucination_detection",
+    "question": "What are the torque specifications for the intake manifold bolts?",
+    "expected_behavior": "decline - intake manifold not shown in this specification table",
+    "is_critical": false,
+    "notes": "Tests if model correctly identifies that intake manifold specifications are not present on this exhaust manifold specification page",
+    "id": "hallucination_detection_001",
+    "image": "images/raw_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg"
+  },
+  {
     "category": "specification",
-    "question_type": "factual",
-    "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg",
-    "question": "What is the thread size for M8 exhaust manifold bolts?",
-    "expected": "M8",
-    "keywords": ["M8"],
-    "is_critical": false,
-    "notes": "Thread specification extraction"
+    "question": "What is the torque specification for the turbocharger to exhaust manifold connection?",
+    "expected": "25 Nm",
+    "notes": "Tests ability to extract specific torque values from tabular data",
+    "id": "specification_003",
+    "image": "images/raw_00_-_Torque_Specs_BMW_Torque_Specs_046.jpg",
+    "is_critical": false
   },
   {
-    "id": "torque_004",
     "category": "specification",
-    "question_type": "factual",
-    "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_046.jpg",
-    "question": "What torque is specified for the oil drain plug?",
-    "expected_keywords": ["Nm", "oil", "drain"],
-    "is_critical": true,
-    "notes": "Critical spec - undertorque can cause oil loss"
+    "question": "What thread type is used for the ring nut to exhaust manifold?",
+    "expected": "M30",
+    "notes": "Tests ability to identify specific thread specifications from the Type column",
+    "id": "specification_004",
+    "image": "images/raw_00_-_Torque_Specs_BMW_Torque_Specs_046.jpg",
+    "is_critical": false
   },
   {
-    "id": "torque_005",
-    "category": "specification",
-    "question_type": "factual",
-    "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg",
-    "question": "What is the torque specification for cylinder head bolts?",
-    "expected_keywords": ["Nm", "head", "cylinder"],
-    "is_critical": true,
-    "notes": "Critical spec - affects engine sealing"
-  },
-  {
-    "id": "torque_006",
-    "category": "specification",
-    "question_type": "factual",
-    "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_046.jpg",
-    "question": "What is the torque for wheel lug nuts on the E30 M3?",
-    "expected_keywords": ["Nm", "wheel", "lug"],
-    "is_critical": true,
-    "notes": "Safety critical - wheel detachment risk"
-  },
-  {
-    "id": "procedure_001",
-    "category": "procedure",
-    "question_type": "procedural",
-    "image": "images/data_src_21_-_Clutch_21-00.jpg",
-    "question": "What is the first step in clutch replacement on the E30 M3?",
-    "expected_keywords": ["transmission", "remove", "disconnect"],
-    "is_critical": false,
-    "notes": "Tests procedure sequence understanding"
-  },
-  {
-    "id": "procedure_002",
-    "category": "procedure",
-    "question_type": "procedural",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_003.jpg",
-    "question": "What should be done before disassembling the Getrag transmission?",
-    "expected_keywords": ["drain", "oil", "clean"],
-    "is_critical": false,
-    "notes": "Tests prerequisite understanding"
-  },
-  {
-    "id": "procedure_003",
-    "category": "procedure",
-    "question_type": "procedural",
-    "image": "images/data_src_34_-_Brakes_34-00.jpg",
-    "question": "What must be done after replacing brake pads?",
-    "expected_keywords": ["bleed", "pedal", "pump"],
-    "is_critical": true,
-    "notes": "Safety critical - brake function"
-  },
-  {
-    "id": "procedure_004",
-    "category": "procedure",
-    "question_type": "procedural",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_018.jpg",
-    "question": "What is visible in this transmission rebuild photo?",
-    "expected_keywords": ["housing", "case", "aluminum"],
-    "is_critical": false,
-    "notes": "Visual component identification"
-  },
-  {
-    "id": "procedure_005",
-    "category": "procedure",
-    "question_type": "procedural",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_023.jpg",
-    "question": "What is the purpose of the roller assembly shown?",
-    "expected_keywords": ["shaft", "bearing", "roller"],
-    "is_critical": false,
-    "notes": "Component function understanding"
-  },
-  {
-    "id": "procedure_006",
-    "category": "procedure",
-    "question_type": "procedural",
-    "image": "images/data_src_21_-_Clutch_21-00.jpg",
-    "question": "What tool is required for clutch alignment?",
-    "expected_keywords": ["alignment", "tool", "pilot"],
-    "is_critical": false,
-    "notes": "Tool requirement extraction"
-  },
-  {
-    "id": "wiring_001",
-    "category": "wiring",
-    "question_type": "wiring",
-    "image": "images/data_src_1990_BMW_M3_Electrical_Troubleshooting_Manual_etm-043.jpg",
-    "question": "What does the ETM diagram show on this page?",
-    "expected_keywords": ["wiring", "electrical", "circuit"],
-    "is_critical": false,
-    "notes": "Basic electrical diagram understanding"
-  },
-  {
-    "id": "wiring_002",
-    "category": "wiring",
-    "question_type": "wiring",
-    "image": "images/data_src_1990_BMW_M3_Electrical_Troubleshooting_Manual_etm-043.jpg",
-    "question": "What color coding system is used in BMW wiring diagrams?",
-    "expected_keywords": ["color", "wire", "code"],
-    "is_critical": false,
-    "notes": "Wire color convention understanding"
-  },
-  {
-    "id": "wiring_003",
-    "category": "wiring",
-    "question_type": "wiring",
-    "image": "images/data_src_1990_BMW_M3_Electrical_Troubleshooting_Manual_etm-043.jpg",
-    "question": "How are ground connections typically shown in BMW wiring diagrams?",
-    "expected_keywords": ["ground", "symbol", "connection"],
-    "is_critical": false,
-    "notes": "Symbol recognition"
-  },
-  {
-    "id": "wiring_004",
-    "category": "wiring",
-    "question_type": "wiring",
-    "image": "images/data_src_1990_BMW_M3_Electrical_Troubleshooting_Manual_etm-043.jpg",
-    "question": "What connector type is typically used for the ECU harness?",
-    "expected_keywords": ["connector", "pin", "ECU"],
-    "is_critical": false,
-    "notes": "Connector identification"
-  },
-  {
-    "id": "safety_001",
-    "category": "safety",
-    "question_type": "safety",
-    "image": "images/data_src_34_-_Brakes_34-00.jpg",
-    "question": "What safety warning is given for brake work?",
-    "expected_keywords": ["caution", "warning", "brake"],
-    "must_contain": ["brake", "safety"],
-    "is_critical": true,
-    "notes": "Must identify safety warnings"
-  },
-  {
-    "id": "safety_002",
-    "category": "safety",
-    "question_type": "safety",
-    "image": "images/data_src_00_-_Maintenance_00-00-index-a.jpg",
-    "question": "What safety precautions should be taken when working on the fuel system?",
-    "expected_keywords": ["fire", "ventilation", "pressure"],
-    "is_critical": true,
-    "notes": "Fuel safety awareness"
-  },
-  {
-    "id": "safety_003",
-    "category": "safety",
-    "question_type": "safety",
-    "image": "images/data_src_34_-_Brakes_34-00.jpg",
-    "question": "What should be checked before test driving after brake service?",
-    "expected_keywords": ["pedal", "firm", "bleed"],
-    "is_critical": true,
-    "notes": "Post-service safety check"
-  },
-  {
-    "id": "safety_004",
-    "category": "safety",
-    "question_type": "safety",
-    "image": "images/data_src_21_-_Clutch_21-00.jpg",
-    "question": "What precaution is needed when supporting the transmission during removal?",
-    "expected_keywords": ["support", "jack", "weight"],
-    "is_critical": true,
-    "notes": "Transmission handling safety"
-  },
-  {
+    "category": "component",
+    "question": "What component connects the oil supply for turbocharger and engine block?",
+    "expected_keywords": [
+      "hollow bolt",
+      "M51/M41"
+    ],
+    "notes": "Tests component identification and understanding of turbocharger lubrication system",
     "id": "component_001",
-    "category": "component",
-    "question_type": "component",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_018.jpg",
-    "question": "What material is the transmission case made from?",
-    "expected": "aluminum",
-    "keywords": ["aluminum", "cast", "alloy"],
-    "is_critical": false,
-    "notes": "Material identification from visual"
+    "image": "images/raw_00_-_Torque_Specs_BMW_Torque_Specs_046.jpg",
+    "is_critical": false
   },
   {
+    "category": "hallucination_detection",
+    "question": "What is the torque specification for the intercooler mounting bolts?",
+    "expected_behavior": "decline - intercooler mounting bolts not shown in this table",
+    "is_critical": false,
+    "notes": "Tests model's ability to avoid fabricating information not present in the turbocharger specification table",
+    "id": "hallucination_detection_002",
+    "image": "images/raw_00_-_Torque_Specs_BMW_Torque_Specs_046.jpg"
+  },
+  {
+    "category": "specification",
+    "question": "What is the torque specification for the M8 screw connecting the clutch housing to crankcase?",
+    "expected": "27 Nm",
+    "notes": "Tests ability to read specific torque values from specification table",
+    "id": "specification_005",
+    "image": "images/raw_21_-_Clutch_21-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "specification",
+    "question": "What torque value should be used for the M12 screws on the clutch housing to crankcase connection?",
+    "expected": "86 Nm",
+    "notes": "Tests accurate reading of different torque specifications within the same component",
+    "id": "specification_006",
+    "image": "images/raw_21_-_Clutch_21-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "component",
+    "question": "What is the part number for the bell housing component shown in this specification table?",
+    "expected": "21 11",
+    "expected_keywords": [
+      "bell housing",
+      "21 11"
+    ],
+    "notes": "Tests component identification and part number recognition",
     "id": "component_002",
-    "category": "component",
-    "question_type": "component",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_023.jpg",
-    "question": "What type of bearing assembly is shown?",
-    "expected_keywords": ["roller", "needle", "bearing"],
-    "is_critical": false,
-    "notes": "Bearing type identification"
+    "image": "images/raw_21_-_Clutch_21-01.jpg",
+    "is_critical": false
   },
   {
+    "category": "hallucination_detection",
+    "question": "What is the torque specification for the transmission mounting bolts shown in this clutch section?",
+    "expected_behavior": "decline - transmission mounting bolts not shown in this specification table",
+    "notes": "Tests model's ability to avoid hallucinating information not present in the image",
+    "id": "hallucination_detection_003",
+    "image": "images/raw_21_-_Clutch_21-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "specification",
+    "question": "What is the torque specification for the coupling bolts for hydraulic pipes in the hydraulic clutch operation?",
+    "expected": "17 Nm",
+    "notes": "Tests ability to extract specific torque values from technical specifications table",
+    "id": "specification_007",
+    "image": "images/raw_21_-_Clutch_21-03.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "specification",
+    "question": "What torque value should be used when installing the master cylinder to pedal assembly?",
+    "expected": "10 Nm",
+    "notes": "Tests precision in reading torque specifications for specific hydraulic clutch components",
+    "id": "specification_008",
+    "image": "images/raw_21_-_Clutch_21-03.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "component",
+    "question": "What components are listed under the hydraulic clutch operation section 2152?",
+    "expected_keywords": [
+      "coupling bolts",
+      "master cylinder",
+      "console",
+      "setscrew",
+      "pedal assembly",
+      "slave cylinder",
+      "clutch housing",
+      "transmission case"
+    ],
+    "notes": "Tests ability to identify and list hydraulic clutch system components from the service manual table",
     "id": "component_003",
-    "category": "component",
-    "question_type": "component",
-    "image": "images/data_src_21_-_Clutch_21-00.jpg",
-    "question": "What are the main components of the clutch assembly?",
-    "expected_keywords": ["disc", "pressure plate", "flywheel"],
-    "is_critical": false,
-    "notes": "Component enumeration"
+    "image": "images/raw_21_-_Clutch_21-03.jpg",
+    "is_critical": false
   },
   {
+    "category": "hallucination_detection",
+    "question": "What is the bleeding procedure for the hydraulic clutch system shown in the service steps?",
+    "expected_behavior": "decline - bleeding procedure not shown in image",
+    "notes": "Tests model's ability to avoid hallucinating procedural information not present in the torque specification table",
+    "id": "hallucination_detection_004",
+    "image": "images/raw_21_-_Clutch_21-03.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "specification",
+    "question": "What is the maximum pressure drop allowed after 2 minutes during the high pressure leak test?",
+    "expected": "8%",
+    "notes": "Tests ability to extract specific numeric tolerance from brake testing procedures",
+    "id": "specification_009",
+    "image": "images/raw_34_-_Brakes_34-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "procedural",
+    "question": "What must be done to the brake pedal during the high pressure leak test?",
+    "expected_keywords": [
+      "apply",
+      "load",
+      "hold",
+      "brake pedal",
+      "pedal prop"
+    ],
+    "notes": "Tests understanding of required test procedure steps",
+    "id": "procedural_002",
+    "image": "images/raw_34_-_Brakes_34-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "safety",
+    "question": "What critical safety requirement is specified for the high pressure leak test?",
+    "expected_keywords": [
+      "engine",
+      "stopped",
+      "do not run engine"
+    ],
+    "is_critical": true,
+    "notes": "Tests recognition of critical safety warnings during brake testing",
+    "id": "safety_001",
+    "image": "images/raw_34_-_Brakes_34-01.jpg"
+  },
+  {
+    "category": "visual_grounding",
+    "question": "What are the three measurement scales shown in the brake test conversion chart at the bottom of the page?",
+    "expected_keywords": [
+      "roller speed",
+      "km/h",
+      "wheel speed",
+      "rpm",
+      "pulse wheel period",
+      "ms"
+    ],
+    "notes": "Tests ability to identify specific visual elements that can only be seen in this image",
+    "id": "visual_grounding_001",
+    "image": "images/raw_34_-_Brakes_34-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "specification",
+    "question": "What size bolts are used to mount the brake disc?",
+    "expected": "M 12 x 1.5",
+    "expected_keywords": [
+      "M 12",
+      "1.5",
+      "bolts"
+    ],
+    "is_critical": false,
+    "notes": "Tests ability to extract specific bolt specifications from the technical text",
+    "id": "specification_010",
+    "image": "images/raw_34_-_Brakes_34-05.jpg"
+  },
+  {
+    "category": "procedural",
+    "question": "What tool is required to remove the brake disc according to the service manual?",
+    "expected": "wrench socket 34 1 020",
+    "expected_keywords": [
+      "wrench",
+      "socket",
+      "34 1 020"
+    ],
+    "is_critical": false,
+    "notes": "Tests ability to identify specific tool requirements from procedural text",
+    "id": "procedural_003",
+    "image": "images/raw_34_-_Brakes_34-05.jpg"
+  },
+  {
+    "category": "safety",
+    "question": "What critical safety requirement must be followed when grinding brake discs?",
+    "expected": "Always fine grind both sides of both brake discs on one axle",
+    "expected_keywords": [
+      "always",
+      "both sides",
+      "both brake discs",
+      "one axle"
+    ],
+    "is_critical": true,
+    "notes": "Tests identification of critical safety procedures for brake disc maintenance",
+    "id": "safety_002",
+    "image": "images/raw_34_-_Brakes_34-05.jpg"
+  },
+  {
+    "category": "visual_grounding",
+    "question": "How many measurement points are specified for checking brake disc thickness difference?",
+    "expected": "8 points",
+    "expected_keywords": [
+      "8",
+      "points",
+      "micrometer"
+    ],
+    "is_critical": false,
+    "notes": "Tests ability to extract specific numeric details from the inspection procedure text",
+    "id": "visual_grounding_002",
+    "image": "images/raw_34_-_Brakes_34-05.jpg"
+  },
+  {
+    "category": "component",
+    "question": "What type of transmission component is being disassembled in the upper image?",
+    "expected_keywords": [
+      "hub",
+      "roll pin",
+      "gear",
+      "transmission"
+    ],
+    "is_critical": false,
+    "notes": "Tests ability to identify transmission components being serviced",
     "id": "component_004",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_003.jpg"
+  },
+  {
+    "category": "procedural",
+    "question": "According to the text, what method is used to remove the 2nd 3rd hub roll pin?",
+    "expected": "hammers down the gap between the gear teeth",
+    "expected_keywords": [
+      "hammers",
+      "gap",
+      "gear teeth",
+      "tricky"
+    ],
+    "is_critical": false,
+    "notes": "Tests understanding of specific removal procedure described in caption",
+    "id": "procedural_004",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_003.jpg"
+  },
+  {
+    "category": "visual_grounding",
+    "question": "What color are the small parts scattered on the wooden board in the upper image?",
+    "expected": "green",
+    "expected_keywords": [
+      "green",
+      "yellow-green"
+    ],
+    "is_critical": false,
+    "notes": "Tests visual observation of specific details only visible in this image",
+    "id": "visual_grounding_003",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_003.jpg"
+  },
+  {
+    "category": "hallucination_detection",
+    "question": "What is the specified torque value for reassembling the hub roll pin?",
+    "expected_behavior": "decline - torque specification not shown in image",
+    "is_critical": false,
+    "notes": "Tests if model will fabricate torque specifications not present in the image",
+    "id": "hallucination_detection_005",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_003.jpg"
+  },
+  {
     "category": "component",
-    "question_type": "component",
-    "image": "images/data_src_34_-_Brakes_34-00.jpg",
-    "question": "What type of brake system does the E30 M3 use?",
-    "expected_keywords": ["disc", "vented", "ABS"],
+    "question": "What type of engine component is shown in this image?",
+    "expected_keywords": [
+      "cylinder head",
+      "valve cover",
+      "head",
+      "engine block"
+    ],
     "is_critical": false,
-    "notes": "System type identification"
+    "notes": "Tests ability to identify major engine components from visual inspection",
+    "id": "component_005",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_018.jpg"
   },
   {
-    "id": "diagnostic_001",
-    "category": "diagnostic",
-    "question_type": "diagnostic",
-    "image": "images/data_src_34_-_Brakes_34-00.jpg",
-    "question": "What could cause a spongy brake pedal?",
-    "expected_keywords": ["air", "bleed", "fluid", "leak"],
-    "is_critical": true,
-    "notes": "Diagnostic reasoning"
-  },
-  {
-    "id": "diagnostic_002",
-    "category": "diagnostic",
-    "question_type": "diagnostic",
-    "image": "images/data_src_21_-_Clutch_21-00.jpg",
-    "question": "What symptoms indicate a worn clutch?",
-    "expected_keywords": ["slip", "engage", "pedal"],
+    "category": "visual_grounding",
+    "question": "What part number is visible cast into the metal surface of this component?",
+    "expected": "11 12 1 732 416",
+    "expected_keywords": [
+      "11",
+      "12",
+      "1",
+      "732",
+      "416"
+    ],
     "is_critical": false,
-    "notes": "Symptom to cause reasoning"
+    "notes": "Tests ability to read specific part numbers from cast aluminum surfaces",
+    "id": "visual_grounding_004",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_018.jpg"
   },
   {
-    "id": "diagnostic_003",
-    "category": "diagnostic",
-    "question_type": "diagnostic",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_003.jpg",
-    "question": "What would cause difficulty shifting gears?",
-    "expected_keywords": ["synchro", "linkage", "fluid"],
+    "category": "procedural",
+    "question": "What cleaning tool is being used on this component?",
+    "expected_keywords": [
+      "wire brush",
+      "brass brush",
+      "cleaning brush",
+      "brush"
+    ],
     "is_critical": false,
-    "notes": "Transmission diagnostic"
+    "notes": "Tests identification of proper cleaning tools for aluminum engine components",
+    "id": "procedural_005",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_018.jpg"
   },
   {
-    "id": "visual_only_001",
-    "category": "visual_only",
-    "question_type": "visual",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_003.jpg",
-    "question": "What is visible underneath the transmission parts in this photo?",
-    "expected_keywords": ["manual", "paper", "document"],
+    "category": "hallucination_detection",
+    "question": "What is the torque specification for the head bolts shown in this procedure?",
+    "expected_behavior": "decline - torque specifications not visible in image",
     "is_critical": false,
-    "notes": "Can ONLY be answered from image - service pages visible under parts"
+    "notes": "Tests model's ability to decline when specific technical data is not present in the image",
+    "id": "hallucination_detection_006",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_018.jpg"
   },
   {
-    "id": "visual_only_002",
-    "category": "visual_only",
-    "question_type": "visual",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_018.jpg",
-    "question": "What surface is the transmission case resting on?",
-    "expected_keywords": ["bench", "surface", "work"],
+    "category": "component",
+    "question": "What BMW E30 transmission component is shown in the photograph?",
+    "expected_keywords": [
+      "main shaft",
+      "roller assembly",
+      "inner sleeve",
+      "outer race"
+    ],
+    "notes": "Tests ability to identify the specific transmission component from the image and description",
+    "id": "component_006",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_023.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "visual_grounding",
+    "question": "How many metal parts are visible in the photograph?",
+    "expected": "2",
+    "notes": "Tests visual counting ability - the shaft assembly and the separate ring/race component",
+    "id": "visual_grounding_005",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_023.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "procedural",
+    "question": "According to the text, what makes this particular component notable during gearbox work?",
+    "expected_keywords": [
+      "most expensive",
+      "make your eyes water"
+    ],
+    "notes": "Tests reading comprehension of the mechanic's commentary about component cost",
+    "id": "procedural_006",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_023.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "hallucination_detection",
+    "question": "What torque specification is required for installing this main shaft roller assembly?",
+    "expected_behavior": "decline - no torque specifications shown",
+    "notes": "Tests model's ability to avoid hallucinating technical specifications not present in the image",
+    "id": "hallucination_detection_007",
+    "image": "images/raw_Getrag265_5_Rebuild_ShiftBMW_023.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "specification",
+    "question": "What is the amperage rating of fuse number 5?",
+    "expected": "30A",
+    "notes": "Tests ability to read specific fuse amperage values from the data chart",
+    "id": "specification_011",
+    "image": "images/raw_1990_BMW_M3_Electrical_Troubleshooting_Manual_0670-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "component",
+    "question": "Which fuse number controls the heated seats?",
+    "expected": "16",
+    "expected_keywords": [
+      "16",
+      "heated seats"
+    ],
+    "notes": "Tests ability to correlate component functions with fuse numbers",
+    "id": "component_007",
+    "image": "images/raw_1990_BMW_M3_Electrical_Troubleshooting_Manual_0670-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "wiring",
+    "question": "What circuit components are protected by fuse number 21?",
+    "expected_keywords": [
+      "Auto-Charging Flashlight",
+      "Ignition Key Warning",
+      "Seatbelt Warning",
+      "Injection Electronics",
+      "Interior Lights",
+      "Radio/Antenna",
+      "Trunk Light",
+      "Active Check Control"
+    ],
+    "notes": "Tests ability to identify multiple circuit components controlled by a single fuse",
+    "id": "wiring_001",
+    "image": "images/raw_1990_BMW_M3_Electrical_Troubleshooting_Manual_0670-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "hallucination_detection",
+    "question": "What is the location of the main relay in the fuse box?",
+    "expected_behavior": "decline - relay locations not shown in image",
     "is_critical": false,
-    "notes": "Image-specific detail"
+    "notes": "Tests model's ability to decline when asked about information not present in the fuse data chart",
+    "id": "hallucination_detection_008",
+    "image": "images/raw_1990_BMW_M3_Electrical_Troubleshooting_Manual_0670-01.jpg"
   },
   {
-    "id": "visual_only_003",
-    "category": "visual_only",
-    "question_type": "visual",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_023.jpg",
-    "question": "How many roller bearings are visible in this assembly?",
-    "expected_keywords": ["roller", "bearing"],
-    "is_critical": false,
-    "notes": "Counting from image"
+    "category": "specification",
+    "question": "What is the amperage rating of FUSE 8?",
+    "expected": "15 AMP",
+    "notes": "Tests ability to read specific fuse ratings from the power distribution diagram",
+    "id": "specification_012",
+    "image": "images/raw_1990_BMW_M3_Electrical_Troubleshooting_Manual_0670-04.jpg",
+    "is_critical": false
   },
   {
-    "id": "visual_only_004",
-    "category": "visual_only",
-    "question_type": "visual",
-    "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg",
-    "question": "How is the torque table organized in this image?",
-    "expected_keywords": ["column", "row", "table"],
-    "is_critical": false,
-    "notes": "Layout description"
+    "category": "wiring",
+    "question": "What wire color code is used for the connection between the auxiliary fan normal speed relay and ground distribution?",
+    "expected_keywords": [
+      "BK",
+      "black"
+    ],
+    "notes": "Tests ability to trace wire colors in electrical schematic",
+    "id": "wiring_002",
+    "image": "images/raw_1990_BMW_M3_Electrical_Troubleshooting_Manual_0670-04.jpg",
+    "is_critical": false
   },
   {
-    "id": "visual_only_005",
-    "category": "visual_only",
-    "question_type": "visual",
-    "image": "images/data_src_1990_BMW_M3_Electrical_Troubleshooting_Manual_etm-043.jpg",
-    "question": "What is the page number shown on this ETM page?",
-    "expected_keywords": ["43", "etm"],
-    "is_critical": false,
-    "notes": "Page number extraction"
+    "category": "component",
+    "question": "Which relay controls the low beam headlight operation?",
+    "expected_keywords": [
+      "LOW BEAM RELAY",
+      "K1"
+    ],
+    "notes": "Tests component identification within the power distribution system",
+    "id": "component_008",
+    "image": "images/raw_1990_BMW_M3_Electrical_Troubleshooting_Manual_0670-04.jpg",
+    "is_critical": false
   },
   {
-    "id": "hallucination_001",
-    "category": "visual_hallucination",
-    "question_type": "visual",
-    "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_046.jpg",
-    "question": "What is the coolant capacity shown in this table?",
-    "expected_behavior": "decline or state not present",
+    "category": "hallucination_detection",
+    "question": "What is the location of the windshield wiper relay in this power distribution diagram?",
+    "expected_behavior": "decline - windshield wiper relay not shown in this diagram",
+    "notes": "Tests model's ability to avoid hallucinating components not present in the diagram",
+    "id": "hallucination_detection_009",
+    "image": "images/raw_1990_BMW_M3_Electrical_Troubleshooting_Manual_0670-04.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "specification",
+    "question": "What is the publication date shown for this BMW 318i M3 US E30 repair manual?",
+    "expected": "3/89",
+    "notes": "Tests ability to read specific date information from manual header",
+    "id": "specification_013",
+    "image": "images/raw_00_-_Maintenance_00-00-index-a.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "visual_grounding",
+    "question": "What is the section number and title for the maintenance section shown in the table of contents?",
+    "expected": "00 Maintenance and General Data",
+    "notes": "Tests ability to identify specific section information visible in the contents layout",
+    "id": "visual_grounding_006",
+    "image": "images/raw_00_-_Maintenance_00-00-index-a.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "procedural",
+    "question": "According to the table of contents, what page number contains information about BMW running-in inspection at 1,200 miles?",
+    "expected": "00-7",
+    "expected_keywords": [
+      "00-7",
+      "page 7"
+    ],
+    "notes": "Tests ability to locate specific maintenance procedure page references",
+    "id": "procedural_007",
+    "image": "images/raw_00_-_Maintenance_00-00-index-a.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "hallucination_detection",
+    "question": "What torque specifications are listed for the engine oil drain plug in this section?",
+    "expected_behavior": "decline - torque specifications not shown in this table of contents page",
+    "notes": "Tests model's ability to avoid fabricating technical specifications not present in a contents page",
+    "id": "hallucination_detection_010",
+    "image": "images/raw_00_-_Maintenance_00-00-index-a.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "specification",
+    "question": "What is the service procedure number for the Pre-Delivery Inspection?",
+    "expected": "00 00 009",
+    "notes": "Tests ability to extract specific procedure identification numbers from the manual",
+    "id": "specification_014",
+    "image": "images/raw_00_-_Maintenance_00-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "procedural",
+    "question": "What specific action is required for spark plugs on the M3 during pre-delivery inspection?",
+    "expected": "change sparks plugs",
+    "expected_keywords": [
+      "change",
+      "spark plugs",
+      "M3"
+    ],
+    "notes": "Tests ability to identify M3-specific procedures versus general inspection items",
+    "id": "procedural_008",
+    "image": "images/raw_00_-_Maintenance_00-01.jpg",
+    "is_critical": false
+  },
+  {
+    "category": "safety",
+    "question": "What is the critical instruction regarding engine oil during pre-delivery inspection?",
+    "expected": "Use approved oil only!",
+    "expected_keywords": [
+      "approved oil only",
+      "use approved oil"
+    ],
     "is_critical": true,
-    "notes": "Table contains torque specs, NOT coolant - model should decline/caveat"
+    "notes": "Tests recognition of safety-critical fluid specifications with exclamation point emphasis",
+    "id": "safety_003",
+    "image": "images/raw_00_-_Maintenance_00-01.jpg"
   },
   {
-    "id": "hallucination_002",
-    "category": "visual_hallucination",
-    "question_type": "visual",
-    "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg",
-    "question": "What color is the timing belt shown in this image?",
-    "expected_behavior": "decline - no timing belt visible",
-    "is_critical": true,
-    "notes": "Image shows torque table, no belt - model should not hallucinate"
+    "category": "visual_grounding",
+    "question": "Which inspection items are marked for visual inspection in the Important Instructions column?",
+    "expected_keywords": [
+      "coolant hoses",
+      "fuel lines",
+      "exhaust system"
+    ],
+    "notes": "Tests ability to correlate specific table entries with visual inspection requirements",
+    "id": "visual_grounding_007",
+    "image": "images/raw_00_-_Maintenance_00-01.jpg",
+    "is_critical": false
   },
   {
-    "id": "hallucination_003",
-    "category": "visual_hallucination",
-    "question_type": "visual",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_018.jpg",
-    "question": "What is the part number stamped on the transmission case?",
-    "expected_behavior": "state if visible or decline if not clearly shown",
-    "is_critical": true,
-    "notes": "Model should only answer if clearly visible, not guess"
+    "category": "specification",
+    "question": "What is the torque specification for the M20 screw on the distributor?",
+    "expected": "22 Nm",
+    "notes": "Tests ability to read specific torque values from the specifications table",
+    "id": "specification_015",
+    "image": "images/raw_12_-_Engine_Electrical_Equipment_12-01.jpg",
+    "is_critical": false
   },
   {
-    "id": "hallucination_004",
-    "category": "visual_hallucination",
-    "question_type": "visual",
-    "image": "images/data_src_34_-_Brakes_34-00.jpg",
-    "question": "What is the tire pressure specification shown?",
-    "expected_behavior": "decline - brake section, not tire info",
-    "is_critical": true,
-    "notes": "Wrong section - model should recognize this"
+    "category": "specification",
+    "question": "What torque value should be applied to the high-tension distributor cap?",
+    "expected": "4 Nm",
+    "notes": "Tests reading of torque specifications for specific distributor components",
+    "id": "specification_016",
+    "image": "images/raw_12_-_Engine_Electrical_Equipment_12-01.jpg",
+    "is_critical": false
   },
   {
-    "id": "hallucination_005",
-    "category": "visual_hallucination",
-    "question_type": "visual",
-    "image": "images/data_src_21_-_Clutch_21-00.jpg",
-    "question": "What engine oil is recommended in this clutch diagram?",
-    "expected_behavior": "decline - clutch section, not oil spec",
-    "is_critical": true,
-    "notes": "Wrong topic for image - should decline"
+    "category": "component",
+    "question": "What component is identified as 2AZ in the distributor section?",
+    "expected_keywords": [
+      "distributor rotor",
+      "adapter",
+      "DME"
+    ],
+    "notes": "Tests ability to identify specific components by their reference numbers",
+    "id": "component_009",
+    "image": "images/raw_12_-_Engine_Electrical_Equipment_12-01.jpg",
+    "is_critical": false
   },
   {
-    "id": "ood_001",
-    "category": "out_of_distribution",
-    "question_type": "factual",
-    "image": "images/data_src_00_-_Maintenance_00-00-index-a.jpg",
-    "question": "What is the oil capacity for a 2020 BMW M3?",
-    "expected_behavior": "caveat that this manual is for E30 M3, not modern M3",
-    "is_critical": true,
-    "notes": "Out of distribution - model should not hallucinate specs for wrong car"
-  },
-  {
-    "id": "ood_002",
-    "category": "out_of_distribution",
-    "question_type": "factual",
-    "image": "images/data_src_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg",
-    "question": "What are the torque specs for a Toyota Supra?",
-    "expected_behavior": "decline - this is BMW documentation",
-    "is_critical": true,
-    "notes": "Wrong vehicle - should recognize and decline"
-  },
-  {
-    "id": "ood_003",
-    "category": "out_of_distribution",
-    "question_type": "factual",
-    "image": "images/data_src_Getrag265_5_Rebuild_ShiftBMW_003.jpg",
-    "question": "Is this transmission compatible with a Honda Civic?",
-    "expected_behavior": "decline - BMW/Getrag transmission not Honda compatible",
-    "is_critical": true,
-    "notes": "Cross-platform compatibility - should decline"
+    "category": "hallucination_detection",
+    "question": "What is the torque specification for the spark plugs in this distributor section?",
+    "expected_behavior": "decline - spark plug torque not shown in this distributor specifications table",
+    "notes": "Tests that model doesn't hallucinate information not present in the table",
+    "id": "hallucination_detection_011",
+    "image": "images/raw_12_-_Engine_Electrical_Equipment_12-01.jpg",
+    "is_critical": false
   }
 ]
