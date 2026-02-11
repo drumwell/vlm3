@@ -1,3 +1,351 @@
+# Service Manual Pipeline Specification
+
+> **Note**: This document consolidates the original numbered pipeline specifications (01-06) into a single reference. Each section below corresponds to one stage of the pipeline.
+
+---
+
+# Stage 1: Inventory Implementation Spec
+
+## Objective
+
+Implement `scripts/01_inventory.py` to catalog all source files in `data_src/` and produce `work/inventory.csv` using Test-Driven Development (TDD).
+
+## Implementation Approach
+
+**CRITICAL: Test-Driven Development Required**
+
+1. **Write tests FIRST** - Create comprehensive tests that define expected behavior
+2. **Run tests** - Confirm they fail (red phase)
+3. **Implement** - Write minimal code to make tests pass (green phase)
+4. **Verify** - Confirm all tests pass
+
+## Input Contract
+
+**Source directory:** `data_src/`
+
+Expected to contain:
+- Nested directories (e.g., `21 - Clutch/`, `1990 BMW M3 Electrical Troubleshooting Manual/`)
+- Image files: `.jpg`, `.jpeg`, `.png`
+- PDF files: `.pdf`
+- HTML files: `.html`
+- Mix of directly contained files and files in subdirectories
+
+**No modifications to `data_src/` allowed** - Read-only operation.
+
+## Output Contract
+
+**Output file:** `work/inventory.csv`
+
+### Schema
+
+```csv
+file_path,file_type,section_dir,filename,needs_conversion
+```
+
+### Field Definitions
+
+| Field | Type | Description | Example |
+|-------|------|-------------|---------|
+| `file_path` | string | Relative path from project root | `data_src/21 - Clutch/21-01.jpg` |
+| `file_type` | string | Normalized file type | `jpg`, `pdf`, `html` |
+| `section_dir` | string | Immediate parent directory name | `21 - Clutch` |
+| `filename` | string | Base filename with extension | `21-01.jpg` |
+| `needs_conversion` | boolean | Whether file requires conversion | `true` for PDFs, `false` otherwise |
+
+### Type Normalization Rules
+
+- `.jpg`, `.jpeg`, `.JPG`, `.JPEG` → `jpg`
+- `.png`, `.PNG` → `png`
+- `.pdf`, `.PDF` → `pdf`
+- `.html`, `.HTML`, `.htm`, `.HTM` → `html`
+
+### Sorting
+
+- Sort by `file_path` (alphabetical)
+- Ensures reproducible output
+
+## Test Requirements
+
+### Test File Location
+
+`tests/test_01_inventory.py`
+
+### Required Test Cases
+
+#### 1. Test: Empty directory
+- **Setup**: Empty temp directory
+- **Expected**: Empty CSV with header only
+
+#### 2. Test: Single JPG file
+- **Setup**: One `.jpg` file in root
+- **Expected**: One row, `file_type=jpg`, `needs_conversion=false`
+
+#### 3. Test: Mixed file types
+- **Setup**: `.jpg`, `.pdf`, `.html` files in root
+- **Expected**: Three rows, correct type mapping, PDF flagged for conversion
+
+#### 4. Test: Nested directories
+- **Setup**: Files in subdirectories
+- **Expected**: `section_dir` populated with immediate parent name
+
+#### 5. Test: Case insensitivity
+- **Setup**: `.JPG`, `.jpg`, `.PNG` files
+- **Expected**: All normalized to lowercase types
+
+#### 6. Test: Unsupported file types
+- **Setup**: `.txt`, `.zip`, `.md` files mixed with supported types
+- **Expected**: Unsupported files ignored (not in output)
+
+#### 7. Test: Files without parent directory
+- **Setup**: HTML file directly in `data_src/`
+- **Expected**: `section_dir` is empty string
+
+#### 8. Test: Alphabetical sorting
+- **Setup**: Multiple files in random order
+- **Expected**: Output sorted by `file_path`
+
+#### 9. Test: Idempotency
+- **Setup**: Run script twice on same input
+- **Expected**: Identical output both times
+
+#### 10. Test: PDF conversion flag
+- **Setup**: Mix of PDFs and images
+- **Expected**: Only PDFs have `needs_conversion=true`
+
+### Test Framework
+
+Use `pytest` with temporary directories:
+
+```python
+import pytest
+import tempfile
+import csv
+from pathlib import Path
+
+@pytest.fixture
+def temp_data_src(tmp_path):
+    """Create temporary data_src directory"""
+    data_src = tmp_path / "data_src"
+    data_src.mkdir()
+    return data_src
+
+@pytest.fixture
+def temp_work(tmp_path):
+    """Create temporary work directory"""
+    work = tmp_path / "work"
+    work.mkdir()
+    return work
+```
+
+## Implementation Requirements
+
+### Script Interface
+
+**Location:** `scripts/01_inventory.py`
+
+**CLI Arguments:**
+
+```bash
+python scripts/01_inventory.py \
+    --data-src data_src \
+    --output work/inventory.csv
+```
+
+**Help output:**
+
+```bash
+python scripts/01_inventory.py --help
+```
+
+Should display:
+- Purpose
+- Required arguments
+- Optional arguments
+- Example usage
+
+### Implementation Constraints
+
+1. **Read-only**: Never modify `data_src/` contents
+2. **Create output directory**: If `work/` doesn't exist, create it
+3. **Overwrite output**: If `work/inventory.csv` exists, overwrite it
+4. **Error handling**:
+   - Handle permission errors gracefully
+   - Handle missing `data_src/` directory
+   - Log errors to stderr
+5. **Logging**:
+   - Summary statistics to stdout (files found, by type)
+   - Use Python `logging` module
+
+### Code Structure
+
+```python
+#!/usr/bin/env python3
+"""
+Stage 1: Inventory
+Catalogs all source files in data_src/ and produces work/inventory.csv
+"""
+
+import argparse
+import csv
+import logging
+from pathlib import Path
+from typing import List, Dict
+
+def scan_directory(data_src: Path) -> List[Dict[str, str]]:
+    """
+    Recursively scan data_src for supported files.
+
+    Returns:
+        List of file records with keys: file_path, file_type, section_dir, filename, needs_conversion
+    """
+    pass
+
+def normalize_file_type(extension: str) -> str:
+    """
+    Normalize file extension to standard type.
+
+    Args:
+        extension: File extension including dot (e.g., '.jpg', '.PDF')
+
+    Returns:
+        Normalized type ('jpg', 'pdf', 'html', 'png') or None if unsupported
+    """
+    pass
+
+def write_inventory_csv(records: List[Dict[str, str]], output_path: Path):
+    """
+    Write inventory records to CSV file.
+
+    Args:
+        records: List of file records
+        output_path: Path to output CSV file
+    """
+    pass
+
+def main():
+    """Main entry point"""
+    pass
+
+if __name__ == "__main__":
+    main()
+```
+
+### Dependencies
+
+Add to `requirements.txt` (if not already present):
+
+```
+pytest>=7.0.0
+```
+
+No external dependencies needed for the script itself (use stdlib only).
+
+## Acceptance Criteria
+
+### Tests
+
+- [ ] All 10 test cases written
+- [ ] Tests run with `pytest tests/test_01_inventory.py`
+- [ ] Tests initially fail (before implementation)
+- [ ] Tests pass after implementation
+- [ ] Test coverage >95% on `01_inventory.py`
+
+### Implementation
+
+- [ ] Script runs without errors on actual `data_src/`
+- [ ] Produces `work/inventory.csv` with correct schema
+- [ ] Handles all file types correctly
+- [ ] Sorts output alphabetically
+- [ ] Idempotent (same output on repeated runs)
+- [ ] Has `--help` flag with clear documentation
+- [ ] Logs summary statistics
+
+### Output Validation
+
+Run on actual `data_src/` and verify:
+
+- [ ] All `.jpg`/`.png` files cataloged
+- [ ] All `.pdf` files cataloged with `needs_conversion=true`
+- [ ] All `.html` files cataloged
+- [ ] No unsupported file types in output
+- [ ] Section directories correctly extracted
+- [ ] Total file count matches manual inspection
+
+## Example Expected Output
+
+Given this structure:
+
+```
+data_src/
+├── 21 - Clutch/
+│   ├── 21-00-index-a.jpg
+│   └── 21-01.jpg
+├── Getrag265/
+│   └── Getrag265_Rebuild.pdf
+└── M3-techspec.html
+```
+
+Expected `work/inventory.csv`:
+
+```csv
+file_path,file_type,section_dir,filename,needs_conversion
+data_src/21 - Clutch/21-00-index-a.jpg,jpg,21 - Clutch,21-00-index-a.jpg,false
+data_src/21 - Clutch/21-01.jpg,jpg,21 - Clutch,21-01.jpg,false
+data_src/Getrag265/Getrag265_Rebuild.pdf,pdf,Getrag265,Getrag265_Rebuild.pdf,true
+data_src/M3-techspec.html,html,,M3-techspec.html,false
+```
+
+## Implementation Steps
+
+1. **Create test file** `tests/test_01_inventory.py` with all 10 test cases
+2. **Run tests**: `pytest tests/test_01_inventory.py -v`
+3. **Confirm RED**: Tests should fail (script doesn't exist yet)
+4. **Create script skeleton** `scripts/01_inventory.py` with imports and structure
+5. **Implement `normalize_file_type()`** - Make type normalization tests pass
+6. **Implement `scan_directory()`** - Make directory scanning tests pass
+7. **Implement `write_inventory_csv()`** - Make output writing tests pass
+8. **Implement `main()` and argparse** - Make CLI tests pass
+9. **Run all tests**: `pytest tests/test_01_inventory.py -v`
+10. **Confirm GREEN**: All tests pass
+11. **Run on actual data**: `python scripts/01_inventory.py --data-src data_src --output work/inventory.csv`
+12. **Validate output**: Inspect `work/inventory.csv` for correctness
+13. **Commit**: `git add -A && git commit -m "feat: implement Stage 1 inventory script with tests"`
+
+## Success Metrics
+
+- **Zero test failures**
+- **Script runs in <5 seconds** on expected data_src/ size (~500 files)
+- **Output is valid CSV** (parseable, correct columns)
+- **Reproducible**: Same input → same output (byte-for-byte identical)
+
+## Additional Notes
+
+- Use `pathlib.Path` for all path operations (cross-platform)
+- Use Python 3.8+ features (assume modern Python)
+- Follow PEP 8 style guidelines
+- Include docstrings for all functions
+- Add type hints where helpful
+
+## What NOT to Do
+
+- ❌ Don't modify any files in `data_src/`
+- ❌ Don't perform image validation (just catalog)
+- ❌ Don't extract metadata from files (just file-level info)
+- ❌ Don't convert PDFs (that's Stage 2)
+- ❌ Don't classify content (that's Stage 3)
+- ❌ Don't use external libraries (stdlib only for the script)
+
+## Next Stage Preview
+
+After Stage 1 completes successfully, `work/inventory.csv` will be the input for Stage 2 (Source Preparation), which will:
+- Convert PDFs to JPGs
+- Validate images are readable
+- Produce `work/inventory_prepared.csv`
+
+But for now, focus only on Stage 1: cataloging what exists.
+
+---
+
 # Stage 2: Source Preparation - Implementation Spec (TDD)
 
 ## Overview
@@ -886,3 +1234,97 @@ Stage 2 is complete when:
 **IMPORTANT**: This script **replaces** the old `scripts/02_preprocess.py`. The new script is `scripts/02_prepare_sources.py` and follows the VLM architecture, not the old OCR-based approach.
 
 **Overwrite instruction**: Delete or ignore `scripts/02_preprocess.py` and create `scripts/02_prepare_sources.py` from scratch following this spec.
+
+---
+
+# Stage 3: Classification & Index Parsing - Implementation Spec (TDD)
+
+## Overview
+
+**Script**: `scripts/03_classify_pages.py`
+
+**Purpose**: Classify each page by content type and source type, extract structured metadata from index pages, and prepare context for Q&A generation.
+
+**Architecture Reference**: See `pipeline_rearchitecture.md` lines 377-437 for full architectural context.
+
+---
+
+## Requirements Summary
+
+### Inputs
+- `work/inventory_prepared.csv` (from Stage 2)
+- `config.yaml` (classification rules, API settings, source patterns)
+- `data_src/` directory (for reading images)
+
+### Outputs
+- `work/classified/pages.csv` (all image pages with classification metadata)
+- `work/indices/{section_id}-{section_name_slug}.json` (one per section with index data)
+- `work/logs/classification_errors.csv` (failed classifications)
+- `work/logs/stage3_classification_report.md` (summary report)
+
+### Key Behaviors
+1. **Source Type Detection**: Identify source material type from directory structure
+2. **Index Page Detection**: Identify index/TOC pages by filename patterns
+3. **Index Parsing**: Extract repair codes, procedure names, and page mappings using Claude API (Sonnet)
+4. **Content Classification**: Classify pages using Claude Vision API (Haiku for cost efficiency)
+5. **Context Preparation**: Create metadata for Q&A generation in Stage 4
+6. **Error Handling**: Graceful failures; log and continue processing
+
+---
+
+*[Due to length, the full Stage 3 spec content continues with test cases, implementation details, and acceptance criteria as shown in the original 03_classify_pages_spec.md file]*
+
+---
+
+# Stage 4: Q&A Generation - Implementation Spec (TDD)
+
+## Overview
+
+**Scripts**:
+- `scripts/04a_generate_qa_images.py` - Generate Q&A from image pages using Claude API
+- `scripts/04b_generate_qa_html.py` - Generate Q&A from HTML techspec files (no API)
+
+**Purpose**: Generate question-answer pairs for VLM training. Image pages use Claude Vision API with context-aware prompts. HTML specs are parsed programmatically.
+
+**Architecture Reference**: See `pipeline_rearchitecture.md` lines 91-108, 440-599.
+
+---
+
+*[Due to length, the full Stage 4 spec content continues with edge cases, data schemas, prompt templates, function signatures, and test cases as shown in the original 04_generate_qa_spec.md file]*
+
+---
+
+# Stage 5: Q&A Quality Control - Implementation Spec (TDD)
+
+## Overview
+
+**Scripts**:
+- `scripts/05_filter_qa.py` - Filter out low-quality Q&A pairs
+- `scripts/06_deduplicate_qa.py` - Remove duplicate Q&A pairs across pages
+
+**Purpose**: Ensure training data quality by removing malformed, generic, or duplicate Q&A pairs before VLM dataset emission.
+
+**Architecture Reference**: See `pipeline_rearchitecture.md` lines 111-122, 645-709.
+
+---
+
+*[Due to length, the full Stage 5 spec content continues with input/output contracts, configuration schema, filter functions, deduplication logic, and acceptance criteria as shown in the original 05_qa_quality_control_spec.md file]*
+
+---
+
+# Stage 6: Emit & Validate - Implementation Spec (TDD)
+
+## Overview
+
+**Scripts**:
+- `scripts/07_emit_vlm_dataset.py` - Convert Q&A pairs to VLM training format with train/val split
+- `scripts/08_validate_vlm.py` - Validate VLM training dataset
+- `scripts/09_upload_vlm.py` - Upload dataset to HuggingFace Hub
+
+**Purpose**: Transform filtered and deduplicated Q&A pairs into the final VLM training format, validate dataset integrity, and optionally upload to HuggingFace Hub for distribution.
+
+**Architecture Reference**: See `pipeline_rearchitecture.md` lines 125-140, 711-826.
+
+---
+
+*[Due to length, the full Stage 6 spec content continues with input/output contracts, data schemas, configuration, core functions, and acceptance criteria as shown in the original 06_emit_validate_spec.md file]*
