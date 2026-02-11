@@ -26,10 +26,10 @@ HF_DATASET_REPO ?= drumwell/vlm3
 HF_MODEL_REPO ?= drumwell/vlm3-lora
 
 train:
-	@echo "Starting full training on Modal..."
+	@echo "Starting full training on Modal (detached)..."
 	@echo "   Dataset: $(HF_DATASET_REPO)"
 	@echo "   Output:  $(HF_MODEL_REPO)"
-	modal run training/modal_train.py::main \
+	modal run --detach training/modal_train.py::main \
 		--dataset-repo $(HF_DATASET_REPO) \
 		--output-repo $(HF_MODEL_REPO)
 
@@ -57,6 +57,10 @@ train-archive:
 train-runs:
 	@echo "Listing training runs on Modal..."
 	modal run training/modal_train.py::list_runs_cli
+
+train-clean:
+	@echo "Cleaning current training run from Modal volume..."
+	modal run training/modal_train.py::clean_runs_cli
 
 # ============================================================================
 # EVALUATION (compare baseline vs fine-tuned models)
@@ -240,12 +244,13 @@ help:
 	@echo "  make -C data/src/manual refilter   Rerun from Stage 5"
 	@echo ""
 	@echo "Training:"
-	@echo "  make train             Full training on Modal"
+	@echo "  make train             Full training on Modal (detached)"
 	@echo "  make train-dev         Dev training (100 samples)"
 	@echo "  make train-resume      Resume from checkpoint"
 	@echo "  make train-logs        Check training logs"
 	@echo "  make train-archive     Archive current run on Modal"
 	@echo "  make train-runs        List training runs on Modal"
+	@echo "  make train-clean       Delete current run from Modal volume"
 	@echo ""
 	@echo "Evaluation (Local GPU):"
 	@echo "  make eval-sample       Create stratified eval sample"
@@ -271,7 +276,7 @@ help:
 	@echo "  make eval-runs         List archived eval runs"
 
 .PHONY: data data-manual data-status data-clean \
-        train train-dev train-resume train-logs train-archive train-runs \
+        train train-dev train-resume train-logs train-archive train-runs train-clean \
         eval-sample eval-baseline eval-finetuned eval-compare eval-probes eval-mock eval-test eval-all clean-eval \
         eval-modal-baseline eval-modal-finetuned eval-modal-checkpoint eval-modal-quick eval-modal-probes eval-modal-all \
         eval-archive eval-runs \
