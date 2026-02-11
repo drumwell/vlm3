@@ -993,3 +993,59 @@ def archive_run_cli():
         return
 
     print(f"✅ Archived to: {result['archived_to']}")
+
+
+@app.function(
+    image=modal.Image.debian_slim(python_version="3.11"),
+    volumes={"/checkpoints": volume},
+)
+def clean_runs(current: bool = False, archives: bool = False):
+    """Delete training runs from Modal volume."""
+    import shutil
+
+    deleted = []
+
+    if current:
+        path = "/checkpoints/vlm3-lora"
+        if Path(path).exists():
+            shutil.rmtree(path)
+            deleted.append(path)
+
+    if archives:
+        path = "/checkpoints/archive"
+        if Path(path).exists():
+            shutil.rmtree(path)
+            deleted.append(path)
+
+    if deleted:
+        volume.commit()
+
+    return deleted
+
+
+@app.local_entrypoint()
+def clean_runs_cli(current: bool = False, archives: bool = False, all: bool = False):
+    """
+    Delete training runs from the Modal volume.
+
+    Usage:
+        modal run training/modal_train.py::clean_runs_cli               # delete current run
+        modal run training/modal_train.py::clean_runs_cli --current      # delete current run
+        modal run training/modal_train.py::clean_runs_cli --archives     # delete archived runs
+        modal run training/modal_train.py::clean_runs_cli --all          # delete both
+    """
+    if all:
+        current = archives = True
+    if not current and not archives:
+        current = True  # default: clear the current run
+
+    print("Cleaning training runs from Modal volume...")
+    deleted = clean_runs.remote(current=current, archives=archives)
+
+    if not deleted:
+        print("Nothing to delete.")
+        return
+
+    for path in deleted:
+        print(f"  Deleted: {path}")
+    print(f"✅ Cleaned {len(deleted)} path(s)")
