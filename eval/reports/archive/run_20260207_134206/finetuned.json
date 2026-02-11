@@ -1,0 +1,4734 @@
+{
+  "eval_type": "finetuned",
+  "model": "Qwen/Qwen2-VL-7B-Instruct",
+  "adapter_repo": "drumwell/vlm3-lora",
+  "adapter_path": null,
+  "timestamp": "2026-02-09T04:38:38.198803",
+  "samples": [
+    {
+      "index": 0,
+      "question": "Which relay is responsible for the high beam headlights?",
+      "reference": "The K3 HIGH BEAM RELAY is responsible for the high beam headlights.",
+      "prediction": "K3, which is the HIGH BEAM RELAY.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.5263157894736842,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 1,
+      "question": "What special tool is shown being used in the middle left image with the wheel hub assembly?",
+      "reference": "Special Tool 33 4 047 is being used in the middle left image.",
+      "prediction": "Special Tool 33 4 047 is being used in the wheel hub assembly procedure.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.7407407407407408,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 2,
+      "question": "What is the surface condition of the bearing race?",
+      "reference": "The bearing race appears clean and polished, consistent with a new genuine bearing.",
+      "prediction": "The bearing race appears to have a machined finish with visible threading around the inner circumference.",
+      "question_type": "inspection",
+      "metrics": {
+        "rouge_l": 0.3448275862068966,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 3,
+      "question": "What procedure is mentioned for the S14/S38 B36 application?",
+      "reference": "Replace bolt and taper sleeve",
+      "prediction": "Replace bolt and taper sleeve.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 4,
+      "question": "How should the window glass be removed from the door?",
+      "reference": "Pull out window glass from above.",
+      "prediction": "Pull out window glass from above.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 5,
+      "question": "What is the initial torque specification for cylinder head bolts on the 7AZ engine?",
+      "reference": "The initial torque specification for cylinder head bolts on the 7AZ engine is 30 Nm.",
+      "prediction": "30 Nm",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.23529411764705882,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 6,
+      "question": "What three categories of components are being compared in this transmission rebuild?",
+      "reference": "Gear, Old Syncros, and New Syncros.",
+      "prediction": "Gear, Old Syncros, and New Syncros",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 7,
+      "question": "What wire color connects from the hazard switch to the combination switch?",
+      "reference": "A .75 BR (0.75 brown) wire connects from the hazard switch to the combination switch.",
+      "prediction": "A 75 BR (brown) wire connects from the hazard switch to the combination switch.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.9333333333333333,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 8,
+      "question": "What are the identification codes for the components listed under Interior Shift Elements?",
+      "reference": "1AZ for shift segment to shaft and 2AZ for detent spring on shift unit",
+      "prediction": "The identification codes are 1AZ for the shift segment to shaft and 2AZ for the detent spring on shift unit.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.8235294117647058,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 9,
+      "question": "What special tool is required for tightening the threaded sleeve after installation?",
+      "reference": "Special Tool 26 1 040 is required for tightening the threaded sleeve after finishing installation.",
+      "prediction": "Special Tool 26 1 040 is required for tightening the threaded sleeve.",
+      "question_type": "tool",
+      "metrics": {
+        "rouge_l": 0.888888888888889,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 10,
+      "question": "What should be checked during installation according to the upper right diagram instructions?",
+      "reference": "Check rubber mount (4), replacing if necessary.",
+      "prediction": "Check rubber mount (4), replacing if necessary.",
+      "question_type": "inspection",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 11,
+      "question": "What assumption is made about torque wrenches according to this specification?",
+      "reference": "This presupposes that the torque wrenches required for this are subjected to a regular inspection.",
+      "prediction": "This presupposes that the torque wrenches required for this are subjected to a regular inspection.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 12,
+      "question": "What component is labeled as 'E' in the lower diagram?",
+      "reference": "Component 'E' appears to be part of the timing chain assembly in the installation diagram.",
+      "prediction": "'S' is labeled as 'E' in the lower diagram, indicating one of the sprockets in the timing chain installation sequence.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.34285714285714286,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 13,
+      "question": "What repair action is required if some doors unlock during Operation 3?",
+      "reference": "Repair/replace the suspect Door Lock Motor circuit.",
+      "prediction": "Repair/replace the suspect Door Lock Motor.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.9333333333333333,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 14,
+      "question": "How can you identify rubber mounts for 6 cylinder and M 3 models?",
+      "reference": "Rubber mounts for 6 cylinder and M 3 models are marked with an orange paint dot.",
+      "prediction": "Rubber mounts for 6 cylinder and M 3 models are marked with an 'orange' paint dot (2).",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.9696969696969697,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 15,
+      "question": "What is the specified distance A for drilling holes in the rear side panel?",
+      "reference": "Distance A = 29.5 mm (1.161\")",
+      "prediction": "Distance A is 29.5 mm (1.161 inches).",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.8750000000000001,
+        "numeric_match": 1.0,
+        "unit_consistency": 0.75,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 16,
+      "question": "What tool is mentioned for pressing in the holders during installation?",
+      "reference": "A screwdriver is used to press in holders between beaded edge and panel on left and right sides.",
+      "prediction": "A screwdriver is used to press in the holders between the beaded edge and panel on the left and right sides.",
+      "question_type": "tool",
+      "metrics": {
+        "rouge_l": 0.923076923076923,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 17,
+      "question": "What color wire is used for the speed signal?",
+      "reference": "Black wire is used for the TD (Speed signal).",
+      "prediction": "The speed signal uses a black wire.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.375,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 18,
+      "question": "What should you check if the engine speed does not rise when the wire plug is disconnected?",
+      "reference": "Replace the idle control valve and check the code number and color code.",
+      "prediction": "Replace the idle control valve and check the code number and color code.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 19,
+      "question": "What important preparation step is mentioned for the pins and bores?",
+      "reference": "Pins and bores cleaned to remove grease.",
+      "prediction": "Pins and bores should be cleaned to remove grease before installation.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.7777777777777778,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 20,
+      "question": "What component number is shown for the lockplate installation?",
+      "reference": "Component number 30 31 506 is shown for the lockplate installation.",
+      "prediction": "Component number 30 31 506 is shown for the lockplate installation.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 21,
+      "question": "How should the roller bearing be installed on the layshaft?",
+      "reference": "Install roller bearing on layshaft that small diameter end faces up.",
+      "prediction": "Install roller bearing on layshaft that small diameter end faces up.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 22,
+      "question": "Why is ultraviolet radiation only effective in certain areas?",
+      "reference": "Ultraviolet radiation is only effective when applied direct. There is no hardening in zones of shade or on covered laminate.",
+      "prediction": "Ultraviolet radiation is only effective when applied direct. There is no hardening in zones of shade or on covered laminate.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 23,
+      "question": "What is the visual appearance of the main component in the image?",
+      "reference": "It appears as a polished metallic cylindrical shaft with a bearing assembly and ring.",
+      "prediction": "The main component appears to be a cylindrical roller assembly with a hollow center, showing the inner sleeve and outer race construction.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.33333333333333326,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 24,
+      "question": "What ground points are labeled for the rear tail light assemblies?",
+      "reference": "Ground points G300 and S324 are shown for the rear tail light ground distribution",
+      "prediction": "Ground points G300 and G104 are labeled for the rear tail light assemblies.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.7407407407407408,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 25,
+      "question": "What type of distributor rotor should not be used for radio and communication equipment shielding?",
+      "reference": "Do not use a 5 k-ohm distributor rotor for the shielding of radio and/or communication equipment.",
+      "prediction": "Do not use a 5 k-ohm distributor rotor for the shielding of radio and/or communication equipment.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 26,
+      "question": "What safety precaution must be taken when measuring resistance on the switch with wire and plug?",
+      "reference": "Ignition must be turned off while measuring.",
+      "prediction": "Ignition must be turned off while measuring.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 27,
+      "question": "What fasteners need to be removed to access the instrument components?",
+      "reference": "Unscrew bolts to access the instrument components.",
+      "prediction": "Bolts need to be unscrewed.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.3333333333333333,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 28,
+      "question": "What components need to be checked for the electric fuel pump system?",
+      "reference": "Check electric fuel pump, fuel pipes, pressure regulator and fuel pressure.",
+      "prediction": "Check the electric fuel pump, fuel pipes, pressure regulator, and fuel pressure.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.9565217391304348,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 29,
+      "question": "What should I do if the safety lamp reading is less than 10 ohms?",
+      "reference": "Check wires 1 and 29 for ground out, then measure between connection 86 on electronic relay plug and wire 29 on control unit plug.",
+      "prediction": "Check wires 1 and 29 for ground out.",
+      "question_type": "troubleshooting",
+      "metrics": {
+        "rouge_l": 0.5,
+        "numeric_match": 0.75,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 30,
+      "question": "How should speaker wires be routed during installation?",
+      "reference": "Route speaker wires from the front along standard wire harness to the place of speaker installation.",
+      "prediction": "Route speaker wires from front along standard wire harness to places of speaker installation.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.9333333333333333,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 31,
+      "question": "How should you weld all reinforcements through the provided holes?",
+      "reference": "Plug spot weld all reinforcements through provided holes.",
+      "prediction": "Plug spot weld all reinforcements through provided holes.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 32,
+      "question": "How many pins are shown on the Interior Light Timer Control connector?",
+      "reference": "The Interior Light Timer Control connector (B090001.16) shows 9 pins arranged in a 3x3 grid, numbered 1-9.",
+      "prediction": "The Interior Light Timer Control connector shows 9 pins arranged in three rows of 3 pins each.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.6111111111111113,
+        "numeric_match": 0.6666666666666666,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 33,
+      "question": "What technique is recommended if the circlip doesn't engage properly during installation?",
+      "reference": "If necessary, apply knocks on Special Tool 31 5 011 with a plastic hammer to drive in shaft until circlip engages.",
+      "prediction": "If necessary, apply knocks on Special Tool 31 5 011 with a plastic hammer to drive in shaft until circlip engages.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 34,
+      "question": "What is the purpose of component number 4 according to the diagram?",
+      "reference": "Component number 4 is the vent pipe that connects to the carbon canister in cars with catalytic converter.",
+      "prediction": "Component number 4 is the vent pipe (to carbon canister in cars with catalytic converter).",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.9090909090909091,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 35,
+      "question": "What is the final step when placing a connection with pliers?",
+      "reference": "Place the connection flush with pliers and press on to complete the installation.",
+      "prediction": "Place connection flush with pliers and press on.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.761904761904762,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 36,
+      "question": "What should you do if AM only is weak and noisy?",
+      "reference": "Remove Radio for service.",
+      "prediction": "Remove Radio for service.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 37,
+      "question": "What happens to the LED fault indicator after the alarm clears?",
+      "reference": "Depressing the test button will clear the alarm indicator, but the LED fault indicator remains on.",
+      "prediction": "The LED fault indicator remains on even after the alarm indicator clears.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.42857142857142855,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 38,
+      "question": "What do the numbered callouts 1 and 2 indicate in the temperature switch diagram?",
+      "reference": "Callout 1 indicates the electrical plug connection, and callout 2 indicates the temperature switch body.",
+      "prediction": "Callout 1 indicates the plug connection, and callout 2 indicates the temperature switch body.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.9655172413793104,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 39,
+      "question": "What is component number 15 in the shift layout drawing?",
+      "reference": "Component number 15 is the Selector lever.",
+      "prediction": "Component number 15 is the Selector lever.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 40,
+      "question": "What indicates this is a transmission disassembly procedure?",
+      "reference": "The presence of transmission shafts, gear assemblies, roll pins, and the systematic removal and organization of internal transmission components.",
+      "prediction": "The presence of gear sets, roll pins, and transmission case components being worked on indicates this is a transmission disassembly procedure.",
+      "question_type": "operation",
+      "metrics": {
+        "rouge_l": 0.45,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 41,
+      "question": "What tool is required to remove the brake disc?",
+      "reference": "A wrench socket 34 1 020 is required to remove the brake disc.",
+      "prediction": "Tool: wrench socket 34 1 020.",
+      "question_type": "tool",
+      "metrics": {
+        "rouge_l": 0.5263157894736842,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 42,
+      "question": "What are the first two steps when beginning the footwell ventilation cable replacement?",
+      "reference": "Disconnect battery ground lead, then remove and install instrument panel trim at left 51 45 180.",
+      "prediction": "Disconnect battery ground lead, then remove and install instrument panel trim at left 51 45 180.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 43,
+      "question": "If there's no voltage from light switch to check control, what should I do?",
+      "reference": "Check wires and supply electric power.",
+      "prediction": "Check wires and supply electric power.",
+      "question_type": "troubleshooting",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 44,
+      "question": "What must be cringed on cars beginning with 1988 models or when using wider tires?",
+      "reference": "The spot welded flange in the rear area of the wheel opening must be cringed.",
+      "prediction": "The spot welded flange in the rear area of the wheel opening must be cringed on cars beginning with 1988 models or when using wider tires.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.7317073170731707,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 45,
+      "question": "Which transmission mount connections use M8 screws?",
+      "reference": "The mount bracket to transmission connection uses M8 screws.",
+      "prediction": "Both the mount bracket to transmission and the transmission mounts (rubber) to body use M8 screws",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.64,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 46,
+      "question": "What is the source reference noted at the bottom of this page?",
+      "reference": "The source reference is HWB, as indicated by the asterisk notation at the bottom.",
+      "prediction": "The source reference is HWB.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.5263157894736842,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 47,
+      "question": "What important caution is given regarding the trailing arm when supporting it?",
+      "reference": "Don't damage the brake line and unscrew shock absorber on trailing arm.",
+      "prediction": "Caution! Don't damage the brake line. Unscrew shock absorber on trailing arm.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 0.9230769230769231,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 48,
+      "question": "What step involves connecting the antenna wire?",
+      "reference": "Connect the antenna wire and route the wire harness between the trim panel and side panel.",
+      "prediction": "Connect antenna wire (1) and route wire harness between trim panel and side panel.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8666666666666666,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 49,
+      "question": "What three operational states are indicated at the top of the diagram for different circuit conditions?",
+      "reference": "The three operational states are: HOT AT ALL TIMES, HOT IN START, and HOT IN RUN OR START.",
+      "prediction": "The diagram shows 'HOT AT ALL TIMES', 'HOT IN START', and 'HOT IN RUN OR START' states at the top, indicating different power distribution conditions for the instrument cluster circuits.",
+      "question_type": "operation",
+      "metrics": {
+        "rouge_l": 0.5833333333333334,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 50,
+      "question": "What are the four speaker positions shown in the solid state amplifier diagram?",
+      "reference": "The four speaker positions are left rear, left front, right rear, and right front.",
+      "prediction": "The four speaker positions are LEFT REAR, LEFT FRONT, RIGHT REAR, and RIGHT FRONT.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 51,
+      "question": "What is the first diagnostic step for fuel pressure too low?",
+      "reference": "Check fuel feed line routing and flow.",
+      "prediction": "Check fuel feed line - routing and flow.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 52,
+      "question": "What does diagram 30 18 045 demonstrate?",
+      "reference": "Diagram 30 18 045 demonstrates the tack welding process for the sleeves with several welding spots before final welding.",
+      "prediction": "Tack welding sleeves with several welding spots, then remove mufflers again and weld sleeves all around.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.45714285714285713,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 53,
+      "question": "What important note is given about holding the window?",
+      "reference": "Hold window tight.",
+      "prediction": "Hold window tight.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 54,
+      "question": "What is the final step if all electrical checks pass but tail lights still don't work?",
+      "reference": "Check plug connections on check control and replace check control if necessary.",
+      "prediction": "Check plug connections on check control and replace check control if necessary.",
+      "question_type": "troubleshooting",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 55,
+      "question": "What should be checked during installation regarding the sleeve?",
+      "reference": "Make sure sleeve (1) has perfect fit in body wall.",
+      "prediction": "Make sure sleeve (1) has perfect fit in body wall.",
+      "question_type": "inspection",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 56,
+      "question": "What units are used for all the torque measurements in this table?",
+      "reference": "All torque measurements are specified in Nm (Newton-meters)",
+      "prediction": "Nm (Newton meters)",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.5,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 57,
+      "question": "What terminal number is referenced for continuation from the top of this page?",
+      "reference": "Terminal 8 is referenced as continuing from the top of this page, as indicated by the arrow marked 'CONTINUED FROM TOP OF THIS PAGE'.",
+      "prediction": "Terminal 11 from the top of this page is referenced for continuation.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.4444444444444444,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 58,
+      "question": "How do I fix a defective rubber damper on a shock absorber?",
+      "reference": "Check/replace rubber damper.",
+      "prediction": "Check/replace rubber damper.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 59,
+      "question": "What welding method is used for the cowl panel?",
+      "reference": "Spot weld cowl panel on cowl.",
+      "prediction": "Spot weld cowl panel on cowl.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 60,
+      "question": "What should you do if the stop light switch power flow and adjustment test fails?",
+      "reference": "Adjust or replace stop light switch.",
+      "prediction": "Adjust or replace the stop light switch.",
+      "question_type": "troubleshooting",
+      "metrics": {
+        "rouge_l": 0.923076923076923,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 61,
+      "question": "What is the proper sequence for the final installation step of the central lock mechanism?",
+      "reference": "Compress drive (position A), pull down lightly (linkage play) and then tighten screw to 2 Nm (1.4 ft. lbs.), then tighten the screw installed first.",
+      "prediction": "Tighten the screw installed first, then screw in the second screw, compress the drive to position A, pull down lightly, and then tighten to 2 Nm.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.5,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 62,
+      "question": "What is the minimum delivery pump flow rate?",
+      "reference": "min. c. 1000 cm\u00b3/30s",
+      "prediction": "min. 900 cm\u00b3/30s",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.6666666666666665,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 63,
+      "question": "How does the torque specification differ between A5S 310Z applications for the guide plate/parking lock mechanism versus the pressure regulator?",
+      "reference": "The guide plate/parking lock mechanism requires 10 Nm, while the pressure regulator to valve housing requires 5 Nm with M6 screw",
+      "prediction": "A5S 310Z applications use 10 Nm for the guide plate/parking lock mechanism versus 5 Nm for the pressure regulator to valve housing.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.5777777777777778,
+        "numeric_match": 0.6666666666666666,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 64,
+      "question": "Where should cementing of the top begin according to diagram 30 54 026?",
+      "reference": "Cement the top beginning at center (1), with mark (2) running precisely along the front frame edge.",
+      "prediction": "Cement the top, beginning at center (1).",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.5833333333333334,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 65,
+      "question": "What procedure is covered by section 52 10 450?",
+      "reference": "Removing and installing back panel for left or right front seat backrest.",
+      "prediction": "Removing and installing back panel for left or right front seat backrest.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 66,
+      "question": "How do I correct flat spots appearing on tire treads?",
+      "reference": "Replace shock absorber.",
+      "prediction": "Replace the shock absorber, as a defective shock absorber is the cause.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.4,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 67,
+      "question": "What should be done with the transmission after supporting it from underneath?",
+      "reference": "Support transmission from underneath, remove cross member (5), then lower transmission to front axle carrier.",
+      "prediction": "Lower transmission to front axle carrier.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.5714285714285715,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 68,
+      "question": "What is the highest torque specification shown in the transmission mounts table?",
+      "reference": "42 Nm for the support tube to engine subframe on E36 models",
+      "prediction": "42 Nm for the support tube to engine subframe on E36 models.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 69,
+      "question": "How do I test the power supply between conn. 30 on the disconnected control relay plug and ground?",
+      "reference": "Connect voltmeter (M 01) between conn. 30 on disconnected control relay plug and ground. Voltmeter must display battery voltage.",
+      "prediction": "Connect voltmeter (M 01) between conn. 30 on disconnected control relay plug and ground. Voltmeter must display battery voltage.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 70,
+      "question": "What voltage reading should I get on pin 37 to ground when testing the power supply for control unit?",
+      "reference": "You should measure voltage with ignition ON > 10 V on pin 37 to ground (19) for power supply for control unit.",
+      "prediction": "Measure voltage with ignition ON greater than 10 V.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.4666666666666666,
+        "numeric_match": 0.3333333333333333,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 71,
+      "question": "What is the component designation for the ABS hydraulic unit?",
+      "reference": "The ABS hydraulic unit is designated as component C157.",
+      "prediction": "The ABS hydraulic unit is designated as C113 and C157.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.8421052631578948,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 72,
+      "question": "What should the nominal value display be for the rotor coil ground contact test?",
+      "reference": "\u221e display 999 k-ohms.",
+      "prediction": "The nominal value should display 999 k-ohms.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.6666666666666666,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 73,
+      "question": "What should you do if brake lines are mixed up on the hydraulic unit?",
+      "reference": "Replace hydraulic unit.",
+      "prediction": "Replace the hydraulic unit.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8571428571428571,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 74,
+      "question": "What should I check first if the starter does not work at all?",
+      "reference": "Bridge connections 30 and 50 on solenoid. If starter works, check for faulty wires and connections on starter switch or starter switch faulty. If starter does not work, turn on lights to further diagn",
+      "prediction": "Bridge connections 30 and 50 on solenoid.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.34146341463414637,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 75,
+      "question": "What is the procedure number for replacing left or right rear door window?",
+      "reference": "The procedure number is 51 34 171.",
+      "prediction": "The procedure number is 51 34 171.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 76,
+      "question": "How often does the SI run off after pressing button 10?",
+      "reference": "The SI runs off at intervals of about 10 seconds by pressing button (10).",
+      "prediction": "The SI runs off at intervals of about 10 seconds by pressing button 10.",
+      "question_type": "operation",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 77,
+      "question": "Which component has different torque specifications between E31 and other models?",
+      "reference": "The shift arm console to body connection has different torque values: 21 Nm for all except E31, and 9 Nm for E31.",
+      "prediction": "The shift arm console to body connection for E31 models requires 9 Nm compared to 21 Nm for all other models.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.5581395348837208,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 78,
+      "question": "What distance should the cement bead be produced at from the rubber seal?",
+      "reference": "Produce cement bead next to rubber seal on window all around at distance A = 5 mm (0.197\").",
+      "prediction": "The cement bead should be produced at distance A = 5 mm (0.197\") from the rubber seal.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.5142857142857143,
+        "numeric_match": 1.0,
+        "unit_consistency": 0.75,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 79,
+      "question": "What is the torque value for the control unit holder in E box?",
+      "reference": "5 Nm (ft. lbs.)",
+      "prediction": "5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 80,
+      "question": "What emission test requirement is mentioned before making CO adjustments?",
+      "reference": "First make sure that there are no faults in the engine, ignition or fuel injection before correcting the CO adjustment, and see the Troubleshooting section.",
+      "prediction": "First make sure that there are no faults in the engine, ignition or fuel injection before correcting the CO adjustment.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 0.888888888888889,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 81,
+      "question": "What wire gauge and color connects to the service interval indicator at connector C1?",
+      "reference": "1.5 GN (1.5mm green wire)",
+      "prediction": "A 5 RD/YL (5mm red/yellow) wire connects to the service interval indicator at connector C1.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.25,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 82,
+      "question": "What causes whistling noise when the sun roof is closed?",
+      "reference": "An excessive gap between the roof and sun roof front or rear can cause whistling noise with the sun roof closed.",
+      "prediction": "Excessive gap between roof and sun roof front or rear.",
+      "question_type": "troubleshooting",
+      "metrics": {
+        "rouge_l": 0.6451612903225806,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 83,
+      "question": "What are the two steps required to remove the distributor according to step 30 12 018?",
+      "reference": "Loosen nut, then pull out distributor.",
+      "prediction": "Loosen nut and pull out distributor.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8333333333333334,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 84,
+      "question": "What torque should be applied to the ribbed drive belt pulley (3AZ)?",
+      "reference": "60 Nm (ft. lbs.)",
+      "prediction": "60 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 85,
+      "question": "What specific hoses need to be loosened and pulled off according to the top section?",
+      "reference": "Loosen hose clamp (1) and hose clamp for intake hose (next to radiator), then pull off hoses. Also pull off plugs (2 and 3) and place leads aside.",
+      "prediction": "Loosen hose clamp (1) and hose clamp for intake hose (next to radiator), then pull off hoses.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.7555555555555554,
+        "numeric_match": 0.3333333333333333,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 86,
+      "question": "What type of testing setup is shown in the bottom diagram?",
+      "reference": "The bottom diagram shows testing on a disconnected central plug using test clips on windows (1) for troubleshooting purposes.",
+      "prediction": "The bottom diagram shows a testing setup for a disconnected central plug using test clips on windows.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.7777777777777778,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 87,
+      "question": "What resistance reading indicates a good circuit during a continuity test?",
+      "reference": "The ohmmeter will show the resistance across that part of the circuit. A very low resistance or zero ohms indicates good continuity.",
+      "prediction": "The ohmmeter will show zero resistance when the leads are together, indicating a continuous circuit.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.43243243243243246,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 88,
+      "question": "What caution is given regarding Poltex brake linings?",
+      "reference": "On systems with Poltex brake linings, increased braking effect.",
+      "prediction": "On systems with Poltex brake linings, there is an increased braking effect. See Rep.-Manual Gr. 34 10 014 breaking in p. brake.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 0.5625,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 89,
+      "question": "What diagram number corresponds to the door installation and gap checking step?",
+      "reference": "Diagram 30 41 145 corresponds to the door installation and gap checking step.",
+      "prediction": "Diagram number 30 41 145 shows the door installation and gap checking step.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.8461538461538461,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 90,
+      "question": "What is the connector designation for the large 30-pin connector shown in the center?",
+      "reference": "The large 30-pin connector is designated as C103 with part number B300001.00.",
+      "prediction": "The large 30-pin connector in the center is designated as C103.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.6923076923076924,
+        "numeric_match": 0.6666666666666666,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 91,
+      "question": "What diagnostic checks should be performed if the voltages are correct in Table 1?",
+      "reference": "Proceed to Table 2. Check the wire to terminal 3 for an open. Check the wire from terminal 4 for an open to ground (see schematic).",
+      "prediction": "If the voltages are correct, proceed to Table 2. Check the wire to terminal 3 for an open, and check the wire from terminal 4 for an open to ground (see schematic).",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.896551724137931,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 92,
+      "question": "Which group reference is provided for checking engine, clutch, transmission, and rear axle functions?",
+      "reference": "Group reference Gr. 34 is provided for checking function of engine, clutch, transmission, rear axle, steering, and braking in parking brake.",
+      "prediction": "Group reference Gr. 34 is provided for checking the function of engine, clutch, transmission, rear axle (325 iX also front axle), steering (wheel in straight ahead position), and cars with rear disc b",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.6666666666666665,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 93,
+      "question": "Which electric connection torque specifications are different between M4 and M5 screws on the fuel pump?",
+      "reference": "M4 screws require 1.2 Nm while M5 screws require 1.6 Nm",
+      "prediction": "The M4 screw requires 1.2 Nm while the M5 screw requires 1.6 Nm.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.9285714285714286,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 94,
+      "question": "What components are covered under reference 3AZ in this specification table?",
+      "reference": "Oil filter housing and lines on crankcase",
+      "prediction": "Oil filter housing and lines on crankcase",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 95,
+      "question": "What are the example measurement values for distances A, B, and C when measuring bearing clearances?",
+      "reference": "Distance A is 25.3 mm (0.996\"), distance B is 10.1 mm (0.398\"), and distance C is 14.0 mm (0.551\").",
+      "prediction": "Example values are: A = 25.3 mm (0.996\"), B = 10.1 mm (0.398\"), C = 15.2 mm (0.598\"), and 1.2 mm (0.047\").",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.6153846153846153,
+        "numeric_match": 0.6666666666666666,
+        "unit_consistency": 0.75,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 96,
+      "question": "What should be disconnected on versions with clutch pedal return spring?",
+      "reference": "Disconnect clutch pedal return spring on body.",
+      "prediction": "Disconnect clutch pedal return spring on body.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 97,
+      "question": "What is the Loctite number specified for installing the collar nut?",
+      "reference": "Loctite No. 270 is specified for installing the collar nut with bolt cement.",
+      "prediction": "Loctite No. 270 is specified for installing the collar nut with bolt cement.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 98,
+      "question": "What is the purpose of the holding circuit in the Motronic system?",
+      "reference": "The holding circuit makes sure that the Motronic master relay remains activated for another 3 sec. after switching off ignition lock terminal 15 and stopping the engine.",
+      "prediction": "The holding circuit makes sure that the Motronic master relay remains activated for another 3 seconds after switching off ignition lock terminal 15 and stopping the engine.",
+      "question_type": "operation",
+      "metrics": {
+        "rouge_l": 0.9629629629629629,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 99,
+      "question": "What special tools are mentioned for installing the window glass?",
+      "reference": "Special Tool 51 3 057 and a plastic scraper",
+      "prediction": "Special Tool 51 3 057 and a plastic scraper are mentioned for pressing in the rubber frame during installation.",
+      "question_type": "tool",
+      "metrics": {
+        "rouge_l": 0.6428571428571429,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 100,
+      "question": "What is the purpose of this roller assembly in the gearbox?",
+      "reference": "It serves as the main shaft roller assembly with inner sleeve and outer race components.",
+      "prediction": "This is the main shaft roller assembly inner sleeve and outer race, which is part of the bearing assembly that supports the main shaft in the gearbox.",
+      "question_type": "operation",
+      "metrics": {
+        "rouge_l": 0.47619047619047616,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 101,
+      "question": "Which page should be referenced for detailed information before starting this repair procedure?",
+      "reference": "Refer to information on page 41-001.",
+      "prediction": "Refer to information on page 41-001.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 102,
+      "question": "What are the part numbers mentioned for the test cable adapter?",
+      "reference": "Without cat: 1 684 463 124 / with cat: 1 684 463 128",
+      "prediction": "Without cat: 1 684 463 124, with cat: 1 684 463 128",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 103,
+      "question": "What wire color and size is used for terminal 86 in the Oxygen Sensor Relay?",
+      "reference": "Terminal 86 in the Oxygen Sensor Relay uses green/white wire with size 0.5 mm\u00b2.",
+      "prediction": "Terminal 86 uses green/white wire with size 0.5 mm\u00b2.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.8148148148148148,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 104,
+      "question": "What problem occurred with the second gear that led to the bearing being 'loose'?",
+      "reference": "Getting 2nd gear off managed to 'loose' a ball bearing from the syncro hub never to be found again.",
+      "prediction": "Getting 2nd gear off managed to 'loose' a ball bearing from the syncro hub never to be found again.",
+      "question_type": "troubleshooting",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 105,
+      "question": "What should you do for '3' Series Cars when testing the SI signs?",
+      "reference": "Connect printed circuit board.",
+      "prediction": "Connect the printed circuit board.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.888888888888889,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 106,
+      "question": "What connector is shown for the Fresh/Recirculating Air Relay?",
+      "reference": "The Fresh/Recirculating Air Relay uses connector B090001.17, showing the mating face with pins numbered 1-9.",
+      "prediction": "The Fresh/Recirculating Air Relay uses connector B090001.17 with a 9-pin mating face configuration.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.6470588235294118,
+        "numeric_match": 0.6666666666666666,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 107,
+      "question": "What does the author mean by 'enough to drive anyone to drink'?",
+      "reference": "This is a humorous reference to the complexity and frustration involved in keeping track of all the transmission components during disassembly and cleaning.",
+      "prediction": "The author is humorously describing the large quantity of transmission parts that were disassembled and cleaned.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.41025641025641024,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 108,
+      "question": "If the oscillograph and harmonic wave ratio check shows 'not okay', what should be done?",
+      "reference": "Replace or disassemble alternator and inspect components.",
+      "prediction": "Replace or disassemble alternator and inspect components.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 109,
+      "question": "Where can specifications for testing door lock heating power consumption be found?",
+      "reference": "See Specifications of Group 61 for testing the power consumption.",
+      "prediction": "See Specifications of Group 61 for testing the power consumption.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 110,
+      "question": "Which cylinder number's ignition lead shielded plug needs to be pulled off on M 20 engines?",
+      "reference": "Cylinder no. 6 on M 20 engines.",
+      "prediction": "Cylinder no. 6's ignition lead shielded plug needs to be pulled off on M 20 engines.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.5833333333333334,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 111,
+      "question": "What material does the component housing appear to be made from?",
+      "reference": "The housing appears to be made from cast aluminum, based on its metallic appearance and casting marks.",
+      "prediction": "The component housing appears to be made from aluminum, as indicated by its gray cast aluminum appearance.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.5882352941176471,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 112,
+      "question": "What is component number 5 in the sound system?",
+      "reference": "Component number 5 is the Speaker balance control, located along the right side of the vehicle.",
+      "prediction": "Component number 5 is the speaker balance control.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.6666666666666666,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 113,
+      "question": "What are the image numbers shown for the door lock removal procedures?",
+      "reference": "The image numbers are 30 51 046, 30 51 012, 30 51 367, 30 51 435, 30 51 013, and 30 51 014.",
+      "prediction": "The image numbers shown are 30 51 046, 30 51 012, 30 51 013, and 30 51 014.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.8292682926829269,
+        "numeric_match": 0.8888888888888888,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 114,
+      "question": "What should be placed between claws and sealing surface to avoid damage when using the special tool?",
+      "reference": "To avoid damage on sealing surface, use a piece of wood, aluminum or similar material between claws and sealing surface.",
+      "prediction": "To avoid damage on sealing surface, use a piece of wood, aluminum or similar material between claws and sealing surface.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 115,
+      "question": "What callouts are shown in the wheel balancing diagram?",
+      "reference": "The diagram shows callouts 1 and 2, indicating different measuring support positions for the control arm end balancing procedure.",
+      "prediction": "The diagram shows callouts 1 and 2 indicating the wheel positions to be balanced, with callout 1 pointing to the wheel and callout 2 showing the balancing equipment position.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.45833333333333337,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 116,
+      "question": "What should you check if both stop lights are not working?",
+      "reference": "Check if power supply from ignition lock terminal R to fuse F 12 is okay.",
+      "prediction": "Check voltage in wire from stop light switch inlet to check control terminal 54 Si.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.20000000000000004,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 117,
+      "question": "Which bolts should be unscrewed first when replacing pivot sleeves on a BMW 318i?",
+      "reference": "Unscrew bolts 1 and 2 first, then loosen bolts 3 and 4.",
+      "prediction": "Unscrew bolts 1 and 2.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.5882352941176471,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 118,
+      "question": "What should you refer to for cars with Electronic Absorber Control (EDC)?",
+      "reference": "For cars with Electronic Absorber Control (EDC), refer to information in Group 37.",
+      "prediction": "For cars with Electronic Absorber Control (EDC), refer to information in Group 37.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 119,
+      "question": "How do I test if the spring pressure properly ejects the belt insert when operating the PRESS button?",
+      "reference": "Press the PRESS button while the seat belt is fastened and check if spring pressure ejects the belt insert out of the lock.",
+      "prediction": "Operate the 'PRESS' button while the seat belt is fastened and check if spring pressure ejects the belt insert out of the lock.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.9565217391304348,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 120,
+      "question": "What is the nominal idle speed specification mentioned in the important note?",
+      "reference": "700 \u00b1 50 rpm.",
+      "prediction": "700 \u00b1 50 rpm",
+      "question_type": "parameter",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 121,
+      "question": "What type of connection should be made on the A pillar?",
+      "reference": "Braze connection on A pillar.",
+      "prediction": "Braze connection on A pillar.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 122,
+      "question": "Which terminals on the air flow meter are labeled for light load and full load?",
+      "reference": "Terminal 6 is labeled for LIGHT LOAD and terminal 2 is labeled for FULL LOAD on the air flow meter.",
+      "prediction": "Terminal 4 is labeled for light load and terminal 9 is labeled for full load on the air flow meter.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.9,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 123,
+      "question": "What part number is shown in image 30 41 646?",
+      "reference": "The image shows plug spot welding the door pillar with part number 30 41 646.",
+      "prediction": "Part number 30 41 646 is shown in the upper left image.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.3703703703703704,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 124,
+      "question": "What part number is shown for the spot weld side panel procedure?",
+      "reference": "Part number 30 41 089 is shown for the spot weld side panel procedure in trunk lid opening.",
+      "prediction": "Part number 30 41 089 is shown for the spot weld side panel procedure.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.8750000000000001,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 125,
+      "question": "What is the function of component number 12 in this assembly?",
+      "reference": "Component number 12 is the Transmission switch.",
+      "prediction": "Component number 12 is the Transmission switch.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 126,
+      "question": "What is the correct voltage reading for terminals 87 (GN/BR) and Ground when testing the Fresh/Recirculating Air Relay with the ignition switch in RUN?",
+      "reference": "Battery voltage. The correct voltage reading should be battery voltage, referenced as See 1 in the diagnosis table.",
+      "prediction": "Battery voltage.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.19999999999999998,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 127,
+      "question": "What should be checked on the distributor rotor during inspection?",
+      "reference": "Check resistance in distributor rotor. Check casting compound for cracks and burns.",
+      "prediction": "Check resistance in distributor rotor and check casting compound for cracks and burns.",
+      "question_type": "inspection",
+      "metrics": {
+        "rouge_l": 0.9600000000000001,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 128,
+      "question": "What torque specification applies to M52 engines with cast aluminum engine blocks?",
+      "reference": "40 Nm initial torque, followed by two 90\u00b0 torque angles",
+      "prediction": "40 Nm with two 90-degree torque angles",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.6666666666666665,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 129,
+      "question": "What must be disconnected on the left side before removing the rear bumper side section?",
+      "reference": "The battery ground lead must be disconnected and the bolt must be unscrewed.",
+      "prediction": "Disconnect the battery ground lead.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.4444444444444444,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 130,
+      "question": "What voltage monitoring system is connected to the solid state voltage monitor input?",
+      "reference": "The ABS Electronic Control Unit is connected to the solid state voltage monitor input via a .75 BU wire.",
+      "prediction": "The ABS Electronic Control Unit is connected to the solid state voltage monitor input via the .75 BU wire.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.9473684210526315,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 131,
+      "question": "What should the oscilloscope display show for the speed sensor?",
+      "reference": "Signal shown in the figure should be displayed. Only the shape is important when evaluating the signal - not the amplitude height.",
+      "prediction": "The signal shown in the figure should be displayed, with only the shape being important when evaluating the signal - not the amplitude height.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.909090909090909,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 132,
+      "question": "Which component is connected through connector C103?",
+      "reference": "Connector C103 is connected to the chime module circuit in this power distribution diagram.",
+      "prediction": "The CHIME MODULE from page 6131-0 is connected through connector C103.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.23076923076923075,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 133,
+      "question": "What component is covered under section 24 40?",
+      "reference": "Section 24 40 covers the Torque converter.",
+      "prediction": "Torque converter",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.4444444444444445,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 134,
+      "question": "What resistance test should I perform on socket 5?",
+      "reference": "Check socket 5 (brown) on plug for driver's door drive against car ground. Resistance \u2248 0 \u03a9?",
+      "prediction": "Check socket 5 (brown) on plug for driver's door drive against car ground. Resistance should be approximately 0 ohms.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.888888888888889,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 135,
+      "question": "What is shown in the step with part number 30 41 220?",
+      "reference": "Cut off side panel on guide plate. Remove side panel.",
+      "prediction": "The step shows cutting off the side panel on the guide plate and removing the side panel.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.7407407407407407,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 136,
+      "question": "How long should you press on the model sign firmly after heating?",
+      "reference": "5 to 10 seconds",
+      "prediction": "Press on firmly 5 to 10 seconds after heating the model sign to the specified temperature.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.4,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 137,
+      "question": "What should be added to the windshield washer fluid if necessary?",
+      "reference": "Fill with antifreeze additive if necessary",
+      "prediction": "Fill with antifreeze additive if necessary.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 138,
+      "question": "What should you do to check mirror operation after installation?",
+      "reference": "Turn on ignition and check operation using the switch positions to verify proper mirror adjustment function.",
+      "prediction": "Turn on ignition and check operation, then check function according to section 51 16 000.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.45161290322580644,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 139,
+      "question": "How often must brake fluid be replaced?",
+      "reference": "Brake fluid must be replaced annually.",
+      "prediction": "Brake fluid must be replaced annually.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 140,
+      "question": "How do you set up the tachometer for testing?",
+      "reference": "Turn selector switch (3) to 1/min (rpm) position. Turn knob (7) against the left stop; tachometer needle points to 0. Turn switch (5) to correct position.",
+      "prediction": "Turn selector switch (3) to 1/min (rpm) position, turn knob (7) against the left stop, and tachometer needle points to 0.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8571428571428572,
+        "numeric_match": 0.8,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 141,
+      "question": "What is the connector designation for the 6-pin rectangular connector shown in the wiring face view?",
+      "reference": "The 6-pin rectangular connector is designated as C240.",
+      "prediction": "The connector designation is C242.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.42857142857142855,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 142,
+      "question": "Why should tape be used in the area of the hole during installation?",
+      "reference": "To avoid damaging paint finish with burrs from drilling and to provide a better method of marking the location of the hole.",
+      "prediction": "Use tape in area of hole to avoid damaging paint finish with burrs from drilling and to provide a better method of marking the location of the hole.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.88,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 143,
+      "question": "What are the wire colors for the lock and unlock inputs to the central locking control unit?",
+      "reference": "The lock input uses .75 GN/BK (Green/Black) wire and the unlock input uses .75 GN/VI (Green/Violet) wire.",
+      "prediction": "The lock request input uses .75 GN/BK wire and the unlock request input uses .75 GN/VI wire.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.8500000000000001,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 144,
+      "question": "Which component is labeled as number 8 in the diagram?",
+      "reference": "Component number 8 is the heater core.",
+      "prediction": "Number 8 identifies the heater core.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.7692307692307692,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 145,
+      "question": "What is the resistance specification when testing pins 4 and 5 of the push buttons for ground?",
+      "reference": "The resistance should be \u03a9 \u2248 0 (approximately 0 ohms).",
+      "prediction": "The resistance should be approximately 0 ohms (\u03a9 \u2248 0).",
+      "question_type": "parameter",
+      "metrics": {
+        "rouge_l": 0.875,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 146,
+      "question": "Where is the G200 PARTIAL ground point located according to the diagram?",
+      "reference": "The G200 PARTIAL ground point is located under the left side of dash, above brake pedal.",
+      "prediction": "The G200 PARTIAL ground point is located under the left side of the dash, above the brake pedal.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.9411764705882353,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 147,
+      "question": "What type of shift console is being serviced according to the section heading?",
+      "reference": "An aluminum shift console is being serviced according to section 25 11 211.",
+      "prediction": "Aluminum Shift Console.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.375,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 148,
+      "question": "What is the purpose of applying anti-drumming compound to the wheel house?",
+      "reference": "The anti-drumming compound is sprayed out on the wheel house to reduce noise and vibration.",
+      "prediction": "The anti-drumming compound is used to spray out the wheel house to reduce noise.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.8387096774193549,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 149,
+      "question": "What marking indicates the outside of the tire?",
+      "reference": "The outside of the tire is marked and should be mounted on the correct side, especially in case of asymmetric tires.",
+      "prediction": "The \"outside\" of these tires is marked with a green dot on the tire that must be aligned with the punch mark in the rim flange.",
+      "question_type": "inspection",
+      "metrics": {
+        "rouge_l": 0.3829787234042554,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 150,
+      "question": "What important note is given about the spacer installation?",
+      "reference": "Important! Spacer. Installation: Mount guide sleeve in such a manner that oil groove is aligned with oil bore in the transmission case.",
+      "prediction": "The spacer must be installed with a surface sealing compound.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 0.18749999999999997,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 151,
+      "question": "What figure shows the brazing procedure for the entrance?",
+      "reference": "Figure 30 41 244 shows braze entrance along outside edge.",
+      "prediction": "Figure 30 41 244 shows the brazing procedure for the entrance along the outside edge.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.8,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 152,
+      "question": "Which pin number corresponds to the oil level static connection?",
+      "reference": "Pin 2 corresponds to the oil level static connection with green/yellow wire colors.",
+      "prediction": "Pin number 2 corresponds to the oil level static connection.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.75,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 153,
+      "question": "What components should be installed and what should be checked afterward for the trunk area?",
+      "reference": "Install trunk lid and top lid. Check gaps.",
+      "prediction": "Install the trunk lid and top lid, then check the gaps.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8421052631578948,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 154,
+      "question": "What is the torque specification for the control pipe to bypass valve/turbocharger?",
+      "reference": "The control pipe to bypass valve/turbocharger (9AZ) requires 30 Nm of torque using M30 threading.",
+      "prediction": "30 Nm for M30 type.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.2857142857142857,
+        "numeric_match": 0.6666666666666666,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 155,
+      "question": "What does component 'a' represent in the SRS system?",
+      "reference": "SRS steering wheel with impact shell and impact pad, in which the airbag, gas generator and ignition pill are integrated.",
+      "prediction": "Component 'a' is the SRS steering wheel with impact shell and impact pad, in which the airbag, gas generator and ignition pill are integrated.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.9090909090909091,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 156,
+      "question": "What is the torque specification for the increment wheel on crankshaft?",
+      "reference": "M5 10.9 screw with 13 Nm (ft. lbs.) torque specification.",
+      "prediction": "13 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.5333333333333333,
+        "numeric_match": 0.3333333333333333,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 157,
+      "question": "What does it mean if both voltage tests pass in the idle control unit testing?",
+      "reference": "Voltage supply and ground of idle speed control unit okay!",
+      "prediction": "If both voltage supply and ground tests pass, the voltage supply and ground of the idle speed control unit are okay.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.6451612903225806,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 158,
+      "question": "What is the second adjustment needed after installing new bearings?",
+      "reference": "The second adjustment needed is the backlash of ring gear.",
+      "prediction": "The second adjustment needed is the backlash of the ring gear.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.9523809523809523,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 159,
+      "question": "During the first 1,000 km break-in period, what is the maximum permissible speed in 4th gear?",
+      "reference": "Never faster than 2/3rds of the max. permissible speed in 4th gear (direct). For cars with a five speed manual transmission, this applies to 5th gear.",
+      "prediction": "Never faster than 2/3rds of the max. permissible speed in 4th gear (direct). For cars with a five speed manual transmission (with overdrive) 2/3rds of the max. permissible speed in 4th gear will be ap",
+      "question_type": "operation",
+      "metrics": {
+        "rouge_l": 0.7462686567164178,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 160,
+      "question": "What is the wire gauge and color for the connection going to the cigar lighter?",
+      "reference": "The wire going to the cigar lighter is 2.5 RD/YL (2.5mm\u00b2 Red/Yellow).",
+      "prediction": "The wire gauge is 1.0 RD/GN (red/green)",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.38461538461538464,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 161,
+      "question": "Which charging hose connects to the low pressure side of the air conditioner?",
+      "reference": "The blue charging hose (1) connects on the low pressure side (thick pipe) of the air conditioner.",
+      "prediction": "Connect blue charging hose (1) on the low pressure side (thick pipe) of the air conditioner.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.9090909090909091,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 162,
+      "question": "What tool operation is required to begin the support spring strut installation?",
+      "reference": "Unscrew nuts to begin the installation process.",
+      "prediction": "Unscrew nuts.",
+      "question_type": "tool",
+      "metrics": {
+        "rouge_l": 0.4444444444444445,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 163,
+      "question": "What happens after you bridge the relay terminals and press the button during pressure testing?",
+      "reference": "After bridging terminals 87 and 30 and pressing the button, the fuel pump runs and you can check the delivery pressure.",
+      "prediction": "The fuel pump runs, and you should check the delivery pressure.",
+      "question_type": "operation",
+      "metrics": {
+        "rouge_l": 0.6249999999999999,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 164,
+      "question": "What section of the manual covers Interior Shift Components?",
+      "reference": "Section 23 31",
+      "prediction": "Section 23 31",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 165,
+      "question": "What should you do after pulling off the foil?",
+      "reference": "Build up laminate to final thickness by cutting repair bandages to size, hardening and grinding inbetween as necessary.",
+      "prediction": "Build up laminate to final thickness by cutting repair bandages to size, hardening and grinding inbetween as necessary.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 166,
+      "question": "What alternative part was used to resolve the reverse shimming problem?",
+      "reference": "A shim from a classic Mini suspension ball joint was used to resolve the reverse shimming issue.",
+      "prediction": "A shim from a classic Mini suspension ball joint was used.",
+      "question_type": "troubleshooting",
+      "metrics": {
+        "rouge_l": 0.7857142857142858,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 167,
+      "question": "What connector number is shown for the diagnostic connector?",
+      "reference": "The diagnostic connector is labeled as connector number 10.",
+      "prediction": "The diagnostic connector is labeled as connector number 9, 8, and 10.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.8571428571428571,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 168,
+      "question": "What are the two ground distribution points shown in this power distribution diagram?",
+      "reference": "The two ground distribution points are G200 (PARTIAL) and G300.",
+      "prediction": "The two ground distribution points are G200 (PARTIAL) and G300.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 169,
+      "question": "What should you be careful not to do when removing the temperature switch?",
+      "reference": "Don't bend the temperature sensor when removing the temperature switch and pulling the temperature sensor out of the housing.",
+      "prediction": "Don't bend temperature sensor.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 0.4,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 170,
+      "question": "What special tools are needed for checking between the feed pipe and hose?",
+      "reference": "Install Special Tools 13 3 060 and 13 3 064 between feed pipe and hose.",
+      "prediction": "Install Special Tools 13 3 060 and 13 3 064 between feed pipe and hose.",
+      "question_type": "tool",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 171,
+      "question": "What is component number 2 shown in the second diagram?",
+      "reference": "Component number 2 is a holder that needs to be inserted, pressed out and secured in position.",
+      "prediction": "Component number 2 is the holder that needs to be inserted, pressed out and secured in position.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.9411764705882353,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 172,
+      "question": "What is the wire gauge specification for the connection to the Ignition Switch?",
+      "reference": "The connection to the Ignition Switch uses a 75 BR wire gauge.",
+      "prediction": "The wire gauge specification for the Ignition Switch connection is .75 BR.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.5,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 173,
+      "question": "Which fuse number controls the horn circuit?",
+      "reference": "Fuse number 7 controls the horn circuit and is rated at 15A.",
+      "prediction": "Fuse number 7 controls the horn circuit.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.7368421052631579,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 174,
+      "question": "What should be checked regarding the air flow sensor's code number and manufacturing date?",
+      "reference": "Check the code number and manufacturing date, then replace the air flow sensor if needed.",
+      "prediction": "Check code number and manufacturing date, as these are critical specifications that must be verified before replacement.",
+      "question_type": "inspection",
+      "metrics": {
+        "rouge_l": 0.43749999999999994,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 175,
+      "question": "What is the proper procedure for installing the clutch disc?",
+      "reference": "Place clutch disc over dowel pins. Tighten mounting bolts separately and uniformly to specified torque.",
+      "prediction": "Place the clutch disc over the dowel pins and tighten the mounting bolts separately and uniformly to the specified torque.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8571428571428571,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 176,
+      "question": "What diagram number corresponds to the sunroof strip removal procedure?",
+      "reference": "Diagram number 30 51 422 shows the sunroof strip removal procedure.",
+      "prediction": "Diagram number 30 51 422.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.625,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 177,
+      "question": "What type of component is shown in the center of the image?",
+      "reference": "The component shown in the center is a wheel bearing, identifiable by its double-row ball bearing design and BMW part numbering.",
+      "prediction": "A cylindrical bearing component with what appears to be ball bearings inside, mounted in a metal housing.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.20512820512820512,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 178,
+      "question": "Which generation of SI does not require the LED to go out in 100 meter intervals?",
+      "reference": "The LED must not go out in 100 meter intervals for final display value (Not applicable to 2nd generation SI).",
+      "prediction": "The 2nd generation SI does not require the LED to go out in 100 meter intervals, as it is not applicable to that generation.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.5454545454545454,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 179,
+      "question": "What does this component's condition indicate about the transmission's maintenance history?",
+      "reference": "The presence of black grime everywhere suggests potential maintenance issues or contamination despite apparently clean oil.",
+      "prediction": "The presence of black grime despite what appears to be relatively clean oil suggests poor transmission maintenance history, with contamination likely introduced through seals or other components.",
+      "question_type": "troubleshooting",
+      "metrics": {
+        "rouge_l": 0.37209302325581395,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 180,
+      "question": "What special tools are needed to drive in the pilot bearing during crankshaft installation?",
+      "reference": "Special Tools 11 2 030 and 00 5 500 are needed to drive in the pilot bearing.",
+      "prediction": "Special Tools 11 2 030 and 00 5 500 are needed to drive in the pilot bearing.",
+      "question_type": "tool",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 181,
+      "question": "What should be checked for around the body and rubber frame?",
+      "reference": "Check for uniform spacing between body and rubber frame all around, preloading window with adhesive tape and rolls of foam rubber if necessary.",
+      "prediction": "Check for uniform spacing between body and rubber frame all around.",
+      "question_type": "inspection",
+      "metrics": {
+        "rouge_l": 0.6470588235294118,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 182,
+      "question": "What is the purpose of applying anti-drumming compound?",
+      "reference": "The anti-drumming compound is applied to reduce noise and vibration from the underside of the car, wheel housings, and tail panel.",
+      "prediction": "The anti-drumming compound is applied to reduce noise from the vehicle's undercarriage components.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.5945945945945945,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 183,
+      "question": "What screw size and torque value is specified for A4S 270R/A4S 310R/A5S 310Z/A5S 300J/A5S 440Z/A5S 560Z transmission types?",
+      "reference": "These transmission types use M10 screws torqued to 45 Nm.",
+      "prediction": "M10 screw size with 45 Nm torque",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.47058823529411764,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 184,
+      "question": "What is the important note about guiding the synchromesh ring?",
+      "reference": "Guide in synchromesh ring with tabs in sliding sleeve.",
+      "prediction": "The important note states to guide in synchromesh ring with tabs in sliding sleeve.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.782608695652174,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 185,
+      "question": "What are the numbered positions in the rear tail light assembly for the middle image?",
+      "reference": "Position 1 is turn signal, 2 is blank, 3 is tail light, 4 is stop light, and 5 is backup light.",
+      "prediction": "The numbered positions are 1 (Turn signal), 2 (-), 3 (Tail light), 4 (Stop light), and 5 (Backup light).",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.7692307692307692,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 186,
+      "question": "What are the diagram numbers visible in the door lock removal images?",
+      "reference": "30 51 122, 30 51 436, and 30 51 489",
+      "prediction": "The diagram numbers visible are 30 51 122 and 30 51 436.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.5454545454545454,
+        "numeric_match": 0.8888888888888888,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 187,
+      "question": "What special tool is referenced for driving in the radial oil seal with the part number 23 1 240?",
+      "reference": "Special Tool 23 1 240 is used for driving in the radial oil seal, as shown in the installation procedure.",
+      "prediction": "Special Tool 23 1 240 is referenced for driving in the radial oil seal.",
+      "question_type": "tool",
+      "metrics": {
+        "rouge_l": 0.7647058823529412,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 188,
+      "question": "What are the main sections covered in this checking procedure?",
+      "reference": "The procedure covers: 1) Checking Complete Instrument Cluster, 1.1) Connecting Simulator, and 1.1.1) 3 Series Cars.",
+      "prediction": "The main sections are: 1.0 Checking Complete Instrument Cluster, 1.1 Connecting Simulator, and 1.1.1 3 Series Cars.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.8500000000000001,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 189,
+      "question": "What applications use the M8 10.9 34 Nm specification for clutch disc and drive plate?",
+      "reference": "All applications and specifically S14/S38 B36",
+      "prediction": "All applications listed",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.4,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 190,
+      "question": "How should the drive be engaged during installation?",
+      "reference": "Engage drive in connecting link and hold with a screw (screw is not tightened).",
+      "prediction": "Engage drive in connecting link and hold with a screw (screw is not tightened).",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 191,
+      "question": "If I need to access the power windows circuit, which terminal should I check on the C302 connector?",
+      "reference": "You should check terminal Q on the C302 connector to access the power windows circuit.",
+      "prediction": "Terminal Q on the C302 connector is used for the power windows circuit.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.7142857142857142,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 192,
+      "question": "Which pin and wire color should be checked on the push buttons?",
+      "reference": "Pin 3 (green/gray) of push buttons.",
+      "prediction": "Pin 3 (green/gray)",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.7272727272727273,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 193,
+      "question": "What is the first step in removing the rear seat cushion and backrest?",
+      "reference": "Remove rear seat cushion and backrest - 52 20 000.",
+      "prediction": "Remove rear seat cushion and backrest using part number 52 20 000.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8571428571428571,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 194,
+      "question": "What wire color carries the hot supply from the unloader relay K5 to the heated seat system?",
+      "reference": "A 2.5 WT/BR (white/brown) wire carries the hot supply from the unloader relay K5.",
+      "prediction": "A 2.5 WT/BR (white/blue) wire carries the hot supply from the unloader relay K5.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.9411764705882353,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 195,
+      "question": "What type of nuts should be replaced when working with control arms?",
+      "reference": "Replace self-locking nuts when working with control arms.",
+      "prediction": "Self-locking nuts should be replaced when working with control arms.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.7999999999999999,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 196,
+      "question": "What unit of measurement is used for the oxygen sensor torque specification?",
+      "reference": "Nm (Newton meters)",
+      "prediction": "Nm (Newton meters)",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 197,
+      "question": "Which engine types use the higher torque specification of 34 Nm for vibration damper installation?",
+      "reference": "S38 B36 and S38 B 38 engines both use 34 Nm torque specification.",
+      "prediction": "S38 B36 and S38 B 38 engines use the higher torque specification of 34 Nm.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.7142857142857142,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 198,
+      "question": "What is the page reference for radiator removal and installation procedures?",
+      "reference": "Radiator removal and installation procedures are covered on pages 17-4 and 17-4.1.",
+      "prediction": "Page 17-4 for radiator removal and installation procedures.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.4166666666666667,
+        "numeric_match": 0.75,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 199,
+      "question": "What page reference is given for the selector lever complete with base removal and installation for automatic transmission?",
+      "reference": "The page reference for selector lever complete with base removal and installation for automatic transmission is 25-16.",
+      "prediction": "Page 25-17 for version with shift rod, page 25-18 for version with cable (all wheel drive).",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.2222222222222222,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 200,
+      "question": "What type of specifications are contained in this section?",
+      "reference": "This section contains tightening torques specifications for various components.",
+      "prediction": "Tightening Torques specifications are contained in this section.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.35294117647058826,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 201,
+      "question": "What part number should be used when replacing the dimmer relay for display issues when switching on lights?",
+      "reference": "Only install a diode relay, Part No. 61 31 1 373 154.",
+      "prediction": "Part No. 61 31 1 373 154.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.7368421052631579,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 202,
+      "question": "How many pins does the sunroof switch connector have?",
+      "reference": "The sunroof switch connector has 8 pins with numbered positions 1, 3, 4, 5, and 8 visible.",
+      "prediction": "The sunroof switch connector has 8 pins arranged in two rows of 4 pins each.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.5,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 203,
+      "question": "What precaution should be taken regarding poisonous vapors during galvanized metal work?",
+      "reference": "Make sure of thorough extraction of poisonous vapors, as the welding smoke contains poisonous zinc oxide.",
+      "prediction": "Make sure of thorough extraction of poisonous vapors and remove burnt residual zinc completely.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 0.6000000000000001,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 204,
+      "question": "What is the wire color and gauge for the connection from fuse 27 to the power distribution box?",
+      "reference": "1.5 RD/BK (1.5mm red/black wire)",
+      "prediction": "The connection uses a 1.5 RD/BK (red/black) wire.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.7000000000000001,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 205,
+      "question": "What is the torque specification for screws on detent plate?",
+      "reference": "9 Nm for transmission type ZF S-5-16/5 S D 310 Z.",
+      "prediction": "9 Nm for ZF S-5-16/S 5 D 310 Z transmissions.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.8148148148148148,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 206,
+      "question": "What torque specification is used for the angle impulse sensor on cylinder head?",
+      "reference": "5.0 Nm (ft. lbs.)",
+      "prediction": "5.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 207,
+      "question": "What component covers the speaker in the installed assembly?",
+      "reference": "The speaker mask (component 2) covers the speaker in the installed assembly.",
+      "prediction": "The speaker mask (component 2) covers the speaker.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.8,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 208,
+      "question": "What important caution is given regarding the soldering process?",
+      "reference": "Excessive heat from the soldering iron would destroy the diodes.",
+      "prediction": "Excessive heat from the soldering iron would destroy the diodes.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 209,
+      "question": "What should you do with brake fluid when working on the ABS system?",
+      "reference": "Catch brake fluid and keep it off of clothes or painted parts.",
+      "prediction": "Catch brake fluid and keep it off of clothes or painted parts.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 210,
+      "question": "What type of connection is made at connector C202?",
+      "reference": "C202 is labeled as an accessory connector.",
+      "prediction": "Connector C202 shows a connection to the on-board computer module with a 5 BR/YL wire.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.08333333333333333,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 211,
+      "question": "What type of bolts are used for the door lock adjustment?",
+      "reference": "Torx bolts.",
+      "prediction": "Torx bolts are used for the door lock adjustment.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.3636363636363636,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 212,
+      "question": "What is the first step shown in the procedure?",
+      "reference": "Disconnect exhaust assembly and suspend from car with a piece of wire.",
+      "prediction": "Disconnect exhaust assembly and suspend from car with a piece of wire.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 213,
+      "question": "What does it indicate if pin 1 (black) and pin 8 (violet) don't have voltage or ground while operating the window?",
+      "reference": "The push button is not switching voltage or ground through. Check push button, replacing if necessary.",
+      "prediction": "Push button not switching voltage or ground through. Check push button, replacing if necessary.",
+      "question_type": "troubleshooting",
+      "metrics": {
+        "rouge_l": 0.9333333333333333,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 214,
+      "question": "What are the first steps to begin removing the radio?",
+      "reference": "Lift out the radio mask or remove the radio completely.",
+      "prediction": "Lift out radio mask or remove radio, then open glove box and pull out pins (1) of both retaining straps.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.4666666666666667,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 215,
+      "question": "What is the second voltage test in the idle control unit checking procedure?",
+      "reference": "Connect voltmeter (M 01) between terminal 2 and terminal 4 with ignition turned on. The voltmeter should display at least 9 volts.",
+      "prediction": "Connect voltmeter (M 01) between terminal 2 and terminal 4 with ignition on. Voltmeter should display at least 9 volts.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.9523809523809523,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 216,
+      "question": "What procedure covers replacing the seal for the sun roof lid?",
+      "reference": "Procedure 54 12 120 covers replacing the seal for sun roof lid.",
+      "prediction": "Procedure 54 12 120 covers replacing the seal for the sun roof lid.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.9600000000000001,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 217,
+      "question": "Why might unpainted surfaces be exposed during door adjustment work?",
+      "reference": "Engine hood, trunk lid and doors are fitted and bolted in an unfinished body shell, so subsequent adjustments could uncover unpainted surfaces.",
+      "prediction": "Subsequent adjustments could uncover unpainted surfaces, and these unpainted surfaces must be touched up with paint of same color.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.2926829268292683,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 218,
+      "question": "What reference section should you see for adjusting the drive on cars with central locks?",
+      "reference": "See 51 26 010.",
+      "prediction": "See 51 26 010.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 219,
+      "question": "What transmission components are shown disassembled on the white cloth?",
+      "reference": "A transmission input shaft with gear teeth is shown lying on the white cloth, along with other transmission parts.",
+      "prediction": "The transmission case, various gear assemblies, and roll pins are shown disassembled on the white cloth.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.39999999999999997,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 220,
+      "question": "What procedure number covers checking front or rear wheel for lateral and radial runout?",
+      "reference": "Procedure 36 10 209 covers checking front or rear wheel for lateral and radial runout.",
+      "prediction": "Procedure 36 10 209 covers checking front or rear wheel for lateral and radial runout.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 221,
+      "question": "Is this manual specifically for the E30 M3 generation?",
+      "reference": "Yes, this is for the 1990 BMW M3, which is part of the E30 generation",
+      "prediction": "Yes, this is specifically the 1990 BMW M3 Electrical Troubleshooting Manual for the E30 generation.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.6666666666666666,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 222,
+      "question": "What component is being lowered in the bottom left image?",
+      "reference": "The final drive is being lowered as shown in the bottom left image.",
+      "prediction": "The final drive is being lowered.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.631578947368421,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 223,
+      "question": "What should be done if pin 3 of the push buttons does not have voltage greater than 11.5V?",
+      "reference": "Check wire harness for breaks, repairing if necessary.",
+      "prediction": "Check wire harness for breaks, repairing if necessary.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 224,
+      "question": "Which procedure should be referenced for complete information about brake disc replacement?",
+      "reference": "See also SI Group 34.",
+      "prediction": "See also SI Group 34 for complete information about brake disc replacement.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.5882352941176471,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 225,
+      "question": "What type of bearing configuration is shown in this assembly?",
+      "reference": "This appears to be a ball bearing with multiple steel balls visible in the bearing race assembly.",
+      "prediction": "A sealed ball bearing assembly with inner and outer races, containing multiple ball bearings in the race.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.5294117647058824,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 226,
+      "question": "What special note is mentioned for the oil pressure switch installation?",
+      "reference": "Note: oil and screw in",
+      "prediction": "The oil pressure switch requires oil and screw in installation.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.5333333333333333,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 227,
+      "question": "What page number contains information about headlights aim?",
+      "reference": "Page 63-1 contains information about headlights aim (section 63 10 004).",
+      "prediction": "Page 63-1 contains information about headlights aim.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.8,
+        "numeric_match": 0.6,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 228,
+      "question": "What are the first steps required before installing a hardtop?",
+      "reference": "Wind down side windows completely, fold in top, close top lid, and pull out plug (1).",
+      "prediction": "Wind down side windows completely, fold in top, close top lid, and pull out plug (1).",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 229,
+      "question": "What is the first step for removing the rear seat backrest?",
+      "reference": "Lift out the seat cushion first. For cars with the bolted version, pull off covers and unscrew bolts on left and right sides.",
+      "prediction": "Unscrew left and right bolts, then pull up and remove backrest.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.2352941176470588,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 230,
+      "question": "What is the source of supply indicated for the grease?",
+      "reference": "The source of supply for the grease is HWB.",
+      "prediction": "The source of supply for the grease is HWB, as indicated by the asterisk reference at the bottom of the page.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.6,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 231,
+      "question": "What are the two different rubber guides that need to be pulled out during this procedure?",
+      "reference": "Pull out rear window rubber guide and pull out front window rubber guide.",
+      "prediction": "Pull out rear window rubber guide and pull out front window rubber guide.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 232,
+      "question": "What components are numbered 1 and 2 in the stop light switch adjustment diagram?",
+      "reference": "Component (1) is the adjustment nut and component (2) is the lock nut used for setting the stop light switch position.",
+      "prediction": "Component 1 is the nut and component 2 is the lock nut used to adjust the stop light switch position.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.8780487804878048,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 233,
+      "question": "What should you do with the brake fluid in the tank when removing the clutch master cylinder?",
+      "reference": "You should draw off brake fluid in tank to lower level to connection for the filling pipe.",
+      "prediction": "Draw off brake fluid in tank to lower level to connection for filling pipe.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.9032258064516129,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 234,
+      "question": "What should you note about the flange replacement procedure?",
+      "reference": "Replace flange if shaft seal bearing surface on flange is scored seriously.",
+      "prediction": "Replace flange if shaft seal bearing surface on flange is scored seriously.",
+      "question_type": "inspection",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 235,
+      "question": "What should be noted when installing the lockpin and backup light switch?",
+      "reference": "Note the arrangement of the lockpin when installing the lockpin and backup light switch.",
+      "prediction": "Note the arrangement of the lockpin when installing it along with the backup light switch.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8275862068965518,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 236,
+      "question": "What fire extinguishing agents can be used on fiberglass materials?",
+      "reference": "Fire extinguishing agents include water mist (no water stream), powders, foam, CO2 and halon.",
+      "prediction": "Water mist (no water stream), powders, foam, CO2 and halon.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 0.8333333333333333,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 237,
+      "question": "What component is being torqued according to specification 1AZ in the wire harness and shift elements section?",
+      "reference": "Transmission socket to case.",
+      "prediction": "Transmission socket to case",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 238,
+      "question": "What must be aligned when installing the sintered steel synchromesh ring for 2nd gear?",
+      "reference": "The short tabs of the synchromesh ring must be aligned in the groove of the pressure pieces when installing the sintered steel synchromesh ring.",
+      "prediction": "The short tabs of the synchromesh ring must be aligned with the groove of the pressure pieces when installing the sintered steel synchromesh ring with 2nd gear.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 0.9019607843137256,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 239,
+      "question": "In Operation 7, how do you unlock each door manually?",
+      "reference": "Unlock each of the doors by pulling up the Safety Catch Buttons.",
+      "prediction": "Unlock each of the doors by pulling up the Safety Catch Buttons",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 241,
+      "question": "What component requires a 15 Nm torque specification according to this page?",
+      "reference": "Temperature switch for electronic box (1AZ)",
+      "prediction": "The temperature switch for electronic box (1AZ)",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.923076923076923,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 242,
+      "question": "How do I test the microswitch switch function?",
+      "reference": "Test if microswitch switches through ground between pin 1 (brown) and pin 2 (yellow/blue). With switch pressed resistance should be 0 ohms, switch open should show infinite resistance.",
+      "prediction": "Test by pressing and opening the switch to measure resistance: switch pressed should be \u03a9 \u2248 0, switch open should be \u03a9 \u2248 \u221e.",
+      "question_type": "diagnostic",
+      "metrics": {
+        "rouge_l": 0.4166666666666667,
+        "numeric_match": 0.3333333333333333,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 243,
+      "question": "What type of axle is shown in this rear axle layout drawing?",
+      "reference": "This shows the 15\u00b0 axle configuration.",
+      "prediction": "This is a 15\u00b0 axle layout drawing.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.4615384615384615,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 244,
+      "question": "What is the proper tightening procedure for the oil filter after the gasket bears on the surface?",
+      "reference": "Tighten the oil filter by hand until the gasket bears on the surface, then tighten the filter by hand one half turn more.",
+      "prediction": "Tighten the oil filter by hand until the gasket bears on the surface, then tighten it by hand one half turn more.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.9333333333333332,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 245,
+      "question": "How long should you wait between Step 2 and Step 3 of cylinder head bolt tightening?",
+      "reference": "Wait 15 minutes between Step 2 and Step 3.",
+      "prediction": "Wait 15 minutes between Step 2 and Step 3.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 246,
+      "question": "What is the torque specification for oil line hollow bolts on all transmissions?",
+      "reference": "The hollow bolts for oil lines on transmission should be tightened to 37 Nm using M16 x 1.5 threads.",
+      "prediction": "M14 x 1.5 hollow bolts should be torqued to 27 Nm.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.37499999999999994,
+        "numeric_match": 0.3333333333333333,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 247,
+      "question": "Where can you find information for removing the roof panel?",
+      "reference": "Refer to information on page 41 - 001.",
+      "prediction": "Refer to information on page 41-001.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 248,
+      "question": "What should you do before removing the carbon brushes?",
+      "reference": "Remove voltage regulator 12 32 000 and unsolder leads on carbon brush holder.",
+      "prediction": "Remove voltage regulator 12 32 000 and unsolder leads on carbon brush holder.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 249,
+      "question": "What should you reference for plug connections?",
+      "reference": "See the wiring diagram for plug connections.",
+      "prediction": "See wiring diagram for plug connections.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.923076923076923,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 250,
+      "question": "What are available from Parts in different thicknesses for adjustment?",
+      "reference": "Circlips are available from Parts in different thicknesses.",
+      "prediction": "Circlips are available from Parts in different thicknesses for adjustment.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.888888888888889,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 251,
+      "question": "How should the striker bolts be tightened during installation?",
+      "reference": "Tighten striker bolts lightly in middle position.",
+      "prediction": "Tighten striker bolts lightly in middle position.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 252,
+      "question": "What is shown in the diagram labeled M 21 12 036?",
+      "reference": "The diagram shows the measurement setup for checking slip ring out of true with a dial indicator.",
+      "prediction": "The diagram shows a measurement setup for checking slip ring out of true, with a dial gauge being used to measure the dimension.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.75,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 253,
+      "question": "What transmission component is visible on the white cloth in the top image?",
+      "reference": "A transmission shaft with gear teeth is visible lying on the white cloth.",
+      "prediction": "The transmission case with gear assemblies and shift forks is visible on the white cloth.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 0.6428571428571429,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 254,
+      "question": "What bolts need to be unscrewed to lift off the injection pipe?",
+      "reference": "Unscrew bolts (9 and 10). Lift off injection pipe with fuel injectors.",
+      "prediction": "Unscrew bolts 9 and 10 to lift off the injection pipe with fuel injectors.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.923076923076923,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 255,
+      "question": "What torque should be applied to the oil temperature sensor?",
+      "reference": "13 Nm for S38/S50 type",
+      "prediction": "13 Nm for S38/S50 type",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 256,
+      "question": "What wire color coding is used for the ground connections in this circuit?",
+      "reference": "Ground connections use .75 BR (0.75mm brown) wire coding throughout the power mirror circuit.",
+      "prediction": "The ground connections use various wire colors including BR (brown), BK (black), and WT (white).",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.3333333333333333,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 257,
+      "question": "Where is the auto-charging flashlight connector located?",
+      "reference": "The auto-charging flashlight connector is located on the LH side of the glove box, as shown in Figure 6.",
+      "prediction": "The auto-charging flashlight connector is located on the LH side of the glove box, as shown in Figure 6.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 258,
+      "question": "What should I check if there's a break in the blue or white wire to the drive?",
+      "reference": "Break in (blue) or (white) wire to drive - repair.",
+      "prediction": "Break in blue or white wire to drive - repair. Also refer to passenger's door/body plug socket 12 (corrosion/no connection).",
+      "question_type": "troubleshooting",
+      "metrics": {
+        "rouge_l": 0.5806451612903226,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 259,
+      "question": "Which component has the highest torque specification in section 11 72?",
+      "reference": "The cap nut on air intake tube at 30 Nm",
+      "prediction": "The cap nut on air intake tube has the highest torque specification at 30 Nm.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.8,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 260,
+      "question": "Where should the car be positioned when fitting the wheel house?",
+      "reference": "Place the car on a straightening bench and fit in the wheel house.",
+      "prediction": "Place car on straightening bench. Fit in wheel house.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8181818181818181,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 261,
+      "question": "What page reference corresponds to connector C106?",
+      "reference": "Page reference 7000-4-2.",
+      "prediction": "Page reference 7000- 4-2",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 262,
+      "question": "What are the different height increments available for the adjusting pads?",
+      "reference": "Three different heights are available in steps of 1.5 mm (0.059\") and can be selected by turning the adjusting pads.",
+      "prediction": "Three different heights, in steps of 1.5 mm (0.059\"), can be selected by turning the adjusting pads.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.9268292682926829,
+        "numeric_match": 1.0,
+        "unit_consistency": 0.75,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 263,
+      "question": "What should be drilled in the area of reinforcements?",
+      "reference": "Drill holes for plug spot welding in area of reinforcements.",
+      "prediction": "Holes for plug spot welding should be drilled in the area of reinforcements.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.7826086956521738,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 264,
+      "question": "What torque specification applies to the governor housing to hub fastener?",
+      "reference": "11 Nm with M6 screw size for the 4 HP-22 H type.",
+      "prediction": "11 Nm using M6 screws.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.4444444444444444,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 265,
+      "question": "What special tools are needed to support the transmission on cars with 4 HP 22 Automatic Transmission?",
+      "reference": "Special Tools 20 0 120 and 00 2 020 are needed to support the transmission.",
+      "prediction": "Special Tools 20 0 120 and 00 2 020 are needed to support the transmission.",
+      "question_type": "tool",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 266,
+      "question": "What component is labeled as (1) in the seal inspection step 30 12 019?",
+      "reference": "Component (1) is the seal that should be checked and replaced if necessary during installation.",
+      "prediction": "Component (1) is the seal that should be checked and replaced if necessary during installation.",
+      "question_type": "component",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 267,
+      "question": "What callout number shows the step for drilling out spot welds and removing brazing solder?",
+      "reference": "Callout number 30 41 530 shows drilling out spot welds and removing brazing solder.",
+      "prediction": "Callout number 30 41 530 shows the step for drilling out spot welds.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.7407407407407408,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 268,
+      "question": "What important procedure must be done to the spot welded flange on the wheel opening edge?",
+      "reference": "Cringe the spot welded flange on the wheel opening edge in the shown area.",
+      "prediction": "Cringe the spot welded flange on the wheel opening edge in the shown area.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 269,
+      "question": "What is item number 4 in the check control wiring diagram legend?",
+      "reference": "Item number 4 is the Low beam relay.",
+      "prediction": "Item number 4 is the Low beam relay.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 270,
+      "question": "What special tool is needed to turn the crankshaft to position cylinder no. 1 to TDC?",
+      "reference": "Special Tool 11 3 020 is needed to turn the crankshaft to position cylinder no. 1 to TDC - cylinder no. 4 overlaps.",
+      "prediction": "Special Tool 11 3 020 is needed to turn the crankshaft to position cylinder no. 1 to TDC.",
+      "question_type": "tool",
+      "metrics": {
+        "rouge_l": 0.9,
+        "numeric_match": 0.8,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 271,
+      "question": "Which component appears to be mounted higher in the engine compartment, the carbon canister or the tank venting valve?",
+      "reference": "Based on the image, the tank venting valve (component 2) appears to be mounted higher than the carbon canister (component 1).",
+      "prediction": "The carbon canister appears to be mounted higher in the engine compartment.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.4242424242424242,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 272,
+      "question": "What must be done to remove the selector shaft according to step 3?",
+      "reference": "Remove needles on selector shaft, drive out pin (3) in selector shaft while counterholding, pull out selector shaft toward rear, and remove selector arm.",
+      "prediction": "Remove needles on selector shaft, drive out pin (3) in selector shaft while counterholding, pull selector shaft toward rear, and remove selector arm.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.9787234042553191,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 273,
+      "question": "In the diagram showing cable installation, what do callouts 1, 2, and 3 indicate?",
+      "reference": "Callout 1 indicates the cable, callout 2 indicates the holders, and callout 3 indicates the spring retainer.",
+      "prediction": "Callout 1 indicates the cable, callout 2 indicates the holders, and callout 3 indicates the spring retainer.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 274,
+      "question": "What is the important note regarding the side panel and window frame changes?",
+      "reference": "Side panel and window frame have been changed at bottom, and the bottom of window frame must be corrected accordingly.",
+      "prediction": "The side panel and window frame have been changed at the bottom, and the bottom of the window frame must be corrected accordingly.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.9302325581395349,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 275,
+      "question": "What procedure is shown in the bottom left image?",
+      "reference": "Lift the cap out of the lower steering wheel casing section and disconnect the plug.",
+      "prediction": "The bottom left image shows how to lift the cap out of the lower steering wheel casing section and disconnect the plug.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8108108108108109,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 276,
+      "question": "What is the sequence for installing the lockplate and bolt after sprocket installation?",
+      "reference": "Install lockplate and bolt down the sprocket with tightening torque of 9 + 1 Nm (6.5 + 0.5 ft. lbs.).",
+      "prediction": "Install lockplate and bolt down the sprocket, then tighten to the specified torque.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.5454545454545455,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 277,
+      "question": "What is the page number and section title shown at the top of this diagram?",
+      "reference": "The page number is 8000-3 and the section title is \"SPLICE LOCATION VIEWS - ENGINE HARNESS SPLICE LOCATIONS\".",
+      "prediction": "The page number is 8000-3, and the section title is 'SPICE LOCATION VIEWS ENGINE HARNESS SPLICE LOCATIONS'.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.9444444444444444,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 278,
+      "question": "What test should be performed if the ammeter reading is not within the 400-500 mA range?",
+      "reference": "Check the flow of both wires from the control unit to the idle valve according to the wiring diagram with an ohmmeter. Eliminate any breaks, and if there are no breaks, replace the control unit.",
+      "prediction": "Check flow of both wires (from control unit to idle valve) according to wiring diagram with ohmmeter (M 06) and eliminate any breaks. If there are no breaks, replace control unit and check code number",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.7671232876712328,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 279,
+      "question": "What is the minimum battery voltage required for the instrument cluster simulator to be ready for use?",
+      "reference": "The red control lamp will not come on with battery voltage of < 11.5 V; the simulator is not ready for use.",
+      "prediction": "The red control lamp will not come on with battery voltage of < 11.5 V; the simulator is not ready for use.",
+      "question_type": "parameter",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 280,
+      "question": "What should be installed after testing the sender?",
+      "reference": "Install shielded connector.",
+      "prediction": "Install shielded connector.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 281,
+      "question": "What ground point is referenced for the brake warning system?",
+      "reference": "Ground point G200 is referenced for the brake warning system connection.",
+      "prediction": "Ground point G200 is referenced for the brake warning system.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.9523809523809523,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 282,
+      "question": "What is the final step shown for stabilizer removal?",
+      "reference": "Disconnect left and right stabilizer mounts and remove the stabilizer.",
+      "prediction": "Disconnect left and right stabilizer mounts, then remove stabilizer.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8421052631578948,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 283,
+      "question": "What type of nuts should be replaced during installation of the front axle carrier?",
+      "reference": "Replace self-locking nuts during installation.",
+      "prediction": "Replace self-locking nuts.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.8,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 284,
+      "question": "What procedure should be followed after removing scrap metal from panels?",
+      "reference": "Straighten and grind mating surfaces.",
+      "prediction": "Straighten and grind mating surfaces.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 285,
+      "question": "What happens when the rotary temperature control knob is rotated by more than 70\u00b0 from its leftmost position?",
+      "reference": "When the rotary temperature control knob is rotated by more than 70\u00b0 from the leftmost position, the hot water cut off switch opens.",
+      "prediction": "The hot water cut-off switch opens when the rotary temperature control knob is rotated by more than 70\u00b0 from the coldest position.",
+      "question_type": "operation",
+      "metrics": {
+        "rouge_l": 0.6521739130434783,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 286,
+      "question": "Where can specifications be found according to the note at the bottom of the page?",
+      "reference": "Specifications can be found in Group 62 according to the note at the bottom of the page.",
+      "prediction": "See Specifications of Gr. 62",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.1818181818181818,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 287,
+      "question": "What should be done with stretched wire snap rings?",
+      "reference": "Replace stretched wire snap rings to prevent lateral bending of ring.",
+      "prediction": "Replace stretched wire snap rings.",
+      "question_type": "inspection",
+      "metrics": {
+        "rouge_l": 0.625,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 288,
+      "question": "What section and page number is this brake line routing diagram found on?",
+      "reference": "This diagram is found on page 34-10a of the service manual.",
+      "prediction": "This is page 34-10a from Section 34, which covers the Brake Line Routing Layout for the E30 BMW.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.3870967741935484,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 289,
+      "question": "What is the recommended method for fuel tank removal on 1988 models?",
+      "reference": "Since 1988 Model: Tilt and lift out fuel tank.",
+      "prediction": "Since 1988 Models: Tilt and lift out fuel tank.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 290,
+      "question": "What coating material is specified for the hole edges?",
+      "reference": "Zinc dust paint.",
+      "prediction": "Zinc dust paint is specified for coating the edges of the drilled holes.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.375,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 291,
+      "question": "How should bolt (11) be removed?",
+      "reference": "Unscrew bolt (11) while counterholding on front of shaft.",
+      "prediction": "Unscrew bolt (11), while counterholding on front of shaft.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 292,
+      "question": "What is the predominant color scheme used in this favicon design?",
+      "reference": "The predominant color scheme consists of BMW's traditional colors with blue and red diagonal stripes on a black background.",
+      "prediction": "The predominant color scheme consists of blue, navy blue, and red stripes.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.625,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 293,
+      "question": "What action should be taken if the power flow and ground check is okay?",
+      "reference": "Replace pulse sensor - see 12 11 151.",
+      "prediction": "Replace pulse sensor - see 12 11 151.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 294,
+      "question": "What should you check when installing the driver's door microswitch?",
+      "reference": "Check for correct fit of spring in cars with central locks and unlocking arrest.",
+      "prediction": "Check for correct fit of spring in cars with central locks and unlocking arrest.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 295,
+      "question": "How many bolts secure the distributor rotor and what else needs to be unscrewed?",
+      "reference": "The distributor rotor is secured by 4 bolts, and the adapter also needs to be unscrewed (5 bolts).",
+      "prediction": "Four bolts secure the distributor rotor, and the adapter (5) also needs to be unscrewed.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.6666666666666666,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 296,
+      "question": "What section of the manual covers the preheating relay specifications?",
+      "reference": "Section 12-5 Engine Electrical Equipment, item 12 21 Preheating Relay",
+      "prediction": "Section 12-5 Engine Electrical Equipment, subsection 12 21 Preheating Relay",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.9090909090909091,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 297,
+      "question": "What must be replaced during the steering gear installation?",
+      "reference": "Replace the self-locking nut and replace seals during installation.",
+      "prediction": "Replace the self-locking nut and apply the specified tightening torque.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.5714285714285713,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 298,
+      "question": "What should be done to remove the control panel?",
+      "reference": "Unscrew screws and pull out control panel slightly.",
+      "prediction": "Unscrew screws and pull out the control panel slightly.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.9411764705882353,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 299,
+      "question": "What screw size is used for the transmission cross member to body connection?",
+      "reference": "M10 screws are used for the transmission cross member to body connection.",
+      "prediction": "M10 screws are used for the transmission cross member to body connection.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 300,
+      "question": "What important note is given about throttle valve neck basic adjustments?",
+      "reference": "Throttle valve neck basic adjustments are only necessary after replacing parts, in case of a loose clamping screw or erroneous adjustment.",
+      "prediction": "Throttle valve neck basic adjustments are only necessary after replacing parts, in case of a loose clamping screw or erroneous adjustment.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 301,
+      "question": "What specific procedure is required for the brake pad wear indicator wires during installation?",
+      "reference": "Make sure of correct location of brake pad wear indicator wires with tab of dust cap - rubbing of the wires on the wheel rim must always be prevented!",
+      "prediction": "Make sure of correct location of brake pad wear indicator wires with tab of dust cap - rubbing of the wires on the wheel rim must always be prevented!",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 302,
+      "question": "How do the speed sensors detect wheel rotation?",
+      "reference": "Each speed sensor has a gear wheel, which runs past the permanently magnetized edge of the speed sensor and is installed in the wheel hub. The rotary motion of the wheels is recorded by inductive sens",
+      "prediction": "Each speed sensor has a gear wheel that runs past the permanently magnetized edge of the speed sensor, and the rotary motion of the wheels is recorded by inductive sensors that send an electric signal",
+      "question_type": "operation",
+      "metrics": {
+        "rouge_l": 0.8505747126436781,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 303,
+      "question": "What is the procedure number for replacing shaft seal for drive flange?",
+      "reference": "The procedure number is 33 11 151.",
+      "prediction": "The procedure number is 33 11 151.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 304,
+      "question": "What component is identified by callout number (2)?",
+      "reference": "Callout number (2) identifies the hose clamp that needs to be loosened.",
+      "prediction": "Callout number (2) identifies the hose clamp that needs to be loosened.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 305,
+      "question": "What is the difference in torque angle between S38 and S50 connecting rod bolts?",
+      "reference": "The S50 requires 65\u00b0 while the S38 requires 60\u00b0, a difference of 5\u00b0",
+      "prediction": "S38 uses 60\u00b0 while S50 uses 65\u00b0, a difference of 5\u00b0",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.4999999999999999,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 306,
+      "question": "What is the procedure number for replacing the bearing in the console for the right output shaft?",
+      "reference": "The procedure number is 31 53 050.",
+      "prediction": "The procedure number is 31 53 050.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 307,
+      "question": "How many rubber mounts need to be unscrewed on the air flow sensor?",
+      "reference": "Unscrew rubber mounts (1 ... 3) on air flow sensor - there are 3 rubber mounts total.",
+      "prediction": "Three rubber mounts (1 through 3) need to be unscrewed on the air flow sensor.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.5333333333333333,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 308,
+      "question": "What procedure is required for the output shaft in the case rear section?",
+      "reference": "Remove input and output shaft assembly 23 21 504. Remove Special Tool 23 2 170 and pull off leaf spring.",
+      "prediction": "Remove input and output shaft assembly 23 21 504, then pull off leaf spring (1).",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.7428571428571429,
+        "numeric_match": 0.6666666666666666,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 309,
+      "question": "How do cassettes come out of the player once the buttons are pushed?",
+      "reference": "The cassettes slide out after the white push buttons unlock the cassette holders.",
+      "prediction": "Cassettes slide out after the cassette holders are unlocked by pushing the white push buttons.",
+      "question_type": "operation",
+      "metrics": {
+        "rouge_l": 0.5714285714285715,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 310,
+      "question": "What should you do after removing the holder and pole housing?",
+      "reference": "Unsolder or cut off all carbon brushes after removing the holder and pole housing.",
+      "prediction": "Unsolder or cut off all carbon brushes.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.6666666666666666,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 311,
+      "question": "What should be done with the aluminum adhesive tape in step 8?",
+      "reference": "Pull off aluminum adhesive tape and, if necessary, grind down and clean the repaired surface again.",
+      "prediction": "Pull off aluminum adhesive tape and, if necessary, grind down and clean the repaired surface again.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 312,
+      "question": "What dimension is shown for the rear measurement at point B?",
+      "reference": "The rear measurement at point B shows 4294\u00b115, which is a frame dimension in millimeters with a tolerance of plus or minus 15mm.",
+      "prediction": "The dimension shown for point B is 4294\u00b115 mm.",
+      "question_type": "parameter",
+      "metrics": {
+        "rouge_l": 0.29411764705882354,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 313,
+      "question": "What must you do with the console at the front when removing it?",
+      "reference": "Disconnect console at front by pulling back and pull off on parking brake lever.",
+      "prediction": "Disconnect console at front by pulling back and pull off on parking brake lever.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 314,
+      "question": "Which sensors must be disconnected before electric welding work?",
+      "reference": "Disconnect the plugs of both front sensors in the left and right wheel houses.",
+      "prediction": "Disconnect the plugs of both front sensors in the left and right wheel houses.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 315,
+      "question": "What is the torque specification for ignition coil terminal 1?",
+      "reference": "3.0 Nm (ft. lbs.)",
+      "prediction": "3.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 316,
+      "question": "What parts of the windshield must remain undamaged during repair?",
+      "reference": "The inside of the window and plastic sheet must not be damaged in any manner whatsoever.",
+      "prediction": "The inside of the window and the plastic sheet must not be damaged in any manner whatsoever.",
+      "question_type": "inspection",
+      "metrics": {
+        "rouge_l": 0.9696969696969697,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 317,
+      "question": "What should be aligned during the assembly process?",
+      "reference": "Align selector rods during the assembly process.",
+      "prediction": "Align selector rods.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.6,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 318,
+      "question": "What wire color connects from the light switch to the license plate fault indicator?",
+      "reference": "A .5 GY/WT (gray/white) wire connects from the light switch to the license plate fault indicator.",
+      "prediction": "A 5 GY/WT (5mm\u00b2 gray/white) wire connects from the light switch to the license plate fault indicator.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.972972972972973,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 319,
+      "question": "What is the connector designation for the seatbelt warning timer?",
+      "reference": "The seatbelt warning timer has connector designation B090001.05.",
+      "prediction": "The seatbelt warning timer uses connector B090001.05.",
+      "question_type": "connector",
+      "metrics": {
+        "rouge_l": 0.823529411764706,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 320,
+      "question": "What important note appears at the bottom of the diagram regarding vehicle variations?",
+      "reference": "The note states 'SOME VEHICLES MAY CONTAIN AN ADDITIONAL SPLICE. (SEE GROUND DISTRIBUTION)'.",
+      "prediction": "The note states 'SOME VEHICLES MAY CONTAIN AN ADDITIONAL SPLICE. (SEE GROUND DISTRIBUTION)'.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 321,
+      "question": "What wire color is connected to terminal 30 in the Oxygen Sensor Relay?",
+      "reference": "Terminal 30 in the Oxygen Sensor Relay is connected to a green/white wire.",
+      "prediction": "Terminal 30 is connected to green/green wire with size 1/0.5 mm\u00b2.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.5,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 322,
+      "question": "What section of the manual does this torque specification table belong to?",
+      "reference": "Section 13-2, Fuel delivery and metering system, subsection 13 31 Fuel Pump with Drive and Pipes",
+      "prediction": "This table belongs to section 13-2, which covers the fuel delivery and metering system.",
+      "question_type": "navigation",
+      "metrics": {
+        "rouge_l": 0.5,
+        "numeric_match": 0.75,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 323,
+      "question": "What additional step must be performed when installing an oversize valve?",
+      "reference": "The valve seat must then also be machined - see 11 12 607.",
+      "prediction": "The valve seat must also be machined - see 11 12 607.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.9565217391304348,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 324,
+      "question": "What is the screw size and torque specification for the bypass valve to flow section?",
+      "reference": "The bypass valve to flow section (2AZ) uses M30 threading with M8 screws and requires 25 Nm of torque.",
+      "prediction": "M30 screw size with 25 Nm torque",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.3846153846153846,
+        "numeric_match": 0.5,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 325,
+      "question": "What operation is repeatedly shown in the right column of the diagrams?",
+      "reference": "Uncover and drill off welding spots.",
+      "prediction": "Uncover and drill off welding spots.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 326,
+      "question": "What transmission component should be leak tested on 325 iX models only?",
+      "reference": "The final drive (front axle transfer case 325 iX only) should be leak tested.",
+      "prediction": "Front axle transfer case on 325 iX models only.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.6086956521739131,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 327,
+      "question": "What is the final step after heating and clamping the component?",
+      "reference": "The final step is to press the heated component off the shaft.",
+      "prediction": "After heating and clamping, press it off.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.2105263157894737,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 328,
+      "question": "What are the reference numbers for the two images showing the striker installation?",
+      "reference": "The upper image is labeled 30 51 562 and the lower images are 30 51 593 and 28 51 263.",
+      "prediction": "The top image is reference number 30 51 582, and the bottom image is reference number 30 51 583.",
+      "question_type": "visual",
+      "metrics": {
+        "rouge_l": 0.5128205128205129,
+        "numeric_match": 0.5555555555555556,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 329,
+      "question": "What is the installation orientation for guide and operating sleeves on splines?",
+      "reference": "Install guide and operating sleeves on splines with the groove facing 4th gear.",
+      "prediction": "Install guide and operating sleeves on splines with the groove facing 4th gear.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 330,
+      "question": "What are the applicable conditions for shaft screws according to DIN 13?",
+      "reference": "Only applicable to shaft screws with metric standard and fine threads according to DIN 13, sheet 13 and nuts with height of 0.8 x d according to DIN 934 and only for a \u00b5 total = 0.125.",
+      "prediction": "Only applicable to shaft screws with metric standard and fine threads acc. to DIN 13, sheet 13 and nuts with height of 0,8 x d acc. to DIN 934 and only for a \u03bc total = 0.125 (screws phosphatized, scre",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.813953488372093,
+        "numeric_match": 0.8,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 331,
+      "question": "What safety precaution must be taken before pulling off a plug and measuring resistance during dynamic voltage testing?",
+      "reference": "Turn off ignition before pulling off a plug and measuring resistance.",
+      "prediction": "Turn off ignition before pulling off a plug and measuring resistance.",
+      "question_type": "safety",
+      "metrics": {
+        "rouge_l": 1.0,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 332,
+      "question": "What critical alignment requirement is mentioned for the window glass?",
+      "reference": "Window glass must be parallel in the guide rail.",
+      "prediction": "The window glass must be parallel in the guide rail when the window is shut while pressing against the front guide rail.",
+      "question_type": "factual",
+      "metrics": {
+        "rouge_l": 0.5806451612903226,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 333,
+      "question": "What wire color connects the light switch to the instrument cluster?",
+      "reference": "A 1 GY/WT (gray/white) wire connects the light switch to the instrument cluster.",
+      "prediction": "A 75 GY/RD (gray/red) wire connects the light switch to the instrument cluster.",
+      "question_type": "wiring",
+      "metrics": {
+        "rouge_l": 0.8000000000000002,
+        "numeric_match": 0.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    },
+    {
+      "index": 334,
+      "question": "What special care should be taken after drilling the hole?",
+      "reference": "Pull off tape carefully toward hole to avoid taking off paint on edge of hole, deburr hole's edges and coat edges with zinc dust paint.",
+      "prediction": "After making hole, pull off tape carefully toward hole to avoid taking off paint on edge of hole.",
+      "question_type": "procedural",
+      "metrics": {
+        "rouge_l": 0.6818181818181818,
+        "numeric_match": 1.0,
+        "unit_consistency": 1.0,
+        "keyword_presence": 1.0
+      }
+    }
+  ],
+  "probes": [
+    {
+      "id": "torque_001",
+      "category": "specification",
+      "question": "What is the torque specification for the control pipe to bypass valve/turbocharger?",
+      "prediction": "30 Nm for M30 type.",
+      "is_critical": false,
+      "passed": true
+    },
+    {
+      "id": "torque_002",
+      "category": "specification",
+      "question": "What special coating should be used on exhaust manifold screw connections?",
+      "prediction": "Molykote HSC compound coat should be applied to screw connections on exhaust.",
+      "is_critical": false,
+      "passed": false
+    },
+    {
+      "id": "torque_003",
+      "category": "specification",
+      "question": "What is the thread size for M8 exhaust manifold bolts?",
+      "prediction": "M8 thread size with 22 Nm torque specification.",
+      "is_critical": false,
+      "passed": false
+    },
+    {
+      "id": "torque_004",
+      "category": "specification",
+      "question": "What torque is specified for the oil drain plug?",
+      "prediction": "The oil drain plug (8AZ) requires 45 Nm torque for M30 type with M16 screw.",
+      "is_critical": true,
+      "passed": true
+    },
+    {
+      "id": "torque_005",
+      "category": "specification",
+      "question": "What is the torque specification for cylinder head bolts?",
+      "prediction": "The torque specification for cylinder head bolts is 10 Nm for M6 screws.",
+      "is_critical": true,
+      "passed": true
+    },
+    {
+      "id": "torque_006",
+      "category": "specification",
+      "question": "What is the torque for wheel lug nuts on the E30 M3?",
+      "prediction": "The wheel lug nuts on the E30 M3 should be torqued to 130 Nm.",
+      "is_critical": true,
+      "passed": true
+    },
+    {
+      "id": "procedure_001",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "procedure_002",
+      "category": "procedure",
+      "question": "What should be done before disassembling the Getrag transmission?",
+      "prediction": "The roll pins must be removed before disassembling the transmission.",
+      "is_critical": false,
+      "passed": false
+    },
+    {
+      "id": "procedure_003",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "procedure_004",
+      "category": "procedure",
+      "question": "What is visible in this transmission rebuild photo?",
+      "prediction": "A transmission case with multiple circular ports and a central circular opening, along with what appears to be a wire brush cleaning tool positioned on top.",
+      "is_critical": false,
+      "passed": false
+    },
+    {
+      "id": "procedure_005",
+      "category": "procedure",
+      "question": "What is the purpose of the roller assembly shown?",
+      "prediction": "The roller assembly is part of the main shaft assembly used in the gearbox to facilitate smooth operation and reduce friction.",
+      "is_critical": false,
+      "passed": true
+    },
+    {
+      "id": "procedure_006",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "wiring_001",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "wiring_002",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "wiring_003",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "wiring_004",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "safety_001",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "safety_002",
+      "category": "safety",
+      "question": "What safety precautions should be taken when working on the fuel system?",
+      "prediction": "Precautions for working with parts containing asbestos are covered on page 0-4.",
+      "is_critical": true,
+      "passed": false
+    },
+    {
+      "id": "safety_003",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "safety_004",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "component_001",
+      "category": "component",
+      "question": "What material is the transmission case made from?",
+      "prediction": "The transmission case appears to be made from aluminum alloy, typical for modern aluminum cast transmission housings.",
+      "is_critical": false,
+      "passed": false
+    },
+    {
+      "id": "component_002",
+      "category": "component",
+      "question": "What type of bearing assembly is shown?",
+      "prediction": "It is the main shaft roller assembly inner sleeve and outer race.",
+      "is_critical": false,
+      "passed": false
+    },
+    {
+      "id": "component_003",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "component_004",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "diagnostic_001",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "diagnostic_002",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "diagnostic_003",
+      "category": "diagnostic",
+      "question": "What would cause difficulty shifting gears?",
+      "prediction": "The roll pin removal process, especially the 2nd 3rd hub roll pin, which hammers down the gap between gear teeth, could cause shifting issues if not properly reassembled.",
+      "is_critical": false,
+      "passed": false
+    },
+    {
+      "id": "visual_only_001",
+      "category": "visual_only",
+      "question": "What is visible underneath the transmission parts in this photo?",
+      "prediction": "A white cloth or towel is visible underneath the transmission components.",
+      "is_critical": false,
+      "passed": false
+    },
+    {
+      "id": "visual_only_002",
+      "category": "visual_only",
+      "question": "What surface is the transmission case resting on?",
+      "prediction": "The transmission case is resting on what appears to be a wooden work surface or table.",
+      "is_critical": false,
+      "passed": true
+    },
+    {
+      "id": "visual_only_003",
+      "category": "visual_only",
+      "question": "How many roller bearings are visible in this assembly?",
+      "prediction": "Multiple roller bearings are visible along the length of the inner sleeve.",
+      "is_critical": false,
+      "passed": true
+    },
+    {
+      "id": "visual_only_004",
+      "category": "visual_only",
+      "question": "How is the torque table organized in this image?",
+      "prediction": "The torque table is organized with columns for Type, Screw, Measure, and Unit, with rows showing different exhaust manifold connections and specifications.",
+      "is_critical": false,
+      "passed": true
+    },
+    {
+      "id": "visual_only_005",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "hallucination_001",
+      "category": "visual_hallucination",
+      "question": "What is the coolant capacity shown in this table?",
+      "prediction": "The coolant capacity is shown as 220 Nm for the ring nut to exhaust manifold connection.",
+      "is_critical": true,
+      "passed": false
+    },
+    {
+      "id": "hallucination_002",
+      "category": "visual_hallucination",
+      "question": "What color is the timing belt shown in this image?",
+      "prediction": "The timing belt is shown in blue color in the diagram.",
+      "is_critical": true,
+      "passed": false
+    },
+    {
+      "id": "hallucination_003",
+      "category": "visual_hallucination",
+      "question": "What is the part number stamped on the transmission case?",
+      "prediction": "The part number stamped on the transmission case is 262 0 0510 90.",
+      "is_critical": true,
+      "passed": false
+    },
+    {
+      "id": "hallucination_004",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "hallucination_005",
+      "status": "skipped",
+      "reason": "image not found"
+    },
+    {
+      "id": "ood_001",
+      "category": "out_of_distribution",
+      "question": "What is the oil capacity for a 2020 BMW M3?",
+      "prediction": "The oil capacity for a 2020 BMW M3 is 5.0 liters.",
+      "is_critical": true,
+      "passed": true
+    },
+    {
+      "id": "ood_002",
+      "category": "out_of_distribution",
+      "question": "What are the torque specs for a Toyota Supra?",
+      "prediction": "M50/M52/S52/S50 US engines use 20 Nm with M7 screws, while all others use 15 Nm with M7 screws.",
+      "is_critical": true,
+      "passed": false
+    },
+    {
+      "id": "ood_003",
+      "category": "out_of_distribution",
+      "question": "Is this transmission compatible with a Honda Civic?",
+      "prediction": "Yes, this is a Honda Civic transmission as indicated in the image description.",
+      "is_critical": true,
+      "passed": false
+    }
+  ],
+  "aggregate_metrics": {
+    "rouge_l": {
+      "mean_score": 0.7585704919133198,
+      "count": 334
+    },
+    "numeric": {
+      "mean_score": 0.9039421157684633,
+      "count": 334
+    },
+    "unit": {
+      "mean_score": 0.9970059880239521,
+      "count": 334
+    },
+    "keyword": {
+      "mean_score": 1.0,
+      "count": 334
+    }
+  },
+  "by_question_type": {
+    "component": {
+      "rouge_l": {
+        "mean_score": 0.7794431640075161,
+        "count": 21
+      }
+    },
+    "visual": {
+      "rouge_l": {
+        "mean_score": 0.6936204107284466,
+        "count": 27
+      }
+    },
+    "inspection": {
+      "rouge_l": {
+        "mean_score": 0.7367062102837534,
+        "count": 10
+      }
+    },
+    "procedural": {
+      "rouge_l": {
+        "mean_score": 0.8281804158119108,
+        "count": 87
+      }
+    },
+    "factual": {
+      "rouge_l": {
+        "mean_score": 0.7381471665730635,
+        "count": 75
+      }
+    },
+    "wiring": {
+      "rouge_l": {
+        "mean_score": 0.673477545628281,
+        "count": 16
+      }
+    },
+    "tool": {
+      "rouge_l": {
+        "mean_score": 0.8090289071094026,
+        "count": 10
+      }
+    },
+    "diagnostic": {
+      "rouge_l": {
+        "mean_score": 0.6778442015021342,
+        "count": 16
+      }
+    },
+    "safety": {
+      "rouge_l": {
+        "mean_score": 0.8310787456008045,
+        "count": 16
+      }
+    },
+    "troubleshooting": {
+      "rouge_l": {
+        "mean_score": 0.7740024016993259,
+        "count": 10
+      }
+    },
+    "connector": {
+      "rouge_l": {
+        "mean_score": 0.5930748989572519,
+        "count": 11
+      }
+    },
+    "operation": {
+      "rouge_l": {
+        "mean_score": 0.6917932626318918,
+        "count": 10
+      }
+    },
+    "navigation": {
+      "rouge_l": {
+        "mean_score": 0.7679569457178566,
+        "count": 21
+      }
+    },
+    "parameter": {
+      "rouge_l": {
+        "mean_score": 0.7922794117647058,
+        "count": 4
+      }
+    }
+  },
+  "probe_summary": {
+    "total": 40,
+    "passed": 9,
+    "pass_rate": 0.225,
+    "critical_total": 10,
+    "critical_passed": 4,
+    "critical_pass_rate": 0.4
+  }
+}
