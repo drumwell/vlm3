@@ -238,7 +238,7 @@ output:
   random_seed: 42                # For reproducible splits
 
   # Image handling
-  image_copy_mode: symlink       # Options: symlink, copy, relative
+  image_copy_mode: relative       # Options: symlink, copy, relative
   image_output_dir: images       # Subdirectory within training_data/
 
   # Image filename normalization

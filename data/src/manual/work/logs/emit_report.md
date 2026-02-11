@@ -1,6 +1,6 @@
 # VLM Dataset Emit Report
 
-**Generated**: 2026-02-10T19:31:13.107706
+**Generated**: 2026-02-10T19:40:46.146433
 
 ## Summary
 
@@ -18,7 +18,7 @@
 |--------|-------|
 | Images Copied/Linked | 1,412 |
 | Missing Images | 0 |
-| Mode | symlink |
+| Mode | relative |
 
 ## Distribution by Section
 
