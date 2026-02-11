@@ -50,6 +50,14 @@ train-logs:
 	@echo "Checking training logs from Modal volume..."
 	modal run training/modal_train.py::check_logs_cli
 
+train-archive:
+	@echo "Archiving current training run on Modal..."
+	modal run training/modal_train.py::archive_run_cli
+
+train-runs:
+	@echo "Listing training runs on Modal..."
+	modal run training/modal_train.py::list_runs_cli
+
 # ============================================================================
 # EVALUATION (compare baseline vs fine-tuned models)
 # ============================================================================
@@ -193,6 +201,23 @@ clean-eval:
 	rm -f eval/eval_sample.jsonl
 	rm -rf eval/reports/*.json eval/reports/*.md
 
+# Archive / list eval report sets
+eval-archive:
+	@if ls eval/reports/*.json eval/reports/*.md 1>/dev/null 2>&1; then \
+		tag=$$(date +%Y%m%d_%H%M%S); \
+		mkdir -p eval/reports/archive/run_$$tag; \
+		mv eval/reports/*.json eval/reports/*.md eval/reports/archive/run_$$tag/; \
+		echo "Archived to eval/reports/archive/run_$$tag/"; \
+	else echo "No eval reports to archive"; fi
+
+eval-runs:
+	@echo "Archived eval runs:"
+	@if [ -d eval/reports/archive ]; then \
+		for d in eval/reports/archive/run_*; do \
+			echo "  $$(basename $$d)  $$(ls $$d/*.json 2>/dev/null | wc -l | tr -d ' ') files"; \
+		done; \
+	else echo "  (none)"; fi
+
 # ============================================================================
 # HELP
 # ============================================================================
@@ -219,6 +244,8 @@ help:
 	@echo "  make train-dev         Dev training (100 samples)"
 	@echo "  make train-resume      Resume from checkpoint"
 	@echo "  make train-logs        Check training logs"
+	@echo "  make train-archive     Archive current run on Modal"
+	@echo "  make train-runs        List training runs on Modal"
 	@echo ""
 	@echo "Evaluation (Local GPU):"
 	@echo "  make eval-sample       Create stratified eval sample"
@@ -240,9 +267,12 @@ help:
 	@echo "Utilities:"
 	@echo "  make help              Show this help"
 	@echo "  make clean-eval        Clean evaluation artifacts"
+	@echo "  make eval-archive      Archive current eval reports"
+	@echo "  make eval-runs         List archived eval runs"
 
 .PHONY: data data-manual data-status data-clean \
-        train train-dev train-resume train-logs \
+        train train-dev train-resume train-logs train-archive train-runs \
         eval-sample eval-baseline eval-finetuned eval-compare eval-probes eval-mock eval-test eval-all clean-eval \
         eval-modal-baseline eval-modal-finetuned eval-modal-checkpoint eval-modal-quick eval-modal-probes eval-modal-all \
+        eval-archive eval-runs \
         help

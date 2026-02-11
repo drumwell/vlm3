@@ -250,6 +250,8 @@ def train(
     )
     from torch.utils.data import Dataset as TorchDataset
     from huggingface_hub import HfApi
+    from PIL import Image
+    import shutil
 
     # Setup persistent logging
     log_file = setup_logging()
@@ -349,86 +351,139 @@ def train(
 
             # Pre-download all images and filter out failures
             # VLM training requires images - text-only samples shouldn't be in the dataset
+            # Images are cached on the Modal volume to skip HF downloads on subsequent runs
             print("Pre-loading images...")
             self.images = {}
             valid_records = []
             failed_count = 0
+            cache_hits = 0
+            cache_dir = Path("/checkpoints/image_cache")
+            cache_dir.mkdir(parents=True, exist_ok=True)
 
             for i, record in enumerate(records):
                 image_path = record.get("image", "")
-                if image_path:
+                if not image_path:
+                    failed_count += 1
+                    continue
+
+                # Check cache first
+                cache_path = cache_dir / image_path
+                img = None
+                if cache_path.exists():
+                    try:
+                        img = Image.open(cache_path).convert("RGB")
+                        cache_hits += 1
+                    except Exception:
+                        img = None
+
+                if img is None:
                     img = download_image_fn(image_path)
                     if img is not None:
-                        # Use new index for valid records
-                        new_idx = len(valid_records)
-                        self.images[new_idx] = img
-                        valid_records.append(record)
-                    else:
-                        failed_count += 1
+                        cache_path.parent.mkdir(parents=True, exist_ok=True)
+                        try:
+                            img.save(cache_path, "JPEG")
+                        except Exception as e:
+                            print(f"Warning: Could not cache {image_path}: {e}")
+
+                if img is not None:
+                    new_idx = len(valid_records)
+                    self.images[new_idx] = img
+                    valid_records.append(record)
                 else:
                     failed_count += 1
 
                 if (i + 1) % 50 == 0:
-                    print(f"  Processed {i + 1}/{len(records)} images")
+                    print(f"  Processed {i + 1}/{len(records)} images ({cache_hits} from cache)")
 
             self.records = valid_records
-            print(f"  Done: {len(self.images)} valid, {failed_count} skipped")
+            print(f"  Done: {len(self.images)} valid, {failed_count} skipped, {cache_hits} cache hits")
 
         def __len__(self):
             return len(self.records)
 
         def __getitem__(self, idx):
             record = self.records[idx]
-            image = self.images[idx]  # Always exists now (filtered in __init__)
+            image = self.images[idx]
 
             # Build conversation for Qwen2-VL
             conversations = record.get("conversations", [])
             messages = []
+            prompt_messages = []
 
             for i, conv in enumerate(conversations):
                 role = conv["role"]
                 content = conv["content"]
 
                 if role == "user" and i == 0:
-                    # First user message with image
-                    messages.append({
+                    msg = {
                         "role": "user",
                         "content": [
                             {"type": "image", "image": image},
                             {"type": "text", "text": content}
                         ]
-                    })
+                    }
                 else:
-                    messages.append({
+                    msg = {
                         "role": role,
                         "content": [{"type": "text", "text": content}]
-                    })
+                    }
 
-            # Process with Qwen2-VL processor - no truncation to preserve image tokens
+                messages.append(msg)
+                if role != "assistant":
+                    prompt_messages.append(msg)
+
+            # Full conversation text (system + user + assistant + end tokens)
             text = self.processor.apply_chat_template(
                 messages,
                 tokenize=False,
                 add_generation_prompt=False
             )
 
+            # Prompt-only text ending at <|im_start|>assistant\n
+            prompt_text = self.processor.apply_chat_template(
+                prompt_messages,
+                tokenize=False,
+                add_generation_prompt=True
+            )
+
+            # Find response token count via tokenizer (no image processing needed).
+            # <|image_pad|> is one token in both texts, so the difference is
+            # exactly the assistant response tokens.
+            full_token_ids = self.processor.tokenizer(text, return_tensors=None)["input_ids"]
+            prompt_token_ids = self.processor.tokenizer(prompt_text, return_tensors=None)["input_ids"]
+            response_token_len = len(full_token_ids) - len(prompt_token_ids)
+
+            # Process with Qwen2-VL processor (expands image tokens)
             inputs = self.processor(
                 text=[text],
                 images=[image],
                 return_tensors="pt",
-                padding=False,  # Will pad in collate_fn
+                padding=False,
             )
 
             # Remove batch dimension for text tensors, keep image tensors as-is
             item = {}
             for k, v in inputs.items():
                 if k in ["input_ids", "attention_mask"]:
-                    item[k] = v.squeeze(0)  # Remove batch dim for text
+                    item[k] = v.squeeze(0)
                 elif k in ["pixel_values", "image_grid_thw"]:
-                    item[k] = v  # Keep batch dim for images (will concat in collate)
+                    item[k] = v
                 else:
                     item[k] = v.squeeze(0) if v.dim() > 1 else v
 
-            item["labels"] = item["input_ids"].clone()
+            # Mask labels: only compute loss on assistant response tokens
+            labels = torch.full_like(item["input_ids"], -100)
+            if response_token_len > 0:
+                labels[-response_token_len:] = item["input_ids"][-response_token_len:]
+            item["labels"] = labels
+
+            # Debug: log masking ratio for first sample
+            if idx == 0:
+                total = len(labels)
+                unmasked = (labels != -100).sum().item()
+                print(f"[Label masking] Total: {total}, "
+                      f"Masked (prompt+image): {total - unmasked} ({(total - unmasked) / total * 100:.1f}%), "
+                      f"Unmasked (assistant): {unmasked} ({unmasked / total * 100:.1f}%)")
 
             return item
 
@@ -445,6 +500,9 @@ def train(
             log(f"Validation dataset created: {len(val_dataset)} samples")
         else:
             val_dataset = None
+        # Commit image cache to persistent volume
+        volume.commit()
+        log("Image cache committed to volume")
     except Exception as e:
         log(f"❌ DATASET CREATION FAILED: {type(e).__name__}: {e}")
         log(f"Traceback:\n{traceback.format_exc()}")
@@ -507,6 +565,19 @@ def train(
 
     # Training arguments
     output_dir = "/checkpoints/vlm3-lora"
+
+    # Auto-archive previous run if final adapter exists
+    final_dir = Path(f"{output_dir}/final")
+    if final_dir.exists():
+        archive_dir = Path("/checkpoints/archive")
+        mtime = datetime.fromtimestamp(final_dir.stat().st_mtime)
+        run_tag = mtime.strftime("%Y%m%d_%H%M%S")
+        dest = archive_dir / f"run_{run_tag}"
+        archive_dir.mkdir(parents=True, exist_ok=True)
+        shutil.move(output_dir, str(dest))
+        log(f"Archived previous run to {dest}")
+        volume.commit()
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
 
     training_args = TrainingArguments(
         output_dir=output_dir,
@@ -814,3 +885,111 @@ def push_adapter_cli(
 
     print(f"\n✅ Adapter pushed successfully!")
     print(f"   URL: {result['url']}")
+
+
+@app.function(
+    image=modal.Image.debian_slim(python_version="3.11"),
+    volumes={"/checkpoints": volume},
+)
+def list_runs():
+    """List archived and current training runs on the Modal volume."""
+    archive_dir = Path("/checkpoints/archive")
+    current_dir = Path("/checkpoints/vlm3-lora/final")
+
+    runs = []
+
+    # List archived runs
+    if archive_dir.exists():
+        for run_dir in sorted(archive_dir.glob("run_*")):
+            final = run_dir / "final"
+            if final.exists():
+                mtime = datetime.fromtimestamp(final.stat().st_mtime)
+            else:
+                mtime = datetime.fromtimestamp(run_dir.stat().st_mtime)
+            runs.append({
+                "tag": run_dir.name,
+                "path": str(run_dir),
+                "date": mtime.strftime("%Y-%m-%d %H:%M:%S"),
+                "current": False,
+            })
+
+    # Current run
+    if current_dir.exists():
+        mtime = datetime.fromtimestamp(current_dir.stat().st_mtime)
+        runs.append({
+            "tag": "current",
+            "path": "/checkpoints/vlm3-lora",
+            "date": mtime.strftime("%Y-%m-%d %H:%M:%S"),
+            "current": True,
+        })
+
+    return runs
+
+
+@app.local_entrypoint()
+def list_runs_cli():
+    """
+    List archived and current training runs.
+
+    Usage:
+        modal run training/modal_train.py::list_runs_cli
+    """
+    print("Fetching run list from Modal volume...")
+    runs = list_runs.remote()
+
+    if not runs:
+        print("No training runs found.")
+        return
+
+    print(f"\n{'Tag':<30} {'Date':<22} {'Path'}")
+    print("-" * 80)
+    for run in runs:
+        marker = " (active)" if run["current"] else ""
+        print(f"{run['tag']:<30} {run['date']:<22} {run['path']}{marker}")
+
+
+@app.function(
+    image=modal.Image.debian_slim(python_version="3.11"),
+    volumes={"/checkpoints": volume},
+)
+def archive_run():
+    """Manually archive the current training run without starting a new one."""
+    import shutil
+
+    output_dir = "/checkpoints/vlm3-lora"
+    final_dir = Path(f"{output_dir}/final")
+
+    if not final_dir.exists():
+        return {"status": "error", "message": "No current run to archive (no final/ dir)"}
+
+    archive_dir = Path("/checkpoints/archive")
+    mtime = datetime.fromtimestamp(final_dir.stat().st_mtime)
+    run_tag = mtime.strftime("%Y%m%d_%H%M%S")
+    dest = archive_dir / f"run_{run_tag}"
+
+    if dest.exists():
+        return {"status": "error", "message": f"Archive {dest} already exists"}
+
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    shutil.move(output_dir, str(dest))
+    volume.commit()
+
+    return {"status": "success", "archived_to": str(dest), "run_tag": run_tag}
+
+
+@app.local_entrypoint()
+def archive_run_cli():
+    """
+    Archive the current training run on Modal volume.
+
+    Usage:
+        modal run training/modal_train.py::archive_run_cli
+    """
+    print("Archiving current run...")
+    result = archive_run.remote()
+
+    if result["status"] == "error":
+        print(f"⚠️  {result['message']}")
+        return
+
+    print(f"✅ Archived to: {result['archived_to']}")
