@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-023",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/023.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:16:40.230868",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 541
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the increment wheel on crankshaft?",
+      "answer": "M5 10.9 with 13 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-023-q01"
+    },
+    {
+      "question": "Which section of the manual covers crankshaft and bearings?",
+      "answer": "Section 11 21 Crankshaft and Bearings",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-023-q02"
+    },
+    {
+      "question": "Which component is listed under the crankshaft and bearings section?",
+      "answer": "Increment wheel on crankshaft",
+      "question_type": "component",
+      "id": "bmwtorquespecs-023-q07"
+    },
+    {
+      "question": "What section numbers cover the Engine in this manual?",
+      "answer": "11 - 13 Engine",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-023-q09"
+    },
+    {
+      "question": "What document identifier appears at the top of this page?",
+      "answer": "AZD11-11A.frb dated 20/10/97",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-023-q10"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "index_pages": [
+    "13-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "13 00 054",
+      "name": "Engine idle speed and CO level - adjust",
+      "pages": [
+        "13 - 700 a"
+      ]
+    },
+    {
+      "code": "13 31 029",
+      "name": "Fuel delivery pressure and jets - check",
+      "pages": [
+        "13 - 710"
+      ]
+    },
+    {
+      "code": "13 41 000",
+      "name": "Idle speed control valve - remove and install",
+      "pages": [
+        "13 - 713"
+      ]
+    },
+    {
+      "code": "13 51 200",
+      "name": "Fuel pressure regulator - remove and install",
+      "pages": [
+        "13 - 720"
+      ]
+    },
+    {
+      "code": "13 54 030",
+      "name": "Throttle valve necks - remove and install",
+      "pages": [
+        "13 - 730"
+      ]
+    },
+    {
+      "code": "13 61",
+      "name": "Throttle valves - basic adjustment",
+      "pages": [
+        "13 - 731"
+      ]
+    },
+    {
+      "code": "13 62 000",
+      "name": "Throttle valve linkage - basic adjustment",
+      "pages": [
+        "13 - 732"
+      ]
+    },
+    {
+      "code": "13 63 544",
+      "name": "Air flow sensor - remove and install",
+      "pages": [
+        "13 - 760"
+      ]
+    },
+    {
+      "code": "13 64 501",
+      "name": "Throttle valve switch - adjust",
+      "pages": [
+        "13 - 771",
+        "13 - 781"
+      ]
+    },
+    {
+      "code": "531",
+      "name": "Plug connection for control unit (conversion)",
+      "pages": [
+        "13 - 750"
+      ]
+    },
+    {
+      "code": "551",
+      "name": "Coolant temperature sensor - remove and install",
+      "pages": [
+        "13 - 762"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "13 - 700 a": [
+      "13 00 054"
+    ],
+    "13 - 710": [
+      "13 31 029"
+    ],
+    "13 - 713": [
+      "13 41 000"
+    ],
+    "13 - 720": [
+      "13 51 200"
+    ],
+    "13 - 730": [
+      "13 54 030"
+    ],
+    "13 - 731": [
+      "13 61"
+    ],
+    "13 - 732": [
+      "13 62 000"
+    ],
+    "13 - 760": [
+      "13 63 544"
+    ],
+    "13 - 771": [
+      "13 64 501"
+    ],
+    "13 - 781": [
+      "13 64 501"
+    ],
+    "13 - 750": [
+      "531"
+    ],
+    "13 - 762": [
+      "551"
+    ]
+  },
+  "merge_warnings": [
+    "Code 13 64 501: name mismatch 'Throttle valve switch - adjust' vs 'Throttle valve switch - remove and install'",
+    "Code 13 64 501: name mismatch 'Throttle valve switch - adjust' vs 'Fuel injector - remove and install'"
+  ]
+}

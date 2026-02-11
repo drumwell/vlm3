@@ -1,0 +1,91 @@
+{
+  "page_id": "getrag-009",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/009.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:43:37.176482",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 751
+  },
+  "qa_pairs": [
+    {
+      "question": "What coating process was used on the hardware parts after bead blasting?",
+      "answer": "The hardware parts were gold Zinc coated after bead blasting.",
+      "question_type": "procedural",
+      "id": "getrag-009-q01"
+    },
+    {
+      "question": "Which component was not included in the bead blasting process?",
+      "answer": "The cross member was not included in the bead blasting process.",
+      "question_type": "factual",
+      "id": "getrag-009-q02"
+    },
+    {
+      "question": "What transmission component is visible in the top image showing splined internals?",
+      "answer": "The image shows a transmission input shaft or similar splined component with internal splines visible.",
+      "question_type": "visual",
+      "id": "getrag-009-q03"
+    },
+    {
+      "question": "What problem was encountered during shimming for reverse gear?",
+      "answer": "Shimming for reverse was dodgy with too thin a shim in there.",
+      "question_type": "troubleshooting",
+      "id": "getrag-009-q04"
+    },
+    {
+      "question": "What alternative shim source was used to solve the reverse shimming issue?",
+      "answer": "A shim from a classic Mini suspension ball joint was used.",
+      "question_type": "procedural",
+      "id": "getrag-009-q05"
+    },
+    {
+      "question": "What type of surface are the cleaned and coated parts displayed on in the bottom image?",
+      "answer": "The parts are displayed on a white perforated surface or pegboard.",
+      "question_type": "visual",
+      "id": "getrag-009-q06"
+    },
+    {
+      "question": "What can be seen in the splined component in the top photograph?",
+      "answer": "Internal splines and what appears to be a bearing race or similar circular component are visible inside the splined shaft.",
+      "question_type": "visual",
+      "id": "getrag-009-q07"
+    },
+    {
+      "question": "What types of hardware components are visible after the coating process?",
+      "answer": "Various bolts, washers, nuts, and other small fasteners are visible after the gold zinc coating process.",
+      "question_type": "component",
+      "id": "getrag-009-q08"
+    },
+    {
+      "question": "What issue required using an alternative shim source?",
+      "answer": "The original shim for reverse was too thin, requiring the use of a shim from a Mini suspension ball joint.",
+      "question_type": "troubleshooting",
+      "id": "getrag-009-q09"
+    },
+    {
+      "question": "What finish treatment was applied to improve the appearance and corrosion resistance of the hardware?",
+      "answer": "Gold zinc coating was applied to provide both improved appearance and corrosion resistance.",
+      "question_type": "procedural",
+      "id": "getrag-009-q10"
+    },
+    {
+      "question": "What preparation step was performed before the coating process?",
+      "answer": "Bead blasting was performed to prepare the hardware parts before gold zinc coating.",
+      "question_type": "procedural",
+      "id": "getrag-009-q11"
+    },
+    {
+      "question": "What creative solution was used when proper transmission shims were not available?",
+      "answer": "A shim from a classic Mini suspension ball joint was substituted when the proper transmission shim was too thin.",
+      "question_type": "troubleshooting",
+      "id": "getrag-009-q12"
+    }
+  ]
+}

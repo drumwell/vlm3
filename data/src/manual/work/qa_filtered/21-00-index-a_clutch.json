@@ -1,0 +1,55 @@
+{
+  "page_id": "21-00-index-a_clutch",
+  "image_path": "raw/21 - Clutch/21-00-index-a.jpg",
+  "section_id": "21",
+  "section_name": "Clutch",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:19:33.269086",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1745,
+    "tokens_output": 362
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers clutch bleeding procedures?",
+      "answer": "Section 21 00 006 covers clutch bleeding procedures.",
+      "question_type": "factual",
+      "id": "21-00-index-a_clutch-q01"
+    },
+    {
+      "question": "On which page can I find information about clutch housing removal and installation?",
+      "answer": "Clutch housing removal and installation information can be found on page 21-1.",
+      "question_type": "navigation",
+      "id": "21-00-index-a_clutch-q02"
+    },
+    {
+      "question": "What procedure is covered in section 21 21 000?",
+      "answer": "Section 21 21 000 covers clutch disc removal and installation procedures.",
+      "question_type": "procedural",
+      "id": "21-00-index-a_clutch-q03"
+    },
+    {
+      "question": "Where can I find the clutch master cylinder overhaul procedure?",
+      "answer": "The clutch master cylinder overhaul procedure is found in section 502 on page 21-6.",
+      "question_type": "navigation",
+      "id": "21-00-index-a_clutch-q04"
+    },
+    {
+      "question": "What page contains clutch troubleshooting information?",
+      "answer": "Clutch troubleshooting information is located on page 21-7.",
+      "question_type": "troubleshooting",
+      "id": "21-00-index-a_clutch-q05"
+    },
+    {
+      "question": "Which section covers checking the drive plate for lateral runout?",
+      "answer": "Section 565 covers checking the drive plate for lateral runout.",
+      "question_type": "inspection",
+      "id": "21-00-index-a_clutch-q06"
+    }
+  ]
+}

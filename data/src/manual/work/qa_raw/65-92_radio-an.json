@@ -1,0 +1,91 @@
+{
+  "page_id": "65-92_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-92.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:08:26.560910",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 678
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure reference number for removing and installing the rear speaker?",
+      "answer": "65 12 020",
+      "question_type": "factual",
+      "id": "65-92_radio-an-q01"
+    },
+    {
+      "question": "What are the first two steps when removing a rear speaker?",
+      "answer": "Unscrew screws and pull off plug.",
+      "question_type": "procedural",
+      "id": "65-92_radio-an-q02"
+    },
+    {
+      "question": "What does callout number 1 indicate in the rear speaker assembly diagram?",
+      "answer": "Self-tapping screw",
+      "question_type": "visual",
+      "id": "65-92_radio-an-q03"
+    },
+    {
+      "question": "What is the correct installation order for the rear speaker components?",
+      "answer": "1 Self-tapping screw, 2 Speaker mask, 3 Speaker, 4 Washer, 5 Self-tapping nut, 6 Hatrack",
+      "question_type": "procedural",
+      "id": "65-92_radio-an-q04"
+    },
+    {
+      "question": "What component is identified as number 6 in the rear speaker assembly?",
+      "answer": "Hatrack",
+      "question_type": "visual",
+      "id": "65-92_radio-an-q05"
+    },
+    {
+      "question": "What should you do with the speaker frame for Sound System equipped vehicles?",
+      "answer": "Lift out speaker frame.",
+      "question_type": "procedural",
+      "id": "65-92_radio-an-q06"
+    },
+    {
+      "question": "What are the two steps shown for the Sound System speaker removal procedure?",
+      "answer": "Unscrew screws and disconnect plug.",
+      "question_type": "procedural",
+      "id": "65-92_radio-an-q07"
+    },
+    {
+      "question": "Which component serves as number 3 in the correct installation order?",
+      "answer": "Speaker",
+      "question_type": "visual",
+      "id": "65-92_radio-an-q08"
+    },
+    {
+      "question": "What type of screw is used as component number 1 in the rear speaker assembly?",
+      "answer": "Self-tapping screw",
+      "question_type": "factual",
+      "id": "65-92_radio-an-q09"
+    },
+    {
+      "question": "What is the difference between standard and Sound System speaker removal procedures?",
+      "answer": "Sound System requires lifting out the speaker frame, while standard procedure involves unscrewing screws and pulling off the plug.",
+      "question_type": "procedural",
+      "id": "65-92_radio-an-q10"
+    },
+    {
+      "question": "What component is positioned between the speaker and the self-tapping nut during installation?",
+      "answer": "Washer (component 4)",
+      "question_type": "visual",
+      "id": "65-92_radio-an-q11"
+    },
+    {
+      "question": "How many numbered components are shown in the correct installation order for the rear speaker?",
+      "answer": "Six components are listed in the correct installation order.",
+      "question_type": "factual",
+      "id": "65-92_radio-an-q12"
+    }
+  ]
+}

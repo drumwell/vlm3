@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-049",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/049.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:25:26.904485",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 517
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oxygen sensor and oxygen monitor sensor?",
+      "answer": "55 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-049-q01"
+    },
+    {
+      "question": "What component is covered under section 11 78 for emissions control?",
+      "answer": "Lambda oxygen sensor",
+      "question_type": "component",
+      "id": "00-torque-specs-049-q02"
+    },
+    {
+      "question": "Which engine section covers emissions control lambda oxygen sensor specifications?",
+      "answer": "11 - 39 Engine, section 11 78",
+      "question_type": "navigation",
+      "id": "00-torque-specs-049-q05"
+    },
+    {
+      "question": "What unit of measurement is used for the oxygen sensor torque specification?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-049-q06"
+    },
+    {
+      "question": "What is the complete description for the component specified under code 1AZ?",
+      "answer": "Oxygen sensor and oxygen monitor sensor",
+      "question_type": "component",
+      "id": "00-torque-specs-049-q07"
+    },
+    {
+      "question": "What torque value should be applied when installing lambda oxygen sensors?",
+      "answer": "55 Nm",
+      "question_type": "procedural",
+      "id": "00-torque-specs-049-q08"
+    },
+    {
+      "question": "Does the 55 Nm torque specification apply to all vehicle types?",
+      "answer": "Yes, it applies to all types as indicated in the Type column",
+      "question_type": "factual",
+      "id": "00-torque-specs-049-q09"
+    },
+    {
+      "question": "What emissions control component requires a 55 Nm torque specification?",
+      "answer": "Lambda oxygen sensor (oxygen sensor and oxygen monitor sensor)",
+      "question_type": "component",
+      "id": "00-torque-specs-049-q10"
+    }
+  ]
+}

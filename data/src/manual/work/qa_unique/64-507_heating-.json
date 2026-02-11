@@ -1,0 +1,85 @@
+{
+  "page_id": "64-507_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-507.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:59:58.720906",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 736
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing and installing the condenser?",
+      "answer": "Remove engine fan, loosen radiator and back up to engine, then discharge pressure in air conditioner with help of a valve core remover.",
+      "question_type": "procedural",
+      "id": "64-507_heating--q01"
+    },
+    {
+      "question": "What should be done after installing the condenser?",
+      "answer": "Discharge, charge and check air conditioner for leaks after installation.",
+      "question_type": "procedural",
+      "id": "64-507_heating--q02"
+    },
+    {
+      "question": "What components are numbered 1 through 5 in the condenser removal diagram?",
+      "answer": "1 = Bolts, 2 = Rubber mount, 3 = Washer, 4 = Lock washer, 5 = Nut.",
+      "question_type": "visual",
+      "id": "64-507_heating--q03"
+    },
+    {
+      "question": "What should be done immediately when disconnecting pipes during condenser removal?",
+      "answer": "Insert plugs in open connections immediately to prevent contamination.",
+      "question_type": "procedural",
+      "id": "64-507_heating--q04"
+    },
+    {
+      "question": "What torque specification is mentioned for the pipe connections?",
+      "answer": "Tightening torque is specified, but the exact value is referenced to specifications section.",
+      "question_type": "factual",
+      "id": "64-507_heating--q05"
+    },
+    {
+      "question": "What must be replaced when disconnecting pipes from the condenser?",
+      "answer": "Replace gasket when reconnecting the pipes.",
+      "question_type": "procedural",
+      "id": "64-507_heating--q07"
+    },
+    {
+      "question": "Which radiator grill section needs to be removed during condenser service?",
+      "answer": "Remove right radiator grill section.",
+      "question_type": "procedural",
+      "id": "64-507_heating--q08"
+    },
+    {
+      "question": "What plugs are mentioned in connection with the extra fan wiring?",
+      "answer": "Connect plug (1) of extra fan with plug (2) of wire harness.",
+      "question_type": "connector",
+      "id": "64-507_heating--q09"
+    },
+    {
+      "question": "How should the condenser be removed from the vehicle?",
+      "answer": "Unscrew bolts and remove condenser from above.",
+      "question_type": "procedural",
+      "id": "64-507_heating--q10"
+    },
+    {
+      "question": "What is the section number for this condenser removal and installation procedure?",
+      "answer": "Section 64 53 050 covers removing and installing condenser.",
+      "question_type": "navigation",
+      "id": "64-507_heating--q11"
+    },
+    {
+      "question": "What safety precaution is mentioned regarding the air conditioning system?",
+      "answer": "Discharge pressure in air conditioner with help of a valve core remover before beginning work.",
+      "question_type": "safety",
+      "id": "64-507_heating--q12"
+    }
+  ]
+}

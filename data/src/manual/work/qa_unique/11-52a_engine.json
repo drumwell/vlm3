@@ -1,0 +1,79 @@
+{
+  "page_id": "11-52a_engine",
+  "image_path": "raw/11 - Engine/11-52a.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:10:33.399030",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 892
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with the cover on the starter before disconnecting leads?",
+      "answer": "Unscrew cover (1), then disconnect leads (2 and 3) on starter.",
+      "question_type": "procedural",
+      "id": "11-52a_engine-q01"
+    },
+    {
+      "question": "What components are numbered 1, 2, and 3 in the first image showing starter removal?",
+      "answer": "Component 1 is the cover to unscrew, components 2 and 3 are the leads to disconnect on the starter.",
+      "question_type": "visual",
+      "id": "11-52a_engine-q02"
+    },
+    {
+      "question": "What is the correct procedure for removing plugs 1 and 2 from the oil pan area?",
+      "answer": "Pull off plugs (1 and 2) and unclip leads in holder. Disconnect lead (3) on oil pan (pull off plug and unscrew holder) and remove lead from above.",
+      "question_type": "procedural",
+      "id": "11-52a_engine-q03"
+    },
+    {
+      "question": "What specific instruction is given about the fuel pipes during installation?",
+      "answer": "Don't mix up pipes (2 and 3) during installation.",
+      "question_type": "safety",
+      "id": "11-52a_engine-q05"
+    },
+    {
+      "question": "What components need to be loosened or removed to access the bleeder hose?",
+      "answer": "Loosen clamp (1) and pull off bleeder hose. Unscrew fuel pipes (2 and 3) on injection pipe. Disconnect heater hose (4) on cylinder head.",
+      "question_type": "procedural",
+      "id": "11-52a_engine-q06"
+    },
+    {
+      "question": "What is the procedure for removing the intake manifold brace?",
+      "answer": "Pull off vacuum hose (1) and pull out of intake manifold brace. Pull off plug (2). Lift out rubber retainer (3). Place idle speed control aside and take engine wire harness located behind out of holders.",
+      "question_type": "procedural",
+      "id": "11-52a_engine-q08"
+    },
+    {
+      "question": "What should you do with the carbon canister hoses?",
+      "answer": "Loosen clamp and place carbon canister aside (hoses can remain connected).",
+      "question_type": "procedural",
+      "id": "11-52a_engine-q09"
+    },
+    {
+      "question": "What is shown being removed from the fuel injectors in the top right image?",
+      "answer": "Pull off plug plate on fuel injectors and lay aside past the pressure regulator.",
+      "question_type": "visual",
+      "id": "11-52a_engine-q10"
+    },
+    {
+      "question": "What components are labeled 1, 2, and 3 in the image showing fuel pipe removal?",
+      "answer": "Component 1 is the clamp to loosen, components 2 and 3 are the fuel pipes to unscrew on the injection pipe.",
+      "question_type": "visual",
+      "id": "11-52a_engine-q11"
+    },
+    {
+      "question": "What is the specific instruction about the heater hose clamp?",
+      "answer": "Loosen hose clamp (2) and pull off heater hose.",
+      "question_type": "procedural",
+      "id": "11-52a_engine-q12"
+    }
+  ]
+}

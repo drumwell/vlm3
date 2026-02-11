@@ -1,0 +1,79 @@
+{
+  "page_id": "00-04_torque-s",
+  "image_path": "raw/00 - Torque Specs/00-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:11:06.165629",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 681
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M8 8.8 screw?",
+      "answer": "24 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q01"
+    },
+    {
+      "question": "What torque specification should I use for an M8 10.9 bolt?",
+      "answer": "34 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q02"
+    },
+    {
+      "question": "What is the tightening torque for an M8 12.9 screw?",
+      "answer": "40 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q03"
+    },
+    {
+      "question": "What torque should I apply to an M8x1 8.8 threaded fastener?",
+      "answer": "26 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q04"
+    },
+    {
+      "question": "What is the maximum tightening torque for an M8x1 10.9 bolt?",
+      "answer": "36 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q05"
+    },
+    {
+      "question": "What torque specification applies to an M8x1 12.9 screw?",
+      "answer": "44 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q06"
+    },
+    {
+      "question": "What BMW standard should I reference for the applicable range of tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q07"
+    },
+    {
+      "question": "How much more torque does an M8 12.9 bolt require compared to an M8 8.8 bolt?",
+      "answer": "16 Nm more (40 Nm vs 24 Nm)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q08"
+    },
+    {
+      "question": "What is the difference in torque between M8x1 10.9 and M8 10.9 fasteners?",
+      "answer": "2 Nm difference (36 Nm for M8x1 vs 34 Nm for M8)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q09"
+    },
+    {
+      "question": "Which has a higher torque specification: M8x1 8.8 or M8 10.9?",
+      "answer": "M8 10.9 has a higher torque specification at 34 Nm compared to M8x1 8.8 at 26 Nm",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q10"
+    }
+  ]
+}

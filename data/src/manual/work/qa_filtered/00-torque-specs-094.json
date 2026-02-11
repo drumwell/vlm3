@@ -1,0 +1,43 @@
+{
+  "page_id": "00-torque-specs-094",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/094.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:33:48.723441",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 625
+  },
+  "qa_pairs": [
+    {
+      "question": "Which has a higher torque specification: M8 hex screws or M8 Torx bolts?",
+      "answer": "M8 hex screws have a higher torque specification at 25 Nm compared to M8 Torx bolts at 22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-094-q07"
+    },
+    {
+      "question": "What is the difference in torque between M10 hex screws and M10 Torx bolts?",
+      "answer": "M10 hex screws require 49 Nm while M10 Torx bolts require 43 Nm, a difference of 6 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-094-q08"
+    },
+    {
+      "question": "Which fasteners are used for connecting the transmission to the engine?",
+      "answer": "Both hex screws and Torx bolts in sizes M8, M10, and M12",
+      "question_type": "factual",
+      "id": "00-torque-specs-094-q09"
+    },
+    {
+      "question": "What manual section covers manual transmission specifications?",
+      "answer": "Section 23-1 Manual Transmission, subsection 23 00 Transmission in general",
+      "question_type": "navigation",
+      "id": "00-torque-specs-094-q10"
+    }
+  ]
+}

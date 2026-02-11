@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-72-01",
+  "image_path": "raw/00 - Torque Specs/72-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:06:13.660067",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 597
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the difference in torque between safety bolts on B-pillar and safety bolts on body?",
+      "answer": "Safety bolts on body require 48 Nm while B-pillar safety bolts require 31 Nm, a difference of 17 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-72-01-q05"
+    },
+    {
+      "question": "Which components require the highest torque specification according to this table?",
+      "answer": "Safety bolt on body (except for B-pillar) and safety bolt on seat/touring rear seat backrest both require 48 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-72-01-q08"
+    }
+  ]
+}

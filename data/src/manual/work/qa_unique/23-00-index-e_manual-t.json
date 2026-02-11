@@ -1,0 +1,43 @@
+{
+  "page_id": "23-00-index-e_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-00-index-e.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:22:08.266738",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1746,
+    "tokens_output": 337
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of manual transmission is covered in this section?",
+      "answer": "GETRAG 265/6 Five Speed Manual Transmission with Overdrive",
+      "question_type": "factual",
+      "id": "23-00-index-e_manual-t-q01"
+    },
+    {
+      "question": "Where would I look to find procedures for replacing the guide sleeve for clutch release?",
+      "answer": "Page 23-310, section 23 11 610",
+      "question_type": "navigation",
+      "id": "23-00-index-e_manual-t-q03"
+    },
+    {
+      "question": "What page contains information about the transmission case front section removal and installation?",
+      "answer": "Page 23-305",
+      "question_type": "navigation",
+      "id": "23-00-index-e_manual-t-q04"
+    },
+    {
+      "question": "Which section covers the radial oil seal replacement for the output flange?",
+      "answer": "Section 23 12 053 on page 23-311",
+      "question_type": "navigation",
+      "id": "23-00-index-e_manual-t-q05"
+    }
+  ]
+}

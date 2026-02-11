@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6413-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:07:52.297972",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 550
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of fuse 20 in the power distribution box?",
+      "answer": "Fuse 20 is rated at 30 AMP according to the power distribution box diagram.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-00-q01"
+    },
+    {
+      "question": "What resistance value does R1 have in the blower resistors section?",
+      "answer": "R1 has a resistance value of 1.6 OHMS in the blower resistors.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-00-q02"
+    },
+    {
+      "question": "What happens when the safety switch operates in the blower resistors?",
+      "answer": "The safety switch opens when resistors overheat according to the blower resistors diagram.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-00-q03"
+    },
+    {
+      "question": "What voltage level is supplied to the control switches section?",
+      "answer": "1.5 VL (1.5 volts) is supplied to the control switches section.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-00-q04"
+    },
+    {
+      "question": "Which relay provides hot power only when running from the unloader?",
+      "answer": "Relay K7 provides hot power only when running from the unloader according to the note at the top.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-00-q05"
+    },
+    {
+      "question": "What are the resistance values for R2 and R3 in the blower resistors?",
+      "answer": "R2 has a resistance of 8 OHMS and R3 has a resistance of 35 OHMS in the blower resistors.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-00-q06"
+    },
+    {
+      "question": "What wire color coding is used for the dash lights connection?",
+      "answer": "The dash lights use .5 BR/WT (0.5 brown/white) wire color coding.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-00-q07"
+    },
+    {
+      "question": "What important note is mentioned regarding some vehicles and ground distribution?",
+      "answer": "Some vehicles may contain an additional splice in the ground distribution according to the note at the bottom of the diagram.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-00-q08"
+    }
+  ]
+}

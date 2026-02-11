@@ -1,0 +1,85 @@
+{
+  "page_id": "12-155_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-155.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:35:48.409807",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 751
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum diameter specification for the commutator?",
+      "answer": "The diameter must be at least 33.5 mm (1.319\").",
+      "question_type": "factual",
+      "id": "12-155_engine-e-q01"
+    },
+    {
+      "question": "What depth should the insulation be machined to between commutator plates?",
+      "answer": "Machine insulation between plates approximately 0.5 to 0.7 mm (0.020 to 0.027\") deep.",
+      "question_type": "factual",
+      "id": "12-155_engine-e-q02"
+    },
+    {
+      "question": "What should you check for after machining the commutator insulation?",
+      "answer": "Check for shorted turns after machining.",
+      "question_type": "inspection",
+      "id": "12-155_engine-e-q04"
+    },
+    {
+      "question": "What is the proper way to install new carbon brushes?",
+      "answer": "When soldering in new carbon brushes, make sure that copper leads are not hardened with flowing solder.",
+      "question_type": "procedural",
+      "id": "12-155_engine-e-q05"
+    },
+    {
+      "question": "How do you remove the carbon brush holder?",
+      "answer": "Slide carbon brush holder to center and lift off.",
+      "question_type": "procedural",
+      "id": "12-155_engine-e-q06"
+    },
+    {
+      "question": "What should be done to the commutator surface during service?",
+      "answer": "Fine grind and polish commutator. File or machine insulation between commutator plates to depth of 0.5 to 0.7 mm (0.020 to 0.027\").",
+      "question_type": "procedural",
+      "id": "12-155_engine-e-q07"
+    },
+    {
+      "question": "How should the carbon brush holder be installed?",
+      "answer": "Engage hooks of carbon brush holder completely.",
+      "question_type": "procedural",
+      "id": "12-155_engine-e-q08"
+    },
+    {
+      "question": "What must be done with the carbon brushes during installation?",
+      "answer": "Two carbon brushes must be cut off of the leads. Solder in new carbon brushes.",
+      "question_type": "procedural",
+      "id": "12-155_engine-e-q09"
+    },
+    {
+      "question": "What components need to be removed to access the carbon brushes?",
+      "answer": "Take off holder and pole housing. Unsolder or cut off all carbon brushes.",
+      "question_type": "procedural",
+      "id": "12-155_engine-e-q10"
+    },
+    {
+      "question": "What inspection should be performed on the commutator?",
+      "answer": "Check commutator for wear, fine grinding if necessary.",
+      "question_type": "inspection",
+      "id": "12-155_engine-e-q11"
+    },
+    {
+      "question": "What section number covers replacing carbon brushes?",
+      "answer": "Section 12 41 551 covers replacing carbon brushes for both starter removed/disassembled and starter and layshaft disassembled procedures.",
+      "question_type": "navigation",
+      "id": "12-155_engine-e-q12"
+    }
+  ]
+}

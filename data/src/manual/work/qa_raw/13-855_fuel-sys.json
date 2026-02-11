@@ -1,0 +1,79 @@
+{
+  "page_id": "13-855_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-855.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:53:49.406438",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 649
+  },
+  "qa_pairs": [
+    {
+      "question": "How do you perform a mechanical air flow sensor test?",
+      "answer": "Detach intake hose on air flow sensor. Move sensor plate with finger. Sensor plate must move easily over entire range.",
+      "question_type": "procedural",
+      "id": "13-855_fuel-sys-q01"
+    },
+    {
+      "question": "What BMW service test unit step is used to check the electric air flow sensor?",
+      "answer": "Use BMW service test unit / test step L-Jet. 04 to check air flow sensor test values.",
+      "question_type": "diagnostic",
+      "id": "13-855_fuel-sys-q02"
+    },
+    {
+      "question": "What should you check if one or more fuel injectors are defective?",
+      "answer": "Start engine and check needle movement of fuel injectors with fingers. The needle movement must be felt.",
+      "question_type": "diagnostic",
+      "id": "13-855_fuel-sys-q03"
+    },
+    {
+      "question": "Which test step is used to check fuel injector activation?",
+      "answer": "Check activation of fuel injectors with BMW service test unit/test step L-Jet. 02.",
+      "question_type": "diagnostic",
+      "id": "13-855_fuel-sys-q04"
+    },
+    {
+      "question": "What test step is used to check fuel injector wires and coil?",
+      "answer": "Check wires and coil of fuel injectors with BMW service test unit/test step L-Jet. 05.",
+      "question_type": "diagnostic",
+      "id": "13-855_fuel-sys-q05"
+    },
+    {
+      "question": "How do you test a defective coolant temperature sensor?",
+      "answer": "Check temperature sensor with BMW service test unit / test step L-Jet. 04.",
+      "question_type": "diagnostic",
+      "id": "13-855_fuel-sys-q06"
+    },
+    {
+      "question": "What should you do if the coolant temperature sensor test value is not okay?",
+      "answer": "Check wiring (see wiring diagram). If wiring is okay, replace temperature sensor.",
+      "question_type": "troubleshooting",
+      "id": "13-855_fuel-sys-q07"
+    },
+    {
+      "question": "Which test steps are used to check a defective control unit?",
+      "answer": "Check control unit with BMW service test unit / test steps L-Jet. 06, 07 and 08.",
+      "question_type": "diagnostic",
+      "id": "13-855_fuel-sys-q08"
+    },
+    {
+      "question": "What is the corrective action if the air flow sensor fails both mechanical and electric tests?",
+      "answer": "Replace air flow sensor.",
+      "question_type": "procedural",
+      "id": "13-855_fuel-sys-q09"
+    },
+    {
+      "question": "What should you do if fuel injector wires test okay but the injector is still defective?",
+      "answer": "Replace defective fuel injector.",
+      "question_type": "troubleshooting",
+      "id": "13-855_fuel-sys-q10"
+    }
+  ]
+}

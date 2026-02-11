@@ -1,0 +1,79 @@
+{
+  "page_id": "-009",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/009.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:04:36.146183",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 739
+  },
+  "qa_pairs": [
+    {
+      "question": "What surface preparation method was used on the hardware parts before coating?",
+      "answer": "I bead blasted the hardware parts (cross member not included) before they were gold Zinc coated.",
+      "question_type": "procedural",
+      "id": "-009-q01"
+    },
+    {
+      "question": "Which component was specifically excluded from the bead blasting and coating process?",
+      "answer": "The cross member was not included in the bead blasting and coating process.",
+      "question_type": "factual",
+      "id": "-009-q03"
+    },
+    {
+      "question": "What can be seen in the first image showing the differential component?",
+      "answer": "The first image shows a differential component with internal splined gears and a bearing assembly on a striped towel.",
+      "question_type": "visual",
+      "id": "-009-q04"
+    },
+    {
+      "question": "Where are the coated hardware parts displayed in the second image?",
+      "answer": "The coated hardware parts are displayed on a white perforated pegboard surface.",
+      "question_type": "visual",
+      "id": "-009-q05"
+    },
+    {
+      "question": "What solution was used to address the reverse gear shimming problem?",
+      "answer": "A shim from a classic Mini suspension ball joint was used to solve the reverse gear shimming issue.",
+      "question_type": "procedural",
+      "id": "-009-q07"
+    },
+    {
+      "question": "What types of hardware components can be identified in the second image?",
+      "answer": "Various bolts, washers, nuts, pins, and other small fasteners can be identified in the second image.",
+      "question_type": "component",
+      "id": "-009-q08"
+    },
+    {
+      "question": "What color appearance do the coated parts have after the zinc coating process?",
+      "answer": "The parts have a gold appearance after the zinc coating process.",
+      "question_type": "visual",
+      "id": "-009-q09"
+    },
+    {
+      "question": "What was the source of the replacement shim for the reverse gear?",
+      "answer": "The replacement shim came from a classic Mini suspension ball joint.",
+      "question_type": "factual",
+      "id": "-009-q10"
+    },
+    {
+      "question": "What surface is used as the backdrop for organizing the small hardware parts?",
+      "answer": "A white pegboard with regularly spaced holes is used as the backdrop for organizing the small hardware parts.",
+      "question_type": "visual",
+      "id": "-009-q11"
+    },
+    {
+      "question": "What gear was specifically mentioned as having shimming difficulties?",
+      "answer": "Reverse gear was specifically mentioned as having shimming difficulties.",
+      "question_type": "troubleshooting",
+      "id": "-009-q12"
+    }
+  ]
+}

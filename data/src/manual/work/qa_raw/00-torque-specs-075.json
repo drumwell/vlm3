@@ -1,0 +1,82 @@
+{
+  "page_id": "00-torque-specs-075",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/075.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:30:17.942886",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 603
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the fuel injector to intake manifold?",
+      "answer": "10 Nm using an M6 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-075-q01"
+    },
+    {
+      "question": "What torque value should be used for the coupling nut on fuel injector?",
+      "answer": "25 Nm for all vehicles with K-Jetr.",
+      "question_type": "factual",
+      "id": "00-torque-specs-075-q02"
+    },
+    {
+      "question": "What screw size is used for mounting the fuel injector to the intake manifold?",
+      "answer": "M6 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-075-q03"
+    },
+    {
+      "question": "Which vehicles require the 25 Nm torque specification for the fuel injector coupling nut?",
+      "answer": "All vehicles with K-Jetr.",
+      "question_type": "factual",
+      "id": "00-torque-specs-075-q04"
+    },
+    {
+      "question": "What section of the manual covers fuel delivery and metering system torque specifications?",
+      "answer": "Section 13-8.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-075-q05"
+    },
+    {
+      "question": "What is the difference in torque values between the fuel injector mounting and its coupling nut?",
+      "answer": "The fuel injector to intake manifold uses 10 Nm, while the coupling nut requires 25 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-075-q06"
+    },
+    {
+      "question": "What component number is assigned to fuel injectors in this specification table?",
+      "answer": "13 64.",
+      "question_type": "factual",
+      "id": "00-torque-specs-075-q07"
+    },
+    {
+      "question": "Does the fuel injector to intake manifold torque specification apply to all vehicle types?",
+      "answer": "Yes, it applies to all vehicle types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-075-q08"
+    },
+    {
+      "question": "What are the two different fuel injector torque specifications listed on this page?",
+      "answer": "10 Nm for fuel injector to intake manifold and 25 Nm for coupling nut on fuel injector.",
+      "question_type": "factual",
+      "id": "00-torque-specs-075-q09",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What specific fuel system type is mentioned for the coupling nut specification?",
+      "answer": "K-Jetr (K-Jetronic).",
+      "question_type": "factual",
+      "id": "00-torque-specs-075-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "23-06_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-06.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:24:13.671414",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 777
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to pull out the radial oil seal?",
+      "answer": "Special Tool 00 5 010 is required to pull out the radial oil seal.",
+      "question_type": "tool",
+      "id": "23-06_manual-t-q01"
+    },
+    {
+      "question": "What procedure is covered in section 23 12 053?",
+      "answer": "Section 23 12 053 covers replacing the radial oil seal for the output flange.",
+      "question_type": "factual",
+      "id": "23-06_manual-t-q02"
+    },
+    {
+      "question": "What special tool is used to hold the output flange during the procedure?",
+      "answer": "Special Tool 23 0 020 is used to hold the output flange.",
+      "question_type": "tool",
+      "id": "23-06_manual-t-q03"
+    },
+    {
+      "question": "How should the sealing lip be prepared during installation of the radial oil seal?",
+      "answer": "The sealing lip should be lubricated with oil before installation.",
+      "question_type": "procedural",
+      "id": "23-06_manual-t-q04"
+    },
+    {
+      "question": "What special tool is needed to unscrew the collar nut?",
+      "answer": "Special Tool 23 1 210 is needed to unscrew the collar nut.",
+      "question_type": "tool",
+      "id": "23-06_manual-t-q05"
+    },
+    {
+      "question": "In the selector shaft radial oil seal replacement procedure, what component needs to be driven out upwards?",
+      "answer": "Pin (2) needs to be driven out upwards.",
+      "question_type": "procedural",
+      "id": "23-06_manual-t-q06"
+    },
+    {
+      "question": "What special tool is used to pull off the output flange?",
+      "answer": "Special Tool 33 1 150 is used to pull off the output flange.",
+      "question_type": "tool",
+      "id": "23-06_manual-t-q07"
+    },
+    {
+      "question": "What reference is given for the collar nut installation torque?",
+      "answer": "The tightening torque reference is marked with an asterisk and refers to the Specifications section.",
+      "question_type": "factual",
+      "id": "23-06_manual-t-q08"
+    },
+    {
+      "question": "What special tool is required to drive in the new radial oil seal?",
+      "answer": "Special Tool 23 1 240 is required to drive in the radial oil seal.",
+      "question_type": "tool",
+      "id": "23-06_manual-t-q09"
+    },
+    {
+      "question": "What is the first step in replacing the radial oil seal for the output flange?",
+      "answer": "The first step is to disconnect the propeller shaft at the front end and on center mount, then remove the lockplate.",
+      "question_type": "procedural",
+      "id": "23-06_manual-t-q10"
+    },
+    {
+      "question": "What components are shown as callout number 3 in the selector shaft procedure?",
+      "answer": "Callout number 3 indicates the radial oil seal that needs to be removed.",
+      "question_type": "visual",
+      "id": "23-06_manual-t-q11"
+    },
+    {
+      "question": "What fastener method is specified for installing the collar nut?",
+      "answer": "The collar nut should be installed with bolt cement, as indicated by the double asterisk reference to HWB source.",
+      "question_type": "procedural",
+      "id": "23-06_manual-t-q12"
+    }
+  ]
+}

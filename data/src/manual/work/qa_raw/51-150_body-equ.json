@@ -1,0 +1,91 @@
+{
+  "page_id": "51-150_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-150.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:12:23.837392",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 846
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing or replacing the rubbing strip on the left or right front side panel?",
+      "answer": "The procedure number is 51 15 300.",
+      "question_type": "factual",
+      "id": "51-150_body-equ-q01"
+    },
+    {
+      "question": "What should you do when installing the rubbing strip on the front door according to procedure 51 15 330?",
+      "answer": "First engage the rubbing strip in the bevelled clip and then press on. Replace clips if necessary.",
+      "question_type": "procedural",
+      "id": "51-150_body-equ-q02"
+    },
+    {
+      "question": "How do you remove the rubbing strip on the rear door according to procedure 51 15 360?",
+      "answer": "Lift out plug, unscrew screw, then pull off rubbing strip.",
+      "question_type": "procedural",
+      "id": "51-150_body-equ-q03"
+    },
+    {
+      "question": "What is the first step in removing the rubbing strip from the left or right front door?",
+      "answer": "Unscrew screw, then pull off rubbing strip.",
+      "question_type": "procedural",
+      "id": "51-150_body-equ-q04"
+    },
+    {
+      "question": "What installation instruction is given for the rear door rubbing strip in procedure 51 15 360?",
+      "answer": "Replace clips, if necessary. First engage the rubbing strip in the bevelled clip and then press on.",
+      "question_type": "procedural",
+      "id": "51-150_body-equ-q05"
+    },
+    {
+      "question": "Which procedure covers removing and installing the rubbing strip on the rear side panel?",
+      "answer": "Procedure 51 15 390 covers removing and installing or replacing rubbing strip on left or right rear side panel.",
+      "question_type": "factual",
+      "id": "51-150_body-equ-q06"
+    },
+    {
+      "question": "What is the removal procedure for the rear side panel rubbing strip?",
+      "answer": "Unscrew screw and pull off rubbing strip.",
+      "question_type": "procedural",
+      "id": "51-150_body-equ-q07"
+    },
+    {
+      "question": "What installation guidance is provided for all rubbing strip procedures shown?",
+      "answer": "Replace clips, if necessary. First engage the rubbing strip in the bevelled clip and then press on.",
+      "question_type": "procedural",
+      "id": "51-150_body-equ-q08"
+    },
+    {
+      "question": "What component identification numbers are shown in the diagrams?",
+      "answer": "The diagrams show component identification numbers 30 51 446, 30 51 442, 30 51 443, 30 51 440, 30 51 441, 30 51 444, and 30 51 445.",
+      "question_type": "visual",
+      "id": "51-150_body-equ-q09"
+    },
+    {
+      "question": "What is the common removal method shown for most rubbing strips?",
+      "answer": "Pull off rubbing strip is the common removal method, with some procedures requiring unscrewing a screw first.",
+      "question_type": "procedural",
+      "id": "51-150_body-equ-q10"
+    },
+    {
+      "question": "What should be checked during installation of all rubbing strips?",
+      "answer": "Check if clips need to be replaced and ensure proper engagement in the bevelled clip before pressing on.",
+      "question_type": "inspection",
+      "id": "51-150_body-equ-q11"
+    },
+    {
+      "question": "Which rubbing strip removal requires lifting out a plug before unscrewing the screw?",
+      "answer": "The rear door rubbing strip (procedure 51 15 360) requires lifting out the plug before unscrewing the screw.",
+      "question_type": "procedural",
+      "id": "51-150_body-equ-q12"
+    }
+  ]
+}

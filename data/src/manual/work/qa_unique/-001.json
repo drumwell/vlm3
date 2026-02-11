@@ -1,0 +1,61 @@
+{
+  "page_id": "-001",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/001.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:02:44.395580",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 777
+  },
+  "qa_pairs": [
+    {
+      "question": "What transmission is the subject of this rebuild article?",
+      "answer": "The Getrag 265/5 transmission.",
+      "question_type": "factual",
+      "id": "-001-q01"
+    },
+    {
+      "question": "Who wrote this Getrag 265/5 rebuild article?",
+      "answer": "Mike Oswald wrote the article on August 2, 2020.",
+      "question_type": "factual",
+      "id": "-001-q02"
+    },
+    {
+      "question": "What was the main problem that prompted this transmission rebuild?",
+      "answer": "The main problem was rattle noise when hot with the foot off the clutch, which was more pronounced with ATF oil. If the owner ran gearbox oil 70/90, the noise was good but would be stiff to change in cold weather.",
+      "question_type": "diagnostic",
+      "id": "-001-q04"
+    },
+    {
+      "question": "What did the author do with the remaining parts after purchasing the main components?",
+      "answer": "The remaining parts were stripped and inspected once disassembled.",
+      "question_type": "procedural",
+      "id": "-001-q08"
+    },
+    {
+      "question": "What issue did the author encounter when trying to remove the gearbox?",
+      "answer": "The weight of the gearbox was unexpected and it did not help that the author had the drain bung out while trying to manhandle it out from under the M3 on axle stands.",
+      "question_type": "procedural",
+      "id": "-001-q10"
+    },
+    {
+      "question": "Who provided guidance for this rebuild project?",
+      "answer": "Brian Xworks, John Jwbavalon, and Diego provided guidance for this rebuild project.",
+      "question_type": "factual",
+      "id": "-001-q11"
+    },
+    {
+      "question": "What type of transmission is this article specifically about?",
+      "answer": "This is about a 265-5 O/H (overhaul) transmission that the author recently completed.",
+      "question_type": "factual",
+      "id": "-001-q12"
+    }
+  ]
+}

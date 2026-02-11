@@ -1,0 +1,85 @@
+{
+  "page_id": "51-456_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-456.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:28:52.050048",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 798
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two procedures shown for removing instrument panel trim at the bottom?",
+      "answer": "The procedures are 51 45 180 for removing instrument panel trim at bottom left, and 51 45 200 for removing instrument panel trim at bottom right center.",
+      "question_type": "factual",
+      "id": "51-456_body-equ-q01"
+    },
+    {
+      "question": "What is the first step when removing the instrument panel trim at the bottom left?",
+      "answer": "Unscrew screws and take out trim panel.",
+      "question_type": "procedural",
+      "id": "51-456_body-equ-q02"
+    },
+    {
+      "question": "What additional step is required for cars with SRS when removing the bottom left instrument panel trim?",
+      "answer": "For cars with SRS, you must unscrew screws and take out trim panel as an additional step.",
+      "question_type": "procedural",
+      "id": "51-456_body-equ-q03"
+    },
+    {
+      "question": "What should you do first when removing the instrument panel trim at the bottom right center?",
+      "answer": "Open glove box and unscrew screws.",
+      "question_type": "procedural",
+      "id": "51-456_body-equ-q04"
+    },
+    {
+      "question": "What part numbers are referenced in the diagrams for the left side trim removal?",
+      "answer": "The part numbers shown are 30 32 021 and 30 51 847.",
+      "question_type": "factual",
+      "id": "51-456_body-equ-q05"
+    },
+    {
+      "question": "What should you do after opening the glove box during the right center trim removal?",
+      "answer": "Pull off glove box light plug and lift out trim panel.",
+      "question_type": "procedural",
+      "id": "51-456_body-equ-q06"
+    },
+    {
+      "question": "How many screws need to be unscrewed in the final step of the right center trim removal?",
+      "answer": "Unscrew screws 1 and 2.",
+      "question_type": "procedural",
+      "id": "51-456_body-equ-q07"
+    },
+    {
+      "question": "What is the final step after unscrewing screws 1 and 2 in procedure 51 45 200?",
+      "answer": "Lift out trim panel.",
+      "question_type": "procedural",
+      "id": "51-456_body-equ-q09"
+    },
+    {
+      "question": "Which diagram shows the location of screws 1 and 2?",
+      "answer": "Diagram 30 51 591 shows the location of screws 1 and 2 that need to be unscrewed.",
+      "question_type": "visual",
+      "id": "51-456_body-equ-q10"
+    },
+    {
+      "question": "What diagram number corresponds to the glove box light plug removal step?",
+      "answer": "Diagram 30 13 187 shows the step for pulling off the glove box light plug.",
+      "question_type": "factual",
+      "id": "51-456_body-equ-q11"
+    },
+    {
+      "question": "What type of vehicle configuration requires additional steps during the left side trim removal?",
+      "answer": "Cars with SRS (Supplemental Restraint System) require additional steps during the left side trim removal.",
+      "question_type": "factual",
+      "id": "51-456_body-equ-q12"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "page_id": "bmwtorquespecs-134",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/134.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:38:11.081943",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 757
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the hitch bolts when installing a trailer hitch to the body?",
+      "answer": "The hitch bolts should be tightened to 42 Nm using an M10 8.8 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-134-q01"
+    },
+    {
+      "question": "What is the correct tightening sequence for installing a trailer hitch to the body?",
+      "answer": "The tightening sequence is: 1. Hitch bolts, 2. Axial strut bolts, 3. Reinforcement bracket collar nut.",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-134-q02"
+    },
+    {
+      "question": "What torque value should be applied to the axial strut bolts during trailer hitch installation?",
+      "answer": "The axial strut bolts should be tightened to 59 Nm using M10 10.9 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-134-q03"
+    },
+    {
+      "question": "What is the torque specification for the slotted nut on the take-up pipe to hitch?",
+      "answer": "The slotted nut should be tightened to 220 Nm using an M40 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-134-q04"
+    },
+    {
+      "question": "What type of thread locker should be used on the slotted nut for the take-up pipe to hitch?",
+      "answer": "Loctite No. 638 should be used on the slotted nut for the take-up pipe to hitch.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-134-q05"
+    },
+    {
+      "question": "What vehicle model designation applies to the hitch to body installation procedure?",
+      "answer": "The hitch to body installation procedure applies to the E36 model.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-134-q06"
+    },
+    {
+      "question": "What vehicle model designation applies to the slotted nut for take-up pipe to hitch?",
+      "answer": "The slotted nut for take-up pipe to hitch procedure applies to the E32 model.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-134-q07"
+    },
+    {
+      "question": "What section number covers the trailer hitch specifications?",
+      "answer": "The trailer hitch specifications are covered in section 71 60.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-134-q08"
+    },
+    {
+      "question": "What are the two main components covered under the trailer hitch installation procedures?",
+      "answer": "The two main components are: 1AZ - Hitch to body, and 2AZ - Slotted nut for take-up pipe to hitch.",
+      "question_type": "component",
+      "id": "bmwtorquespecs-134-q09"
+    },
+    {
+      "question": "What is the highest torque value specified on this page?",
+      "answer": "The highest torque value specified is 220 Nm for the M40 slotted nut for the take-up pipe to hitch.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-134-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

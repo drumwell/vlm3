@@ -1,0 +1,31 @@
+{
+  "page_id": "bmwtorquespecs-069",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/069.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:25:25.800675",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 577
+  },
+  "qa_pairs": [
+    {
+      "question": "Which engine types use the fuel pipe to pressure regulator connection?",
+      "answer": "All with L-Jetr.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-069-q04"
+    },
+    {
+      "question": "What engine management system types are specified for the fuel pipe coupling bolts?",
+      "answer": "K-Jetr for both M8 and M12 bolts, and L-Jetr for pressure regulator connections",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-069-q10"
+    }
+  ]
+}

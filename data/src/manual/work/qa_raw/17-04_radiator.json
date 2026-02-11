@@ -1,0 +1,94 @@
+{
+  "page_id": "17-04_radiator",
+  "image_path": "raw/17 - Radiator/17-04.jpg",
+  "section_id": "17",
+  "section_name": "Radiator",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:01:34.012286",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 793
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the radiator?",
+      "answer": "The procedure number is 17 11 000 for removing and installing the radiator.",
+      "question_type": "factual",
+      "id": "17-04_radiator-q01"
+    },
+    {
+      "question": "What safety warning is given regarding the radiator removal on BMW 318i M3 engines?",
+      "answer": "There is a caution about danger of scalding when the engine is hot.",
+      "question_type": "safety",
+      "id": "17-04_radiator-q02"
+    },
+    {
+      "question": "What are the basic steps for radiator removal on BMW 318i M3?",
+      "answer": "Unscrew radiator cap, disconnect coolant hoses and drain coolant. For installation, add coolant.",
+      "question_type": "procedural",
+      "id": "17-04_radiator-q03"
+    },
+    {
+      "question": "What specific procedure is described for versions with radiator drain plug?",
+      "answer": "Unscrew drain bolt to drain coolant and disconnect coolant hoses. For installation, use tightening torque for drain bolt, use new hose clamps, and add coolant.",
+      "question_type": "procedural",
+      "id": "17-04_radiator-q04"
+    },
+    {
+      "question": "What should be done with the fan cowl during radiator removal?",
+      "answer": "Loosen clamps and suspend fan cowl over fan. During installation, make sure fan cowl retainers are positioned correctly.",
+      "question_type": "procedural",
+      "id": "17-04_radiator-q05"
+    },
+    {
+      "question": "What additional step is required for cars with air conditioner during radiator removal?",
+      "answer": "Pull off plugs on temperature switches.",
+      "question_type": "procedural",
+      "id": "17-04_radiator-q06"
+    },
+    {
+      "question": "What is the final step shown for radiator removal?",
+      "answer": "Unscrew bolt and lift out radiator. For installation, install washers and sleeves as shown and apply tightening torque.",
+      "question_type": "procedural",
+      "id": "17-04_radiator-q07"
+    },
+    {
+      "question": "What special consideration is mentioned for cars with automatic transmission?",
+      "answer": "Unscrew oil cooler lines and plug open connections with caps. Check ATF level and correct if necessary using procedure 24 00 009.",
+      "question_type": "procedural",
+      "id": "17-04_radiator-q08"
+    },
+    {
+      "question": "What inspection should be performed during radiator installation?",
+      "answer": "Check installed position of rubber mounts.",
+      "question_type": "inspection",
+      "id": "17-04_radiator-q09"
+    },
+    {
+      "question": "What components should be replaced during radiator installation?",
+      "answer": "Use new hose clamps as specified in the installation instructions.",
+      "question_type": "tool",
+      "id": "17-04_radiator-q10"
+    },
+    {
+      "question": "Where can you find additional specifications and service information referenced on this page?",
+      "answer": "See Specifications and Service Information of Gr. 00 as noted at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "17-04_radiator-q11",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What torque specifications are mentioned in the radiator procedures?",
+      "answer": "Tightening torque is specified for the drain bolt and radiator mounting bolt, but the specific values reference the specifications section.",
+      "question_type": "factual",
+      "id": "17-04_radiator-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "51-311_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-311.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:18:50.209861",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 755
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the service procedure number for replacing the rear window?",
+      "answer": "The service procedure number for replacing the rear window is 51 31 221.",
+      "question_type": "factual",
+      "id": "51-311_body-equ-q01"
+    },
+    {
+      "question": "What should you do with the rear window defogger connections during rear window replacement?",
+      "answer": "You should pull off the connections for the rear window defogger.",
+      "question_type": "procedural",
+      "id": "51-311_body-equ-q02"
+    },
+    {
+      "question": "What must be checked after installing a new rear window?",
+      "answer": "You must check function after installation.",
+      "question_type": "procedural",
+      "id": "51-311_body-equ-q03"
+    },
+    {
+      "question": "What callout number is shown in the diagram for the rear window area?",
+      "answer": "The callout number shown in the diagram is 20 21 014.",
+      "question_type": "visual",
+      "id": "51-311_body-equ-q04"
+    },
+    {
+      "question": "Where can you find the remaining procedures for rear window replacement?",
+      "answer": "The remaining procedures are identical with those described in section 51 31 011.",
+      "question_type": "navigation",
+      "id": "51-311_body-equ-q05"
+    },
+    {
+      "question": "What additional step is required if the rear window has been broken during removal?",
+      "answer": "If the rear window has been broken, you must remove the rear seat cushion and clean the automatic seat belt reel to remove glass splinters.",
+      "question_type": "procedural",
+      "id": "51-311_body-equ-q06"
+    },
+    {
+      "question": "What components are shown in the diagram illustration?",
+      "answer": "The diagram shows the rear window area with defogger connections and includes a callout number 20 21 014 pointing to a specific location.",
+      "question_type": "visual",
+      "id": "51-311_body-equ-q07"
+    },
+    {
+      "question": "What is the main task described in this service procedure?",
+      "answer": "The main task is replacing the rear window, including disconnecting defogger connections and checking function after installation.",
+      "question_type": "factual",
+      "id": "51-311_body-equ-q08"
+    },
+    {
+      "question": "What safety concern is addressed when the rear window is broken?",
+      "answer": "When the rear window is broken, glass splinters must be cleaned from the automatic seat belt reel to prevent safety issues.",
+      "question_type": "safety",
+      "id": "51-311_body-equ-q09"
+    },
+    {
+      "question": "What component needs to be removed to access the automatic seat belt reel for cleaning?",
+      "answer": "The rear seat cushion needs to be removed to access and clean the automatic seat belt reel.",
+      "question_type": "procedural",
+      "id": "51-311_body-equ-q10"
+    },
+    {
+      "question": "What type of electrical connections are associated with the rear window?",
+      "answer": "The rear window has defogger connections that must be pulled off during replacement.",
+      "question_type": "factual",
+      "id": "51-311_body-equ-q11"
+    },
+    {
+      "question": "What is the purpose of cleaning the automatic seat belt reel?",
+      "answer": "The automatic seat belt reel must be cleaned to remove glass splinters when the rear window has been broken.",
+      "question_type": "procedural",
+      "id": "51-311_body-equ-q12"
+    }
+  ]
+}

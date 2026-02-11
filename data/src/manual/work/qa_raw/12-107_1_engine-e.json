@@ -1,0 +1,79 @@
+{
+  "page_id": "12-107_1_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-107_1.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:25:02.678080",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 638
+  },
+  "qa_pairs": [
+    {
+      "question": "What wire color is used for the generator charge indicator connection?",
+      "answer": "Blue wire is used for the generator charge indicator (D+ connection).",
+      "question_type": "factual",
+      "id": "12-107_1_engine-e-q01"
+    },
+    {
+      "question": "Which pin number corresponds to the oil level static connection?",
+      "answer": "Pin number 2 corresponds to the oil level static (STAT) connection.",
+      "question_type": "factual",
+      "id": "12-107_1_engine-e-q02"
+    },
+    {
+      "question": "What are the wire colors for the coolant temperature gauge connection?",
+      "answer": "The coolant temperature gauge (FT) uses brown/violet wire colors.",
+      "question_type": "factual",
+      "id": "12-107_1_engine-e-q03"
+    },
+    {
+      "question": "What is the difference between pins 6 and 7 in terms of fuse protection?",
+      "answer": "Pin 6 (15 S) has voltage with ignition on and fuse protection, while pin 7 (15 U) is the same as pin 6 but without fuse protection.",
+      "question_type": "factual",
+      "id": "12-107_1_engine-e-q04"
+    },
+    {
+      "question": "Which connection uses white/green wire colors for the service indicator?",
+      "answer": "Pin 11 (SI) for the service indicator reset uses white/green wire colors.",
+      "question_type": "factual",
+      "id": "12-107_1_engine-e-q05"
+    },
+    {
+      "question": "What wire colors are used for the speedometer signal connection?",
+      "answer": "The speedometer signal (TACH) connection uses black/white wire colors.",
+      "question_type": "factual",
+      "id": "12-107_1_engine-e-q06"
+    },
+    {
+      "question": "Which pin number is assigned to the electric fuel pump connection?",
+      "answer": "Pin number 13 is assigned to the electric fuel pump (EKP) connection.",
+      "question_type": "factual",
+      "id": "12-107_1_engine-e-q07"
+    },
+    {
+      "question": "What connection uses black/yellow wire colors?",
+      "answer": "Pin 18 (50) for voltage while starting uses black/yellow wire colors.",
+      "question_type": "factual",
+      "id": "12-107_1_engine-e-q08"
+    },
+    {
+      "question": "Which pins are used for engine diagnostic connections?",
+      "answer": "Pin 16 (Airb.) is used for the engine plug/diagnosis plug connection with white/black wire colors.",
+      "question_type": "factual",
+      "id": "12-107_1_engine-e-q09"
+    },
+    {
+      "question": "What wire color is specified for the FTM connection on pin 20?",
+      "answer": "Pin 20 (FTM) uses brown wire color.",
+      "question_type": "factual",
+      "id": "12-107_1_engine-e-q10"
+    }
+  ]
+}

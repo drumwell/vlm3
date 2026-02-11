@@ -1,0 +1,55 @@
+{
+  "page_id": "65-00-index-a_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-00-index-a.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:00:08.149448",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 361
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers Radio and Special Equipment?",
+      "answer": "Section 65 covers Radio and Special Equipment.",
+      "question_type": "factual",
+      "id": "65-00-index-a_radio-an-q01"
+    },
+    {
+      "question": "Which pages contain information about the sound system layout?",
+      "answer": "The sound system layout information is found on pages 65 - 90.",
+      "question_type": "navigation",
+      "id": "65-00-index-a_radio-an-q02"
+    },
+    {
+      "question": "Where can I find procedures for removing and installing the front radio speaker?",
+      "answer": "The procedures for removing and installing the front radio speaker are on pages 65 - 91.",
+      "question_type": "procedural",
+      "id": "65-00-index-a_radio-an-q03"
+    },
+    {
+      "question": "What is the reference number for the cassette box service install procedure?",
+      "answer": "The cassette box service install procedure is reference number 65 14 000.",
+      "question_type": "factual",
+      "id": "65-00-index-a_radio-an-q04"
+    },
+    {
+      "question": "On which pages would I find information about installing the retractable antenna on the rear left?",
+      "answer": "Information about installing the retractable antenna on the rear left is found on pages 65 - 101.",
+      "question_type": "navigation",
+      "id": "65-00-index-a_radio-an-q05"
+    },
+    {
+      "question": "What reference number corresponds to the cruise control installation?",
+      "answer": "The cruise control installation corresponds to reference number 65 71 000.",
+      "question_type": "factual",
+      "id": "65-00-index-a_radio-an-q06"
+    }
+  ]
+}

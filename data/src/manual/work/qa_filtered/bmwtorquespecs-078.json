@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-078",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/078.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:27:05.756232",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 520
+  },
+  "qa_pairs": [
+    {
+      "question": "What chapter does this torque specification table belong to?",
+      "answer": "13 - 11 Fuel System",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-078-q05"
+    },
+    {
+      "question": "What is the document reference number shown at the top of the page?",
+      "answer": "AZD13-11.frb",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-078-q07"
+    },
+    {
+      "question": "Which component in the fuel system requires a 22 Nm torque specification?",
+      "answer": "Air intake line on low-pressure unit",
+      "question_type": "component",
+      "id": "bmwtorquespecs-078-q09"
+    },
+    {
+      "question": "What fuel system components are covered under section 13 81?",
+      "answer": "Air intake valves, low-pressure and vacuum hoses",
+      "question_type": "component",
+      "id": "bmwtorquespecs-078-q10"
+    }
+  ]
+}

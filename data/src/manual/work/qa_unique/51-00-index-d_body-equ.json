@@ -1,0 +1,55 @@
+{
+  "page_id": "51-00-index-d_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-00-index-d.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:08:00.845127",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1746,
+    "tokens_output": 382
+  },
+  "qa_pairs": [
+    {
+      "question": "What page reference should I use for removing and installing the front door trim panel?",
+      "answer": "Page 51-410 covers the procedure for replacing the front door trim panel, left or right.",
+      "question_type": "navigation",
+      "id": "51-00-index-d_body-equ-q01"
+    },
+    {
+      "question": "Which section covers the removal and installation of the roof liner plate?",
+      "answer": "Section 51-440 covers the roof liner plate, front or remove and install procedures.",
+      "question_type": "navigation",
+      "id": "51-00-index-d_body-equ-q02"
+    },
+    {
+      "question": "What is the reference page for dashboard trim panel removal and installation?",
+      "answer": "Page 51-450 covers trim panel for dashboard - remove and install procedures.",
+      "question_type": "navigation",
+      "id": "51-00-index-d_body-equ-q03"
+    },
+    {
+      "question": "Where can I find information about the entrance cover strip procedures?",
+      "answer": "Front entrance cover strip procedures are found on page 51-470, and rear entrance cover strip procedures are on page 51-471.",
+      "question_type": "navigation",
+      "id": "51-00-index-d_body-equ-q04"
+    },
+    {
+      "question": "What section number covers the front spoiler removal and installation?",
+      "answer": "Section 51-710 covers front spoiler - remove and install procedures.",
+      "question_type": "navigation",
+      "id": "51-00-index-d_body-equ-q05"
+    },
+    {
+      "question": "Which page should I reference for trunk separating wall trim panel work?",
+      "answer": "Page 51-472 covers the trim panel for trunk separating wall - remove and install procedures.",
+      "question_type": "navigation",
+      "id": "51-00-index-d_body-equ-q06"
+    }
+  ]
+}

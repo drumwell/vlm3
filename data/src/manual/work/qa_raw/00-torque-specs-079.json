@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-079",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/079.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:30:58.543997",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 514
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the MAP sensor on holder in the fuel system?",
+      "answer": "3.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-079-q01"
+    },
+    {
+      "question": "What type of screw is used for the MAP sensor on holder?",
+      "answer": "316g/518g",
+      "question_type": "factual",
+      "id": "00-torque-specs-079-q02"
+    },
+    {
+      "question": "Which section does this torque specification belong to?",
+      "answer": "13 - 12 Fuel System",
+      "question_type": "navigation",
+      "id": "00-torque-specs-079-q03"
+    },
+    {
+      "question": "What component is specified under item 1AZ in the fuel system?",
+      "answer": "MAP sensor on holder",
+      "question_type": "component",
+      "id": "00-torque-specs-079-q04"
+    },
+    {
+      "question": "What is the specification number for the mixture and metering system, low-pressure reducer?",
+      "answer": "13 82",
+      "question_type": "factual",
+      "id": "00-torque-specs-079-q05"
+    },
+    {
+      "question": "What is the full description of the fuel system component 13 82?",
+      "answer": "Mixture and metering system, low-pressure reducer",
+      "question_type": "component",
+      "id": "00-torque-specs-079-q07"
+    },
+    {
+      "question": "What type of document page is this from?",
+      "answer": "AZD13-12.frb dated 20/10/97",
+      "question_type": "navigation",
+      "id": "00-torque-specs-079-q09"
+    },
+    {
+      "question": "How tight should the MAP sensor on holder be torqued?",
+      "answer": "3.5 Nm",
+      "question_type": "procedural",
+      "id": "00-torque-specs-079-q10"
+    }
+  ]
+}

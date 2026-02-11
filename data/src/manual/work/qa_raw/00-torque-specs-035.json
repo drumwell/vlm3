@@ -1,0 +1,88 @@
+{
+  "page_id": "00-torque-specs-035",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/035.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:22:47.487692",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 741
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the banjo bolt to VANOS controller?",
+      "answer": "32 Nm using M14 x 1.5 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q01"
+    },
+    {
+      "question": "What torque should be applied to the plug to hydraulic plunger?",
+      "answer": "60 Nm using M36x1 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q02"
+    },
+    {
+      "question": "What is the torque specification for the collar nut on toothed shaft that is secured with Loctite?",
+      "answer": "9 Nm using M6 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q03"
+    },
+    {
+      "question": "What torque value is specified for the cover on VANOS control unit on the intake side?",
+      "answer": "5 Nm using M5 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q04"
+    },
+    {
+      "question": "What is the difference in torque between the filter screw on VANOS adjusting unit and the pressure line connection?",
+      "answer": "The filter screw requires 12 Nm (M10x1) while the pressure line requires 20 Nm (M12x1), a difference of 8 Nm.",
+      "question_type": "comparison",
+      "id": "00-torque-specs-035-q05",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "Which VANOS control unit cover requires higher torque - intake side or exhaust side?",
+      "answer": "The exhaust side cover requires higher torque at 13 Nm (M6 10.9) compared to the intake side at 5 Nm (M5).",
+      "question_type": "comparison",
+      "id": "00-torque-specs-035-q06",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What screw type and torque is used for the plug to VANOS adjusting unit?",
+      "answer": "M22 x 1.5 screw with 50 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q07"
+    },
+    {
+      "question": "What torque specification applies to the 4/2 way directional valve/solenoid valve on VANOS housing?",
+      "answer": "30 Nm (no specific screw thread listed).",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q08"
+    },
+    {
+      "question": "What are the two different torque values specified for the cover for solenoid valve on VANOS control unit?",
+      "answer": "6 Nm for M5 8.8 screw (S50 B 30) and 8 Nm for M5 10.9 screw (S50 B 32).",
+      "question_type": "comparison",
+      "id": "00-torque-specs-035-q09",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What torque is specified for the hydraulic line for VANOS on oil filter aggregate carrier?",
+      "answer": "32 Nm (no specific screw thread listed).",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q10"
+    }
+  ]
+}

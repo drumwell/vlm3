@@ -1,0 +1,79 @@
+{
+  "page_id": "12-140_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-140.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:31:48.689780",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 755
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the test requirements before troubleshooting the alternator?",
+      "answer": "Correct connections on battery, starter and alternator; good ground connection between engine and body; and tight drive belt.",
+      "question_type": "procedural",
+      "id": "12-140_engine-e-q01"
+    },
+    {
+      "question": "What should I do if the charge indicator lamp is NOT on with ignition turned on?",
+      "answer": "Pull off connection plug D+/61 and connect with ground (term. 31). If charge lamp comes on, take off voltage regulator and check carbon brushes, replacing if necessary - see 12 32 000. Check slip rings for dirt or oxidation coat. If charge lamp still doesn't come on, check connections and wires for charge indicator lamp or replace light bulb - see 62 99.",
+      "question_type": "troubleshooting",
+      "id": "12-140_engine-e-q02"
+    },
+    {
+      "question": "What is the first step when the charge indicator lamp is ON with ignition off?",
+      "answer": "Remove alternator and replace diode plate - see 12 31 691.",
+      "question_type": "procedural",
+      "id": "12-140_engine-e-q03"
+    },
+    {
+      "question": "If the charge indicator lamp glows or is on with engine running, what tests should be performed?",
+      "answer": "Connect BMW service test unit and perform engine test (P 02). Check regulating voltage and check charging current. Also check oscillograph and harmonic wave ratio - see 12 31 009.",
+      "question_type": "diagnostic",
+      "id": "12-140_engine-e-q04"
+    },
+    {
+      "question": "What should be done if the regulating voltage is not okay during testing?",
+      "answer": "Replace voltage regulator - see 12 32 000.",
+      "question_type": "procedural",
+      "id": "12-140_engine-e-q05"
+    },
+    {
+      "question": "If the oscillograph and harmonic wave ratio check is not okay, what is the corrective action?",
+      "answer": "Replace or disassemble alternator and inspect components.",
+      "question_type": "troubleshooting",
+      "id": "12-140_engine-e-q06"
+    },
+    {
+      "question": "When the battery is charged insufficiently with charge indicator lamp off during engine running, what is the first diagnostic step?",
+      "answer": "Connect BMW service test unit and perform engine test (P 02).",
+      "question_type": "diagnostic",
+      "id": "12-140_engine-e-q07"
+    },
+    {
+      "question": "What should be checked if the battery needs replacement during insufficient charging diagnosis?",
+      "answer": "Check battery, replacing if necessary. Check power drain with equipment switched off.",
+      "question_type": "inspection",
+      "id": "12-140_engine-e-q08"
+    },
+    {
+      "question": "If the charging current with equipment is too low, what are the possible solutions?",
+      "answer": "Replace voltage regulator - see 12 32 000, or replace or disassemble alternator and inspect components - see 12 31 020.",
+      "question_type": "troubleshooting",
+      "id": "12-140_engine-e-q09"
+    },
+    {
+      "question": "Where can I find the nominal values for voltage and current specifications?",
+      "answer": "See nominal value microfiche for voltage specifications and see wiring diagram for wire connection details.",
+      "question_type": "navigation",
+      "id": "12-140_engine-e-q10"
+    }
+  ]
+}

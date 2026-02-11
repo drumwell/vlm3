@@ -1,0 +1,91 @@
+{
+  "page_id": "64-119_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-119.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:56:29.394689",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 735
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number and title for the procedure shown?",
+      "answer": "Section 64.11.211 - REMOVING AND INSTALLING BLOWER SWITCH.",
+      "question_type": "factual",
+      "id": "64-119_heating--q01"
+    },
+    {
+      "question": "What are the first steps for removing the blower switch on cars without radio?",
+      "answer": "Lift off radio opening mask, then pull off control knob.",
+      "question_type": "procedural",
+      "id": "64-119_heating--q02"
+    },
+    {
+      "question": "How do you remove the blower switch on cars with radio?",
+      "answer": "Unscrew bolt (1).",
+      "question_type": "procedural",
+      "id": "64-119_heating--q03"
+    },
+    {
+      "question": "What does callout number 1 indicate in the glove box area diagram?",
+      "answer": "The screw that needs to be unscrewed when opening the glove box.",
+      "question_type": "visual",
+      "id": "64-119_heating--q04"
+    },
+    {
+      "question": "What does callout number 2 indicate in the glove box diagram?",
+      "answer": "The trim panel that needs to be taken off after unscrewing the screw.",
+      "question_type": "visual",
+      "id": "64-119_heating--q05"
+    },
+    {
+      "question": "What steps are required to access the blower switch through the glove box?",
+      "answer": "Open glove box, unscrew screw (1), and take off trim panel (2).",
+      "question_type": "procedural",
+      "id": "64-119_heating--q06"
+    },
+    {
+      "question": "How do you remove the blower switch after accessing it?",
+      "answer": "Remove blower switch and pull off plug on blower switch.",
+      "question_type": "procedural",
+      "id": "64-119_heating--q07"
+    },
+    {
+      "question": "What is the final step shown for removing the blower switch?",
+      "answer": "Unscrew nut, pull off plug on blower switch, and remove blower switch.",
+      "question_type": "procedural",
+      "id": "64-119_heating--q08"
+    },
+    {
+      "question": "What component is shown in diagram 30 64 196?",
+      "answer": "The blower switch control knob that needs to be pulled off.",
+      "question_type": "visual",
+      "id": "64-119_heating--q09"
+    },
+    {
+      "question": "What component is shown in diagram 30 64 220?",
+      "answer": "The blower switch with its electrical plug connector.",
+      "question_type": "visual",
+      "id": "64-119_heating--q10"
+    },
+    {
+      "question": "What is the difference in removal procedure between cars with and without radio?",
+      "answer": "Cars without radio require lifting off the radio opening mask and pulling off the control knob, while cars with radio only require unscrewing bolt (1).",
+      "question_type": "factual",
+      "id": "64-119_heating--q11"
+    },
+    {
+      "question": "What action is required with the nut shown in the final step?",
+      "answer": "Unscrew the nut to complete the blower switch removal.",
+      "question_type": "procedural",
+      "id": "64-119_heating--q12"
+    }
+  ]
+}

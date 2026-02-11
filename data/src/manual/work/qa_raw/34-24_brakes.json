@@ -1,0 +1,79 @@
+{
+  "page_id": "34-24_brakes",
+  "image_path": "raw/34 - Brakes/34-24.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:19:12.354230",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 681
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the possible causes of seized pistons in the brake caliper?",
+      "answer": "The possible causes are: a) Caliper recesses dirty, caps damaged, b) Brake disc not aligned with caliper, c) Corrosion of pistons in calipers or wheel cylinders.",
+      "question_type": "diagnostic",
+      "id": "34-24_brakes-q01"
+    },
+    {
+      "question": "How do you correct seized pistons in the brake caliper?",
+      "answer": "Remove and install, repair or replace calipers. Check caliper installation. Remove and install, repair or replace calipers or wheel cylinders.",
+      "question_type": "procedural",
+      "id": "34-24_brakes-q02"
+    },
+    {
+      "question": "What causes a pulsating effect on the brake pedal?",
+      "answer": "The causes are: a) Wheel bearing play excessive, b) Brake disc not aligned with caliper, c) Brake disc runout, d) Excessive thickness difference within braking surface.",
+      "question_type": "diagnostic",
+      "id": "34-24_brakes-q03"
+    },
+    {
+      "question": "What should I check if there's excessive wheel bearing play causing brake pedal pulsation?",
+      "answer": "Replace wheel bearings.",
+      "question_type": "procedural",
+      "id": "34-24_brakes-q04"
+    },
+    {
+      "question": "How do I fix brake disc runout that's causing pedal pulsation?",
+      "answer": "Check brake discs for runout, replacing if necessary.",
+      "question_type": "procedural",
+      "id": "34-24_brakes-q05"
+    },
+    {
+      "question": "What are the potential causes of insufficient parking brake effect?",
+      "answer": "The causes are: a) Parking brake shoes splattered with oil, b) Excessive dead travel between brake shoes and brake drums, c) Excessive dead travel in cables, d) Cables maladjusted, e) Corroded transmitting elements.",
+      "question_type": "diagnostic",
+      "id": "34-24_brakes-q06"
+    },
+    {
+      "question": "How do you correct oil-splattered parking brake shoes?",
+      "answer": "Replace brake liners and eliminate cause.",
+      "question_type": "procedural",
+      "id": "34-24_brakes-q07"
+    },
+    {
+      "question": "What's the correction for excessive dead travel between brake shoes and drums?",
+      "answer": "Adjust parking brake.",
+      "question_type": "procedural",
+      "id": "34-24_brakes-q08"
+    },
+    {
+      "question": "How do I address corroded transmitting elements in the parking brake system?",
+      "answer": "Remove and install parking brake and spreader locks; check cables, replacing if necessary.",
+      "question_type": "procedural",
+      "id": "34-24_brakes-q09"
+    },
+    {
+      "question": "What should I do about excessive thickness difference within the braking surface?",
+      "answer": "Measure brake disc thickness and grind or replace discs.",
+      "question_type": "procedural",
+      "id": "34-24_brakes-q10"
+    }
+  ]
+}

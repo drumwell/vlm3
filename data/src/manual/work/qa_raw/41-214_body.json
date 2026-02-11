@@ -1,0 +1,91 @@
+{
+  "page_id": "41-214_body",
+  "image_path": "raw/41 - Body/41-214.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:53:59.686737",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 758
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to mating surfaces on the cover plate before spot welding?",
+      "answer": "Grind mating surfaces on cover plate. Coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-214_body-q01"
+    },
+    {
+      "question": "Where should holes be drilled for plug spot welding?",
+      "answer": "Drill holes for plug spot welding in rear mating surface.",
+      "question_type": "procedural",
+      "id": "41-214_body-q02"
+    },
+    {
+      "question": "What should be installed and clamped after preparing the cover plate?",
+      "answer": "Install and clamp cover plate. If necessary, install roof brace to check roof frame.",
+      "question_type": "procedural",
+      "id": "41-214_body-q03"
+    },
+    {
+      "question": "What steps are involved with the outside roof panel installation?",
+      "answer": "Install and clamp outside roof panel. Check seat of outside roof panel. Lift off outside roof panel again.",
+      "question_type": "procedural",
+      "id": "41-214_body-q04"
+    },
+    {
+      "question": "What welding operations are performed on the front roof frame?",
+      "answer": "Plug spot weld or spot weld front roof frame with roof frame on sides.",
+      "question_type": "procedural",
+      "id": "41-214_body-q05"
+    },
+    {
+      "question": "How is the front roof frame attached when working with the cowl panel?",
+      "answer": "Plug spot weld or spot weld front roof frame with cowl panel and roof frame on sides.",
+      "question_type": "procedural",
+      "id": "41-214_body-q06"
+    },
+    {
+      "question": "What welding procedure is used for the cowl panel attachment?",
+      "answer": "Spot weld cowl panel on cowl.",
+      "question_type": "procedural",
+      "id": "41-214_body-q07"
+    },
+    {
+      "question": "What is done to the end plate during final assembly?",
+      "answer": "Spot weld end plate. Treat gas weld mating surface to cowl panel.",
+      "question_type": "procedural",
+      "id": "41-214_body-q08"
+    },
+    {
+      "question": "What diagram number shows the cover plate grinding procedure?",
+      "answer": "Diagram 30 41 146 shows the cover plate with mating surfaces that need to be ground and coated for spot welding.",
+      "question_type": "visual",
+      "id": "41-214_body-q09"
+    },
+    {
+      "question": "Which diagram illustrates the hole drilling process?",
+      "answer": "Diagram 30 41 147 shows the drilling of holes for plug spot welding in the rear mating surface.",
+      "question_type": "visual",
+      "id": "41-214_body-q10"
+    },
+    {
+      "question": "What diagram number shows the cowl panel welding procedure?",
+      "answer": "Diagram 30 41 205 shows the spot welding of the cowl panel on cowl.",
+      "question_type": "visual",
+      "id": "41-214_body-q11"
+    },
+    {
+      "question": "What surface treatment is specified for spot welding preparation?",
+      "answer": "Zinc dust paint should be applied to mating surfaces needed for spot welding.",
+      "question_type": "factual",
+      "id": "41-214_body-q12"
+    }
+  ]
+}

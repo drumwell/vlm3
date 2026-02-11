@@ -1,0 +1,79 @@
+{
+  "page_id": "63-02a_lights",
+  "image_path": "raw/63 - Lights/63-02a.jpg",
+  "section_id": "63",
+  "section_name": "Lights",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:50:49.319837",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 748
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step for replacing a halogen light bulb in the left or right high beam headlight?",
+      "answer": "Pull off plug, turn and lift out light bulb.",
+      "question_type": "procedural",
+      "id": "63-02a_lights-q01"
+    },
+    {
+      "question": "What important safety note is given about handling light bulbs during replacement?",
+      "answer": "Don't hold light bulb on the glass. Light bulb type. Don't mix up light bulbs.",
+      "question_type": "safety",
+      "id": "63-02a_lights-q02"
+    },
+    {
+      "question": "What are the two types of light bulbs identified in the headlight assembly diagrams?",
+      "answer": "1 High beam and 2 Low beam with reflector.",
+      "question_type": "factual",
+      "id": "63-02a_lights-q03"
+    },
+    {
+      "question": "What procedure is shown for accessing the tail lights in 1988 models?",
+      "answer": "Unscrew screws and take tail lights out of tail panel.",
+      "question_type": "procedural",
+      "id": "63-02a_lights-q04"
+    },
+    {
+      "question": "How do you access the headlight bulbs according to the first image?",
+      "answer": "Open turning lock and lift out cover, then compress clips and lift out plug.",
+      "question_type": "procedural",
+      "id": "63-02a_lights-q05"
+    },
+    {
+      "question": "What do the arrows in the tail light removal image indicate?",
+      "answer": "The arrows indicate the locations of the screws that need to be unscrewed to remove the tail lights from the tail panel.",
+      "question_type": "visual",
+      "id": "63-02a_lights-q08"
+    },
+    {
+      "question": "What reference numbers are shown for the headlight bulb types in both high and low beam procedures?",
+      "answer": "32 63 040 for both the high beam and low beam headlight bulb type diagrams.",
+      "question_type": "factual",
+      "id": "63-02a_lights-q09"
+    },
+    {
+      "question": "What model years does the tail light removal procedure apply to?",
+      "answer": "1988 Models On.",
+      "question_type": "factual",
+      "id": "63-02a_lights-q10"
+    },
+    {
+      "question": "What additional reference is mentioned at the bottom of the page for more detailed information?",
+      "answer": "See Specifications",
+      "question_type": "navigation",
+      "id": "63-02a_lights-q11"
+    },
+    {
+      "question": "What is emphasized as 'Important!' in both headlight bulb replacement procedures?",
+      "answer": "Don't mix up light bulbs - ensuring the correct bulb type (high beam vs low beam with reflector) is installed in the proper position.",
+      "question_type": "safety",
+      "id": "63-02a_lights-q12"
+    }
+  ]
+}

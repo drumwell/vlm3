@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-085",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/085.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:32:04.654429",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 563
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for coolant hoses that are 32 to 48 mm in diameter?",
+      "answer": "2.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-085-q01"
+    },
+    {
+      "question": "What size wrench is needed for the bleeder screw on the thermostat housing?",
+      "answer": "8 mm wrench size",
+      "question_type": "tool",
+      "id": "00-torque-specs-085-q02"
+    },
+    {
+      "question": "What wrench size is required for the level switch to coolant expansion tank?",
+      "answer": "30 mm wrench size",
+      "question_type": "tool",
+      "id": "00-torque-specs-085-q04"
+    },
+    {
+      "question": "Which coolant system component has the highest torque specification?",
+      "answer": "The bleeder screw on thermostat housing at 8 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-085-q06"
+    },
+    {
+      "question": "Which coolant system component has the lowest torque specification?",
+      "answer": "The level switch to coolant expansion tank at 3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-085-q07"
+    },
+    {
+      "question": "What vehicle types do these coolant system torque specifications apply to?",
+      "answer": "All types",
+      "question_type": "factual",
+      "id": "00-torque-specs-085-q08"
+    },
+    {
+      "question": "What is the diameter range for the coolant hoses specified in item 1AZ?",
+      "answer": "32 to 48 mm diameter",
+      "question_type": "factual",
+      "id": "00-torque-specs-085-q09"
+    },
+    {
+      "question": "What section and subsection does this torque specification table cover?",
+      "answer": "Section 17-1 Radiator, subsection 17 00 Coolant",
+      "question_type": "navigation",
+      "id": "00-torque-specs-085-q10"
+    }
+  ]
+}

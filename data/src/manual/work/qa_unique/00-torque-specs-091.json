@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-091",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/091.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:33:15.206708",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 596
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the highest torque specification shown for clutch housing to crankcase bolts?",
+      "answer": "86 Nm for M12 bolts",
+      "question_type": "factual",
+      "id": "00-torque-specs-091-q03"
+    },
+    {
+      "question": "What is the torque difference between M8 and M12 bolts for the clutch housing to crankcase?",
+      "answer": "59 Nm (86 Nm for M12 minus 27 Nm for M8)",
+      "question_type": "factual",
+      "id": "00-torque-specs-091-q09"
+    }
+  ]
+}

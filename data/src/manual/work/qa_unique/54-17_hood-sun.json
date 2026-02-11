@@ -1,0 +1,79 @@
+{
+  "page_id": "54-17_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-17.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:42:31.612279",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 728
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for replacing the convertible top canvas?",
+      "answer": "The procedure code is 54 31 020 for replacing top (canvas).",
+      "question_type": "factual",
+      "id": "54-17_hood-sun-q01"
+    },
+    {
+      "question": "What should be done with the rivets and window guide during removal?",
+      "answer": "Drill out rivets and pull off window guide.",
+      "question_type": "procedural",
+      "id": "54-17_hood-sun-q02"
+    },
+    {
+      "question": "What needs to be done to the rubber seal and rail during disassembly?",
+      "answer": "Pull off rubber seal and unscrew rail.",
+      "question_type": "procedural",
+      "id": "54-17_hood-sun-q03"
+    },
+    {
+      "question": "How should the rail be handled during installation?",
+      "answer": "During installation, replace screws when reinstalling the rail.",
+      "question_type": "procedural",
+      "id": "54-17_hood-sun-q04"
+    },
+    {
+      "question": "What remains on the cable when unscrewing the rail?",
+      "answer": "The rail remains on the cable when unscrewed.",
+      "question_type": "factual",
+      "id": "54-17_hood-sun-q05"
+    },
+    {
+      "question": "What should be replaced during rail installation?",
+      "answer": "Replace screws during installation.",
+      "question_type": "procedural",
+      "id": "54-17_hood-sun-q06"
+    },
+    {
+      "question": "How should the top be removed from the frame?",
+      "answer": "Pull top off of frame, disconnect cable and pull it out together with the rail forward.",
+      "question_type": "procedural",
+      "id": "54-17_hood-sun-q07"
+    },
+    {
+      "question": "What cleaning procedure is specified for the frame and hoopsticks?",
+      "answer": "Clean frame and hoopsticks with a solvent to remove residual adhesive.",
+      "question_type": "procedural",
+      "id": "54-17_hood-sun-q08"
+    },
+    {
+      "question": "What should be done after pulling the top off the frame and hoopsticks?",
+      "answer": "After pulling the top off the frame and hoopsticks, clean the frame and hoopsticks with a solvent to remove residual adhesive.",
+      "question_type": "procedural",
+      "id": "54-17_hood-sun-q11"
+    },
+    {
+      "question": "What type of cleaning agent is specified for removing adhesive residue?",
+      "answer": "A solvent is specified for removing residual adhesive from the frame and hoopsticks.",
+      "question_type": "tool",
+      "id": "54-17_hood-sun-q12"
+    }
+  ]
+}

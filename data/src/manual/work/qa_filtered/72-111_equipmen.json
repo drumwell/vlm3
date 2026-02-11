@@ -1,0 +1,91 @@
+{
+  "page_id": "72-111_equipmen",
+  "image_path": "raw/72 - Equipment and Accessories for Body/72-111.jpg",
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:09:33.755527",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 748
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the approximate measurement for dimension C when cutting out the B pillar trim for the bolt reversing holder?",
+      "answer": "C = approx. 50 mm (2\").",
+      "question_type": "factual",
+      "id": "72-111_equipmen-q01"
+    },
+    {
+      "question": "How do you remove the B pillar trim from its clamps?",
+      "answer": "Pull B pillar trim out of clamps; if necessary unscrew bolts and pull out of upper holder.",
+      "question_type": "procedural",
+      "id": "72-111_equipmen-q02"
+    },
+    {
+      "question": "What are the components shown in the installation order diagram numbered 1 through 5?",
+      "answer": "1 Bolt, 2 Washer (plastic), 3 Upper strap, 4 Washer (plastic), 5 Bushing.",
+      "question_type": "visual",
+      "id": "72-111_equipmen-q03"
+    },
+    {
+      "question": "What changed regarding the washers for models since 1985?",
+      "answer": "Since 1985 Models: Both washers (2 and 4) have been omitted.",
+      "question_type": "factual",
+      "id": "72-111_equipmen-q04"
+    },
+    {
+      "question": "What specific instruction is given for the centering pin during automatic reel installation?",
+      "answer": "Centering pin (1) engages in the bore.",
+      "question_type": "procedural",
+      "id": "72-111_equipmen-q05"
+    },
+    {
+      "question": "How should the belt be positioned when pressing out the cover during B pillar trim installation?",
+      "answer": "Press out cover and insert belt through B pillar trim.",
+      "question_type": "procedural",
+      "id": "72-111_equipmen-q06"
+    },
+    {
+      "question": "What is the initial step for four door models when working with the cap?",
+      "answer": "Pull off cap. Unscrew bolt.",
+      "question_type": "procedural",
+      "id": "72-111_equipmen-q07"
+    },
+    {
+      "question": "What installation note is mentioned regarding tightening torque?",
+      "answer": "Installation: Tightening torque*. (The asterisk indicates to see Specifications)",
+      "question_type": "factual",
+      "id": "72-111_equipmen-q08"
+    },
+    {
+      "question": "Where should the bolt reversing holder be mounted according to person size?",
+      "answer": "Mount the bolt reversing holder at point A or B depending on size of person.",
+      "question_type": "procedural",
+      "id": "72-111_equipmen-q09"
+    },
+    {
+      "question": "What feature is mentioned for automatic reels since 1986 models?",
+      "answer": "Since 1986 Models: Automatic reels with belt stoppers.",
+      "question_type": "factual",
+      "id": "72-111_equipmen-q10"
+    },
+    {
+      "question": "What is the procedure for removing the automatic reel?",
+      "answer": "Unscrew bolt and remove automatic reel.",
+      "question_type": "procedural",
+      "id": "72-111_equipmen-q11"
+    },
+    {
+      "question": "What reference notation appears at the bottom of the page for additional specifications?",
+      "answer": "* See Specifications",
+      "question_type": "navigation",
+      "id": "72-111_equipmen-q12"
+    }
+  ]
+}

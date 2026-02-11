@@ -1,0 +1,91 @@
+{
+  "page_id": "11-53a_engine",
+  "image_path": "raw/11 - Engine/11-53a.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:11:19.111177",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 859
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number and title for this section?",
+      "answer": "11 12 100 REMOVING AND INSTALLING CYLINDER HEAD",
+      "question_type": "factual",
+      "id": "11-53a_engine-q01"
+    },
+    {
+      "question": "What should be done with the coolant system during installation according to this page?",
+      "answer": "Fill and bleed cooling system - see Group 17.",
+      "question_type": "procedural",
+      "id": "11-53a_engine-q02"
+    },
+    {
+      "question": "What is the specified tightening torque for the intake manifold nuts?",
+      "answer": "9 Nm (6.5 ft. lbs.)",
+      "question_type": "factual",
+      "id": "11-53a_engine-q03"
+    },
+    {
+      "question": "In the bottom left image (14.87), what do callout numbers 1 and 2 indicate?",
+      "answer": "Number 1 indicates the intake manifold hose, and number 2 indicates the nut on the intake manifold brace.",
+      "question_type": "visual",
+      "id": "11-53a_engine-q04"
+    },
+    {
+      "question": "What components should be pulled off after loosening hose clamp 1 in the middle left image?",
+      "answer": "Pull off plugs (2 and 3) and lay leads aside. Loosen nuts (4 and 5) and remove air cleaner.",
+      "question_type": "procedural",
+      "id": "11-53a_engine-q05"
+    },
+    {
+      "question": "What cables need to be disconnected according to the bottom middle image instructions?",
+      "answer": "Disconnect accelerator cable (1) and cruise control cable (2).",
+      "question_type": "procedural",
+      "id": "11-53a_engine-q06"
+    },
+    {
+      "question": "In the top right image (14.88), what should be done with hose clamp 1?",
+      "answer": "Loosen hose clamp (1) and pull off hose. Unscrew nuts and take off intake manifold.",
+      "question_type": "procedural",
+      "id": "11-53a_engine-q07"
+    },
+    {
+      "question": "What should be checked during installation of O-rings according to the installation notes?",
+      "answer": "Check O-rings, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "11-53a_engine-q08"
+    },
+    {
+      "question": "In the middle right image showing the coolant expansion tank, what are callouts 1, 2, and 3?",
+      "answer": "The callouts indicate hose clamps (1 and 2) that should be loosened to pull off hoses on the coolant expansion tank, and nut (3) to take off the ground strap.",
+      "question_type": "visual",
+      "id": "11-53a_engine-q09"
+    },
+    {
+      "question": "What should be done with the vacuum hose according to the brake booster procedure?",
+      "answer": "Pull off clamp and lift vacuum hose (4) out of brake booster.",
+      "question_type": "procedural",
+      "id": "11-53a_engine-q10"
+    },
+    {
+      "question": "In the bottom right image, what components are indicated by callouts 1, 2, 3, and 4?",
+      "answer": "Callouts indicate plugs (1 and 2), vacuum hose (3) of pressure regulator, and screw (4) to take off lead with holder.",
+      "question_type": "visual",
+      "id": "11-53a_engine-q11"
+    },
+    {
+      "question": "What should be done with the battery and splash guard at the beginning of the removal procedure?",
+      "answer": "Disconnect battery ground lead and remove splash guard.",
+      "question_type": "procedural",
+      "id": "11-53a_engine-q12"
+    }
+  ]
+}

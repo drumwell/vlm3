@@ -1,0 +1,55 @@
+{
+  "page_id": "25-00-index-a_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-00-index-a.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:47:43.284024",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1749,
+    "tokens_output": 373
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the manual covers shift lever removal and installation procedures?",
+      "answer": "Section 25 - Gear Shift Mechanism covers shift lever removal and installation procedures.",
+      "question_type": "navigation",
+      "id": "25-00-index-a_gear-shi-q01"
+    },
+    {
+      "question": "What page number shows the procedure for replacing the shift lever dust cover?",
+      "answer": "The shift lever dust cover replacement procedure is on page 25-8.",
+      "question_type": "navigation",
+      "id": "25-00-index-a_gear-shi-q02"
+    },
+    {
+      "question": "Which transmission types have separate shift layout drawings in this section?",
+      "answer": "There are separate shift layout drawings for manual transmission and automatic transmission.",
+      "question_type": "factual",
+      "id": "25-00-index-a_gear-shi-q03"
+    },
+    {
+      "question": "What page covers the selector lever complete with base removal and installation for automatic transmission?",
+      "answer": "Page 25-15 covers the selector lever complete with base removal and installation for automatic transmission.",
+      "question_type": "navigation",
+      "id": "25-00-index-a_gear-shi-q04"
+    },
+    {
+      "question": "What are the two types of shift consoles mentioned for manual transmission procedures?",
+      "answer": "The two types of shift consoles mentioned are sheet metal shift console and aluminum shift console.",
+      "question_type": "component",
+      "id": "25-00-index-a_gear-shi-q05"
+    },
+    {
+      "question": "On which page can you find information about adjusting the cable for range selector lever?",
+      "answer": "Information about adjusting the cable for range selector lever can be found on page 25-22.",
+      "question_type": "navigation",
+      "id": "25-00-index-a_gear-shi-q06"
+    }
+  ]
+}

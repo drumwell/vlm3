@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-23-05",
+  "image_path": "raw/00 - Torque Specs/23-05.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:58:46.167842",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 752
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the plug in rear casing section on all transmission types?",
+      "answer": "60 Nm using an M20 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-05-q01"
+    },
+    {
+      "question": "What torque should be applied to the sealing caps on rear case section for 240/260/280 transmissions?",
+      "answer": "10 Nm using an M6 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-05-q02"
+    },
+    {
+      "question": "What is the torque specification for the reversing bolt to reversing lever?",
+      "answer": "43 Nm using ZF S-5-16/S 5 D 310 Z screw type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-05-q03"
+    },
+    {
+      "question": "Which transmission types use M16 screws for the plug in rear casing section?",
+      "answer": "The 240 transmission type uses M16 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-05-q06"
+    },
+    {
+      "question": "What is the difference in torque between the plug in rear casing section for 240 vs 260/280 transmissions?",
+      "answer": "Both 240 and 260/280 transmissions require 60 Nm, but 240 uses M16 screws while 260/280 uses M22 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-05-q07"
+    },
+    {
+      "question": "Which components in section 23 11 use the ZF S-5-16/S 5 D 310 Z screw type?",
+      "answer": "The reversing bolt to reversing lever, clamping claws to rear case section, and screws on detent plate all use ZF S-5-16/S 5 D 310 Z screw type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-05-q08"
+    },
+    {
+      "question": "What screw size is used for the plug in rear casing section on 260/280 transmission types?",
+      "answer": "M22 screw size is used for 260/280 transmission types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-05-q09"
+    }
+  ]
+}

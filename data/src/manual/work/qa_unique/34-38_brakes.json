@@ -1,0 +1,61 @@
+{
+  "page_id": "34-38_brakes",
+  "image_path": "raw/34 - Brakes/34-38.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:24:31.949502",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 816
+  },
+  "qa_pairs": [
+    {
+      "question": "What safety precaution must be taken before pulling off a plug and measuring resistance in the dynamic voltage test?",
+      "answer": "Turn off ignition before pulling off a plug and measuring resistance.",
+      "question_type": "safety",
+      "id": "34-38_brakes-q01"
+    },
+    {
+      "question": "What should be checked for voltage drop in the dynamic voltage test between wires 1 and 10?",
+      "answer": "Battery connection (+ and -), term. 15 and from ignition lock to electronic relay connection, from relay to control unit wire 1.",
+      "question_type": "diagnostic",
+      "id": "34-38_brakes-q02"
+    },
+    {
+      "question": "What three steps should be taken when the valve relay home contact voltage drop test fails?",
+      "answer": "1. Replace valve relay. 2. Ground connection has excessive transition resistance or break. 3. Check flow in following wires: wire 8 from ground to hydraulic unit plug, from hydraulic unit wire 8 to wire 87a, flow from wire 4 to valve relay term. 30, from wire 4 to multiple pin plug (control unit) wire 32.",
+      "question_type": "procedural",
+      "id": "34-38_brakes-q04"
+    },
+    {
+      "question": "What should be checked when the motor relay operating contact voltage drop test fails?",
+      "answer": "1. Replace motor relay. 2. Check ground terminals of pump motor for tight fit and transmission resistance. 3. Check flow in following wires: from term. B + to plug hydraulic unit wire 12, from multiple pin plug (control unit) wire 14 to hydraulic unit plug, from wire 9 in hydraulic unit to motor relay term. 30 and positive terminal on pump motor. 4. Pump motor faulty: replace hydraulic unit.",
+      "question_type": "troubleshooting",
+      "id": "34-38_brakes-q06"
+    },
+    {
+      "question": "What wire should be checked from the multiple pin plug to the hydraulic unit plug for the safety circuit lamp diode test?",
+      "answer": "Wire 29 from multiple pin plug (control unit) to hydraulic unit plug for break and voltage drop.",
+      "question_type": "diagnostic",
+      "id": "34-38_brakes-q07"
+    },
+    {
+      "question": "What should be done if there is a diode test between wires 7 and 4 (M 09) on 1988 models?",
+      "answer": "Replace hydraulic unit. Diode now in valve relay since 1988 models / replace valve relay. Measure on valve relay between pins 30 and L1.",
+      "question_type": "procedural",
+      "id": "34-38_brakes-q08"
+    },
+    {
+      "question": "What is the remedy for excessive voltage drop or break in wires?",
+      "answer": "Replace wire harness.",
+      "question_type": "procedural",
+      "id": "34-38_brakes-q09"
+    }
+  ]
+}

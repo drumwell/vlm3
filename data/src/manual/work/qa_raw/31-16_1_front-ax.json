@@ -1,0 +1,91 @@
+{
+  "page_id": "31-16_1_front-ax",
+  "image_path": "raw/31 - Front Axle/31-16_1.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:04:17.661396",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 719
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when checking and correcting vehicle height?",
+      "answer": "Load down car to normal position.",
+      "question_type": "procedural",
+      "id": "31-16_1_front-ax-q01"
+    },
+    {
+      "question": "Where should you measure the actual height from and to when checking vehicle height?",
+      "answer": "Measure actual height (A) from wheel house lower edge (1) to rim flange (2) at center of wheel height.",
+      "question_type": "procedural",
+      "id": "31-16_1_front-ax-q02"
+    },
+    {
+      "question": "What do the numbers 1 and 2 represent in the height measurement diagram?",
+      "answer": "Number 1 indicates the wheel house lower edge and number 2 indicates the rim flange.",
+      "question_type": "visual",
+      "id": "31-16_1_front-ax-q03"
+    },
+    {
+      "question": "What BMW part number is given as an example for coil springs that are 7 mm too deep?",
+      "answer": "BMW No. 1 126 516",
+      "question_type": "factual",
+      "id": "31-16_1_front-ax-q04"
+    },
+    {
+      "question": "What BMW part number should be installed to reach nominal height in the example given?",
+      "answer": "BMW No. 1 127 282",
+      "question_type": "factual",
+      "id": "31-16_1_front-ax-q05"
+    },
+    {
+      "question": "Where can you find information about determining spring part numbers?",
+      "answer": "See 31 33 100 for determination of part numbers.",
+      "question_type": "navigation",
+      "id": "31-16_1_front-ax-q06"
+    },
+    {
+      "question": "What does the letter A represent in the correction table?",
+      "answer": "A = Equipment after correction",
+      "question_type": "factual",
+      "id": "31-16_1_front-ax-q07"
+    },
+    {
+      "question": "What does the letter B represent in the correction table?",
+      "answer": "B = Equipment of delivered car",
+      "question_type": "factual",
+      "id": "31-16_1_front-ax-q08"
+    },
+    {
+      "question": "How much can the height be adjusted by exchanging spring rings?",
+      "answer": "The height can be adjusted additionally by \u00b1 5 mm (0.197'') by exchanging these spring rings.",
+      "question_type": "factual",
+      "id": "31-16_1_front-ax-q09"
+    },
+    {
+      "question": "What distinguishes coil springs with red stripe from those without red stripe?",
+      "answer": "Thick spring ring for coil springs with red stripe, thin spring ring for coil springs without red stripe.",
+      "question_type": "component",
+      "id": "31-16_1_front-ax-q10"
+    },
+    {
+      "question": "What vehicle models does this height correction table apply to?",
+      "answer": "Table for 318 i, 325 e up to 1986 Models.",
+      "question_type": "factual",
+      "id": "31-16_1_front-ax-q11"
+    },
+    {
+      "question": "What do the numbers in the table represent regarding height deviation?",
+      "answer": "The numbers are height deviation (nominal values in mm) between the pertinent springs.",
+      "question_type": "factual",
+      "id": "31-16_1_front-ax-q12"
+    }
+  ]
+}

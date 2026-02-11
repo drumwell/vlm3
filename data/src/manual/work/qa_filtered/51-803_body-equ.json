@@ -1,0 +1,79 @@
+{
+  "page_id": "51-803_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-803.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:34:28.662221",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 666
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main symptom being diagnosed in this troubleshooting flowchart?",
+      "answer": "No function when operating driver's door lock (unlocking - locking).",
+      "question_type": "diagnostic",
+      "id": "51-803_body-equ-q01"
+    },
+    {
+      "question": "What should I check first when the driver's door lock has no function?",
+      "answer": "Check if the linkage is connected, drive adjusted correctly and mounted, and plug connected on drive.",
+      "question_type": "procedural",
+      "id": "51-803_body-equ-q02"
+    },
+    {
+      "question": "What wire colors should I check when testing the car ground to socket 4 wire?",
+      "answer": "Green/blue wire or socket 3 wire yellow/blue.",
+      "question_type": "wiring",
+      "id": "51-803_body-equ-q03"
+    },
+    {
+      "question": "If the system doesn't unlock or lock after checking the ground connection, what pins should I test next?",
+      "answer": "Make connection between pin 6 (green/blue) or pin 7 (yellow/blue) on control unit with connected plug and ground.",
+      "question_type": "diagnostic",
+      "id": "51-803_body-equ-q04"
+    },
+    {
+      "question": "What should I do if there's a break in the blue or white wire to the drive?",
+      "answer": "Repair the wire break.",
+      "question_type": "troubleshooting",
+      "id": "51-803_body-equ-q05"
+    },
+    {
+      "question": "Which socket should I check on the driver's door drive plug against car ground?",
+      "answer": "Check socket 5 (brown) on plug for driver's door drive against car ground.",
+      "question_type": "diagnostic",
+      "id": "51-803_body-equ-q06"
+    },
+    {
+      "question": "What resistance value should socket 5 show when tested against ground?",
+      "answer": "Resistance \u2248 0 \u03a9",
+      "question_type": "parameter",
+      "id": "51-803_body-equ-q07"
+    },
+    {
+      "question": "What are the expected resistance readings when testing the drive switch through ground between pins 5 and 4?",
+      "answer": "Eye pulled out: \u03a9 \u2248 0, Eye pushed into drive: \u03a9 \u2248 \u221e",
+      "question_type": "parameter",
+      "id": "51-803_body-equ-q08"
+    },
+    {
+      "question": "What should I do if the drive ground supply test shows no continuity?",
+      "answer": "Break in drive ground supply - repair. Also refer to driver's door/body plug socket 2 (brown) for corrosion/no connection.",
+      "question_type": "troubleshooting",
+      "id": "51-803_body-equ-q09"
+    },
+    {
+      "question": "What section should I refer to for linkage connection and drive adjustment procedures?",
+      "answer": "See 51 26 000.",
+      "question_type": "navigation",
+      "id": "51-803_body-equ-q10"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "page_id": "html-m3-techspec",
+  "image_path": null,
+  "section_id": "techspec",
+  "section_name": "Technical Specifications",
+  "source_type": "html_specs",
+  "content_type": "specification",
+  "generation": {
+    "method": "html_parse",
+    "timestamp": "2026-02-10T10:47:12.116064",
+    "source_file": "M3-techspec.html",
+    "model_detected": "M3",
+    "specs_parsed": 8
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the coupe 2-door1001 (eu)1003 (us)1005 (eu/jpn) for the BMW E30 M3?",
+      "answer": "Convertible 2-doorBB01 (1988)BB05 (1989+) ",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q01"
+    },
+    {
+      "question": "What is the coupe 2-door1001 (eu)1003 (us)1005 (eu/jpn)?",
+      "answer": "The coupe 2-door1001 (eu)1003 (us)1005 (eu/jpn) for the BMW E30 M3 is Convertible 2-doorBB01 (1988)BB05 (1989+) .",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q02"
+    },
+    {
+      "question": "What is the model code: coupe 2-door1001 (eu)1003 (us)1005 (eu/jpn) specification?",
+      "answer": "Convertible 2-doorBB01 (1988)BB05 (1989+) ",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q03"
+    },
+    {
+      "question": "What is the 07/85 - 12/90 for the BMW E30 M3?",
+      "answer": "06/88 - 06/91 ",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q04"
+    },
+    {
+      "question": "What is the 07/85 - 12/90?",
+      "answer": "The 07/85 - 12/90 for the BMW E30 M3 is 06/88 - 06/91 .",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q05"
+    },
+    {
+      "question": "What is the production dates: 07/85 - 12/90 specification?",
+      "answer": "06/88 - 06/91 ",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q06"
+    },
+    {
+      "question": "What is the 17,184?",
+      "answer": "The 17,184 for the BMW E30 M3 is ??? .",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q08"
+    },
+    {
+      "question": "What is the 1200 kg?",
+      "answer": "The 1200 kg for the BMW E30 M3 is ??? kg .",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q11"
+    },
+    {
+      "question": "What is the 1680 kg?",
+      "answer": "The 1680 kg for the BMW E30 M3 is ??? kg .",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q14"
+    },
+    {
+      "question": "What is the 0.33?",
+      "answer": "The 0.33 for the BMW E30 M3 is 0.62 .",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q17"
+    },
+    {
+      "question": "What is the 235 km/h?",
+      "answer": "The 235 km/h for the BMW E30 M3 is ??? km/h .",
+      "question_type": "factual",
+      "id": "html-m3-techspec-q20"
+    }
+  ]
+}

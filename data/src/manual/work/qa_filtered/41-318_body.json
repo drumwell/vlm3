@@ -1,0 +1,91 @@
+{
+  "page_id": "41-318_body",
+  "image_path": "raw/41 - Body/41-318.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:00:34.586415",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 875
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for replacing the right rear side panel?",
+      "answer": "The section number is 41 35 291.",
+      "question_type": "factual",
+      "id": "41-318_body-q01"
+    },
+    {
+      "question": "What type of replacement is being performed on the right rear side panel?",
+      "answer": "This is a partial replacement up to the window line for a two door model.",
+      "question_type": "factual",
+      "id": "41-318_body-q02"
+    },
+    {
+      "question": "Which page should you refer to for additional information before starting this procedure?",
+      "answer": "You should refer to information on page 41-001.",
+      "question_type": "navigation",
+      "id": "41-318_body-q03"
+    },
+    {
+      "question": "What are some of the components that need to be removed or disconnected before replacing the right rear side panel?",
+      "answer": "Components include the rear bumper, right tail light assembly, trunk mat, trunk wall trim, right wheel house trim, tail panel trim, trunk lid seal, rear window complete with frame, side window, rear seat cushion and backrest, side trim panel, hatrack, entrance cover strip, and carpet as required.",
+      "question_type": "procedural",
+      "id": "41-318_body-q04"
+    },
+    {
+      "question": "What additional items need to be removed that are related to the door and pillar areas?",
+      "answer": "Remove the roof liner as required, door pillar trim, seat belt, front door weatherstrip, door striker, C pillar air extraction plate, and rubbing strip on rear side panel.",
+      "question_type": "procedural",
+      "id": "41-318_body-q05"
+    },
+    {
+      "question": "What fuel system components need to be addressed during this repair?",
+      "answer": "The right wheel house cover, fuel filler neck, expansion tank, complete fuel tank, strut on floor assembly, and wire harness in trunk need to be removed or disconnected as required.",
+      "question_type": "procedural",
+      "id": "41-318_body-q06"
+    },
+    {
+      "question": "What is the first step shown in the repair procedure according to the diagrams?",
+      "answer": "The first step is to uncover and drill off welding spots, as indicated in the top diagram.",
+      "question_type": "procedural",
+      "id": "41-318_body-q07"
+    },
+    {
+      "question": "What do callout numbers 30 41 209 and 30 41 210 indicate?",
+      "answer": "These callouts show the steps for determining the cutting line for partial replacement of the panel.",
+      "question_type": "visual",
+      "id": "41-318_body-q08"
+    },
+    {
+      "question": "What does callout number 30 41 123 demonstrate?",
+      "answer": "This callout shows cutting off the side panel on the tail panel and trunk side section.",
+      "question_type": "visual",
+      "id": "41-318_body-q09"
+    },
+    {
+      "question": "What welding-related procedure is repeated multiple times in this repair?",
+      "answer": "Uncovering and drilling off welding spots is performed multiple times throughout the procedure, as shown in callouts 30 41 211 and 30 41 212.",
+      "question_type": "procedural",
+      "id": "41-318_body-q10"
+    },
+    {
+      "question": "What is the purpose of determining cutting lines during this repair?",
+      "answer": "The cutting lines are determined to establish the proper boundaries for the partial replacement of the side panel, ensuring accurate fitting of the new panel section.",
+      "question_type": "procedural",
+      "id": "41-318_body-q11"
+    },
+    {
+      "question": "What does the final diagram (30 41 070) show?",
+      "answer": "The final diagram shows the completed cut-off of the side panel on the tail panel and trunk side section.",
+      "question_type": "visual",
+      "id": "41-318_body-q12"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "41-126_body",
+  "image_path": "raw/41 - Body/41-126.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:48:38.773718",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 730
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the wheel house and end plate on the cowl panel?",
+      "answer": "Braze the wheel house and end plate on the cowl panel.",
+      "question_type": "procedural",
+      "id": "41-126_body-q01"
+    },
+    {
+      "question": "What type of compound should be used to spray out the wheel house?",
+      "answer": "An anti-drumming compound should be used to spray out the wheel house.",
+      "question_type": "tool",
+      "id": "41-126_body-q02"
+    },
+    {
+      "question": "What procedure should be performed after installation of the front panel?",
+      "answer": "After installation of the front panel, seal the mating surfaces with a body sealing compound.",
+      "question_type": "procedural",
+      "id": "41-126_body-q03"
+    },
+    {
+      "question": "How many different locations are shown requiring body sealing compound application?",
+      "answer": "Three different locations are shown requiring body sealing compound application.",
+      "question_type": "visual",
+      "id": "41-126_body-q04"
+    },
+    {
+      "question": "What material is specified for sealing the mating surfaces in multiple locations?",
+      "answer": "Body sealing compound is specified for sealing the mating surfaces in multiple locations.",
+      "question_type": "tool",
+      "id": "41-126_body-q07"
+    },
+    {
+      "question": "Which part number is associated with the middle left sealing location?",
+      "answer": "Part number 30 41 504 is associated with the middle left sealing location.",
+      "question_type": "factual",
+      "id": "41-126_body-q08"
+    },
+    {
+      "question": "What part number is shown in the bottom image?",
+      "answer": "The bottom image shows part numbers 30 41 505 and 30 41 506.",
+      "question_type": "factual",
+      "id": "41-126_body-q09"
+    },
+    {
+      "question": "What is the common sealing procedure described for three different areas?",
+      "answer": "The common sealing procedure is to seal mating surfaces with a body sealing compound.",
+      "question_type": "procedural",
+      "id": "41-126_body-q10"
+    },
+    {
+      "question": "What type of work is being performed in the top left image?",
+      "answer": "Brazing work is being performed on the wheel house and end plate on the cowl panel.",
+      "question_type": "visual",
+      "id": "41-126_body-q11"
+    },
+    {
+      "question": "What is the purpose of applying anti-drumming compound to the wheel house?",
+      "answer": "The anti-drumming compound is applied to the wheel house to reduce noise and vibration.",
+      "question_type": "operation",
+      "id": "41-126_body-q12"
+    }
+  ]
+}

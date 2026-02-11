@@ -1,0 +1,67 @@
+{
+  "page_id": "34-34b_brakes",
+  "image_path": "raw/34 - Brakes/34-34b.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:23:08.752765",
+    "prompt_template": "service_manual/wiring",
+    "tokens_input": 1742,
+    "tokens_output": 624
+  },
+  "qa_pairs": [
+    {
+      "question": "What system is this wiring diagram for?",
+      "answer": "This is a wiring diagram for ABS System 2B, which was introduced gradually since 8/87.",
+      "question_type": "factual",
+      "id": "34-34b_brakes-q01"
+    },
+    {
+      "question": "What is the power rating of the lamp shown in the diagram?",
+      "answer": "The lamp has a power rating of 1.2W.",
+      "question_type": "factual",
+      "id": "34-34b_brakes-q02"
+    },
+    {
+      "question": "What are the connector numbers for the signal senders on the front axle?",
+      "answer": "The front axle signal senders use connectors 362 (front left) and 364 (front right).",
+      "question_type": "connector",
+      "id": "34-34b_brakes-q04"
+    },
+    {
+      "question": "What does KL61 represent in this diagram?",
+      "answer": "KL61 is Terminal 61, which is the charge indicator according to the legend.",
+      "question_type": "component",
+      "id": "34-34b_brakes-q05"
+    },
+    {
+      "question": "Which component is labeled as 361 in the wiring diagram?",
+      "answer": "Component 361 is the Hydraulic control unit.",
+      "question_type": "component",
+      "id": "34-34b_brakes-q06"
+    },
+    {
+      "question": "What special note is provided about the diode in valve relay?",
+      "answer": "The note states that the diode in valve relay applies to 1988 models.",
+      "question_type": "factual",
+      "id": "34-34b_brakes-q07"
+    },
+    {
+      "question": "What does the +BS connection represent in this ABS wiring diagram?",
+      "answer": "The +BS connection represents the ABS Stop light switch according to the component legend.",
+      "question_type": "wiring",
+      "id": "34-34b_brakes-q09"
+    },
+    {
+      "question": "Which terminal numbers are shown connected to the hydraulic control unit (361)?",
+      "answer": "The hydraulic control unit (361) shows terminal connections 30, 85, 86, and 87.",
+      "question_type": "wiring",
+      "id": "34-34b_brakes-q10"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-001",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/001.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:12:33.822217",
+    "prompt_template": "unknown/text",
+    "tokens_input": 1880,
+    "tokens_output": 375
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of specifications does this section of the manual contain?",
+      "answer": "This section contains tightening torque specifications for various components.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-001-q02"
+    },
+    {
+      "question": "What is the page identifier for this torque specifications page?",
+      "answer": "The page identifier is bmwtorquespecs-001.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-001-q03"
+    },
+    {
+      "question": "Which section of the BMW E30 M3 documentation does this page belong to?",
+      "answer": "This page belongs to the BMW_Torque_Specs section.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-001-q04"
+    },
+    {
+      "question": "Is this the first page of the torque specifications section?",
+      "answer": "Yes, this appears to be the first page as indicated by the page number 001 in the identifier bmwtorquespecs-001.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-001-q06"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-104",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/104.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:35:50.850417",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 830
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the transmission extension (1AZ) on all models?",
+      "answer": "25 Nm using an M8 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-104-q01"
+    },
+    {
+      "question": "What size screw is used for the guard (2AZ) component?",
+      "answer": "M6 screw with 9 Nm torque specification.",
+      "question_type": "factual",
+      "id": "00-torque-specs-104-q02"
+    },
+    {
+      "question": "What is the torque specification for the converter bell housing on A4S 270R/A4S 310R models?",
+      "answer": "32 Nm using a 5/16\" screw for A4S 270R/A4S 310R models.",
+      "question_type": "factual",
+      "id": "00-torque-specs-104-q03"
+    },
+    {
+      "question": "How much torque should be applied to the converter bell housing on 4HP-22/4HP-24 models?",
+      "answer": "46 Nm using an M10 screw for 4HP-22/4HP-24 models.",
+      "question_type": "factual",
+      "id": "00-torque-specs-104-q04"
+    },
+    {
+      "question": "What section and subsection number does this torque specification table belong to?",
+      "answer": "Section 24-2 Automatic Transmission, subsection 24 11 Transmission Case, Oil Sump.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-104-q08"
+    }
+  ]
+}

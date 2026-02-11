@@ -1,0 +1,67 @@
+{
+  "page_id": "bmwtorquespecs-013",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/013.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:14:53.128314",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 562
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the main bearing cap inclined bolts?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-013-q01"
+    },
+    {
+      "question": "What is the torque specification for the threaded support sleeves?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-013-q04"
+    },
+    {
+      "question": "What are the torque values for the struts/bracing shell with M10 screws?",
+      "answer": "43 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-013-q05"
+    },
+    {
+      "question": "What is the thread specification for the drain plug for coolant on engine block?",
+      "answer": "M14 x 1.5",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-013-q06"
+    },
+    {
+      "question": "What torque should be applied to the main oil duct screw plugs?",
+      "answer": "34 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-013-q07"
+    },
+    {
+      "question": "What is the screw size and torque for the oil spray nozzle on engine block?",
+      "answer": "M8x1 screw size with 12 Nm torque",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-013-q08"
+    },
+    {
+      "question": "Which engine types apply to the main bearing cap inclined bolts specifications?",
+      "answer": "M60/1/M60/2/M62/M70/S70/M73",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-013-q09"
+    },
+    {
+      "question": "What is the torque specification for struts/bracing shell with M8 screws?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-013-q10"
+    }
+  ]
+}

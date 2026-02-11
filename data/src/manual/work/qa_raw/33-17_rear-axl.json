@@ -1,0 +1,94 @@
+{
+  "page_id": "33-17_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-17.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:11:28.261132",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 687
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the service operation number for removing and installing or replacing left or right barrel spring?",
+      "answer": "The service operation number is 33 53 000.",
+      "question_type": "factual",
+      "id": "33-17_rear-axl-q01"
+    },
+    {
+      "question": "What should you use to suspend the exhaust assembly from the car?",
+      "answer": "Disconnect exhaust assembly and suspend from car with a piece of wire.",
+      "question_type": "procedural",
+      "id": "33-17_rear-axl-q02"
+    },
+    {
+      "question": "What tool should be used to push down the final drive rubber mounts?",
+      "answer": "Unscrew final drive rubber mounts and push down, holding down with a wedge of wood or similar item.",
+      "question_type": "tool",
+      "id": "33-17_rear-axl-q03"
+    },
+    {
+      "question": "What important warning is given about lowering the trailing arm?",
+      "answer": "Only lower trailing arm enough that spring can be removed. Lowering too far could cause damage on output shaft joints.",
+      "question_type": "safety",
+      "id": "33-17_rear-axl-q04"
+    },
+    {
+      "question": "What should be checked during installation regarding the spring strut?",
+      "answer": "Check position of spring strut.",
+      "question_type": "inspection",
+      "id": "33-17_rear-axl-q05"
+    },
+    {
+      "question": "What inspection should be performed on the springs during installation?",
+      "answer": "Check springs for surface damage and replace damaged springs.",
+      "question_type": "inspection",
+      "id": "33-17_rear-axl-q06"
+    },
+    {
+      "question": "What are the three matching requirements when installing replacement springs?",
+      "answer": "Only install springs with same BMW number, same color code, and correct rubber ring.",
+      "question_type": "factual",
+      "id": "33-17_rear-axl-q07"
+    },
+    {
+      "question": "What component should be disconnected if applicable during this procedure?",
+      "answer": "Disconnect stabilizer, if applicable.",
+      "question_type": "procedural",
+      "id": "33-17_rear-axl-q08"
+    },
+    {
+      "question": "What caution is given about the brake line during this procedure?",
+      "answer": "Don't damage the brake line.",
+      "question_type": "safety",
+      "id": "33-17_rear-axl-q09"
+    },
+    {
+      "question": "What should be done to the shock absorber on the trailing arm?",
+      "answer": "Unscrew shock absorber on trailing arm.",
+      "question_type": "procedural",
+      "id": "33-17_rear-axl-q10"
+    },
+    {
+      "question": "What does the asterisk notation at the bottom of the page indicate?",
+      "answer": "See Specifications.",
+      "question_type": "navigation",
+      "id": "33-17_rear-axl-q11"
+    },
+    {
+      "question": "What visual reference numbers are shown in the diagrams on this page?",
+      "answer": "The diagrams show reference numbers 30 33 112, 30 33 111, and 30 33 114.",
+      "question_type": "visual",
+      "id": "33-17_rear-axl-q12",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

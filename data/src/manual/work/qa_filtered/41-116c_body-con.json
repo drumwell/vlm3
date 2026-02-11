@@ -1,0 +1,91 @@
+{
+  "page_id": "41-116c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-116c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:46:00.001857",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 774
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done after grinding off welding beads on the wheel house?",
+      "answer": "Lift the end plate slightly and remove scrap metal.",
+      "question_type": "procedural",
+      "id": "41-116c_body-con-q01"
+    },
+    {
+      "question": "What preparation is required on mating surfaces before spot welding?",
+      "answer": "Straighten and grind all mating surfaces, then coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-116c_body-con-q02"
+    },
+    {
+      "question": "What should be done with the new wheel house outer section after grinding mating surfaces?",
+      "answer": "Grind mating surfaces on new wheel house outer section and coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-116c_body-con-q03"
+    },
+    {
+      "question": "How should the new wheel house outer section be secured during installation?",
+      "answer": "Insert and clamp down new wheel house outer section, tack welding if necessary.",
+      "question_type": "procedural",
+      "id": "41-116c_body-con-q04"
+    },
+    {
+      "question": "What needs to be checked when mounting the side panel?",
+      "answer": "Check door gap and transition to the tail panel, correcting with wheel house if necessary.",
+      "question_type": "inspection",
+      "id": "41-116c_body-con-q05"
+    },
+    {
+      "question": "What type of welding should be used on the wheel house?",
+      "answer": "Spot weld wheel house. Prepare areas for plug spot welding, when they are not accessible for spot welding tongs.",
+      "question_type": "procedural",
+      "id": "41-116c_body-con-q06"
+    },
+    {
+      "question": "What image reference number shows the step for grinding off welding beads?",
+      "answer": "Image reference number 30 41 592 shows the step for grinding off welding beads.",
+      "question_type": "visual",
+      "id": "41-116c_body-con-q07"
+    },
+    {
+      "question": "What image reference number shows the removal of scrap metal?",
+      "answer": "Image reference number 30 41 593 shows lifting the end plate slightly and removing scrap metal.",
+      "question_type": "visual",
+      "id": "41-116c_body-con-q08"
+    },
+    {
+      "question": "What image reference number demonstrates the mounting of the side panel?",
+      "answer": "Image reference number 30 41 598 demonstrates mounting the side panel.",
+      "question_type": "visual",
+      "id": "41-116c_body-con-q09"
+    },
+    {
+      "question": "What coating is specified for mating surfaces that will be spot welded?",
+      "answer": "Zinc dust paint is specified for coating mating surfaces required for spot welding.",
+      "question_type": "factual",
+      "id": "41-116c_body-con-q10"
+    },
+    {
+      "question": "What alternative welding method is mentioned when spot welding tongs are not accessible?",
+      "answer": "Plug spot welding should be prepared for areas where spot welding tongs are not accessible.",
+      "question_type": "factual",
+      "id": "41-116c_body-con-q11"
+    },
+    {
+      "question": "What should be done to all mating surfaces before applying zinc dust paint?",
+      "answer": "Straighten and grind all mating surfaces before coating them with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-116c_body-con-q12"
+    }
+  ]
+}

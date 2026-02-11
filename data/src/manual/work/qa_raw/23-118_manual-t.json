@@ -1,0 +1,91 @@
+{
+  "page_id": "23-118_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-118.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:29:49.565111",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 825
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the required axial play specification for the input shaft bearings?",
+      "answer": "The axial play required is 1.1 to 1.3 mm (0.043 to 0.051\"). This should be corrected with different size circlips available from Parts.",
+      "question_type": "factual",
+      "id": "23-118_manual-t-q01"
+    },
+    {
+      "question": "Which special tool is used to pull out the bearing outer race?",
+      "answer": "Special Tool 00 8 550 is used to pull out the bearing outer race (without supports) along with tool 33 1 356.",
+      "question_type": "tool",
+      "id": "23-118_manual-t-q02"
+    },
+    {
+      "question": "How should the layshaft bearing be handled during removal?",
+      "answer": "Destroy the roller cage of the bearing and remove the cage with rollers.",
+      "question_type": "procedural",
+      "id": "23-118_manual-t-q03"
+    },
+    {
+      "question": "What temperature should the case be heated to for roller bearing installation?",
+      "answer": "Heat the case front section in rear of roller bearing to about 80\u00b0 C (176\u00b0 F) with a hot air blower.",
+      "question_type": "procedural",
+      "id": "23-118_manual-t-q04"
+    },
+    {
+      "question": "What are the example measurements given for distances A, B, and C in the circlip measurement procedure?",
+      "answer": "Example measurements are: A = 25.3 mm (0.996\"), B = 10.1 mm (0.398\"), and C = 14.0 mm (0.551\").",
+      "question_type": "factual",
+      "id": "23-118_manual-t-q05"
+    },
+    {
+      "question": "What special tool is needed to drive in the roller bearing?",
+      "answer": "Special Tool 23 2 220 is used to drive in the roller bearing.",
+      "question_type": "tool",
+      "id": "23-118_manual-t-q06"
+    },
+    {
+      "question": "How should the input shaft be positioned when measuring axial play?",
+      "answer": "The input shaft must be on micromesh ring, and you should measure distance (A) from guide sleeve sealing surface to input shaft.",
+      "question_type": "procedural",
+      "id": "23-118_manual-t-q07"
+    },
+    {
+      "question": "What is the critical note about the circlip during measurement?",
+      "answer": "The circlip must be pressed tight in groove for measuring.",
+      "question_type": "inspection",
+      "id": "23-118_manual-t-q08"
+    },
+    {
+      "question": "What tool is used for removing the output shaft components?",
+      "answer": "Special Tool 23 2 170 is used, which should be removed and the leaf spring pulled off after use.",
+      "question_type": "tool",
+      "id": "23-118_manual-t-q09"
+    },
+    {
+      "question": "What should be measured as distance B in the bearing measurement procedure?",
+      "answer": "Distance (B) should be measured from guide sleeve sealing surface to circlip bearing surface.",
+      "question_type": "procedural",
+      "id": "23-118_manual-t-q10"
+    },
+    {
+      "question": "Where should the transmission case be removed from according to this procedure?",
+      "answer": "Remove transmission case from section 23 11 014.",
+      "question_type": "navigation",
+      "id": "23-118_manual-t-q11"
+    },
+    {
+      "question": "What is being measured as distance C in the bearing measurement process?",
+      "answer": "Distance (C) is measured from bearing outer race to circlip.",
+      "question_type": "procedural",
+      "id": "23-118_manual-t-q12"
+    }
+  ]
+}

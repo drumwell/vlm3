@@ -1,0 +1,91 @@
+{
+  "page_id": "41-117c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-117c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:46:29.300513",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 829
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of welding should be used to attach the wheel house outer section to the inner section?",
+      "answer": "Inert gas weld should be used to attach the wheel house outer section with the inner section in the area of the top box by producing beads.",
+      "question_type": "procedural",
+      "id": "41-117c_body-con-q01"
+    },
+    {
+      "question": "Where should plug spot welding holes be drilled?",
+      "answer": "Drill plug spot welding holes through the reinforcement and wheel house outer section in area of the front reinforcement.",
+      "question_type": "procedural",
+      "id": "41-117c_body-con-q02"
+    },
+    {
+      "question": "What welding method is used for the reinforcement and wheel house outer section?",
+      "answer": "Plug spot weld reinforcement and wheel house outer section on the wheel house inner section. Tack weld wheel house on the entrance cover strip.",
+      "question_type": "procedural",
+      "id": "41-117c_body-con-q03"
+    },
+    {
+      "question": "What areas are accessible for plug spot welding according to the diagram?",
+      "answer": "The diagram shows plug spot weld areas which are accessible for plug spot welding, indicated by the dotted lines and arrows in the illustration.",
+      "question_type": "visual",
+      "id": "41-117c_body-con-q04"
+    },
+    {
+      "question": "How should the top box be welded?",
+      "answer": "Plug spot weld the top box through provided holes.",
+      "question_type": "procedural",
+      "id": "41-117c_body-con-q05"
+    },
+    {
+      "question": "Where should the bottom of the wheel house be welded?",
+      "answer": "Weld bottom of wheel house on the end plate.",
+      "question_type": "procedural",
+      "id": "41-117c_body-con-q06"
+    },
+    {
+      "question": "What post-installation steps are required after installing the side panel?",
+      "answer": "After installation of side panel: Seal off joints with a body sealing compound. Spray an antidrumming compound on the wheel house.",
+      "question_type": "procedural",
+      "id": "41-117c_body-con-q07"
+    },
+    {
+      "question": "What callout number identifies the wheel house outer section welding area?",
+      "answer": "Callout number 30 41 604 identifies the inert gas weld wheel house outer section area.",
+      "question_type": "visual",
+      "id": "41-117c_body-con-q08"
+    },
+    {
+      "question": "What does callout number 30 41 600 indicate?",
+      "answer": "Callout number 30 41 600 indicates the area where plug spot welding holes should be drilled through the reinforcement and wheel house outer section.",
+      "question_type": "visual",
+      "id": "41-117c_body-con-q09"
+    },
+    {
+      "question": "What does callout number 30 41 601 show?",
+      "answer": "Callout number 30 41 601 shows the plug spot weld reinforcement and wheel house outer section on the wheel house inner section area.",
+      "question_type": "visual",
+      "id": "41-117c_body-con-q10"
+    },
+    {
+      "question": "What type of compound should be applied to seal joints after side panel installation?",
+      "answer": "A body sealing compound should be used to seal off joints after installation of the side panel.",
+      "question_type": "factual",
+      "id": "41-117c_body-con-q11"
+    },
+    {
+      "question": "What should be sprayed on the wheel house after side panel installation?",
+      "answer": "An antidrumming compound should be sprayed on the wheel house after installation of the side panel.",
+      "question_type": "factual",
+      "id": "41-117c_body-con-q12"
+    }
+  ]
+}

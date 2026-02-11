@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-086",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/086.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:32:15.638411",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 573
+  },
+  "qa_pairs": [
+    {
+      "question": "What temperature range is specified for the temperature switch to radiator?",
+      "answer": "91\u00b0C to 99\u00b0C maximum",
+      "question_type": "factual",
+      "id": "00-torque-specs-086-q06"
+    },
+    {
+      "question": "Which radiator mounting fastener requires the highest torque?",
+      "answer": "The temperature switch to radiator requires the highest torque at 15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-086-q07"
+    },
+    {
+      "question": "Which component has the lowest torque specification in the radiator mounting table?",
+      "answer": "The drain plug on radiator has the lowest torque specification at 2.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-086-q08"
+    },
+    {
+      "question": "What vehicle types do all the radiator mounting specifications apply to?",
+      "answer": "All specifications apply to 'All' vehicle types",
+      "question_type": "factual",
+      "id": "00-torque-specs-086-q09"
+    },
+    {
+      "question": "What section and subsection number covers radiator and mounting parts?",
+      "answer": "Section 17-2, subsection 17 11 covers radiator and mounting parts",
+      "question_type": "navigation",
+      "id": "00-torque-specs-086-q10"
+    }
+  ]
+}

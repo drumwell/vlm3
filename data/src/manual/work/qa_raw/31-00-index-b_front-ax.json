@@ -1,0 +1,55 @@
+{
+  "page_id": "31-00-index-b_front-ax",
+  "image_path": "raw/31 - Front Axle/31-00-index-b.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:57:59.191404",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 412
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number contains information about spring strut mount replacement?",
+      "answer": "Spring strut mount replacement information is found on page 31-15.",
+      "question_type": "navigation",
+      "id": "31-00-index-b_front-ax-q01"
+    },
+    {
+      "question": "Where can I find the procedure for removing and installing the coil spring for front spring strut?",
+      "answer": "The procedure for removing and installing the coil spring for front spring strut is located on page 31-16.",
+      "question_type": "navigation",
+      "id": "31-00-index-b_front-ax-q02"
+    },
+    {
+      "question": "What page covers troubleshooting for the front axle?",
+      "answer": "Front axle troubleshooting information is covered on page 31-18.",
+      "question_type": "navigation",
+      "id": "31-00-index-b_front-ax-q03"
+    },
+    {
+      "question": "On which page can I find information about replacing the shaft seal for the input flange of front axle final drive?",
+      "answer": "Information about replacing the shaft seal for input flange of front axle final drive can be found on page 31-23.",
+      "question_type": "navigation",
+      "id": "31-00-index-b_front-ax-q04"
+    },
+    {
+      "question": "Where is the layout drawing for the drive pinion/ring gear located?",
+      "answer": "The layout drawing for the drive pinion/ring gear is located on page 31-27.",
+      "question_type": "navigation",
+      "id": "31-00-index-b_front-ax-q05"
+    },
+    {
+      "question": "What page contains the procedure for replacing drive pinion and ring gear with front axle final drive removed?",
+      "answer": "The procedure for replacing drive pinion and ring gear with front axle final drive removed is on page 31-30.",
+      "question_type": "navigation",
+      "id": "31-00-index-b_front-ax-q06"
+    }
+  ]
+}

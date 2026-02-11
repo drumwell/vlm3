@@ -1,0 +1,79 @@
+{
+  "page_id": "34-42_brakes",
+  "image_path": "raw/34 - Brakes/34-42.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:25:40.672496",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 745
+  },
+  "qa_pairs": [
+    {
+      "question": "What is test step 08 checking on the ABS system?",
+      "answer": "Test step 08 is checking the ABS return delivery pump, specifically testing voltage between wires 1 and 10, and front left/right and rear left/right connections.",
+      "question_type": "procedural",
+      "id": "34-42_brakes-q01"
+    },
+    {
+      "question": "What conditions should be met when testing the ABS return delivery pump?",
+      "answer": "The ignition should be turned on, engine running, and battery charged (check).",
+      "question_type": "procedural",
+      "id": "34-42_brakes-q02"
+    },
+    {
+      "question": "What should you do if there's high switching on power during the ABS test?",
+      "answer": "Due to high switching on power, possibly repeat test step with engine running. Refer to test steps 05, 06 and 07.",
+      "question_type": "troubleshooting",
+      "id": "34-42_brakes-q03"
+    },
+    {
+      "question": "What conventional brake system components need to be checked for proper ABS operation?",
+      "answer": "The conventional brake system must be okay: bled properly, brake line connections tight, brake pads okay, master and wheel cylinders okay.",
+      "question_type": "inspection",
+      "id": "34-42_brakes-q04"
+    },
+    {
+      "question": "What should you observe about the wheels during ABS testing?",
+      "answer": "Watch uniformity of wheels on one axle and observe relation between wheel reading.",
+      "question_type": "diagnostic",
+      "id": "34-42_brakes-q05"
+    },
+    {
+      "question": "What is the corrective action if brake lines are mixed up on the hydraulic unit?",
+      "answer": "Replace hydraulic unit. The job position reference is 34 51 520.",
+      "question_type": "procedural",
+      "id": "34-42_brakes-q06"
+    },
+    {
+      "question": "What restriction applies to performing this test step on 325 iX cars?",
+      "answer": "This test step may not be performed on a dynamometer for 325 iX cars, since the total loading time for the central lock in the transfer box must not exceed 60 seconds at a wheel speed of max. 7.5 km/h (4.5 mph).",
+      "question_type": "safety",
+      "id": "34-42_brakes-q07"
+    },
+    {
+      "question": "What reference should you consult for brake test dynamometer information on 325 iX cars?",
+      "answer": "Refer to brake test dynamometer in 34 00 009.",
+      "question_type": "navigation",
+      "id": "34-42_brakes-q08"
+    },
+    {
+      "question": "What group does this ABS return delivery pump test belong to?",
+      "answer": "This test belongs to Group 34.",
+      "question_type": "factual",
+      "id": "34-42_brakes-q09"
+    },
+    {
+      "question": "What are the potential causes if the ABS return delivery pump test fails?",
+      "answer": "Potential causes include high switching on power issues, improperly bled brake system, loose brake line connections, worn brake pads, faulty master or wheel cylinders, wheel uniformity problems, or brake lines mixed up on hydraulic unit.",
+      "question_type": "troubleshooting",
+      "id": "34-42_brakes-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-010",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/010.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:17:45.974613",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 686
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M18 8.8 screw?",
+      "answer": "280 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-010-q01"
+    },
+    {
+      "question": "What torque specification should I use for an M18x1.5 12.9 thread?",
+      "answer": "527 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-010-q02"
+    },
+    {
+      "question": "How much torque difference is there between an M18 10.9 and M18 12.9 screw?",
+      "answer": "The M18 12.9 requires 470 Nm while the M18 10.9 requires 390 Nm, a difference of 80 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-010-q03"
+    },
+    {
+      "question": "What is the torque specification for an M18x1.5 8.8 thread?",
+      "answer": "313 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-010-q04"
+    },
+    {
+      "question": "Which M18 thread type has the highest torque specification?",
+      "answer": "The M18 12.9 thread has the highest torque specification at 470 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-010-q05"
+    },
+    {
+      "question": "What torque should I apply to an M18x1.5 10.9 screw?",
+      "answer": "440 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-010-q06"
+    },
+    {
+      "question": "What BMW standard document should I reference for the applicable range of these tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-torque-specs-010-q07"
+    },
+    {
+      "question": "Which has a higher torque specification: M18x1.5 8.8 or M18 8.8?",
+      "answer": "M18x1.5 8.8 has a higher specification at 313 Nm compared to M18 8.8 at 280 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-010-q08"
+    },
+    {
+      "question": "What is the torque specification for an M18 10.9 screw?",
+      "answer": "390 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-010-q09"
+    },
+    {
+      "question": "What section of the manual contains these maximum tightening torques?",
+      "answer": "Section 00-9 General Instructions",
+      "question_type": "navigation",
+      "id": "00-torque-specs-010-q10"
+    }
+  ]
+}

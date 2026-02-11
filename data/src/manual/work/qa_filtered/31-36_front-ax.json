@@ -1,0 +1,91 @@
+{
+  "page_id": "31-36_front-ax",
+  "image_path": "raw/31 - Front Axle/31-36.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:03:03.248942",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 831
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is used to measure washer thickness on four different points?",
+      "answer": "Special Tool 31 5 040 is used to measure thickness of washer on four different points with a micrometer and note largest value.",
+      "question_type": "tool",
+      "id": "31-36_front-ax-q01"
+    },
+    {
+      "question": "What is the example measurement given for washer thickness?",
+      "answer": "The example given is 1.30 mm (0.051\").",
+      "question_type": "factual",
+      "id": "31-36_front-ax-q02"
+    },
+    {
+      "question": "What procedure should be followed when installing new differential gears?",
+      "answer": "Install new differential gears and drive in differential gear shaft flush. Mark position of differential gears and shaft gear to case.",
+      "question_type": "procedural",
+      "id": "31-36_front-ax-q03"
+    },
+    {
+      "question": "How should circlips be removed from their grooves?",
+      "answer": "Press open end of circlips into groove and knock circlip out of groove with one blow.",
+      "question_type": "procedural",
+      "id": "31-36_front-ax-q04"
+    },
+    {
+      "question": "What special tools are needed to mount the dial gage?",
+      "answer": "Special Tools 00 2 500 and 33 1 420 are needed to mount dial gage 00 2 510.",
+      "question_type": "tool",
+      "id": "31-36_front-ax-q05"
+    },
+    {
+      "question": "What should be done with the gage needle when mounting the dial gage?",
+      "answer": "Apply gage needle on shaft gear with pre-load.",
+      "question_type": "procedural",
+      "id": "31-36_front-ax-q06"
+    },
+    {
+      "question": "What special tool is used to turn the shaft gear and what should be observed?",
+      "answer": "Special Tool 31 5 060 is used to turn shaft gear at least once. Observe dial gage and determine maximum deflection in counterclockwise direction, then set dial gage to zero in this position.",
+      "question_type": "tool",
+      "id": "31-36_front-ax-q07"
+    },
+    {
+      "question": "What is the specified play range mentioned in the shim thickness calculations?",
+      "answer": "The specified play is 0.01 to 0.07 mm (0.0004 to 0.0028\").",
+      "question_type": "factual",
+      "id": "31-36_front-ax-q08"
+    },
+    {
+      "question": "What shim thickness is available and in what increments?",
+      "answer": "Shim thickness is available in steps of 0.05 mm (0.002\").",
+      "question_type": "factual",
+      "id": "31-36_front-ax-q09"
+    },
+    {
+      "question": "What is the example dial gage reading given and what does it represent?",
+      "answer": "The example dial gage reading is 0.30 mm (0.012\"), which represents the measured value used in shim thickness calculations.",
+      "question_type": "factual",
+      "id": "31-36_front-ax-q10"
+    },
+    {
+      "question": "What special tool is applied with its flat surface facing the dial gage point?",
+      "answer": "Special Tool 31 5 080 is applied with its flat surface facing dial gage point.",
+      "question_type": "tool",
+      "id": "31-36_front-ax-q11"
+    },
+    {
+      "question": "What important note is given about marking shims?",
+      "answer": "Mark shim for shaft gear. Determine shim for second shaft gear - assemble differential.",
+      "question_type": "inspection",
+      "id": "31-36_front-ax-q12"
+    }
+  ]
+}

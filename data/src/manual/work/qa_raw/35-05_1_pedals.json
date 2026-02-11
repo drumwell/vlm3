@@ -1,0 +1,91 @@
+{
+  "page_id": "35-05_1_pedals",
+  "image_path": "raw/35 - Pedals/35-05_1.jpg",
+  "section_id": "35",
+  "section_name": "Pedals",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:27:51.320273",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 785
+  },
+  "qa_pairs": [
+    {
+      "question": "What distance should the brake pedal be adjusted to on the brake master cylinder push rod?",
+      "answer": "The brake pedal should be adjusted to distance (A) on the brake master cylinder push rod.",
+      "question_type": "procedural",
+      "id": "35-05_1_pedals-q01"
+    },
+    {
+      "question": "What important limitation exists regarding movement in the brake master cylinder?",
+      "answer": "Movement must be limited in the brake master cylinder and may not be accomplished with, for example, the stop light switch (distance B).",
+      "question_type": "safety",
+      "id": "35-05_1_pedals-q02"
+    },
+    {
+      "question": "What should be used to lubricate the brake pedal during installation?",
+      "answer": "The brake pedal should be lubricated with grease in the area of the stop light switch.",
+      "question_type": "tool",
+      "id": "35-05_1_pedals-q03"
+    },
+    {
+      "question": "What distance should the stop light switch be adjusted to?",
+      "answer": "The stop light switch should be adjusted to distance (B).",
+      "question_type": "procedural",
+      "id": "35-05_1_pedals-q04"
+    },
+    {
+      "question": "What callout letter indicates the area where grease should be applied during brake pedal installation?",
+      "answer": "Callout letter B indicates the area where grease should be applied during brake pedal installation.",
+      "question_type": "visual",
+      "id": "35-05_1_pedals-q05"
+    },
+    {
+      "question": "For stop light switches on 1987 and later models, where should you look for adjustment information?",
+      "answer": "For stop light switches since 1987 models, adjustment information can be found in Group 61.",
+      "question_type": "navigation",
+      "id": "35-05_1_pedals-q06"
+    },
+    {
+      "question": "What should be checked regarding the stop lights after installation?",
+      "answer": "The function of the stop lights should be checked after installation.",
+      "question_type": "inspection",
+      "id": "35-05_1_pedals-q07"
+    },
+    {
+      "question": "What part number is associated with the stop light switch component shown?",
+      "answer": "The stop light switch component is associated with part number 30 35 018.",
+      "question_type": "factual",
+      "id": "35-05_1_pedals-q08"
+    },
+    {
+      "question": "What measurement specification is shown on the brake pedal diagram?",
+      "answer": "The brake pedal diagram shows the measurement specification 25.35.003.",
+      "question_type": "factual",
+      "id": "35-05_1_pedals-q09"
+    },
+    {
+      "question": "What component is shown in the lower photograph on the page?",
+      "answer": "The lower photograph shows the stop light switch component with part number 30 35 468.",
+      "question_type": "visual",
+      "id": "35-05_1_pedals-q10"
+    },
+    {
+      "question": "Where can you find specifications related to the brake pedal installation procedures?",
+      "answer": "Specifications related to the brake pedal installation procedures can be found in the Specifications section, as indicated by the asterisk note at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "35-05_1_pedals-q11"
+    },
+    {
+      "question": "What is the key difference in stop light switch procedures for models since 1987?",
+      "answer": "For models since 1987, stop light switch adjustment procedures are covered in Group 61, and the function of stop lights must be checked after installation.",
+      "question_type": "factual",
+      "id": "35-05_1_pedals-q12"
+    }
+  ]
+}

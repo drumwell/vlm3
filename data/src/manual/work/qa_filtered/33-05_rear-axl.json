@@ -1,0 +1,91 @@
+{
+  "page_id": "33-05_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-05.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:08:34.386095",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 851
+  },
+  "qa_pairs": [
+    {
+      "question": "What part number is being replaced in the dust cover replacement procedure?",
+      "answer": "Output shaft 33 21 000 is being removed during the dust cover replacement procedure.",
+      "question_type": "factual",
+      "id": "33-05_rear-axl-q01"
+    },
+    {
+      "question": "What important caution is given about the thicker output shafts and joints for the BMW M3?",
+      "answer": "Don't mix up the thicker output shafts and joints for the BMW 325 i, as they are different from the M3 components.",
+      "question_type": "safety",
+      "id": "33-05_rear-axl-q02"
+    },
+    {
+      "question": "What are the numbered components shown in the circlip removal diagram?",
+      "answer": "Component 1 is the sealing cover, component 2 is the circlip, and component 3 is the cap and dust cover assembly.",
+      "question_type": "visual",
+      "id": "33-05_rear-axl-q03"
+    },
+    {
+      "question": "Where must the ball hub rest when pressing the output shaft out of the constant velocity joint?",
+      "answer": "The ball hub must rest on counterpressure plate (P) when pressing the output shaft out.",
+      "question_type": "procedural",
+      "id": "33-05_rear-axl-q04"
+    },
+    {
+      "question": "What special tool is required for pressing on the joint and cap while holding the output shaft?",
+      "answer": "Special Tool 33 2 100 is required for pressing on the joint and cap while holding the output shaft.",
+      "question_type": "tool",
+      "id": "33-05_rear-axl-q05"
+    },
+    {
+      "question": "What type of Loctite should be used on the splines and what caution is given?",
+      "answer": "Coat splines with Loctite No. 270, but keep Loctite out of ball surfaces.",
+      "question_type": "procedural",
+      "id": "33-05_rear-axl-q06"
+    },
+    {
+      "question": "What should be done if the joint has to be disassembled when it's dirty?",
+      "answer": "If the joint has to be disassembled when dirty, first electrically inscribe position of ball hub, ball cage and joint to each other face, as absolute cleanliness is important during assembly work.",
+      "question_type": "procedural",
+      "id": "33-05_rear-axl-q07"
+    },
+    {
+      "question": "How should the dust cover be protected during installation?",
+      "answer": "Be careful not to damage new dust covers and protect them from the sharp edges on the splined shaft with a suitable sleeve.",
+      "question_type": "safety",
+      "id": "33-05_rear-axl-q08"
+    },
+    {
+      "question": "What should be done to the splines of the joint before reassembly?",
+      "answer": "Clean splines of joint to remove grease before coating them with Loctite No. 270.",
+      "question_type": "procedural",
+      "id": "33-05_rear-axl-q09"
+    },
+    {
+      "question": "What components should be packed with grease during reassembly?",
+      "answer": "Pack joint and dust cover with grease, and clean sealing surfaces for dust cover to remove grease.",
+      "question_type": "procedural",
+      "id": "33-05_rear-axl-q10"
+    },
+    {
+      "question": "How should the large diameter end of the dust cover be treated during installation?",
+      "answer": "Coat large diameter end of dust cover with an adhesive and mount with new clamps.",
+      "question_type": "procedural",
+      "id": "33-05_rear-axl-q11"
+    },
+    {
+      "question": "What should be used to seal and install the sealing cover?",
+      "answer": "Seal and install sealing cover with Curil.",
+      "question_type": "procedural",
+      "id": "33-05_rear-axl-q12"
+    }
+  ]
+}

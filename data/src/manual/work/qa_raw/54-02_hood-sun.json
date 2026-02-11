@@ -1,0 +1,91 @@
+{
+  "page_id": "54-02_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-02.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:39:07.949730",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 716
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the sun roof winder?",
+      "answer": "The procedure number is 54 12 020.",
+      "question_type": "factual",
+      "id": "54-02_hood-sun-q01"
+    },
+    {
+      "question": "What should you avoid doing when closing the sun roof lid?",
+      "answer": "Do not lift the lid when closing the sun roof lid to the pressure point.",
+      "question_type": "safety",
+      "id": "54-02_hood-sun-q02"
+    },
+    {
+      "question": "What are the steps to remove the sun roof winder escutcheon?",
+      "answer": "Unscrew the bolt and remove the escutcheon.",
+      "question_type": "procedural",
+      "id": "54-02_hood-sun-q03"
+    },
+    {
+      "question": "How do you remove the sun roof winder after removing the escutcheon?",
+      "answer": "Unscrew the bolts and remove the winder.",
+      "question_type": "procedural",
+      "id": "54-02_hood-sun-q04"
+    },
+    {
+      "question": "What is the procedure number for removing and installing the recess plate for the sun roof winder?",
+      "answer": "The procedure number is 54 12 050.",
+      "question_type": "factual",
+      "id": "54-02_hood-sun-q05"
+    },
+    {
+      "question": "What components are shown in image 730 54 039?",
+      "answer": "The image shows the sun roof winder mechanism with the escutcheon being removed.",
+      "question_type": "visual",
+      "id": "54-02_hood-sun-q06"
+    },
+    {
+      "question": "What is depicted in the diagram labeled 730 54 040?",
+      "answer": "The diagram shows the sun roof winder mechanism with arrows indicating the removal procedure.",
+      "question_type": "visual",
+      "id": "54-02_hood-sun-q07"
+    },
+    {
+      "question": "Which direction should the large opening (A) face during installation?",
+      "answer": "The large opening (A) faces rear during installation.",
+      "question_type": "procedural",
+      "id": "54-02_hood-sun-q08"
+    },
+    {
+      "question": "What is shown in image 730 54 041?",
+      "answer": "The image shows the proper orientation of the winder mechanism with the large opening (A) facing rear during installation.",
+      "question_type": "visual",
+      "id": "54-02_hood-sun-q09"
+    },
+    {
+      "question": "What procedure must be performed before removing the recess plate?",
+      "answer": "Remove and install the sun roof winder (54 12 020) before removing the recess plate.",
+      "question_type": "procedural",
+      "id": "54-02_hood-sun-q10"
+    },
+    {
+      "question": "How do you remove the recess plate for the sun roof winder?",
+      "answer": "Unscrew the bolts and remove the recess plate.",
+      "question_type": "procedural",
+      "id": "54-02_hood-sun-q11"
+    },
+    {
+      "question": "What is the reference number for the image showing the recess plate removal?",
+      "answer": "The reference number is 730 54 042.",
+      "question_type": "factual",
+      "id": "54-02_hood-sun-q12"
+    }
+  ]
+}

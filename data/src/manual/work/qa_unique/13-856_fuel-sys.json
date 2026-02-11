@@ -1,0 +1,76 @@
+{
+  "page_id": "13-856_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-856.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:54:03.343504",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 626
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check if the throttle switch is maladjusted or defective?",
+      "answer": "Check the throttle switch with BMW service test unit / test step L-Jet. 03. Test values okay?",
+      "question_type": "diagnostic",
+      "id": "13-856_fuel-sys-q01",
+      "_warnings": [
+        "Answer ends with '?' (may be a question)"
+      ]
+    },
+    {
+      "question": "If the throttle switch wiring is okay but the switch is still faulty, what's the next step?",
+      "answer": "Adjust or replace throttle switch.",
+      "question_type": "procedural",
+      "id": "13-856_fuel-sys-q02"
+    },
+    {
+      "question": "What causes poor central ground, loose contact or wrong plug connections?",
+      "answer": "Eliminate trouble.",
+      "question_type": "troubleshooting",
+      "id": "13-856_fuel-sys-q03"
+    },
+    {
+      "question": "Where can I find information on repairing and adjusting the throttle if it will not close?",
+      "answer": "Repair and adjust throttle (see Group 13 in Repair Manual).",
+      "question_type": "navigation",
+      "id": "13-856_fuel-sys-q04"
+    },
+    {
+      "question": "What should I do if the throttle will not open fully?",
+      "answer": "Adjust throttle cable (see 35 41 421 in Repair Manual). Adjust throttle (see Group 13 in Repair Manual).",
+      "question_type": "procedural",
+      "id": "13-856_fuel-sys-q05"
+    },
+    {
+      "question": "What procedure should I follow if the basic mixture setting is too high?",
+      "answer": "Adjust engine idle speed and CO (see 13 00 054 in Repair Manual).",
+      "question_type": "procedural",
+      "id": "13-856_fuel-sys-q06"
+    },
+    {
+      "question": "How should I address intake system leaks?",
+      "answer": "Check all air carrying parts for leaks and repair, if necessary.",
+      "question_type": "inspection",
+      "id": "13-856_fuel-sys-q08"
+    },
+    {
+      "question": "What's the solution for oil filler cap seal leaks?",
+      "answer": "Replace oil filler cap.",
+      "question_type": "procedural",
+      "id": "13-856_fuel-sys-q09"
+    },
+    {
+      "question": "How do I fix oil dipstick seal leaks?",
+      "answer": "Oil dipstick must be pressed in tight in guide tube. Replace seal.",
+      "question_type": "procedural",
+      "id": "13-856_fuel-sys-q10"
+    }
+  ]
+}

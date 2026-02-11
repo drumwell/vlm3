@@ -1,0 +1,25 @@
+{
+  "page_id": "00-torque-specs-23-08",
+  "image_path": "raw/00 - Torque Specs/23-08.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:59:18.532537",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 507
+  },
+  "qa_pairs": [
+    {
+      "question": "What unit of measurement is used for the shift arms to transmission case torque specification?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-08-q06"
+    }
+  ]
+}

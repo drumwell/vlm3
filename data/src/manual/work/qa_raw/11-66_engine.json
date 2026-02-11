@@ -1,0 +1,91 @@
+{
+  "page_id": "11-66_engine",
+  "image_path": "raw/11 - Engine/11-66.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:15:56.776686",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 633
+  },
+  "qa_pairs": [
+    {
+      "question": "What tool is specified for removing piston rings?",
+      "answer": "Remove piston rings with a piston ring pliers.",
+      "question_type": "tool",
+      "id": "11-66_engine-q01"
+    },
+    {
+      "question": "How should piston rings be installed according to the installation instructions?",
+      "answer": "Install piston rings with \"TOP\" facing the piston crown.",
+      "question_type": "procedural",
+      "id": "11-66_engine-q02"
+    },
+    {
+      "question": "What are the three types of piston rings shown in the diagram?",
+      "answer": "1 Plain compression ring, 2 Bevelled face compression ring, 3 Oil scraper ring with rubber lined spring.",
+      "question_type": "visual",
+      "id": "11-66_engine-q03"
+    },
+    {
+      "question": "What is the procedure number for replacing piston rings of one piston?",
+      "answer": "11 25 651.",
+      "question_type": "factual",
+      "id": "11-66_engine-q04"
+    },
+    {
+      "question": "What measurement should be taken using the bottom illustration?",
+      "answer": "Measure end clearance.",
+      "question_type": "inspection",
+      "id": "11-66_engine-q05"
+    },
+    {
+      "question": "What measurement should be taken using the middle illustration?",
+      "answer": "Measure side clearance.",
+      "question_type": "inspection",
+      "id": "11-66_engine-q06"
+    },
+    {
+      "question": "What marking indicates the top face of piston rings during installation?",
+      "answer": "\"TOP\" marking should face the piston crown.",
+      "question_type": "factual",
+      "id": "11-66_engine-q07"
+    },
+    {
+      "question": "What component number 3 represents in the piston ring diagram?",
+      "answer": "Oil scraper ring with rubber lined spring.",
+      "question_type": "visual",
+      "id": "11-66_engine-q08"
+    },
+    {
+      "question": "Where can specifications for the measurements be found?",
+      "answer": "See Specifications.",
+      "question_type": "navigation",
+      "id": "11-66_engine-q09"
+    },
+    {
+      "question": "What is the first step in the piston ring replacement procedure?",
+      "answer": "The piston must be removed before replacing piston rings.",
+      "question_type": "procedural",
+      "id": "11-66_engine-q10"
+    },
+    {
+      "question": "What type of compression ring is shown as component number 2?",
+      "answer": "Bevelled face compression ring.",
+      "question_type": "component",
+      "id": "11-66_engine-q11"
+    },
+    {
+      "question": "What clearances need to be measured during piston ring service?",
+      "answer": "Both side clearance and end clearance need to be measured.",
+      "question_type": "inspection",
+      "id": "11-66_engine-q12"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "page_id": "34-10a_brakes",
+  "image_path": "raw/34 - Brakes/34-10a.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:15:22.109067",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 509
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the title of this brake system diagram?",
+      "answer": "BRAKE LINE ROUTING LAYOUT - E 30",
+      "question_type": "factual",
+      "id": "34-10a_brakes-q01"
+    },
+    {
+      "question": "How many brake disc assemblies are shown in this routing diagram?",
+      "answer": "Four brake disc assemblies are shown - one at each wheel position.",
+      "question_type": "visual",
+      "id": "34-10a_brakes-q03"
+    },
+    {
+      "question": "What type of lines are used to show the brake line connections in this diagram?",
+      "answer": "Dashed lines are used to show the brake line routing connections between components.",
+      "question_type": "visual",
+      "id": "34-10a_brakes-q04"
+    },
+    {
+      "question": "Where is the main brake component (master cylinder/ABS unit) positioned in this layout?",
+      "answer": "The main brake component is positioned centrally in the diagram, with brake lines routing out to all four wheels.",
+      "question_type": "component",
+      "id": "34-10a_brakes-q05"
+    },
+    {
+      "question": "What additional component is shown with dotted lines connected to the left front brake assembly?",
+      "answer": "There appears to be an additional brake component connected with dotted lines to the left front brake assembly, likely representing a brake sensor or ABS component.",
+      "question_type": "visual",
+      "id": "34-10a_brakes-q06"
+    },
+    {
+      "question": "How are the brake lines routed from the central component to the wheels?",
+      "answer": "The brake lines route from the central component outward to each of the four wheel positions using dashed lines to indicate the connection paths.",
+      "question_type": "procedural",
+      "id": "34-10a_brakes-q07"
+    },
+    {
+      "question": "What do the circular components at each corner of the diagram represent?",
+      "answer": "The circular components at each corner represent the brake disc and caliper assemblies at each wheel position.",
+      "question_type": "component",
+      "id": "34-10a_brakes-q08"
+    }
+  ]
+}

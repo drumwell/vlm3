@@ -1,0 +1,79 @@
+{
+  "page_id": "31-18_front-ax",
+  "image_path": "raw/31 - Front Axle/31-18.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:05:40.808812",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 682
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check if I hear grinding noise in curves from the front axle?",
+      "answer": "Check for defective wheel bearings. The correction is to replace wheel bearings (wheel hub).",
+      "question_type": "diagnostic",
+      "id": "31-18_front-ax-q01"
+    },
+    {
+      "question": "What are the possible causes of vibration in the front axle?",
+      "answer": "Vibration can be caused by wheels unbalanced, wheel rim lateral/radial runout, tire lateral runout, or defective output shaft.",
+      "question_type": "troubleshooting",
+      "id": "31-18_front-ax-q02"
+    },
+    {
+      "question": "How do I fix steering wheel shake caused by insufficient shock absorber effect?",
+      "answer": "Replace shock absorbers.",
+      "question_type": "procedural",
+      "id": "31-18_front-ax-q03"
+    },
+    {
+      "question": "What causes rattling noise from the front axle?",
+      "answer": "Rattling noise can be caused by shock absorber cartridge loose in spring strut, worn ball joints of control arms, worn stabilizer rubber mounts, or front axle carrier mounted loosely on body.",
+      "question_type": "diagnostic",
+      "id": "31-18_front-ax-q04"
+    },
+    {
+      "question": "What's the correction for a loose shock absorber cartridge in the spring strut?",
+      "answer": "Tighten threaded ring (inspect threads).",
+      "question_type": "procedural",
+      "id": "31-18_front-ax-q05"
+    },
+    {
+      "question": "What should I do if there's a load change knock from the front axle?",
+      "answer": "Check for excessive backlash or defective output shaft. Adjust backlash or replace output shaft as needed.",
+      "question_type": "troubleshooting",
+      "id": "31-18_front-ax-q06"
+    },
+    {
+      "question": "How do I address oil loss from the front axle?",
+      "answer": "Check for radial oil seal leak, plugged vent, or incorrect oil grade. Replace radial oil seal, clean vent, or replace front axle final drive oil as needed.",
+      "question_type": "diagnostic",
+      "id": "31-18_front-ax-q07"
+    },
+    {
+      "question": "What causes acceleration or deceleration noise from the front axle?",
+      "answer": "Excessive or insufficient backlash causes acceleration or deceleration noise. The correction is to adjust backlash.",
+      "question_type": "factual",
+      "id": "31-18_front-ax-q08"
+    },
+    {
+      "question": "Where can I find more service information referenced on this troubleshooting page?",
+      "answer": "See Service Information of Gr. 00 for additional details.",
+      "question_type": "navigation",
+      "id": "31-18_front-ax-q09"
+    },
+    {
+      "question": "What should I replace if the control arm rubber mounts are defective and causing steering wheel shake?",
+      "answer": "Replace control arm rubber mounts.",
+      "question_type": "procedural",
+      "id": "31-18_front-ax-q10"
+    }
+  ]
+}

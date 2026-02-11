@@ -1,0 +1,67 @@
+{
+  "page_id": "23-17_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-17.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:37:12.051109",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 505
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is labeled as item 5 in this transmission gear set diagram?",
+      "answer": "Item 5 is the Input shaft with 4th gear.",
+      "question_type": "component",
+      "id": "23-17_manual-t-q01"
+    },
+    {
+      "question": "Which numbered components are identified as synchromesh rings in this assembly?",
+      "answer": "Items 6, 20, 23, and 29 are identified as synchromesh rings.",
+      "question_type": "component",
+      "id": "23-17_manual-t-q02"
+    },
+    {
+      "question": "What is the function of component 27 in this transmission layout?",
+      "answer": "Component 27 is the Output shaft.",
+      "question_type": "factual",
+      "id": "23-17_manual-t-q03"
+    },
+    {
+      "question": "Where is the reverse gear located in this transmission assembly?",
+      "answer": "The reverse gear is item 28, positioned on the lower shaft assembly.",
+      "question_type": "component",
+      "id": "23-17_manual-t-q04"
+    },
+    {
+      "question": "What type of bearing is used at position 26 in this gear set?",
+      "answer": "Position 26 is a needle bearing.",
+      "question_type": "component",
+      "id": "23-17_manual-t-q05"
+    },
+    {
+      "question": "Which component connects to the speedometer drive according to this diagram?",
+      "answer": "Item 37 is the speedometer drive gear.",
+      "question_type": "component",
+      "id": "23-17_manual-t-q06"
+    },
+    {
+      "question": "What is the identification number for the layshaft in this transmission?",
+      "answer": "The layshaft is item 44 in this assembly diagram.",
+      "question_type": "component",
+      "id": "23-17_manual-t-q07"
+    },
+    {
+      "question": "How many different gears are specifically labeled in this transmission layout?",
+      "answer": "There are four specifically labeled gears: 1st gear (item 25), 2nd gear (item 19), 3rd gear (item 15), and reverse gear (item 28), plus the input shaft with 4th gear (item 5).",
+      "question_type": "factual",
+      "id": "23-17_manual-t-q08"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "51-213_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-213.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:14:35.709875",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 736
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the left or right front door lock cylinder assembly?",
+      "answer": "The procedure number is 51 21 140.",
+      "question_type": "factual",
+      "id": "51-213_body-equ-q01"
+    },
+    {
+      "question": "What should be done to the lock cylinder during installation?",
+      "answer": "The lock cylinder should be lubricated with grease during installation.",
+      "question_type": "procedural",
+      "id": "51-213_body-equ-q02"
+    },
+    {
+      "question": "How should the washer be oriented when installing the door lock cylinder?",
+      "answer": "The wide opening of the washer should face up during installation.",
+      "question_type": "procedural",
+      "id": "51-213_body-equ-q03"
+    },
+    {
+      "question": "What reference is given for removing the door trim panel?",
+      "answer": "See section 51 41 001 for removing the door trim panel.",
+      "question_type": "navigation",
+      "id": "51-213_body-equ-q04"
+    },
+    {
+      "question": "What should be done with damaged plastic sheet during the procedure?",
+      "answer": "Replace damaged plastic sheet during installation.",
+      "question_type": "procedural",
+      "id": "51-213_body-equ-q05"
+    },
+    {
+      "question": "What is the difference between the standard version and the version with lock heating?",
+      "answer": "The version with lock heating requires pulling off the retainer complete with heating ring, whereas the standard version just requires pulling off the retainer.",
+      "question_type": "factual",
+      "id": "51-213_body-equ-q06"
+    },
+    {
+      "question": "Where can specifications for testing the door lock heating power consumption be found?",
+      "answer": "See Specifications of Group 61 for testing the power consumption of the door lock heating.",
+      "question_type": "navigation",
+      "id": "51-213_body-equ-q07"
+    },
+    {
+      "question": "How can replacement lock cylinders be ordered from Parts?",
+      "answer": "The lock cylinder can be ordered from Parts by quoting the code number.",
+      "question_type": "factual",
+      "id": "51-213_body-equ-q08"
+    },
+    {
+      "question": "What must be used as samples when using a lock cylinder repair set?",
+      "answer": "The old tumblers must be used as samples when using a lock cylinder repair set.",
+      "question_type": "procedural",
+      "id": "51-213_body-equ-q09"
+    },
+    {
+      "question": "What should be noted about the die-stamped number on the tumbler?",
+      "answer": "Note the number die-stamped on the tumbler, and insert the tumbler of the repair kit having the same number in the pertinent chamber of the new lock cylinder.",
+      "question_type": "procedural",
+      "id": "51-213_body-equ-q10"
+    },
+    {
+      "question": "What lubrication is required for the new lock cylinder assembly?",
+      "answer": "The new lock cylinder should be lubricated together with a new spring using the supplied grease.",
+      "question_type": "procedural",
+      "id": "51-213_body-equ-q11"
+    },
+    {
+      "question": "What is the source of supply indicated for the grease?",
+      "answer": "The source of supply for the grease is HWB.",
+      "question_type": "factual",
+      "id": "51-213_body-equ-q12"
+    }
+  ]
+}

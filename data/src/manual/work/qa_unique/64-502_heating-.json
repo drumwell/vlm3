@@ -1,0 +1,85 @@
+{
+  "page_id": "64-502_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-502.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:58:23.785979",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 745
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure reference number for removing and installing the freezing prevention switch?",
+      "answer": "The procedure reference number is 64 51 150.",
+      "question_type": "factual",
+      "id": "64-502_heating--q01"
+    },
+    {
+      "question": "What are the first three steps required before beginning work on the freezing prevention switch?",
+      "answer": "Disconnect battery ground lead, remove and install tray 51 16 200, and remove and install instrument panel trim on left side 51 45 130.",
+      "question_type": "procedural",
+      "id": "64-502_heating--q02"
+    },
+    {
+      "question": "What components are labeled as 1 and 2 in the first diagram?",
+      "answer": "The diagram shows plugs 1 and 2 that need to be pulled off during the procedure.",
+      "question_type": "visual",
+      "id": "64-502_heating--q03"
+    },
+    {
+      "question": "What action is shown in the second diagram with reference number 30 64 136?",
+      "answer": "The second diagram shows unscrewing screws to remove the component.",
+      "question_type": "visual",
+      "id": "64-502_heating--q04"
+    },
+    {
+      "question": "What is the proper method for removing the temperature switch and sensor?",
+      "answer": "Remove the temperature switch while pulling the temperature sensor out of the housing at the same time.",
+      "question_type": "procedural",
+      "id": "64-502_heating--q05"
+    },
+    {
+      "question": "What important safety note is given regarding the temperature sensor?",
+      "answer": "Don't bend the temperature sensor.",
+      "question_type": "safety",
+      "id": "64-502_heating--q06"
+    },
+    {
+      "question": "What is shown in diagram 30 64 137?",
+      "answer": "Diagram 30 64 137 shows the removal of the temperature switch and temperature sensor from the housing.",
+      "question_type": "visual",
+      "id": "64-502_heating--q07"
+    },
+    {
+      "question": "Which tray must be removed and installed as part of this procedure?",
+      "answer": "Tray 51 16 200 must be removed and installed.",
+      "question_type": "factual",
+      "id": "64-502_heating--q08"
+    },
+    {
+      "question": "What is the first step that must be performed before any other work?",
+      "answer": "Disconnect the battery ground lead.",
+      "question_type": "procedural",
+      "id": "64-502_heating--q10"
+    },
+    {
+      "question": "How many plugs need to be pulled off according to the first step shown in the diagrams?",
+      "answer": "Two plugs (1 and 2) need to be pulled off.",
+      "question_type": "factual",
+      "id": "64-502_heating--q11"
+    },
+    {
+      "question": "What critical handling instruction is emphasized for the temperature sensor during removal?",
+      "answer": "The temperature sensor must not be bent during the removal process.",
+      "question_type": "safety",
+      "id": "64-502_heating--q12"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "51-814_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-814.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:37:06.003910",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 784
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check if pins 4 and 5 (brown) of the left rear door window push button don't have ground?",
+      "answer": "Check wire harness for breaks, repairing if necessary. Also check central ground connection behind instrument panel at bottom left.",
+      "question_type": "diagnostic",
+      "id": "51-814_body-equ-q01"
+    },
+    {
+      "question": "Which pins should have voltage on the left rear door window push button during operation?",
+      "answer": "Pin 1 (blue/green) and pin 8 (black) should have voltage, or ground on pin 1 (blue/green) while opening and closing.",
+      "question_type": "diagnostic",
+      "id": "51-814_body-equ-q02"
+    },
+    {
+      "question": "What should I do if there's no voltage on pin 1 (blue/green) and pin 8 (black) of the left rear door window push button?",
+      "answer": "Push button not switching voltage or ground through. Check push button, replacing if necessary.",
+      "question_type": "troubleshooting",
+      "id": "51-814_body-equ-q03"
+    },
+    {
+      "question": "Where should I check for voltage or ground when testing the power window system in the left B pillar?",
+      "answer": "Check voltage or ground in sockets 1 or 5 of plug connection between power window and body in the left B pillar while operating the left rear door window push button.",
+      "question_type": "diagnostic",
+      "id": "51-814_body-equ-q04"
+    },
+    {
+      "question": "What's the next step if there's no voltage or ground in sockets 1 or 5 of the B pillar plug connection?",
+      "answer": "Check wire harness for breaks, repairing if necessary.",
+      "question_type": "troubleshooting",
+      "id": "51-814_body-equ-q05"
+    },
+    {
+      "question": "Which pins should I test for power flow on the left rear door window push button when not pressed?",
+      "answer": "Test for power flow between pins 4 and 1 or pins 5 and 8 of the left rear door window push button (not pressed).",
+      "question_type": "diagnostic",
+      "id": "51-814_body-equ-q06"
+    },
+    {
+      "question": "What should I do if there's no power flow between the specified pins of the push button when not pressed?",
+      "answer": "Check push button, replacing if necessary.",
+      "question_type": "troubleshooting",
+      "id": "51-814_body-equ-q07"
+    },
+    {
+      "question": "What color wires correspond to pins 4 and 5 on the left rear door window push button?",
+      "answer": "Pins 4 and 5 correspond to brown wires on the left rear door window push button.",
+      "question_type": "factual",
+      "id": "51-814_body-equ-q08"
+    },
+    {
+      "question": "What color wires correspond to pin 1 and pin 8 on the left rear door window push button?",
+      "answer": "Pin 1 corresponds to blue/green wire and pin 8 corresponds to black wire on the left rear door window push button.",
+      "question_type": "factual",
+      "id": "51-814_body-equ-q09"
+    },
+    {
+      "question": "Where is the central ground connection located that should be checked during this diagnostic procedure?",
+      "answer": "The central ground connection is located behind the instrument panel at bottom left.",
+      "question_type": "factual",
+      "id": "51-814_body-equ-q10"
+    }
+  ]
+}

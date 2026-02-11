@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-11-31",
+  "image_path": "raw/00 - Torque Specs/11-31.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:42:43.267812",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 536
+  },
+  "qa_pairs": [
+    {
+      "question": "Which BMW models does the fan clutch coupling nut specification apply to?",
+      "answer": "All models",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-31-q03"
+    },
+    {
+      "question": "What component is referenced as 1AZ in the fan section?",
+      "answer": "Fan clutch on water pump coupling nut (left-hand threads)",
+      "question_type": "component",
+      "id": "00-torque-specs-11-31-q04"
+    },
+    {
+      "question": "Is there a specific screw type specified for the fan clutch coupling nut?",
+      "answer": "No screw type is specified in the table",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-31-q06"
+    },
+    {
+      "question": "What unit is used for the fan clutch coupling nut torque measurement?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-31-q07"
+    },
+    {
+      "question": "Which direction should I turn the fan clutch coupling nut to tighten it?",
+      "answer": "Counterclockwise, since it has left-hand threads",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-31-q08"
+    },
+    {
+      "question": "What is the main section this fan specification falls under?",
+      "answer": "11 - 31 Engine",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-31-q09"
+    }
+  ]
+}

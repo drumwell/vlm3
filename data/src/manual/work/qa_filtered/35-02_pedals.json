@@ -1,0 +1,61 @@
+{
+  "page_id": "35-02_pedals",
+  "image_path": "raw/35 - Pedals/35-02.jpg",
+  "section_id": "35",
+  "section_name": "Pedals",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:27:03.810679",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 452
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the title of this diagram section?",
+      "answer": "Control Distances for Pedal Side Clearance",
+      "question_type": "factual",
+      "id": "35-02_pedals-q01"
+    },
+    {
+      "question": "What measurement dimensions are labeled on the accelerator pedal?",
+      "answer": "The accelerator pedal shows dimensions labeled as F*, K*, and G*",
+      "question_type": "visual",
+      "id": "35-02_pedals-q02"
+    },
+    {
+      "question": "What dimension is marked on the brake pedal assembly?",
+      "answer": "The brake pedal assembly shows dimension H*",
+      "question_type": "visual",
+      "id": "35-02_pedals-q03"
+    },
+    {
+      "question": "Where does the note direct you to find the actual measurement specifications?",
+      "answer": "The note at the bottom states \"See Specifications\"",
+      "question_type": "navigation",
+      "id": "35-02_pedals-q04"
+    },
+    {
+      "question": "How many pedals are shown in this control distance diagram?",
+      "answer": "Two pedals are shown - the brake pedal on the left and the accelerator pedal on the right",
+      "question_type": "visual",
+      "id": "35-02_pedals-q06"
+    },
+    {
+      "question": "What type of measurements does this diagram illustrate?",
+      "answer": "This diagram illustrates control distances for pedal side clearance measurements",
+      "question_type": "factual",
+      "id": "35-02_pedals-q07"
+    },
+    {
+      "question": "Which pedal has more measurement dimensions labeled?",
+      "answer": "The accelerator pedal has more measurement dimensions labeled, showing F*, K*, and G* compared to the brake pedal's single H* dimension",
+      "question_type": "visual",
+      "id": "35-02_pedals-q08"
+    }
+  ]
+}

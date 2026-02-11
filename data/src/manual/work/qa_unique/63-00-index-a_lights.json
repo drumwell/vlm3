@@ -1,0 +1,55 @@
+{
+  "page_id": "63-00-index-a_lights",
+  "image_path": "raw/63 - Lights/63-00-index-a.jpg",
+  "section_id": "63",
+  "section_name": "Lights",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:50:03.335244",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1743,
+    "tokens_output": 415
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number covers headlight aim procedures?",
+      "answer": "Headlight aim procedures are covered on page 63-1.",
+      "question_type": "navigation",
+      "id": "63-00-index-a_lights-q01"
+    },
+    {
+      "question": "Which section number covers replacing halogen light bulbs for high beam headlights?",
+      "answer": "Section 63 99 001 covers replacing halogen light bulbs for high beam headlights, left or right, and is found on page 63-2a.",
+      "question_type": "navigation",
+      "id": "63-00-index-a_lights-q02"
+    },
+    {
+      "question": "What is the procedure code for double headlight assembly removal and installation?",
+      "answer": "The procedure code for double headlight assembly removal and installation, left or right, is 63 12 100.",
+      "question_type": "factual",
+      "id": "63-00-index-a_lights-q03"
+    },
+    {
+      "question": "On which page can I find information about replacing light bulbs for tail lights?",
+      "answer": "Information about replacing light bulbs for tail lights, left or right, can be found on page 63-3.",
+      "question_type": "navigation",
+      "id": "63-00-index-a_lights-q04"
+    },
+    {
+      "question": "What section covers the additional stop light for convertibles?",
+      "answer": "Section 381 covers the additional stop light for convertibles replacement, and the information is on page 63-4.",
+      "question_type": "factual",
+      "id": "63-00-index-a_lights-q05"
+    },
+    {
+      "question": "Which procedure covers tail light assembly removal and installation?",
+      "answer": "Procedure 63 21 180 covers tail light assembly removal and installation, left or right, and is found on page 63-2.",
+      "question_type": "procedural",
+      "id": "63-00-index-a_lights-q06"
+    }
+  ]
+}

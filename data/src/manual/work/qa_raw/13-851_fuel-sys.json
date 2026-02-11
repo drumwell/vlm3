@@ -1,0 +1,79 @@
+{
+  "page_id": "13-851_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-851.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:52:48.954706",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 656
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check first if the fuel pump is not running?",
+      "answer": "Check if the pump fuse is okay. If the fuse is not okay, replace the pump fuse.",
+      "question_type": "diagnostic",
+      "id": "13-851_fuel-sys-q01"
+    },
+    {
+      "question": "How do I check the power supply to the fuel pump?",
+      "answer": "Pull off plug on fuel pump, connect voltmeter (M 1) between wires in plug, start engine. Voltmeter should show battery voltage.",
+      "question_type": "procedural",
+      "id": "13-851_fuel-sys-q02"
+    },
+    {
+      "question": "What should I do if the fuel pump has good power supply but still isn't working?",
+      "answer": "Replace fuel pump.",
+      "question_type": "troubleshooting",
+      "id": "13-851_fuel-sys-q03"
+    },
+    {
+      "question": "How do I test the brown wire ground connection?",
+      "answer": "Connect ohmmeter (M 06) between brown wire on disconnected plug and ground. Ohmmeter should show approx. 0 ohm.",
+      "question_type": "procedural",
+      "id": "13-851_fuel-sys-q04"
+    },
+    {
+      "question": "What should the resistance value be when checking the brown wire ground?",
+      "answer": "Ohmmeter should show approx. 0 ohm.",
+      "question_type": "parameter",
+      "id": "13-851_fuel-sys-q05"
+    },
+    {
+      "question": "How do I check the green/violet wire voltage?",
+      "answer": "Pull off plug on control relay, connect ohmmeter (M 06) between conn. 87a on disconnected control relay plug and green/violet wire on disconnected pump plug. Ohmmeter should show approx. 0 ohm.",
+      "question_type": "procedural",
+      "id": "13-851_fuel-sys-q06"
+    },
+    {
+      "question": "What should I do if the brown wire ground check shows the resistance value is not okay?",
+      "answer": "Repair wire.",
+      "question_type": "troubleshooting",
+      "id": "13-851_fuel-sys-q07"
+    },
+    {
+      "question": "What should I do if the green/violet wire voltage check shows the resistance value is not okay?",
+      "answer": "Repair wire.",
+      "question_type": "troubleshooting",
+      "id": "13-851_fuel-sys-q08"
+    },
+    {
+      "question": "What connector should I use to check the green/violet wire voltage?",
+      "answer": "Connect between conn. 87a on disconnected control relay plug and green/violet wire on disconnected pump plug.",
+      "question_type": "connector",
+      "id": "13-851_fuel-sys-q09"
+    },
+    {
+      "question": "What type of meter is specified for checking the ground wire resistance?",
+      "answer": "Ohmmeter (M 06).",
+      "question_type": "tool",
+      "id": "13-851_fuel-sys-q10"
+    }
+  ]
+}

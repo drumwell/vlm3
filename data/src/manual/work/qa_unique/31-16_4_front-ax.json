@@ -1,0 +1,43 @@
+{
+  "page_id": "31-16_4_front-ax",
+  "image_path": "raw/31 - Front Axle/31-16_4.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:04:53.188773",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 602
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the table for M-Technic Sport Running Gear specifically not applicable to?",
+      "answer": "This table is not for Convertibles and Four Wheel Drive Cars.",
+      "question_type": "factual",
+      "id": "31-16_4_front-ax-q01"
+    },
+    {
+      "question": "What section should I reference for explanations of this M-Technic Sport Running Gear table?",
+      "answer": "See section 31.33 for explanations.",
+      "question_type": "navigation",
+      "id": "31-16_4_front-ax-q02"
+    },
+    {
+      "question": "Which part number shows a value of -14 in the table?",
+      "answer": "Part 1 130 049 and 1 130 054 both show -14 values in different columns.",
+      "question_type": "factual",
+      "id": "31-16_4_front-ax-q08"
+    },
+    {
+      "question": "How many part numbers are listed in this M-Technic Sport Running Gear table?",
+      "answer": "Six part numbers are listed: 1 130 037, 1 130 040, 1 130 043, 1 130 046, 1 130 049, and 1 130 054.",
+      "question_type": "factual",
+      "id": "31-16_4_front-ax-q10"
+    }
+  ]
+}

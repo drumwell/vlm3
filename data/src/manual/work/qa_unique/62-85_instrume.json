@@ -1,0 +1,67 @@
+{
+  "page_id": "62-85_instrume",
+  "image_path": "raw/62 - Instruments/62-85.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:49:22.254168",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1752,
+    "tokens_output": 523
+  },
+  "qa_pairs": [
+    {
+      "question": "What button number is used to adjust the SI?",
+      "answer": "The SI can be adjusted with button (10).",
+      "question_type": "factual",
+      "id": "62-85_instrume-q01"
+    },
+    {
+      "question": "How long does the SI run off at intervals when pressing button 10?",
+      "answer": "The SI runs off at intervals of about 10 seconds by pressing button (10).",
+      "question_type": "factual",
+      "id": "62-85_instrume-q02"
+    },
+    {
+      "question": "How many oil services does the BMW 524 td have between each inspection?",
+      "answer": "The BMW 524 td has two OIL SERVICES between each inspection.",
+      "question_type": "factual",
+      "id": "62-85_instrume-q03"
+    },
+    {
+      "question": "What happens when you perform a brief reset (8) on the oil service indicator?",
+      "answer": "Brief reset (8) will cancel the display. All five green LEDs come on.",
+      "question_type": "procedural",
+      "id": "62-85_instrume-q04"
+    },
+    {
+      "question": "How do you reset the inspection indicator and what happens?",
+      "answer": "Resetting 'INSPECTION' shows the 'INSPECTION' sign and yellow (possibly red) LED on. Long reset (9) will cancel the display.",
+      "question_type": "procedural",
+      "id": "62-85_instrume-q05"
+    },
+    {
+      "question": "What is the effect of a long reset (9) on the time counter?",
+      "answer": "The time counter is not influenced! Time counter can be reset with a second reset (9).",
+      "question_type": "operation",
+      "id": "62-85_instrume-q06"
+    },
+    {
+      "question": "How do you reset the time symbol and distance counter?",
+      "answer": "Long reset (9) will cancel the time symbol and time counter. Distance counter can be reset with a second reset (9).",
+      "question_type": "procedural",
+      "id": "62-85_instrume-q07"
+    },
+    {
+      "question": "What visual indicators show when resetting the 'TIME SYMBOL'?",
+      "answer": "'TIME SYMBOL' and one or more green LEDs on. Green LEDs are not influenced!",
+      "question_type": "visual",
+      "id": "62-85_instrume-q08"
+    }
+  ]
+}

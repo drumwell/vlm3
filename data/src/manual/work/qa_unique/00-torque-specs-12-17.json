@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-12-17",
+  "image_path": "raw/00 - Torque Specs/12-17.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:49:45.484038",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 595
+  },
+  "qa_pairs": [
+    {
+      "question": "What torque should be applied when securing the center section to body for the control unit housing?",
+      "answer": "3 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-17-q02"
+    },
+    {
+      "question": "What screw types are used for the assembly of upper and lower sections?",
+      "answer": "E32/E34/E36 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-17-q06"
+    },
+    {
+      "question": "Which screw type is specified for the center section to body connection?",
+      "answer": "E32/E34 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-17-q07"
+    },
+    {
+      "question": "What type of screw is used for the control unit holder in E box?",
+      "answer": "E36 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-17-q08"
+    },
+    {
+      "question": "What is the section number for Engine Electrical System control unit housing specifications?",
+      "answer": "Section 12-17, subsection 12.90",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-17-q10"
+    }
+  ]
+}

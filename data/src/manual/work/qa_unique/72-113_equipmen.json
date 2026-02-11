@@ -1,0 +1,85 @@
+{
+  "page_id": "72-113_equipmen",
+  "image_path": "raw/72 - Equipment and Accessories for Body/72-113.jpg",
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:10:06.285640",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 809
+  },
+  "qa_pairs": [
+    {
+      "question": "What part number is referenced for removing the rear seat cushion and backrest?",
+      "answer": "Part number 52 20 000 is referenced for removing the rear seat cushion and backrest.",
+      "question_type": "factual",
+      "id": "72-113_equipmen-q02"
+    },
+    {
+      "question": "What should you do after pulling off the cap on the belt mechanism?",
+      "answer": "After pulling off the cap, unscrew the bolt and lift out cover (1), then pull it off of the belt strap.",
+      "question_type": "procedural",
+      "id": "72-113_equipmen-q03"
+    },
+    {
+      "question": "How should the belt reversing holder be aligned during installation?",
+      "answer": "During installation, align the belt reversing holder parallel to the C pillar and apply the specified tightening torque.",
+      "question_type": "procedural",
+      "id": "72-113_equipmen-q04"
+    },
+    {
+      "question": "What specific change was made for 1986 models regarding the rear seat belt?",
+      "answer": "Since 1986 models, lift off the cover instead of the previous procedure.",
+      "question_type": "factual",
+      "id": "72-113_equipmen-q05"
+    },
+    {
+      "question": "What must be done to remove the automatic reel from the seat belt system?",
+      "answer": "Unscrew the bolt and remove the automatic reel, then apply the specified tightening torque during installation.",
+      "question_type": "procedural",
+      "id": "72-113_equipmen-q06"
+    },
+    {
+      "question": "Where is the bolt located that needs to be unscrewed from inside the trunk?",
+      "answer": "The bolt is located inside the trunk and must be unscrewed to pull the belt strap through the console and remove the automatic reel.",
+      "question_type": "visual",
+      "id": "72-113_equipmen-q07"
+    },
+    {
+      "question": "What component is shown being lifted out in diagram 30 51 592?",
+      "answer": "Diagram 30 51 592 shows the hatrack being lifted out.",
+      "question_type": "visual",
+      "id": "72-113_equipmen-q08"
+    },
+    {
+      "question": "What installation instruction is given for the lower strap mounting?",
+      "answer": "Mount the belt lock for the center seat belt on the right side and apply the specified tightening torque.",
+      "question_type": "procedural",
+      "id": "72-113_equipmen-q09"
+    },
+    {
+      "question": "What reference is made at the bottom of the page for torque specifications?",
+      "answer": "The page references 'See Specifications' with an asterisk (*) for tightening torque values.",
+      "question_type": "navigation",
+      "id": "72-113_equipmen-q10"
+    },
+    {
+      "question": "What diagram number shows the procedure for unscrewing the bolt from inside the trunk?",
+      "answer": "Diagram 30 72 019 shows the procedure for unscrewing the bolt from inside the trunk.",
+      "question_type": "visual",
+      "id": "72-113_equipmen-q11"
+    },
+    {
+      "question": "What is the final step shown in diagram 30 72 020?",
+      "answer": "Diagram 30 72 020 shows removing the lower strap as part of the installation procedure.",
+      "question_type": "visual",
+      "id": "72-113_equipmen-q12"
+    }
+  ]
+}

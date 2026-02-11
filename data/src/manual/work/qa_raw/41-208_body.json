@@ -1,0 +1,91 @@
+{
+  "page_id": "41-208_body",
+  "image_path": "raw/41 - Body/41-208.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:52:36.134637",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 712
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to prepare mating surfaces for spot welding?",
+      "answer": "Remove scrap metal, straighten and grind mating surfaces, then coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-208_body-q01"
+    },
+    {
+      "question": "How should the door pillar be secured during installation?",
+      "answer": "Clamp and align door pillar, then tack weld at several points.",
+      "question_type": "procedural",
+      "id": "41-208_body-q02"
+    },
+    {
+      "question": "What preparation is required for the new door pillar before installation?",
+      "answer": "Grind mating surfaces on new door pillar and coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-208_body-q03"
+    },
+    {
+      "question": "What should be done when installing the door if it sits too low?",
+      "answer": "Use washers if door is too low.",
+      "question_type": "procedural",
+      "id": "41-208_body-q04"
+    },
+    {
+      "question": "Where should holes be drilled for plug spot welding?",
+      "answer": "Drill holes for plug spot welding at joint with entrance.",
+      "question_type": "procedural",
+      "id": "41-208_body-q05"
+    },
+    {
+      "question": "What type of welding should be performed on the door pillar?",
+      "answer": "Spot weld door pillar.",
+      "question_type": "procedural",
+      "id": "41-208_body-q06"
+    },
+    {
+      "question": "What should be used on bearing surfaces for reinforcement?",
+      "answer": "Use insulating tape on bearing surface for reinforcement.",
+      "question_type": "procedural",
+      "id": "41-208_body-q07"
+    },
+    {
+      "question": "What is the final step shown for the joint with entrance?",
+      "answer": "Plug spot weld joint with entrance.",
+      "question_type": "procedural",
+      "id": "41-208_body-q08"
+    },
+    {
+      "question": "What components should be checked for gap and plane alignment during door installation?",
+      "answer": "Install door and check gap and plane to entrance and cowl panel.",
+      "question_type": "inspection",
+      "id": "41-208_body-q09"
+    },
+    {
+      "question": "What reference number is shown for the step involving grinding mating surfaces on the new door pillar?",
+      "answer": "Reference number 30 41 535 is shown for grinding mating surfaces on new door pillar.",
+      "question_type": "visual",
+      "id": "41-208_body-q10"
+    },
+    {
+      "question": "What source is credited for the insulating tape information?",
+      "answer": "The source is credited as HWB.",
+      "question_type": "factual",
+      "id": "41-208_body-q11"
+    },
+    {
+      "question": "What reference number corresponds to the final plug spot weld joint procedure?",
+      "answer": "Reference number 30 41 541 corresponds to the plug spot weld joint with entrance procedure.",
+      "question_type": "visual",
+      "id": "41-208_body-q12"
+    }
+  ]
+}

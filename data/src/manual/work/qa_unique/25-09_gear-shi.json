@@ -1,0 +1,88 @@
+{
+  "page_id": "25-09_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-09.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:49:49.242454",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 822
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be removed first when accessing the selector rod joint on sheet metal shift console versions?",
+      "answer": "Remove exhaust assembly 15 00 020 and remove heat shield with reinforcement carrier.",
+      "question_type": "procedural",
+      "id": "25-09_gear-shi-q02"
+    },
+    {
+      "question": "What type of bolts are used on the 4-speed transmission console mounting and what makes them difficult to remove?",
+      "answer": "Self-locking bolts, which will be difficult to unscrew.",
+      "question_type": "factual",
+      "id": "25-09_gear-shi-q03"
+    },
+    {
+      "question": "What should be used when installing new console mounting bolts on the 4-speed transmission?",
+      "answer": "Use new bolts coated with micro-encapsulating adhesive and tighten to specified torque.",
+      "question_type": "procedural",
+      "id": "25-09_gear-shi-q04"
+    },
+    {
+      "question": "Where should you reference the propeller shaft removal procedure for the 5-speed transmission?",
+      "answer": "See section 26 11 000.",
+      "question_type": "navigation",
+      "id": "25-09_gear-shi-q05"
+    },
+    {
+      "question": "What gear position should the selector shaft be moved to before driving out the pin?",
+      "answer": "Move selector shaft to 3rd or 5th gear position.",
+      "question_type": "procedural",
+      "id": "25-09_gear-shi-q06"
+    },
+    {
+      "question": "What is the special consideration for cars with vibration damper regarding the selector rod joint bearing sleeve?",
+      "answer": "If selector rod joint has an offset bearing sleeve, install the bearing sleeve offset to the right as seen looking forward in car. For cars with Vibration Damper, install bent selector rod offset to the left.",
+      "question_type": "factual",
+      "id": "25-09_gear-shi-q07"
+    },
+    {
+      "question": "What lubricant should be used during installation of the bearing sleeve and joint?",
+      "answer": "Lubricate bearing sleeve and joint with Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "25-09_gear-shi-q08"
+    },
+    {
+      "question": "What additional component needs to be removed on versions with 5-speed transmission and vibration damper?",
+      "answer": "Unscrew output flange with vibration damper on transmission, see 23 12 053.",
+      "question_type": "procedural",
+      "id": "25-09_gear-shi-q09"
+    },
+    {
+      "question": "What are the three steps shown in the first diagram for removing components?",
+      "answer": "1. Engage reverse gear and lift out circlip, 2. Take off washer, 3. Pull out selector rod.",
+      "question_type": "visual",
+      "id": "25-09_gear-shi-q10"
+    },
+    {
+      "question": "What action should be performed with the locking sleeve as shown in diagram 30 25 022?",
+      "answer": "Push back locking sleeve.",
+      "question_type": "procedural",
+      "id": "25-09_gear-shi-q11",
+      "_warnings": [
+        "Self-referential question: 'as shown'"
+      ]
+    },
+    {
+      "question": "What important note is given about the console mounting bolts on 4-speed transmissions?",
+      "answer": "Self-locking bolts will be difficult to unscrew, so use new bolts coated with micro-encapsulating adhesive for installation.",
+      "question_type": "safety",
+      "id": "25-09_gear-shi-q12"
+    }
+  ]
+}

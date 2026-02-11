@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6300-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:04:42.346150",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 413
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the title of this electrical diagram section?",
+      "answer": "LIGHT SWITCH DETAILS",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-00-q01"
+    },
+    {
+      "question": "What is the section number for this light switch details diagram?",
+      "answer": "6300-0",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-00-q02"
+    },
+    {
+      "question": "What are the three switch positions shown on the light switch in the diagram?",
+      "answer": "OFF, PARK, and HEAD",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-00-q03"
+    },
+    {
+      "question": "Which fuse is labeled as 7.5 AMP in the power distribution box?",
+      "answer": "FUSE 22",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-00-q04"
+    },
+    {
+      "question": "What page reference is given for the Active Check Control Unit?",
+      "answer": "PAGE 6314-0",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-00-q05"
+    },
+    {
+      "question": "What two lights are controlled by the RH FRONT circuit in the lower portion of the diagram?",
+      "answer": "TURN/PARK LIGHT and SIDE MARKER LIGHT",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-00-q06"
+    },
+    {
+      "question": "What connector is labeled as C302 in the diagram?",
+      "answer": "ACCESSORY CONNECTOR",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-00-q07"
+    },
+    {
+      "question": "What page reference is provided for the Digital Radio component?",
+      "answer": "PAGE 6500-0",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-00-q08"
+    }
+  ]
+}

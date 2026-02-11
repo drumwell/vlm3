@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-025",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/025.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:20:46.322634",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 664
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the vee belt pulley on crankshaft?",
+      "answer": "190 Nm for M10 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-025-q01"
+    },
+    {
+      "question": "What torque value is specified for vibration damper hub on crankshaft with M18 x 1.5 screws?",
+      "answer": "410 Nm for M20/M21/M50/M52/S50 US/S52 engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-025-q02"
+    },
+    {
+      "question": "What are the torque angle specifications after initial torque for the first sequence?",
+      "answer": "60\u00b0 torque angle twice, followed by 30\u00b0 torque angle.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-025-q04"
+    },
+    {
+      "question": "What initial torque value is applied before the torque angle sequence for M70/S70/M73 engines?",
+      "answer": "100 Nm for M18 x 1.5 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-025-q05"
+    },
+    {
+      "question": "What torque specification applies to S38 B36 engines with M20 x 1.5 screws?",
+      "answer": "150 Nm initial torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-025-q06"
+    },
+    {
+      "question": "What special instruction is given for one step in the S38 B36 torque sequence?",
+      "answer": "Unfasten screw one half turn.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-025-q07"
+    },
+    {
+      "question": "How many torque angle steps of 60\u00b0 are specified for the S38 B36 sequence?",
+      "answer": "Two steps of 60\u00b0 torque angle.",
+      "question_type": "factual",
+      "id": "00-torque-specs-025-q09"
+    },
+    {
+      "question": "What is the final torque angle step for the S38 B36 engine after the two 60\u00b0 steps?",
+      "answer": "30\u00b0 torque angle.",
+      "question_type": "factual",
+      "id": "00-torque-specs-025-q10"
+    }
+  ]
+}

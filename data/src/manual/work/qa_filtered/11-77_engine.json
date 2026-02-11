@@ -1,0 +1,91 @@
+{
+  "page_id": "11-77_engine",
+  "image_path": "raw/11 - Engine/11-77.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:18:51.113639",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 797
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to unscrew the full flow oil filter?",
+      "answer": "Special Tool 11 4 020 is required to unscrew the full flow oil filter.",
+      "question_type": "tool",
+      "id": "11-77_engine-q01"
+    },
+    {
+      "question": "How should the gasket be prepared during oil filter installation?",
+      "answer": "The gasket should be lubricated with a light coat of oil before installation.",
+      "question_type": "procedural",
+      "id": "11-77_engine-q02"
+    },
+    {
+      "question": "What is the proper tightening procedure for the oil filter after the gasket contacts the surface?",
+      "answer": "After the gasket bears on the surface, tighten the filter by hand one half turn more.",
+      "question_type": "procedural",
+      "id": "11-77_engine-q03"
+    },
+    {
+      "question": "What should be done after adding oil and starting the engine?",
+      "answer": "Start the engine and check oil level as well as for leaks.",
+      "question_type": "inspection",
+      "id": "11-77_engine-q04"
+    },
+    {
+      "question": "What callout number identifies the oil filter in the diagram?",
+      "answer": "Callout number 4 identifies the oil filter.",
+      "question_type": "visual",
+      "id": "11-77_engine-q05"
+    },
+    {
+      "question": "At what temperature does the temperature regulator switch off the oil cooler?",
+      "answer": "The temperature regulator switches off the oil cooler at approximately 95\u00b0C (203\u00b0F).",
+      "question_type": "factual",
+      "id": "11-77_engine-q06"
+    },
+    {
+      "question": "What does callout number 1 indicate in the oil filter diagram?",
+      "answer": "Callout number 1 indicates the line from the oil cooler.",
+      "question_type": "visual",
+      "id": "11-77_engine-q07"
+    },
+    {
+      "question": "What special procedure is mentioned if the engine no longer builds up oil pressure after filter replacement?",
+      "answer": "If the engine no longer builds up oil pressure after replacement of the oil filter cartridge, stop the engine, turn the filter cartridge approximately 90\u00b0 and tighten it again after starting the engine and waiting until a small amount of oil escapes from the filter (bleeding procedures).",
+      "question_type": "troubleshooting",
+      "id": "11-77_engine-q08"
+    },
+    {
+      "question": "What does callout number 2 represent in the oil system diagram?",
+      "answer": "Callout number 2 represents the line to the oil cooler.",
+      "question_type": "visual",
+      "id": "11-77_engine-q09"
+    },
+    {
+      "question": "What component is identified by callout number 3?",
+      "answer": "Callout number 3 identifies the temperature regulator that switches off the oil cooler at approximately 95\u00b0C (203\u00b0F).",
+      "question_type": "visual",
+      "id": "11-77_engine-q10"
+    },
+    {
+      "question": "What is the section reference number for this oil filter replacement procedure?",
+      "answer": "The section reference number is 11 42 021.",
+      "question_type": "factual",
+      "id": "11-77_engine-q11"
+    },
+    {
+      "question": "What safety precaution should be taken regarding oil pressure after filter cartridge replacement?",
+      "answer": "If the engine no longer builds up oil pressure after replacement, immediately stop the engine to prevent damage.",
+      "question_type": "safety",
+      "id": "11-77_engine-q12"
+    }
+  ]
+}

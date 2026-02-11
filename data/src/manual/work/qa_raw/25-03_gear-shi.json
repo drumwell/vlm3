@@ -1,0 +1,91 @@
+{
+  "page_id": "25-03_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-03.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:48:16.988064",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 683
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the service manual section number for removing and installing shift lever?",
+      "answer": "25 11 000",
+      "question_type": "factual",
+      "id": "25-03_gear-shi-q01"
+    },
+    {
+      "question": "What are the three steps for removing the shift lever from the sheet metal shift console?",
+      "answer": "Remove retainer (1), take off washer (2), and pull out selector rod (3).",
+      "question_type": "procedural",
+      "id": "25-03_gear-shi-q02"
+    },
+    {
+      "question": "What should be done to lift out the circlip during shift lever removal?",
+      "answer": "Lift out circlip (4) and remove shift lever.",
+      "question_type": "procedural",
+      "id": "25-03_gear-shi-q03"
+    },
+    {
+      "question": "What lubricant should be used on the spherical plates during installation?",
+      "answer": "Lubricate spherical plates with Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "25-03_gear-shi-q04"
+    },
+    {
+      "question": "What component needs to be removed after taking out the dust cover?",
+      "answer": "Remove insulating felt and pull out cover between body and shift console.",
+      "question_type": "procedural",
+      "id": "25-03_gear-shi-q05"
+    },
+    {
+      "question": "What callout numbers identify the retainer, washer, and selector rod in the first diagram?",
+      "answer": "Retainer is (1), washer is (2), and selector rod is (3).",
+      "question_type": "visual",
+      "id": "25-03_gear-shi-q06"
+    },
+    {
+      "question": "What inspection should be performed during installation according to the manual?",
+      "answer": "Check for correct fit of cover.",
+      "question_type": "inspection",
+      "id": "25-03_gear-shi-q07"
+    },
+    {
+      "question": "What is the reference number shown in the diagram for removing the dust cover?",
+      "answer": "30 25 022",
+      "question_type": "factual",
+      "id": "25-03_gear-shi-q08"
+    },
+    {
+      "question": "What component is identified by callout number 4 in the shift lever removal diagram?",
+      "answer": "The circlip that needs to be lifted out.",
+      "question_type": "visual",
+      "id": "25-03_gear-shi-q09"
+    },
+    {
+      "question": "What is the reference number for the step showing removal of insulating felt?",
+      "answer": "30 25 010",
+      "question_type": "factual",
+      "id": "25-03_gear-shi-q10"
+    },
+    {
+      "question": "What type of shift console is being serviced according to the section header?",
+      "answer": "Sheet Metal Shift Console",
+      "question_type": "factual",
+      "id": "25-03_gear-shi-q11"
+    },
+    {
+      "question": "What is the reference number for the diagram showing the cover installation check?",
+      "answer": "30 25 011",
+      "question_type": "factual",
+      "id": "25-03_gear-shi-q12"
+    }
+  ]
+}

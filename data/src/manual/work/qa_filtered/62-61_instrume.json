@@ -1,0 +1,79 @@
+{
+  "page_id": "62-61_instrume",
+  "image_path": "raw/62 - Instruments/62-61.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:45:28.471048",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 648
+  },
+  "qa_pairs": [
+    {
+      "question": "What will the fuel consumption display show when the car is stopped but the engine is running?",
+      "answer": "EC will always display infinite fuel consumption when idling (car stopped - engine running).",
+      "question_type": "factual",
+      "id": "62-61_instrume-q01"
+    },
+    {
+      "question": "What should the fuel consumption display show during coasting with no fuel injection?",
+      "answer": "The display will be close to zero in the coasting phase with coasting shutoff, i.e. no fuel injection.",
+      "question_type": "factual",
+      "id": "62-61_instrume-q02"
+    },
+    {
+      "question": "What could cause an unrealistic display showing only 6 liters in 4th gear at full load?",
+      "answer": "This could be caused by a wrong or broken coding plug.",
+      "question_type": "diagnostic",
+      "id": "62-61_instrume-q03"
+    },
+    {
+      "question": "How do you fix a coding plug issue with the fuel consumption display?",
+      "answer": "Check/replace coding plug (see Specifications).",
+      "question_type": "procedural",
+      "id": "62-61_instrume-q04"
+    },
+    {
+      "question": "What are the possible causes when the EC display shows excessive fuel consumption?",
+      "answer": "Wrong temperature on quartz or coding plug wrong.",
+      "question_type": "diagnostic",
+      "id": "62-61_instrume-q05"
+    },
+    {
+      "question": "What correction is needed if the fuel consumption display shows no reading at all?",
+      "answer": "Check injection signal on instrument cluster plug (blue) pin 2, check plug connection, or replace tachometer with economy control.",
+      "question_type": "procedural",
+      "id": "62-61_instrume-q06"
+    },
+    {
+      "question": "What causes the display needle to wander when the car is idling?",
+      "answer": "Disturbance from term. 1",
+      "question_type": "diagnostic",
+      "id": "62-61_instrume-q07"
+    },
+    {
+      "question": "How do you fix display needle wandering in idle condition?",
+      "answer": "Disconnect black wire of term. 1 on instrument cluster plug, pull out wire in wire harness and wrap it around the wire harness.",
+      "question_type": "procedural",
+      "id": "62-61_instrume-q08"
+    },
+    {
+      "question": "What causes the display needle to wander when switching on lights or operating the headlight flasher?",
+      "answer": "Disturbance from dimmer relay.",
+      "question_type": "diagnostic",
+      "id": "62-61_instrume-q09"
+    },
+    {
+      "question": "What part number relay should be used to fix dimmer relay disturbance?",
+      "answer": "Replace low beam (dimmer) relay. Only install a diode relay, Part No. 61 31 1 373 154.",
+      "question_type": "procedural",
+      "id": "62-61_instrume-q10"
+    }
+  ]
+}

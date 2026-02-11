@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-5126-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/5126-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T00:59:52.537132",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 574
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum number of times the central locking system should be operated in quick succession?",
+      "answer": "8 times in quick succession to prevent damage to the central locking control unit.",
+      "question_type": "safety",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126-01-q01"
+    },
+    {
+      "question": "What is the wire gauge specification for the main power distribution lines in this central locking diagram?",
+      "answer": "2.5 GN (2.5mm\u00b2 Green wire) is used for the main power distribution lines from the ignition switch.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126-01-q02"
+    },
+    {
+      "question": "Which connector is identified as the accessory connector in the power distribution section?",
+      "answer": "C302 is identified as the accessory connector in the power distribution section.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126-01-q03"
+    },
+    {
+      "question": "What wire color and gauge connects the locking rods to the central locking control unit?",
+      "answer": ".75 BU (0.75mm\u00b2 Blue) and .75 WT (0.75mm\u00b2 White) wires connect the locking rods to the central locking control unit.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126-01-q04"
+    },
+    {
+      "question": "What components are controlled by the central locking control unit according to this diagram?",
+      "answer": "The central locking control unit controls the gas filler lock motor, trunk lid lock motor, and door locking rods.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126-01-q05"
+    },
+    {
+      "question": "What is the inertia switch setting requirement shown in the diagram?",
+      "answer": "The inertia switch is closed with impact greater than 5g according to the diagram.",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126-01-q06"
+    },
+    {
+      "question": "Which wire provides the ground distribution and what is its specification?",
+      "answer": "S342 provides ground distribution using a 1.5 BR (1.5mm\u00b2 Brown) wire to ground point C200.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126-01-q07"
+    },
+    {
+      "question": "What inputs does the central locking control unit receive according to the wiring diagram?",
+      "answer": "The central locking control unit receives automatic unlock request, lock request, solid state input, and unlock request input signals.",
+      "question_type": "signal",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126-01-q08"
+    }
+  ]
+}

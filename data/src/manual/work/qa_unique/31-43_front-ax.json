@@ -1,0 +1,85 @@
+{
+  "page_id": "31-43_front-ax",
+  "image_path": "raw/31 - Front Axle/31-43.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:04:52.748185",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 873
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of teeth are described for the tooth contact pattern analysis?",
+      "answer": "Gleason teeth are described for the tooth contact pattern analysis.",
+      "question_type": "factual",
+      "id": "31-43_front-ax-q01"
+    },
+    {
+      "question": "What should be used to coat the ring gear when checking tooth contact pattern?",
+      "answer": "The ring gear should be coated with printer's ink when checking tooth contact pattern.",
+      "question_type": "procedural",
+      "id": "31-43_front-ax-q02"
+    },
+    {
+      "question": "How should the differential be operated when checking the tooth contact pattern?",
+      "answer": "Turn the differential several times in both directions and stop the ring gear suddenly with a piece of wood.",
+      "question_type": "procedural",
+      "id": "31-43_front-ax-q03"
+    },
+    {
+      "question": "What happens to the tooth contact pattern when loads are applied to the differential?",
+      "answer": "Loads will displace the tooth contact pattern slightly more toward the outside. Moving the ring gear will mainly change the backlash and also the tooth contact pattern in longitudinal direction of the teeth.",
+      "question_type": "factual",
+      "id": "31-43_front-ax-q04"
+    },
+    {
+      "question": "What characterizes a high, narrow tooth contact pattern on the ring gear?",
+      "answer": "A high, narrow tooth contact pattern appears on the head of the ring gear and indicates the drive pinion should be moved toward the ring gear axis to possibly correct backlash by pressing the ring gear away from the drive pinion.",
+      "question_type": "diagnostic",
+      "id": "31-43_front-ax-q05"
+    },
+    {
+      "question": "How do you correct a deep, narrow tooth contact pattern on the base of the ring gear?",
+      "answer": "Move the drive pinion away from the ring gear axis and possibly correct backlash by pressing the ring gear closer.",
+      "question_type": "procedural",
+      "id": "31-43_front-ax-q06"
+    },
+    {
+      "question": "What adjustment is needed for a brief tooth contact pattern on the small tooth end (tip) of the ring gear?",
+      "answer": "Move the ring gear away from the drive pinion. If applicable, move the drive pinion closer to the ring gear axis.",
+      "question_type": "procedural",
+      "id": "31-43_front-ax-q07"
+    },
+    {
+      "question": "What are the four numbered diagrams on the right side of the page showing?",
+      "answer": "The four numbered diagrams (1, 2, 3, and 4) show different tooth contact patterns corresponding to the four basically wrong patterns described in the text.",
+      "question_type": "visual",
+      "id": "31-43_front-ax-q09"
+    },
+    {
+      "question": "What does diagram A represent in the tooth contact pattern illustrations?",
+      "answer": "Diagram A represents the correct tooth contact pattern without load.",
+      "question_type": "visual",
+      "id": "31-43_front-ax-q10"
+    },
+    {
+      "question": "What is diagram A1 showing in relation to the correct pattern?",
+      "answer": "Diagram A1 shows how the correct tooth contact pattern changes when loads are applied, displacing it slightly more toward the outside.",
+      "question_type": "visual",
+      "id": "31-43_front-ax-q11"
+    },
+    {
+      "question": "What effect does moving the drive pinion have on the tooth contact pattern adjustments?",
+      "answer": "Moving the drive pinion will change the tooth contact pattern in the direction of tooth height, while the backlash will be changed only slightly.",
+      "question_type": "factual",
+      "id": "31-43_front-ax-q12"
+    }
+  ]
+}

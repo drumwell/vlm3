@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-23-03",
+  "image_path": "raw/00 - Torque Specs/23-03.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:58:20.165335",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 570
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component has the highest torque specification in section 23.11?",
+      "answer": "The reverse gear shaft on intermediate housing with 49 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q04"
+    },
+    {
+      "question": "What are the two different screw sizes used in the M8 category for this transmission section?",
+      "answer": "M8x22 and M8x30",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q05"
+    }
+  ]
+}

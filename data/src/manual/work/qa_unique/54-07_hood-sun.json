@@ -1,0 +1,55 @@
+{
+  "page_id": "54-07_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-07.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:40:22.520154",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 747
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing left or right gate for sun roof?",
+      "answer": "The procedure number is 54 12 250.",
+      "question_type": "factual",
+      "id": "54-07_hood-sun-q01"
+    },
+    {
+      "question": "What bolts need to be unscrewed during the gate replacement procedure?",
+      "answer": "Unscrew bolts, then unscrew left and right bolts.",
+      "question_type": "procedural",
+      "id": "54-07_hood-sun-q03"
+    },
+    {
+      "question": "What should be done with the cable after pulling it out of the guide?",
+      "answer": "Press gate (1) off of drive cable (2).",
+      "question_type": "procedural",
+      "id": "54-07_hood-sun-q07"
+    },
+    {
+      "question": "What maintenance should be performed on the slides during reassembly?",
+      "answer": "Transfer and lubricate slides with grease.",
+      "question_type": "procedural",
+      "id": "54-07_hood-sun-q08"
+    },
+    {
+      "question": "What type of lubricant is specified for the slides?",
+      "answer": "Grease is specified for lubricating the slides.",
+      "question_type": "tool",
+      "id": "54-07_hood-sun-q10"
+    },
+    {
+      "question": "What is the HWB number referenced at the bottom of the page?",
+      "answer": "The HWB number is 81 22 9 407 171.",
+      "question_type": "factual",
+      "id": "54-07_hood-sun-q11"
+    }
+  ]
+}

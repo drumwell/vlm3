@@ -1,0 +1,79 @@
+{
+  "page_id": "41-120_body",
+  "image_path": "raw/41 - Body/41-120.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:47:13.383750",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 724
+  },
+  "qa_pairs": [
+    {
+      "question": "What areas should be plug spot welded when working on the front of the trunk floor plate?",
+      "answer": "Plug spot weld front of trunk floor plate, on cross member, side members and wheel houses.",
+      "question_type": "procedural",
+      "id": "41-120_body-q01"
+    },
+    {
+      "question": "What welding procedure is specified for the cross panel on wheel houses?",
+      "answer": "Spot weld cross panel on wheel houses. Spot weld side panels.",
+      "question_type": "procedural",
+      "id": "41-120_body-q02"
+    },
+    {
+      "question": "What sealing procedure is required when installing the tail panel?",
+      "answer": "Seal off all joints at top and bottom with a body sealing compound.",
+      "question_type": "procedural",
+      "id": "41-120_body-q04"
+    },
+    {
+      "question": "Where should anti-drumming compound be sprayed during tail panel installation?",
+      "answer": "Spray an anti-drumming compound on underside of car, wheel houses and bottom of tail panel.",
+      "question_type": "procedural",
+      "id": "41-120_body-q05"
+    },
+    {
+      "question": "What figure number shows the plug spot welding of the trunk floor plate area?",
+      "answer": "Figure 30 41 269",
+      "question_type": "visual",
+      "id": "41-120_body-q07"
+    },
+    {
+      "question": "What figure number corresponds to the cross panel spot welding procedure?",
+      "answer": "Figure 30 41 270",
+      "question_type": "visual",
+      "id": "41-120_body-q08"
+    },
+    {
+      "question": "What is the complete figure number for the tail panel installation illustration?",
+      "answer": "Figure 30 41 097",
+      "question_type": "visual",
+      "id": "41-120_body-q09"
+    },
+    {
+      "question": "What type of compound is specified for sealing joints during tail panel installation?",
+      "answer": "Body sealing compound for sealing joints, and anti-drumming compound for spraying on underside areas.",
+      "question_type": "tool",
+      "id": "41-120_body-q10"
+    },
+    {
+      "question": "What structural components require spot welding in the trunk floor area?",
+      "answer": "Cross member, side members, and wheel houses require spot welding when working on the front of trunk floor plate.",
+      "question_type": "component",
+      "id": "41-120_body-q11"
+    },
+    {
+      "question": "What areas need to be treated with anti-drumming compound besides the tail panel?",
+      "answer": "Underside of car and wheel houses need to be sprayed with anti-drumming compound in addition to the bottom of tail panel.",
+      "question_type": "procedural",
+      "id": "41-120_body-q12"
+    }
+  ]
+}

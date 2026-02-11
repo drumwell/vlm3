@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-24-04",
+  "image_path": "raw/00 - Torque Specs/24-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:00:23.216061",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 657
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil filler pipe on the 3HP-22 transmission?",
+      "answer": "105 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-04-q01"
+    },
+    {
+      "question": "What torque should I use for the oil filler pipe on 4HP-22/4HP-24/A5S 310Z transmissions?",
+      "answer": "98 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-04-q02"
+    },
+    {
+      "question": "What is the screw size and torque specification for the plug component 9AZ?",
+      "answer": "M18 screw with 43 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-04-q03"
+    },
+    {
+      "question": "What are the two different torque values for oil bore plugs depending on transmission type?",
+      "answer": "8 Nm for A5S 300J and 15 Nm for A5S 310Z/A5S 560Z",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-04-q05"
+    },
+    {
+      "question": "What is the torque specification for the damper cover on transmission case for A5S 300J?",
+      "answer": "10 Nm with M6 screw",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-04-q06"
+    },
+    {
+      "question": "What screw size and torque should I use for the radial shaft seal on converter bell housing?",
+      "answer": "M4 screw with 3 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-04-q07"
+    },
+    {
+      "question": "What is the torque specification for the intermediate plate on intermediate housing?",
+      "answer": "25 Nm with 5/16 inch screw",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-04-q08"
+    },
+    {
+      "question": "Which transmission types use the radial shaft seal specification for A4S 270R/A4S 310R?",
+      "answer": "A4S 270R and A4S 310R transmissions",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-04-q09"
+    },
+    {
+      "question": "What section of the manual covers these automatic transmission torque specifications?",
+      "answer": "Section 24-4 Automatic Transmission, specifically subsection 24 11 Transmission Case, Oil Sump",
+      "question_type": "navigation",
+      "id": "00-torque-specs-24-04-q10"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "page_id": "51-161_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-161.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:12:56.291483",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 648
+  },
+  "qa_pairs": [
+    {
+      "question": "How should you install the mirror when applying it diagonally?",
+      "answer": "Apply mirror diagonally and, if necessary, press on with handle of a hammer.",
+      "question_type": "procedural",
+      "id": "51-161_body-equ-q02"
+    },
+    {
+      "question": "What should you do with the display panel in cars with check control during installation?",
+      "answer": "If applicable, lift out display panel in cars with check control.",
+      "question_type": "procedural",
+      "id": "51-161_body-equ-q03"
+    },
+    {
+      "question": "How do you remove the inside mirror on BMW Convertibles?",
+      "answer": "Pull mirror down out of the mirror socket.",
+      "question_type": "procedural",
+      "id": "51-161_body-equ-q04"
+    },
+    {
+      "question": "What angle should you turn the mirror base when mounting it on the mirror socket?",
+      "answer": "Turn mirror base until it engages on the mirror socket, which is approximately 45 degrees.",
+      "question_type": "procedural",
+      "id": "51-161_body-equ-q05"
+    },
+    {
+      "question": "What do you need to do with the spring during installation?",
+      "answer": "Spring must be pressed together.",
+      "question_type": "procedural",
+      "id": "51-161_body-equ-q06"
+    },
+    {
+      "question": "What should you do if you need to remove the front roof liner plate?",
+      "answer": "If applicable, remove front roof liner plate in cars with front roof liner plate without check control.",
+      "question_type": "procedural",
+      "id": "51-161_body-equ-q08"
+    },
+    {
+      "question": "What is the first step in the mirror installation process?",
+      "answer": "Mount mirror base on mirror socket with an approx. 45\u00b0 turn.",
+      "question_type": "procedural",
+      "id": "51-161_body-equ-q09"
+    },
+    {
+      "question": "What tool is mentioned for pressing on the mirror if necessary?",
+      "answer": "Handle of a hammer.",
+      "question_type": "tool",
+      "id": "51-161_body-equ-q10"
+    },
+    {
+      "question": "What is the basic removal instruction for the inside mirror?",
+      "answer": "Lift off mirror.",
+      "question_type": "procedural",
+      "id": "51-161_body-equ-q12"
+    }
+  ]
+}

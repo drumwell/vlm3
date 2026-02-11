@@ -1,0 +1,85 @@
+{
+  "page_id": "getrag-005",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/005.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:42:37.009972",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 833
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the main components visible in the second image after disassembly?",
+      "answer": "The image shows the sync hub assembly separated into its individual components, including the outer sync hub, inner splined component, and what appears to be a retaining ring.",
+      "question_type": "visual",
+      "id": "getrag-005-q02"
+    },
+    {
+      "question": "How should you remove the 1st gear inner sleeve from the shaft?",
+      "answer": "To get the 1st gear inner sleeve off the shaft, use good \"C\" plates which clamp around the flange, then apply good heat with a hot air gun and press it off.",
+      "question_type": "procedural",
+      "id": "getrag-005-q03"
+    },
+    {
+      "question": "What tool is recommended for heating during the 1st gear inner sleeve removal?",
+      "answer": "A hot air gun is recommended for applying heat during the removal process.",
+      "question_type": "tool",
+      "id": "getrag-005-q04"
+    },
+    {
+      "question": "What type of clamps are specified for removing the 1st gear inner sleeve?",
+      "answer": "Good \"C\" plates are specified, which clamp around the flange of the component.",
+      "question_type": "tool",
+      "id": "getrag-005-q05"
+    },
+    {
+      "question": "What procedure follows after applying heat to the 1st gear inner sleeve?",
+      "answer": "After applying heat with the hot air gun, you press the sleeve off the shaft.",
+      "question_type": "procedural",
+      "id": "getrag-005-q06"
+    },
+    {
+      "question": "What is the condition of the transmission case where the sync hub was removed?",
+      "answer": "The transmission case shows the empty cavity where the 4-5 sync hub was located, with visible mounting surfaces and internal splines.",
+      "question_type": "visual",
+      "id": "getrag-005-q07"
+    },
+    {
+      "question": "How many main components are visible in the disassembled sync hub assembly?",
+      "answer": "Three main components are visible: the outer sync hub, the inner splined component, and a retaining ring.",
+      "question_type": "visual",
+      "id": "getrag-005-q08"
+    },
+    {
+      "question": "What safety consideration is implied when using heat and pressing operations?",
+      "answer": "The procedure requires careful coordination of heating and pressing, which implies proper safety precautions should be taken when working with heated components and press equipment.",
+      "question_type": "safety",
+      "id": "getrag-005-q09"
+    },
+    {
+      "question": "What is the purpose of the \"C\" plates in this procedure?",
+      "answer": "The \"C\" plates clamp around the flange to provide a secure grip on the component during the heated removal process.",
+      "question_type": "procedural",
+      "id": "getrag-005-q10"
+    },
+    {
+      "question": "What splined features are visible on the disassembled components?",
+      "answer": "The inner component shows external splines, while the outer sync hub shows internal splines for engagement with the shaft and other transmission components.",
+      "question_type": "visual",
+      "id": "getrag-005-q11"
+    },
+    {
+      "question": "What is the sequence for removing the 1st gear inner sleeve?",
+      "answer": "First clamp the \"C\" plates around the flange, then apply heat with the hot air gun, and finally press the sleeve off the shaft.",
+      "question_type": "procedural",
+      "id": "getrag-005-q12"
+    }
+  ]
+}

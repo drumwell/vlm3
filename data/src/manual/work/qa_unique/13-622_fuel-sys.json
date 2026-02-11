@@ -1,0 +1,73 @@
+{
+  "page_id": "13-622_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-622.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:41:46.204023",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 823
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be checked during installation of the air flow sensor?",
+      "answer": "Check code number (1) and manufacturing date (2), check engine idle speed and idle speed CO level, check gasket (3), and check air flow sensor.",
+      "question_type": "inspection",
+      "id": "13-622_fuel-sys-q03"
+    },
+    {
+      "question": "What components are numbered 1, 2, 3, 4, and 5 in the top removal diagram?",
+      "answer": "1 is the hose strap, 2 are the nuts, 3 is the gasket, 4 is the hose, and 5 is the plug.",
+      "question_type": "visual",
+      "id": "13-622_fuel-sys-q04"
+    },
+    {
+      "question": "What procedure is shown in diagram 13 62 007?",
+      "answer": "Cut wire strap (3) and take off complete air cleaner. Installation includes checking rubber mount (1) and dampers (2) and ensuring correct fit.",
+      "question_type": "procedural",
+      "id": "13-622_fuel-sys-q05"
+    },
+    {
+      "question": "How many clamps need to be opened according to diagram 13 62 008?",
+      "answer": "Four clamps need to be opened.",
+      "question_type": "factual",
+      "id": "13-622_fuel-sys-q06"
+    },
+    {
+      "question": "What are the steps shown in diagram 13 62 008?",
+      "answer": "Open the four clamps, unscrew bolt (1), and take apart housing sections.",
+      "question_type": "procedural",
+      "id": "13-622_fuel-sys-q07"
+    },
+    {
+      "question": "What should be checked on the air cleaner rubber mount during installation?",
+      "answer": "Check rubber mount (1) and dampers (2) and make sure of correct fit.",
+      "question_type": "inspection",
+      "id": "13-622_fuel-sys-q08"
+    },
+    {
+      "question": "What component is being removed in the bottom diagram 13 62 009?",
+      "answer": "Nuts are being unscrewed from the housing.",
+      "question_type": "visual",
+      "id": "13-622_fuel-sys-q09"
+    },
+    {
+      "question": "What specific parameters should be checked during air flow sensor installation that have asterisks?",
+      "answer": "Engine idle speed and idle speed CO level should be checked, along with the air flow sensor itself.",
+      "question_type": "inspection",
+      "id": "13-622_fuel-sys-q11"
+    },
+    {
+      "question": "What is the sequence for disassembling the air cleaner housing?",
+      "answer": "First cut the wire strap and remove the complete air cleaner, then open four clamps, unscrew the bolt, take apart housing sections, and finally unscrew the nuts.",
+      "question_type": "procedural",
+      "id": "13-622_fuel-sys-q12"
+    }
+  ]
+}

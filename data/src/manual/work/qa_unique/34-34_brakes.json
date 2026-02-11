@@ -1,0 +1,67 @@
+{
+  "page_id": "34-34_brakes",
+  "image_path": "raw/34 - Brakes/34-34.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:22:43.535810",
+    "prompt_template": "service_manual/wiring",
+    "tokens_input": 1741,
+    "tokens_output": 554
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the component number for the ABS lamp?",
+      "answer": "The ABS lamp is component number 371.",
+      "question_type": "component",
+      "id": "34-34_brakes-q01"
+    },
+    {
+      "question": "What does component 360 represent in the ABS wiring diagram?",
+      "answer": "Component 360 is the Electronic control unit.",
+      "question_type": "component",
+      "id": "34-34_brakes-q02"
+    },
+    {
+      "question": "What are the component numbers for the signal sensors at the front wheels?",
+      "answer": "The front wheel signal sensors are components 362 (front left) and 364 (front right).",
+      "question_type": "component",
+      "id": "34-34_brakes-q03"
+    },
+    {
+      "question": "What does KL61 terminal represent in this ABS system?",
+      "answer": "KL61 terminal represents the battery charge control.",
+      "question_type": "connector",
+      "id": "34-34_brakes-q04"
+    },
+    {
+      "question": "What is the function of component 361?",
+      "answer": "Component 361 is the Hydraulic control unit.",
+      "question_type": "component",
+      "id": "34-34_brakes-q05"
+    },
+    {
+      "question": "What does component 370 represent?",
+      "answer": "Component 370 is the Electronic relay.",
+      "question_type": "component",
+      "id": "34-34_brakes-q07"
+    },
+    {
+      "question": "What is the function of the BS switch according to the legend?",
+      "answer": "The BS switch is the Brake light switch.",
+      "question_type": "component",
+      "id": "34-34_brakes-q08"
+    },
+    {
+      "question": "What connector numbers are shown for the signal sensor connections?",
+      "answer": "The signal sensor connections are numbered 363, 365, 367, and 369.",
+      "question_type": "connector",
+      "id": "34-34_brakes-q09"
+    }
+  ]
+}

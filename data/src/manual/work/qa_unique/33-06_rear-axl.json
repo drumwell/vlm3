@@ -1,0 +1,91 @@
+{
+  "page_id": "33-06_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-06.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:08:51.486711",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 835
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers removing and installing rear axle carrier assembly?",
+      "answer": "Section 33 31 000 covers removing and installing rear axle carrier assembly.",
+      "question_type": "factual",
+      "id": "33-06_rear-axl-q01"
+    },
+    {
+      "question": "What part number should be referenced when removing the propeller shaft and center mount?",
+      "answer": "Reference section 26 11 000 for removing the propeller shaft and center mount of propeller shaft.",
+      "question_type": "navigation",
+      "id": "33-06_rear-axl-q02"
+    },
+    {
+      "question": "What tool is needed to draw off brake fluid during parking brake lever removal?",
+      "answer": "A syringe is needed to draw off brake fluid, which should be reserved exclusively for use with brake fluids.",
+      "question_type": "tool",
+      "id": "33-06_rear-axl-q03"
+    },
+    {
+      "question": "What should be done after disconnecting brake lines on left and right sides?",
+      "answer": "After disconnecting brake lines, you should add brake fluid and bleed brakes during installation.",
+      "question_type": "procedural",
+      "id": "33-06_rear-axl-q04"
+    },
+    {
+      "question": "What important caution is given regarding shock absorbers on trailing arms?",
+      "answer": "The caution states that shock absorbers act as retaining straps, and installation should only be done after the car has been lowered and is resting on its wheels.",
+      "question_type": "safety",
+      "id": "33-06_rear-axl-q05"
+    },
+    {
+      "question": "What happens to the rear axle springs when you lower the rear axle carrier?",
+      "answer": "The rear axle springs will be loose when you lower the rear axle carrier, as noted in the Important warning.",
+      "question_type": "safety",
+      "id": "33-06_rear-axl-q06"
+    },
+    {
+      "question": "What fasteners are used during installation to replace the original ones?",
+      "answer": "Self-locking nuts are used to replace the original fasteners during installation, and they should be tightened to the specified torque.",
+      "question_type": "procedural",
+      "id": "33-06_rear-axl-q07"
+    },
+    {
+      "question": "What section number should be referenced for removing the rear seat cushion?",
+      "answer": "Section 52 20 000 should be referenced for removing the rear seat cushion to replace the staybolts.",
+      "question_type": "navigation",
+      "id": "33-06_rear-axl-q08"
+    },
+    {
+      "question": "What part number covers removing the rear side trim panel of convertible models?",
+      "answer": "Section 51 43 000 covers removing the rear side trim panel of convertible models.",
+      "question_type": "factual",
+      "id": "33-06_rear-axl-q09"
+    },
+    {
+      "question": "For rear disc brakes, what components need to be disconnected?",
+      "answer": "For rear disc brakes, disconnect the brake pad wear indicator plug if applicable, unscrew stabilizer on left and right sides, and support both trailing arms.",
+      "question_type": "procedural",
+      "id": "33-06_rear-axl-q10"
+    },
+    {
+      "question": "What should be done with the parking brake cables when lowering the rear axle carrier?",
+      "answer": "Pull the parking brake cables out of the protective tube before lowering the rear axle carrier.",
+      "question_type": "procedural",
+      "id": "33-06_rear-axl-q11"
+    },
+    {
+      "question": "What tool part number is referenced for removing the primary and final muffler assembly?",
+      "answer": "Tool part number 18 12 000 is referenced for removing the primary and final muffler assembly.",
+      "question_type": "tool",
+      "id": "33-06_rear-axl-q12"
+    }
+  ]
+}

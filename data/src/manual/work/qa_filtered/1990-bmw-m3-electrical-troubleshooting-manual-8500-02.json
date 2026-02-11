@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8500-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:16:36.720238",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 573
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for the ABS Control Unit connector shown?",
+      "answer": "The ABS Control Unit connector part number is B350002.04.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-02-q01"
+    },
+    {
+      "question": "How many pins does the ABS Control Unit connector have?",
+      "answer": "The ABS Control Unit connector has 34 pins arranged in two rows.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-02-q02"
+    },
+    {
+      "question": "What is the part number for the Air Flow Meter connector used on the 318is?",
+      "answer": "The Air Flow Meter connector for the 318is has part number B070008.00.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-02-q03"
+    },
+    {
+      "question": "Which vehicles use the Air Flow Meter connector with part number B050010.00?",
+      "answer": "The Air Flow Meter connector with part number B050010.00 is used on 325i/is, M3, 325ix, and 325ic models.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-02-q04"
+    },
+    {
+      "question": "How many pins does the ABS Hydraulic Unit connector have and how are they arranged?",
+      "answer": "The ABS Hydraulic Unit connector has 12 pins arranged in two columns of 6 pins each.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-02-q05"
+    },
+    {
+      "question": "What is the pin arrangement for the Amplifier (Sound System) connector?",
+      "answer": "The Amplifier (Sound System) connector has 20 pins arranged in 4 rows of 5 pins each, numbered 1-5, 6-10, 11-15, and 16-20.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-02-q06"
+    },
+    {
+      "question": "How many pins does the Active Check Control connector have?",
+      "answer": "The Active Check Control connector has 24 pins arranged in two rows.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-02-q07"
+    },
+    {
+      "question": "What type of connector view is shown for the Auxiliary Fuse?",
+      "answer": "The Auxiliary Fuse shows the Wiring Face view with 4 pins numbered 1, 2, 3, and 4.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-02-q08"
+    }
+  ]
+}

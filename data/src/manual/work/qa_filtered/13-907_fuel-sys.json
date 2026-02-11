@@ -1,0 +1,79 @@
+{
+  "page_id": "13-907_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-907.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:55:56.914797",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 624
+  },
+  "qa_pairs": [
+    {
+      "question": "What is Test Position 10 for in the BMW E30 M3 fuel system diagnostics?",
+      "answer": "Test Position 10 is for the coolant temperature sensor diagnostics.",
+      "question_type": "factual",
+      "id": "13-907_fuel-sys-q01"
+    },
+    {
+      "question": "What should I check first when diagnosing coolant temperature sensor issues?",
+      "answer": "Check code number, then check for tight fit and good contact of plug connections and correct level of coolant (see Gr. 17 for air bubbles).",
+      "question_type": "diagnostic",
+      "id": "13-907_fuel-sys-q02"
+    },
+    {
+      "question": "What should I do if the coolant temperature sensor code number check fails?",
+      "answer": "Replace coolant temperature sensor and repair plug contact.",
+      "question_type": "troubleshooting",
+      "id": "13-907_fuel-sys-q03"
+    },
+    {
+      "question": "How do I test the coolant temperature sensor resistance values?",
+      "answer": "Check resistance values, and if necessary, heat to testing temperature in a water bath.",
+      "question_type": "procedural",
+      "id": "13-907_fuel-sys-q04"
+    },
+    {
+      "question": "What should I do if the coolant temperature sensor resistance values are incorrect?",
+      "answer": "Replace coolant temperature sensor.",
+      "question_type": "troubleshooting",
+      "id": "13-907_fuel-sys-q05"
+    },
+    {
+      "question": "What is the final step in coolant temperature sensor diagnostics?",
+      "answer": "Check wires.",
+      "question_type": "diagnostic",
+      "id": "13-907_fuel-sys-q06"
+    },
+    {
+      "question": "Where can I find coolant system air bubble information referenced in this test?",
+      "answer": "See Gr. 17 (air bubbles).",
+      "question_type": "navigation",
+      "id": "13-907_fuel-sys-q07"
+    },
+    {
+      "question": "Where can I find the specifications for coolant temperature sensor testing?",
+      "answer": "See Specifications section, as indicated by the asterisk footnote.",
+      "question_type": "navigation",
+      "id": "13-907_fuel-sys-q08"
+    },
+    {
+      "question": "Where can I find the wiring diagram for the coolant temperature sensor circuit?",
+      "answer": "See Wiring Diagram section, as indicated by the double asterisk footnote.",
+      "question_type": "wiring",
+      "id": "13-907_fuel-sys-q09"
+    },
+    {
+      "question": "What are the main diagnostic steps for coolant temperature sensor troubleshooting?",
+      "answer": "1) Check code number and plug connections/coolant level, 2) Check resistance values (heat in water bath if necessary), 3) Check wires.",
+      "question_type": "procedural",
+      "id": "13-907_fuel-sys-q10"
+    }
+  ]
+}

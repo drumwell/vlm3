@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-068",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/068.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:25:14.536477",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 618
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the carburetor to intake manifold connection?",
+      "answer": "10 Nm using M10/M20/M30 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-068-q01"
+    },
+    {
+      "question": "What type of screw is used for the carburetor to insulating flange connection?",
+      "answer": "M10/M20/M30 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-068-q02"
+    },
+    {
+      "question": "What is the maximum torque specification for the idling shutoff valve?",
+      "answer": "5 Nm using M10/M20/M30 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-068-q03"
+    },
+    {
+      "question": "How much torque should be applied to the flow valve at maximum?",
+      "answer": "28 Nm using M10/M20/M30 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-068-q04"
+    },
+    {
+      "question": "What is the torque specification for the throttle valve assembly to float housing connection?",
+      "answer": "9 Nm maximum using M10/M20/M30 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-068-q05"
+    },
+    {
+      "question": "What screw type is specified for the throttle valve control to carburetor connection?",
+      "answer": "2BE screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-068-q06"
+    },
+    {
+      "question": "What is the maximum torque for the throttle valve control to carburetor?",
+      "answer": "3 Nm using 2BE screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-068-q07"
+    },
+    {
+      "question": "How much torque should be applied to the warm-up regulator to engine connection?",
+      "answer": "23 Nm using M10/M20/M30 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-068-q08"
+    },
+    {
+      "question": "What is the torque specification for the insulating flange to intake manifold?",
+      "answer": "10 Nm using M10/M20/M30 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-068-q09"
+    },
+    {
+      "question": "Which carburetor connection has the highest torque specification?",
+      "answer": "The flow valve has the highest torque specification at 28 Nm maximum.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-068-q10"
+    }
+  ]
+}

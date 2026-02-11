@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-11-11",
+  "image_path": "raw/00 - Torque Specs/11-11.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:38:47.011514",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 830
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil drain plug?",
+      "answer": "The oil drain plug has two torque specifications: M12 x 1.5 at 25 Nm and M22 x 1.5 at 60 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-11-q01"
+    },
+    {
+      "question": "What torque should I use for M6 8.8 bolts on the oil pan to engine block?",
+      "answer": "M6 8.8 bolts on the oil pan to engine block should be torqued to 10 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-11-q02"
+    },
+    {
+      "question": "Which oil drain plug requires the highest torque?",
+      "answer": "The M22 x 1.5 oil drain plug requires the highest torque at 60 Nm, compared to the M12 x 1.5 which requires 25 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-11-q04"
+    },
+    {
+      "question": "What are the different screw types used for oil pan to engine block mounting?",
+      "answer": "The oil pan to engine block uses M6 8.8 screws (10 Nm) and M6 10.9 screws (12 Nm).",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-11-q05"
+    },
+    {
+      "question": "Do all engine types use the same oil drain plug torque specifications?",
+      "answer": "Yes, both oil drain plug specifications (M12 x 1.5 at 25 Nm and M22 x 1.5 at 60 Nm) apply to all engine types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-11-q06"
+    },
+    {
+      "question": "What is the difference in torque between M6 8.8 and M6 10.9 bolts for the oil pan?",
+      "answer": "The difference is 2 Nm, with M6 8.8 bolts requiring 10 Nm and M6 10.9 bolts requiring 12 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-11-q07"
+    },
+    {
+      "question": "What section of the manual contains these oil pan torque specifications?",
+      "answer": "These torque specifications are found in section 11-11 Engine, specifically under 11 13 Oil Pan.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-11-q08"
+    },
+    {
+      "question": "Are the oil pan to engine block torque specifications the same for all engine types?",
+      "answer": "Yes, both the M6 8.8 (10 Nm) and M6 10.9 (12 Nm) specifications apply to all engine types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-11-q09"
+    },
+    {
+      "question": "What component is identified as 2AZ in this torque specification table?",
+      "answer": "Component 2AZ is identified as 'Oil pan on engine block'.",
+      "question_type": "component",
+      "id": "00-torque-specs-11-11-q10"
+    }
+  ]
+}

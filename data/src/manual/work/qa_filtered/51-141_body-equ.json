@@ -1,0 +1,73 @@
+{
+  "page_id": "51-141_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-141.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:12:08.060127",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1802,
+    "tokens_output": 666
+  },
+  "qa_pairs": [
+    {
+      "question": "What temperature should the model sign be heated to during installation?",
+      "answer": "Heat model sign to approx. 40 to 50\u00b0 C (105 to 120\u00b0 F) and press on firmly 5 to 10 seconds.",
+      "question_type": "procedural",
+      "id": "51-141_body-equ-q01"
+    },
+    {
+      "question": "What is the distance dimension A for the BMW 318i model sign?",
+      "answer": "62 mm (2.441 inches).",
+      "question_type": "factual",
+      "id": "51-141_body-equ-q02"
+    },
+    {
+      "question": "What is the distance dimension B for the BMW M3 model sign?",
+      "answer": "9 mm (0.354 inches).",
+      "question_type": "factual",
+      "id": "51-141_body-equ-q03"
+    },
+    {
+      "question": "At what temperature must the model sign be removed when baking paint?",
+      "answer": "Model sign must be removed when baking paint at temperatures above 80\u00b0 C (175\u00b0 F).",
+      "question_type": "safety",
+      "id": "51-141_body-equ-q05"
+    },
+    {
+      "question": "What is the distance dimension C for all BMW models listed?",
+      "answer": "19 mm (0.748 inches) for all models.",
+      "question_type": "factual",
+      "id": "51-141_body-equ-q06"
+    },
+    {
+      "question": "Which BMW models have a distance dimension B of 18 mm (0.709 inches)?",
+      "answer": "BMW 325i, BMW 325is, and BMW 325iX all have dimension B of 18 mm (0.709 inches).",
+      "question_type": "factual",
+      "id": "51-141_body-equ-q07"
+    },
+    {
+      "question": "What coating should be applied between the trunk lid and model sign?",
+      "answer": "Coat a nylon string or yarn with Teroside (e.g. dish washing detergent) and 'saw through' coat of cement between trunk lid and model sign.",
+      "question_type": "procedural",
+      "id": "51-141_body-equ-q08"
+    },
+    {
+      "question": "What is the distance dimension D for the BMW 325is and BMW 325iX?",
+      "answer": "22 mm (0.866 inches) for both BMW 325is and BMW 325iX.",
+      "question_type": "factual",
+      "id": "51-141_body-equ-q09"
+    },
+    {
+      "question": "Can the model sign be reused after removal?",
+      "answer": "No, the model sign is cemented and cannot be reused.",
+      "question_type": "factual",
+      "id": "51-141_body-equ-q10"
+    }
+  ]
+}

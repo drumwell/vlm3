@@ -1,0 +1,91 @@
+{
+  "page_id": "31-28_front-ax",
+  "image_path": "raw/31 - Front Axle/31-28.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T07:03:16.843667",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 945
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is used to bolt down and press off the bevel gear?",
+      "answer": "Special Tool 33 1 150 with M 8 x 30 bolts and nuts is used to bolt down and press off the bevel gear.",
+      "question_type": "tool",
+      "id": "31-28_front-ax-q01"
+    },
+    {
+      "question": "What components need to be removed after taking off the bushing and spacer?",
+      "answer": "After taking off bushing (1) and spacer (2), the tapered roller bearing needs to be pulled off using Special Tools 31 5 090 and 33 1 301.",
+      "question_type": "procedural",
+      "id": "31-28_front-ax-q02"
+    },
+    {
+      "question": "Which special tools are required to pull off the tapered roller bearing?",
+      "answer": "Special Tools 31 5 090 and 33 1 301 are required to pull off the tapered roller bearing.",
+      "question_type": "tool",
+      "id": "31-28_front-ax-q03"
+    },
+    {
+      "question": "What special tools are needed to press on a new bearing?",
+      "answer": "Special Tools 23 1 160 and 33 1 307 are needed to press on a new bearing.",
+      "question_type": "tool",
+      "id": "31-28_front-ax-q04"
+    },
+    {
+      "question": "What components are labeled as items 1 and 2 in the upper right diagram showing installation?",
+      "answer": "Item 1 is the new bushing and item 2 is the spacer that need to be installed.",
+      "question_type": "visual",
+      "id": "31-28_front-ax-q05"
+    },
+    {
+      "question": "Which special tools are used to press both bearing outer races out of the case?",
+      "answer": "Special Tools 33 1 370, 33 4 041 and 33 4 042/044 are used to press both bearing outer races out of the case.",
+      "question_type": "tool",
+      "id": "31-28_front-ax-q06"
+    },
+    {
+      "question": "What special tools are required to press in new bearing outer races?",
+      "answer": "Special Tools 31 5 100, 33 1 374 and 33 4 041/042/044 are required to press in new bearing outer races.",
+      "question_type": "tool",
+      "id": "31-28_front-ax-q07"
+    },
+    {
+      "question": "What is the final step when installing the bevel gear into the case?",
+      "answer": "The final step is to slide the bevel gear into case (1) and drive in the new bearing with Special Tool 23 1 160 far enough that rollers have light contact on bearing outer race.",
+      "question_type": "procedural",
+      "id": "31-28_front-ax-q08"
+    },
+    {
+      "question": "What part numbers are associated with the bearing pressing tools shown in the middle right diagram?",
+      "answer": "The part numbers shown are 33 4 042, 33 4 041, 33 4 044, and 33 1 370 for the bearing pressing tool assembly.",
+      "question_type": "factual",
+      "id": "31-28_front-ax-q09"
+    },
+    {
+      "question": "What is the key requirement when driving in the new bearing with Special Tool 23 1 160?",
+      "answer": "The new bearing must be driven in far enough that the rollers have light contact on the bearing outer race.",
+      "question_type": "procedural",
+      "id": "31-28_front-ax-q10"
+    },
+    {
+      "question": "What components are visible in the lower left diagram with part number 33 1 301?",
+      "answer": "The lower left diagram shows the tapered roller bearing being pulled off using Special Tool 31 5 090 and puller 33 1 301.",
+      "question_type": "visual",
+      "id": "31-28_front-ax-q11"
+    },
+    {
+      "question": "What is installed along with the new bushing according to the upper right instruction?",
+      "answer": "A spacer (2) is installed along with the new bushing (1).",
+      "question_type": "factual",
+      "id": "31-28_front-ax-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "36-01_wheels-a",
+  "image_path": "raw/36 - Wheels and Tires/36-01.jpg",
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:29:52.773011",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 842
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for balancing both front wheels on car dynamically and electronically?",
+      "answer": "The procedure code is 36 10 030 for balancing both front wheels on car dynamically and electronically.",
+      "question_type": "factual",
+      "id": "36-01_wheels-a-q01"
+    },
+    {
+      "question": "What must always be done before electronic finish balancing?",
+      "answer": "Always first balance the wheels stationary precisely prior to electronic (finish) balancing.",
+      "question_type": "procedural",
+      "id": "36-01_wheels-a-q02"
+    },
+    {
+      "question": "What measuring support is required for control arm end balancing up to 5 inch rims?",
+      "answer": "Apply measuring support for balancing on control arm end (1) up to 5 inch rims, using a suitable holding fork or additional fork.",
+      "question_type": "tool",
+      "id": "36-01_wheels-a-q03"
+    },
+    {
+      "question": "What should be done when balancing wheels from 5 1/2 inch rims and larger?",
+      "answer": "From 5 1/2 inch rims on, apply the measuring support without an additional fork on control arm (2) and lift car with the measuring support.",
+      "question_type": "procedural",
+      "id": "36-01_wheels-a-q04"
+    },
+    {
+      "question": "What marking should be placed on the tire before balancing?",
+      "answer": "Paste adhesive tape or make a chalk mark, both 3 to 4 cm (0.181 to 1.575 inches) long, on the outside of the tire being balanced, opposite the valve.",
+      "question_type": "procedural",
+      "id": "36-01_wheels-a-q05"
+    },
+    {
+      "question": "What callout number indicates the control arm end in the wheel balancing diagram?",
+      "answer": "Callout number (1) indicates the control arm end in the wheel balancing setup.",
+      "question_type": "visual",
+      "id": "36-01_wheels-a-q06"
+    },
+    {
+      "question": "Where should the jack be applied when balancing rear wheels?",
+      "answer": "Apply jack at middle of car on the rear axle carrier and lift the car.",
+      "question_type": "procedural",
+      "id": "36-01_wheels-a-q07"
+    },
+    {
+      "question": "What type of support should be used on the trailing arm during rear wheel balancing?",
+      "answer": "Use an unsprung support on the trailing arm of the running wheel to suppress the oscillation from the final drive.",
+      "question_type": "procedural",
+      "id": "36-01_wheels-a-q08"
+    },
+    {
+      "question": "What is the maximum acceptable value for finish balancing of a wheel?",
+      "answer": "If a value of more than 15 grams is displayed for finish balancing of a wheel, possible causes must be eliminated prior to finish balancing and before rechecking the finished wheel.",
+      "question_type": "inspection",
+      "id": "36-01_wheels-a-q09"
+    },
+    {
+      "question": "What should be done to connect the balancing equipment?",
+      "answer": "Connect leads for test sender to the balancing machine.",
+      "question_type": "procedural",
+      "id": "36-01_wheels-a-q10"
+    },
+    {
+      "question": "What type of surface is required for wheel balancing?",
+      "answer": "Balancing must be carried out on firm underground (concrete floor without basement).",
+      "question_type": "safety",
+      "id": "36-01_wheels-a-q11"
+    },
+    {
+      "question": "What should be checked after the rear wheel balancing setup is complete?",
+      "answer": "Check whether it is possible to turn the wheels easily after the balancing setup is complete.",
+      "question_type": "inspection",
+      "id": "36-01_wheels-a-q12"
+    }
+  ]
+}

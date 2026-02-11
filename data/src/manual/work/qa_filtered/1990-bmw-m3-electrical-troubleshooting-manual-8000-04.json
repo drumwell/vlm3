@@ -1,0 +1,61 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-04",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8000-04.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:15:43.155047",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 509
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number is this page from in the BMW service manual?",
+      "answer": "This is section 8000-4 from the service manual.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-04-q01"
+    },
+    {
+      "question": "What components are shown in the right front door harness diagram?",
+      "answer": "The right front door harness shows the mirror, RH door lock motor, and window motor.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-04-q03"
+    },
+    {
+      "question": "What splice location number is labeled near the center of the vehicle diagram?",
+      "answer": "Splice locations S305, S322, S332, and S333 are labeled near the center of the vehicle diagram.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-04-q04"
+    },
+    {
+      "question": "What components are identified in the left front door harness?",
+      "answer": "The left front door harness contains the LH door lock motor, mirror switch, and window motor.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-04-q05"
+    },
+    {
+      "question": "Which splice locations are shown on the left side of the vehicle?",
+      "answer": "On the left side of the vehicle, splice locations S300, S301, S302, S303, S304, S501, S502, S503, S504, and S309 are shown.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-04-q06"
+    },
+    {
+      "question": "What connector numbers are visible in the diagram?",
+      "answer": "Connector numbers C401 and C405 are visible in the diagram.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-04-q07"
+    },
+    {
+      "question": "What is splice location S411 associated with?",
+      "answer": "Splice location S411 is associated with the mirror in the right front door harness.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-04-q08"
+    }
+  ]
+}

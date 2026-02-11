@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-130",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/130.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:37:24.668561",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 818
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the upper cowl panel support on the windshield wipers?",
+      "answer": "The upper cowl panel support (7AZ) has a torque specification of 5 Nm (ft. lbs.) with screw type M4.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-130-q01"
+    },
+    {
+      "question": "What torque should be applied to the wiper support bracket to firewall?",
+      "answer": "The wiper support bracket to firewall (8AZ) should be torqued to 10 Nm (ft. lbs.) using E36 type screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-130-q02"
+    },
+    {
+      "question": "How long should you wait before retightening the wiper arms to their final torque?",
+      "answer": "You should wait for 15 minutes before retightening the wiper arms to their final torque specification.",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-130-q03"
+    },
+    {
+      "question": "What is the torque specification for the driver's side wiper arm?",
+      "answer": "The driver's side wiper arm should be torqued to 40 Nm (ft. lbs.) using E31 type screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-130-q04"
+    },
+    {
+      "question": "What torque value is specified for the passenger's side wiper arm?",
+      "answer": "The passenger's side wiper arm should be torqued to 25 Nm (ft. lbs.) using E31/E32/E34/E38/E39 type screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-130-q05"
+    },
+    {
+      "question": "What is the difference in torque between driver's side with WCPC and without WCPC?",
+      "answer": "The driver's side with WCPC requires 21 Nm (ft. lbs.) while without WCPC requires 25 Nm (ft. lbs.), a difference of 4 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-130-q06"
+    },
+    {
+      "question": "Which screw types are used for the wiper support bracket to wiper console?",
+      "answer": "The wiper support bracket to wiper console (9AZ) uses E36 type screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-130-q07"
+    },
+    {
+      "question": "What torque specification applies to components using E38/E39 screw types?",
+      "answer": "Components using E38/E39 screw types should be torqued to 40 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-130-q08"
+    },
+    {
+      "question": "What section of the manual covers these windshield wiper specifications?",
+      "answer": "These specifications are covered in section 61-5 General Electrical system, subsection 61 61 Windshield Wipers.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-130-q09"
+    },
+    {
+      "question": "What is the highest torque value specified for any windshield wiper component?",
+      "answer": "The highest torque value is 40 Nm (ft. lbs.), which applies to both the driver's side wiper arm and components using E38/E39 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-130-q10"
+    }
+  ]
+}

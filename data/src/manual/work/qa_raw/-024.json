@@ -1,0 +1,61 @@
+{
+  "page_id": "-024",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/024.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:07:53.545661",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1884,
+    "tokens_output": 491
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the bearing part number shown in the circular bearing component?",
+      "answer": "1 09 0070",
+      "question_type": "component",
+      "id": "-024-q01"
+    },
+    {
+      "question": "What country is marked on the bearing component?",
+      "answer": "GERMANY",
+      "question_type": "factual",
+      "id": "-024-q02"
+    },
+    {
+      "question": "What BMW part number is visible on one of the packaging labels?",
+      "answer": "33-32-1-094-267",
+      "question_type": "component",
+      "id": "-024-q05"
+    },
+    {
+      "question": "What type of bearing component is shown in the image?",
+      "answer": "A wheel bearing or similar circular bearing component with inner and outer races",
+      "question_type": "component",
+      "id": "-024-q06"
+    },
+    {
+      "question": "What additional part number can be seen on the packaging materials?",
+      "answer": "33 32 1 094 267",
+      "question_type": "component",
+      "id": "-024-q08"
+    },
+    {
+      "question": "What type of documentation or labels are visible with the bearing component?",
+      "answer": "BMW parts packaging labels and what appears to be shipping or parts documentation",
+      "question_type": "visual",
+      "id": "-024-q09"
+    },
+    {
+      "question": "What is the complete bearing identification number visible in the center of the component?",
+      "answer": "1 09 0070",
+      "question_type": "component",
+      "id": "-024-q10"
+    }
+  ]
+}

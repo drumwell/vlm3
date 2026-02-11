@@ -1,0 +1,55 @@
+{
+  "page_id": "25-15_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-15.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:51:11.933672",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1756,
+    "tokens_output": 441
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the function of component number 6 in the automatic transmission shift layout?",
+      "answer": "Component number 6 is the shift gate.",
+      "question_type": "component",
+      "id": "25-15_gear-shi-q02"
+    },
+    {
+      "question": "Which component connects the selector lever to the transmission mechanism?",
+      "answer": "Component number 27, the selector rod, connects the selector lever to the transmission mechanism.",
+      "question_type": "component",
+      "id": "25-15_gear-shi-q03"
+    },
+    {
+      "question": "What type of fastener is used as component number 7?",
+      "answer": "Component number 7 is a bolt.",
+      "question_type": "component",
+      "id": "25-15_gear-shi-q05"
+    },
+    {
+      "question": "Which component is labeled as number 16 and what is its purpose?",
+      "answer": "Component number 16 is the transmission switch.",
+      "question_type": "component",
+      "id": "25-15_gear-shi-q06"
+    },
+    {
+      "question": "What is the push button component number in this automatic transmission shift layout?",
+      "answer": "The push button is component number 10.",
+      "question_type": "component",
+      "id": "25-15_gear-shi-q07"
+    },
+    {
+      "question": "What component provides spring action in the selector mechanism?",
+      "answer": "Component number 11, the spring element, provides spring action in the selector mechanism.",
+      "question_type": "component",
+      "id": "25-15_gear-shi-q08"
+    }
+  ]
+}

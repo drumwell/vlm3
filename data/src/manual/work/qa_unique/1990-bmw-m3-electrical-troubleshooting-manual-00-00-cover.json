@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-cover",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/00-00-cover.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:05:13.884287",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1892,
+    "tokens_output": 514
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of manual is this document?",
+      "answer": "Electrical Troubleshooting Manual",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-cover-q02"
+    },
+    {
+      "question": "Who published this electrical troubleshooting manual?",
+      "answer": "BMW of North America, Inc.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-cover-q04"
+    },
+    {
+      "question": "Where is BMW of North America, Inc. located according to this manual?",
+      "answer": "Woodcliff Lake, New Jersey",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-cover-q05"
+    },
+    {
+      "question": "What is the main subject matter of this manual?",
+      "answer": "Electrical troubleshooting for the BMW M3",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-cover-q06"
+    },
+    {
+      "question": "Is this manual specific to a particular model year?",
+      "answer": "Yes, it is specifically for the 1990 model year",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-cover-q07"
+    },
+    {
+      "question": "What BMW logo appears on this cover page?",
+      "answer": "The BMW roundel logo with the blue and white quadrants",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-cover-q08"
+    },
+    {
+      "question": "What is the primary focus of this service documentation?",
+      "answer": "Electrical system troubleshooting procedures for the 1990 BMW M3",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-cover-q09"
+    },
+    {
+      "question": "Is this manual published by BMW directly or a third party?",
+      "answer": "It is published directly by BMW of North America, Inc.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-cover-q10"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "17-02_radiator",
+  "image_path": "raw/17 - Radiator/17-02.jpg",
+  "section_id": "17",
+  "section_name": "Radiator",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:00:39.332239",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 456
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is identified by callout number 1 in this coolant circuit diagram?",
+      "answer": "Component 1 is the water pump.",
+      "question_type": "component",
+      "id": "17-02_radiator-q01"
+    },
+    {
+      "question": "What does the solid black arrow indicate in this diagram?",
+      "answer": "The solid black arrow indicates the circuit with closed thermostat.",
+      "question_type": "visual",
+      "id": "17-02_radiator-q02"
+    },
+    {
+      "question": "What does the double-line arrow represent in the coolant flow diagram?",
+      "answer": "The double-line arrow represents the circuit with opened thermostat.",
+      "question_type": "visual",
+      "id": "17-02_radiator-q03"
+    },
+    {
+      "question": "What component is located at position 4 in the engine assembly?",
+      "answer": "Position 4 is the thermostat housing.",
+      "question_type": "component",
+      "id": "17-02_radiator-q04"
+    },
+    {
+      "question": "Where does callout 11 connect to according to the legend?",
+      "answer": "Callout 11 connects to the heat exchanger (car heater).",
+      "question_type": "factual",
+      "id": "17-02_radiator-q05"
+    },
+    {
+      "question": "What is the purpose of component 13 in the coolant system?",
+      "answer": "Component 13 connects to the expansion tank.",
+      "question_type": "operation",
+      "id": "17-02_radiator-q06"
+    },
+    {
+      "question": "What BMW models does this coolant circuit diagram apply to?",
+      "answer": "This coolant circuit diagram applies to BMW 325e and 325i models.",
+      "question_type": "factual",
+      "id": "17-02_radiator-q07"
+    },
+    {
+      "question": "What component is identified as the radiator outlet in this system?",
+      "answer": "Component 7 is identified as the radiator outlet.",
+      "question_type": "component",
+      "id": "17-02_radiator-q08"
+    }
+  ]
+}

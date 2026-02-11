@@ -1,0 +1,91 @@
+{
+  "page_id": "41-314_body",
+  "image_path": "raw/41 - Body/41-314.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:59:32.259635",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 813
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of paint should be used to coat mating surfaces needed for spot welding?",
+      "answer": "Zinc dust paint should be used to coat mating surfaces needed for spot welding.",
+      "question_type": "factual",
+      "id": "41-314_body-q01"
+    },
+    {
+      "question": "What must be corrected when the side panel and window frame have been changed at the bottom?",
+      "answer": "The bottom of the window frame must be corrected accordingly when the side panel and window frame have been changed at the bottom.",
+      "question_type": "procedural",
+      "id": "41-314_body-q02"
+    },
+    {
+      "question": "What is required between the side panel installation and proper fitment?",
+      "answer": "There must be a flat channel with the side panel installed.",
+      "question_type": "factual",
+      "id": "41-314_body-q03"
+    },
+    {
+      "question": "What should be done to prepare mating surfaces before welding?",
+      "answer": "Remove scrap metal, straighten and grind mating surfaces to prepare them for welding.",
+      "question_type": "procedural",
+      "id": "41-314_body-q04"
+    },
+    {
+      "question": "What specific preparation is needed for mating surfaces on the new side panel?",
+      "answer": "Grind mating surfaces on new side panel and drill holes for plug spot welding at the entrance joint. Coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-314_body-q05"
+    },
+    {
+      "question": "What type of tape should be used on the wheel house joint and side frame reinforcement?",
+      "answer": "Terostat tape should be used on wheel house joint and side frame reinforcement.",
+      "question_type": "tool",
+      "id": "41-314_body-q06"
+    },
+    {
+      "question": "What should be checked after installing and clamping the side panel?",
+      "answer": "Check door gap after installing and clamping side panel, and tack weld if necessary.",
+      "question_type": "inspection",
+      "id": "41-314_body-q07"
+    },
+    {
+      "question": "What diagram reference number shows the wheel house joint and side frame reinforcement procedure?",
+      "answer": "Diagram reference number 30 41 453 shows the wheel house joint and side frame reinforcement procedure.",
+      "question_type": "visual",
+      "id": "41-314_body-q08"
+    },
+    {
+      "question": "What diagram reference number shows the side panel installation and clamping procedure?",
+      "answer": "Diagram reference number 30 41 454 shows the side panel installation and clamping procedure.",
+      "question_type": "visual",
+      "id": "41-314_body-q09"
+    },
+    {
+      "question": "What is shown in diagram 30 41 452 regarding side panel preparation?",
+      "answer": "Diagram 30 41 452 shows grinding mating surfaces on new side panel and drilling holes for plug spot welding at the entrance joint.",
+      "question_type": "visual",
+      "id": "41-314_body-q10"
+    },
+    {
+      "question": "What must be done to scrap metal before working on mating surfaces?",
+      "answer": "Remove scrap metal before straightening and grinding the mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-314_body-q11"
+    },
+    {
+      "question": "What important note is given about the side panel and window frame modifications?",
+      "answer": "The note states that the side panel and window frame have been changed at bottom, and to correct bottom of window frame accordingly.",
+      "question_type": "safety",
+      "id": "41-314_body-q12"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "page_id": "51-262_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-262.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:18:07.300698",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 717
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for replacing the switch for trunk lid lock drive?",
+      "answer": "The procedure code is 51 26 020.",
+      "question_type": "factual",
+      "id": "51-262_body-equ-q01"
+    },
+    {
+      "question": "What should you check during installation of the trunk lid lock drive switch?",
+      "answer": "Check for correct fit of linkage in lock.",
+      "question_type": "inspection",
+      "id": "51-262_body-equ-q02"
+    },
+    {
+      "question": "What preliminary step should be taken if applicable when replacing the trunk lid lock switch?",
+      "answer": "If applicable, remove battery cover.",
+      "question_type": "procedural",
+      "id": "51-262_body-equ-q03"
+    },
+    {
+      "question": "What components need to be disengaged or removed if applicable before accessing the trunk lid lock?",
+      "answer": "If applicable, disengage left and right tail light carriers and remove trim panel.",
+      "question_type": "procedural",
+      "id": "51-262_body-equ-q04"
+    },
+    {
+      "question": "What are the three main steps for removal of the trunk lid lock drive?",
+      "answer": "Unscrew screws, disengage drive, and pull off plug.",
+      "question_type": "procedural",
+      "id": "51-262_body-equ-q05"
+    },
+    {
+      "question": "What is the first step in the installation procedure for the trunk lid lock drive?",
+      "answer": "Turn lock to LOCKED position.",
+      "question_type": "procedural",
+      "id": "51-262_body-equ-q06"
+    },
+    {
+      "question": "How should the drive be engaged during installation?",
+      "answer": "Engage drive in connecting link and hold with a screw (screw is not tightened).",
+      "question_type": "procedural",
+      "id": "51-262_body-equ-q07"
+    },
+    {
+      "question": "What should be done with the drive at position A during installation?",
+      "answer": "Compress drive (position A), pull down slightly (linkage play) and then tighten screw to 2 Nm (1.4 ft. lbs.).",
+      "question_type": "procedural",
+      "id": "51-262_body-equ-q10"
+    },
+    {
+      "question": "Which screw should be tightened last during installation?",
+      "answer": "Tighten the screw installed first.",
+      "question_type": "procedural",
+      "id": "51-262_body-equ-q11"
+    }
+  ]
+}

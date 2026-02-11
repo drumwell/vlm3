@@ -1,0 +1,73 @@
+{
+  "page_id": "12-41_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-41.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:38:14.228596",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 827
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the distance 'V' for new condition carbon brushes in the voltage regulator?",
+      "answer": "The distance 'V' for new condition carbon brushes is approximately 12 mm (0.472\").",
+      "question_type": "factual",
+      "id": "12-41_engine-e-q01"
+    },
+    {
+      "question": "What should be done if the battery charge indicator lamp goes out while the engine is running and the regulating voltage is not reached?",
+      "answer": "If the harmonic wave ratio and oscillograph are okay as shown, the voltage regulator has to be replaced according to section 12 32 000.",
+      "question_type": "diagnostic",
+      "id": "12-41_engine-e-q03"
+    },
+    {
+      "question": "What components should be checked for wear during installation?",
+      "answer": "Check slip rings for wear, fine grinding and polishing if necessary.",
+      "question_type": "inspection",
+      "id": "12-41_engine-e-q04"
+    },
+    {
+      "question": "What does the oscillograph pattern show for a defective power or exciter diode?",
+      "answer": "The oscillograph shows a square wave pattern with distinct flat-topped sections, indicating defective power or exciter diode.",
+      "question_type": "diagnostic",
+      "id": "12-41_engine-e-q05"
+    },
+    {
+      "question": "What action should be taken if the specified charging current is not reached during testing?",
+      "answer": "If the specified charging current is not reached, remove and disassemble alternator, and inspect components according to section 12 31 020/513.",
+      "question_type": "troubleshooting",
+      "id": "12-41_engine-e-q06"
+    },
+    {
+      "question": "What should be done with the voltage regulator if the indicator lamp stays on continuously?",
+      "answer": "Remove voltage regulator and check carbon brushes, replacing if necessary according to section 12 31 200.",
+      "question_type": "procedural",
+      "id": "12-41_engine-e-q08"
+    },
+    {
+      "question": "What does the oscillograph pattern show for a break in one exciter diode?",
+      "answer": "The oscillograph shows a pattern with missing or reduced amplitude sections, indicating a break in one exciter diode.",
+      "question_type": "diagnostic",
+      "id": "12-41_engine-e-q09"
+    },
+    {
+      "question": "What test equipment should be connected during installation?",
+      "answer": "Connect BMW service test unit, then start engine and compare test values with nominal values.",
+      "question_type": "procedural",
+      "id": "12-41_engine-e-q10"
+    },
+    {
+      "question": "What are the terminals labeled in the alternator diagram?",
+      "answer": "The terminals are labeled D+ and B+ in the alternator connection diagram.",
+      "question_type": "visual",
+      "id": "12-41_engine-e-q11"
+    }
+  ]
+}

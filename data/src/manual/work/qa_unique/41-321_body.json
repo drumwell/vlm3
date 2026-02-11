@@ -1,0 +1,85 @@
+{
+  "page_id": "41-321_body",
+  "image_path": "raw/41 - Body/41-321.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:01:16.039953",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 760
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to prepare the brace before sliding it into the C pillar?",
+      "answer": "Cut brace to size, sliding half of it into C pillar and spot welding.",
+      "question_type": "procedural",
+      "id": "41-321_body-q01"
+    },
+    {
+      "question": "What procedure is required for the B pillar brace installation?",
+      "answer": "Cut brace to size, sliding half of it into B pillar and spot welding.",
+      "question_type": "procedural",
+      "id": "41-321_body-q02"
+    },
+    {
+      "question": "Where should holes be drilled for plug spot welding in the C pillar joint?",
+      "answer": "Drill holes for plug spot welding in C pillar joint as shown in the diagram.",
+      "question_type": "procedural",
+      "id": "41-321_body-q03"
+    },
+    {
+      "question": "What drilling procedure is needed for the B pillar joint?",
+      "answer": "Drill holes for plug spot welding in B pillar joint.",
+      "question_type": "procedural",
+      "id": "41-321_body-q04"
+    },
+    {
+      "question": "Where should holes be drilled on the entrance joint?",
+      "answer": "Drill holes for plug spot welding in entrance joint.",
+      "question_type": "procedural",
+      "id": "41-321_body-q05"
+    },
+    {
+      "question": "What surface preparation is required for the new side panel?",
+      "answer": "Grind mating surfaces on new side panel. Coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-321_body-q06"
+    },
+    {
+      "question": "What should be applied to the bearing surfaces of air guide plates?",
+      "answer": "Use body sealing compound on bearing surfaces of air guide plates.",
+      "question_type": "procedural",
+      "id": "41-321_body-q07"
+    },
+    {
+      "question": "Where should body sealing compound be applied for the fuel filler neck?",
+      "answer": "Apply coat of body sealing compound on bearing surface for fuel filler neck and on edge of wheel opening.",
+      "question_type": "procedural",
+      "id": "41-321_body-q08"
+    },
+    {
+      "question": "What part number is associated with the B pillar brace cutting procedure?",
+      "answer": "Part number 30 41 230 is associated with the B pillar brace cutting procedure.",
+      "question_type": "factual",
+      "id": "41-321_body-q09"
+    },
+    {
+      "question": "Which diagram shows the drilling procedure for the C pillar joint?",
+      "answer": "Diagram 30 41 231 shows the drilling procedure for plug spot welding in C pillar joint.",
+      "question_type": "visual",
+      "id": "41-321_body-q10"
+    },
+    {
+      "question": "Which reference number corresponds to the fuel filler neck sealing procedure?",
+      "answer": "Reference number 30 41 236 corresponds to the fuel filler neck sealing procedure.",
+      "question_type": "factual",
+      "id": "41-321_body-q12"
+    }
+  ]
+}

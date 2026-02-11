@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-71-01",
+  "image_path": "raw/00 - Torque Specs/71-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:06:01.938504",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 687
+  },
+  "qa_pairs": [
+    {
+      "question": "What sequence should be followed when tightening the hitch to body bolts?",
+      "answer": "1. Hitch bolts, 2. Axial strut bolts, 3. Reinforcement bracket collar nut",
+      "question_type": "procedural",
+      "id": "00-torque-specs-71-01-q04"
+    },
+    {
+      "question": "Which Loctite number should be used with the slotted nut for the take-up pipe to hitch?",
+      "answer": "Loctite No. 638",
+      "question_type": "factual",
+      "id": "00-torque-specs-71-01-q05"
+    },
+    {
+      "question": "What is the difference in torque between the M10 8.8 and M10 10.9 bolts in the trailer hitch assembly?",
+      "answer": "The M10 10.9 bolts require 59 Nm while the M10 8.8 bolts require 42 Nm, a difference of 17 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-71-01-q08"
+    },
+    {
+      "question": "Which component uses the highest torque specification in the trailer hitch assembly?",
+      "answer": "The M40 slotted nut for the take-up pipe to hitch connection at 220 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-71-01-q09"
+    },
+    {
+      "question": "What section and subsection number covers the trailer hitch specifications?",
+      "answer": "Section 71-1, subsection 71 60 Trailer Hitch",
+      "question_type": "navigation",
+      "id": "00-torque-specs-71-01-q10"
+    }
+  ]
+}

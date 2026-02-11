@@ -1,0 +1,91 @@
+{
+  "page_id": "51-451_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-451.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:27:32.994375",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 699
+  },
+  "qa_pairs": [
+    {
+      "question": "What steps are required to remove the automatic transmission console trim?",
+      "answer": "First lift out the plate, then unscrew the bolts, and finally remove the trim.",
+      "question_type": "procedural",
+      "id": "51-451_body-equ-q01"
+    },
+    {
+      "question": "For cars with electric windows, what components need to be removed from the console?",
+      "answer": "Lift out switch (1) and pull off plug (2) of switch (1).",
+      "question_type": "procedural",
+      "id": "51-451_body-equ-q02"
+    },
+    {
+      "question": "What procedure is shown for removing the cigar lighter?",
+      "answer": "Pull off ashtray light and wires for cigar lighter.",
+      "question_type": "procedural",
+      "id": "51-451_body-equ-q03"
+    },
+    {
+      "question": "How do you remove the insulation sheet from the console area?",
+      "answer": "Remove insulation sheet and unscrew nut.",
+      "question_type": "procedural",
+      "id": "51-451_body-equ-q04"
+    },
+    {
+      "question": "What is the final step shown for removing the ashtray console?",
+      "answer": "Unscrew bolts and lift out ashtray console.",
+      "question_type": "procedural",
+      "id": "51-451_body-equ-q05"
+    },
+    {
+      "question": "What method is used to remove the retainer shown in the lower images?",
+      "answer": "Remove retainer by turning anticlockwise and clockwise 90\u00b0.",
+      "question_type": "procedural",
+      "id": "51-451_body-equ-q06"
+    },
+    {
+      "question": "Which direction should the tray be pulled for removal?",
+      "answer": "Pull out tray toward rear.",
+      "question_type": "procedural",
+      "id": "51-451_body-equ-q07"
+    },
+    {
+      "question": "What is the reference number 30 51 004 associated with?",
+      "answer": "The automatic transmission console removal procedure showing the plate lifting step.",
+      "question_type": "visual",
+      "id": "51-451_body-equ-q08"
+    },
+    {
+      "question": "What component is indicated by callout number (1) in the electric windows procedure?",
+      "answer": "The switch that needs to be lifted out.",
+      "question_type": "visual",
+      "id": "51-451_body-equ-q09"
+    },
+    {
+      "question": "What component is indicated by callout number (2) in the electric windows procedure?",
+      "answer": "The plug of switch (1) that needs to be pulled off.",
+      "question_type": "visual",
+      "id": "51-451_body-equ-q10"
+    },
+    {
+      "question": "How many degrees of rotation are required when removing the retainer?",
+      "answer": "90 degrees in both anticlockwise and clockwise directions.",
+      "question_type": "factual",
+      "id": "51-451_body-equ-q11"
+    },
+    {
+      "question": "What type of fasteners are used to secure the ashtray console?",
+      "answer": "Bolts that need to be unscrewed before lifting out the console.",
+      "question_type": "factual",
+      "id": "51-451_body-equ-q12"
+    }
+  ]
+}

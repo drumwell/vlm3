@@ -1,0 +1,82 @@
+{
+  "section_id": "00",
+  "section_name": "Maintenance and General Data",
+  "index_pages": [
+    "00-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "00 00 009",
+      "name": "Pre-delivery inspection",
+      "pages": [
+        "00-1"
+      ]
+    },
+    {
+      "code": "210",
+      "name": "BMW running-in inspection at 1,200 miles",
+      "pages": [
+        "00-7"
+      ]
+    },
+    {
+      "code": "220",
+      "name": "BMW inspection I",
+      "pages": [
+        "00-10"
+      ]
+    },
+    {
+      "code": "230",
+      "name": "BMW inspection II = inspection I + additional work",
+      "pages": [
+        "00-14"
+      ]
+    },
+    {
+      "code": "240",
+      "name": "BMW Annual Check",
+      "pages": [
+        "00-16"
+      ]
+    },
+    {
+      "code": "249",
+      "name": "BMW Engine oil service",
+      "pages": [
+        "00-17"
+      ]
+    },
+    {
+      "code": "259",
+      "name": "Additional Rec. Service",
+      "pages": [
+        "00-18"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "00-1": [
+      "00 00 009"
+    ],
+    "00-7": [
+      "210"
+    ],
+    "00-10": [
+      "220"
+    ],
+    "00-14": [
+      "230"
+    ],
+    "00-16": [
+      "240"
+    ],
+    "00-17": [
+      "249"
+    ],
+    "00-18": [
+      "259"
+    ]
+  },
+  "merge_warnings": []
+}

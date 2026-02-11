@@ -1,0 +1,91 @@
+{
+  "page_id": "51-162_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-162.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:13:10.402619",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 683
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for removing and installing the tray?",
+      "answer": "The procedure code is 51 16 200.",
+      "question_type": "factual",
+      "id": "51-162_body-equ-q01"
+    },
+    {
+      "question": "What are the first two steps when removing the tray?",
+      "answer": "First disconnect the battery ground lead, then detach the trim panel at bottom left.",
+      "question_type": "procedural",
+      "id": "51-162_body-equ-q02"
+    },
+    {
+      "question": "How do you remove the ashtray according to the manual?",
+      "answer": "Lift out the ashtray and unscrew the nut.",
+      "question_type": "procedural",
+      "id": "51-162_body-equ-q03"
+    },
+    {
+      "question": "What procedure is shown for disconnecting the console?",
+      "answer": "Disconnect the console at the front end by pulling back and pull off of parking brake lever.",
+      "question_type": "procedural",
+      "id": "51-162_body-equ-q04"
+    },
+    {
+      "question": "What steps are required for manual transmission shift lever removal?",
+      "answer": "Pull off shift lever knob, then engage shift lever knob in twist lock for installation.",
+      "question_type": "procedural",
+      "id": "51-162_body-equ-q05"
+    },
+    {
+      "question": "What components need to be removed for automatic transmission servicing?",
+      "answer": "Lift out plate, unscrew bolts, and remove trim.",
+      "question_type": "procedural",
+      "id": "51-162_body-equ-q06"
+    },
+    {
+      "question": "How do you remove the electric window switch if applicable?",
+      "answer": "Lift out the electric window switch and pull off the plug.",
+      "question_type": "procedural",
+      "id": "51-162_body-equ-q07"
+    },
+    {
+      "question": "What is required to remove the insulation sheet?",
+      "answer": "Remove insulation sheet and unscrew nut.",
+      "question_type": "procedural",
+      "id": "51-162_body-equ-q08"
+    },
+    {
+      "question": "What component is shown being lifted off in the upper right image?",
+      "answer": "The dust cover is being lifted off.",
+      "question_type": "visual",
+      "id": "51-162_body-equ-q09"
+    },
+    {
+      "question": "Which transmission type requires engaging the shift lever knob in twist lock during installation?",
+      "answer": "Manual transmission requires engaging the shift lever knob in twist lock during installation.",
+      "question_type": "factual",
+      "id": "51-162_body-equ-q10"
+    },
+    {
+      "question": "What is the first safety step that must be performed before beginning this procedure?",
+      "answer": "Disconnect the battery ground lead before starting any work.",
+      "question_type": "safety",
+      "id": "51-162_body-equ-q11"
+    },
+    {
+      "question": "What visual indicators in the images show the direction of component removal?",
+      "answer": "White arrows in the images indicate the direction components should be lifted or moved during removal.",
+      "question_type": "visual",
+      "id": "51-162_body-equ-q12"
+    }
+  ]
+}

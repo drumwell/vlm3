@@ -1,0 +1,55 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6100-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:01:39.913835",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 569
+  },
+  "qa_pairs": [
+    {
+      "question": "How long does the lock heater control unit keep the heater switch closed when the driver's exterior door handle switch is closed?",
+      "answer": "The heater switch closes for 21 seconds at 5\u00b0F (15\u00b0C), 17 seconds at 32\u00b0F (0\u00b0C), and 5.5 seconds at 77\u00b0F (25\u00b0C).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-00-q03"
+    },
+    {
+      "question": "What wire color connects to the horn relay at terminal 85?",
+      "answer": "A .75 BR/YL (0.75mm\u00b2 brown/yellow) wire connects to terminal 85 of the horn relay.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-00-q04"
+    },
+    {
+      "question": "How many horn switches are shown in the steering column assembly?",
+      "answer": "Four horn switches are shown in the steering column assembly, all grounded to the steering column.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-00-q05"
+    },
+    {
+      "question": "What connector designation is shown for the lock heater component?",
+      "answer": "The lock heater shows connector designation C560.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-00-q06"
+    },
+    {
+      "question": "What type of operation does the driver's exterior door handle switch provide for the lock heater?",
+      "answer": "The driver's exterior door handle switch is closed when the door handle is lifted, activating the lock heater control unit.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-00-q07"
+    },
+    {
+      "question": "What wire gauge and color is used for the ground distribution connection S100?",
+      "answer": "Connection S100 uses a 2.5 BR (2.5mm\u00b2 brown) wire for ground distribution.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-00-q08"
+    }
+  ]
+}

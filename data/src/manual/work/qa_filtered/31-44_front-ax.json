@@ -1,0 +1,61 @@
+{
+  "page_id": "31-44_front-ax",
+  "image_path": "raw/31 - Front Axle/31-44.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:05:04.510342",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 532
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two main gear types shown in the center of the diagram?",
+      "answer": "The center shows GLEASON and KLINGELN BERG gear types.",
+      "question_type": "component",
+      "id": "31-44_front-ax-q02"
+    },
+    {
+      "question": "What does the diagram show regarding Gleason tooth height?",
+      "answer": "The diagram indicates that Gleason tooth height is at ext dia (external diameter) than at int dia (internal diameter).",
+      "question_type": "factual",
+      "id": "31-44_front-ax-q03"
+    },
+    {
+      "question": "What does the diagram indicate about Klingelnberg tooth height?",
+      "answer": "The diagram shows that Klingelnberg tooth height along its entire length is consistent.",
+      "question_type": "factual",
+      "id": "31-44_front-ax-q04"
+    },
+    {
+      "question": "What contact pattern conditions are shown in the inner rings?",
+      "answer": "The inner rings show different contact pattern conditions including 'correct', 'without backlash', 'turning diameter', and variations of 'too large' and 'too small'.",
+      "question_type": "diagnostic",
+      "id": "31-44_front-ax-q05"
+    },
+    {
+      "question": "What adjustment conditions are indicated around the outer edge?",
+      "answer": "The outer edge shows conditions like 'without', 'with', 'correct', 'incorrect', and references to adjustments being 'too large' or 'too small'.",
+      "question_type": "procedural",
+      "id": "31-44_front-ax-q06"
+    },
+    {
+      "question": "What type of visual representation is used to show the tooth contact patterns?",
+      "answer": "Black marks on the gear teeth are used to visually represent the different contact patterns around the ring gear.",
+      "question_type": "visual",
+      "id": "31-44_front-ax-q07"
+    },
+    {
+      "question": "What is the reference number shown at the bottom of the page?",
+      "answer": "The reference number shown at the bottom is 316 33 044 cn.",
+      "question_type": "navigation",
+      "id": "31-44_front-ax-q08"
+    }
+  ]
+}

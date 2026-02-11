@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6313-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:05:34.869724",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 537
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amp rating for FUSE 4 in the turn/hazard lights circuit?",
+      "answer": "FUSE 4 is rated at 15 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-00-q01"
+    },
+    {
+      "question": "What is the amp rating for FUSE 24 in this circuit?",
+      "answer": "FUSE 24 is rated at 15 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-00-q02"
+    },
+    {
+      "question": "What resistance value is shown for the hazard switch light?",
+      "answer": "The hazard switch light has a resistance of 150 OHMS.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-00-q03"
+    },
+    {
+      "question": "What wire color code is used for the connection from the combination switch to terminal 31?",
+      "answer": "The wire color code is .75 BR (0.75mm brown wire).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-00-q04"
+    },
+    {
+      "question": "According to the note, when does the resistor dim the hazard switch light?",
+      "answer": "The resistor dims the hazard switch light when the light switch is in 'HEAD' or 'PARK' and the hazard switch is off.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-00-q05"
+    },
+    {
+      "question": "What are the two power distribution conditions shown at the top of the diagram?",
+      "answer": "The two conditions are 'HOT IN ACCY, RUN OR START' and 'HOT AT ALL TIMES'.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-00-q06"
+    },
+    {
+      "question": "What component is located in the steering column according to this diagram?",
+      "answer": "The combination switch is located in the steering column.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-00-q07"
+    },
+    {
+      "question": "What is the wire gauge and color for the connection from C103 to terminal 22?",
+      "answer": "The connection uses a 1.5 RD/WT wire (1.5mm red/white wire).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-00-q08"
+    }
+  ]
+}

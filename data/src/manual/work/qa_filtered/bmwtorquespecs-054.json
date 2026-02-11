@@ -1,0 +1,55 @@
+{
+  "page_id": "bmwtorquespecs-054",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/054.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:22:38.896630",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 553
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the TCI control unit?",
+      "answer": "2.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-054-q01"
+    },
+    {
+      "question": "What is the torque value for speed and reference mark senders on engines with DME?",
+      "answer": "7 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-054-q03"
+    },
+    {
+      "question": "What component has item number 4AZ in the Engine Electrical System section?",
+      "answer": "Cover on control unit box",
+      "question_type": "component",
+      "id": "bmwtorquespecs-054-q04"
+    },
+    {
+      "question": "What is the torque specification for the angle impulse sensor on cylinder head?",
+      "answer": "5.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-054-q05"
+    },
+    {
+      "question": "What are the two crankshaft sensor locations listed in item 6AZ?",
+      "answer": "Crankshaft sensor on timing case cover and Crankshaft sensor on cylinder crankcase",
+      "question_type": "component",
+      "id": "bmwtorquespecs-054-q07"
+    },
+    {
+      "question": "What is the highest torque value shown in this Engine Electrical System table?",
+      "answer": "20 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-054-q08"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "51-811_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-811.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:36:16.828862",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 663
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the test requirements for troubleshooting power windows?",
+      "answer": "Battery charged with at least 11.5 V, fuse no. 17 okay, power windows in perfect mechanical condition, all tests made against car ground, plug connection tests made on both sides of plug, and tests made with BMW service tester or BMW digital tester II.",
+      "question_type": "procedural",
+      "id": "51-811_body-equ-q01"
+    },
+    {
+      "question": "What should I check if fuse no. 17 is not okay?",
+      "answer": "Check other connected electric equipment, specifically the sun roof - relay K 5.",
+      "question_type": "diagnostic",
+      "id": "51-811_body-equ-q02"
+    },
+    {
+      "question": "What is the first troubleshooting step for failure of the entire power window system?",
+      "answer": "See Test Requirements - ensure battery is charged with at least 11.5 V and fuse no. 17 is okay.",
+      "question_type": "procedural",
+      "id": "51-811_body-equ-q03"
+    },
+    {
+      "question": "What voltage should the automatic cutout have for proper operation?",
+      "answer": "The automatic cutout should have voltage greater than 11.5 V.",
+      "question_type": "parameter",
+      "id": "51-811_body-equ-q04"
+    },
+    {
+      "question": "What should I check if the automatic cutout does not have voltage greater than 11.5 V?",
+      "answer": "Check (green/gray) wire to special equipment plug, perform power flow test if necessary.",
+      "question_type": "diagnostic",
+      "id": "51-811_body-equ-q05"
+    },
+    {
+      "question": "What is pin 3 on the push buttons and what should I check for?",
+      "answer": "Pin 3 is the (green/gray) wire of push buttons, and you should check if it has voltage greater than 11.5 V.",
+      "question_type": "wiring",
+      "id": "51-811_body-equ-q06"
+    },
+    {
+      "question": "What should I do if pin 3 of the push buttons does not have voltage?",
+      "answer": "Check wire harness for breaks, repairing if necessary.",
+      "question_type": "troubleshooting",
+      "id": "51-811_body-equ-q07"
+    },
+    {
+      "question": "What testing equipment is recommended for power window diagnostics?",
+      "answer": "BMW service tester or BMW digital tester II.",
+      "question_type": "tool",
+      "id": "51-811_body-equ-q08"
+    },
+    {
+      "question": "What is the minimum battery voltage required for power window testing?",
+      "answer": "At least 11.5 V.",
+      "question_type": "parameter",
+      "id": "51-811_body-equ-q09"
+    },
+    {
+      "question": "Which fuse controls the power window system?",
+      "answer": "Fuse no. 17.",
+      "question_type": "component",
+      "id": "51-811_body-equ-q10"
+    }
+  ]
+}

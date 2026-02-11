@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-11-19",
+  "image_path": "raw/00 - Torque Specs/11-19.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:40:20.909491",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 527
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for S14 connecting rod bolts?",
+      "answer": "55 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-19-q01"
+    },
+    {
+      "question": "What is the main torque value for S38 connecting rod bolts?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-19-q03"
+    },
+    {
+      "question": "What is the main torque specification for S50 connecting rod bolts?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-19-q06"
+    },
+    {
+      "question": "Which engine has the highest connecting rod bolt torque specification?",
+      "answer": "The S14 engine with 55 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-19-q08"
+    },
+    {
+      "question": "Do S38 and S50 engines use the same application torque for connecting rod bolts?",
+      "answer": "Yes, both use 5 Nm application torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-19-q09"
+    },
+    {
+      "question": "What procedure should be followed when installing connecting rod bolts?",
+      "answer": "Replace, wash and oil connecting rod bolts before installation",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-19-q10"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-16-04",
+  "image_path": "raw/00 - Torque Specs/16-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:56:03.349743",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 574
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the plastic sealing ring that is 26.5 mm high?",
+      "answer": "40 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-04-q03"
+    },
+    {
+      "question": "What torque value follows the torque angle specification?",
+      "answer": "55 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-04-q05"
+    },
+    {
+      "question": "What is the torque specification for the metal sealing ring (E39)?",
+      "answer": "35 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-04-q06"
+    },
+    {
+      "question": "What torque should be applied to the intank pump with fill level sensor nuts when tightening crosswise?",
+      "answer": "6.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-04-q07"
+    },
+    {
+      "question": "Which components are identified as E34/E31 type in the fuel tank specifications?",
+      "answer": "Plastic sealing ring, 26.5 mm high",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-04-q09"
+    },
+    {
+      "question": "What is the difference in torque between the 26.5 mm high plastic sealing ring and the metal sealing ring?",
+      "answer": "The plastic sealing ring requires 40 Nm while the metal sealing ring requires 35 Nm, a difference of 5 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-04-q10"
+    }
+  ]
+}

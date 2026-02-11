@@ -1,0 +1,91 @@
+{
+  "page_id": "34-19_brakes",
+  "image_path": "raw/34 - Brakes/34-19.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:17:49.529478",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 789
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two main procedures covered in section 34-19?",
+      "answer": "The two main procedures are 34 41 000 REMOVING AND INSTALLING PARKING BRAKE LEVER and 34 41 100 REMOVING AND INSTALLING PARKING BRAKE CABLE.",
+      "question_type": "factual",
+      "id": "34-19_brakes-q01"
+    },
+    {
+      "question": "How do you remove the rubber cap from the parking brake lever?",
+      "answer": "Take off rubber cap (1) by pulling up clamp at front and lifting out at rear.",
+      "question_type": "procedural",
+      "id": "34-19_brakes-q02"
+    },
+    {
+      "question": "What is the first step when removing the parking brake cable?",
+      "answer": "Remove and install brake shoes 34 21 530, then take rubber cap off of parking brake lever by pulling up clamp at front and lifting out at rear.",
+      "question_type": "procedural",
+      "id": "34-19_brakes-q03"
+    },
+    {
+      "question": "How many nuts need to be unscrewed on the parking brake cables?",
+      "answer": "Unscrew nuts (2) on parking brake cables.",
+      "question_type": "factual",
+      "id": "34-19_brakes-q04"
+    },
+    {
+      "question": "What should you do after lifting out the rear ashtray?",
+      "answer": "Unscrew bolt, then disconnect consols by pushing back and remove.",
+      "question_type": "procedural",
+      "id": "34-19_brakes-q05"
+    },
+    {
+      "question": "Where do you disconnect the parking brake cable in the installation procedure?",
+      "answer": "Disconnect parking brake cable on semi-trailing arm.",
+      "question_type": "procedural",
+      "id": "34-19_brakes-q06"
+    },
+    {
+      "question": "What callout numbers are visible in the bottom diagram showing bolts 3, 4, and 5?",
+      "answer": "The diagram shows callout numbers 3, 4, and 5 indicating the bolts that need to be unscrewed to remove the parking brake lever.",
+      "question_type": "visual",
+      "id": "34-19_brakes-q07"
+    },
+    {
+      "question": "How do you disconnect the parking brake cable on the brake back-plate?",
+      "answer": "Compress locking clamp, disconnect parking brake cable on brake back-plate and pull out.",
+      "question_type": "procedural",
+      "id": "34-19_brakes-q08"
+    },
+    {
+      "question": "What instruction is given for installation regarding the clamp?",
+      "answer": "Installation: Make sure clamp fits correctly.",
+      "question_type": "procedural",
+      "id": "34-19_brakes-q09"
+    },
+    {
+      "question": "How many bolts need to be unscrewed to remove the parking brake lever?",
+      "answer": "Unscrew bolts (3 ... 5) to remove parking brake lever.",
+      "question_type": "factual",
+      "id": "34-19_brakes-q10"
+    },
+    {
+      "question": "What component is shown being lifted out in the second image on the left side?",
+      "answer": "The rear ashtray is being lifted out after unscrewing the bolt.",
+      "question_type": "visual",
+      "id": "34-19_brakes-q11"
+    },
+    {
+      "question": "What reference section is mentioned for brake shoe removal and installation?",
+      "answer": "Section 34 21 530 is referenced for removing and installing brake shoes.",
+      "question_type": "navigation",
+      "id": "34-19_brakes-q12"
+    }
+  ]
+}

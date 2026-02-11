@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-120",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/120.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:35:30.201571",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 640
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the front console to shift console connection?",
+      "answer": "25 Nm for all vehicles with sheet metal console.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-120-q01"
+    },
+    {
+      "question": "What torque value should be used when connecting the shift console to transmission?",
+      "answer": "23 Nm for all vehicles with sheet metal console.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-120-q02"
+    },
+    {
+      "question": "How much torque is required for the rear shift console to body connection?",
+      "answer": "11 Nm for all vehicles.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-120-q03"
+    },
+    {
+      "question": "What is the specific torque requirement for the aluminum shift arm console to transmission on E30 M3?",
+      "answer": "21.5 Nm for E30 M3 vehicles.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-120-q04"
+    },
+    {
+      "question": "What torque specification applies to the aluminum shift arm to console connection on E30 M3?",
+      "answer": "11 Nm for E30 M3 vehicles.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-120-q05"
+    },
+    {
+      "question": "For the shift arm console to body connection, what are the different torque values based on vehicle type?",
+      "answer": "21 Nm for all vehicles except E31, and 9 Nm for E31 vehicles.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-120-q06"
+    },
+    {
+      "question": "What is the torque specification for the adjustable shift rod clamp on E31 vehicles?",
+      "answer": "23 Nm for E31 vehicles.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-120-q07"
+    },
+    {
+      "question": "Which vehicles use the aluminum shift arm console connections mentioned in this table?",
+      "answer": "E30 M3 vehicles use the aluminum shift arm console connections.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-120-q08"
+    },
+    {
+      "question": "What section of the service manual does this torque specification table belong to?",
+      "answer": "Section 25-1 Shift Mechanism, specifically for Manual Transmission (25 11).",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-120-q09"
+    },
+    {
+      "question": "Are there different torque specifications for the shift arm console to body connection depending on the vehicle model?",
+      "answer": "Yes, all vehicles except E31 require 21 Nm, while E31 vehicles require only 9 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-120-q10"
+    }
+  ]
+}

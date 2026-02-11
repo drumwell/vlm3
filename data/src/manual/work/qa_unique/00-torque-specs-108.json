@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-108",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/108.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:36:39.313881",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 638
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component is referenced as 1AZ in the automatic transmission torque specifications?",
+      "answer": "Output flange collar nut",
+      "question_type": "factual",
+      "id": "00-torque-specs-108-q03"
+    },
+    {
+      "question": "Are there different torque specifications for the same component depending on the transmission type?",
+      "answer": "Yes, the output flange collar nut has different torque specifications: 225 Nm for A5S 300J and 100 Nm for all others",
+      "question_type": "factual",
+      "id": "00-torque-specs-108-q09"
+    },
+    {
+      "question": "What category of automatic transmission components does this torque specification apply to?",
+      "answer": "Input, Intermediate and Output Shafts",
+      "question_type": "component",
+      "id": "00-torque-specs-108-q10"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "page_id": "00-torque-specs-11-26",
+  "image_path": "raw/00 - Torque Specs/11-26.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:41:44.533488",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 622
+  },
+  "qa_pairs": [
+    {
+      "question": "What section and subsection does this oil pump torque specification table belong to?",
+      "answer": "Section 11-26 Engine, subsection 11.41 Oil Pump with Strainer and Drive",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-26-q09"
+    }
+  ]
+}

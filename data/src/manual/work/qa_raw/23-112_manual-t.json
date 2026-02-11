@@ -1,0 +1,91 @@
+{
+  "page_id": "23-112_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-112.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:28:17.243032",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 863
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tools are required to hold the output flange during collar nut installation?",
+      "answer": "Special Tool 23 0 020 is used to hold the output flange, and Special Tool 23 1 210 is used to tighten the collar nut.",
+      "question_type": "tool",
+      "id": "23-112_manual-t-q01"
+    },
+    {
+      "question": "What compound should be applied when installing the collar nut?",
+      "answer": "Locking compound should be applied when installing the collar nut.",
+      "question_type": "procedural",
+      "id": "23-112_manual-t-q02"
+    },
+    {
+      "question": "Which special tool is used to apply the proper tightening torque?",
+      "answer": "Special Tool 23 1 200 is used to apply the proper tightening torque.",
+      "question_type": "tool",
+      "id": "23-112_manual-t-q03"
+    },
+    {
+      "question": "What components are identified by callout numbers 23 1 200 and 23 1 210 in the top diagram?",
+      "answer": "23 1 200 identifies the torque application tool and 23 1 210 identifies the collar nut tightening tool.",
+      "question_type": "visual",
+      "id": "23-112_manual-t-q04"
+    },
+    {
+      "question": "What is the complete procedure for installing the output flange collar nut?",
+      "answer": "Push or drive on the output flange, install the collar nut with locking compound, apply Special Tool 23 1 200, hold the output flange with Special Tool 23 0 020, and tighten the collar nut with Special Tool 23 1 210 to the specified tightening torque.",
+      "question_type": "procedural",
+      "id": "23-112_manual-t-q05"
+    },
+    {
+      "question": "What should be installed after the collar nut procedure is complete?",
+      "answer": "Install the lockplate and lock it in the groove.",
+      "question_type": "procedural",
+      "id": "23-112_manual-t-q06"
+    },
+    {
+      "question": "What does callout 23 0 020 indicate in the top diagram?",
+      "answer": "23 0 020 indicates the special tool used to hold the output flange during collar nut installation.",
+      "question_type": "visual",
+      "id": "23-112_manual-t-q07"
+    },
+    {
+      "question": "What component is shown in the bottom diagram with callout 30 23 241?",
+      "answer": "The bottom diagram shows the lockplate installation with callout 30 23 241 identifying the lockplate component.",
+      "question_type": "visual",
+      "id": "23-112_manual-t-q08"
+    },
+    {
+      "question": "Where should the lockplate be positioned once installed?",
+      "answer": "The lockplate should be locked in the groove.",
+      "question_type": "procedural",
+      "id": "23-112_manual-t-q09"
+    },
+    {
+      "question": "What reference information is provided at the bottom of the page?",
+      "answer": "The page references 'See Specifications' with a single asterisk and 'Source: HWB' with a double asterisk.",
+      "question_type": "navigation",
+      "id": "23-112_manual-t-q10"
+    },
+    {
+      "question": "What is the significance of the tightening torque specification mentioned in the procedure?",
+      "answer": "The tightening torque specification is referenced with an asterisk, indicating that the specific torque value should be found in the Specifications section.",
+      "question_type": "factual",
+      "id": "23-112_manual-t-q11"
+    },
+    {
+      "question": "What is the first step in the output flange installation procedure?",
+      "answer": "The first step is to push or drive on the output flange.",
+      "question_type": "procedural",
+      "id": "23-112_manual-t-q12"
+    }
+  ]
+}

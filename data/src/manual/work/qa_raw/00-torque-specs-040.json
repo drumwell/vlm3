@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-040",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/040.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:23:47.899498",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 595
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M8 screws when installing the water pump to crankcase?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-040-q01"
+    },
+    {
+      "question": "What is the torque specification for M6 screws when installing the water pump to crankcase?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-040-q02"
+    },
+    {
+      "question": "Which section of the manual covers water pump and drive specifications?",
+      "answer": "Section 11 51 Water Pump and Drive",
+      "question_type": "navigation",
+      "id": "00-torque-specs-040-q03"
+    },
+    {
+      "question": "What component is covered under section 11-30 of the engine specifications?",
+      "answer": "Engine",
+      "question_type": "navigation",
+      "id": "00-torque-specs-040-q04"
+    },
+    {
+      "question": "Do both M6 and M8 water pump to crankcase screws apply to all vehicle types?",
+      "answer": "Yes, both specifications apply to all vehicle types as indicated by 'All' in the Type column",
+      "question_type": "factual",
+      "id": "00-torque-specs-040-q05"
+    },
+    {
+      "question": "What is the difference in torque specification between M8 and M6 screws for water pump installation?",
+      "answer": "The M8 screws require 22 Nm while M6 screws require 10 Nm, a difference of 12 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-040-q06"
+    },
+    {
+      "question": "What unit of measurement is used for the water pump to crankcase screw torque specifications?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-040-q07"
+    },
+    {
+      "question": "What specific fastener connection is being specified for the water pump installation?",
+      "answer": "Water pump to crankcase",
+      "question_type": "component",
+      "id": "00-torque-specs-040-q09"
+    },
+    {
+      "question": "How many different screw sizes are specified for water pump to crankcase installation?",
+      "answer": "Two different screw sizes are specified: M8 and M6",
+      "question_type": "factual",
+      "id": "00-torque-specs-040-q10"
+    }
+  ]
+}

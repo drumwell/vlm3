@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-026",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/026.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:20:56.884306",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 538
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the vibration damper hub on crankshaft?",
+      "answer": "60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-026-q01"
+    },
+    {
+      "question": "What screw type is used for the S38 B38 vibration damper hub on crankshaft?",
+      "answer": "M12x1.5",
+      "question_type": "factual",
+      "id": "00-torque-specs-026-q02"
+    },
+    {
+      "question": "What screw type is specified for the S50 engine vibration damper?",
+      "answer": "M12x1.5",
+      "question_type": "factual",
+      "id": "00-torque-specs-026-q03"
+    },
+    {
+      "question": "What are the torque angle specifications listed in the table?",
+      "answer": "50\u00b0 for both torque angle entries",
+      "question_type": "factual",
+      "id": "00-torque-specs-026-q04"
+    },
+    {
+      "question": "Which section of the manual does this page belong to?",
+      "answer": "Section 11-16 Engine",
+      "question_type": "navigation",
+      "id": "00-torque-specs-026-q05"
+    },
+    {
+      "question": "What is being replaced according to the vibration damper specification?",
+      "answer": "Replace screws",
+      "question_type": "procedural",
+      "id": "00-torque-specs-026-q06"
+    },
+    {
+      "question": "What component is covered under section 11 23?",
+      "answer": "Vibration Damper",
+      "question_type": "component",
+      "id": "00-torque-specs-026-q07"
+    },
+    {
+      "question": "Are there different engine types listed for the vibration damper specifications?",
+      "answer": "Yes, S38 B38 and S50 engine types are listed",
+      "question_type": "factual",
+      "id": "00-torque-specs-026-q08"
+    },
+    {
+      "question": "What is the specific part being referenced as 2AZ?",
+      "answer": "Vibration damper hub on crankshaft",
+      "question_type": "component",
+      "id": "00-torque-specs-026-q09"
+    },
+    {
+      "question": "How many torque angle specifications are shown in the table?",
+      "answer": "Two torque angle specifications, both at 50\u00b0",
+      "question_type": "factual",
+      "id": "00-torque-specs-026-q10"
+    }
+  ]
+}

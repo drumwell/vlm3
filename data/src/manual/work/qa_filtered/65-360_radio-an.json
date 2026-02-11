@@ -1,0 +1,91 @@
+{
+  "page_id": "65-360_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-360.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:06:15.409106",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 757
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main section and page number for these on-board computer procedures?",
+      "answer": "This is section 65-360 covering removing and installing or replacing on-board computer components.",
+      "question_type": "factual",
+      "id": "65-360_radio-an-q01"
+    },
+    {
+      "question": "What are the first two steps when beginning on-board computer service?",
+      "answer": "First lift out the radio mask or remove the radio, then open the glove box and pull out pins (1) of both retaining straps.",
+      "question_type": "procedural",
+      "id": "65-360_radio-an-q02"
+    },
+    {
+      "question": "How do you access the on-board computer after removing the cover?",
+      "answer": "Unscrew screws and take out the on-board computer from its mounting location.",
+      "question_type": "procedural",
+      "id": "65-360_radio-an-q03"
+    },
+    {
+      "question": "What components are numbered 1 and 2 in the slider removal diagram?",
+      "answer": "Component 1 is the slider and component 2 is the plug that needs to be pulled off.",
+      "question_type": "visual",
+      "id": "65-360_radio-an-q04"
+    },
+    {
+      "question": "What is the procedure for removing the slider and plug assembly?",
+      "answer": "Pull out slider (1) and pull off plug (2) as shown in the diagram.",
+      "question_type": "procedural",
+      "id": "65-360_radio-an-q05"
+    },
+    {
+      "question": "What special procedure is mentioned for replacing the coding plug?",
+      "answer": "To replace the coding plug, compress the retainers and pull out the coding plug.",
+      "question_type": "procedural",
+      "id": "65-360_radio-an-q06"
+    },
+    {
+      "question": "Where can additional specifications for the coding plug replacement be found?",
+      "answer": "Additional specifications can be found in the Specifications section as indicated by the asterisk note.",
+      "question_type": "navigation",
+      "id": "65-360_radio-an-q07"
+    },
+    {
+      "question": "What is the BMW part number reference shown for the coding plug procedure?",
+      "answer": "The BMW part number reference shown is 733 62 019.",
+      "question_type": "factual",
+      "id": "65-360_radio-an-q08"
+    },
+    {
+      "question": "What is the procedure for accessing components behind the glove box?",
+      "answer": "Open the glove box and pull out pins (1) of both retaining straps to gain access.",
+      "question_type": "procedural",
+      "id": "65-360_radio-an-q09"
+    },
+    {
+      "question": "How do you remove the cover after accessing the glove box area?",
+      "answer": "Unscrew screws and pull down the cover to access internal components.",
+      "question_type": "procedural",
+      "id": "65-360_radio-an-q10"
+    },
+    {
+      "question": "What is the final step shown for wire harness disconnection?",
+      "answer": "Pull off the wire plug and remove the cover to complete the disconnection process.",
+      "question_type": "procedural",
+      "id": "65-360_radio-an-q11"
+    },
+    {
+      "question": "What BMW service procedure number is referenced at the top of the page?",
+      "answer": "The BMW service procedure number referenced is 65 81 030.",
+      "question_type": "factual",
+      "id": "65-360_radio-an-q12"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-16-02",
+  "image_path": "raw/00 - Torque Specs/16-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:55:41.845208",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 611
+  },
+  "qa_pairs": [
+    {
+      "question": "Which fuel pump components share the same 6.5 Nm torque specification?",
+      "answer": "The pump assembly to metal-bonded mount and holder to fuel pump or fuel reservoir both use 6.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-02-q08"
+    },
+    {
+      "question": "What is the torque difference between M4 and M5 electric connections on the fuel pump?",
+      "answer": "The M5 connections use 1.6 Nm while M4 connections use 1.2 Nm, a difference of 0.4 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-02-q10"
+    }
+  ]
+}

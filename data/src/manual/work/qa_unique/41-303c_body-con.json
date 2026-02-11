@@ -1,0 +1,67 @@
+{
+  "page_id": "41-303c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-303c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:56:12.926673",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 691
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be applied to the wheel opening surface and fuel tank filler neck?",
+      "answer": "Apply a coat of body sealing compound on the wheel opening surface and fuel tank filler neck.",
+      "question_type": "procedural",
+      "id": "41-303c_body-con-q01"
+    },
+    {
+      "question": "Where should spot welding be performed on the wheel opening surface?",
+      "answer": "Spot weld side panel on wheel opening surface.",
+      "question_type": "procedural",
+      "id": "41-303c_body-con-q04"
+    },
+    {
+      "question": "What inspection should be performed on the doors?",
+      "answer": "Check door gaps.",
+      "question_type": "inspection",
+      "id": "41-303c_body-con-q05"
+    },
+    {
+      "question": "What components should be installed and checked according to the trunk lid instruction?",
+      "answer": "Install trunk lid and top lid. Check gaps.",
+      "question_type": "procedural",
+      "id": "41-303c_body-con-q06"
+    },
+    {
+      "question": "Where should the side panel be plug spot welded?",
+      "answer": "Plug spot weld side panel on side member cover and B pillar.",
+      "question_type": "procedural",
+      "id": "41-303c_body-con-q07"
+    },
+    {
+      "question": "What welding procedure is specified for the trunk floor plate?",
+      "answer": "Spot weld side panel on trunk floor plate.",
+      "question_type": "procedural",
+      "id": "41-303c_body-con-q08"
+    },
+    {
+      "question": "What type of welding is primarily used for attaching the side panel?",
+      "answer": "Spot welding is primarily used, with some plug spot welding on the side member cover and B pillar.",
+      "question_type": "factual",
+      "id": "41-303c_body-con-q11"
+    },
+    {
+      "question": "What should be checked after installing the trunk components?",
+      "answer": "Check gaps after installing the trunk lid and top lid.",
+      "question_type": "inspection",
+      "id": "41-303c_body-con-q12"
+    }
+  ]
+}

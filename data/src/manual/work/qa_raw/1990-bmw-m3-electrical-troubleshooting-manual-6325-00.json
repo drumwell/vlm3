@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6325-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6325-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:06:29.477126",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 470
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number and title for this wiring diagram?",
+      "answer": "6325-0 STOP LIGHTS",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6325-00-q01"
+    },
+    {
+      "question": "What fuse protects the stop lights circuit and what is its amperage rating?",
+      "answer": "Fuse 6, 75 AMP",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6325-00-q02"
+    },
+    {
+      "question": "What type of switch controls the brake lights and how does it operate?",
+      "answer": "The brake switch is closed with brake pedal depressed",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6325-00-q03"
+    },
+    {
+      "question": "Which wire colors are shown connecting to the cruise control system?",
+      "answer": "5 VI/GN (violet/green) and 5 VI/WT (violet/white)",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6325-00-q04"
+    },
+    {
+      "question": "What components are shown in the dashed boxes connected to the brake lights circuit?",
+      "answer": "Active check control unit, brakes applied input, and ABS electronic control unit",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6325-00-q05"
+    },
+    {
+      "question": "When does the clutch switch operate according to the diagram?",
+      "answer": "The clutch switch opens when clutch pedal is depressed",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6325-00-q06"
+    },
+    {
+      "question": "What ground connection numbers are shown for the rear light assemblies?",
+      "answer": "Ground connections G300 for both left (LH) and right (RH) rear light assemblies",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6325-00-q07"
+    },
+    {
+      "question": "What accessory connector is labeled in the circuit diagram?",
+      "answer": "C302 (accessory connector)",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6325-00-q08"
+    }
+  ]
+}

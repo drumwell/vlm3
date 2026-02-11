@@ -1,0 +1,91 @@
+{
+  "page_id": "13-640_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-640.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:43:33.819488",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 782
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the steps to remove the cold start valve?",
+      "answer": "Pull off plug (1), disconnect fuel line (2), unscrew screws, and take off cold start valve.",
+      "question_type": "procedural",
+      "id": "13-640_fuel-sys-q01"
+    },
+    {
+      "question": "What should be checked during cold start valve installation?",
+      "answer": "Check code number (1) and replace seal (2).",
+      "question_type": "procedural",
+      "id": "13-640_fuel-sys-q02"
+    },
+    {
+      "question": "How do you check the cold start valve after installation?",
+      "answer": "Unscrew cold start valve on intake manifold while keeping the fuel line connected.",
+      "question_type": "procedural",
+      "id": "13-640_fuel-sys-q03"
+    },
+    {
+      "question": "What specific procedure applies to L-Jetronic E30 engines when checking the cold start valve?",
+      "answer": "Unscrew cold start valve on intake manifold, fuel line remains connected, pull off fuel pump relay (1), bridge terminals 87b and 30 with Special Tool 61 3 050, and fuel pump runs.",
+      "question_type": "procedural",
+      "id": "13-640_fuel-sys-q04"
+    },
+    {
+      "question": "What tool is required for bridging terminals 87b and 30 on L-Jetronic E30 engines?",
+      "answer": "Special Tool 61 3 050.",
+      "question_type": "tool",
+      "id": "13-640_fuel-sys-q05"
+    },
+    {
+      "question": "What terminals should be bridged on the fuel pump relay for L-Jetronic E30 checking?",
+      "answer": "Terminals 87b and 30 should be bridged with Special Tool 61 3 050.",
+      "question_type": "factual",
+      "id": "13-640_fuel-sys-q06"
+    },
+    {
+      "question": "What leak test procedure is specified for the cold start valve?",
+      "answer": "Check permissible leak rate.",
+      "question_type": "inspection",
+      "id": "13-640_fuel-sys-q07"
+    },
+    {
+      "question": "How should the cold start valve be positioned when checking fuel flow rate and spray angle?",
+      "answer": "Hold cold start valve in measuring glass 13 3 020.",
+      "question_type": "procedural",
+      "id": "13-640_fuel-sys-q08"
+    },
+    {
+      "question": "What test equipment is used for checking fuel flow rate and spray angle?",
+      "answer": "Measuring glass 13 3 020 and Jetronic test lead 61 1 440.",
+      "question_type": "tool",
+      "id": "13-640_fuel-sys-q09"
+    },
+    {
+      "question": "How should the Jetronic test lead be connected for flow rate testing?",
+      "answer": "Plug Jetronic test lead 61 1 440 on cold start valve and connect with B+ and B-.",
+      "question_type": "procedural",
+      "id": "13-640_fuel-sys-q10"
+    },
+    {
+      "question": "Where can specifications for fuel flow rate and spray angle be found?",
+      "answer": "See Specifications.",
+      "question_type": "navigation",
+      "id": "13-640_fuel-sys-q11"
+    },
+    {
+      "question": "What component is indicated by callout number 2 in the cold start valve removal diagram?",
+      "answer": "The fuel line that needs to be disconnected during removal.",
+      "question_type": "visual",
+      "id": "13-640_fuel-sys-q12"
+    }
+  ]
+}

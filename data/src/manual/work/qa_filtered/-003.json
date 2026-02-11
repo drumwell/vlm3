@@ -1,0 +1,85 @@
+{
+  "page_id": "-003",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/003.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:03:15.289862",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 738
+  },
+  "qa_pairs": [
+    {
+      "question": "What is described as tricky to remove in the procedure?",
+      "answer": "The 2nd 3rd hub roll pin is described as tricky to remove.",
+      "question_type": "procedural",
+      "id": "-003-q02"
+    },
+    {
+      "question": "What tool technique is mentioned for removing the roll pin?",
+      "answer": "The text mentions that it basically hammers down the gap between the gear teeth.",
+      "question_type": "procedural",
+      "id": "-003-q03"
+    },
+    {
+      "question": "What component is being held in the person's hand in the top image?",
+      "answer": "A small roll pin is being held in the person's palm.",
+      "question_type": "visual",
+      "id": "-003-q04"
+    },
+    {
+      "question": "What transmission component is visible on the white cloth in the top image?",
+      "answer": "A transmission input shaft or gear assembly with splined teeth is visible on the white cloth.",
+      "question_type": "component",
+      "id": "-003-q05"
+    },
+    {
+      "question": "What color are the small fasteners or pins scattered on the cardboard?",
+      "answer": "The small fasteners or pins scattered on the cardboard appear to be zinc-plated or silver in color.",
+      "question_type": "visual",
+      "id": "-003-q06"
+    },
+    {
+      "question": "What type of protective equipment is visible in the bottom image?",
+      "answer": "Black work gloves are visible being worn by the person in the bottom image.",
+      "question_type": "safety",
+      "id": "-003-q07"
+    },
+    {
+      "question": "What transmission housing component is visible in the top image?",
+      "answer": "A transmission case or housing with mounting bosses and bolt holes is visible in the top image.",
+      "question_type": "component",
+      "id": "-003-q08"
+    },
+    {
+      "question": "What tools are visible on the work surface in the top image?",
+      "answer": "A measuring tape, screwdrivers, and other small hand tools are visible on the work surface.",
+      "question_type": "tool",
+      "id": "-003-q09"
+    },
+    {
+      "question": "What is the person doing with the transmission components in the bottom image?",
+      "answer": "The person appears to be working on or assembling transmission shafts or gear components.",
+      "question_type": "procedural",
+      "id": "-003-q10"
+    },
+    {
+      "question": "What type of surface is being used as a work area for the small parts?",
+      "answer": "A piece of cardboard is being used as a work surface for organizing the small parts and fasteners.",
+      "question_type": "visual",
+      "id": "-003-q11"
+    },
+    {
+      "question": "What gear component feature is specifically mentioned in relation to the roll pin removal?",
+      "answer": "The gap between the gear teeth is mentioned in relation to the roll pin removal procedure.",
+      "question_type": "component",
+      "id": "-003-q12"
+    }
+  ]
+}

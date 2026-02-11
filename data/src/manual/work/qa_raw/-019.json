@@ -1,0 +1,79 @@
+{
+  "page_id": "-019",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/019.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:06:50.772830",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1884,
+    "tokens_output": 632
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the next step after measuring synchro rings?",
+      "answer": "Next up is the synchro rings for a measure up, reverse on the left fwd synchro rings on the right.",
+      "question_type": "procedural",
+      "id": "-019-q01"
+    },
+    {
+      "question": "What type of gears are shown in the lower image?",
+      "answer": "The lower image shows synchro rings with gear teeth around the circumference.",
+      "question_type": "visual",
+      "id": "-019-q02"
+    },
+    {
+      "question": "What components are visible in the upper photograph?",
+      "answer": "The upper photograph shows transmission case components including what appears to be housing parts on grass.",
+      "question_type": "component",
+      "id": "-019-q03"
+    },
+    {
+      "question": "What is the condition of the synchro rings shown in the detailed view?",
+      "answer": "The synchro rings appear to be in good condition with visible gear teeth and bearing surfaces intact.",
+      "question_type": "inspection",
+      "id": "-019-q04"
+    },
+    {
+      "question": "What surface are the transmission components placed on in the first image?",
+      "answer": "The transmission components are placed on grass in the first image.",
+      "question_type": "visual",
+      "id": "-019-q05"
+    },
+    {
+      "question": "What color are the synchro rings in the close-up photograph?",
+      "answer": "The synchro rings appear to be metallic/steel colored in the close-up photograph.",
+      "question_type": "visual",
+      "id": "-019-q06"
+    },
+    {
+      "question": "What type of documentation is visible underneath the synchro rings?",
+      "answer": "There appears to be service manual pages or technical documentation visible underneath the synchro rings.",
+      "question_type": "visual",
+      "id": "-019-q07"
+    },
+    {
+      "question": "How many synchro ring assemblies are clearly visible in the detailed view?",
+      "answer": "There are at least two synchro ring assemblies clearly visible in the detailed view.",
+      "question_type": "visual",
+      "id": "-019-q08"
+    },
+    {
+      "question": "What is the purpose of measuring synchro rings during service?",
+      "answer": "Measuring synchro rings is part of the inspection process to determine if they need replacement or are within specification.",
+      "question_type": "procedural",
+      "id": "-019-q09"
+    },
+    {
+      "question": "What distinguishes the left forward synchro rings from the right ones?",
+      "answer": "According to the text, the left fwd synchro rings are reverse on the right, indicating they have opposite orientations or configurations.",
+      "question_type": "factual",
+      "id": "-019-q10"
+    }
+  ]
+}

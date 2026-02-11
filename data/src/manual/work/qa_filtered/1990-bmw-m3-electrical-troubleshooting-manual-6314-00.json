@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6314-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6314-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:05:58.484601",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 509
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number and title shown at the top of this wiring diagram?",
+      "answer": "6314-0 PARK/TAIL/FRONT MARKER LIGHTS",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6314-00-q01"
+    },
+    {
+      "question": "What are the amperage ratings for fuses 22 and 23 in the power distribution box?",
+      "answer": "Both FUSE 22 and FUSE 23 are rated at 7.5 AMP",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6314-00-q02"
+    },
+    {
+      "question": "What warning notation appears at the top of the diagram regarding the electrical system?",
+      "answer": "HOT AT ALL TIMES",
+      "question_type": "safety",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6314-00-q03"
+    },
+    {
+      "question": "Which connector numbers are shown for the left and right front turn/park lights?",
+      "answer": "S102 for the LH FRONT TURN/PARK LIGHT and S103 for the RH FRONT TURN/PARK LIGHT",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6314-00-q04"
+    },
+    {
+      "question": "What component is labeled with connector S209 in the diagram?",
+      "answer": "ACTIVE CHECK CONTROL UNIT",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6314-00-q05"
+    },
+    {
+      "question": "What are the ground distribution point numbers shown at the bottom of the diagram?",
+      "answer": "G104, G300, and S324 are shown as ground distribution points",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6314-00-q06"
+    },
+    {
+      "question": "What wire colors are used for the park light connections on both front marker lights?",
+      "answer": ".75 BR (0.75 brown) wires are used for the park light connections",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6314-00-q07"
+    },
+    {
+      "question": "Which relay is associated with the rear lights in this circuit?",
+      "answer": "REAR LIGHTS CHECK RELAY .75 BR",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6314-00-q08"
+    }
+  ]
+}

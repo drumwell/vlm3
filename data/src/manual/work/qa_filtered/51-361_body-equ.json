@@ -1,0 +1,85 @@
+{
+  "page_id": "51-361_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-361.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:24:58.769096",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 682
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for replacing all strips on the rear side window?",
+      "answer": "The part number is 51 36 545.",
+      "question_type": "factual",
+      "id": "51-361_body-equ-q01"
+    },
+    {
+      "question": "What should you do with the special tool window holders before starting the work?",
+      "answer": "Place special tool window holders in toolbox and mount window glass.",
+      "question_type": "procedural",
+      "id": "51-361_body-equ-q02"
+    },
+    {
+      "question": "What tool number is shown in the first diagram with the window glass?",
+      "answer": "Tool number 51 3 000 is shown in the first diagram.",
+      "question_type": "visual",
+      "id": "51-361_body-equ-q03"
+    },
+    {
+      "question": "What should you do with the ornamental frame after lifting it out?",
+      "answer": "If applicable, drill out rivet and insert a new ornamental strip.",
+      "question_type": "procedural",
+      "id": "51-361_body-equ-q04"
+    },
+    {
+      "question": "How should the ornamental strips be assembled together?",
+      "answer": "Rivet ornamental strips together.",
+      "question_type": "procedural",
+      "id": "51-361_body-equ-q05"
+    },
+    {
+      "question": "What should you check during installation regarding the rubber frame?",
+      "answer": "Check rubber frame, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "51-361_body-equ-q06"
+    },
+    {
+      "question": "Where should you begin inserting the ornamental strips during installation?",
+      "answer": "Insert ornamental strips, beginning at upper window edge.",
+      "question_type": "procedural",
+      "id": "51-361_body-equ-q07"
+    },
+    {
+      "question": "What lubricant should be used if necessary during installation?",
+      "answer": "If necessary, rub in rubber frame with a lubricant.",
+      "question_type": "tool",
+      "id": "51-361_body-equ-q08"
+    },
+    {
+      "question": "What diagram reference number shows the riveting of ornamental strips?",
+      "answer": "Diagram reference number 30 51 458 shows the riveting of ornamental strips.",
+      "question_type": "visual",
+      "id": "51-361_body-equ-q09"
+    },
+    {
+      "question": "What diagram number corresponds to the lifting out of the ornamental frame?",
+      "answer": "Diagram number 30 51 457 corresponds to the lifting out of the ornamental frame.",
+      "question_type": "visual",
+      "id": "51-361_body-equ-q10"
+    },
+    {
+      "question": "What is the final diagram number shown for the installation process?",
+      "answer": "The final diagram number shown is 30 51 455.",
+      "question_type": "visual",
+      "id": "51-361_body-equ-q12"
+    }
+  ]
+}

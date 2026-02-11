@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-031",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/031.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:21:57.980575",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 651
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for camshaft bearing cap screws with M6 threads?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-031-q01"
+    },
+    {
+      "question": "What torque should be applied to M10 sprocket to camshaft bolts on M20/M21/M40 engines?",
+      "answer": "65 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-031-q02"
+    },
+    {
+      "question": "For sprocket to camshaft flange bolts on M60/1/M60/2/M62 engines, what is the required torque?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-031-q03"
+    },
+    {
+      "question": "How much torque should be applied to the splined shaft to intake camshaft on M52/S52/S50 US/M50 VANOS engines?",
+      "answer": "40 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-031-q05"
+    },
+    {
+      "question": "What thread specification is used for the splined shaft to intake camshaft on M52/S52/S50 US/M50 VANOS engines?",
+      "answer": "M14 x 1.5",
+      "question_type": "factual",
+      "id": "00-torque-specs-031-q07"
+    },
+    {
+      "question": "What is the initial torque specification for M51/M41 sprocket to camshaft before applying the torque angle?",
+      "answer": "20 Nm",
+      "question_type": "procedural",
+      "id": "00-torque-specs-031-q08"
+    },
+    {
+      "question": "How does the torque specification differ between M6 and M8 camshaft bearing cap screws?",
+      "answer": "M6 screws require 10 Nm while M8 screws require 20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-031-q09"
+    }
+  ]
+}

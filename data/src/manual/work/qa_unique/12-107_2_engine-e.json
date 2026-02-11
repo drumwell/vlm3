@@ -1,0 +1,67 @@
+{
+  "page_id": "12-107_2_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-107_2.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:25:14.887586",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 566
+  },
+  "qa_pairs": [
+    {
+      "question": "Which pin number corresponds to the oil stat signal?",
+      "answer": "Pin 2 (STAT)",
+      "question_type": "connector",
+      "id": "12-107_2_engine-e-q02"
+    },
+    {
+      "question": "What are the wire colors for the injection signal (TI)?",
+      "answer": "White/black",
+      "question_type": "wiring",
+      "id": "12-107_2_engine-e-q03"
+    },
+    {
+      "question": "What is the difference between pin 6 and pin 7 functions?",
+      "answer": "Pin 6 (15 S) is voltage with ignition on with fuse protection, while pin 7 (15 U) is the same as pin 6 but lead without fuse",
+      "question_type": "factual",
+      "id": "12-107_2_engine-e-q04"
+    },
+    {
+      "question": "What wire color indicates the burglar alarm signal?",
+      "answer": "Black/violet",
+      "question_type": "wiring",
+      "id": "12-107_2_engine-e-q05"
+    },
+    {
+      "question": "Which pin is designated for the fault display and what models is it for?",
+      "answer": "Pin 12 (CARB) for fault display, only for US models",
+      "question_type": "factual",
+      "id": "12-107_2_engine-e-q06"
+    },
+    {
+      "question": "What are the wire colors for the self-diagnosis transmitting lead (RXD)?",
+      "answer": "White/yellow",
+      "question_type": "wiring",
+      "id": "12-107_2_engine-e-q07"
+    },
+    {
+      "question": "What is the function of pin 19 and what are its wire colors?",
+      "answer": "Pin 19 (Oeltemp) is for oil temperature sensor with brown/violet wire colors",
+      "question_type": "component",
+      "id": "12-107_2_engine-e-q09"
+    },
+    {
+      "question": "What is the viewing perspective for this engine plug connection diagram?",
+      "answer": "The engine plug connections are shown in installed position seen from above",
+      "question_type": "visual",
+      "id": "12-107_2_engine-e-q10"
+    }
+  ]
+}

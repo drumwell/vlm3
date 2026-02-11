@@ -1,0 +1,91 @@
+{
+  "page_id": "26-03_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-03.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:54:10.997969",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 738
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for removing and installing the propeller shaft?",
+      "answer": "26 11 000",
+      "question_type": "factual",
+      "id": "26-03_propello-q01"
+    },
+    {
+      "question": "Which mufflers need to be removed according to the procedure?",
+      "answer": "Remove and install primary and final mufflers 18 12 000.",
+      "question_type": "procedural",
+      "id": "26-03_propello-q02"
+    },
+    {
+      "question": "What special tool is used to unscrew the threaded sleeve?",
+      "answer": "Special Tool 26 1 040 is used to unscrew the threaded sleeve several turns.",
+      "question_type": "tool",
+      "id": "26-03_propello-q03"
+    },
+    {
+      "question": "What should be done with the threaded sleeve during installation?",
+      "answer": "Tighten threaded sleeve with Special Tool 26 1 040 after finishing installation to the specified tightening torque.",
+      "question_type": "procedural",
+      "id": "26-03_propello-q04"
+    },
+    {
+      "question": "What additional step is required for models since 1983?",
+      "answer": "Since 1983 Models: Unscrew connector.",
+      "question_type": "factual",
+      "id": "26-03_propello-q05"
+    },
+    {
+      "question": "What special tools are needed for cars with 4 HP 22 Automatic Transmission?",
+      "answer": "Special Tools 20 0 120 and 00 2 020 are needed to support the transmission and unscrew transmission suspension.",
+      "question_type": "tool",
+      "id": "26-03_propello-q06"
+    },
+    {
+      "question": "What should be checked during installation regarding the heat shield?",
+      "answer": "Check for sufficient space between tank and heat shield.",
+      "question_type": "inspection",
+      "id": "26-03_propello-q07"
+    },
+    {
+      "question": "What part number corresponds to the oxygen sensor plug holder?",
+      "answer": "Part number 30 26 021 corresponds to the bolt on holder for oxygen sensor plug.",
+      "question_type": "factual",
+      "id": "26-03_propello-q08"
+    },
+    {
+      "question": "What needs to be done for cars with manual transmission and vibration damper on output flange?",
+      "answer": "Support transmission, unscrew transmission suspension, and lower transmission.",
+      "question_type": "procedural",
+      "id": "26-03_propello-q09"
+    },
+    {
+      "question": "What component is shown in image 30 26 023?",
+      "answer": "Image 30 26 023 shows the process of unscrewing the propeller shaft on transmission.",
+      "question_type": "visual",
+      "id": "26-03_propello-q10"
+    },
+    {
+      "question": "What reference is provided at the bottom of the page for additional information?",
+      "answer": "See Specifications is referenced at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "26-03_propello-q11"
+    },
+    {
+      "question": "What component needs to be unscrewed in both removal and installation procedures?",
+      "answer": "The heat shield needs to be unscrewed in both removal and installation procedures.",
+      "question_type": "component",
+      "id": "26-03_propello-q12"
+    }
+  ]
+}

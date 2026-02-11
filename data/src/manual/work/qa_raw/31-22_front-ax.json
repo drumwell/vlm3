@@ -1,0 +1,91 @@
+{
+  "page_id": "31-22_front-ax",
+  "image_path": "raw/31 - Front Axle/31-22.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:19:30.870094",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 757
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure section number for removing and installing or replacing front axle final drive?",
+      "answer": "31 50 000",
+      "question_type": "factual",
+      "id": "31-22_front-ax-q01"
+    },
+    {
+      "question": "What three preliminary steps must be completed before beginning the front axle final drive removal?",
+      "answer": "Remove front propeller shaft (see Gr. 26), remove left front wheel (see Gr. 36), and unscrew splash guard (see Gr. 51).",
+      "question_type": "procedural",
+      "id": "31-22_front-ax-q02"
+    },
+    {
+      "question": "What special tool is required to unscrew the left nut and press off the tie rod?",
+      "answer": "Special Tool 32 2 070",
+      "question_type": "tool",
+      "id": "31-22_front-ax-q03"
+    },
+    {
+      "question": "What special tool is needed to pull off the left output shaft?",
+      "answer": "Special Tool 31 5 011",
+      "question_type": "tool",
+      "id": "31-22_front-ax-q04"
+    },
+    {
+      "question": "Where is the ring of Special Tool 31 5 011 located during use?",
+      "answer": "The ring of Special Tool 31 5 011 is located in groove of shaft.",
+      "question_type": "factual",
+      "id": "31-22_front-ax-q05"
+    },
+    {
+      "question": "What installation procedure should be followed when installing the output shaft back into the front axle final drive?",
+      "answer": "Pressure spindle rests on bolt head, screw in pressure spindles alternately, push spring pivot toward outside until output shaft slides out of front axle final drive.",
+      "question_type": "procedural",
+      "id": "31-22_front-ax-q06"
+    },
+    {
+      "question": "What special tool is used to unscrew the left nut and press off the control arm?",
+      "answer": "Special Tool 31 2 160",
+      "question_type": "tool",
+      "id": "31-22_front-ax-q07"
+    },
+    {
+      "question": "What installation requirements are specified for the control arm connection?",
+      "answer": "Keep grease out of bore and off of pin, follow tightening torque specifications, and lock nut with cotter pin.",
+      "question_type": "procedural",
+      "id": "31-22_front-ax-q08"
+    },
+    {
+      "question": "Which special tools are required to pull the right output shaft out of the front axle final drive?",
+      "answer": "Special Tools 31 5 011 / 012",
+      "question_type": "tool",
+      "id": "31-22_front-ax-q09"
+    },
+    {
+      "question": "What should be done with the seal when removing the front axle final drive?",
+      "answer": "Replace seal.",
+      "question_type": "inspection",
+      "id": "31-22_front-ax-q10"
+    },
+    {
+      "question": "What cross-reference is provided for installation procedures?",
+      "answer": "See 31 60 000",
+      "question_type": "navigation",
+      "id": "31-22_front-ax-q11"
+    },
+    {
+      "question": "What important installation note is given for both tie rod and control arm procedures?",
+      "answer": "Keep grease out of bore and off of pin, and follow tightening torque specifications.",
+      "question_type": "safety",
+      "id": "31-22_front-ax-q12"
+    }
+  ]
+}

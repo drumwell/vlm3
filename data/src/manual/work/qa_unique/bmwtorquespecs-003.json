@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-003",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/003.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:13:00.291840",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 628
+  },
+  "qa_pairs": [
+    {
+      "question": "What BMW standard should I refer to for maximum tightening torques for M4 and M5 screws?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-003-q02"
+    },
+    {
+      "question": "What is the torque specification for an M5 thread with screw size 12.9?",
+      "answer": "10.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-003-q03"
+    },
+    {
+      "question": "What is the highest torque specification shown for M4 threads?",
+      "answer": "4.9 Nm (ft. lbs.) for M4 12.9 screws",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-003-q05"
+    },
+    {
+      "question": "Which screw dimension has the highest torque value in the M5 thread category?",
+      "answer": "M5 12.9 with 10.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-003-q08"
+    },
+    {
+      "question": "What document reference should I consult for the applicable range of tightening torques?",
+      "answer": "Extract from company standard BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-003-q09"
+    }
+  ]
+}

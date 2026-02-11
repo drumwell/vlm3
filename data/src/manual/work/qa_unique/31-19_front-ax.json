@@ -1,0 +1,73 @@
+{
+  "page_id": "31-19_front-ax",
+  "image_path": "raw/31 - Front Axle/31-19.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:05:57.834204",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 798
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I do if the car body keeps swinging long after passing over rough road surfaces?",
+      "answer": "This indicates weak shock absorber efficiency. Replace the shock absorbers and refer to the Troubleshooting Shock Absorbers section for detailed procedures.",
+      "question_type": "troubleshooting",
+      "id": "31-19_front-ax-q01"
+    },
+    {
+      "question": "What causes the body to wipe or oscillate when passing over successive rough road surfaces?",
+      "answer": "Shock absorber efficiency weak. See the Troubleshooting Shock Absorbers section for diagnostic procedures.",
+      "question_type": "diagnostic",
+      "id": "31-19_front-ax-q02"
+    },
+    {
+      "question": "If the car body rises when accelerating, what is the likely cause and correction?",
+      "answer": "The cause is weak shock absorber efficiency. The correction is to replace the shock absorbers, and you should see the Troubleshooting Shock Absorbers section.",
+      "question_type": "troubleshooting",
+      "id": "31-19_front-ax-q03"
+    },
+    {
+      "question": "What does it mean when wheels are jumping even on normal road surfaces?",
+      "answer": "This symptom indicates shock absorber efficiency weak. Replace the shock absorbers and refer to Troubleshooting Shock Absorbers for additional guidance.",
+      "question_type": "factual",
+      "id": "31-19_front-ax-q04"
+    },
+    {
+      "question": "How should I address a car that breaks out when braking?",
+      "answer": "Replace the shock absorbers, as this condition is caused by weak shock absorber efficiency. See Troubleshooting Shock Absorbers section for detailed procedures.",
+      "question_type": "procedural",
+      "id": "31-19_front-ax-q05"
+    },
+    {
+      "question": "What causes breaking out or skidding in curves due to poor track holding?",
+      "answer": "Shock absorber efficiency weak. See the Troubleshooting Shock Absorbers section for diagnostic and repair procedures.",
+      "question_type": "diagnostic",
+      "id": "31-19_front-ax-q06"
+    },
+    {
+      "question": "What section should I reference for detailed shock absorber troubleshooting?",
+      "answer": "All the front axle troubleshooting conditions reference the Troubleshooting Shock Absorbers section for additional diagnostic procedures.",
+      "question_type": "navigation",
+      "id": "31-19_front-ax-q07"
+    },
+    {
+      "question": "What symptom indicates poor shock absorber performance during normal driving conditions?",
+      "answer": "Wheels jumping even on normal road surfaces indicates weak shock absorber efficiency and requires shock absorber replacement.",
+      "question_type": "troubleshooting",
+      "id": "31-19_front-ax-q09"
+    },
+    {
+      "question": "If I'm experiencing multiple symptoms like body movement and poor handling, what is the likely root cause?",
+      "answer": "All the symptoms listed (long after-swinging, wiping over rough roads, body rising when accelerating, wheel jumping, breaking out when braking, and skidding in curves) are caused by weak shock absorber efficiency.",
+      "question_type": "diagnostic",
+      "id": "31-19_front-ax-q10"
+    }
+  ]
+}

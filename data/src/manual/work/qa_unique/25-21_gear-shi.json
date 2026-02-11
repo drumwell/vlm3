@@ -1,0 +1,79 @@
+{
+  "page_id": "25-21_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-21.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:52:36.882725",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 704
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing cable for selector lever?",
+      "answer": "The procedure number is 25 16 202.",
+      "question_type": "factual",
+      "id": "25-21_gear-shi-q01"
+    },
+    {
+      "question": "What reference should you see for removing the center console?",
+      "answer": "You should see section 51 16 200 for removing the center console.",
+      "question_type": "navigation",
+      "id": "25-21_gear-shi-q02"
+    },
+    {
+      "question": "What important warning is given about the steel wire during cable replacement?",
+      "answer": "Don't bend the steel wire.",
+      "question_type": "safety",
+      "id": "25-21_gear-shi-q03"
+    },
+    {
+      "question": "What is the specified tightening torque for the cable clamp?",
+      "answer": "The tightening torque is 10 to 12 Nm (7 to 9 ft. lbs.).",
+      "question_type": "factual",
+      "id": "25-21_gear-shi-q06"
+    },
+    {
+      "question": "How should you handle the cable during installation?",
+      "answer": "Press shift lever opposite forward direction and clamp cable rod without tension. Don't bend the cable.",
+      "question_type": "procedural",
+      "id": "25-21_gear-shi-q07"
+    },
+    {
+      "question": "What steps are required to disconnect the cable sleeve?",
+      "answer": "Unscrew nut and disconnect cable sleeve in holder.",
+      "question_type": "procedural",
+      "id": "25-21_gear-shi-q08"
+    },
+    {
+      "question": "What direction should you pull the rubber grommet?",
+      "answer": "Pull out rubber grommet with cable upwards.",
+      "question_type": "procedural",
+      "id": "25-21_gear-shi-q09"
+    },
+    {
+      "question": "What are the final steps for removing the cable from the operating lever?",
+      "answer": "Unscrew nuts, push back cable sleeve and disconnect in holder, then pull cable out of operating lever.",
+      "question_type": "procedural",
+      "id": "25-21_gear-shi-q10"
+    },
+    {
+      "question": "What callout number identifies the rubber grommet removal step?",
+      "answer": "Callout number 30 25 051 identifies the rubber grommet removal step.",
+      "question_type": "visual",
+      "id": "25-21_gear-shi-q11"
+    },
+    {
+      "question": "What important note is repeated twice regarding the steel wire?",
+      "answer": "The important note 'Don't bend the steel wire' appears twice as a critical warning.",
+      "question_type": "safety",
+      "id": "25-21_gear-shi-q12"
+    }
+  ]
+}

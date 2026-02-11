@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-039",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/039.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:19:53.182694",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 652
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for oil cooler oil pipes to oil filter housing?",
+      "answer": "22 Nm with M8 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-039-q01"
+    },
+    {
+      "question": "What torque should be applied to oil pipes to turbocharger connections?",
+      "answer": "22 Nm with M8 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-039-q02"
+    },
+    {
+      "question": "What is the torque specification for the hollow bolt on oil lines from turbocharger to engine block?",
+      "answer": "40 Nm with M16 x 1.5 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-039-q03"
+    },
+    {
+      "question": "What torque value is specified for the oil supply pipe to turbocharger hollow bolt?",
+      "answer": "25 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-039-q04"
+    },
+    {
+      "question": "What is the torque specification for the coupling nut on the oil supply pipe to turbocharger?",
+      "answer": "30 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-039-q05"
+    },
+    {
+      "question": "Which components in section 11 42 are related to oil filter and pipes?",
+      "answer": "Oil cooler oil pipes to oil filter housing, oil pipes to turbocharger, oil lines from turbocharger to engine block hollow bolt, and oil supply pipe to turbocharger.",
+      "question_type": "component",
+      "id": "bmwtorquespecs-039-q06"
+    },
+    {
+      "question": "What thread specification is used for the oil lines from turbocharger to engine block hollow bolt?",
+      "answer": "M16 x 1.5.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-039-q07"
+    },
+    {
+      "question": "Do all the oil pipe connections use the same torque specification?",
+      "answer": "No, the oil cooler pipes and turbocharger pipes use 22 Nm, the hollow bolt uses 40 Nm, the supply pipe hollow bolt uses 25 Nm, and the coupling nut uses 30 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-039-q08"
+    },
+    {
+      "question": "What type designation applies to all the oil filter and pipe components shown?",
+      "answer": "All components are designated as type 'All'.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-039-q09"
+    },
+    {
+      "question": "What section of the manual covers oil filter and pipes specifications?",
+      "answer": "Section 11 42 Oil Filter and Pipes.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-039-q10"
+    }
+  ]
+}

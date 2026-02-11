@@ -1,0 +1,91 @@
+{
+  "page_id": "64-08_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-08.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:53:30.898032",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 824
+  },
+  "qa_pairs": [
+    {
+      "question": "What pressure should be applied to the valve core when filling the charging cylinder?",
+      "answer": "Apply pressure on the valve core to 141 pressure to prevent escape from the charging cylinder.",
+      "question_type": "procedural",
+      "id": "64-08_heating--q01"
+    },
+    {
+      "question": "What valve should be closed after finishing the charging procedure?",
+      "answer": "Close charging valve (25) and operate the heater with switch (13) after finishing the charging procedure.",
+      "question_type": "procedural",
+      "id": "64-08_heating--q02"
+    },
+    {
+      "question": "What pressure should be set on the volume scale when reading the rising pressure in the charging cylinder?",
+      "answer": "Set the same pressure (e.g. 5-6 bar/80 psi) on the volume scale (18).",
+      "question_type": "factual",
+      "id": "64-08_heating--q03"
+    },
+    {
+      "question": "At what pressure range can the heater be switched off after reaching the charging pressure?",
+      "answer": "The heater can be switched off after reaching the charging pressure of 4.9 to 9.1 bar (70 to 129 psi).",
+      "question_type": "factual",
+      "id": "64-08_heating--q04"
+    },
+    {
+      "question": "What steps are required for detecting leaks in the air conditioning system?",
+      "answer": "Close valve (6), close vacuum valve (4), switch off the vacuum pump, and open charging valve (22) about 1 second and then close it again.",
+      "question_type": "procedural",
+      "id": "64-08_heating--q05"
+    },
+    {
+      "question": "What should be done with the leak detector before checking for leaks?",
+      "answer": "Calibrate leak detector (1) to the operating instructions and check air conditioner for leaks with leak detector (1).",
+      "question_type": "procedural",
+      "id": "64-08_heating--q06"
+    },
+    {
+      "question": "Why should you always look for a leak underneath a possible leak point?",
+      "answer": "Always look for a leak underneath a possible leak point, since refrigerant is heavier than air.",
+      "question_type": "safety",
+      "id": "64-08_heating--q07"
+    },
+    {
+      "question": "What valves should be closed when charging the system?",
+      "answer": "Close vacuum valves (4 and 5) and open liquid valve (24) to let the correct amount of refrigerant flow into the system.",
+      "question_type": "procedural",
+      "id": "64-08_heating--q08"
+    },
+    {
+      "question": "What should be done with the shutoff valve after finishing discharging?",
+      "answer": "Close shutoff valve (6) and mark the red indicator (A) with the displayed value.",
+      "question_type": "procedural",
+      "id": "64-08_heating--q09"
+    },
+    {
+      "question": "When should the liquid valve be shut during the charging process?",
+      "answer": "Shut the liquid valve (24) when the system has the correct amount of refrigerant.",
+      "question_type": "procedural",
+      "id": "64-08_heating--q10"
+    },
+    {
+      "question": "What should be done if the air conditioner does not have moisture or leak issues?",
+      "answer": "If the pressure does not rise, switch off the vacuum pump.",
+      "question_type": "diagnostic",
+      "id": "64-08_heating--q11"
+    },
+    {
+      "question": "What final steps should be taken after completing the refrigerant charging process?",
+      "answer": "Disconnect hoses and screw on the protective caps.",
+      "question_type": "procedural",
+      "id": "64-08_heating--q12"
+    }
+  ]
+}

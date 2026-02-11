@@ -1,0 +1,55 @@
+{
+  "page_id": "12-102_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-102.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:24:00.983783",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 559
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the three components identified for 1986 models in the engine electrical layout?",
+      "answer": "1 Control unit for DME (see Gr. 13), 2 Control unit for idle speed (see Gr. 13), 3 Plug for car electric system, fuel pump relay",
+      "question_type": "component",
+      "id": "12-102_engine-e-q01"
+    },
+    {
+      "question": "What wire colors are specified for the transmission versions plug (item 4)?",
+      "answer": "Green/yellow - blue/brown, not used for automatics (lean mixture), connected for manuals",
+      "question_type": "wiring",
+      "id": "12-102_engine-e-q02"
+    },
+    {
+      "question": "What four temperature-related components are identified in the engine bay?",
+      "answer": "1 Temperature switch 45\u00b0 C (113\u00b0 F) for idle speed control, 2 Coolant temperature sensor for DME, 3 Temperature transmitter, 4 Temperature time switch",
+      "question_type": "component",
+      "id": "12-102_engine-e-q05"
+    },
+    {
+      "question": "What is the installation instruction for the twenty pin engine wire harness plug?",
+      "answer": "The screw-on cap engages in final position",
+      "question_type": "procedural",
+      "id": "12-102_engine-e-q06"
+    },
+    {
+      "question": "What sensors are identified by plugs B and D in the engine bay?",
+      "answer": "Plug (gray) for reference mark sensor (B) and plug for speed sensor (D)",
+      "question_type": "component",
+      "id": "12-102_engine-e-q07"
+    },
+    {
+      "question": "Where is the pressure sensor located according to the diagram?",
+      "answer": "The pressure sensor (see Gr. 13) is shown in the lower right area of the engine bay",
+      "question_type": "navigation",
+      "id": "12-102_engine-e-q08"
+    }
+  ]
+}

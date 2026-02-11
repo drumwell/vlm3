@@ -1,0 +1,55 @@
+{
+  "page_id": "33-00-index-a_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-00-index-a.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:06:12.829452",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1881,
+    "tokens_output": 390
+  },
+  "qa_pairs": [
+    {
+      "question": "What chapter section covers the rear axle procedures in this manual?",
+      "answer": "Chapter 33 covers the rear axle procedures.",
+      "question_type": "navigation",
+      "id": "33-00-index-a_rear-axl-q01"
+    },
+    {
+      "question": "On which page can I find information about the Visco rear axle lock check for the 325iX model?",
+      "answer": "The Visco rear axle lock check for the 325iX model can be found on page 33-0/1.",
+      "question_type": "navigation",
+      "id": "33-00-index-a_rear-axl-q02"
+    },
+    {
+      "question": "What procedure is covered on page 33-1 for the final drive?",
+      "answer": "Page 33-1 covers the procedure to remove and install the final drive.",
+      "question_type": "procedural",
+      "id": "33-00-index-a_rear-axl-q03"
+    },
+    {
+      "question": "Where can I find the troubleshooting procedures for the rear axle?",
+      "answer": "Rear axle troubleshooting procedures can be found on page 33-18.",
+      "question_type": "navigation",
+      "id": "33-00-index-a_rear-axl-q04"
+    },
+    {
+      "question": "What component replacement procedure is documented on page 33-13?",
+      "answer": "The replacement of rubber mounts for the rear axle carrier is documented on page 33-13.",
+      "question_type": "component",
+      "id": "33-00-index-a_rear-axl-q05"
+    },
+    {
+      "question": "Which page covers the shock absorbers removal and installation procedure?",
+      "answer": "The shock absorbers removal and installation procedure is covered on page 33-16.",
+      "question_type": "procedural",
+      "id": "33-00-index-a_rear-axl-q06"
+    }
+  ]
+}

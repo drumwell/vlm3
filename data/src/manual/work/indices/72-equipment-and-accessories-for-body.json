@@ -1,0 +1,42 @@
+{
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "index_pages": [
+    "72-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "102",
+      "name": "Seat belt, rear - remove and install or replace",
+      "pages": [
+        "72-112"
+      ]
+    },
+    {
+      "code": "54 12 490",
+      "name": "Wind deflector - install",
+      "pages": [
+        "72-120"
+      ]
+    },
+    {
+      "code": "72 11 030",
+      "name": "Seat belt, front - remove and install or replace",
+      "pages": [
+        "72-110"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "72-112": [
+      "102"
+    ],
+    "72-120": [
+      "54 12 490"
+    ],
+    "72-110": [
+      "72 11 030"
+    ]
+  },
+  "merge_warnings": []
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "13-613_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-613.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:41:00.441360",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 688
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the control unit?",
+      "answer": "13 61 000",
+      "question_type": "factual",
+      "id": "13-613_fuel-sys-q01"
+    },
+    {
+      "question": "What should you check during installation of the control unit?",
+      "answer": "Check code number (1) and manufacturing date (2).",
+      "question_type": "inspection",
+      "id": "13-613_fuel-sys-q02"
+    },
+    {
+      "question": "What is the first step in removing the control unit?",
+      "answer": "Open glove box and pull off pins (1) of both retaining straps.",
+      "question_type": "procedural",
+      "id": "13-613_fuel-sys-q03"
+    },
+    {
+      "question": "What should you do after opening the glove box?",
+      "answer": "Unscrew trim panel.",
+      "question_type": "procedural",
+      "id": "13-613_fuel-sys-q04"
+    },
+    {
+      "question": "How do you remove the control unit after accessing it?",
+      "answer": "Push back retainer (1) and pull off plug (2). Unscrew four mounting bolts and take off control unit.",
+      "question_type": "procedural",
+      "id": "13-613_fuel-sys-q05"
+    },
+    {
+      "question": "What diagram reference number is shown for the plug connections?",
+      "answer": "13 61 010",
+      "question_type": "factual",
+      "id": "13-613_fuel-sys-q06"
+    },
+    {
+      "question": "Where should you look for information about plug connections?",
+      "answer": "See wiring diagram for plug connections.",
+      "question_type": "navigation",
+      "id": "13-613_fuel-sys-q07"
+    },
+    {
+      "question": "What callout number indicates the retainer that needs to be pushed back?",
+      "answer": "Callout number (1) indicates the retainer that needs to be pushed back.",
+      "question_type": "visual",
+      "id": "13-613_fuel-sys-q08"
+    },
+    {
+      "question": "What callout number shows the plug that needs to be pulled off?",
+      "answer": "Callout number (2) shows the plug that needs to be pulled off.",
+      "question_type": "visual",
+      "id": "13-613_fuel-sys-q09"
+    },
+    {
+      "question": "How many mounting bolts need to be unscrewed to remove the control unit?",
+      "answer": "Four mounting bolts need to be unscrewed.",
+      "question_type": "factual",
+      "id": "13-613_fuel-sys-q10"
+    },
+    {
+      "question": "What components are identified by callout numbers (1) and (2) in the installation diagram?",
+      "answer": "Callout (1) identifies the code number and callout (2) identifies the manufacturing date.",
+      "question_type": "visual",
+      "id": "13-613_fuel-sys-q11"
+    },
+    {
+      "question": "What reference number is associated with the trim panel removal step?",
+      "answer": "Reference number 28 15 207 is associated with the trim panel removal step.",
+      "question_type": "factual",
+      "id": "13-613_fuel-sys-q12"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6500A-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:11:16.619992",
+    "prompt_template": "electrical_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 755
+  },
+  "qa_pairs": [
+    {
+      "question": "What voltage should be measured between terminals 11 & Ground during the amplifier power test?",
+      "answer": "Battery voltage should be measured between terminals 11 & Ground.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q01"
+    },
+    {
+      "question": "What are the conditions required for performing the radio power test?",
+      "answer": "The ignition switch must be in the RUN position for the radio power test.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q02"
+    },
+    {
+      "question": "Which connectors are used for the radio power test measurement?",
+      "answer": "The radio power test is performed at radio connector C216 (disconnected) or connector C215 (disconnected).",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q03"
+    },
+    {
+      "question": "What should you do if all voltages are correct in the amplifier power test?",
+      "answer": "If all voltages are correct, go to Test C.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q05"
+    },
+    {
+      "question": "What conditions must be met for the fader signal test?",
+      "answer": "The ignition switch must be in RUN position and the radio must be ON.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q06"
+    },
+    {
+      "question": "What should you check if an individual speaker does not operate?",
+      "answer": "Do Test D if an individual speaker does not operate.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q07"
+    },
+    {
+      "question": "What voltage measurements are taken in the fader signal test between terminals 15, 19, and 20 with Ground?",
+      "answer": "Approximately 6 volts should be measured between terminals 15 & Ground, 19 & Ground, and 20 & Ground.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q08"
+    },
+    {
+      "question": "What should you do if all voltages are correct but sound was not present during the fader signal test?",
+      "answer": "If all voltages are correct but sound was not present, remove the amplifier for service.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q09"
+    },
+    {
+      "question": "What is the first step to check in the amplifier power test diagnostic procedure?",
+      "answer": "Check the power supply wire for an open.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q10"
+    },
+    {
+      "question": "What should you verify about ground G200 during the radio power test diagnostics?",
+      "answer": "Make sure ground G200 is clean and tight.",
+      "question_type": "inspection",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q11"
+    },
+    {
+      "question": "What test should be performed if excessive noise comes from all speakers?",
+      "answer": "Do Test E if excessive noise comes from all speakers.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-01-q12"
+    }
+  ]
+}

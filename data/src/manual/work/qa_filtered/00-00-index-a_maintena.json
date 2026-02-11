@@ -1,0 +1,55 @@
+{
+  "page_id": "00-00-index-a_maintena",
+  "image_path": "raw/00 - Maintenance/00-00-index-a.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:08:12.698189",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1744,
+    "tokens_output": 368
+  },
+  "qa_pairs": [
+    {
+      "question": "What BMW models does this repair manual cover?",
+      "answer": "This repair manual covers BMW 318i, M3 US, and E30 models.",
+      "question_type": "factual",
+      "id": "00-00-index-a_maintena-q01"
+    },
+    {
+      "question": "What is the publication date of this repair manual?",
+      "answer": "The repair manual is dated 3/89 (March 1989).",
+      "question_type": "factual",
+      "id": "00-00-index-a_maintena-q02"
+    },
+    {
+      "question": "What section number covers Maintenance and General Data?",
+      "answer": "Section 00 covers Maintenance and General Data.",
+      "question_type": "navigation",
+      "id": "00-00-index-a_maintena-q03"
+    },
+    {
+      "question": "On what page can I find information about lifting the vehicle with a car hoist?",
+      "answer": "Information about lifting the vehicle with a car hoist can be found on page 0-2.",
+      "question_type": "navigation",
+      "id": "00-00-index-a_maintena-q04"
+    },
+    {
+      "question": "What service operation is covered by code 00 00 009?",
+      "answer": "Code 00 00 009 covers pre-delivery inspection, which can be found on page 00-1.",
+      "question_type": "factual",
+      "id": "00-00-index-a_maintena-q05"
+    },
+    {
+      "question": "At what mileage interval is the BMW running-in inspection performed?",
+      "answer": "The BMW running-in inspection is performed at 1,200 miles.",
+      "question_type": "factual",
+      "id": "00-00-index-a_maintena-q06"
+    }
+  ]
+}

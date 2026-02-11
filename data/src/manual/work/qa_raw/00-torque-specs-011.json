@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-011",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/011.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:17:59.428353",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 636
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M10/M20/M30 main bearing screws?",
+      "answer": "60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-011-q01"
+    },
+    {
+      "question": "What torque value should be used for M21 main bearing screws?",
+      "answer": "65 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-011-q02"
+    },
+    {
+      "question": "What special instruction is given for M70/S70/M73/M52 engines with cast aluminum engine blocks?",
+      "answer": "Do not wash off coating on main bearing screw",
+      "question_type": "procedural",
+      "id": "00-torque-specs-011-q04"
+    },
+    {
+      "question": "How does the torque angle differ between M10 and M11 main bearing screws?",
+      "answer": "M10 main bearing screws require 70\u00b0 torque angle, while M11 main bearing screws require 100\u00b0 torque angle",
+      "question_type": "comparison",
+      "id": "00-torque-specs-011-q06",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What torque specification applies to all the initial torque steps shown in the table?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-011-q07"
+    },
+    {
+      "question": "Which engine types use the S38/S14/M40/M42/M43/M44/M50/M41/M51/S50/S50 US specification?",
+      "answer": "These engine types use M10 screws with no specific torque angle listed in the visible portion",
+      "question_type": "application",
+      "id": "00-torque-specs-011-q08",
+      "_warnings": [
+        "Invalid question_type: application"
+      ]
+    },
+    {
+      "question": "What is specified for S52/M52 engines with cast iron engine blocks?",
+      "answer": "Replace, wash and oil main bearing screws with 20 Nm torque and 50\u00b0 torque angle using M10 screws",
+      "question_type": "procedural",
+      "id": "00-torque-specs-011-q09"
+    },
+    {
+      "question": "What screw type is used for the M60/1/M60/2/M62 engines?",
+      "answer": "M10 screws",
+      "question_type": "component",
+      "id": "00-torque-specs-011-q10"
+    }
+  ]
+}

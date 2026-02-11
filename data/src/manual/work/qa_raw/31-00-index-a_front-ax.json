@@ -1,0 +1,55 @@
+{
+  "page_id": "31-00-index-a_front-ax",
+  "image_path": "raw/31 - Front Axle/31-00-index-a.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:57:51.060073",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 405
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number contains information about the front wheel suspension layout drawing?",
+      "answer": "Page 31-1 contains the front wheel suspension layout drawing.",
+      "question_type": "navigation",
+      "id": "31-00-index-a_front-ax-q01"
+    },
+    {
+      "question": "On which page can I find procedures for replacing the front axle carrier?",
+      "answer": "Front axle carrier replacement procedures can be found on page 31-4.",
+      "question_type": "navigation",
+      "id": "31-00-index-a_front-ax-q02"
+    },
+    {
+      "question": "Where can I find information about checking rubber mounts for control arms?",
+      "answer": "Information about checking rubber mounts for control arms is located on page 31-8.",
+      "question_type": "navigation",
+      "id": "31-00-index-a_front-ax-q03"
+    },
+    {
+      "question": "What section number covers the drive flange for front axle replacement for all wheel drive models?",
+      "answer": "Section 31 21 121 covers the drive flange for front axle replacement for all wheel drive models, found on page 31-9.",
+      "question_type": "component",
+      "id": "31-00-index-a_front-ax-q04"
+    },
+    {
+      "question": "Which page contains procedures for spring strut removal and installation for all wheel drive vehicles?",
+      "answer": "Page 31-11.1 contains procedures for spring strut removal and installation for all wheel drive vehicles.",
+      "question_type": "procedural",
+      "id": "31-00-index-a_front-ax-q05"
+    },
+    {
+      "question": "What is the section number for shock absorber replacement for front spring strut?",
+      "answer": "Section 31 32 001 covers shock absorber replacement for front spring strut, found on page 31-13.",
+      "question_type": "component",
+      "id": "31-00-index-a_front-ax-q06"
+    }
+  ]
+}

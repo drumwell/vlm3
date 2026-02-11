@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-028",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/028.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:21:22.498153",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 682
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure should be followed for connecting rod bolts replacement?",
+      "answer": "Replace, wash and oil conrod bolts",
+      "question_type": "procedural",
+      "id": "00-torque-specs-028-q09"
+    },
+    {
+      "question": "What section of the manual covers connecting rods and bearings torque specifications?",
+      "answer": "Section 11 24 Connecting Rods and Bearings",
+      "question_type": "navigation",
+      "id": "00-torque-specs-028-q10"
+    }
+  ]
+}

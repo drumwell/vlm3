@@ -1,0 +1,31 @@
+{
+  "page_id": "bmwtorquespecs-061",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/061.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:23:57.461422",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 554
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component has the lowest torque specification in this table?",
+      "answer": "Cover on heating splash wall (3AZ) with 1.1 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-061-q07"
+    },
+    {
+      "question": "What is the highest torque value specified in this Engine Electrical Equipment table?",
+      "answer": "16 Nm for the ground connections flange nut (2AZ)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-061-q10"
+    }
+  ]
+}

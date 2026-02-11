@@ -1,0 +1,91 @@
+{
+  "page_id": "31-04_front-ax",
+  "image_path": "raw/31 - Front Axle/31-04.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:59:07.370444",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 686
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure is referenced in section 36 10 300?",
+      "answer": "Remove and install front wheels.",
+      "question_type": "factual",
+      "id": "31-04_front-ax-q01"
+    },
+    {
+      "question": "What tool should be used to check front wheel alignment after installation?",
+      "answer": "Optical tester 32 00.",
+      "question_type": "tool",
+      "id": "31-04_front-ax-q02"
+    },
+    {
+      "question": "How should the pin be loosened when removing components?",
+      "answer": "Loosen pin by applying knocks with a plastic hammer.",
+      "question_type": "procedural",
+      "id": "31-04_front-ax-q03"
+    },
+    {
+      "question": "What should be done with the control arm brackets during the procedure?",
+      "answer": "Disconnect left and right control arm brackets.",
+      "question_type": "procedural",
+      "id": "31-04_front-ax-q04"
+    },
+    {
+      "question": "What components need to be unscrewed on both left and right sides of the stabilizer?",
+      "answer": "Thrust rods on left and right sides of stabilizer.",
+      "question_type": "factual",
+      "id": "31-04_front-ax-q05"
+    },
+    {
+      "question": "What type of nuts should be used when installing left and right nuts?",
+      "answer": "Use lock nut (1) and washer (2) instead of standard polystop nut.",
+      "question_type": "procedural",
+      "id": "31-04_front-ax-q06"
+    },
+    {
+      "question": "What preparation is required for the pins and bores before installation?",
+      "answer": "Pins and bores cleaned to remove grease.",
+      "question_type": "procedural",
+      "id": "31-04_front-ax-q07"
+    },
+    {
+      "question": "What should be replaced when unscrewing the steering gear on the front axle carrier?",
+      "answer": "Replace self-locking nuts.",
+      "question_type": "procedural",
+      "id": "31-04_front-ax-q08"
+    },
+    {
+      "question": "Where are the mounting points located for the front axle carrier?",
+      "answer": "Mounting points are at the rear bores of front axle carrier.",
+      "question_type": "factual",
+      "id": "31-04_front-ax-q09"
+    },
+    {
+      "question": "What specific engine configuration has different instructions for disconnecting the engine damper?",
+      "answer": "Four Cylinder Engines have specific instructions to disconnect engine damper on front axle carrier.",
+      "question_type": "factual",
+      "id": "31-04_front-ax-q10"
+    },
+    {
+      "question": "What reference should be consulted for additional specifications related to Group 32?",
+      "answer": "See Specifications of Gr. 32.",
+      "question_type": "navigation",
+      "id": "31-04_front-ax-q11"
+    },
+    {
+      "question": "What is emphasized as important when dealing with tightening torques throughout the procedure?",
+      "answer": "Tightening torque is marked as important for multiple installation steps.",
+      "question_type": "safety",
+      "id": "31-04_front-ax-q12"
+    }
+  ]
+}

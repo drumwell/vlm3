@@ -1,0 +1,79 @@
+{
+  "page_id": "34-40_brakes",
+  "image_path": "raw/34 - Brakes/34-40.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:25:08.150044",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 772
+  },
+  "qa_pairs": [
+    {
+      "question": "What is being tested in test step 06?",
+      "answer": "Control unit/simulation - front wheels, specifically testing voltage between wires 1 and 10 for left and right pressure solenoids during build-up, drop, and hold phases.",
+      "question_type": "factual",
+      "id": "34-40_brakes-q01"
+    },
+    {
+      "question": "What should I do if the solenoid pressure build-up, drop, or hold phases fail during testing?",
+      "answer": "Turn on ignition, run engine, and ensure battery is charged. Due to high switching on power, possibly repeat test with engine running. Replace control unit and repeat test step.",
+      "question_type": "troubleshooting",
+      "id": "34-40_brakes-q02"
+    },
+    {
+      "question": "What are the job position codes for replacing the control unit and hydraulic unit?",
+      "answer": "Control unit replacement is job position 34 52 510, and hydraulic unit replacement is job position 34 51 520.",
+      "question_type": "factual",
+      "id": "34-40_brakes-q03"
+    },
+    {
+      "question": "What additional troubleshooting step should I take if valves in test steps 08, 09 and 10 do not switch or pump does not run?",
+      "answer": "Replace the hydraulic unit (job position 34 51 520).",
+      "question_type": "troubleshooting",
+      "id": "34-40_brakes-q04"
+    },
+    {
+      "question": "Why might the pressure building-up and pressure holding phases only be checkable on 325 iX cars?",
+      "answer": "Only the pressure building-up and pressure holding phases (2 A) can be checked in 325 iX cars because of the changed activation times in the control unit. Irregular values will be displayed on adapter B in switch position (5 A).",
+      "question_type": "factual",
+      "id": "34-40_brakes-q05"
+    },
+    {
+      "question": "When might it be necessary to repeat this test step?",
+      "answer": "It might be necessary to repeat this test step to reach the nominal values due to the high switching-on power and short switching phase.",
+      "question_type": "procedural",
+      "id": "34-40_brakes-q06"
+    },
+    {
+      "question": "What section of the manual am I looking at?",
+      "answer": "This is page 34-40 from Group 34 (Brakes section) of the service manual.",
+      "question_type": "navigation",
+      "id": "34-40_brakes-q07"
+    },
+    {
+      "question": "What preliminary steps are required before testing the solenoid voltages?",
+      "answer": "Turn on ignition, run engine, and ensure battery is charged (check).",
+      "question_type": "procedural",
+      "id": "34-40_brakes-q08"
+    },
+    {
+      "question": "What is the recommended approach when high switching power might affect test results?",
+      "answer": "Due to high switching on power, possibly repeat test with engine running, and replace control unit and repeat test step if needed.",
+      "question_type": "diagnostic",
+      "id": "34-40_brakes-q09"
+    },
+    {
+      "question": "Which specific wires are being tested for voltage in this control unit simulation test?",
+      "answer": "Voltage between wires 1 and 10 is being tested for both left and right pressure solenoids.",
+      "question_type": "wiring",
+      "id": "34-40_brakes-q10"
+    }
+  ]
+}

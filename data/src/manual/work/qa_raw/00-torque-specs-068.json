@@ -1,0 +1,58 @@
+{
+  "page_id": "00-torque-specs-068",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/068.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:28:58.368647",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 524
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the carburetor to intake manifold connection?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-068-q01"
+    },
+    {
+      "question": "What screw type is used for most carburetor connections?",
+      "answer": "M10/M20/M30",
+      "question_type": "factual",
+      "id": "00-torque-specs-068-q02"
+    },
+    {
+      "question": "What is the torque specification for the flow valve at maximum setting?",
+      "answer": "28 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-068-q04"
+    },
+    {
+      "question": "What is the torque specification for the throttle valve neck to intake manifold?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-068-q07"
+    },
+    {
+      "question": "What is the torque specification for the warm-up regulator to engine connection?",
+      "answer": "23 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-068-q09"
+    },
+    {
+      "question": "Which component has the highest torque specification in the carburetor section?",
+      "answer": "The flow valve at maximum setting with 28 Nm",
+      "question_type": "comparison",
+      "id": "00-torque-specs-068-q10",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    }
+  ]
+}

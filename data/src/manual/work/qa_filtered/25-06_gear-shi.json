@@ -1,0 +1,91 @@
+{
+  "page_id": "25-06_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-06.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:49:01.427290",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 712
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum amount that one side of the toggle can be cut off on cars with all wheel drive?",
+      "answer": "One side of the toggle must be cut off up to max. 12 mm (0.472\") in cars with all wheel drive.",
+      "question_type": "factual",
+      "id": "25-06_gear-shi-q01"
+    },
+    {
+      "question": "What tool part number is shown in the upper diagram?",
+      "answer": "The tool shown in the upper diagram is part number 30 25 029.",
+      "question_type": "visual",
+      "id": "25-06_gear-shi-q02"
+    },
+    {
+      "question": "How should the spherical plate be positioned during installation?",
+      "answer": "Apply spherical plate so that tabs on spherical plate are aligned with openings in shift console.",
+      "question_type": "procedural",
+      "id": "25-06_gear-shi-q03"
+    },
+    {
+      "question": "What should you do with the shift lever during installation?",
+      "answer": "Press in shift lever until retaining tabs are heard to engage twice.",
+      "question_type": "procedural",
+      "id": "25-06_gear-shi-q04"
+    },
+    {
+      "question": "What part number is shown in the lower photograph?",
+      "answer": "The lower photograph shows part number 630 25 046.",
+      "question_type": "visual",
+      "id": "25-06_gear-shi-q05"
+    },
+    {
+      "question": "When does the toggle cutting requirement apply?",
+      "answer": "The toggle cutting requirement applies specifically to cars with all wheel drive systems.",
+      "question_type": "factual",
+      "id": "25-06_gear-shi-q06"
+    },
+    {
+      "question": "What indicates proper engagement during shift lever installation?",
+      "answer": "Proper engagement is indicated when the retaining tabs are heard to engage twice.",
+      "question_type": "inspection",
+      "id": "25-06_gear-shi-q07"
+    },
+    {
+      "question": "What component alignment is critical during spherical plate installation?",
+      "answer": "The tabs on the spherical plate must be aligned with the openings in the shift console.",
+      "question_type": "procedural",
+      "id": "25-06_gear-shi-q08"
+    },
+    {
+      "question": "What is the imperial equivalent of the 12 mm cutting specification?",
+      "answer": "The imperial equivalent is 0.472 inches.",
+      "question_type": "factual",
+      "id": "25-06_gear-shi-q09"
+    },
+    {
+      "question": "What type of engagement mechanism is used for the shift lever?",
+      "answer": "The shift lever uses retaining tabs that engage twice for proper installation.",
+      "question_type": "component",
+      "id": "25-06_gear-shi-q10"
+    },
+    {
+      "question": "What should you listen for during shift lever installation?",
+      "answer": "You should listen for the retaining tabs to be heard engaging twice.",
+      "question_type": "procedural",
+      "id": "25-06_gear-shi-q11"
+    },
+    {
+      "question": "What modification is required for the toggle on all wheel drive vehicles?",
+      "answer": "One side of the toggle must be cut off up to a maximum of 12 mm to accommodate the all wheel drive system.",
+      "question_type": "procedural",
+      "id": "25-06_gear-shi-q12"
+    }
+  ]
+}

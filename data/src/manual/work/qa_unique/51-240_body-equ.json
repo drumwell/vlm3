@@ -1,0 +1,73 @@
+{
+  "page_id": "51-240_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-240.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:16:21.106476",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 731
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step for cars with trunk plate when removing the trunk lid lock?",
+      "answer": "Push out pins of clips downward and remove the plate.",
+      "question_type": "procedural",
+      "id": "51-240_body-equ-q02"
+    },
+    {
+      "question": "What should you do with the trunk mat and rear wall trim panel during removal?",
+      "answer": "Fold back the trunk mat and lift the rear wall trim panel at the bottom slightly and pull out.",
+      "question_type": "procedural",
+      "id": "51-240_body-equ-q03"
+    },
+    {
+      "question": "What precaution should be taken when removing the lock from the side?",
+      "answer": "Take out the lock from the side and prevent the lock cylinder from falling out.",
+      "question_type": "safety",
+      "id": "51-240_body-equ-q04"
+    },
+    {
+      "question": "How do you remove the lock cylinder?",
+      "answer": "Remove the lock cylinder by lifting out the circlip and pulling out the lock cylinder toward the rear.",
+      "question_type": "procedural",
+      "id": "51-240_body-equ-q05"
+    },
+    {
+      "question": "How is the locking bar removed according to the procedure?",
+      "answer": "The locking bar is removed by unscrewing the screws.",
+      "question_type": "procedural",
+      "id": "51-240_body-equ-q08"
+    },
+    {
+      "question": "What adjustment capability does the locking bar have during installation?",
+      "answer": "The locking bar can be adjusted in height (a) and plane (b) during installation.",
+      "question_type": "factual",
+      "id": "51-240_body-equ-q09"
+    },
+    {
+      "question": "What diagram number shows the lock cylinder removal procedure?",
+      "answer": "Diagram 30 51 355 shows the lock cylinder removal procedure.",
+      "question_type": "visual",
+      "id": "51-240_body-equ-q10"
+    },
+    {
+      "question": "What diagram number illustrates the trunk plate clip removal?",
+      "answer": "Diagram 30 51 352 illustrates the trunk plate clip removal procedure.",
+      "question_type": "visual",
+      "id": "51-240_body-equ-q11"
+    },
+    {
+      "question": "What diagram number shows the locking bar adjustment?",
+      "answer": "Diagram 30 51 357 shows the locking bar adjustment with height (a) and plane (b) adjustments indicated.",
+      "question_type": "visual",
+      "id": "51-240_body-equ-q12"
+    }
+  ]
+}

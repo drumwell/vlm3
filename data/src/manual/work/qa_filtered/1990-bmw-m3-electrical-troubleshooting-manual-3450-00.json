@@ -1,0 +1,49 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/3450-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:32:17.058708",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 451
+  },
+  "qa_pairs": [
+    {
+      "question": "Where can I find the ABS hydraulic unit wiring diagram?",
+      "answer": "The ABS hydraulic unit wiring diagram is on page 3450-1",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-00-q03"
+    },
+    {
+      "question": "What color wire connects from the main relay to the injection electronics?",
+      "answer": "4 RD/WT (4 gauge red/white wire)",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-00-q04"
+    },
+    {
+      "question": "What type of switch is shown in the brake pedal circuit?",
+      "answer": "A brake switch that closes with brake pedal depressed",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-00-q05"
+    },
+    {
+      "question": "What important note is mentioned about some vehicles at the bottom of the diagram?",
+      "answer": "Some vehicles may contain an additional splice (see ground distribution)",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-00-q07"
+    },
+    {
+      "question": "What wire color connects the ABS electronic control unit to the charging system?",
+      "answer": ".75 BU (0.75 gauge blue wire)",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-00-q08"
+    }
+  ]
+}

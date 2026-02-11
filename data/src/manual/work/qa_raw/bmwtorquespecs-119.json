@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-119",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/119.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:35:18.061067",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 554
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for cross member to body mounting on the automatic transmission?",
+      "answer": "21 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-119-q01"
+    },
+    {
+      "question": "What torque value should be used for rubber mounts to cross member or transmission?",
+      "answer": "21 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-119-q02"
+    },
+    {
+      "question": "What is the torque specification for rubber mounts to carrier pipe on E36 models?",
+      "answer": "21 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-119-q04"
+    },
+    {
+      "question": "What torque should be applied to the carrier plate on E36 models?",
+      "answer": "21 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-119-q05"
+    },
+    {
+      "question": "Which transmission mounting components apply to all BMW model types?",
+      "answer": "Cross member to body (1AZ) and rubber mounts to cross member or transmission (2AZ)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-119-q06"
+    },
+    {
+      "question": "What section number covers automatic transmission mounting specifications?",
+      "answer": "24-17",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-119-q07"
+    },
+    {
+      "question": "What is the highest torque specification listed in the transmission mounts table?",
+      "answer": "42 Nm for support tube to engine subframe on E36 models",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-119-q08"
+    },
+    {
+      "question": "How many different torque values are specified for E36 transmission mounting components?",
+      "answer": "Two torque values: 42 Nm and 21 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-119-q09"
+    },
+    {
+      "question": "What unit of measurement is used for all torque specifications in this transmission mounts table?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-119-q10"
+    }
+  ]
+}

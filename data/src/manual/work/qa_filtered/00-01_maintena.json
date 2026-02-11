@@ -1,0 +1,91 @@
+{
+  "page_id": "00-01_maintena",
+  "image_path": "raw/00 - Maintenance/00-01.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:09:27.255127",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 745
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for the Pre-Delivery Inspection?",
+      "answer": "The procedure number is 00 00 009 Pre-Delivery Inspection.",
+      "question_type": "factual",
+      "id": "00-01_maintena-q01"
+    },
+    {
+      "question": "What should be checked when inspecting the engine oil level?",
+      "answer": "Check engine oil level and check for dilution of lubricating oil, replacing oil and oil filter if necessary.",
+      "question_type": "procedural",
+      "id": "00-01_maintena-q02"
+    },
+    {
+      "question": "What service information group references are listed for the engine oil check?",
+      "answer": "The service information references are Gr. 00, Gr. 11.",
+      "question_type": "factual",
+      "id": "00-01_maintena-q03"
+    },
+    {
+      "question": "What important instruction is noted for the engine oil procedure?",
+      "answer": "Use approved oil only!",
+      "question_type": "safety",
+      "id": "00-01_maintena-q04"
+    },
+    {
+      "question": "What coolant system components should be inspected during the pre-delivery check?",
+      "answer": "Check coolant hoses for leaks and correct routing, check tightness of hose clamps, and check coolant level and antifreeze protection correcting if necessary.",
+      "question_type": "inspection",
+      "id": "00-01_maintena-q05"
+    },
+    {
+      "question": "Which service information group is referenced for coolant level and antifreeze protection?",
+      "answer": "Gr. 00, Gr. 17 is referenced for coolant level and antifreeze protection.",
+      "question_type": "factual",
+      "id": "00-01_maintena-q06"
+    },
+    {
+      "question": "What type of antifreeze protection is specified in the important instructions?",
+      "answer": "Longterm antifreeze and corrosion inhibitor.",
+      "question_type": "factual",
+      "id": "00-01_maintena-q07"
+    },
+    {
+      "question": "What spark plug service group is referenced in both the Repair Manual and Specifications columns?",
+      "answer": "Gr. 12 is referenced in both columns for spark plug service.",
+      "question_type": "factual",
+      "id": "00-01_maintena-q08"
+    },
+    {
+      "question": "What specific spark plug requirement is noted for the M 3?",
+      "answer": "M 3: change sparks plugs.",
+      "question_type": "procedural",
+      "id": "00-01_maintena-q09"
+    },
+    {
+      "question": "What fuel system components should be checked for proper fit and leaks?",
+      "answer": "Check fuel lines, tank, tank cap and filter for tight fit and leaks, and check fuel injection parts for tight fit or leaks.",
+      "question_type": "inspection",
+      "id": "00-01_maintena-q10"
+    },
+    {
+      "question": "What type of inspection is required for the exhaust system?",
+      "answer": "Visual inspection to check exhaust system for correct installation.",
+      "question_type": "visual",
+      "id": "00-01_maintena-q11"
+    },
+    {
+      "question": "What reference is provided at the bottom of the page regarding operating fluids?",
+      "answer": "After Introduction of: Operating-Fluids-File.",
+      "question_type": "navigation",
+      "id": "00-01_maintena-q12"
+    }
+  ]
+}

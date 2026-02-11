@@ -1,0 +1,85 @@
+{
+  "page_id": "00-02_maintena",
+  "image_path": "raw/00 - Maintenance/00-02.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:10:00.925739",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 830
+  },
+  "qa_pairs": [
+    {
+      "question": "What group references are provided for checking nuts and bolts of steering box, coupling, tie rods, and front axle?",
+      "answer": "Group 32/34 is referenced for checking nuts and bolts of steering box, coupling, tie rods, and front axle for tightness or presence of cotter pins.",
+      "question_type": "factual",
+      "id": "00-02_maintena-q01"
+    },
+    {
+      "question": "Which group reference should be consulted for checking fluid level in tank for hydraulic brake and clutch systems?",
+      "answer": "Group 34 is referenced for checking fluid level in tank for hydraulic brake and clutch systems.",
+      "question_type": "factual",
+      "id": "00-02_maintena-q02"
+    },
+    {
+      "question": "What service information references are given for brake and clutch fluid level checks?",
+      "answer": "The service information references are Gr. 00, Gr. 34 for brake and clutch fluid level checks.",
+      "question_type": "factual",
+      "id": "00-02_maintena-q03"
+    },
+    {
+      "question": "What should be checked regarding tire condition during pre-delivery inspection?",
+      "answer": "Check tire condition, tire size and type as well as tire inflation pressure, including the spare wheel.",
+      "question_type": "inspection",
+      "id": "00-02_maintena-q04"
+    },
+    {
+      "question": "Which group reference is provided for tire-related checks?",
+      "answer": "Group 36 is referenced for tire condition, size, type, and inflation pressure checks.",
+      "question_type": "factual",
+      "id": "00-02_maintena-q05"
+    },
+    {
+      "question": "What lights should be functionally checked during pre-delivery inspection?",
+      "answer": "Check function of parking lights, turn signals, tail lights, stop lights, high and low beam headlights, side marker lights, backup lights, license plate lights, passenger compartment light and delay system, glove box light, trunk light and engine compartment light.",
+      "question_type": "inspection",
+      "id": "00-02_maintena-q06"
+    },
+    {
+      "question": "What group reference is given for headlight aiming adjustment?",
+      "answer": "Group 63 is referenced for checking aiming of headlights and adjusting if necessary.",
+      "question_type": "factual",
+      "id": "00-02_maintena-q07"
+    },
+    {
+      "question": "What important instruction is given regarding brake fluids?",
+      "answer": "Visual inspection - Use approved brake fluids only; tightening torque.",
+      "question_type": "safety",
+      "id": "00-02_maintena-q08"
+    },
+    {
+      "question": "What should be checked regarding locks and cotter pins?",
+      "answer": "Check locks and cotter pins as noted in the Important Instructions column.",
+      "question_type": "inspection",
+      "id": "00-02_maintena-q09"
+    },
+    {
+      "question": "What type of inspection is specified for brake and clutch connections and lines?",
+      "answer": "Visual inspection is specified for checking connections and lines of brake and clutch system for leaks damage or wrong routing.",
+      "question_type": "inspection",
+      "id": "00-02_maintena-q10"
+    },
+    {
+      "question": "What reference note is provided at the bottom of the page regarding operating fluids?",
+      "answer": "After Introduction of: Operating-Fluids-File is noted at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "00-02_maintena-q12"
+    }
+  ]
+}

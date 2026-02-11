@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-61-05",
+  "image_path": "raw/00 - Torque Specs/61-05.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:05:16.819390",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 668
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the upper cowl panel support in the windshield wipers section?",
+      "answer": "5 Nm (ft. lbs.) with M4 screw type E31.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-05-q01"
+    },
+    {
+      "question": "What torque should be applied to the wiper support bracket to firewall?",
+      "answer": "10 Nm (ft. lbs.) with screw type E36.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-05-q02"
+    },
+    {
+      "question": "What is the torque specification for the wiper support bracket to wiper console?",
+      "answer": "10 Nm (ft. lbs.) with screw type E36.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-05-q03"
+    },
+    {
+      "question": "What special instruction is given for the wiper arms torque specification?",
+      "answer": "After waiting for 15 minutes, retighten to torque.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-61-05-q04"
+    },
+    {
+      "question": "What is the torque specification for the driver's side wiper arm?",
+      "answer": "40 Nm (ft. lbs.) with screw type E31.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-05-q05"
+    },
+    {
+      "question": "What torque should be applied to the passenger's side wiper arm?",
+      "answer": "25 Nm (ft. lbs.) with screw types E31/E32/E34/E38/E39.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-05-q06"
+    },
+    {
+      "question": "What is the difference in torque between driver's side with WCPC and without WCPC?",
+      "answer": "Driver's side with WCPC requires 21 Nm (ft. lbs.) while without WCPC requires 25 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-05-q07"
+    },
+    {
+      "question": "Which screw types are used for the driver's side wiper arm with WCPC?",
+      "answer": "E32/E34 screw types are used.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-05-q08"
+    },
+    {
+      "question": "What torque specification applies to screw type E38/E39?",
+      "answer": "40 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-05-q09"
+    },
+    {
+      "question": "What is the torque specification for the driver's side without WCPC using screw type E38?",
+      "answer": "25 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-05-q10"
+    }
+  ]
+}

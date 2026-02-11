@@ -1,0 +1,76 @@
+{
+  "page_id": "bmwtorquespecs-109",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/109.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:33:07.669900",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 540
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the center bolt on the brake coupling DiG?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-109-q01"
+    },
+    {
+      "question": "What torque should be applied to both outer screws initially?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-109-q02"
+    },
+    {
+      "question": "What is the final torque specification for the center bolt after the initial tightening sequence?",
+      "answer": "63 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-109-q03"
+    },
+    {
+      "question": "What is the final torque for both outer screws after the complete tightening procedure?",
+      "answer": "30 Nm for the first step and 63 Nm for the final step",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-109-q04"
+    },
+    {
+      "question": "What transmission types does this brake coupling specification apply to?",
+      "answer": "ASS 310Z/ASS 560Z",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-109-q06"
+    },
+    {
+      "question": "What section number covers the planetary gear drive specifications?",
+      "answer": "24 22",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-109-q07"
+    },
+    {
+      "question": "What is the procedure described for installing the screws on the brake coupling?",
+      "answer": "Insert all screws until contact is made with screw head in each case",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-109-q08"
+    },
+    {
+      "question": "What component is being torqued according to specification 1AZ?",
+      "answer": "Brake coupling DiG on gear box housing",
+      "question_type": "component",
+      "id": "bmwtorquespecs-109-q09"
+    },
+    {
+      "question": "What unit of measurement is used for all torque specifications on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-109-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

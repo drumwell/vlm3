@@ -1,0 +1,73 @@
+{
+  "page_id": "51-211_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-211.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:14:06.235122",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 656
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with the door trim panel before working on the door lock?",
+      "answer": "Remove door trim panel - see 51 41 001. Pull off plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-211_body-equ-q02"
+    },
+    {
+      "question": "How should you handle a damaged plastic sheet during installation?",
+      "answer": "Replace damaged plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-211_body-equ-q03"
+    },
+    {
+      "question": "What is the first step for installing the door remote control?",
+      "answer": "Preload door remote control lightly.",
+      "question_type": "procedural",
+      "id": "51-211_body-equ-q04"
+    },
+    {
+      "question": "For cars with central locks, what should you do with the drive after pulling off the plug?",
+      "answer": "Disengage drive.",
+      "question_type": "procedural",
+      "id": "51-211_body-equ-q05"
+    },
+    {
+      "question": "What do you need to unscrew on two door cars when working on the door lock?",
+      "answer": "Unscrew reversing lever.",
+      "question_type": "procedural",
+      "id": "51-211_body-equ-q08"
+    },
+    {
+      "question": "How should you install the twisting lock on two door cars?",
+      "answer": "Insert twisting lock in opening.",
+      "question_type": "procedural",
+      "id": "51-211_body-equ-q09"
+    },
+    {
+      "question": "For two door cars, where should you engage the remote control linkage?",
+      "answer": "Engage remote control linkage in holder on protective cap of the reversing lever.",
+      "question_type": "procedural",
+      "id": "51-211_body-equ-q10"
+    },
+    {
+      "question": "What special instruction is given for four door cars regarding the remote control holder?",
+      "answer": "Unclip remote control holder.",
+      "question_type": "procedural",
+      "id": "51-211_body-equ-q11"
+    },
+    {
+      "question": "What is shown with the sheet metal parts cut off in some pictures?",
+      "answer": "Some pictures show the sheet metal parts cut off for better understanding.",
+      "question_type": "visual",
+      "id": "51-211_body-equ-q12"
+    }
+  ]
+}

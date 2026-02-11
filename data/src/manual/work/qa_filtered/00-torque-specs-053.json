@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-053",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/053.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:26:11.980342",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 624
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for ignition coil Terminal 1?",
+      "answer": "3.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-053-q01"
+    },
+    {
+      "question": "What torque should be applied to ignition coil Terminal 15?",
+      "answer": "4.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-053-q02"
+    },
+    {
+      "question": "What is the torque specification for the ignition coil on wheel arch/end wall?",
+      "answer": "5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-053-q03"
+    },
+    {
+      "question": "How much torque is required for the ignition coil on wheel arch?",
+      "answer": "16 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-053-q04"
+    },
+    {
+      "question": "What screw type is used for the ignition coil on wheel arch/end wall?",
+      "answer": "M42/M43/M44",
+      "question_type": "factual",
+      "id": "00-torque-specs-053-q05"
+    },
+    {
+      "question": "Which ignition coil connection requires the highest torque value?",
+      "answer": "The ignition coil on wheel arch requires 16 Nm (ft. lbs.), which is the highest torque specification shown.",
+      "question_type": "factual",
+      "id": "00-torque-specs-053-q07"
+    },
+    {
+      "question": "What is the difference in torque between Terminal 1 and Terminal 15?",
+      "answer": "Terminal 15 requires 1.5 Nm more torque than Terminal 1 (4.5 Nm vs 3.0 Nm).",
+      "question_type": "factual",
+      "id": "00-torque-specs-053-q09"
+    },
+    {
+      "question": "Which section of the service manual does this ignition coil information belong to?",
+      "answer": "Section 12-3 Engine Electrical System, specifically item 12 13 Ignition Coil.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-053-q10"
+    }
+  ]
+}

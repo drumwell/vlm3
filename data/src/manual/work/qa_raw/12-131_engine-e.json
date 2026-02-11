@@ -1,0 +1,91 @@
+{
+  "page_id": "12-131_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-131.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:29:47.060124",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 770
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number and title for replacing/checking the distributor rotor?",
+      "answer": "Section 12 11 111 REPLACING / CHECKING DISTRIBUTOR ROTOR.",
+      "question_type": "factual",
+      "id": "12-131_engine-e-q01"
+    },
+    {
+      "question": "What safety precaution must be taken before working on the ignition system?",
+      "answer": "Always turn off ignition before working on dangerous high power ignition systems! Remove distributor cap - 12 11 091.",
+      "question_type": "safety",
+      "id": "12-131_engine-e-q02"
+    },
+    {
+      "question": "What should be checked when installing ignition lead plugs?",
+      "answer": "Make sure plugs fit tight on ignition leads and in distributor cap. Check firing order.",
+      "question_type": "procedural",
+      "id": "12-131_engine-e-q03"
+    },
+    {
+      "question": "What components are numbered 1-6 in the exploded view diagram?",
+      "answer": "The exploded view shows numbered components of the distributor assembly, with component 6 appearing to be a cover or cap, and components 1-5 representing internal distributor parts.",
+      "question_type": "visual",
+      "id": "12-131_engine-e-q04"
+    },
+    {
+      "question": "What should be inspected when only removing the distributor cap and not replacing it?",
+      "answer": "Check points and slip ring carbon brushes. Inspect inside for hairline cracks.",
+      "question_type": "inspection",
+      "id": "12-131_engine-e-q05"
+    },
+    {
+      "question": "What should be checked on protective caps during installation?",
+      "answer": "Check seal (6) when installing protective caps (1 and 2).",
+      "question_type": "procedural",
+      "id": "12-131_engine-e-q06"
+    },
+    {
+      "question": "What installation requirement is specified for the distributor rotor?",
+      "answer": "Installation: Tightening torque - see Specifications.",
+      "question_type": "factual",
+      "id": "12-131_engine-e-q07"
+    },
+    {
+      "question": "What checks should be performed on the distributor rotor?",
+      "answer": "Check resistance in distributor rotor. Check casting compound for cracks and burns.",
+      "question_type": "inspection",
+      "id": "12-131_engine-e-q08"
+    },
+    {
+      "question": "What part numbers are visible in the service manual images?",
+      "answer": "Part numbers shown include 73 12 046, 730 19 023, 630 12 134, 28 12 163, 28 12 096, and 30 12 079.",
+      "question_type": "factual",
+      "id": "12-131_engine-e-q09"
+    },
+    {
+      "question": "How should the distributor cap installation be checked?",
+      "answer": "Check seal and inspect inside of distributor cap during installation.",
+      "question_type": "procedural",
+      "id": "12-131_engine-e-q10"
+    },
+    {
+      "question": "What is the first step in the distributor rotor replacement procedure?",
+      "answer": "Pull off ignition lead plugs.",
+      "question_type": "procedural",
+      "id": "12-131_engine-e-q11"
+    },
+    {
+      "question": "Where can the tightening torque specification be found?",
+      "answer": "See Specifications section (referenced at bottom of page).",
+      "question_type": "navigation",
+      "id": "12-131_engine-e-q12"
+    }
+  ]
+}

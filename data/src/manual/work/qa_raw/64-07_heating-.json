@@ -1,0 +1,91 @@
+{
+  "page_id": "64-07_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-07.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:53:12.166061",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 864
+  },
+  "qa_pairs": [
+    {
+      "question": "What important safety warning is given about pressure gauge 2 during operating procedures?",
+      "answer": "Never leave high pressure on pressure gauge (2) during the operating procedures - danger of destruction.",
+      "question_type": "safety",
+      "id": "64-07_heating--q01"
+    },
+    {
+      "question": "What should be checked before operating the discharging and charging station?",
+      "answer": "Check condition of the discharging and charging station before operation. Check level and grade of oil in the compressor. Also refer to the operating instructions supplied with the charging station.",
+      "question_type": "inspection",
+      "id": "64-07_heating--q02"
+    },
+    {
+      "question": "What protective equipment is required when working on an air conditioner?",
+      "answer": "Wear protective clothing! Absolute cleanliness is required for the performance of work on an air conditioner.",
+      "question_type": "safety",
+      "id": "64-07_heating--q03"
+    },
+    {
+      "question": "Which valves should be opened first when operating the charging station?",
+      "answer": "Open valves (4, 6 and 22). Turn on the pump with switch (12) and discharge the charging station. Close valve (22) and open valves (5 and 23). Discharge the air conditioner.",
+      "question_type": "procedural",
+      "id": "64-07_heating--q04"
+    },
+    {
+      "question": "Where should the blue charging hose be connected?",
+      "answer": "Connect blue charging hose (1) on the low pressure side (thick pipe) of the air conditioner.",
+      "question_type": "procedural",
+      "id": "64-07_heating--q05"
+    },
+    {
+      "question": "Where should the red charging hose be connected?",
+      "answer": "Connect red charging hose (1) on the high pressure side (thin pipe or drier) of the air conditioner.",
+      "question_type": "procedural",
+      "id": "64-07_heating--q06"
+    },
+    {
+      "question": "What valve should be opened according to the bottom right instruction?",
+      "answer": "Open valve (25).",
+      "question_type": "procedural",
+      "id": "64-07_heating--q07"
+    },
+    {
+      "question": "What should be done when filling the charging cylinder with refrigerant?",
+      "answer": "Open charging valve (1) and fill the charging cylinder with refrigerant while the air conditioner is still being discharged. Type and amount of refrigerant should be noted.",
+      "question_type": "procedural",
+      "id": "64-07_heating--q08"
+    },
+    {
+      "question": "What components are connected with charging valve 1 according to the upper right image?",
+      "answer": "Connect the refrigerant cylinder (2) and charging hose (16) with charging valve (1). Charging valve (1) remains connected until the charging cylinder has been filled.",
+      "question_type": "visual",
+      "id": "64-07_heating--q09"
+    },
+    {
+      "question": "What must be removed before connecting the charging hoses?",
+      "answer": "Remove the protective cap before connecting the charging hoses to both the low pressure and high pressure sides.",
+      "question_type": "procedural",
+      "id": "64-07_heating--q10"
+    },
+    {
+      "question": "What alternative method is mentioned for discharging and charging the air conditioner?",
+      "answer": "The air conditioner can also be discharged and charged with only one charging hose (high or low pressure). However, working with a valve core remover and two charging hoses will speed up discharging and charging procedures.",
+      "question_type": "factual",
+      "id": "64-07_heating--q11"
+    },
+    {
+      "question": "Where can information about the type and amount of refrigerant be found?",
+      "answer": "See label in engine compartment for type and amount of refrigerant information.",
+      "question_type": "navigation",
+      "id": "64-07_heating--q12"
+    }
+  ]
+}

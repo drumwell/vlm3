@@ -1,0 +1,82 @@
+{
+  "page_id": "00-torque-specs-102",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/102.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:35:24.853955",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 624
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the transmission mount rubber to body?",
+      "answer": "42 Nm using M10 screw for all variants.",
+      "question_type": "factual",
+      "id": "00-torque-specs-102-q01"
+    },
+    {
+      "question": "What screw size is used for the transmission cross member to body connection?",
+      "answer": "M10 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-102-q02"
+    },
+    {
+      "question": "What is the torque value for the mount bracket to transmission connection?",
+      "answer": "21 Nm using M8 screw for all variants.",
+      "question_type": "factual",
+      "id": "00-torque-specs-102-q03"
+    },
+    {
+      "question": "Which transmission mount connections use M8 screws?",
+      "answer": "The mount bracket to transmission connection uses M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-102-q04"
+    },
+    {
+      "question": "What is the difference in torque between the transmission rubber mount and the mount bracket connections?",
+      "answer": "The transmission rubber mount requires 42 Nm while the mount bracket requires 21 Nm, a difference of 21 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-102-q05"
+    },
+    {
+      "question": "Are the torque specifications the same for all vehicle types listed?",
+      "answer": "Yes, all specifications show 'All' in the Type column, indicating they apply to all variants.",
+      "question_type": "factual",
+      "id": "00-torque-specs-102-q06"
+    },
+    {
+      "question": "What section of the manual covers transmission mounts?",
+      "answer": "Section 23 71 covers transmission mounts.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-102-q07"
+    },
+    {
+      "question": "Which connections require the highest torque specification on this page?",
+      "answer": "Both the transmission mount rubber to body (1AZ) and transmission cross member to body (2AZ) require the highest torque at 42 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-102-q08",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What type of fastener is used for all the transmission mount connections?",
+      "answer": "All connections use screws - either M10 or M8 size depending on the specific connection.",
+      "question_type": "factual",
+      "id": "00-torque-specs-102-q09"
+    },
+    {
+      "question": "How many different torque values are specified for transmission mounts?",
+      "answer": "Two different torque values are specified: 42 Nm and 21 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-102-q10"
+    }
+  ]
+}

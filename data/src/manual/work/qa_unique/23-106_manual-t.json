@@ -1,0 +1,67 @@
+{
+  "page_id": "23-106_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-106.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:26:26.929464",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 786
+  },
+  "qa_pairs": [
+    {
+      "question": "What components should be coated with Molykote during installation?",
+      "answer": "Coat guides F and bearings L with Molykote Longterm 2.",
+      "question_type": "procedural",
+      "id": "23-106_manual-t-q04"
+    },
+    {
+      "question": "What could happen if non-conformance occurs during installation?",
+      "answer": "Non-conformance could cause release bearing to seize on guide sleeve.",
+      "question_type": "safety",
+      "id": "23-106_manual-t-q05"
+    },
+    {
+      "question": "What is the specified play adjustment range for the installation?",
+      "answer": "Adjust play to 0 to 0.09 mm (0 to 0.0035 inches).",
+      "question_type": "factual",
+      "id": "23-106_manual-t-q06"
+    },
+    {
+      "question": "What measurement examples are provided for distance B in the guide sleeve?",
+      "answer": "Example A: 5.2 mm (0.205 inches), Example B: 3.2 mm (0.126 inches), with 2.0 mm (0.079 inches) spacer thickness.",
+      "question_type": "factual",
+      "id": "23-106_manual-t-q07"
+    },
+    {
+      "question": "What should be done to determine the proper spacer thickness?",
+      "answer": "Determine thickness of spacer by measuring distance (A) from sealing surface to bearing outer race.",
+      "question_type": "procedural",
+      "id": "23-106_manual-t-q08"
+    },
+    {
+      "question": "What component needs to be replaced during the guide sleeve installation?",
+      "answer": "Replace gasket during installation.",
+      "question_type": "procedural",
+      "id": "23-106_manual-t-q09"
+    },
+    {
+      "question": "How should the distance B be measured according to the manual?",
+      "answer": "Measure distance (B) from inside surface to sealing surface through opening in guide sleeve, with gasket installed.",
+      "question_type": "inspection",
+      "id": "23-106_manual-t-q10"
+    },
+    {
+      "question": "What step is shown in the bottom diagram with callout A?",
+      "answer": "The bottom diagram shows measuring distance (A) from sealing surface to bearing outer race to determine spacer thickness.",
+      "question_type": "visual",
+      "id": "23-106_manual-t-q12"
+    }
+  ]
+}

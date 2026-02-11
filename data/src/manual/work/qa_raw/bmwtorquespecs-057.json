@@ -1,0 +1,67 @@
+{
+  "page_id": "bmwtorquespecs-057",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/057.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:23:11.032114",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 626
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the KI. D+ terminal on M10/M20 engines?",
+      "answer": "5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-057-q01"
+    },
+    {
+      "question": "What is the torque specification for the KI. B+ terminal on S38 B 38 engines?",
+      "answer": "8 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-057-q03"
+    },
+    {
+      "question": "What is the torque value for the alternator pulley (2AZ)?",
+      "answer": "45 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-057-q04"
+    },
+    {
+      "question": "How much torque should be applied to the pulley for the ribbed drive belt (3AZ)?",
+      "answer": "60 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-057-q05"
+    },
+    {
+      "question": "What is the torque specification for the rear holder (4AZ)?",
+      "answer": "3.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-057-q06"
+    },
+    {
+      "question": "What torque should be applied to the fillister head screw for wire holder (5AZ)?",
+      "answer": "3.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-057-q07"
+    },
+    {
+      "question": "What is the torque specification for the alternator on bearing block for M40/M42/M43/M44 engines?",
+      "answer": "43 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-057-q08"
+    },
+    {
+      "question": "What section of the manual does this page belong to?",
+      "answer": "12-7 Engine Electrical System, specifically section 12 31 Alternator with Drive and Mounting Parts",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-057-q10"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "page_id": "41-105_body",
+  "image_path": "raw/41 - Body/41-105.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:40:04.965732",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 764
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the engine carrier at the rear before welding?",
+      "answer": "Drill holes for plug spot welding in engine carrier at rear.",
+      "question_type": "procedural",
+      "id": "41-105_body-q01"
+    },
+    {
+      "question": "Where should the car be positioned before installing the engine carrier?",
+      "answer": "Set up car on straightening bench, then install engine carrier.",
+      "question_type": "procedural",
+      "id": "41-105_body-q02"
+    },
+    {
+      "question": "How should the rear of the engine carrier be welded?",
+      "answer": "Plug spot weld engine carrier at rear on sides. Weld rear with two inert gas welding seams.",
+      "question_type": "procedural",
+      "id": "41-105_body-q04"
+    },
+    {
+      "question": "What type of welding seams should be used to seal the engine carrier?",
+      "answer": "Seal engine carrier on inside and outside of separating wall with short inert gas welding seams.",
+      "question_type": "procedural",
+      "id": "41-105_body-q05"
+    },
+    {
+      "question": "What reference number should be consulted for installing the wheel house?",
+      "answer": "Install wheel house - see 41 14 021.",
+      "question_type": "navigation",
+      "id": "41-105_body-q06"
+    },
+    {
+      "question": "What should be done if the anti-drumming compound is damaged?",
+      "answer": "Replace damaged anti-drumming compound.",
+      "question_type": "procedural",
+      "id": "41-105_body-q08"
+    },
+    {
+      "question": "What tool reference number 30 41 513 shows in the diagram?",
+      "answer": "Reference number 30 41 513 shows the setup of the car on straightening bench for installing the engine carrier.",
+      "question_type": "visual",
+      "id": "41-105_body-q09"
+    },
+    {
+      "question": "What procedure is shown in reference number 30 41 515?",
+      "answer": "Reference number 30 41 515 shows plug spot welding the engine carrier at rear on sides with two inert gas welding seams.",
+      "question_type": "visual",
+      "id": "41-105_body-q11"
+    },
+    {
+      "question": "What does reference number 30 41 517 illustrate?",
+      "answer": "Reference number 30 41 517 shows sealing the engine carrier on inside and outside of separating wall with short inert gas welding seams.",
+      "question_type": "visual",
+      "id": "41-105_body-q12"
+    }
+  ]
+}

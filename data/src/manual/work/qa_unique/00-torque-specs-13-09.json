@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-13-09",
+  "image_path": "raw/00 - Torque Specs/13-09.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:53:20.945890",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 526
+  },
+  "qa_pairs": [
+    {
+      "question": "Which section of the fuel system does item 13 71 refer to?",
+      "answer": "Air intake silencer",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-09-q04"
+    },
+    {
+      "question": "What system section is covered on this specification page?",
+      "answer": "Fuel System (13 - 9)",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-09-q07"
+    },
+    {
+      "question": "What unit of measurement is used for the torque specification of the air intake silencer?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-09-q08"
+    }
+  ]
+}

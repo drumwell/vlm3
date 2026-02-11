@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-100",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/100.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:31:17.888753",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 550
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure for torquing the output flange collar nut?",
+      "answer": "Apply initial torque of 190 Nm, then loosen, then apply final torque of 120 Nm",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-100-q07"
+    },
+    {
+      "question": "What section of the manual covers these transmission shaft specifications?",
+      "answer": "23 21 Transmission Shafts",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-100-q08"
+    },
+    {
+      "question": "What component is referenced as 1AZ in the transmission shafts section?",
+      "answer": "Output flange collar nut installed with bolt cement",
+      "question_type": "component",
+      "id": "bmwtorquespecs-100-q09"
+    },
+    {
+      "question": "What component is referenced as 2AZ in the transmission specifications?",
+      "answer": "Gear wheel to layshaft",
+      "question_type": "component",
+      "id": "bmwtorquespecs-100-q10"
+    }
+  ]
+}

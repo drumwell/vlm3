@@ -1,0 +1,55 @@
+{
+  "page_id": "62-53_instrume",
+  "image_path": "raw/62 - Instruments/62-53.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:45:11.879719",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1740,
+    "tokens_output": 414
+  },
+  "qa_pairs": [
+    {
+      "question": "What happens to the green LEDs after performing an OIL SERVICE reset?",
+      "answer": "All five green LEDs will come on after making an OIL SERVICE reset, regardless of whether one green LED was still on or only the yellow OIL SERVICE sign was showing.",
+      "question_type": "procedural",
+      "id": "62-53_instrume-q01"
+    },
+    {
+      "question": "When do the yellow and INSPECTION symbol lamps come on during the service indicator reset process?",
+      "answer": "The yellow and INSPECTION symbol lamps will come on when the green LEDs have gone out again.",
+      "question_type": "procedural",
+      "id": "62-53_instrume-q02"
+    },
+    {
+      "question": "What section of the manual is this page from?",
+      "answer": "This page is from the SERVICE INDICATOR RESETTING section.",
+      "question_type": "navigation",
+      "id": "62-53_instrume-q03"
+    },
+    {
+      "question": "How many green LEDs are mentioned in the service indicator reset procedure?",
+      "answer": "Five green LEDs are mentioned in the service indicator reset procedure.",
+      "question_type": "factual",
+      "id": "62-53_instrume-q04"
+    },
+    {
+      "question": "What is the page number shown in the manual?",
+      "answer": "The page number shown is 62 - 53.",
+      "question_type": "navigation",
+      "id": "62-53_instrume-q05"
+    },
+    {
+      "question": "Does the OIL SERVICE reset behavior depend on the initial state of the service indicators?",
+      "answer": "No, the OIL SERVICE reset behavior does not depend on the initial state - all five green LEDs will come on regardless of whether one green LED was still on or only the yellow OIL SERVICE sign was showing.",
+      "question_type": "factual",
+      "id": "62-53_instrume-q06"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "page_id": "bmwtorquespecs-050",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/050.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:21:57.313137",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 540
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M8 screws on the rubber mount to front axle carrier?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-050-q01"
+    },
+    {
+      "question": "What torque value should be used for M10 screws on engine suspension components?",
+      "answer": "47 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-050-q02"
+    },
+    {
+      "question": "What component is referenced by code 1AZ in the engine suspension table?",
+      "answer": "Rubber mount to front axle carrier",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-050-q03"
+    },
+    {
+      "question": "What is the torque specification for the engine console to engine connection using M8 screws?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-050-q04"
+    },
+    {
+      "question": "Which component is identified by code 2AZ in this torque specification table?",
+      "answer": "Rubber mount to engine console",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-050-q05"
+    },
+    {
+      "question": "What torque value is specified for M10 screws on the rubber mount to engine console?",
+      "answer": "47 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-050-q06"
+    },
+    {
+      "question": "What section of the manual does this torque specification table belong to?",
+      "answer": "11 - 40 Engine, specifically 11 81 Engine Suspension",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-050-q07"
+    },
+    {
+      "question": "What unit of measurement is used for all torque specifications on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-050-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

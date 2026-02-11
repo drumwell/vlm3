@@ -1,0 +1,91 @@
+{
+  "page_id": "17-06_1_radiator",
+  "image_path": "raw/17 - Radiator/17-06_1.jpg",
+  "section_id": "17",
+  "section_name": "Radiator",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:02:08.631521",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 822
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for flushing the radiator?",
+      "answer": "The procedure number is 17 11 509.",
+      "question_type": "factual",
+      "id": "17-06_1_radiator-q01"
+    },
+    {
+      "question": "How much Solvethane should be poured into the radiator during the flushing procedure?",
+      "answer": "Pour in 2 to 3 liters (4 to 6 pints) of Solvethane.",
+      "question_type": "factual",
+      "id": "17-06_1_radiator-q02"
+    },
+    {
+      "question": "What is the first step in the radiator flushing procedure?",
+      "answer": "Remove radiator and expansion tank.",
+      "question_type": "procedural",
+      "id": "17-06_1_radiator-q03"
+    },
+    {
+      "question": "How long should you wait after oil has been dissolved before draining?",
+      "answer": "Drain after oil has been dissolved (2 to 3 minutes).",
+      "question_type": "procedural",
+      "id": "17-06_1_radiator-q04"
+    },
+    {
+      "question": "When should the radiator and expansion tank be flushed and cleaned?",
+      "answer": "If oil has penetrated into the coolant circuit, the radiator and expansion tank will have to be flushed and cleaned with approved Solvethane.",
+      "question_type": "factual",
+      "id": "17-06_1_radiator-q05"
+    },
+    {
+      "question": "What should be done with the cooling system after installing the cleaned radiator?",
+      "answer": "Fill entire cooling system with hot water and flush thoroughly by replacing hot water several times to guarantee removal of solvethane residue.",
+      "question_type": "procedural",
+      "id": "17-06_1_radiator-q06"
+    },
+    {
+      "question": "What should you check for after draining the coolant during the cleaning process?",
+      "answer": "Check drained coolant for traces of oil and repeat test step 5 (if necessary). Fill and bleed cooling system as normally after finishing the cleaning procedures.",
+      "question_type": "inspection",
+      "id": "17-06_1_radiator-q07"
+    },
+    {
+      "question": "What important caution is given about Solvethane?",
+      "answer": "Solvethane attacks rubber seals, hoses, etc. and consequently must not be permitted to enter or remain in the cooling system.",
+      "question_type": "safety",
+      "id": "17-06_1_radiator-q08"
+    },
+    {
+      "question": "Where should you refer for safety measures when handling Solvethane?",
+      "answer": "Always conform with safety measures for the handling of Solvethane (printed on cans). Also refer to Service Information 11 03 80 (660).",
+      "question_type": "safety",
+      "id": "17-06_1_radiator-q09"
+    },
+    {
+      "question": "What should be done with the radiator and tank after adding Solvethane?",
+      "answer": "Shake radiator and tank thoroughly and drain after oil has been dissolved (2 to 3 minutes).",
+      "question_type": "procedural",
+      "id": "17-06_1_radiator-q10"
+    },
+    {
+      "question": "What is done after installing the cleaned radiator and expansion tank?",
+      "answer": "Install cleaned radiator and expansion tank, and connect on coolant circuit.",
+      "question_type": "procedural",
+      "id": "17-06_1_radiator-q11"
+    },
+    {
+      "question": "What reference number is provided at the bottom of the page?",
+      "answer": "HWB No. 81 22 9 400 702.",
+      "question_type": "factual",
+      "id": "17-06_1_radiator-q12"
+    }
+  ]
+}

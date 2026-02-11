@@ -1,0 +1,85 @@
+{
+  "page_id": "12-06_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-06.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:22:29.948787",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 845
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure should be followed after connecting the BMW service test unit for checking the ignition coil?",
+      "answer": "Carry out engine test step 09. Observe oscillograph - ignition voltage and ignition voltage deviation must agree with nominal values.",
+      "question_type": "procedural",
+      "id": "12-06_engine-e-q01"
+    },
+    {
+      "question": "What are the multimeter terminals for measuring ignition coil resistance?",
+      "answer": "Terminal 1/15 for primary coil and terminal 15/4 for secondary coil resistance measurement.",
+      "question_type": "factual",
+      "id": "12-06_engine-e-q02"
+    },
+    {
+      "question": "What safety precaution must be observed before working on the ignition system?",
+      "answer": "Always turn off ignition before working on the ignition system - dangerous high voltage! Refer to page 12-0 for instructions for working on ignition system.",
+      "question_type": "safety",
+      "id": "12-06_engine-e-q03"
+    },
+    {
+      "question": "What visual signs indicate that an ignition coil should be replaced?",
+      "answer": "Check for hairline cracks and signs of burning. Check plug (S) for tight fit - if pressed out, replace ignition coil.",
+      "question_type": "inspection",
+      "id": "12-06_engine-e-q04"
+    },
+    {
+      "question": "What are the first steps to remove an ignition coil?",
+      "answer": "Pull off protective cap and ignition lead (terminal 4). Unscrew connections (terminal 1 and 15). Unscrew holder and take off ignition coil.",
+      "question_type": "procedural",
+      "id": "12-06_engine-e-q05"
+    },
+    {
+      "question": "What should be verified when installing a new ignition coil?",
+      "answer": "Check new ignition coil for correct code number and color label.",
+      "question_type": "inspection",
+      "id": "12-06_engine-e-q06"
+    },
+    {
+      "question": "What component is numbered as 15 in the ignition coil removal diagram?",
+      "answer": "Terminal 15 is one of the electrical connections that must be unscrewed when removing the ignition coil.",
+      "question_type": "visual",
+      "id": "12-06_engine-e-q07"
+    },
+    {
+      "question": "What component is numbered as 4 in the ignition coil diagram?",
+      "answer": "Terminal 4 is the ignition lead connection that must be pulled off along with the protective cap during removal.",
+      "question_type": "visual",
+      "id": "12-06_engine-e-q08"
+    },
+    {
+      "question": "What test equipment is required for checking ignition coil operation?",
+      "answer": "BMW service test unit for oscillograph testing and a multimeter (M 06) for resistance measurements.",
+      "question_type": "tool",
+      "id": "12-06_engine-e-q09"
+    },
+    {
+      "question": "What does the oscillograph display show during ignition coil testing?",
+      "answer": "The oscillograph displays ignition voltage waveforms with time scale markings, showing ignition voltage patterns that must agree with nominal values.",
+      "question_type": "visual",
+      "id": "12-06_engine-e-q10"
+    },
+    {
+      "question": "Where can specifications for ignition coil nominal values be found?",
+      "answer": "See Specifications section and nominal value microfiche as referenced at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "12-06_engine-e-q12"
+    }
+  ]
+}

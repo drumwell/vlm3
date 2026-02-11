@@ -1,0 +1,91 @@
+{
+  "page_id": "62-79_instrume",
+  "image_path": "raw/62 - Instruments/62-79.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:47:41.401921",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 733
+  },
+  "qa_pairs": [
+    {
+      "question": "What BMW part number is specified for the special low beam relay?",
+      "answer": "61 31 1 366 058.",
+      "question_type": "factual",
+      "id": "62-79_instrume-q01"
+    },
+    {
+      "question": "What should you do if the ground connection on light switch is not okay?",
+      "answer": "Make ground connection.",
+      "question_type": "procedural",
+      "id": "62-79_instrume-q02"
+    },
+    {
+      "question": "Which terminal should be checked for ground from light switch to low beam relay in yellow wire?",
+      "answer": "Ground from light switch term. 56 to low beam relay term. 85 in yellow wire.",
+      "question_type": "factual",
+      "id": "62-79_instrume-q03"
+    },
+    {
+      "question": "What terminals should be checked when testing the low beam relay?",
+      "answer": "Positive term. 30, Positive term. 15, Ground term. 85, and Positive term. 87.",
+      "question_type": "inspection",
+      "id": "62-79_instrume-q04"
+    },
+    {
+      "question": "What test point number is used to check the central electric board for ground in term. 31?",
+      "answer": "Test point no. 1 (see figure).",
+      "question_type": "visual",
+      "id": "62-79_instrume-q05"
+    },
+    {
+      "question": "What action should be taken if the low beam relay connections are not okay?",
+      "answer": "Make positive or ground connections as required. Replace relay.",
+      "question_type": "procedural",
+      "id": "62-79_instrume-q06"
+    },
+    {
+      "question": "What should you check if the yellow/black wire connection 'K' shows 0 ohm?",
+      "answer": "Replace wire from bulb tester in centr. elec. board conn. 'K' to plug conn. check control conn. 22.",
+      "question_type": "procedural",
+      "id": "62-79_instrume-q07"
+    },
+    {
+      "question": "What voltage measurement point is referenced for checking yellow wire 56 b?",
+      "answer": "Control conn. 21 ter to test point no. 3 (see figure).",
+      "question_type": "visual",
+      "id": "62-79_instrume-q08"
+    },
+    {
+      "question": "What should be done if left and right low beam fuses are not okay?",
+      "answer": "Replace fuse.",
+      "question_type": "procedural",
+      "id": "62-79_instrume-q09"
+    },
+    {
+      "question": "What wire colors are mentioned for the low beam headlight wires?",
+      "answer": "'yellow/white' and 'yellow/blue'.",
+      "question_type": "factual",
+      "id": "62-79_instrume-q10"
+    },
+    {
+      "question": "What should be replaced if headlight ground connections and light bulbs are not okay?",
+      "answer": "Make ground connections. Replace light bulbs.",
+      "question_type": "procedural",
+      "id": "62-79_instrume-q11"
+    },
+    {
+      "question": "What should you do if there is no voltage on fuse inlets for left and right low beams?",
+      "answer": "Check central electric board.",
+      "question_type": "troubleshooting",
+      "id": "62-79_instrume-q12"
+    }
+  ]
+}

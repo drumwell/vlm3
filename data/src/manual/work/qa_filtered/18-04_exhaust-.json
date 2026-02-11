@@ -1,0 +1,79 @@
+{
+  "page_id": "18-04_exhaust-",
+  "image_path": "raw/18 - Exhaust System/18-04.jpg",
+  "section_id": "18",
+  "section_name": "Exhaust System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:03:49.212922",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 744
+  },
+  "qa_pairs": [
+    {
+      "question": "What specific caution is given when disconnecting the oxygen sensor on the BMW 318i?",
+      "answer": "The oxygen sensor must not be damaged. Remove oxygen sensor if there is danger of damaging it - see 11 78 011.",
+      "question_type": "safety",
+      "id": "18-04_exhaust--q02"
+    },
+    {
+      "question": "How should the oxygen sensor plug be removed on the BMW 318i?",
+      "answer": "Disconnect oxygen sensor plug (1) and pull out plug downward through the protective tube.",
+      "question_type": "procedural",
+      "id": "18-04_exhaust--q03"
+    },
+    {
+      "question": "What installation instruction is given for cars with automatic transmission regarding the exhaust carrier?",
+      "answer": "Mount the exhaust carrier without tension by adjusting nut (1). Unscrew nut (2).",
+      "question_type": "procedural",
+      "id": "18-04_exhaust--q04"
+    },
+    {
+      "question": "What should be replaced when disconnecting the catalytic converter on the final muffler?",
+      "answer": "Replace gasket and self-locking nuts.",
+      "question_type": "procedural",
+      "id": "18-04_exhaust--q05"
+    },
+    {
+      "question": "What information is provided about scrapping used catalytic converters?",
+      "answer": "Used catalytic converters can be returned - same process as for warranty parts.",
+      "question_type": "factual",
+      "id": "18-04_exhaust--q06"
+    },
+    {
+      "question": "What should be checked when installing the exhaust pipe on the manifold?",
+      "answer": "Check gasket, replacing if necessary. Replace self-locking nuts. Coat threads with copper paste CRC.",
+      "question_type": "inspection",
+      "id": "18-04_exhaust--q07"
+    },
+    {
+      "question": "What copper paste should be used on the exhaust pipe threads?",
+      "answer": "CRC copper paste.",
+      "question_type": "tool",
+      "id": "18-04_exhaust--q08"
+    },
+    {
+      "question": "When should the holder for the exhaust assembly be torqued?",
+      "answer": "Torque holder only after finishing installation of exhaust assembly (danger of tensioning).",
+      "question_type": "safety",
+      "id": "18-04_exhaust--q09"
+    },
+    {
+      "question": "What does callout number 1 indicate in the top left image?",
+      "answer": "The oxygen sensor plug that needs to be disconnected.",
+      "question_type": "visual",
+      "id": "18-04_exhaust--q11"
+    },
+    {
+      "question": "What reference is given for warranty parts processes regarding catalytic converters?",
+      "answer": "See Service Information for warranty parts processes.",
+      "question_type": "navigation",
+      "id": "18-04_exhaust--q12"
+    }
+  ]
+}

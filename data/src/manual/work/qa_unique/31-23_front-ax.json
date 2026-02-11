@@ -1,0 +1,73 @@
+{
+  "page_id": "31-23_front-ax",
+  "image_path": "raw/31 - Front Axle/31-23.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:19:48.564612",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 888
+  },
+  "qa_pairs": [
+    {
+      "question": "What needs to be removed before accessing the front propeller shaft according to Group 26?",
+      "answer": "The splash guard needs to be removed (see Group 51), and the front propeller shaft needs to be removed (see Group 26).",
+      "question_type": "procedural",
+      "id": "31-23_front-ax-q02"
+    },
+    {
+      "question": "How much should the right output shaft be pulled out of the front axle final drive?",
+      "answer": "The right output shaft should be pulled out by approximately 15 mm (0.591 inches) using Special Tools 31 5 011/012.",
+      "question_type": "procedural",
+      "id": "31-23_front-ax-q03"
+    },
+    {
+      "question": "What range should the front axle final drive be pressed away from engine oil pan by?",
+      "answer": "The front axle final drive should be pressed away from engine oil pan by 10 to 15 mm (0.394 to 0.591 inches).",
+      "question_type": "factual",
+      "id": "31-23_front-ax-q04"
+    },
+    {
+      "question": "What special tool is required for measuring friction torque on the drive set?",
+      "answer": "Special Tool 00 2 000 is required for measuring friction torque while turning uniformly.",
+      "question_type": "tool",
+      "id": "31-23_front-ax-q05"
+    },
+    {
+      "question": "How should the drive set be removed from the case?",
+      "answer": "The drive set should be pulled out of the case by screwing in two M 8 x 30 bolts uniformly.",
+      "question_type": "procedural",
+      "id": "31-23_front-ax-q06"
+    },
+    {
+      "question": "What should be done with the final drive oil during this procedure?",
+      "answer": "The final drive oil should be drained, and during installation, new final drive oil should be poured in according to tightening torque specifications.",
+      "question_type": "procedural",
+      "id": "31-23_front-ax-q08"
+    },
+    {
+      "question": "What component is marked as 'A' in the installation diagram?",
+      "answer": "Component 'A' is a shim that should be installed again and the seal should be replaced during installation.",
+      "question_type": "visual",
+      "id": "31-23_front-ax-q09"
+    },
+    {
+      "question": "What type of jaws should be used when clamping the drive set in a vise?",
+      "answer": "The drive set should be clamped in a vise fitted with aluminum jaws.",
+      "question_type": "tool",
+      "id": "31-23_front-ax-q10"
+    },
+    {
+      "question": "Where can the specific torque values and material specifications be found?",
+      "answer": "The specific torque values can be found in the Specifications section, and material specifications can be found in the Operating Material Specifications section.",
+      "question_type": "navigation",
+      "id": "31-23_front-ax-q12"
+    }
+  ]
+}

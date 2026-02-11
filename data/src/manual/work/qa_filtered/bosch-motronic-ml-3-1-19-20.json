@@ -1,0 +1,79 @@
+{
+  "page_id": "bosch-motronic-ml-3-1-19-20",
+  "image_path": "raw/Bosch Motronic ML 3-1/19-20.png",
+  "section_id": "bosch",
+  "section_name": "Bosch Motronic ML 3-1",
+  "source_type": "ecu_technical",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:40:47.538752",
+    "prompt_template": "ecu_technical/wiring",
+    "tokens_input": 1906,
+    "tokens_output": 665
+  },
+  "qa_pairs": [
+    {
+      "question": "What does component B1 represent in the electrical connection schema?",
+      "answer": "B1 represents the trasduttore altimetrico (altimetric transducer).",
+      "question_type": "component",
+      "id": "bosch-motronic-ml-3-1-19-20-q01"
+    },
+    {
+      "question": "What is the function of relay K2 according to the legend?",
+      "answer": "K2 is the rel\u00e9 per sfiato aria serbatoio (tank air vent relay), which is only for Cat (catalytic converter equipped vehicles).",
+      "question_type": "component",
+      "id": "bosch-motronic-ml-3-1-19-20-q02"
+    },
+    {
+      "question": "What does Y1 control in this Motronic system?",
+      "answer": "Y1 is the servocomando regime minimo (idle speed servo control).",
+      "question_type": "component",
+      "id": "bosch-motronic-ml-3-1-19-20-q03"
+    },
+    {
+      "question": "Which component is labeled as X3 in the wiring diagram?",
+      "answer": "X3 is the spina di diagnosi (diagnostic connector).",
+      "question_type": "component",
+      "id": "bosch-motronic-ml-3-1-19-20-q04"
+    },
+    {
+      "question": "What type of sensor is B3 according to the component list?",
+      "answer": "B3 is the sensore temperat. liquido raffredd. (coolant temperature sensor).",
+      "question_type": "component",
+      "id": "bosch-motronic-ml-3-1-19-20-q05"
+    },
+    {
+      "question": "What does component Y4 represent in this electrical schema?",
+      "answer": "Y4 is the elettropompa carburante (fuel pump).",
+      "question_type": "component",
+      "id": "bosch-motronic-ml-3-1-19-20-q06"
+    },
+    {
+      "question": "Which relay is designated as K3 and what is its purpose?",
+      "answer": "K3 is the rel\u00e9 pompa (pump relay) for the fuel pump system.",
+      "question_type": "component",
+      "id": "bosch-motronic-ml-3-1-19-20-q07"
+    },
+    {
+      "question": "What is the designation for the main control unit in this Motronic system?",
+      "answer": "X1 is designated as the spina centralina electron. Motronic (Motronic electronic control unit connector).",
+      "question_type": "component",
+      "id": "bosch-motronic-ml-3-1-19-20-q08"
+    },
+    {
+      "question": "What does the abbreviation 'Cat' refer to in the component descriptions?",
+      "answer": "Cat refers to catalytic converter equipped vehicles, as indicated in the legend for components like K2 and B6.",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-19-20-q09"
+    },
+    {
+      "question": "What type of switch is S1 according to the electrical connections legend?",
+      "answer": "S1 is the interruttore sulla farfalla accel. (throttle butterfly valve switch).",
+      "question_type": "component",
+      "id": "bosch-motronic-ml-3-1-19-20-q10"
+    }
+  ]
+}

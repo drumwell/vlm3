@@ -1,0 +1,79 @@
+{
+  "page_id": "12-115_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-115.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:29:12.086025",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 807
+  },
+  "qa_pairs": [
+    {
+      "question": "What is Test 17/18 checking for in the exhaust system and catalytic converter?",
+      "answer": "Test 17/18 checks the exhaust system and catalytic converter for damage, tight fit and leaks.",
+      "question_type": "factual",
+      "id": "12-115_engine-e-q01"
+    },
+    {
+      "question": "What specific components should be inspected during Test 19 - Crankcase Vent?",
+      "answer": "During Test 19, check hoses for crankcase vent and oil dipstick for tight fit and leaks.",
+      "question_type": "inspection",
+      "id": "12-115_engine-e-q02"
+    },
+    {
+      "question": "What should you do if the cooling system needs to be filled and bled during Test 20?",
+      "answer": "If necessary, fill and bleed the cooling system - see Group 17 for detailed procedures.",
+      "question_type": "procedural",
+      "id": "12-115_engine-e-q04"
+    },
+    {
+      "question": "Where can you find additional service information referenced at the bottom of this page?",
+      "answer": "Additional service information can be found in Group 00, as referenced at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "12-115_engine-e-q05"
+    },
+    {
+      "question": "What types of problems should you look for when inspecting the exhaust system?",
+      "answer": "When inspecting the exhaust system, look for damage, improper fit, and leaks in both the exhaust system and catalytic converter.",
+      "question_type": "inspection",
+      "id": "12-115_engine-e-q06"
+    },
+    {
+      "question": "What is the test number for checking the crankcase ventilation system?",
+      "answer": "Test 19 is designated for checking the crankcase vent system.",
+      "question_type": "factual",
+      "id": "12-115_engine-e-q07"
+    },
+    {
+      "question": "Which group should you reference for detailed cooling system fill and bleed procedures?",
+      "answer": "Reference Group 17 for detailed procedures on filling and bleeding the cooling system.",
+      "question_type": "navigation",
+      "id": "12-115_engine-e-q08"
+    },
+    {
+      "question": "What should be checked for tight fit during the crankcase vent inspection?",
+      "answer": "During crankcase vent inspection, check both the hoses for crankcase vent and the oil dipstick for tight fit.",
+      "question_type": "inspection",
+      "id": "12-115_engine-e-q09"
+    },
+    {
+      "question": "What are the two main aspects to check in the cooling system during Test 20?",
+      "answer": "Check both the coolant level and coolant concentration during Test 20 of the cooling system.",
+      "question_type": "factual",
+      "id": "12-115_engine-e-q10"
+    },
+    {
+      "question": "What should you inspect for leaks during Test 19?",
+      "answer": "During Test 19, inspect both the crankcase vent hoses and oil dipstick area for leaks.",
+      "question_type": "inspection",
+      "id": "12-115_engine-e-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "62-82_instrume",
+  "image_path": "raw/62 - Instruments/62-82.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:48:30.995381",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 830
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the caution when mounting the plug connection plate on the instrument cluster?",
+      "answer": "Be careful not to bend spring contacts when mounting the connection plate.",
+      "question_type": "safety",
+      "id": "62-82_instrume-q01"
+    },
+    {
+      "question": "Which wire harness plugs should be connected to the instrument cluster for '5', '6' and '7' series cars?",
+      "answer": "Connect blue and white plugs of wire harness on instrument cluster.",
+      "question_type": "procedural",
+      "id": "62-82_instrume-q02"
+    },
+    {
+      "question": "What is the minimum battery voltage required for the simulator red control lamp to come on?",
+      "answer": "The red control lamp will not come on with a battery voltage of less than 11.5 V; the simulator is not ready for use.",
+      "question_type": "factual",
+      "id": "62-82_instrume-q03"
+    },
+    {
+      "question": "How should the selector switch be set when checking the speedometer?",
+      "answer": "Set selector switch (3) to km/h or mph, and turn knob (7) against left stop; speedometer needle points to 0.",
+      "question_type": "procedural",
+      "id": "62-82_instrume-q04"
+    },
+    {
+      "question": "What happens when you turn knob 7 clockwise slowly during speedometer testing?",
+      "answer": "The speedometer needle passes through the display range.",
+      "question_type": "operation",
+      "id": "62-82_instrume-q05"
+    },
+    {
+      "question": "What is the display range that the simulator is designed for on speedometers?",
+      "answer": "The simulator is designed for speedometers with a display range of 280 km/h.",
+      "question_type": "factual",
+      "id": "62-82_instrume-q06"
+    },
+    {
+      "question": "How should the simulator be connected to a 12V battery?",
+      "answer": "Connect red terminal (3) on B + and black terminal (4) on B - of a 12 V battery. Turn on simulator with switch (1).",
+      "question_type": "procedural",
+      "id": "62-82_instrume-q07"
+    },
+    {
+      "question": "What callout numbers are shown in the top diagram of the instrument cluster?",
+      "answer": "The top diagram shows callout numbers 1 and 2 indicating components of the plug connection plate installation.",
+      "question_type": "visual",
+      "id": "62-82_instrume-q08"
+    },
+    {
+      "question": "Where can the set frequency be measured on the simulator?",
+      "answer": "The set frequency can be measured on the yellow jack with a BMW service test unit (multimeter 14).",
+      "question_type": "diagnostic",
+      "id": "62-82_instrume-q09"
+    },
+    {
+      "question": "What are the FREQ terminals and their connection colors?",
+      "answer": "Yellow connection terminal FREQ in + in yellow jack; Black connection terminal FREQ in - on B - of battery.",
+      "question_type": "wiring",
+      "id": "62-82_instrume-q10"
+    },
+    {
+      "question": "What could happen if a speedometer has a smaller display range than 280 km/h?",
+      "answer": "If the display range is smaller, after reaching the final display value and increasing frequency with knob (7) the needle would fall back to an undefined display value, then start from this display value and pass through the display range again.",
+      "question_type": "troubleshooting",
+      "id": "62-82_instrume-q11"
+    },
+    {
+      "question": "What should be referenced for test values when using the simulator?",
+      "answer": "See Specifications for test values.",
+      "question_type": "navigation",
+      "id": "62-82_instrume-q12"
+    }
+  ]
+}

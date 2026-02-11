@@ -1,0 +1,73 @@
+{
+  "page_id": "11-104_engine",
+  "image_path": "raw/11 - Engine/11-104.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:08:10.571702",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1759,
+    "tokens_output": 739
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to disconnect the support and gas pressure prop for the engine hood?",
+      "answer": "Special Tool 51 2 120.",
+      "question_type": "tool",
+      "id": "11-104_engine-q02"
+    },
+    {
+      "question": "What should be done before removing the fan during oil cooler hose disconnection?",
+      "answer": "Remove fan - see Gr. 17.",
+      "question_type": "procedural",
+      "id": "11-104_engine-q03"
+    },
+    {
+      "question": "Which special tool is needed to tighten the drive belt for both the power steering pump and air conditioner compressor?",
+      "answer": "Special Tool 11 5 021.",
+      "question_type": "tool",
+      "id": "11-104_engine-q05"
+    },
+    {
+      "question": "What precaution is mentioned when using the retainer during engine hood support disconnection?",
+      "answer": "Use retainer (1). Caution!",
+      "question_type": "safety",
+      "id": "11-104_engine-q06"
+    },
+    {
+      "question": "How should the power steering pump be suspended after unscrewing it from the holder?",
+      "answer": "Suspend it from car aside with a piece of wire, keeping hydraulic hoses connected.",
+      "question_type": "procedural",
+      "id": "11-104_engine-q07"
+    },
+    {
+      "question": "What should remain connected when removing the air conditioner compressor from its holder?",
+      "answer": "Refrigerant hoses should remain connected.",
+      "question_type": "procedural",
+      "id": "11-104_engine-q09"
+    },
+    {
+      "question": "What are the two positions for unscrewing engine mounts on the front axle carrier?",
+      "answer": "Left - unscrew at top, loosen at bottom; right - loosen at top, unscrew at bottom.",
+      "question_type": "procedural",
+      "id": "11-104_engine-q10"
+    },
+    {
+      "question": "What component is labeled as item 2 in the engine hood support diagram?",
+      "answer": "The plastic part that should be inserted during installation.",
+      "question_type": "visual",
+      "id": "11-104_engine-q11"
+    },
+    {
+      "question": "How should both the power steering pump and air conditioner compressor be positioned after removal?",
+      "answer": "Both should be suspended from the car aside with a piece of wire while keeping their respective hoses connected.",
+      "question_type": "procedural",
+      "id": "11-104_engine-q12"
+    }
+  ]
+}

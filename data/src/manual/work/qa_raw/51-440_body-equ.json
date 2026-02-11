@@ -1,0 +1,85 @@
+{
+  "page_id": "51-440_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-440.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:27:05.059159",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 629
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for removing and installing the front roof liner plate?",
+      "answer": "Section 51 44 150.",
+      "question_type": "factual",
+      "id": "51-440_body-equ-q01"
+    },
+    {
+      "question": "What control should be removed if applicable before starting the front roof liner plate removal?",
+      "answer": "Check control 62 14 070.",
+      "question_type": "procedural",
+      "id": "51-440_body-equ-q02"
+    },
+    {
+      "question": "What should be removed if applicable along with the check control?",
+      "answer": "Sun roof lid.",
+      "question_type": "procedural",
+      "id": "51-440_body-equ-q03"
+    },
+    {
+      "question": "How should the door weatherstrip be handled during this procedure?",
+      "answer": "Pull off door weatherstrip partially on left and right sides.",
+      "question_type": "procedural",
+      "id": "51-440_body-equ-q04"
+    },
+    {
+      "question": "What components need to be removed after unscrewing the screws?",
+      "answer": "Sun visors and holders.",
+      "question_type": "procedural",
+      "id": "51-440_body-equ-q05"
+    },
+    {
+      "question": "What is the first step for cars with sun roof during this procedure?",
+      "answer": "Open roof.",
+      "question_type": "procedural",
+      "id": "51-440_body-equ-q06"
+    },
+    {
+      "question": "What material should be used in the strip during installation?",
+      "answer": "Terostat tape.",
+      "question_type": "tool",
+      "id": "51-440_body-equ-q07"
+    },
+    {
+      "question": "What are the three steps required for cars with sun roof?",
+      "answer": "Open roof, unscrew screws, and take off strip.",
+      "question_type": "procedural",
+      "id": "51-440_body-equ-q08"
+    },
+    {
+      "question": "What components are shown being removed in figure 30 51 422?",
+      "answer": "The plate cover and plate, which are pulled off and taken off after unscrewing screws.",
+      "question_type": "visual",
+      "id": "51-440_body-equ-q09"
+    },
+    {
+      "question": "What is the final step shown in the removal procedure?",
+      "answer": "Pull off plate cover, unscrew screws, and take off plate.",
+      "question_type": "procedural",
+      "id": "51-440_body-equ-q10"
+    },
+    {
+      "question": "What figure number shows the door weatherstrip removal process?",
+      "answer": "Figure 30 51 421.",
+      "question_type": "visual",
+      "id": "51-440_body-equ-q11"
+    }
+  ]
+}

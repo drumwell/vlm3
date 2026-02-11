@@ -1,0 +1,67 @@
+{
+  "page_id": "41-104c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-104c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:39:50.024059",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 709
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum distance the cutting line must be from the door pillar connection?",
+      "answer": "The cutting line (A) must be at least 40 mm (1.575\") away from the door pillar connection.",
+      "question_type": "factual",
+      "id": "41-104c_body-con-q01"
+    },
+    {
+      "question": "What is the part number for replacing the cover for side member left or right?",
+      "answer": "The part number is 41 11 530.",
+      "question_type": "factual",
+      "id": "41-104c_body-con-q03"
+    },
+    {
+      "question": "What should be removed before starting this repair procedure?",
+      "answer": "Remove or cover up all car parts which are located in the repair area or subjected to heat, sparks and dust. Also remove the rear side panel according to section 41 35 111.",
+      "question_type": "procedural",
+      "id": "41-104c_body-con-q04"
+    },
+    {
+      "question": "What important consideration should be made when marking the cutting line?",
+      "answer": "Make the cutting line in such a manner whenever possible, that the jack holder will not be cut.",
+      "question_type": "safety",
+      "id": "41-104c_body-con-q05"
+    },
+    {
+      "question": "What should be done to the spot welds before removal?",
+      "answer": "Drill out spot welds.",
+      "question_type": "procedural",
+      "id": "41-104c_body-con-q06"
+    },
+    {
+      "question": "How should the cover be removed along the cutting line?",
+      "answer": "Cut off cover along marked cutting line.",
+      "question_type": "procedural",
+      "id": "41-104c_body-con-q07"
+    },
+    {
+      "question": "What specific technique is mentioned for removing welding studs?",
+      "answer": "Grind off welding studs.",
+      "question_type": "procedural",
+      "id": "41-104c_body-con-q08"
+    },
+    {
+      "question": "What is the nature of this repair procedure according to the title?",
+      "answer": "This is a partial replacement procedure where the door pillar and rear side panel are removed.",
+      "question_type": "factual",
+      "id": "41-104c_body-con-q12"
+    }
+  ]
+}

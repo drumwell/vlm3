@@ -1,0 +1,91 @@
+{
+  "page_id": "41-114c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-114c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:44:54.081156",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 700
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when installing the tail panel?",
+      "answer": "Install tail panel.",
+      "question_type": "procedural",
+      "id": "41-114c_body-con-q01"
+    },
+    {
+      "question": "What type of compound should be used to seal the mating surfaces?",
+      "answer": "A body sealing compound should be used to seal off all mating surfaces from top and bottom.",
+      "question_type": "factual",
+      "id": "41-114c_body-con-q02"
+    },
+    {
+      "question": "Where should the anti-drumming compound be applied?",
+      "answer": "Spray an anti-drumming compound on underside of car, wheel housings and tail panel from underneath.",
+      "question_type": "procedural",
+      "id": "41-114c_body-con-q03"
+    },
+    {
+      "question": "What surfaces need to be sealed with body sealing compound?",
+      "answer": "All mating surfaces from top and bottom need to be sealed with body sealing compound.",
+      "question_type": "factual",
+      "id": "41-114c_body-con-q04"
+    },
+    {
+      "question": "What is the illustration number shown in the diagram?",
+      "answer": "The illustration number is 30 41 097.",
+      "question_type": "visual",
+      "id": "41-114c_body-con-q05"
+    },
+    {
+      "question": "From which direction should the anti-drumming compound be applied to the tail panel?",
+      "answer": "The anti-drumming compound should be applied to the tail panel from underneath.",
+      "question_type": "procedural",
+      "id": "41-114c_body-con-q06"
+    },
+    {
+      "question": "What components besides the tail panel should receive anti-drumming compound?",
+      "answer": "The underside of car and wheel housings should also receive anti-drumming compound in addition to the tail panel.",
+      "question_type": "factual",
+      "id": "41-114c_body-con-q07"
+    },
+    {
+      "question": "What method is specified for applying the anti-drumming compound?",
+      "answer": "The anti-drumming compound should be sprayed on the specified areas.",
+      "question_type": "procedural",
+      "id": "41-114c_body-con-q08"
+    },
+    {
+      "question": "What page number is this from the service manual?",
+      "answer": "This is page 41-114 C.",
+      "question_type": "navigation",
+      "id": "41-114c_body-con-q09"
+    },
+    {
+      "question": "What component is being installed according to the procedure shown?",
+      "answer": "The tail panel is being installed according to the procedure shown.",
+      "question_type": "component",
+      "id": "41-114c_body-con-q10"
+    },
+    {
+      "question": "How many different compounds are mentioned in the installation procedure?",
+      "answer": "Two different compounds are mentioned: body sealing compound and anti-drumming compound.",
+      "question_type": "factual",
+      "id": "41-114c_body-con-q11"
+    },
+    {
+      "question": "What is the purpose of sealing the mating surfaces?",
+      "answer": "The mating surfaces are sealed with body sealing compound to prevent water or air infiltration at the joints.",
+      "question_type": "operation",
+      "id": "41-114c_body-con-q12"
+    }
+  ]
+}

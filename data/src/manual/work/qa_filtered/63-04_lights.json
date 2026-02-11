@@ -1,0 +1,91 @@
+{
+  "page_id": "63-04_lights",
+  "image_path": "raw/63 - Lights/63-04.jpg",
+  "section_id": "63",
+  "section_name": "Lights",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:51:17.322305",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 747
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW part number for replacing the additional stop light for convertibles?",
+      "answer": "The BMW part number is 63 99 381.",
+      "question_type": "factual",
+      "id": "63-04_lights-q01"
+    },
+    {
+      "question": "How do you remove the additional stop light for convertibles?",
+      "answer": "Remove the toolbox, then unscrew the screws and take off the stop light.",
+      "question_type": "procedural",
+      "id": "63-04_lights-q02"
+    },
+    {
+      "question": "What are the steps to replace the light bulb for the additional stop light?",
+      "answer": "Unscrew the screws and lift out the lens, then turn and lift out the light bulb.",
+      "question_type": "procedural",
+      "id": "63-04_lights-q03"
+    },
+    {
+      "question": "What BMW part number is used for replacing the center stop light bulb?",
+      "answer": "The BMW part number is 63 99 381.",
+      "question_type": "factual",
+      "id": "63-04_lights-q04"
+    },
+    {
+      "question": "How do you remove the center stop light cover?",
+      "answer": "Pull off the cover at an angle.",
+      "question_type": "procedural",
+      "id": "63-04_lights-q05"
+    },
+    {
+      "question": "What is the procedure for removing the reflector from the center stop light?",
+      "answer": "Compress both tabs and pull out the reflector, then unscrew the light bulb.",
+      "question_type": "procedural",
+      "id": "63-04_lights-q06"
+    },
+    {
+      "question": "What callout number 30 63 043 indicates in the diagrams?",
+      "answer": "Callout number 30 63 043 appears to indicate the additional stop light assembly location.",
+      "question_type": "visual",
+      "id": "63-04_lights-q07"
+    },
+    {
+      "question": "What callout number 30 63 044 represents in the illustration?",
+      "answer": "Callout number 30 63 044 indicates the light bulb component in the additional stop light assembly.",
+      "question_type": "visual",
+      "id": "63-04_lights-q08"
+    },
+    {
+      "question": "What callout number 30 63 041 identifies in the center stop light diagram?",
+      "answer": "Callout number 30 63 041 identifies the center stop light assembly.",
+      "question_type": "visual",
+      "id": "63-04_lights-q09"
+    },
+    {
+      "question": "What callout number 30 63 042 shows in the center stop light illustration?",
+      "answer": "Callout number 30 63 042 shows the reflector component of the center stop light.",
+      "question_type": "visual",
+      "id": "63-04_lights-q10"
+    },
+    {
+      "question": "What type of vehicle is this additional stop light replacement procedure specifically for?",
+      "answer": "This procedure is specifically for convertibles.",
+      "question_type": "factual",
+      "id": "63-04_lights-q11"
+    },
+    {
+      "question": "What must be removed first before accessing the additional stop light on convertibles?",
+      "answer": "The toolbox must be removed first before accessing the additional stop light.",
+      "question_type": "procedural",
+      "id": "63-04_lights-q12"
+    }
+  ]
+}

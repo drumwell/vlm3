@@ -1,0 +1,85 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6413-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:08:26.806408",
+    "prompt_template": "electrical_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 746
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number and title is shown at the top of this page?",
+      "answer": "6413-2 A/C BLOWER CONTROLS",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q01"
+    },
+    {
+      "question": "What conditions must be set for Test C: Blower Motor Test?",
+      "answer": "Ignition Switch: RUN, A/C Select Switch: ON, Blower Speed Control: HIGH",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q02"
+    },
+    {
+      "question": "Where should voltage be measured for the Blower Motor Test?",
+      "answer": "At the BLOWER MOTOR CONNECTOR (Disconnected)",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q03"
+    },
+    {
+      "question": "What should the voltage reading be between BU & Ground according to Test C?",
+      "answer": "Battery voltage",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q04"
+    },
+    {
+      "question": "If both voltages are correct in Test C, what component should be replaced?",
+      "answer": "Replace the Blower Motor",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q05"
+    },
+    {
+      "question": "What wire should you check first if the BU wire voltage is good in Test C?",
+      "answer": "Check the BR wire to ground G200 for an open",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q06"
+    },
+    {
+      "question": "What should you do if voltage is not present at the YL wire but is present at the GN or BK wire?",
+      "answer": "Replace the Blower Resistors",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q07"
+    },
+    {
+      "question": "Which step should you perform if voltage is not present at the YL, BK or GN wires?",
+      "answer": "Check for an open Blower Resistors' Safety Switch",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q08"
+    },
+    {
+      "question": "What wire colors are listed in the voltage measurement table for the continued section?",
+      "answer": "GN/BR & YL, GN/BR & BK, GN/BR & GN, and GN/BR & BU",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q09"
+    },
+    {
+      "question": "What should you check between the Blower Speed Control and splice S231?",
+      "answer": "Check the YL wire for an open",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q10"
+    },
+    {
+      "question": "What type of short should you check the YL wire for in step 3?",
+      "answer": "Check the YL wire for a wire to wire short to voltage",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-02-q12"
+    }
+  ]
+}

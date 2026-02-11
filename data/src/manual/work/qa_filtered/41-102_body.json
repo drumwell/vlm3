@@ -1,0 +1,91 @@
+{
+  "page_id": "41-102_body",
+  "image_path": "raw/41 - Body/41-102.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:38:33.345007",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 745
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the sheet metal thickness specified for the engine carrier reinforcements?",
+      "answer": "The sheet metal thickness is 1.8 mm (0.071\").",
+      "question_type": "factual",
+      "id": "41-102_body-q01"
+    },
+    {
+      "question": "What are the dimensions for the side reinforcement plates marked as A, B, and C?",
+      "answer": "A = 120 mm (4.724\"), B = 21 mm (0.827\"), and C = 50 mm (1.968\").",
+      "question_type": "factual",
+      "id": "41-102_body-q02"
+    },
+    {
+      "question": "What dimensions are specified for the bottom reinforcement plate?",
+      "answer": "A = 55 mm (2.165\") and B = 80 mm (3.150\").",
+      "question_type": "factual",
+      "id": "41-102_body-q03"
+    },
+    {
+      "question": "What is the first step shown in the engine carrier repair procedure?",
+      "answer": "Transfer cut to new engine carrier, considering the width of the joint.",
+      "question_type": "procedural",
+      "id": "41-102_body-q04"
+    },
+    {
+      "question": "What should be done after transferring the cut to the new engine carrier?",
+      "answer": "Drill out spot welds on inside and outside.",
+      "question_type": "procedural",
+      "id": "41-102_body-q05"
+    },
+    {
+      "question": "What important caution is given when cutting through the engine carrier?",
+      "answer": "Be careful not to damage sheet metal on inside.",
+      "question_type": "safety",
+      "id": "41-102_body-q06"
+    },
+    {
+      "question": "What procedure is shown in figure 30 41 574?",
+      "answer": "Straighten and grind mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-102_body-q07"
+    },
+    {
+      "question": "What is done with the reinforcement plates after they are prepared?",
+      "answer": "Match shape of reinforcement plates on inside and outside of new engine carrier, then drill holes for plug spot welding.",
+      "question_type": "procedural",
+      "id": "41-102_body-q08"
+    },
+    {
+      "question": "What does figure 30 41 577 demonstrate?",
+      "answer": "Mark location of and drill holes for plug spot welding in new engine carrier.",
+      "question_type": "visual",
+      "id": "41-102_body-q09"
+    },
+    {
+      "question": "How should the bottom reinforcement plate be adapted?",
+      "answer": "Adapt to curvature of carrier.",
+      "question_type": "procedural",
+      "id": "41-102_body-q10"
+    },
+    {
+      "question": "What are the dimensions D, E, and F for the side reinforcement plates?",
+      "answer": "D = 44 mm (1.732\"), E = 47 mm (1.850\"), and F = Cutting line on engine carrier.",
+      "question_type": "factual",
+      "id": "41-102_body-q11"
+    },
+    {
+      "question": "What type of welding is specified for attaching the reinforcement plates?",
+      "answer": "Plug spot welding.",
+      "question_type": "factual",
+      "id": "41-102_body-q12"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "65-00-index-b_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-00-index-b.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:00:15.691646",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 363
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers Radio and Special Equipment in this BMW E30 manual?",
+      "answer": "Section 65 covers Radio and Special Equipment.",
+      "question_type": "navigation",
+      "id": "65-00-index-b_radio-an-q01"
+    },
+    {
+      "question": "Where can I find instructions for cruise control testing?",
+      "answer": "Cruise control testing instructions can be found on pages 65-350.",
+      "question_type": "navigation",
+      "id": "65-00-index-b_radio-an-q02"
+    },
+    {
+      "question": "What page contains information about removing and installing the on-board computer?",
+      "answer": "Information about removing and installing the on-board computer is on page 65-360.",
+      "question_type": "navigation",
+      "id": "65-00-index-b_radio-an-q03"
+    },
+    {
+      "question": "Where are the procedures for air temperature sensor removal and installation located?",
+      "answer": "The procedures for air temperature sensor removal and installation are located on page 65-361.",
+      "question_type": "navigation",
+      "id": "65-00-index-b_radio-an-q04"
+    },
+    {
+      "question": "What component is referenced with part number 65 81 030?",
+      "answer": "Part number 65 81 030 refers to the on-board computer for remove and install procedures.",
+      "question_type": "component",
+      "id": "65-00-index-b_radio-an-q05"
+    },
+    {
+      "question": "On what page can I find testing instructions for On-board computer II?",
+      "answer": "Testing instructions for On-board computer II can be found on page 65-500.",
+      "question_type": "navigation",
+      "id": "65-00-index-b_radio-an-q06"
+    }
+  ]
+}

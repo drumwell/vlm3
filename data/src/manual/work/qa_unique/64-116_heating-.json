@@ -1,0 +1,85 @@
+{
+  "page_id": "64-116_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-116.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:55:44.641280",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 770
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the air conditioning system before removing the heater?",
+      "answer": "Discharge pressure in air conditioner with help of valve core remover.",
+      "question_type": "procedural",
+      "id": "64-116_heating--q01"
+    },
+    {
+      "question": "What needs to be checked after installing the heater?",
+      "answer": "Discharge, charge and check air conditioner for leaks after installation.",
+      "question_type": "procedural",
+      "id": "64-116_heating--q02"
+    },
+    {
+      "question": "What is the first step when disconnecting the heater electrical connections?",
+      "answer": "Disconnect battery ground lead.",
+      "question_type": "procedural",
+      "id": "64-116_heating--q03"
+    },
+    {
+      "question": "What are the numbered components shown in the heater removal diagram 30 64 097?",
+      "answer": "1 - rubber strip, 2 - wire straps, 3 - bolts, 4 - cover, 5 - heater assembly.",
+      "question_type": "visual",
+      "id": "64-116_heating--q04"
+    },
+    {
+      "question": "What should be done with the plugs when disconnecting lines 1 and 2?",
+      "answer": "Insert plugs (3) in open connections immediately and counterhold on block valve (4) with wrench.",
+      "question_type": "procedural",
+      "id": "64-116_heating--q05"
+    },
+    {
+      "question": "What must be checked and possibly replaced during installation?",
+      "answer": "Check rubber mount (4), replacing if necessary. Replace seals.",
+      "question_type": "inspection",
+      "id": "64-116_heating--q06"
+    },
+    {
+      "question": "What cooling system maintenance is required during this procedure?",
+      "answer": "Drain coolant, disconnect both water hoses. During installation: bleed cooling system and check coolant.",
+      "question_type": "procedural",
+      "id": "64-116_heating--q07"
+    },
+    {
+      "question": "What electrical connections need to be disconnected for heater removal?",
+      "answer": "Disconnect plugs (1) connecting heater wire harness and car wire harness.",
+      "question_type": "procedural",
+      "id": "64-116_heating--q08"
+    },
+    {
+      "question": "What connector needs to be removed between the heater and rear area heater duct?",
+      "answer": "Remove connector (1) between heater (3) and rear area heater duct (2) on left and right sides.",
+      "question_type": "procedural",
+      "id": "64-116_heating--q09"
+    },
+    {
+      "question": "What components are identified in the heater connection diagram 30 64 153?",
+      "answer": "1 and 2 are connection lines, 3 are plugs, 4 is block valve, 5 appears to be a connection point.",
+      "question_type": "visual",
+      "id": "64-116_heating--q11"
+    },
+    {
+      "question": "What preliminary step is required before beginning heater removal?",
+      "answer": "Remove and install instrument panel trim per SI 45 030.",
+      "question_type": "procedural",
+      "id": "64-116_heating--q12"
+    }
+  ]
+}

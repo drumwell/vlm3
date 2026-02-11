@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-081",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/081.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:27:38.017985",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 643
+  },
+  "qa_pairs": [
+    {
+      "question": "How much torque is required for the fuel tank nut on the E24 model?",
+      "answer": "45 Nm (ft. lbs.) with M8 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-081-q03"
+    },
+    {
+      "question": "How much torque should be applied to the heat shield to fuel tank on the E24 model?",
+      "answer": "1.0 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-081-q07"
+    },
+    {
+      "question": "What torque is specified for the heat shield to fuel tank on the E31 model?",
+      "answer": "3 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-081-q08"
+    },
+    {
+      "question": "Which component has a torque specification of 8 Nm (ft. lbs.) without a screw specification listed?",
+      "answer": "The retaining strap (first entry in the table).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-081-q10"
+    }
+  ]
+}

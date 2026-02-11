@@ -1,0 +1,73 @@
+{
+  "page_id": "-010",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/010.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:04:49.041078",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 690
+  },
+  "qa_pairs": [
+    {
+      "question": "How many ball bearings are visible in the bearing assembly?",
+      "answer": "Multiple ball bearings are visible around the circumference of the bearing race, appearing as metallic spheres.",
+      "question_type": "visual",
+      "id": "-010-q03"
+    },
+    {
+      "question": "What is the overall appearance of the bearing's outer race?",
+      "answer": "The outer race has a polished, metallic finish and appears to be in new condition.",
+      "question_type": "visual",
+      "id": "-010-q04"
+    },
+    {
+      "question": "What component is visible behind the bearing in the image?",
+      "answer": "A splined gear or drive component with multiple teeth is visible behind the bearing.",
+      "question_type": "component",
+      "id": "-010-q05"
+    },
+    {
+      "question": "What is the caption text describing this image?",
+      "answer": "The caption reads 'New genuine bearing going on.'",
+      "question_type": "factual",
+      "id": "-010-q06"
+    },
+    {
+      "question": "What is being held in the person's hand?",
+      "answer": "A bearing assembly with a splined component is being held.",
+      "question_type": "visual",
+      "id": "-010-q08"
+    },
+    {
+      "question": "What color appears to be the bearing grease or protective coating?",
+      "answer": "The bearing appears to have a dark-colored grease or protective coating visible.",
+      "question_type": "visual",
+      "id": "-010-q09"
+    },
+    {
+      "question": "What is visible in the background of this image?",
+      "answer": "A small container or bottle with labeling is visible in the background on what appears to be a work surface.",
+      "question_type": "visual",
+      "id": "-010-q10"
+    },
+    {
+      "question": "What does the splined component attached to the bearing appear to be?",
+      "answer": "It appears to be a gear or drive component with multiple external splines or teeth.",
+      "question_type": "component",
+      "id": "-010-q11"
+    },
+    {
+      "question": "What page number is this image from in the BMW E30 M3 documentation?",
+      "answer": "This is page -010 from the BMW E30 M3 documentation.",
+      "question_type": "navigation",
+      "id": "-010-q12"
+    }
+  ]
+}

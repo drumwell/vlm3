@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-014",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/014.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:18:37.701521",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 572
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the screw specifications for the cylinder head bolts?",
+      "answer": "M20 type with M10 screw",
+      "question_type": "factual",
+      "id": "00-torque-specs-014-q04"
+    },
+    {
+      "question": "Is there a settling time required for cylinder head bolts?",
+      "answer": "No, there is no settling time and no warm-running time required.",
+      "question_type": "factual",
+      "id": "00-torque-specs-014-q05"
+    },
+    {
+      "question": "How many torque angle steps are required for cylinder head bolts?",
+      "answer": "Two torque angle steps of 90 degrees each",
+      "question_type": "procedural",
+      "id": "00-torque-specs-014-q06"
+    },
+    {
+      "question": "What is the complete torque procedure for cylinder head bolts?",
+      "answer": "Initial torque to 30 Nm, then apply 90 degree torque angle, followed by another 90 degree torque angle",
+      "question_type": "procedural",
+      "id": "00-torque-specs-014-q07"
+    },
+    {
+      "question": "What maintenance is required for cylinder head bolts according to the 2AZ specification?",
+      "answer": "Replace, wash and oil cylinder head bolts",
+      "question_type": "procedural",
+      "id": "00-torque-specs-014-q08"
+    },
+    {
+      "question": "What section of the manual covers cylinder head and cover specifications?",
+      "answer": "Section 11 12 - Cylinder Head and Cover",
+      "question_type": "navigation",
+      "id": "00-torque-specs-014-q09"
+    },
+    {
+      "question": "Do the cylinder head bolts require warm-up time before final torquing?",
+      "answer": "No, the specification clearly states 'No warm-running time'",
+      "question_type": "factual",
+      "id": "00-torque-specs-014-q10"
+    }
+  ]
+}

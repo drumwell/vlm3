@@ -1,0 +1,85 @@
+{
+  "page_id": "41-115_body",
+  "image_path": "raw/41 - Body/41-115.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:45:08.197070",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 711
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be applied to surfaces before spot welding according to the manual?",
+      "answer": "Coat surfaces for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-115_body-q01"
+    },
+    {
+      "question": "What preparation is required for mating surfaces before welding?",
+      "answer": "Grind mating surfaces and coat surfaces for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-115_body-q02"
+    },
+    {
+      "question": "How should the new cover be prepared to fit properly?",
+      "answer": "Cut new cover to size to match mating surfaces and fit in.",
+      "question_type": "procedural",
+      "id": "41-115_body-q03"
+    },
+    {
+      "question": "What technique is shown for the gap on the edge of the cover?",
+      "answer": "Braze gap on edge.",
+      "question_type": "procedural",
+      "id": "41-115_body-q04"
+    },
+    {
+      "question": "What type of welding is recommended for the rear of the mating surface?",
+      "answer": "Inert gas weld rear of mating surface.",
+      "question_type": "procedural",
+      "id": "41-115_body-q05"
+    },
+    {
+      "question": "What should be done after inserting the weld cover?",
+      "answer": "Insert and tack weld cover.",
+      "question_type": "procedural",
+      "id": "41-115_body-q06"
+    },
+    {
+      "question": "How should the mating surfaces be finished after welding?",
+      "answer": "Grind and tin mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-115_body-q07"
+    },
+    {
+      "question": "Where should spot welding be performed on the cover?",
+      "answer": "Spot weld cover at top and bottom. Plug spot weld front through standard bores.",
+      "question_type": "procedural",
+      "id": "41-115_body-q08"
+    },
+    {
+      "question": "What compound should be applied to the bottom of the cover?",
+      "answer": "Spray an anti-drumming compound on bottom of cover.",
+      "question_type": "procedural",
+      "id": "41-115_body-q09"
+    },
+    {
+      "question": "What is the source reference mentioned for the anti-drumming compound?",
+      "answer": "The source is HWB.",
+      "question_type": "factual",
+      "id": "41-115_body-q10"
+    },
+    {
+      "question": "What welding method is used through the standard bores?",
+      "answer": "Plug spot weld front through standard bores.",
+      "question_type": "procedural",
+      "id": "41-115_body-q12"
+    }
+  ]
+}

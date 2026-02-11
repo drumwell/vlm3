@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-066",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/066.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:28:39.568712",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 656
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component types use the lever to pedal value sender specification?",
+      "answer": "E32/E34/E31/E36",
+      "question_type": "factual",
+      "id": "00-torque-specs-066-q03"
+    },
+    {
+      "question": "What vehicle types does the pedal value sender to pedal console specification apply to?",
+      "answer": "E32/E34/E31",
+      "question_type": "factual",
+      "id": "00-torque-specs-066-q04"
+    },
+    {
+      "question": "What is the difference in torque between the lever to pedal value sender and the pedal value sender to pedal console?",
+      "answer": "The lever to pedal value sender requires 9 Nm while the pedal value sender to pedal console requires 5 Nm, a difference of 4 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-066-q05"
+    },
+    {
+      "question": "What section of the manual covers these sender specifications?",
+      "answer": "12-16 Engine Electrical System, subsection 12 72 Senders for Control Unit",
+      "question_type": "navigation",
+      "id": "00-torque-specs-066-q06"
+    },
+    {
+      "question": "Which sender specification has the higher torque requirement?",
+      "answer": "The lever to pedal value sender (1AZ) has the higher torque requirement at 9 Nm compared to 5 Nm for the pedal value sender to pedal console (2AZ).",
+      "question_type": "factual",
+      "id": "00-torque-specs-066-q07"
+    }
+  ]
+}

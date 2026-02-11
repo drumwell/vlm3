@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-61-03",
+  "image_path": "raw/00 - Torque Specs/61-03.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:04:48.636369",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 525
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the power window module to drive?",
+      "answer": "1 \u00b1 0.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-03-q01"
+    },
+    {
+      "question": "Which component has the designation 1AZ in the control units section?",
+      "answer": "Power window module to drive",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-03-q03"
+    },
+    {
+      "question": "What section number covers Control Units and Modules?",
+      "answer": "61 35",
+      "question_type": "navigation",
+      "id": "00-torque-specs-61-03-q07"
+    },
+    {
+      "question": "How many control unit components are listed in section 61 35?",
+      "answer": "2 components",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-03-q08"
+    },
+    {
+      "question": "What tolerance is specified for the power window module torque specification?",
+      "answer": "\u00b10.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-03-q09"
+    },
+    {
+      "question": "Which torque specification is higher - the power window module or the E-box screws?",
+      "answer": "The E-box screws at 4 Nm are higher than the power window module at 1 \u00b1 0.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-03-q10"
+    }
+  ]
+}

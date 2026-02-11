@@ -1,0 +1,91 @@
+{
+  "page_id": "51-340_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-340.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:23:17.184000",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 724
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for the rear door trim panel that needs to be removed?",
+      "answer": "The rear door trim panel part number is 51 42 001.",
+      "question_type": "factual",
+      "id": "51-340_body-equ-q01"
+    },
+    {
+      "question": "What should you do with the plastic sheet during installation of the window regulator?",
+      "answer": "Replace the damaged plastic sheet during installation.",
+      "question_type": "procedural",
+      "id": "51-340_body-equ-q02"
+    },
+    {
+      "question": "What important note is given about holding the window glass during removal?",
+      "answer": "Hold window glass tight during the removal process.",
+      "question_type": "safety",
+      "id": "51-340_body-equ-q03"
+    },
+    {
+      "question": "Where should you reference for window adjustment procedures?",
+      "answer": "Adjust window procedures can be found in section 51 32 154.",
+      "question_type": "navigation",
+      "id": "51-340_body-equ-q04"
+    },
+    {
+      "question": "What is the first step in removing the window regulator from the left or right rear door?",
+      "answer": "Remove the rear door trim panel 51 42 001 and pull off the plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-340_body-equ-q05"
+    },
+    {
+      "question": "How should you position the window regulator before removing it from the door?",
+      "answer": "Push up the window regulator far enough that the front end can be taken out of the door inside panel.",
+      "question_type": "procedural",
+      "id": "51-340_body-equ-q06"
+    },
+    {
+      "question": "What action is required after lowering the window and swinging out the guide roller?",
+      "answer": "Rest the window at the bottom after lowering it and swinging out the guide roller.",
+      "question_type": "procedural",
+      "id": "51-340_body-equ-q07"
+    },
+    {
+      "question": "What is the final step in removing the window regulator?",
+      "answer": "Turn and remove the window regulator.",
+      "question_type": "procedural",
+      "id": "51-340_body-equ-q08"
+    },
+    {
+      "question": "What components need to have their screws unscrewed during this procedure?",
+      "answer": "Multiple screws need to be unscrewed at various stages, including screws securing the window mechanism and regulator components.",
+      "question_type": "procedural",
+      "id": "51-340_body-equ-q09"
+    },
+    {
+      "question": "What should be removed along with the wire straps?",
+      "answer": "Remove the wire straps as shown in the upper right image.",
+      "question_type": "visual",
+      "id": "51-340_body-equ-q10"
+    },
+    {
+      "question": "What is the procedure code for removing and installing/replacing the window regulator?",
+      "answer": "The procedure code is 51 34 020.",
+      "question_type": "factual",
+      "id": "51-340_body-equ-q11"
+    },
+    {
+      "question": "What happens to the guide roller during the window removal process?",
+      "answer": "The guide roller is swung out after lowering the window, and the window is then rested at the bottom.",
+      "question_type": "procedural",
+      "id": "51-340_body-equ-q12"
+    }
+  ]
+}

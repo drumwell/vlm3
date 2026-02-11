@@ -1,0 +1,73 @@
+{
+  "page_id": "41-106_body",
+  "image_path": "raw/41 - Body/41-106.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:40:37.125242",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 695
+  },
+  "qa_pairs": [
+    {
+      "question": "What reference page should be consulted before beginning this procedure?",
+      "answer": "Page 41-001 for information on removing or disconnecting following parts.",
+      "question_type": "navigation",
+      "id": "41-106_body-q02"
+    },
+    {
+      "question": "Which section should be referenced for removing the wheel house?",
+      "answer": "See section 41 14 021 for wheel house removal.",
+      "question_type": "navigation",
+      "id": "41-106_body-q04"
+    },
+    {
+      "question": "What needs to be checked and adjusted after installation?",
+      "answer": "Check and adjust front wheel alignment.",
+      "question_type": "procedural",
+      "id": "41-106_body-q05"
+    },
+    {
+      "question": "What should be done to points of connection after straightening and grinding?",
+      "answer": "Straighten and grind points of connection.",
+      "question_type": "procedural",
+      "id": "41-106_body-q06"
+    },
+    {
+      "question": "What procedure is required for the front panel with front wall?",
+      "answer": "Remove front panel with front wall - see section 41 33 001.",
+      "question_type": "procedural",
+      "id": "41-106_body-q07"
+    },
+    {
+      "question": "What should be done to points of connection on the new engine carrier?",
+      "answer": "Grind points of connection on new engine carrier.",
+      "question_type": "procedural",
+      "id": "41-106_body-q08"
+    },
+    {
+      "question": "What is the final step mentioned after drilling off welding spots?",
+      "answer": "Lift off engine carrier after drilling off welding spots.",
+      "question_type": "procedural",
+      "id": "41-106_body-q09"
+    },
+    {
+      "question": "What parts need to be partially removed according to the parts list?",
+      "answer": "Footwell insulation sheet partially, brake booster with master cylinder, fuel filter, ignition coil, brake pipes partially, engine front axle with transmission, engine wire harness partially, and radiator trim panel.",
+      "question_type": "factual",
+      "id": "41-106_body-q11"
+    },
+    {
+      "question": "What callout number corresponds to the image showing straightening and grinding points of connection?",
+      "answer": "30 41 521 and 30 41 522",
+      "question_type": "visual",
+      "id": "41-106_body-q12"
+    }
+  ]
+}

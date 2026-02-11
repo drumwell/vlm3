@@ -1,0 +1,91 @@
+{
+  "page_id": "65-351_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-351.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:04:48.004514",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 761
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum battery voltage requirement for testing electronic cruise control?",
+      "answer": "The battery voltage must be greater than 11.5 V with the battery charged.",
+      "question_type": "factual",
+      "id": "65-351_radio-an-q01"
+    },
+    {
+      "question": "What should you do if fuse no. 6 and its contact are not okay?",
+      "answer": "Replace the fuse and clean and bend the fuse holder.",
+      "question_type": "procedural",
+      "id": "65-351_radio-an-q02"
+    },
+    {
+      "question": "If the stop light bulbs and their contact are not okay, what corrective actions should be taken?",
+      "answer": "Replace the light bulbs and clean and bend the contacts.",
+      "question_type": "procedural",
+      "id": "65-351_radio-an-q03"
+    },
+    {
+      "question": "What reference should be consulted for cable replacement procedures?",
+      "answer": "See 65 71 040 in the Repair Manual for cable replacement procedures.",
+      "question_type": "navigation",
+      "id": "65-351_radio-an-q04"
+    },
+    {
+      "question": "What should be checked on the operating motor cable and strap?",
+      "answer": "Check the cable and strap of the operating motor for damage and easy movement.",
+      "question_type": "inspection",
+      "id": "65-351_radio-an-q05"
+    },
+    {
+      "question": "Where can you find information about brake and clutch pedal switch adjustment?",
+      "answer": "See Group 35 of the Repair Manual for brake and clutch pedal switch adjustment procedures.",
+      "question_type": "navigation",
+      "id": "65-351_radio-an-q06"
+    },
+    {
+      "question": "What document reference is mentioned for multimeter functions?",
+      "answer": "Multimeter functions (e.g. M 01) are in reference to the BMW SERVICE TEST dated 01/06/14.",
+      "question_type": "factual",
+      "id": "65-351_radio-an-q07"
+    },
+    {
+      "question": "What should be done if the cable adjustment is not okay?",
+      "answer": "Adjust the cable, or replace the cable following procedures in 65 71 040 in the Repair Manual.",
+      "question_type": "procedural",
+      "id": "65-351_radio-an-q08"
+    },
+    {
+      "question": "What components should be checked for tight fit and damage according to the wiring diagram?",
+      "answer": "Check all plugs (see wiring diagram) and wires for tight fit and damage.",
+      "question_type": "inspection",
+      "id": "65-351_radio-an-q09"
+    },
+    {
+      "question": "What action should be taken if plugs and wires are not okay?",
+      "answer": "Repair or replace plugs and wires if they are not okay.",
+      "question_type": "procedural",
+      "id": "65-351_radio-an-q10"
+    },
+    {
+      "question": "What is excluded from these electronic cruise control test procedures?",
+      "answer": "The test procedures do not include sources of defect which are outside of the electronic cruise control system.",
+      "question_type": "factual",
+      "id": "65-351_radio-an-q11"
+    },
+    {
+      "question": "What should be checked regarding the brake and clutch pedal switch adjustment?",
+      "answer": "Check the adjustment of the brake and clutch pedal switch, and adjust if the adjustment is not okay.",
+      "question_type": "inspection",
+      "id": "65-351_radio-an-q12"
+    }
+  ]
+}

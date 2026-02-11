@@ -1,0 +1,91 @@
+{
+  "page_id": "17-05_radiator",
+  "image_path": "raw/17 - Radiator/17-05.jpg",
+  "section_id": "17",
+  "section_name": "Radiator",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:01:50.823846",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 803
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the cooling system bleeding procedure reference number for BMW 325e and 325i models?",
+      "answer": "The cooling system bleeding procedure is referenced as 17 00 039.",
+      "question_type": "factual",
+      "id": "17-05_radiator-q01"
+    },
+    {
+      "question": "What safety precaution is mentioned when working on the cooling system?",
+      "answer": "There is a danger of scalding when the engine is hot.",
+      "question_type": "safety",
+      "id": "17-05_radiator-q02"
+    },
+    {
+      "question": "What should be done with hose clamps during installation?",
+      "answer": "Use new hose clamps and apply the tightening torque as specified.",
+      "question_type": "procedural",
+      "id": "17-05_radiator-q03"
+    },
+    {
+      "question": "What are the numbered callouts in the top left diagram indicating?",
+      "answer": "Callout 1 shows the drain plug location, and callout 2 indicates the expansion tank cap and drain plug positions.",
+      "question_type": "visual",
+      "id": "17-05_radiator-q04"
+    },
+    {
+      "question": "What steps are shown in the top right diagram for radiator removal?",
+      "answer": "The steps are: 1) Lift out clamp, 2) Loosen hose clamps and pull off hoses, 3) Shows hose positions, and 4) Unscrew bolt and suspend fan cowl above fan to lift out the radiator from above.",
+      "question_type": "procedural",
+      "id": "17-05_radiator-q05"
+    },
+    {
+      "question": "What additional step is required for cars with air conditioning?",
+      "answer": "Pull off plugs on temperature switches.",
+      "question_type": "procedural",
+      "id": "17-05_radiator-q06"
+    },
+    {
+      "question": "What components need to be disconnected on cars with automatic transmission?",
+      "answer": "Unscrew both oil cooler lines on the radiator.",
+      "question_type": "procedural",
+      "id": "17-05_radiator-q07"
+    },
+    {
+      "question": "What do the numbered callouts in the bottom left diagram represent?",
+      "answer": "Callout 1 shows the clamp on the fan cowl, callout 2 indicates the bolt to unscrew, and callout 3 shows the oil cooler lines for automatic transmission cars.",
+      "question_type": "visual",
+      "id": "17-05_radiator-q08"
+    },
+    {
+      "question": "What should be added to the cooling system after draining?",
+      "answer": "Add coolant after completing the work.",
+      "question_type": "procedural",
+      "id": "17-05_radiator-q09"
+    },
+    {
+      "question": "What is the first step for BMW 325e and 325i models when draining the cooling system?",
+      "answer": "Unscrew the cap on the expansion tank, then unscrew the drain plug and drain the coolant, followed by loosening hose clamp and pulling off the hose.",
+      "question_type": "procedural",
+      "id": "17-05_radiator-q10"
+    },
+    {
+      "question": "Where can specifications for this procedure be found?",
+      "answer": "See Specifications section and Service Information of Group 00.",
+      "question_type": "navigation",
+      "id": "17-05_radiator-q11"
+    },
+    {
+      "question": "What is required during installation regarding torque specifications?",
+      "answer": "Apply the specified tightening torque when installing new hose clamps.",
+      "question_type": "procedural",
+      "id": "17-05_radiator-q12"
+    }
+  ]
+}

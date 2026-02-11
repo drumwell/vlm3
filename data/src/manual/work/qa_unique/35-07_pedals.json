@@ -1,0 +1,79 @@
+{
+  "page_id": "35-07_pedals",
+  "image_path": "raw/35 - Pedals/35-07.jpg",
+  "section_id": "35",
+  "section_name": "Pedals",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:28:37.215721",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 845
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the procedure numbers for replacing brake pedal and clutch pedal bearing sleeves?",
+      "answer": "The procedure number for replacing brake pedal bearing sleeve is 35 21 011, and for replacing clutch pedal bearing sleeve is 35 31 011.",
+      "question_type": "factual",
+      "id": "35-07_pedals-q01"
+    },
+    {
+      "question": "What should you do to remove the pedal according to this page?",
+      "answer": "Remove pedal by following procedures 35 21 000 or 35 31 000.",
+      "question_type": "procedural",
+      "id": "35-07_pedals-q02"
+    },
+    {
+      "question": "When should you replace a pedal with injection molded bearing sleeve?",
+      "answer": "Replace pedal in case of wear, or when pedal movement is difficult.",
+      "question_type": "inspection",
+      "id": "35-07_pedals-q03"
+    },
+    {
+      "question": "What is the production diameter specification for drilling or reaming the bearing sleeve?",
+      "answer": "The production diameter is 14.2 + 0.1 mm (0.559 + 0.004 inches).",
+      "question_type": "factual",
+      "id": "35-07_pedals-q04"
+    },
+    {
+      "question": "What should be applied to the bearing surface after machining?",
+      "answer": "Lubricate bearing surface with grease.",
+      "question_type": "procedural",
+      "id": "35-07_pedals-q05"
+    },
+    {
+      "question": "How can you identify pedals with press fit bearing sleeves?",
+      "answer": "Bearing sleeves protrude into the guide pipe on the left and right sides by only approx. 17 mm (0.669 inches).",
+      "question_type": "visual",
+      "id": "35-07_pedals-q06"
+    },
+    {
+      "question": "What procedure is used to press out bearing sleeves for brake and clutch pedals?",
+      "answer": "Press out bearing sleeves (1) for brake and clutch pedals using the method shown in the diagram.",
+      "question_type": "procedural",
+      "id": "35-07_pedals-q08"
+    },
+    {
+      "question": "Where can additional specifications be found according to this page?",
+      "answer": "Additional specifications can be found in the Specifications section, as indicated by the asterisk note at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "35-07_pedals-q10"
+    },
+    {
+      "question": "What tool operation is required when pedal movement becomes difficult?",
+      "answer": "When pedal movement is difficult, drill or ream out the bearing sleeve to a production diameter of 14.2 + 0.1 mm.",
+      "question_type": "tool",
+      "id": "35-07_pedals-q11"
+    },
+    {
+      "question": "What is the difference between injection molded and press fit bearing sleeves shown in the diagrams?",
+      "answer": "Press fit bearing sleeves protrude into the guide pipe by only about 17 mm on each side, while injection molded sleeves are integrated into the pedal and require drilling/reaming when worn.",
+      "question_type": "visual",
+      "id": "35-07_pedals-q12"
+    }
+  ]
+}

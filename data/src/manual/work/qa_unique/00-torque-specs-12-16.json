@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-12-16",
+  "image_path": "raw/00 - Torque Specs/12-16.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:49:34.634252",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 601
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component has the higher torque specification - the lever to pedal value sender or the pedal value sender to pedal console?",
+      "answer": "The lever to pedal value sender has the higher torque specification at 9 Nm compared to 5 Nm for the pedal value sender to pedal console.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-16-q03"
+    },
+    {
+      "question": "What are the type designations for the lever to pedal value sender?",
+      "answer": "E32/E34/E31/E36",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-16-q04"
+    },
+    {
+      "question": "What section of the manual covers the senders for control unit specifications?",
+      "answer": "Section 12 72 under Engine Electrical System",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-16-q06"
+    },
+    {
+      "question": "Which BMW model types does the pedal value sender to pedal console NOT apply to that the lever to pedal value sender does?",
+      "answer": "The pedal value sender to pedal console does not apply to E36, while the lever to pedal value sender does.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-16-q09"
+    },
+    {
+      "question": "What unit of measurement is used for the torque specifications of the control unit senders?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-16-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "-023",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/023.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:07:43.840933",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 701
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main shaft roller assembly component shown in the image?",
+      "answer": "The main shaft roller assembly inner sleeve and outer race.",
+      "question_type": "component",
+      "id": "-023-q01"
+    },
+    {
+      "question": "What does the author note about the cost of this gearbox part?",
+      "answer": "This is the single most expensive part I bought for the gearbox enough to make your eyes water.",
+      "question_type": "factual",
+      "id": "-023-q02"
+    },
+    {
+      "question": "What are the two main components that make up this roller assembly?",
+      "answer": "The inner sleeve and outer race.",
+      "question_type": "component",
+      "id": "-023-q03"
+    },
+    {
+      "question": "What is visible in the image besides the roller assembly components?",
+      "answer": "A newspaper with flowers (purple and pink) laid out as a background surface.",
+      "question_type": "visual",
+      "id": "-023-q04"
+    },
+    {
+      "question": "How is the roller assembly described in terms of its construction?",
+      "answer": "It consists of a main shaft roller assembly with an inner sleeve and outer race.",
+      "question_type": "component",
+      "id": "-023-q05"
+    },
+    {
+      "question": "What warning does the author give about purchasing this part?",
+      "answer": "The cost is expensive enough to make your eyes water.",
+      "question_type": "factual",
+      "id": "-023-q06"
+    },
+    {
+      "question": "What type of bearing assembly is shown in the photograph?",
+      "answer": "A roller bearing assembly for the main shaft.",
+      "question_type": "component",
+      "id": "-023-q07"
+    },
+    {
+      "question": "What is the relationship between the inner sleeve and outer race?",
+      "answer": "They are the two components that together form the main shaft roller assembly.",
+      "question_type": "component",
+      "id": "-023-q08"
+    },
+    {
+      "question": "What can be observed about the finish of the roller assembly components?",
+      "answer": "The components have a polished metallic finish and appear to be precision manufactured.",
+      "question_type": "visual",
+      "id": "-023-q09"
+    },
+    {
+      "question": "What context does the author provide about this part's role in the gearbox?",
+      "answer": "It is identified as being for the gearbox and is described as the most expensive part purchased for the gearbox.",
+      "question_type": "factual",
+      "id": "-023-q10"
+    },
+    {
+      "question": "How are the components positioned in the photograph?",
+      "answer": "The cylindrical inner sleeve is positioned horizontally with the outer race ring positioned above it.",
+      "question_type": "visual",
+      "id": "-023-q11"
+    },
+    {
+      "question": "What does the author emphasize about the financial impact of this part?",
+      "answer": "The author emphasizes that it is the single most expensive part bought for the gearbox and expensive enough to make your eyes water.",
+      "question_type": "factual",
+      "id": "-023-q12"
+    }
+  ]
+}

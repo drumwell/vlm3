@@ -1,0 +1,70 @@
+{
+  "section_id": "18",
+  "section_name": "Exhaust System",
+  "index_pages": [
+    "18-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "18 00 020",
+      "name": "Exhaust assembly - remove and install",
+      "pages": [
+        "18-1",
+        "18-5",
+        "18-8"
+      ]
+    },
+    {
+      "code": "18 12 031",
+      "name": "Final muffler - replace",
+      "pages": [
+        "18-2",
+        "18-6",
+        "18-8"
+      ]
+    },
+    {
+      "code": "18 21 011",
+      "name": "Pivot sleeves on exhaust carrier - replace",
+      "pages": [
+        "18-3"
+      ]
+    },
+    {
+      "code": "18 32 005",
+      "name": "Catalytic converter - remove and install / replace",
+      "pages": [
+        "18-4",
+        "18-7"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "18-1": [
+      "18 00 020"
+    ],
+    "18-5": [
+      "18 00 020"
+    ],
+    "18-8": [
+      "18 00 020",
+      "18 12 031"
+    ],
+    "18-2": [
+      "18 12 031"
+    ],
+    "18-6": [
+      "18 12 031"
+    ],
+    "18-3": [
+      "18 21 011"
+    ],
+    "18-4": [
+      "18 32 005"
+    ],
+    "18-7": [
+      "18 32 005"
+    ]
+  },
+  "merge_warnings": []
+}

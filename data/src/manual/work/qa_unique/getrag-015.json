@@ -1,0 +1,67 @@
+{
+  "page_id": "getrag-015",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/015.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:45:08.502378",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 823
+  },
+  "qa_pairs": [
+    {
+      "question": "What problem was encountered with the input shaft housing during cleaning?",
+      "answer": "The input shaft housing had a lot of corrosion staining on it and various cleaners were tried to scrub it, including cleaning in an Ultra sonic cleaner bath.",
+      "question_type": "inspection",
+      "id": "getrag-015-q02"
+    },
+    {
+      "question": "What types of gears are visible in the transmission disassembly?",
+      "answer": "Various helical gears of different sizes are visible, including what appears to be input shaft gears and layshaft gears with different tooth counts.",
+      "question_type": "visual",
+      "id": "getrag-015-q05"
+    },
+    {
+      "question": "What cleaning equipment was mentioned for cleaning the transmission components?",
+      "answer": "An Ultra sonic cleaner bath was mentioned as one of the cleaning methods tried on the input shaft housing.",
+      "question_type": "tool",
+      "id": "getrag-015-q06"
+    },
+    {
+      "question": "What is spread out underneath the transmission components?",
+      "answer": "Newspaper is spread out underneath all the transmission components during disassembly.",
+      "question_type": "visual",
+      "id": "getrag-015-q07"
+    },
+    {
+      "question": "What shift mechanism components can be identified in the image?",
+      "answer": "Shift forks and what appear to be synchro rings are visible among the disassembled transmission components.",
+      "question_type": "component",
+      "id": "getrag-015-q08"
+    },
+    {
+      "question": "What was the author's comment about the complexity of the disassembly?",
+      "answer": "The author stated it was 'Enough to drive anyone to drink,' indicating the complexity and frustration involved in the disassembly process.",
+      "question_type": "factual",
+      "id": "getrag-015-q09"
+    },
+    {
+      "question": "What cleaning tools were used on the transmission parts?",
+      "answer": "Various cleaners were tried including brass pot scrub pad, and an Ultra sonic cleaner bath was used for the input shaft housing.",
+      "question_type": "tool",
+      "id": "getrag-015-q10"
+    },
+    {
+      "question": "What type of transmission components show signs of wear or corrosion?",
+      "answer": "The input shaft housing showed corrosion staining that required various cleaning methods to remove.",
+      "question_type": "inspection",
+      "id": "getrag-015-q12"
+    }
+  ]
+}

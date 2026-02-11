@@ -1,0 +1,94 @@
+{
+  "page_id": "41-302_body",
+  "image_path": "raw/41 - Body/41-302.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:55:30.929172",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 749
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do to the mating surfaces before spot welding?",
+      "answer": "Straighten and grind mating surfaces, then coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-302_body-q01"
+    },
+    {
+      "question": "What type of paint should be applied to mating surfaces that need spot welding?",
+      "answer": "Zinc dust paint should be applied to mating surfaces needed for spot welding.",
+      "question_type": "factual",
+      "id": "41-302_body-q02"
+    },
+    {
+      "question": "What preparation is required for the mating surfaces on a new roof panel?",
+      "answer": "Grind mating surfaces on new roof panel and coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-302_body-q03"
+    },
+    {
+      "question": "What should be applied to the roof frame before installation?",
+      "answer": "Paste Terostat tape on roof frame.",
+      "question_type": "procedural",
+      "id": "41-302_body-q04"
+    },
+    {
+      "question": "What is the procedure shown in image 30 41 183?",
+      "answer": "Install and clamp roof panel.",
+      "question_type": "visual",
+      "id": "41-302_body-q05"
+    },
+    {
+      "question": "What important note is given regarding the roof panel and C pillar?",
+      "answer": "Roof panel grabs underneath C pillar. Check clearance and transition to C pillar, correcting if necessary.",
+      "question_type": "inspection",
+      "id": "41-302_body-q06"
+    },
+    {
+      "question": "What should be installed along with several pieces of rubber frame?",
+      "answer": "Install windshield and rear window with several pieces of rubber frame.",
+      "question_type": "procedural",
+      "id": "41-302_body-q07"
+    },
+    {
+      "question": "What should you check when installing windshield and rear window?",
+      "answer": "Check for uniform clearance and same curvature between window panes and body opening edges.",
+      "question_type": "inspection",
+      "id": "41-302_body-q08"
+    },
+    {
+      "question": "Where should the roof panel be spot welded according to image 30 41 186?",
+      "answer": "Spot weld roof panel in windshield opening.",
+      "question_type": "visual",
+      "id": "41-302_body-q09"
+    },
+    {
+      "question": "Where should the roof panel be spot welded according to image 30 41 187?",
+      "answer": "Spot weld roof panel in rear window opening.",
+      "question_type": "visual",
+      "id": "41-302_body-q10"
+    },
+    {
+      "question": "What is shown in the first image (30 41 180)?",
+      "answer": "The process of straightening and grinding mating surfaces that need to be coated with zinc dust paint for spot welding.",
+      "question_type": "visual",
+      "id": "41-302_body-q11"
+    },
+    {
+      "question": "What is the main focus of the procedures shown on this page?",
+      "answer": "Roof panel installation procedures, including surface preparation, sealing, clamping, and spot welding operations.",
+      "question_type": "factual",
+      "id": "41-302_body-q12",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

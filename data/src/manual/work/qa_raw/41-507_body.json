@@ -1,0 +1,91 @@
+{
+  "page_id": "41-507_body",
+  "image_path": "raw/41 - Body/41-507.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:06:41.090076",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 832
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure does section 41 52 080 cover?",
+      "answer": "Section 41 52 080 covers removing and installing left or right rear door for the unhingeable door version.",
+      "question_type": "factual",
+      "id": "41-507_body-q01"
+    },
+    {
+      "question": "What must be disconnected in cars with power windows or central locks before removing the rear door?",
+      "answer": "The plug in the B pillar of cars with power windows or central locks must be disconnected, and the door wire harness must be pulled out of the B pillar.",
+      "question_type": "procedural",
+      "id": "41-507_body-q02"
+    },
+    {
+      "question": "Where should you reference for removing the plate for the B pillar?",
+      "answer": "You should see section 51 43 150 for removing the plate for the B pillar.",
+      "question_type": "navigation",
+      "id": "41-507_body-q03"
+    },
+    {
+      "question": "What bolts need to be unscrewed to remove the rear door?",
+      "answer": "The bolts at the top and bottom need to be unscrewed.",
+      "question_type": "procedural",
+      "id": "41-507_body-q04"
+    },
+    {
+      "question": "What components need to be removed after lifting off the rubber cap?",
+      "answer": "After lifting off the rubber cap, you need to pull off the retainer and press out the pin.",
+      "question_type": "procedural",
+      "id": "41-507_body-q05"
+    },
+    {
+      "question": "What safety precaution is mentioned when opening the front door during rear door removal?",
+      "answer": "Be careful not to damage the outside of the door and pillar (B) when opening the rear door.",
+      "question_type": "safety",
+      "id": "41-507_body-q06"
+    },
+    {
+      "question": "What is the final step shown for removing the rear door?",
+      "answer": "The final step is to unhinge the rear door from above.",
+      "question_type": "procedural",
+      "id": "41-507_body-q07"
+    },
+    {
+      "question": "What does callout number 30 41 428 indicate in the diagram?",
+      "answer": "Callout number 30 41 428 indicates the location where bolts at the top and bottom need to be unscrewed.",
+      "question_type": "visual",
+      "id": "41-507_body-q08"
+    },
+    {
+      "question": "What does callout number 30 41 429 show in the procedure?",
+      "answer": "Callout number 30 41 429 shows the hinge mechanism and bolt locations for the rear door.",
+      "question_type": "visual",
+      "id": "41-507_body-q09"
+    },
+    {
+      "question": "What components are visible in diagram 30 41 430?",
+      "answer": "Diagram 30 41 430 shows the rubber cap, retainer, and pin that need to be removed during the door removal process.",
+      "question_type": "visual",
+      "id": "41-507_body-q10"
+    },
+    {
+      "question": "What does the caution warning specifically advise about?",
+      "answer": "The caution warning advises to be careful not to damage the outside of the door and pillar (B) when opening the rear door.",
+      "question_type": "safety",
+      "id": "41-507_body-q11"
+    },
+    {
+      "question": "What is shown in the final diagram numbered 30 41 431?",
+      "answer": "Diagram 30 41 431 shows the final step of unhinging the rear door from above, with the door being lifted off its hinges.",
+      "question_type": "visual",
+      "id": "41-507_body-q12"
+    }
+  ]
+}

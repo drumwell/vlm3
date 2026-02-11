@@ -1,0 +1,91 @@
+{
+  "page_id": "34-13_brakes",
+  "image_path": "raw/34 - Brakes/34-13.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:16:16.236647",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 876
+  },
+  "qa_pairs": [
+    {
+      "question": "What torque specification is required for the stop screw when installing it?",
+      "answer": "The stop screw (18) should be tightened with a torque of 5 to 8 Nm (3.7 to 5.9 ft. lbs.).",
+      "question_type": "factual",
+      "id": "34-13_brakes-q01"
+    },
+    {
+      "question": "What type of ring should be used when installing the stop screw?",
+      "answer": "A new aluminum ring (16) should be used when screwing in the stop screw (18).",
+      "question_type": "procedural",
+      "id": "34-13_brakes-q02"
+    },
+    {
+      "question": "What lubricant should be applied to the secondary cup during installation?",
+      "answer": "The secondary cup (12) should be coated with silicone grease before installation.",
+      "question_type": "tool",
+      "id": "34-13_brakes-q03"
+    },
+    {
+      "question": "What components are identified by callout numbers 10, 11, and 12 in the brake assembly diagram?",
+      "answer": "Number 10 is the push rod piston, number 11 is the stop washer, and number 12 is the secondary cup.",
+      "question_type": "visual",
+      "id": "34-13_brakes-q04"
+    },
+    {
+      "question": "How should the push rod piston be handled when it comes back?",
+      "answer": "Let the push rod piston (10) come back carefully and push on the stop washer (11).",
+      "question_type": "procedural",
+      "id": "34-13_brakes-q05"
+    },
+    {
+      "question": "What special requirement must be met for the circlip installation?",
+      "answer": "The circlip must have perfect seat in groove of cylinder bore, and a new seal (15) should be installed before mounting on the brake booster.",
+      "question_type": "inspection",
+      "id": "34-13_brakes-q06"
+    },
+    {
+      "question": "What is the proper technique for installing the assembly sleeve over the secondary cup?",
+      "answer": "Let the short stepped section of assembly sleeve protrude and slide it over secondary cup (12), while holding the cup with two fingers.",
+      "question_type": "procedural",
+      "id": "34-13_brakes-q07"
+    },
+    {
+      "question": "What should be done to the plastic bushing before installation on the push rod piston?",
+      "answer": "Give the plastic bushing (13) a light coat of silicone grease and push it on push rod piston in cylinder bore.",
+      "question_type": "procedural",
+      "id": "34-13_brakes-q08"
+    },
+    {
+      "question": "What is the adjustment specification for the brake light switch contact distance?",
+      "answer": "The contact button will be visible by distance A = 5 to 6 mm (0.197 to 0.236 inches) when the brake pedal is released.",
+      "question_type": "factual",
+      "id": "34-13_brakes-q09"
+    },
+    {
+      "question": "How should the long sleeve pipe be inserted during assembly?",
+      "answer": "Push in the long sleeve pipe carefully up to point of resistance when adjusting secondary cup flush with long sleeve pipe.",
+      "question_type": "procedural",
+      "id": "34-13_brakes-q10"
+    },
+    {
+      "question": "What components need to be removed when pulling back the short sleeve section?",
+      "answer": "Hold the long sleeve pipe and pull back the short sleeve section, then remove the complete assembly sleeve.",
+      "question_type": "procedural",
+      "id": "34-13_brakes-q11"
+    },
+    {
+      "question": "What hardware is used to adjust the brake light switch?",
+      "answer": "The brake light switch is adjusted with nut (1) and lock nut (2) that work with the brake pedal released.",
+      "question_type": "factual",
+      "id": "34-13_brakes-q12"
+    }
+  ]
+}

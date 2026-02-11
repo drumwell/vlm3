@@ -1,0 +1,49 @@
+{
+  "page_id": "13-00-index-a_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-00-index-a.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:40:47.964978",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1746,
+    "tokens_output": 363
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number contains information about engine idle speed and CO level adjustment?",
+      "answer": "Engine idle speed and CO level adjustment information is found on page 13-700a.",
+      "question_type": "navigation",
+      "id": "13-00-index-a_fuel-sys-q01"
+    },
+    {
+      "question": "What is the page reference for fuel injector removal and installation?",
+      "answer": "Fuel injector removal and installation information is on page 13-781.",
+      "question_type": "navigation",
+      "id": "13-00-index-a_fuel-sys-q03"
+    },
+    {
+      "question": "On which page would I find information about throttle valve necks removal and installation?",
+      "answer": "Throttle valve necks removal and installation is covered on page 13-730.",
+      "question_type": "procedural",
+      "id": "13-00-index-a_fuel-sys-q04"
+    },
+    {
+      "question": "What section number covers the fuel system procedures?",
+      "answer": "Section 13 covers the fuel system procedures.",
+      "question_type": "factual",
+      "id": "13-00-index-a_fuel-sys-q05"
+    },
+    {
+      "question": "Where can I find the air flow sensor removal and installation procedure?",
+      "answer": "The air flow sensor removal and installation procedure is found on page 13-760.",
+      "question_type": "procedural",
+      "id": "13-00-index-a_fuel-sys-q06"
+    }
+  ]
+}

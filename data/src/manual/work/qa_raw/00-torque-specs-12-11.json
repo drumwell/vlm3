@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-12-11",
+  "image_path": "raw/00 - Torque Specs/12-11.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:48:39.473291",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 591
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the holder for modules in the plug connectors and terminals section?",
+      "answer": "9 Nm with M6 screw for type E36.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-11-q01"
+    },
+    {
+      "question": "What torque value should be used for ground connections flange nut?",
+      "answer": "16 Nm for type E36.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-11-q02"
+    },
+    {
+      "question": "What is the torque specification for the cover on heating splash wall?",
+      "answer": "1.1 Nm for type E36.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-11-q03"
+    },
+    {
+      "question": "Which component has the lowest torque specification in the plug connectors and terminals section?",
+      "answer": "The cover on heating splash wall at 1.1 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-11-q04"
+    },
+    {
+      "question": "What screw size is specified for the holder for modules?",
+      "answer": "M6 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-11-q05"
+    },
+    {
+      "question": "Which component has the highest torque value in section 12 52?",
+      "answer": "The ground connections flange nut at 16 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-11-q06"
+    },
+    {
+      "question": "What vehicle type applies to all the specifications in the plug connectors and terminals section?",
+      "answer": "Type E36.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-11-q07"
+    },
+    {
+      "question": "What section number covers plug connectors and terminals?",
+      "answer": "Section 12 52.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-11-q08"
+    },
+    {
+      "question": "How many different components are listed under plug connectors and terminals?",
+      "answer": "Three components: holder for modules, ground connections flange nut, and cover on heating splash wall.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-11-q09"
+    },
+    {
+      "question": "What are the torque specifications for all three plug connector components listed?",
+      "answer": "Holder for modules: 9 Nm, Ground connections flange nut: 16 Nm, Cover on heating splash wall: 1.1 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-11-q10"
+    }
+  ]
+}

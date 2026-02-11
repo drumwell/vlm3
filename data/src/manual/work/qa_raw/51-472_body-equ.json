@@ -1,0 +1,91 @@
+{
+  "page_id": "51-472_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-472.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:29:48.993910",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 717
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the three steps for removing the trim panel for the rear trunk wall?",
+      "answer": "Pull out expander rivet, lift out plugs, and remove trim panel.",
+      "question_type": "procedural",
+      "id": "51-472_body-equ-q01"
+    },
+    {
+      "question": "What does callout number 1 indicate in the expander rivet diagram?",
+      "answer": "Callout number 1 indicates the expander rivet.",
+      "question_type": "visual",
+      "id": "51-472_body-equ-q02"
+    },
+    {
+      "question": "What does callout number 2 indicate in the expander rivet diagram?",
+      "answer": "Callout number 2 indicates the plug.",
+      "question_type": "visual",
+      "id": "51-472_body-equ-q03"
+    },
+    {
+      "question": "What is the proper installation sequence for the expander rivet and plug?",
+      "answer": "First insert the plug and then press in the expander rivet.",
+      "question_type": "procedural",
+      "id": "51-472_body-equ-q04"
+    },
+    {
+      "question": "Which section should you reference for removing the trim panel for the rear trunk wall?",
+      "answer": "Reference section 51 47 140.",
+      "question_type": "navigation",
+      "id": "51-472_body-equ-q05"
+    },
+    {
+      "question": "What steps are required to access the car jack when removing the trunk trim panel on the left side wall?",
+      "answer": "Remove floor mat, unscrew screw, turn up lock and take out the car jack.",
+      "question_type": "procedural",
+      "id": "51-472_body-equ-q06"
+    },
+    {
+      "question": "What should you do with the tail light bulb holder if applicable?",
+      "answer": "Lift out tail light bulb holder if applicable.",
+      "question_type": "procedural",
+      "id": "51-472_body-equ-q07"
+    },
+    {
+      "question": "What is the correct sequence for removing the trim panel on the left side wall?",
+      "answer": "Pull out trim panel at top first and then remove it.",
+      "question_type": "procedural",
+      "id": "51-472_body-equ-q08"
+    },
+    {
+      "question": "What is the procedure code for removing and installing trunk trim panel on left side wall?",
+      "answer": "51 47 210.",
+      "question_type": "factual",
+      "id": "51-472_body-equ-q09"
+    },
+    {
+      "question": "What part number is associated with the expander rivet illustration?",
+      "answer": "30 51 550.",
+      "question_type": "factual",
+      "id": "51-472_body-equ-q10"
+    },
+    {
+      "question": "What part numbers are shown in the trunk trim panel removal images?",
+      "answer": "30 51 325, 30 51 326, and 30 51 327.",
+      "question_type": "factual",
+      "id": "51-472_body-equ-q11"
+    },
+    {
+      "question": "What components need to be removed before accessing the car jack in the trunk?",
+      "answer": "Remove the trim panel for rear trunk wall, remove floor mat, and unscrew screw with lock mechanism.",
+      "question_type": "procedural",
+      "id": "51-472_body-equ-q12"
+    }
+  ]
+}

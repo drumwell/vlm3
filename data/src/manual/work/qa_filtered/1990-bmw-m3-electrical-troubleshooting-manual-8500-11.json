@@ -1,0 +1,73 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-11",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8500-11.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:18:21.072948",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 598
+  },
+  "qa_pairs": [
+    {
+      "question": "What connector is shown with wiring face C240?",
+      "answer": "Connector B060025 is shown with wiring face C240.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-11-q01"
+    },
+    {
+      "question": "How many pins does connector C306 have?",
+      "answer": "Connector C306 has 9 pins arranged in a 3x3 configuration.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-11-q02"
+    },
+    {
+      "question": "Which connector has both C303 and C304 wiring faces?",
+      "answer": "Connector B030001-01 has both C303 and C304 wiring faces.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-11-q03"
+    },
+    {
+      "question": "What type of face is shown for connector C242?",
+      "answer": "Connector C242 shows a mating face.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-11-q04"
+    },
+    {
+      "question": "How many pins are numbered on the large circular connector C404/C405?",
+      "answer": "The large circular connector C404/C405 has 21 numbered pins.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-11-q05"
+    },
+    {
+      "question": "What connector designation is associated with wiring face C413?",
+      "answer": "Connector B050011-00 is associated with wiring face C413.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-11-q06"
+    },
+    {
+      "question": "Which connector shows both C421 and C422 designations?",
+      "answer": "Connector B040004-00 shows both C421 and C422 designations.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-11-q07"
+    },
+    {
+      "question": "What is the pin arrangement for connector C503?",
+      "answer": "Connector C503 has a 3-pin circular arrangement with pins numbered 1, 2, and 3.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-11-q08"
+    },
+    {
+      "question": "How many pins does connector C240 have?",
+      "answer": "Connector C240 has 6 pins arranged in a single row.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-11-q09"
+    }
+  ]
+}

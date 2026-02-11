@@ -1,0 +1,91 @@
+{
+  "page_id": "23-168a_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-168a.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:33:29.927434",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 768
+  },
+  "qa_pairs": [
+    {
+      "question": "What transmission type is specified for this exchange procedure?",
+      "answer": "Getrag 260.",
+      "question_type": "factual",
+      "id": "23-168a_manual-t-q01"
+    },
+    {
+      "question": "Where can I find the BMW transmission identification code?",
+      "answer": "The BMW code is located on the front case section and is either die-stamped or on a label.",
+      "question_type": "factual",
+      "id": "23-168a_manual-t-q02"
+    },
+    {
+      "question": "What should be applied to the transmission input shaft during installation?",
+      "answer": "Give the transmission input shaft a light coat of Molykote GL 261 in the area of splines and guide pins.",
+      "question_type": "procedural",
+      "id": "23-168a_manual-t-q03"
+    },
+    {
+      "question": "What lubricant should be used to fill the lubricating groove during installation?",
+      "answer": "Fill the lubricating groove (N) with Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "23-168a_manual-t-q04"
+    },
+    {
+      "question": "What components should be lightly coated with Molykote Longterm 2?",
+      "answer": "Coat guides (F) and bearings (L) lightly with Molykote Longterm 2.",
+      "question_type": "procedural",
+      "id": "23-168a_manual-t-q05"
+    },
+    {
+      "question": "What could happen if the guides and bearings are not properly lubricated?",
+      "answer": "Non-conformance could cause seizure of bearing on the guide sleeve.",
+      "question_type": "safety",
+      "id": "23-168a_manual-t-q06"
+    },
+    {
+      "question": "What is the important note about transmission oil after installation?",
+      "answer": "Transmissions are supplied with oil since 1.86, so it is only necessary to check the oil level after installation of the transmission.",
+      "question_type": "safety",
+      "id": "23-168a_manual-t-q07"
+    },
+    {
+      "question": "What components are identified by callouts 1, 2, and 3 in the transfer mechanism diagram?",
+      "answer": "Transfer spring (1), release lever (2), and release (3).",
+      "question_type": "visual",
+      "id": "23-168a_manual-t-q08"
+    },
+    {
+      "question": "How should the transfer shift rod joint be positioned during installation?",
+      "answer": "Check the installed position of shift rod joint - offset end of shift rod joint on the right as seen looking forward in car.",
+      "question_type": "inspection",
+      "id": "23-168a_manual-t-q09"
+    },
+    {
+      "question": "What procedure should be followed to slide back the locking sleeve?",
+      "answer": "Slide back locking sleeve (1) and drive out cylindrical pin (2).",
+      "question_type": "procedural",
+      "id": "23-168a_manual-t-q10"
+    },
+    {
+      "question": "What section should be referenced for transmission removal?",
+      "answer": "See section 23 00 022 for transmission removal procedures.",
+      "question_type": "navigation",
+      "id": "23-168a_manual-t-q11"
+    },
+    {
+      "question": "What components are shown in the bottom diagram with callouts F and L?",
+      "answer": "F indicates guides and L indicates bearings that should be coated with Molykote Longterm 2.",
+      "question_type": "visual",
+      "id": "23-168a_manual-t-q12"
+    }
+  ]
+}

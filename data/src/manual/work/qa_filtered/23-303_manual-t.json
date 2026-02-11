@@ -1,0 +1,85 @@
+{
+  "page_id": "23-303_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-303.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:41:44.553352",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 710
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be removed after supporting the transmission from underneath?",
+      "answer": "Remove cross member (5).",
+      "question_type": "procedural",
+      "id": "23-303_manual-t-q01"
+    },
+    {
+      "question": "What is the next step after lowering the transmission to the front axle carrier?",
+      "answer": "Unscrew bracket (6).",
+      "question_type": "procedural",
+      "id": "23-303_manual-t-q02"
+    },
+    {
+      "question": "What lubricant should be used to pack the clutch release bearing groove?",
+      "answer": "Pack lubricating groove (N) with Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "23-303_manual-t-q03"
+    },
+    {
+      "question": "What component is indicated by callout number 5 in the diagram?",
+      "answer": "Callout number 5 indicates the cross member that needs to be removed.",
+      "question_type": "visual",
+      "id": "23-303_manual-t-q04"
+    },
+    {
+      "question": "How should the transmission be removed from the clutch housing?",
+      "answer": "Unscrew transmission on clutch housing and remove toward rear. Use special ring wrench to loosen and tighten nuts at top left.",
+      "question_type": "procedural",
+      "id": "23-303_manual-t-q06"
+    },
+    {
+      "question": "What special tool is required for the nuts at the top left of the transmission?",
+      "answer": "Use special ring wrench to loosen and tighten nuts at top left.",
+      "question_type": "tool",
+      "id": "23-303_manual-t-q07"
+    },
+    {
+      "question": "What could happen if the clutch release bearing is not properly aligned?",
+      "answer": "Non-conformance could cause bearing to seize on guide sleeve.",
+      "question_type": "safety",
+      "id": "23-303_manual-t-q08"
+    },
+    {
+      "question": "Where should the clutch slave cylinder be positioned during installation?",
+      "answer": "Position release lever with the clutch slave cylinder in installed position.",
+      "question_type": "procedural",
+      "id": "23-303_manual-t-q09"
+    },
+    {
+      "question": "What should be done before connecting the transmission during installation?",
+      "answer": "Engage gear before connecting transmission. Insert guide sleeve of transmission in bearing carefully.",
+      "question_type": "procedural",
+      "id": "23-303_manual-t-q10"
+    },
+    {
+      "question": "What final checks should be performed after mounting the transmission?",
+      "answer": "Check oil level after mounting the transmission.",
+      "question_type": "inspection",
+      "id": "23-303_manual-t-q11"
+    },
+    {
+      "question": "What is the source of supply reference mentioned at the bottom of the page?",
+      "answer": "Source of Supply: HWB (as noted in the footnote).",
+      "question_type": "factual",
+      "id": "23-303_manual-t-q12"
+    }
+  ]
+}

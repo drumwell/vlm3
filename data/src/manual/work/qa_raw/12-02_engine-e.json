@@ -1,0 +1,91 @@
+{
+  "page_id": "12-02_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-02.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:21:18.038844",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 806
+  },
+  "qa_pairs": [
+    {
+      "question": "What tool is needed to turn the crankshaft to TDC mark for cylinder no. 1?",
+      "answer": "A 30 mm wrench socket is needed to turn the crankshaft to TDC mark (ignition in cylinder no. 1).",
+      "question_type": "tool",
+      "id": "12-02_engine-e-q01"
+    },
+    {
+      "question": "What are the numbered components shown in image 30 12 015?",
+      "answer": "The numbered components are: (1) plug, (2) clamps, and (3) clamps that need to be removed from the distributor cap.",
+      "question_type": "visual",
+      "id": "12-02_engine-e-q02"
+    },
+    {
+      "question": "What should be done after loosening the nut shown in image 30 12 017?",
+      "answer": "After loosening the nut, pull out the distributor.",
+      "question_type": "procedural",
+      "id": "12-02_engine-e-q03"
+    },
+    {
+      "question": "What components are identified as (1), (2), and (3) in image 30 12 016?",
+      "answer": "Component (1) is the distributor rotor, (2) is the dust cap, and (3) is the vacuum hose.",
+      "question_type": "visual",
+      "id": "12-02_engine-e-q04"
+    },
+    {
+      "question": "What should be checked during installation according to image 30 12 019?",
+      "answer": "Check seal (1), replacing if necessary during installation.",
+      "question_type": "inspection",
+      "id": "12-02_engine-e-q05"
+    },
+    {
+      "question": "How should the distributor rotor be positioned during installation?",
+      "answer": "Turn distributor rotor clockwise toward mark on housing approx. 30\u00b0 (A), then insert distributor.",
+      "question_type": "procedural",
+      "id": "12-02_engine-e-q06"
+    },
+    {
+      "question": "What needs to be checked regarding the distributor rotor position?",
+      "answer": "Check position of distributor rotor - it should point to notch on distributor. Correct by turning crankshaft, if necessary.",
+      "question_type": "inspection",
+      "id": "12-02_engine-e-q07"
+    },
+    {
+      "question": "What is the first step in removing the distributor cap?",
+      "answer": "Take off cap (1).",
+      "question_type": "procedural",
+      "id": "12-02_engine-e-q08"
+    },
+    {
+      "question": "What procedure should be followed after finishing the distributor installation?",
+      "answer": "Adjust ignition timing (see 12 11 005) after finishing installation.",
+      "question_type": "procedural",
+      "id": "12-02_engine-e-q09"
+    },
+    {
+      "question": "What is the sequence for removing components from the distributor cap?",
+      "answer": "First pull off plug (1), then lift off clamps (2 and 3), and finally remove distributor cap.",
+      "question_type": "procedural",
+      "id": "12-02_engine-e-q10"
+    },
+    {
+      "question": "What reference section should be consulted for ignition timing adjustment?",
+      "answer": "Section 12 11 005 should be consulted for ignition timing adjustment procedures.",
+      "question_type": "navigation",
+      "id": "12-02_engine-e-q11"
+    },
+    {
+      "question": "What is the BMW part reference number for this distributor removal and installation procedure?",
+      "answer": "The BMW part reference number is 12 11 060.",
+      "question_type": "factual",
+      "id": "12-02_engine-e-q12"
+    }
+  ]
+}

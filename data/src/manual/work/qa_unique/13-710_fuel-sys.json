@@ -1,0 +1,91 @@
+{
+  "page_id": "13-710_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-710.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:46:04.395927",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 773
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to hold the return line when checking fuel pump delivery rate?",
+      "answer": "Special Tool 13 3 020 is needed to disconnect the return line and hold end in when checking fuel pump delivery rate.",
+      "question_type": "tool",
+      "id": "13-710_fuel-sys-q01"
+    },
+    {
+      "question": "Which terminals need to be bridged when testing the fuel pump relay?",
+      "answer": "Bridge terminals 87 and 30 with Special Tool 61 3 050.",
+      "question_type": "procedural",
+      "id": "13-710_fuel-sys-q02"
+    },
+    {
+      "question": "What happens when you press the button during the fuel pump delivery rate test?",
+      "answer": "When you press the button, the fuel pump runs and you can check the delivery rate.",
+      "question_type": "operation",
+      "id": "13-710_fuel-sys-q03"
+    },
+    {
+      "question": "What special tools are required for checking fuel pump delivery pressure?",
+      "answer": "Special Tools 13 3 060 and 13 3 064 are installed between the return line and hose for checking fuel pump delivery pressure.",
+      "question_type": "tool",
+      "id": "13-710_fuel-sys-q04"
+    },
+    {
+      "question": "How do you shut the fuel return hose during the pressure test?",
+      "answer": "Shut the fuel return hose with Special Tool 13 3 010.",
+      "question_type": "procedural",
+      "id": "13-710_fuel-sys-q05"
+    },
+    {
+      "question": "What component needs to be removed from the right engine compartment wall?",
+      "answer": "Remove the trim on the right engine compartment wall.",
+      "question_type": "procedural",
+      "id": "13-710_fuel-sys-q06"
+    },
+    {
+      "question": "What is the first step when pulling off the fuel pump relay?",
+      "answer": "Pull off fuel pump relay (1) after removing the trim on the right engine compartment wall.",
+      "question_type": "procedural",
+      "id": "13-710_fuel-sys-q07"
+    },
+    {
+      "question": "Where can you find the specifications referenced in this procedure?",
+      "answer": "See Specifications of Group 16 for the detailed specifications.",
+      "question_type": "navigation",
+      "id": "13-710_fuel-sys-q08"
+    },
+    {
+      "question": "What callout number identifies the fuel pump relay in the diagrams?",
+      "answer": "The fuel pump relay is identified as callout number (1) in the diagrams.",
+      "question_type": "visual",
+      "id": "13-710_fuel-sys-q09"
+    },
+    {
+      "question": "What are the two main checks being performed in this section?",
+      "answer": "The two main checks are checking fuel delivery pressure and rate, and checking fuel pump delivery pressure.",
+      "question_type": "factual",
+      "id": "13-710_fuel-sys-q10"
+    },
+    {
+      "question": "What component is shown with the BMW M Power logo in the pressure testing diagram?",
+      "answer": "The fuel pressure testing equipment with gauges is shown with the BMW M Power logo in the middle diagram.",
+      "question_type": "visual",
+      "id": "13-710_fuel-sys-q11"
+    },
+    {
+      "question": "What is the sequence for testing fuel pump operation after bridging the relay terminals?",
+      "answer": "After bridging terminals 87 and 30, press the button, then the fuel pump runs and you can check delivery rate or pressure.",
+      "question_type": "procedural",
+      "id": "13-710_fuel-sys-q12"
+    }
+  ]
+}

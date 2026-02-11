@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-007",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/007.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:17:11.139491",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 664
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the tightening torque for an M12 8.8 screw?",
+      "answer": "82 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-007-q01"
+    },
+    {
+      "question": "What torque should I use for an M12x1.5 10.9 thread?",
+      "answer": "123 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-007-q02"
+    },
+    {
+      "question": "What is the maximum tightening torque for an M12 12.9 screw?",
+      "answer": "140 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-007-q03"
+    },
+    {
+      "question": "What BMW specification should I refer to for the applicable range of tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-torque-specs-007-q04"
+    },
+    {
+      "question": "Which has a higher torque specification: M12 10.9 or M12x1.5 8.8?",
+      "answer": "M12 10.9 has a higher torque at 115 Nm compared to M12x1.5 8.8 at 87 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-007-q05"
+    },
+    {
+      "question": "What is the torque specification for an M12x1.5 12.9 thread?",
+      "answer": "147 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-007-q06"
+    },
+    {
+      "question": "What is the lowest torque value shown for M12 thread screws?",
+      "answer": "82 Nm (ft. lbs.) for M12 8.8",
+      "question_type": "factual",
+      "id": "00-torque-specs-007-q07"
+    },
+    {
+      "question": "What is the torque difference between M12 8.8 and M12 12.9 screws?",
+      "answer": "58 Nm (140 Nm - 82 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-007-q08"
+    },
+    {
+      "question": "What torque specification applies to M12x1.5 8.8 threads?",
+      "answer": "87 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-007-q09"
+    }
+  ]
+}

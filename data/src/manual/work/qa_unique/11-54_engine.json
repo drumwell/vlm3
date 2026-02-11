@@ -1,0 +1,73 @@
+{
+  "page_id": "11-54_engine",
+  "image_path": "raw/11 - Engine/11-54.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:12:15.308044",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 1057
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum permissible tilt play for the intake valve when checking valve guide for wear?",
+      "answer": "The maximum permissible tilt play for the intake valve is 0.65 mm (0.025 inches).",
+      "question_type": "factual",
+      "id": "11-54_engine-q01"
+    },
+    {
+      "question": "How do you measure valve guide wear using a dial gauge?",
+      "answer": "Insert a new valve with the stem flush with the valve guide, mount the dial gauge and measure tilt play.",
+      "question_type": "procedural",
+      "id": "11-54_engine-q03"
+    },
+    {
+      "question": "What are the minimum edge thickness requirements for intake valves after machining?",
+      "answer": "For intake valves, the minimum edge thickness 'A' is 0.50 mm (0.020 inches) and 'T' is 37 - 0.1 mm (1.457 - 0.004 inches).",
+      "question_type": "factual",
+      "id": "11-54_engine-q04"
+    },
+    {
+      "question": "What should be done if there is excessive play between the valve guide and valve stem?",
+      "answer": "If there is excessive play, ream out the valve guide and install an oversize valve with stem diameter 'S' = 7.1 or 7.2 mm (0.279 or 0.283 inches).",
+      "question_type": "procedural",
+      "id": "11-54_engine-q06"
+    },
+    {
+      "question": "What valve seat angle should be machined after reaming out the valve guide?",
+      "answer": "After machining the valve seat angle (45\u00b0), produce valve seat diameter V and valve seat width B by machining correction angles (35\u00b0/60\u00b0).",
+      "question_type": "procedural",
+      "id": "11-54_engine-q07"
+    },
+    {
+      "question": "What are the valve seat diameter specifications for 'V' intake valves after grinding?",
+      "answer": "The 'V' intake valve seat diameter is 36.6 \u00b1 0.1 mm (1.441 \u00b1 0.004 inches).",
+      "question_type": "factual",
+      "id": "11-54_engine-q08"
+    },
+    {
+      "question": "What should be checked after grinding in valves with grinding paste?",
+      "answer": "After grinding in valves with grinding paste, check for leaks as detailed in section 11 34 509.",
+      "question_type": "procedural",
+      "id": "11-54_engine-q10"
+    },
+    {
+      "question": "How should the reamer be operated when reaming out the valve guide?",
+      "answer": "Press guide (1) against the valve seat and ream out the valve guide from the combustion chamber end, turning down the reamer once.",
+      "question_type": "procedural",
+      "id": "11-54_engine-q11"
+    },
+    {
+      "question": "What are the 'B' valve seat width specifications for both intake and exhaust valves?",
+      "answer": "The 'B' intake valve seat width is 1.2 \u00b1 0.1 mm (0.047 \u00b1 0.004 inches) and the 'B' exhaust valve seat width is 1.4 \u00b1 0.1 mm (0.055 \u00b1 0.004 inches).",
+      "question_type": "factual",
+      "id": "11-54_engine-q12"
+    }
+  ]
+}

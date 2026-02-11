@@ -1,0 +1,91 @@
+{
+  "page_id": "12-130_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-130.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:29:29.600919",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 813
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the clearance specification for the TDC position transmitter?",
+      "answer": "The clearance A should be 0.2 to 2.0 mm (0.008 to 0.080 inches).",
+      "question_type": "factual",
+      "id": "12-130_engine-e-q01"
+    },
+    {
+      "question": "What safety precaution is given before working on the distributor cap?",
+      "answer": "Always turn off ignition before working on dangerous high voltage ignition systems!",
+      "question_type": "safety",
+      "id": "12-130_engine-e-q02"
+    },
+    {
+      "question": "How do you remove the diagnosis socket from its holder?",
+      "answer": "Open lid on diagnosis socket, lift clips 1 and 2, and press diagnosis socket out of holder.",
+      "question_type": "procedural",
+      "id": "12-130_engine-e-q03"
+    },
+    {
+      "question": "What are the wire colors for positions 1, 2, and 3 in the transmitter lead connector?",
+      "answer": "1 = Black wire, 2 = Shielding, 3 = Yellow wire.",
+      "question_type": "wiring",
+      "id": "12-130_engine-e-q04"
+    },
+    {
+      "question": "What component should be checked for resistance and insulation?",
+      "answer": "Check resistance of coil and insulation, maintaining distance of 0.2 to 2.0 mm (0.008 to 0.080 inches) to vibration damper.",
+      "question_type": "inspection",
+      "id": "12-130_engine-e-q05"
+    },
+    {
+      "question": "What is the correct procedure for removing the fan?",
+      "answer": "Unscrew fan with left-hand threads, then unscrew fan cowl and lift out together with unscrewed fan.",
+      "question_type": "procedural",
+      "id": "12-130_engine-e-q06"
+    },
+    {
+      "question": "What connector terminals are labeled in the wiring diagram?",
+      "answer": "The diagram shows terminals Kl.31, Kl.50, FT, D+, Kl.1, Kl.30, and Kl.15.",
+      "question_type": "wiring",
+      "id": "12-130_engine-e-q07"
+    },
+    {
+      "question": "How do you access the distributor cap for removal?",
+      "answer": "Take off retainers, pull off cover, then unscrew screws for distributor cap.",
+      "question_type": "procedural",
+      "id": "12-130_engine-e-q08"
+    },
+    {
+      "question": "What is the first step in installing the TDC position transmitter?",
+      "answer": "Lift position transmitter out of clamp, then during installation make sure transmitter fits correctly.",
+      "question_type": "procedural",
+      "id": "12-130_engine-e-q09"
+    },
+    {
+      "question": "What reference should be consulted for detailed specifications?",
+      "answer": "See Specifications (as noted with asterisk at bottom of page).",
+      "question_type": "navigation",
+      "id": "12-130_engine-e-q10"
+    },
+    {
+      "question": "What special threading characteristic does the fan have?",
+      "answer": "The fan has left-hand threads.",
+      "question_type": "factual",
+      "id": "12-130_engine-e-q11"
+    },
+    {
+      "question": "What is the final step shown for the transmitter connector?",
+      "answer": "Unlock hooks and push round female plugs (1-3) for transmitter lead out of receptacle, then mount wire.",
+      "question_type": "procedural",
+      "id": "12-130_engine-e-q12"
+    }
+  ]
+}

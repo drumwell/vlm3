@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-11-23",
+  "image_path": "raw/00 - Torque Specs/11-23.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:41:08.713820",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 634
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the clamping bolt in the rocker arm?",
+      "answer": "10 Nm with M6 screw for M10/M20/M30 engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-23-q01"
+    },
+    {
+      "question": "What torque should I apply to the clamping bolt in the drag arm?",
+      "answer": "8 Nm with M6 screw for M21 engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-23-q02"
+    },
+    {
+      "question": "Which engine types use the rocker arm clamping bolt specification?",
+      "answer": "M10, M20, and M30 engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-23-q03"
+    },
+    {
+      "question": "What screw size is used for both the rocker arm and drag arm clamping bolts?",
+      "answer": "M6 screws are used for both applications.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-23-q04"
+    },
+    {
+      "question": "Is there a difference in torque between rocker arm and drag arm clamping bolts?",
+      "answer": "Yes, rocker arm clamping bolts require 10 Nm while drag arm clamping bolts require 8 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-23-q05"
+    },
+    {
+      "question": "What section of the manual covers rocker arms and drag arms?",
+      "answer": "Section 11 33 - Rocker Arms/Drag Arms and Bearings.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-23-q06"
+    },
+    {
+      "question": "Which engine type is specified for the drag arm clamping bolt?",
+      "answer": "M21 engine.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-23-q07"
+    },
+    {
+      "question": "What is the difference in torque values between the two clamping bolt specifications?",
+      "answer": "The rocker arm clamping bolt (10 Nm) requires 2 Nm more torque than the drag arm clamping bolt (8 Nm).",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-23-q08"
+    },
+    {
+      "question": "What units are used for the torque measurements in this specification table?",
+      "answer": "Nm (Newton meters).",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-23-q10"
+    }
+  ]
+}

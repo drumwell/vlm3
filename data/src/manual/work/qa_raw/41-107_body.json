@@ -1,0 +1,94 @@
+{
+  "page_id": "41-107_body",
+  "image_path": "raw/41 - Body/41-107.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:41:06.000196",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 690
+  },
+  "qa_pairs": [
+    {
+      "question": "What equipment should be set up before beginning the engine carrier welding procedure?",
+      "answer": "Set up car on straightening bench and set up engine carrier.",
+      "question_type": "procedural",
+      "id": "41-107_body-q01"
+    },
+    {
+      "question": "How should the engine carrier be welded to the car body?",
+      "answer": "Plug spot weld engine carrier through provided holes.",
+      "question_type": "procedural",
+      "id": "41-107_body-q02"
+    },
+    {
+      "question": "What part numbers are shown in the images on this page?",
+      "answer": "The images show part numbers 30 41 524, 30 41 525, and 30 41 526.",
+      "question_type": "factual",
+      "id": "41-107_body-q03",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What additional component needs to be installed according to the instructions?",
+      "answer": "Install wheel house - see 41 14 021.",
+      "question_type": "procedural",
+      "id": "41-107_body-q04"
+    },
+    {
+      "question": "What should be done to all welding seams after the welding is complete?",
+      "answer": "Seal all welding seams with joint sealing compound.",
+      "question_type": "procedural",
+      "id": "41-107_body-q05"
+    },
+    {
+      "question": "What should be done if the anti-drumming compound is damaged?",
+      "answer": "Replace damaged anti-drumming compound.",
+      "question_type": "procedural",
+      "id": "41-107_body-q06"
+    },
+    {
+      "question": "Where can I find instructions for installing the wheel house?",
+      "answer": "See section 41 14 021 for wheel house installation instructions.",
+      "question_type": "navigation",
+      "id": "41-107_body-q07"
+    },
+    {
+      "question": "What is the source reference listed at the bottom of the page?",
+      "answer": "The source reference is HWB.",
+      "question_type": "factual",
+      "id": "41-107_body-q08"
+    },
+    {
+      "question": "What type of welding method is specified for attaching the engine carrier?",
+      "answer": "Plug spot welding is specified for attaching the engine carrier.",
+      "question_type": "procedural",
+      "id": "41-107_body-q09"
+    },
+    {
+      "question": "What should be used to seal the welding seams?",
+      "answer": "Joint sealing compound should be used to seal all welding seams.",
+      "question_type": "factual",
+      "id": "41-107_body-q10"
+    },
+    {
+      "question": "Where are the holes located for welding the engine carrier?",
+      "answer": "The holes are provided in the engine carrier itself for plug spot welding.",
+      "question_type": "visual",
+      "id": "41-107_body-q11"
+    },
+    {
+      "question": "What page number is shown at the top of this manual page?",
+      "answer": "Page 41-107 is shown at the top of this manual page.",
+      "question_type": "factual",
+      "id": "41-107_body-q12"
+    }
+  ]
+}

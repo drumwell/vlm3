@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-009",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/009.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:17:34.500768",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 672
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M16 8.8 screw?",
+      "answer": "200 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-009-q01"
+    },
+    {
+      "question": "What torque specification applies to M16 10.9 screws?",
+      "answer": "280 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-009-q02"
+    },
+    {
+      "question": "What is the tightening torque for M16 12.9 grade screws?",
+      "answer": "340 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-009-q03"
+    },
+    {
+      "question": "What torque value should I use for M16x1.5 8.8 fine thread screws?",
+      "answer": "216 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-009-q04"
+    },
+    {
+      "question": "What is the maximum tightening torque for M16x1.5 10.9 screws?",
+      "answer": "303 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-009-q05"
+    },
+    {
+      "question": "What torque specification applies to M16x1.5 12.9 screws?",
+      "answer": "364 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-009-q06"
+    },
+    {
+      "question": "Which BMW standard document should I reference for the applicable range of tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-torque-specs-009-q07"
+    },
+    {
+      "question": "What is the difference in torque between M16 8.8 and M16 12.9 screws?",
+      "answer": "140 Nm (340 Nm for M16 12.9 minus 200 Nm for M16 8.8)",
+      "question_type": "factual",
+      "id": "00-torque-specs-009-q08"
+    },
+    {
+      "question": "Are the torque values higher for standard M16 thread or M16x1.5 fine thread screws of the same grade?",
+      "answer": "Standard M16 thread screws have higher torque values than M16x1.5 fine thread screws of the same grade.",
+      "question_type": "factual",
+      "id": "00-torque-specs-009-q09"
+    },
+    {
+      "question": "What section of the manual contains these M16 and M16x1.5 maximum tightening torques?",
+      "answer": "Section 00-8 General Instructions",
+      "question_type": "navigation",
+      "id": "00-torque-specs-009-q10"
+    }
+  ]
+}

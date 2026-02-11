@@ -1,0 +1,94 @@
+{
+  "page_id": "26-09_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-09.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:55:51.930208",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 711
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for replacing the front center for propeller shaft?",
+      "answer": "The part number is 26 11 501.",
+      "question_type": "factual",
+      "id": "26-09_propello-q01"
+    },
+    {
+      "question": "What diameter mandrel should be used when driving out the center?",
+      "answer": "A 14 mm (0.551\") diameter mandrel should be inserted.",
+      "question_type": "tool",
+      "id": "26-09_propello-q02"
+    },
+    {
+      "question": "How should the center be packed before installation?",
+      "answer": "Pack the center with a viscous grease.",
+      "question_type": "procedural",
+      "id": "26-09_propello-q03"
+    },
+    {
+      "question": "What special tool is referenced for driving in the center?",
+      "answer": "Special Tool 11 1 130 is used for driving in the center.",
+      "question_type": "tool",
+      "id": "26-09_propello-q04"
+    },
+    {
+      "question": "What lubricant should be used with the center?",
+      "answer": "Lubricate the center with Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "26-09_propello-q05"
+    },
+    {
+      "question": "How should the center be driven out according to the procedure?",
+      "answer": "Apply hammer knocks on the mandrel to produce pressure and drive out the center.",
+      "question_type": "procedural",
+      "id": "26-09_propello-q06"
+    },
+    {
+      "question": "What is the protrusion specification marked as 'A' in the diagram?",
+      "answer": "Protrusion A = 4.5 mm (0.177\").",
+      "question_type": "factual",
+      "id": "26-09_propello-q07"
+    },
+    {
+      "question": "What component is labeled as 11 1 310 in the top diagram?",
+      "answer": "Component 11 1 310 appears to be the mandrel tool used for driving out the center.",
+      "question_type": "visual",
+      "id": "26-09_propello-q08"
+    },
+    {
+      "question": "Which direction should the sealing lip faces be oriented?",
+      "answer": "The sealing lip faces out.",
+      "question_type": "procedural",
+      "id": "26-09_propello-q09"
+    },
+    {
+      "question": "What are the three diagram reference numbers shown on this page?",
+      "answer": "The diagram reference numbers are 20 26 018, 20 26 019, and 20 26 020.",
+      "question_type": "visual",
+      "id": "26-09_propello-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What cross-reference is given for removing the propeller shaft?",
+      "answer": "See 26 11 000 for removing the propeller shaft.",
+      "question_type": "navigation",
+      "id": "26-09_propello-q11"
+    },
+    {
+      "question": "What is the complete title of this repair procedure?",
+      "answer": "REPLACING FRONT CENTER FOR PROPELLER SHAFT - Propeller Shaft Removed.",
+      "question_type": "factual",
+      "id": "26-09_propello-q12"
+    }
+  ]
+}

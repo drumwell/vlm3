@@ -1,0 +1,94 @@
+{
+  "page_id": "34-14_brakes",
+  "image_path": "raw/34 - Brakes/34-14.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:16:32.536541",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 720
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required when working with brake lines?",
+      "answer": "Use special bending tool when working with brake lines.",
+      "question_type": "tool",
+      "id": "34-14_brakes-q01"
+    },
+    {
+      "question": "How should brake fluid be drawn off from the tank when replacing brake hoses?",
+      "answer": "Draw off brake fluid in tank with a syringe used exclusively with brake fluids.",
+      "question_type": "procedural",
+      "id": "34-14_brakes-q02"
+    },
+    {
+      "question": "What is the bleeding procedure reference for brakes after hose replacement?",
+      "answer": "Bleed brakes 34 00 046.",
+      "question_type": "procedural",
+      "id": "34-14_brakes-q03"
+    },
+    {
+      "question": "What are the important guidelines for bending brake lines?",
+      "answer": "Don't damage finish of brake lines; don't bend lines too sharply and don't bend back lines.",
+      "question_type": "safety",
+      "id": "34-14_brakes-q04"
+    },
+    {
+      "question": "Where can brake lines be obtained for replacement?",
+      "answer": "Brake lines are only available from Parts in straight version and correct length with connecting nipples.",
+      "question_type": "factual",
+      "id": "34-14_brakes-q05"
+    },
+    {
+      "question": "What should be used as a template for bending new brake lines?",
+      "answer": "Use the removed brake line as a template for bending.",
+      "question_type": "procedural",
+      "id": "34-14_brakes-q06"
+    },
+    {
+      "question": "What is the critical safety instruction when installing brake hoses?",
+      "answer": "Never twist brake hose when installing.",
+      "question_type": "safety",
+      "id": "34-14_brakes-q07"
+    },
+    {
+      "question": "What section contains additional service information for brake work?",
+      "answer": "Also refer to Service Information of Group 34.",
+      "question_type": "navigation",
+      "id": "34-14_brakes-q08"
+    },
+    {
+      "question": "What are the three brake hose replacement procedures covered on this page?",
+      "answer": "Replacing all brake lines (34 32 361), replacing front brake hose (34 32 381), and replacing rear brake hose (34 32 451).",
+      "question_type": "factual",
+      "id": "34-14_brakes-q09",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What is specified for tightening torque after brake hose installation?",
+      "answer": "Tightening torque* (with asterisk indicating to see Specifications).",
+      "question_type": "factual",
+      "id": "34-14_brakes-q10"
+    },
+    {
+      "question": "What type of syringe should be used for brake fluid removal?",
+      "answer": "A syringe used exclusively with brake fluids.",
+      "question_type": "tool",
+      "id": "34-14_brakes-q11"
+    },
+    {
+      "question": "What is the first step when replacing either front or rear brake hoses?",
+      "answer": "Disconnect brake hose, then draw off brake fluid in tank with a syringe used exclusively with brake fluids.",
+      "question_type": "procedural",
+      "id": "34-14_brakes-q12"
+    }
+  ]
+}

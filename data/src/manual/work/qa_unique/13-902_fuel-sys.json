@@ -1,0 +1,79 @@
+{
+  "page_id": "13-902_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-902.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:54:53.326398",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 639
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two main fuel pressure problems covered in this troubleshooting section?",
+      "answer": "Fuel Pressure Too High and Fuel Pressure Too Low.",
+      "question_type": "factual",
+      "id": "13-902_fuel-sys-q01"
+    },
+    {
+      "question": "What should I check first if the fuel pressure is too high?",
+      "answer": "Check if the vacuum hose to or on the pressure regulator is leaking or bent.",
+      "question_type": "diagnostic",
+      "id": "13-902_fuel-sys-q02"
+    },
+    {
+      "question": "If the vacuum hose to the pressure regulator is okay but fuel pressure is still too high, what's the next step?",
+      "answer": "Check fuel return line routing and flow, then if that's okay, the pressure regulator is defective and should be replaced - see 13 51 200 in Group 13.",
+      "question_type": "troubleshooting",
+      "id": "13-902_fuel-sys-q03"
+    },
+    {
+      "question": "What's the first thing to check when diagnosing fuel pressure too low?",
+      "answer": "Check fuel feed line routing and flow.",
+      "question_type": "diagnostic",
+      "id": "13-902_fuel-sys-q04"
+    },
+    {
+      "question": "If the fuel feed line is okay but pressure is still low, what should I check next?",
+      "answer": "Check flow in fuel filter.",
+      "question_type": "diagnostic",
+      "id": "13-902_fuel-sys-q05"
+    },
+    {
+      "question": "What should I inspect on the fuel intake if the fuel filter flow is okay?",
+      "answer": "Check filter screen on fuel intake, cleaning if necessary - see 16 12 000 in Group 16.",
+      "question_type": "procedural",
+      "id": "13-902_fuel-sys-q06"
+    },
+    {
+      "question": "What's the final step if all other checks pass for low fuel pressure?",
+      "answer": "Check pressure regulator, replacing if necessary - see 13 51 200 in Group 13.",
+      "question_type": "troubleshooting",
+      "id": "13-902_fuel-sys-q07"
+    },
+    {
+      "question": "Where can I find the procedure for replacing the pressure regulator?",
+      "answer": "See 13 51 200 in Group 13.",
+      "question_type": "navigation",
+      "id": "13-902_fuel-sys-q08"
+    },
+    {
+      "question": "What reference code should I use for fuel intake filter screen cleaning?",
+      "answer": "16 12 000 in Group 16.",
+      "question_type": "navigation",
+      "id": "13-902_fuel-sys-q09"
+    },
+    {
+      "question": "What additional information is available at the bottom of this page?",
+      "answer": "See Specifications and See Wiring Diagram are referenced at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "13-902_fuel-sys-q10"
+    }
+  ]
+}

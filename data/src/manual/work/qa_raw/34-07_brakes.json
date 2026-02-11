@@ -1,0 +1,91 @@
+{
+  "page_id": "34-07_brakes",
+  "image_path": "raw/34 - Brakes/34-07.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:14:22.872894",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 740
+  },
+  "qa_pairs": [
+    {
+      "question": "What must be done before adjusting the parking brake if brakes have to be bled?",
+      "answer": "If brakes have to be bled, this must be done before adjusting the parking brake.",
+      "question_type": "procedural",
+      "id": "34-07_brakes-q01"
+    },
+    {
+      "question": "What procedure is referenced for removing and installing brake shoes?",
+      "answer": "Remove and install brake shoes 34 21 530.",
+      "question_type": "navigation",
+      "id": "34-07_brakes-q02"
+    },
+    {
+      "question": "What type of fluid should be used when drawing off brake fluid with a syringe?",
+      "answer": "A syringe used exclusively with brake fluid should be used.",
+      "question_type": "tool",
+      "id": "34-07_brakes-q03"
+    },
+    {
+      "question": "What procedure should be followed for installation when bleeding brakes?",
+      "answer": "Bleed brakes 34 00 046.",
+      "question_type": "navigation",
+      "id": "34-07_brakes-q04"
+    },
+    {
+      "question": "How do you adjust the basic clearance on the parking brake?",
+      "answer": "Adjust basic clearance by operating brake pedal. A click will be heard on the rear wheel brakes until reaching the basic clearance.",
+      "question_type": "procedural",
+      "id": "34-07_brakes-q05"
+    },
+    {
+      "question": "What parking brake adjustment procedure is referenced?",
+      "answer": "Adjust parking brake 34 10 014.",
+      "question_type": "navigation",
+      "id": "34-07_brakes-q06"
+    },
+    {
+      "question": "What components need to be unscrewed to remove the wheel brake cylinder?",
+      "answer": "Unscrew brake line (1) and bolts (2) on wheel brake cylinder.",
+      "question_type": "procedural",
+      "id": "34-07_brakes-q07"
+    },
+    {
+      "question": "What does callout number 1 indicate in the bottom right image?",
+      "answer": "Callout number 1 indicates the brake line that needs to be unscrewed.",
+      "question_type": "visual",
+      "id": "34-07_brakes-q08"
+    },
+    {
+      "question": "What does callout number 2 indicate in the bottom right image?",
+      "answer": "Callout number 2 indicates the bolts that need to be unscrewed on the wheel brake cylinder.",
+      "question_type": "visual",
+      "id": "34-07_brakes-q09"
+    },
+    {
+      "question": "What section and procedure number covers removing and installing wheel brake cylinder?",
+      "answer": "Section 34 21 600 covers removing and installing wheel brake cylinder.",
+      "question_type": "navigation",
+      "id": "34-07_brakes-q10"
+    },
+    {
+      "question": "What sound indicates that basic clearance is being reached during parking brake adjustment?",
+      "answer": "A click will be heard on the rear wheel brakes until reaching the basic clearance.",
+      "question_type": "diagnostic",
+      "id": "34-07_brakes-q11"
+    },
+    {
+      "question": "What is shown in the top right image with callout 30 34 038?",
+      "answer": "The top right image shows the rear brake drum assembly with the brake shoes visible inside.",
+      "question_type": "visual",
+      "id": "34-07_brakes-q12"
+    }
+  ]
+}

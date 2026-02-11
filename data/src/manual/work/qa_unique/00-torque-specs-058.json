@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-058",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/058.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:27:08.440508",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 557
+  },
+  "qa_pairs": [
+    {
+      "question": "Do the torque specifications for the regulator switch apply to all vehicle types?",
+      "answer": "Yes, both M4 and M5 screw specifications apply to all types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-058-q06"
+    },
+    {
+      "question": "What is the difference in torque between M4 and M5 screws on the regulator switch?",
+      "answer": "The M5 screws require 2 Nm more torque than M4 screws (4 Nm vs 2 Nm).",
+      "question_type": "factual",
+      "id": "00-torque-specs-058-q07"
+    },
+    {
+      "question": "How many different screw sizes are specified for the regulator switch?",
+      "answer": "Two different screw sizes: M4 and M5",
+      "question_type": "factual",
+      "id": "00-torque-specs-058-q09"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "26-12_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-12.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:56:39.777136",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 771
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure section number for removing and installing the front propeller shaft on all wheel drive vehicles?",
+      "answer": "The procedure section number is 26 20 000 for removing and installing the front propeller shaft on all wheel drive vehicles.",
+      "question_type": "factual",
+      "id": "26-12_propello-q01"
+    },
+    {
+      "question": "What critical warning is given about operating the car after propeller shaft removal?",
+      "answer": "Never operate the car on its own engine power after removal of the propeller shaft, as this would damage the central lock in the transfer box.",
+      "question_type": "safety",
+      "id": "26-12_propello-q02"
+    },
+    {
+      "question": "How many bolts need to be removed during the propeller shaft removal procedure?",
+      "answer": "All six bolts need to be removed during the propeller shaft removal procedure.",
+      "question_type": "factual",
+      "id": "26-12_propello-q03"
+    },
+    {
+      "question": "What should be done with the stop nuts during installation?",
+      "answer": "Replace the stop nuts during installation and tighten to the specified torque.",
+      "question_type": "procedural",
+      "id": "26-12_propello-q04"
+    },
+    {
+      "question": "What is the first step shown for removing the propeller shaft?",
+      "answer": "Push back the propeller shaft and remove the joint disc with centering disc.",
+      "question_type": "procedural",
+      "id": "26-12_propello-q06"
+    },
+    {
+      "question": "Where should the centering disc be mounted during installation?",
+      "answer": "Mount the centering disc on the flange of the propeller shaft during installation.",
+      "question_type": "procedural",
+      "id": "26-12_propello-q07"
+    },
+    {
+      "question": "What should be checked and potentially replaced during installation according to the seal inspection step?",
+      "answer": "Check the seal and replace if necessary during installation.",
+      "question_type": "inspection",
+      "id": "26-12_propello-q08"
+    },
+    {
+      "question": "What installation instruction is given regarding the joint disc and flange arms?",
+      "answer": "Install the joint disc so that arrows face flange arms during installation.",
+      "question_type": "procedural",
+      "id": "26-12_propello-q09"
+    },
+    {
+      "question": "What should be done with the gap and seal during the final installation step?",
+      "answer": "Check gap and seal, replacing if necessary, and slide cap on to transfer box after finishing installation.",
+      "question_type": "procedural",
+      "id": "26-12_propello-q10"
+    },
+    {
+      "question": "What action is shown for removing the propeller shaft and cap from the transfer box?",
+      "answer": "Pull propeller shaft and cap off of transfer box as shown in the procedure.",
+      "question_type": "procedural",
+      "id": "26-12_propello-q11"
+    },
+    {
+      "question": "Where can additional information be found according to the reference at the bottom of the page?",
+      "answer": "Additional information can be found in the Specifications section as referenced at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "26-12_propello-q12"
+    }
+  ]
+}

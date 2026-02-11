@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-11-09",
+  "image_path": "raw/00 - Torque Specs/11-09.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:38:23.035868",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 739
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for cylinder head bolts on the 9AZ engine type?",
+      "answer": "The torque sequence is 50 Nm, then 80 Nm, followed by a 15 minute settling time, then final torque to 100 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-09-q01"
+    },
+    {
+      "question": "What size are the cylinder head bolts for both engine variants?",
+      "answer": "Both the 9AZ and 10AZ engines use M12 cylinder head bolts.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-09-q02"
+    },
+    {
+      "question": "How long is the settling time required during cylinder head bolt installation on the 9AZ engine?",
+      "answer": "15 minutes settling time is required between torque steps.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-09-q03"
+    },
+    {
+      "question": "What is the initial torque value for cylinder head bolts on the 10AZ engine?",
+      "answer": "The initial torque is 20 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-09-q04"
+    },
+    {
+      "question": "What are the torque angles specified for the 10AZ cylinder head bolts?",
+      "answer": "After the initial torque, apply 60\u00b0 then an additional 70\u00b0 torque angle.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-09-q05"
+    },
+    {
+      "question": "Which engine types are covered in section 11.12 for cylinder head and cover specifications?",
+      "answer": "The 9AZ engine type (S14/S38 B35) and the 10AZ engine type (S38 B36/S38 B38) are covered.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-09-q06"
+    },
+    {
+      "question": "What is the final torque value for 9AZ engine cylinder head bolts?",
+      "answer": "The final torque value is 100 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-09-q07"
+    },
+    {
+      "question": "How does the cylinder head bolt installation procedure differ between 9AZ and 10AZ engines?",
+      "answer": "The 9AZ uses a four-step torque sequence (50 Nm, 80 Nm, 15 min settling, 100 Nm), while the 10AZ uses initial torque of 20 Nm followed by two angle steps of 60\u00b0 and 70\u00b0.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-09-q08"
+    },
+    {
+      "question": "What instruction is given for cylinder head bolts before installation?",
+      "answer": "Replace, wash and oil cylinder head bolts before installation.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-09-q09"
+    },
+    {
+      "question": "What section and subsection does this cylinder head bolt specification belong to?",
+      "answer": "This belongs to section 11-9 Engine, subsection 11.12 Cylinder Head and Cover.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-09-q10"
+    }
+  ]
+}

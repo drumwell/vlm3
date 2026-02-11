@@ -1,0 +1,73 @@
+{
+  "page_id": "13-814_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-814.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:51:42.931296",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 910
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first test to perform when checking the coolant temperature switch for warm-up speed periphery?",
+      "answer": "Connect voltmeter (M 01) between terminal 2 and terminal 6, turn on ignition, and check if the voltmeter displays approximately 0 volt with coolant temperature of less than 30\u00b0C (86\u00b0F).",
+      "question_type": "procedural",
+      "id": "13-814_fuel-sys-q01"
+    },
+    {
+      "question": "What should the voltmeter reading be when testing the coolant temperature switch with coolant temperature below 30\u00b0C?",
+      "answer": "The voltmeter should display approximately 0 volt with coolant temperature of less than 30\u00b0C (86\u00b0F).",
+      "question_type": "parameter",
+      "id": "13-814_fuel-sys-q02"
+    },
+    {
+      "question": "If the initial voltage test passes, what is the next step in checking the coolant temperature switch?",
+      "answer": "Connect voltmeter (M 01) between terminal 2 and terminal 6, turn on ignition, and verify the voltmeter displays at least 9 volts with coolant temperature of greater than 48\u00b0C (118\u00b0F).",
+      "question_type": "procedural",
+      "id": "13-814_fuel-sys-q03"
+    },
+    {
+      "question": "What ohmmeter test should be performed on the white wire plug connection?",
+      "answer": "Connect ohmmeter (M 06) on the white wire plug connection of the 45\u00b0C (113\u00b0F) temperature switch and car ground. The ohmmeter should display at least 100 k-ohms with coolant temperature of less than 30\u00b0C (86\u00b0F).",
+      "question_type": "diagnostic",
+      "id": "13-814_fuel-sys-q04"
+    },
+    {
+      "question": "What resistance reading indicates a good 45\u00b0C temperature switch when the coolant is below 30\u00b0C?",
+      "answer": "The ohmmeter should display at least 100 k-ohms with coolant temperature of less than 30\u00b0C (86\u00b0F).",
+      "question_type": "parameter",
+      "id": "13-814_fuel-sys-q05"
+    },
+    {
+      "question": "What is the final ohmmeter test in this diagnostic sequence?",
+      "answer": "Connect ohmmeter (M 06) on the white wire plug connection of 45\u00b0C (113\u00b0F) temperature switch and car ground. The ohmmeter should display approximately 0 ohm with coolant temperature of greater than 48\u00b0C (118\u00b0F).",
+      "question_type": "diagnostic",
+      "id": "13-814_fuel-sys-q07"
+    },
+    {
+      "question": "What should you do if the 45\u00b0C temperature switch fails any of the tests?",
+      "answer": "Replace 45\u00b0C (113\u00b0F) temperature switch and check code number.",
+      "question_type": "procedural",
+      "id": "13-814_fuel-sys-q08"
+    },
+    {
+      "question": "What tools are referenced for testing the coolant temperature switch?",
+      "answer": "Voltmeter (M 01) and ohmmeter (M 06) are referenced for testing the coolant temperature switch.",
+      "question_type": "tool",
+      "id": "13-814_fuel-sys-q09"
+    },
+    {
+      "question": "What temperature thresholds are critical for this coolant temperature switch diagnosis?",
+      "answer": "The critical temperature thresholds are less than 30\u00b0C (86\u00b0F) for the cold test conditions, 45\u00b0C (113\u00b0F) for the temperature switch rating, and greater than 48\u00b0C (118\u00b0F) for the warm test conditions.",
+      "question_type": "parameter",
+      "id": "13-814_fuel-sys-q10"
+    }
+  ]
+}

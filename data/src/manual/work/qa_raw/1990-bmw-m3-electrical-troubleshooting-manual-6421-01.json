@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6421-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:08:58.862118",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1892,
+    "tokens_output": 914
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you check before doing the System Diagnosis for the A/C air delivery control?",
+      "answer": "You should check that LH and RH Fresh/Recirculating Air Relays are firmly seated and that LH and RH Fresh/Recirculating Air Relay pigtail connectors are properly mated.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01-q01"
+    },
+    {
+      "question": "What terminal does battery voltage get applied to on the Control Switch when the Ignition Switch is in RUN?",
+      "answer": "Battery voltage is applied to terminal 7 of the Control Switch when the Ignition Switch is in RUN.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01-q02"
+    },
+    {
+      "question": "What voltage should be measured between WT and Ground when testing the Fresh/Recirculating Air Flap Door Motor pigtail connector?",
+      "answer": "Battery voltage should be measured between WT and Ground.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01-q03"
+    },
+    {
+      "question": "What are the required conditions for Test A: Fresh/Recirculating Air Flap Door Motor Voltage Test?",
+      "answer": "The conditions are: Ignition Switch in RUN, Fresh/Recirculating Air Switch in RELEASED (FRESH) position, and the pigtail connector disconnected.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01-q04"
+    },
+    {
+      "question": "Which wire connections should you measure battery voltage on for Test B when the Fresh/Recirculating Air Switch is depressed?",
+      "answer": "You should measure battery voltage between 87 (GN/BR) and Ground, 86 (GN) and Ground, 86 (GN) and 85 (BR), and 86 (GN) and 87a (BR).",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01-q05"
+    },
+    {
+      "question": "What happens to the Fresh/Recirculating Air Flap Doors when the Fresh/Recirculating Air Switch is depressed?",
+      "answer": "When the switch is depressed, both relays are energized and voltage is applied to the Flap Door Motors in the opposite direction, causing the motors to reverse direction and move the doors to position B, allowing only recirculating air to enter the blower.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01-q06"
+    },
+    {
+      "question": "What should you do if all voltages are correct during the Fresh/Recirculating Air Relay Voltage Test?",
+      "answer": "If all voltages are correct, replace the inoperative motor.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01-q07"
+    },
+    {
+      "question": "What does 'See 1', 'See 2', and 'See 3' refer to in the diagnosis tables?",
+      "answer": "These refer to specific diagnostic procedures or reference numbers that are explained elsewhere in the manual for further diagnosis steps.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01-q08"
+    },
+    {
+      "question": "When do both Air Flap Door Motors operate and move the doors to position A?",
+      "answer": "Both motors operate and move the doors to position A when the Ignition Switch is in RUN and battery voltage is applied through the normally open contacts of the LH Fresh/Recirculating Air Relay and the normally closed contacts of the RH Fresh/Recirculating Air Relay.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01-q09"
+    },
+    {
+      "question": "What wire should you check for an open circuit if the WT wire test fails for the RH Air Relay?",
+      "answer": "You should check the YL wire for an open circuit and perform Test B for the LH Air Relay if the WT wire test fails.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-01-q10"
+    }
+  ]
+}

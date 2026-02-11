@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-038",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/038.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:23:25.203697",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 700
+  },
+  "qa_pairs": [
+    {
+      "question": "How much torque is required for the full length screw in threaded insert?",
+      "answer": "23 Nm for M21 full length screw in threaded insert.",
+      "question_type": "factual",
+      "id": "00-torque-specs-038-q03"
+    },
+    {
+      "question": "What is the torque specification for the oil drain line banjo bolt?",
+      "answer": "30 Nm for M60/1/M60/2/M62/M70/S70/M73 oil drain line banjo bolt.",
+      "question_type": "factual",
+      "id": "00-torque-specs-038-q04"
+    },
+    {
+      "question": "What are the different engine types mentioned for the oil drain line banjo bolt?",
+      "answer": "M60/1, M60/2, M62, M70, S70, and M73 engine types are specified for the oil drain line banjo bolt.",
+      "question_type": "factual",
+      "id": "00-torque-specs-038-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "12-107_4_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-107_4.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:25:39.530350",
+    "prompt_template": "service_manual/wiring",
+    "tokens_input": 1745,
+    "tokens_output": 769
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the purpose of the holding circuit in the Motronic system?",
+      "answer": "The holding circuit makes sure that the Motronic master relay remains activated for another 3 sec. after switching off ignition lock terminal 15 and stopping the engine.",
+      "question_type": "operation",
+      "id": "12-107_4_engine-e-q01"
+    },
+    {
+      "question": "Which terminals are used in the Motronic with holding circuit since 12.86?",
+      "answer": "Terminals 27 and 36 are used in the Motronic with holding circuit since 12.86.",
+      "question_type": "factual",
+      "id": "12-107_4_engine-e-q02"
+    },
+    {
+      "question": "What happens to terminals 27 and 36 in Motronic systems without holding circuit before 12.86?",
+      "answer": "Terminals 27 and 36 are not used in Motronic systems without holding circuit before 12.86.",
+      "question_type": "factual",
+      "id": "12-107_4_engine-e-q03"
+    },
+    {
+      "question": "How long does the Motronic master relay remain activated after ignition is turned off?",
+      "answer": "The Motronic master relay remains activated for another 3 seconds after switching off ignition lock terminal 15 and stopping the engine.",
+      "question_type": "parameter",
+      "id": "12-107_4_engine-e-q04"
+    },
+    {
+      "question": "What is the module designation shown in both wiring diagrams?",
+      "answer": "The module designation shown in both wiring diagrams is 1.1.",
+      "question_type": "component",
+      "id": "12-107_4_engine-e-q05"
+    },
+    {
+      "question": "Which terminal numbers are visible in the Motronic relay connector?",
+      "answer": "The terminal numbers visible in the Motronic relay connector are 27, 37, and 36.",
+      "question_type": "connector",
+      "id": "12-107_4_engine-e-q06"
+    },
+    {
+      "question": "What date marks the transition to using the holding circuit in Motronic systems?",
+      "answer": "The date 12.86 marks the transition to using the holding circuit in Motronic systems.",
+      "question_type": "factual",
+      "id": "12-107_4_engine-e-q07"
+    },
+    {
+      "question": "What is the main difference between the two wiring diagrams shown?",
+      "answer": "The main difference is that the top diagram shows Motronic with holding circuit (since 12.86) where terminals 27 and 36 are used, while the bottom diagram shows Motronic without holding circuit (before 12.86) where terminals 27 and 36 are not used.",
+      "question_type": "visual",
+      "id": "12-107_4_engine-e-q08"
+    },
+    {
+      "question": "Which terminals connect to the positive power sources (15 and 30)?",
+      "answer": "Terminal 15 connects to the ignition power source and terminal 30 connects to the battery power source.",
+      "question_type": "wiring",
+      "id": "12-107_4_engine-e-q09"
+    },
+    {
+      "question": "What page number and section is this diagram from?",
+      "answer": "This diagram is from page 12-107/4 from the Holding Circuit Wiring Diagram section for M 1.1 Motronic.",
+      "question_type": "navigation",
+      "id": "12-107_4_engine-e-q10"
+    }
+  ]
+}

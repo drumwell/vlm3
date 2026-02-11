@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-089",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/089.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:32:50.964055",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 610
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the cap nut on transmission oil cooler for all BMW E30 models?",
+      "answer": "20 Nm with M18x1.5 thread",
+      "question_type": "factual",
+      "id": "00-torque-specs-089-q01"
+    },
+    {
+      "question": "What torque should be applied to hollow bolts in the transmission oil cooler system?",
+      "answer": "27 Nm with M14x1.5 thread for all models",
+      "question_type": "factual",
+      "id": "00-torque-specs-089-q05"
+    },
+    {
+      "question": "What is the specification for screw-in fitting on transmission for all models?",
+      "answer": "37 Nm with M14x1.5 and M16x1.5 threads",
+      "question_type": "factual",
+      "id": "00-torque-specs-089-q06"
+    }
+  ]
+}

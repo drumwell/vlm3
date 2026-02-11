@@ -1,0 +1,85 @@
+{
+  "page_id": "11-71_engine",
+  "image_path": "raw/11 - Engine/11-71.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:17:18.153497",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 765
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tools are needed to pull off the sprocket?",
+      "answer": "Special Tools 11 2 000 and 11 2 004 are needed to pull off the sprocket.",
+      "question_type": "tool",
+      "id": "11-71_engine-q01"
+    },
+    {
+      "question": "What temperature should the sprocket be heated to for installation?",
+      "answer": "The sprocket should be heated to max. 200\u00b0 C (390\u00b0 F) for installation.",
+      "question_type": "procedural",
+      "id": "11-71_engine-q02"
+    },
+    {
+      "question": "Which special tools are mounted on the shaft of the guide sprocket?",
+      "answer": "Special Tools 11 3 040 and 11 3 062 are mounted on the shaft of the guide sprocket.",
+      "question_type": "tool",
+      "id": "11-71_engine-q04"
+    },
+    {
+      "question": "What needs to be removed before replacing the sprocket set?",
+      "answer": "Remove oil pump drive chain (see 11 41 151), unscrew shaft bolt (1) and take off oil pipe (2).",
+      "question_type": "procedural",
+      "id": "11-71_engine-q05"
+    },
+    {
+      "question": "How should the shaft be driven in during installation?",
+      "answer": "Drive in shaft partially with bore facing up, slide on the guide sprocket, then drive in shaft against the stop.",
+      "question_type": "procedural",
+      "id": "11-71_engine-q06"
+    },
+    {
+      "question": "What should be done after knocking out the shaft?",
+      "answer": "After knocking out the shaft, tighten oil pump drive chain (see 11 41 000).",
+      "question_type": "procedural",
+      "id": "11-71_engine-q07"
+    },
+    {
+      "question": "What are callouts 1 and 2 in the top left diagram?",
+      "answer": "Callout 1 indicates the shaft bolt and callout 2 indicates the oil pipe.",
+      "question_type": "visual",
+      "id": "11-71_engine-q08"
+    },
+    {
+      "question": "What should be checked in the sprocket during installation?",
+      "answer": "Check needle sleeve in sprocket, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "11-71_engine-q09"
+    },
+    {
+      "question": "In which direction should the needle sleeve be pressed in?",
+      "answer": "Press in needle sleeve in forward driving direction of car, which is the forward and pressing in direction for needle sleeve.",
+      "question_type": "procedural",
+      "id": "11-71_engine-q10"
+    },
+    {
+      "question": "What is the part number for replacing the sprocket set?",
+      "answer": "The part number for replacing the sprocket set is 11 31 061, with timing chain removed.",
+      "question_type": "factual",
+      "id": "11-71_engine-q11"
+    },
+    {
+      "question": "What callout number identifies the guide sprocket in the installation diagram?",
+      "answer": "Callout number 3 identifies the guide sprocket in the installation diagram.",
+      "question_type": "visual",
+      "id": "11-71_engine-q12"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:12:50.043020",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 540
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the left front crash sensor located?",
+      "answer": "The left front crash sensor is located on the LH side of the engine compartment, forward of the shock tower.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-01-q01"
+    },
+    {
+      "question": "What components are shown in Figure 3 at the lower LH front of the engine?",
+      "answer": "Figure 3 shows the oil temperature sensor and oil pressure switch at the lower LH front of the engine.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-01-q02"
+    },
+    {
+      "question": "Where can I find the board computer horn?",
+      "answer": "The board computer horn is located behind the LH corner of the front bumper, as shown in Figure 5.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-01-q03"
+    },
+    {
+      "question": "What is the component labeled C113 in Figure 2?",
+      "answer": "Component C113 is located in the LH front corner of the engine compartment near the ABS hydraulic unit.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-01-q04"
+    },
+    {
+      "question": "Where is the cruise control actuator positioned?",
+      "answer": "The cruise control actuator is positioned in the LH front corner of the engine compartment, as shown in Figure 4.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-01-q05"
+    },
+    {
+      "question": "What sensor is located under the LH side of the front bumper?",
+      "answer": "The outside temperature sensor is located under the LH side of the front bumper with the splash guard pulled down, as shown in Figure 6.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-01-q06"
+    },
+    {
+      "question": "What components are visible in Figure 5 behind the LH corner of the front bumper?",
+      "answer": "Figure 5 shows the B/C horn diode, LH horn, and board computer horn behind the LH corner of the front bumper.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-01-q07"
+    },
+    {
+      "question": "What is the reference number for Figure 6?",
+      "answer": "The reference number for Figure 6 is 67916.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-01-q08"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "51-160_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-160.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:12:43.100598",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 867
+  },
+  "qa_pairs": [
+    {
+      "question": "What indicates that a mirror has a heated outside mirror feature?",
+      "answer": "A blue dot indicates a heated outside mirror.",
+      "question_type": "factual",
+      "id": "51-160_body-equ-q01"
+    },
+    {
+      "question": "What are the first steps to remove or replace a mirror on the left or right front door?",
+      "answer": "Disconnect the battery ground lead, pull off cover toward the rear, unscrew mirror mounting screws and disconnect the plug.",
+      "question_type": "procedural",
+      "id": "51-160_body-equ-q02"
+    },
+    {
+      "question": "What additional steps are required for cars with Radio Speaker System when removing the mirror?",
+      "answer": "Lift off the mirror triangle and pull off the wires.",
+      "question_type": "procedural",
+      "id": "51-160_body-equ-q03"
+    },
+    {
+      "question": "What switch positions correspond to the left and right outside mirrors?",
+      "answer": "Switch position 1 is for the left outside mirror and switch position 2 is for the right outside mirror.",
+      "question_type": "factual",
+      "id": "51-160_body-equ-q04"
+    },
+    {
+      "question": "What do switch positions 3/4 and 5/6 control on the adjusting mirror switch?",
+      "answer": "Switch positions 3/4 control the vertical plane and positions 5/6 control the horizontal plane.",
+      "question_type": "factual",
+      "id": "51-160_body-equ-q05"
+    },
+    {
+      "question": "At what temperature does the mirror heating automatically switch on?",
+      "answer": "Heating is switched on by an integrated temperature switch when the mirror glass temperature is below +15 \u00b1 5\u00b0 C (59 \u00b1 9\u00b0 F).",
+      "question_type": "factual",
+      "id": "51-160_body-equ-q06"
+    },
+    {
+      "question": "At what temperature does the mirror heating automatically switch off?",
+      "answer": "Heating is switched off automatically when a temperature of 50 \u00b1 10\u00b0 C (122 \u00b1 18\u00b0 F) is reached.",
+      "question_type": "factual",
+      "id": "51-160_body-equ-q07"
+    },
+    {
+      "question": "How long does it take to melt ice on a frozen mirror and what is the power consumption?",
+      "answer": "The melting speed at -10\u00b0 C (+14\u00b0 F) for a frozen mirror is about 5 minutes with a power consumption of approx. 1.5 A.",
+      "question_type": "factual",
+      "id": "51-160_body-equ-q08"
+    },
+    {
+      "question": "How do you replace the mirror glass on a heated mirror?",
+      "answer": "Pull off flat male plug and connect on new mirror glass, then check function as described in section 51 16 000.",
+      "question_type": "procedural",
+      "id": "51-160_body-equ-q09"
+    },
+    {
+      "question": "What procedure should be followed to check the mirror operation after installation?",
+      "answer": "Turn on ignition and check operation using the switch positions for left/right mirror selection and vertical/horizontal plane adjustment.",
+      "question_type": "procedural",
+      "id": "51-160_body-equ-q10"
+    },
+    {
+      "question": "What do the numbered callouts 1-6 represent in the mirror adjustment switch diagram?",
+      "answer": "The numbers 1-6 represent different switch positions: 1 (left mirror), 2 (right mirror), 3/4 (vertical plane), and 5/6 (horizontal plane).",
+      "question_type": "visual",
+      "id": "51-160_body-equ-q11"
+    },
+    {
+      "question": "What is the operating principle of the heated mirror system?",
+      "answer": "The outside mirror can be adjusted and heated after turning on the ignition, with heating controlled automatically by an integrated temperature switch.",
+      "question_type": "operation",
+      "id": "51-160_body-equ-q12"
+    }
+  ]
+}

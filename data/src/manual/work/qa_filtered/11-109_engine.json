@@ -1,0 +1,91 @@
+{
+  "page_id": "11-109_engine",
+  "image_path": "raw/11 - Engine/11-109.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:09:29.163389",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1759,
+    "tokens_output": 803
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the tightening torque specification for oil pan bolts during installation?",
+      "answer": "The tightening torque for oil pan bolts is 10 Nm (7 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-109_engine-q01"
+    },
+    {
+      "question": "What torque should be applied to the oil drain plug?",
+      "answer": "The oil drain plug should be tightened to 33 Nm (24 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-109_engine-q02"
+    },
+    {
+      "question": "What are the four numbered components shown in the left diagram during oil pan upper section removal?",
+      "answer": "The numbered components are: 1) plug connection, 2) holder with ground lead, 3) clamp, and 4) breather hose connection point.",
+      "question_type": "visual",
+      "id": "11-109_engine-q03"
+    },
+    {
+      "question": "What should be done with the engine oil before removing the oil pan lower section?",
+      "answer": "The engine oil should be drained before removing the oil pan lower section.",
+      "question_type": "procedural",
+      "id": "11-109_engine-q04"
+    },
+    {
+      "question": "What special sealing procedure is required during oil pan installation?",
+      "answer": "The sealing surface must be cleaned, the oil pan gasket replaced, and the joint on timing case cover and end cover coated with a brush-on universal sealing compound.",
+      "question_type": "procedural",
+      "id": "11-109_engine-q05"
+    },
+    {
+      "question": "What component must be removed according to section 11 41 000?",
+      "answer": "The oil pump must be removed according to section 11 41 000.",
+      "question_type": "navigation",
+      "id": "11-109_engine-q06"
+    },
+    {
+      "question": "What should be done with the splash guard during oil pan lower section removal?",
+      "answer": "The splash guard should be unscrewed during oil pan lower section removal.",
+      "question_type": "procedural",
+      "id": "11-109_engine-q07"
+    },
+    {
+      "question": "What is the proper sequence for disconnecting components from the oil pan upper section?",
+      "answer": "First disconnect the plug, then unscrew the holder and ground lead, and finally loosen the clamp and pull off the breather hose.",
+      "question_type": "procedural",
+      "id": "11-109_engine-q08"
+    },
+    {
+      "question": "What must be replaced during oil pan installation?",
+      "answer": "The oil pan gasket must be replaced during installation.",
+      "question_type": "factual",
+      "id": "11-109_engine-q09"
+    },
+    {
+      "question": "What type of sealing compound is specified for the timing case cover joint?",
+      "answer": "A brush-on universal sealing compound is specified for coating the joint on timing case cover and end cover.",
+      "question_type": "tool",
+      "id": "11-109_engine-q10"
+    },
+    {
+      "question": "What should be done with the reinforcement shell during oil pan removal?",
+      "answer": "The reinforcement shell should be unscrewed during the oil pan removal process.",
+      "question_type": "procedural",
+      "id": "11-109_engine-q11"
+    },
+    {
+      "question": "What is the source of supply indicated at the bottom of the page?",
+      "answer": "The source of supply is HWB, as indicated by the double asterisk notation.",
+      "question_type": "factual",
+      "id": "11-109_engine-q12"
+    }
+  ]
+}

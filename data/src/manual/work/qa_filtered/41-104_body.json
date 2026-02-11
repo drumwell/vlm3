@@ -1,0 +1,79 @@
+{
+  "page_id": "41-104_body",
+  "image_path": "raw/41 - Body/41-104.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:39:34.457582",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 837
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the left front engine carrier with wheel house?",
+      "answer": "The procedure number is 41 11 015.",
+      "question_type": "factual",
+      "id": "41-104_body-q01"
+    },
+    {
+      "question": "What reference page should be consulted before beginning this engine carrier replacement procedure?",
+      "answer": "Refer to information on page 41-001.",
+      "question_type": "navigation",
+      "id": "41-104_body-q02"
+    },
+    {
+      "question": "What should be done with both side panels during this procedure?",
+      "answer": "Remove both side panels.",
+      "question_type": "procedural",
+      "id": "41-104_body-q04"
+    },
+    {
+      "question": "What reference section should be consulted for removing the front panel with front wall?",
+      "answer": "See section 41 33 001.",
+      "question_type": "navigation",
+      "id": "41-104_body-q05"
+    },
+    {
+      "question": "What adjustment should be checked during installation?",
+      "answer": "Check and adjust front wheel alignment.",
+      "question_type": "procedural",
+      "id": "41-104_body-q06"
+    },
+    {
+      "question": "What reference section covers removing the wheel house?",
+      "answer": "See section 41 14 021.",
+      "question_type": "navigation",
+      "id": "41-104_body-q07"
+    },
+    {
+      "question": "What should be done to the spot welding seams on the inside of the car?",
+      "answer": "Uncover spot welding seams on inside of car and drill off welding spots.",
+      "question_type": "procedural",
+      "id": "41-104_body-q08"
+    },
+    {
+      "question": "What should be done to the connection points on the end of the engine carrier?",
+      "answer": "Uncover points of connection on end of engine carrier, drill off welding spots, grind off welding seam, and remove engine carrier.",
+      "question_type": "procedural",
+      "id": "41-104_body-q09"
+    },
+    {
+      "question": "What preparation is required for the connection points before installation?",
+      "answer": "Straighten and grind points of connection.",
+      "question_type": "procedural",
+      "id": "41-104_body-q10"
+    },
+    {
+      "question": "What image numbers correspond to the various steps shown in the diagrams?",
+      "answer": "The diagrams show images numbered 30 41 273, 30 41 508, 30 41 509, 30 41 510, 30 41 511, and 30 41 512.",
+      "question_type": "visual",
+      "id": "41-104_body-q12"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "54-14_1_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-14_1.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:41:28.834944",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1789,
+    "tokens_output": 451
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum size of holes that can be repaired in a hardtop according to this manual?",
+      "answer": "Holes larger than 2500 mm\u00b2 in size cannot be repaired and the hardtop must be replaced.",
+      "question_type": "factual",
+      "id": "54-14_1_hood-sun-q01"
+    },
+    {
+      "question": "What should you do immediately if dust gets in your eyes during hardtop repair work?",
+      "answer": "Take off dirty clothes immediately. If dust has gotten in eyes, rinse out with plenty of water and go to a physician. Tap coated skin and wash with plenty of water.",
+      "question_type": "safety",
+      "id": "54-14_1_hood-sun-q02"
+    },
+    {
+      "question": "What are the recommended fire extinguishing agents for hardtop repair work?",
+      "answer": "Water mist (no water stream), powders, foam, CO\u2082 and halon.",
+      "question_type": "safety",
+      "id": "54-14_1_hood-sun-q03"
+    },
+    {
+      "question": "What is the maximum length of cracks that can extend through the honeycomb structure before requiring hardtop replacement?",
+      "answer": "Cracks extending through the honeycomb structure with a length of more than 100 mm (4\") cannot be repaired and require hardtop replacement.",
+      "question_type": "factual",
+      "id": "54-14_1_hood-sun-q04"
+    },
+    {
+      "question": "What protective equipment is required when working on hardtop repairs?",
+      "answer": "Work clothes to cover bare skin, goggles, mask, and gloves are required protective equipment.",
+      "question_type": "safety",
+      "id": "54-14_1_hood-sun-q05"
+    },
+    {
+      "question": "What should be done with scrapping materials after hardtop work?",
+      "answer": "Never let it get into drink water systems. It can be brought to the normal refuse station after hardening.",
+      "question_type": "safety",
+      "id": "54-14_1_hood-sun-q06"
+    }
+  ]
+}

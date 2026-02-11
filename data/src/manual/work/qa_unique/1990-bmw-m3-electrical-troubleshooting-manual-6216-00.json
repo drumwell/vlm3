@@ -1,0 +1,91 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6216-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:03:59.544819",
+    "prompt_template": "electrical_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 859
+  },
+  "qa_pairs": [
+    {
+      "question": "What happens when the ignition switch is initially placed in 'Run' position?",
+      "answer": "The Active Check Control Arm Indicator flashes, and the Active Check Control Unit Brake Light LED and panel light illuminate for test purposes. Depressing the brake pedal clears the display.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q01"
+    },
+    {
+      "question": "When does fault monitoring begin in the Active Check Control system?",
+      "answer": "Fault monitoring begins when the ignition switch is placed in 'Run' position.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q02"
+    },
+    {
+      "question": "Which circuits are monitored when fault monitoring begins?",
+      "answer": "The low beams, rear lights, or license lights circuits are monitored. The brake lights are monitored only while the brake pedal is depressed.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q03"
+    },
+    {
+      "question": "What voltage is shown on the wire from FUSE 4 to the turn/hazard lights?",
+      "answer": "1.5 V/GY voltage is shown on the wire from FUSE 4 to the turn/hazard lights.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q04"
+    },
+    {
+      "question": "What happens when a fault occurs in the Active Check Control system?",
+      "answer": "The alarm indicator flashes, the appropriate LED fault indicator lights, and the panel light goes on for five seconds. Depressing the test button will clear the alarm indicator, but the LED fault indicator remains on.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q05"
+    },
+    {
+      "question": "How do you test the Active Check Control unit?",
+      "answer": "To test the unit, depress the test button. The LED fault indicators and the panel lights should go on.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q06"
+    },
+    {
+      "question": "What are the amperage ratings for FUSE 13 and FUSE 14?",
+      "answer": "Both FUSE 13 and FUSE 14 are rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q07"
+    },
+    {
+      "question": "What components are shown in the Active Check Control Unit above the rear view mirror?",
+      "answer": "The unit shows indicators for brake lights, low beam, engine oil, rear lights, washer fluid, license plate light, coolant, and a check button.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q08"
+    },
+    {
+      "question": "What voltage is present at connector C103?",
+      "answer": "5 V/GY voltage is present at connector C103.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q09"
+    },
+    {
+      "question": "What is the ground reference number shown in the wiring diagram?",
+      "answer": "Ground reference number 6200 is shown at the ground distribution point.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q10"
+    },
+    {
+      "question": "What type of component is labeled 'SOLID STATE' in the Active Check Control unit?",
+      "answer": "The SOLID STATE component is labeled as a 'LOW BEAM' FAULT INDICATOR in the Active Check Control unit.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q11"
+    },
+    {
+      "question": "What voltage values are shown at the headlights connections?",
+      "answer": "1 YL/WT and 1 YL/BU voltage connections are shown at the headlights.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-00-q12"
+    }
+  ]
+}

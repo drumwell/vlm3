@@ -1,0 +1,85 @@
+{
+  "page_id": "51-214_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-214.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:14:51.387064",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 854
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the resistance value when the microswitch is pressed on the driver's door lock cylinder?",
+      "answer": "When the microswitch is pressed, the resistance is approximately 0 ohm.",
+      "question_type": "factual",
+      "id": "51-214_body-equ-q01"
+    },
+    {
+      "question": "What resistance reading should you get when the microswitch is opened on the front passenger's door lock cylinder?",
+      "answer": "When the microswitch is opened, the resistance is approximately \u221e ohms (infinity ohms).",
+      "question_type": "factual",
+      "id": "51-214_body-equ-q02"
+    },
+    {
+      "question": "What should you check for when installing the driver's door spring in cars with central locks?",
+      "answer": "Check for correct fit of spring in cars with central locks and unlocking arrest.",
+      "question_type": "inspection",
+      "id": "51-214_body-equ-q03"
+    },
+    {
+      "question": "How do you secure the microswitch after plugging it in during installation?",
+      "answer": "Plug in microswitch and secure it with a clamp.",
+      "question_type": "procedural",
+      "id": "51-214_body-equ-q04"
+    },
+    {
+      "question": "What are the five components labeled in the Front Passenger's Door Lock Cylinder Layout diagram?",
+      "answer": "1 = Lock cylinder, 2 = Drive for microswitch, 3 = Microswitch, 4 = Clamp, 5 = Holder.",
+      "question_type": "visual",
+      "id": "51-214_body-equ-q05"
+    },
+    {
+      "question": "Where should you place the drive for the microswitch on the holder in cars with central locks?",
+      "answer": "Place drive for microswitch on holder in cars with central locks.",
+      "question_type": "procedural",
+      "id": "51-214_body-equ-q06"
+    },
+    {
+      "question": "What part numbers are shown for the driver's door components?",
+      "answer": "The driver's door components show part numbers 30 51 570, 30 51 474, and 30 51 475.",
+      "question_type": "factual",
+      "id": "51-214_body-equ-q07"
+    },
+    {
+      "question": "What part numbers are associated with the front passenger's door components?",
+      "answer": "The front passenger's door components show part numbers 30 51 070, 30 51 071, and 30 51 493.",
+      "question_type": "factual",
+      "id": "51-214_body-equ-q08"
+    },
+    {
+      "question": "What page reference is given for troubleshooting central locks?",
+      "answer": "For troubleshooting central locks, see page 51-800.",
+      "question_type": "navigation",
+      "id": "51-214_body-equ-q09"
+    },
+    {
+      "question": "How do you install the drive for microswitch on the holder?",
+      "answer": "Place drive for microswitch on holder during installation.",
+      "question_type": "procedural",
+      "id": "51-214_body-equ-q11"
+    },
+    {
+      "question": "What diagnostic values are provided for checking the microswitch operation on both door lock cylinders?",
+      "answer": "Switch pressed = approx. 0 ohm, Switch opened = approx. \u221e ohms for both driver's and front passenger's door lock cylinders.",
+      "question_type": "diagnostic",
+      "id": "51-214_body-equ-q12"
+    }
+  ]
+}

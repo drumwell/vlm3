@@ -1,0 +1,91 @@
+{
+  "page_id": "12-133_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-133.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:30:54.399368",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 728
+  },
+  "qa_pairs": [
+    {
+      "question": "What BMW service test unit step should be carried out when checking ignition coil?",
+      "answer": "Carry out engine test step 09.",
+      "question_type": "procedural",
+      "id": "12-133_engine-e-q01"
+    },
+    {
+      "question": "What should you observe on the oscillograph when checking ignition coil?",
+      "answer": "Observe oscillograph - ignition voltage and ignition voltage deviation must agree with nominal values.",
+      "question_type": "inspection",
+      "id": "12-133_engine-e-q02"
+    },
+    {
+      "question": "What are the terminal numbers for the primary coil when using multimeter test M 06?",
+      "answer": "Measure resistance of primary coil terminal 1/15.",
+      "question_type": "factual",
+      "id": "12-133_engine-e-q03"
+    },
+    {
+      "question": "What are the terminal numbers for the secondary coil resistance measurement?",
+      "answer": "Measure secondary coil terminal 15/4.",
+      "question_type": "factual",
+      "id": "12-133_engine-e-q04"
+    },
+    {
+      "question": "What should you check for on hairline cracks inspection?",
+      "answer": "Check for hairline cracks and signs of burning.",
+      "question_type": "inspection",
+      "id": "12-133_engine-e-q05"
+    },
+    {
+      "question": "What should you do if the plug is pressed out during inspection?",
+      "answer": "Check plug for tight fit - if pressed out, replace ignition coil.",
+      "question_type": "procedural",
+      "id": "12-133_engine-e-q06"
+    },
+    {
+      "question": "What safety warning is given before working on the ignition system?",
+      "answer": "Always turn off ignition before working on the ignition system - dangerous high voltage!",
+      "question_type": "safety",
+      "id": "12-133_engine-e-q07"
+    },
+    {
+      "question": "Where can you find instructions for working on ignition system?",
+      "answer": "Refer to page 12-0 for instructions for working on ignition system.",
+      "question_type": "navigation",
+      "id": "12-133_engine-e-q08"
+    },
+    {
+      "question": "What are the first steps to remove the ignition coil?",
+      "answer": "Pull off protective cap and ignition lead (term. 4). Unscrew connections (term. 1 and 15).",
+      "question_type": "procedural",
+      "id": "12-133_engine-e-q09"
+    },
+    {
+      "question": "How do you complete the ignition coil removal?",
+      "answer": "Unscrew holder and take off ignition coil.",
+      "question_type": "procedural",
+      "id": "12-133_engine-e-q10"
+    },
+    {
+      "question": "What should you check when installing a new ignition coil?",
+      "answer": "Check new ignition coil for correct code number and color label.",
+      "question_type": "inspection",
+      "id": "12-133_engine-e-q11"
+    },
+    {
+      "question": "What callout numbers are visible in the ignition coil diagrams?",
+      "answer": "The diagrams show callout numbers 1, 4, 15, and S marking different terminals and connections on the ignition coil.",
+      "question_type": "visual",
+      "id": "12-133_engine-e-q12"
+    }
+  ]
+}

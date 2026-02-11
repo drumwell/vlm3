@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/5126A-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:00:34.744822",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1893,
+    "tokens_output": 642
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do if the trunk locks when you insert the key in the Trunk Cylinder Switch and turn it to LOCK?",
+      "answer": "None, proceed to Operation 9.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02-q01"
+    },
+    {
+      "question": "What voltage should be measured between terminals 3 and Ground at the Control Unit Connector?",
+      "answer": "Battery voltage.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02-q02"
+    },
+    {
+      "question": "What repair action should be taken if the Gas Filler does not unlock when turning the key to UNLOCK?",
+      "answer": "Repair/replace the Gas Filler Lock Motor circuit.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02-q03"
+    },
+    {
+      "question": "Between which terminals should you connect a fused jumper for Control Unit Lock Test Table 2?",
+      "answer": "Between terminals 7 and Ground.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02-q04"
+    },
+    {
+      "question": "What is the expected correct result when connecting a fused jumper between terminals 7 and Ground?",
+      "answer": "Doors lock.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02-q05"
+    },
+    {
+      "question": "What should you check if the trunk does not unlock during Operation 9?",
+      "answer": "If the doors unlock, repair/replace the Trunk Lock Motor circuit or Trunk Lock Motor. If the doors do not unlock, repair/replace the Trunk Switch. Repair/replace the Central Locking Control Unit if the Trunk Switch Circuit is OK.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02-q06"
+    },
+    {
+      "question": "What voltage measurement should be taken between terminals 3 and 4 at the Control Unit Connector?",
+      "answer": "Battery voltage.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02-q07"
+    },
+    {
+      "question": "What does it mean if all results are normal during the system check?",
+      "answer": "The system is OK.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02-q08"
+    },
+    {
+      "question": "What should you check for terminal 3 in the Control Unit Lock Test Table 1?",
+      "answer": "Check the wire to terminal 3 for an open.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02-q09"
+    },
+    {
+      "question": "What action should be taken if the result is correct in Control Unit Lock Test Table 2?",
+      "answer": "Repair/replace the switches and related wiring (see schematic). Proceed to Table 3.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-02-q10"
+    }
+  ]
+}

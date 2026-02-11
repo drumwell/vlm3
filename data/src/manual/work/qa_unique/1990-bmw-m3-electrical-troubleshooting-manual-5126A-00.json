@@ -1,0 +1,73 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/5126A-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:00:07.091237",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1893,
+    "tokens_output": 613
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you check first when troubleshooting the central locking system?",
+      "answer": "Check the fuse by operating the Interior Light Timer for either Dome Light.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-00-q01"
+    },
+    {
+      "question": "If all locks stay in UNLOCK INHIBIT, what should you check?",
+      "answer": "Check the wires to terminal 10 of the Central Locking Control Unit for a short to ground.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-00-q02"
+    },
+    {
+      "question": "What is the first operation in the System Check Table?",
+      "answer": "Insert the key in the Driver's door and turn to LOCK.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-00-q03"
+    },
+    {
+      "question": "What position should the key be turned to for Operation 2 in the System Check Table?",
+      "answer": "Turn the key to UNLOCK INHIBIT (clockwise until key is horizontal).",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-00-q04"
+    },
+    {
+      "question": "What should you do if no doors lock during Operation 1?",
+      "answer": "Proceed to Operation 4.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-00-q06"
+    },
+    {
+      "question": "What does it mean when all doors double lock and Safety Catch Buttons cannot be pulled up by hand?",
+      "answer": "This is the normal response for Operation 2, and you should proceed to Operation 3.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-00-q07"
+    },
+    {
+      "question": "What repair action is specified if the Driver's door does not double lock during Operation 2?",
+      "answer": "Mechanical problem, see BMW Workshop Manual.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-00-q08"
+    },
+    {
+      "question": "What important note is given before replacing any system component?",
+      "answer": "Before replacing any system component, check all connectors, splices, and wiring to that component.",
+      "question_type": "safety",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-00-q09"
+    },
+    {
+      "question": "What should you do after any repair to the central locking system?",
+      "answer": "Repeat System Check to verify proper system operation.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-00-q10"
+    }
+  ]
+}

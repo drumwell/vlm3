@@ -1,0 +1,79 @@
+{
+  "page_id": "13-901_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-901.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:54:40.144957",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 630
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first thing to check when there is no fuel pressure?",
+      "answer": "Check the electric fuel pump by turning the engine with the starter.",
+      "question_type": "procedural",
+      "id": "13-901_fuel-sys-q01"
+    },
+    {
+      "question": "If the fuel pump is not running, what should be checked next?",
+      "answer": "Check the fuse in the power distributor.",
+      "question_type": "diagnostic",
+      "id": "13-901_fuel-sys-q02"
+    },
+    {
+      "question": "What test code should be referenced if the fuel pump needs to be checked for wiring issues?",
+      "answer": "Check wires (M 06).",
+      "question_type": "diagnostic",
+      "id": "13-901_fuel-sys-q03"
+    },
+    {
+      "question": "If the fuel pump is running but there's still no pressure, what test should be performed?",
+      "answer": "Perform pressure test - see Group 13, Pos. 13 31 029.",
+      "question_type": "procedural",
+      "id": "13-901_fuel-sys-q04"
+    },
+    {
+      "question": "What voltage should be checked on the electric fuel pump connections?",
+      "answer": "Check voltage (approx. 12 V) on connections of electric fuel pump (M 01).",
+      "question_type": "diagnostic",
+      "id": "13-901_fuel-sys-q05"
+    },
+    {
+      "question": "Which terminals should be bridged with the Special Tool when pulling off the fuel pump relay?",
+      "answer": "Bridge terminals 87 and 30 with Special Tool B 13 3 060.",
+      "question_type": "procedural",
+      "id": "13-901_fuel-sys-q06"
+    },
+    {
+      "question": "If the electric fuel pump is defective, where can the replacement procedure be found?",
+      "answer": "See 13 31 030 in Group 13.",
+      "question_type": "navigation",
+      "id": "13-901_fuel-sys-q07"
+    },
+    {
+      "question": "What should be checked for the fuel pump power input?",
+      "answer": "Check power input of fuel pump (M 03).",
+      "question_type": "diagnostic",
+      "id": "13-901_fuel-sys-q08"
+    },
+    {
+      "question": "What control wire terminals should be checked when the fuel pump runs after bridging?",
+      "answer": "Check control wire (term. 85 - ground from control unit/term. 86 - approx. 12 V via relay 2 term. 87).",
+      "question_type": "diagnostic",
+      "id": "13-901_fuel-sys-q09"
+    },
+    {
+      "question": "What should be done after the fuel pump does not run following the relay test?",
+      "answer": "Replace relay, if necessary. Check wires for fuel pump.",
+      "question_type": "troubleshooting",
+      "id": "13-901_fuel-sys-q10"
+    }
+  ]
+}

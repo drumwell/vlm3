@@ -1,0 +1,64 @@
+{
+  "page_id": "00-torque-specs-12-08",
+  "image_path": "raw/00 - Torque Specs/12-08.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:48:01.217132",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 553
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is covered under section 12 32 Governor?",
+      "answer": "Regulator switch (1AZ)",
+      "question_type": "component",
+      "id": "00-torque-specs-12-08-q03"
+    },
+    {
+      "question": "How many different screw sizes are specified for the regulator switch?",
+      "answer": "Two different screw sizes: M4 and M5",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-08-q04"
+    },
+    {
+      "question": "What is the difference in torque between M4 and M5 screws for the regulator switch?",
+      "answer": "The M5 screws require 2 Nm more torque than M4 screws (4 Nm vs 2 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-08-q05"
+    },
+    {
+      "question": "Which vehicle types do these torque specifications apply to?",
+      "answer": "All vehicle types",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-08-q06"
+    },
+    {
+      "question": "What section of the manual covers Engine Electrical Equipment?",
+      "answer": "Section 12-8",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-08-q07"
+    },
+    {
+      "question": "What units are used for the torque specifications on this page?",
+      "answer": "Nm (Newton-meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-08-q09",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "Are there any special conditions or notes specified for the regulator switch torque values?",
+      "answer": "No, the specifications apply to all vehicle types without any special conditions noted",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-08-q10"
+    }
+  ]
+}

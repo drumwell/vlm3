@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-037",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/037.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:23:10.401343",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 609
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M8 screws on the full flow oil filter cover?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-037-q01"
+    },
+    {
+      "question": "What torque should be applied to M10 screws on the oil filter and pipes?",
+      "answer": "33 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-037-q02"
+    },
+    {
+      "question": "What is the torque specification for M12 screws in the oil filter system?",
+      "answer": "33 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-037-q03"
+    },
+    {
+      "question": "What torque value is specified for the screwed-on cover?",
+      "answer": "25 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-037-q04"
+    },
+    {
+      "question": "What is the torque specification for M8 screws on the oil filter housing and lines on crankcase?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-037-q05"
+    },
+    {
+      "question": "What torque should be applied to M20 x 1.5 fasteners in the oil filter system?",
+      "answer": "40 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-037-q06"
+    },
+    {
+      "question": "Do M10 and M12 screws in the oil filter system have the same torque specification?",
+      "answer": "Yes, both M10 and M12 screws require 33 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-037-q07"
+    },
+    {
+      "question": "What component uses the 1AZ designation in the oil filter system?",
+      "answer": "Oil filter (one-way cartridge) with tightening torque by hand in accordance with specification on spin-on oil filter.",
+      "question_type": "component",
+      "id": "00-torque-specs-037-q08"
+    },
+    {
+      "question": "Which has a higher torque specification: M8 screws or the screwed-on cover?",
+      "answer": "The screwed-on cover has a higher torque specification at 25 Nm compared to M8 screws at 22 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-037-q09"
+    }
+  ]
+}

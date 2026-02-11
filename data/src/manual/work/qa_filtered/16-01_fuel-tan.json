@@ -1,0 +1,67 @@
+{
+  "page_id": "16-01_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-01.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:57:46.997110",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1755,
+    "tokens_output": 513
+  },
+  "qa_pairs": [
+    {
+      "question": "What is component number 1 in the fuel supply system diagram?",
+      "answer": "Component number 1 is the fuel level sender for the right chamber.",
+      "question_type": "component",
+      "id": "16-01_fuel-tan-q01"
+    },
+    {
+      "question": "What does the vent pipe labeled as number 4 connect to?",
+      "answer": "The vent pipe (number 4) connects to the carbon canister in cars with catalytic converter.",
+      "question_type": "component",
+      "id": "16-01_fuel-tan-q02"
+    },
+    {
+      "question": "Where is the fuel pump located in this fuel supply system?",
+      "answer": "The fuel pump is component number 2, located inside the fuel tank assembly.",
+      "question_type": "component",
+      "id": "16-01_fuel-tan-q03"
+    },
+    {
+      "question": "What is the difference between components 1 and 7?",
+      "answer": "Component 1 is the fuel level sender for the right chamber, while component 7 is the fuel level sender for the left chamber.",
+      "question_type": "factual",
+      "id": "16-01_fuel-tan-q04"
+    },
+    {
+      "question": "Which component is the expansion tank in this diagram?",
+      "answer": "The expansion tank is component number 8.",
+      "question_type": "component",
+      "id": "16-01_fuel-tan-q05"
+    },
+    {
+      "question": "What is component number 9 and what restriction applies to it?",
+      "answer": "Component number 9 is the filler neck insert, which is only used in cars with catalytic converter.",
+      "question_type": "component",
+      "id": "16-01_fuel-tan-q06"
+    },
+    {
+      "question": "What components make up the main fuel tank assembly?",
+      "answer": "The main fuel tank assembly (component 3) includes the fuel pump (2), fuel level senders for both chambers (1 and 7), feed pipe (5), return pipe (6), and vent pipe (4).",
+      "question_type": "factual",
+      "id": "16-01_fuel-tan-q07"
+    },
+    {
+      "question": "What is the tank cap identified as in this fuel supply system?",
+      "answer": "The tank cap is component number 10.",
+      "question_type": "component",
+      "id": "16-01_fuel-tan-q08"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "51-470_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-470.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:29:21.852411",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 731
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for removing and installing or replacing the left or right front entrance cover strip?",
+      "answer": "The procedure code is 51 47 000.",
+      "question_type": "factual",
+      "id": "51-470_body-equ-q01"
+    },
+    {
+      "question": "What is the first step when removing the front entrance cover strip?",
+      "answer": "Pull cover strip out of first clip.",
+      "question_type": "procedural",
+      "id": "51-470_body-equ-q02"
+    },
+    {
+      "question": "What should you do if pulling off the cover strip is too difficult?",
+      "answer": "If pulling off is too difficult, pry off carefully with a screwdriver.",
+      "question_type": "procedural",
+      "id": "51-470_body-equ-q03"
+    },
+    {
+      "question": "How do you remove the cover strip after clearing the first clip?",
+      "answer": "Push cover strip forward as far as possible until rear clips are cleared, then pull off cover strip toward rear.",
+      "question_type": "procedural",
+      "id": "51-470_body-equ-q04"
+    },
+    {
+      "question": "What tool is recommended for removing stubborn clips?",
+      "answer": "Compress and lift out clips with a pliers.",
+      "question_type": "tool",
+      "id": "51-470_body-equ-q05"
+    },
+    {
+      "question": "How do you properly install the cover strip clips?",
+      "answer": "Slide clips on to cover strip, then align clips with holes in entrance rail and press on cover strip.",
+      "question_type": "procedural",
+      "id": "51-470_body-equ-q06"
+    },
+    {
+      "question": "What diagram number shows the initial removal of the cover strip from the first clip?",
+      "answer": "Diagram 30 51 047 shows pulling the cover strip out of the first clip.",
+      "question_type": "visual",
+      "id": "51-470_body-equ-q07"
+    },
+    {
+      "question": "What diagram illustrates the proper alignment of clips during installation?",
+      "answer": "Diagram 30 51 051 shows aligning clips with holes in entrance rail and pressing on cover strip.",
+      "question_type": "visual",
+      "id": "51-470_body-equ-q08"
+    },
+    {
+      "question": "In what direction should you push the cover strip after removing it from the first clip?",
+      "answer": "Push the cover strip forward as far as possible until the rear clips are cleared.",
+      "question_type": "procedural",
+      "id": "51-470_body-equ-q09"
+    },
+    {
+      "question": "What is shown in diagram 30 51 050?",
+      "answer": "Diagram 30 51 050 shows compressing and lifting out clips with pliers.",
+      "question_type": "visual",
+      "id": "51-470_body-equ-q10"
+    },
+    {
+      "question": "After pushing the cover strip forward, in which direction do you pull it off?",
+      "answer": "Pull off the cover strip toward the rear after the rear clips are cleared.",
+      "question_type": "procedural",
+      "id": "51-470_body-equ-q11"
+    },
+    {
+      "question": "What important note is given regarding the removal technique?",
+      "answer": "If pulling off is too difficult, pry off carefully with a screwdriver rather than forcing it.",
+      "question_type": "safety",
+      "id": "51-470_body-equ-q12"
+    }
+  ]
+}

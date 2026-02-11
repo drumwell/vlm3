@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-064",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/064.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:24:31.016252",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 628
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the temperature sensor to water flange (1AZ) with M21 type screw?",
+      "answer": "18 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-064-q01"
+    },
+    {
+      "question": "What torque should be applied to the M51 type screw for the temperature sensor to water flange?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-064-q02"
+    },
+    {
+      "question": "What is the torque specification for the temperature switch (2AZ) that operates at 5.5\u00b0C to 17\u00b0C?",
+      "answer": "18 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-064-q03"
+    },
+    {
+      "question": "What torque value is specified for the coolant temperature sensor (3AZ) with 2-pin plug-in connection on S38/S50 engines?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-064-q04"
+    },
+    {
+      "question": "For all other engine types, what is the torque specification for the coolant temperature sensor (3AZ)?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-064-q05"
+    },
+    {
+      "question": "What is the torque specification for the remote thermometer sensor (4AZ) with 2-pin plug-in connection?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-064-q06"
+    },
+    {
+      "question": "What torque should be applied to the remote thermometer sensor on coolant flange (5AZ) for S50 engines?",
+      "answer": "18 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-064-q07"
+    },
+    {
+      "question": "What is the torque specification for the air temperature sensor (6AZ) on S38/S50 engines?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-064-q08"
+    },
+    {
+      "question": "What torque value is specified for the oil temperature sensor (7AZ) on S38/S50 engines?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-064-q09"
+    },
+    {
+      "question": "What section of the manual does this torque specification table belong to?",
+      "answer": "12 - 14 Engine electrics, section 12 62 Coolant Temperature",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-064-q10"
+    }
+  ]
+}

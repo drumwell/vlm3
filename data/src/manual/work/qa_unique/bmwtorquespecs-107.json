@@ -1,0 +1,31 @@
+{
+  "page_id": "bmwtorquespecs-107",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/107.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:32:45.408838",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 536
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the BMW manual does this torque specification table cover?",
+      "answer": "24-5 Automatic Transmission",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-107-q02"
+    },
+    {
+      "question": "What type specification is listed for the slotted nut/output flange?",
+      "answer": "ASS 310Z/A 5 S 440 Z/ASS 560Z",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-107-q05"
+    }
+  ]
+}

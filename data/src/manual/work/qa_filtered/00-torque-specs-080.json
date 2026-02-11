@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-080",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/080.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:31:08.732502",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 586
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component has the lowest torque specification in this fuel system table?",
+      "answer": "The holder for filler connections on body (4AZ) has the lowest torque specification at 3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-080-q05"
+    },
+    {
+      "question": "Which components use the 316g/518g screw type?",
+      "answer": "The support frame on body (1AZ) and the gas density sensor on non-return cock of gas tank (2AZ)",
+      "question_type": "factual",
+      "id": "00-torque-specs-080-q08"
+    },
+    {
+      "question": "What is the highest torque specification shown in this fuel system attachment table?",
+      "answer": "45 Nm for the support frame on body (1AZ)",
+      "question_type": "factual",
+      "id": "00-torque-specs-080-q09"
+    }
+  ]
+}

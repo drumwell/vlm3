@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-042",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/042.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:24:08.274849",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 629
+  },
+  "qa_pairs": [
+    {
+      "question": "What size screws are used for the thermostat housing?",
+      "answer": "M6 screws are used for the thermostat housing.",
+      "question_type": "factual",
+      "id": "00-torque-specs-042-q02"
+    },
+    {
+      "question": "What section of the manual covers thermostat and connections specifications?",
+      "answer": "Section 11 53 covers thermostat and connections specifications.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-042-q06"
+    },
+    {
+      "question": "Do these torque specifications apply to all vehicle types?",
+      "answer": "Yes, both specifications show 'All' in the Type column, indicating they apply to all vehicle variants.",
+      "question_type": "factual",
+      "id": "00-torque-specs-042-q07"
+    },
+    {
+      "question": "What is the reference code for the thermostat housing specification?",
+      "answer": "The reference code for the thermostat housing specification is 1AZ.",
+      "question_type": "factual",
+      "id": "00-torque-specs-042-q08"
+    },
+    {
+      "question": "What is the reference code for the bleeder screw specification?",
+      "answer": "The reference code for the bleeder screw specification is 2AZ.",
+      "question_type": "factual",
+      "id": "00-torque-specs-042-q09"
+    }
+  ]
+}

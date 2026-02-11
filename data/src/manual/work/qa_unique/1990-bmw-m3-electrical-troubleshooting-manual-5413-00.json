@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-5413-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/5413-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:01:26.938894",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 535
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers the sunroof electrical system?",
+      "answer": "Section 5413-0 covers the sunroof electrical system.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5413-00-q01"
+    },
+    {
+      "question": "Which fuse number provides power to the sunroof system?",
+      "answer": "Fuse 17 (5 AMP) provides power to the sunroof system from the power distribution box.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5413-00-q02"
+    },
+    {
+      "question": "What wire color and gauge connects to the power windows from the accessory connector?",
+      "answer": "A 2.5 GN/BU (green/blue) wire connects to the power windows from the C302 accessory connector.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5413-00-q03"
+    },
+    {
+      "question": "What type of motor relay is used in the sunroof system?",
+      "answer": "An alternating latch type motor relay is used in the sunroof system.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5413-00-q04"
+    },
+    {
+      "question": "What are the two functions shown on the sunroof switch?",
+      "answer": "The sunroof switch shows CLOSE/RAISE and LOWER/OPEN functions.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5413-00-q05"
+    },
+    {
+      "question": "What wire gauge is used for the ground connections at terminals 8 and 5?",
+      "answer": "1.5 BR (brown) wire is used for the ground connections at terminals 8 and 5.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5413-00-q06"
+    },
+    {
+      "question": "What information is provided in the warning box at the top of the diagram?",
+      "answer": "The warning box states 'HOT IN RUN ONLY FROM UNLOADED RELAY K5'.",
+      "question_type": "safety",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5413-00-q07"
+    },
+    {
+      "question": "What are the two possible states shown for the sunroof motor?",
+      "answer": "The sunroof motor shows two states: LOCKED (OPEN OR RAISED) and IN TRAVEL.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5413-00-q08"
+    }
+  ]
+}

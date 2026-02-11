@@ -1,0 +1,91 @@
+{
+  "page_id": "65-151_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-151.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:01:31.544048",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 773
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the diameter of the hole that needs to be drilled for the automatic antenna installation?",
+      "answer": "A 22 mm (0.866\") diameter hole needs to be drilled.",
+      "question_type": "factual",
+      "id": "65-151_radio-an-q01"
+    },
+    {
+      "question": "What are the two distance measurements specified for marking the antenna hole location?",
+      "answer": "Distance 1 = 50 mm (2\") and Distance 2 = 26 mm (1\").",
+      "question_type": "factual",
+      "id": "65-151_radio-an-q02"
+    },
+    {
+      "question": "What should be done before starting the antenna installation procedure?",
+      "answer": "Disconnect the battery ground wire, remove the jack, and take off the side trim panel.",
+      "question_type": "procedural",
+      "id": "65-151_radio-an-q03"
+    },
+    {
+      "question": "Why should tape be used in the area of the hole during drilling?",
+      "answer": "To avoid damaging the paint finish with burrs from drilling and to provide a better method of marking the location of the hole.",
+      "question_type": "procedural",
+      "id": "65-151_radio-an-q04"
+    },
+    {
+      "question": "What precaution should be taken after making the hole?",
+      "answer": "Pull off tape carefully toward hole to avoid taking off paint on edge of hole.",
+      "question_type": "safety",
+      "id": "65-151_radio-an-q05"
+    },
+    {
+      "question": "What finishing steps are required after drilling the hole?",
+      "answer": "Deburr hole's edges and coat edges with zinc dust paint. Remove burrs on trunk floor plate to prevent rust danger.",
+      "question_type": "procedural",
+      "id": "65-151_radio-an-q06"
+    },
+    {
+      "question": "In the antenna installation diagram, what does component number 3 represent?",
+      "answer": "Component number 3 represents the Insulator.",
+      "question_type": "visual",
+      "id": "65-151_radio-an-q07"
+    },
+    {
+      "question": "What are all seven components shown in the antenna installation order diagram?",
+      "answer": "1 = Nut, 2 = Adapter, 3 = Insulator, 4 = Side panel rear right, 5 = Seal, 6 = Brass ring, 7 = Antenna.",
+      "question_type": "visual",
+      "id": "65-151_radio-an-q08"
+    },
+    {
+      "question": "What important note is given about tightening the nut during assembly?",
+      "answer": "Don't tighten nut (1) completely at this point.",
+      "question_type": "procedural",
+      "id": "65-151_radio-an-q09"
+    },
+    {
+      "question": "What tool is mentioned for tightening the nut?",
+      "answer": "A wrench is specified for tightening the nut.",
+      "question_type": "tool",
+      "id": "65-151_radio-an-q10"
+    },
+    {
+      "question": "What additional step must be performed when installing the holder?",
+      "answer": "Also mount ground wire of antenna when installing the holder.",
+      "question_type": "procedural",
+      "id": "65-151_radio-an-q11"
+    },
+    {
+      "question": "What is the BMW service manual section number for this automatic antenna installation procedure?",
+      "answer": "65 22 005 INSTALLING AUTOMATIC ANTENNA.",
+      "question_type": "navigation",
+      "id": "65-151_radio-an-q12"
+    }
+  ]
+}

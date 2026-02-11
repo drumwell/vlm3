@@ -1,0 +1,94 @@
+{
+  "section_id": "21",
+  "section_name": "Clutch",
+  "index_pages": [
+    "21-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "010",
+      "name": "Clutch slave cylinder - remove and install",
+      "pages": [
+        "21-5"
+      ]
+    },
+    {
+      "code": "21 00 006",
+      "name": "Clutch - bleed",
+      "pages": [
+        "21-1"
+      ]
+    },
+    {
+      "code": "21 11 000",
+      "name": "Clutch housing - remove and install",
+      "pages": [
+        "21-1"
+      ]
+    },
+    {
+      "code": "21 21 000",
+      "name": "Clutch disc - remove and install",
+      "pages": [
+        "21-2"
+      ]
+    },
+    {
+      "code": "21 51 000",
+      "name": "Clutch release - remove and install / replace",
+      "pages": [
+        "21-4"
+      ]
+    },
+    {
+      "code": "21 52 000",
+      "name": "Clutch master cylinder - remove and install",
+      "pages": [
+        "21-5"
+      ]
+    },
+    {
+      "code": "502",
+      "name": "Clutch master cylinder - overhaul",
+      "pages": [
+        "21-6"
+      ]
+    },
+    {
+      "code": "512",
+      "name": "Clutch slave cylinder - overhaul",
+      "pages": [
+        "21-6"
+      ]
+    },
+    {
+      "code": "565",
+      "name": "Drive plate - check for lateral runout",
+      "pages": [
+        "21-4"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "21-5": [
+      "010",
+      "21 52 000"
+    ],
+    "21-1": [
+      "21 00 006",
+      "21 11 000"
+    ],
+    "21-2": [
+      "21 21 000"
+    ],
+    "21-4": [
+      "21 51 000",
+      "565"
+    ],
+    "21-6": [
+      "502",
+      "512"
+    ]
+  },
+  "merge_warnings": []
+}

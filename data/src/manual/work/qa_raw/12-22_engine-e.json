@@ -1,0 +1,91 @@
+{
+  "page_id": "12-22_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-22.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:37:06.223615",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 819
+  },
+  "qa_pairs": [
+    {
+      "question": "What voltage should be checked on the TCI control unit terminal 1 during Test 3?",
+      "answer": "Check voltage greater than 10 V on TCI control unit terminal 1 (M 01).",
+      "question_type": "factual",
+      "id": "12-22_engine-e-q01"
+    },
+    {
+      "question": "What should you do if the ignition coil check in Test 3 is not okay?",
+      "answer": "Replace the ignition coil. If casting compound has run out or is missing, also replace the TCI control unit.",
+      "question_type": "procedural",
+      "id": "12-22_engine-e-q02"
+    },
+    {
+      "question": "Where can you find the procedure for checking ignition coil resistance?",
+      "answer": "See section 12 13 009 for checking the resistance of primary and secondary coils.",
+      "question_type": "navigation",
+      "id": "12-22_engine-e-q03"
+    },
+    {
+      "question": "What is the requirement before performing Test 4 on the TCI control unit?",
+      "answer": "Test 1 through 3 must be completed and show no malfunction.",
+      "question_type": "procedural",
+      "id": "12-22_engine-e-q04"
+    },
+    {
+      "question": "What engine RPM should be used when cranking the engine for the oscilloscope test?",
+      "answer": "Crank the engine with starter at approximately 250 rpm.",
+      "question_type": "factual",
+      "id": "12-22_engine-e-q05"
+    },
+    {
+      "question": "At what RPM should the engine be operated when checking primary current?",
+      "answer": "Operate the engine at 1000 \u00b150 rpm when checking primary current.",
+      "question_type": "factual",
+      "id": "12-22_engine-e-q06"
+    },
+    {
+      "question": "What is the acceptable value range for primary current measurement?",
+      "answer": "The value should be 1.2 to 1.7 A - if not within this range, replace the control unit.",
+      "question_type": "factual",
+      "id": "12-22_engine-e-q07"
+    },
+    {
+      "question": "Where should the ammeter be connected for the primary current check?",
+      "answer": "Connect the ammeter in the power supply lead (terminal 15/green, on plug for engine wire harness).",
+      "question_type": "procedural",
+      "id": "12-22_engine-e-q08"
+    },
+    {
+      "question": "What should you do if voltage is not okay when checking the wire from ignition coil terminal 1?",
+      "answer": "Check the wire from ignition coil terminal 1 to control unit for breaks and ground out (M 06).",
+      "question_type": "diagnostic",
+      "id": "12-22_engine-e-q09"
+    },
+    {
+      "question": "What oscilloscope pattern should be displayed during the primary current test?",
+      "answer": "The primary display on oscilloscope should conform with the pattern illustrated - if necessary, replace the control unit.",
+      "question_type": "visual",
+      "id": "12-22_engine-e-q10"
+    },
+    {
+      "question": "When is it necessary to check the primary current according to the manual?",
+      "answer": "Check primary current (M 03) only when the primary oscillograph deviates from the expected pattern.",
+      "question_type": "procedural",
+      "id": "12-22_engine-e-q11"
+    },
+    {
+      "question": "What additional test reference is mentioned for ignition voltage checking?",
+      "answer": "In engine test (P 09) check ignition voltage, which is also contained in engine test (P 01).",
+      "question_type": "navigation",
+      "id": "12-22_engine-e-q12"
+    }
+  ]
+}

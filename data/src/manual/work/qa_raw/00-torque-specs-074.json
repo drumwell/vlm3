@@ -1,0 +1,89 @@
+{
+  "page_id": "00-torque-specs-074",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/074.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:30:07.056938",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 643
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the temperature time switch (1AZ)?",
+      "answer": "18 Nm for M21/M51 engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-074-q01"
+    },
+    {
+      "question": "What torque value should be used for the coolant temperature sensor (2AZ) on M60/1/M60/2/M21/M51 engines?",
+      "answer": "18 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-074-q02"
+    },
+    {
+      "question": "How much torque is required for the coolant temperature sensor on all other engine types?",
+      "answer": "13 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-074-q03"
+    },
+    {
+      "question": "What is the torque specification for the temperature switch (3AZ)?",
+      "answer": "28 Nm for all applications.",
+      "question_type": "factual",
+      "id": "00-torque-specs-074-q04"
+    },
+    {
+      "question": "What torque should be applied to the temperature sensor - air (4AZ)?",
+      "answer": "13 Nm for all applications.",
+      "question_type": "factual",
+      "id": "00-torque-specs-074-q05"
+    },
+    {
+      "question": "What is the torque specification for the charge pressure sensor on holder (5AZ)?",
+      "answer": "4 Nm for M51/M41 engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-074-q06"
+    },
+    {
+      "question": "Which sensor requires the lowest torque specification on this page?",
+      "answer": "The air-mass sensor on lower section of air filter housing (7AZ) requires 3.5 Nm.",
+      "question_type": "comparison",
+      "id": "00-torque-specs-074-q07",
+      "_warnings": [
+        "Self-referential question: 'on this page'",
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What torque is specified for the twin temperature sensor with 4-pin plug-in connection (6AZ)?",
+      "answer": "13 Nm for M41/M43/M44/S50/S52/M52/M62/M73 engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-074-q08"
+    },
+    {
+      "question": "Which sensor has the highest torque requirement according to this table?",
+      "answer": "The temperature switch (3AZ) has the highest torque requirement at 28 Nm.",
+      "question_type": "comparison",
+      "id": "00-torque-specs-074-q09",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What engine types use the twin temperature sensor (6AZ)?",
+      "answer": "M41, M43, M44, S50, S52, M52, M62, and M73 engines.",
+      "question_type": "application",
+      "id": "00-torque-specs-074-q10",
+      "_warnings": [
+        "Invalid question_type: application"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "21-02_clutch",
+  "image_path": "raw/21 - Clutch/21-02.jpg",
+  "section_id": "21",
+  "section_name": "Clutch",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:20:08.193431",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 808
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to hold the flywheel for Engine M20?",
+      "answer": "Special Tool 11 2 170 is needed to hold the flywheel for Engine M20.",
+      "question_type": "tool",
+      "id": "21-02_clutch-q01"
+    },
+    {
+      "question": "What gap measurement indicates the drive plate must be replaced?",
+      "answer": "The drive plate is worn and must be replaced when there is a gap of 5 mm (0.197 inches) between Special Tool 21 2 060 and slave cylinder.",
+      "question_type": "inspection",
+      "id": "21-02_clutch-q02"
+    },
+    {
+      "question": "What should be checked on clutch liners before removing them?",
+      "answer": "Check clutch for wear before removing. Clutch liners are okay if Special Tool 21 2 060 can be pushed into opening of slave cylinder against stop.",
+      "question_type": "procedural",
+      "id": "21-02_clutch-q03"
+    },
+    {
+      "question": "How should the mounting bolts be loosened when removing the clutch?",
+      "answer": "Loosen mounting bolts separately 1 to 1 1/2 turns until clutch is relaxed.",
+      "question_type": "procedural",
+      "id": "21-02_clutch-q04"
+    },
+    {
+      "question": "What special tool is used to hold the flywheel for Engine M10?",
+      "answer": "Special Tool 11 2 160 is used to hold the flywheel for Engine M10.",
+      "question_type": "tool",
+      "id": "21-02_clutch-q05"
+    },
+    {
+      "question": "What safety precaution is mentioned regarding clutch components?",
+      "answer": "Liners contain asbestos - conform with safety precautions (also refer to general information in Group 0).",
+      "question_type": "safety",
+      "id": "21-02_clutch-q06"
+    },
+    {
+      "question": "What should you check on the drive plate during inspection?",
+      "answer": "Check drive plate for wear, cracks and torsion damper for tight fit of spring elements. Also check transmission end mark on drive plate.",
+      "question_type": "inspection",
+      "id": "21-02_clutch-q07"
+    },
+    {
+      "question": "What important warning is given about handling the clutch disc?",
+      "answer": "Don't throw or drop clutch disc - improper handling could bend off tangential leaf springs which hold clutch disc in turning direction.",
+      "question_type": "safety",
+      "id": "21-02_clutch-q08"
+    },
+    {
+      "question": "What section should be referenced for removing the transmission?",
+      "answer": "Remove transmission - see 23 00 022.",
+      "question_type": "navigation",
+      "id": "21-02_clutch-q09"
+    },
+    {
+      "question": "What should be done to the grooved ball bearing in crankshaft during installation?",
+      "answer": "Check grooved ball bearing in crankshaft for easy movement, replacing if necessary.",
+      "question_type": "procedural",
+      "id": "21-02_clutch-q10"
+    },
+    {
+      "question": "What tool is used to center the drive plate in flywheel during installation?",
+      "answer": "Center drive plate in flywheel with Special Tool 21 2 100.",
+      "question_type": "tool",
+      "id": "21-02_clutch-q11"
+    },
+    {
+      "question": "What should be checked at the tips of diaphragm springs?",
+      "answer": "Check deviation at tips of diaphragm springs.",
+      "question_type": "inspection",
+      "id": "21-02_clutch-q12"
+    }
+  ]
+}

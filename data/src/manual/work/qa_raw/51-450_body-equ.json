@@ -1,0 +1,91 @@
+{
+  "page_id": "51-450_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-450.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:27:19.184701",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 681
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing and installing the instrument panel trim?",
+      "answer": "Disconnect the battery ground lead.",
+      "question_type": "procedural",
+      "id": "51-450_body-equ-q01"
+    },
+    {
+      "question": "What reference should you see for removing the steering wheel?",
+      "answer": "See section 32 33 000 for steering wheel removal.",
+      "question_type": "navigation",
+      "id": "51-450_body-equ-q02"
+    },
+    {
+      "question": "How do you disconnect the console at the front?",
+      "answer": "Disconnect console at front by pulling back and pull off on parking brake lever.",
+      "question_type": "procedural",
+      "id": "51-450_body-equ-q03"
+    },
+    {
+      "question": "What must you do with the steering column casing lower section?",
+      "answer": "Detach steering column casing lower section.",
+      "question_type": "procedural",
+      "id": "51-450_body-equ-q04"
+    },
+    {
+      "question": "What specific instruction is given for manual transmission shift lever removal?",
+      "answer": "Pull off shift lever knob, and the shift lever knob must engage in twist lock during installation.",
+      "question_type": "procedural",
+      "id": "51-450_body-equ-q05"
+    },
+    {
+      "question": "How do you remove the ashtray?",
+      "answer": "Lift out ashtray and unscrew nut.",
+      "question_type": "procedural",
+      "id": "51-450_body-equ-q06"
+    },
+    {
+      "question": "What component needs to be lifted off according to the lower right image?",
+      "answer": "Lift off dust cover.",
+      "question_type": "procedural",
+      "id": "51-450_body-equ-q07"
+    },
+    {
+      "question": "What is the BMW part number reference for removing and installing instrument panel trim?",
+      "answer": "51 45 030",
+      "question_type": "factual",
+      "id": "51-450_body-equ-q08"
+    },
+    {
+      "question": "What are the arrows pointing to in the top left image?",
+      "answer": "The arrows are pointing to screws that need to be unscrewed as part of the trim removal process.",
+      "question_type": "visual",
+      "id": "51-450_body-equ-q09"
+    },
+    {
+      "question": "What happens during installation of the shift lever knob on manual transmissions?",
+      "answer": "During installation, the shift lever knob must engage in twist lock.",
+      "question_type": "procedural",
+      "id": "51-450_body-equ-q10"
+    },
+    {
+      "question": "Which image shows the steering column casing work being performed?",
+      "answer": "The middle left image (30 32 021) shows the detachment of the steering column casing lower section.",
+      "question_type": "visual",
+      "id": "51-450_body-equ-q11"
+    },
+    {
+      "question": "What is shown in the image labeled 30 25 013?",
+      "answer": "Image 30 25 013 shows lifting off the dust cover.",
+      "question_type": "visual",
+      "id": "51-450_body-equ-q12"
+    }
+  ]
+}

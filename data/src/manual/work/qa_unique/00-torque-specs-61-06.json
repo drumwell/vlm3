@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-61-06",
+  "image_path": "raw/00 - Torque Specs/61-06.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:05:28.530619",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 672
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the wiper shaft to tailgate window connection?",
+      "answer": "5 Nm for E34 touring models.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-06-q01"
+    },
+    {
+      "question": "What torque value is specified for the wiper console to tailgate rubber mount?",
+      "answer": "5 Nm for E34 touring models.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-06-q02"
+    },
+    {
+      "question": "What is the screw type and torque for the wiper motor to console connection?",
+      "answer": "E34 touring type, 13 Nm torque specification.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-06-q03"
+    },
+    {
+      "question": "What torque specification is given for the motor crank to wiper motor connection?",
+      "answer": "13 Nm for E34 touring models.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-06-q04"
+    },
+    {
+      "question": "What is the torque value for the wiper arm to wiper shaft connection?",
+      "answer": "13 Nm for E34/E36 Touring and E36 comp/touring models.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-06-q05"
+    },
+    {
+      "question": "What torque specification is required for the spray nozzle to tailgate connection?",
+      "answer": "10 Nm for E34 touring models.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-06-q06"
+    },
+    {
+      "question": "Which component uses an M6 screw type according to the table?",
+      "answer": "The E36 comp/touring model uses an M6 screw with 10 Nm torque specification.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-06-q07"
+    },
+    {
+      "question": "What section of the manual does this tailgate window wiper information belong to?",
+      "answer": "Section 61-6 General Electrical system, specifically section 61 62 Tailgate Window Wiper.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-61-06-q08"
+    },
+    {
+      "question": "How many different torque values are specified for the tailgate window wiper components?",
+      "answer": "Four different torque values are specified: 5 Nm, 10 Nm, 13 Nm, and another 10 Nm entry.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-06-q09"
+    },
+    {
+      "question": "Which BMW model variants are covered in this tailgate window wiper specification table?",
+      "answer": "E34 touring, E36 comp/touring, E34/E36 Touring, and E36 comp/touring model variants are covered.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-06-q10"
+    }
+  ]
+}

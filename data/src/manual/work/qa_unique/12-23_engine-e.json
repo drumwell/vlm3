@@ -1,0 +1,79 @@
+{
+  "page_id": "12-23_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-23.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:37:20.413076",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 626
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check when inspecting ignition leads in Test 5?",
+      "answer": "Bend ignition leads in a tight radius and check for cracks and traces of burning. Also check connection and tightness of plugs and connections.",
+      "question_type": "inspection",
+      "id": "12-23_engine-e-q01"
+    },
+    {
+      "question": "What do I do if I find cracks or burning traces on the ignition leads?",
+      "answer": "Replace ignition leads and connections - see 12 12 072.",
+      "question_type": "procedural",
+      "id": "12-23_engine-e-q02"
+    },
+    {
+      "question": "What components should be inspected in the distributor cap and rotor test?",
+      "answer": "Check distributor cap and distributor rotor for cracks and traces of burning. Measure resistance in distributor rotor.",
+      "question_type": "inspection",
+      "id": "12-23_engine-e-q03"
+    },
+    {
+      "question": "What's the corrective action if the distributor cap or rotor fails inspection?",
+      "answer": "Replace distributor cap and/or rotor.",
+      "question_type": "procedural",
+      "id": "12-23_engine-e-q04"
+    },
+    {
+      "question": "What resistance measurements are required in Test 6?",
+      "answer": "Measure resistance of shields and spark plug connectors.",
+      "question_type": "diagnostic",
+      "id": "12-23_engine-e-q05"
+    },
+    {
+      "question": "What visual inspection should be performed on spark plugs?",
+      "answer": "Check spark plugs for electrode erosion and electrode gap. Check insulator for traces of burning.",
+      "question_type": "inspection",
+      "id": "12-23_engine-e-q06"
+    },
+    {
+      "question": "What's the procedure if spark plug resistance measurements are not okay?",
+      "answer": "Replace shielded and/or spark plug connectors - see 12 12 072.",
+      "question_type": "procedural",
+      "id": "12-23_engine-e-q07"
+    },
+    {
+      "question": "What's important when replacing spark plugs according to this test?",
+      "answer": "Replace spark plugs - only install specified types.",
+      "question_type": "procedural",
+      "id": "12-23_engine-e-q08"
+    },
+    {
+      "question": "Where can I find specifications for the components mentioned in these tests?",
+      "answer": "See specifications (noted with asterisk at bottom of page).",
+      "question_type": "navigation",
+      "id": "12-23_engine-e-q09"
+    },
+    {
+      "question": "What reference section is mentioned for ignition leads and spark plug connector replacement?",
+      "answer": "Section 12 12 072 is referenced for both ignition leads/connections replacement and shielded/spark plug connector replacement.",
+      "question_type": "navigation",
+      "id": "12-23_engine-e-q10"
+    }
+  ]
+}

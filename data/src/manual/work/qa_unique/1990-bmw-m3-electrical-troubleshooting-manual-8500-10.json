@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-10",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8500-10.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:18:10.626956",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 713
+  },
+  "qa_pairs": [
+    {
+      "question": "What connector designation is shown for the 3-pin connector in the upper left?",
+      "answer": "The 3-pin connector is designated as C152, C153, C154.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-10-q01"
+    },
+    {
+      "question": "What is the pin numbering sequence for connector C204?",
+      "answer": "Connector C204 has pins numbered 7, 8, 9, 10, 11, 12 on the top row and 1, 2, 3, 4, 5, 6 on the bottom row.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-10-q03"
+    },
+    {
+      "question": "Which connector shows a circular 7-pin configuration?",
+      "answer": "Connector C191 shows a circular 7-pin configuration with pins numbered 1 through 7.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-10-q04"
+    },
+    {
+      "question": "What is the pin arrangement for connector C209?",
+      "answer": "Connector C209 has a circular arrangement with pins numbered 1, 2, 3, 4, 5, 6 around the perimeter.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-10-q05"
+    },
+    {
+      "question": "How many pins are shown in connector C202?",
+      "answer": "Connector C202 has 14 pins total, arranged in two rows with pins 7-13 on top and pins 6-1 on bottom.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-10-q06"
+    },
+    {
+      "question": "What connector designation corresponds to the 8-pin rectangular connector?",
+      "answer": "The 8-pin rectangular connector is designated as C200, with pins numbered 1, 3, 5, 7 on top and 2, 4, 6, 8 on bottom.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-10-q07"
+    },
+    {
+      "question": "Which connector is identified as C203?",
+      "answer": "C203 is a 6-pin connector with pins numbered 1, 2, 3, 4, 5, 6 in a rectangular arrangement.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-10-q08"
+    },
+    {
+      "question": "What is the configuration of connector C210?",
+      "answer": "Connector C210 is a 7-pin connector arranged in a single row configuration.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-10-q09"
+    }
+  ]
+}

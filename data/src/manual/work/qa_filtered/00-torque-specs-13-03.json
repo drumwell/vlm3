@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-13-03",
+  "image_path": "raw/00 - Torque Specs/13-03.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:52:14.436714",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 663
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the coupling nut on the fuel line to filter housing and injection pump?",
+      "answer": "14 Nm with an M14 x 1.5 thread.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-03-q01"
+    },
+    {
+      "question": "What torque should be applied to the adapter in the fuel filter system?",
+      "answer": "9 Nm with an M12 x 1.5 thread.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-03-q02"
+    },
+    {
+      "question": "What is the torque specification for the hollow bolt in the fuel filter assembly?",
+      "answer": "14 Nm with an M14 x 1.5 thread.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-03-q03"
+    },
+    {
+      "question": "How much torque is required for the fuel filter to holder connection?",
+      "answer": "22 Nm with an M8 thread.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-03-q04"
+    },
+    {
+      "question": "Which components in the fuel filter system use M21/M51/M41 thread types?",
+      "answer": "The coupling nut, adapter, and hollow bolt for the fuel line to filter housing and injection pump all use M21/M51/M41 thread types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-03-q05"
+    },
+    {
+      "question": "What thread specification is used for the fuel filter to holder connection?",
+      "answer": "M51/M41 thread type with M8 screw specification.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-03-q06"
+    },
+    {
+      "question": "Which fuel filter component requires the lowest torque specification?",
+      "answer": "The adapter requires the lowest torque at 9 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-03-q07"
+    },
+    {
+      "question": "What are the two different M14 x 1.5 torque specifications in the fuel filter system?",
+      "answer": "Both the coupling nut and hollow bolt use M14 x 1.5 threads and require 14 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-03-q09"
+    },
+    {
+      "question": "What section and subsection number covers the fuel filter specifications?",
+      "answer": "Section 13-3 (Fuel delivery and metering system), subsection 13.32 (Fuel filter).",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-03-q10"
+    }
+  ]
+}

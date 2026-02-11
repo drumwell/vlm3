@@ -1,0 +1,257 @@
+{
+  "page_id": "html-320is-techspec",
+  "image_path": null,
+  "section_id": "techspec",
+  "section_name": "Technical Specifications",
+  "source_type": "html_specs",
+  "content_type": "specification",
+  "generation": {
+    "method": "html_parse",
+    "timestamp": "2026-02-10T10:47:12.105310",
+    "source_file": "320is-techspec.html",
+    "model_detected": "320is",
+    "specs_parsed": 16
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the coupe 2-door(ak95) for the BMW E30 320is?",
+      "answer": "Sedan 4-door(AC95) ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q01"
+    },
+    {
+      "question": "What is the coupe 2-door(ak95)?",
+      "answer": "The coupe 2-door(ak95) for the BMW E30 320is is Sedan 4-door(AC95) .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q02"
+    },
+    {
+      "question": "What is the model code: coupe 2-door(ak95) specification?",
+      "answer": "Sedan 4-door(AC95) ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q03"
+    },
+    {
+      "question": "What is the 03/88 - 11/90 for the BMW E30 320is?",
+      "answer": "09/87 - 07/90 ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q04"
+    },
+    {
+      "question": "What is the 03/88 - 11/90?",
+      "answer": "The 03/88 - 11/90 for the BMW E30 320is is 09/87 - 07/90 .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q05"
+    },
+    {
+      "question": "What is the production dates: 03/88 - 11/90 specification?",
+      "answer": "09/87 - 07/90 ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q06"
+    },
+    {
+      "question": "What is the 2540 for the BMW E30 320is?",
+      "answer": "1206 ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q07"
+    },
+    {
+      "question": "What is the 2540?",
+      "answer": "The 2540 for the BMW E30 320is is 1206 .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q08"
+    },
+    {
+      "question": "What is the # cars produced: 2540 specification?",
+      "answer": "1206 ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q09"
+    },
+    {
+      "question": "What is the 1200 kg for the BMW E30 320is?",
+      "answer": "1190 kg ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q10"
+    },
+    {
+      "question": "What is the 1200 kg?",
+      "answer": "The 1200 kg for the BMW E30 320is is 1190 kg .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q11"
+    },
+    {
+      "question": "What is the weight: 1200 kg specification?",
+      "answer": "1190 kg ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q12"
+    },
+    {
+      "question": "What is the 1660 kg for the BMW E30 320is?",
+      "answer": "1650 kg ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q13"
+    },
+    {
+      "question": "What is the 1660 kg?",
+      "answer": "The 1660 kg for the BMW E30 320is is 1650 kg .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q14"
+    },
+    {
+      "question": "What is the permissible total weight: 1660 kg specification?",
+      "answer": "1650 kg ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q15"
+    },
+    {
+      "question": "What is the 0.34 for the BMW E30 320is?",
+      "answer": "0.37 ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q16"
+    },
+    {
+      "question": "What is the 0.34?",
+      "answer": "The 0.34 for the BMW E30 320is is 0.37 .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q17"
+    },
+    {
+      "question": "What is the cw (coeff) / cx (drag area)aerodynamics: 0.34 specification?",
+      "answer": "0.37 ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q18"
+    },
+    {
+      "question": "What is the 231 km/h for the BMW E30 320is?",
+      "answer": "227 km/h ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q19"
+    },
+    {
+      "question": "What is the 231 km/h?",
+      "answer": "The 231 km/h for the BMW E30 320is is 227 km/h .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q20"
+    },
+    {
+      "question": "What is the maximum speed: 231 km/h specification?",
+      "answer": "227 km/h ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q21"
+    },
+    {
+      "question": "What is the dogleg 5-speed for the BMW E30 320is?",
+      "answer": "Dogleg 5-speed ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q22"
+    },
+    {
+      "question": "What is the dogleg 5-speed?",
+      "answer": "The dogleg 5-speed for the BMW E30 320is is Dogleg 5-speed .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q23"
+    },
+    {
+      "question": "What is the 25% limited slip diff for the BMW E30 320is?",
+      "answer": "25% Limited Slip Diff ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q24"
+    },
+    {
+      "question": "What is the 25% limited slip diff?",
+      "answer": "The 25% limited slip diff for the BMW E30 320is is 25% Limited Slip Diff .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q25"
+    },
+    {
+      "question": "What is the 6.5\u00d714 cross spoke alloys for the BMW E30 320is?",
+      "answer": "6.5\u00d714 bottlecap alloys ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q26"
+    },
+    {
+      "question": "What is the 6.5\u00d714 cross spoke alloys?",
+      "answer": "The 6.5\u00d714 cross spoke alloys for the BMW E30 320is is 6.5\u00d714 bottlecap alloys .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q27"
+    },
+    {
+      "question": "What is the oil temp indicator for the BMW E30 320is?",
+      "answer": "Oil temp indicator ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q28"
+    },
+    {
+      "question": "What is the oil temp indicator?",
+      "answer": "The oil temp indicator for the BMW E30 320is is Oil temp indicator .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q29"
+    },
+    {
+      "question": "What is the pas for the BMW E30 320is?",
+      "answer": "PAS ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q30"
+    },
+    {
+      "question": "What is the pas?",
+      "answer": "The pas for the BMW E30 320is is PAS .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q31"
+    },
+    {
+      "question": "What is the central locking for the BMW E30 320is?",
+      "answer": "Central locking ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q32"
+    },
+    {
+      "question": "What is the central locking?",
+      "answer": "The central locking for the BMW E30 320is is Central locking .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q33"
+    },
+    {
+      "question": "What is the m-tech bodykit for the BMW E30 320is?",
+      "answer": "Rear spoiler ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q34"
+    },
+    {
+      "question": "What is the m-tech bodykit?",
+      "answer": "The m-tech bodykit for the BMW E30 320is is Rear spoiler .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q35"
+    },
+    {
+      "question": "What is the abs for the BMW E30 320is?",
+      "answer": "ABS ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q36"
+    },
+    {
+      "question": "What is the abs?",
+      "answer": "The abs for the BMW E30 320is is ABS .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q37"
+    },
+    {
+      "question": "What is the 4.10 litres for the BMW E30 320is?",
+      "answer": " Oil filter, individual capacity: 0.30 litres  Oil cooler, individual capacity: 0.55 litres  Operating oil temp: 80-120 \u00b0C  Oil temp to not exceed: 130 \u00b0C  Gearbox oil: SAE 8075W80GL-4  Gearbox oil quantity: 1.25 litres  Gearbox oil brands:[from forums, 2024] BMW MTF-LT2 (supercedes MTF1): 75W80, GL-4 syntheticRedline MTL: 75W80, GL-4 syntheticSwepco 201: 80W90, GL-5 dinoLiquid Moly TopTec MTF5200: 75W80, GL-4 syntheticFuchs Titan Sintofluid: 75W80, GL-4 syntheticCastrol Syntrans V FE: 75W80, GL-4 syntheticRavenol MTF-2: 75W80W, GL-4 syntheticMotul MotylGear: 75W80, GL-4 & GL-5 synthetic  Differential oil (25% limited slip): SAE 90 Transmission  Differential oil quantity: 1.70 litres  Power steering fluid: Dexron III  Power steering fluid quantity: 1.2 litres  Coolant quantity: 9.0 litres (9.5 litres with A/C)  A/C charge (R12): 875 gr. +/- 25 gr. (1.93 +/- 0.05 lbs)  Brake / Clutch fluid: ATE / Castrol / DOT 4 ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q38"
+    },
+    {
+      "question": "What is the 4.10 litres?",
+      "answer": "The 4.10 litres for the BMW E30 320is is  Oil filter, individual capacity: 0.30 litres  Oil cooler, individual capacity: 0.55 litres  Operating oil temp: 80-120 \u00b0C  Oil temp to not exceed: 130 \u00b0C  Gearbox oil: SAE 8075W80GL-4  Gearbox oil quantity: 1.25 litres  Gearbox oil brands:[from forums, 2024] BMW MTF-LT2 (supercedes MTF1): 75W80, GL-4 syntheticRedline MTL: 75W80, GL-4 syntheticSwepco 201: 80W90, GL-5 dinoLiquid Moly TopTec MTF5200: 75W80, GL-4 syntheticFuchs Titan Sintofluid: 75W80, GL-4 syntheticCastrol Syntrans V FE: 75W80, GL-4 syntheticRavenol MTF-2: 75W80W, GL-4 syntheticMotul MotylGear: 75W80, GL-4 & GL-5 synthetic  Differential oil (25% limited slip): SAE 90 Transmission  Differential oil quantity: 1.70 litres  Power steering fluid: Dexron III  Power steering fluid quantity: 1.2 litres  Coolant quantity: 9.0 litres (9.5 litres with A/C)  A/C charge (R12): 875 gr. +/- 25 gr. (1.93 +/- 0.05 lbs)  Brake / Clutch fluid: ATE / Castrol / DOT 4 .",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q39"
+    },
+    {
+      "question": "What is the oil quantity (no oil filter change): 4.10 litres specification?",
+      "answer": " Oil filter, individual capacity: 0.30 litres  Oil cooler, individual capacity: 0.55 litres  Operating oil temp: 80-120 \u00b0C  Oil temp to not exceed: 130 \u00b0C  Gearbox oil: SAE 8075W80GL-4  Gearbox oil quantity: 1.25 litres  Gearbox oil brands:[from forums, 2024] BMW MTF-LT2 (supercedes MTF1): 75W80, GL-4 syntheticRedline MTL: 75W80, GL-4 syntheticSwepco 201: 80W90, GL-5 dinoLiquid Moly TopTec MTF5200: 75W80, GL-4 syntheticFuchs Titan Sintofluid: 75W80, GL-4 syntheticCastrol Syntrans V FE: 75W80, GL-4 syntheticRavenol MTF-2: 75W80W, GL-4 syntheticMotul MotylGear: 75W80, GL-4 & GL-5 synthetic  Differential oil (25% limited slip): SAE 90 Transmission  Differential oil quantity: 1.70 litres  Power steering fluid: Dexron III  Power steering fluid quantity: 1.2 litres  Coolant quantity: 9.0 litres (9.5 litres with A/C)  A/C charge (R12): 875 gr. +/- 25 gr. (1.93 +/- 0.05 lbs)  Brake / Clutch fluid: ATE / Castrol / DOT 4 ",
+      "question_type": "factual",
+      "id": "html-320is-techspec-q40"
+    }
+  ]
+}

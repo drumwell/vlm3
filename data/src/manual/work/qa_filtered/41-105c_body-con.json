@@ -1,0 +1,91 @@
+{
+  "page_id": "41-105c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-105c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:40:21.858079",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 789
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the distance A specification for drilling plug spot welding holes on reinforcement strips?",
+      "answer": "Distance A = 30 mm (1.181\"). Four holes each at top, six holes each at bottom.",
+      "question_type": "factual",
+      "id": "41-105c_body-con-q01"
+    },
+    {
+      "question": "What dimension should the reinforcement strips be prepared to?",
+      "answer": "A = 60 mm (2.362\")",
+      "question_type": "factual",
+      "id": "41-105c_body-con-q02"
+    },
+    {
+      "question": "Why are the sheet metal panels too thick for perfect resistance spot welding?",
+      "answer": "The sheet metal panels are too thick for perfect resistance spot welding with workshop equipment, so plug spot welding is required in all mating surfaces required for spot welding.",
+      "question_type": "factual",
+      "id": "41-105c_body-con-q03"
+    },
+    {
+      "question": "What should be done to prepare the mating surfaces before welding?",
+      "answer": "Grind mating surfaces and deburr holes. Take spacing between holes from the removed part.",
+      "question_type": "procedural",
+      "id": "41-105c_body-con-q04"
+    },
+    {
+      "question": "How should the reinforcement strips be installed?",
+      "answer": "Slide in reinforcement strips half way, align and plug spot weld.",
+      "question_type": "procedural",
+      "id": "41-105c_body-con-q05"
+    },
+    {
+      "question": "What are the final steps after installing the reinforcement strips?",
+      "answer": "Clamp down and tack weld cover.",
+      "question_type": "procedural",
+      "id": "41-105c_body-con-q06"
+    },
+    {
+      "question": "What should be done with the section panel after lifting it off?",
+      "answer": "Lift off section panel, grind mating surfaces, and deburr holes.",
+      "question_type": "procedural",
+      "id": "41-105c_body-con-q07"
+    },
+    {
+      "question": "What drilling pattern is required for the reinforcement strip holes?",
+      "answer": "Four holes each at top and six holes each at bottom, with distance A = 30 mm (1.181\") spacing.",
+      "question_type": "factual",
+      "id": "41-105c_body-con-q08"
+    },
+    {
+      "question": "What does part number 30 41 700 show in the diagram?",
+      "answer": "Part number 30 41 700 shows the cover piece that needs to have a cutting line marked and cut off.",
+      "question_type": "visual",
+      "id": "41-105c_body-con-q09"
+    },
+    {
+      "question": "What does part number 30 41 704 indicate?",
+      "answer": "Part number 30 41 704 indicates the cover piece being fitted, with cutting to size if necessary.",
+      "question_type": "visual",
+      "id": "41-105c_body-con-q10"
+    },
+    {
+      "question": "What preparation is needed for the cut off cover pieces?",
+      "answer": "Prepare strips from the cut off cover for reinforcements, with dimension A = 60 mm (2.362\").",
+      "question_type": "procedural",
+      "id": "41-105c_body-con-q11"
+    },
+    {
+      "question": "What type of welding method is recommended due to the sheet metal thickness?",
+      "answer": "Plug spot welding is recommended because the sheet metal panels are too thick for perfect resistance spot welding with workshop equipment.",
+      "question_type": "factual",
+      "id": "41-105c_body-con-q12"
+    }
+  ]
+}

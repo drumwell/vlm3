@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-131",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/131.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:37:36.573345",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 587
+  },
+  "qa_pairs": [
+    {
+      "question": "Which vehicle types use the tailgate window wiper system according to this table?",
+      "answer": "E34 touring and E36 comp/touring models",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-131-q02"
+    },
+    {
+      "question": "Which component connection requires 10 Nm of torque in the tailgate wiper system?",
+      "answer": "The spray nozzle to tailgate connection and the E36 comp/touring wiper console to tailgate connection",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-131-q07"
+    },
+    {
+      "question": "What vehicle models are compatible with the wiper arm to wiper shaft assembly?",
+      "answer": "E34/E36 Touring and E36 comp, touring models",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-131-q09"
+    },
+    {
+      "question": "What section number and title does this torque specification table fall under?",
+      "answer": "Section 61-6 General Electrical system, subsection 61 62 Tailgate Window Wiper",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-131-q10"
+    }
+  ]
+}

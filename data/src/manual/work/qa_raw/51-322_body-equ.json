@@ -1,0 +1,94 @@
+{
+  "page_id": "51-322_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-322.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:22:05.193946",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 758
+  },
+  "qa_pairs": [
+    {
+      "question": "What position should the window be operated to before loosening the screws?",
+      "answer": "The window should be operated to the half-open position before loosening the screws.",
+      "question_type": "procedural",
+      "id": "51-322_body-equ-q01"
+    },
+    {
+      "question": "What should you do while shutting the window during this procedure?",
+      "answer": "While shutting the window, you should press against the front guide rail to ensure the window glass is parallel in the guide rail.",
+      "question_type": "procedural",
+      "id": "51-322_body-equ-q02"
+    },
+    {
+      "question": "How is the limitation of window movement adjusted?",
+      "answer": "The limitation of window movement is adjusted with the stop.",
+      "question_type": "factual",
+      "id": "51-322_body-equ-q03"
+    },
+    {
+      "question": "What should you check after tightening the screws?",
+      "answer": "After tightening the screws, check that there is easy movement as well as the system on the top, correcting if necessary.",
+      "question_type": "inspection",
+      "id": "51-322_body-equ-q04"
+    },
+    {
+      "question": "In the installation diagram, what do callout numbers 1 and 2 indicate?",
+      "answer": "Callout number 1 indicates the window glass and callout number 2 indicates the rubber seal that the window glass must bear on.",
+      "question_type": "visual",
+      "id": "51-322_body-equ-q05"
+    },
+    {
+      "question": "What is the part number shown in the installation diagram?",
+      "answer": "The part number shown in the installation diagram is 30 51 700.",
+      "question_type": "factual",
+      "id": "51-322_body-equ-q06"
+    },
+    {
+      "question": "What critical requirement must be met for the window glass positioning in the guide rail?",
+      "answer": "The window glass must be parallel in the guide rail.",
+      "question_type": "factual",
+      "id": "51-322_body-equ-q07"
+    },
+    {
+      "question": "What should the window glass bear on during installation?",
+      "answer": "The window glass must bear on the rubber seal as shown in the installation diagram.",
+      "question_type": "procedural",
+      "id": "51-322_body-equ-q08"
+    },
+    {
+      "question": "What are the three photo reference numbers shown on this page?",
+      "answer": "The three photo reference numbers shown are 30 51 728, 30 51 724, and 30 51 725.",
+      "question_type": "visual",
+      "id": "51-322_body-equ-q09",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What should be done if the system movement is not satisfactory after tightening screws?",
+      "answer": "If the system movement is not satisfactory, it should be corrected as necessary.",
+      "question_type": "troubleshooting",
+      "id": "51-322_body-equ-q10"
+    },
+    {
+      "question": "What is the first step in this window adjustment procedure?",
+      "answer": "The first step is to operate the window to the half-open position and then loosen the screws.",
+      "question_type": "procedural",
+      "id": "51-322_body-equ-q11"
+    },
+    {
+      "question": "What page number is this from the service manual?",
+      "answer": "This is page 51-322 from the service manual.",
+      "question_type": "navigation",
+      "id": "51-322_body-equ-q12"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "-015",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/015.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:05:58.750864",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 854
+  },
+  "qa_pairs": [
+    {
+      "question": "What transmission components are visible in the disassembled hub assembly?",
+      "answer": "The image shows various transmission components including input shafts, gears with teeth, synchro rings, shift forks, and housing components spread out on newspaper.",
+      "question_type": "visual",
+      "id": "-015-q01"
+    },
+    {
+      "question": "What problem did the author encounter with the input shaft housing?",
+      "answer": "The input shaft housing had a lot of corrosion staining on it, and the author tried various cleaners to scrub it including cleaning in an Ultra sonic cleaner bath.",
+      "question_type": "inspection",
+      "id": "-015-q02"
+    },
+    {
+      "question": "What cleaning method worked best for general cleaning of the transmission components?",
+      "answer": "Scrubbing with brass pot scrub pad worked best for general cleaning, though this made areas extra shiny which was not what the author was trying to achieve.",
+      "question_type": "procedural",
+      "id": "-015-q03"
+    },
+    {
+      "question": "What approach did the author take when wiring the hub assembly?",
+      "answer": "The author wired all the hub assembly together and tried not to mix up things too much.",
+      "question_type": "procedural",
+      "id": "-015-q04"
+    },
+    {
+      "question": "What cleaning equipment was mentioned for the input shaft housing?",
+      "answer": "An Ultra sonic cleaner bath was mentioned as one of the cleaning methods tried on the input shaft housing.",
+      "question_type": "tool",
+      "id": "-015-q06"
+    },
+    {
+      "question": "What is the condition of the shift forks shown in the image?",
+      "answer": "The shift forks appear to be in good condition with their characteristic curved shape for engaging the synchro assemblies visible in the disassembled parts.",
+      "question_type": "inspection",
+      "id": "-015-q07"
+    },
+    {
+      "question": "What was the author's comment about the complexity of the work?",
+      "answer": "The author stated it was 'Enough to drive anyone to drink,' indicating the complexity and challenging nature of the transmission rebuild work.",
+      "question_type": "factual",
+      "id": "-015-q08"
+    },
+    {
+      "question": "What surface are the transmission components laid out on?",
+      "answer": "The transmission components are laid out on newspaper pages spread across what appears to be a workbench surface.",
+      "question_type": "visual",
+      "id": "-015-q09"
+    },
+    {
+      "question": "What issue did the brass pot scrub pad create during cleaning?",
+      "answer": "The brass pot scrub pad made areas extra shiny, which was not what the author was trying to achieve during the cleaning process.",
+      "question_type": "procedural",
+      "id": "-015-q10"
+    },
+    {
+      "question": "How many different types of synchro rings are visible in the layout?",
+      "answer": "Multiple synchro rings of different sizes are visible, including what appear to be brass-colored synchronizer rings for different gear positions.",
+      "question_type": "component",
+      "id": "-015-q11"
+    },
+    {
+      "question": "What is the overall organization strategy mentioned for the disassembled parts?",
+      "answer": "The author tried not to mix up things too much when wiring all the hub assembly together, indicating careful organization was important during disassembly.",
+      "question_type": "procedural",
+      "id": "-015-q12"
+    }
+  ]
+}

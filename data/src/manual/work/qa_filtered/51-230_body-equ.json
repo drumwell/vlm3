@@ -1,0 +1,91 @@
+{
+  "page_id": "51-230_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-230.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:16:07.585857",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 731
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number and title for this engine hood lock procedure?",
+      "answer": "Section 51 23 110 - REMOVING AND INSTALLING OR REPLACING ENGINE HOOD LOCK.",
+      "question_type": "factual",
+      "id": "51-230_body-equ-q01"
+    },
+    {
+      "question": "What should be done with the clips on the radiator grill during removal?",
+      "answer": "Lift clips (1) off of radiator grill on left side and unscrew screws (2).",
+      "question_type": "procedural",
+      "id": "51-230_body-equ-q02"
+    },
+    {
+      "question": "What special installation instruction is given for the striker alignment?",
+      "answer": "Align the striker through a bore provided in the body from the inside, before bolting down the striker.",
+      "question_type": "procedural",
+      "id": "51-230_body-equ-q03"
+    },
+    {
+      "question": "What BMW special tool is referenced for headlight aiming if necessary?",
+      "answer": "63 10 004 for aim headlights if necessary.",
+      "question_type": "tool",
+      "id": "51-230_body-equ-q04"
+    },
+    {
+      "question": "What should be applied to the lock during installation?",
+      "answer": "Lubricate lock with grease.",
+      "question_type": "procedural",
+      "id": "51-230_body-equ-q05"
+    },
+    {
+      "question": "What must be installed prior to the lock installation?",
+      "answer": "The engine hood release must be installed prior to installation of the lock.",
+      "question_type": "procedural",
+      "id": "51-230_body-equ-q06"
+    },
+    {
+      "question": "What are the numbered callouts (1) and (2) indicating in the radiator grill diagram?",
+      "answer": "Callout (1) indicates clips to lift off, and callout (2) indicates screws to unscrew.",
+      "question_type": "visual",
+      "id": "51-230_body-equ-q07"
+    },
+    {
+      "question": "What should be done with the cable in the holder during cap removal?",
+      "answer": "Lift off cap and disconnect cable in holder.",
+      "question_type": "procedural",
+      "id": "51-230_body-equ-q08"
+    },
+    {
+      "question": "What installation check is specified for the cable engagement?",
+      "answer": "Make sure cable is seated correctly and engage in opened lock.",
+      "question_type": "inspection",
+      "id": "51-230_body-equ-q09"
+    },
+    {
+      "question": "What component needs to be unscrewed and removed according to the bottom diagram?",
+      "answer": "Unscrew and remove trim panel.",
+      "question_type": "procedural",
+      "id": "51-230_body-equ-q10"
+    },
+    {
+      "question": "What is the first step in the headlight removal procedure?",
+      "answer": "Unscrew left headlight.",
+      "question_type": "procedural",
+      "id": "51-230_body-equ-q11"
+    },
+    {
+      "question": "What are the BMW part numbers visible in the diagrams?",
+      "answer": "30 51 347, 30 51 348, 30 51 349, and 30 51 351 are visible in the diagrams.",
+      "question_type": "factual",
+      "id": "51-230_body-equ-q12"
+    }
+  ]
+}

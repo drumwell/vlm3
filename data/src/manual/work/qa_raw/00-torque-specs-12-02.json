@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-12-02",
+  "image_path": "raw/00 - Torque Specs/12-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:46:56.420635",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 614
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M12x1.25 spark plugs?",
+      "answer": "23 \u00b1 3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-02-q01"
+    },
+    {
+      "question": "What is the torque specification for M14x1.25 spark plugs?",
+      "answer": "30 \u00b1 3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-02-q02"
+    },
+    {
+      "question": "What section number covers spark plugs in the Engine Electrical System?",
+      "answer": "12 12",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-02-q03"
+    },
+    {
+      "question": "What is the difference in torque between M12x1.25 and M14x1.25 spark plugs?",
+      "answer": "The M14x1.25 spark plugs require 7 Nm more torque (30 \u00b1 3 Nm) compared to M12x1.25 spark plugs (23 \u00b1 3 Nm).",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-02-q04"
+    },
+    {
+      "question": "What condition are the spark plugs specified for in this table?",
+      "answer": "Ungreased",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-02-q06"
+    },
+    {
+      "question": "Do both spark plug specifications apply to all vehicle types?",
+      "answer": "Yes, both M12x1.25 and M14x1.25 spark plug torque specifications apply to 'All' vehicle types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-02-q07"
+    },
+    {
+      "question": "What is the tolerance range for the M12x1.25 spark plug torque specification?",
+      "answer": "\u00b13 Nm (ranging from 20 to 26 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-02-q08"
+    },
+    {
+      "question": "What units are used for the spark plug torque measurements?",
+      "answer": "Nm (Newton-meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-02-q09"
+    },
+    {
+      "question": "What is the main section number for the Engine Electrical System?",
+      "answer": "12 - 2",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-02-q10"
+    }
+  ]
+}

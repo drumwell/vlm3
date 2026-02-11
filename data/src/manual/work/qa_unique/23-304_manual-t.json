@@ -1,0 +1,85 @@
+{
+  "page_id": "23-304_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-304.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:42:00.697649",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 770
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure code corresponds to installing an exchange transmission?",
+      "answer": "Procedure code 23 00 032 corresponds to installing an exchange transmission.",
+      "question_type": "factual",
+      "id": "23-304_manual-t-q01"
+    },
+    {
+      "question": "What should be removed before installing the exchange transmission?",
+      "answer": "Remove transmission - see 23 00 022. BMW code marked on intermediate case section should be noted.",
+      "question_type": "procedural",
+      "id": "23-304_manual-t-q02"
+    },
+    {
+      "question": "What do callout numbers 1, 2, and 3 indicate in the transfer spring diagram?",
+      "answer": "Number 1 indicates the transfer spring, number 2 indicates the release lever, and number 3 indicates the release component.",
+      "question_type": "visual",
+      "id": "23-304_manual-t-q03"
+    },
+    {
+      "question": "What components are shown in the transfer shift rod joint diagram?",
+      "answer": "The diagram shows the transfer shift rod joint with a locking sleeve (1) that needs to be pushed back, and a cylindrical pin (2) that needs to be driven out.",
+      "question_type": "visual",
+      "id": "23-304_manual-t-q04"
+    },
+    {
+      "question": "What type of lubricant should be used to pack the lubricating groove during installation?",
+      "answer": "Pack lubricating groove (N) with Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "23-304_manual-t-q05"
+    },
+    {
+      "question": "What should be applied to the guides and bearings during installation?",
+      "answer": "Give guides (F) and bearings (L) a light coat of Molykote Longterm 2.",
+      "question_type": "procedural",
+      "id": "23-304_manual-t-q06"
+    },
+    {
+      "question": "What important note is mentioned about transmission oil after installation?",
+      "answer": "Transmissions are supplied filled with oil, so that it is only necessary to check the oil level after installation of the transmission.",
+      "question_type": "factual",
+      "id": "23-304_manual-t-q07"
+    },
+    {
+      "question": "What components are mentioned as part of the transfer rubber mount assembly?",
+      "answer": "Transfer rubber mount with cross member, exhaust carrier and backup light switch.",
+      "question_type": "component",
+      "id": "23-304_manual-t-q09"
+    },
+    {
+      "question": "What diagram reference number is shown for the transfer spring and release lever illustration?",
+      "answer": "The diagram reference number is 316 23 024.",
+      "question_type": "factual",
+      "id": "23-304_manual-t-q10"
+    },
+    {
+      "question": "What diagram reference number corresponds to the lubricating groove installation diagram?",
+      "answer": "The diagram reference number is 316 23 025.",
+      "question_type": "factual",
+      "id": "23-304_manual-t-q11"
+    },
+    {
+      "question": "Where can additional information be found according to the note at the bottom of the page?",
+      "answer": "See Parts Microfiche for additional information.",
+      "question_type": "navigation",
+      "id": "23-304_manual-t-q12"
+    }
+  ]
+}

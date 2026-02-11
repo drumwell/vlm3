@@ -1,0 +1,91 @@
+{
+  "page_id": "41-109c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-109c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:42:23.316817",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 765
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the specified spacing between plug spot welding holes?",
+      "answer": "The spacing between holes is 40 mm (1.575\").",
+      "question_type": "factual",
+      "id": "41-109c_body-con-q01"
+    },
+    {
+      "question": "What should be done before plug spot welding the mating surfaces?",
+      "answer": "Grind all mating surfaces and coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-109c_body-con-q02"
+    },
+    {
+      "question": "Where should plug spot welding holes be drilled for areas not accessible for spot welding?",
+      "answer": "Drill plug spot welding holes in mating surfaces which are not accessible for spot welding, such as cross member, partial replacement panel, and wheel house.",
+      "question_type": "procedural",
+      "id": "41-109c_body-con-q03"
+    },
+    {
+      "question": "What specific note is given about drilling holes in the side members?",
+      "answer": "Drill the holes in the flanges of side members through the trunk floor plate.",
+      "question_type": "procedural",
+      "id": "41-109c_body-con-q04"
+    },
+    {
+      "question": "What should be done with the trunk floor plate before beginning the welding process?",
+      "answer": "Lift off trunk floor plate and insert trunk floor plate and align on straightening bench.",
+      "question_type": "procedural",
+      "id": "41-109c_body-con-q05"
+    },
+    {
+      "question": "What components should be plug spot welded according to the diagram numbered 30 41 258?",
+      "answer": "Plug spot weld both side members as shown in the diagram.",
+      "question_type": "visual",
+      "id": "41-109c_body-con-q06"
+    },
+    {
+      "question": "What areas are specified for spot welding in diagram 30 41 622?",
+      "answer": "Plug spot weld front end of trunk floor plate on cross member, side members and wheel houses.",
+      "question_type": "visual",
+      "id": "41-109c_body-con-q07"
+    },
+    {
+      "question": "Where should the connector be spot welded according to diagram 30 41 270?",
+      "answer": "Spot weld connector on wheel house and side panel at left and right sides.",
+      "question_type": "visual",
+      "id": "41-109c_body-con-q08"
+    },
+    {
+      "question": "What additional reinforcement may be required according to the manual?",
+      "answer": "Weld on reinforcement brackets if necessary.",
+      "question_type": "procedural",
+      "id": "41-109c_body-con-q09"
+    },
+    {
+      "question": "What type of paint should be applied to mating surfaces before spot welding?",
+      "answer": "Zinc dust paint should be applied to mating surfaces required for spot welding.",
+      "question_type": "factual",
+      "id": "41-109c_body-con-q10"
+    },
+    {
+      "question": "What is the first step shown in the trunk floor plate installation process?",
+      "answer": "Lift off trunk floor plate as shown in diagram 30 41 619.",
+      "question_type": "procedural",
+      "id": "41-109c_body-con-q11"
+    },
+    {
+      "question": "What surface preparation is required before welding operations begin?",
+      "answer": "All mating surfaces must be ground before coating with zinc dust paint and spot welding.",
+      "question_type": "procedural",
+      "id": "41-109c_body-con-q12"
+    }
+  ]
+}

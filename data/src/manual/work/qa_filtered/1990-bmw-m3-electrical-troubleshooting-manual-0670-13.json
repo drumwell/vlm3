@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-13",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/0670-13.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:09:43.390430",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 591
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the page number and section title shown at the top of this wiring diagram?",
+      "answer": "This is page 0670-13 from the POWER DISTRIBUTION section, specifically showing GROUND DISTRIBUTION G104 AND G200 (PARTIAL).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-13-q01"
+    },
+    {
+      "question": "What wire gauge connects the onboard computer relay box to the ground distribution point?",
+      "answer": "A .5 BR/BK (0.5mm\u00b2 brown/black) wire connects the onboard computer relay box to the ground distribution point.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-13-q02"
+    },
+    {
+      "question": "Where is the G200 partial ground connection located according to the diagram?",
+      "answer": "The G200 partial ground connection is located under the left side of the dash above the brake pedal.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-13-q03"
+    },
+    {
+      "question": "What important note is provided about splice S235?",
+      "answer": "The note states that splice S235 is found on some vehicles, but if S235 does not exist in a vehicle, all circuits go directly to G200.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-13-q04"
+    },
+    {
+      "question": "What wire gauge connects to the washer fluid level switch?",
+      "answer": "A .75 BR (0.75mm\u00b2 brown) wire connects to the washer fluid level switch.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-13-q05"
+    },
+    {
+      "question": "Which components are connected through the S114 splice point?",
+      "answer": "The S114 splice point connects the RH low beam, RH high beam, RH front turn/park light, RH side marker light, and RH fog light.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-13-q06"
+    },
+    {
+      "question": "What is the wire gauge specification for the connection to the ABS hydraulic unit?",
+      "answer": "The ABS hydraulic unit is connected with a 2.5 BR (2.5mm\u00b2 brown) wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-13-q07"
+    },
+    {
+      "question": "Where is the G104 ground point located according to the diagram?",
+      "answer": "The G104 ground point is located on the inner fender, behind the left headlights.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-13-q08"
+    }
+  ]
+}

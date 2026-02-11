@@ -1,0 +1,91 @@
+{
+  "page_id": "12-01a_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-01a.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:21:02.788911",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 693
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for checking and adjusting ignition timing?",
+      "answer": "The procedure number is 12 11 005.",
+      "question_type": "factual",
+      "id": "12-01a_engine-e-q01"
+    },
+    {
+      "question": "What engine oil temperature is required before testing ignition timing?",
+      "answer": "The engine must be at operating temperature with oil temperature at 80\u00b0C (140\u00b0F).",
+      "question_type": "factual",
+      "id": "12-01a_engine-e-q02"
+    },
+    {
+      "question": "What testing equipment should be connected for ignition timing procedures?",
+      "answer": "Connect a BMW service tester or BMW digital tester to operating instructions.",
+      "question_type": "tool",
+      "id": "12-01a_engine-e-q03"
+    },
+    {
+      "question": "Can the dwell angle be adjusted on this system?",
+      "answer": "No, the dwell angle is given by design and can be checked, but not adjusted.",
+      "question_type": "factual",
+      "id": "12-01a_engine-e-q04"
+    },
+    {
+      "question": "What should you do with the vacuum hose when checking ignition timing?",
+      "answer": "Pull off the vacuum hose for advance control.",
+      "question_type": "procedural",
+      "id": "12-01a_engine-e-q05"
+    },
+    {
+      "question": "What happens to the TCI control unit if it malfunctions?",
+      "answer": "The TCI control unit is no longer ready for operation in case of malfunction.",
+      "question_type": "diagnostic",
+      "id": "12-01a_engine-e-q06"
+    },
+    {
+      "question": "What equipment must be installed before testing?",
+      "answer": "A TDC transmitter must be plug-in installed.",
+      "question_type": "procedural",
+      "id": "12-01a_engine-e-q07"
+    },
+    {
+      "question": "How do you correct ignition timing if adjustment is necessary?",
+      "answer": "Correct by loosening the bolt and turning the distributor accordingly.",
+      "question_type": "procedural",
+      "id": "12-01a_engine-e-q08"
+    },
+    {
+      "question": "What do the + and - symbols indicate for ignition timing adjustment?",
+      "answer": "+ means advanced ignition timing and - means retarded ignition timing.",
+      "question_type": "factual",
+      "id": "12-01a_engine-e-q09"
+    },
+    {
+      "question": "What must match the nominal value microfiche specification?",
+      "answer": "The distributor number must be the same as specified on the nominal value microfiche.",
+      "question_type": "factual",
+      "id": "12-01a_engine-e-q10"
+    },
+    {
+      "question": "At what engine speed should you start and run the engine for testing?",
+      "answer": "Start and run the engine at test speed.",
+      "question_type": "procedural",
+      "id": "12-01a_engine-e-q11"
+    },
+    {
+      "question": "Where can you find additional specifications referenced in this procedure?",
+      "answer": "See Specifications and see Nominal Value Microfiche as referenced at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "12-01a_engine-e-q12"
+    }
+  ]
+}

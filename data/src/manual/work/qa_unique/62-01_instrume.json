@@ -1,0 +1,79 @@
+{
+  "page_id": "62-01_instrume",
+  "image_path": "raw/62 - Instruments/62-01.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:44:25.588745",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 713
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the printed circuit for the service indicator?",
+      "answer": "The procedure number is 62 11 030.",
+      "question_type": "factual",
+      "id": "62-01_instrume-q01"
+    },
+    {
+      "question": "What must be removed and installed when replacing the printed circuit for the service indicator?",
+      "answer": "The instrument carrier assembly 62 21 000 must be removed and installed.",
+      "question_type": "procedural",
+      "id": "62-01_instrume-q02"
+    },
+    {
+      "question": "How do you access the printed circuit in the instrument housing?",
+      "answer": "Pull the printed circuit out of the housing after removing the instrument carrier assembly.",
+      "question_type": "procedural",
+      "id": "62-01_instrume-q03"
+    },
+    {
+      "question": "What step is required before removing the instruments from the housing?",
+      "answer": "Unscrew the bolts that secure the instrument assembly.",
+      "question_type": "procedural",
+      "id": "62-01_instrume-q04"
+    },
+    {
+      "question": "What should you do after unscrewing the bolts on the instrument assembly?",
+      "answer": "Take the instruments with carrier out of the housing.",
+      "question_type": "procedural",
+      "id": "62-01_instrume-q05"
+    },
+    {
+      "question": "What is the reference number for the image showing the bolt unscrewing procedure?",
+      "answer": "The reference number is 30 62 012.",
+      "question_type": "factual",
+      "id": "62-01_instrume-q07"
+    },
+    {
+      "question": "What two steps are required at the bottom of the procedure?",
+      "answer": "Unscrew bolt (1) and remove light duct (2).",
+      "question_type": "procedural",
+      "id": "62-01_instrume-q09"
+    },
+    {
+      "question": "What is the reference number for the final image in the procedure?",
+      "answer": "The reference number is 30 62 014.",
+      "question_type": "factual",
+      "id": "62-01_instrume-q10"
+    },
+    {
+      "question": "What components are visible in the instrument cluster housing after removing the printed circuit?",
+      "answer": "The housing shows multiple circular openings for the instruments and various mounting points with bolts indicated by arrows.",
+      "question_type": "visual",
+      "id": "62-01_instrume-q11"
+    },
+    {
+      "question": "What is the page number for this service procedure?",
+      "answer": "This is page 62-1.",
+      "question_type": "factual",
+      "id": "62-01_instrume-q12"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "33-00_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-00.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:06:55.415513",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1887,
+    "tokens_output": 520
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the service manual does this rear axle layout drawing belong to?",
+      "answer": "This drawing belongs to Section 33-0, which covers the rear axle layout drawing for the 15\u00b0 axle.",
+      "question_type": "navigation",
+      "id": "33-00_rear-axl-q01"
+    },
+    {
+      "question": "What type of rear axle configuration is shown in this diagram?",
+      "answer": "This diagram shows a 15\u00b0 axle configuration as indicated in the title.",
+      "question_type": "factual",
+      "id": "33-00_rear-axl-q02"
+    },
+    {
+      "question": "What is the diagram number shown at the bottom right of this page?",
+      "answer": "The diagram number is 30 33 001.",
+      "question_type": "factual",
+      "id": "33-00_rear-axl-q03"
+    },
+    {
+      "question": "What suspension components are visible in the rear axle assembly?",
+      "answer": "The diagram shows coil springs and shock absorbers (struts) as part of the rear suspension system.",
+      "question_type": "component",
+      "id": "33-00_rear-axl-q04"
+    },
+    {
+      "question": "How is the differential positioned in relation to the axle assembly?",
+      "answer": "The differential is centrally mounted in the rear axle assembly, with drive shafts extending to both rear wheels.",
+      "question_type": "visual",
+      "id": "33-00_rear-axl-q05"
+    },
+    {
+      "question": "What braking components can be identified in this rear axle layout?",
+      "answer": "Brake discs and brake calipers are visible at each rear wheel position in the assembly.",
+      "question_type": "component",
+      "id": "33-00_rear-axl-q06"
+    },
+    {
+      "question": "What connects the differential to the rear wheels in this assembly?",
+      "answer": "Drive shafts (halfshafts) connect the differential to each rear wheel, transmitting power from the differential to the wheels.",
+      "question_type": "component",
+      "id": "33-00_rear-axl-q07"
+    },
+    {
+      "question": "What type of drawing is this rear axle illustration?",
+      "answer": "This is a rear axle layout drawing, which is an exploded view showing the spatial relationship and assembly of all rear axle components.",
+      "question_type": "visual",
+      "id": "33-00_rear-axl-q08"
+    }
+  ]
+}

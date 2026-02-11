@@ -1,0 +1,91 @@
+{
+  "page_id": "12-134_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-134.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:31:13.546119",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 772
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the specific procedure for replacing speed and reference mark sensors?",
+      "answer": "Unscrew screws of speed and reference mark sensors (D and B) and pull out sensors. For installation, mark new reference mark sensor (B) with a piece of tape.",
+      "question_type": "procedural",
+      "id": "12-134_engine-e-q01"
+    },
+    {
+      "question": "What components are labeled as B and D in the sensor diagrams?",
+      "answer": "B is the Reference mark sensor and D is the Speed sensor.",
+      "question_type": "visual",
+      "id": "12-134_engine-e-q02"
+    },
+    {
+      "question": "What testing equipment should be connected to check the speed sensor signal?",
+      "answer": "Connect oscilloscope (M 22/23) on + and - connections of speed sensor. Turn engine with hand after connecting.",
+      "question_type": "tool",
+      "id": "12-134_engine-e-q03"
+    },
+    {
+      "question": "What is the correct signal pattern for the speed sensor?",
+      "answer": "Signal shown in the figure should be displayed. Only the shape is important when evaluating the signal - not the amplitude height.",
+      "question_type": "diagnostic",
+      "id": "12-134_engine-e-q04"
+    },
+    {
+      "question": "How should you test the reference mark sensor resistance?",
+      "answer": "Measure resistance of sensor coil (M 06) on + and - of plug.",
+      "question_type": "procedural",
+      "id": "12-134_engine-e-q05"
+    },
+    {
+      "question": "What should you do if the oscillograph deviates when checking the reference mark sensor?",
+      "answer": "If oscillograph deviates, remove sensor and check for dirt (grease, burrs, rust), cleaning if necessary. Check reference mark, replacing pin for flywheel if necessary.",
+      "question_type": "troubleshooting",
+      "id": "12-134_engine-e-q06"
+    },
+    {
+      "question": "What are the numbered components 1 and 2 in the protective sleeve diagram?",
+      "answer": "Component 1 is the protective sleeve and component 2 is the clip.",
+      "question_type": "visual",
+      "id": "12-134_engine-e-q07"
+    },
+    {
+      "question": "What installation steps are required after removing the protective sleeve and clip?",
+      "answer": "Coat seals with Molykote paste. Keep grease and dirt off of face surface on sensors.",
+      "question_type": "procedural",
+      "id": "12-134_engine-e-q08"
+    },
+    {
+      "question": "Which plug belongs to which sensor during installation?",
+      "answer": "Plug marked with tape belongs to gray plug.",
+      "question_type": "factual",
+      "id": "12-134_engine-e-q09"
+    },
+    {
+      "question": "What testing procedure is specified for initial sensor testing?",
+      "answer": "Disconnect plug. Connect BMW service test unit to operating instructions (M 06/22/23). Use universal test leads.",
+      "question_type": "procedural",
+      "id": "12-134_engine-e-q10"
+    },
+    {
+      "question": "What should be done to remove the sensors from their holder?",
+      "answer": "Press plug of sensor head out of holder.",
+      "question_type": "procedural",
+      "id": "12-134_engine-e-q11"
+    },
+    {
+      "question": "What is the first step before accessing the speed and reference mark sensors?",
+      "answer": "Unscrew shield.",
+      "question_type": "procedural",
+      "id": "12-134_engine-e-q12"
+    }
+  ]
+}

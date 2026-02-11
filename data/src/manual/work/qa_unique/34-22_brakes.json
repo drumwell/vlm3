@@ -1,0 +1,73 @@
+{
+  "page_id": "34-22_brakes",
+  "image_path": "raw/34 - Brakes/34-22.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:18:41.648435",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 816
+  },
+  "qa_pairs": [
+    {
+      "question": "What causes brake pedal travel to be excessive even though brakes have been bled and adjusted?",
+      "answer": "This can be caused by a damaged primary cup in the master cylinder, separating cups on floating piston or tandem brake master cylinder leak, or a leak in the brake system.",
+      "question_type": "diagnostic",
+      "id": "34-22_brakes-q02"
+    },
+    {
+      "question": "How do I fix excessive brake pedal travel after bleeding and adjustment?",
+      "answer": "Overhaul or replace the brake master cylinder, or check the brake system for leaks depending on the specific cause identified.",
+      "question_type": "procedural",
+      "id": "34-22_brakes-q03"
+    },
+    {
+      "question": "What causes uneven brake pad wear?",
+      "answer": "Uneven pad wear can be caused by wrong type of brake pads, dirty or damaged caliper recesses/caps, corrosion in calipers or wheel cylinders, or swollen rubber rings for piston control.",
+      "question_type": "diagnostic",
+      "id": "34-22_brakes-q04"
+    },
+    {
+      "question": "What's the correction for uneven brake pad wear?",
+      "answer": "Replace brake pads with correct type, remove and install/repair or replace calipers or wheel cylinders as needed.",
+      "question_type": "procedural",
+      "id": "34-22_brakes-q05"
+    },
+    {
+      "question": "What causes brake pads to wear at an angle?",
+      "answer": "Angled brake pad wear can be caused by excessive wheel bearing play, brake disc not aligned with caliper, corrosion in calipers or wheel cylinders, angular brake disc wear, pads worn less than minimum thickness, insufficient spring force, or damaged guide bolts.",
+      "question_type": "diagnostic",
+      "id": "34-22_brakes-q06"
+    },
+    {
+      "question": "How do I correct brake pads that are wearing at an angle?",
+      "answer": "Replace wheel bearings, check caliper installation, remove and install/repair or replace calipers or wheel cylinders, grind or replace brake discs, replace brake pads, replace springs, or replace guide bolts depending on the specific cause.",
+      "question_type": "procedural",
+      "id": "34-22_brakes-q07"
+    },
+    {
+      "question": "What are the possible causes if brake fluid is overheated?",
+      "answer": "According to the troubleshooting chart, overheated brake fluid can be due to vapor lock from excessive water content in brake fluid or excessive brake loads.",
+      "question_type": "factual",
+      "id": "34-22_brakes-q08"
+    },
+    {
+      "question": "What should I check if the brake disc is not aligned with the caliper?",
+      "answer": "Check caliper installation and ensure proper alignment between the brake disc and caliper assembly.",
+      "question_type": "inspection",
+      "id": "34-22_brakes-q09"
+    },
+    {
+      "question": "What components might need replacement if there's corrosion in the brake system?",
+      "answer": "If there's corrosion in calipers or wheel cylinders, you may need to remove and install, repair, or replace the calipers or wheel cylinders.",
+      "question_type": "component",
+      "id": "34-22_brakes-q10"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-24-11",
+  "image_path": "raw/00 - Torque Specs/24-11.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:01:53.284133",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 592
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the governor flange to transmission bolts?",
+      "answer": "16 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-11-q01"
+    },
+    {
+      "question": "What size screws are used for the stud in centrifugal governor?",
+      "answer": "M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-11-q02"
+    },
+    {
+      "question": "What is the torque specification for the hexagon head screw on centrifugal governor?",
+      "answer": "11 Nm using M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-11-q05"
+    },
+    {
+      "question": "Which transmission type uses the governor housing to hub specification?",
+      "answer": "4 HP-22 H transmission type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-11-q06"
+    },
+    {
+      "question": "What torque value is specified for the governor housing to hub bolts?",
+      "answer": "11 Nm using M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-11-q07"
+    },
+    {
+      "question": "Which governor component requires the highest torque specification?",
+      "answer": "The governor flange to transmission requires the highest torque at 16 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-11-q08"
+    },
+    {
+      "question": "How many different M6 screw applications are listed in the governor specifications?",
+      "answer": "Three M6 screw applications are listed: stud in centrifugal governor, hexagon head screw on centrifugal governor, and governor housing to hub.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-11-q09"
+    },
+    {
+      "question": "What section of the service manual is this torque specification table from?",
+      "answer": "Section 24-11 Automatic Transmission, subsection 24 32 Governor.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-24-11-q10"
+    }
+  ]
+}

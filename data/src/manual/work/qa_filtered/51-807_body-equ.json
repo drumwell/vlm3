@@ -1,0 +1,91 @@
+{
+  "page_id": "51-807_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-807.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:35:33.457601",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 809
+  },
+  "qa_pairs": [
+    {
+      "question": "What is this diagnostic procedure for?",
+      "answer": "This is a diagnostic procedure for troubleshooting no function of one or both rear doors in their unlocking, locking, or arresting operations.",
+      "question_type": "factual",
+      "id": "51-807_body-equ-q01"
+    },
+    {
+      "question": "What voltage should the blue wire measure while locking briefly?",
+      "answer": "The blue wire should measure greater than 9 V while locking briefly.",
+      "question_type": "factual",
+      "id": "51-807_body-equ-q02"
+    },
+    {
+      "question": "What voltage should the white wire show while unlocking briefly?",
+      "answer": "The white wire should measure greater than 9 V while unlocking briefly.",
+      "question_type": "factual",
+      "id": "51-807_body-equ-q03"
+    },
+    {
+      "question": "What voltage should the black wire read while arresting briefly?",
+      "answer": "The black wire should measure approximately 1 V while arresting briefly.",
+      "question_type": "factual",
+      "id": "51-807_body-equ-q04"
+    },
+    {
+      "question": "What should you do first when checking if the linkage is connected and drive adjusted correctly?",
+      "answer": "If the linkage is not connected, drive adjusted correctly, and mounted with plug connected correctly, you should connect the linkage, adjust/mount the drive, and connect the plug according to section 51 26 010.",
+      "question_type": "procedural",
+      "id": "51-807_body-equ-q05"
+    },
+    {
+      "question": "What wires should you check for breaks when pulling off the plug on the control unit?",
+      "answer": "You should check the blue/white and black wires for breaks when pulling off the plug on the control unit.",
+      "question_type": "procedural",
+      "id": "51-807_body-equ-q06"
+    },
+    {
+      "question": "What is the next step if the voltage values are not correct when measuring at the drive?",
+      "answer": "If the voltage values are not correct when measuring at the drive, you should replace the drive.",
+      "question_type": "procedural",
+      "id": "51-807_body-equ-q07"
+    },
+    {
+      "question": "What should you do if wires show breaks when checking at the control unit?",
+      "answer": "If wires show breaks when checking at the control unit, you should repair the wires.",
+      "question_type": "procedural",
+      "id": "51-807_body-equ-q08"
+    },
+    {
+      "question": "Where should you pull off the plug to measure voltages?",
+      "answer": "You should pull off the plug on the drive to measure voltages on the wires.",
+      "question_type": "procedural",
+      "id": "51-807_body-equ-q09"
+    },
+    {
+      "question": "What section should you reference for connecting linkage and adjusting/mounting the drive?",
+      "answer": "You should reference section 51 26 010 for connecting linkage and adjusting/mounting the drive.",
+      "question_type": "navigation",
+      "id": "51-807_body-equ-q10"
+    },
+    {
+      "question": "What resistance value should you check for when testing the control unit wires?",
+      "answer": "You should check if the resistance is approximately 0 ohms when testing the blue/white and black wires for breaks.",
+      "question_type": "diagnostic",
+      "id": "51-807_body-equ-q11"
+    },
+    {
+      "question": "What is the final action if all voltage measurements are correct at the drive?",
+      "answer": "If all voltage measurements are correct at the drive, the final action is to replace the drive.",
+      "question_type": "troubleshooting",
+      "id": "51-807_body-equ-q12"
+    }
+  ]
+}

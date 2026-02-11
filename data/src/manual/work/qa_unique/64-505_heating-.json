@@ -1,0 +1,79 @@
+{
+  "page_id": "64-505_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-505.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:59:11.643385",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 792
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required for BMW 318i when discharging the air conditioner?",
+      "answer": "A valve core remover is needed to help discharge pressure in the air conditioner.",
+      "question_type": "tool",
+      "id": "64-505_heating--q02"
+    },
+    {
+      "question": "What should you do after installing the air conditioning compressor on a BMW 318i?",
+      "answer": "Discharge, charge and check air conditioner for leaks after installation.",
+      "question_type": "procedural",
+      "id": "64-505_heating--q03"
+    },
+    {
+      "question": "In the top right diagram, what do callout numbers 1, 2, 3, and 4 indicate for compressor removal?",
+      "answer": "Number 1 is the nut to unscrew, number 2 is the bolt, number 3 is the washer, and number 4 is the spacer to remove.",
+      "question_type": "visual",
+      "id": "64-505_heating--q04"
+    },
+    {
+      "question": "What component should be disconnected according to callout number 1 in the solenoid diagram?",
+      "answer": "Disconnect plug (1) for solenoid of pulley.",
+      "question_type": "procedural",
+      "id": "64-505_heating--q05"
+    },
+    {
+      "question": "What is the sequence for disconnecting the compressor connections shown in the lower left diagram?",
+      "answer": "Unscrew bolts (1 and 2), disconnect lines (3 and 4), then insert plugs in open connections immediately.",
+      "question_type": "procedural",
+      "id": "64-505_heating--q06"
+    },
+    {
+      "question": "What important safety note is given about the plugs during line disconnection?",
+      "answer": "Insert plugs in open connections immediately after disconnecting the lines.",
+      "question_type": "safety",
+      "id": "64-505_heating--q07"
+    },
+    {
+      "question": "What should be checked during installation regarding the drive belt?",
+      "answer": "Check drive belt tightness with a tester, correcting if necessary. The pulling hook must always rest on tip of tooth.",
+      "question_type": "inspection",
+      "id": "64-505_heating--q08"
+    },
+    {
+      "question": "What maintenance procedure is required for the compressor oil according to the note section?",
+      "answer": "Replace compressor oil. Unscrew bolt (1), let oil run out of compressor, then pour in new oil.",
+      "question_type": "procedural",
+      "id": "64-505_heating--q09"
+    },
+    {
+      "question": "Where can you find the oil volume and oil grade specifications?",
+      "answer": "See Specifications and Parts Microfilm.",
+      "question_type": "navigation",
+      "id": "64-505_heating--q10"
+    },
+    {
+      "question": "What should be checked during installation according to callout 1 in the middle right diagram?",
+      "answer": "Check code number (1) and tightening torque.",
+      "question_type": "inspection",
+      "id": "64-505_heating--q11"
+    }
+  ]
+}

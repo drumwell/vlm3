@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/00-06.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:06:29.923601",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1891,
+    "tokens_output": 772
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the 5 steps in the troubleshooting procedure?",
+      "answer": "The 5 steps are: 1. Verify the Problem, 2. Analyze the Problem, 3. Isolate the Problem, 4. Repair the Problem, 5. Check the Problem.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06-q01"
+    },
+    {
+      "question": "What tools are required for isolating problems according to step 3 of the troubleshooting procedures?",
+      "answer": "Isolating the problem requires the use of a voltmeter and/or ohmmeter. A voltmeter measures voltage at selected points in a circuit.",
+      "question_type": "tool",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06-q02"
+    },
+    {
+      "question": "Why should you disconnect the car battery when using an ohmmeter?",
+      "answer": "You should disconnect the car battery when using an ohmmeter because the battery voltage will cause the ohmmeter logic to give false readings.",
+      "question_type": "safety",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06-q03"
+    },
+    {
+      "question": "What resistance values are shown in the voltage test diagram?",
+      "answer": "The voltage test diagram shows resistance values of 15 R\u03a9 at multiple points in the circuit.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06-q04"
+    },
+    {
+      "question": "How should you connect a voltmeter to take a voltage measurement?",
+      "answer": "To take a voltage measurement, connect the negative lead of the voltmeter to the battery's negative terminal or other known good ground. Then connect the positive lead of the voltmeter to the point you want to test.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06-q05"
+    },
+    {
+      "question": "What warning is given about using an ohmmeter on solid-state components?",
+      "answer": "Do not use an ohmmeter on solid-state components. The voltage that the ohmmeter applies to the circuit could damage these components.",
+      "question_type": "safety",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06-q06"
+    },
+    {
+      "question": "What does an ohmmeter measure in a circuit?",
+      "answer": "An ohmmeter measures a circuit's resistance to current flow. It has an internal battery that provides current to the circuit under test.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06-q07"
+    },
+    {
+      "question": "What components are labeled in the voltage test diagram?",
+      "answer": "The voltage test diagram shows a Power Distribution Box, Low Fluid Switch, Voltmeter, and Low Fluid Indicator.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06-q08"
+    },
+    {
+      "question": "What should you do in step 1 of the troubleshooting procedure?",
+      "answer": "In step 1, you should operate the problem circuit to check the accuracy of the complaint and note the symptoms of the inoperative circuit.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06-q09"
+    },
+    {
+      "question": "What is recommended for efficient troubleshooting when isolating problems?",
+      "answer": "Keep in mind that a logical simple procedure is the key to efficient troubleshooting. Test for the most likely cause of failure first. Try to make tests at points which are easily accessible.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-06-q10"
+    }
+  ]
+}

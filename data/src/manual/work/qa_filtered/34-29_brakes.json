@@ -1,0 +1,91 @@
+{
+  "page_id": "34-29_brakes",
+  "image_path": "raw/34 - Brakes/34-29.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:20:31.590716",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 794
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure code covers checking the ABS system?",
+      "answer": "Procedure 34 50 000 covers checking the ABS system.",
+      "question_type": "factual",
+      "id": "34-29_brakes-q01"
+    },
+    {
+      "question": "How is the ABS function checked?",
+      "answer": "The ABS function is checked with a BMW service test unit. The tester is connected to the wire harness and control unit with a special plug.",
+      "question_type": "procedural",
+      "id": "34-29_brakes-q02"
+    },
+    {
+      "question": "What important requirement must be followed when performing each step of the ABS test?",
+      "answer": "Each started step must be finished completely, without a break.",
+      "question_type": "safety",
+      "id": "34-29_brakes-q03"
+    },
+    {
+      "question": "What does the electronic circuit in the ABS control unit monitor?",
+      "answer": "An electronic circuit in the control unit monitors ABS constantly.",
+      "question_type": "factual",
+      "id": "34-29_brakes-q04"
+    },
+    {
+      "question": "When should the ABS system be checked according to the manual?",
+      "answer": "The system has to be checked if the ABS lamp does not go out or does not come on after turning on the ignition or when repairs were made on the ABS.",
+      "question_type": "diagnostic",
+      "id": "34-29_brakes-q05"
+    },
+    {
+      "question": "What is the first step when removing the hydraulic unit assembly for ABS?",
+      "answer": "Disconnect the battery ground lead and remove the air cleaner according to procedure 13 71 000.",
+      "question_type": "procedural",
+      "id": "34-29_brakes-q06"
+    },
+    {
+      "question": "Which brake lines need to be disconnected according to the numbered callouts in the diagram?",
+      "answer": "Lines 1 and 2 go to the rear brake pressure regulator and rear brake master cylinder, while lines 3, 4, and 5 connect to the left front brake caliper, right front brake caliper, and front brake master cylinder respectively.",
+      "question_type": "visual",
+      "id": "34-29_brakes-q07"
+    },
+    {
+      "question": "What precaution should be taken when handling brake fluid during the procedure?",
+      "answer": "Catch brake fluid and keep it off of clothes or painted parts.",
+      "question_type": "safety",
+      "id": "34-29_brakes-q08"
+    },
+    {
+      "question": "Does the ABS system require regular servicing?",
+      "answer": "No, basically the ABS does not require servicing.",
+      "question_type": "factual",
+      "id": "34-29_brakes-q09"
+    },
+    {
+      "question": "What should be checked together with the general brake system when servicing ABS?",
+      "answer": "Check brake lines to and from the hydraulic unit for correct routing and leaks together with the general brake system.",
+      "question_type": "inspection",
+      "id": "34-29_brakes-q10"
+    },
+    {
+      "question": "What is the procedure code for bleeding the brakes after installation?",
+      "answer": "Bleed brakes according to procedure 34 00 046.",
+      "question_type": "factual",
+      "id": "34-29_brakes-q11"
+    },
+    {
+      "question": "What should be done with the ABS system after installation of the hydraulic unit?",
+      "answer": "Check ABS with BMW service test unit as referenced in procedure 34 50 000.",
+      "question_type": "procedural",
+      "id": "34-29_brakes-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "36-02_wheels-a",
+  "image_path": "raw/36 - Wheels and Tires/36-02.jpg",
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:30:11.619177",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 804
+  },
+  "qa_pairs": [
+    {
+      "question": "At what speed and gear should balancing be performed?",
+      "answer": "Balancing is performed with engine power in fourth gear at about 100 km/h (50 mph).",
+      "question_type": "procedural",
+      "id": "36-02_wheels-a-q01"
+    },
+    {
+      "question": "What conditions must be met for the engine during balancing?",
+      "answer": "The engine must run smoothly without hesitation, doors, engine hood and trunk lid must be closed and the driver should sit in the car as still as possible.",
+      "question_type": "procedural",
+      "id": "36-02_wheels-a-q02"
+    },
+    {
+      "question": "What surface requirement is specified for wheel balancing?",
+      "answer": "Balancing must be carried out on firm underground (concrete floor without basement).",
+      "question_type": "procedural",
+      "id": "36-02_wheels-a-q03"
+    },
+    {
+      "question": "What is the maximum acceptable finish balancing value for a wheel?",
+      "answer": "If a value of more than 15 grams is displayed for finish balancing of a wheel, the possible causes must be eliminated prior to finish balancing and before rechecking the finished wheel.",
+      "question_type": "inspection",
+      "id": "36-02_wheels-a-q04"
+    },
+    {
+      "question": "What precaution is given regarding the exhaust extraction hose?",
+      "answer": "The exhaust extraction hose may not touch the tail panel.",
+      "question_type": "safety",
+      "id": "36-02_wheels-a-q05"
+    },
+    {
+      "question": "What special consideration applies to BMW 325 iX cars regarding wheel lifting?",
+      "answer": "This car has four driven wheels so that all four wheels must be able to turn freely and the car must be jacked up safely for finish balancing.",
+      "question_type": "safety",
+      "id": "36-02_wheels-a-q06"
+    },
+    {
+      "question": "What must be done before electronic finish balancing on BMW 325 iX?",
+      "answer": "Always first balance all wheels stationary prior to electronic (finish) balancing.",
+      "question_type": "procedural",
+      "id": "36-02_wheels-a-q07"
+    },
+    {
+      "question": "How should BMW 325 iX cars be positioned for finish balancing?",
+      "answer": "Position car on four finish balancing measuring supports. When only two measuring supports are used, two further identical jacks with lateral movement must be used on the other axle.",
+      "question_type": "procedural",
+      "id": "36-02_wheels-a-q08"
+    },
+    {
+      "question": "What important check should be performed on BMW 325 iX transmission components?",
+      "answer": "Check the deflection angle of the transmission end joint.",
+      "question_type": "inspection",
+      "id": "36-02_wheels-a-q09"
+    },
+    {
+      "question": "What reference should be consulted for additional Service Information?",
+      "answer": "Refer to Service Information of Group 36.",
+      "question_type": "navigation",
+      "id": "36-02_wheels-a-q10"
+    },
+    {
+      "question": "What specific Service Information document is mentioned for finish balancing issues?",
+      "answer": "Service Information 36 0 483 (196) must be referenced when possible causes like inaccurate stationary balancing or centering need to be eliminated.",
+      "question_type": "navigation",
+      "id": "36-02_wheels-a-q11"
+    },
+    {
+      "question": "What is shown in the image labeled 30 36 018?",
+      "answer": "The image shows connecting leads for the test sender being attached to a wheel.",
+      "question_type": "visual",
+      "id": "36-02_wheels-a-q12"
+    }
+  ]
+}

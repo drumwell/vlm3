@@ -1,0 +1,55 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-04",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6210-04.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:03:41.617558",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 478
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for the Instrument Cluster Gauges/Indicators?",
+      "answer": "6210-4 INSTRUMENT CLUSTER GAUGES/INDICATORS",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-04-q01"
+    },
+    {
+      "question": "At what PSI does the oil pressure switch open?",
+      "answer": "The oil pressure switch opens at 0.7 TO 2.1 PSI",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-04-q03"
+    },
+    {
+      "question": "What wire gauge is used for the connection labeled .5 GN/WT?",
+      "answer": ".5 GN/WT indicates a 0.5mm wire with Green/White color coding",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-04-q05"
+    },
+    {
+      "question": "What important note is shown about some vehicles at the bottom of the diagram?",
+      "answer": "SOME VEHICLES MAY CONTAIN AN ADDITIONAL SPLICE. (SEE GROUND DISTRIBUTION)",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-04-q06"
+    },
+    {
+      "question": "Which connector number is shown at the diagnostic connector?",
+      "answer": "The diagnostic connector shows connector number C101",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-04-q07"
+    },
+    {
+      "question": "What component is connected to the coolant temperature gauge?",
+      "answer": "The COOLANT TEMPERATURE SENDER is connected to the coolant temperature gauge",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-04-q08"
+    }
+  ]
+}

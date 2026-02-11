@@ -1,0 +1,91 @@
+{
+  "page_id": "34-31a_brakes",
+  "image_path": "raw/34 - Brakes/34-31a.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:21:28.470775",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 1032
+  },
+  "qa_pairs": [
+    {
+      "question": "How many mercury switches are in the acceleration pick-up for the BMW 325 iX?",
+      "answer": "There are two mercury switches, one each for forward and reverse drive, which are installed in longitudinal direction of car at an angle to the horizontal.",
+      "question_type": "factual",
+      "id": "34-31a_brakes-q01"
+    },
+    {
+      "question": "What resistance value indicates closed contact in the horizontal position for the mercury switches?",
+      "answer": "The series connected mercury switches provide closed contact in horizontal position with resistance less than 1 k-ohm.",
+      "question_type": "factual",
+      "id": "34-31a_brakes-q02"
+    },
+    {
+      "question": "What resistance value will cause the contact to open when the car experiences negative acceleration?",
+      "answer": "Negative acceleration (braking) of the car or inclination of the acceleration transmitter will displace the mercury filling and cause the contact to open with resistance greater than 2.5 M-ohms.",
+      "question_type": "factual",
+      "id": "34-31a_brakes-q03"
+    },
+    {
+      "question": "What percentage of braking deceleration is necessary to open the contact?",
+      "answer": "Braking deceleration of 35 to 45% is necessary to open the contact because the glass tube is inclined in such a manner.",
+      "question_type": "factual",
+      "id": "34-31a_brakes-q04"
+    },
+    {
+      "question": "How can the braking deceleration value for forward drive be simulated?",
+      "answer": "The braking deceleration value for forward drive can be simulated by inclining the acceleration pick-up from 19.5 to 24\u00b0 (with Special Tool 34 5 150 this is equal to 26.5 to 33.0 mm (1.043 to 1.299\")).",
+      "question_type": "procedural",
+      "id": "34-31a_brakes-q05"
+    },
+    {
+      "question": "Does the switching point for reverse drive require adjustment?",
+      "answer": "No, the switching point for reverse drive does not have to be adjusted.",
+      "question_type": "factual",
+      "id": "34-31a_brakes-q06"
+    },
+    {
+      "question": "What makes the BMW 325 iX unique in terms of drive system features?",
+      "answer": "BMW 325 iX (all wheel drive) is the first standard production car to have permanent all wheel drive with constantly switched central and rear axle locks and also a continuously effective ABS.",
+      "question_type": "factual",
+      "id": "34-31a_brakes-q07"
+    },
+    {
+      "question": "What is the primary duty of the acceleration pick-up in the BMW 325 iX?",
+      "answer": "The acceleration pick-up performs the duty of providing information on road condition (higher or lower traction) so that all three systems can be effective simultaneously in the BMW 325 iX (all wheel drive).",
+      "question_type": "operation",
+      "id": "34-31a_brakes-q08"
+    },
+    {
+      "question": "How does the ABS control unit use the acceleration pick-up information?",
+      "answer": "The ABS control unit will decide between various data fields depending on the switch condition (open or closed mercury switches), and consequently consider the traction condition of a street or road.",
+      "question_type": "operation",
+      "id": "34-31a_brakes-q09"
+    },
+    {
+      "question": "What happens when an open switch condition is detected for longer than 20 seconds?",
+      "answer": "If an open switch condition (resistance greater than 2.5 M-ohms) is reported to the ABS control unit over a period of time longer than 20 seconds, the ABS switches off and reports this to the driver with a warning lamp in the instrument cluster.",
+      "question_type": "diagnostic",
+      "id": "34-31a_brakes-q10"
+    },
+    {
+      "question": "What tool is mentioned for simulating the braking deceleration value?",
+      "answer": "Special Tool 34 5 150 is mentioned for simulating the braking deceleration value, which corresponds to inclining the acceleration pick-up from 19.5 to 24\u00b0.",
+      "question_type": "tool",
+      "id": "34-31a_brakes-q11"
+    },
+    {
+      "question": "What systems need to work simultaneously in the BMW 325 iX according to this page?",
+      "answer": "All three systems - permanent all wheel drive with constantly switched central and rear axle locks and continuously effective ABS - need to be effective simultaneously, requiring a sensor to provide road condition information.",
+      "question_type": "operation",
+      "id": "34-31a_brakes-q12"
+    }
+  ]
+}

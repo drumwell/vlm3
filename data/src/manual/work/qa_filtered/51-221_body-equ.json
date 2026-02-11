@@ -1,0 +1,91 @@
+{
+  "page_id": "51-221_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-221.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:15:51.928323",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 773
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for removing and installing left or right rear door lock?",
+      "answer": "The procedure code is 51 22 090.",
+      "question_type": "factual",
+      "id": "51-221_body-equ-q01"
+    },
+    {
+      "question": "What are the four components of the rear door lock arrangement according to the diagram?",
+      "answer": "The four components are: 1. Lock, 2. Catch button linkage, 3. Remote control, and 4. Drive/connecting linkage.",
+      "question_type": "visual",
+      "id": "51-221_body-equ-q02"
+    },
+    {
+      "question": "What should you do first when removing the rear door lock?",
+      "answer": "First shut the window, then remove the door trim panel (see 51 42 001) and pull off the plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-221_body-equ-q03"
+    },
+    {
+      "question": "How should you handle the remote control during installation?",
+      "answer": "Pre-load the remote control lightly during installation.",
+      "question_type": "procedural",
+      "id": "51-221_body-equ-q04"
+    },
+    {
+      "question": "What must be done to disconnect the catch button linkage during removal?",
+      "answer": "Disconnect the catch button linkage, and during installation, pull the linkage forward and press into clip at the same time.",
+      "question_type": "procedural",
+      "id": "51-221_body-equ-q05"
+    },
+    {
+      "question": "What additional steps are required for cars with central locks?",
+      "answer": "For cars with central locks, unscrew bolts, pull off plug, and disconnect drive. During installation, adjust drive according to section 51 26 010.",
+      "question_type": "procedural",
+      "id": "51-221_body-equ-q06"
+    },
+    {
+      "question": "What should be replaced if damaged during the door lock removal process?",
+      "answer": "Replace the damaged plastic sheet if it becomes damaged during removal.",
+      "question_type": "procedural",
+      "id": "51-221_body-equ-q07"
+    },
+    {
+      "question": "How do you remove the door lock itself from the door?",
+      "answer": "Unscrew bolts and remove the door lock.",
+      "question_type": "procedural",
+      "id": "51-221_body-equ-q08"
+    },
+    {
+      "question": "What reference number should you consult for adjusting the drive on cars with central locks?",
+      "answer": "See section 51 26 010 for adjusting the drive on cars with central locks.",
+      "question_type": "navigation",
+      "id": "51-221_body-equ-q09"
+    },
+    {
+      "question": "What is shown in diagram 30 51 122?",
+      "answer": "Diagram 30 51 122 shows the door trim panel removal with the plastic sheet being pulled off.",
+      "question_type": "visual",
+      "id": "51-221_body-equ-q10"
+    },
+    {
+      "question": "What does the step involving unclipping both holders refer to?",
+      "answer": "It refers to unscrewing bolts and unclipping both holders that secure the door remote control connection.",
+      "question_type": "procedural",
+      "id": "51-221_body-equ-q11"
+    },
+    {
+      "question": "What section reference is given for the door trim panel removal procedure?",
+      "answer": "The door trim panel removal procedure is referenced in section 51 42 001.",
+      "question_type": "navigation",
+      "id": "51-221_body-equ-q12"
+    }
+  ]
+}

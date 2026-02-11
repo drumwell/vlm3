@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-11-10",
+  "image_path": "raw/00 - Torque Specs/11-10.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:38:32.981410",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 575
+  },
+  "qa_pairs": [
+    {
+      "question": "Which engine type uses M8 screws with 17 Nm torque for the oil trap to cylinder head cover?",
+      "answer": "M21 engine",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-10-q07"
+    },
+    {
+      "question": "Which components in section 11.12 use M7 screws?",
+      "answer": "Cylinder head cover and timing case to cylinder head",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-10-q09"
+    },
+    {
+      "question": "What is the difference in torque between M8 screws for the oil trap and timing case connections?",
+      "answer": "The oil trap uses 17 Nm while the timing case uses 20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-10-q10"
+    }
+  ]
+}

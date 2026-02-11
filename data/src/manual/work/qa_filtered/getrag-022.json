@@ -1,0 +1,91 @@
+{
+  "page_id": "getrag-022",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/022.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:46:33.793804",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 775
+  },
+  "qa_pairs": [
+    {
+      "question": "Which shift rod from the left is identified as the input shaft?",
+      "answer": "The shift rod 2nd from the left is the input shaft and you can notice the rings around it.",
+      "question_type": "factual",
+      "id": "getrag-022-q01"
+    },
+    {
+      "question": "What coating is applied to the shaft to prevent corrosion?",
+      "answer": "The shaft is coated in what looks like zinc to stop corrosion.",
+      "question_type": "factual",
+      "id": "getrag-022-q02"
+    },
+    {
+      "question": "What problem is identified with the seal area on the shaft?",
+      "answer": "The seal has been sitting and a close look reveals the shaft is coated, but it has a rough edge where the seal has worn through it.",
+      "question_type": "inspection",
+      "id": "getrag-022-q03"
+    },
+    {
+      "question": "What maintenance procedure was performed to address the seal area and shift rods?",
+      "answer": "The seal area was polished and all the shift rods where they go through bushes were polished just to help smooth gear shifting and prolong the seal life.",
+      "question_type": "procedural",
+      "id": "getrag-022-q04"
+    },
+    {
+      "question": "What is the purpose of polishing the shift rods where they go through bushes?",
+      "answer": "Polishing the shift rods where they go through bushes helps smooth gear shifting and prolongs the seal life.",
+      "question_type": "procedural",
+      "id": "getrag-022-q05"
+    },
+    {
+      "question": "What component is shown in the ultrasonic cleaning basket?",
+      "answer": "A transmission component with visible bolt holes and mounting points is shown in the ultrasonic cleaning basket.",
+      "question_type": "visual",
+      "id": "getrag-022-q06"
+    },
+    {
+      "question": "What cleaning method is being used for the transmission components?",
+      "answer": "An ultrasonic cleaning basket is being used to clean the transmission components.",
+      "question_type": "procedural",
+      "id": "getrag-022-q07"
+    },
+    {
+      "question": "What visual indicator helps identify the input shaft among the shift rods?",
+      "answer": "The rings around the shift rod help identify it as the input shaft.",
+      "question_type": "visual",
+      "id": "getrag-022-q08"
+    },
+    {
+      "question": "What type of wear damage is visible on the shaft coating?",
+      "answer": "There is a rough edge where the seal has worn through the zinc coating on the shaft.",
+      "question_type": "inspection",
+      "id": "getrag-022-q09"
+    },
+    {
+      "question": "What maintenance benefit is achieved by polishing the seal area?",
+      "answer": "Polishing the seal area helps prolong the seal life and improves the sealing surface.",
+      "question_type": "procedural",
+      "id": "getrag-022-q10"
+    },
+    {
+      "question": "What does the lower image show in relation to transmission service?",
+      "answer": "The lower image shows a polished shift rod that has been cleaned and prepared for reassembly.",
+      "question_type": "visual",
+      "id": "getrag-022-q11"
+    },
+    {
+      "question": "What preparation step is recommended for all shift rod contact surfaces?",
+      "answer": "All shift rods should be polished where they go through bushes to help smooth gear shifting and prolong seal life.",
+      "question_type": "procedural",
+      "id": "getrag-022-q12"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "page_id": "26-13_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-13.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:56:52.333300",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 723
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the cap for the front propeller shaft?",
+      "answer": "The procedure number is 26 20 020.",
+      "question_type": "factual",
+      "id": "26-13_propello-q01"
+    },
+    {
+      "question": "What type of drive system does this propeller shaft cap replacement procedure apply to?",
+      "answer": "This procedure applies to All Wheel Drive systems.",
+      "question_type": "factual",
+      "id": "26-13_propello-q02"
+    },
+    {
+      "question": "What is the first step to replace the front propeller shaft cap?",
+      "answer": "Remove front propeller shaft 26 20 000, then pull off cap.",
+      "question_type": "procedural",
+      "id": "26-13_propello-q03"
+    },
+    {
+      "question": "What part number is referenced for removing the front propeller shaft?",
+      "answer": "The front propeller shaft removal is referenced as 26 20 000.",
+      "question_type": "factual",
+      "id": "26-13_propello-q04"
+    },
+    {
+      "question": "What should be checked during installation of the propeller shaft cap?",
+      "answer": "Check seals on propeller shaft and power divider during installation.",
+      "question_type": "inspection",
+      "id": "26-13_propello-q05"
+    },
+    {
+      "question": "What are the part numbers shown in the diagrams on this page?",
+      "answer": "The diagrams show part numbers 30 26 028 and 30 26 029.",
+      "question_type": "visual",
+      "id": "26-13_propello-q06",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What components are visible in the upper diagram?",
+      "answer": "The upper diagram shows the front propeller shaft with the cap that needs to be removed.",
+      "question_type": "visual",
+      "id": "26-13_propello-q07"
+    },
+    {
+      "question": "What does the lower diagram illustrate?",
+      "answer": "The lower diagram shows the installation area where seals on the propeller shaft and power divider should be checked.",
+      "question_type": "visual",
+      "id": "26-13_propello-q08"
+    },
+    {
+      "question": "How is the cap removed from the front propeller shaft?",
+      "answer": "The cap is removed by pulling it off after the front propeller shaft has been removed.",
+      "question_type": "procedural",
+      "id": "26-13_propello-q09"
+    },
+    {
+      "question": "What critical inspection step must be performed during the installation process?",
+      "answer": "Seals on both the propeller shaft and power divider must be checked during installation.",
+      "question_type": "inspection",
+      "id": "26-13_propello-q10"
+    },
+    {
+      "question": "Which section of the manual contains this propeller shaft cap replacement procedure?",
+      "answer": "This procedure is located in Section 26 of the service manual.",
+      "question_type": "navigation",
+      "id": "26-13_propello-q11"
+    },
+    {
+      "question": "What is the relationship between the cap removal and the propeller shaft removal?",
+      "answer": "The front propeller shaft must first be removed using procedure 26 20 000 before the cap can be pulled off.",
+      "question_type": "procedural",
+      "id": "26-13_propello-q12"
+    }
+  ]
+}

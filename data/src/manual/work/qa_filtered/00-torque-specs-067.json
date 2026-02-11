@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-067",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/067.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:28:49.475628",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 571
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the assembly of upper and lower sections of the control unit housing?",
+      "answer": "5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-067-q01"
+    },
+    {
+      "question": "Which engine types use the assembly of upper and lower sections specification?",
+      "answer": "E32/E34/E36",
+      "question_type": "factual",
+      "id": "00-torque-specs-067-q02"
+    },
+    {
+      "question": "What torque value is specified for the center section to body connection?",
+      "answer": "3 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-067-q03"
+    },
+    {
+      "question": "What is the torque specification for the control unit holder in E box?",
+      "answer": "5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-067-q05"
+    },
+    {
+      "question": "What torque value is required for the control unit box cover?",
+      "answer": "4.4 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-067-q07"
+    },
+    {
+      "question": "What is the lowest torque specification shown in the control unit housing section?",
+      "answer": "3 Nm (ft. lbs.) for the center section to body",
+      "question_type": "factual",
+      "id": "00-torque-specs-067-q09"
+    },
+    {
+      "question": "How many different torque specifications are listed for the control unit housing components?",
+      "answer": "4 different torque specifications: 5 Nm, 3 Nm, 5 Nm, and 4.4 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-067-q10"
+    }
+  ]
+}

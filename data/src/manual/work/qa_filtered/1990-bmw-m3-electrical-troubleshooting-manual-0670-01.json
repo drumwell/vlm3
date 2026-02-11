@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/0670-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "fuse_chart",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:07:22.217973",
+    "prompt_template": "electrical_manual/fuse_chart",
+    "tokens_input": 1892,
+    "tokens_output": 712
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of the fuse for the horn circuit?",
+      "answer": "The horn circuit uses a 15A fuse (fuse number 7).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-01-q01"
+    },
+    {
+      "question": "Which fuse number controls the headlights and what is its amperage?",
+      "answer": "Fuse number 1 controls the headlights with a 7.5A rating. It also references fuses 2, 13, and 14.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-01-q02"
+    },
+    {
+      "question": "What circuits are protected by the 30A fuses in this fuse data chart?",
+      "answer": "The 30A fuses protect: Wiper/Washer (fuse 5), Rear Defogger (fuse 8), Sunroof/Power Windows (fuse 17), Auxiliary Fan (fuse 18), Heater/Air Conditioning Auxiliary Fan (fuse 20), Interior Lights/Central Locking/Radio/Antenna (fuse 27), and Cigar Lighter/Radio/Antenna (fuse 28).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-01-q03"
+    },
+    {
+      "question": "What is the circuit breaker rating for the Power Windows system?",
+      "answer": "The Power Windows system is protected by a 25A circuit breaker.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-01-q04"
+    },
+    {
+      "question": "Which fuse number is listed as 'Not Used' in the chart?",
+      "answer": "Fuse numbers 15, 25, and 26 are listed as 'Not Used'.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-01-q05"
+    },
+    {
+      "question": "What systems share fuse number 21 according to the chart?",
+      "answer": "Fuse number 21 (7.5A) protects the Auto-Charging Flashlight, Ignition Key Warning/Seatbelt Warning, and references connections to fuses 10, 11, 19, 27, 12, 28, and other circuits including Trunk Light and Active Check Control.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-01-q06"
+    },
+    {
+      "question": "Which fuse controls the fog lights and what is its amperage?",
+      "answer": "The fog lights are controlled by fuse number 29, which is a 7.5A fuse. It also references fuse 30.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-01-q07"
+    },
+    {
+      "question": "What is the amperage rating for the auxiliary fan fuses?",
+      "answer": "The auxiliary fan circuits use both 30A fuses (fuses 18 and 20) and 7.5A fuses (fuse 19), depending on the specific auxiliary fan function.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-01-q08"
+    }
+  ]
+}

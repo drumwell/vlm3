@@ -1,0 +1,91 @@
+{
+  "page_id": "13-627_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-627.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:42:18.313740",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 749
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW part number for removing and installing/checking the pressure sensor?",
+      "answer": "13 62 080",
+      "question_type": "factual",
+      "id": "13-627_fuel-sys-q01"
+    },
+    {
+      "question": "What are the steps to remove the pressure sensor?",
+      "answer": "Pull off plug (1), unscrew screw (2), and remove pressure sensor.",
+      "question_type": "procedural",
+      "id": "13-627_fuel-sys-q02"
+    },
+    {
+      "question": "What does FD stand for on the pressure sensor?",
+      "answer": "FD = Manufacturing date.",
+      "question_type": "factual",
+      "id": "13-627_fuel-sys-q03"
+    },
+    {
+      "question": "What callout numbers are shown in the top pressure sensor diagram?",
+      "answer": "The diagram shows callout numbers 1 and 2, where 1 indicates the plug connection and 2 indicates the screw.",
+      "question_type": "visual",
+      "id": "13-627_fuel-sys-q04"
+    },
+    {
+      "question": "What should be checked during installation of the pressure sensor?",
+      "answer": "Check code number (1).",
+      "question_type": "inspection",
+      "id": "13-627_fuel-sys-q05"
+    },
+    {
+      "question": "What resistance should be measured at atmospheric pressure of \u2264 860 mbar?",
+      "answer": "There will be resistance of approximately 0 ohms between plug connections (1 and 2).",
+      "question_type": "factual",
+      "id": "13-627_fuel-sys-q06"
+    },
+    {
+      "question": "What resistance should be measured at atmospheric pressure of \u2265 930 mbar?",
+      "answer": "There will be resistance of approximately \u221e ohms between plug connections (1 and 2).",
+      "question_type": "factual",
+      "id": "13-627_fuel-sys-q07"
+    },
+    {
+      "question": "Which plug connections are used for resistance testing of the pressure sensor?",
+      "answer": "Plug connections 1 and 2.",
+      "question_type": "diagnostic",
+      "id": "13-627_fuel-sys-q08"
+    },
+    {
+      "question": "What are the two atmospheric pressure ranges specified for checking the pressure sensor?",
+      "answer": "\u2264 860 mbar and \u2265 930 mbar.",
+      "question_type": "parameter",
+      "id": "13-627_fuel-sys-q09"
+    },
+    {
+      "question": "What diagram numbers are associated with the pressure sensor images?",
+      "answer": "30 13 626, 30 13 627, and 30 13 628.",
+      "question_type": "visual",
+      "id": "13-627_fuel-sys-q10"
+    },
+    {
+      "question": "Where can additional specifications for this procedure be found?",
+      "answer": "See Specifications (as noted with an asterisk at the bottom of the page).",
+      "question_type": "navigation",
+      "id": "13-627_fuel-sys-q11"
+    },
+    {
+      "question": "How does the resistance reading change based on atmospheric pressure conditions?",
+      "answer": "At low pressure (\u2264 860 mbar) the resistance is approximately 0 ohms, while at high pressure (\u2265 930 mbar) the resistance is approximately infinite ohms between the same plug connections.",
+      "question_type": "diagnostic",
+      "id": "13-627_fuel-sys-q12"
+    }
+  ]
+}

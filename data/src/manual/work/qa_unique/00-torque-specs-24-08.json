@@ -1,0 +1,43 @@
+{
+  "page_id": "00-torque-specs-24-08",
+  "image_path": "raw/00 - Torque Specs/24-08.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:01:13.651674",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 775
+  },
+  "qa_pairs": [
+    {
+      "question": "What size Torx screws are used for the F clutch on the 4HP-22/4HP-24 transmission?",
+      "answer": "M6 Torx screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-08-q02"
+    },
+    {
+      "question": "What transmission types use M8 Torx screws for the F clutch?",
+      "answer": "A5S 560Z transmission uses M8 Torx screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-08-q05"
+    },
+    {
+      "question": "Which transmission types are specified for the brake band adjusting components?",
+      "answer": "A 4 S 270 R/A 4 S 310 R transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-08-q07"
+    },
+    {
+      "question": "How many different torque values are specified for the F clutch Torx screws across different transmission types?",
+      "answer": "Two different torque values: 10 Nm for 4HP-22/4HP-24 transmissions and 23 Nm for A5S 560Z transmission.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-08-q10"
+    }
+  ]
+}

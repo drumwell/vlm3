@@ -1,0 +1,61 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6454-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6454-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:10:20.168517",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 581
+  },
+  "qa_pairs": [
+    {
+      "question": "Which fuse protects the high speed relay circuit for the auxiliary fan?",
+      "answer": "FUSE 18 - 30 AMP",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6454-00-q02"
+    },
+    {
+      "question": "At what temperature does the dual temperature switch close for the high speed fan operation?",
+      "answer": "210\u00b0F (99\u00b0C)",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6454-00-q03"
+    },
+    {
+      "question": "What wire color connects from the dual temperature switch terminal 2 to the normal speed relay?",
+      "answer": "75 BK (black)",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6454-00-q04"
+    },
+    {
+      "question": "What happens when the A/C compressor controls request the auxiliary fan to operate?",
+      "answer": "The fan operates through the normal speed relay via connector C204 with a 1 BK/VI wire signal",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6454-00-q06"
+    },
+    {
+      "question": "What wire color supplies power from FUSE 20 to the control switches?",
+      "answer": "4 GN/BR (green/brown)",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6454-00-q08"
+    },
+    {
+      "question": "How is the auxiliary fan circuit different when the engine is running versus not running?",
+      "answer": "When running, power comes from the unloader relay K7, when not running it comes hot at all times through C100",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6454-00-q09"
+    },
+    {
+      "question": "What connector supplies the evaporator temperature regulator with power?",
+      "answer": "S226 with a 5 BK/VI (black/violet) wire",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6454-00-q10"
+    }
+  ]
+}

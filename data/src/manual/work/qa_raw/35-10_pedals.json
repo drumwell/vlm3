@@ -1,0 +1,91 @@
+{
+  "page_id": "35-10_pedals",
+  "image_path": "raw/35 - Pedals/35-10.jpg",
+  "section_id": "35",
+  "section_name": "Pedals",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:29:24.812910",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 854
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the specified play measurement for the full throttle stop adjustment on manual transmission vehicles?",
+      "answer": "The full throttle stop should be adjusted so there is still 0.5 mm (0.020\") play on the full throttle stop of the throttle valve with the accelerator pedal plate in full throttle position.",
+      "question_type": "factual",
+      "id": "35-10_pedals-q01"
+    },
+    {
+      "question": "How much should you turn the adjusting screw to achieve the proper play adjustment?",
+      "answer": "Unscrewing the adjusting screw one and one half turns = 0.5 mm (0.020\") play.",
+      "question_type": "procedural",
+      "id": "35-10_pedals-q02"
+    },
+    {
+      "question": "What are the first three steps for accelerator cable adjustment on both manual and automatic transmissions?",
+      "answer": "1. Accelerator pedal on neutral stop. 2. Throttle valve in neutral position (automatic choke switched off). 3. Adjust the cable to remove tension.",
+      "question_type": "procedural",
+      "id": "35-10_pedals-q03"
+    },
+    {
+      "question": "What components are shown in the photograph with callout numbers 1 and 2?",
+      "answer": "The photograph shows the accelerator cable adjustment area with callouts 1 and 2 indicating specific adjustment points or components.",
+      "question_type": "visual",
+      "id": "35-10_pedals-q04"
+    },
+    {
+      "question": "What is the control distance specification that needs to be checked for automatic transmission full throttle stop adjustment?",
+      "answer": "Check control distance C* of the full throttle stop.",
+      "question_type": "inspection",
+      "id": "35-10_pedals-q05"
+    },
+    {
+      "question": "How should the full throttle stop be secured after adjustment on automatic transmission vehicles?",
+      "answer": "Lock with the M 8 nut.",
+      "question_type": "procedural",
+      "id": "35-10_pedals-q06"
+    },
+    {
+      "question": "What reference should be consulted for checking the pressure point on automatic transmission vehicles?",
+      "answer": "Check the pressure point for automatic transmission - see 24 00 004.",
+      "question_type": "navigation",
+      "id": "35-10_pedals-q07"
+    },
+    {
+      "question": "What is the part number for the replacing kickdown switch on EH transmission?",
+      "answer": "35 41 480.",
+      "question_type": "factual",
+      "id": "35-10_pedals-q08"
+    },
+    {
+      "question": "What steps are required for kickdown switch installation?",
+      "answer": "Adjust locknuts to distance C*. Make final adjustments after installation. Tightening torque*.",
+      "question_type": "procedural",
+      "id": "35-10_pedals-q09"
+    },
+    {
+      "question": "What should be done with the flat male plug during kickdown switch replacement?",
+      "answer": "Pull off flat male plug (1). Unscrew nuts (2). Unscrew switch.",
+      "question_type": "procedural",
+      "id": "35-10_pedals-q10"
+    },
+    {
+      "question": "Where can you find the BMW Test Plan referenced for the kickdown switch check?",
+      "answer": "See BMW Test Plan in Group 24.",
+      "question_type": "navigation",
+      "id": "35-10_pedals-q11"
+    },
+    {
+      "question": "What play measurement should be maintained in the kickdown position for automatic transmission full throttle stop adjustment?",
+      "answer": "Adjust full throttle stop that there is still 0.5 mm (0.020\") play on full throttle stop of the throttle valve in kickdown position (pedal pressed beyond full throttle stop).",
+      "question_type": "factual",
+      "id": "35-10_pedals-q12"
+    }
+  ]
+}

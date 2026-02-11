@@ -1,0 +1,25 @@
+{
+  "page_id": "bmwtorquespecs-074",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/074.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:26:24.071450",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 608
+  },
+  "qa_pairs": [
+    {
+      "question": "Which engines use the twin temperature sensor with 4-pin plug-in connection (6AZ)?",
+      "answer": "M41/M43/M44/S50/S52/M52/M62/M73",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-074-q07"
+    }
+  ]
+}

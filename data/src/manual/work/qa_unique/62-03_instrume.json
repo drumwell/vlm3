@@ -1,0 +1,49 @@
+{
+  "page_id": "62-03_instrume",
+  "image_path": "raw/62 - Instruments/62-03.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:44:49.122929",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 624
+  },
+  "qa_pairs": [
+    {
+      "question": "What must be removed first when removing the speedometer?",
+      "answer": "Remove and install instrument carrier assembly 62 21 000.",
+      "question_type": "procedural",
+      "id": "62-03_instrume-q02"
+    },
+    {
+      "question": "What is the first step shown in the speedometer removal procedure?",
+      "answer": "Unscrew screws.",
+      "question_type": "procedural",
+      "id": "62-03_instrume-q03"
+    },
+    {
+      "question": "After unscrewing the screws, what is the next step in the removal process?",
+      "answer": "Take instruments with carrier out of housing.",
+      "question_type": "procedural",
+      "id": "62-03_instrume-q05"
+    },
+    {
+      "question": "How many main steps are involved in removing the speedometer?",
+      "answer": "Three main steps: unscrew screws, take instruments with carrier out of housing, and unscrew bolt.",
+      "question_type": "procedural",
+      "id": "62-03_instrume-q10"
+    },
+    {
+      "question": "What arrows are visible in diagram 30 62 012?",
+      "answer": "Multiple arrows pointing to the screws that need to be unscrewed.",
+      "question_type": "visual",
+      "id": "62-03_instrume-q11"
+    }
+  ]
+}

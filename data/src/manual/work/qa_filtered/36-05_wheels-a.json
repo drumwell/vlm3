@@ -1,0 +1,85 @@
+{
+  "page_id": "36-05_wheels-a",
+  "image_path": "raw/36 - Wheels and Tires/36-05.jpg",
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:31:03.265120",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 779
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for checking front or rear wheel for lateral and radial runout?",
+      "answer": "36 10 209 is the procedure for checking front or rear wheel for lateral and radial runout.",
+      "question_type": "factual",
+      "id": "36-05_wheels-a-q01"
+    },
+    {
+      "question": "What reference should you see for removing the wheel before checking runout?",
+      "answer": "You should see section 36 10 300 for wheel removal procedures.",
+      "question_type": "navigation",
+      "id": "36-05_wheels-a-q02"
+    },
+    {
+      "question": "How must the wheel be positioned when mounting it on the balancing machine?",
+      "answer": "The wheel must be mounted on the balancing machine in the same manner as mounted on the car, with the valve facing down, in order to avoid transmitted tension.",
+      "question_type": "procedural",
+      "id": "36-05_wheels-a-q03"
+    },
+    {
+      "question": "What are the three numbered components shown in the balancing machine diagram?",
+      "answer": "1 is Basic flange, 2 is Center, and 3 is Type flange.",
+      "question_type": "visual",
+      "id": "36-05_wheels-a-q04"
+    },
+    {
+      "question": "What special tool is required for measuring tire runout?",
+      "answer": "Special Tool 36 1 000 is required for measuring tire runout.",
+      "question_type": "tool",
+      "id": "36-05_wheels-a-q05"
+    },
+    {
+      "question": "How should Special Tool 36 1 000 be positioned when measuring radial runout?",
+      "answer": "Special tool must be perpendicular to the tire's road contact surface when measuring radial runout.",
+      "question_type": "procedural",
+      "id": "36-05_wheels-a-q06"
+    },
+    {
+      "question": "What is the procedure for measuring maximum tire radial runout?",
+      "answer": "Apply Special Tool 36 1 000 on road contact surface of tire, turn wheel by hand and measure max. tire radial runout.",
+      "question_type": "procedural",
+      "id": "36-05_wheels-a-q07"
+    },
+    {
+      "question": "How should the special tool be positioned when measuring lateral runout?",
+      "answer": "Special tool must be perpendicular to the tire's side surface when measuring lateral runout.",
+      "question_type": "procedural",
+      "id": "36-05_wheels-a-q08"
+    },
+    {
+      "question": "What important warning is given about measuring on tire specifications?",
+      "answer": "Don't measure on tire specifications - this is noted as an important caution.",
+      "question_type": "safety",
+      "id": "36-05_wheels-a-q10"
+    },
+    {
+      "question": "What additional reference document should be consulted for this procedure?",
+      "answer": "Workshop Equipment Planning Documents should be referred to for additional information.",
+      "question_type": "navigation",
+      "id": "36-05_wheels-a-q11"
+    },
+    {
+      "question": "Where can you find the specifications for tire runout measurements?",
+      "answer": "See Specifications section for tire runout measurement values and tolerances.",
+      "question_type": "navigation",
+      "id": "36-05_wheels-a-q12"
+    }
+  ]
+}

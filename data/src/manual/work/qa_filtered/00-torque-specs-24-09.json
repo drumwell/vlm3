@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-24-09",
+  "image_path": "raw/00 - Torque Specs/24-09.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:01:28.394154",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 680
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for valve body to transmission bolts on the 3HP-22?",
+      "answer": "11 Nm with M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-09-q01"
+    },
+    {
+      "question": "What torque should be applied to valve housing to valve body bolts?",
+      "answer": "5 Nm with M6 screws for all transmission types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-09-q02"
+    },
+    {
+      "question": "How much torque is required for the 4HP-22/4HP-24/A5S 310Z/A5S 440Z/A5S 300J valve body bolts?",
+      "answer": "8 Nm with M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-09-q04"
+    },
+    {
+      "question": "What screw type and torque is specified for A4S 270R/A4S 310R transmissions?",
+      "answer": "5/16\" screws with 20 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-09-q05"
+    },
+    {
+      "question": "Which hydraulic/electronic control element uses reference 1AZ?",
+      "answer": "Valve body to transmission.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-09-q08"
+    },
+    {
+      "question": "What component is identified by reference 2AZ in the automatic transmission hydraulic control elements?",
+      "answer": "Valve housing to valve body.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-09-q09"
+    },
+    {
+      "question": "What is the highest torque value listed for automatic transmission hydraulic/electronic control elements?",
+      "answer": "20 Nm for A4S 270R/A4S 310R transmissions using 5/16\" screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-09-q10"
+    }
+  ]
+}

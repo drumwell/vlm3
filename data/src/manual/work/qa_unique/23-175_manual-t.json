@@ -1,0 +1,79 @@
+{
+  "page_id": "23-175_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-175.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:35:56.989302",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 814
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you use to avoid sealing surface damage when pressing out shafts?",
+      "answer": "To avoid sealing surface damage, use a piece of wood, aluminum or similar material between claws and sealing surface.",
+      "question_type": "safety",
+      "id": "23-175_manual-t-q02"
+    },
+    {
+      "question": "How do you drive out the pin in the 3rd/4th gear selector fork?",
+      "answer": "Drive out pin (10) in 3rd/4th gear selector fork, then replace the pin during installation.",
+      "question_type": "procedural",
+      "id": "23-175_manual-t-q03"
+    },
+    {
+      "question": "What important precaution should you take when knocking out the 3rd/4th gear selector rod?",
+      "answer": "Be careful not to clamp selector rods and layshaft while pressing out parts. Lockpin (11) should be secured in selector rod.",
+      "question_type": "safety",
+      "id": "23-175_manual-t-q04"
+    },
+    {
+      "question": "How do you engage 2nd and reverse gears during disassembly?",
+      "answer": "Engage 2nd and reverse gears by pushing 1st/2nd and 5th/reverse gear selector rods forward.",
+      "question_type": "procedural",
+      "id": "23-175_manual-t-q05"
+    },
+    {
+      "question": "What should you check during installation of all bearings?",
+      "answer": "Check condition of all bearings, replacing if necessary during installation.",
+      "question_type": "inspection",
+      "id": "23-175_manual-t-q06"
+    },
+    {
+      "question": "Which gear selector rods need to be installed with selector forks?",
+      "answer": "Install 3rd/4th gear selector fork and 1st/2nd as well as 5th/reverse gear selector rods with selector forks.",
+      "question_type": "procedural",
+      "id": "23-175_manual-t-q07"
+    },
+    {
+      "question": "What component should you check when installing gear selector components?",
+      "answer": "Check thrust washer (1) when installing gear selector components.",
+      "question_type": "inspection",
+      "id": "23-175_manual-t-q08"
+    },
+    {
+      "question": "What should you remove from the case rear section during disassembly?",
+      "answer": "Remove all detent and locking balls in case rear section.",
+      "question_type": "procedural",
+      "id": "23-175_manual-t-q09"
+    },
+    {
+      "question": "What lubrication is required during reassembly?",
+      "answer": "Lubricate lockpin and locking lever with oil during reassembly.",
+      "question_type": "tool",
+      "id": "23-175_manual-t-q11"
+    },
+    {
+      "question": "What does callout number 10 indicate in the gear selector fork procedure?",
+      "answer": "Callout number 10 indicates the pin that needs to be driven out of the 3rd/4th gear selector fork.",
+      "question_type": "visual",
+      "id": "23-175_manual-t-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "41-010_body",
+  "image_path": "raw/41 - Body/41-010.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:36:15.795713",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 1037
+  },
+  "qa_pairs": [
+    {
+      "question": "What does SMC stand for in the context of glass fiber reinforced plastic repair?",
+      "answer": "SMC stands for Sheet Moulding Compound, which is a processing method with polyester resin saturated sheets (prepregs), which are then hardened with application of pressure and heat.",
+      "question_type": "factual",
+      "id": "41-010_body-q01"
+    },
+    {
+      "question": "What does BMC stand for and how is it different from SMC?",
+      "answer": "BMC stands for Bulk Moulding Compound, which is an injection moulding method with application of heat and high pressure producing a sauerkraut-similar compound. Unlike SMC which uses prepreg sheets, BMC is not sheetlike.",
+      "question_type": "factual",
+      "id": "41-010_body-q02"
+    },
+    {
+      "question": "How can you identify if a body part is made of glass fiber reinforced plastic?",
+      "answer": "Strong solid parts, insensitive to solvents. Flame test shows crispy charcoaled, yellowish red, strongly sooting flame. Only damage which has no influence on the stiffness and strength of mounting points may be repaired.",
+      "question_type": "inspection",
+      "id": "41-010_body-q03"
+    },
+    {
+      "question": "What are the advantages of the company approved ultraviolet hardening repair system?",
+      "answer": "Single component system with no mixing errors, no waste since excess material won't harden without UV light, very long application time in closed rooms, glass sheets pre-impregnated with no inclusions, easy moulding without dirtying hands, uniform handling, and reusable tools that can be stored until needed.",
+      "question_type": "factual",
+      "id": "41-010_body-q04"
+    },
+    {
+      "question": "What tool requirements are specified for working with glass fiber reinforced plastics?",
+      "answer": "Hand tools and equipment used for sheet metal work can be applied as material removing tools. An ultraviolet lamp is required for hardening the resin. Cutting and grinding tools must be sharp and must not smear to avoid unsuitable heat that creates polished spots.",
+      "question_type": "tool",
+      "id": "41-010_body-q05"
+    },
+    {
+      "question": "At what temperature should plastic parts be repaired?",
+      "answer": "Only repair plastic parts at room temperature.",
+      "question_type": "safety",
+      "id": "41-010_body-q06"
+    },
+    {
+      "question": "What is the contact information for Lothar Reif GmbH?",
+      "answer": "Lothar Reif GmbH, Relo-Kunststoffe, Kolpingstr. 2, D-7850 L\u00f6rrach, Phone: 07621/40360, Telex: 0773516.",
+      "question_type": "factual",
+      "id": "41-010_body-q07"
+    },
+    {
+      "question": "Who supplies the ultraviolet lamp for the repair system?",
+      "answer": "HWB (A Business Division of BMW AG) supplies the ultraviolet lamp.",
+      "question_type": "factual",
+      "id": "41-010_body-q08"
+    },
+    {
+      "question": "What type of damage can be repaired on M3 car trunk lids?",
+      "answer": "Broken off or torn corners and damage on the outer panel may be repaired. However, repairs may not be carried out on the supporting inner panel elements and threaded inserts of mounting points.",
+      "question_type": "procedural",
+      "id": "41-010_body-q09"
+    },
+    {
+      "question": "What are the limitations for repairing glass fiber reinforced plastic parts?",
+      "answer": "In extreme driving conditions body parts will be subjected to strong vibrations and wind pressure or suction. Consequently only damage which has no influence on the stiffness and strength of mounting points may be repaired.",
+      "question_type": "safety",
+      "id": "41-010_body-q10"
+    },
+    {
+      "question": "What should you do when in doubt about a part's repairability?",
+      "answer": "Replace a part when in doubt.",
+      "question_type": "procedural",
+      "id": "41-010_body-q11"
+    },
+    {
+      "question": "Why is it recommended to practice repairs on parts no longer required?",
+      "answer": "Repairing glass fiber reinforced plastic parts will considerably depend on the type of damage, preparation of the damaged zones as well as perfection of the work. It is recommended to practice repairs on parts no longer required in order to have sufficient experience.",
+      "question_type": "procedural",
+      "id": "41-010_body-q12"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "page_id": "13-854_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-854.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:53:35.288704",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 723
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I do if the cold start valve is leaking?",
+      "answer": "Check the cold start valve by removing it (keeping fuel line connected), plug Jetronic test lead 61 1 440 on cold start valve and connect with B+ and ground, then hold cold start valve in measuring glass 13 3 020.",
+      "question_type": "procedural",
+      "id": "13-854_fuel-sys-q01"
+    },
+    {
+      "question": "What is the next step if the cold start valve is ejecting properly during testing?",
+      "answer": "Disconnect Jetronic test lead on cold start valve. The cold start valve must not eject when the test lead is disconnected.",
+      "question_type": "procedural",
+      "id": "13-854_fuel-sys-q03"
+    },
+    {
+      "question": "What should I do if the cold start valve continues to eject after disconnecting the Jetronic test lead?",
+      "answer": "Replace the cold start valve, as it should not eject when the test lead is disconnected.",
+      "question_type": "troubleshooting",
+      "id": "13-854_fuel-sys-q04"
+    },
+    {
+      "question": "What measuring glass is specified for testing the cold start valve?",
+      "answer": "Measuring glass 13 3 020 is specified for holding the cold start valve during testing.",
+      "question_type": "tool",
+      "id": "13-854_fuel-sys-q05"
+    },
+    {
+      "question": "What Jetronic test lead is required for cold start valve testing?",
+      "answer": "Jetronic test lead 61 1 440 is required for testing the cold start valve.",
+      "question_type": "tool",
+      "id": "13-854_fuel-sys-q06"
+    },
+    {
+      "question": "Which connection point should be used when testing the fuel pump during cold start valve diagnosis?",
+      "answer": "Connect conn. 87a on the disconnected relay socket with B+ to run the fuel pump.",
+      "question_type": "procedural",
+      "id": "13-854_fuel-sys-q07"
+    },
+    {
+      "question": "What is the cause being diagnosed in this troubleshooting section?",
+      "answer": "Cold start valve leaks is the cause being diagnosed in this section.",
+      "question_type": "factual",
+      "id": "13-854_fuel-sys-q08"
+    },
+    {
+      "question": "What should remain connected when removing the cold start valve for testing?",
+      "answer": "The fuel line should remain connected when removing the cold start valve for testing.",
+      "question_type": "procedural",
+      "id": "13-854_fuel-sys-q09"
+    },
+    {
+      "question": "What is the final corrective action if the cold start valve fails any of the tests?",
+      "answer": "Replace the cold start valve if it fails to eject correctly when energized or if it continues to eject when not energized.",
+      "question_type": "troubleshooting",
+      "id": "13-854_fuel-sys-q10"
+    }
+  ]
+}

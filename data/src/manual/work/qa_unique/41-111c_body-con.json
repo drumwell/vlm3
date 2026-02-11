@@ -1,0 +1,67 @@
+{
+  "page_id": "41-111c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-111c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:43:24.155848",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 814
+  },
+  "qa_pairs": [
+    {
+      "question": "What components should be removed or covered up in the repair area?",
+      "answer": "Remove or cover up all car parts which are located in the repair area or subjected to heat, sparks and dust.",
+      "question_type": "safety",
+      "id": "41-111c_body-con-q03"
+    },
+    {
+      "question": "What is the first step shown in the procedure for accessing the trunk floor area?",
+      "answer": "The first step is to drill out spot welds on the left and right sides of the trunk floor area.",
+      "question_type": "procedural",
+      "id": "41-111c_body-con-q04"
+    },
+    {
+      "question": "What must you do to the connections on both sides before proceeding?",
+      "answer": "You must uncover connections on left and right sides before proceeding with the repair.",
+      "question_type": "procedural",
+      "id": "41-111c_body-con-q05"
+    },
+    {
+      "question": "Where should the cutting line be marked on the cross member?",
+      "answer": "Mark the cutting line behind flange of the cross member, with the cutting line approximately along edge of bead.",
+      "question_type": "procedural",
+      "id": "41-111c_body-con-q06"
+    },
+    {
+      "question": "What important caution is given when cutting off the trunk floor plate?",
+      "answer": "Important! Don't damage the side members when cutting off the trunk floor plate along the marked line.",
+      "question_type": "safety",
+      "id": "41-111c_body-con-q07"
+    },
+    {
+      "question": "What should be done to spot welds on the left and right sides during the repair?",
+      "answer": "Uncover and drill out spot welds on left and right sides.",
+      "question_type": "procedural",
+      "id": "41-111c_body-con-q09"
+    },
+    {
+      "question": "What diagram number shows the step for marking the cutting line behind the cross member flange?",
+      "answer": "Diagram 30 41 623 shows the step for marking the cutting line behind flange of the cross member.",
+      "question_type": "visual",
+      "id": "41-111c_body-con-q11"
+    },
+    {
+      "question": "What diagram number illustrates the final step of drilling out spot welds along the side members?",
+      "answer": "Diagram 30 41 626 illustrates drilling out spot welds along side members approximately 80 mm toward the rear.",
+      "question_type": "visual",
+      "id": "41-111c_body-con-q12"
+    }
+  ]
+}

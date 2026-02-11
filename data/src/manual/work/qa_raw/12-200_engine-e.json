@@ -1,0 +1,79 @@
+{
+  "page_id": "12-200_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-200.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:36:13.489036",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 636
+  },
+  "qa_pairs": [
+    {
+      "question": "How are critical emission control faults displayed to the driver?",
+      "answer": "Critical emission control relevant faults are displayed in the instrument cluster by the \"Check Engine\" control lamp coming on and staying on continuously.",
+      "question_type": "factual",
+      "id": "12-200_engine-e-q01"
+    },
+    {
+      "question": "How many different faults can be detected while driving or operating the car?",
+      "answer": "Four different faults will be detected while driving or operating the car.",
+      "question_type": "factual",
+      "id": "12-200_engine-e-q02"
+    },
+    {
+      "question": "What position must the ignition key be in to read fault codes?",
+      "answer": "The ignition key must be in the \"ignition on\" position to read out fault codes with the help of a flashing code prior to starting the engine.",
+      "question_type": "procedural",
+      "id": "12-200_engine-e-q03"
+    },
+    {
+      "question": "What does Code 1 indicate in the flashing code output?",
+      "answer": "Code 1 indicates a faulty air flow sensor.",
+      "question_type": "diagnostic",
+      "id": "12-200_engine-e-q04"
+    },
+    {
+      "question": "What fault does Code 3 represent?",
+      "answer": "Code 3 represents a faulty engine temperature sensor.",
+      "question_type": "diagnostic",
+      "id": "12-200_engine-e-q05"
+    },
+    {
+      "question": "What component does Code 4 diagnose as faulty?",
+      "answer": "Code 4 indicates a faulty idle speed switch.",
+      "question_type": "diagnostic",
+      "id": "12-200_engine-e-q06"
+    },
+    {
+      "question": "How long is each timing interval in the flashing code pattern?",
+      "answer": "Each timing interval in the flashing code pattern is 3 seconds long, with 1 second lamp on and 1 second lamp off periods within the codes.",
+      "question_type": "procedural",
+      "id": "12-200_engine-e-q07"
+    },
+    {
+      "question": "What does Code 2 diagnose in the fault code system?",
+      "answer": "Code 2 indicates a faulty oxygen sensor.",
+      "question_type": "diagnostic",
+      "id": "12-200_engine-e-q08"
+    },
+    {
+      "question": "How is a fault cancelled from memory after repair?",
+      "answer": "A fault is cancelled in the memory automatically after repairing after the engine has been started five or at the most ten times.",
+      "question_type": "procedural",
+      "id": "12-200_engine-e-q09"
+    },
+    {
+      "question": "How does the fault lamp behave when displaying fault codes?",
+      "answer": "The fault lamp will be switched off and on in accordance with the fault number, following the flashing code pattern shown in the diagram.",
+      "question_type": "operation",
+      "id": "12-200_engine-e-q10"
+    }
+  ]
+}

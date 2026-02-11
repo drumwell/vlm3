@@ -1,0 +1,37 @@
+{
+  "page_id": "41-316_body",
+  "image_path": "raw/41 - Body/41-316.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:00:00.157257",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 664
+  },
+  "qa_pairs": [
+    {
+      "question": "What area of the side panel should be brazed according to the middle left image?",
+      "answer": "Braze side panel in area of rear window frame and trunk.",
+      "question_type": "procedural",
+      "id": "41-316_body-q02"
+    },
+    {
+      "question": "What should be done after brazing and grinding down the side panel/tail panel joint?",
+      "answer": "Braze and grind down side panel/tail panel joint.",
+      "question_type": "procedural",
+      "id": "41-316_body-q04"
+    },
+    {
+      "question": "What additional process may be needed after grinding the joints?",
+      "answer": "Tinning if necessary.",
+      "question_type": "procedural",
+      "id": "41-316_body-q12"
+    }
+  ]
+}

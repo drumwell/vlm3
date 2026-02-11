@@ -1,0 +1,73 @@
+{
+  "page_id": "64-110_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-110.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:54:19.747163",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 790
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the cable for footwell ventilation?",
+      "answer": "The procedure number is 64 11 071.",
+      "question_type": "factual",
+      "id": "64-110_heating--q01"
+    },
+    {
+      "question": "What are the first two steps when replacing the footwell ventilation cable?",
+      "answer": "Disconnect battery ground lead, then remove and install instrument panel trim at left 51 45 180.",
+      "question_type": "procedural",
+      "id": "64-110_heating--q02"
+    },
+    {
+      "question": "What should be removed and installed according to the procedure reference?",
+      "answer": "Remove and install tray 51 16 200.",
+      "question_type": "procedural",
+      "id": "64-110_heating--q03"
+    },
+    {
+      "question": "How do you install the cable on the slide control?",
+      "answer": "Connect cable (1) on slide control (2), push slide control and air flap against stop, turn sleeve (3) until it can be placed in the opening, then lock cable with clamp (4).",
+      "question_type": "procedural",
+      "id": "64-110_heating--q04"
+    },
+    {
+      "question": "What components need to be removed from the radio opening area?",
+      "answer": "Remove radio opening mask or radio, pull covers (1) or switches (2) out of control panel, and pull off plugs (3) on switches (2).",
+      "question_type": "procedural",
+      "id": "64-110_heating--q05"
+    },
+    {
+      "question": "What is the next step after unscrewing bolts from the control panel?",
+      "answer": "Pull out control panel slightly.",
+      "question_type": "procedural",
+      "id": "64-110_heating--q06"
+    },
+    {
+      "question": "How do you disconnect the cable from the lever mechanism?",
+      "answer": "Lift out clamp (1) and disconnect cable (2) on lever (3).",
+      "question_type": "procedural",
+      "id": "64-110_heating--q07"
+    },
+    {
+      "question": "What are the steps to remove the cable clamp and disconnect the cable?",
+      "answer": "Pull out clamp (1), disconnect cable (2) on lever (3) and remove.",
+      "question_type": "procedural",
+      "id": "64-110_heating--q08"
+    },
+    {
+      "question": "What components are shown in the radio opening removal diagram?",
+      "answer": "The diagram shows covers or switches (1 and 2) being pulled out of the control panel and plugs (3) on the switches.",
+      "question_type": "visual",
+      "id": "64-110_heating--q11"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "41-217_body",
+  "image_path": "raw/41 - Body/41-217.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:54:41.294423",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 711
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be checked between the glass and body opening edge when installing a windshield?",
+      "answer": "Check for uniform clearance and same curvature between glass and body opening edge.",
+      "question_type": "inspection",
+      "id": "41-217_body-q01"
+    },
+    {
+      "question": "Where should holes be drilled in the roof frame for welding?",
+      "answer": "Drill holes in roof frame outside section for insert gas plug welding.",
+      "question_type": "procedural",
+      "id": "41-217_body-q03"
+    },
+    {
+      "question": "What preparation is required for blank metal parts before installing the roof panel?",
+      "answer": "Straighten and grind mating surfaces. Coat blank metal parts with zinc dust paint before installing roof panel.",
+      "question_type": "procedural",
+      "id": "41-217_body-q04"
+    },
+    {
+      "question": "What type of welding is used for the roof frame outside section?",
+      "answer": "Clamp on and spot weld roof frame outside section.",
+      "question_type": "procedural",
+      "id": "41-217_body-q05"
+    },
+    {
+      "question": "What should be done at the provided holes during roof repair?",
+      "answer": "Plug spot weld at provided holes.",
+      "question_type": "procedural",
+      "id": "41-217_body-q06"
+    },
+    {
+      "question": "How many pieces of rubber frame are recommended for windshield installation if necessary?",
+      "answer": "If necessary, install windshield with several pieces of rubber frame.",
+      "question_type": "factual",
+      "id": "41-217_body-q07"
+    },
+    {
+      "question": "What type of paint should be applied to blank metal parts?",
+      "answer": "Coat blank metal parts with zinc dust paint before installing roof panel.",
+      "question_type": "factual",
+      "id": "41-217_body-q08"
+    },
+    {
+      "question": "What is the first step after removing the roof panel?",
+      "answer": "Lift off roof panel and then spot weld roof frame inside section.",
+      "question_type": "procedural",
+      "id": "41-217_body-q09"
+    },
+    {
+      "question": "What surface preparation is required before roof panel installation?",
+      "answer": "Straighten and grind mating surfaces before installing the roof panel.",
+      "question_type": "procedural",
+      "id": "41-217_body-q10"
+    },
+    {
+      "question": "What welding method is specified for the holes drilled in the roof frame?",
+      "answer": "Insert gas plug welding is used for the holes drilled in the roof frame outside section.",
+      "question_type": "factual",
+      "id": "41-217_body-q11"
+    },
+    {
+      "question": "What should be done to the roof frame outside section after clamping?",
+      "answer": "After clamping on the roof frame outside section, spot weld it in place.",
+      "question_type": "procedural",
+      "id": "41-217_body-q12"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "21-07_clutch",
+  "image_path": "raw/21 - Clutch/21-07.jpg",
+  "section_id": "21",
+  "section_name": "Clutch",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:21:26.633200",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 669
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the possible causes if my clutch is slipping?",
+      "answer": "Clutch slipping can be caused by: insufficient clutch contact pressure, seriously worn liner, liner splattered with oil from transmission or crankshaft seal faults, overheated clutch, or clutch not being an original BMW part.",
+      "question_type": "diagnostic",
+      "id": "21-07_clutch-q01"
+    },
+    {
+      "question": "How do I fix a clutch that slips due to insufficient contact pressure?",
+      "answer": "Replace clutch 21 21 000.",
+      "question_type": "procedural",
+      "id": "21-07_clutch-q02"
+    },
+    {
+      "question": "What should I do if the clutch grabs but the liner is not as specified?",
+      "answer": "Replace drive plate 21 21 000.",
+      "question_type": "procedural",
+      "id": "21-07_clutch-q03"
+    },
+    {
+      "question": "My clutch won't release - what could cause the drive plate to be seized on the transmission input shaft?",
+      "answer": "The drive plate can seize on the transmission input shaft, which requires servicing the drive plate and transmission input shaft, replacing damaged parts if necessary.",
+      "question_type": "diagnostic",
+      "id": "21-07_clutch-q04"
+    },
+    {
+      "question": "What's the correction if there's a bearing fault in the crankshaft for transmission input shaft?",
+      "answer": "Replace bearing in crankshaft 11 21 571.",
+      "question_type": "procedural",
+      "id": "21-07_clutch-q05"
+    },
+    {
+      "question": "How do I address air in the clutch hydraulic system when the clutch doesn't release?",
+      "answer": "Bleed clutch 21 00 006.",
+      "question_type": "procedural",
+      "id": "21-07_clutch-q06"
+    },
+    {
+      "question": "What causes clutch noise due to unbalanced clutch and drive plate?",
+      "answer": "Excessive unbalance of clutch and drive plate causes clutch noise.",
+      "question_type": "diagnostic",
+      "id": "21-07_clutch-q07"
+    },
+    {
+      "question": "If the clutch rivets are loose and causing noise, what's the fix?",
+      "answer": "Replace clutch 21 21 000.",
+      "question_type": "procedural",
+      "id": "21-07_clutch-q08"
+    },
+    {
+      "question": "What should I check if the clutch grabs and the crankshaft is not aligned with the transmission input shaft?",
+      "answer": "Check centering surfaces on engine and transmission.",
+      "question_type": "inspection",
+      "id": "21-07_clutch-q09"
+    },
+    {
+      "question": "How do I correct a clutch that doesn't release due to excessive lateral runout of the drive plate?",
+      "answer": "Straighten or replace drive plate 21 21 565.",
+      "question_type": "procedural",
+      "id": "21-07_clutch-q10"
+    }
+  ]
+}

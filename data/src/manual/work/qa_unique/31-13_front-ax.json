@@ -1,0 +1,85 @@
+{
+  "page_id": "31-13_front-ax",
+  "image_path": "raw/31 - Front Axle/31-13.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:03:24.516865",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 861
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required for all wheel drive cars when replacing front spring strut shock absorber?",
+      "answer": "Special Tool 31 3 117 must be set up on mount for all wheel drive cars.",
+      "question_type": "tool",
+      "id": "31-13_front-ax-q01"
+    },
+    {
+      "question": "What is the important requirement when replacing shock absorbers?",
+      "answer": "Always replace shock absorbers with ones having same code K. To know whether shock absorbers have to be replaced, check shock absorbers with a 'Shock Tester' or removed in an absorber testing machine.",
+      "question_type": "safety",
+      "id": "31-13_front-ax-q02"
+    },
+    {
+      "question": "Where can you find information about cars with Electronic Absorber Control (EDC)?",
+      "answer": "Refer to information in Group 37.",
+      "question_type": "navigation",
+      "id": "31-13_front-ax-q03"
+    },
+    {
+      "question": "What special tool is used to compress the coil spring and what is the important note about it?",
+      "answer": "Special Tool 31 3 111 is used to compress coil spring. Important note: Pins must fit in openings.",
+      "question_type": "tool",
+      "id": "31-13_front-ax-q04"
+    },
+    {
+      "question": "How do you remove the spring strut assembly?",
+      "answer": "Remove spring strut assembly - see 31 31 000. Take up spring strut in a vise with Special Tool 31 3 000.",
+      "question_type": "procedural",
+      "id": "31-13_front-ax-q05"
+    },
+    {
+      "question": "What tool is shown in diagram 31 3 170 and what is its purpose?",
+      "answer": "Special Tool 31 3 170 is shown for lifting off cap and unscrewing self-locking nut, counterholding the piston rod.",
+      "question_type": "tool",
+      "id": "31-13_front-ax-q06"
+    },
+    {
+      "question": "What should be done during installation regarding the self-locking nut?",
+      "answer": "Replace self-locking nut and apply tightening torque (see specifications).",
+      "question_type": "procedural",
+      "id": "31-13_front-ax-q07"
+    },
+    {
+      "question": "What special tool is referenced as 31 3 116 and what should be done with it?",
+      "answer": "Special Tool 31 3 116 should be set up on mount.",
+      "question_type": "tool",
+      "id": "31-13_front-ax-q08"
+    },
+    {
+      "question": "What components should be removed according to tool 31 3 115?",
+      "answer": "Take off washer (2). Screw in Special Tool 31 3 115 entire length of threads. Release and take off special tool compressor.",
+      "question_type": "procedural",
+      "id": "31-13_front-ax-q09"
+    },
+    {
+      "question": "What service information reference is provided for additional shock absorber information?",
+      "answer": "Also refer to Service Information 37 02 83 (177).",
+      "question_type": "navigation",
+      "id": "31-13_front-ax-q10"
+    },
+    {
+      "question": "What visual components are shown in the spring assembly diagram labeled 31 3 115?",
+      "answer": "The diagram shows the coil spring, strut assembly components, and the special tool compressor setup with washer (2) that needs to be removed.",
+      "question_type": "visual",
+      "id": "31-13_front-ax-q12"
+    }
+  ]
+}

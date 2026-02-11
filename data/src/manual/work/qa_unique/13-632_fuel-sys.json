@@ -1,0 +1,73 @@
+{
+  "page_id": "13-632_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-632.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:43:17.779613",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 816
+  },
+  "qa_pairs": [
+    {
+      "question": "What resistance should be measured between connections 3 and 18 with the throttle wide open?",
+      "answer": "There must be approximately 0 ohm between connections 3 and 18 with the throttle wide open.",
+      "question_type": "factual",
+      "id": "13-632_fuel-sys-q02"
+    },
+    {
+      "question": "How do you remove the throttle switch from the housing?",
+      "answer": "Remove throttle housing 13 54 030, unscrew screw (1), and take off throttle switch (2).",
+      "question_type": "procedural",
+      "id": "13-632_fuel-sys-q04"
+    },
+    {
+      "question": "How is the throttle switch adjusted after loosening screw (1)?",
+      "answer": "Adjust by loosening screw (1) and turning the throttle switch. Open the throttle after making adjustment - the resistance value should rise immediately to \u221e-ohms.",
+      "question_type": "procedural",
+      "id": "13-632_fuel-sys-q05"
+    },
+    {
+      "question": "What should happen to the resistance value when the throttle valve is released during adjustment?",
+      "answer": "When releasing the throttle valve, the resistance must drop to approximately 0 ohm.",
+      "question_type": "factual",
+      "id": "13-632_fuel-sys-q06"
+    },
+    {
+      "question": "What part number is associated with adjusting the throttle switch?",
+      "answer": "The part number for adjusting the throttle switch is 13 63 544.",
+      "question_type": "factual",
+      "id": "13-632_fuel-sys-q07"
+    },
+    {
+      "question": "What component is shown in callout number 2 in the throttle switch removal diagram?",
+      "answer": "Callout number 2 indicates the throttle switch that needs to be removed.",
+      "question_type": "visual",
+      "id": "13-632_fuel-sys-q08"
+    },
+    {
+      "question": "What is the first step when checking the throttle switch?",
+      "answer": "Check that there should be approximately 0 ohm between connections 2 and 18 with the throttle closed.",
+      "question_type": "inspection",
+      "id": "13-632_fuel-sys-q10"
+    },
+    {
+      "question": "What reference number is used for the throttle housing that needs to be removed?",
+      "answer": "The throttle housing reference number is 13 54 030.",
+      "question_type": "factual",
+      "id": "13-632_fuel-sys-q11"
+    },
+    {
+      "question": "What should be checked after installing the throttle switch?",
+      "answer": "Check code number (1) and adjust throttle switch 13 63 544 after installation.",
+      "question_type": "procedural",
+      "id": "13-632_fuel-sys-q12"
+    }
+  ]
+}

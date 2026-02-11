@@ -1,0 +1,55 @@
+{
+  "page_id": "41-00-index-a_body",
+  "image_path": "raw/41 - Body/41-00-index-a.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:32:58.133444",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1742,
+    "tokens_output": 426
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers the introduction to the Body chapter?",
+      "answer": "The introduction to the Body chapter is covered in section 41-001.",
+      "question_type": "navigation",
+      "id": "41-00-index-a_body-q01"
+    },
+    {
+      "question": "Which section deals with safety precautions for working on bodies of cars with SRS?",
+      "answer": "Section 41-003 covers safety precautions for working on bodies of cars with SRS.",
+      "question_type": "safety",
+      "id": "41-00-index-a_body-q02"
+    },
+    {
+      "question": "Where can I find information about repairing glass fiber reinforced plastic body parts?",
+      "answer": "Information about repairing glass fiber reinforced plastic body parts can be found in section 41-010.",
+      "question_type": "navigation",
+      "id": "41-00-index-a_body-q03"
+    },
+    {
+      "question": "What section covers engine carrier front replacement for four wheel drive vehicles?",
+      "answer": "Section 41-101 covers engine carrier, front, right/left partial replacement (with wheel house) for four wheel drive vehicles.",
+      "question_type": "navigation",
+      "id": "41-00-index-a_body-q04"
+    },
+    {
+      "question": "Which section addresses glass fiber reinforced plastic part repair for damaged corners on trunk lids?",
+      "answer": "Section 41-012 addresses glass fiber reinforced plastic part repair for damaged corners on trunk lids.",
+      "question_type": "navigation",
+      "id": "41-00-index-a_body-q05"
+    },
+    {
+      "question": "What are the section numbers for engine carrier front left replacement with and without wheel house?",
+      "answer": "Section 41-104 covers engine carrier front left (with wheel house) replacement, and section 41-106 covers engine carrier front section and center section, front, left (with wheel house) replacement.",
+      "question_type": "navigation",
+      "id": "41-00-index-a_body-q06"
+    }
+  ]
+}

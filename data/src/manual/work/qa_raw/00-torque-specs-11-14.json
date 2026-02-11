@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-11-14",
+  "image_path": "raw/00 - Torque Specs/11-14.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:39:23.364490",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 715
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for flywheel to crankshaft bolts on M60/1/M60/2/M62 Manual Transmission?",
+      "answer": "105 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-14-q01"
+    },
+    {
+      "question": "What torque should I use for new micro-encapsulated flywheel screws on M40/M42/M43/M44/M51 Automatic/M52 Automatic transmissions?",
+      "answer": "120 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-14-q02"
+    },
+    {
+      "question": "What is the torque specification for new micro-encapsulated flywheel screws on all other transmissions?",
+      "answer": "105 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-14-q03"
+    },
+    {
+      "question": "Should I use screw retaining compound when installing flywheel to crankshaft bolts?",
+      "answer": "No, do not install with screw retaining compound. Bolts are a component part of the flywheel. Screw threads oiled.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-14-q04"
+    },
+    {
+      "question": "What is the difference in torque between M40/M42/M43/M44/M51 Automatic/M52 Automatic and all other transmissions for new micro-encapsulated screws?",
+      "answer": "M40/M42/M43/M44/M51 Automatic/M52 Automatic requires 120 Nm while all others require 105 Nm, a difference of 15 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-14-q05"
+    },
+    {
+      "question": "What section and subsection does this flywheel torque specification table belong to?",
+      "answer": "Section 11-14 Engine, subsection 11 22 Flywheel",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-14-q06"
+    },
+    {
+      "question": "What type of screws are specified for the flywheel installation?",
+      "answer": "New micro-encapsulated screws",
+      "question_type": "component",
+      "id": "00-torque-specs-11-14-q07"
+    },
+    {
+      "question": "Are the flywheel bolts reusable according to this specification?",
+      "answer": "No, the specification calls for new micro-encapsulated screws and states that bolts are a component part of the flywheel.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-14-q09"
+    },
+    {
+      "question": "How should the screw threads be prepared before installation?",
+      "answer": "Screw threads should be oiled.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-14-q10"
+    }
+  ]
+}

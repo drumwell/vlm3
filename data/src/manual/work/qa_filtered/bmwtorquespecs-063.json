@@ -1,0 +1,55 @@
+{
+  "page_id": "bmwtorquespecs-063",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/063.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:24:19.951322",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 584
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is identified by code 1AZ in the oil pressure, oil temperature, oil level display section?",
+      "answer": "Oil-pressure switch/oil-temperature switch",
+      "question_type": "component",
+      "id": "bmwtorquespecs-063-q04"
+    },
+    {
+      "question": "What special note is provided for the oil pressure switch installation?",
+      "answer": "Oil and screw in",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-063-q05"
+    },
+    {
+      "question": "Which section of the manual does this torque specification table belong to?",
+      "answer": "12 - 13 Engine Electrical System",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-063-q06"
+    },
+    {
+      "question": "What is section 12 61 specifically covering in terms of components?",
+      "answer": "Oil pressure, oil temperature, oil level display",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-063-q07"
+    },
+    {
+      "question": "How many different torque specifications are listed for oil pressure switches?",
+      "answer": "Three different torque specifications: 20 Nm, 27 Nm, and 35 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-063-q08"
+    },
+    {
+      "question": "Which engine types require the lowest torque specification for the oil pressure switch?",
+      "answer": "S14/S50/S38 engines require the lowest torque at 20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-063-q10"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "16-10_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-10.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:59:54.993690",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1755,
+    "tokens_output": 478
+  },
+  "qa_pairs": [
+    {
+      "question": "What does component number 1 represent in the fuel tank diagram?",
+      "answer": "Component number 1 is the return pipe in tank (left tank chamber).",
+      "question_type": "component",
+      "id": "16-10_fuel-tan-q01"
+    },
+    {
+      "question": "What is the function of component 2 in the fuel system?",
+      "answer": "Component 2 is the ejector.",
+      "question_type": "component",
+      "id": "16-10_fuel-tan-q02"
+    },
+    {
+      "question": "Which component is labeled as number 3 in the fuel tank layout?",
+      "answer": "Component number 3 is the overflow pipe (right tank chamber).",
+      "question_type": "component",
+      "id": "16-10_fuel-tan-q03"
+    },
+    {
+      "question": "What does the splash shell refer to in this diagram?",
+      "answer": "The splash shell is component number 4 in the fuel tank assembly.",
+      "question_type": "component",
+      "id": "16-10_fuel-tan-q04"
+    },
+    {
+      "question": "What year models does this fuel return pipe information apply to?",
+      "answer": "This fuel return pipe information applies to models since 1988.",
+      "question_type": "factual",
+      "id": "16-10_fuel-tan-q05"
+    },
+    {
+      "question": "How does the overflow between tank chambers function according to this diagram?",
+      "answer": "The overflow between the left and right tank chambers functions according to the ejector principle.",
+      "question_type": "operation",
+      "id": "16-10_fuel-tan-q06"
+    },
+    {
+      "question": "What does the lower diagram show in relation to fuel flow?",
+      "answer": "The lower diagram shows fuel return from engine (labeled as 1) and inlet for fuel from left tank chamber (labeled as 2).",
+      "question_type": "visual",
+      "id": "16-10_fuel-tan-q07"
+    },
+    {
+      "question": "What specific view is shown in the fuel tank survey?",
+      "answer": "Only the bottom tank plate is shown in the side view for better view according to the fuel tank survey note.",
+      "question_type": "visual",
+      "id": "16-10_fuel-tan-q08"
+    }
+  ]
+}

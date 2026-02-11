@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-050",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/050.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:25:38.881719",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 635
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M8 screws on the rubber mount to front axle carrier?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-050-q01"
+    },
+    {
+      "question": "What torque should I use for M10 screws on the rubber mount to engine console?",
+      "answer": "47 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-050-q02"
+    },
+    {
+      "question": "What are the two different screw sizes used for the engine console to engine mounting?",
+      "answer": "M8 screws (22 Nm) and M10 screws (47 Nm)",
+      "question_type": "comparison",
+      "id": "00-torque-specs-050-q03",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What is the torque specification for M8 screws on the engine console to engine mounting?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-050-q04"
+    },
+    {
+      "question": "How many different mounting points are covered in the Engine Suspension section 11 81?",
+      "answer": "Three mounting points: rubber mount to front axle carrier (1AZ), rubber mount to engine console (2AZ), and engine console to engine (3AZ)",
+      "question_type": "factual",
+      "id": "00-torque-specs-050-q05"
+    },
+    {
+      "question": "Is there a difference in M8 screw torque between the front axle carrier mount and engine console mount?",
+      "answer": "No, both use M8 screws with 22 Nm torque specification",
+      "question_type": "comparison",
+      "id": "00-torque-specs-050-q07",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What is the highest torque specification shown for engine suspension mountings?",
+      "answer": "47 Nm for M10 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-050-q08"
+    },
+    {
+      "question": "Which mounting point uses both M8 and M10 screws?",
+      "answer": "All three mounting points (1AZ, 2AZ, and 3AZ) use both M8 and M10 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-050-q09"
+    },
+    {
+      "question": "What section and subsection covers these engine suspension torque specifications?",
+      "answer": "Section 11-40 Engine, subsection 11 81 Engine Suspension",
+      "question_type": "navigation",
+      "id": "00-torque-specs-050-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "65-94_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-94.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:08:52.102980",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 682
+  },
+  "qa_pairs": [
+    {
+      "question": "How do you insert the cassette into the console?",
+      "answer": "Place the cassette insert in the console as shown in the diagram.",
+      "question_type": "procedural",
+      "id": "65-94_radio-an-q01"
+    },
+    {
+      "question": "What happens when you push the white push buttons on the cassette holder?",
+      "answer": "Pushing the white push buttons will unlock the cassette holders and let the cassettes slide out.",
+      "question_type": "operation",
+      "id": "65-94_radio-an-q02"
+    },
+    {
+      "question": "What is the part number referenced in the first diagram showing the cassette insertion?",
+      "answer": "The part number is 30 65 067.",
+      "question_type": "factual",
+      "id": "65-94_radio-an-q03"
+    },
+    {
+      "question": "What is the part number shown in the second diagram with the cassette holders?",
+      "answer": "The part number is 30 65 058.",
+      "question_type": "factual",
+      "id": "65-94_radio-an-q04"
+    },
+    {
+      "question": "What color are the push buttons used to unlock the cassette holders?",
+      "answer": "The push buttons are white.",
+      "question_type": "visual",
+      "id": "65-94_radio-an-q05"
+    },
+    {
+      "question": "What component is being installed in the top diagram?",
+      "answer": "A cassette insert is being installed in the console.",
+      "question_type": "component",
+      "id": "65-94_radio-an-q06"
+    },
+    {
+      "question": "How are the cassettes released from their holders?",
+      "answer": "The cassettes are released by pushing the white push buttons, which unlocks the cassette holders and allows the cassettes to slide out.",
+      "question_type": "procedural",
+      "id": "65-94_radio-an-q07"
+    },
+    {
+      "question": "What section and page number is this from?",
+      "answer": "This is page 65-94 from the service manual.",
+      "question_type": "navigation",
+      "id": "65-94_radio-an-q08"
+    },
+    {
+      "question": "What happens to the cassettes when the holders are unlocked?",
+      "answer": "When the holders are unlocked, the cassettes slide out.",
+      "question_type": "operation",
+      "id": "65-94_radio-an-q09"
+    },
+    {
+      "question": "What type of storage system is shown in the diagrams?",
+      "answer": "A cassette storage system with holders that can be unlocked to release the cassettes.",
+      "question_type": "component",
+      "id": "65-94_radio-an-q10"
+    },
+    {
+      "question": "What is the primary function of the white push buttons?",
+      "answer": "The primary function of the white push buttons is to unlock the cassette holders.",
+      "question_type": "operation",
+      "id": "65-94_radio-an-q11"
+    },
+    {
+      "question": "How many cassette holders are visible in the lower diagram?",
+      "answer": "Multiple cassette holders are visible arranged in rows in the lower diagram.",
+      "question_type": "visual",
+      "id": "65-94_radio-an-q12"
+    }
+  ]
+}

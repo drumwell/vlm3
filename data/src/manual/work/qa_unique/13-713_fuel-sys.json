@@ -1,0 +1,79 @@
+{
+  "page_id": "13-713_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-713.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:46:22.611329",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 904
+  },
+  "qa_pairs": [
+    {
+      "question": "What should the resistance be between terminals 2 and 1 or 2 and 3 on the idle speed control valve?",
+      "answer": "The nominal resistance between terminals 2 and 1 or between 2 and 3 should be approximately 20 ohms each.",
+      "question_type": "factual",
+      "id": "13-713_fuel-sys-q02"
+    },
+    {
+      "question": "What are the first steps for removing the idle speed control valve?",
+      "answer": "First unscrew the capped nuts on all four throttle valve necks, then unscrew the mounting nut and loosen hose straps 2 through 4.",
+      "question_type": "procedural",
+      "id": "13-713_fuel-sys-q03"
+    },
+    {
+      "question": "How should the air intake manifold be removed during idle speed control valve service?",
+      "answer": "Disconnect the throttle cable first, then take off the air intake manifold while cutting off the hose between the manifold and crankcase, as it cannot be pulled off.",
+      "question_type": "procedural",
+      "id": "13-713_fuel-sys-q04"
+    },
+    {
+      "question": "What components are identified by callout numbers 1 through 7 in the removal diagram?",
+      "answer": "The diagram shows numbered components 1 through 7 indicating various parts of the throttle body and idle speed control valve assembly during the removal process.",
+      "question_type": "visual",
+      "id": "13-713_fuel-sys-q05"
+    },
+    {
+      "question": "What is the proper procedure for the dynamic test of the idle speed control valve?",
+      "answer": "Remove the idle speed control valve but keep the plug connected, open or close the rotary piston completely, turn on ignition, and verify the rotary piston moves into and remains in a position of approximately 50% of the cross-section opening.",
+      "question_type": "procedural",
+      "id": "13-713_fuel-sys-q07"
+    },
+    {
+      "question": "Where should the hose be replaced during installation?",
+      "answer": "Replace hose 7 between the manifold and crankcase during installation.",
+      "question_type": "procedural",
+      "id": "13-713_fuel-sys-q08"
+    },
+    {
+      "question": "What is the final step shown in the bottom diagram for valve removal?",
+      "answer": "Pull off plug 1, disconnect hoses 2 and 3, and disconnect the retaining strap.",
+      "question_type": "procedural",
+      "id": "13-713_fuel-sys-q09"
+    },
+    {
+      "question": "What electrical test should be performed between which terminals?",
+      "answer": "Measure resistance between terminals 1 and 3, and also measure resistance between terminals 2 and 1 or 2 and 3.",
+      "question_type": "diagnostic",
+      "id": "13-713_fuel-sys-q10"
+    },
+    {
+      "question": "What position should the rotary piston achieve during the dynamic test?",
+      "answer": "The rotary piston should move into and remain in a position of approximately 50% of the cross-section opening during the dynamic test.",
+      "question_type": "diagnostic",
+      "id": "13-713_fuel-sys-q11"
+    },
+    {
+      "question": "What component cannot be pulled off and must be cut during removal?",
+      "answer": "The hose between the manifold and crankcase cannot be pulled off and must be cut off during removal.",
+      "question_type": "procedural",
+      "id": "13-713_fuel-sys-q12"
+    }
+  ]
+}

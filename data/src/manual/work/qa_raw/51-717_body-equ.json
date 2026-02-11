@@ -1,0 +1,91 @@
+{
+  "page_id": "51-717_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-717.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:32:08.773000",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 784
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when fitting the flying stone guard?",
+      "answer": "Fit in flying stone guard and mark centers of holes.",
+      "question_type": "procedural",
+      "id": "51-717_body-equ-q01"
+    },
+    {
+      "question": "What diameter should hole A be drilled to?",
+      "answer": "Hole A should be drilled to 6.2 mm (0.244 inch) diameter.",
+      "question_type": "factual",
+      "id": "51-717_body-equ-q02"
+    },
+    {
+      "question": "What is the drill diameter specification for hole C?",
+      "answer": "Hole C should be drilled to 9.0 mm (0.354 inch) diameter.",
+      "question_type": "factual",
+      "id": "51-717_body-equ-q03"
+    },
+    {
+      "question": "How should the edges of the drilled holes be treated after drilling?",
+      "answer": "Deburr and coat edges of holes with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "51-717_body-equ-q04"
+    },
+    {
+      "question": "What are the four different hole sizes that need to be punched and drilled?",
+      "answer": "A = 6.2 mm (0.244 inch), B = 8.5 mm (0.335 inch), C = 9.0 mm (0.354 inch), and D = 6.5 mm (0.256 inch) diameter.",
+      "question_type": "factual",
+      "id": "51-717_body-equ-q05"
+    },
+    {
+      "question": "What should be done after installing a plug if applicable?",
+      "answer": "If applicable, install plug with seal.",
+      "question_type": "procedural",
+      "id": "51-717_body-equ-q06"
+    },
+    {
+      "question": "What diameter is specified for hole B?",
+      "answer": "Hole B should be drilled to 8.5 mm (0.335 inch) diameter.",
+      "question_type": "factual",
+      "id": "51-717_body-equ-q07"
+    },
+    {
+      "question": "What size should hole D be drilled to?",
+      "answer": "Hole D should be drilled to 6.5 mm (0.256 inch) diameter.",
+      "question_type": "factual",
+      "id": "51-717_body-equ-q08"
+    },
+    {
+      "question": "What components are labeled A, B, C, and D in the middle diagram?",
+      "answer": "A, B, C, and D indicate the different hole locations that need to be punched and drilled with specific diameters.",
+      "question_type": "visual",
+      "id": "51-717_body-equ-q09"
+    },
+    {
+      "question": "What type of paint should be used to coat the hole edges?",
+      "answer": "Zinc dust paint should be used to coat the edges of the holes.",
+      "question_type": "factual",
+      "id": "51-717_body-equ-q10"
+    },
+    {
+      "question": "What is the sequence of operations for the holes?",
+      "answer": "First punch centers and drill holes, then deburr and coat edges of holes with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "51-717_body-equ-q11"
+    },
+    {
+      "question": "What protective coating is applied to prevent corrosion at the drilled holes?",
+      "answer": "Zinc dust paint is applied to coat the edges of holes to prevent corrosion.",
+      "question_type": "factual",
+      "id": "51-717_body-equ-q12"
+    }
+  ]
+}

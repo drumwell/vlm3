@@ -1,0 +1,91 @@
+{
+  "page_id": "64-09_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-09.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:53:48.098121",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 819
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when checking the air conditioner?",
+      "answer": "Unscrew the protective cap.",
+      "question_type": "procedural",
+      "id": "64-09_heating--q01"
+    },
+    {
+      "question": "Where should the blue charging hose with valve core remover be connected?",
+      "answer": "Connect the blue charging hose (1) with the valve core remover (2) on the low pressure side of the air conditioner.",
+      "question_type": "procedural",
+      "id": "64-09_heating--q02"
+    },
+    {
+      "question": "What engine RPM should be maintained during air conditioner testing?",
+      "answer": "The engine should be running at 2,000 rpm during testing.",
+      "question_type": "factual",
+      "id": "64-09_heating--q03"
+    },
+    {
+      "question": "What are the four testing conditions that must be met before checking the air conditioner?",
+      "answer": "1. Car parked in shade (indoors), 2. Air conditioner discharged and charged with correct type and amount of oil in the compressor, 3. Engine running at 2,000 rpm and air conditioner switched on, 4. Doors shut.",
+      "question_type": "procedural",
+      "id": "64-09_heating--q04"
+    },
+    {
+      "question": "Where should the thermometer be inserted for testing?",
+      "answer": "Insert the thermometer in the air outlet grill.",
+      "question_type": "procedural",
+      "id": "64-09_heating--q05"
+    },
+    {
+      "question": "Which valves should be opened when reading operating pressure values?",
+      "answer": "Only open charging valve (5) or (23). Close all valves of the discharging and charging station.",
+      "question_type": "procedural",
+      "id": "64-09_heating--q06"
+    },
+    {
+      "question": "What do the numbered callouts (4), (5), and (6) represent on the pressure-temperature graph?",
+      "answer": "Callout (4) represents the tolerance range for high pressure range, (5) represents the tolerance range for center nozzle air outlet, and (6) represents the tolerance range for low pressure range.",
+      "question_type": "visual",
+      "id": "64-09_heating--q07"
+    },
+    {
+      "question": "What pressure measurement scale is used on the graph?",
+      "answer": "The pressure scale is in bar.",
+      "question_type": "factual",
+      "id": "64-09_heating--q08"
+    },
+    {
+      "question": "What temperature ranges are shown on the graph axes?",
+      "answer": "The horizontal axis shows ambient temperature from 20\u00b0C to 40\u00b0C, and the vertical axis shows pressure from 2 to 26 bar.",
+      "question_type": "factual",
+      "id": "64-09_heating--q09"
+    },
+    {
+      "question": "What components are labeled as items 3 and 21 in the charging station diagram?",
+      "answer": "Items 3 and 21 are pressure gages used to read operating pressure values on low or high pressure sides.",
+      "question_type": "visual",
+      "id": "64-09_heating--q10"
+    },
+    {
+      "question": "What is the reference number for the nominal value graph mentioned in the procedure?",
+      "answer": "The nominal value graph reference is 730 64 334.",
+      "question_type": "factual",
+      "id": "64-09_heating--q11"
+    },
+    {
+      "question": "What should be checked regarding pressure range during testing?",
+      "answer": "Always check only one pressure range and compare the readings with the nominal value graph 730 64 334.",
+      "question_type": "inspection",
+      "id": "64-09_heating--q12"
+    }
+  ]
+}

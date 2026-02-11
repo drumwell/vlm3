@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6411-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:07:25.994505",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1892,
+    "tokens_output": 779
+  },
+  "qa_pairs": [
+    {
+      "question": "What voltage should be measured between BU & Ground when testing the Water Shut-Off Solenoid?",
+      "answer": "Battery voltage should be measured between BU & Ground.",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01-q01"
+    },
+    {
+      "question": "What position should the A/C Control Panel TEMP Control be in when testing the Water Shut-Off Solenoid?",
+      "answer": "The A/C Control Panel TEMP Control should be in the FULLY COUNTERCLOCKWISE position.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01-q02"
+    },
+    {
+      "question": "What voltage should be measured between BU & Ground after rotating the A/C Control Panel TEMP Control to Mid-Position?",
+      "answer": "0 Volts should be measured between BU & Ground after rotating to Mid-Position.",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01-q03"
+    },
+    {
+      "question": "What controls the Water Shut-Off Solenoid operation?",
+      "answer": "The Water Shut-Off Solenoid controls the flow of engine coolant through the heater core. When energized, coolant flow is shut off to allow maximum cooling from the air conditioning system. The solenoid is controlled by the Hot Water Cut-Off Switch, which is part of the A/C Control Panel TEMP Control.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01-q04"
+    },
+    {
+      "question": "What should you check if the BU wire for a wire-to-wire short to voltage is good?",
+      "answer": "If the BU wire is good, replace the A/C Control Panel TEMP Control.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01-q05"
+    },
+    {
+      "question": "What protects the Water Shut-Off Solenoid and A/C In-Line Diode?",
+      "answer": "The Water Shut-Off Solenoid and A/C In-Line Diode are protected by the A/C In-Line Fuse.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01-q06"
+    },
+    {
+      "question": "When is the Hot Water Cut-Off Switch closed?",
+      "answer": "The Hot Water Cut-Off Switch is closed when the TEMP Control is rotated fully counterclockwise (coldest position).",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01-q07"
+    },
+    {
+      "question": "What should you do if all voltages are correct in the Water Shut-Off Solenoid test?",
+      "answer": "If all voltages are correct, replace the Water Shut-Off Solenoid.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01-q08"
+    },
+    {
+      "question": "What ignition switch position is required for both Water Shut-Off Solenoid tests?",
+      "answer": "The Ignition Switch must be in RUN position for both tests.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01-q09"
+    },
+    {
+      "question": "What should you check for the GN/BR wire in the Water Shut-Off Solenoid Test Table 2?",
+      "answer": "Check the GN/BR wire for an open back to Fuse 20.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-01-q10"
+    }
+  ]
+}

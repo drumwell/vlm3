@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-015",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/015.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:18:46.811824",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 553
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the initial torque specification for M21 cylinder head bolts?",
+      "answer": "50 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-015-q01"
+    },
+    {
+      "question": "How long is the warm-running time required for M21 cylinder head bolts?",
+      "answer": "15 min",
+      "question_type": "factual",
+      "id": "00-torque-specs-015-q04"
+    },
+    {
+      "question": "What is the initial torque specification for M30 cylinder head bolts?",
+      "answer": "60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-015-q05"
+    },
+    {
+      "question": "How does the initial torque differ between M21 and M30 cylinder head bolts?",
+      "answer": "M21 bolts require 50 Nm while M30 bolts require 60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-015-q06"
+    },
+    {
+      "question": "What is the setting time required for M30 cylinder head bolts?",
+      "answer": "20 min",
+      "question_type": "factual",
+      "id": "00-torque-specs-015-q07"
+    },
+    {
+      "question": "What is the final torque specification for M30 cylinder head bolts after setting time?",
+      "answer": "80 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-015-q08"
+    },
+    {
+      "question": "What is the warm-running time for M30 cylinder head bolts?",
+      "answer": "25 min",
+      "question_type": "factual",
+      "id": "00-torque-specs-015-q09"
+    }
+  ]
+}

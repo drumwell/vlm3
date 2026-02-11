@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6581-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6581-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:12:11.296336",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 548
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of fuse 10 in the power distribution box?",
+      "answer": "Fuse 10 is rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6581-00-q01"
+    },
+    {
+      "question": "What is the amperage rating of fuse 12 in the power distribution box?",
+      "answer": "Fuse 12 is rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6581-00-q02"
+    },
+    {
+      "question": "What wire color designation is shown for the connection from fuse 12 to the C2 connector?",
+      "answer": "The wire from fuse 12 to connector C2 is designated as 5 VT/WT.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6581-00-q03"
+    },
+    {
+      "question": "What components are connected to the service interval processor?",
+      "answer": "The service interval processor is connected to the speedometer, vehicle speed input, fuel rate input, and service interval printed circuit.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6581-00-q04"
+    },
+    {
+      "question": "What triggers the fuel tank sender switch to close?",
+      "answer": "The fuel tank sender switch closes when tank contains less than 1.5 gallons.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6581-00-q05"
+    },
+    {
+      "question": "What is the wire color designation for the connection to ground distribution point G300?",
+      "answer": "The connection to ground distribution point G300 is designated as .75 BR.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6581-00-q06"
+    },
+    {
+      "question": "What condition is indicated for the 'HOT IN RUN OR START' power feeds?",
+      "answer": "Both fuse 10 and fuse 12 power distribution boxes are marked as 'HOT IN RUN OR START' and 'HOT IN ACCY, RUN OR START' respectively.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6581-00-q07"
+    },
+    {
+      "question": "What connector designation is shown for the on-board computer module connection?",
+      "answer": "The on-board computer module connection is designated as connector C500.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6581-00-q08"
+    }
+  ]
+}

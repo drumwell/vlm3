@@ -1,0 +1,79 @@
+{
+  "page_id": "00-06_torque-s",
+  "image_path": "raw/00 - Torque Specs/00-06.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:12:02.796252",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 676
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M12 8.8 screw?",
+      "answer": "82 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-06_torque-s-q01"
+    },
+    {
+      "question": "What torque specification applies to M12 10.9 bolts?",
+      "answer": "115 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-06_torque-s-q02"
+    },
+    {
+      "question": "What is the tightening torque for M12 12.9 grade bolts?",
+      "answer": "140 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-06_torque-s-q03"
+    },
+    {
+      "question": "What torque should I use for M12x1.5 8.8 threaded fasteners?",
+      "answer": "87 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-06_torque-s-q04"
+    },
+    {
+      "question": "What is the maximum tightening torque for M12x1.5 10.9 bolts?",
+      "answer": "123 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-06_torque-s-q05"
+    },
+    {
+      "question": "What torque specification applies to M12x1.5 12.9 grade fasteners?",
+      "answer": "147 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-06_torque-s-q06"
+    },
+    {
+      "question": "Which has a higher torque specification: M12 8.8 or M12x1.5 8.8?",
+      "answer": "M12x1.5 8.8 has a higher torque specification at 87 Nm compared to M12 8.8 at 82 Nm.",
+      "question_type": "factual",
+      "id": "00-06_torque-s-q07"
+    },
+    {
+      "question": "What BMW standard should I refer to for tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-06_torque-s-q08"
+    },
+    {
+      "question": "What thread types are covered in this torque specification table?",
+      "answer": "M12 thread and M12x1.5 thread",
+      "question_type": "factual",
+      "id": "00-06_torque-s-q09"
+    },
+    {
+      "question": "What is the torque difference between M12x1.5 10.9 and M12x1.5 12.9 bolts?",
+      "answer": "24 Nm difference (147 Nm for 12.9 grade minus 123 Nm for 10.9 grade)",
+      "question_type": "factual",
+      "id": "00-06_torque-s-q10"
+    }
+  ]
+}

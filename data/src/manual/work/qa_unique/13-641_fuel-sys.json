@@ -1,0 +1,79 @@
+{
+  "page_id": "13-641_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-641.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:43:51.109392",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 823
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with terminals 87 and 30 when working on the fuel pump relay?",
+      "answer": "Bridge terminals 87 and 30 with Special Tool 61 3 050 to make the fuel pump run.",
+      "question_type": "procedural",
+      "id": "13-641_fuel-sys-q03"
+    },
+    {
+      "question": "What components are shown in the diagram with reference 28 13 053?",
+      "answer": "The diagram shows the cold start valve assembly with callouts for (1) the electrical connection and (2) the fuel line connection.",
+      "question_type": "visual",
+      "id": "13-641_fuel-sys-q04"
+    },
+    {
+      "question": "What should be checked during installation of the cold start valve?",
+      "answer": "Check the code number (1) and replace the seal (2).",
+      "question_type": "inspection",
+      "id": "13-641_fuel-sys-q05"
+    },
+    {
+      "question": "What verification step should be performed after cold start valve installation?",
+      "answer": "Unscrew the cold start valve on intake manifold and confirm that the fuel line remains connected.",
+      "question_type": "inspection",
+      "id": "13-641_fuel-sys-q06"
+    },
+    {
+      "question": "What type of test is performed to check the cold start valve operation?",
+      "answer": "A leak test is performed to check the permissible leak rate.",
+      "question_type": "diagnostic",
+      "id": "13-641_fuel-sys-q07"
+    },
+    {
+      "question": "What equipment is needed to check fuel flow rate and spray angle?",
+      "answer": "Hold the cold start valve in measuring glass 13 3 020 and plug Jetronic test lead 61 1 440 on cold start valve and connect with B+ and B-.",
+      "question_type": "tool",
+      "id": "13-641_fuel-sys-q08"
+    },
+    {
+      "question": "What parameters should be checked during the fuel flow rate and spray angle test?",
+      "answer": "Check the fuel flow rate and spray angle according to specifications.",
+      "question_type": "parameter",
+      "id": "13-641_fuel-sys-q09"
+    },
+    {
+      "question": "Where can you find the specific values for leak rate and fuel flow specifications?",
+      "answer": "See Specifications section for the specific values and acceptance criteria.",
+      "question_type": "navigation",
+      "id": "13-641_fuel-sys-q10"
+    },
+    {
+      "question": "What components are labeled as KL 87 and KL 30 in the fuel pump relay diagram?",
+      "answer": "KL 87 and KL 30 are terminal designations on the fuel pump relay that need to be bridged with special tool 61 3 050.",
+      "question_type": "component",
+      "id": "13-641_fuel-sys-q11"
+    },
+    {
+      "question": "What is the function of part number 61 3 050 mentioned in the procedure?",
+      "answer": "It is a special tool used to bridge terminals 87 and 30 on the fuel pump relay to make the fuel pump run during testing.",
+      "question_type": "tool",
+      "id": "13-641_fuel-sys-q12"
+    }
+  ]
+}

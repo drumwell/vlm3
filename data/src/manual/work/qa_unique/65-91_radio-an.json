@@ -1,0 +1,85 @@
+{
+  "page_id": "65-91_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-91.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:08:13.747970",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 726
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for removing and installing the front speaker?",
+      "answer": "The procedure code is 65 12 000.",
+      "question_type": "factual",
+      "id": "65-91_radio-an-q01"
+    },
+    {
+      "question": "What are the basic steps to remove the front speaker?",
+      "answer": "Unscrew screws, remove mask and speaker, and pull off plugs.",
+      "question_type": "procedural",
+      "id": "65-91_radio-an-q02"
+    },
+    {
+      "question": "What does callout number 1 identify in the front speaker assembly diagram?",
+      "answer": "Callout number 1 identifies the end plate of door beam.",
+      "question_type": "visual",
+      "id": "65-91_radio-an-q03"
+    },
+    {
+      "question": "What component is identified by callout number 4 in the speaker assembly?",
+      "answer": "Callout number 4 identifies the speaker.",
+      "question_type": "visual",
+      "id": "65-91_radio-an-q04"
+    },
+    {
+      "question": "What additional step is required for vehicles since 9.85?",
+      "answer": "Since 9.85, you must remove the trim panel.",
+      "question_type": "factual",
+      "id": "65-91_radio-an-q05"
+    },
+    {
+      "question": "What does callout number 6 represent in the front speaker assembly?",
+      "answer": "Callout number 6 represents the self-tapping screw.",
+      "question_type": "visual",
+      "id": "65-91_radio-an-q06"
+    },
+    {
+      "question": "What special instruction is given for the sound system regarding the trim panel?",
+      "answer": "For the sound system, lift out the trim panel with high tuner and disconnect the plug.",
+      "question_type": "procedural",
+      "id": "65-91_radio-an-q07"
+    },
+    {
+      "question": "Which screws need to be unscrewed according to the lower procedure?",
+      "answer": "Screws 1 and 2 need to be unscrewed.",
+      "question_type": "procedural",
+      "id": "65-91_radio-an-q08"
+    },
+    {
+      "question": "What should be done with the edge guard during removal?",
+      "answer": "Pull off edge guard (3) partially.",
+      "question_type": "procedural",
+      "id": "65-91_radio-an-q09"
+    },
+    {
+      "question": "What is the final step after removing the screws and edge guard?",
+      "answer": "Take off the trim panel.",
+      "question_type": "procedural",
+      "id": "65-91_radio-an-q10"
+    },
+    {
+      "question": "What is the correct order for installing the front speaker parts?",
+      "answer": "Install parts in correct order: 1 End plate of door beam, 2 Self-tapping nut, 3 Spacer, 4 Speaker, 5 Mask, 6 Self-tapping screw.",
+      "question_type": "procedural",
+      "id": "65-91_radio-an-q12"
+    }
+  ]
+}

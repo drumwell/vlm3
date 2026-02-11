@@ -1,0 +1,79 @@
+{
+  "page_id": "41-113_body",
+  "image_path": "raw/41 - Body/41-113.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:44:10.133220",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 755
+  },
+  "qa_pairs": [
+    {
+      "question": "Which pillar joints need to be plug spot welded according to the procedure?",
+      "answer": "The A pillar joint, B pillar joint, and C pillar joint all need to be plug spot welded.",
+      "question_type": "factual",
+      "id": "41-113_body-q02"
+    },
+    {
+      "question": "What special sealing is required for the B pillar connection?",
+      "answer": "Seal off joints on B pillar connection with a joint sealing compound.",
+      "question_type": "procedural",
+      "id": "41-113_body-q04"
+    },
+    {
+      "question": "What type of edge treatment is specified for the A pillar connection and C pillar butt joint?",
+      "answer": "Braze edge of A pillar connection and C pillar butt joint.",
+      "question_type": "procedural",
+      "id": "41-113_body-q05"
+    },
+    {
+      "question": "What protective coating should be applied to the bottom of the cover?",
+      "answer": "Spray coat of anti-drumming material on bottom of cover.",
+      "question_type": "procedural",
+      "id": "41-113_body-q06"
+    },
+    {
+      "question": "What image reference number corresponds to the B pillar joint plug spot welding?",
+      "answer": "Image reference number 30 41 338 shows the B pillar joint plug spot welding.",
+      "question_type": "visual",
+      "id": "41-113_body-q07"
+    },
+    {
+      "question": "Which image shows the C pillar joint welding procedure?",
+      "answer": "Image reference number 30 41 340 shows the C pillar joint plug spot welding procedure.",
+      "question_type": "visual",
+      "id": "41-113_body-q08"
+    },
+    {
+      "question": "What finishing work may be needed after grinding the mating surfaces?",
+      "answer": "Tin out joints if necessary after grinding the mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-113_body-q09"
+    },
+    {
+      "question": "What is the purpose of applying anti-drumming material?",
+      "answer": "The anti-drumming material is sprayed on the bottom of the cover to reduce noise and vibration.",
+      "question_type": "factual",
+      "id": "41-113_body-q10"
+    },
+    {
+      "question": "Which pillar connections require both welding and brazing operations?",
+      "answer": "The A pillar connection requires both plug spot welding and brazing of the edge.",
+      "question_type": "procedural",
+      "id": "41-113_body-q11"
+    },
+    {
+      "question": "What type of joint sealing compound application is shown in image 30 41 344?",
+      "answer": "Image 30 41 344 shows sealing off joints on B pillar connection with a joint sealing compound.",
+      "question_type": "visual",
+      "id": "41-113_body-q12"
+    }
+  ]
+}

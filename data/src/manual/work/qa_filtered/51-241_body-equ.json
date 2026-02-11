@@ -1,0 +1,91 @@
+{
+  "page_id": "51-241_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-241.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:16:37.506757",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 805
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to disengage torsion bars for trunk lid?",
+      "answer": "Special Tool 51 2 100 is required to disengage torsion bars.",
+      "question_type": "tool",
+      "id": "51-241_body-equ-q01"
+    },
+    {
+      "question": "What is the procedure code for replacing torsion bars for trunk lid?",
+      "answer": "The procedure code is 51 24 341.",
+      "question_type": "factual",
+      "id": "51-241_body-equ-q02"
+    },
+    {
+      "question": "What should you do to prevent the trunk lid from falling down during torsion bar installation?",
+      "answer": "Prevent trunk lid from falling down and ensure torsion bars only have limited preload.",
+      "question_type": "safety",
+      "id": "51-241_body-equ-q03"
+    },
+    {
+      "question": "What should be checked on torsion bars during installation to prevent noise issues?",
+      "answer": "Check torsion bars for rubbing spots in case of a grinding noise. If necessary, lubricate joints with grease and align rubber mounts.",
+      "question_type": "inspection",
+      "id": "51-241_body-equ-q04"
+    },
+    {
+      "question": "How can the preload of torsion bars be increased if needed?",
+      "answer": "The preload of torsion bars can be increased by inserting them in the second catch. This could be necessary, for example, for the large toolbox.",
+      "question_type": "procedural",
+      "id": "51-241_body-equ-q05"
+    },
+    {
+      "question": "What is the first step when removing gas pressure props?",
+      "answer": "Lift out clips and then remove gas pressure props.",
+      "question_type": "procedural",
+      "id": "51-241_body-equ-q06"
+    },
+    {
+      "question": "What precaution should be taken when installing gas pressure props?",
+      "answer": "Prevent trunk lid from falling down and compress gas pressure props slightly while installing.",
+      "question_type": "safety",
+      "id": "51-241_body-equ-q07"
+    },
+    {
+      "question": "How should the piston rod be positioned when installing gas pressure props?",
+      "answer": "Install piston rod facing down and protect piston rod against dirt, paint and damage.",
+      "question_type": "procedural",
+      "id": "51-241_body-equ-q08"
+    },
+    {
+      "question": "What diagram number shows the torsion bar disengagement process?",
+      "answer": "Diagram 30 51 360 shows the torsion bar disengagement process with Special Tool 51 2 100.",
+      "question_type": "visual",
+      "id": "51-241_body-equ-q09"
+    },
+    {
+      "question": "What components are being removed or installed according to diagram 30 51 707?",
+      "answer": "Diagram 30 51 707 shows the removal and installation of gas pressure props with clips being lifted out.",
+      "question_type": "visual",
+      "id": "51-241_body-equ-q10"
+    },
+    {
+      "question": "What does diagram 30 51 709 illustrate?",
+      "answer": "Diagram 30 51 709 illustrates the gas pressure prop installation with the piston rod facing down.",
+      "question_type": "visual",
+      "id": "51-241_body-equ-q11"
+    },
+    {
+      "question": "According to the manual, when might you need to increase torsion bar preload?",
+      "answer": "You might need to increase torsion bar preload for the large toolbox by inserting the bars in the second catch.",
+      "question_type": "procedural",
+      "id": "51-241_body-equ-q12"
+    }
+  ]
+}

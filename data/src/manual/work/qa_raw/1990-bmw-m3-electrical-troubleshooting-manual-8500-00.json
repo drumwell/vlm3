@@ -1,0 +1,70 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8500-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "pinout",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:16:15.828390",
+    "prompt_template": "electrical_manual/pinout",
+    "tokens_input": 1898,
+    "tokens_output": 587
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the connector designation shown on this page?",
+      "answer": "8500-0 DIAGNOSTIC CONNECTOR",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-00-q01",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "Which pin connects to the Ignition Coil and Motronic Control Unit?",
+      "answer": "Pin 1 connects to the Ignition Coil, Motronic Control Unit with a size 1 BK (black) wire.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-00-q02"
+    },
+    {
+      "question": "What wire color and size is used for the SRS Connector on pin 6?",
+      "answer": "Pin 6 uses a size .5 WT/BK (white/black) wire for the SRS Connector.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-00-q03"
+    },
+    {
+      "question": "Which pin provides the Start Signal (50) and what are its wire specifications?",
+      "answer": "Pin 11 provides the Starter, Start Signal (50) and uses a size 2.5 BK/YL (black/yellow) wire.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-00-q04"
+    },
+    {
+      "question": "What component is connected to pin 16 and what wire specifications does it use?",
+      "answer": "Pin 16 connects to the Oxygen Sensor/Power (318is) and uses a size 1.5 GN/WT (green/white) wire.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-00-q05"
+    },
+    {
+      "question": "How is the diagnostic connector face oriented in the diagram?",
+      "answer": "The diagram shows the DIAGNOSTIC CONNECTOR FACE view, which is the view looking at the connector face.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-00-q06"
+    },
+    {
+      "question": "Which pin connects to the Ground Distribution (G103)?",
+      "answer": "Pin 19 connects to Ground Distribution (G103) with a size 1.5 BR (brown) wire.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-00-q07"
+    },
+    {
+      "question": "What is connected to pin 20 and what are the wire specifications?",
+      "answer": "Pin 20 connects to the Motronic Control Unit (TXD) and uses a size .5 WT/VI (white/violet) wire.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-00-q08"
+    }
+  ]
+}

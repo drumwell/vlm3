@@ -1,0 +1,55 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8000-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:15:09.785730",
+    "prompt_template": "electrical_manual/index",
+    "tokens_input": 1892,
+    "tokens_output": 442
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number contains information about splice S260?",
+      "answer": "Splice S260 is located on page 8000-1.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-01-q01"
+    },
+    {
+      "question": "Which harness type is associated with splice S306?",
+      "answer": "Splice S306 is associated with the INSTRUMENT PANEL harness.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-01-q02"
+    },
+    {
+      "question": "Are the radio splices S345, S400, S403, and S404 shown in the splice location views?",
+      "answer": "No, the radio splices S345, S400, S403, and S404 are marked as NOT SHOWN in the splice location views.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-01-q03"
+    },
+    {
+      "question": "What harness type has the most splice connections listed in this index?",
+      "answer": "The DOOR harness has the most splice connections listed, with multiple splices including S300, S301, S302, S303, S304, S305, S309, S322, S332, S333, S342, S411, S501, S502, S503, and S504.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-01-q04"
+    },
+    {
+      "question": "Where can you find the splice location view for S307?",
+      "answer": "The splice location view for S307 can be found on page 8000-4.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-01-q05"
+    },
+    {
+      "question": "Which heated seat splices are not shown in the splice location views?",
+      "answer": "Heated seat splices S540, S541, and S542 are all marked as NOT SHOWN in the splice location views.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-01-q06"
+    }
+  ]
+}

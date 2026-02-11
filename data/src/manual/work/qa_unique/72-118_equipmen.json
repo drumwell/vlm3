@@ -1,0 +1,79 @@
+{
+  "page_id": "72-118_equipmen",
+  "image_path": "raw/72 - Equipment and Accessories for Body/72-118.jpg",
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:11:33.744493",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1792,
+    "tokens_output": 695
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I do if the mounting tab on the belt reversing holder is deformed?",
+      "answer": "Replace the complete automatic seat belt.",
+      "question_type": "troubleshooting",
+      "id": "72-118_equipmen-q01"
+    },
+    {
+      "question": "What defects in the belt strap would require complete seat belt replacement?",
+      "answer": "Pinches, melt spots, cuts, creases, tears, and fringing in the fully pulled out belt strap.",
+      "question_type": "inspection",
+      "id": "72-118_equipmen-q02"
+    },
+    {
+      "question": "If the seam on the end of the belt strap is damaged, what is the repair procedure?",
+      "answer": "Replace the complete automatic seat belt.",
+      "question_type": "troubleshooting",
+      "id": "72-118_equipmen-q03"
+    },
+    {
+      "question": "How do I test if the spring pressure mechanism is working correctly?",
+      "answer": "Check if spring pressure ejects the belt insert out of the lock when operating the 'PRESS' button while the seat belt is fastened.",
+      "question_type": "diagnostic",
+      "id": "72-118_equipmen-q04"
+    },
+    {
+      "question": "What is the emergency braking test for automatic seat belts?",
+      "answer": "Check if a fastened seat belt locks when stopping a car from a speed twice as fast as walking with brakes applied fully.",
+      "question_type": "diagnostic",
+      "id": "72-118_equipmen-q05"
+    },
+    {
+      "question": "Can dirt and spots on the belt strap be cleaned instead of replacing the belt?",
+      "answer": "The seat belt must be replaced if dirt and spots cannot be removed with a commercial fine laundry detergent.",
+      "question_type": "troubleshooting",
+      "id": "72-118_equipmen-q06"
+    },
+    {
+      "question": "What should I check if the front tongue of the reclining mechanism or seat rails are deformed?",
+      "answer": "Replace damaged parts and the complete automatic seat belt.",
+      "question_type": "troubleshooting",
+      "id": "72-118_equipmen-q07"
+    },
+    {
+      "question": "How do I diagnose seat belt lock switch problems?",
+      "answer": "Check switch in seat belt lock by measuring resistance on belt lock plug. Belt lock engaged should read \u221e\u03a9, belt lock not engaged should read 0\u03a9.",
+      "question_type": "diagnostic",
+      "id": "72-118_equipmen-q08"
+    },
+    {
+      "question": "What warning signal indicates a potential seat belt system problem?",
+      "answer": "A warning signal with the driver's door closed, seat belt fastened (click heard) and ignition turned on indicates a problem with the seat belt lock switch.",
+      "question_type": "diagnostic",
+      "id": "72-118_equipmen-q09"
+    },
+    {
+      "question": "When is the automatic seat belt considered okay according to this flowchart?",
+      "answer": "The automatic seat belt is okay when there is no warning signal with the driver's door closed, seat belt fastened, and ignition turned on.",
+      "question_type": "diagnostic",
+      "id": "72-118_equipmen-q10"
+    }
+  ]
+}

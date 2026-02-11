@@ -1,0 +1,91 @@
+{
+  "page_id": "51-216_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-216.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:15:22.436912",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 817
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two main procedures covered in sections 51 21 300 and 51 21 330?",
+      "answer": "Section 51 21 300 covers removing and installing or replacing outside window recess cover strip, while section 51 21 330 covers removing and installing or replacing inside window recess cover strip.",
+      "question_type": "factual",
+      "id": "51-216_body-equ-q01"
+    },
+    {
+      "question": "What should be done with the outside mirror before removing the outside window recess cover strip?",
+      "answer": "If applicable, remove outside mirror - see 51 16 000.",
+      "question_type": "procedural",
+      "id": "51-216_body-equ-q02"
+    },
+    {
+      "question": "How should the outside cover strip be removed according to the procedure?",
+      "answer": "Lift out cover strip from above carefully.",
+      "question_type": "procedural",
+      "id": "51-216_body-equ-q03"
+    },
+    {
+      "question": "What is the first step when removing the inside window recess cover strip?",
+      "answer": "Remove door trim panel - see 51 41 001, then lift out cover strip.",
+      "question_type": "procedural",
+      "id": "51-216_body-equ-q04"
+    },
+    {
+      "question": "What part numbers are shown for the clip components in the diagrams?",
+      "answer": "Part number 30 51 747 is shown for one type of clip, and 30 51 749 is shown for another clip type.",
+      "question_type": "factual",
+      "id": "51-216_body-equ-q05"
+    },
+    {
+      "question": "What installation instruction is given for both outside and inside window recess cover strips?",
+      "answer": "For outside strips: replace damaged clips. For inside strips: check for correct fit of cover strip in clips.",
+      "question_type": "procedural",
+      "id": "51-216_body-equ-q06"
+    },
+    {
+      "question": "What specific instruction is provided for convertible models?",
+      "answer": "Convertibles: Lift out cover strip. Installation: Check for correct fit of cover strip in clips.",
+      "question_type": "procedural",
+      "id": "51-216_body-equ-q07"
+    },
+    {
+      "question": "What part number is referenced for the convertible cover strip procedure?",
+      "answer": "Part number 30 51 750 is shown in the convertible section.",
+      "question_type": "factual",
+      "id": "51-216_body-equ-q08"
+    },
+    {
+      "question": "What should be inspected during installation of the window recess cover strips?",
+      "answer": "Check for correct fit of cover strip in clips and replace damaged clips as needed.",
+      "question_type": "inspection",
+      "id": "51-216_body-equ-q09"
+    },
+    {
+      "question": "Which section should be referenced for door trim panel removal?",
+      "answer": "Section 51 41 001 should be referenced for door trim panel removal procedures.",
+      "question_type": "navigation",
+      "id": "51-216_body-equ-q10"
+    },
+    {
+      "question": "What callout number 30 51 748 indicates in the door panel diagram?",
+      "answer": "Part number 30 51 748 points to a component location in the door panel area where the inside window recess cover strip is installed.",
+      "question_type": "visual",
+      "id": "51-216_body-equ-q11"
+    },
+    {
+      "question": "What is the key difference between the removal procedures for outside versus inside window recess cover strips?",
+      "answer": "Outside strips are lifted out from above carefully, while inside strips require door trim panel removal first before lifting out the cover strip.",
+      "question_type": "procedural",
+      "id": "51-216_body-equ-q12"
+    }
+  ]
+}

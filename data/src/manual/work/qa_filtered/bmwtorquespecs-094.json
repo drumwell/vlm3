@@ -1,0 +1,55 @@
+{
+  "page_id": "bmwtorquespecs-094",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/094.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:30:01.993179",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 616
+  },
+  "qa_pairs": [
+    {
+      "question": "What size are the largest hex screws used for transmission to engine mounting and what is their torque value?",
+      "answer": "M12 hex screws with a torque specification of 74 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-094-q02"
+    },
+    {
+      "question": "Which section of the manual covers these transmission torque specifications?",
+      "answer": "Section 23-1 Manual Transmission, specifically 23 00 Transmission in general, subsection 1AZ Transmission to engine",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-094-q04"
+    },
+    {
+      "question": "What is the difference in torque specification between M8 hex screws and M8 Torx bolts?",
+      "answer": "M8 hex screws require 25 Nm while M8 Torx bolts require 22 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-094-q05"
+    },
+    {
+      "question": "What types of fasteners are specified for transmission to engine mounting?",
+      "answer": "Hex screws and Torx bolts",
+      "question_type": "component",
+      "id": "bmwtorquespecs-094-q06"
+    },
+    {
+      "question": "What is the torque specification for the largest Torx bolts listed?",
+      "answer": "72 Nm for M12 Torx bolts",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-094-q07"
+    },
+    {
+      "question": "How many different hex screw sizes are specified for transmission to engine mounting?",
+      "answer": "Three sizes: M8, M10, and M12",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-094-q08"
+    }
+  ]
+}

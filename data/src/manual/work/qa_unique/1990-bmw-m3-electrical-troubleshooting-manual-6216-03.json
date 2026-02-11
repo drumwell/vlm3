@@ -1,0 +1,49 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6216-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:04:33.535043",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 521
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the three fault indicators shown in the memory power input section?",
+      "answer": "The three fault indicators are Engine Oil Fault Indicator, Coolant Level Fault Indicator, and Washer Fluid Fault Indicator.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-03-q03"
+    },
+    {
+      "question": "What wire colors are associated with the oil static fault signal?",
+      "answer": "The oil static fault signal uses .5 BU/BK (0.5 blue/black) wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-03-q04"
+    },
+    {
+      "question": "What wire color is used for the coolant level switch connection?",
+      "answer": "The coolant level switch uses .5 BR/RD (0.5 brown/red) wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-03-q05"
+    },
+    {
+      "question": "What condition causes the washer fluid level switch to open?",
+      "answer": "The washer fluid level switch opens when there is low washer fluid level.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-03-q06"
+    },
+    {
+      "question": "What is the wire size and color for the brake warning system connection?",
+      "answer": "The brake warning system uses .75 BR (0.75 brown) wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-03-q08"
+    }
+  ]
+}

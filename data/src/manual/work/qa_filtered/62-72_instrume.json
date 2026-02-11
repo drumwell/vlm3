@@ -1,0 +1,79 @@
+{
+  "page_id": "62-72_instrume",
+  "image_path": "raw/62 - Instruments/62-72.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:46:01.435267",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1802,
+    "tokens_output": 786
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the wire colors for pin 11 '58R' Tail lights right?",
+      "answer": "The wire colors for pin 11 '58R' Tail lights right are gray/white.",
+      "question_type": "wiring",
+      "id": "62-72_instrume-q01"
+    },
+    {
+      "question": "What is the expected test value when checking pin 13 '58KL' with an ohmmeter?",
+      "answer": "The expected test value for pin 13 '58KL' is 4.7 ohms when measured with an ohmmeter between pin 13 and pin 9 (-).",
+      "question_type": "diagnostic",
+      "id": "62-72_instrume-q02"
+    },
+    {
+      "question": "Which pins are listed as 'Not used' on this connector diagram?",
+      "answer": "Pins 10, 14, and 19 are listed as 'Not used'.",
+      "question_type": "factual",
+      "id": "62-72_instrume-q03"
+    },
+    {
+      "question": "What function does pin 15 '30' Terminal '30' serve in the car?",
+      "answer": "Pin 15 '30' Terminal '30' provides positive from terminal 30 via fuse number.",
+      "question_type": "component",
+      "id": "62-72_instrume-q04"
+    },
+    {
+      "question": "What are the wire colors for the oil level static sensor connection?",
+      "answer": "The wire colors for pin 16 'OL stat.' Oil level static are blue/violet.",
+      "question_type": "wiring",
+      "id": "62-72_instrume-q05"
+    },
+    {
+      "question": "What is the expected ohmmeter reading for the washing fluid level sensor?",
+      "answer": "The expected ohmmeter reading for pin 17 'W' Washing fluid is approximately 0 ohm when measured between pin 17 and pin 9 (-).",
+      "question_type": "diagnostic",
+      "id": "62-72_instrume-q06"
+    },
+    {
+      "question": "Which pin uses brown/blue wire colors and what is its function?",
+      "answer": "Pin 18 'KW' Coolant uses brown/blue wire colors and its function is coolant level and transmitter okay.",
+      "question_type": "wiring",
+      "id": "62-72_instrume-q07"
+    },
+    {
+      "question": "What test equipment is specified for checking the tail light circuits?",
+      "answer": "A voltmeter is specified for testing the tail light circuits on pins 11 and 12, with measurements taken between the positive pin and pin 9 (-).",
+      "question_type": "tool",
+      "id": "62-72_instrume-q08"
+    },
+    {
+      "question": "What is the expected voltage reading for pin 12 '58L' Tail lights left?",
+      "answer": "The expected voltage reading for pin 12 '58L' Tail lights left is UB (battery voltage) when measured with a voltmeter between pin 12 (+) and pin 9 (-).",
+      "question_type": "diagnostic",
+      "id": "62-72_instrume-q09"
+    },
+    {
+      "question": "Which fluid level sensors show an approximate 0 ohm reading when tested?",
+      "answer": "The oil level static (pin 16), washing fluid (pin 17), and coolant (pin 18) sensors all show approximately 0 ohm readings when tested with an ohmmeter.",
+      "question_type": "diagnostic",
+      "id": "62-72_instrume-q10"
+    }
+  ]
+}

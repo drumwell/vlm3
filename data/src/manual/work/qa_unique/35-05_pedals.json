@@ -1,0 +1,67 @@
+{
+  "page_id": "35-05_pedals",
+  "image_path": "raw/35 - Pedals/35-05.jpg",
+  "section_id": "35",
+  "section_name": "Pedals",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:28:05.670495",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 698
+  },
+  "qa_pairs": [
+    {
+      "question": "Which dashboard component needs to be removed according to the brake pedal removal procedure?",
+      "answer": "Remove dashboard trim panel at bottom left - see Group 51.",
+      "question_type": "procedural",
+      "id": "35-05_pedals-q02"
+    },
+    {
+      "question": "What do callout numbers 1 and 2 indicate in the brake pedal removal diagram?",
+      "answer": "Callout 1 shows the clamp on brake linkage to press off, and callout 2 shows the shaft to pull out.",
+      "question_type": "visual",
+      "id": "35-05_pedals-q03"
+    },
+    {
+      "question": "How do you disconnect the return spring on a clutch pedal version?",
+      "answer": "Disconnect return spring on body for the version with Return Spring on Clutch Pedal.",
+      "question_type": "procedural",
+      "id": "35-05_pedals-q05"
+    },
+    {
+      "question": "What is the procedure for removing the brake pedal shaft?",
+      "answer": "Unscrew nut, pull out shaft, then take off pedal.",
+      "question_type": "procedural",
+      "id": "35-05_pedals-q06"
+    },
+    {
+      "question": "What type of nuts should be used during brake pedal installation?",
+      "answer": "Replace self-locking nuts.",
+      "question_type": "procedural",
+      "id": "35-05_pedals-q07"
+    },
+    {
+      "question": "Where should you disconnect the brake pedal return spring?",
+      "answer": "Disconnect brake pedal return spring on pedal.",
+      "question_type": "procedural",
+      "id": "35-05_pedals-q08"
+    },
+    {
+      "question": "What should be checked during installation for models with an over-center helper spring?",
+      "answer": "Check for correct installed position in models with an over-center helper spring.",
+      "question_type": "inspection",
+      "id": "35-05_pedals-q09"
+    },
+    {
+      "question": "What reference should be consulted for proper pedal positioning?",
+      "answer": "Also refer to the pedal layout drawing.",
+      "question_type": "navigation",
+      "id": "35-05_pedals-q10"
+    }
+  ]
+}

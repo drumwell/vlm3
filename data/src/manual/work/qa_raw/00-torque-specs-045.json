@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-045",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/045.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:24:43.377944",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 588
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for exhaust manifold to cylinder head bolts when mounting on a new cylinder head or with new studs?",
+      "answer": "28 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-045-q01"
+    },
+    {
+      "question": "What torque should be applied for subsequent mounting of the exhaust manifold?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-045-q02"
+    },
+    {
+      "question": "What is the retorque specification after 2000 km for the exhaust manifold bolts?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-045-q03"
+    },
+    {
+      "question": "What type of compound should be applied to the exhaust nuts and bolts?",
+      "answer": "Molykote HSC paste",
+      "question_type": "factual",
+      "id": "00-torque-specs-045-q04"
+    },
+    {
+      "question": "What is the protrusion specification for short studs from the cylinder head?",
+      "answer": "88 \u00b1 1.0 mm",
+      "question_type": "factual",
+      "id": "00-torque-specs-045-q06"
+    },
+    {
+      "question": "What is the protrusion specification for long studs from the cylinder head?",
+      "answer": "98 \u00b1 0.5 mm",
+      "question_type": "factual",
+      "id": "00-torque-specs-045-q07"
+    },
+    {
+      "question": "How do the tolerance ranges differ between short and long studs?",
+      "answer": "Short studs have a tolerance of \u00b1 1.0 mm while long studs have a tighter tolerance of \u00b1 0.5 mm",
+      "question_type": "factual",
+      "id": "00-torque-specs-045-q08"
+    },
+    {
+      "question": "What should be done before installing studs with Molykote HSC during retorque after 2000 km?",
+      "answer": "Loosen bolt first",
+      "question_type": "procedural",
+      "id": "00-torque-specs-045-q09"
+    },
+    {
+      "question": "What engine type is specified for the exhaust manifold torque specifications?",
+      "answer": "M30 Turbo",
+      "question_type": "factual",
+      "id": "00-torque-specs-045-q10"
+    }
+  ]
+}

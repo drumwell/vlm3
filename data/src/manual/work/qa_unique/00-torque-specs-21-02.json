@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-21-02",
+  "image_path": "raw/00 - Torque Specs/21-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:57:34.603765",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 670
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component uses the M8 8.8 screw specification in the clutch assembly?",
+      "answer": "Clutch to flywheel (1AZ)",
+      "question_type": "factual",
+      "id": "00-torque-specs-21-02-q03"
+    },
+    {
+      "question": "What is the difference in torque between M8 8.8 and M8 10.9 bolts in the clutch assembly?",
+      "answer": "The M8 10.9 bolts require 34 Nm while the M8 8.8 bolt requires 24 Nm, a difference of 10 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-21-02-q04"
+    },
+    {
+      "question": "What type designation applies to the bolt and taper sleeve replacement procedure?",
+      "answer": "S14/S38 B36",
+      "question_type": "factual",
+      "id": "00-torque-specs-21-02-q05"
+    },
+    {
+      "question": "What section and subsection does this clutch torque specification table belong to?",
+      "answer": "Section 21-2 Clutch, subsection 21 21 Clutch disc and drive plate",
+      "question_type": "navigation",
+      "id": "00-torque-specs-21-02-q06"
+    },
+    {
+      "question": "How many different torque specifications are listed for the clutch disc and drive plate?",
+      "answer": "Three torque specifications: 24 Nm for M8 8.8, and two entries of 34 Nm for M8 10.9",
+      "question_type": "factual",
+      "id": "00-torque-specs-21-02-q07"
+    },
+    {
+      "question": "What procedure is mentioned for the S14/S38 B36 type?",
+      "answer": "Replace bolt and taper sleeve",
+      "question_type": "procedural",
+      "id": "00-torque-specs-21-02-q08"
+    },
+    {
+      "question": "Which screw size has the higher torque specification in this clutch assembly?",
+      "answer": "M8 10.9 has the higher torque specification at 34 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-21-02-q09"
+    },
+    {
+      "question": "What units are used for all the torque measurements in this clutch specification table?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-21-02-q10"
+    }
+  ]
+}

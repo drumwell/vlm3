@@ -1,0 +1,91 @@
+{
+  "page_id": "13-801_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-801.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:49:16.587780",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 905
+  },
+  "qa_pairs": [
+    {
+      "question": "What voltage should the voltmeter display when checking the speed signal for the idle control unit?",
+      "answer": "The voltmeter should display at least 9 volts when checking the speed signal for the idle control unit.",
+      "question_type": "factual",
+      "id": "13-801_fuel-sys-q01"
+    },
+    {
+      "question": "Which terminals should be connected when testing the speed signal for the idle control unit?",
+      "answer": "Connect voltmeter (M 01) between terminals 3 and 4 when testing the speed signal for the idle control unit.",
+      "question_type": "procedural",
+      "id": "13-801_fuel-sys-q02"
+    },
+    {
+      "question": "What ohmmeter reading should you get between terminal 3 and socket 13 of the diagnosis socket?",
+      "answer": "The ohmmeter should display approximately 0 ohm between terminal 3 and socket 13 of the diagnosis socket.",
+      "question_type": "factual",
+      "id": "13-801_fuel-sys-q03"
+    },
+    {
+      "question": "What should you do if there are breaks in the green wire during speed signal testing?",
+      "answer": "You should eliminate the breaks in the green wire if they are found during speed signal testing.",
+      "question_type": "procedural",
+      "id": "13-801_fuel-sys-q04"
+    },
+    {
+      "question": "Which terminals are used for the idle signal test on the idle control unit?",
+      "answer": "Connect voltmeter (M 01) between terminals 4 and 12 for the idle signal test on the idle control unit.",
+      "question_type": "procedural",
+      "id": "13-801_fuel-sys-q05"
+    },
+    {
+      "question": "What voltage should the voltmeter show briefly when testing the idle signal?",
+      "answer": "The voltmeter should display at least 9 volts briefly when testing the idle signal with ignition turned on and then off.",
+      "question_type": "factual",
+      "id": "13-801_fuel-sys-q06"
+    },
+    {
+      "question": "What should you do if the idle signal test fails at the throttle switch step?",
+      "answer": "If the test fails, you should adjust or replace the throttle switch and adjust the cable.",
+      "question_type": "troubleshooting",
+      "id": "13-801_fuel-sys-q07"
+    },
+    {
+      "question": "What voltage reading indicates a proper idle signal when pressing the accelerator pedal?",
+      "answer": "The voltmeter should display approximately 0 volt when pressing down the accelerator pedal several centimeters during the idle signal test.",
+      "question_type": "factual",
+      "id": "13-801_fuel-sys-q08"
+    },
+    {
+      "question": "What is the first step in checking the idle signal for the idle control unit?",
+      "answer": "The first step is to connect voltmeter (M 01) between terminals 4 and 12, then turn on ignition.",
+      "question_type": "procedural",
+      "id": "13-801_fuel-sys-q09"
+    },
+    {
+      "question": "What should you check if the idle signal voltage test fails initially?",
+      "answer": "If the initial test fails, you should pull off the multiple-pin plug on the throttle switch and connect voltmeter (M 01) on center pin contact of plug receptacle and ground.",
+      "question_type": "diagnostic",
+      "id": "13-801_fuel-sys-q10"
+    },
+    {
+      "question": "When should you provide power supply to the wiring diagram during idle signal testing?",
+      "answer": "You should provide power supply to the wiring diagram if the voltage test at the throttle switch plug receptacle fails to show at least 9 volts briefly.",
+      "question_type": "troubleshooting",
+      "id": "13-801_fuel-sys-q11"
+    },
+    {
+      "question": "What does a successful speed signal test indicate about the idle control unit?",
+      "answer": "If the speed signal test passes (voltmeter shows at least 9 volts), it indicates that the speed signal for the idle control unit is okay.",
+      "question_type": "diagnostic",
+      "id": "13-801_fuel-sys-q12"
+    }
+  ]
+}

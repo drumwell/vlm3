@@ -1,0 +1,67 @@
+{
+  "page_id": "23-320_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-320.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:46:29.244300",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 527
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is identified as number 1 in this transmission exploded view?",
+      "answer": "Number 1 is the Ball bearing.",
+      "question_type": "component",
+      "id": "23-320_manual-t-q01"
+    },
+    {
+      "question": "What are the main gear components shown in the upper shaft assembly?",
+      "answer": "The main gear components include the 4th gear (number 2), 3rd gear (number 13), 2nd gear (number 18), and 1st gear (number 19).",
+      "question_type": "component",
+      "id": "23-320_manual-t-q02"
+    },
+    {
+      "question": "What component is number 5 and where is it located in the assembly?",
+      "answer": "Number 5 is the Synchromesh ring, and it appears multiple times throughout the gear assembly between various gears.",
+      "question_type": "component",
+      "id": "23-320_manual-t-q03"
+    },
+    {
+      "question": "What does callout number 40 refer to in this transmission diagram?",
+      "answer": "Number 40 is the Layshaft.",
+      "question_type": "factual",
+      "id": "23-320_manual-t-q04"
+    },
+    {
+      "question": "What bearing components are used with the output shaft?",
+      "answer": "The output shaft (number 16) uses a Ball bearing (number 17) and other bearing components in its assembly.",
+      "question_type": "component",
+      "id": "23-320_manual-t-q05"
+    },
+    {
+      "question": "What is the reverse gear component number in this transmission?",
+      "answer": "The reverse gear is identified as number 23 and number 49 in the assembly.",
+      "question_type": "component",
+      "id": "23-320_manual-t-q06"
+    },
+    {
+      "question": "What component separates the different gear sets on the main shaft?",
+      "answer": "Synchromesh rings (number 5) and various washers separate the different gear sets on the main shaft assembly.",
+      "question_type": "component",
+      "id": "23-320_manual-t-q07"
+    },
+    {
+      "question": "What is the function of component number 12 in this transmission?",
+      "answer": "Number 12 is the Sliding sleeve, which is part of the gear selection mechanism.",
+      "question_type": "component",
+      "id": "23-320_manual-t-q08"
+    }
+  ]
+}

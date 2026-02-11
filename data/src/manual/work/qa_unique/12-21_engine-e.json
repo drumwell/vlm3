@@ -1,0 +1,85 @@
+{
+  "page_id": "12-21_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-21.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:36:48.218534",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 893
+  },
+  "qa_pairs": [
+    {
+      "question": "What voltage should be measured on connection terminals 15 and 31 of the TCI control unit during Test 2?",
+      "answer": "Approximately 12 V should be measured on connection terminals 15 and 31 of the TCI control unit.",
+      "question_type": "factual",
+      "id": "12-21_engine-e-q01"
+    },
+    {
+      "question": "What is the first step required before checking the voltage supply for the TCI Control Unit?",
+      "answer": "Pull off plug on control unit and turn on ignition.",
+      "question_type": "procedural",
+      "id": "12-21_engine-e-q02"
+    },
+    {
+      "question": "What does terminal 31 represent in both the Bosch and Siemens/Telefunken TCI control units?",
+      "answer": "Terminal 31 represents Ground in both control unit types.",
+      "question_type": "factual",
+      "id": "12-21_engine-e-q03"
+    },
+    {
+      "question": "If the voltage test on terminals 15 and 31 is not okay, what troubleshooting steps should be performed?",
+      "answer": "Check the routing of terminal 15w wire, including ignition lock connections, wire harness connections for car electric system, engine wire harness plug connections, and TCI control unit connections. The ground wire should be routed to the ground point on air collector (4th cylinder).",
+      "question_type": "troubleshooting",
+      "id": "12-21_engine-e-q04"
+    },
+    {
+      "question": "What does terminal 15 represent in the TCI control unit connector pinouts?",
+      "answer": "Terminal 15 represents Power supply in both the Bosch and Siemens/Telefunken control units.",
+      "question_type": "factual",
+      "id": "12-21_engine-e-q05"
+    },
+    {
+      "question": "What component is shown in the middle diagram with terminals numbered 1 through 6?",
+      "answer": "The middle diagram shows the TCI1-S Control Unit (Siemens/Telefunken) with the note that S = ignition timing retard while starting.",
+      "question_type": "visual",
+      "id": "12-21_engine-e-q06"
+    },
+    {
+      "question": "What does the 'S' designation mean in the Siemens/Telefunken TCI1-S control unit?",
+      "answer": "S = ignition timing retard while starting.",
+      "question_type": "factual",
+      "id": "12-21_engine-e-q07"
+    },
+    {
+      "question": "What is connected to terminal 1/16 in the Siemens/Telefunken control unit?",
+      "answer": "Terminal 1/16 is connected to the ignition coil.",
+      "question_type": "factual",
+      "id": "12-21_engine-e-q08"
+    },
+    {
+      "question": "Where is the ground point located for the TCI control unit ground wire?",
+      "answer": "The ground wire is routed to the ground point on air collector (4th cylinder).",
+      "question_type": "factual",
+      "id": "12-21_engine-e-q10"
+    },
+    {
+      "question": "What do terminals A+/B- represent in the Bosch TCI control unit?",
+      "answer": "Terminals A+/B- represent the Pulse transmitter in the Bosch control unit.",
+      "question_type": "factual",
+      "id": "12-21_engine-e-q11"
+    },
+    {
+      "question": "What reference should be consulted for more detailed wiring information related to this system?",
+      "answer": "See car or engine electric system wiring diagram.",
+      "question_type": "navigation",
+      "id": "12-21_engine-e-q12"
+    }
+  ]
+}

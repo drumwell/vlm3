@@ -1,0 +1,91 @@
+{
+  "page_id": "41-109_body",
+  "image_path": "raw/41 - Body/41-109.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:42:08.095471",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 741
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to prepare mating surfaces before spot welding?",
+      "answer": "Remove scrap metal, straighten and grind mating surfaces, then coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-109_body-q01"
+    },
+    {
+      "question": "What type of paint should be used to coat the mating surfaces?",
+      "answer": "Zinc dust paint should be used to coat mating surfaces required for spot welding.",
+      "question_type": "factual",
+      "id": "41-109_body-q02"
+    },
+    {
+      "question": "Where should the car be positioned during this repair procedure?",
+      "answer": "Take up car on straightening bench.",
+      "question_type": "procedural",
+      "id": "41-109_body-q03"
+    },
+    {
+      "question": "What should be done to the new engine carrier front section before installation?",
+      "answer": "Grind and coat mating surfaces on new engine carrier front section with zinc dust paint, and drill holes in area of wheel house support for plug spot welding.",
+      "question_type": "procedural",
+      "id": "41-109_body-q04"
+    },
+    {
+      "question": "How should the new engine carrier front section be secured during installation?",
+      "answer": "Install and clamp new engine carrier front section.",
+      "question_type": "procedural",
+      "id": "41-109_body-q05"
+    },
+    {
+      "question": "What welding method is used to attach the engine carrier front section to the wheel house?",
+      "answer": "Spot weld engine carrier front section on wheel house.",
+      "question_type": "factual",
+      "id": "41-109_body-q06"
+    },
+    {
+      "question": "What type of welding is used to join the engine carrier front section on the wheel house support and engine carrier?",
+      "answer": "Inert gas plug weld engine carrier front section on wheel house support and engine carrier.",
+      "question_type": "factual",
+      "id": "41-109_body-q07"
+    },
+    {
+      "question": "From which direction should the engine carrier and wheel house be welded together?",
+      "answer": "Inert gas plug weld engine carrier and wheel house from outside.",
+      "question_type": "procedural",
+      "id": "41-109_body-q08"
+    },
+    {
+      "question": "What should be done after welding the bracket?",
+      "answer": "Weld on bracket and check position.",
+      "question_type": "procedural",
+      "id": "41-109_body-q09"
+    },
+    {
+      "question": "What diagram number shows the straightening bench setup?",
+      "answer": "Diagram 30 41 107 shows the straightening bench setup.",
+      "question_type": "visual",
+      "id": "41-109_body-q10"
+    },
+    {
+      "question": "Which image shows the drilling of holes for plug spot welding?",
+      "answer": "Image 30 41 108 shows the grinding and coating of mating surfaces and drilling holes for plug spot welding.",
+      "question_type": "visual",
+      "id": "41-109_body-q11"
+    },
+    {
+      "question": "What is the final step shown for the bracket installation?",
+      "answer": "The final step is to weld on the bracket and check its position.",
+      "question_type": "procedural",
+      "id": "41-109_body-q12"
+    }
+  ]
+}

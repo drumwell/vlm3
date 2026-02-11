@@ -1,0 +1,91 @@
+{
+  "page_id": "21-04_clutch",
+  "image_path": "raw/21 - Clutch/21-04.jpg",
+  "section_id": "21",
+  "section_name": "Clutch",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:20:38.714561",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 773
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the dial gauge tolerance for checking drive plate lateral runout?",
+      "answer": "Apply dial gauge about 3 mm (0.118\") from outer edge.",
+      "question_type": "factual",
+      "id": "21-04_clutch-q01"
+    },
+    {
+      "question": "What lubricant should be used for coating guides and bearings during clutch release installation?",
+      "answer": "Coat guides (F) and bearings (L) with Molykote Longterm 2 lightly.",
+      "question_type": "factual",
+      "id": "21-04_clutch-q02"
+    },
+    {
+      "question": "How should the drive plate be straightened if it shows lateral runout?",
+      "answer": "Straighten drive plate by applying knocks from a plastic hammer on take-up points of tester.",
+      "question_type": "procedural",
+      "id": "21-04_clutch-q03"
+    },
+    {
+      "question": "What component must be removed according to section 23 00 022 when working on clutch release?",
+      "answer": "Remove transmission - see 23 00 022.",
+      "question_type": "navigation",
+      "id": "21-04_clutch-q04"
+    },
+    {
+      "question": "Which tool numbers are required for checking drive plate lateral runout?",
+      "answer": "Clamp tester 21 2 110 in a vise and mount dial gage 00 2 510 and holder 00 2 500.",
+      "question_type": "tool",
+      "id": "21-04_clutch-q05"
+    },
+    {
+      "question": "What should be done to prepare the drive plate tester before use?",
+      "answer": "Clamp drive plate on tester and clean liner with emery cloth.",
+      "question_type": "procedural",
+      "id": "21-04_clutch-q06"
+    },
+    {
+      "question": "What is packed with Molykote Longterm 2 during installation?",
+      "answer": "Pack lubricating groove (N) with Molykote Longterm 2.",
+      "question_type": "factual",
+      "id": "21-04_clutch-q07"
+    },
+    {
+      "question": "What callout numbers identify the spring, lever, and release components in the removal diagram?",
+      "answer": "Spring (1), release lever (2), and release (3) are shown in the removal diagram.",
+      "question_type": "visual",
+      "id": "21-04_clutch-q08"
+    },
+    {
+      "question": "What must be checked for height after clutch release installation?",
+      "answer": "Check height of release B* and C*.",
+      "question_type": "inspection",
+      "id": "21-04_clutch-q09"
+    },
+    {
+      "question": "What is the consequence of non-conformance mentioned in the installation notes?",
+      "answer": "Non-conformance could cause bearing to seize on guide sleeve.",
+      "question_type": "safety",
+      "id": "21-04_clutch-q10"
+    },
+    {
+      "question": "What action should be taken after straightening the drive plate?",
+      "answer": "Repeat testing procedures after straightening the drive plate.",
+      "question_type": "procedural",
+      "id": "21-04_clutch-q11"
+    },
+    {
+      "question": "What letters identify the guides, bearings, and lubricating groove in the installation diagram?",
+      "answer": "F identifies guides, L identifies bearings, and N identifies the lubricating groove.",
+      "question_type": "visual",
+      "id": "21-04_clutch-q12"
+    }
+  ]
+}

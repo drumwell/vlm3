@@ -1,0 +1,91 @@
+{
+  "page_id": "36-11_wheels-a",
+  "image_path": "raw/36 - Wheels and Tires/36-11.jpg",
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:32:48.677256",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 823
+  },
+  "qa_pairs": [
+    {
+      "question": "How far should the valve be positioned to the right of the mounting head?",
+      "answer": "The valve should be 10 cm (4\") to the right of the mounting head.",
+      "question_type": "factual",
+      "id": "36-11_wheels-a-q01"
+    },
+    {
+      "question": "What should you do after applying mounting paste to the rim flange and tire beads?",
+      "answer": "Clamp the rim on the mounting machine, then slide on the tire with the lower bead over the rim flange partially.",
+      "question_type": "procedural",
+      "id": "36-11_wheels-a-q02"
+    },
+    {
+      "question": "What pressure should you initially increase to when inflating the tire?",
+      "answer": "Increase the pressure in steps to 3.3 bar (47 psi) using spring pressure.",
+      "question_type": "factual",
+      "id": "36-11_wheels-a-q03"
+    },
+    {
+      "question": "What important warning is given regarding the tire bead during mounting?",
+      "answer": "Don't pinch or damage the bead.",
+      "question_type": "safety",
+      "id": "36-11_wheels-a-q04"
+    },
+    {
+      "question": "What should you check when running the mounting machine forward clockwise a short distance?",
+      "answer": "Check that the lower tire bead remains in the well.",
+      "question_type": "inspection",
+      "id": "36-11_wheels-a-q05"
+    },
+    {
+      "question": "What is the maximum inflation pressure allowed if tire beads seat on rim flange correctly?",
+      "answer": "If tire beads seat on rim flange correctly, increase the inflation pressure to max. 4.0 bar (57 psi) to have the tire \"settle\".",
+      "question_type": "factual",
+      "id": "36-11_wheels-a-q06"
+    },
+    {
+      "question": "Where should the tire bead seat in relation to the mounting finger?",
+      "answer": "The tire bead should seat in rollers next to the mounting finger.",
+      "question_type": "procedural",
+      "id": "36-11_wheels-a-q07"
+    },
+    {
+      "question": "What should you do if the tire bead does not slide on to the rim edge all around?",
+      "answer": "Do not increase the pressure. Instead, the tire must be deflated and the tire bead pressed off, then coat the tire bead and rim flange with mounting paste again and inflate again to 3.3 bar (47 psi) pressure.",
+      "question_type": "troubleshooting",
+      "id": "36-11_wheels-a-q08"
+    },
+    {
+      "question": "What diagram number shows the tire being pressed underneath the mounting finger?",
+      "answer": "Diagram 30 36 047 shows the tire being pressed underneath the mounting finger.",
+      "question_type": "visual",
+      "id": "36-11_wheels-a-q09"
+    },
+    {
+      "question": "What should you do first after mounting before inflating the tire?",
+      "answer": "After mounting, first release the clamps and then inflate the tire (without valve insert).",
+      "question_type": "procedural",
+      "id": "36-11_wheels-a-q10"
+    },
+    {
+      "question": "How should you position the upper tire bead during the mounting process?",
+      "answer": "Press the upper tire bead underneath the mounting finger, ensuring the tire bead should seat in rollers next to the mounting finger.",
+      "question_type": "procedural",
+      "id": "36-11_wheels-a-q11"
+    },
+    {
+      "question": "What is the final step mentioned for correcting tire inflation pressure?",
+      "answer": "Screw in the valve insert and correct the tire inflation pressure.",
+      "question_type": "procedural",
+      "id": "36-11_wheels-a-q12"
+    }
+  ]
+}

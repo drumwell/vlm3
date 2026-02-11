@@ -1,0 +1,91 @@
+{
+  "page_id": "23-113_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-113.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:28:33.344644",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 847
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to press off the gears from the output shaft?",
+      "answer": "Special Tool 23 1 490 is required to press off the gears from the output shaft.",
+      "question_type": "tool",
+      "id": "23-113_manual-t-q01"
+    },
+    {
+      "question": "What procedure number is being shown for replacing the output shaft?",
+      "answer": "Procedure 23 21 555 for replacing the output shaft with the output shaft removed.",
+      "question_type": "navigation",
+      "id": "23-113_manual-t-q02"
+    },
+    {
+      "question": "What components are labeled as items 1, 2, and 3 in the exploded view?",
+      "answer": "Item 1 is the input shaft, item 2 is the synchromesh ring made of brass and needle bearing, and item 3 is another component in the assembly.",
+      "question_type": "visual",
+      "id": "23-113_manual-t-q03"
+    },
+    {
+      "question": "What must be done with the circlip during installation?",
+      "answer": "The circlip must always be replaced during installation.",
+      "question_type": "procedural",
+      "id": "23-113_manual-t-q04"
+    },
+    {
+      "question": "What important safety note is given about circlip 5?",
+      "answer": "Circlip 5 must be removed before pressing off 1st gear, and it must always be replaced during installation.",
+      "question_type": "safety",
+      "id": "23-113_manual-t-q05"
+    },
+    {
+      "question": "How should the guide sleeve be adjusted during installation?",
+      "answer": "The guide sleeve should be adjusted with circlip 4 to take up all play, and circlips are available from Parts in different thicknesses.",
+      "question_type": "procedural",
+      "id": "23-113_manual-t-q06"
+    },
+    {
+      "question": "What bearing components need to be removed when pressing off the 2nd gear?",
+      "answer": "The press bearing sleeve, thrust washer and 2nd gear need to be pressed off, and the needle bearing and sintered steel synchromesh ring must be removed.",
+      "question_type": "procedural",
+      "id": "23-113_manual-t-q07"
+    },
+    {
+      "question": "Which gear requires guide and sliding sleeves to be pressed off with Special Tool 23 1 490?",
+      "answer": "Both the 1st gear and 3rd gear require guide and sliding sleeves to be pressed off with Special Tool 23 1 490.",
+      "question_type": "tool",
+      "id": "23-113_manual-t-q08"
+    },
+    {
+      "question": "What components are removed along with the 5th gear?",
+      "answer": "The thrust washer and 5th gear are pressed off together, and the brass synchromesh ring and needle bearing are removed.",
+      "question_type": "component",
+      "id": "23-113_manual-t-q09"
+    },
+    {
+      "question": "What is the part number reference shown at the top of the page?",
+      "answer": "The part number reference shown is 23 21 555 for replacing the output shaft.",
+      "question_type": "factual",
+      "id": "23-113_manual-t-q10"
+    },
+    {
+      "question": "What type of bearing is used with the synchromesh ring in item 2?",
+      "answer": "A needle bearing is used with the synchromesh ring made of brass.",
+      "question_type": "component",
+      "id": "23-113_manual-t-q11"
+    },
+    {
+      "question": "What must be done to remove the needle bearing when working on the gears?",
+      "answer": "The needle bearing must be removed after pressing off the respective gear components using Special Tool 23 1 490.",
+      "question_type": "procedural",
+      "id": "23-113_manual-t-q12"
+    }
+  ]
+}

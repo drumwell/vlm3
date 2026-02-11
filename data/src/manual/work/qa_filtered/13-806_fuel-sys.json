@@ -1,0 +1,73 @@
+{
+  "page_id": "13-806_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-806.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:50:30.053263",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1803,
+    "tokens_output": 552
+  },
+  "qa_pairs": [
+    {
+      "question": "What nominal idle speed is specified for cars with automatic transmission after selecting a drive range?",
+      "answer": "750 \u00b1 50 rpm",
+      "question_type": "factual",
+      "id": "13-806_fuel-sys-q01"
+    },
+    {
+      "question": "Which terminals should be connected with a voltmeter for testing cars with automatic transmission?",
+      "answer": "Terminal 4 and terminal 7",
+      "question_type": "procedural",
+      "id": "13-806_fuel-sys-q02"
+    },
+    {
+      "question": "What is the minimum voltage reading that should be displayed when testing the automatic transmission selector lever circuit?",
+      "answer": "At least 9 volts",
+      "question_type": "parameter",
+      "id": "13-806_fuel-sys-q03"
+    },
+    {
+      "question": "Which selector positions should be tested for cars with automatic transmission?",
+      "answer": "\"N\" or \"P\" positions",
+      "question_type": "procedural",
+      "id": "13-806_fuel-sys-q04"
+    },
+    {
+      "question": "What wire color should be checked for breaks in automatic transmission vehicles?",
+      "answer": "Blue/yellow wire",
+      "question_type": "wiring",
+      "id": "13-806_fuel-sys-q05"
+    },
+    {
+      "question": "For manual transmission cars, what is the minimum voltage reading required between terminals 4 and 7?",
+      "answer": "At least 9 volts",
+      "question_type": "parameter",
+      "id": "13-806_fuel-sys-q06"
+    },
+    {
+      "question": "What wire colors should be checked for breaks in manual transmission vehicles?",
+      "answer": "Green/yellow wire from terminal 7 to terminal 2",
+      "question_type": "wiring",
+      "id": "13-806_fuel-sys-q07"
+    },
+    {
+      "question": "What tool is specified for measuring voltage in the preferred circuit test?",
+      "answer": "Voltmeter (M 01)",
+      "question_type": "tool",
+      "id": "13-806_fuel-sys-q08"
+    },
+    {
+      "question": "What should be done if breaks are found in the blue/yellow wire for automatic transmission cars?",
+      "answer": "Eliminate breaks and check or replace selector lever switch",
+      "question_type": "troubleshooting",
+      "id": "13-806_fuel-sys-q09"
+    }
+  ]
+}

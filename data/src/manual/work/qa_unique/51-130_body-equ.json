@@ -1,0 +1,73 @@
+{
+  "page_id": "51-130_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-130.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:11:28.441636",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 720
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the steps to remove the radiator grill center section?",
+      "answer": "Open engine hood, remove clamps, and remove grill.",
+      "question_type": "procedural",
+      "id": "51-130_body-equ-q01"
+    },
+    {
+      "question": "What procedure number covers removing and installing the radiator grill center section?",
+      "answer": "Procedure 51 13 000.",
+      "question_type": "factual",
+      "id": "51-130_body-equ-q02"
+    },
+    {
+      "question": "What steps are required to remove the heater air inlet grill?",
+      "answer": "Lift out cover (1), unscrew nut (2), and take off windshield wiper arm (3).",
+      "question_type": "procedural",
+      "id": "51-130_body-equ-q05"
+    },
+    {
+      "question": "What is callout number 1 pointing to in the heater air inlet grill removal procedure?",
+      "answer": "The cover that needs to be lifted out.",
+      "question_type": "visual",
+      "id": "51-130_body-equ-q06"
+    },
+    {
+      "question": "What does callout number 2 indicate in procedure 51 13 076?",
+      "answer": "The nut that needs to be unscrewed during heater air inlet grill removal.",
+      "question_type": "visual",
+      "id": "51-130_body-equ-q07"
+    },
+    {
+      "question": "What component is identified by callout number 3 in the heater air inlet grill procedure?",
+      "answer": "The windshield wiper arm that needs to be taken off.",
+      "question_type": "visual",
+      "id": "51-130_body-equ-q08"
+    },
+    {
+      "question": "Which diagram shows the headlight area components?",
+      "answer": "The bottom left diagram labeled 30 51 419 shows the radiator grill side section with headlight area.",
+      "question_type": "visual",
+      "id": "51-130_body-equ-q10"
+    },
+    {
+      "question": "What procedure number is used for removing the heater air inlet grill?",
+      "answer": "Procedure 51 13 076.",
+      "question_type": "factual",
+      "id": "51-130_body-equ-q11"
+    },
+    {
+      "question": "What type of fasteners need to be removed for the radiator grill side section?",
+      "answer": "Clamps and screws need to be removed.",
+      "question_type": "component",
+      "id": "51-130_body-equ-q12"
+    }
+  ]
+}

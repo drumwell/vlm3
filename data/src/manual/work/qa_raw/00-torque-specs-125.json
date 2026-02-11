@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-125",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/125.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:50:55.004613",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 604
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the 7AZ plug with M24x1.5 threads?",
+      "answer": "33 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-125-q01"
+    },
+    {
+      "question": "What torque value should be used for M14 x 1.5 screws on the transfer box plug?",
+      "answer": "33 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-125-q02"
+    },
+    {
+      "question": "What is the torque specification for M18x1.5 screws on the transfer box plug?",
+      "answer": "23 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-125-q03"
+    },
+    {
+      "question": "How much torque should be applied to the transmission cross member to rubber mounts bolts?",
+      "answer": "80 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-125-q04"
+    },
+    {
+      "question": "What is the torque specification for the transmission cross member to body bolts?",
+      "answer": "24 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-125-q05"
+    },
+    {
+      "question": "Which transfer box plug bolts require the highest torque specification?",
+      "answer": "The M24x1.5 and M14 x 1.5 bolts both require 33 Nm, which is the highest torque specification for transfer box plugs.",
+      "question_type": "factual",
+      "id": "00-torque-specs-125-q08"
+    },
+    {
+      "question": "What is the difference in torque between the transmission cross member to rubber mounts and cross member to body bolts?",
+      "answer": "56 Nm (80 Nm for rubber mounts minus 24 Nm for body connection)",
+      "question_type": "factual",
+      "id": "00-torque-specs-125-q09"
+    },
+    {
+      "question": "Which component uses the 8AZ designation in this torque specification table?",
+      "answer": "The transmission cross member connections (both to rubber mounts and to body)",
+      "question_type": "component",
+      "id": "00-torque-specs-125-q10"
+    }
+  ]
+}

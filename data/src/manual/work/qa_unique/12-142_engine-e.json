@@ -1,0 +1,79 @@
+{
+  "page_id": "12-142_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-142.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:33:09.461594",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 756
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing the alternator?",
+      "answer": "Unscrew the negative terminal on the battery (in trunk).",
+      "question_type": "procedural",
+      "id": "12-142_engine-e-q01"
+    },
+    {
+      "question": "What safety precaution must be taken when disconnecting the battery for alternator removal?",
+      "answer": "Only disconnect leads on battery, alternator and starter when engine is stopped. Also disconnect positive and negative leads when charging battery with a charger.",
+      "question_type": "safety",
+      "id": "12-142_engine-e-q02"
+    },
+    {
+      "question": "What component needs to be removed along with the air cleaner?",
+      "answer": "Take off air cleaner with air flow sensor.",
+      "question_type": "procedural",
+      "id": "12-142_engine-e-q03"
+    },
+    {
+      "question": "What are the acceptable tester needle positions when checking belt tension?",
+      "answer": "The tester needle must be in the scale above green or yellow section.",
+      "question_type": "inspection",
+      "id": "12-142_engine-e-q06"
+    },
+    {
+      "question": "What torque specification is given for tightening the drive belt?",
+      "answer": "Unscrew nut and turn tensioning wheel with a torque of approx. 7 Nm (5 ft. lbs.). Tighten nut.",
+      "question_type": "factual",
+      "id": "12-142_engine-e-q07"
+    },
+    {
+      "question": "What should be done after tightening the drive belt nut?",
+      "answer": "Recheck tightness with tester, correcting if necessary.",
+      "question_type": "procedural",
+      "id": "12-142_engine-e-q08"
+    },
+    {
+      "question": "What components need to be unscrewed before removing the alternator?",
+      "answer": "Unscrew mounting bolts and unscrew leads.",
+      "question_type": "procedural",
+      "id": "12-142_engine-e-q09"
+    },
+    {
+      "question": "What section reference is given for drive belt tightening during installation?",
+      "answer": "Tighten drive belt - 12 31 299.",
+      "question_type": "navigation",
+      "id": "12-142_engine-e-q10"
+    },
+    {
+      "question": "What additional procedure may be required if the alternator was replaced?",
+      "answer": "If alternator was replaced, check and, if necessary, discharge gas tank - see Group 61, Pos. 61 21 015.",
+      "question_type": "procedural",
+      "id": "12-142_engine-e-q11"
+    },
+    {
+      "question": "What are the terminal markings visible on the alternator in the bottom image?",
+      "answer": "The alternator shows D+ and B+ terminal markings.",
+      "question_type": "visual",
+      "id": "12-142_engine-e-q12"
+    }
+  ]
+}

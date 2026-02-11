@@ -1,0 +1,91 @@
+{
+  "page_id": "51-115_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-115.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:09:38.419025",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 764
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for replacing the left or right front bumper side section?",
+      "answer": "Section 51 11 071 covers replacing the left or right front bumper side section.",
+      "question_type": "factual",
+      "id": "51-115_body-equ-q01"
+    },
+    {
+      "question": "What electrical components need to be disconnected before removing the front bumper?",
+      "answer": "You need to pull off electric leads on turn signals, front fog lamps and temperature sensor.",
+      "question_type": "procedural",
+      "id": "51-115_body-equ-q02"
+    },
+    {
+      "question": "What is the specific procedure mentioned for the BMW M3 engine splash guard?",
+      "answer": "For the BMW M3, you need to unscrew screws of engine splash guard.",
+      "question_type": "procedural",
+      "id": "51-115_body-equ-q03"
+    },
+    {
+      "question": "What should you do after lifting out the covers during bumper removal?",
+      "answer": "After lifting out covers, you should unscrew bolts.",
+      "question_type": "procedural",
+      "id": "51-115_body-equ-q04"
+    },
+    {
+      "question": "What is the first step mentioned for removing the front bumper?",
+      "answer": "The first step is to remove front bumper - see section 51 11 000, then unscrew light and pull off plug.",
+      "question_type": "procedural",
+      "id": "51-115_body-equ-q05"
+    },
+    {
+      "question": "What should be done with the side section of the bumper?",
+      "answer": "Unscrew bolts and take off side section of bumper.",
+      "question_type": "procedural",
+      "id": "51-115_body-equ-q06"
+    },
+    {
+      "question": "What reference is provided for installation specifications?",
+      "answer": "The manual references 'See Specifications' with an asterisk for tightening torque information.",
+      "question_type": "factual",
+      "id": "51-115_body-equ-q07"
+    },
+    {
+      "question": "What type of lamps are visible in the bumper assembly diagram?",
+      "answer": "The diagram shows front fog lamps that are part of the electrical components that need to be disconnected.",
+      "question_type": "visual",
+      "id": "51-115_body-equ-q08"
+    },
+    {
+      "question": "What is mentioned about tightening torque during installation?",
+      "answer": "Installation requires specific tightening torque, with a reference to see specifications for the exact values.",
+      "question_type": "procedural",
+      "id": "51-115_body-equ-q09"
+    },
+    {
+      "question": "What is the final step shown for bumper side section removal?",
+      "answer": "The final step is to lift out bumper after all electrical connections have been removed and bolts unscrewed.",
+      "question_type": "procedural",
+      "id": "51-115_body-equ-q10"
+    },
+    {
+      "question": "What cross-reference section is mentioned for front bumper removal?",
+      "answer": "Section 51 11 000 is referenced for the front bumper removal procedure.",
+      "question_type": "navigation",
+      "id": "51-115_body-equ-q11"
+    },
+    {
+      "question": "What components are shown in the headlight assembly diagram?",
+      "answer": "The diagram shows dual headlights with turn signals and associated wiring connections that need to be disconnected during removal.",
+      "question_type": "visual",
+      "id": "51-115_body-equ-q12"
+    }
+  ]
+}

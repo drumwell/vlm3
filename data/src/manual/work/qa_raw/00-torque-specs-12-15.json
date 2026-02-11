@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-12-15",
+  "image_path": "raw/00 - Torque Specs/12-15.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:49:23.680142",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 540
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the temperature switch for electronic box?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-15-q01"
+    },
+    {
+      "question": "Which engine types use the temperature switch for electronic box with part number 1AZ?",
+      "answer": "E32/E34/E31",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-15-q02"
+    },
+    {
+      "question": "What section covers the temperature switch for electronic box specifications?",
+      "answer": "Section 12 63 Switches and Relays under Engine Electrical Equipment",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-15-q03"
+    },
+    {
+      "question": "What unit is used for the torque specification of the temperature switch for electronic box?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-15-q05"
+    },
+    {
+      "question": "Under which main category is the temperature switch for electronic box listed?",
+      "answer": "12 - 15 Engine Electrical Equipment",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-15-q06"
+    },
+    {
+      "question": "What is the subcategory number for switches and relays in the engine electrical equipment section?",
+      "answer": "12 63",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-15-q07"
+    },
+    {
+      "question": "How many different engine types are specified for the temperature switch for electronic box?",
+      "answer": "Three types: E32, E34, and E31",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-15-q08"
+    },
+    {
+      "question": "What document reference appears at the top of this page?",
+      "answer": "AZD12-10.frb dated 20/10/97",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-15-q09"
+    },
+    {
+      "question": "What type of component is the 1AZ designation referring to?",
+      "answer": "Temperature switch for electronic box",
+      "question_type": "component",
+      "id": "00-torque-specs-12-15-q10"
+    }
+  ]
+}

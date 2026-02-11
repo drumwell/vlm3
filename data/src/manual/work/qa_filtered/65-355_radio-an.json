@@ -1,0 +1,79 @@
+{
+  "page_id": "65-355_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-355.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:05:43.426299",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 544
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I do first when troubleshooting the control unit operating motor?",
+      "answer": "Disconnect the 'control unit - operating motor' 7 pin plug.",
+      "question_type": "procedural",
+      "id": "65-355_radio-an-q01"
+    },
+    {
+      "question": "Where do I connect connection (1) during testing?",
+      "answer": "Connect connection (1) on ground.",
+      "question_type": "procedural",
+      "id": "65-355_radio-an-q02"
+    },
+    {
+      "question": "What voltage should I apply to connection (6)?",
+      "answer": "Connect connection (6) on B + (12 V).",
+      "question_type": "diagnostic",
+      "id": "65-355_radio-an-q03"
+    },
+    {
+      "question": "What should happen when I test the clutch switching?",
+      "answer": "Clutch must be heard to switch on.",
+      "question_type": "diagnostic",
+      "id": "65-355_radio-an-q04"
+    },
+    {
+      "question": "What should I do if the clutch doesn't switch on during the initial test?",
+      "answer": "Replace operating motor.",
+      "question_type": "troubleshooting",
+      "id": "65-355_radio-an-q05"
+    },
+    {
+      "question": "What connections should I test on the 7-pin plug of the operating motor?",
+      "answer": "Connect ground on connection (2) and B + on connection (5) of 7-pin plug of operating motor.",
+      "question_type": "procedural",
+      "id": "65-355_radio-an-q06"
+    },
+    {
+      "question": "What should I listen for when testing the operating motor?",
+      "answer": "Operating motor must be heard to run.",
+      "question_type": "diagnostic",
+      "id": "65-355_radio-an-q07"
+    },
+    {
+      "question": "What does it mean if the motor is running during the second test?",
+      "answer": "Motor running.",
+      "question_type": "diagnostic",
+      "id": "65-355_radio-an-q08"
+    },
+    {
+      "question": "What should I do if the operating motor doesn't run during the connection test?",
+      "answer": "Replace operating motor.",
+      "question_type": "troubleshooting",
+      "id": "65-355_radio-an-q09"
+    },
+    {
+      "question": "What is the final step if the motor runs but the original problem persists?",
+      "answer": "Replace control unit.",
+      "question_type": "troubleshooting",
+      "id": "65-355_radio-an-q10"
+    }
+  ]
+}

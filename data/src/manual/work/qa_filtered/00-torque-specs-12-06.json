@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-12-06",
+  "image_path": "raw/00 - Torque Specs/12-06.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:47:40.690148",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 607
+  },
+  "qa_pairs": [
+    {
+      "question": "Which glow plug component requires the highest torque specification?",
+      "answer": "The standard glow plug (1AZ) at 25 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-06-q04"
+    },
+    {
+      "question": "What screw types are used for the 4-inch glow plug?",
+      "answer": "M21/M41/M51",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-06-q06"
+    },
+    {
+      "question": "Which components share the same screw type specification?",
+      "answer": "The 4-inch glow plug (2AZ) and wire to glow plug (3AZ) both use M21/M41/M51",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-06-q07"
+    },
+    {
+      "question": "How much lower is the torque specification for the wire to glow plug compared to the standard glow plug?",
+      "answer": "21 Nm lower (25 Nm - 4 Nm = 21 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-06-q08"
+    },
+    {
+      "question": "What section number covers glow plugs in the Engine Electrical Equipment?",
+      "answer": "Section 12 23",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-06-q09"
+    },
+    {
+      "question": "Which glow plug components have the same torque specification?",
+      "answer": "None of the glow plug components share the same torque specification - they are 25 Nm, 20 Nm, and 4 Nm respectively",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-06-q10"
+    }
+  ]
+}

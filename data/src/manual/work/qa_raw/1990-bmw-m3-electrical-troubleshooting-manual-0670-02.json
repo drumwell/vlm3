@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/0670-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:07:33.366265",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 524
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of FUSE 9?",
+      "answer": "FUSE 9 is rated at 30 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-02-q01"
+    },
+    {
+      "question": "Which relay controls the oxygen sensor fuel pump?",
+      "answer": "The OXYGEN SENSOR FUEL PUMP RELAY controls the oxygen sensor fuel pump function.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-02-q02"
+    },
+    {
+      "question": "What voltage is supplied to the START circuit from connector C200?",
+      "answer": "2.5 VI is supplied to the START circuit from connector C200.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-02-q03"
+    },
+    {
+      "question": "What is the amperage rating of FUSE 12?",
+      "answer": "FUSE 12 is rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-02-q04"
+    },
+    {
+      "question": "Which systems are connected to the ignition switch at the bottom right of the diagram?",
+      "answer": "The ACTIVE CHECK CONTROL, CENTRAL LOCKING, ANTILOCK BRAKING SYSTEM (ABS), INJECTION ELECTRONICS, and INDICATORS CHARGING SYSTEM are connected to the ignition switch.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-02-q05"
+    },
+    {
+      "question": "What connector number is shown for the SRS DIAGNOSTIC MODULE?",
+      "answer": "The SRS DIAGNOSTIC MODULE is connected through connector C240.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-02-q06"
+    },
+    {
+      "question": "What is the wire gauge specification shown for the connection to the CIPRO unit?",
+      "answer": "The connection to the CIPRO unit shows 2.5 RD wire specification.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-02-q07"
+    },
+    {
+      "question": "Where can you find the X2 HORN RELAY details according to this diagram?",
+      "answer": "According to the diagram, the X2 HORN RELAY details can be found on page 0670-3.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-02-q08"
+    }
+  ]
+}

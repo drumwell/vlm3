@@ -1,0 +1,91 @@
+{
+  "page_id": "41-113c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-113c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:44:23.454292",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 696
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the specified spacing between plug spot welding holes?",
+      "answer": "The spacing between holes is 40 mm (1.575\").",
+      "question_type": "factual",
+      "id": "41-113c_body-con-q01"
+    },
+    {
+      "question": "What type of coating is required on mating surfaces for spot welding?",
+      "answer": "Coating mating surfaces with zinc dust paint is required for spot welding.",
+      "question_type": "procedural",
+      "id": "41-113c_body-con-q02"
+    },
+    {
+      "question": "Where should the shoulder overlap be positioned?",
+      "answer": "The shoulder overlap should be positioned upwards.",
+      "question_type": "procedural",
+      "id": "41-113c_body-con-q03"
+    },
+    {
+      "question": "What should be done to prepare mating surfaces before spot welding?",
+      "answer": "Grind all mating surfaces to prepare them for spot welding.",
+      "question_type": "procedural",
+      "id": "41-113c_body-con-q04"
+    },
+    {
+      "question": "Which components should be plug spot welded to the trunk floor plate?",
+      "answer": "The trunk floor plate should be plug spot welded on the cross member, side members and wheel houses.",
+      "question_type": "factual",
+      "id": "41-113c_body-con-q05"
+    },
+    {
+      "question": "How should the trunk floor plate be positioned during installation?",
+      "answer": "Insert trunk floor plate and align on straightening bench.",
+      "question_type": "procedural",
+      "id": "41-113c_body-con-q06"
+    },
+    {
+      "question": "What should be done with the wheel house spot welding flange?",
+      "answer": "Notch wheel house spot welding flange on left and right sides.",
+      "question_type": "procedural",
+      "id": "41-113c_body-con-q07"
+    },
+    {
+      "question": "Where should spot welding be performed on the connector?",
+      "answer": "Spot weld connector on wheel house and side panel at left and right sides.",
+      "question_type": "procedural",
+      "id": "41-113c_body-con-q08"
+    },
+    {
+      "question": "What should be done if reinforcement brackets are necessary?",
+      "answer": "Weld on reinforcement brackets, if necessary.",
+      "question_type": "procedural",
+      "id": "41-113c_body-con-q09"
+    },
+    {
+      "question": "What surfaces require plug spot welding holes to be drilled?",
+      "answer": "Plug spot welding holes should be drilled in mating surfaces which are not accessible for spot welding.",
+      "question_type": "factual",
+      "id": "41-113c_body-con-q10"
+    },
+    {
+      "question": "How should both side members be welded?",
+      "answer": "Plug spot weld both side members.",
+      "question_type": "procedural",
+      "id": "41-113c_body-con-q11"
+    },
+    {
+      "question": "What callout number is shown for the trunk floor plate alignment procedure?",
+      "answer": "Callout number 30 41 630 is shown for the trunk floor plate alignment procedure.",
+      "question_type": "visual",
+      "id": "41-113c_body-con-q12"
+    }
+  ]
+}

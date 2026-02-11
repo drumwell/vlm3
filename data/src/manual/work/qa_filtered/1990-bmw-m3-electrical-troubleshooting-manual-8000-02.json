@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8000-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:15:21.226493",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 565
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the manual is this page from?",
+      "answer": "This is page 8000-2 from the SPLICE LOCATION VIEWS section, specifically showing MAIN HARNESS SPLICE LOCATIONS.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-02-q01"
+    },
+    {
+      "question": "Where is splice S260 located according to the diagram?",
+      "answer": "Splice S260 is located in the TO ENGINE COMPARTMENT area according to the upper diagram.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-02-q02"
+    },
+    {
+      "question": "What splice numbers are shown in the cluster area?",
+      "answer": "Splices S239 and S213 are shown in the TO CLUSTER AREA.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-02-q03"
+    },
+    {
+      "question": "Which splice is located in the TO REAR OF CAR section?",
+      "answer": "Splice S232 is located in the TO REAR OF CAR section according to the upper diagram.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-02-q04"
+    },
+    {
+      "question": "Where is the power distribution box located in the vehicle?",
+      "answer": "The power distribution box is located in the engine compartment area, as shown in the bottom vehicle diagram.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-02-q05"
+    },
+    {
+      "question": "What splice numbers are grouped together near the power distribution box?",
+      "answer": "Splices S230, S340, S233, S211, S209, S212, S319, S210, S207, and S215 are grouped together near the power distribution box.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-02-q06"
+    },
+    {
+      "question": "Which splices are located in the steering column area?",
+      "answer": "Splices S203 and S118 are located in the TO STEERING COLUMN AREA according to the upper diagram.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-02-q07"
+    },
+    {
+      "question": "What are the splice numbers shown in the rear compartment area of the vehicle?",
+      "answer": "Splices S329, S330, S324, S310, S316, S341, G300, and S326 are shown in the rear compartment area of the vehicle.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-02-q08"
+    }
+  ]
+}

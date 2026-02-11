@@ -1,0 +1,91 @@
+{
+  "page_id": "34-03_brakes",
+  "image_path": "raw/34 - Brakes/34-03.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:13:15.053528",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 936
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum distance the parking brake should be effective for driving from the parking lot to workplace?",
+      "answer": "Max. 400 meters (1300 feet) with the parking brake applied (pull up lever until resistance is felt and then one further catch) before adjusting the parking brake.",
+      "question_type": "factual",
+      "id": "34-03_brakes-q01"
+    },
+    {
+      "question": "How many teeth should the parking brake lever be pulled up by when the parking brake needs to be adjusted?",
+      "answer": "The parking brake needs to be adjusted when the parking brake lever can be pulled up by more than 8 teeth.",
+      "question_type": "factual",
+      "id": "34-03_brakes-q02"
+    },
+    {
+      "question": "What are the first three steps for adjusting the parking brake?",
+      "answer": "1. Lift out front clamp, 2. Pull off rubber cap (1), 3. Disconnect rear clamp.",
+      "question_type": "procedural",
+      "id": "34-03_brakes-q03"
+    },
+    {
+      "question": "How many adjusting bolts need to be unscrewed and what is shown in step 2?",
+      "answer": "Two adjusting bolts (2) need to be unscrewed, as shown in the diagram labeled as step 2.",
+      "question_type": "visual",
+      "id": "34-03_brakes-q04"
+    },
+    {
+      "question": "What should you do with the rear wheels during the parking brake adjustment procedure?",
+      "answer": "Unscrew one wheel bolt on each rear wheel and remove. Turn wheels so that each tapped bore is approx. 30\u00b0 behind the perpendicular on top.",
+      "question_type": "procedural",
+      "id": "34-03_brakes-q05"
+    },
+    {
+      "question": "How do you adjust the parking brake shoes and prevent the brake disc from turning?",
+      "answer": "Turn adjusting nut (1) with a screwdriver to move out the parking brake shoe and prevent the brake disc from turning. Then loosen adjusting nut by 3 or 4 threads.",
+      "question_type": "procedural",
+      "id": "34-03_brakes-q06"
+    },
+    {
+      "question": "What indicates that basic clearance will be adjusted automatically on the drums?",
+      "answer": "Basic clearance will be adjusted automatically, which is indicated by a clicking noise on the rear wheels when operating the brake pedal several times.",
+      "question_type": "inspection",
+      "id": "34-03_brakes-q07"
+    },
+    {
+      "question": "How do you perform the brake cable adjustment?",
+      "answer": "Pull up parking brake lever by 5 teeth and adjust adjusting nuts (2) enough that left and right rear wheels can just be turned and both uniformly.",
+      "question_type": "procedural",
+      "id": "34-03_brakes-q08"
+    },
+    {
+      "question": "What should you check after releasing the parking brake lever?",
+      "answer": "Release parking brake lever and check whether wheels can be turned easily. The indicator lamp should go out when the parking brake is released with the ignition on.",
+      "question_type": "inspection",
+      "id": "34-03_brakes-q09"
+    },
+    {
+      "question": "What is the proper tightening specification mentioned for installation?",
+      "answer": "Tightening torque is specified (with an asterisk reference), though the specific value references the Specifications section.",
+      "question_type": "factual",
+      "id": "34-03_brakes-q10"
+    },
+    {
+      "question": "What causes the force required for operating the parking brake to increase?",
+      "answer": "The force required for operating will increase proportionally due to limited wear since the parking brake will not be needed during normal car operation, which consequently reduces the friction torque caused by corrosion of brake drums or contamination of linings.",
+      "question_type": "factual",
+      "id": "34-03_brakes-q11"
+    },
+    {
+      "question": "How can you check the function of automatic slack control?",
+      "answer": "Function of automatic slack control can be checked through a wheel bolt bore by operating the brake pedal several times and listening for the clicking noise that indicates basic clearance adjustment.",
+      "question_type": "diagnostic",
+      "id": "34-03_brakes-q12"
+    }
+  ]
+}

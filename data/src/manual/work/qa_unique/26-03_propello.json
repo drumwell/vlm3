@@ -1,0 +1,49 @@
+{
+  "page_id": "26-03_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-03.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:54:10.997969",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 738
+  },
+  "qa_pairs": [
+    {
+      "question": "Which mufflers need to be removed according to the procedure?",
+      "answer": "Remove and install primary and final mufflers 18 12 000.",
+      "question_type": "procedural",
+      "id": "26-03_propello-q02"
+    },
+    {
+      "question": "What additional step is required for models since 1983?",
+      "answer": "Since 1983 Models: Unscrew connector.",
+      "question_type": "factual",
+      "id": "26-03_propello-q05"
+    },
+    {
+      "question": "What part number corresponds to the oxygen sensor plug holder?",
+      "answer": "Part number 30 26 021 corresponds to the bolt on holder for oxygen sensor plug.",
+      "question_type": "factual",
+      "id": "26-03_propello-q08"
+    },
+    {
+      "question": "What component is shown in image 30 26 023?",
+      "answer": "Image 30 26 023 shows the process of unscrewing the propeller shaft on transmission.",
+      "question_type": "visual",
+      "id": "26-03_propello-q10"
+    },
+    {
+      "question": "What component needs to be unscrewed in both removal and installation procedures?",
+      "answer": "The heat shield needs to be unscrewed in both removal and installation procedures.",
+      "question_type": "component",
+      "id": "26-03_propello-q12"
+    }
+  ]
+}

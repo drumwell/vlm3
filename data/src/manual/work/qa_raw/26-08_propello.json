@@ -1,0 +1,91 @@
+{
+  "page_id": "26-08_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-08.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:55:38.346771",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 841
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for replacing the joint disc for the rear propeller shaft?",
+      "answer": "Section 26 11 051 covers replacing the joint disc for the rear propeller shaft on all wheel drive vehicles.",
+      "question_type": "factual",
+      "id": "26-08_propello-q01"
+    },
+    {
+      "question": "What tool numbers are specified for loosening the threaded sleeve?",
+      "answer": "Special Tool 26 1 060 or 26 1 040 is used to loosen the threaded sleeve several turns.",
+      "question_type": "tool",
+      "id": "26-08_propello-q02"
+    },
+    {
+      "question": "What must be done before beginning the joint disc replacement procedure?",
+      "answer": "Remove exhaust assembly 18 00 020 and unscrew heat shields before starting the replacement procedure.",
+      "question_type": "procedural",
+      "id": "26-08_propello-q03"
+    },
+    {
+      "question": "What important caution is given about propeller shafts?",
+      "answer": "Propeller shafts are balanced in assembled state and may only be replaced as such. Never disconnect propeller shafts on slide.",
+      "question_type": "safety",
+      "id": "26-08_propello-q04"
+    },
+    {
+      "question": "What should you avoid doing when letting the propeller shaft rest during the procedure?",
+      "answer": "Don't let propeller shaft rest on fuel tank connecting line.",
+      "question_type": "safety",
+      "id": "26-08_propello-q05"
+    },
+    {
+      "question": "How should the joint disc be installed according to the instructions?",
+      "answer": "Install joint disc so that arrows face flange arms, then tighten to specified torque.",
+      "question_type": "procedural",
+      "id": "26-08_propello-q06"
+    },
+    {
+      "question": "What is the critical safety rule about tightening nuts or bolts on the flange end?",
+      "answer": "Only tighten nuts or bolts on flange end whenever possible by design, to avoid tension in joint disc.",
+      "question_type": "safety",
+      "id": "26-08_propello-q07"
+    },
+    {
+      "question": "What component reference number is shown for the special tool in the second image?",
+      "answer": "Reference number 26 1 040 is shown for the special tool used in the threaded sleeve procedure.",
+      "question_type": "visual",
+      "id": "26-08_propello-q08"
+    },
+    {
+      "question": "What should be done after finishing the installation of the threaded sleeve?",
+      "answer": "Tighten threaded sleeve with Special Tool 26 1 060 or 26 1 040 after finishing installation to specified tightening torque.",
+      "question_type": "procedural",
+      "id": "26-08_propello-q09"
+    },
+    {
+      "question": "What is the first step in the installation sequence for replacing stop nuts?",
+      "answer": "Replace stop nuts and tighten to specified torque, following the important rule to only tighten nuts or bolts on flange end when possible.",
+      "question_type": "procedural",
+      "id": "26-08_propello-q10"
+    },
+    {
+      "question": "What action is required for the propeller shaft on the power divider?",
+      "answer": "Unscrew propeller shaft on power divider, then push propeller shaft together and pull out of centering pin on power divider.",
+      "question_type": "procedural",
+      "id": "26-08_propello-q11"
+    },
+    {
+      "question": "Where can the specific tightening torque values be found?",
+      "answer": "The tightening torque values are referenced with asterisks and can be found in the Specifications section.",
+      "question_type": "navigation",
+      "id": "26-08_propello-q12"
+    }
+  ]
+}

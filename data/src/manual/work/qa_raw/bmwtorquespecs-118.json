@@ -1,0 +1,82 @@
+{
+  "page_id": "bmwtorquespecs-118",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/118.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:35:06.343865",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 559
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the shift segment to shaft on A4S 310R/A4S 310R type?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-118-q01"
+    },
+    {
+      "question": "What screw type is used for the A5S 300J transmission component?",
+      "answer": "M14x1.5",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-118-q02"
+    },
+    {
+      "question": "What is the torque value for the A5S 300J component with M14x1.5 screw?",
+      "answer": "35 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-118-q03"
+    },
+    {
+      "question": "What component is identified as 2AZ in the interior shift elements section?",
+      "answer": "Detent spring on shift unit",
+      "question_type": "component",
+      "id": "bmwtorquespecs-118-q04"
+    },
+    {
+      "question": "What is the torque specification for the detent spring on shift unit for A4S 270R/A4S 310R?",
+      "answer": "25 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-118-q05"
+    },
+    {
+      "question": "What screw size is specified for the detent spring on shift unit?",
+      "answer": "5/16\"",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-118-q06"
+    },
+    {
+      "question": "What section number covers the interior shift elements?",
+      "answer": "24 52",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-118-q07"
+    },
+    {
+      "question": "What transmission types are specified for the 1AZ shift segment to shaft component?",
+      "answer": "A4S 310R/A4S 310R",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-118-q08"
+    },
+    {
+      "question": "What is the main section title shown on this torque specification page?",
+      "answer": "24 - 16 Automatic Transmission",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-118-q09"
+    },
+    {
+      "question": "What unit of measurement is used for all torque specifications on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-118-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

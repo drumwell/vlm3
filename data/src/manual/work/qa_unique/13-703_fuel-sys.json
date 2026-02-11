@@ -1,0 +1,79 @@
+{
+  "page_id": "13-703_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-703.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:45:48.682813",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 818
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two temperature switches being covered in procedures 12 63 051 and 12 63 060?",
+      "answer": "The 0\u00b0C (32\u00b0F) temperature switch and the 45\u00b0C (113\u00b0F) temperature switch.",
+      "question_type": "factual",
+      "id": "13-703_fuel-sys-q02"
+    },
+    {
+      "question": "What should you do after installing the 45\u00b0C temperature switch?",
+      "answer": "Fill and bleed the cooling system according to Group 17.",
+      "question_type": "procedural",
+      "id": "13-703_fuel-sys-q03"
+    },
+    {
+      "question": "What tool is specified for checking the temperature switch resistance?",
+      "answer": "An ohmmeter (M 06) is used to check the temperature switch resistance.",
+      "question_type": "tool",
+      "id": "13-703_fuel-sys-q04"
+    },
+    {
+      "question": "What resistance reading should the ohmmeter display when testing the temperature switch at temperatures below -8\u00b0C?",
+      "answer": "The ohmmeter must display approximately 0 ohm for temperatures less than -8\u00b0C (+ 18\u00b0F).",
+      "question_type": "diagnostic",
+      "id": "13-703_fuel-sys-q05"
+    },
+    {
+      "question": "What resistance reading indicates proper operation for temperatures above 4\u00b0C on the first temperature switch?",
+      "answer": "The ohmmeter must display approximately \u221e ohms for temperatures greater than 4\u00b0C (39\u00b0F).",
+      "question_type": "diagnostic",
+      "id": "13-703_fuel-sys-q06"
+    },
+    {
+      "question": "In the wiring diagrams, what do callout numbers 1 and 2 represent?",
+      "answer": "Callout number 1 indicates the electrical connector and callout number 2 indicates the temperature switch body.",
+      "question_type": "visual",
+      "id": "13-703_fuel-sys-q07"
+    },
+    {
+      "question": "What should be checked during installation of both temperature switches?",
+      "answer": "Check the code number (1) and switching temperature (2) during installation.",
+      "question_type": "inspection",
+      "id": "13-703_fuel-sys-q08"
+    },
+    {
+      "question": "What resistance should be displayed when the 45\u00b0C temperature switch is tested above 48\u00b0C?",
+      "answer": "The ohmmeter should display approximately \u221e ohms for temperatures above 48\u00b0C (118\u00b0F).",
+      "question_type": "diagnostic",
+      "id": "13-703_fuel-sys-q10"
+    },
+    {
+      "question": "What is the first step in removing either temperature switch?",
+      "answer": "Pull off the electrical plug (1) from the temperature switch.",
+      "question_type": "procedural",
+      "id": "13-703_fuel-sys-q11"
+    },
+    {
+      "question": "Where can additional specifications for these temperature switches be found?",
+      "answer": "Additional specifications can be found in the Specifications section, as indicated by the asterisk notation.",
+      "question_type": "navigation",
+      "id": "13-703_fuel-sys-q12"
+    }
+  ]
+}

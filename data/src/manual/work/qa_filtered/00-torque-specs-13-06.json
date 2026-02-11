@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-13-06",
+  "image_path": "raw/00 - Torque Specs/13-06.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:52:47.503930",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 674
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the injection nozzle combination assembly?",
+      "answer": "80 Nm for M21/M51 type screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-06-q01"
+    },
+    {
+      "question": "What torque should be applied when connecting the injection nozzle combination to the cylinder head?",
+      "answer": "40 Nm for M21 type screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-06-q02"
+    },
+    {
+      "question": "What torque specification is used for the injection pipe coupling nut to injection pump and nozzle combination?",
+      "answer": "20 Nm for M21/M51/M41 type connections.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-06-q04"
+    },
+    {
+      "question": "What is the torque value for the feed line on injection panel?",
+      "answer": "20 Nm for M43/M44 type connections.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-06-q05"
+    },
+    {
+      "question": "What section and subsection does this torque specification table cover?",
+      "answer": "Section 13-6 Fuel metering and regulation system, subsection 13 53 Fuel Injection Nozzles and Pipes.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-06-q07"
+    },
+    {
+      "question": "What screw type is specified for the M51/M41 injection nozzle combination to cylinder head connection?",
+      "answer": "M51/M41 type screws with 65 Nm torque specification.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-06-q08"
+    }
+  ]
+}

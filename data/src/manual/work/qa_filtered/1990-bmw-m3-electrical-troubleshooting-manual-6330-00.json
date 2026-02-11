@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6330-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:06:44.398355",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 710
+  },
+  "qa_pairs": [
+    {
+      "question": "What wire color connects from the interior light timer control to the dome lights?",
+      "answer": "5 BR/VI (brown/violet) wire connects from the interior light timer control to both dome lights.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00-q01"
+    },
+    {
+      "question": "Which fuse protects the interior lighting circuit and what is its amperage?",
+      "answer": "Fuse 21 with 7.5 AMP rating protects the interior lighting circuit.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00-q02"
+    },
+    {
+      "question": "What happens when the driver's exterior door handle switch is lifted?",
+      "answer": "When the driver's exterior door handle switch is lifted, it closes the circuit and enables the interior light timer operation through the lock heater control unit.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00-q03"
+    },
+    {
+      "question": "What wire color provides ground to connector S502?",
+      "answer": "1 BR (brown) wire provides ground to connector S502.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00-q04"
+    },
+    {
+      "question": "How long does the interior light timer stay enabled after a door jamb switch closes?",
+      "answer": "According to the note, the timer is enabled when driver's exterior door handle switch and any door jamb switch close, and starts a 10 second operation after any door jamb switch is then opened.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00-q05"
+    },
+    {
+      "question": "What connector designation is shown for the passenger's door jamb switch?",
+      "answer": "The passenger's door jamb switch connects through connector C303.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00-q06"
+    },
+    {
+      "question": "Which wire color carries power from the central locking system to the interior light circuit?",
+      "answer": "1.5 RD/BK (red/black) wire carries power from the central locking system to the interior light circuit.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00-q07"
+    },
+    {
+      "question": "What component controls the timed operation of the interior lights?",
+      "answer": "The Interior Light Timer Control unit controls the timed operation of the interior lights.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00-q08"
+    },
+    {
+      "question": "How are the dome lights wired in relation to each other?",
+      "answer": "The dome lights are wired in parallel, both receiving 5 BR/VI power and having individual ground connections through connectors C304 and C303.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00-q09"
+    },
+    {
+      "question": "What should you check if the interior lights don't work when doors are opened?",
+      "answer": "Check fuse 21 (7.5 AMP), verify door jamb switches are functioning, test the interior light timer control unit, and check ground connections at S310 and G200.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6330-00-q10"
+    }
+  ]
+}

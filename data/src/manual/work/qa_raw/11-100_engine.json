@@ -1,0 +1,70 @@
+{
+  "page_id": "11-100_engine",
+  "image_path": "raw/11 - Engine/11-100.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:07:01.096394",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1622,
+    "tokens_output": 573
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the page number and section shown in this manual page?",
+      "answer": "This is page 11-100 from Section 11 (Engine) of the service manual.",
+      "question_type": "navigation",
+      "id": "11-100_engine-q01"
+    },
+    {
+      "question": "What engine designations are listed at the bottom of this page?",
+      "answer": "BMW 320 is - Engine S 14 B 20 and BMW M 3 - Engine S 14 B 23 are listed at the bottom of the page.",
+      "question_type": "factual",
+      "id": "11-100_engine-q02"
+    },
+    {
+      "question": "What text is visible on the engine valve cover in the illustration?",
+      "answer": "The valve cover displays 'BMW M Power' text on top of the engine.",
+      "question_type": "visual",
+      "id": "11-100_engine-q03"
+    },
+    {
+      "question": "What type of engine illustration is shown on this page?",
+      "answer": "This page shows a detailed cutaway or cross-sectional illustration of the complete engine assembly, revealing both external and internal components.",
+      "question_type": "visual",
+      "id": "11-100_engine-q04",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What major engine components are visible in this cutaway illustration?",
+      "answer": "The illustration shows the cylinder head with valve cover, engine block with pistons and cylinders, crankcase, oil pan, exhaust manifold, intake manifold, and cooling system components.",
+      "question_type": "component",
+      "id": "11-100_engine-q05"
+    },
+    {
+      "question": "How is the engine oriented in this illustration?",
+      "answer": "The engine is shown at an angle that displays the front and one side, providing a three-dimensional perspective of the complete assembly.",
+      "question_type": "visual",
+      "id": "11-100_engine-q06"
+    },
+    {
+      "question": "What can you see of the internal engine components in this cutaway view?",
+      "answer": "The cutaway view reveals the pistons, connecting rods, crankshaft, valvetrain components, and internal passages within the engine block and cylinder head.",
+      "question_type": "component",
+      "id": "11-100_engine-q07"
+    },
+    {
+      "question": "What external accessories and components are visible on the engine?",
+      "answer": "External components visible include the alternator, various hoses and lines, the exhaust manifold, intake manifold, and what appears to be engine mounting points.",
+      "question_type": "component",
+      "id": "11-100_engine-q08"
+    }
+  ]
+}

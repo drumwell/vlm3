@@ -1,0 +1,49 @@
+{
+  "page_id": "12-108_1_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-108_1.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:26:15.945726",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1745,
+    "tokens_output": 422
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the four main testing requirements listed before starting the brief test?",
+      "answer": "The four testing requirements are: starting system okay (battery charged, starting motor and ignition lock), good ground connections between engine and body and engine wire harness okay, specified gasoline in tank (octane number, leaded/unleaded, not contaminated), and engine in good operating condition (timing, compression, etc.).",
+      "question_type": "procedural",
+      "id": "12-108_1_engine-e-q02"
+    },
+    {
+      "question": "What connector type should be used when connecting to the DME control unit?",
+      "answer": "A 55-pin connecting lead should be used to connect the universal adaptor on the DME control unit and wire harness.",
+      "question_type": "connector",
+      "id": "12-108_1_engine-e-q03"
+    },
+    {
+      "question": "Why should the tests be carried out in the given order?",
+      "answer": "Tests are arranged to support each other and therefore should be carried out in the given order.",
+      "question_type": "procedural",
+      "id": "12-108_1_engine-e-q04"
+    },
+    {
+      "question": "What is the source of supply mentioned for the universal adaptor?",
+      "answer": "The source of supply for the universal adaptor is HWB.",
+      "question_type": "factual",
+      "id": "12-108_1_engine-e-q05"
+    },
+    {
+      "question": "What alternative testing method is mentioned at the bottom of the page?",
+      "answer": "The alternative testing method mentioned is using the BMW Diagnosis Tester.",
+      "question_type": "tool",
+      "id": "12-108_1_engine-e-q06"
+    }
+  ]
+}

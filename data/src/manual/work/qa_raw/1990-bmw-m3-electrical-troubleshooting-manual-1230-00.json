@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/1230-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:10:34.145388",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 694
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main circuit shown on page 1230-0?",
+      "answer": "The main circuit shown is the CHARGE system, which includes the alternator, battery, starter, and related charging components.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00-q01"
+    },
+    {
+      "question": "What color wire connects the battery to the starter junction block?",
+      "answer": "A 25 BK (25mm black) wire connects the battery to the starter junction block.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00-q02"
+    },
+    {
+      "question": "What components are connected to the ignition switch in this charging circuit?",
+      "answer": "The ignition switch connects to the charge indicator, brake warning light, speedometer, oxygen sensor indicator control, and other instrument cluster components.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00-q03"
+    },
+    {
+      "question": "What wire size and color goes from the alternator to the diagnostic connector?",
+      "answer": "A 12 wire (likely 12mm) goes from the alternator to the diagnostic connector, though the specific color is not clearly visible at that connection point.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00-q04"
+    },
+    {
+      "question": "What is noted about the charge indicator in the circuit note?",
+      "answer": "The note states that the charge indicator provides excitation current to field coil to enable alternator to charge if bulb burns out.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00-q05"
+    },
+    {
+      "question": "What connects to ground point G100?",
+      "answer": "The battery negative terminal connects to ground point G100.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00-q06"
+    },
+    {
+      "question": "What components are shown in the instrument cluster printed circuit section?",
+      "answer": "The instrument cluster printed circuit shows the charge indicator, brake warning light, speedometer, and oxygen sensor indicator control.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00-q07"
+    },
+    {
+      "question": "What wire color designation is used for the connection between the ignition switch and the SRS diagnostic module?",
+      "answer": "A 2.5 GN (2.5mm green) wire connects from the ignition switch area to the SRS diagnostic module.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00-q08"
+    },
+    {
+      "question": "What system uses the 75 BU wire shown in the diagram?",
+      "answer": "The 75 BU (blue) wire is used by the ABS Electronic Control Unit and connects to the diagnostic connector.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00-q09"
+    },
+    {
+      "question": "What is the function of the integral regulator shown connected to the alternator?",
+      "answer": "The integral regulator controls the alternator's field current to regulate the charging voltage output, and it's shown in a solid state configuration.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1230-00-q10"
+    }
+  ]
+}

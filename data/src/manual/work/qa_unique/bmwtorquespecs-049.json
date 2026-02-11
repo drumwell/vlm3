@@ -1,0 +1,25 @@
+{
+  "page_id": "bmwtorquespecs-049",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/049.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:21:46.764703",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 505
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the manual covers engine specifications?",
+      "answer": "11 - 39 Engine",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-049-q05"
+    }
+  ]
+}

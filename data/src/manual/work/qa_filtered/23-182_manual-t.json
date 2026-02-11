@@ -1,0 +1,79 @@
+{
+  "page_id": "23-182_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-182.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:37:58.611565",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1760,
+    "tokens_output": 584
+  },
+  "qa_pairs": [
+    {
+      "question": "What transmission is shown in the modification information?",
+      "answer": "Transmission 260/5.",
+      "question_type": "factual",
+      "id": "23-182_manual-t-q01"
+    },
+    {
+      "question": "Since when has the synchronization been modified?",
+      "answer": "Modified synchronization since 5.85.",
+      "question_type": "factual",
+      "id": "23-182_manual-t-q02"
+    },
+    {
+      "question": "How many grooves does operating sleeve (1) have?",
+      "answer": "Operating sleeve (1) has two grooves.",
+      "question_type": "factual",
+      "id": "23-182_manual-t-q03"
+    },
+    {
+      "question": "What is the installation orientation for operating sleeve (3)?",
+      "answer": "Operating sleeve (3) with three grooves is installed with shouldered end facing 3rd gear or grooves facing 4th gear.",
+      "question_type": "procedural",
+      "id": "23-182_manual-t-q04"
+    },
+    {
+      "question": "How many grooves does operating sleeve (5) have?",
+      "answer": "Operating sleeve (5) has one groove.",
+      "question_type": "factual",
+      "id": "23-182_manual-t-q05"
+    },
+    {
+      "question": "What is the part number for the 1st/Reverse gear synchromesh ring?",
+      "answer": "Drawing No. 011.8.0241.00 engraved.",
+      "question_type": "factual",
+      "id": "23-182_manual-t-q06"
+    },
+    {
+      "question": "What is the part number for the 2nd to 5th gear synchromesh ring?",
+      "answer": "Drawing No. 011.8.0161.00 engraved.",
+      "question_type": "factual",
+      "id": "23-182_manual-t-q07"
+    },
+    {
+      "question": "What tooth characteristic distinguishes the 1st/Reverse gear synchromesh ring?",
+      "answer": "Narrow teeth.",
+      "question_type": "factual",
+      "id": "23-182_manual-t-q08"
+    },
+    {
+      "question": "What tooth characteristic distinguishes the 2nd to 5th gear synchromesh ring?",
+      "answer": "Wide teeth.",
+      "question_type": "factual",
+      "id": "23-182_manual-t-q09"
+    },
+    {
+      "question": "Can modified shift parts be installed in all transmission 260/5 units?",
+      "answer": "No, modified shift parts can not be installed in transmissions manufactured before 5.85 (hard operation).",
+      "question_type": "procedural",
+      "id": "23-182_manual-t-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "23-121_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-121.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:30:54.380051",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 712
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check if I find oil on the clutch bell housing?",
+      "answer": "Check for O-ring leaks in the guide flange, radial oil seal leaks for input shaft, gasket leaks on end cover (crankcase leaks), and radial oil seal leaks for crankshaft.",
+      "question_type": "diagnostic",
+      "id": "23-121_manual-t-q01"
+    },
+    {
+      "question": "How do I fix a leaking O-ring in the guide flange that's causing oil on the clutch bell housing?",
+      "answer": "Replace O-ring part number 23 11 590.",
+      "question_type": "procedural",
+      "id": "23-121_manual-t-q02"
+    },
+    {
+      "question": "What causes oil to appear on the output flange?",
+      "answer": "Radial oil seal leaks for either the output shaft or selector shaft.",
+      "question_type": "troubleshooting",
+      "id": "23-121_manual-t-q03"
+    },
+    {
+      "question": "What part number should I use to replace the radial oil seal for the output shaft?",
+      "answer": "Use part number 23 12 051 for the output shaft radial oil seal replacement.",
+      "question_type": "factual",
+      "id": "23-121_manual-t-q04"
+    },
+    {
+      "question": "If the transmission leaks between the front and rear sections, what's the likely cause?",
+      "answer": "A defective gasket is the cause of leaks between the front and rear sections.",
+      "question_type": "diagnostic",
+      "id": "23-121_manual-t-q05"
+    },
+    {
+      "question": "What should I do if oil is leaking on the speedometer drive?",
+      "answer": "Check for a defective O-ring or defective radial oil seal in the bush. Replace the O-ring (part 23 22 100) or replace the bush as needed.",
+      "question_type": "procedural",
+      "id": "23-121_manual-t-q06"
+    },
+    {
+      "question": "What causes oil on the vent?",
+      "answer": "Oil level too high or wrong oil grade causing excessive foaming.",
+      "question_type": "troubleshooting",
+      "id": "23-121_manual-t-q07"
+    },
+    {
+      "question": "If the gear jumps out and won't stay in, what are the possible causes?",
+      "answer": "Sliding sleeve worn, guide rail defective, springs broken, sliding sleeves for 1st/2nd and 3rd/4th gear mixed up, shift console loose, selector forks worn, or output flange loose.",
+      "question_type": "diagnostic",
+      "id": "23-121_manual-t-q08"
+    },
+    {
+      "question": "How do I correct a gear jumping out problem caused by worn selector forks?",
+      "answer": "Replace selector forks using part number 23 31 501.",
+      "question_type": "procedural",
+      "id": "23-121_manual-t-q09"
+    },
+    {
+      "question": "What's the correction for excessive oil foaming at the vent?",
+      "answer": "Replace the oil with the correct grade and ensure proper oil level.",
+      "question_type": "procedural",
+      "id": "23-121_manual-t-q10"
+    }
+  ]
+}

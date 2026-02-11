@@ -1,0 +1,79 @@
+{
+  "page_id": "17-06_radiator",
+  "image_path": "raw/17 - Radiator/17-06.jpg",
+  "section_id": "17",
+  "section_name": "Radiator",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:02:26.261778",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 829
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure for removing the coolant expansion tank cap?",
+      "answer": "Unscrew cap on expansion tank. Loosen hose clamp (1). Pull off hose and let coolant run out of tank.",
+      "question_type": "procedural",
+      "id": "17-06_radiator-q01"
+    },
+    {
+      "question": "What safety warning is given regarding the coolant expansion tank removal?",
+      "answer": "Caution! Danger of scalding when engine is hot!",
+      "question_type": "safety",
+      "id": "17-06_radiator-q02"
+    },
+    {
+      "question": "What temperature does the mark on the expansion tank indicate for coolant level?",
+      "answer": "Mark on tank shows coolant level at approx. 20\u00b0C (68\u00b0F) (label).",
+      "question_type": "factual",
+      "id": "17-06_radiator-q03"
+    },
+    {
+      "question": "What components need to be removed along with the hoses during expansion tank removal?",
+      "answer": "Loosen hose clamp (1). Pull off hoses (2 and 3). Unscrew and remove full level sender (4).",
+      "question_type": "procedural",
+      "id": "17-06_radiator-q04"
+    },
+    {
+      "question": "How is the expansion tank physically removed from the vehicle?",
+      "answer": "Unscrew bolts (1). Lift out expansion tank.",
+      "question_type": "procedural",
+      "id": "17-06_radiator-q05"
+    },
+    {
+      "question": "What callout numbers are shown in the lower left diagram for the expansion tank mounting?",
+      "answer": "The diagram shows callout number 1 indicating the bolts that need to be unscrewed to remove the expansion tank.",
+      "question_type": "visual",
+      "id": "17-06_radiator-q06"
+    },
+    {
+      "question": "What is the installation procedure for the expansion tank?",
+      "answer": "First slide front end of expansion tank into holder. Pull rear end of expansion tank out of clips and disengage from front end.",
+      "question_type": "procedural",
+      "id": "17-06_radiator-q07"
+    },
+    {
+      "question": "What should be done after installing the expansion tank?",
+      "answer": "Add coolant. Bleed cooling system - see 17 00 039. Fill cooling system with specified coolant and bleed - see 17 00 039.",
+      "question_type": "procedural",
+      "id": "17-06_radiator-q08"
+    },
+    {
+      "question": "What is different about the 1988 models expansion tank removal procedure?",
+      "answer": "For 1988 Models: Unscrew cap. Disconnect hose. Replace hose clamps, if necessary.",
+      "question_type": "factual",
+      "id": "17-06_radiator-q09"
+    },
+    {
+      "question": "What components are numbered 2, 3, and 4 in the middle left diagram?",
+      "answer": "Components 2 and 3 are hoses that need to be pulled off, and component 4 is the full level sender that needs to be unscrewed and removed.",
+      "question_type": "visual",
+      "id": "17-06_radiator-q12"
+    }
+  ]
+}

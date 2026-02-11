@@ -1,0 +1,83 @@
+{
+  "section_id": "41",
+  "section_name": "Body",
+  "index_pages": [
+    "41-00-index-f.jpg",
+    "41-00-index-g.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "41 11 520",
+      "name": "Side member cover, left or right - replace (rear side panel and door pillar removed)",
+      "pages": [
+        "41-101C"
+      ]
+    },
+    {
+      "code": "41 12 570",
+      "name": "Trunk floor plate (partial replacement in front of cross member) - replace (tail panel removed)",
+      "pages": [
+        "41-107C"
+      ]
+    },
+    {
+      "code": "41 14 161",
+      "name": "Wheel house outer section and side panel, rear, right - replace",
+      "pages": [
+        "41-115C"
+      ]
+    },
+    {
+      "code": "41 21 501",
+      "name": "Front door pillar, left or right - replace (front side panel removed)",
+      "pages": [
+        "41-201C"
+      ]
+    },
+    {
+      "code": "41 35 110",
+      "name": "Rear side panel, right - replace",
+      "pages": [
+        "41-301C"
+      ]
+    },
+    {
+      "code": "530",
+      "name": "Side member cover (partial replacement from door pillar), left or right - replace (rear side panel removed)",
+      "pages": [
+        "41-104C"
+      ]
+    },
+    {
+      "code": "565",
+      "name": "Trunk floor plate (partial replacement behind cross member) - replace (tail panel removed)",
+      "pages": [
+        "41-111C"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "41-101C": [
+      "41 11 520"
+    ],
+    "41-107C": [
+      "41 12 570"
+    ],
+    "41-115C": [
+      "41 14 161"
+    ],
+    "41-201C": [
+      "41 21 501"
+    ],
+    "41-301C": [
+      "41 35 110"
+    ],
+    "41-104C": [
+      "530"
+    ],
+    "41-111C": [
+      "565"
+    ]
+  },
+  "merge_warnings": []
+}

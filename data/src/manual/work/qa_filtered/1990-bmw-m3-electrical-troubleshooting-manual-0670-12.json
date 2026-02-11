@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-12",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/0670-12.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:09:30.415703",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 544
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the designation for the ground distribution shown in this power distribution diagram?",
+      "answer": "The ground distribution is designated as G103.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-12-q01"
+    },
+    {
+      "question": "Where is ground point G103 located in the vehicle?",
+      "answer": "G103 is located under the right side of the dash.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-12-q02"
+    },
+    {
+      "question": "What wire gauge is used for the connection to the oxygen sensor?",
+      "answer": "The oxygen sensor uses a 1.5 BR/OR (1.5mm\u00b2 brown/orange) wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-12-q03"
+    },
+    {
+      "question": "Which components connect to the Motronic control unit in this diagram?",
+      "answer": "The Motronic control unit connects to multiple components including pins 5, 10, 17, 18, and 19, with wire gauges of .75 BR/OR and 2.5 BR.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-12-q04"
+    },
+    {
+      "question": "What type of connector is used for the diagnostic connection?",
+      "answer": "The diagnostic connection uses connector 19 and includes a shield for diagnostic connector with pins labeled 1364-4.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-12-q05"
+    },
+    {
+      "question": "What wire specification is used for the main relay connection?",
+      "answer": "The main relay uses a .75 BR (.75mm\u00b2 brown) wire connection.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-12-q06"
+    },
+    {
+      "question": "How many different sensor types are shown connected to this ground distribution system?",
+      "answer": "There are 6 different sensor types shown: oxygen sensor, evaporative purge valve (2 types), barometric pressure sensor, throttle switch, and coolant temperature sensor.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-12-q07"
+    },
+    {
+      "question": "What shield designation is used for the cylinder identification sensor?",
+      "answer": "The cylinder identification sensor uses shield designation 1364-6, as shown in the shield boxes in the diagram.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-12-q08"
+    }
+  ]
+}

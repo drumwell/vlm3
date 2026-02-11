@@ -1,0 +1,91 @@
+{
+  "page_id": "13-702_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-702.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:45:33.950922",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 787
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum oil temperature required for engine idle speed and CO level adjustments?",
+      "answer": "The engine oil temperature must be at least 60\u00b0C (140\u00b0F).",
+      "question_type": "factual",
+      "id": "13-702_fuel-sys-q01"
+    },
+    {
+      "question": "What special tool is needed to remove the cap for CO level correction?",
+      "answer": "Special Tool 13 1 011 is required to remove cap (1).",
+      "question_type": "tool",
+      "id": "13-702_fuel-sys-q02"
+    },
+    {
+      "question": "How should the oxygen sensor plug be handled during CO testing?",
+      "answer": "For CO testing, measure CO level with oxygen sensor plug connected, note the CO value, then disconnect oxygen sensor plug and check deviation from nominal value.",
+      "question_type": "procedural",
+      "id": "13-702_fuel-sys-q03"
+    },
+    {
+      "question": "What tool is used to correct CO level to the measured value with oxygen sensor connected?",
+      "answer": "Special Tool 13 1 100 is applied on the adjusting screw in the air flow sensor.",
+      "question_type": "tool",
+      "id": "13-702_fuel-sys-q04"
+    },
+    {
+      "question": "What is the maximum allowable vacuum difference between throttle valve necks?",
+      "answer": "The maximum vacuum difference is \u00b1 5 mbar.",
+      "question_type": "factual",
+      "id": "13-702_fuel-sys-q05"
+    },
+    {
+      "question": "What socket size is specified for throttle valve neck adjustments?",
+      "answer": "Socket size 7 mm is used at nominal engine idle speed with screw (3).",
+      "question_type": "factual",
+      "id": "13-702_fuel-sys-q06"
+    },
+    {
+      "question": "What should be done with caps on throttle valve necks that are not being tested?",
+      "answer": "Leave caps (1) on throttle valve necks not being tested.",
+      "question_type": "procedural",
+      "id": "13-702_fuel-sys-q07"
+    },
+    {
+      "question": "What tool is required for throttle valve switch wire plug insertion?",
+      "answer": "Special Tool 13 4 010 is inserted in wire plug after pulling off plug on throttle valve switch.",
+      "question_type": "tool",
+      "id": "13-702_fuel-sys-q08"
+    },
+    {
+      "question": "What equipment is needed for vacuum testing of throttle valves?",
+      "answer": "Connect vacuum tester (BMW Service Tester M 21) to adjust each throttle valve neck to the same intake vacuum value.",
+      "question_type": "tool",
+      "id": "13-702_fuel-sys-q09"
+    },
+    {
+      "question": "What should be done after finishing throttle valve adjustments?",
+      "answer": "Mount new anti-tamper locks (2) after finishing adjustments, then check engine idle speed and CO level, correcting if necessary.",
+      "question_type": "procedural",
+      "id": "13-702_fuel-sys-q10"
+    },
+    {
+      "question": "What requirements must be met for synchronization procedures?",
+      "answer": "Push rod must be adjusted correctly (see Removing and Installing Throttle Housing 13 54 030).",
+      "question_type": "procedural",
+      "id": "13-702_fuel-sys-q11"
+    },
+    {
+      "question": "How is engine idle speed adjusted?",
+      "answer": "Adjust engine idle speed with screw (1) as shown in the procedure for checking engine idle speed.",
+      "question_type": "procedural",
+      "id": "13-702_fuel-sys-q12"
+    }
+  ]
+}

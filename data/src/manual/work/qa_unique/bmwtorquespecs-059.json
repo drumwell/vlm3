@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-059",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/059.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:23:33.975990",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 654
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the starter mount?",
+      "answer": "The starter mount (1AZ) has a torque specification of 50 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-059-q01"
+    },
+    {
+      "question": "What size screw is used for the support to starter component?",
+      "answer": "The support to starter (2AZ) uses an M5 screw with a torque of 5 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-059-q02"
+    },
+    {
+      "question": "What is the torque value for the support to crankcase?",
+      "answer": "The support to crankcase (3AZ) has a torque specification of 47 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-059-q03"
+    },
+    {
+      "question": "Which terminal has the highest torque specification among the electrical leads to starter?",
+      "answer": "Terminal 30 has the highest torque specification at 12 Nm with an M8 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-059-q04"
+    },
+    {
+      "question": "What screw size is specified for Terminal 30h?",
+      "answer": "Terminal 30h uses an M5 screw with a torque of 5 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-059-q05"
+    },
+    {
+      "question": "What is the torque specification for Terminal 50?",
+      "answer": "Terminal 50 has a torque specification of 6 Nm using an M6 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-059-q06"
+    },
+    {
+      "question": "What component is listed as 5AZ in the starter mounting parts?",
+      "answer": "5AZ is the bolt connection for the pole tube, with an M6 screw torqued to 6 Nm.",
+      "question_type": "component",
+      "id": "bmwtorquespecs-059-q07"
+    },
+    {
+      "question": "Are all the components in this section applicable to all vehicle types?",
+      "answer": "Yes, all components listed show 'All' in the Type column, indicating they apply to all vehicle types.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-059-q08"
+    },
+    {
+      "question": "What section number covers the starter and mounting parts?",
+      "answer": "Section 12 41 covers the Starter and Mounting Parts.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-059-q09"
+    }
+  ]
+}

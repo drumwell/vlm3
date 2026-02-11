@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-111",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/111.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:44:55.267236",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 727
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the valve body to transmission on the 3HP-22?",
+      "answer": "11 Nm with M6 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-111-q01"
+    },
+    {
+      "question": "What screw size and torque is used for the 4HP-22/4HP-24/A5S 310Z/A5S 440Z/A5S 300J valve body to transmission connection?",
+      "answer": "M6 screw with 8 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-111-q02"
+    },
+    {
+      "question": "What is the torque specification for the A4S 270R/A4S 310R valve body to transmission?",
+      "answer": "20 Nm with 5/16\" screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-111-q03"
+    },
+    {
+      "question": "How many different torque specifications are shown for the A5S 560Z valve body to transmission?",
+      "answer": "Two specifications: 6 Nm with M6 x 12 screw and 8 Nm with M6x55 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-111-q04"
+    },
+    {
+      "question": "What is the torque specification for valve housing to valve body for all transmission types?",
+      "answer": "5 Nm with M6 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-111-q05"
+    },
+    {
+      "question": "What torque is specified for the adapter plate on shift unit for the A4S 270R/A4S 310R?",
+      "answer": "13 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-111-q06"
+    },
+    {
+      "question": "Which transmission type uses a 5/16\" screw for the valve body to transmission connection?",
+      "answer": "A4S 270R/A4S 310R.",
+      "question_type": "factual",
+      "id": "00-torque-specs-111-q07"
+    },
+    {
+      "question": "What section of the manual is this torque specification table from?",
+      "answer": "Section 24-9 Automatic Transmission, subsection 24 30 Hydr./elec.control elements.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-111-q08"
+    },
+    {
+      "question": "What is the difference in torque between the 3HP-22 and 4HP-22 valve body to transmission connections?",
+      "answer": "The 3HP-22 uses 11 Nm while the 4HP-22 uses 8 Nm, both with M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-111-q09"
+    },
+    {
+      "question": "Which component uses reference 3AZ in the torque specifications?",
+      "answer": "Adapter plate on shift unit for the A4S 270R/A4S 310R transmission.",
+      "question_type": "component",
+      "id": "00-torque-specs-111-q10"
+    }
+  ]
+}

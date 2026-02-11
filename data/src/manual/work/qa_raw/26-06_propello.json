@@ -1,0 +1,94 @@
+{
+  "page_id": "26-06_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-06.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:55:03.941012",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 808
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to loosen the threaded sleeve during propeller shaft joint disc replacement?",
+      "answer": "Special Tool 26 1 040 is needed to loosen the threaded sleeve several turns.",
+      "question_type": "tool",
+      "id": "26-06_propello-q01"
+    },
+    {
+      "question": "What should be removed before unscrewing the heat shield during joint disc replacement?",
+      "answer": "Remove primary and final mufflers 18 12 000 before unscrewing the heat shield.",
+      "question_type": "procedural",
+      "id": "26-06_propello-q02"
+    },
+    {
+      "question": "What special procedures apply to models from 1983 onwards?",
+      "answer": "Since 1983 models require unscrewing the connector as an additional step.",
+      "question_type": "factual",
+      "id": "26-06_propello-q03"
+    },
+    {
+      "question": "What special tools are required for cars with 4 HP 22 automatic transmission?",
+      "answer": "Cars with 4 HP 22 automatic transmission require Special Tools 24 0 120 and 00 2 020 to support the transmission and unscrew transmission suspension.",
+      "question_type": "tool",
+      "id": "26-06_propello-q04"
+    },
+    {
+      "question": "What should be checked during installation after unscrewing the heat shield?",
+      "answer": "Check for sufficient space between tank and heat shield during installation.",
+      "question_type": "inspection",
+      "id": "26-06_propello-q05"
+    },
+    {
+      "question": "What component should be bolted on during installation according to the procedure?",
+      "answer": "Also bolt on holder for oxygen sensor plug during installation.",
+      "question_type": "procedural",
+      "id": "26-06_propello-q06"
+    },
+    {
+      "question": "What is the proper torque specification for tightening the threaded sleeve?",
+      "answer": "Tighten threaded sleeve with Special Tool 26 1 040 after finishing installation to the specified tightening torque.",
+      "question_type": "factual",
+      "id": "26-06_propello-q07"
+    },
+    {
+      "question": "What steps are required for cars with manual transmission and vibration damper on output flange?",
+      "answer": "Support transmission, unscrew transmission suspension, and lower transmission for cars with manual transmission and vibration damper on output flange.",
+      "question_type": "procedural",
+      "id": "26-06_propello-q08"
+    },
+    {
+      "question": "What component needs to be unscrewed from the transmission according to the final step?",
+      "answer": "Unscrew propeller shaft on transmission as the final step in the procedure.",
+      "question_type": "procedural",
+      "id": "26-06_propello-q09"
+    },
+    {
+      "question": "What callout number 30 26 001 indicates in the diagrams?",
+      "answer": "Callout number 30 26 001 appears to indicate the heat shield component location.",
+      "question_type": "visual",
+      "id": "26-06_propello-q10"
+    },
+    {
+      "question": "What reference is provided for additional information at the bottom of the page?",
+      "answer": "See Specifications is referenced at the bottom right of the page for additional information.",
+      "question_type": "navigation",
+      "id": "26-06_propello-q11"
+    },
+    {
+      "question": "What is the main procedure title covered on this page?",
+      "answer": "The main procedure is 26 11 051 REPLACING JOINT DISC FOR REAR PROPELLER SHAFT.",
+      "question_type": "factual",
+      "id": "26-06_propello-q12",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

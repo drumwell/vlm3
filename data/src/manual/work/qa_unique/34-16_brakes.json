@@ -1,0 +1,79 @@
+{
+  "page_id": "34-16_brakes",
+  "image_path": "raw/34 - Brakes/34-16.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:17:03.457200",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 787
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the brake booster?",
+      "answer": "The procedure number for replacing the brake booster is 34 33 000.",
+      "question_type": "factual",
+      "id": "34-16_brakes-q01"
+    },
+    {
+      "question": "What should be checked between the tandem brake master cylinder and brake booster during installation?",
+      "answer": "Check rubber ring (7) between tandem brake master cylinder and brake booster, and replace if necessary.",
+      "question_type": "inspection",
+      "id": "34-16_brakes-q02"
+    },
+    {
+      "question": "How do you replace the check valve for the brake booster?",
+      "answer": "Detach vacuum hose on check valve (1), then for installation replace clamp if necessary.",
+      "question_type": "procedural",
+      "id": "34-16_brakes-q03"
+    },
+    {
+      "question": "What component is indicated by callout number 7 in the brake booster replacement procedure?",
+      "answer": "Callout number 7 indicates the rubber ring between the tandem brake master cylinder and brake booster.",
+      "question_type": "visual",
+      "id": "34-16_brakes-q04"
+    },
+    {
+      "question": "How do you disconnect the vacuum hose on the brake booster?",
+      "answer": "Disconnect vacuum hose on brake booster, and for installation replace clamp if necessary.",
+      "question_type": "procedural",
+      "id": "34-16_brakes-q06"
+    },
+    {
+      "question": "What should you do with the clamp when installing the vacuum hose on the check valve?",
+      "answer": "Replace clamp if necessary during installation.",
+      "question_type": "procedural",
+      "id": "34-16_brakes-q07"
+    },
+    {
+      "question": "How should the check valve be positioned during installation?",
+      "answer": "Arrow or black side faces intake manifold, and replace clamp if necessary.",
+      "question_type": "procedural",
+      "id": "34-16_brakes-q09"
+    },
+    {
+      "question": "What component is indicated by callout number 1 in the check valve replacement procedure?",
+      "answer": "Callout number 1 indicates the check valve for the brake booster.",
+      "question_type": "visual",
+      "id": "34-16_brakes-q10"
+    },
+    {
+      "question": "Where can you find the tightening torque specification for the brake booster installation?",
+      "answer": "The tightening torque specification is referenced with an asterisk and notes 'See Specifications' at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "34-16_brakes-q11"
+    },
+    {
+      "question": "What is required when loosening clamps to remove the check valve?",
+      "answer": "Loosen clamps and take off check valve, then for installation ensure arrow or black side faces intake manifold and replace clamp if necessary.",
+      "question_type": "procedural",
+      "id": "34-16_brakes-q12"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "page_id": "00-torque-specs-135",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/135.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:55:09.294206",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 551
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the difference in torque between safety belt mounting on the body versus the B-pillar?",
+      "answer": "The body mounting requires 48 Nm while the B-pillar requires 31 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-135-q06"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "13-750_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-750.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:47:40.749590",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1803,
+    "tokens_output": 554
+  },
+  "qa_pairs": [
+    {
+      "question": "What color wire is plug 1 in the control unit plug connections?",
+      "answer": "Plug 1 is Black.",
+      "question_type": "factual",
+      "id": "13-750_fuel-sys-q01"
+    },
+    {
+      "question": "What color wire is plug 2 in the control unit plug connections?",
+      "answer": "Plug 2 is Blue.",
+      "question_type": "factual",
+      "id": "13-750_fuel-sys-q02"
+    },
+    {
+      "question": "What does plug connection A represent when 1 + 0?",
+      "answer": "A) 1 + 0 = unleaded prem. grade US.",
+      "question_type": "factual",
+      "id": "13-750_fuel-sys-q03"
+    },
+    {
+      "question": "What does plug connection B represent when 0 + 0?",
+      "answer": "B) 0 + 0 = unleaded reg. grade ECE.",
+      "question_type": "factual",
+      "id": "13-750_fuel-sys-q04"
+    },
+    {
+      "question": "What does plug connection C represent when 1 + 1?",
+      "answer": "C) 1 + 1 = leaded prem. grade ECE.",
+      "question_type": "factual",
+      "id": "13-750_fuel-sys-q05"
+    },
+    {
+      "question": "What does plug connection D represent when 0 + 1?",
+      "answer": "D) 0 + 1 = unleaded prem. grade ECE.",
+      "question_type": "factual",
+      "id": "13-750_fuel-sys-q06"
+    },
+    {
+      "question": "What does E represent in the plug connections list?",
+      "answer": "E) State of plug connections.",
+      "question_type": "factual",
+      "id": "13-750_fuel-sys-q07"
+    },
+    {
+      "question": "In the state of plug connections, what does 0 mean?",
+      "answer": "0 = disconnected.",
+      "question_type": "factual",
+      "id": "13-750_fuel-sys-q08"
+    },
+    {
+      "question": "In the state of plug connections, what does 1 mean?",
+      "answer": "1 = connected.",
+      "question_type": "factual",
+      "id": "13-750_fuel-sys-q09"
+    },
+    {
+      "question": "What does F represent in the plug connections list?",
+      "answer": "F) To control unit.",
+      "question_type": "factual",
+      "id": "13-750_fuel-sys-q10"
+    }
+  ]
+}

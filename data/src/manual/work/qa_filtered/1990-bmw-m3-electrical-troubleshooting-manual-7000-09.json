@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-09",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-09.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:14:16.633299",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 557
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the motor relay located in the BMW E30 M3?",
+      "answer": "The motor relay is located in the center of the windshield header, as shown in Figure 1.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-09-q01"
+    },
+    {
+      "question": "What component is located below the rear of the center console?",
+      "answer": "The park brake switch is located below the rear of the center console, as shown in Figure 3.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-09-q02"
+    },
+    {
+      "question": "Where can I find the cruise control unit in the E30 M3?",
+      "answer": "The cruise control unit is located behind the right-hand side of the dash, as shown in Figure 5.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-09-q03"
+    },
+    {
+      "question": "What is the reference number for the power window circuit breaker shown in Figure 2?",
+      "answer": "The power window circuit breaker has reference number C301, as shown in Figure 2.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-09-q04"
+    },
+    {
+      "question": "Which components are visible behind the RH side of the dash in Figure 4?",
+      "answer": "Behind the RH side of the dash in Figure 4, you can see components C107 and G103.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-09-q05"
+    },
+    {
+      "question": "Where is the auto-charging flashlight connector located?",
+      "answer": "The auto-charging flashlight connector is located on the left-hand side of the glove box, as shown in Figure 6.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-09-q06"
+    },
+    {
+      "question": "What is the sunroof motor reference number shown in the component location views?",
+      "answer": "The sunroof motor has reference number G600, as shown in Figure 1.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-09-q07"
+    },
+    {
+      "question": "Besides the cruise control unit, what other component is shown behind the RH side of dash in Figure 5?",
+      "answer": "Besides the cruise control unit, the Motronic control unit and glove box light switch are also shown behind the RH side of dash in Figure 5.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-09-q08"
+    }
+  ]
+}

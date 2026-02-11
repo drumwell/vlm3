@@ -1,0 +1,55 @@
+{
+  "page_id": "17-00-index-a_radiator",
+  "image_path": "raw/17 - Radiator/17-00-index-a.jpg",
+  "section_id": "17",
+  "section_name": "Radiator",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:00:19.525525",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1745,
+    "tokens_output": 395
+  },
+  "qa_pairs": [
+    {
+      "question": "What page contains information about the coolant circuit for BMW 318i?",
+      "answer": "The coolant circuit for BMW 318i is covered on page 17-1.",
+      "question_type": "navigation",
+      "id": "17-00-index-a_radiator-q01"
+    },
+    {
+      "question": "Where can I find the procedure for checking the cooling system for leaks with a tester?",
+      "answer": "The procedure for checking the cooling system for leaks with a tester can be found on page 17-3.",
+      "question_type": "navigation",
+      "id": "17-00-index-a_radiator-q02"
+    },
+    {
+      "question": "What is the reference number for the radiator remove and install procedure?",
+      "answer": "The reference number for the radiator remove and install procedure is 17 11 000.",
+      "question_type": "factual",
+      "id": "17-00-index-a_radiator-q03"
+    },
+    {
+      "question": "On which page would I find information about the oil cooler removal and installation?",
+      "answer": "Information about the oil cooler removal and installation can be found on page 17-5.",
+      "question_type": "navigation",
+      "id": "17-00-index-a_radiator-q04"
+    },
+    {
+      "question": "What page covers the coolant expansion tank removal and installation procedure?",
+      "answer": "The coolant expansion tank removal and installation procedure is covered on page 17-6.",
+      "question_type": "navigation",
+      "id": "17-00-index-a_radiator-q05"
+    },
+    {
+      "question": "Which BMW models have their coolant circuits covered on page 17-2?",
+      "answer": "BMW 325e and 325i models have their coolant circuits covered on page 17-2.",
+      "question_type": "factual",
+      "id": "17-00-index-a_radiator-q06"
+    }
+  ]
+}

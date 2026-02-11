@@ -1,0 +1,73 @@
+{
+  "page_id": "51-164_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-164.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:13:36.540708",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 639
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the three steps to remove the right glove box according to procedure 51 16 360?",
+      "answer": "Push out pin, disconnect left and right retaining straps, and remove trim panel.",
+      "question_type": "procedural",
+      "id": "51-164_body-equ-q01"
+    },
+    {
+      "question": "What procedure number covers removing and installing the grab handle?",
+      "answer": "51 16 450/480",
+      "question_type": "factual",
+      "id": "51-164_body-equ-q02"
+    },
+    {
+      "question": "What is the first step to remove the grab handle?",
+      "answer": "Lift off plate.",
+      "question_type": "procedural",
+      "id": "51-164_body-equ-q03"
+    },
+    {
+      "question": "What should you do to the screws when removing the glove box?",
+      "answer": "Unscrew screws.",
+      "question_type": "procedural",
+      "id": "51-164_body-equ-q04"
+    },
+    {
+      "question": "What component needs to be unscrewed when removing the grab handle?",
+      "answer": "Unscrew bolt.",
+      "question_type": "procedural",
+      "id": "51-164_body-equ-q05"
+    },
+    {
+      "question": "What is shown in diagram 30 51 580?",
+      "answer": "The grab handle with arrows indicating the removal direction.",
+      "question_type": "visual",
+      "id": "51-164_body-equ-q07"
+    },
+    {
+      "question": "What should you do after lifting out the plug?",
+      "answer": "This step is shown in diagram 28 51 295 as part of the removal process.",
+      "question_type": "procedural",
+      "id": "51-164_body-equ-q08"
+    },
+    {
+      "question": "What installation note is provided at the bottom of the page?",
+      "answer": "If applicable, adjust striker for lock.",
+      "question_type": "procedural",
+      "id": "51-164_body-equ-q09"
+    },
+    {
+      "question": "What directional indicators are shown in the glove box removal diagram 28 51 025?",
+      "answer": "Three upward-pointing arrows indicating the direction to lift components.",
+      "question_type": "visual",
+      "id": "51-164_body-equ-q11"
+    }
+  ]
+}

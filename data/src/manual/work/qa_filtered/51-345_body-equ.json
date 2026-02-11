@@ -1,0 +1,85 @@
+{
+  "page_id": "51-345_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-345.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:24:27.738772",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 657
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure for tilting the window with rubber frame out of the window frame?",
+      "answer": "Tilt window with rubber frame out of window frame.",
+      "question_type": "procedural",
+      "id": "51-345_body-equ-q01"
+    },
+    {
+      "question": "What should you coat the rubber frame with during installation?",
+      "answer": "Coat rubber frame with relaxed water to make installation easier.",
+      "question_type": "procedural",
+      "id": "51-345_body-equ-q02"
+    },
+    {
+      "question": "What substance is recommended to make rubber frame installation easier?",
+      "answer": "Relaxed water should be used to coat the rubber frame to make installation easier.",
+      "question_type": "factual",
+      "id": "51-345_body-equ-q03"
+    },
+    {
+      "question": "What is the reference number shown at the bottom of the image?",
+      "answer": "The reference number shown is 30 51135.",
+      "question_type": "factual",
+      "id": "51-345_body-equ-q05"
+    },
+    {
+      "question": "What page number is this from the service manual?",
+      "answer": "This is page 51-345.",
+      "question_type": "factual",
+      "id": "51-345_body-equ-q06"
+    },
+    {
+      "question": "What type of window removal procedure is being demonstrated?",
+      "answer": "The procedure shows tilting a window with rubber frame out of the window frame.",
+      "question_type": "procedural",
+      "id": "51-345_body-equ-q07"
+    },
+    {
+      "question": "What preparation step is mentioned for the rubber frame installation?",
+      "answer": "The rubber frame should be coated with relaxed water before installation.",
+      "question_type": "procedural",
+      "id": "51-345_body-equ-q08"
+    },
+    {
+      "question": "What component is being worked on in the illustrated procedure?",
+      "answer": "A window with rubber frame is being worked on.",
+      "question_type": "component",
+      "id": "51-345_body-equ-q09"
+    },
+    {
+      "question": "What is the purpose of using relaxed water on the rubber frame?",
+      "answer": "The relaxed water makes installation easier.",
+      "question_type": "factual",
+      "id": "51-345_body-equ-q10"
+    },
+    {
+      "question": "What installation tip is provided for the rubber frame?",
+      "answer": "Coat the rubber frame with relaxed water to make installation easier.",
+      "question_type": "procedural",
+      "id": "51-345_body-equ-q11"
+    },
+    {
+      "question": "What does the installation section specifically recommend?",
+      "answer": "It recommends coating the rubber frame with relaxed water to make installation easier.",
+      "question_type": "factual",
+      "id": "51-345_body-equ-q12"
+    }
+  ]
+}

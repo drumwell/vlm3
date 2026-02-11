@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-119",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/119.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:46:34.854818",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 598
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the cross member to body mounting bolts?",
+      "answer": "21 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-119-q01"
+    },
+    {
+      "question": "What torque should I use for the rubber mounts to cross member or transmission?",
+      "answer": "21 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-119-q02"
+    },
+    {
+      "question": "What is the torque specification for the support tube to engine subframe on the E36?",
+      "answer": "42 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-119-q04"
+    },
+    {
+      "question": "What torque specification applies to the rubber mounts to carrier pipe?",
+      "answer": "21 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-119-q05"
+    },
+    {
+      "question": "Which transmission mount components use the same 21 Nm torque specification?",
+      "answer": "Cross member to body, rubber mounts to cross member or transmission, rubber mounts to carrier pipe, and carrier plate all use 21 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-119-q06"
+    },
+    {
+      "question": "What vehicle types are covered by the transmission mount specifications in section 24.71?",
+      "answer": "All vehicle types for most specifications, with specific E36 specifications for support tube to engine subframe, rubber mounts to carrier pipe, and carrier plate",
+      "question_type": "factual",
+      "id": "00-torque-specs-119-q07"
+    },
+    {
+      "question": "What is the torque specification for the carrier plate?",
+      "answer": "21 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-119-q08"
+    },
+    {
+      "question": "Which transmission mount component has the highest torque specification?",
+      "answer": "The support tube to engine subframe at 42 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-119-q09"
+    },
+    {
+      "question": "How many transmission mount components are listed in section 24.71?",
+      "answer": "Five components are listed: cross member to body, rubber mounts to cross member or transmission, support tube to engine subframe, rubber mounts to carrier pipe, and carrier plate",
+      "question_type": "factual",
+      "id": "00-torque-specs-119-q10"
+    }
+  ]
+}

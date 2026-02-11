@@ -1,0 +1,79 @@
+{
+  "page_id": "51-460_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-460.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:29:07.726413",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 750
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing the trim panel for hatchback?",
+      "answer": "The procedure number is 51 46 000 REMOVING TRIM PANEL FOR HATRACK.",
+      "question_type": "factual",
+      "id": "51-460_body-equ-q01"
+    },
+    {
+      "question": "What are the first steps to remove the rear seat area trim panel?",
+      "answer": "Lift out rear seat cushion upwards. Unscrew bolts (1) and lift up backrest out of holders (2).",
+      "question_type": "procedural",
+      "id": "51-460_body-equ-q02"
+    },
+    {
+      "question": "What do the numbered callouts 1 and 2 indicate in the rear seat diagram?",
+      "answer": "Callout 1 indicates the bolts to unscrew, and callout 2 indicates the holders from which to lift the backrest.",
+      "question_type": "visual",
+      "id": "51-460_body-equ-q03"
+    },
+    {
+      "question": "How do you remove the cover at the front end?",
+      "answer": "Lift out cover at front end and pull out.",
+      "question_type": "procedural",
+      "id": "51-460_body-equ-q04"
+    },
+    {
+      "question": "What is shown in the photograph with reference number 30 51 906?",
+      "answer": "The photograph shows the location where you lift out the cover at the front end, with an arrow indicating the lifting direction.",
+      "question_type": "visual",
+      "id": "51-460_body-equ-q05"
+    },
+    {
+      "question": "What fasteners need to be removed according to the middle procedure step?",
+      "answer": "Unscrew screws.",
+      "question_type": "procedural",
+      "id": "51-460_body-equ-q06"
+    },
+    {
+      "question": "How do you remove the trim panel in the middle section?",
+      "answer": "Unclip trim panel in the middle and lift out. If applicable, pull off speaker leads.",
+      "question_type": "procedural",
+      "id": "51-460_body-equ-q08"
+    },
+    {
+      "question": "What should you do with speaker leads during trim panel removal?",
+      "answer": "If applicable, pull off speaker leads when unclipping the trim panel in the middle.",
+      "question_type": "procedural",
+      "id": "51-460_body-equ-q09"
+    },
+    {
+      "question": "What installation note is provided regarding radio speakers?",
+      "answer": "Installation: Openings are marked for service installation of radio speakers.",
+      "question_type": "factual",
+      "id": "51-460_body-equ-q10"
+    },
+    {
+      "question": "Where can you find the tightening torque specifications referenced by the asterisk?",
+      "answer": "See Specifications of Gr. 72.",
+      "question_type": "navigation",
+      "id": "51-460_body-equ-q11"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "33-16_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-16.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:11:13.481554",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 812
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing rear shock absorbers?",
+      "answer": "The procedure number is 33 52 000 for removing and installing rear shock absorbers.",
+      "question_type": "factual",
+      "id": "33-16_rear-axl-q01"
+    },
+    {
+      "question": "What important safety warning is given about storing shock absorbers?",
+      "answer": "Always store shock absorbers standing upright. If shock absorbers are stored laying down with their piston rods run in, they will cause knocking noise when used in car.",
+      "question_type": "safety",
+      "id": "33-16_rear-axl-q02"
+    },
+    {
+      "question": "What is the recommended remedy for shock absorbers with run out piston rods?",
+      "answer": "Store shock absorbers with run out piston rods standing upright at room temperature for at least 24 hours.",
+      "question_type": "procedural",
+      "id": "33-16_rear-axl-q03"
+    },
+    {
+      "question": "What caution is given about the shock absorber during removal?",
+      "answer": "Shock absorber acts as a retaining strap. Do not remove the support or lift the car, to avoid damage on constant velocity joints.",
+      "question_type": "safety",
+      "id": "33-16_rear-axl-q04"
+    },
+    {
+      "question": "What should be done with the car loading when tightening shock absorbers during installation?",
+      "answer": "Tighten shock absorbers with car loaded down to normal position to the specified tightening torque.",
+      "question_type": "procedural",
+      "id": "33-16_rear-axl-q05"
+    },
+    {
+      "question": "Which group should be referenced for cars with ride level control?",
+      "answer": "See Group 37 for cars with ride level control.",
+      "question_type": "navigation",
+      "id": "33-16_rear-axl-q06"
+    },
+    {
+      "question": "What additional steps are required for Touring Models during shock absorber removal?",
+      "answer": "For Touring Models: Remove side backrest (see Gr. 52), Remove seat belt reels (see Gr. 72), and Unscrew centering shell on wheel house.",
+      "question_type": "procedural",
+      "id": "33-16_rear-axl-q07"
+    },
+    {
+      "question": "What component should be replaced during shock absorber installation according to the important note?",
+      "answer": "Replace gasket (1) during shock absorber installation.",
+      "question_type": "component",
+      "id": "33-16_rear-axl-q08"
+    },
+    {
+      "question": "What type of nut should be replaced during installation?",
+      "answer": "Replace self-locking nut during installation to the specified tightening torque.",
+      "question_type": "component",
+      "id": "33-16_rear-axl-q09"
+    },
+    {
+      "question": "What should be done with the trunk trim panel during this procedure?",
+      "answer": "Remove trunk trim panel partially - see Group 51.",
+      "question_type": "procedural",
+      "id": "33-16_rear-axl-q10"
+    },
+    {
+      "question": "Where can the tightening torque specifications be found?",
+      "answer": "See Specifications for tightening torque values, and see Specifications of Gr. 32 for additional specifications.",
+      "question_type": "navigation",
+      "id": "33-16_rear-axl-q11"
+    },
+    {
+      "question": "What should be done to support the semi-trailing arm during shock absorber removal?",
+      "answer": "Support semi-trailing arm or have road wheel rest on floor, then unscrew shock absorber on semi-trailing arm.",
+      "question_type": "procedural",
+      "id": "33-16_rear-axl-q12"
+    }
+  ]
+}

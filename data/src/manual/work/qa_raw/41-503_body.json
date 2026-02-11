@@ -1,0 +1,91 @@
+{
+  "page_id": "41-503_body",
+  "image_path": "raw/41 - Body/41-503.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:05:41.222268",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 759
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the left or right front door?",
+      "answer": "The procedure number is 41 51 080 for removing and installing left or right front door - Unhingable Door Version.",
+      "question_type": "factual",
+      "id": "41-503_body-q01"
+    },
+    {
+      "question": "What should you disconnect first when removing the front door?",
+      "answer": "You should disconnect the plug for the A pillar first.",
+      "question_type": "procedural",
+      "id": "41-503_body-q02"
+    },
+    {
+      "question": "Where are the bolts located that need to be unscrewed during door removal?",
+      "answer": "The bolts are located at the top and bottom of the door hinge.",
+      "question_type": "procedural",
+      "id": "41-503_body-q03"
+    },
+    {
+      "question": "What three steps are involved with the door pin removal?",
+      "answer": "Lift off rubber cap, pull off retainer, and press out pin.",
+      "question_type": "procedural",
+      "id": "41-503_body-q04"
+    },
+    {
+      "question": "What caution is given regarding door opening during the removal process?",
+      "answer": "Be careful not to damage the side panel or outside of the door when opening the door.",
+      "question_type": "safety",
+      "id": "41-503_body-q05"
+    },
+    {
+      "question": "How should the front door be removed according to the final step?",
+      "answer": "Unhinge the front door from above.",
+      "question_type": "procedural",
+      "id": "41-503_body-q06"
+    },
+    {
+      "question": "What does callout number 1 indicate in the door hinge diagram?",
+      "answer": "Callout number 1 indicates the Bolt.",
+      "question_type": "visual",
+      "id": "41-503_body-q07"
+    },
+    {
+      "question": "What components are identified by callout numbers 2 and 3 in the diagram?",
+      "answer": "Callout number 2 indicates the Body end hinge and callout number 3 indicates the Hinge pin.",
+      "question_type": "visual",
+      "id": "41-503_body-q08"
+    },
+    {
+      "question": "What does the asterisk note explain about the hinge components?",
+      "answer": "The asterisk note explains that the sketch shows the top hinge, and the bearing surface is inversed on the bottom hinge.",
+      "question_type": "factual",
+      "id": "41-503_body-q09"
+    },
+    {
+      "question": "What are callout numbers 5 and 6 in the door hinge assembly?",
+      "answer": "Callout number 5 is the Washer and callout number 6 is the Lock washer.",
+      "question_type": "visual",
+      "id": "41-503_body-q10"
+    },
+    {
+      "question": "What is the complete part number shown in the door hinge diagram?",
+      "answer": "The complete part number shown is 30 41 432.",
+      "question_type": "factual",
+      "id": "41-503_body-q11"
+    },
+    {
+      "question": "What does callout number 4 represent in the door hinge assembly?",
+      "answer": "Callout number 4 represents the Door end hinge with bearing sleeve.",
+      "question_type": "visual",
+      "id": "41-503_body-q12"
+    }
+  ]
+}

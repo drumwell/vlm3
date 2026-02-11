@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-3435-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/3435-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:31:15.284970",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 453
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number and title for this brake warning system diagram?",
+      "answer": "3435-0 BRAKE WARNING SYSTEM",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3435-00-q01"
+    },
+    {
+      "question": "What fuse rating is specified for the power distribution box in the brake warning system?",
+      "answer": "7.5 AMP",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3435-00-q02"
+    },
+    {
+      "question": "What resistance value is shown for the brake sensor input?",
+      "answer": "220 OHMS",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3435-00-q03"
+    },
+    {
+      "question": "What happens when the brake fluid level switch closes with low fluid?",
+      "answer": "The switch closes when sensor input is 9 volts with brake wear sensor open.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3435-00-q04"
+    },
+    {
+      "question": "What voltage specification is noted for the brake wear sensor connector?",
+      "answer": "Voltage at brake wear sensor connector is within 1 volt of battery voltage.",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3435-00-q05"
+    },
+    {
+      "question": "Which indicators are shown in the gauges/indicators section of the diagram?",
+      "answer": "Charge indicator red, park brake indicator red, and brake fluid warning indicator red.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3435-00-q06"
+    },
+    {
+      "question": "What is the resistance value shown in the sensor circuit?",
+      "answer": "303 OHMS",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3435-00-q07"
+    },
+    {
+      "question": "What ignition switch position is indicated as 'HOT IN RUN OR START'?",
+      "answer": "The power distribution box fuse 10 is hot in run or start position.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3435-00-q08"
+    }
+  ]
+}

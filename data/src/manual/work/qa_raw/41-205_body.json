@@ -1,0 +1,94 @@
+{
+  "page_id": "41-205_body",
+  "image_path": "raw/41 - Body/41-205.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:51:49.526799",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 700
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be applied to the roof and rain molding when brazing joints on the roof frame?",
+      "answer": "Apply coat of heat protection paste on roof and rain molding to avoid damaging the roof panel paint finish.",
+      "question_type": "safety",
+      "id": "41-205_body-q01"
+    },
+    {
+      "question": "What is the first step shown for preparing mating surfaces for spot welding?",
+      "answer": "Drill holes in mating surfaces required for plug spot welding.",
+      "question_type": "procedural",
+      "id": "41-205_body-q02"
+    },
+    {
+      "question": "What procedure is shown in figure 30 41 352?",
+      "answer": "Clamp and tack weld B pillar.",
+      "question_type": "visual",
+      "id": "41-205_body-q03"
+    },
+    {
+      "question": "What should be done after installing the rear door according to figure 30 41 353?",
+      "answer": "Install rear door and check gaps.",
+      "question_type": "procedural",
+      "id": "41-205_body-q04"
+    },
+    {
+      "question": "What welding procedure is shown in figure 30 41 355?",
+      "answer": "Spot weld B pillar on end plate.",
+      "question_type": "visual",
+      "id": "41-205_body-q05"
+    },
+    {
+      "question": "What type of joint welding is shown for the side member cover?",
+      "answer": "Plug spot weld joint on cover for side member.",
+      "question_type": "factual",
+      "id": "41-205_body-q06"
+    },
+    {
+      "question": "What finishing operation is performed on joints as shown in figures 30 41 357 and 30 41 358?",
+      "answer": "Grind down joints.",
+      "question_type": "procedural",
+      "id": "41-205_body-q07",
+      "_warnings": [
+        "Self-referential question: 'as shown'"
+      ]
+    },
+    {
+      "question": "What type of joint is created on the roof frame according to figure 30 41 356?",
+      "answer": "Braze joint on roof frame.",
+      "question_type": "factual",
+      "id": "41-205_body-q08"
+    },
+    {
+      "question": "Why is heat protection paste necessary when working on the roof frame?",
+      "answer": "To avoid damaging the roof panel paint finish during brazing operations.",
+      "question_type": "safety",
+      "id": "41-205_body-q09"
+    },
+    {
+      "question": "What component is being welded in the final step shown in figure 30 41 359?",
+      "answer": "Grind down joints on the welded area.",
+      "question_type": "visual",
+      "id": "41-205_body-q10"
+    },
+    {
+      "question": "What should be checked after the rear door installation procedure?",
+      "answer": "Check gaps after installing the rear door.",
+      "question_type": "inspection",
+      "id": "41-205_body-q11"
+    },
+    {
+      "question": "What welding method is used to attach the B pillar to the end plate?",
+      "answer": "Spot weld B pillar on end plate.",
+      "question_type": "factual",
+      "id": "41-205_body-q12"
+    }
+  ]
+}

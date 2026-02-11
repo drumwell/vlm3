@@ -1,0 +1,82 @@
+{
+  "page_id": "00-torque-specs-001",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/001.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:16:00.397645",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1937,
+    "tokens_output": 662
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the service manual covers tightening torques?",
+      "answer": "Tightening torques are covered in the Torques section of the service manual.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-001-q01"
+    },
+    {
+      "question": "What is the title of this section in the BMW E30 M3 service manual?",
+      "answer": "The title of this section is 'Tightening Torques'.",
+      "question_type": "factual",
+      "id": "00-torque-specs-001-q02"
+    },
+    {
+      "question": "What type of specifications would I find in this section?",
+      "answer": "This section contains tightening torque specifications for various components and fasteners.",
+      "question_type": "factual",
+      "id": "00-torque-specs-001-q03"
+    },
+    {
+      "question": "Where would I look to find the proper torque values for bolts and fasteners?",
+      "answer": "You would look in the Tightening Torques section for proper torque values for bolts and fasteners.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-001-q04"
+    },
+    {
+      "question": "Is this a title page or does it contain actual torque specifications?",
+      "answer": "This is a title page for the Tightening Torques section - the actual torque specifications would be on the following pages.",
+      "question_type": "visual",
+      "id": "00-torque-specs-001-q05"
+    },
+    {
+      "question": "What information is typically found in a tightening torques section?",
+      "answer": "A tightening torques section typically contains specific torque values with their units for proper fastener installation.",
+      "question_type": "factual",
+      "id": "00-torque-specs-001-q06",
+      "_warnings": [
+        "Potential hedge/hallucination: 'typically'"
+      ]
+    },
+    {
+      "question": "How is this section titled in the manual?",
+      "answer": "This section is titled 'Tightening Torques' in large text within a bordered frame.",
+      "question_type": "visual",
+      "id": "00-torque-specs-001-q07"
+    },
+    {
+      "question": "What would be the next step after viewing this title page?",
+      "answer": "The next step would be to turn to the following pages to find the actual torque specification tables and values.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-001-q08"
+    },
+    {
+      "question": "Why is a dedicated torques section important in a service manual?",
+      "answer": "A dedicated torques section ensures proper fastener tightening to prevent damage from over-tightening or loosening from under-tightening.",
+      "question_type": "factual",
+      "id": "00-torque-specs-001-q09"
+    },
+    {
+      "question": "What format is used to present the section title?",
+      "answer": "The section title 'Tightening Torques' is presented in large, bold text within a rectangular border frame.",
+      "question_type": "visual",
+      "id": "00-torque-specs-001-q10"
+    }
+  ]
+}

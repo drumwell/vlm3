@@ -1,0 +1,88 @@
+{
+  "page_id": "00-torque-specs-038",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/038.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:23:25.203697",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 700
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil filter drain plug hollow bolt?",
+      "answer": "20 Nm for M21/S38 hollow bolt.",
+      "question_type": "factual",
+      "id": "00-torque-specs-038-q01"
+    },
+    {
+      "question": "What torque should be applied to the solid aluminium screw on the oil filter?",
+      "answer": "10 Nm for M21 solid aluminium screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-038-q02"
+    },
+    {
+      "question": "How much torque is required for the full length screw in threaded insert?",
+      "answer": "23 Nm for M21 full length screw in threaded insert.",
+      "question_type": "factual",
+      "id": "00-torque-specs-038-q03"
+    },
+    {
+      "question": "What is the torque specification for the oil drain line banjo bolt?",
+      "answer": "30 Nm for M60/1/M60/2/M62/M70/S70/M73 oil drain line banjo bolt.",
+      "question_type": "factual",
+      "id": "00-torque-specs-038-q04"
+    },
+    {
+      "question": "What torque is specified for the oil line to bearing points and camshaft lubrication?",
+      "answer": "10 Nm for M6 screws on all engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-038-q05"
+    },
+    {
+      "question": "What are the two different torque specifications for hollow bolts on the camshaft lubrication oil line?",
+      "answer": "10 Nm for M8x1 hollow bolts and 5 Nm for M5 hollow bolts, both applicable to all engines.",
+      "question_type": "comparison",
+      "id": "00-torque-specs-038-q06",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "Which component uses M21/S38 type screws according to this specification table?",
+      "answer": "The oil filter drain plug hollow bolt uses M21/S38 type screws.",
+      "question_type": "application",
+      "id": "00-torque-specs-038-q07",
+      "_warnings": [
+        "Invalid question_type: application"
+      ]
+    },
+    {
+      "question": "What section and subsection does this torque specification table cover?",
+      "answer": "Section 11-28 Engine, subsection 11 42 Oil Filter and Pipes.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-038-q08"
+    },
+    {
+      "question": "Which oil line component has the highest torque requirement?",
+      "answer": "The oil drain line on oil filter and upper section of oil pan (banjo bolt) has the highest torque requirement at 30 Nm.",
+      "question_type": "comparison",
+      "id": "00-torque-specs-038-q09",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What are the different engine types mentioned for the oil drain line banjo bolt?",
+      "answer": "M60/1, M60/2, M62, M70, S70, and M73 engine types are specified for the oil drain line banjo bolt.",
+      "question_type": "factual",
+      "id": "00-torque-specs-038-q10"
+    }
+  ]
+}

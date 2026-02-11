@@ -1,0 +1,85 @@
+{
+  "page_id": "35-08_pedals",
+  "image_path": "raw/35 - Pedals/35-08.jpg",
+  "section_id": "35",
+  "section_name": "Pedals",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:28:52.252577",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 758
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be replaced when removing an accelerator pedal?",
+      "answer": "A removed accelerator pedal should be replaced with a new part in general because clips on the old part could be damaged, allowing the accelerator pedal to slide out of the plate.",
+      "question_type": "safety",
+      "id": "35-08_pedals-q01"
+    },
+    {
+      "question": "What are the three steps to remove the accelerator pedal shaft?",
+      "answer": "Press off retainer (1) on the accelerator pedal shaft, press down on carpet (2) behind the accelerator pedal, and press in clips (3) in direction of arrow and lift out accelerator pedal upward.",
+      "question_type": "procedural",
+      "id": "35-08_pedals-q02"
+    },
+    {
+      "question": "What important check must be performed after installing accelerator pedal clips?",
+      "answer": "Always check that clips engage correctly.",
+      "question_type": "inspection",
+      "id": "35-08_pedals-q03"
+    },
+    {
+      "question": "How do you remove the accelerator pedal lever retainer?",
+      "answer": "Pull off retainer (1) and slide shaft to the left.",
+      "question_type": "procedural",
+      "id": "35-08_pedals-q04"
+    },
+    {
+      "question": "What must be removed before accessing the accelerator pedal lever?",
+      "answer": "Remove dashboard trim panel at bottom left - see Group 51.",
+      "question_type": "procedural",
+      "id": "35-08_pedals-q05"
+    },
+    {
+      "question": "What lubrication is required during accelerator pedal lever installation?",
+      "answer": "Lubricate bearing surfaces with grease.",
+      "question_type": "tool",
+      "id": "35-08_pedals-q06"
+    },
+    {
+      "question": "What happens if the accelerator pedal clips are damaged?",
+      "answer": "If clips are damaged, the accelerator pedal can slide out of the plate, which could lead to an accident.",
+      "question_type": "safety",
+      "id": "35-08_pedals-q07"
+    },
+    {
+      "question": "What does callout number 2 indicate in the accelerator pedal removal diagram?",
+      "answer": "Callout number 2 indicates the carpet behind the accelerator pedal that must be pressed down during removal.",
+      "question_type": "visual",
+      "id": "35-08_pedals-q08"
+    },
+    {
+      "question": "What service procedures are covered in section 35 41 000?",
+      "answer": "Section 35 41 000 covers removing and installing accelerator pedal.",
+      "question_type": "navigation",
+      "id": "35-08_pedals-q09"
+    },
+    {
+      "question": "How do you disconnect the accelerator lever spring?",
+      "answer": "Disconnect accelerator lever spring on pedal.",
+      "question_type": "procedural",
+      "id": "35-08_pedals-q11"
+    },
+    {
+      "question": "What reference number is shown for the accelerator pedal removal procedure?",
+      "answer": "The reference number shown is 28 35 006.",
+      "question_type": "factual",
+      "id": "35-08_pedals-q12"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-124",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/124.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:36:18.230478",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 599
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the transfer box to manual transmission connection?",
+      "answer": "M10 screw, 42 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-124-q01"
+    },
+    {
+      "question": "What size screw is used for the transfer box on automatic transmission and what torque should it be tightened to?",
+      "answer": "M8 screw, 23 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-124-q02"
+    },
+    {
+      "question": "What is the torque specification for the coupling to manual transmission and transfer box?",
+      "answer": "M12 screw, 90 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-124-q03"
+    },
+    {
+      "question": "What torque value should be used for the case bolts on the transfer box?",
+      "answer": "M8 screw, 25 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-124-q04"
+    },
+    {
+      "question": "What is the torque specification for the electromagnetic clutch to case connection?",
+      "answer": "M8 screw, 25 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-124-q05"
+    },
+    {
+      "question": "What special installation requirement is mentioned for the output flange collar nut?",
+      "answer": "Collar nut installed with Loctite 270 or Hylogrip bolt cement",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-124-q07"
+    },
+    {
+      "question": "Which transfer box components use M8 screws according to this specification table?",
+      "answer": "Transfer box on automatic transmission, case bolts, and electromagnetic clutch to case",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-124-q08"
+    },
+    {
+      "question": "What section of the manual does this torque specification table cover?",
+      "answer": "Transfer Box - Four Wheel Drive, section 27-1",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-124-q09"
+    },
+    {
+      "question": "Do all the transfer box specifications listed apply to all vehicle types?",
+      "answer": "Yes, all specifications are marked as applying to 'All' vehicle types",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-124-q10"
+    }
+  ]
+}

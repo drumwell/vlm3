@@ -1,0 +1,43 @@
+{
+  "page_id": "00-torque-specs-116",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/116.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:46:00.121078",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 724
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw size and torque specification applies to A4S 270R/A4S 310R/A5S 310Z/A5S 300J/A5S 440Z/A5S 560Z transmissions for torque converter to flywheel?",
+      "answer": "M10 screws with 45 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-116-q02"
+    },
+    {
+      "question": "What is the difference in torque specifications between the specific transmission types and all other types when using M10 screws?",
+      "answer": "4 Nm difference - specific transmission types use 45 Nm while all others use 49 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-116-q05"
+    },
+    {
+      "question": "What component is being torqued according to the specifications shown in this table?",
+      "answer": "Torque converter to flywheel (1AZ)",
+      "question_type": "component",
+      "id": "00-torque-specs-116-q06"
+    },
+    {
+      "question": "How many different torque specifications are listed for the torque converter to flywheel connection?",
+      "answer": "Three different specifications: 26 Nm for M8 screws, 45 Nm for specific transmissions with M10 screws, and 49 Nm for all other transmissions with M10 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-116-q07"
+    }
+  ]
+}

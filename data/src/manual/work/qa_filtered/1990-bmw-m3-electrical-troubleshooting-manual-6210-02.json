@@ -1,0 +1,55 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6210-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:03:19.995889",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 505
+  },
+  "qa_pairs": [
+    {
+      "question": "Which connector pins are identified as C4 (16 pins) and C5 (19 pins) and where are they located?",
+      "answer": "C4 (16 pins) and C5 (19 pins) are located under the cover on the printed circuit board at the rear of the instrument cluster.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-02-q02"
+    },
+    {
+      "question": "What color wire is associated with the low fuel warning indicator?",
+      "answer": "Yellow wire is associated with the low fuel warning indicator.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-02-q03"
+    },
+    {
+      "question": "At what fuel level does the fuel tank sender switch close?",
+      "answer": "The fuel tank sender switch closes when the tank contains less than 1.5 gallons.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-02-q04"
+    },
+    {
+      "question": "Which wire color combination is used for the .75 BR/YL connection?",
+      "answer": ".75 BR/YL indicates a 0.75mm brown/yellow wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-02-q06"
+    },
+    {
+      "question": "What components are connected to ground point G200?",
+      "answer": "The oil temperature sensor is connected to ground point G200.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-02-q07"
+    },
+    {
+      "question": "What important note is provided about some vehicles at the bottom of the diagram?",
+      "answer": "Some vehicles may contain an additional splice (see ground distribution).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-02-q08"
+    }
+  ]
+}

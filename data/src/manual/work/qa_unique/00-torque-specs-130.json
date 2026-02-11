@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-130",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/130.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:54:16.544068",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 678
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the upper cowl panel support?",
+      "answer": "5 Nm (ft. lbs.) using M4 screw type E31.",
+      "question_type": "factual",
+      "id": "00-torque-specs-130-q01"
+    },
+    {
+      "question": "What screw types are used for the driver's side with WCPC?",
+      "answer": "E32/E34 screw types are used.",
+      "question_type": "factual",
+      "id": "00-torque-specs-130-q08"
+    },
+    {
+      "question": "What is the highest torque specification listed for wiper arms?",
+      "answer": "40 Nm (ft. lbs.) for the driver's side using type E31 and type E38/E39.",
+      "question_type": "factual",
+      "id": "00-torque-specs-130-q09"
+    }
+  ]
+}

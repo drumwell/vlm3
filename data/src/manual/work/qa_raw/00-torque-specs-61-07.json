@@ -1,0 +1,64 @@
+{
+  "page_id": "00-torque-specs-61-07",
+  "image_path": "raw/00 - Torque Specs/61-07.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:05:39.772196",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 599
+  },
+  "qa_pairs": [
+    {
+      "question": "What torque should be applied when installing the bracket to body for headlight cleaners?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-07-q02"
+    },
+    {
+      "question": "What is the difference in torque values between the telescope to bracket and bracket to body connections for headlight cleaners?",
+      "answer": "The bracket to body connection requires 15 Nm while the telescope to bracket connection requires only 3 Nm, a difference of 12 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-07-q04"
+    },
+    {
+      "question": "Which headlight cleaner connection requires the higher torque specification?",
+      "answer": "The bracket to body connection requires the higher torque at 15 Nm compared to the telescope to bracket at 3 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-07-q05"
+    },
+    {
+      "question": "What component section does this torque specification table cover?",
+      "answer": "61 67 Headlight Cleaners under the General Electrical system section 61-7.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-61-07-q06"
+    },
+    {
+      "question": "What are the two mounting points specified for the headlight cleaner assembly?",
+      "answer": "1AZ Telescope to bracket and 2AZ Bracket to body.",
+      "question_type": "component",
+      "id": "00-torque-specs-61-07-q07"
+    },
+    {
+      "question": "What unit of measurement is used for all torque specifications on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-07-q08",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "How many torque specifications are listed for the headlight cleaners?",
+      "answer": "Two torque specifications are listed for the headlight cleaners.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-07-q09"
+    }
+  ]
+}

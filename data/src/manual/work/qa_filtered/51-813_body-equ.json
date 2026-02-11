@@ -1,0 +1,79 @@
+{
+  "page_id": "51-813_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-813.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:36:50.610496",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 727
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check if there's no voltage or ground in sockets 13 and 14 of the plug connection between the door wire harness and body when operating the driver's door push button?",
+      "answer": "Check wire harness for breaks, repairing if necessary.",
+      "question_type": "troubleshooting",
+      "id": "51-813_body-equ-q01"
+    },
+    {
+      "question": "What should I inspect if there's no voltage or ground in sockets 2 and 1 of the plug connection between door wire harness and window motor when operating the driver's door push button?",
+      "answer": "Check door wire harness for breaks, repairing if necessary.",
+      "question_type": "troubleshooting",
+      "id": "51-813_body-equ-q02"
+    },
+    {
+      "question": "What's the final step if voltage and ground are present in the door wire harness connections but the window still doesn't work?",
+      "answer": "Check window motor, replacing if necessary.",
+      "question_type": "procedural",
+      "id": "51-813_body-equ-q03"
+    },
+    {
+      "question": "What is the minimum voltage requirement for pin 3 (green/gray) of the left rear door window push button?",
+      "answer": "Greater than 11.5 V",
+      "question_type": "parameter",
+      "id": "51-813_body-equ-q04"
+    },
+    {
+      "question": "What symptom is being diagnosed in section 3 of this troubleshooting flowchart?",
+      "answer": "No Function When Operating Left Rear Door Window Push Button (In Center Console)",
+      "question_type": "diagnostic",
+      "id": "51-813_body-equ-q05"
+    },
+    {
+      "question": "What should I do if pin 3 (green/gray) of the left rear door window push button doesn't have the required voltage?",
+      "answer": "Check wire harness for breaks, repairing if necessary. Check plug connection on push button, repairing if necessary. Check push button, replacing if necessary.",
+      "question_type": "troubleshooting",
+      "id": "51-813_body-equ-q06"
+    },
+    {
+      "question": "What wire color is specified for pin 3 of the left rear door window push button?",
+      "answer": "Green/gray",
+      "question_type": "wiring",
+      "id": "51-813_body-equ-q07"
+    },
+    {
+      "question": "What reference is mentioned for the test requirements in section 3?",
+      "answer": "See Test Requirements",
+      "question_type": "navigation",
+      "id": "51-813_body-equ-q08"
+    },
+    {
+      "question": "Which sockets should be tested for voltage or ground when diagnosing the driver's door push button operation with the door wire harness and body connection?",
+      "answer": "Sockets 13 and 14 of the plug connection between the door wire harness and body.",
+      "question_type": "diagnostic",
+      "id": "51-813_body-equ-q09"
+    },
+    {
+      "question": "Which sockets should be checked for voltage or ground when testing the connection between the door wire harness and window motor?",
+      "answer": "Sockets 2 and 1 of the plug connection between door wire harness and window motor.",
+      "question_type": "diagnostic",
+      "id": "51-813_body-equ-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "51-805_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-805.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:35:00.713033",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 689
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main symptom being diagnosed in section B?",
+      "answer": "Locking not possible.",
+      "question_type": "diagnostic",
+      "id": "51-805_body-equ-q01"
+    },
+    {
+      "question": "What should I check first when the locking system isn't working?",
+      "answer": "Check if the microswitch is activated and verify the plug connection is okay.",
+      "question_type": "procedural",
+      "id": "51-805_body-equ-q02"
+    },
+    {
+      "question": "Where can I find assembly view information for the microswitch?",
+      "answer": "Microswitch assembly view - see 51 26 000.",
+      "question_type": "navigation",
+      "id": "51-805_body-equ-q03"
+    },
+    {
+      "question": "What wire colors should I check when making the connection between pin 7 and the control unit?",
+      "answer": "Check the connection between pin 7 (yellow/blue) on control unit with connected plug and vehicle ground.",
+      "question_type": "wiring",
+      "id": "51-805_body-equ-q04"
+    },
+    {
+      "question": "What should I do if there's a break in the yellow/blue wire?",
+      "answer": "Break in (yellow/blue) wire - repair. Also refer to passenger's door/body plug socket 11 (corrosion/no connection).",
+      "question_type": "troubleshooting",
+      "id": "51-805_body-equ-q05"
+    },
+    {
+      "question": "What resistance reading should I expect when checking socket 1 on the microswitch plug against ground?",
+      "answer": "Resistance = 0 \u03a9 when checking socket 1 (brown) on microswitch plug against ground.",
+      "question_type": "diagnostic",
+      "id": "51-805_body-equ-q06"
+    },
+    {
+      "question": "What should I do if there's no continuity in the ground to microswitch circuit?",
+      "answer": "Break in ground to microswitch - repair. Also refer to passenger's door/body plug socket 4 (brown) (corrosion/no connection).",
+      "question_type": "troubleshooting",
+      "id": "51-805_body-equ-q07"
+    },
+    {
+      "question": "How do I test if the microswitch switches through ground properly?",
+      "answer": "Test between pin 1 (brown) and pin 2 (yellow/blue). Switch pressed \u03a9 \u2248 0, Switch open \u03a9 \u2248 \u221e.",
+      "question_type": "diagnostic",
+      "id": "51-805_body-equ-q08"
+    },
+    {
+      "question": "What should I do if the microswitch doesn't switch through ground between pins 1 and 2?",
+      "answer": "Replace microswitch.",
+      "question_type": "troubleshooting",
+      "id": "51-805_body-equ-q09"
+    },
+    {
+      "question": "What wire colors are mentioned for the drive circuit repair?",
+      "answer": "Break in (blue) or (white) wire to drive - repair.",
+      "question_type": "wiring",
+      "id": "51-805_body-equ-q10"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "bmwtorquespecs-036",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/036.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:19:14.169055",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 594
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the plug for pressure relief valve with M10/M30 thread?",
+      "answer": "40 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-036-q01"
+    },
+    {
+      "question": "What torque should be applied to M20 plugs for the pressure relief valve?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-036-q02"
+    },
+    {
+      "question": "What is the screw size and torque specification for mounting the oil pump to crankcase?",
+      "answer": "M8 screws with 22 Nm torque",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-036-q03"
+    },
+    {
+      "question": "What torque specification is required for the oil pump cover bolts?",
+      "answer": "10 Nm using M6 screws",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-036-q04"
+    },
+    {
+      "question": "What is the torque value for the sprocket to oil pump connection?",
+      "answer": "10 Nm with M6 screws",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-036-q05"
+    },
+    {
+      "question": "What are the two different M10 torque specifications shown in the oil pump section?",
+      "answer": "47 Nm for M10 and 25 Nm for M10x1",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-036-q06"
+    },
+    {
+      "question": "Which section of the manual does this torque specification table cover?",
+      "answer": "11 41 Oil Pump with Strainer and Drive under section 11 - 26 Engine",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-036-q07"
+    },
+    {
+      "question": "Are all the torque specifications in this table given for the same vehicle types?",
+      "answer": "No, the pressure relief valve plug has specific thread types (M10/M30 and M20), while the other components specify 'All' for type",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-036-q10"
+    }
+  ]
+}

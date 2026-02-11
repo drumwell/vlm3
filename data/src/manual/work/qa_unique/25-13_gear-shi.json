@@ -1,0 +1,73 @@
+{
+  "page_id": "25-13_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-13.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:50:52.223759",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 735
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with the bracket during installation?",
+      "answer": "Unscrew the bracket. During installation, lubricate the support with grease and engage the bracket in the retaining tab.",
+      "question_type": "procedural",
+      "id": "25-13_gear-shi-q03"
+    },
+    {
+      "question": "What is the preload distance specification for the center mount?",
+      "answer": "The center mount should be preloaded forward by distance A = 4 to 6 mm (0.157 to 0.236 inches).",
+      "question_type": "factual",
+      "id": "25-13_gear-shi-q04"
+    },
+    {
+      "question": "How do you disconnect the clip on the shaft bolt?",
+      "answer": "The clip is accessible with a screwdriver. Disconnect the clip in the retaining tab by turning and swinging up.",
+      "question_type": "procedural",
+      "id": "25-13_gear-shi-q06"
+    },
+    {
+      "question": "What is done with the Special Tool after finishing installation?",
+      "answer": "Tighten the threaded sleeve with Special Tool 26 1 040 after finishing installation to the specified tightening torque.",
+      "question_type": "procedural",
+      "id": "25-13_gear-shi-q07"
+    },
+    {
+      "question": "What should you do with the wires for backup lights?",
+      "answer": "Take wires for backup lights out of holder.",
+      "question_type": "procedural",
+      "id": "25-13_gear-shi-q08"
+    },
+    {
+      "question": "What transmission support steps are mentioned?",
+      "answer": "Support transmission, unscrew cross member, and lower transmission to front axle carrier.",
+      "question_type": "procedural",
+      "id": "25-13_gear-shi-q09"
+    },
+    {
+      "question": "What final step is mentioned for the shift console?",
+      "answer": "Pull out shaft bolt and take off shift console.",
+      "question_type": "procedural",
+      "id": "25-13_gear-shi-q10"
+    },
+    {
+      "question": "What reference is provided for additional information?",
+      "answer": "The page references 'See Specifications' for additional technical details.",
+      "question_type": "navigation",
+      "id": "25-13_gear-shi-q11"
+    },
+    {
+      "question": "What type of shift console is being serviced in this procedure?",
+      "answer": "This procedure covers replacing the shift lever console for an aluminum shift console.",
+      "question_type": "factual",
+      "id": "25-13_gear-shi-q12"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-018",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/018.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:19:18.540449",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 599
+  },
+  "qa_pairs": [
+    {
+      "question": "How do the torque angles differ between 7AZ and 8AZ engines?",
+      "answer": "7AZ uses 60\u00b0 for both angles, while 8AZ uses 80\u00b0 for both angles",
+      "question_type": "factual",
+      "id": "00-torque-specs-018-q06"
+    },
+    {
+      "question": "What type of screws should be used for repair work on cylinder head bolts?",
+      "answer": "Only use screws with Torx head",
+      "question_type": "procedural",
+      "id": "00-torque-specs-018-q09"
+    }
+  ]
+}

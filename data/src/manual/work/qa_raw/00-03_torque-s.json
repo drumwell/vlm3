@@ -1,0 +1,79 @@
+{
+  "page_id": "00-03_torque-s",
+  "image_path": "raw/00 - Torque Specs/00-03.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:10:40.373697",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 614
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M6 8.8 screw?",
+      "answer": "9.9 Nm",
+      "question_type": "factual",
+      "id": "00-03_torque-s-q01"
+    },
+    {
+      "question": "What torque specification should I use for an M6 10.9 bolt?",
+      "answer": "14.0 Nm",
+      "question_type": "factual",
+      "id": "00-03_torque-s-q02"
+    },
+    {
+      "question": "What is the tightening torque for M6 12.9 fasteners?",
+      "answer": "16.5 Nm",
+      "question_type": "factual",
+      "id": "00-03_torque-s-q03"
+    },
+    {
+      "question": "What torque value is specified for M7 8.8 screws?",
+      "answer": "14.8 Nm",
+      "question_type": "factual",
+      "id": "00-03_torque-s-q04"
+    },
+    {
+      "question": "What is the maximum tightening torque for an M7 10.9 bolt?",
+      "answer": "21.3 Nm",
+      "question_type": "factual",
+      "id": "00-03_torque-s-q05"
+    },
+    {
+      "question": "What torque specification applies to M7 12.9 fasteners?",
+      "answer": "25.5 Nm",
+      "question_type": "factual",
+      "id": "00-03_torque-s-q06"
+    },
+    {
+      "question": "Which M6 grade has the highest torque specification?",
+      "answer": "M6 12.9 with 16.5 Nm",
+      "question_type": "factual",
+      "id": "00-03_torque-s-q07"
+    },
+    {
+      "question": "What BMW standard should be referenced for tightening torque ranges?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-03_torque-s-q08"
+    },
+    {
+      "question": "What is the difference in torque between M7 8.8 and M7 12.9 bolts?",
+      "answer": "10.7 Nm (25.5 Nm - 14.8 Nm)",
+      "question_type": "factual",
+      "id": "00-03_torque-s-q09"
+    },
+    {
+      "question": "Which has a higher torque specification: M6 12.9 or M7 8.8?",
+      "answer": "M6 12.9 has 16.5 Nm compared to M7 8.8 with 14.8 Nm",
+      "question_type": "factual",
+      "id": "00-03_torque-s-q10"
+    }
+  ]
+}

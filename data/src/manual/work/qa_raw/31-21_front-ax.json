@@ -1,0 +1,79 @@
+{
+  "page_id": "31-21_front-ax",
+  "image_path": "raw/31 - Front Axle/31-21.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:06:23.500804",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 600
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of teeth does the front axle final drive use?",
+      "answer": "Gleason hypoid spiral teeth, right-hand spiral direction - code F 86 on ring gear and pinion.",
+      "question_type": "factual",
+      "id": "31-21_front-ax-q01"
+    },
+    {
+      "question": "Where can I find the ratio specification for the front axle final drive?",
+      "answer": "On data plate (oil sump).",
+      "question_type": "factual",
+      "id": "31-21_front-ax-q02"
+    },
+    {
+      "question": "What oil grade should I use for the front axle final drive?",
+      "answer": "See Operating Fluids",
+      "question_type": "factual",
+      "id": "31-21_front-ax-q03"
+    },
+    {
+      "question": "How should I fill the front axle final drive with oil?",
+      "answer": "Pour in oil slowly - recheck oil level approx. 30 seconds after the first overflow.",
+      "question_type": "procedural",
+      "id": "31-21_front-ax-q04"
+    },
+    {
+      "question": "What is the maximum permissible road speed during the first 1,000 km after replacing or repairing the front axle final drive?",
+      "answer": "2/3rds of the top speed.",
+      "question_type": "factual",
+      "id": "31-21_front-ax-q05"
+    },
+    {
+      "question": "How many miles is equivalent to the 1,000 km break-in period?",
+      "answer": "600 miles",
+      "question_type": "factual",
+      "id": "31-21_front-ax-q06"
+    },
+    {
+      "question": "What break-in procedures apply after replacing or repairing the front axle final drive?",
+      "answer": "The breaking-in procedures and oil change intervals for new cars are applicable.",
+      "question_type": "procedural",
+      "id": "31-21_front-ax-q07"
+    },
+    {
+      "question": "What must the driver be reminded of after front axle final drive service?",
+      "answer": "The driver must be reminded with a label or tag.",
+      "question_type": "procedural",
+      "id": "31-21_front-ax-q08"
+    },
+    {
+      "question": "How long should I wait after the first oil overflow before rechecking the oil level?",
+      "answer": "Approx. 30 seconds after the first overflow.",
+      "question_type": "procedural",
+      "id": "31-21_front-ax-q09"
+    },
+    {
+      "question": "What code marking identifies the ring gear and pinion?",
+      "answer": "Code F 86 on ring gear and pinion.",
+      "question_type": "factual",
+      "id": "31-21_front-ax-q10"
+    }
+  ]
+}

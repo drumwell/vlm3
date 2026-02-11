@@ -1,0 +1,85 @@
+{
+  "page_id": "34-32_brakes",
+  "image_path": "raw/34 - Brakes/34-32.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:22:19.226436",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 785
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the procedure numbers for removing and installing the front and rear ABS pulse speed sensors?",
+      "answer": "The front pulse speed sensor procedure is 61 12 510 and the rear pulse speed sensor procedure is 61 12 520.",
+      "question_type": "factual",
+      "id": "34-32_brakes-q01"
+    },
+    {
+      "question": "What should you do first when removing either the front or rear ABS pulse speed sensor?",
+      "answer": "Turn off ignition and unscrew the socket head bolt.",
+      "question_type": "procedural",
+      "id": "34-32_brakes-q02"
+    },
+    {
+      "question": "What lubricant should be used on the pulse sensor and housing during installation?",
+      "answer": "Molykote Longterm 2 should be used to lubricate the pulse sensor and housing prior to installation.",
+      "question_type": "tool",
+      "id": "34-32_brakes-q03"
+    },
+    {
+      "question": "Can the distance between the pulse sensor and pulse wheel be adjusted?",
+      "answer": "No, the distance between pulse sensor and pulse wheel is given by design and cannot be adjusted.",
+      "question_type": "factual",
+      "id": "34-32_brakes-q04"
+    },
+    {
+      "question": "What inspection should be performed on the pulse wheel during installation?",
+      "answer": "It is necessary to visually inspect the pulse wheel for dirt or damage.",
+      "question_type": "inspection",
+      "id": "34-32_brakes-q05"
+    },
+    {
+      "question": "For the rear ABS pulse sensor, what component must be removed first?",
+      "answer": "Remove rear wheel 36 10 300.",
+      "question_type": "procedural",
+      "id": "34-32_brakes-q06"
+    },
+    {
+      "question": "What ABS reference number should be checked when replacing the front pulse sensor?",
+      "answer": "Check ABS - see 34 50 000.",
+      "question_type": "navigation",
+      "id": "34-32_brakes-q07"
+    },
+    {
+      "question": "What important warning is given regarding the rear pulse sensor rubber grommet?",
+      "answer": "Don't damage the rubber grommet.",
+      "question_type": "safety",
+      "id": "34-32_brakes-q08"
+    },
+    {
+      "question": "Can the front ABS pulse wheel be replaced separately?",
+      "answer": "No, the front pulse wheel can only be replaced together with the bearing assembly, and you should see Replacing Wheel Hub - 31 21 180.",
+      "question_type": "factual",
+      "id": "34-32_brakes-q09"
+    },
+    {
+      "question": "What should you do to access the front pulse sensor wiring?",
+      "answer": "Disconnect plug in engine compartment, push wires down, and lift out wires.",
+      "question_type": "procedural",
+      "id": "34-32_brakes-q11"
+    },
+    {
+      "question": "What components need to be removed to access the rear pulse sensor?",
+      "answer": "Remove rear seat cushion 52 20 010, disconnect pulse sensor plug, pull out rubber grommet and wires, then remove pulse sensor.",
+      "question_type": "procedural",
+      "id": "34-32_brakes-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "64-113_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-113.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:55:12.644220",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 859
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure reference number for replacing the cable for fresh air flap?",
+      "answer": "The procedure reference number is 64 11 191.",
+      "question_type": "factual",
+      "id": "64-113_heating--q01"
+    },
+    {
+      "question": "What are the initial steps for replacing the fresh air flap cable?",
+      "answer": "Disconnect battery ground lead, remove and install instrument panel trim on left side 51 45 180, remove and install tray 51 16 200, open glove box, and disconnect pins (1) of both retaining straps.",
+      "question_type": "procedural",
+      "id": "64-113_heating--q02"
+    },
+    {
+      "question": "What does callout number 1 indicate in the upper right image showing cable removal?",
+      "answer": "Callout number 1 indicates the clamp that needs to be pulled out during the cable removal process.",
+      "question_type": "visual",
+      "id": "64-113_heating--q03"
+    },
+    {
+      "question": "How should the control panel be removed after unscrewing the screws?",
+      "answer": "After unscrewing screws, pull out control panel slightly.",
+      "question_type": "procedural",
+      "id": "64-113_heating--q04"
+    },
+    {
+      "question": "What components need to be removed from the control panel?",
+      "answer": "Remove radio opening mask or radio, pull opening covers (1) or switches (2) out of control panel, and pull off plugs (3) on switches (2).",
+      "question_type": "procedural",
+      "id": "64-113_heating--q05"
+    },
+    {
+      "question": "What does callout number 2 represent in the trim panel removal image?",
+      "answer": "Callout number 2 indicates the trim panel that needs to be taken off after unscrewing screw (1).",
+      "question_type": "visual",
+      "id": "64-113_heating--q06"
+    },
+    {
+      "question": "What is the installation requirement for the cable sleeve?",
+      "answer": "Cable sleeve (1) must be flush with stop (2).",
+      "question_type": "factual",
+      "id": "64-113_heating--q07"
+    },
+    {
+      "question": "What are the steps for disconnecting the cable at the lower mechanism?",
+      "answer": "Lift out clamp (1), disconnect cable (2) on lever (3) and remove.",
+      "question_type": "procedural",
+      "id": "64-113_heating--q08"
+    },
+    {
+      "question": "How should the cable be connected during installation at the sliding control?",
+      "answer": "Connect cable (1) in sliding control (2), push sliding control end of air flap against stop, turn sleeve (3) enough until it can be placed in opening, and secure cable with clamp (4).",
+      "question_type": "procedural",
+      "id": "64-113_heating--q09"
+    },
+    {
+      "question": "What does callout number 3 indicate in the final installation image?",
+      "answer": "Callout number 3 indicates the sleeve that needs to be turned enough until it can be placed in the opening during installation.",
+      "question_type": "visual",
+      "id": "64-113_heating--q10"
+    },
+    {
+      "question": "Which reference numbers are associated with removing and installing the instrument panel trim and tray?",
+      "answer": "Reference 51 45 180 for instrument panel trim on left side and reference 51 16 200 for the tray.",
+      "question_type": "factual",
+      "id": "64-113_heating--q11"
+    },
+    {
+      "question": "What is the final step in securing the cable during installation?",
+      "answer": "Secure cable with clamp (4) after connecting the cable in sliding control and positioning the sleeve in the opening.",
+      "question_type": "procedural",
+      "id": "64-113_heating--q12"
+    }
+  ]
+}

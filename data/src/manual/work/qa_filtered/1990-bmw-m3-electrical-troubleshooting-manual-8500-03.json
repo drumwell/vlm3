@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8500-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:16:50.238286",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 748
+  },
+  "qa_pairs": [
+    {
+      "question": "How many pins does the A/C Compressor Control Unit connector have for the 318is?",
+      "answer": "The A/C Compressor Control Unit connector for the 318is has 9 pins arranged in a 3x3 configuration.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-03-q02"
+    },
+    {
+      "question": "What is the wiring face orientation for the Barometric Pressure Sensor?",
+      "answer": "The Barometric Pressure Sensor shows the wiring face view with 3 pins numbered 1, 2, and 3 from left to right.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-03-q03"
+    },
+    {
+      "question": "How many pins does the Central Locking Control Unit have?",
+      "answer": "The Central Locking Control Unit has 14 pins, with pin 1 on the left side and pin 14 on the right side of the connector.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-03-q04"
+    },
+    {
+      "question": "What is the part number for the Blower Speed Control connector?",
+      "answer": "The Blower Speed Control connector is labeled with part number B080014.00.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-03-q05"
+    },
+    {
+      "question": "How many pins does the Blower Resistors connector have?",
+      "answer": "The Blower Resistors connector has 4 pins numbered 1 through 4.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-03-q06"
+    },
+    {
+      "question": "What are the two different Chime Module connectors shown and how do they differ?",
+      "answer": "Two Chime Module connectors are shown: C1 which has 4 pins in a single row, and C2 which has 4 pins with pin 4 separated from pins 1, 2, and 3.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-03-q07"
+    },
+    {
+      "question": "How many pins are in the Cruise Control Unit connector?",
+      "answer": "The Cruise Control Unit connector has 26 pins arranged in two rows, with pins 15-26 in the top row and pins 1-14 in the bottom row.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-03-q09"
+    },
+    {
+      "question": "What is the part number for the Chime Module C2 connector?",
+      "answer": "The Chime Module C2 connector is labeled with part number B040013.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-03-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/9005-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:18:43.097020",
+    "prompt_template": "electrical_manual/specification",
+    "tokens_input": 1909,
+    "tokens_output": 626
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the Coolant Temperature Sensor located?",
+      "answer": "The Coolant Temperature Sensor is located on the lower RH front side of engine, on coolant manifold.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01-q01"
+    },
+    {
+      "question": "What page and figure reference is given for the Cruise Control Unit location?",
+      "answer": "The Cruise Control Unit location reference is page 7000- 9-5.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01-q02"
+    },
+    {
+      "question": "Where can I find the Engine Speed Sensor?",
+      "answer": "The Engine Speed Sensor is located on the lower LH rear of engine, on transmission bell housing.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01-q03"
+    },
+    {
+      "question": "What is the location of the Fuel Injectors?",
+      "answer": "The Fuel Injectors are located at the top of engine, at each intake port.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01-q04"
+    },
+    {
+      "question": "Where is the Ignition Coil positioned in the engine bay?",
+      "answer": "The Ignition Coil is located on the RH front wheel well, forward of shock tower.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01-q05"
+    },
+    {
+      "question": "What page reference is provided for the Evaporator Temperature Sensor location?",
+      "answer": "The Evaporator Temperature Sensor location reference is page 7000- 7-6.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01-q06"
+    },
+    {
+      "question": "Where is the Gas Filler Lock Motor located?",
+      "answer": "The Gas Filler Lock Motor is located on the RH side of trunk, behind RH wheel well.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01-q07"
+    },
+    {
+      "question": "What is the specific location of the Horn Brush/Slip Ring?",
+      "answer": "The Horn Brush/Slip Ring is located in the upper part of steering column.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01-q08"
+    },
+    {
+      "question": "Where can the Idle Speed Actuator be found?",
+      "answer": "The Idle Speed Actuator is located at the top center front of engine.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01-q09"
+    },
+    {
+      "question": "What is the page reference for the Door Lock Motors location information?",
+      "answer": "The Door Lock Motors location reference is page 7000-10-4.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-01-q10"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-11-20",
+  "image_path": "raw/00 - Torque Specs/11-20.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:40:31.775291",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 572
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component requires the higher torque specification - the idler lever screw or the bearing pin screw plug?",
+      "answer": "The idler lever to alternator bracket screw requires higher torque at 90 Nm compared to the bearing pin screw plug at 20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-20-q05"
+    },
+    {
+      "question": "What section of the manual is this torque specification table from?",
+      "answer": "Section 11-20 Engine",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-20-q07"
+    },
+    {
+      "question": "What component system does item 11 28 relate to?",
+      "answer": "V-ribbed belt with tension and deflection element",
+      "question_type": "component",
+      "id": "00-torque-specs-11-20-q08"
+    },
+    {
+      "question": "What instruction is given for the idler lever to alternator bracket screw?",
+      "answer": "Replace screw",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-20-q09"
+    },
+    {
+      "question": "How many different torque specifications are listed for the V-ribbed belt system?",
+      "answer": "Two torque specifications are listed: 90 Nm and 20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-20-q10"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-11-05",
+  "image_path": "raw/00 - Torque Specs/11-05.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:37:33.218436",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 550
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the initial torque specification for M21 cylinder head bolts?",
+      "answer": "50 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-05-q01"
+    },
+    {
+      "question": "How long is the warm-running time required for M21 cylinder head bolts?",
+      "answer": "15 min",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-05-q04"
+    },
+    {
+      "question": "What is the initial torque specification for M30 cylinder head bolts?",
+      "answer": "60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-05-q06"
+    },
+    {
+      "question": "How long is the settling time for M30 cylinder head bolts?",
+      "answer": "20 min",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-05-q07"
+    },
+    {
+      "question": "What is the second torque specification for M30 cylinder head bolts after settling time?",
+      "answer": "80 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-05-q08"
+    },
+    {
+      "question": "How does the warm-running time differ between M21 and M30 cylinder head bolts?",
+      "answer": "M21 requires 15 min while M30 requires 25 min",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-05-q09"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-71-01",
+  "image_path": "raw/00 - Torque Specs/71-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:06:01.938504",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 687
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the difference in torque between the M10 8.8 and M10 10.9 bolts in the trailer hitch assembly?",
+      "answer": "The M10 10.9 bolts require 59 Nm while the M10 8.8 bolts require 42 Nm, a difference of 17 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-71-01-q08"
+    },
+    {
+      "question": "Which component uses the highest torque specification in the trailer hitch assembly?",
+      "answer": "The M40 slotted nut for the take-up pipe to hitch connection at 220 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-71-01-q09"
+    }
+  ]
+}

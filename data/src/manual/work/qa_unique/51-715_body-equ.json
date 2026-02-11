@@ -1,0 +1,79 @@
+{
+  "page_id": "51-715_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-715.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:31:39.403449",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 735
+  },
+  "qa_pairs": [
+    {
+      "question": "What diameter should the holes be drilled when marking centers for trim panel installation?",
+      "answer": "The holes should be drilled 6.5 mm (0.256\") in diameter.",
+      "question_type": "factual",
+      "id": "51-715_body-equ-q01"
+    },
+    {
+      "question": "What procedure should be followed to align and mark the trim panel?",
+      "answer": "Clip in trim panel, align and mark centers of front and rear holes, then take off trim panel.",
+      "question_type": "procedural",
+      "id": "51-715_body-equ-q02"
+    },
+    {
+      "question": "What treatment should be applied to the hole edges after drilling?",
+      "answer": "Deburr and coat edges of holes with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "51-715_body-equ-q03"
+    },
+    {
+      "question": "What should be done after marking the hole centers?",
+      "answer": "Punch mark centers, drill 6.5 mm (0.256\") dia. holes, deburr and coat edges of holes with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "51-715_body-equ-q04"
+    },
+    {
+      "question": "What type of paint is specified for coating the hole edges?",
+      "answer": "Zinc dust paint is specified for coating the hole edges.",
+      "question_type": "factual",
+      "id": "51-715_body-equ-q05"
+    },
+    {
+      "question": "What is the first step in the trim panel installation process?",
+      "answer": "The first step is to clip in the trim panel and align it.",
+      "question_type": "procedural",
+      "id": "51-715_body-equ-q06"
+    },
+    {
+      "question": "What component is shown being worked on in the diagram?",
+      "answer": "The diagram shows a trim panel being installed or aligned on what appears to be a body panel.",
+      "question_type": "visual",
+      "id": "51-715_body-equ-q07"
+    },
+    {
+      "question": "Should the trim panel be removed before drilling the holes?",
+      "answer": "Yes, the trim panel should be taken off before punching mark centers and drilling holes.",
+      "question_type": "procedural",
+      "id": "51-715_body-equ-q09"
+    },
+    {
+      "question": "What size drill bit is needed for this procedure?",
+      "answer": "A 6.5 mm (0.256\") diameter drill bit is needed.",
+      "question_type": "tool",
+      "id": "51-715_body-equ-q10"
+    },
+    {
+      "question": "What must be done to prepare the holes after drilling but before painting?",
+      "answer": "The holes must be deburred before coating the edges with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "51-715_body-equ-q11"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "13-731_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-731.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:47:12.022452",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 915
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW part number for the throttle valve housing shown in the diagram?",
+      "answer": "The throttle valve housing part number is 13 54 055.",
+      "question_type": "factual",
+      "id": "13-731_fuel-sys-q01"
+    },
+    {
+      "question": "How much should the idle stop screw be turned when loosening nut (2)?",
+      "answer": "Turn the idle stop screw (1) about 1/10th of a turn in the direction of the arrow, then tighten nut (2) again.",
+      "question_type": "procedural",
+      "id": "13-731_fuel-sys-q02"
+    },
+    {
+      "question": "What components are indicated by callout numbers 3, 4, and 5 in the throttle valve housing diagram?",
+      "answer": "Number 3 indicates the gasket, number 4 indicates the retainer, and number 5 indicates O-rings.",
+      "question_type": "visual",
+      "id": "13-731_fuel-sys-q03"
+    },
+    {
+      "question": "What is the proper axial clearance specification for the throttle valve?",
+      "answer": "The axial clearance should be 0.2 mm (0.008\") with a feeler gage blade (1) fitting easily on both left and right sides between the throttle valve and housing.",
+      "question_type": "inspection",
+      "id": "13-731_fuel-sys-q04"
+    },
+    {
+      "question": "What special tools are mentioned for the throttle valve adjustment procedure?",
+      "answer": "Dial gage 00 2 510 (with extension 3) and Special Tool 00 2 500 are mentioned for mounting on the throttle valve neck.",
+      "question_type": "tool",
+      "id": "13-731_fuel-sys-q05"
+    },
+    {
+      "question": "What temperature conditions are specified for throttle valve adjustment?",
+      "answer": "Component temperature should be approximately 20\u00b0 C (68\u00b0 F) during adjustment.",
+      "question_type": "factual",
+      "id": "13-731_fuel-sys-q06"
+    },
+    {
+      "question": "How much should the throttle screws be loosened during installation?",
+      "answer": "Screw in throttle screws carefully until they fit tight and then loosen 1 and 1/2 turns again.",
+      "question_type": "procedural",
+      "id": "13-731_fuel-sys-q07"
+    },
+    {
+      "question": "What is the specified adjustment range for the throttle valve lower edge?",
+      "answer": "Adjust the throttle valve lower edge to 0.1 + 0.05 mm (0.004\" + 0.002\") with idle stop screw (1) approximately 1/10th of a turn.",
+      "question_type": "factual",
+      "id": "13-731_fuel-sys-q08"
+    },
+    {
+      "question": "When are throttle valve neck basic adjustments necessary according to the note?",
+      "answer": "Throttle valve neck basic adjustments are only necessary after replacing parts, in case of a loose clamping screw or erroneous adjustment.",
+      "question_type": "safety",
+      "id": "13-731_fuel-sys-q09"
+    },
+    {
+      "question": "What should be done to secure the idle stop screw after adjustment?",
+      "answer": "Lock idle stop screw (1) and secure with paint after adjustment is complete.",
+      "question_type": "procedural",
+      "id": "13-731_fuel-sys-q10"
+    },
+    {
+      "question": "How should the spring be preloaded during installation?",
+      "answer": "Preload spring (8) by about 1/2 turn during installation, and preload spring (5) with about 1/2 a turn.",
+      "question_type": "procedural",
+      "id": "13-731_fuel-sys-q11"
+    },
+    {
+      "question": "What check should be performed to verify proper throttle valve operation?",
+      "answer": "Check whether throttle valve moves easily at operating temperature with closed throttle valve and at room temperature of about 20\u00b0 C (68\u00b0 F).",
+      "question_type": "inspection",
+      "id": "13-731_fuel-sys-q12"
+    }
+  ]
+}

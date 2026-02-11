@@ -1,0 +1,959 @@
+{
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "index_pages": [
+    "51-00-index-a.jpg",
+    "51-00-index-b.jpg",
+    "51-00-index-c.jpg",
+    "51-00-index-d.jpg",
+    "51-00-index-e.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "030",
+      "name": "Entrance cover strip, rear, left or right - remove and install or replace",
+      "pages": [
+        "51-471"
+      ]
+    },
+    {
+      "code": "071",
+      "name": "Rear side window, left or right - remove and install",
+      "pages": [
+        "51 - 360"
+      ]
+    },
+    {
+      "code": "1",
+      "name": "Failure of entire system",
+      "pages": [
+        "51-801",
+        "51-811"
+      ]
+    },
+    {
+      "code": "140",
+      "name": "Trim panel for trunk separating wall - remove and install",
+      "pages": [
+        "51-472"
+      ]
+    },
+    {
+      "code": "150",
+      "name": "Trim panel for door pillar, left or right - remove and install",
+      "pages": [
+        "51-432"
+      ]
+    },
+    {
+      "code": "154",
+      "name": "Front door window, left or right - adjust",
+      "pages": [
+        "51 - 321",
+        "51 - 340",
+        "51 - 370"
+      ]
+    },
+    {
+      "code": "170",
+      "name": "Front door window, left or right - remove and install",
+      "pages": [
+        "51 - 323"
+      ]
+    },
+    {
+      "code": "171",
+      "name": "Rear door window, left or right - adjust",
+      "pages": [
+        "51 - 341"
+      ]
+    },
+    {
+      "code": "180",
+      "name": "Trim panel for dashboard, left - remove",
+      "pages": [
+        "51-456"
+      ]
+    },
+    {
+      "code": "191",
+      "name": "Rear door window, left or right - replace",
+      "pages": [
+        "51 - 342"
+      ]
+    },
+    {
+      "code": "2",
+      "name": "No function when operating driver's door lock (unlocking - locking)",
+      "pages": [
+        "51-803",
+        "51-812"
+      ]
+    },
+    {
+      "code": "200",
+      "name": "Trim panel for dashboard, bottom, center, right - remove",
+      "pages": [
+        "51-456"
+      ]
+    },
+    {
+      "code": "210",
+      "name": "Trim panel for trunk on side wall, left or right - remove and install",
+      "pages": [
+        "51-472"
+      ]
+    },
+    {
+      "code": "220",
+      "name": "Trim panel for trunk on right side panel - remove and install",
+      "pages": [
+        "51-473"
+      ]
+    },
+    {
+      "code": "240",
+      "name": "Trim panel for trunk on tail panel - remove and install",
+      "pages": [
+        "51-473"
+      ]
+    },
+    {
+      "code": "3",
+      "name": "No function when operating push button for power window in left rear door (on center console)",
+      "pages": [
+        "51-813"
+      ]
+    },
+    {
+      "code": "3A",
+      "name": "No function when operating front passenger's door lock - Unlocking not possible",
+      "pages": [
+        "51-804"
+      ]
+    },
+    {
+      "code": "3B",
+      "name": "Locking not possible",
+      "pages": [
+        "51-805"
+      ]
+    },
+    {
+      "code": "4",
+      "name": "No function when operating trunk lid lock (unlocking - locking)",
+      "pages": [
+        "51-806"
+      ]
+    },
+    {
+      "code": "412",
+      "name": "Rear spoiler - install",
+      "pages": [
+        "51-756"
+      ]
+    },
+    {
+      "code": "414",
+      "name": "Rear spoiler - install (M-Technic)",
+      "pages": [
+        "51-757"
+      ]
+    },
+    {
+      "code": "434",
+      "name": "Panel on front side panel - replace",
+      "pages": [
+        "51-711"
+      ]
+    },
+    {
+      "code": "440",
+      "name": "Panel on rear side panel - replace",
+      "pages": [
+        "51-712"
+      ]
+    },
+    {
+      "code": "456",
+      "name": "Stone guard panel, rear - replace",
+      "pages": [
+        "51-715"
+      ]
+    },
+    {
+      "code": "490",
+      "name": "Splash guard, front - remove and install",
+      "pages": [
+        "51-475"
+      ]
+    },
+    {
+      "code": "5",
+      "name": "No function of one or both rear doors (unlocking - locking or double-locking)",
+      "pages": [
+        "51-807"
+      ]
+    },
+    {
+      "code": "51",
+      "name": "Footrest - install (M-Technic)",
+      "pages": [
+        "51-769",
+        "51-800",
+        "51-810"
+      ]
+    },
+    {
+      "code": "51 00",
+      "name": "Instructions for repairing plastic bumpers",
+      "pages": [
+        "51-110",
+        "51-112",
+        "51-113"
+      ]
+    },
+    {
+      "code": "51 11 000",
+      "name": "Front bumper - remove and install",
+      "pages": [
+        "51-114"
+      ]
+    },
+    {
+      "code": "51 11 071",
+      "name": "Front bumper side section, left or right - replace",
+      "pages": [
+        "51-115"
+      ]
+    },
+    {
+      "code": "51 11 163",
+      "name": "Front bumper impact absorbers - replace",
+      "pages": [
+        "51-116"
+      ]
+    },
+    {
+      "code": "51 11 167",
+      "name": "Front bumper rubber guard - replace",
+      "pages": [
+        "51-116"
+      ]
+    },
+    {
+      "code": "51 12 000",
+      "name": "Rear bumper survey (M 3)",
+      "pages": [
+        "51-120",
+        "51-121"
+      ]
+    },
+    {
+      "code": "51 12 170",
+      "name": "Rear bumper impact absorbers - replace",
+      "pages": [
+        "51-122"
+      ]
+    },
+    {
+      "code": "51 12 190",
+      "name": "Rear bumper upper cover plate - remove and install",
+      "pages": [
+        "51-123"
+      ]
+    },
+    {
+      "code": "51 12 201",
+      "name": "Rear bumper side section, left or right - replace",
+      "pages": [
+        "51-124"
+      ]
+    },
+    {
+      "code": "51 12 421",
+      "name": "Rear bumper rubber guard - replace",
+      "pages": [
+        "51-125"
+      ]
+    },
+    {
+      "code": "51 13 000",
+      "name": "Radiator grill center section - remove and install",
+      "pages": [
+        "51-130"
+      ]
+    },
+    {
+      "code": "51 13 040",
+      "name": "Radiator grill side section - remove and install",
+      "pages": [
+        "51-130"
+      ]
+    },
+    {
+      "code": "51 13 076",
+      "name": "Air inlet grill for heater - remove",
+      "pages": [
+        "51-130"
+      ]
+    },
+    {
+      "code": "51 13 311",
+      "name": "Rain molding strip, left or right - replace",
+      "pages": [
+        "51-131"
+      ]
+    },
+    {
+      "code": "51 14 000",
+      "name": "BMW emblem, front - remove and install",
+      "pages": [
+        "51-140"
+      ]
+    },
+    {
+      "code": "51 14 010",
+      "name": "BMW emblem, rear - remove and install",
+      "pages": [
+        "51-140"
+      ]
+    },
+    {
+      "code": "51 14 110",
+      "name": "Rear model sign - replace",
+      "pages": [
+        "51-141"
+      ]
+    },
+    {
+      "code": "51 15 300",
+      "name": "Rubbing strip on left or right front side panel - remove and install or replace",
+      "pages": [
+        "51-150"
+      ]
+    },
+    {
+      "code": "51 15 330",
+      "name": "Rubbing strip on left or right front door - remove and install or replace",
+      "pages": [
+        "51-150"
+      ]
+    },
+    {
+      "code": "51 15 360",
+      "name": "Rubbing strip on left or right rear door - remove and install or replace",
+      "pages": [
+        "51-150"
+      ]
+    },
+    {
+      "code": "51 15 390",
+      "name": "Rubbing strip on left or right rear side panel - remove and install or replace",
+      "pages": [
+        "51-150"
+      ]
+    },
+    {
+      "code": "51 16 000",
+      "name": "Mirror on left or right front door - remove and install",
+      "pages": [
+        "51-160"
+      ]
+    },
+    {
+      "code": "51 16 025",
+      "name": "Mirror glass - replace",
+      "pages": [
+        "51-160"
+      ]
+    },
+    {
+      "code": "51 16 060",
+      "name": "Mirror on inside of car - remove and install",
+      "pages": [
+        "51-161"
+      ]
+    },
+    {
+      "code": "51 16 200",
+      "name": "Center console - remove and install",
+      "pages": [
+        "51-162"
+      ]
+    },
+    {
+      "code": "51 16 350",
+      "name": "Glove box, right - remove and install",
+      "pages": [
+        "51-164"
+      ]
+    },
+    {
+      "code": "51 16 450/480",
+      "name": "Grab handle - remove and install",
+      "pages": [
+        "51-164"
+      ]
+    },
+    {
+      "code": "51 21 003",
+      "name": "Front door striker, left or right - replace",
+      "pages": [
+        "51-210"
+      ]
+    },
+    {
+      "code": "51 21 090",
+      "name": "Front door lock, left or right - remove and install or replace",
+      "pages": [
+        "51-211"
+      ]
+    },
+    {
+      "code": "51 21 140",
+      "name": "Front door lock cylinder, left or right - remove and install or replace",
+      "pages": [
+        "51-213"
+      ]
+    },
+    {
+      "code": "51 21 200",
+      "name": "Outside handles and lock mechanisms of both front doors - remove and install/replace",
+      "pages": [
+        "51-215"
+      ]
+    },
+    {
+      "code": "51 21 300",
+      "name": "Window recess cover strip, outside - remove and install",
+      "pages": [
+        "51-216"
+      ]
+    },
+    {
+      "code": "51 21 330",
+      "name": "Window recess cover strip, inside - remove and install",
+      "pages": [
+        "51-216"
+      ]
+    },
+    {
+      "code": "51 22 001",
+      "name": "Rear door striker, left or right - replace",
+      "pages": [
+        "51-220"
+      ]
+    },
+    {
+      "code": "51 22 090",
+      "name": "Rear door lock, left or right - remove and install",
+      "pages": [
+        "51-221"
+      ]
+    },
+    {
+      "code": "51 23 110",
+      "name": "Engine hood lock - remove and install",
+      "pages": [
+        "51-230"
+      ]
+    },
+    {
+      "code": "51 24 100",
+      "name": "Trunk lid lock - remove and install",
+      "pages": [
+        "51-240"
+      ]
+    },
+    {
+      "code": "51 24 130",
+      "name": "Trunk lid lock base - remove and install",
+      "pages": [
+        "51-240"
+      ]
+    },
+    {
+      "code": "51 24 341",
+      "name": "Trunk lid torsion bars - replace",
+      "pages": [
+        "51-241"
+      ]
+    },
+    {
+      "code": "51 25",
+      "name": "Gas pressure props - remove and install",
+      "pages": [
+        "51-241",
+        "51-250",
+        "51-251",
+        "51-252"
+      ]
+    },
+    {
+      "code": "51 26 000",
+      "name": "Switch for front door lock (drive), left or right - replace",
+      "pages": [
+        "51-260"
+      ]
+    },
+    {
+      "code": "51 26 010",
+      "name": "Switch for rear door lock (drive), left or right - replace",
+      "pages": [
+        "51-261"
+      ]
+    },
+    {
+      "code": "51 26 020",
+      "name": "Switch for trunk lid lock (drive) - replace",
+      "pages": [
+        "51-262"
+      ]
+    },
+    {
+      "code": "51 26 025",
+      "name": "Switch for tank flap lock (drive) - replace",
+      "pages": [
+        "51-263"
+      ]
+    },
+    {
+      "code": "51 31",
+      "name": "Instructions for window installation (M 3)",
+      "pages": [
+        "51 - 316",
+        "51-312",
+        "51-313"
+      ]
+    },
+    {
+      "code": "51 31 011",
+      "name": "Windshield - replace",
+      "pages": [
+        "51-310"
+      ]
+    },
+    {
+      "code": "51 31 221",
+      "name": "Rear window - replace",
+      "pages": [
+        "51-311"
+      ]
+    },
+    {
+      "code": "51 32 020",
+      "name": "Repairing stone damage on laminated safety glass windshields (clear and tinted)",
+      "pages": [
+        "51 - 319/A",
+        "51 - 320"
+      ]
+    },
+    {
+      "code": "51 33 000",
+      "name": "Front door window (fixed) - remove and install or replace",
+      "pages": [
+        "51 - 325"
+      ]
+    },
+    {
+      "code": "51 34 020",
+      "name": "Power window regulator in front door, left or right - remove and install",
+      "pages": [
+        "51 - 330"
+      ]
+    },
+    {
+      "code": "51 36 050",
+      "name": "Rear door window (fixed in frame), left or right - replace",
+      "pages": [
+        "51 - 344"
+      ]
+    },
+    {
+      "code": "51 37 000",
+      "name": "Ornamental strips on rear side window - replace (side window removed)",
+      "pages": [
+        "51 - 361"
+      ]
+    },
+    {
+      "code": "51 41 001",
+      "name": "Door trim panel, front, left or right - replace",
+      "pages": [
+        "51-410"
+      ]
+    },
+    {
+      "code": "51 42 001",
+      "name": "Door trim panel, rear, left or right - replace",
+      "pages": [
+        "51-420"
+      ]
+    },
+    {
+      "code": "51 43 000",
+      "name": "Side trim panel, rear, left or right - remove and install or replace",
+      "pages": [
+        "51-430"
+      ]
+    },
+    {
+      "code": "51 44 150",
+      "name": "Roof liner plate, front - remove and install",
+      "pages": [
+        "51-440"
+      ]
+    },
+    {
+      "code": "51 45 030",
+      "name": "Trim panel for dashboard - remove and install",
+      "pages": [
+        "51-450"
+      ]
+    },
+    {
+      "code": "51 46 000",
+      "name": "Trim panel for hatrack - remove",
+      "pages": [
+        "51-460"
+      ]
+    },
+    {
+      "code": "51 47 000",
+      "name": "Entrance cover strip, front, left or right - remove and install or replace",
+      "pages": [
+        "51-470"
+      ]
+    },
+    {
+      "code": "51 71 404",
+      "name": "Front spoiler - remove and install",
+      "pages": [
+        "51-710"
+      ]
+    },
+    {
+      "code": "51 71 446",
+      "name": "Trim panel for cover on side member - replace",
+      "pages": [
+        "51-714"
+      ]
+    },
+    {
+      "code": "545",
+      "name": "Rear side window, left or right - replace",
+      "pages": [
+        "51 - 360"
+      ]
+    },
+    {
+      "code": "6",
+      "name": "No function when operating double-lock",
+      "pages": [
+        "51-808"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "51-471": [
+      "030"
+    ],
+    "51 - 360": [
+      "071",
+      "545"
+    ],
+    "51-801": [
+      "1"
+    ],
+    "51-811": [
+      "1"
+    ],
+    "51-472": [
+      "140",
+      "210"
+    ],
+    "51-432": [
+      "150"
+    ],
+    "51 - 321": [
+      "154"
+    ],
+    "51 - 340": [
+      "154"
+    ],
+    "51 - 370": [
+      "154"
+    ],
+    "51 - 323": [
+      "170"
+    ],
+    "51 - 341": [
+      "171"
+    ],
+    "51-456": [
+      "180",
+      "200"
+    ],
+    "51 - 342": [
+      "191"
+    ],
+    "51-803": [
+      "2"
+    ],
+    "51-812": [
+      "2"
+    ],
+    "51-473": [
+      "220",
+      "240"
+    ],
+    "51-813": [
+      "3"
+    ],
+    "51-804": [
+      "3A"
+    ],
+    "51-805": [
+      "3B"
+    ],
+    "51-806": [
+      "4"
+    ],
+    "51-756": [
+      "412"
+    ],
+    "51-757": [
+      "414"
+    ],
+    "51-711": [
+      "434"
+    ],
+    "51-712": [
+      "440"
+    ],
+    "51-715": [
+      "456"
+    ],
+    "51-475": [
+      "490"
+    ],
+    "51-807": [
+      "5"
+    ],
+    "51-769": [
+      "51"
+    ],
+    "51-800": [
+      "51"
+    ],
+    "51-810": [
+      "51"
+    ],
+    "51-110": [
+      "51 00"
+    ],
+    "51-112": [
+      "51 00"
+    ],
+    "51-113": [
+      "51 00"
+    ],
+    "51-114": [
+      "51 11 000"
+    ],
+    "51-115": [
+      "51 11 071"
+    ],
+    "51-116": [
+      "51 11 163",
+      "51 11 167"
+    ],
+    "51-120": [
+      "51 12 000"
+    ],
+    "51-121": [
+      "51 12 000"
+    ],
+    "51-122": [
+      "51 12 170"
+    ],
+    "51-123": [
+      "51 12 190"
+    ],
+    "51-124": [
+      "51 12 201"
+    ],
+    "51-125": [
+      "51 12 421"
+    ],
+    "51-130": [
+      "51 13 000",
+      "51 13 040",
+      "51 13 076"
+    ],
+    "51-131": [
+      "51 13 311"
+    ],
+    "51-140": [
+      "51 14 000",
+      "51 14 010"
+    ],
+    "51-141": [
+      "51 14 110"
+    ],
+    "51-150": [
+      "51 15 300",
+      "51 15 330",
+      "51 15 360",
+      "51 15 390"
+    ],
+    "51-160": [
+      "51 16 000",
+      "51 16 025"
+    ],
+    "51-161": [
+      "51 16 060"
+    ],
+    "51-162": [
+      "51 16 200"
+    ],
+    "51-164": [
+      "51 16 350",
+      "51 16 450/480"
+    ],
+    "51-210": [
+      "51 21 003"
+    ],
+    "51-211": [
+      "51 21 090"
+    ],
+    "51-213": [
+      "51 21 140"
+    ],
+    "51-215": [
+      "51 21 200"
+    ],
+    "51-216": [
+      "51 21 300",
+      "51 21 330"
+    ],
+    "51-220": [
+      "51 22 001"
+    ],
+    "51-221": [
+      "51 22 090"
+    ],
+    "51-230": [
+      "51 23 110"
+    ],
+    "51-240": [
+      "51 24 100",
+      "51 24 130"
+    ],
+    "51-241": [
+      "51 24 341",
+      "51 25"
+    ],
+    "51-250": [
+      "51 25"
+    ],
+    "51-251": [
+      "51 25"
+    ],
+    "51-252": [
+      "51 25"
+    ],
+    "51-260": [
+      "51 26 000"
+    ],
+    "51-261": [
+      "51 26 010"
+    ],
+    "51-262": [
+      "51 26 020"
+    ],
+    "51-263": [
+      "51 26 025"
+    ],
+    "51 - 316": [
+      "51 31"
+    ],
+    "51-312": [
+      "51 31"
+    ],
+    "51-313": [
+      "51 31"
+    ],
+    "51-310": [
+      "51 31 011"
+    ],
+    "51-311": [
+      "51 31 221"
+    ],
+    "51 - 319/A": [
+      "51 32 020"
+    ],
+    "51 - 320": [
+      "51 32 020"
+    ],
+    "51 - 325": [
+      "51 33 000"
+    ],
+    "51 - 330": [
+      "51 34 020"
+    ],
+    "51 - 344": [
+      "51 36 050"
+    ],
+    "51 - 361": [
+      "51 37 000"
+    ],
+    "51-410": [
+      "51 41 001"
+    ],
+    "51-420": [
+      "51 42 001"
+    ],
+    "51-430": [
+      "51 43 000"
+    ],
+    "51-440": [
+      "51 44 150"
+    ],
+    "51-450": [
+      "51 45 030"
+    ],
+    "51-460": [
+      "51 46 000"
+    ],
+    "51-470": [
+      "51 47 000"
+    ],
+    "51-710": [
+      "51 71 404"
+    ],
+    "51-714": [
+      "51 71 446"
+    ],
+    "51-808": [
+      "6"
+    ]
+  },
+  "merge_warnings": [
+    "Code 51 00: name mismatch 'Instructions for repairing plastic bumpers' vs 'Front bumper survey - solid plastic version'",
+    "Code 51 00: name mismatch 'Instructions for repairing plastic bumpers' vs 'Front bumper survey - solid plastic version (M 3)'",
+    "Code 51 12 000: name mismatch 'Rear bumper survey (M 3)' vs 'Rear bumper - remove and install'",
+    "Code 51 25: name mismatch 'Gas pressure props - remove and install' vs 'Locking element - remove and install or replace'",
+    "Code 51 25: name mismatch 'Gas pressure props - remove and install' vs 'Cables for top storage box lid locks - remove and install or replace'",
+    "Code 51 25: name mismatch 'Gas pressure props - remove and install' vs 'Top storage box lid lock - remove and install or replace'",
+    "Code 51 31: name mismatch 'Instructions for window installation (M 3)' vs 'Windshield installation (M 3)'",
+    "Code 51 31: name mismatch 'Instructions for window installation (M 3)' vs 'Rear window installation (M 3)'",
+    "Code 51 32 020: name mismatch 'Repairing stone damage on laminated safety glass windshields (clear and tinted)' vs 'Window regulator in front door, left or right - remove and install or replace'",
+    "Code 154: name mismatch 'Front door window, left or right - adjust' vs 'Window regulator in rear door, left or right - remove and install or replace'",
+    "Code 154: name mismatch 'Front door window, left or right - adjust' vs 'Power window, rear, left or right - remove and install'",
+    "Code 51: name mismatch 'Footrest - install (M-Technic)' vs 'Central locks with double-lock - description / troubleshoot'",
+    "Code 51: name mismatch 'Footrest - install (M-Technic)' vs 'Power windows - description / troubleshoot'",
+    "Code 2: name mismatch 'No function when operating driver's door lock (unlocking - locking)' vs 'No function when operating push button for power window in driver's door'"
+  ]
+}

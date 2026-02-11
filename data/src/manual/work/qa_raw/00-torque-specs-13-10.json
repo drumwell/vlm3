@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-13-10",
+  "image_path": "raw/00 - Torque Specs/13-10.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:53:31.789769",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 517
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of screw is specified for the low-pressure regulator screw plug?",
+      "answer": "316g/518g",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-10-q02"
+    },
+    {
+      "question": "Which section of the manual covers fuel system specifications?",
+      "answer": "Section 13-10 Fuel System",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-10-q03"
+    },
+    {
+      "question": "What subsection covers the gas-powered units specifications?",
+      "answer": "13 80 Gas-powered units",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-10-q04"
+    },
+    {
+      "question": "What unit of measurement is used for the torque specification on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-10-q06",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "How many different torque specifications are listed on this page?",
+      "answer": "One torque specification is listed on this page",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-10-q07",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What component requires a 3 Nm torque specification?",
+      "answer": "The screw plug on the low-pressure regulator",
+      "question_type": "component",
+      "id": "00-torque-specs-13-10-q08"
+    },
+    {
+      "question": "What is the document reference number shown at the top of the page?",
+      "answer": "AZD13-10.frb",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-10-q09"
+    },
+    {
+      "question": "What date is shown on this manual page?",
+      "answer": "20/10/97",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-10-q10"
+    }
+  ]
+}

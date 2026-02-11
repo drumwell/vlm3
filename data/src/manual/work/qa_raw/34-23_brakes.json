@@ -1,0 +1,79 @@
+{
+  "page_id": "34-23_brakes",
+  "image_path": "raw/34 - Brakes/34-23.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:18:57.075879",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 692
+  },
+  "qa_pairs": [
+    {
+      "question": "What could cause brake pads to seize and not move off the brake disc?",
+      "answer": "Dirty caliper recesses, damaged protective caps, corrosion in calipers, or compensation bore in master cylinder clogged.",
+      "question_type": "diagnostic",
+      "id": "34-23_brakes-q01"
+    },
+    {
+      "question": "How do you correct seized brake pads that won't move off the brake disc?",
+      "answer": "Remove and install, repair or replace calipers, or overhaul or replace master cylinder.",
+      "question_type": "procedural",
+      "id": "34-23_brakes-q02"
+    },
+    {
+      "question": "What are the possible causes of brakes that squeal or rattle?",
+      "answer": "Wrong type of pads, dirty caliper recesses, spring force insufficient, brake disc not aligned with caliper, brake disc runout, excessive thickness difference within braking surface, brake drums out-of-true, knocking brake drums, dirt and dust in brake drums, liner wear excessive or one-sided, rust edges on brake discs, pad loose, or wheel bearing play excessive.",
+      "question_type": "diagnostic",
+      "id": "34-23_brakes-q03"
+    },
+    {
+      "question": "If I have excessive brake pedal travel, what should I check for?",
+      "answer": "Check for wheel bearing play excessive, brake disc not aligned with caliper, brake disc runout, excessive thickness difference within braking surface, brake system leaks, air in brake system, pads/liners not specified type, or automatic brake shoe slack control malfunctions.",
+      "question_type": "diagnostic",
+      "id": "34-23_brakes-q04"
+    },
+    {
+      "question": "How do you fix brake squeal caused by wrong type of brake pads?",
+      "answer": "Replace brake pads.",
+      "question_type": "procedural",
+      "id": "34-23_brakes-q05"
+    },
+    {
+      "question": "What correction is needed for excessive brake disc thickness variation?",
+      "answer": "Measure brake disc thickness; grind or replace discs.",
+      "question_type": "procedural",
+      "id": "34-23_brakes-q06"
+    },
+    {
+      "question": "If brake drums are out-of-true, what's the correction?",
+      "answer": "Grind or replace brake drums.",
+      "question_type": "procedural",
+      "id": "34-23_brakes-q07"
+    },
+    {
+      "question": "What should you do if there's air in the brake system causing dead pedal travel?",
+      "answer": "Bleed brake system.",
+      "question_type": "procedural",
+      "id": "34-23_brakes-q08"
+    },
+    {
+      "question": "How do you address brake system leaks that cause excessive pedal travel?",
+      "answer": "Check brake system for leaks.",
+      "question_type": "procedural",
+      "id": "34-23_brakes-q09"
+    },
+    {
+      "question": "What's the fix for automatic brake shoe slack control malfunctions?",
+      "answer": "Remove and install brake shoes; repair slack control.",
+      "question_type": "procedural",
+      "id": "34-23_brakes-q10"
+    }
+  ]
+}

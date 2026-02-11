@@ -1,0 +1,91 @@
+{
+  "page_id": "41-127_body",
+  "image_path": "raw/41 - Body/41-127.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:48:54.718553",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 797
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure reference number for replacing the right rear wheel house outside section and side panel?",
+      "answer": "The procedure reference number is 41 14 132.",
+      "question_type": "factual",
+      "id": "41-127_body-q01"
+    },
+    {
+      "question": "What page should you refer to for information on replacing the right rear side panel?",
+      "answer": "Refer to information on page 41-001, and replace right rear side panel (partial replacement up to window line) 41 35 291.",
+      "question_type": "navigation",
+      "id": "41-127_body-q02"
+    },
+    {
+      "question": "What is the first step when removing the wheel house outside section?",
+      "answer": "Drill off welded spots, then lift off wheel house outside section.",
+      "question_type": "procedural",
+      "id": "41-127_body-q03"
+    },
+    {
+      "question": "What surface preparation is required before spot welding?",
+      "answer": "Straighten and grind mating surfaces, then coat surfaces provided for spot welding with a zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-127_body-q04"
+    },
+    {
+      "question": "How should the new wheel house outside section be prepared before installation?",
+      "answer": "Grind and coat mating surfaces on new wheel house outside section with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-127_body-q05"
+    },
+    {
+      "question": "What method is used to attach the wheel house outside section?",
+      "answer": "Clamp on wheel house outside section and align with dowel pin bores.",
+      "question_type": "procedural",
+      "id": "41-127_body-q06"
+    },
+    {
+      "question": "Where should spot welding be performed on the wheel house outside section?",
+      "answer": "Spot weld inside of wheel house outside section.",
+      "question_type": "procedural",
+      "id": "41-127_body-q07"
+    },
+    {
+      "question": "What additional step may be necessary when installing the wheel house outside section?",
+      "answer": "If necessary, tack weld wheel house outside section and install side panel for checking.",
+      "question_type": "procedural",
+      "id": "41-127_body-q08"
+    },
+    {
+      "question": "What callout number 30 41 278 shows in the diagram?",
+      "answer": "Callout 30 41 278 shows the wheel house outside section being lifted off after drilling the welded spots.",
+      "question_type": "visual",
+      "id": "41-127_body-q09"
+    },
+    {
+      "question": "What does callout number 30 41 280 indicate?",
+      "answer": "Callout 30 41 280 shows the new wheel house outside section with ground and coated mating surfaces ready for installation.",
+      "question_type": "visual",
+      "id": "41-127_body-q10"
+    },
+    {
+      "question": "What alignment method is shown in callouts 30 41 281 and 30 41 282?",
+      "answer": "The callouts show clamping the wheel house outside section and aligning with dowel pin bores for proper positioning.",
+      "question_type": "visual",
+      "id": "41-127_body-q11"
+    },
+    {
+      "question": "What welding process is illustrated in callouts 30 41 283 and 30 41 284?",
+      "answer": "The callouts show spot welding inside of the wheel house outside section to secure it in place.",
+      "question_type": "visual",
+      "id": "41-127_body-q12"
+    }
+  ]
+}

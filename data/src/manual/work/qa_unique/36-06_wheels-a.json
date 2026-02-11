@@ -1,0 +1,91 @@
+{
+  "page_id": "36-06_wheels-a",
+  "image_path": "raw/36 - Wheels and Tires/36-06.jpg",
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:31:20.651989",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 784
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing a wheel from the BMW E30?",
+      "answer": "Loosen wheel bolts.",
+      "question_type": "procedural",
+      "id": "36-06_wheels-a-q01"
+    },
+    {
+      "question": "Why should you mark the wheel position before removing it?",
+      "answer": "To avoid clamping errors when reinstalling. The wheel should be mounted in the same position with valve facing down.",
+      "question_type": "procedural",
+      "id": "36-06_wheels-a-q02"
+    },
+    {
+      "question": "What should you check on wheel bolt threads during installation?",
+      "answer": "Check wheel bolt threads and tapers for wear, replacing wheel bolts if necessary.",
+      "question_type": "inspection",
+      "id": "36-06_wheels-a-q03"
+    },
+    {
+      "question": "What cleaning product is recommended for the wheel hub centering collar?",
+      "answer": "Plastilube is recommended for cleaning the wheel hub centering collar and bearing surface of a disc wheel.",
+      "question_type": "tool",
+      "id": "36-06_wheels-a-q04"
+    },
+    {
+      "question": "How should wheel bolt threads be prepared during installation?",
+      "answer": "Give wheel bolt threads a light coat of grease, but the taper must remain free of grease.",
+      "question_type": "procedural",
+      "id": "36-06_wheels-a-q05"
+    },
+    {
+      "question": "What should you check regarding brake clearance when mounting an M3 car wheel?",
+      "answer": "Check clearance on the brake caliper, as the pad spring holder in the brake caliper could be damaged or displaced.",
+      "question_type": "inspection",
+      "id": "36-06_wheels-a-q06"
+    },
+    {
+      "question": "What is the proper tightening sequence for wheel bolts?",
+      "answer": "Tighten bolts of wheel rims crosswise.",
+      "question_type": "procedural",
+      "id": "36-06_wheels-a-q07"
+    },
+    {
+      "question": "When should you recheck the wheel bolt tightening torque?",
+      "answer": "If new wheel rims are mounted for the first time, recheck the tightening torque after 1,000 km (600 miles).",
+      "question_type": "procedural",
+      "id": "36-06_wheels-a-q08"
+    },
+    {
+      "question": "What three types of wheel bolts are shown in the diagram?",
+      "answer": "a) Wheel bolt - galvanized, b) Wheel bolt - black chrome plated, c) Wheel bolt - black chrome plated and lockable (optional extra).",
+      "question_type": "visual",
+      "id": "36-06_wheels-a-q09"
+    },
+    {
+      "question": "Can wheel bolts be used interchangeably between steel and aluminum wheels?",
+      "answer": "Yes, wheel bolts can be used for either steel or aluminum wheel rims since 9.82.",
+      "question_type": "factual",
+      "id": "36-06_wheels-a-q10"
+    },
+    {
+      "question": "Where should pertinent wheel information be provided to the driver?",
+      "answer": "Provide pertinent information on a label or tag in view of the driver.",
+      "question_type": "procedural",
+      "id": "36-06_wheels-a-q11"
+    },
+    {
+      "question": "What is the source of supply reference mentioned at the bottom of the page?",
+      "answer": "HWB (Hella-Werk Behr) is listed as the source of supply.",
+      "question_type": "factual",
+      "id": "36-06_wheels-a-q12"
+    }
+  ]
+}

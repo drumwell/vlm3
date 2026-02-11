@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:12:39.740289",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 616
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the brake fluid level switch located in the engine compartment?",
+      "answer": "The brake fluid level switch is located in the LH rear corner of the engine compartment, as shown in Figure 1.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-00-q01"
+    },
+    {
+      "question": "What components are labeled C152, C101, C154, and C153 in Figure 3?",
+      "answer": "These are connector designations shown in Figure 3 - LH Rear of Engine Compartment, but the specific component names for these connectors are not identified in this view.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-00-q02"
+    },
+    {
+      "question": "Where can I find the TDC sensor in the engine compartment?",
+      "answer": "The TDC sensor location is shown in Figure 5 - Lower LH Rear of Engine, indicated with an arrow and label.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-00-q03"
+    },
+    {
+      "question": "What is the connector designation shown in Figure 2 inside the power distribution box?",
+      "answer": "The connector designations shown in Figure 2 are C114 and C115, located inside the power distribution box in the LH rear corner of the engine compartment.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-00-q04"
+    },
+    {
+      "question": "Where are the blower motor and wiper motor located according to the component location views?",
+      "answer": "Both the blower motor and wiper motor are located in the LH rear of the engine compartment, as shown in Figure 4.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-00-q05"
+    },
+    {
+      "question": "What components are visible in Figure 6 on the LH side of the engine compartment?",
+      "answer": "Figure 6 shows the air flow meter, evaporative purge valve, barometric pressure sensor, and connector C150 on the LH side of the engine compartment.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-00-q06"
+    },
+    {
+      "question": "What is component 6980 shown in Figure 3?",
+      "answer": "Component 6980 is shown with an arrow in Figure 3 but is labeled as 'DIAGNOSTIC CONNECTOR' in the image.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-00-q07"
+    },
+    {
+      "question": "What section number and title does this page belong to?",
+      "answer": "This page belongs to section 7000-0 titled 'COMPONENT LOCATION VIEWS'.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-00-q08"
+    }
+  ]
+}

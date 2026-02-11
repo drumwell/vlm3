@@ -1,0 +1,73 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6100-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:02:05.547483",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 681
+  },
+  "qa_pairs": [
+    {
+      "question": "What section and page is this wiring diagram from?",
+      "answer": "This is from section 6100-2 Body Electrical, specifically the Rear Defogger circuit.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-02-q01"
+    },
+    {
+      "question": "Which two fuses protect the rear defogger circuit?",
+      "answer": "Fuse 6 (30 AMP) for hot in run and Fuse 23 (75 AMP) for hot at all times.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-02-q02"
+    },
+    {
+      "question": "What resistance value is shown for the rear defogger element when it's on?",
+      "answer": "15 OHMS resistance is shown for the rear defogger light circuit.",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-02-q04"
+    },
+    {
+      "question": "What color wire connects from the rear defogger element to ground?",
+      "answer": "5 BR/WT (brown/white) wire connects from the rear defogger to ground distribution.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-02-q05"
+    },
+    {
+      "question": "What connector designation is shown at the bottom of the diagram?",
+      "answer": "Connectors C103, S306, and G200 are shown at the bottom of the diagram.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-02-q06"
+    },
+    {
+      "question": "What wire gauge is used for the main power feed to the rear defogger?",
+      "answer": "2.5 GN/BU (green/blue) wire feeds power to the rear defogger circuit.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-02-q07"
+    },
+    {
+      "question": "What does the rear defogger light indicator show when the system is operating?",
+      "answer": "The rear defogger light shows YELLOW when the system is on, with positions marked for ON and OFF.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-02-q08"
+    },
+    {
+      "question": "What ground points are referenced in this circuit?",
+      "answer": "Ground points G300 and G200 are shown, with G200 marked with a star indicating some vehicles may contain an additional splice.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-02-q09"
+    },
+    {
+      "question": "What switch positions are shown for the rear defogger switch?",
+      "answer": "The rear defogger switch shows ON and OFF positions, with the switch controlling both the defogger element and indicator light.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-02-q10"
+    }
+  ]
+}

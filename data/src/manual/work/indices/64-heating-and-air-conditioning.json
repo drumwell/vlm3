@@ -1,0 +1,189 @@
+{
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "index_pages": [
+    "64-00-index-a.jpg",
+    "64-00-index-b.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "081",
+      "name": "Cable for window ventilation \u2014 remove and install",
+      "pages": [
+        "64-111"
+      ]
+    },
+    {
+      "code": "161",
+      "name": "Cable for temperature mixing flap \u2014 replace",
+      "pages": [
+        "64-112"
+      ]
+    },
+    {
+      "code": "191",
+      "name": "Cable for fresh air flap \u2014 remove and install",
+      "pages": [
+        "64-113"
+      ]
+    },
+    {
+      "code": "205",
+      "name": "Heater housing \u2014 remove and install",
+      "pages": [
+        "64-116"
+      ]
+    },
+    {
+      "code": "210",
+      "name": "Heater blower \u2014 remove and install",
+      "pages": [
+        "64-118"
+      ]
+    },
+    {
+      "code": "211",
+      "name": "Blower switch \u2014 remove and install",
+      "pages": [
+        "64-119"
+      ]
+    },
+    {
+      "code": "220",
+      "name": "Resistor plate for blower motor \u2014 remove and install",
+      "pages": [
+        "64-120"
+      ]
+    },
+    {
+      "code": "271",
+      "name": "Water valve for heater housing \u2014 remove and install",
+      "pages": [
+        "64-121"
+      ]
+    },
+    {
+      "code": "531",
+      "name": "Heater core \u2014 remove and install",
+      "pages": [
+        "64-123"
+      ]
+    },
+    {
+      "code": "64 11 071",
+      "name": "Cable for footwell ventilation \u2014 remove and install",
+      "pages": [
+        "64-110"
+      ]
+    },
+    {
+      "code": "64 23 000",
+      "name": "Rear window fan \u2014 remove and install",
+      "pages": [
+        "64-124"
+      ]
+    },
+    {
+      "code": "64 51 050",
+      "name": "Expansion valve - remove and install",
+      "pages": [
+        "64-500"
+      ]
+    },
+    {
+      "code": "64 51 150",
+      "name": "Freezing prevention switch - remove and install",
+      "pages": [
+        "64-502"
+      ]
+    },
+    {
+      "code": "64 51 590",
+      "name": "Evaporator - remove and install",
+      "pages": [
+        "64-503"
+      ]
+    },
+    {
+      "code": "64 52 020",
+      "name": "Compressor - remove and install (318 i)",
+      "pages": [
+        "64-505",
+        "64-505a"
+      ]
+    },
+    {
+      "code": "64 53 010",
+      "name": "Drier - remove and install",
+      "pages": [
+        "64-506"
+      ]
+    },
+    {
+      "code": "64 53 050",
+      "name": "Condenser - remove and install",
+      "pages": [
+        "64-507"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "64-111": [
+      "081"
+    ],
+    "64-112": [
+      "161"
+    ],
+    "64-113": [
+      "191"
+    ],
+    "64-116": [
+      "205"
+    ],
+    "64-118": [
+      "210"
+    ],
+    "64-119": [
+      "211"
+    ],
+    "64-120": [
+      "220"
+    ],
+    "64-121": [
+      "271"
+    ],
+    "64-123": [
+      "531"
+    ],
+    "64-110": [
+      "64 11 071"
+    ],
+    "64-124": [
+      "64 23 000"
+    ],
+    "64-500": [
+      "64 51 050"
+    ],
+    "64-502": [
+      "64 51 150"
+    ],
+    "64-503": [
+      "64 51 590"
+    ],
+    "64-505": [
+      "64 52 020"
+    ],
+    "64-505a": [
+      "64 52 020"
+    ],
+    "64-506": [
+      "64 53 010"
+    ],
+    "64-507": [
+      "64 53 050"
+    ]
+  },
+  "merge_warnings": [
+    "Code 64 52 020: name mismatch 'Compressor - remove and install (318 i)' vs 'Compressor - remove and install (325 e)'"
+  ]
+}

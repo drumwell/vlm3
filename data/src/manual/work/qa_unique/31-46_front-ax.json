@@ -1,0 +1,85 @@
+{
+  "page_id": "31-46_front-ax",
+  "image_path": "raw/31 - Front Axle/31-46.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:05:36.947548",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 854
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required for the right side output shaft removal?",
+      "answer": "Special Tool 31 5 012 is required to pull off the output shaft, along with Special Tool 31 5 011.",
+      "question_type": "tool",
+      "id": "31-46_front-ax-q01"
+    },
+    {
+      "question": "How should the pressure spindles be screwed in during right side output shaft removal?",
+      "answer": "The pressure spindles should be screwed in alternately.",
+      "question_type": "procedural",
+      "id": "31-46_front-ax-q02"
+    },
+    {
+      "question": "What is the first step in the installation procedure for the output shafts?",
+      "answer": "Slide output shafts into front axle final drive until circlip in case engages in groove of shaft.",
+      "question_type": "procedural",
+      "id": "31-46_front-ax-q04"
+    },
+    {
+      "question": "What tool should be used with Special Tool 31 5 011 during installation?",
+      "answer": "A plastic hammer should be used with Special Tool 31 5 011 to drive in the shaft until the circlip engages.",
+      "question_type": "tool",
+      "id": "31-46_front-ax-q05"
+    },
+    {
+      "question": "What component number is shown as 30 31 579 in the upper image?",
+      "answer": "Component number 30 31 579 appears to be part of the differential or final drive assembly in the right side removal procedure.",
+      "question_type": "visual",
+      "id": "31-46_front-ax-q06"
+    },
+    {
+      "question": "When is it necessary to apply knocks during installation?",
+      "answer": "If necessary, apply knocks on Special Tool 31 5 011 with a plastic hammer to drive in shaft until circlip engages.",
+      "question_type": "procedural",
+      "id": "31-46_front-ax-q07"
+    },
+    {
+      "question": "What indicates that the output shaft is properly installed?",
+      "answer": "The output shaft is properly installed when the circlip in the case engages in the groove of the shaft.",
+      "question_type": "inspection",
+      "id": "31-46_front-ax-q08"
+    },
+    {
+      "question": "What component is labeled as 31 5 011 in the lower installation diagram?",
+      "answer": "Component 31 5 011 is the special tool used during installation to drive the output shaft into position.",
+      "question_type": "visual",
+      "id": "31-46_front-ax-q09"
+    },
+    {
+      "question": "What part number is visible as 30 31 590 in the installation image?",
+      "answer": "Part number 30 31 590 is shown in the lower installation diagram and appears to be related to the final drive assembly.",
+      "question_type": "visual",
+      "id": "31-46_front-ax-q10"
+    },
+    {
+      "question": "What type of hammer should be used during the installation procedure?",
+      "answer": "A plastic hammer should be used to apply knocks on Special Tool 31 5 011 during installation.",
+      "question_type": "tool",
+      "id": "31-46_front-ax-q11"
+    },
+    {
+      "question": "What ensures proper engagement during output shaft installation?",
+      "answer": "Proper engagement is ensured when the circlip in the case engages in the groove of the shaft, which may require using Special Tool 31 5 011 with a plastic hammer.",
+      "question_type": "inspection",
+      "id": "31-46_front-ax-q12"
+    }
+  ]
+}

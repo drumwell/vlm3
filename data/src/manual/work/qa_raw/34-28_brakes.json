@@ -1,0 +1,91 @@
+{
+  "page_id": "34-28_brakes",
+  "image_path": "raw/34 - Brakes/34-28.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:20:15.007065",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 963
+  },
+  "qa_pairs": [
+    {
+      "question": "When does the ABS indicator lamp come on and when should it go out?",
+      "answer": "The ABS indicator lamp comes on after turning on the ignition. The indicator lamp should go out when the engine has started, if the ABS is okay.",
+      "question_type": "factual",
+      "id": "34-28_brakes-q01"
+    },
+    {
+      "question": "What tools are needed to diagnose erroneous ABS indicator lamp behavior?",
+      "answer": "The causes for erroneous indication can be found with the help of a BMW service tester and a brake test dynamometer.",
+      "question_type": "tool",
+      "id": "34-28_brakes-q02"
+    },
+    {
+      "question": "What important requirement must be followed when starting each test step?",
+      "answer": "Each started test step must be finished completely without a break!",
+      "question_type": "safety",
+      "id": "34-28_brakes-q03"
+    },
+    {
+      "question": "What happens when the control unit detects an electric or electronic defect in ABS?",
+      "answer": "The control unit will automatically switch to 'normal braking' when there is an electric or electronic defect in ABS. This means the car can still be braked, but without control (the wheels could lock!).",
+      "question_type": "diagnostic",
+      "id": "34-28_brakes-q04"
+    },
+    {
+      "question": "How is a defective ABS system indicated to the driver?",
+      "answer": "The defective system will be indicated by a continuously burning ABS indicator lamp in the instrument panel.",
+      "question_type": "diagnostic",
+      "id": "34-28_brakes-q05"
+    },
+    {
+      "question": "What special procedure must be followed for BMW 325 iX with Four Driven Wheels before checking ABS?",
+      "answer": "First measure resistance on acceleration pick-up and power supply wire, see 34 52 000, prior to checking ABS, if ABS lamp comes on while driving.",
+      "question_type": "procedural",
+      "id": "34-28_brakes-q06"
+    },
+    {
+      "question": "What should be checked if comfort is impaired during ABS regulation?",
+      "answer": "Check throttle valve positioner, see 13 54 130, when comfort is impaired, e.g. shaking or stopping of engine during ABS regulation.",
+      "question_type": "troubleshooting",
+      "id": "34-28_brakes-q07"
+    },
+    {
+      "question": "Which brake test dynamometer test steps cannot be performed on BMW 325 iX cars?",
+      "answer": "The ABS test on a brake test dynamometer (test steps 8, 9 and 10) may not be performed on BMW 325 iX cars.",
+      "question_type": "procedural",
+      "id": "34-28_brakes-q08"
+    },
+    {
+      "question": "What must be removed from the electronic control unit when welding?",
+      "answer": "Remove plugs from the electronic control unit and turn off ignition when welding with an electric welder.",
+      "question_type": "safety",
+      "id": "34-28_brakes-q09"
+    },
+    {
+      "question": "What are the maximum temperature limits for the electronic control unit when painting?",
+      "answer": "When painting, the electronic control unit can be subjected to max. 95\u00b0 C (203\u00b0 F) briefly and to max. 85\u00b0 C (185\u00b0 F) for a longer period (about 2 hours).",
+      "question_type": "safety",
+      "id": "34-28_brakes-q10"
+    },
+    {
+      "question": "What must be done with battery terminals after battery removal and reinstallation?",
+      "answer": "If the battery had been removed, the battery terminals must be tightened on the end poles perfectly after reinstallation of the battery.",
+      "question_type": "procedural",
+      "id": "34-28_brakes-q11"
+    },
+    {
+      "question": "What comprehensive check must be performed after hydraulic unit replacement?",
+      "answer": "After replacement of the hydraulic unit, the control unit, the speed sensors and the wire harness as well as after performance of jobs which are in contact with ABS equipment (e.g. repair of accident damage), the entire antiblock system has to be checked with the BMW service tester. It is important that brake lines be routed correctly.",
+      "question_type": "inspection",
+      "id": "34-28_brakes-q12"
+    }
+  ]
+}

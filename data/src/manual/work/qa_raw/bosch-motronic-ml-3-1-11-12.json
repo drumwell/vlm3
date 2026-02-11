@@ -1,0 +1,79 @@
+{
+  "page_id": "bosch-motronic-ml-3-1-11-12",
+  "image_path": "raw/Bosch Motronic ML 3-1/11-12.png",
+  "section_id": "bosch",
+  "section_name": "Bosch Motronic ML 3-1",
+  "source_type": "ecu_technical",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:39:55.320705",
+    "prompt_template": "ecu_technical/specification",
+    "tokens_input": 1923,
+    "tokens_output": 535
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the fuel pressure specification for the fuel pump and pressure regulator?",
+      "answer": "2,8...3,2 bar",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-11-12-q01"
+    },
+    {
+      "question": "What RPM range should be used for the minimum idle speed and CO test?",
+      "answer": "800...900 giri/min",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-11-12-q02"
+    },
+    {
+      "question": "What is the ignition timing specification at minimum idle speed?",
+      "answer": "-5...+5\u00b0",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-11-12-q03"
+    },
+    {
+      "question": "What ignition timing should be recorded at full load?",
+      "answer": "15...25\u00b0",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-11-12-q04"
+    },
+    {
+      "question": "At what RPM should the ignition timing be measured at full load?",
+      "answer": "3000 giri/min",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-11-12-q05"
+    },
+    {
+      "question": "What is the valve closing angle specification at minimum idle speed?",
+      "answer": "10...23",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-11-12-q06"
+    },
+    {
+      "question": "What valve closing angle should be measured at 2000 RPM?",
+      "answer": "17...39",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-11-12-q07"
+    },
+    {
+      "question": "What percentage specification is given for the idle control servo valve pulse rate?",
+      "answer": "20...30 %",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-11-12-q08"
+    },
+    {
+      "question": "What component part numbers are listed for the cable adapter?",
+      "answer": "Without cat: 1 684 463 124 / with cat: 1 684 463 128",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-11-12-q09"
+    },
+    {
+      "question": "What test equipment is shown in the diagram on the right side of the page?",
+      "answer": "Freccia = attacco manometro (arrow = pressure gauge connection)",
+      "question_type": "visual",
+      "id": "bosch-motronic-ml-3-1-11-12-q10"
+    }
+  ]
+}

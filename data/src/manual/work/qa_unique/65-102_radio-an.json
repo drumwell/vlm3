@@ -1,0 +1,85 @@
+{
+  "page_id": "65-102_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-102.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:01:02.417595",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 790
+  },
+  "qa_pairs": [
+    {
+      "question": "What tool is needed to pry the cover strip out of clamps on the left door beam for two door cars?",
+      "answer": "A screwdriver is needed to pry the cover strip out of clamps on the left door beam.",
+      "question_type": "tool",
+      "id": "65-102_radio-an-q01"
+    },
+    {
+      "question": "What should you do if cover strip clamps remain in the door beam after removal?",
+      "answer": "If cover strip clamps remain in door beam, pull them out with pliers.",
+      "question_type": "procedural",
+      "id": "65-102_radio-an-q02"
+    },
+    {
+      "question": "What components are indicated by callout numbers 1 and 2 in the antenna wire routing explanation?",
+      "answer": "Callout number 1 indicates the Antenna and callout number 2 indicates the Radio antenna jack.",
+      "question_type": "visual",
+      "id": "65-102_radio-an-q03"
+    },
+    {
+      "question": "How should the antenna wire be routed from the place of radio installation?",
+      "answer": "Route antenna wire from place of radio installation along standard wire harnesses.",
+      "question_type": "procedural",
+      "id": "65-102_radio-an-q04"
+    },
+    {
+      "question": "What is the difference in the cover strip removal procedure between two door and four door cars?",
+      "answer": "For two door cars, pry cover strip out of clamps on left door beam only. For four door cars, pry cover strips out of clamps on left front and rear door beams.",
+      "question_type": "factual",
+      "id": "65-102_radio-an-q05"
+    },
+    {
+      "question": "What should be inserted into the cover strip after removing the old clamps?",
+      "answer": "Insert new clamps from installation kit in cover strip.",
+      "question_type": "procedural",
+      "id": "65-102_radio-an-q06"
+    },
+    {
+      "question": "What component is indicated by callout number 1 in the B pillar trim removal diagram?",
+      "answer": "Callout number 1 indicates the B pillar trim that needs to be detached at the bottom.",
+      "question_type": "visual",
+      "id": "65-102_radio-an-q08"
+    },
+    {
+      "question": "How should the B pillar trim be detached?",
+      "answer": "Detach B pillar trim at bottom slightly.",
+      "question_type": "procedural",
+      "id": "65-102_radio-an-q09"
+    },
+    {
+      "question": "What needs to be removed as indicated by callout number 2 in the procedure?",
+      "answer": "Remove sliding belt holder as indicated by callout number 2.",
+      "question_type": "procedural",
+      "id": "65-102_radio-an-q10"
+    },
+    {
+      "question": "How should the speaker wires be routed from the front?",
+      "answer": "Route speaker wires from front along standard wire harness to places of speaker installation.",
+      "question_type": "procedural",
+      "id": "65-102_radio-an-q11"
+    },
+    {
+      "question": "What should be done with the wire harness between the trim panel and side panel?",
+      "answer": "Route wire harness between trim panel and side panel after connecting the antenna wire.",
+      "question_type": "procedural",
+      "id": "65-102_radio-an-q12"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-11-33",
+  "image_path": "raw/00 - Torque Specs/11-33.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:43:03.433534",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 577
+  },
+  "qa_pairs": [
+    {
+      "question": "Which engine types use the soundproofing hood to holder specification?",
+      "answer": "M60/1/M60/2/M62",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-33-q04"
+    },
+    {
+      "question": "What torque specification applies to the soundproofing hood to holder attachment?",
+      "answer": "8 Nm with M6 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-33-q05"
+    },
+    {
+      "question": "What is the difference in torque between M8 and M6 screws on the intake manifold?",
+      "answer": "M8 screws require 22 Nm while M6 screws require 10 Nm, a difference of 12 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-33-q06"
+    },
+    {
+      "question": "What component uses the 1AZ specification code?",
+      "answer": "Intake manifold on cylinder head",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-33-q08"
+    },
+    {
+      "question": "What component uses the 2AZ specification code?",
+      "answer": "Soundproofing hood to holder",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-33-q09"
+    },
+    {
+      "question": "What is the highest torque specification shown for intake manifold screws?",
+      "answer": "22 Nm for M8 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-33-q10"
+    }
+  ]
+}

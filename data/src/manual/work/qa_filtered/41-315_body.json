@@ -1,0 +1,91 @@
+{
+  "page_id": "41-315_body",
+  "image_path": "raw/41 - Body/41-315.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:59:47.433177",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 807
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the BMW part numbers shown for the spot welding operations?",
+      "answer": "The part numbers shown are 30 41 455, 30 41 456, 30 41 457, 30 41 458, 30 41 459, 30 41 460, 30 41 461, and 30 41 462.",
+      "question_type": "factual",
+      "id": "41-315_body-q01"
+    },
+    {
+      "question": "What should be done with the trunk lid according to the first instruction?",
+      "answer": "Install trunk lid and check gap.",
+      "question_type": "procedural",
+      "id": "41-315_body-q02"
+    },
+    {
+      "question": "Where should spot welding be performed on the side panel?",
+      "answer": "Spot welding should be performed on the side panel in multiple locations including the general side panel area, in the wheel opening, and in the area of the trunk.",
+      "question_type": "procedural",
+      "id": "41-315_body-q03"
+    },
+    {
+      "question": "What specific welding operation is shown for part number 30 41 459?",
+      "answer": "Spot weld side panel in wheel opening.",
+      "question_type": "procedural",
+      "id": "41-315_body-q04"
+    },
+    {
+      "question": "What type of joint repair is indicated for part number 30 41 462?",
+      "answer": "Braze roof joint.",
+      "question_type": "procedural",
+      "id": "41-315_body-q05"
+    },
+    {
+      "question": "What operation is performed on the entrance cover strip according to part number 30 41 461?",
+      "answer": "Plug spot weld side panel on entrance cover strip and braze on outside edge.",
+      "question_type": "procedural",
+      "id": "41-315_body-q06"
+    },
+    {
+      "question": "How many different spot welding locations are shown for the side panel?",
+      "answer": "Four different spot welding locations are shown for the side panel: general side panel, side panel in wheel opening, side panel area, and side panel in area of trunk.",
+      "question_type": "visual",
+      "id": "41-315_body-q07"
+    },
+    {
+      "question": "What welding technique is used for the roof joint repair?",
+      "answer": "Brazing is used for the roof joint repair.",
+      "question_type": "factual",
+      "id": "41-315_body-q08"
+    },
+    {
+      "question": "What components are visible in the wheel opening diagram?",
+      "answer": "The wheel opening diagram shows the side panel area where spot welding should be performed, with arrows indicating the specific welding locations.",
+      "question_type": "visual",
+      "id": "41-315_body-q09"
+    },
+    {
+      "question": "What page number is shown at the top of this manual page?",
+      "answer": "Page 41-315 is shown at the top of the manual page.",
+      "question_type": "factual",
+      "id": "41-315_body-q10"
+    },
+    {
+      "question": "What repair method combines both plug spot welding and brazing?",
+      "answer": "The entrance cover strip repair combines plug spot welding the side panel and brazing on the outside edge.",
+      "question_type": "procedural",
+      "id": "41-315_body-q11"
+    },
+    {
+      "question": "In what areas of the vehicle body are welding operations shown?",
+      "answer": "Welding operations are shown in the trunk lid area, side panels, wheel opening, trunk area, entrance cover strip, and roof joint.",
+      "question_type": "visual",
+      "id": "41-315_body-q12"
+    }
+  ]
+}

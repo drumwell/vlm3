@@ -1,0 +1,79 @@
+{
+  "page_id": "62-02_instrume",
+  "image_path": "raw/62 - Instruments/62-02.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:44:38.468737",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 716
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure number covers removing and installing or replacing the temperature gauge?",
+      "answer": "Procedure 62 11 090 covers removing and installing or replacing the temperature gauge.",
+      "question_type": "factual",
+      "id": "62-02_instrume-q01"
+    },
+    {
+      "question": "What is the first step shown for both temperature gauge and fuel gauge removal?",
+      "answer": "The first step is to unscrew screws, as indicated by the arrows pointing to the screws in the instrument cluster.",
+      "question_type": "procedural",
+      "id": "62-02_instrume-q03"
+    },
+    {
+      "question": "What should you do after unscrewing the screws from the instrument cluster?",
+      "answer": "Take the instruments with carrier out of the housing.",
+      "question_type": "procedural",
+      "id": "62-02_instrume-q04"
+    },
+    {
+      "question": "What procedure must be performed before removing either the temperature gauge or fuel gauge?",
+      "answer": "Remove and install instrument carrier assembly 62 21 000.",
+      "question_type": "procedural",
+      "id": "62-02_instrume-q05"
+    },
+    {
+      "question": "What is the final step for removing the temperature gauge?",
+      "answer": "Unscrew nut and remove temperature gauge.",
+      "question_type": "procedural",
+      "id": "62-02_instrume-q06"
+    },
+    {
+      "question": "How should the temperature gauge be installed?",
+      "answer": "Engage temperature gauge in lock during installation.",
+      "question_type": "procedural",
+      "id": "62-02_instrume-q08"
+    },
+    {
+      "question": "How should the fuel gauge be installed?",
+      "answer": "Engage fuel gauge in lock during installation.",
+      "question_type": "procedural",
+      "id": "62-02_instrume-q09"
+    },
+    {
+      "question": "What diagram numbers are shown for the screw removal step?",
+      "answer": "Diagram numbers 30 62 012 are shown for both the temperature gauge and fuel gauge screw removal steps.",
+      "question_type": "visual",
+      "id": "62-02_instrume-q10"
+    },
+    {
+      "question": "What diagram numbers are shown for removing the instruments from the housing?",
+      "answer": "Diagram numbers 30 62 013 are shown for taking the instruments with carrier out of the housing.",
+      "question_type": "visual",
+      "id": "62-02_instrume-q11"
+    },
+    {
+      "question": "What are the diagram numbers for the individual gauge removal steps?",
+      "answer": "The temperature gauge removal is shown in diagram 30 62 016, and the fuel gauge removal is shown in diagram 30 62 017.",
+      "question_type": "visual",
+      "id": "62-02_instrume-q12"
+    }
+  ]
+}

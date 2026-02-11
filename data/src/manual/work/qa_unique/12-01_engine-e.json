@@ -1,0 +1,67 @@
+{
+  "page_id": "12-01_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-01.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:20:47.462170",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 569
+  },
+  "qa_pairs": [
+    {
+      "question": "What is component number 1 in the Engine Electrical Layout for Model 318i?",
+      "answer": "Component number 1 is the Control unit - L-Jetronic (see Gr. 13).",
+      "question_type": "component",
+      "id": "12-01_engine-e-q01"
+    },
+    {
+      "question": "What are the wire colors for the transmission versions plug (white)?",
+      "answer": "The wire colors for the transmission versions plug (white) are green/yellow - blue/yellow, and it is not used for automatics (lean mixture) but connected for manuals.",
+      "question_type": "wiring",
+      "id": "12-01_engine-e-q02"
+    },
+    {
+      "question": "What does component number 6 represent in the TCI-S control unit image?",
+      "answer": "Component number 6 is the TCI-S control unit.",
+      "question_type": "component",
+      "id": "12-01_engine-e-q03"
+    },
+    {
+      "question": "What is the purpose of the black plug identified as component 5?",
+      "answer": "The black plug (component 5) is for air conditioner with wire colors black/white.",
+      "question_type": "factual",
+      "id": "12-01_engine-e-q04"
+    },
+    {
+      "question": "What three types of relays are shown in the relay assembly at the bottom left?",
+      "answer": "The three relays are: 1) Relay for fuel injection, fuel pump, oxygen sensor heating, 2) Relay for idle speed stabilization (see Group 13), and 3) Relay for ignition switchover.",
+      "question_type": "component",
+      "id": "12-01_engine-e-q05"
+    },
+    {
+      "question": "What is component 7 in the TCI-S control unit assembly?",
+      "answer": "Component 7 is the Solenoid valve for ignition switchover.",
+      "question_type": "component",
+      "id": "12-01_engine-e-q06"
+    },
+    {
+      "question": "What sensor is shown in the bottom right image with reference number 30 12 158?",
+      "answer": "The Air temperature sensor for ignition switchover is shown in the bottom right image.",
+      "question_type": "component",
+      "id": "12-01_engine-e-q07"
+    },
+    {
+      "question": "What are the wire colors for the control unit coding plug (red)?",
+      "answer": "The wire colors for the control unit coding plug (red) are brown/violet.",
+      "question_type": "wiring",
+      "id": "12-01_engine-e-q08"
+    }
+  ]
+}

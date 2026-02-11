@@ -1,0 +1,91 @@
+{
+  "page_id": "41-330_body",
+  "image_path": "raw/41 - Body/41-330.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:03:31.730029",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 826
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the C pillar joint during body repair?",
+      "answer": "Grind down the C pillar joint, tinning if necessary.",
+      "question_type": "procedural",
+      "id": "41-330_body-q01"
+    },
+    {
+      "question": "What repairs are needed for the spot welded flange and anti-drumming coat in the wheel house area?",
+      "answer": "Repair the spot welded flange and damaged anti-drumming coat in the wheel house and on the trunk floor plate.",
+      "question_type": "procedural",
+      "id": "41-330_body-q02"
+    },
+    {
+      "question": "What important note applies to the spot welded flange in the rear wheel opening area?",
+      "answer": "The spot welded flange in the rear area of the wheel opening must be crimped on cars beginning with 1988 models or when using wider tires. Compare with opposite side if necessary.",
+      "question_type": "factual",
+      "id": "41-330_body-q03"
+    },
+    {
+      "question": "How should all joints be sealed during body repair?",
+      "answer": "Seal inside of all joints with a body sealing compound and spray on a coat of anti-drumming material.",
+      "question_type": "procedural",
+      "id": "41-330_body-q04"
+    },
+    {
+      "question": "Where should anti-drumming material be applied on the side panel?",
+      "answer": "Spray coat of anti-drumming material on bottom of side panel and entrance.",
+      "question_type": "procedural",
+      "id": "41-330_body-q05"
+    },
+    {
+      "question": "What area below the bumper requires anti-drumming material application?",
+      "answer": "Spray coat of anti-drumming material on side panel and tail panel below the bumper.",
+      "question_type": "procedural",
+      "id": "41-330_body-q06"
+    },
+    {
+      "question": "What is the source of supply for the anti-drumming material?",
+      "answer": "The source of supply for the anti-drumming material is HWB.",
+      "question_type": "factual",
+      "id": "41-330_body-q07"
+    },
+    {
+      "question": "What is the source of supply for the body sealing compound?",
+      "answer": "The source of supply for the body sealing compound is HWB.",
+      "question_type": "factual",
+      "id": "41-330_body-q08"
+    },
+    {
+      "question": "What year models require special attention to the spot welded flange in the wheel opening?",
+      "answer": "Cars beginning with 1988 models require the spot welded flange in the rear area of the wheel opening to be crimped.",
+      "question_type": "factual",
+      "id": "41-330_body-q09"
+    },
+    {
+      "question": "When else might the wheel opening flange need to be crimped besides on 1988+ models?",
+      "answer": "The flange must be crimped when using wider tires.",
+      "question_type": "factual",
+      "id": "41-330_body-q10"
+    },
+    {
+      "question": "What should be done if you're unsure about the wheel opening flange configuration?",
+      "answer": "Compare with the opposite side if necessary.",
+      "question_type": "procedural",
+      "id": "41-330_body-q11"
+    },
+    {
+      "question": "What diagram reference numbers are shown for the various body repair procedures?",
+      "answer": "The diagram reference numbers shown are 30 41 402, 30 41 405, 30 41 740, 30 41 097, 30 41 403, and 30 41 404.",
+      "question_type": "visual",
+      "id": "41-330_body-q12"
+    }
+  ]
+}

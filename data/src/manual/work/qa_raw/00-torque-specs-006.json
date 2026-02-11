@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-006",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/006.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:17:00.101985",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 686
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M10 8.8 screw?",
+      "answer": "47 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-006-q01"
+    },
+    {
+      "question": "What torque specification should I use for an M10x1 10.9 threaded fastener?",
+      "answer": "75 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-006-q02"
+    },
+    {
+      "question": "How much torque is required for an M10 12.9 screw?",
+      "answer": "79 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-006-q03"
+    },
+    {
+      "question": "What is the tightening torque for an M10x1 8.8 threaded fastener?",
+      "answer": "54 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-006-q04"
+    },
+    {
+      "question": "What's the difference in torque between an M10 10.9 and M10x1 10.9 screw?",
+      "answer": "M10 10.9 requires 66 Nm while M10x1 10.9 requires 75 Nm, a difference of 9 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-006-q05"
+    },
+    {
+      "question": "What is the highest torque specification shown for M10x1 thread screws?",
+      "answer": "91 Nm (ft. lbs.) for M10x1 12.9",
+      "question_type": "factual",
+      "id": "00-torque-specs-006-q06"
+    },
+    {
+      "question": "Which BMW standard should I refer to for applicable tightening torque ranges?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-torque-specs-006-q07"
+    },
+    {
+      "question": "What torque should I apply to an M10 10.9 screw?",
+      "answer": "66 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-006-q08"
+    },
+    {
+      "question": "What is the torque specification for an M10x1 12.9 threaded fastener?",
+      "answer": "91 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-006-q09"
+    },
+    {
+      "question": "What types of thread are covered in this M10 and M10x1 torque specification table?",
+      "answer": "M10 thread and M10x1 thread, with strength grades 8.8, 10.9, and 12.9 for each type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-006-q10"
+    }
+  ]
+}

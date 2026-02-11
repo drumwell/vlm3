@@ -1,0 +1,79 @@
+{
+  "page_id": "31-09_front-ax",
+  "image_path": "raw/31 - Front Axle/31-09.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:01:37.280533",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 714
+  },
+  "qa_pairs": [
+    {
+      "question": "What happens to the wheel bearing when you pull off the drive flange?",
+      "answer": "Pulling off the drive flange will destroy the wheel bearing, which must always be replaced.",
+      "question_type": "safety",
+      "id": "31-09_front-ax-q02"
+    },
+    {
+      "question": "What type of wheel drive system does this procedure apply to?",
+      "answer": "All Wheel Drive",
+      "question_type": "factual",
+      "id": "31-09_front-ax-q03"
+    },
+    {
+      "question": "Where can I find the detailed procedures for removing and installing the wheel hub drive flange?",
+      "answer": "Procedures are identical with those described in 31 21 151.",
+      "question_type": "navigation",
+      "id": "31-09_front-ax-q04"
+    },
+    {
+      "question": "Is it possible to remove the drive flange without damaging the wheel bearing?",
+      "answer": "No, pulling off the drive flange will destroy the wheel bearing, which must always be replaced.",
+      "question_type": "procedural",
+      "id": "31-09_front-ax-q05"
+    },
+    {
+      "question": "What component must always be replaced after removing a wheel hub drive flange?",
+      "answer": "The wheel bearing must always be replaced.",
+      "question_type": "factual",
+      "id": "31-09_front-ax-q06"
+    },
+    {
+      "question": "Does this procedure apply to both left and right wheel hubs?",
+      "answer": "Yes, this procedure applies to removing and installing left or right wheel hub drive flange.",
+      "question_type": "factual",
+      "id": "31-09_front-ax-q07"
+    },
+    {
+      "question": "What is the consequence of not replacing the wheel bearing after drive flange removal?",
+      "answer": "The wheel bearing will be destroyed during the drive flange removal process and must be replaced to maintain proper function.",
+      "question_type": "troubleshooting",
+      "id": "31-09_front-ax-q08"
+    },
+    {
+      "question": "Can the drive flange removal procedure be performed on both sides using the same method?",
+      "answer": "Yes, the procedures are identical for both left and right wheel hub drive flanges.",
+      "question_type": "procedural",
+      "id": "31-09_front-ax-q10"
+    },
+    {
+      "question": "What reference section should I consult for the complete step-by-step procedure?",
+      "answer": "Section 31 21 151 contains the identical procedures for this operation.",
+      "question_type": "navigation",
+      "id": "31-09_front-ax-q11"
+    },
+    {
+      "question": "Why does BMW specify that the wheel bearing must always be replaced during this procedure?",
+      "answer": "Because pulling off the drive flange will destroy the wheel bearing during the removal process.",
+      "question_type": "operation",
+      "id": "31-09_front-ax-q12"
+    }
+  ]
+}

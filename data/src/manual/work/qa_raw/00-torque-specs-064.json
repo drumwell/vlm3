@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-064",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/064.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:28:15.974463",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 604
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the temperature sensor to water flange with M21 connection?",
+      "answer": "18 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-064-q01"
+    },
+    {
+      "question": "What torque should be applied to the temperature sensor to water flange with M51 connection?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-064-q02"
+    },
+    {
+      "question": "What is the torque specification for the temperature switch (5.5\u00b0C/17\u00b0C) to fuel filter/cylinder head?",
+      "answer": "18 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-064-q03"
+    },
+    {
+      "question": "What torque is required for the coolant temperature sensor with S38/S50 2-pin plug-in connection?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-064-q04"
+    },
+    {
+      "question": "What is the torque specification for the remote thermometer sensor with 2-pin plug-in connection?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-064-q05"
+    },
+    {
+      "question": "What torque should be applied to the remote thermometer sensor on the coolant flange for S50 engines?",
+      "answer": "18 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-064-q06"
+    },
+    {
+      "question": "What is the torque specification for the air temperature sensor on S38/S50 engines?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-064-q07"
+    },
+    {
+      "question": "What torque is required for the oil temperature sensor on S38/S50 engines?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-064-q08"
+    },
+    {
+      "question": "How does the torque specification differ between M21 and M51 connections for the temperature sensor to water flange?",
+      "answer": "M21 requires 18 Nm while M51 requires 13 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-064-q09"
+    },
+    {
+      "question": "What section of the manual covers these coolant temperature sensor specifications?",
+      "answer": "Section 12-14 Engine electrics, subsection 12.62 Coolant Temperature",
+      "question_type": "navigation",
+      "id": "00-torque-specs-064-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "62-84_instrume",
+  "image_path": "raw/62 - Instruments/62-84.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:49:09.558526",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 757
+  },
+  "qa_pairs": [
+    {
+      "question": "What selector switch position is required for the temperature gage function?",
+      "answer": "Selector switch (3) should be set to temperature.",
+      "question_type": "procedural",
+      "id": "62-84_instrume-q01"
+    },
+    {
+      "question": "How should knob 7 be positioned to set the temperature gage to the blue range?",
+      "answer": "Turn knob (7) against left stop; needle of temperature gage is in blue range.",
+      "question_type": "procedural",
+      "id": "62-84_instrume-q02"
+    },
+    {
+      "question": "In what portion of the turning range does needle deflection occur for knob 7?",
+      "answer": "Needle deflection takes place only in last third of turning range for knob (7).",
+      "question_type": "factual",
+      "id": "62-84_instrume-q03"
+    },
+    {
+      "question": "What selector switch position is needed for fuel gage operation?",
+      "answer": "Selector switch (3) set to tank.",
+      "question_type": "procedural",
+      "id": "62-84_instrume-q04"
+    },
+    {
+      "question": "How do you position the fuel gage needle to point to R?",
+      "answer": "Turn knob (7) against left stop; needle of fuel gage points to R.",
+      "question_type": "procedural",
+      "id": "62-84_instrume-q05"
+    },
+    {
+      "question": "How long must you press and hold the starting button to simulate car engine starting?",
+      "answer": "Press and hold starting button (6) at least two seconds before releasing.",
+      "question_type": "procedural",
+      "id": "62-84_instrume-q06"
+    },
+    {
+      "question": "What happens to the green LEDs when the Service Indicator is turned on?",
+      "answer": "The LEDs of SI begin to light up several seconds after switching on (switch at ON). The green LEDs go out when reaching a speed of approx. 600 rpm.",
+      "question_type": "factual",
+      "id": "62-84_instrume-q07"
+    },
+    {
+      "question": "What are the two reset functions available with buttons 8 and 9?",
+      "answer": "Button 8: OIL SERVICE reset, Button 9: INSPECTION reset.",
+      "question_type": "factual",
+      "id": "62-84_instrume-q08"
+    },
+    {
+      "question": "How is the time of resetting indicated on the Service Indicator?",
+      "answer": "The time of resetting is indicated by a lamp in the pertinent button.",
+      "question_type": "factual",
+      "id": "62-84_instrume-q09"
+    },
+    {
+      "question": "What callout number indicates the selector switch in the diagrams?",
+      "answer": "Callout number 3 indicates the selector switch.",
+      "question_type": "visual",
+      "id": "62-84_instrume-q10"
+    },
+    {
+      "question": "What happens when the simulator is switched off and on again regarding the LEDs?",
+      "answer": "LEDs are turned on again each time the simulator is switched off and on again afterwards.",
+      "question_type": "operation",
+      "id": "62-84_instrume-q11"
+    },
+    {
+      "question": "How can the pertinent interval be cancelled on the Service Indicator?",
+      "answer": "The pertinent interval will be cancelled by pressing a button briefly.",
+      "question_type": "procedural",
+      "id": "62-84_instrume-q12"
+    }
+  ]
+}

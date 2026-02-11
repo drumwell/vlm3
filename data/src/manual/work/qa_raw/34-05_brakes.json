@@ -1,0 +1,91 @@
+{
+  "page_id": "34-05_brakes",
+  "image_path": "raw/34 - Brakes/34-05.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:13:50.483382",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 832
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the tightening torque for front brake disc installation?",
+      "answer": "The installation requires tightening torque as specified, but the exact value is referenced to specifications at the bottom of the page.",
+      "question_type": "factual",
+      "id": "34-05_brakes-q01"
+    },
+    {
+      "question": "How do you remove the brake pad wear indicator during caliper removal?",
+      "answer": "Unplug the brake pad wear indicator on the left side, then pull off the caliper toward the rear and suspend it with a piece of wire.",
+      "question_type": "procedural",
+      "id": "34-05_brakes-q02"
+    },
+    {
+      "question": "What tool is specified for removing the brake disc bolts?",
+      "answer": "Use wrench socket 34 1 020 to unscrew the two bolts and take off the brake disc.",
+      "question_type": "tool",
+      "id": "34-05_brakes-q03"
+    },
+    {
+      "question": "How should brake disc thickness be measured when checking for runout and thickness difference?",
+      "answer": "Mount a dial gauge holder and check lateral runout of the brake disc with a dial gauge. Measure difference in thickness within the braking surface at about 8 points with a micrometer.",
+      "question_type": "inspection",
+      "id": "34-05_brakes-q04"
+    },
+    {
+      "question": "What are the requirements before checking front brake disc runout?",
+      "answer": "The requirement is that wheel bearings must be okay before performing the runout check.",
+      "question_type": "factual",
+      "id": "34-05_brakes-q05"
+    },
+    {
+      "question": "What is the important rule about grinding brake discs?",
+      "answer": "Always fine grind both sides of both brake discs on one axle. After machining to minimum thickness, install only one more set of brake pads.",
+      "question_type": "safety",
+      "id": "34-05_brakes-q06"
+    },
+    {
+      "question": "How is the brake disc secured to the hub?",
+      "answer": "Mount the brake disc with two M 12 x 1.5 bolts as noted in the installation procedure.",
+      "question_type": "factual",
+      "id": "34-05_brakes-q07"
+    },
+    {
+      "question": "What must be done if only one brake disc needs replacement?",
+      "answer": "Even if only one brake disc has to be replaced, always replace both brake discs of one axle.",
+      "question_type": "safety",
+      "id": "34-05_brakes-q08"
+    },
+    {
+      "question": "What callout numbers are visible in the brake disc removal procedure?",
+      "answer": "The visible callout numbers are 1 and 2, where 2 indicates the bolts that need to be unscrewed to remove the brake disc.",
+      "question_type": "visual",
+      "id": "34-05_brakes-q09"
+    },
+    {
+      "question": "What procedure references are provided for brake disc grinding?",
+      "answer": "The grinding procedure references SI Group 34 and notes the wear limit of brake discs in the specifications section.",
+      "question_type": "navigation",
+      "id": "34-05_brakes-q10"
+    },
+    {
+      "question": "What is the proper way to support the caliper after removal?",
+      "answer": "After pulling off the caliper toward the rear, suspend it with a piece of wire to avoid damaging the brake line.",
+      "question_type": "procedural",
+      "id": "34-05_brakes-q11"
+    },
+    {
+      "question": "What tool number is shown for the brake disc grinding operation?",
+      "answer": "The grinding operation shows tool number 730 34 152 for the brake disc grinding equipment.",
+      "question_type": "tool",
+      "id": "34-05_brakes-q12"
+    }
+  ]
+}

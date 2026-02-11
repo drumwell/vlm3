@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-18-01",
+  "image_path": "raw/00 - Torque Specs/18-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:57:10.328711",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 694
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the exhaust pipe to exhaust manifold or turbocharger with compression springs?",
+      "answer": "10 Nm for M30/M70 type connections.",
+      "question_type": "factual",
+      "id": "00-torque-specs-18-01-q01"
+    },
+    {
+      "question": "What torque should be applied to the exhaust pipe to exhaust manifold connection without compression springs?",
+      "answer": "30 Nm for S50 type with M10 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-18-01-q03"
+    },
+    {
+      "question": "What is the torque specification for the exhaust pipe to flow section connection?",
+      "answer": "25 Nm for E23 type connections.",
+      "question_type": "factual",
+      "id": "00-torque-specs-18-01-q04"
+    },
+    {
+      "question": "What torque should be used for the clamp on the final muffler?",
+      "answer": "15 Nm for M8 screws on all types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-18-01-q05"
+    },
+    {
+      "question": "What is the preload specification for compression springs on the catalytic converter silencer?",
+      "answer": "30 mm for E36 M42 type with compression springs.",
+      "question_type": "factual",
+      "id": "00-torque-specs-18-01-q06"
+    },
+    {
+      "question": "How should the compression springs be tightened on M30/M70 connections?",
+      "answer": "Evenly tighten the compression springs with nuts on the block, then loosen by 1.5 revolutions.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-18-01-q07"
+    },
+    {
+      "question": "What screw size is used for the version without compression springs on the exhaust manifold connection?",
+      "answer": "M10 screws are used for the S50 type without compression springs.",
+      "question_type": "factual",
+      "id": "00-torque-specs-18-01-q08"
+    },
+    {
+      "question": "Which exhaust system components are covered under section 18.00?",
+      "answer": "Exhaust pipe to exhaust manifold or turbocharger, exhaust pipe to flow section, clamp for final muffler, and catalytic converter on silencer.",
+      "question_type": "factual",
+      "id": "00-torque-specs-18-01-q09"
+    },
+    {
+      "question": "What is the difference in torque specifications between the compression spring version and non-compression spring version for exhaust manifold connections?",
+      "answer": "The compression spring version (M30/M70) uses 10 Nm, while the non-compression spring version (S50) uses 30 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-18-01-q10"
+    }
+  ]
+}

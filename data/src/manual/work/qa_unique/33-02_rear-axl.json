@@ -1,0 +1,79 @@
+{
+  "page_id": "33-02_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-02.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:07:43.784521",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 743
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for replacing the shaft seal for drive flange?",
+      "answer": "The procedure code is 33 11 151.",
+      "question_type": "factual",
+      "id": "33-02_rear-axl-q01"
+    },
+    {
+      "question": "What special tool is needed to pull out the shaft seal?",
+      "answer": "Special Tool 00 5 010 is needed to pull out the shaft seal, used in conjunction with a pressure piece.",
+      "question_type": "tool",
+      "id": "33-02_rear-axl-q02"
+    },
+    {
+      "question": "How should the output shaft be supported during removal?",
+      "answer": "Unscrew the output shaft on drive flange and suspend it on a piece of wire.",
+      "question_type": "procedural",
+      "id": "33-02_rear-axl-q03"
+    },
+    {
+      "question": "What tool is used to press off the drive flange with tire irons?",
+      "answer": "The image shows tire irons being used to press off the drive flange, as indicated in the middle left photograph.",
+      "question_type": "visual",
+      "id": "33-02_rear-axl-q04"
+    },
+    {
+      "question": "When should the drive flange be replaced?",
+      "answer": "Replace the drive flange with a seriously scored bearing surface.",
+      "question_type": "inspection",
+      "id": "33-02_rear-axl-q07"
+    },
+    {
+      "question": "What is the purpose of the wire snap ring mentioned in the installation procedure?",
+      "answer": "Prior to installation of drive flange, place wire snap ring (1) in groove of differential case so that both ends of wire snap ring are recessed in groove to prevent lateral bending of ring.",
+      "question_type": "procedural",
+      "id": "33-02_rear-axl-q08"
+    },
+    {
+      "question": "How should the drive flange be pressed in during installation?",
+      "answer": "Press in drive flange by hand and turn slightly until wire snap ring is heard to engage.",
+      "question_type": "procedural",
+      "id": "33-02_rear-axl-q09"
+    },
+    {
+      "question": "What should be done with stretched wire snap rings?",
+      "answer": "Replace stretched wire snap rings.",
+      "question_type": "inspection",
+      "id": "33-02_rear-axl-q10"
+    },
+    {
+      "question": "What callout number identifies the wire snap ring in the bottom diagram?",
+      "answer": "The wire snap ring is identified by callout number (1) in the bottom diagram.",
+      "question_type": "visual",
+      "id": "33-02_rear-axl-q11"
+    },
+    {
+      "question": "What does the asterisk notation at the bottom of the page indicate?",
+      "answer": "The asterisk notation indicates 'See Specifications' for the tightening torque reference.",
+      "question_type": "navigation",
+      "id": "33-02_rear-axl-q12"
+    }
+  ]
+}

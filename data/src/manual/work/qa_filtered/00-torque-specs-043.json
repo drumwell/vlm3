@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-043",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/043.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:24:18.696345",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 607
+  },
+  "qa_pairs": [
+    {
+      "question": "Which engine models use M6 screws with 8 Nm torque for the soundproofing hood to holder?",
+      "answer": "M60/1, M60/2, and M62 engines",
+      "question_type": "factual",
+      "id": "00-torque-specs-043-q04"
+    },
+    {
+      "question": "What component is covered under section 11 61 in the torque specifications?",
+      "answer": "Intake manifold",
+      "question_type": "factual",
+      "id": "00-torque-specs-043-q05"
+    },
+    {
+      "question": "What is the difference in torque between M8 and M6 screws on the intake manifold?",
+      "answer": "M8 screws require 22 Nm while M6 screws require 10 Nm, a difference of 12 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-043-q06"
+    },
+    {
+      "question": "What screw type and torque is specified for the soundproofing hood to holder on M60 engines?",
+      "answer": "M6 screw with 8 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-043-q07"
+    },
+    {
+      "question": "Which screw size has the highest torque specification on the intake manifold?",
+      "answer": "M8 screws with 22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-043-q08"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "31-05_2_front-ax",
+  "image_path": "raw/31 - Front Axle/31-05_2.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:59:37.357241",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 697
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to support the front axle carrier?",
+      "answer": "Special Tool 00 2 020 and a workshop jack are required to support the front axle carrier.",
+      "question_type": "tool",
+      "id": "31-05_2_front-ax-q01"
+    },
+    {
+      "question": "What should be done to the tapped bores before installation?",
+      "answer": "The tapped bores should be cleaned before installation.",
+      "question_type": "procedural",
+      "id": "31-05_2_front-ax-q02"
+    },
+    {
+      "question": "What type of compound should be used when installing bolts?",
+      "answer": "Always replace and install bolts with a bolt cement and apply the tightening torque.",
+      "question_type": "procedural",
+      "id": "31-05_2_front-ax-q03"
+    },
+    {
+      "question": "What must be done to both control arms during the procedure?",
+      "answer": "Unscrew both control arms.",
+      "question_type": "procedural",
+      "id": "31-05_2_front-ax-q04"
+    },
+    {
+      "question": "How should the control arms be positioned during installation?",
+      "answer": "Mount control arms in installed position, so that rubber parts of tapered joints are not turned wrong.",
+      "question_type": "procedural",
+      "id": "31-05_2_front-ax-q05"
+    },
+    {
+      "question": "What type of nuts should be replaced on the control arms?",
+      "answer": "Replace self-locking nuts on the control arms.",
+      "question_type": "factual",
+      "id": "31-05_2_front-ax-q06"
+    },
+    {
+      "question": "Which components need to be unscrewed for engine and steering gear removal?",
+      "answer": "Unscrew engine mounts and steering gear.",
+      "question_type": "procedural",
+      "id": "31-05_2_front-ax-q07"
+    },
+    {
+      "question": "What type of nuts should be replaced for the engine mounts and steering gear?",
+      "answer": "Replace self-locking nuts for the engine mounts and steering gear.",
+      "question_type": "factual",
+      "id": "31-05_2_front-ax-q08"
+    },
+    {
+      "question": "What sections contain the tightening torque specifications?",
+      "answer": "See Specifications of Groups 31 and 32 for tightening torque specifications.",
+      "question_type": "navigation",
+      "id": "31-05_2_front-ax-q09"
+    },
+    {
+      "question": "What is the first step shown in the procedure?",
+      "answer": "Unscrew left and right stabilizer mounts.",
+      "question_type": "procedural",
+      "id": "31-05_2_front-ax-q10"
+    },
+    {
+      "question": "What critical warning is given about the tapered joints during control arm installation?",
+      "answer": "The rubber parts of tapered joints must not be turned wrong during installation.",
+      "question_type": "safety",
+      "id": "31-05_2_front-ax-q11"
+    },
+    {
+      "question": "What bolts need to be unscrewed to remove the front axle carrier?",
+      "answer": "Unscrew bolts and lower front axle carrier.",
+      "question_type": "procedural",
+      "id": "31-05_2_front-ax-q12"
+    }
+  ]
+}

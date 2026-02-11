@@ -1,0 +1,91 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/5126A-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:00:49.724460",
+    "prompt_template": "electrical_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 826
+  },
+  "qa_pairs": [
+    {
+      "question": "What fuse number provides power to the Lock Motor?",
+      "answer": "Fuse 27 provides voltage from Fuse 27 to the Lock Motor.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q01"
+    },
+    {
+      "question": "What jumper connections should be made for the Control Unit Lock Test in Table 3?",
+      "answer": "For the Control Unit Lock Test, jumpers should be connected between terminals 1 & 3 and between terminals 2 & 4.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q02"
+    },
+    {
+      "question": "What is the correct result when performing the Control Unit Lock Test?",
+      "answer": "The correct result is that the doors lock when the jumpers are connected between terminals 1 & 3 and 2 & 4.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q03"
+    },
+    {
+      "question": "Which terminal of the Central Locking Control Unit is grounded when the key is turned counterclockwise?",
+      "answer": "Terminal 6 of the Central Locking Control Unit is grounded through the Lock Switch when the key is turned counterclockwise.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q04"
+    },
+    {
+      "question": "What jumper connection is used for the Unlock Inhibit Test?",
+      "answer": "For the Unlock Inhibit Test, a jumper is connected between terminal 10 and Ground.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q05"
+    },
+    {
+      "question": "What should happen when the Unlock Inhibit Test is performed correctly?",
+      "answer": "The correct result is that the doors double lock when the jumper is connected between terminal 10 and Ground.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q06"
+    },
+    {
+      "question": "At what impact threshold does the Inertia Switch close?",
+      "answer": "The Inertia Switch closes on impact greater than 5g.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q07"
+    },
+    {
+      "question": "What terminal is grounded when the Central Locking Control Unit is in the Unlock Inhibit position?",
+      "answer": "Terminal 10 is grounded when the Central Locking Control Unit is in the Unlock Inhibit position.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q08"
+    },
+    {
+      "question": "How does the Trunk Lock operate compared to other locks in the system?",
+      "answer": "The Trunk Lock operates in a manner similar to the Door Locks.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q09"
+    },
+    {
+      "question": "What should you do if the Control Unit Lock Test result is correct?",
+      "answer": "If the result is correct, replace the Central Locking Control Unit.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q10"
+    },
+    {
+      "question": "Which terminal does the Lock Motor get grounded through in the Central Locking Control Unit?",
+      "answer": "The Lock Motor is grounded through the Central Locking Control Unit terminal 2.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q11"
+    },
+    {
+      "question": "What wire should be checked from terminal 11 during the Unlock Inhibit Test troubleshooting?",
+      "answer": "Check the wires from terminal 11 for opens according to the schematic.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-03-q12"
+    }
+  ]
+}

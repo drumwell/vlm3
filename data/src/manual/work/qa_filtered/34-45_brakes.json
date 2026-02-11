@@ -1,0 +1,79 @@
+{
+  "page_id": "34-45_brakes",
+  "image_path": "raw/34 - Brakes/34-45.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:26:32.993077",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 840
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check if the ABS control lamp comes on immediately after starting the engine?",
+      "answer": "Check pin 16 on ABS wire harness plug for ground contact. The possible causes are hydraulic control unit operating voltage or power supply issues, or the acceleration sender has ground contact.",
+      "question_type": "diagnostic",
+      "id": "34-45_brakes-q01"
+    },
+    {
+      "question": "If the ABS control lamp stays on for 15 to 20 seconds after starting the engine while the car is stopped and engine running at idle speed, what could be the cause?",
+      "answer": "The cause is a break in the 'idle speed boost' current path. Check for a break in connection between ABS wire harness plug pin 3 and solenoid ground.",
+      "question_type": "troubleshooting",
+      "id": "34-45_brakes-q02"
+    },
+    {
+      "question": "What causes the ABS control lamp to stay on at high engine speed of a stopped car or longer lasting ABS control after stopping the car?",
+      "answer": "The cause is dispersion in sensor wire. Check routing of wires for ABS sensors.",
+      "question_type": "troubleshooting",
+      "id": "34-45_brakes-q03"
+    },
+    {
+      "question": "If the ABS control lamp comes on after exceeding approximately 12 km/h (7.5 mph), what should I test?",
+      "answer": "The cause is return delivery pump motor electronics. Use the Service Tester to diagnose this issue.",
+      "question_type": "diagnostic",
+      "id": "34-45_brakes-q04"
+    },
+    {
+      "question": "What are the two possible causes when the ABS control lamp comes on about 15 to 20 seconds after moving off at road speeds greater than 3 km/h (2 mph)?",
+      "answer": "The two possible causes are: 1) Break in acceleration sender current path, or 2) Sensor fault (break in wire).",
+      "question_type": "troubleshooting",
+      "id": "34-45_brakes-q05"
+    },
+    {
+      "question": "How should I test for acceleration sender current path problems?",
+      "answer": "Check pin 16 on ABS wire harness plug or connections 2 and 3 on acceleration sender, and check plug connections in particular using the Service Tester.",
+      "question_type": "procedural",
+      "id": "34-45_brakes-q06"
+    },
+    {
+      "question": "What specific BMW model and ABS system is this troubleshooting guide for?",
+      "answer": "This troubleshooting guide is for the BMW 325 iX ABS system, specifically addressing the issue when the ABS lamp comes on after repeated cancellation by starting the engine.",
+      "question_type": "factual",
+      "id": "34-45_brakes-q07"
+    },
+    {
+      "question": "What tool is recommended for testing ABS system issues?",
+      "answer": "The Service Tester is the recommended tool for diagnosing ABS system issues.",
+      "question_type": "tool",
+      "id": "34-45_brakes-q08"
+    },
+    {
+      "question": "What should I check if there's a sensor fault with a break in wire?",
+      "answer": "Check pin 16 on ABS wire harness plug or connections 2 and 3 on acceleration sender, and check plug connections in particular using the Service Tester.",
+      "question_type": "diagnostic",
+      "id": "34-45_brakes-q09"
+    },
+    {
+      "question": "What type of fault diagnosis does this page cover?",
+      "answer": "This page covers fault diagnosis with the engine switched off, specifically troubleshooting ABS control lamp issues on the 325 iX.",
+      "question_type": "factual",
+      "id": "34-45_brakes-q10"
+    }
+  ]
+}

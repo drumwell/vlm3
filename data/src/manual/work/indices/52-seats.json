@@ -1,0 +1,60 @@
+{
+  "section_id": "52",
+  "section_name": "Seats",
+  "index_pages": [
+    "52-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "100",
+      "name": "Seat rails (outer or inner) on front seat - remove and install or replace",
+      "pages": [
+        "52-101"
+      ]
+    },
+    {
+      "code": "210",
+      "name": "Reclining mechanism on left or right front seat - remove and install or replace",
+      "pages": [
+        "52-102"
+      ]
+    },
+    {
+      "code": "450",
+      "name": "Back panel on left or right front seat backrest - remove and install",
+      "pages": [
+        "52-103"
+      ]
+    },
+    {
+      "code": "52 10 000",
+      "name": "Front seat - remove and install",
+      "pages": [
+        "52-101"
+      ]
+    },
+    {
+      "code": "52 20 000",
+      "name": "Rear seat cushion and backrest - remove and install",
+      "pages": [
+        "52-201"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "52-101": [
+      "100",
+      "52 10 000"
+    ],
+    "52-102": [
+      "210"
+    ],
+    "52-103": [
+      "450"
+    ],
+    "52-201": [
+      "52 20 000"
+    ]
+  },
+  "merge_warnings": []
+}

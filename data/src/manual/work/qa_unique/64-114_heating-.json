@@ -1,0 +1,73 @@
+{
+  "page_id": "64-114_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-114.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:55:27.619063",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 739
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing the operating motor for fresh air/circulating air flaps?",
+      "answer": "Disconnect battery ground lead.",
+      "question_type": "procedural",
+      "id": "64-114_heating--q01"
+    },
+    {
+      "question": "What components need to be removed from the control panel to access the operating motor?",
+      "answer": "Remove mask for radio opening or radio, pull covers (1) or switches (2) out of control panel, and pull plugs (3) off of switches (2).",
+      "question_type": "procedural",
+      "id": "64-114_heating--q02"
+    },
+    {
+      "question": "What do the numbered callouts 1, 2, and 3 indicate in the control panel diagram?",
+      "answer": "Callout 1 indicates covers, callout 2 indicates switches, and callout 3 indicates plugs that connect to the switches.",
+      "question_type": "visual",
+      "id": "64-114_heating--q03"
+    },
+    {
+      "question": "How do you remove the control panel after accessing the components?",
+      "answer": "Unscrew screws and pull out the control panel slightly.",
+      "question_type": "procedural",
+      "id": "64-114_heating--q04"
+    },
+    {
+      "question": "How do you remove the operating motor from its housing?",
+      "answer": "Unscrew bolts and take off operating motor with holder.",
+      "question_type": "procedural",
+      "id": "64-114_heating--q06"
+    },
+    {
+      "question": "What is the installation procedure for the operating motor holder?",
+      "answer": "Engage holder in housing tab.",
+      "question_type": "procedural",
+      "id": "64-114_heating--q07"
+    },
+    {
+      "question": "How do you separate the operating motor from its holder?",
+      "answer": "Unscrew bolts and take operating motor off of holder.",
+      "question_type": "procedural",
+      "id": "64-114_heating--q08"
+    },
+    {
+      "question": "What adjustment must be made to the operating rod?",
+      "answer": "The length of the operating rod must be adjusted in such a manner that the fresh air/circulating air flaps can be opened and closed completely by the operating motor.",
+      "question_type": "procedural",
+      "id": "64-114_heating--q09"
+    },
+    {
+      "question": "What type of connection method is used between the operating rod and the motor?",
+      "answer": "The operating rod connects to the motor through a ball head connection.",
+      "question_type": "factual",
+      "id": "64-114_heating--q12"
+    }
+  ]
+}

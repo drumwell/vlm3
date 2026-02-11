@@ -1,0 +1,91 @@
+{
+  "page_id": "23-103_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-103.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:25:39.484790",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 784
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for the special tool used to mount transmission 23 00 022?",
+      "answer": "The special tool part number is 23 0 090, which mounts on Special Tool 00 1 490.",
+      "question_type": "factual",
+      "id": "23-103_manual-t-q01"
+    },
+    {
+      "question": "What should be done with the oil when mounting the transmission on the special tool assembly?",
+      "answer": "The oil should be drained when mounting the transmission on the special tool assembly.",
+      "question_type": "procedural",
+      "id": "23-103_manual-t-q02"
+    },
+    {
+      "question": "What part number guide sleeve needs to be removed and what step follows?",
+      "answer": "Remove guide sleeve 23 11 624, then lift out circlip (1).",
+      "question_type": "procedural",
+      "id": "23-103_manual-t-q03"
+    },
+    {
+      "question": "What important installation note is given regarding the magnet in the case rear section?",
+      "answer": "The magnet (2) in case rear section must be cleaned during installation.",
+      "question_type": "safety",
+      "id": "23-103_manual-t-q04"
+    },
+    {
+      "question": "What components need to be unscrewed when removing the backup light switch?",
+      "answer": "Unscrew the backup light switch, drive back cylindrical pins, and unscrew bolts.",
+      "question_type": "procedural",
+      "id": "23-103_manual-t-q05"
+    },
+    {
+      "question": "What special tool is required to pull off the case front section?",
+      "answer": "Special Tool 23 1 460 and 23 1 301 are required to pull off the case front section.",
+      "question_type": "tool",
+      "id": "23-103_manual-t-q06"
+    },
+    {
+      "question": "What should be done with the gasket when installing the case front section?",
+      "answer": "Replace the gasket during installation of the case front section.",
+      "question_type": "procedural",
+      "id": "23-103_manual-t-q07"
+    },
+    {
+      "question": "What Loctite number should be used when replacing the end cap?",
+      "answer": "Use Loctite No. 573 when replacing the end cap and inserting it.",
+      "question_type": "factual",
+      "id": "23-103_manual-t-q08"
+    },
+    {
+      "question": "In what direction should the grooved ball bearing be driven out?",
+      "answer": "The grooved ball bearing should be driven out in the direction of the clutch housing.",
+      "question_type": "procedural",
+      "id": "23-103_manual-t-q09"
+    },
+    {
+      "question": "What is shown in diagram callout number 3?",
+      "answer": "Callout number 3 shows the end cap that needs to be driven out during the procedure.",
+      "question_type": "visual",
+      "id": "23-103_manual-t-q10"
+    },
+    {
+      "question": "What is the main procedure covered in section 23 11 014?",
+      "answer": "Section 23 11 014 covers removing and installing sealing transmission case front section.",
+      "question_type": "factual",
+      "id": "23-103_manual-t-q11"
+    },
+    {
+      "question": "What component is identified by callout number 1 in the transmission case diagram?",
+      "answer": "Callout number 1 identifies the circlip that needs to be lifted out after removing the guide sleeve.",
+      "question_type": "visual",
+      "id": "23-103_manual-t-q12"
+    }
+  ]
+}

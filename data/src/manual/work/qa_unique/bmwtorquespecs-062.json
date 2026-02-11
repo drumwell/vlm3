@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-062",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/062.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:24:08.411312",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 575
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the wiring harness on electrical cutout device?",
+      "answer": "2.5 Nm with M5 screw size.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-062-q01"
+    },
+    {
+      "question": "What screw size is used for the wiring harness connection on distributor?",
+      "answer": "M8 screw size.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-062-q02"
+    },
+    {
+      "question": "What are the column headers shown in this torque specification table?",
+      "answer": "Type, Screw, Measure, and Unit.",
+      "question_type": "visual",
+      "id": "bmwtorquespecs-062-q07"
+    },
+    {
+      "question": "How many different wiring harness connections are specified in this table?",
+      "answer": "Two connections: wiring harness on electrical cutout device (1AZ) and wiring harness connection on distributor (2AZ).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-062-q08"
+    },
+    {
+      "question": "What unit of measurement is used for all torque values in this table?",
+      "answer": "Nm (Newton meters).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-062-q09"
+    }
+  ]
+}

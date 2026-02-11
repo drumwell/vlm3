@@ -1,0 +1,457 @@
+{
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "index_pages": [
+    "12-00-index-a.jpg",
+    "12-00-index-b.jpg",
+    "12-00-index-c.jpg",
+    "12-00-index-d.jpg",
+    "12-00-index-e.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "---",
+      "name": "Cylinder identifying transmitter - replace",
+      "pages": [
+        "12 - 132/1",
+        "12 - 143",
+        "12 - 152"
+      ]
+    },
+    {
+      "code": "...",
+      "name": "Starter components - inspect",
+      "pages": [
+        "12-53"
+      ]
+    },
+    {
+      "code": "009",
+      "name": "Alternator and voltage regulator - check",
+      "pages": [
+        "12 - 141",
+        "12-41"
+      ]
+    },
+    {
+      "code": "011",
+      "name": "Ignition coil - replace",
+      "pages": [
+        "12-6"
+      ]
+    },
+    {
+      "code": "020",
+      "name": "Alternator - remove and install",
+      "pages": [
+        "12 - 142",
+        "12 - 151",
+        "12-42",
+        "12-51"
+      ]
+    },
+    {
+      "code": "041",
+      "name": "Solenoid switch - replace",
+      "pages": [
+        "12 - 152",
+        "12-51"
+      ]
+    },
+    {
+      "code": "060",
+      "name": "Distributor - remove and install",
+      "pages": [
+        "12-2"
+      ]
+    },
+    {
+      "code": "071",
+      "name": "Spark plug connectors - replace",
+      "pages": [
+        "12 - 132"
+      ]
+    },
+    {
+      "code": "072",
+      "name": "Spark plug connectors - replace",
+      "pages": [
+        "12 - 132/2"
+      ]
+    },
+    {
+      "code": "091",
+      "name": "Distributor cap - replace / check",
+      "pages": [
+        "12 - 130"
+      ]
+    },
+    {
+      "code": "103",
+      "name": "Starter - disassemble and assemble",
+      "pages": [
+        "12-52"
+      ]
+    },
+    {
+      "code": "111",
+      "name": "Distributor rotor - replace / check",
+      "pages": [
+        "12 - 131"
+      ]
+    },
+    {
+      "code": "12 00",
+      "name": "Engine electric/electronic quick test (DME)",
+      "pages": [
+        "12-108/1"
+      ]
+    },
+    {
+      "code": "12 11",
+      "name": "Digital motor electronics (DME) - troubleshoot",
+      "pages": [
+        "12-110"
+      ]
+    },
+    {
+      "code": "12 11 005",
+      "name": "Ignition timing - adjust",
+      "pages": [
+        "12-1a"
+      ]
+    },
+    {
+      "code": "12 11 031",
+      "name": "TDC position transmitter - replace / check",
+      "pages": [
+        "12 - 130"
+      ]
+    },
+    {
+      "code": "12 12 011",
+      "name": "Spark plugs - replace",
+      "pages": [
+        "12 - 131/1"
+      ]
+    },
+    {
+      "code": "12 12 072",
+      "name": "Spark plug connectors - replace",
+      "pages": [
+        "12-5"
+      ]
+    },
+    {
+      "code": "12 13 009",
+      "name": "Ignition coil - check",
+      "pages": [
+        "12 - 133",
+        "12-6"
+      ]
+    },
+    {
+      "code": "12 13 011",
+      "name": "Ignition coil - replace",
+      "pages": [
+        "12 - 133"
+      ]
+    },
+    {
+      "code": "12 14 010",
+      "name": "TCI control unit - remove and install",
+      "pages": [
+        "12-7"
+      ]
+    },
+    {
+      "code": "12 14 510/",
+      "name": "Speed and reference mark sensors - replace / check",
+      "pages": [
+        "12 - 134"
+      ]
+    },
+    {
+      "code": "12 31",
+      "name": "Alternator - troubleshoot",
+      "pages": [
+        "12-40"
+      ]
+    },
+    {
+      "code": "12 31 ---",
+      "name": "Alternator - troubleshoot",
+      "pages": [
+        "12 - 140"
+      ]
+    },
+    {
+      "code": "12 32 000",
+      "name": "Voltage regulator - replace",
+      "pages": [
+        "12 - 143/2",
+        "12-46"
+      ]
+    },
+    {
+      "code": "12 41",
+      "name": "Starter - troubleshoot",
+      "pages": [
+        "12-50"
+      ]
+    },
+    {
+      "code": "12 41 ---",
+      "name": "Starter - troubleshoot",
+      "pages": [
+        "12 - 150"
+      ]
+    },
+    {
+      "code": "12 41 551",
+      "name": "Carbon brushes - replace (starter removed and disassembled)",
+      "pages": [
+        "12-155"
+      ]
+    },
+    {
+      "code": "12 63 075",
+      "name": "Vacuum advance control - check",
+      "pages": [
+        "12-9"
+      ]
+    },
+    {
+      "code": "150",
+      "name": "Pulse transmitter in distributor - check",
+      "pages": [
+        "12-3"
+      ]
+    },
+    {
+      "code": "151",
+      "name": "Pulse transmitter in distributor - replace",
+      "pages": [
+        "12-3"
+      ]
+    },
+    {
+      "code": "200",
+      "name": "Carbon brushes - replace",
+      "pages": [
+        "12-46"
+      ]
+    },
+    {
+      "code": "201",
+      "name": "Vacuum control - replace / check",
+      "pages": [
+        "12-4"
+      ]
+    },
+    {
+      "code": "299",
+      "name": "Alternator drive belt - tighten",
+      "pages": [
+        "12-42"
+      ]
+    },
+    {
+      "code": "513",
+      "name": "Alternator - disassemble and assemble",
+      "pages": [
+        "12 - 142/1",
+        "12 - 153",
+        "12 - 154",
+        "12-43"
+      ]
+    },
+    {
+      "code": "515",
+      "name": "Pulse transmitter (M 20) - replace / check",
+      "pages": [
+        "12 - 135"
+      ]
+    },
+    {
+      "code": "551",
+      "name": "Carbon brushes - replace",
+      "pages": [
+        "12-53"
+      ]
+    },
+    {
+      "code": "561",
+      "name": "Ball bearing - replace",
+      "pages": [
+        "12-44"
+      ]
+    },
+    {
+      "code": "581",
+      "name": "Ball bearing - replace",
+      "pages": [
+        "12 - 142/3"
+      ]
+    },
+    {
+      "code": "691",
+      "name": "Diode plate - replace",
+      "pages": [
+        "12 - 143/1",
+        "12-44"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "12 - 132/1": [
+      "---"
+    ],
+    "12 - 143": [
+      "---"
+    ],
+    "12 - 152": [
+      "---",
+      "041"
+    ],
+    "12-53": [
+      "...",
+      "551"
+    ],
+    "12 - 141": [
+      "009"
+    ],
+    "12-41": [
+      "009"
+    ],
+    "12-6": [
+      "011",
+      "12 13 009"
+    ],
+    "12 - 142": [
+      "020"
+    ],
+    "12 - 151": [
+      "020"
+    ],
+    "12-42": [
+      "020",
+      "299"
+    ],
+    "12-51": [
+      "020",
+      "041"
+    ],
+    "12-2": [
+      "060"
+    ],
+    "12 - 132": [
+      "071"
+    ],
+    "12 - 132/2": [
+      "072"
+    ],
+    "12 - 130": [
+      "091",
+      "12 11 031"
+    ],
+    "12-52": [
+      "103"
+    ],
+    "12 - 131": [
+      "111"
+    ],
+    "12-108/1": [
+      "12 00"
+    ],
+    "12-110": [
+      "12 11"
+    ],
+    "12-1a": [
+      "12 11 005"
+    ],
+    "12 - 131/1": [
+      "12 12 011"
+    ],
+    "12-5": [
+      "12 12 072"
+    ],
+    "12 - 133": [
+      "12 13 009",
+      "12 13 011"
+    ],
+    "12-7": [
+      "12 14 010"
+    ],
+    "12 - 134": [
+      "12 14 510/"
+    ],
+    "12-40": [
+      "12 31"
+    ],
+    "12 - 140": [
+      "12 31 ---"
+    ],
+    "12 - 143/2": [
+      "12 32 000"
+    ],
+    "12-46": [
+      "12 32 000",
+      "200"
+    ],
+    "12-50": [
+      "12 41"
+    ],
+    "12 - 150": [
+      "12 41 ---"
+    ],
+    "12-155": [
+      "12 41 551"
+    ],
+    "12-9": [
+      "12 63 075"
+    ],
+    "12-3": [
+      "150",
+      "151"
+    ],
+    "12-4": [
+      "201"
+    ],
+    "12 - 142/1": [
+      "513"
+    ],
+    "12 - 153": [
+      "513"
+    ],
+    "12 - 154": [
+      "513"
+    ],
+    "12-43": [
+      "513"
+    ],
+    "12 - 135": [
+      "515"
+    ],
+    "12-44": [
+      "561",
+      "691"
+    ],
+    "12 - 142/3": [
+      "581"
+    ],
+    "12 - 143/1": [
+      "691"
+    ]
+  },
+  "merge_warnings": [
+    "Code 020: name mismatch 'Alternator - remove and install' vs 'Starter - remove and install'",
+    "Code ---: name mismatch 'Cylinder identifying transmitter - replace' vs 'Alternator - Bosch electric test'",
+    "Code 12 32 000: name mismatch 'Voltage regulator - replace' vs 'Voltage regulator - remove and install / replace'",
+    "Code 020: name mismatch 'Alternator - remove and install' vs 'Starter - remove and install'",
+    "Code 041: name mismatch 'Solenoid switch - replace' vs 'Solenoid - replace'",
+    "Code ---: name mismatch 'Cylinder identifying transmitter - replace' vs 'Starter components - check (electric test)'",
+    "Code 513: name mismatch 'Alternator - disassemble and assemble' vs 'Starter - disassemble and assemble (starter removed)'",
+    "Code 513: name mismatch 'Alternator - disassemble and assemble' vs 'Starter layshaft - disassemble and assemble (starter removed)'"
+  ]
+}

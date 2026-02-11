@@ -1,0 +1,85 @@
+{
+  "page_id": "51-716_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-716.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:31:55.151958",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 722
+  },
+  "qa_pairs": [
+    {
+      "question": "What must be removed before replacing the rear flying stone guard?",
+      "answer": "Remove rear bumper - see 51 12 000. Lift out plastic rivets in wheel house.",
+      "question_type": "procedural",
+      "id": "51-716_body-equ-q02"
+    },
+    {
+      "question": "What special preparation is required for grommets before installation?",
+      "answer": "Grommets must be softened in water for some time prior to installation.",
+      "question_type": "procedural",
+      "id": "51-716_body-equ-q03"
+    },
+    {
+      "question": "What is the distance A measurement for drilling holes in the new rear side panel?",
+      "answer": "Distance A = 29.5 mm (1.161\").",
+      "question_type": "factual",
+      "id": "51-716_body-equ-q04"
+    },
+    {
+      "question": "What size holes should be drilled and what tool size is needed for punch centers?",
+      "answer": "Punch centers, drill 9 mm (0.354\") dia. holes, deburr and coat edges of holes with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "51-716_body-equ-q05"
+    },
+    {
+      "question": "What must be done after drilling the holes in the new panel?",
+      "answer": "Deburr and coat edges of holes with zinc dust paint. Pull off drilling template.",
+      "question_type": "procedural",
+      "id": "51-716_body-equ-q06"
+    },
+    {
+      "question": "How should plastic rivets be installed according to the installation instructions?",
+      "answer": "Install plastic rivets with Special Tool.",
+      "question_type": "procedural",
+      "id": "51-716_body-equ-q07"
+    },
+    {
+      "question": "What components need to be lifted out when removing expansion rivets?",
+      "answer": "Lift out expansion rivets. Pull off guard. Lift out grommets for expansion rivets.",
+      "question_type": "procedural",
+      "id": "51-716_body-equ-q08"
+    },
+    {
+      "question": "What is the installation procedure for the sealing cord?",
+      "answer": "Pull new sealing cord into guard.",
+      "question_type": "procedural",
+      "id": "51-716_body-equ-q09"
+    },
+    {
+      "question": "What components are installed in the final step shown for the flying stone guard?",
+      "answer": "Insert new plugs in guard. Install seal.",
+      "question_type": "procedural",
+      "id": "51-716_body-equ-q10"
+    },
+    {
+      "question": "What drilling template procedure is specified for the new rear side panel?",
+      "answer": "Paste on drilling template along the edge.",
+      "question_type": "procedural",
+      "id": "51-716_body-equ-q11"
+    },
+    {
+      "question": "What must be done when holes need to be drilled in a new part prior to painting?",
+      "answer": "Holes must be drilled in new part prior to painting when replacing the rear side panel.",
+      "question_type": "procedural",
+      "id": "51-716_body-equ-q12"
+    }
+  ]
+}

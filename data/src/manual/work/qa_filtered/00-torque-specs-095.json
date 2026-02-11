@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-095",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/095.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:34:01.397046",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 673
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the transmission to clutch housing bolts?",
+      "answer": "76 Nm using M12 screws for all transmission types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-095-q01"
+    },
+    {
+      "question": "What size screws are used for the reinforcement plate to transmission connection?",
+      "answer": "M8 screws are used for the reinforcement plate to transmission connection.",
+      "question_type": "factual",
+      "id": "00-torque-specs-095-q02"
+    },
+    {
+      "question": "What is the torque value for the reinforcement plate to transmission bolts?",
+      "answer": "23 Nm for all transmission types using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-095-q03"
+    },
+    {
+      "question": "How much torque should be applied to the oil drain plug/filler plug?",
+      "answer": "50 Nm for all transmission types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-095-q04"
+    },
+    {
+      "question": "What torque specification applies to the S 6 S 560 G transmission type for the oil drain plug?",
+      "answer": "52 Nm for the S 6 S 560 G transmission type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-095-q05"
+    },
+    {
+      "question": "What section and subsection does this torque specification table cover?",
+      "answer": "This covers section 23-2 Manual transmission, subsection 23 00 Transmission Assembly.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-095-q08"
+    },
+    {
+      "question": "Which fastener size provides the strongest connection in the transmission assembly?",
+      "answer": "The M12 screws used for the transmission to clutch housing connection provide the strongest connection with 76 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-095-q09"
+    },
+    {
+      "question": "What are the reference codes for the transmission assembly components listed?",
+      "answer": "The reference codes are 2AZ for transmission to clutch housing, 3AZ for reinforcement plate to transmission, and 4AZ for oil drain plug/filler plug.",
+      "question_type": "factual",
+      "id": "00-torque-specs-095-q10"
+    }
+  ]
+}

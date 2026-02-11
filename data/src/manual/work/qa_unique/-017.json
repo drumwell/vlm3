@@ -1,0 +1,85 @@
+{
+  "page_id": "-017",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/017.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:06:25.652441",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 707
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is shown in the image?",
+      "answer": "A metal housing or case assembly with multiple mounting holes and what appears to be a splined shaft or input connection.",
+      "question_type": "component",
+      "id": "-017-q01"
+    },
+    {
+      "question": "How many mounting holes are visible on the component?",
+      "answer": "There are 7 mounting holes visible on the component - 5 on the upper flange and 2 on the lower section.",
+      "question_type": "visual",
+      "id": "-017-q02"
+    },
+    {
+      "question": "What cleaning method was used to restore this component?",
+      "answer": "The cases took many hours with the brass pot scrub and brass wire brush to reach near new condition.",
+      "question_type": "procedural",
+      "id": "-017-q03"
+    },
+    {
+      "question": "What is the current condition of the component after restoration?",
+      "answer": "The component is now in near new condition after the cleaning process.",
+      "question_type": "inspection",
+      "id": "-017-q04"
+    },
+    {
+      "question": "What type of input connection does this component have?",
+      "answer": "The component has a splined shaft input connection visible on the left side.",
+      "question_type": "component",
+      "id": "-017-q05"
+    },
+    {
+      "question": "What tools were mentioned for cleaning this component?",
+      "answer": "A brass pot scrub and brass wire brush were used for cleaning the cases.",
+      "question_type": "tool",
+      "id": "-017-q06"
+    },
+    {
+      "question": "How long did the restoration process take for these cases?",
+      "answer": "The cases took many hours to restore to near new condition.",
+      "question_type": "procedural",
+      "id": "-017-q08"
+    },
+    {
+      "question": "What material appears to make up the component housing?",
+      "answer": "The component appears to be made of cast aluminum or similar metal alloy based on its appearance.",
+      "question_type": "component",
+      "id": "-017-q09"
+    },
+    {
+      "question": "What is the shape of the lower portion of the component?",
+      "answer": "The lower portion has a rectangular or square-shaped housing with two mounting holes.",
+      "question_type": "visual",
+      "id": "-017-q10"
+    },
+    {
+      "question": "What type of restoration standard does the author aim for?",
+      "answer": "The author aims to bring components to factory new condition rather than just fixing them.",
+      "question_type": "factual",
+      "id": "-017-q11"
+    },
+    {
+      "question": "What is the overall configuration of the mounting holes on the upper flange?",
+      "answer": "The upper flange has 5 mounting holes arranged in a circular pattern around the central splined opening.",
+      "question_type": "visual",
+      "id": "-017-q12"
+    }
+  ]
+}

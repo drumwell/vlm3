@@ -1,0 +1,79 @@
+{
+  "page_id": "13-912_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-912.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:57:05.104047",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 795
+  },
+  "qa_pairs": [
+    {
+      "question": "What engine types are covered for DME troubleshooting with the BMW Diagnosing System?",
+      "answer": "The M 20 B 20 and M 20 B 25 engine types are covered for DME troubleshooting with the BMW Diagnosing System.",
+      "question_type": "factual",
+      "id": "13-912_fuel-sys-q01"
+    },
+    {
+      "question": "What is the idle speed specification for both M 20 B 20 and M 20 B 25 engines?",
+      "answer": "The idle speed specification is 760 \u00b1 40 rpm for both M 20 B 20 and M 20 B 25 engines.",
+      "question_type": "parameter",
+      "id": "13-912_fuel-sys-q02"
+    },
+    {
+      "question": "What CO level percentage is specified for the M 20 B 20 engine?",
+      "answer": "The CO level for the M 20 B 20 engine is 0.7 \u00b1 0.5% by volume.",
+      "question_type": "parameter",
+      "id": "13-912_fuel-sys-q03"
+    },
+    {
+      "question": "How do you initiate DME troubleshooting with the BMW Diagnosing System?",
+      "answer": "Insert diskette and connect diagnosing unit on the BMW Service Tester, then select 01 DME. If applicable, carry out brief test with brief test only display whether there are faults in the system.",
+      "question_type": "procedural",
+      "id": "13-912_fuel-sys-q04"
+    },
+    {
+      "question": "What is the load signal specification range for the M 20 B 20 engine?",
+      "answer": "The load signal specification for the M 20 B 20 engine is 2.1 to 2.5 ms.",
+      "question_type": "parameter",
+      "id": "13-912_fuel-sys-q05"
+    },
+    {
+      "question": "What should you do when exchanging a control unit according to the troubleshooting procedure?",
+      "answer": "When exchanging a control unit, also send in a print of the identification (test code).",
+      "question_type": "procedural",
+      "id": "13-912_fuel-sys-q06"
+    },
+    {
+      "question": "What is the shutoff speed specification for both engine types?",
+      "answer": "The shutoff speed specification is 6400 \u00b1 40 rpm for both M 20 B 20 and M 20 B 25 engines.",
+      "question_type": "parameter",
+      "id": "13-912_fuel-sys-q07"
+    },
+    {
+      "question": "Under what temperature conditions should oil temperature be maintained for proper readings?",
+      "answer": "Oil temperature should be greater than 60\u00b0C (140\u00b0F) or coolant temperature greater than 80\u00b0C (175\u00b0F), with no electric equipment switched on, at idle speed.",
+      "question_type": "operation",
+      "id": "13-912_fuel-sys-q08"
+    },
+    {
+      "question": "What fault memory code should you call for additional troubleshooting help?",
+      "answer": "Call fault memory code 900. Status lists may also be called as additional help in troubleshooting.",
+      "question_type": "diagnostic",
+      "id": "13-912_fuel-sys-q09"
+    },
+    {
+      "question": "Where can you find additional information for electrical troubleshooting?",
+      "answer": "Additional information can be found in the Electrical Troubleshooting Manual (E 34).",
+      "question_type": "navigation",
+      "id": "13-912_fuel-sys-q10"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "page_id": "bmwtorquespecs-050",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/050.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:21:57.313137",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 540
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is referenced by code 1AZ in the engine suspension table?",
+      "answer": "Rubber mount to front axle carrier",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-050-q03"
+    },
+    {
+      "question": "Which component is identified by code 2AZ in this torque specification table?",
+      "answer": "Rubber mount to engine console",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-050-q05"
+    },
+    {
+      "question": "What section of the manual does this torque specification table belong to?",
+      "answer": "11 - 40 Engine, specifically 11 81 Engine Suspension",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-050-q07"
+    }
+  ]
+}

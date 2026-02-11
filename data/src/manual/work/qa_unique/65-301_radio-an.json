@@ -1,0 +1,91 @@
+{
+  "page_id": "65-301_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-301.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:02:50.253103",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 818
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the service installing procedure number for cruise control?",
+      "answer": "The service installing procedure number for cruise control is 65 71 000.",
+      "question_type": "factual",
+      "id": "65-301_radio-an-q01"
+    },
+    {
+      "question": "What are the first steps required before beginning the cruise control installation?",
+      "answer": "Disconnect battery ground lead, remove steering wheel 32 33 000, remove instrument panel trim at bottom left - 51 45 180, and remove lower steering column casing section - 32 31 020.",
+      "question_type": "procedural",
+      "id": "65-301_radio-an-q02"
+    },
+    {
+      "question": "What size should the tapped hole be drilled out to?",
+      "answer": "The tapped hole should be drilled out to 5.5 mm (0.216\") diameter.",
+      "question_type": "factual",
+      "id": "65-301_radio-an-q03"
+    },
+    {
+      "question": "What callout number indicates the bolt that needs to be unscrewed in the first image?",
+      "answer": "Callout number (1) indicates the bolt that needs to be unscrewed.",
+      "question_type": "visual",
+      "id": "65-301_radio-an-q04"
+    },
+    {
+      "question": "What type of screw is used to mount the selector switch?",
+      "answer": "The selector switch is mounted with an M 5 x 15 screw and a washer.",
+      "question_type": "factual",
+      "id": "65-301_radio-an-q05"
+    },
+    {
+      "question": "What are the numbered callouts (1), (2), and (3) showing in the third image?",
+      "answer": "Callout (1) shows the selector switch with M 5 x 15 screw, callout (2) shows the ground lead mount, and callout (3) indicates the tabs that must protrude into bores.",
+      "question_type": "visual",
+      "id": "65-301_radio-an-q06"
+    },
+    {
+      "question": "How should the wire harness be routed according to the installation procedure?",
+      "answer": "The wire harness should be routed along the standard wire harnesses.",
+      "question_type": "procedural",
+      "id": "65-301_radio-an-q07"
+    },
+    {
+      "question": "What requirement must be met for the tabs when mounting the selector switch?",
+      "answer": "Both tabs must protrude into bores.",
+      "question_type": "inspection",
+      "id": "65-301_radio-an-q08"
+    },
+    {
+      "question": "What component needs to be mounted along with the ground lead?",
+      "answer": "The ground lead needs to be mounted along with the selector switch installation.",
+      "question_type": "component",
+      "id": "65-301_radio-an-q09"
+    },
+    {
+      "question": "What is the image reference number for the step showing the drilled hole?",
+      "answer": "The image reference number is 30 65 302.",
+      "question_type": "navigation",
+      "id": "65-301_radio-an-q10"
+    },
+    {
+      "question": "In what sequence should the steering components be removed for this procedure?",
+      "answer": "First remove the steering wheel (32 33 000), then the instrument panel trim at bottom left (51 45 180), followed by the lower steering column casing section (32 31 020).",
+      "question_type": "procedural",
+      "id": "65-301_radio-an-q11"
+    },
+    {
+      "question": "What safety precaution is mentioned at the beginning of the procedure?",
+      "answer": "Disconnect the battery ground lead before beginning any work.",
+      "question_type": "safety",
+      "id": "65-301_radio-an-q12"
+    }
+  ]
+}

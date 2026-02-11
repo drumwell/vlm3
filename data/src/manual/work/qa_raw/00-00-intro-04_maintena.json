@@ -1,0 +1,55 @@
+{
+  "page_id": "00-00-intro-04_maintena",
+  "image_path": "raw/00 - Maintenance/00-00-intro-04.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:09:11.684167",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1744,
+    "tokens_output": 377
+  },
+  "qa_pairs": [
+    {
+      "question": "What health risk is associated with inhaling fine asbestos dust?",
+      "answer": "Inhaling fine asbestos dust could impair health.",
+      "question_type": "safety",
+      "id": "00-00-intro-04_maintena-q01"
+    },
+    {
+      "question": "Where should work with asbestos parts be performed?",
+      "answer": "Only work outdoors or in well ventilated rooms.",
+      "question_type": "safety",
+      "id": "00-00-intro-04_maintena-q02"
+    },
+    {
+      "question": "What type of equipment should be used when working with asbestos parts?",
+      "answer": "Only use manually operated or slow running equipment, with dust extracting equipment if necessary! Only operate fast running equipment with dust extracting attachments.",
+      "question_type": "safety",
+      "id": "00-00-intro-04_maintena-q03"
+    },
+    {
+      "question": "What should you never do with brake and clutch parts containing asbestos?",
+      "answer": "Never blow out brake and clutch parts.",
+      "question_type": "safety",
+      "id": "00-00-intro-04_maintena-q04"
+    },
+    {
+      "question": "How should asbestos dust be handled during work?",
+      "answer": "Moisten dust, fill in containers which can be sealed perfectly and scrap in a manner which prevents danger.",
+      "question_type": "safety",
+      "id": "00-00-intro-04_maintena-q05"
+    },
+    {
+      "question": "What must be done with asbestos waste and scrapped parts?",
+      "answer": "Asbestos waste and scrapped parts must be collected in perfectly sealed containers marked accordingly and then eliminated without danger for human beings or the environment.",
+      "question_type": "safety",
+      "id": "00-00-intro-04_maintena-q06"
+    }
+  ]
+}

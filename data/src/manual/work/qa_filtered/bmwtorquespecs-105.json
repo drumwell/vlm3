@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-105",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/105.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:32:21.059644",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 651
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil pan on a 4HP-22/4HP-24/A5S 310Z transmission?",
+      "answer": "6 Nm using M6 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-105-q01"
+    },
+    {
+      "question": "What screw size and torque is specified for the oil drain plug on all transmission types?",
+      "answer": "M10 screw with 16 Nm torque.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-105-q03"
+    },
+    {
+      "question": "What is the highest torque specification shown for any oil filler plug in this table?",
+      "answer": "100 Nm for the A5S 310Z/A5S 560Z transmission oil filler plug.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-105-q04"
+    },
+    {
+      "question": "Which transmission type requires 50 Nm torque for the oil drain plug?",
+      "answer": "A5S 560Z transmission.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-105-q05"
+    },
+    {
+      "question": "What screw thread specification is used for the A5S 440Z oil drain plug?",
+      "answer": "M16x1.5 thread with 30 Nm torque.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-105-q06"
+    },
+    {
+      "question": "What is the torque specification for the oil pan on an A4S 270R/A4S 310R transmission?",
+      "answer": "12 Nm using M6 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-105-q07"
+    },
+    {
+      "question": "Which component has the reference number 7AZ in this torque specification table?",
+      "answer": "Oil filler plug.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-105-q08"
+    },
+    {
+      "question": "What torque value is specified for the oil filler plug on an A5S 440Z transmission?",
+      "answer": "35 Nm using M18x1.5 thread.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-105-q09"
+    },
+    {
+      "question": "What is the lowest torque specification shown in this automatic transmission table?",
+      "answer": "6 Nm for the oil pan on 4HP-22/4HP-24/A5S 310Z transmissions.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-105-q10"
+    }
+  ]
+}

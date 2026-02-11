@@ -1,0 +1,85 @@
+{
+  "page_id": "31-11_2_front-ax",
+  "image_path": "raw/31 - Front Axle/31-11_2.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:02:37.907018",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 726
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW part number shown in the image for the support spring strut?",
+      "answer": "The part number shown is 30 31 577.",
+      "question_type": "factual",
+      "id": "31-11_2_front-ax-q01"
+    },
+    {
+      "question": "What is the first step when installing the support spring strut?",
+      "answer": "The first step is to unscrew the nuts.",
+      "question_type": "procedural",
+      "id": "31-11_2_front-ax-q03"
+    },
+    {
+      "question": "What type of nuts should be used during installation of the support spring strut?",
+      "answer": "Self-locking nuts should be replaced during installation.",
+      "question_type": "procedural",
+      "id": "31-11_2_front-ax-q04"
+    },
+    {
+      "question": "Where can I find the tightening torque specification for the support spring strut nuts?",
+      "answer": "The tightening torque specification can be found in the Specifications section, as indicated by the asterisk and note at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "31-11_2_front-ax-q05"
+    },
+    {
+      "question": "What does the arrow in the diagram point to?",
+      "answer": "The arrow in the diagram points to the area where the nuts are located on the support spring strut.",
+      "question_type": "visual",
+      "id": "31-11_2_front-ax-q06"
+    },
+    {
+      "question": "What page number is this from the service manual?",
+      "answer": "This is page 31-11.2 from the service manual.",
+      "question_type": "factual",
+      "id": "31-11_2_front-ax-q07"
+    },
+    {
+      "question": "Should the original nuts be reused when installing the support spring strut?",
+      "answer": "No, the self-locking nuts should be replaced with new ones during installation.",
+      "question_type": "procedural",
+      "id": "31-11_2_front-ax-q08"
+    },
+    {
+      "question": "What is the recommended procedure for the nuts during installation?",
+      "answer": "Replace the self-locking nuts and tighten to the specified torque found in the Specifications section.",
+      "question_type": "procedural",
+      "id": "31-11_2_front-ax-q09"
+    },
+    {
+      "question": "What reference number is shown at the bottom of the page?",
+      "answer": "The reference number shown at the bottom is \"See Specifications\" with an asterisk.",
+      "question_type": "navigation",
+      "id": "31-11_2_front-ax-q10"
+    },
+    {
+      "question": "What type of fasteners are specifically mentioned for replacement?",
+      "answer": "Self-locking nuts are specifically mentioned for replacement.",
+      "question_type": "factual",
+      "id": "31-11_2_front-ax-q11"
+    },
+    {
+      "question": "What should be done with the tightening torque when installing the support spring strut?",
+      "answer": "The nuts should be tightened to the torque specification found in the Specifications section.",
+      "question_type": "procedural",
+      "id": "31-11_2_front-ax-q12"
+    }
+  ]
+}

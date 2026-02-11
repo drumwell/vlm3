@@ -1,0 +1,73 @@
+{
+  "page_id": "41-202_body",
+  "image_path": "raw/41 - Body/41-202.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:50:23.639669",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 747
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be applied to mating surfaces that are required for spot welding?",
+      "answer": "Zinc dust paint should be applied to mating surfaces required for spot welding.",
+      "question_type": "procedural",
+      "id": "41-202_body-q01"
+    },
+    {
+      "question": "What type of welding is used for the B pillar installation?",
+      "answer": "Both plug spot welding and inert gas welding are used for B pillar installation.",
+      "question_type": "factual",
+      "id": "41-202_body-q02"
+    },
+    {
+      "question": "What step should be performed before plug spot welding the B pillar?",
+      "answer": "Drill holes for plug spot welding in mating surfaces required for plug spot welding.",
+      "question_type": "procedural",
+      "id": "41-202_body-q03"
+    },
+    {
+      "question": "Where are the inert gas welds applied on the roof frame?",
+      "answer": "Inert gas welds are applied on both the roof frame and the bottom joint.",
+      "question_type": "factual",
+      "id": "41-202_body-q04"
+    },
+    {
+      "question": "What should be done after installing the B pillar but before final welding?",
+      "answer": "Install rear door and check gaps.",
+      "question_type": "procedural",
+      "id": "41-202_body-q06"
+    },
+    {
+      "question": "What type of joint is shown being welded in the bottom image?",
+      "answer": "A plug spot weld joint on cover for side member.",
+      "question_type": "visual",
+      "id": "41-202_body-q08"
+    },
+    {
+      "question": "What preparation is required on the new B pillar before installation?",
+      "answer": "Grind mating surfaces on new B pillar and coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-202_body-q09"
+    },
+    {
+      "question": "What welding method is used for the final B pillar attachment shown in image 30 41 355?",
+      "answer": "Spot welding is used for the final B pillar attachment on the end plate.",
+      "question_type": "factual",
+      "id": "41-202_body-q11"
+    },
+    {
+      "question": "What sequence should be followed for B pillar installation?",
+      "answer": "First grind and coat mating surfaces, drill holes for plug welding, clamp and tack weld the B pillar, then install rear door to check gaps before final welding.",
+      "question_type": "procedural",
+      "id": "41-202_body-q12"
+    }
+  ]
+}

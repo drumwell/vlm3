@@ -1,0 +1,91 @@
+{
+  "page_id": "51-312_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-312.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:19:08.967625",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 837
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of cement should be used for windshield installation on the M3?",
+      "answer": "The cement to be used is the single component polyurethane (1 K-PUR) approved by BMW (repair kit).",
+      "question_type": "factual",
+      "id": "51-312_body-equ-q01"
+    },
+    {
+      "question": "How long is the minimum drying time for primer before windshield installation?",
+      "answer": "The air drying time for primer is at least 10 minutes.",
+      "question_type": "factual",
+      "id": "51-312_body-equ-q02"
+    },
+    {
+      "question": "What is the maximum time allowed to complete assembly after applying cement?",
+      "answer": "Assembly must be completed within 10 minutes, since otherwise the cement bead will get a skin and perfect adhesion would no longer be guaranteed.",
+      "question_type": "procedural",
+      "id": "51-312_body-equ-q03"
+    },
+    {
+      "question": "What are the minimum hardening conditions for the cement?",
+      "answer": "The minimum hardening time is 4 hours at 22\u00b0C (72\u00b0F) and 38% relative humidity.",
+      "question_type": "factual",
+      "id": "51-312_body-equ-q04"
+    },
+    {
+      "question": "What components are labeled 1 through 5 in the windshield cross-section diagram?",
+      "answer": "1 is Windshield, 2 is Rubber seal, 3 is Body, 4 is Cement bead, and 5 is Rubber seal, inside.",
+      "question_type": "visual",
+      "id": "51-312_body-equ-q05"
+    },
+    {
+      "question": "What tool is required for removing the window?",
+      "answer": "The window is removed with a tool fitted with an oscillating knife.",
+      "question_type": "tool",
+      "id": "51-312_body-equ-q06"
+    },
+    {
+      "question": "What safety equipment should be worn when cutting out the window?",
+      "answer": "Wear protective goggles and gloves when cutting out the window.",
+      "question_type": "safety",
+      "id": "51-312_body-equ-q07"
+    },
+    {
+      "question": "How does the cement harden and what helps the process?",
+      "answer": "The cement hardens through reaction with air moisture at room temperature, e.g. sprinkling with water.",
+      "question_type": "operation",
+      "id": "51-312_body-equ-q08"
+    },
+    {
+      "question": "What precaution should be taken regarding car loading during cement hardening?",
+      "answer": "The car must not be loaded onesidedly during the minimum hardening time, e.g. one wheel on a curbstone, lifting platform, etc.",
+      "question_type": "safety",
+      "id": "51-312_body-equ-q09"
+    },
+    {
+      "question": "What should be done with the car windows during cement hardening to avoid pressure buildup?",
+      "answer": "One side window should be left open to avoid building up pressure inside of the car by closing the doors.",
+      "question_type": "procedural",
+      "id": "51-312_body-equ-q10"
+    },
+    {
+      "question": "What special coating is applied to the inside edges of the windshield?",
+      "answer": "The inside of the window is coated with ultraviolet-proof glass ceramic in the area of edges for protection of the cement bead.",
+      "question_type": "factual",
+      "id": "51-312_body-equ-q11"
+    },
+    {
+      "question": "Is it safe to drive the car without the windshield or rear window installed?",
+      "answer": "Yes, it is possible to have the car towed or driven without the windshield or rear window.",
+      "question_type": "safety",
+      "id": "51-312_body-equ-q12"
+    }
+  ]
+}

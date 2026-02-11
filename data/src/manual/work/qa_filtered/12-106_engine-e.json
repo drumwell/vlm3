@@ -1,0 +1,61 @@
+{
+  "page_id": "12-106_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-106.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:24:49.021912",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 671
+  },
+  "qa_pairs": [
+    {
+      "question": "What components are located underneath the trim panel in the glove box according to the Engine Electric Layout?",
+      "answer": "According to the diagram, underneath the trim panel in the glove box are: 1) DME control unit (see Gr. 13), 2) Car wire harness plug, 3) Air conditioner plug, and 4) Fuel version plug (see Gr. 13).",
+      "question_type": "component",
+      "id": "12-106_engine-e-q01"
+    },
+    {
+      "question": "Where is the coolant temperature sensor located in relation to the temperature gage?",
+      "answer": "The coolant temperature sensor (labeled as 1) is positioned near the temperature gage (labeled as 2) in the engine compartment, as shown in the upper right diagram.",
+      "question_type": "component",
+      "id": "12-106_engine-e-q02"
+    },
+    {
+      "question": "What relays are located behind the trim panel and how are they numbered?",
+      "answer": "Behind the trim panel are three relays: 1) Fuel pump relay, 2) Master relay, and 3) Tank venting relay.",
+      "question_type": "component",
+      "id": "12-106_engine-e-q03"
+    },
+    {
+      "question": "What is the proper installation procedure for the 20 pin engine wire harness plug?",
+      "answer": "The installation procedure states: Screw-on cap engages in final position.",
+      "question_type": "procedural",
+      "id": "12-106_engine-e-q04"
+    },
+    {
+      "question": "What diagnostic components are shown in the bottom diagram and how are they numbered?",
+      "answer": "The diagnostic components shown are: 1) Diagnosis socket, 2) Engine wire harness plug, 3) Position sender plug, 4) Reference mark plug (gray), and 5) Speed sender plug.",
+      "question_type": "component",
+      "id": "12-106_engine-e-q05"
+    },
+    {
+      "question": "Which plug is specifically identified as gray in color?",
+      "answer": "The Reference mark plug, labeled as number 4, is specifically identified as gray in color.",
+      "question_type": "visual",
+      "id": "12-106_engine-e-q06"
+    },
+    {
+      "question": "What model designations are referenced for this Engine Electric Layout?",
+      "answer": "The Engine Electric Layout is for Model M 3 / S 14.",
+      "question_type": "factual",
+      "id": "12-106_engine-e-q07"
+    }
+  ]
+}

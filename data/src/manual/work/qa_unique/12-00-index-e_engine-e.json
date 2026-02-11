@@ -1,0 +1,49 @@
+{
+  "page_id": "12-00-index-e_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-00-index-e.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:20:14.507292",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 368
+  },
+  "qa_pairs": [
+    {
+      "question": "Which BMW models are covered in this Engine Electrical Equipment section?",
+      "answer": "Models 325 / 325 e / 325 es / 325 i / M 3 are covered in this section.",
+      "question_type": "factual",
+      "id": "12-00-index-e_engine-e-q02"
+    },
+    {
+      "question": "What page can I find information about carbon brushes replacement with starter removed and disassembled?",
+      "answer": "Carbon brushes replacement with starter removed and disassembled can be found on page 12-155.",
+      "question_type": "navigation",
+      "id": "12-00-index-e_engine-e-q03"
+    },
+    {
+      "question": "On what page is the diagnosis plug connection plan located?",
+      "answer": "The diagnosis plug connection plan is located on page 12-160.",
+      "question_type": "navigation",
+      "id": "12-00-index-e_engine-e-q04"
+    },
+    {
+      "question": "Where can I find on-board diagnosis information?",
+      "answer": "On-board diagnosis information can be found on page 12-200.",
+      "question_type": "navigation",
+      "id": "12-00-index-e_engine-e-q05"
+    },
+    {
+      "question": "What is the reference number for the carbon brushes replacement procedure?",
+      "answer": "The reference number for the carbon brushes replacement procedure is 12 41 551.",
+      "question_type": "factual",
+      "id": "12-00-index-e_engine-e-q06"
+    }
+  ]
+}

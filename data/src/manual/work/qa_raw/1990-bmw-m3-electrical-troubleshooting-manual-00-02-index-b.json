@@ -1,0 +1,55 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-00-02-index-b",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/00-02-index-b.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:05:37.234360",
+    "prompt_template": "electrical_manual/index",
+    "tokens_input": 1894,
+    "tokens_output": 395
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number contains information about the A/C Compressor Controls?",
+      "answer": "Page 6452-0 contains information about the A/C Compressor Controls.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-02-index-b-q01"
+    },
+    {
+      "question": "Where can I find the Fuse Data Chart in this manual?",
+      "answer": "The Fuse Data Chart can be found on page 0670-1.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-02-index-b-q02"
+    },
+    {
+      "question": "What page should I refer to for the Brake Warning System electrical circuit information?",
+      "answer": "You should refer to page 3435-0 for the Brake Warning System electrical circuit information.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-02-index-b-q03"
+    },
+    {
+      "question": "On which page can I find information about the Headlights electrical circuits?",
+      "answer": "Information about the Headlights electrical circuits can be found on page 6312-0.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-02-index-b-q04"
+    },
+    {
+      "question": "What is the page number for the Ground Distribution information in section G200?",
+      "answer": "The Ground Distribution information for section G200 can be found on page 0670-13.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-02-index-b-q05"
+    },
+    {
+      "question": "Where would I look to find details about Fuse 27 in this electrical troubleshooting manual?",
+      "answer": "Details about Fuse 27 can be found on page 0670-11.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-02-index-b-q06"
+    }
+  ]
+}

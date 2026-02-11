@@ -1,0 +1,67 @@
+{
+  "page_id": "25-01_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-01.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:47:54.137869",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1756,
+    "tokens_output": 555
+  },
+  "qa_pairs": [
+    {
+      "question": "What is component number 31 in the shift layout diagram?",
+      "answer": "Component number 31 is the shift lever knob.",
+      "question_type": "factual",
+      "id": "25-01_gear-shi-q01"
+    },
+    {
+      "question": "What components make up the shift lever assembly according to the parts list?",
+      "answer": "The shift lever assembly consists of the shift lever upper section (20), shift lever assembly (21), and shift lever lower section (23).",
+      "question_type": "component",
+      "id": "25-01_gear-shi-q02"
+    },
+    {
+      "question": "What is the purpose of component number 30 shown in the diagram?",
+      "answer": "Component number 30 is the dust cover, which protects the shift mechanism from dirt and debris.",
+      "question_type": "factual",
+      "id": "25-01_gear-shi-q03"
+    },
+    {
+      "question": "Which numbered components are springs in this shift layout?",
+      "answer": "Components 25 and 26 are springs, and component 12 is identified as a spring sleeve.",
+      "question_type": "component",
+      "id": "25-01_gear-shi-q04"
+    },
+    {
+      "question": "What is the function of component 6 in the shift console assembly?",
+      "answer": "Component 6 is the selector rod that connects to the shift mechanism.",
+      "question_type": "factual",
+      "id": "25-01_gear-shi-q05"
+    },
+    {
+      "question": "Where is the rubber mount located in this shift layout?",
+      "answer": "The rubber mount is component number 16, located in the lower portion of the shift console assembly.",
+      "question_type": "visual",
+      "id": "25-01_gear-shi-q06"
+    },
+    {
+      "question": "What components are identified as plates in the shift mechanism?",
+      "answer": "The shift mechanism includes the lower plate (13), upper plate (24), and damper plate (14).",
+      "question_type": "component",
+      "id": "25-01_gear-shi-q07"
+    },
+    {
+      "question": "What is the relationship between components 27, 26, and 25 in the assembly?",
+      "answer": "Components 27, 26, and 25 appear to be stacked vertically, with 27 (circlip) at the top, 26 (spacer) in the middle, and 25 (spring) below, forming part of the upper shift mechanism assembly.",
+      "question_type": "procedural",
+      "id": "25-01_gear-shi-q08"
+    }
+  ]
+}

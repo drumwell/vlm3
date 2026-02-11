@@ -1,0 +1,94 @@
+{
+  "page_id": "41-203c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-203c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:51:04.879406",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 818
+  },
+  "qa_pairs": [
+    {
+      "question": "What welding procedure is shown for the door pillar in the first two images?",
+      "answer": "The procedure shows plug spot welding the door pillar, as indicated in images 30 41 646 and 30 41 647.",
+      "question_type": "procedural",
+      "id": "41-203c_body-con-q01"
+    },
+    {
+      "question": "What type of welding is used at the bottom of the door pillar?",
+      "answer": "Inert gas welding is used at the bottom of the door pillar, as shown in image 30 41 648.",
+      "question_type": "factual",
+      "id": "41-203c_body-con-q02"
+    },
+    {
+      "question": "What joint requires brazing according to the upper right image?",
+      "answer": "The cowl panel joint requires brazing, as shown in image 30 41 543.",
+      "question_type": "procedural",
+      "id": "41-203c_body-con-q03"
+    },
+    {
+      "question": "What surface preparation step is shown in image 30 41 544?",
+      "answer": "Grinding the mating surface is shown in image 30 41 544.",
+      "question_type": "procedural",
+      "id": "41-203c_body-con-q04"
+    },
+    {
+      "question": "Which joint is brazed according to image 30 41 649?",
+      "answer": "The side member cover joint is brazed, as indicated in image 30 41 649.",
+      "question_type": "factual",
+      "id": "41-203c_body-con-q05"
+    },
+    {
+      "question": "What two steps are involved with the new end plate according to image 30 41 545?",
+      "answer": "Installing the new end plate and marking cutting lines for the partial replacement section are the two steps shown in image 30 41 545.",
+      "question_type": "procedural",
+      "id": "41-203c_body-con-q06"
+    },
+    {
+      "question": "What is the final step shown in the last image regarding the partial replacement section?",
+      "answer": "The final step is to grind the mating surfaces on the partial replacement section and fit it in section, as shown in image 30 41 546.",
+      "question_type": "procedural",
+      "id": "41-203c_body-con-q07"
+    },
+    {
+      "question": "How many different welding techniques are demonstrated on this page?",
+      "answer": "Three different welding techniques are demonstrated: plug spot welding, inert gas welding, and brazing.",
+      "question_type": "factual",
+      "id": "41-203c_body-con-q08",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What page number is shown at the top of this manual page?",
+      "answer": "The page number shown is 41-203 C.",
+      "question_type": "factual",
+      "id": "41-203c_body-con-q09"
+    },
+    {
+      "question": "What component is being repaired or replaced based on the sequence of images shown?",
+      "answer": "The door pillar and related structural components are being repaired or replaced, including the cowl panel joint and side member cover joint.",
+      "question_type": "visual",
+      "id": "41-203c_body-con-q10"
+    },
+    {
+      "question": "What preparation work must be done before fitting the partial replacement section?",
+      "answer": "The mating surfaces on the partial replacement section must be ground before fitting it in section.",
+      "question_type": "procedural",
+      "id": "41-203c_body-con-q11"
+    },
+    {
+      "question": "Which image shows the marking of cutting lines for repair work?",
+      "answer": "Image 30 41 545 shows the marking of cutting lines for the partial replacement section.",
+      "question_type": "visual",
+      "id": "41-203c_body-con-q12"
+    }
+  ]
+}

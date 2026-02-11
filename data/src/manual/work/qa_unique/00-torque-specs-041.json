@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-041",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/041.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:23:58.126837",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 557
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component uses the 1AZ specification code?",
+      "answer": "Fan clutch on water pump coupling nut (left-hand threads)",
+      "question_type": "component",
+      "id": "00-torque-specs-041-q02"
+    },
+    {
+      "question": "What type of threads does the fan clutch coupling nut have?",
+      "answer": "Left-hand threads",
+      "question_type": "factual",
+      "id": "00-torque-specs-041-q03"
+    },
+    {
+      "question": "Does the 40 Nm torque specification apply to all engine types?",
+      "answer": "Yes, it applies to all engine types as indicated in the Type column",
+      "question_type": "factual",
+      "id": "00-torque-specs-041-q05"
+    },
+    {
+      "question": "What unit of measurement is used for the fan clutch torque specification?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-041-q07"
+    },
+    {
+      "question": "Where is the fan clutch coupling nut located?",
+      "answer": "On the water pump",
+      "question_type": "component",
+      "id": "00-torque-specs-041-q08"
+    },
+    {
+      "question": "What is special about the threading on the fan clutch coupling nut?",
+      "answer": "It has left-hand threads, which means it tightens counterclockwise",
+      "question_type": "procedural",
+      "id": "00-torque-specs-041-q09"
+    }
+  ]
+}

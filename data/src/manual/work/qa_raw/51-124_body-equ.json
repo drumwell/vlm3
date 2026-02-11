@@ -1,0 +1,91 @@
+{
+  "page_id": "51-124_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-124.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:11:00.473921",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 665
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for removing and installing the left or right rear bumper side section?",
+      "answer": "51 12 201",
+      "question_type": "factual",
+      "id": "51-124_body-equ-q01"
+    },
+    {
+      "question": "What must be disconnected on the left side before removing the rear bumper side section?",
+      "answer": "Disconnect battery ground lead.",
+      "question_type": "procedural",
+      "id": "51-124_body-equ-q02"
+    },
+    {
+      "question": "What should be done with the tail light if applicable during bumper removal?",
+      "answer": "If applicable, lift out tail light.",
+      "question_type": "procedural",
+      "id": "51-124_body-equ-q03"
+    },
+    {
+      "question": "How should the trim panel be handled during bumper side section removal?",
+      "answer": "Lift out trim panel partially.",
+      "question_type": "procedural",
+      "id": "51-124_body-equ-q04"
+    },
+    {
+      "question": "What type of fasteners secure the rear bumper side section?",
+      "answer": "Bolts that need to be unscrewed.",
+      "question_type": "factual",
+      "id": "51-124_body-equ-q05"
+    },
+    {
+      "question": "What is the final step after unscrewing the bolts on the rear bumper side section?",
+      "answer": "Take off bumper side section and pull off plug.",
+      "question_type": "procedural",
+      "id": "51-124_body-equ-q06"
+    },
+    {
+      "question": "What needs to be unscrewed on the right side for bumper removal?",
+      "answer": "Unscrew bolt.",
+      "question_type": "procedural",
+      "id": "51-124_body-equ-q07"
+    },
+    {
+      "question": "What component is shown being disconnected in figure 30 51 407?",
+      "answer": "Battery ground lead on the left side.",
+      "question_type": "visual",
+      "id": "51-124_body-equ-q08"
+    },
+    {
+      "question": "What does figure 30 51 409 demonstrate?",
+      "answer": "Unscrewing bolts to take off bumper side section and pull off plug.",
+      "question_type": "visual",
+      "id": "51-124_body-equ-q09"
+    },
+    {
+      "question": "What is shown in figure 30 51 410?",
+      "answer": "Unscrewing bolt on the right side.",
+      "question_type": "visual",
+      "id": "51-124_body-equ-q10"
+    },
+    {
+      "question": "Are the procedures different for left and right side bumper section removal?",
+      "answer": "Yes, the left side requires disconnecting the battery ground lead while the right side only requires unscrewing a bolt.",
+      "question_type": "factual",
+      "id": "51-124_body-equ-q11"
+    },
+    {
+      "question": "What is the page number for this rear bumper side section removal procedure?",
+      "answer": "51-124",
+      "question_type": "navigation",
+      "id": "51-124_body-equ-q12"
+    }
+  ]
+}

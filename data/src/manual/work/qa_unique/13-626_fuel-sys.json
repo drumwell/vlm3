@@ -1,0 +1,67 @@
+{
+  "page_id": "13-626_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-626.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:42:01.599706",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 749
+  },
+  "qa_pairs": [
+    {
+      "question": "What does the temperature time switch regulate?",
+      "answer": "The temperature time switch regulates the open time of the cold start valve in accordance with the coolant temperature.",
+      "question_type": "factual",
+      "id": "13-626_fuel-sys-q02"
+    },
+    {
+      "question": "What are the open time and switching-off temperature values stamped on the hexagon?",
+      "answer": "The open time (e.g. 8 sec.) and switching-off temperature (e.g. + 35\u00b0 C = 95\u00b0 F) are stamped on the hexagon.",
+      "question_type": "factual",
+      "id": "13-626_fuel-sys-q03"
+    },
+    {
+      "question": "How do you remove the temperature time switch?",
+      "answer": "Pull off plug (1), then unscrew temperature time switch.",
+      "question_type": "procedural",
+      "id": "13-626_fuel-sys-q04"
+    },
+    {
+      "question": "What should you check when installing the temperature time switch?",
+      "answer": "Check code number (1). Replace seal (2). FD = Manufacturing date. Fill and bleed cooling system (Group 17). Tighten to torque.",
+      "question_type": "procedural",
+      "id": "13-626_fuel-sys-q05"
+    },
+    {
+      "question": "What tool is needed for checking the temperature time switch?",
+      "answer": "Connect Jetronic test lead 61 1 440.",
+      "question_type": "tool",
+      "id": "13-626_fuel-sys-q06"
+    },
+    {
+      "question": "How do you check the temperature time switch resistance?",
+      "answer": "Check nominal value with an ohmmeter. To check the entire temperature range, remove temperature sensor, place in water bath heated to testing temperature and check resistance with an ohmmeter.",
+      "question_type": "inspection",
+      "id": "13-626_fuel-sys-q07"
+    },
+    {
+      "question": "What does 'FD' represent on the temperature time switch?",
+      "answer": "FD = Manufacturing date.",
+      "question_type": "factual",
+      "id": "13-626_fuel-sys-q09"
+    },
+    {
+      "question": "What system needs to be filled and bled after installing the temperature time switch?",
+      "answer": "Fill and bleed cooling system (Group 17).",
+      "question_type": "procedural",
+      "id": "13-626_fuel-sys-q10"
+    }
+  ]
+}

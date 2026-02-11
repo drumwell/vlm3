@@ -1,0 +1,55 @@
+{
+  "page_id": "41-011_body",
+  "image_path": "raw/41 - Body/41-011.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:36:27.861811",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1738,
+    "tokens_output": 427
+  },
+  "qa_pairs": [
+    {
+      "question": "What personal protective equipment is required when working with glass fiber reinforced plastic parts?",
+      "answer": "Gloves and goggles must be worn when working with glass fiber reinforced plastic parts.",
+      "question_type": "safety",
+      "id": "41-011_body-q01"
+    },
+    {
+      "question": "What should be done with grinding dust during glass fiber repair operations?",
+      "answer": "Grinding dust must be removed on site with suitable extraction and a vacuum cleaner or machines with integrated extraction.",
+      "question_type": "safety",
+      "id": "41-011_body-q02"
+    },
+    {
+      "question": "What fire extinguishing agents can be used on glass fiber reinforced plastic materials?",
+      "answer": "Water mist (no water stream), powders, foam, CO2 and halon can be used as fire extinguishing agents.",
+      "question_type": "safety",
+      "id": "41-011_body-q03"
+    },
+    {
+      "question": "What should you do if dust gets in your eyes during glass fiber work?",
+      "answer": "If dust has gotten in eyes, rinse out thoroughly with water and go to a physician. Dab coated skin and wash thoroughly with water and soap.",
+      "question_type": "safety",
+      "id": "41-011_body-q04"
+    },
+    {
+      "question": "What toxicological information is provided about styrol-containing systems?",
+      "answer": "Systems containing styrol will irritate eyes, skin and the respiratory track. No damaging effects are known from decades of use as long as handling is correct.",
+      "question_type": "safety",
+      "id": "41-011_body-q05"
+    },
+    {
+      "question": "What precaution should be taken when scrapping glass fiber materials?",
+      "answer": "Never let it get into drink water systems. It can be brought to a normal refuse station after hardening.",
+      "question_type": "safety",
+      "id": "41-011_body-q06"
+    }
+  ]
+}

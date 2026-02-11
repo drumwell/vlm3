@@ -1,0 +1,91 @@
+{
+  "page_id": "13-816_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-816.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:52:15.797875",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 879
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the nominal idle speed for cars with automatic transmission after selecting a drive range?",
+      "answer": "The nominal idle speed is 700 \u00b1 50 rpm and is always regulated after selecting a drive range on cars with automatic transmission.",
+      "question_type": "factual",
+      "id": "13-816_fuel-sys-q01"
+    },
+    {
+      "question": "Which terminals should the voltmeter be connected between when testing the preferred circuit?",
+      "answer": "The voltmeter (M 01) should be connected between terminal 4 and terminal 7.",
+      "question_type": "procedural",
+      "id": "13-816_fuel-sys-q02"
+    },
+    {
+      "question": "What position should the automatic transmission selector lever be in during the preferred circuit test?",
+      "answer": "The selector lever of the automatic transmission should be moved to 'N' (neutral).",
+      "question_type": "procedural",
+      "id": "13-816_fuel-sys-q03"
+    },
+    {
+      "question": "What is the minimum voltage reading required during the preferred circuit test?",
+      "answer": "The voltmeter should be displaying at least 9 volts.",
+      "question_type": "factual",
+      "id": "13-816_fuel-sys-q04"
+    },
+    {
+      "question": "If the voltmeter reads less than 9 volts on a car with automatic transmission, what should be checked?",
+      "answer": "Check the blue/brown wire for breaks with an ohmmeter (M 06), eliminate breaks, and check or replace the selector lever switch.",
+      "question_type": "diagnostic",
+      "id": "13-816_fuel-sys-q05"
+    },
+    {
+      "question": "What diagnostic procedure applies to cars with manual transmission in the preferred circuit test?",
+      "answer": "Connect voltmeter (M 01) between terminal 4 and terminal 7, turn on ignition, and verify the voltmeter displays at least 9 volts.",
+      "question_type": "procedural",
+      "id": "13-816_fuel-sys-q06"
+    },
+    {
+      "question": "If a car with manual transmission shows no voltage during the test, what wire should be checked?",
+      "answer": "Eliminate breaks in the blue/yellow wire from terminal 7 to terminal 2.",
+      "question_type": "diagnostic",
+      "id": "13-816_fuel-sys-q07"
+    },
+    {
+      "question": "What tool is specified for checking wire breaks in the blue/brown wire?",
+      "answer": "An ohmmeter (M 06) is specified for checking breaks in the blue/brown wire.",
+      "question_type": "tool",
+      "id": "13-816_fuel-sys-q08"
+    },
+    {
+      "question": "What section of the manual is this page from?",
+      "answer": "This is page 13-816 from the Fuel System section (Section 13).",
+      "question_type": "navigation",
+      "id": "13-816_fuel-sys-q09"
+    },
+    {
+      "question": "What is the main difference between the automatic and manual transmission testing procedures?",
+      "answer": "For automatic transmission, the selector lever must be moved to 'N' and if voltage is insufficient, check the blue/brown wire and selector lever switch. For manual transmission, check the blue/yellow wire from terminal 7 to terminal 2 if voltage is insufficient.",
+      "question_type": "procedural",
+      "id": "13-816_fuel-sys-q10"
+    },
+    {
+      "question": "What component should be checked or replaced if breaks are found in the blue/brown wire on automatic transmission cars?",
+      "answer": "The selector lever switch should be checked or replaced.",
+      "question_type": "component",
+      "id": "13-816_fuel-sys-q11"
+    },
+    {
+      "question": "What is the significance of the 'Important!' note regarding idle speed regulation?",
+      "answer": "It emphasizes that after selecting a drive range on cars with automatic transmission, the nominal idle speed of 700 \u00b1 50 rpm is always regulated, which is a critical operational characteristic.",
+      "question_type": "operation",
+      "id": "13-816_fuel-sys-q12"
+    }
+  ]
+}

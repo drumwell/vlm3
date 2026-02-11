@@ -1,0 +1,73 @@
+{
+  "page_id": "51-116_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-116.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:09:54.112795",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 832
+  },
+  "qa_pairs": [
+    {
+      "question": "What steps are required to remove the impact absorber from the front bumper?",
+      "answer": "Remove the bumper (see 51 11 000), unscrew bolts, and remove the absorber.",
+      "question_type": "procedural",
+      "id": "51-116_body-equ-q02"
+    },
+    {
+      "question": "How do you remove the rubber guard from the front bumper?",
+      "answer": "Remove the bumper (see 51 11 000), unscrew the license plate if applicable, and lift out the license plate holder. Then unscrew screws and take off the rubber guard.",
+      "question_type": "procedural",
+      "id": "51-116_body-equ-q04"
+    },
+    {
+      "question": "What installation step is mentioned for the impact absorber holder?",
+      "answer": "Adjust the holder during installation.",
+      "question_type": "procedural",
+      "id": "51-116_body-equ-q05"
+    },
+    {
+      "question": "What is the difference in procedure for versions with pipe flange?",
+      "answer": "For versions with pipe flange, you need to remove the bumper (see 51 11 000), unscrew bolts, and lift out the impact absorber instead of just removing it.",
+      "question_type": "procedural",
+      "id": "51-116_body-equ-q06"
+    },
+    {
+      "question": "What installation requirement is specified for versions with pipe flange?",
+      "answer": "Align the impact absorber, hold the bumper in position, and check the clearance if necessary.",
+      "question_type": "procedural",
+      "id": "51-116_body-equ-q07"
+    },
+    {
+      "question": "What is the minimum distance requirement specified in the note after repairing accident damage?",
+      "answer": "After repairing damage from an accident, distance A must not be less than 52 \u00b1 1 mm (2.047 \u00b1 0.039\").",
+      "question_type": "inspection",
+      "id": "51-116_body-equ-q08"
+    },
+    {
+      "question": "Which diagram number shows the impact absorber adjustment procedure?",
+      "answer": "Diagram 30 51 396 shows the impact absorber adjustment procedure.",
+      "question_type": "visual",
+      "id": "51-116_body-equ-q09"
+    },
+    {
+      "question": "What does diagram 30 51 398 illustrate?",
+      "answer": "Diagram 30 51 398 shows the process of unscrewing screws and taking off the rubber guard.",
+      "question_type": "visual",
+      "id": "51-116_body-equ-q10"
+    },
+    {
+      "question": "What cross-reference is provided for the bumper removal procedure?",
+      "answer": "The cross-reference for bumper removal is section 51 11 000.",
+      "question_type": "navigation",
+      "id": "51-116_body-equ-q12"
+    }
+  ]
+}

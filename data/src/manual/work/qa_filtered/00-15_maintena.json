@@ -1,0 +1,91 @@
+{
+  "page_id": "00-15_maintena",
+  "image_path": "raw/00 - Maintenance/00-15.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:15:00.807644",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 804
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW Inspection II designation and what does it include?",
+      "answer": "BMW Inspection II is designated as 00 00 230 and equals Inspection I plus Additional Jobs.",
+      "question_type": "factual",
+      "id": "00-15_maintena-q01"
+    },
+    {
+      "question": "What type of oil should be used when replacing the final drive and front axle oil 325 iX?",
+      "answer": "Use approved oil only.",
+      "question_type": "factual",
+      "id": "00-15_maintena-q02"
+    },
+    {
+      "question": "Where can I find information about checking parking brake liner thickness on cars with rear brake discs?",
+      "answer": "The repair manual reference is Gr. 34 and technical data is also found in Gr. 34.",
+      "question_type": "navigation",
+      "id": "00-15_maintena-q03"
+    },
+    {
+      "question": "What must be done with the Service Indicator (SI) after completing Inspection II?",
+      "answer": "The Service Indicator (SI) must be reset after completion of Inspection II.",
+      "question_type": "procedural",
+      "id": "00-15_maintena-q04"
+    },
+    {
+      "question": "What is the first step when resetting the Service Indicator?",
+      "answer": "Switch off all electrical equipment and turn on ignition.",
+      "question_type": "procedural",
+      "id": "00-15_maintena-q05"
+    },
+    {
+      "question": "What tool is needed to reset the Service Indicator and what is its order number?",
+      "answer": "The SI-R (Service Indicator resetter) is needed, Order No. 62 1 100, along with an Adaptor, Order No. 62 1 140.",
+      "question_type": "tool",
+      "id": "00-15_maintena-q06"
+    },
+    {
+      "question": "How long should you hold the recessed red INSPECTION button during the reset procedure?",
+      "answer": "Push in and hold the recessed red INSPECTION button until the green lamp (function control) comes on, which takes approximately 3 seconds.",
+      "question_type": "procedural",
+      "id": "00-15_maintena-q07"
+    },
+    {
+      "question": "What happens to the red lamp after the green lamp comes on during SI reset?",
+      "answer": "The red lamp also comes on after approximately 3 seconds and goes out after approximately 12 seconds.",
+      "question_type": "procedural",
+      "id": "00-15_maintena-q08"
+    },
+    {
+      "question": "How do you complete the Service Indicator reset procedure?",
+      "answer": "Release the inspection button and the green lamp goes out, completing the reset.",
+      "question_type": "procedural",
+      "id": "00-15_maintena-q09"
+    },
+    {
+      "question": "What should all five green diode lights do when checking the Service Indicator?",
+      "answer": "All five green diode lights must be on when checking the Service Indicator (SI).",
+      "question_type": "inspection",
+      "id": "00-15_maintena-q10"
+    },
+    {
+      "question": "What part number is shown in the diagram and what does it represent?",
+      "answer": "Part number 62 1 100 is shown in the diagram and represents the Service Indicator resetter tool.",
+      "question_type": "visual",
+      "id": "00-15_maintena-q11"
+    },
+    {
+      "question": "What color diodes indicate a problem during Service Indicator checking?",
+      "answer": "Yellow and possibly red diodes as well as the INSPECTION sign should go out during proper SI checking.",
+      "question_type": "diagnostic",
+      "id": "00-15_maintena-q12"
+    }
+  ]
+}

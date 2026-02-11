@@ -1,0 +1,91 @@
+{
+  "page_id": "12-142_1_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-142_1.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:32:24.897852",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 765
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to remove the pulley and fan on the Bosch 65 A Alternator?",
+      "answer": "Special Tool 12 31 000 is required to remove the pulley and fan.",
+      "question_type": "tool",
+      "id": "12-142_1_engine-e-q01"
+    },
+    {
+      "question": "What is the reference number for the voltage regulator removal procedure?",
+      "answer": "The voltage regulator removal procedure is referenced as 12 32 000.",
+      "question_type": "navigation",
+      "id": "12-142_1_engine-e-q02"
+    },
+    {
+      "question": "What components need to be removed according to the washers and fan removal step?",
+      "answer": "Remove washers 1 and 2, fan 3, and woodruff key 4.",
+      "question_type": "procedural",
+      "id": "12-142_1_engine-e-q03"
+    },
+    {
+      "question": "What should you do with the housing sections before disassembly?",
+      "answer": "Unscrew bolts 1 and mark position of housing sections to each other before disassembly.",
+      "question_type": "procedural",
+      "id": "12-142_1_engine-e-q04"
+    },
+    {
+      "question": "What installation note is given for the housing bolt?",
+      "answer": "Install longer bolt for the ground lead correctly during installation.",
+      "question_type": "procedural",
+      "id": "12-142_1_engine-e-q05"
+    },
+    {
+      "question": "What should be checked on slip rings and what reference is given for polishing?",
+      "answer": "Check slip rings for wear, fine grinding and polishing if necessary - see 12 31 201.",
+      "question_type": "inspection",
+      "id": "12-142_1_engine-e-q06"
+    },
+    {
+      "question": "What caution is given when unsoldering the stator coil?",
+      "answer": "Excessive heat from soldering iron could destroy the diodes.",
+      "question_type": "safety",
+      "id": "12-142_1_engine-e-q07"
+    },
+    {
+      "question": "How should the bearing bracket and rotor be removed?",
+      "answer": "Pull out bearing bracket 1 with rotor 2.",
+      "question_type": "procedural",
+      "id": "12-142_1_engine-e-q08"
+    },
+    {
+      "question": "What are the five components listed in the rubber mount layout?",
+      "answer": "The layout includes: 1 Circlip, 2 Washer, 3 Rubber mount, 4 Washer, 5 Bushing.",
+      "question_type": "visual",
+      "id": "12-142_1_engine-e-q09"
+    },
+    {
+      "question": "What should you do if the rubber mounts are difficult to remove from the housing?",
+      "answer": "Press rubber mounts out of housing if necessary.",
+      "question_type": "procedural",
+      "id": "12-142_1_engine-e-q10"
+    },
+    {
+      "question": "What is the tightening specification reference for the alternator installation?",
+      "answer": "Tightening torque specifications are referenced with an asterisk - see Specifications.",
+      "question_type": "navigation",
+      "id": "12-142_1_engine-e-q11"
+    },
+    {
+      "question": "What type of alternator is being serviced in this procedure?",
+      "answer": "This procedure covers the Bosch 65 A Alternator disassembly and assembly.",
+      "question_type": "factual",
+      "id": "12-142_1_engine-e-q12"
+    }
+  ]
+}

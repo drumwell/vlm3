@@ -1,0 +1,49 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6210-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:03:31.381352",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 524
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of fuse 21 in the power distribution box?",
+      "answer": "Fuse 21 is rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-03-q01"
+    },
+    {
+      "question": "What warning is provided about additional splices in some vehicles?",
+      "answer": "The warning states 'SOME VEHICLES MAY CONTAIN AN ADDITIONAL SPLICE (SEE GROUND DISTRIBUTION)'.",
+      "question_type": "safety",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-03-q05"
+    },
+    {
+      "question": "What are the three operational states shown at the top of the diagram?",
+      "answer": "The three operational states shown are 'HOT AT ALL TIMES', 'HOT IN START', and 'HOT IN RUN OR START'.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-03-q06"
+    },
+    {
+      "question": "What input does the engine code plug-in module receive according to the diagram?",
+      "answer": "The engine code plug-in module receives fuel rate and vehicle speed input.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-03-q07"
+    },
+    {
+      "question": "What is the resistance value shown for the component connected to the solid state unit?",
+      "answer": "The resistance value shown is 18K OHMS.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-03-q08"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "23-317_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-317.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:45:44.913496",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 884
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to heat the bearing sleeve and what temperature should it be heated to?",
+      "answer": "Special Tool 23 1 450 is needed to heat the bearing sleeve to approximately 80\u00b0C (175\u00b0F) with a hot air blower, then push it onto the output shaft.",
+      "question_type": "tool",
+      "id": "23-317_manual-t-q01"
+    },
+    {
+      "question": "What size pin should be driven in while counterholding during the selector rod installation?",
+      "answer": "A 6 x 26 mm pin can be driven in while counterholding during the selector rod installation procedure.",
+      "question_type": "factual",
+      "id": "23-317_manual-t-q03"
+    },
+    {
+      "question": "Which gear does centering pin (5) face when installing the guide sleeve?",
+      "answer": "Centering pin (5) faces 5th gear when installing the guide sleeve.",
+      "question_type": "procedural",
+      "id": "23-317_manual-t-q04"
+    },
+    {
+      "question": "What components are installed together with the split needle bearing according to the procedure?",
+      "answer": "The split needle bearing, synchromesh ring and fifth gear are installed together.",
+      "question_type": "procedural",
+      "id": "23-317_manual-t-q05"
+    },
+    {
+      "question": "What is the correct sequence for installing the reversing lever components?",
+      "answer": "Install reversing lever (6), smooth side faces down, insert selector rail (7), push on turning lock (5), then lock with 6 x 26 mm pin.",
+      "question_type": "procedural",
+      "id": "23-317_manual-t-q06"
+    },
+    {
+      "question": "What special tool is used for pressing on the 5th gear and what is the pressing force specification?",
+      "answer": "Special Tool 23 1 430 is used to press on 5th gear to fit tight, with a specified pressing on force noted in the specifications section.",
+      "question_type": "tool",
+      "id": "23-317_manual-t-q07"
+    },
+    {
+      "question": "What preparation is required for the layshaft before heating the 5th gear?",
+      "answer": "Lubricate the pressing surface piece of layshaft with oil before heating 5th gear uniformly to correct temperature with a hot air blower.",
+      "question_type": "procedural",
+      "id": "23-317_manual-t-q08"
+    },
+    {
+      "question": "What critical alignment step must be performed after installing the 5th gear?",
+      "answer": "Lift and turn 5th gear until teeth mesh properly after installation.",
+      "question_type": "procedural",
+      "id": "23-317_manual-t-q09"
+    },
+    {
+      "question": "What should be done to ensure proper operation of the selector rod and guide sleeve?",
+      "answer": "Push in selector rod and guide sleeve against arrest, ensuring that rod openings (1 and 2) are always opposite locking balls.",
+      "question_type": "procedural",
+      "id": "23-317_manual-t-q10"
+    },
+    {
+      "question": "What mounting setup is required before pressing on the 5th gear?",
+      "answer": "Unscrew intermediate case on mounting bracket and set up on a press before pressing on the 5th gear.",
+      "question_type": "procedural",
+      "id": "23-317_manual-t-q11"
+    },
+    {
+      "question": "What components are shown in the first diagram with callouts 2 and 5?",
+      "answer": "The diagram shows components of the guide sleeve assembly, with callout 2 indicating the guide sleeve mechanism and callout 5 indicating the centering pin.",
+      "question_type": "visual",
+      "id": "23-317_manual-t-q12"
+    }
+  ]
+}

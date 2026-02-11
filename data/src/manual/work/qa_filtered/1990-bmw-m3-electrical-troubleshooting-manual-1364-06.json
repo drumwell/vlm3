@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-06",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/1364-06.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:30:52.745787",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 540
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the page number and section title for this injection electronics diagram?",
+      "answer": "This is page 1364-6 from the INJECTION ELECTRONICS section for the S14 ENGINE.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-06-q01"
+    },
+    {
+      "question": "What wire color and gauge connects the diagnostic connector to the A/C compressor controls?",
+      "answer": "A .75 BK/RD wire connects the diagnostic connector to the A/C compressor controls.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-06-q02"
+    },
+    {
+      "question": "Which fuse protects the power distribution circuit shown in the upper right corner?",
+      "answer": "FUSE 9 (7.5 AMP) protects the power distribution circuit.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-06-q03"
+    },
+    {
+      "question": "What type of sensor is connected to pin 24 of the solid state module?",
+      "answer": "An oxygen sensor is connected to pin 24 of the solid state module.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-06-q04"
+    },
+    {
+      "question": "What wire gauge and color connects from the fuel pump relay referenced on page 1364-4?",
+      "answer": "A .5 YL/VI wire connects from the fuel pump relay referenced on page 1364-4.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-06-q05"
+    },
+    {
+      "question": "What are the two cylinder identification sensors shown at the bottom of the diagram?",
+      "answer": "The two cylinder identification sensors shown are labeled as SHIELD components with 5 BK and 5 YL connections.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-06-q06"
+    },
+    {
+      "question": "What connector designation is used for the evaporative purge valve relay?",
+      "answer": "Connector C101 is used for the evaporative purge valve relay connections.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-06-q07"
+    },
+    {
+      "question": "What does the engine speed sensor connect to according to the flywheel teeth reference?",
+      "answer": "The engine speed sensor connects to sense flywheel teeth for engine speed detection.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-06-q08"
+    }
+  ]
+}

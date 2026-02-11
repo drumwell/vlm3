@@ -1,0 +1,55 @@
+{
+  "page_id": "41-00-index-c_body",
+  "image_path": "raw/41 - Body/41-00-index-c.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:33:16.962137",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1742,
+    "tokens_output": 423
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers body repair procedures?",
+      "answer": "Section 41 covers body repair procedures.",
+      "question_type": "factual",
+      "id": "41-00-index-c_body-q01"
+    },
+    {
+      "question": "On which page can I find information about replacing the center door pillar for 4-door cars?",
+      "answer": "Information about replacing the center door pillar for 4-door cars can be found on page 41-201.",
+      "question_type": "navigation",
+      "id": "41-00-index-c_body-q02"
+    },
+    {
+      "question": "What is the page reference for roof frame replacement procedures?",
+      "answer": "Roof frame replacement procedures are covered on pages 41-211 and 41-216, with 41-211 for roof panel removed procedures and 41-216 for front roof frame replacement with roof panel removed.",
+      "question_type": "navigation",
+      "id": "41-00-index-c_body-q03"
+    },
+    {
+      "question": "Which page covers cowl panel replacement procedures?",
+      "answer": "Cowl panel replacement procedures are covered on page 41-304.",
+      "question_type": "navigation",
+      "id": "41-00-index-c_body-q04"
+    },
+    {
+      "question": "What are the different door pillar replacement procedures listed in this section?",
+      "answer": "The door pillar replacement procedures include center door pillar replacement for left or right (4-door cars), center door pillar outer section replacement for left or right (4-door cars), and front door pillar replacement for left or right with front side panel removed.",
+      "question_type": "procedural",
+      "id": "41-00-index-c_body-q05"
+    },
+    {
+      "question": "What prerequisite is mentioned for front door pillar replacement?",
+      "answer": "Front door pillar replacement requires the front side panel to be removed first.",
+      "question_type": "procedural",
+      "id": "41-00-index-c_body-q06"
+    }
+  ]
+}

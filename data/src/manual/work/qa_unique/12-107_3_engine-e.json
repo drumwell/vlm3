@@ -1,0 +1,79 @@
+{
+  "page_id": "12-107_3_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-107_3.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:25:25.669787",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 558
+  },
+  "qa_pairs": [
+    {
+      "question": "What does pin 1 connect to on Control Unit M 1.1?",
+      "answer": "Pin 1 connects to Ignition term. 1.",
+      "question_type": "connector",
+      "id": "12-107_3_engine-e-q01"
+    },
+    {
+      "question": "Which pin number is used for the Interface ASC connection?",
+      "answer": "Pin 2 is used for the Interface ASC (S - ASC / S - DWA) connection.",
+      "question_type": "connector",
+      "id": "12-107_3_engine-e-q02"
+    },
+    {
+      "question": "What does LMM stand for in the explanations?",
+      "answer": "LMM stands for Air flow sensor.",
+      "question_type": "factual",
+      "id": "12-107_3_engine-e-q03"
+    },
+    {
+      "question": "Which pin carries the oxygen sensor signal?",
+      "answer": "Pin 9 carries the oxygen sensor signal.",
+      "question_type": "connector",
+      "id": "12-107_3_engine-e-q04"
+    },
+    {
+      "question": "What is the function of pin 14?",
+      "answer": "Pin 14 is used for Ground fuel injectors.",
+      "question_type": "connector",
+      "id": "12-107_3_engine-e-q05"
+    },
+    {
+      "question": "What does MSR represent in the abbreviations?",
+      "answer": "MSR represents Engine drag torque control.",
+      "question_type": "factual",
+      "id": "12-107_3_engine-e-q06"
+    },
+    {
+      "question": "Which pin number handles the speedometer signal from instrument cluster?",
+      "answer": "Pin 10 handles the speedometer signal from instrument cluster.",
+      "question_type": "connector",
+      "id": "12-107_3_engine-e-q07"
+    },
+    {
+      "question": "What is connected to pin 16?",
+      "answer": "Pin 16 is connected to Fuel injector group 2 (cyl. 1, 3, 5).",
+      "question_type": "connector",
+      "id": "12-107_3_engine-e-q08"
+    },
+    {
+      "question": "What does EKP stand for according to the explanations?",
+      "answer": "EKP stands for Electric fuel pump.",
+      "question_type": "factual",
+      "id": "12-107_3_engine-e-q09"
+    },
+    {
+      "question": "Which pin is used for the transmission tap connection?",
+      "answer": "Pin 15 is used for the transmission tap (S - GE) connection.",
+      "question_type": "connector",
+      "id": "12-107_3_engine-e-q10"
+    }
+  ]
+}

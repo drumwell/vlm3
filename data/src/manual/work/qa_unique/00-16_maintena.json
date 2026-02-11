@@ -1,0 +1,91 @@
+{
+  "page_id": "00-16_maintena",
+  "image_path": "raw/00 - Maintenance/00-16.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:15:15.020103",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 701
+  },
+  "qa_pairs": [
+    {
+      "question": "How often should the BMW Annual Check be performed?",
+      "answer": "The BMW Annual Check should be performed after every 11 to 13 months.",
+      "question_type": "factual",
+      "id": "00-16_maintena-q01"
+    },
+    {
+      "question": "What is the important requirement regarding brake fluid during the annual check?",
+      "answer": "Brake fluid must be renewed annually, and only approved brake fluids should be used.",
+      "question_type": "safety",
+      "id": "00-16_maintena-q02"
+    },
+    {
+      "question": "What specific steering components should be checked during the annual maintenance?",
+      "answer": "Check steering lock angle limits, threaded connections, and power assistance.",
+      "question_type": "inspection",
+      "id": "00-16_maintena-q03"
+    },
+    {
+      "question": "How often should coolant be completely drained and renewed?",
+      "answer": "Coolant must be drained completely and renewed every 2 years, and antifreeze protection should be checked against extra charge.",
+      "question_type": "procedural",
+      "id": "00-16_maintena-q04"
+    },
+    {
+      "question": "What repair manual groups are referenced for brake fluid renewal?",
+      "answer": "Group 34 is referenced for brake fluid renewal, with service information found in Gr. 00, Gr. 34.",
+      "question_type": "navigation",
+      "id": "00-16_maintena-q05"
+    },
+    {
+      "question": "What type of antifreeze additives should be used?",
+      "answer": "Only use approved antifreeze additives.",
+      "question_type": "safety",
+      "id": "00-16_maintena-q06"
+    },
+    {
+      "question": "What should be inspected regarding the master cylinder and servo?",
+      "answer": "Check operation of master cylinder and servo, and inspect for leaks.",
+      "question_type": "inspection",
+      "id": "00-16_maintena-q07"
+    },
+    {
+      "question": "What lighting systems need to be checked and adjusted?",
+      "answer": "Check and adjust headlights and auxiliary driving lights.",
+      "question_type": "procedural",
+      "id": "00-16_maintena-q08"
+    },
+    {
+      "question": "What body inspection is required and what warranty does it relate to?",
+      "answer": "Inspect body according to the terms of the BMW 6 year limited warranty-rust perforation.",
+      "question_type": "inspection",
+      "id": "00-16_maintena-q09"
+    },
+    {
+      "question": "How often should the oxygen sensor be replaced?",
+      "answer": "Replace oxygen sensor every 50,000 Miles or 80,000 km.",
+      "question_type": "factual",
+      "id": "00-16_maintena-q10"
+    },
+    {
+      "question": "What repair manual group covers oxygen sensor replacement?",
+      "answer": "Group 11 covers oxygen sensor replacement.",
+      "question_type": "navigation",
+      "id": "00-16_maintena-q11"
+    },
+    {
+      "question": "What service information reference is given for coolant renewal?",
+      "answer": "Service information for coolant renewal is found in Gr. 00, Gr. 17.",
+      "question_type": "navigation",
+      "id": "00-16_maintena-q12"
+    }
+  ]
+}

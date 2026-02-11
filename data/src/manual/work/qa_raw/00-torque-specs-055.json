@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-055",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/055.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:26:34.285031",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 647
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw type is used for the 80 A fuse on glow plug relay?",
+      "answer": "M41/M51",
+      "question_type": "factual",
+      "id": "00-torque-specs-055-q02"
+    },
+    {
+      "question": "Which component has a higher torque specification - the Terminal 30 wire or the 80 A fuse on the glow plug relay?",
+      "answer": "The Terminal 30 wire to glow plug relay has a higher torque specification at 4 Nm compared to 2 Nm for the 80 A fuse.",
+      "question_type": "factual",
+      "id": "00-torque-specs-055-q04"
+    },
+    {
+      "question": "What type of screw is specified for the Terminal 30 wire to glow plug relay connection?",
+      "answer": "M41/M51",
+      "question_type": "factual",
+      "id": "00-torque-specs-055-q05"
+    },
+    {
+      "question": "What section number covers the Preheating Relay specifications?",
+      "answer": "12 21",
+      "question_type": "navigation",
+      "id": "00-torque-specs-055-q06"
+    },
+    {
+      "question": "What are the two components listed under the Preheating Relay section?",
+      "answer": "Terminal 30 wire to glow plug relay (1AZ) and 80 A fuse on glow plug relay (2AZ)",
+      "question_type": "factual",
+      "id": "00-torque-specs-055-q07"
+    },
+    {
+      "question": "Do both preheating relay components use the same screw type?",
+      "answer": "Yes, both components use M41/M51 screw type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-055-q08"
+    },
+    {
+      "question": "What is the difference in torque specifications between the two preheating relay components?",
+      "answer": "The difference is 2 Nm, with the Terminal 30 wire requiring 4 Nm and the 80 A fuse requiring 2 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-055-q09"
+    },
+    {
+      "question": "What units are used for the torque measurements in the preheating relay section?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-055-q10"
+    }
+  ]
+}

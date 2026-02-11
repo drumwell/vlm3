@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-128",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/128.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:51:28.924425",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 591
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the power window module to drive?",
+      "answer": "1 + 0.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-128-q01"
+    },
+    {
+      "question": "Which component has the higher torque specification - the power window module or E-box screws?",
+      "answer": "E-box screws have the higher torque specification at 4 Nm compared to 1 + 0.5 Nm for the power window module",
+      "question_type": "factual",
+      "id": "00-torque-specs-128-q05"
+    },
+    {
+      "question": "What subsection covers these control unit and module specifications?",
+      "answer": "61 35 Control Units, Modules",
+      "question_type": "navigation",
+      "id": "00-torque-specs-128-q07"
+    },
+    {
+      "question": "What are the reference codes for the two electrical components listed?",
+      "answer": "1AZ for power window module to drive and 2AZ for screws on E-box",
+      "question_type": "factual",
+      "id": "00-torque-specs-128-q08"
+    },
+    {
+      "question": "What is the tolerance or range indicated for the power window module torque specification?",
+      "answer": "The specification shows 1 + 0.5 Nm, indicating a base value of 1 Nm plus a tolerance of 0.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-128-q10"
+    }
+  ]
+}

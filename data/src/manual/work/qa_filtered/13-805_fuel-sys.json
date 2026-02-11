@@ -1,0 +1,79 @@
+{
+  "page_id": "13-805_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-805.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:50:18.647456",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 680
+  },
+  "qa_pairs": [
+    {
+      "question": "Which multimeter setting should I use to test the air temperature switch terminals?",
+      "answer": "Use voltmeter setting M01 to test between terminal 4 and terminal 10.",
+      "question_type": "procedural",
+      "id": "13-805_fuel-sys-q01"
+    },
+    {
+      "question": "What voltage reading indicates a faulty air temperature switch at cold temperatures?",
+      "answer": "If the voltmeter displays at least 9 volts with an air temperature of < -8\u00b0C (< 18\u00b0F), the switch is faulty.",
+      "question_type": "diagnostic",
+      "id": "13-805_fuel-sys-q02"
+    },
+    {
+      "question": "Do all E30 models have an air temperature switch?",
+      "answer": "No, cars with manual transmission do not have an air temperature switch.",
+      "question_type": "factual",
+      "id": "13-805_fuel-sys-q03"
+    },
+    {
+      "question": "How are the wire plugs connected on the air temperature switch?",
+      "answer": "Wire plugs for air temperature switch are connected with each other.",
+      "question_type": "wiring",
+      "id": "13-805_fuel-sys-q04"
+    },
+    {
+      "question": "What ohmmeter reading indicates a good air temperature sensor at cold temperatures?",
+      "answer": "The ohmmeter should display approximately 0 ohm with an air temperature of < -8\u00b0C (< 18\u00b0F).",
+      "question_type": "diagnostic",
+      "id": "13-805_fuel-sys-q05"
+    },
+    {
+      "question": "What should I do if the ohmmeter shows 0 ohms on both plug connections of the air temperature sensor?",
+      "answer": "Replace the air temperature sensor.",
+      "question_type": "procedural",
+      "id": "13-805_fuel-sys-q06"
+    },
+    {
+      "question": "What voltage reading indicates the air temperature sensor is okay at warm temperatures?",
+      "answer": "The voltmeter should display approximately 0 volt with an air temperature of > +4\u00b0C (39\u00b0F).",
+      "question_type": "diagnostic",
+      "id": "13-805_fuel-sys-q07"
+    },
+    {
+      "question": "What resistance reading should I expect from a good air temperature sensor at warm temperatures?",
+      "answer": "The ohmmeter should display at least 100 k-ohms with an air temperature of > +4\u00b0C (39\u00b0F).",
+      "question_type": "diagnostic",
+      "id": "13-805_fuel-sys-q08"
+    },
+    {
+      "question": "How do I test the air temperature sensor resistance?",
+      "answer": "Connect ohmmeter (M06) on both plug connections of air temperature sensor after pulling off both wire plugs.",
+      "question_type": "procedural",
+      "id": "13-805_fuel-sys-q09"
+    },
+    {
+      "question": "When can I conclude that the air temperature sensor is okay?",
+      "answer": "Air temperature sensor is okay when it shows approximately 0 volt at warm temperatures (> +4\u00b0C/39\u00b0F) during the voltage test.",
+      "question_type": "diagnostic",
+      "id": "13-805_fuel-sys-q10"
+    }
+  ]
+}

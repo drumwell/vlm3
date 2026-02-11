@@ -1,0 +1,91 @@
+{
+  "page_id": "65-352_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-352.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:05:03.482335",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 823
+  },
+  "qa_pairs": [
+    {
+      "question": "What multimeter designation should be used when connecting between ground and wire 23 on the disconnected control unit plug?",
+      "answer": "Use multimeter (M 06) to connect between ground and wire 23 on the disconnected control unit plug.",
+      "question_type": "tool",
+      "id": "65-352_radio-an-q01"
+    },
+    {
+      "question": "What should the ohmmeter display when measuring the resistance value of wire 23?",
+      "answer": "The ohmmeter should display approximately \"0\" ohm.",
+      "question_type": "diagnostic",
+      "id": "65-352_radio-an-q02"
+    },
+    {
+      "question": "What corrective action should be taken if the ground connection test on wire 23 fails?",
+      "answer": "Correct ground connection according to wiring diagram.",
+      "question_type": "troubleshooting",
+      "id": "65-352_radio-an-q03"
+    },
+    {
+      "question": "Which voltmeter designation is used for testing the control unit operating voltage?",
+      "answer": "Use voltmeter (M 01) to connect between ground and wire 1 on the disconnected control unit plug.",
+      "question_type": "tool",
+      "id": "65-352_radio-an-q04"
+    },
+    {
+      "question": "What voltage should the voltmeter display for the control unit operating voltage?",
+      "answer": "The voltmeter should display operating voltage for control unit (specific value referenced in Specifications).",
+      "question_type": "parameter",
+      "id": "65-352_radio-an-q05"
+    },
+    {
+      "question": "What should be done if the control unit operating voltage test fails?",
+      "answer": "Correct power supply according to wiring diagram.",
+      "question_type": "troubleshooting",
+      "id": "65-352_radio-an-q06"
+    },
+    {
+      "question": "What voltage should the voltmeter show when the selector lever switch is pressed in the 'off' direction?",
+      "answer": "The voltmeter should display approximately 0 volt when the selector lever switch is pressed in the \"off\" direction.",
+      "question_type": "parameter",
+      "id": "65-352_radio-an-q07"
+    },
+    {
+      "question": "What wire is tested when checking the selector lever switch operation in the off position?",
+      "answer": "Wire 2 on the disconnected control unit plug is tested when checking the selector lever switch in the off position.",
+      "question_type": "wiring",
+      "id": "65-352_radio-an-q08"
+    },
+    {
+      "question": "What corrective action is specified if the selector lever switch test in the off position fails?",
+      "answer": "Check and repair \"selector lever switch - control unit\" plug and wires, and replace selector lever switch.",
+      "question_type": "troubleshooting",
+      "id": "65-352_radio-an-q09"
+    },
+    {
+      "question": "Which wire should be tested when the selector lever switch is in the constant direction?",
+      "answer": "Wire 4 on the disconnected control unit plug should be tested when the selector lever switch is in the constant direction.",
+      "question_type": "wiring",
+      "id": "65-352_radio-an-q10"
+    },
+    {
+      "question": "What voltage reading indicates proper operation when the selector lever switch is in the constant position?",
+      "answer": "The voltmeter should display operating voltage when the selector lever switch is pressed in the \"constant\" direction.",
+      "question_type": "parameter",
+      "id": "65-352_radio-an-q11"
+    },
+    {
+      "question": "Where can the specific voltage values for these tests be found?",
+      "answer": "The specific voltage values can be found in the Specifications section, as indicated by the footnote \"See Specifications\" at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "65-352_radio-an-q12"
+    }
+  ]
+}

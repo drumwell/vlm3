@@ -1,0 +1,92 @@
+{
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "index_pages": [
+    "25-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "25 11 000",
+      "name": "Shift lever - remove and install",
+      "pages": [
+        "25-1"
+      ]
+    },
+    {
+      "code": "25 11 003",
+      "name": "Shift lever - disassemble and assemble",
+      "pages": [
+        "25-7"
+      ]
+    },
+    {
+      "code": "25 11 081",
+      "name": "Shift lever dust cover - replace",
+      "pages": [
+        "25-8"
+      ]
+    },
+    {
+      "code": "25 11 111",
+      "name": "Shift rod joint - replace",
+      "pages": [
+        "25-9"
+      ]
+    },
+    {
+      "code": "25 11 211",
+      "name": "Shift lever console - replace",
+      "pages": [
+        "25-12"
+      ]
+    },
+    {
+      "code": "25 16 050",
+      "name": "Selector lever complete with base - remove and install",
+      "pages": [
+        "25-17"
+      ]
+    },
+    {
+      "code": "25 16 080",
+      "name": "Selector lever - remove and install",
+      "pages": [
+        "25-19"
+      ]
+    },
+    {
+      "code": "25 16 202",
+      "name": "Cable for range selector lever - replace",
+      "pages": [
+        "25-21"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "25-1": [
+      "25 11 000"
+    ],
+    "25-7": [
+      "25 11 003"
+    ],
+    "25-8": [
+      "25 11 081"
+    ],
+    "25-9": [
+      "25 11 111"
+    ],
+    "25-12": [
+      "25 11 211"
+    ],
+    "25-17": [
+      "25 16 050"
+    ],
+    "25-19": [
+      "25 16 080"
+    ],
+    "25-21": [
+      "25 16 202"
+    ]
+  },
+  "merge_warnings": []
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "13-802_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-802.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:49:33.487660",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 920
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the resistance specification for the idle control valve when measured with an ohmmeter?",
+      "answer": "The ohmmeter should display 9 to 10 ohms with a component temperature of 23 \u00b1 5\u00b0 C (73 \u00b1 9\u00b0 F).",
+      "question_type": "factual",
+      "id": "13-802_fuel-sys-q01"
+    },
+    {
+      "question": "What current reading should the ammeter display when testing between the idle control valve and wire plug during operation?",
+      "answer": "The ammeter should display 400 to 500 mA when the engine is running with operating temperature at idle speed.",
+      "question_type": "factual",
+      "id": "13-802_fuel-sys-q02"
+    },
+    {
+      "question": "What should the engine speed rise to approximately when the wire plug is pulled off the idle control valve?",
+      "answer": "The engine speed should rise to approximately 2,000 rpm when the wire plug is pulled off the idle control valve.",
+      "question_type": "factual",
+      "id": "13-802_fuel-sys-q03"
+    },
+    {
+      "question": "What is the minimum engine oil temperature required for testing the idle control valve?",
+      "answer": "The engine oil temperature must be at least 60\u00b0 C (140\u00b0 F) for proper testing of the idle control valve.",
+      "question_type": "factual",
+      "id": "13-802_fuel-sys-q04"
+    },
+    {
+      "question": "What is the first step in checking the idle control valve?",
+      "answer": "The first step is to pull off the plug on the idle control valve, then connect an ohmmeter to measure the resistance.",
+      "question_type": "procedural",
+      "id": "13-802_fuel-sys-q05"
+    },
+    {
+      "question": "What should you do if the ohmmeter reading is not within the specified 9 to 10 ohms range?",
+      "answer": "If the reading is not within specification, replace the idle control valve and check the code number and color code.",
+      "question_type": "procedural",
+      "id": "13-802_fuel-sys-q06"
+    },
+    {
+      "question": "How do you test the wiring between the control unit and idle control valve?",
+      "answer": "Connect an ammeter (M 03) between the idle control valve and wire plug, then run the engine with operating temperature at idle speed and check for 400 to 500 mA.",
+      "question_type": "procedural",
+      "id": "13-802_fuel-sys-q07"
+    },
+    {
+      "question": "What should you check if there are no breaks found in the wiring but the current reading is incorrect?",
+      "answer": "If there are no breaks but the current reading is wrong, replace the control unit and check the code number and color code.",
+      "question_type": "troubleshooting",
+      "id": "13-802_fuel-sys-q08"
+    },
+    {
+      "question": "What diagnostic step involves running the engine and pulling off the wire plug?",
+      "answer": "Run the engine with operating temperature at idle speed, then pull off the wire plug on the idle control valve to see if the engine speed rises to approximately 2,000 rpm.",
+      "question_type": "diagnostic",
+      "id": "13-802_fuel-sys-q09"
+    },
+    {
+      "question": "What should you do after reconnecting the wire plug to complete the idle control valve test?",
+      "answer": "After reconnecting the wire plug, check if the speed drops below nominal speed. If not, replace the idle control valve and check the code number and color code.",
+      "question_type": "procedural",
+      "id": "13-802_fuel-sys-q10"
+    },
+    {
+      "question": "What tool is specified for measuring current flow in the idle control valve circuit?",
+      "answer": "An ammeter (M 03) is specified for measuring the current flow between the idle control valve and wire plug.",
+      "question_type": "tool",
+      "id": "13-802_fuel-sys-q11"
+    },
+    {
+      "question": "What information should be verified when replacing the idle control valve?",
+      "answer": "When replacing the idle control valve, check the code number and color code to ensure proper replacement part identification.",
+      "question_type": "procedural",
+      "id": "13-802_fuel-sys-q12"
+    }
+  ]
+}

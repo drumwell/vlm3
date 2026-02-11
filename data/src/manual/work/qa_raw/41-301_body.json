@@ -1,0 +1,91 @@
+{
+  "page_id": "41-301_body",
+  "image_path": "raw/41 - Body/41-301.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:55:00.014251",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 714
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the roof panel without sun roof?",
+      "answer": "41 31 001",
+      "question_type": "factual",
+      "id": "41-301_body-q01"
+    },
+    {
+      "question": "What page should you refer to for additional information before starting this roof panel replacement?",
+      "answer": "Page 41-001",
+      "question_type": "navigation",
+      "id": "41-301_body-q02"
+    },
+    {
+      "question": "What components must be removed or disconnected before replacing the roof panel?",
+      "answer": "Battery ground lead, windshield and rear window with rubber frames, rear seat cushion and backrest, rear side trim panels, rear side windows, hatrack, both sun visors, A and B pillar plates, edge guards as req., roof liner with braces, inside lights, inside mirror, grab handles, seat belts as req., check control, front top trim, and both roof ornamental strips.",
+      "question_type": "procedural",
+      "id": "41-301_body-q03"
+    },
+    {
+      "question": "What should be done to the front joints after removing components?",
+      "answer": "Clear front joints and remove brazing solder.",
+      "question_type": "procedural",
+      "id": "41-301_body-q04"
+    },
+    {
+      "question": "What should be done to the rear joints during the procedure?",
+      "answer": "Clear rear joints and remove brazing solder.",
+      "question_type": "procedural",
+      "id": "41-301_body-q05"
+    },
+    {
+      "question": "Where should welded spots be drilled off according to the procedure?",
+      "answer": "In the window opening and on the rear window frame.",
+      "question_type": "procedural",
+      "id": "41-301_body-q06"
+    },
+    {
+      "question": "What should be done with the rain molding during this procedure?",
+      "answer": "Drill off welded spots on rain molding.",
+      "question_type": "procedural",
+      "id": "41-301_body-q07"
+    },
+    {
+      "question": "What important note is provided about the welded seam replacement?",
+      "answer": "The spot welded seam is gradually replaced by a roll welded seam.",
+      "question_type": "factual",
+      "id": "41-301_body-q08"
+    },
+    {
+      "question": "What should be done if applicable after cutting out the roof panel?",
+      "answer": "If applicable, cut out roof panel.",
+      "question_type": "procedural",
+      "id": "41-301_body-q09"
+    },
+    {
+      "question": "What final step should be performed after lifting off the roof panel?",
+      "answer": "Grind off scrap metal after lifting off the roof panel.",
+      "question_type": "procedural",
+      "id": "41-301_body-q10"
+    },
+    {
+      "question": "Where should the roof brace be cut out?",
+      "answer": "On left and right sides.",
+      "question_type": "procedural",
+      "id": "41-301_body-q11"
+    },
+    {
+      "question": "How should the roof panel be removed once all preparation work is complete?",
+      "answer": "Lift off roof panel.",
+      "question_type": "procedural",
+      "id": "41-301_body-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6413-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:08:10.354056",
+    "prompt_template": "electrical_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 903
+  },
+  "qa_pairs": [
+    {
+      "question": "What fuse should be checked first when troubleshooting A/C blower issues?",
+      "answer": "Check Fuse 20 by visual inspection.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q01"
+    },
+    {
+      "question": "What happens when the Blower Speed Control is moved to position 4?",
+      "answer": "When the Blower Speed Control is moved to position 4, battery voltage is applied directly to the Blower Motor, which then runs at maximum speed.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q02"
+    },
+    {
+      "question": "What type of motor is the Blower Motor?",
+      "answer": "The Blower Motor is a variable speed motor which runs at a speed proportional to the voltage applied to it.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q03"
+    },
+    {
+      "question": "What should you do if the blower will only run in high speed?",
+      "answer": "If Blower will run in high only, check the Blower Resistors' Safety Switch for an open.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q04"
+    },
+    {
+      "question": "What test should be performed if the symptom is 'Blower Motor does not run in any speed setting'?",
+      "answer": "Do Test B if the Blower Motor does not run in any speed setting.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q05"
+    },
+    {
+      "question": "What voltage should be measured between terminals 4 (GN/BR) & Ground during the Blower Speed Control Test?",
+      "answer": "Battery voltage should be measured between terminals 4 (GN/BR) & Ground.",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q06"
+    },
+    {
+      "question": "What are the required conditions for Test A: Control Switch Voltage Test?",
+      "answer": "The conditions are: Ignition Switch: RUN and Blower Speed Control: OFF.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q07"
+    },
+    {
+      "question": "What voltage should be present between terminals 7 (YL) & Ground when A/C Select Switch is OFF?",
+      "answer": "0 Volts should be present between terminals 7 (YL) & Ground when A/C Select Switch is OFF (Not Depressed).",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q08"
+    },
+    {
+      "question": "Why do the Blower Resistors dissipate heat?",
+      "answer": "The Blower Resistors dissipate heat because of the current flowing through them. They are cooled by the air flow from the Blower.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q09"
+    },
+    {
+      "question": "What happens if there is insufficient air flow to cool the Resistors?",
+      "answer": "If there is insufficient air flow to cool the Resistors, the Safety Switch will open, shutting the Blower Motor off until the Resistors have cooled.",
+      "question_type": "safety",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q10"
+    },
+    {
+      "question": "What test should be done if the A/C Select Switch or Fresh/Recirculating Air Switch does not light?",
+      "answer": "Do Test A if the A/C Select Switch or Fresh/Recirculating Air Switch does not light.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q11"
+    },
+    {
+      "question": "What are the conditions required for Test B: Blower Speed Control Test?",
+      "answer": "The conditions are: Ignition Switch: RUN, A/C Select Switch: ON (Depressed), and Fresh/Recirculating Air Switch: FRESH (Not Depressed).",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6413-01-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "31-29_front-ax",
+  "image_path": "raw/31 - Front Axle/31-29.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T07:03:34.204995",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 894
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tools are required to dip the new shaft seal in gear lube and drive it against the stop?",
+      "answer": "Special Tools 31 5 020 and 00 5 500 are required to dip the new shaft seal in gear lube and drive it against the stop.",
+      "question_type": "tool",
+      "id": "31-29_front-ax-q01"
+    },
+    {
+      "question": "What tool is needed to mount the flange and tighten the collar nut?",
+      "answer": "Special Tool 00 2 000 is needed to mount the flange and tighten the collar nut in steps until the specified friction torque is reached.",
+      "question_type": "tool",
+      "id": "31-29_front-ax-q02"
+    },
+    {
+      "question": "What should be done if the friction torque is exceeded during the tightening process?",
+      "answer": "If the friction torque is exceeded, replace the bushing and repeat the adjusting procedures.",
+      "question_type": "procedural",
+      "id": "31-29_front-ax-q03"
+    },
+    {
+      "question": "What three adjustments are necessary because of new bearings after installing the lockplate?",
+      "answer": "Because of new bearings, it is necessary to adjust: a) ring gear/pinion block distance, b) backlash of ring gear, and c) tooth contact pattern.",
+      "question_type": "procedural",
+      "id": "31-29_front-ax-q04"
+    },
+    {
+      "question": "Where can you find information about the front axle final drive adjustments mentioned in this procedure?",
+      "answer": "See adjustments on front axle final drive for the specific procedures.",
+      "question_type": "navigation",
+      "id": "31-29_front-ax-q05"
+    },
+    {
+      "question": "What component identification number is shown for the shaft seal installation tool in the first diagram?",
+      "answer": "The component identification number 30 31 510 is shown in the first diagram for the shaft seal installation procedure.",
+      "question_type": "visual",
+      "id": "31-29_front-ax-q06"
+    },
+    {
+      "question": "What is the purpose of turning the assembly uniformly during the collar nut tightening procedure?",
+      "answer": "The assembly should be turned uniformly with Special Tool 00 2 000 while tightening until the specified friction torque is reached.",
+      "question_type": "procedural",
+      "id": "31-29_front-ax-q07"
+    },
+    {
+      "question": "What component identification number appears in the third diagram showing the lockplate installation?",
+      "answer": "Component identification number 30 31 506 appears in the third diagram showing the lockplate installation.",
+      "question_type": "visual",
+      "id": "31-29_front-ax-q08"
+    },
+    {
+      "question": "What is emphasized as important when installing the new lockplate?",
+      "answer": "It is important that because of new bearings, several adjustments are necessary including ring gear/pinion block distance, backlash of ring gear, and tooth contact pattern.",
+      "question_type": "safety",
+      "id": "31-29_front-ax-q09"
+    },
+    {
+      "question": "What should be done with the new shaft seal before installation?",
+      "answer": "The new shaft seal should be dipped in gear lube before being driven in against the stop with the special tools.",
+      "question_type": "procedural",
+      "id": "31-29_front-ax-q10"
+    },
+    {
+      "question": "Where are the specifications for the friction torque referenced in this procedure?",
+      "answer": "The specifications for the friction torque are referenced at the bottom of the page with an asterisk noting 'See Specifications'.",
+      "question_type": "navigation",
+      "id": "31-29_front-ax-q11"
+    },
+    {
+      "question": "What component identification number is shown in the second diagram for the collar nut tightening procedure?",
+      "answer": "Component identification number 30 31 505 is shown in the second diagram for the collar nut tightening procedure.",
+      "question_type": "visual",
+      "id": "31-29_front-ax-q12"
+    }
+  ]
+}

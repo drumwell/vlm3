@@ -1,0 +1,79 @@
+{
+  "page_id": "16-02_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-02.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:58:02.753738",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 732
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing the fuel tank?",
+      "answer": "Pull up rear seat cushion and take off insulation sheet.",
+      "question_type": "procedural",
+      "id": "16-02_fuel-tan-q01"
+    },
+    {
+      "question": "What should you do after unscrewing the cover and pulling off the plug receptacle?",
+      "answer": "Loosen and pull off hoses (1 ... ... 5). During installation, use new hose clamps.",
+      "question_type": "procedural",
+      "id": "16-02_fuel-tan-q02"
+    },
+    {
+      "question": "What change was made to the fuel tank covers starting with 1988 models?",
+      "answer": "Since 1988 Models: Unscrew both covers.",
+      "question_type": "factual",
+      "id": "16-02_fuel-tan-q03"
+    },
+    {
+      "question": "What components are identified by callout numbers 1 through 5 in the fuel tank area diagram?",
+      "answer": "The callout numbers 1 through 5 identify hoses that need to be loosened and pulled off during fuel tank removal.",
+      "question_type": "visual",
+      "id": "16-02_fuel-tan-q04"
+    },
+    {
+      "question": "What safety precaution is mentioned when drawing off gasoline?",
+      "answer": "Caution! Conform with safety precautions and specifications of pertinent country.",
+      "question_type": "safety",
+      "id": "16-02_fuel-tan-q05"
+    },
+    {
+      "question": "What tool is specified for drawing off gasoline from the tank?",
+      "answer": "Draw off gasoline with a scavenging pump.",
+      "question_type": "tool",
+      "id": "16-02_fuel-tan-q06"
+    },
+    {
+      "question": "Where can you find information about removing the muffler assembly?",
+      "answer": "Remove muffler assembly - see 18 12 000.",
+      "question_type": "navigation",
+      "id": "16-02_fuel-tan-q07"
+    },
+    {
+      "question": "What should be removed along with the muffler assembly?",
+      "answer": "Remove heat shield and connecting pipe along with the muffler assembly.",
+      "question_type": "procedural",
+      "id": "16-02_fuel-tan-q08"
+    },
+    {
+      "question": "What components need to be disconnected from the fuel level transmitter and fuel pump?",
+      "answer": "Pull off plugs on fuel level transmitter and fuel pump, then disconnect fuel hoses.",
+      "question_type": "procedural",
+      "id": "16-02_fuel-tan-q09"
+    },
+    {
+      "question": "What should be done with the hose clamp after loosening the hose?",
+      "answer": "Loosen hose clamp and pull off hose.",
+      "question_type": "procedural",
+      "id": "16-02_fuel-tan-q11"
+    }
+  ]
+}

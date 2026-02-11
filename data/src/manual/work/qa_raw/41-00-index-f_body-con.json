@@ -1,0 +1,55 @@
+{
+  "page_id": "41-00-index-f_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-00-index-f.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:33:45.953372",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1749,
+    "tokens_output": 429
+  },
+  "qa_pairs": [
+    {
+      "question": "What chapter number covers Body repair procedures?",
+      "answer": "Chapter 41 covers Body repair procedures.",
+      "question_type": "factual",
+      "id": "41-00-index-f_body-con-q01"
+    },
+    {
+      "question": "What is the scope of the body jobs on convertibles section?",
+      "answer": "This section only describes special repairs for convertibles. Repairs which are identical or practically identical with those for sedans and/or four wheel drive models are not described here.",
+      "question_type": "factual",
+      "id": "41-00-index-f_body-con-q02"
+    },
+    {
+      "question": "What page reference is given for side member cover replacement with rear side panel and door pillar removed?",
+      "answer": "Page 41-101C is referenced for side member cover replacement with rear side panel and door pillar removed.",
+      "question_type": "navigation",
+      "id": "41-00-index-f_body-con-q03"
+    },
+    {
+      "question": "What component replacement is covered on page 41-104C?",
+      "answer": "Side member cover partial replacement from door pillar, left or right, with rear side panel removed is covered on page 41-104C.",
+      "question_type": "component",
+      "id": "41-00-index-f_body-con-q04"
+    },
+    {
+      "question": "What are the two trunk floor plate replacement procedures listed?",
+      "answer": "The two trunk floor plate replacement procedures are: partial replacement in front of cross member (replace tail panel removed) on page 41-107C, and partial replacement behind cross member (replace tail panel removed) on page 41-111C.",
+      "question_type": "procedural",
+      "id": "41-00-index-f_body-con-q05"
+    },
+    {
+      "question": "What page covers front door pillar replacement?",
+      "answer": "Front door pillar replacement (left or right, with front side panel removed) is covered on page 41-201C.",
+      "question_type": "navigation",
+      "id": "41-00-index-f_body-con-q06"
+    }
+  ]
+}

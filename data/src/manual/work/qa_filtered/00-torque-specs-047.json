@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-047",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/047.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:25:06.395500",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 634
+  },
+  "qa_pairs": [
+    {
+      "question": "What size screws are used for the M51/M41 vacuum pump installation?",
+      "answer": "M8 and M9 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-047-q02"
+    },
+    {
+      "question": "Are the torque specifications the same for M8 and M9 screws on the M51/M41 vacuum pump?",
+      "answer": "Yes, both M8 and M9 screws require 22 Nm of torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-047-q06"
+    },
+    {
+      "question": "What component section is covered under reference 11 66?",
+      "answer": "Vacuum pump",
+      "question_type": "factual",
+      "id": "00-torque-specs-047-q07"
+    },
+    {
+      "question": "Which vacuum pump installation is described as microencapsulated?",
+      "answer": "The M51/M41 vacuum pump installation",
+      "question_type": "factual",
+      "id": "00-torque-specs-047-q08"
+    },
+    {
+      "question": "What is the difference in torque requirements between the 1AZ and M51/M41 vacuum pump installations?",
+      "answer": "The 1AZ uses M6 screws torqued to 10 Nm, while the M51/M41 uses M8 and M9 screws torqued to 22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-047-q09"
+    },
+    {
+      "question": "What engine types use the higher torque specification for vacuum pump mounting?",
+      "answer": "M51/M41 engines use the higher torque specification of 22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-047-q10"
+    }
+  ]
+}

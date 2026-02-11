@@ -1,0 +1,61 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-10",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-10.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:14:28.300915",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 580
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is labeled C406 in Figure 1?",
+      "answer": "Component C406 is shown in Figure 1 - RH Kick Panel, but the specific component type is not labeled in the visible text.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-10-q01"
+    },
+    {
+      "question": "Where is the window motor located according to the component location views?",
+      "answer": "The window motor is located in the lower front of the LH door, as shown in Figure 3.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-10-q02"
+    },
+    {
+      "question": "What components are visible in the top rear of the LH door?",
+      "answer": "In the top rear of the LH door (Figure 5), the lock heater (C560), unlock inhibit switch (LH), and RH front door micro switch (RH) are visible.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-10-q03"
+    },
+    {
+      "question": "Which figure shows the door lock motor and where is it positioned?",
+      "answer": "Figure 4 shows the door lock motor, which is positioned behind the panel in the lower rear of the LH door.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-10-q04"
+    },
+    {
+      "question": "What is component C404 and in which figure is it shown?",
+      "answer": "Component C404 is shown in Figure 2 - Front of RH Door Jamb, but the specific component type is not labeled in the visible text.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-10-q05"
+    },
+    {
+      "question": "Where is the lock heater control unit located?",
+      "answer": "The lock heater control unit is located in the top rear of the LH door, as shown in Figure 6.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-10-q06"
+    },
+    {
+      "question": "What is component C503 and which figure shows its location?",
+      "answer": "Component C503 is shown in Figure 4 - Lower Rear of LH Door, but the specific component type is not labeled in the visible text.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-10-q07"
+    }
+  ]
+}

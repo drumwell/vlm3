@@ -1,0 +1,61 @@
+{
+  "page_id": "getrag-019",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/019.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:45:55.288416",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1895,
+    "tokens_output": 499
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the next step mentioned for the synchro rings?",
+      "answer": "Next up is the synchro rings for a measure up, reverse on the left fwd synchro rings on the right.",
+      "question_type": "procedural",
+      "id": "getrag-019-q01"
+    },
+    {
+      "question": "What component is shown in the top image sitting on the grass?",
+      "answer": "A transmission case or housing component with a separate cylindrical housing piece positioned next to it.",
+      "question_type": "component",
+      "id": "getrag-019-q02"
+    },
+    {
+      "question": "What type of components are shown in the bottom image?",
+      "answer": "Synchro rings and gears are shown, with what appears to be a large gear with teeth visible in the center of the image.",
+      "question_type": "component",
+      "id": "getrag-019-q03"
+    },
+    {
+      "question": "Where are the synchro rings positioned according to the text?",
+      "answer": "The synchro rings are positioned with reverse on the left and forward synchro rings on the right.",
+      "question_type": "factual",
+      "id": "getrag-019-q04"
+    },
+    {
+      "question": "What is visible underneath the transmission components in the bottom image?",
+      "answer": "Service manual pages or documentation are visible underneath the transmission components.",
+      "question_type": "visual",
+      "id": "getrag-019-q05"
+    },
+    {
+      "question": "What shape is the separate housing component in the top image?",
+      "answer": "The separate housing component is cylindrical in shape with mounting flanges.",
+      "question_type": "visual",
+      "id": "getrag-019-q06"
+    },
+    {
+      "question": "What can be seen on the gear component in the bottom image?",
+      "answer": "Teeth around the circumference of the gear and what appears to be internal splines or grooves are visible on the gear component.",
+      "question_type": "visual",
+      "id": "getrag-019-q08"
+    }
+  ]
+}

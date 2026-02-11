@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-16-03",
+  "image_path": "raw/00 - Torque Specs/16-03.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:55:52.500802",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 615
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is being torqued according to specification 14Z?",
+      "answer": "Fuel vapor venting tank to body",
+      "question_type": "component",
+      "id": "00-torque-specs-16-03-q06"
+    },
+    {
+      "question": "What section of the service manual covers fuel tank and fuel lines?",
+      "answer": "Section 16-3",
+      "question_type": "navigation",
+      "id": "00-torque-specs-16-03-q07"
+    },
+    {
+      "question": "What units are used for the torque specifications in this fuel vapor venting table?",
+      "answer": "Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-03-q10"
+    }
+  ]
+}

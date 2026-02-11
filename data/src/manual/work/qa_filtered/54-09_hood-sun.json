@@ -1,0 +1,79 @@
+{
+  "page_id": "54-09_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-09.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:41:01.844083",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1791,
+    "tokens_output": 910
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I do if I hear rattling noise from the sunroof?",
+      "answer": "Check for maladjusted sunroof, guide tubes knocking against each other, roof liner frame knocking against sun roof lid when open, connector for water drain knocking on guide rail, or too much play of sliding shoes and upper guiding pin. Corrections include adjusting the sun roof, wrapping tape around guide tubes, pasting foam rubber on corners of sun roof frame, pasting tape on rivets and guide linkage, or see Service Information 54 01 84 (298).",
+      "question_type": "troubleshooting",
+      "id": "54-09_hood-sun-q01"
+    },
+    {
+      "question": "Why would the sun roof lift but not slide?",
+      "answer": "This condition is caused by pins on gate holders being bent. The correction is to replace the gate holders.",
+      "question_type": "diagnostic",
+      "id": "54-09_hood-sun-q02"
+    },
+    {
+      "question": "What causes the sun roof to lift onesidedly?",
+      "answer": "The sun roof lifts onesidedly due to drive cables being maladjusted in position 0 or rear guide turns on drive cable. To correct this, adjust drive cables in position 0 and lock drive cable in front of and behind guide with punch marks or by squeezing.",
+      "question_type": "troubleshooting",
+      "id": "54-09_hood-sun-q03"
+    },
+    {
+      "question": "How do I fix grinding noise when opening and closing the sunroof?",
+      "answer": "Grinding noise when opening and closing is caused by sliding rails and plastic parts being lubricated. The correction is to remove grease and/or replace sliding shoes.",
+      "question_type": "procedural",
+      "id": "54-09_hood-sun-q04"
+    },
+    {
+      "question": "What should I check if there's grinding noise when lifting the sunroof?",
+      "answer": "Check for front seal being dry or excessive contact force on front seal. The corrections are to lubricate the seal with vaseline or adjust the lid.",
+      "question_type": "diagnostic",
+      "id": "54-09_hood-sun-q05"
+    },
+    {
+      "question": "What are the possible causes of water leaking through the roof liner area?",
+      "answer": "Water leaking through roof liner area can be caused by: sun roof maladjusted in position 0, seals loose/damaged, wrong seal installed (front/rear seals differ in shape), drain hoses plugged, guide rails and cover plates seal insufficiently on roof frame, corners in rear roof opening leak, or hose outlets plugged with sealing compound foam.",
+      "question_type": "troubleshooting",
+      "id": "54-09_hood-sun-q06"
+    },
+    {
+      "question": "How do I correct water leaking issues in the sunroof?",
+      "answer": "Corrections for water leaking include: adjust sun roof in position 0, paste/replace seals, install original spare parts, clean drain hoses, seal guide rails and cover plates, seal corners, or clean hoses.",
+      "question_type": "procedural",
+      "id": "54-09_hood-sun-q07"
+    },
+    {
+      "question": "Where can I find additional service information for sunroof sliding shoe problems?",
+      "answer": "For issues with too much play of sliding shoes and upper guiding pin, see Service Information 54 01 84 (298).",
+      "question_type": "navigation",
+      "id": "54-09_hood-sun-q08"
+    },
+    {
+      "question": "What's the specific position mentioned for drive cable adjustment?",
+      "answer": "The drive cables should be adjusted in position 0. This position is mentioned for both maladjusted drive cables and sun roof adjustment procedures.",
+      "question_type": "factual",
+      "id": "54-09_hood-sun-q09"
+    },
+    {
+      "question": "What type of lubricant should be used on the front seal?",
+      "answer": "Use vaseline to lubricate the front seal when it's dry and causing grinding noise during lifting.",
+      "question_type": "factual",
+      "id": "54-09_hood-sun-q10"
+    }
+  ]
+}

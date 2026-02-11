@@ -1,0 +1,91 @@
+{
+  "page_id": "64-122_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-122.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:57:11.079052",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 669
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to remove the water valve?",
+      "answer": "Unscrew bolts and take off water valve with pipe lines.",
+      "question_type": "procedural",
+      "id": "64-122_heating--q01"
+    },
+    {
+      "question": "What must be replaced during installation of the water valve?",
+      "answer": "Replace seals.",
+      "question_type": "procedural",
+      "id": "64-122_heating--q02"
+    },
+    {
+      "question": "What should the water valve position be when there is no electric power?",
+      "answer": "Water valve should be open when without electric power.",
+      "question_type": "operation",
+      "id": "64-122_heating--q03"
+    },
+    {
+      "question": "What happens to the water valve when battery voltage is supplied?",
+      "answer": "Water valve should be closed when supplied with battery voltage.",
+      "question_type": "operation",
+      "id": "64-122_heating--q04"
+    },
+    {
+      "question": "What are the two reference numbers shown in the diagrams?",
+      "answer": "The reference numbers shown are 30 64 201 and 30 64 202.",
+      "question_type": "visual",
+      "id": "64-122_heating--q05"
+    },
+    {
+      "question": "What components are visible in the upper diagram?",
+      "answer": "The upper diagram shows the water valve with pipe lines and bolts that need to be unscrewed for removal.",
+      "question_type": "visual",
+      "id": "64-122_heating--q06"
+    },
+    {
+      "question": "How can you check if the water valve is functioning properly?",
+      "answer": "Check that the water valve is open without electric power and closed when supplied with battery voltage.",
+      "question_type": "inspection",
+      "id": "64-122_heating--q07"
+    },
+    {
+      "question": "What is the procedure for checking the water valve operation?",
+      "answer": "Water valve should be open when without electric power and should be closed when supplied with battery voltage.",
+      "question_type": "diagnostic",
+      "id": "64-122_heating--q08"
+    },
+    {
+      "question": "What type of valve is being serviced in this procedure?",
+      "answer": "A water valve that controls coolant flow and operates electrically.",
+      "question_type": "component",
+      "id": "64-122_heating--q09"
+    },
+    {
+      "question": "What maintenance step is required during water valve installation?",
+      "answer": "Seals must be replaced during installation.",
+      "question_type": "procedural",
+      "id": "64-122_heating--q10"
+    },
+    {
+      "question": "What are the normal operating states of the water valve?",
+      "answer": "The water valve is normally open without power and closes when battery voltage is applied.",
+      "question_type": "operation",
+      "id": "64-122_heating--q11"
+    },
+    {
+      "question": "What fasteners need to be removed to take off the water valve?",
+      "answer": "Bolts need to be unscrewed to remove the water valve.",
+      "question_type": "factual",
+      "id": "64-122_heating--q12"
+    }
+  ]
+}

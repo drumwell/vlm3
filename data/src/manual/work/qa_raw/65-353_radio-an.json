@@ -1,0 +1,79 @@
+{
+  "page_id": "65-353_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-353.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:05:17.503685",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 655
+  },
+  "qa_pairs": [
+    {
+      "question": "What voltage should the voltmeter display when testing wire 5 on the disconnected control unit plug with ignition on?",
+      "answer": "The voltmeter should display about 0 volt.",
+      "question_type": "diagnostic",
+      "id": "65-353_radio-an-q01"
+    },
+    {
+      "question": "What should I do if the selector lever switch shows no operating voltage when pressed in the call direction?",
+      "answer": "Check and repair the selector lever switch - control unit plug and wires. Replace the selector lever switch.",
+      "question_type": "troubleshooting",
+      "id": "65-353_radio-an-q02"
+    },
+    {
+      "question": "What voltage should appear when testing wire 9 on the disconnected control unit plug with ignition on?",
+      "answer": "The voltmeter should display approx. 0 volt.",
+      "question_type": "diagnostic",
+      "id": "65-353_radio-an-q03"
+    },
+    {
+      "question": "Where can I find information about replacing the brake pedal switch?",
+      "answer": "See Group 35 in Repair Manual.",
+      "question_type": "navigation",
+      "id": "65-353_radio-an-q04"
+    },
+    {
+      "question": "What should the voltmeter display when operating the brake pedal during the wire 9 test?",
+      "answer": "The voltmeter should display operating voltage.",
+      "question_type": "diagnostic",
+      "id": "65-353_radio-an-q05"
+    },
+    {
+      "question": "How do I test the stop light switch according to this procedure?",
+      "answer": "Pull off both plugs on stop light switch, connect ohmmeter (M 06) on stop light switch, operate brake pedal. Ohmmeter should display approx. 0 ohm.",
+      "question_type": "procedural",
+      "id": "65-353_radio-an-q06"
+    },
+    {
+      "question": "What resistance should the clutch switch show when tested with an ohmmeter?",
+      "answer": "Ohmmeter should display approx. 0 ohm when both plugs are pulled off and connected to the clutch switch.",
+      "question_type": "diagnostic",
+      "id": "65-353_radio-an-q07"
+    },
+    {
+      "question": "What should the ohmmeter read when the clutch pedal is operated during clutch switch testing?",
+      "answer": "Ohmmeter should display 0 ohm.",
+      "question_type": "diagnostic",
+      "id": "65-353_radio-an-q08"
+    },
+    {
+      "question": "What tool is specified for testing the stop light switch and clutch switch resistance?",
+      "answer": "Ohmmeter (M 06).",
+      "question_type": "tool",
+      "id": "65-353_radio-an-q09"
+    },
+    {
+      "question": "What is the final step in this troubleshooting flowchart?",
+      "answer": "Check wires, repairing if necessary.",
+      "question_type": "procedural",
+      "id": "65-353_radio-an-q10"
+    }
+  ]
+}

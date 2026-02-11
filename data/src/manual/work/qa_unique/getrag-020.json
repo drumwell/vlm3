@@ -1,0 +1,67 @@
+{
+  "page_id": "getrag-020",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/020.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:46:08.547908",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1945,
+    "tokens_output": 624
+  },
+  "qa_pairs": [
+    {
+      "question": "How would you describe the wear condition of the syncros at 160K kilometers?",
+      "answer": "The wear is quite minimal and all forward syncros are within spec with reverse borderline.",
+      "question_type": "inspection",
+      "id": "getrag-020-q02"
+    },
+    {
+      "question": "What are the three categories shown in the gear comparison table?",
+      "answer": "Gear, Old Syncros, and New Syncros",
+      "question_type": "factual",
+      "id": "getrag-020-q03"
+    },
+    {
+      "question": "Which syncro is described as being borderline in the wear assessment?",
+      "answer": "The reverse syncro is described as borderline.",
+      "question_type": "inspection",
+      "id": "getrag-020-q04"
+    },
+    {
+      "question": "What type of transmission component is being compared in the images?",
+      "answer": "Syncros (synchronizers) from a Getrag 265 5-speed transmission",
+      "question_type": "component",
+      "id": "getrag-020-q05"
+    },
+    {
+      "question": "Are all the forward syncros within specification at 160K kilometers?",
+      "answer": "Yes, all forward syncros are within spec at 160K kilometers.",
+      "question_type": "inspection",
+      "id": "getrag-020-q07"
+    },
+    {
+      "question": "What is the main focus of this page in terms of transmission service?",
+      "answer": "Comparing old and new syncros to assess wear and determine replacement needs during a transmission rebuild.",
+      "question_type": "procedural",
+      "id": "getrag-020-q08"
+    },
+    {
+      "question": "What does the workshop setup in the lower image show?",
+      "answer": "A transmission rebuild workspace with various gears, syncros, and transmission components laid out on newspaper for inspection and comparison.",
+      "question_type": "visual",
+      "id": "getrag-020-q09"
+    },
+    {
+      "question": "What can be concluded about the transmission's condition based on the syncro wear assessment?",
+      "answer": "The transmission is in relatively good condition with minimal wear on forward syncros, though the reverse syncro may need attention as it's borderline.",
+      "question_type": "diagnostic",
+      "id": "getrag-020-q10"
+    }
+  ]
+}

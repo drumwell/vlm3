@@ -1,0 +1,91 @@
+{
+  "page_id": "41-324_body",
+  "image_path": "raw/41 - Body/41-324.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:01:59.560687",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 711
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the connecting plate between the side panel and tail panel?",
+      "answer": "Braze and grind down the connecting plate between the side panel and tail panel.",
+      "question_type": "procedural",
+      "id": "41-324_body-q01"
+    },
+    {
+      "question": "What important note is given about spot welded flanges for 1988 model cars?",
+      "answer": "The spot welded flange in the rear area of the wheel opening has to be crimped in cars beginning with 1988 models or when using wider tires. Compare with opposite side if necessary.",
+      "question_type": "factual",
+      "id": "41-324_body-q02"
+    },
+    {
+      "question": "What procedure should be performed on the entrance joint?",
+      "answer": "Grind down entrance joint and, if necessary, tin out.",
+      "question_type": "procedural",
+      "id": "41-324_body-q03"
+    },
+    {
+      "question": "What is recommended to spray on the side panel and entrance area?",
+      "answer": "Spray an anti-drumming compound on side panel and entrance from below.",
+      "question_type": "procedural",
+      "id": "41-324_body-q04"
+    },
+    {
+      "question": "What should be done to the B pillar joint?",
+      "answer": "Grind down B pillar joint and, if necessary, tin out.",
+      "question_type": "procedural",
+      "id": "41-324_body-q05"
+    },
+    {
+      "question": "What treatment is recommended for the side panel and tail panel below the bumper?",
+      "answer": "Spray an anti-drumming compound on side panel and tail panel below bumper.",
+      "question_type": "procedural",
+      "id": "41-324_body-q06"
+    },
+    {
+      "question": "What procedure should be performed on the C pillar joint?",
+      "answer": "Grind down C pillar joint and, if necessary, tin out.",
+      "question_type": "procedural",
+      "id": "41-324_body-q07"
+    },
+    {
+      "question": "What sealing procedure is recommended for all joints?",
+      "answer": "Seal inside of all joints with a body sealing compound and spray on an anti-drumming compound.",
+      "question_type": "procedural",
+      "id": "41-324_body-q08"
+    },
+    {
+      "question": "What is the source of supply for the compounds mentioned?",
+      "answer": "Source of Supply: HWB",
+      "question_type": "factual",
+      "id": "41-324_body-q09"
+    },
+    {
+      "question": "What part number reference is shown for the spot welded flange diagram?",
+      "answer": "30 41 740",
+      "question_type": "visual",
+      "id": "41-324_body-q10"
+    },
+    {
+      "question": "What part number reference is associated with grinding down the entrance joint?",
+      "answer": "30 41 251",
+      "question_type": "visual",
+      "id": "41-324_body-q11"
+    },
+    {
+      "question": "What part number reference is shown for sealing the inside of joints?",
+      "answer": "30 41 097",
+      "question_type": "visual",
+      "id": "41-324_body-q12"
+    }
+  ]
+}

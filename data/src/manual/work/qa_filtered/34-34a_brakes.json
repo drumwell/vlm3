@@ -1,0 +1,79 @@
+{
+  "page_id": "34-34a_brakes",
+  "image_path": "raw/34 - Brakes/34-34a.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:22:56.264384",
+    "prompt_template": "service_manual/wiring",
+    "tokens_input": 1742,
+    "tokens_output": 636
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum power rating for component 371?",
+      "answer": "The maximum power rating for component 371 is 3W.",
+      "question_type": "factual",
+      "id": "34-34a_brakes-q01"
+    },
+    {
+      "question": "What does component 370 represent in this ABS wiring diagram?",
+      "answer": "Component 370 is the Electronic relay according to the legend.",
+      "question_type": "component",
+      "id": "34-34a_brakes-q02"
+    },
+    {
+      "question": "What are the pin numbers shown for the connector at the bottom left of the diagram?",
+      "answer": "The connector at the bottom left shows pins 30, 85, 86, and 87.",
+      "question_type": "connector",
+      "id": "34-34a_brakes-q03"
+    },
+    {
+      "question": "What does KL 61 represent in this wiring diagram?",
+      "answer": "KL 61 represents Terminal 61 (charge indication lamp) according to the legend.",
+      "question_type": "component",
+      "id": "34-34a_brakes-q04"
+    },
+    {
+      "question": "Which components are signal sensor connections for the rear wheels?",
+      "answer": "Components 366 (Signal sensor connection - rear left) and 367 (Signal sensor - rear left) are for the rear wheels.",
+      "question_type": "component",
+      "id": "34-34a_brakes-q05"
+    },
+    {
+      "question": "What is the function of component 372?",
+      "answer": "Component 372 is the Idle enrichment according to the legend.",
+      "question_type": "component",
+      "id": "34-34a_brakes-q06"
+    },
+    {
+      "question": "What connector pins are shown in the middle section labeled as 30, 31, 31b, 30a, 86?",
+      "answer": "The connector in the middle section shows pins 30, 31, 31b, 30a, and 86.",
+      "question_type": "connector",
+      "id": "34-34a_brakes-q07"
+    },
+    {
+      "question": "What does the '+BS' marking indicate in the diagram?",
+      "answer": "The '+BS' marking indicates the Brake light switch according to the legend.",
+      "question_type": "component",
+      "id": "34-34a_brakes-q08"
+    },
+    {
+      "question": "Which components represent the front wheel signal sensors?",
+      "answer": "Components 362 (Signal sensor connection - front left) and 363 (Signal sensor - front left) represent the front wheel signal sensors.",
+      "question_type": "component",
+      "id": "34-34a_brakes-q09"
+    },
+    {
+      "question": "What is component 375 according to the wiring diagram legend?",
+      "answer": "Component 375 is the Acceleration transmitter according to the legend.",
+      "question_type": "component",
+      "id": "34-34a_brakes-q10"
+    }
+  ]
+}

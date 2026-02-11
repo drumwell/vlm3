@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-051",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/051.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:25:49.948565",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 585
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is designated as 1AZ in the distributor section?",
+      "answer": "Distributor",
+      "question_type": "factual",
+      "id": "00-torque-specs-051-q05"
+    },
+    {
+      "question": "What is the difference in torque between M20 and M10/M30 distributor screws?",
+      "answer": "M20 screws require 22 Nm while M10/M30 screws require 10 Nm, a difference of 12 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-051-q06"
+    },
+    {
+      "question": "Which distributor component has the lowest torque specification?",
+      "answer": "The distributor rotor to adapter with DME (2AZ) has the lowest torque at 2.8 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-051-q07"
+    },
+    {
+      "question": "What section of the manual covers these distributor torque specifications?",
+      "answer": "Section 12-1 Engine Electrical Equipment, subsection 12.11 Distributor",
+      "question_type": "navigation",
+      "id": "00-torque-specs-051-q09"
+    },
+    {
+      "question": "What component is designated as 3AZ in this specification table?",
+      "answer": "High-tension distributor cap",
+      "question_type": "component",
+      "id": "00-torque-specs-051-q10"
+    }
+  ]
+}

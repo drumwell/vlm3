@@ -1,0 +1,25 @@
+{
+  "page_id": "00-torque-specs-17-02",
+  "image_path": "raw/00 - Torque Specs/17-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:56:24.251035",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 577
+  },
+  "qa_pairs": [
+    {
+      "question": "Do all the radiator and mounting parts specifications apply to all vehicle types?",
+      "answer": "Yes, all specifications show 'All' in the Type column",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-02-q08"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "34-02_brakes",
+  "image_path": "raw/34 - Brakes/34-02.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:12:51.765820",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 791
+  },
+  "qa_pairs": [
+    {
+      "question": "How often must brake fluid be replaced according to the service manual?",
+      "answer": "Brake fluid must be replaced annually.",
+      "question_type": "factual",
+      "id": "34-02_brakes-q01"
+    },
+    {
+      "question": "What is the boiling point range for brake fluid from drum brake to disc brake applications?",
+      "answer": "The boiling point ranges from +240\u00b0C (464\u00b0F) to +160\u00b0C to 180\u00b0C (320\u00b0F to 356\u00b0F).",
+      "question_type": "factual",
+      "id": "34-02_brakes-q02"
+    },
+    {
+      "question": "What is the maximum charging pressure allowed when bleeding brakes?",
+      "answer": "Charging pressure must not exceed 2 bar (28 psi).",
+      "question_type": "factual",
+      "id": "34-02_brakes-q03"
+    },
+    {
+      "question": "What should you do to prevent paint damage when bleeding brakes?",
+      "answer": "Keep brake fluid off of painted car parts as the paint finish would be damaged.",
+      "question_type": "safety",
+      "id": "34-02_brakes-q04"
+    },
+    {
+      "question": "What is the proper procedure for bleeding front wheel brakes?",
+      "answer": "Connect bleeder hose with bottle on bleeder screw, unscrew bleeder screw, and tighten bleeder screw when escaping brake fluid is without air bubbles.",
+      "question_type": "procedural",
+      "id": "34-02_brakes-q05"
+    },
+    {
+      "question": "How many times should you operate the brake pedal when bleeding brakes with ABS?",
+      "answer": "Release brake pedal and operate 12 times against stop.",
+      "question_type": "procedural",
+      "id": "34-02_brakes-q06"
+    },
+    {
+      "question": "What additional step is required when bleeding brakes with ABS that differs from standard brake bleeding?",
+      "answer": "Do not use air flushing and press and hold brake pedal down.",
+      "question_type": "procedural",
+      "id": "34-02_brakes-q07"
+    },
+    {
+      "question": "What is the bleeding sequence for rear wheel brakes on disc brake systems?",
+      "answer": "Begin at rear right, then repeat bleeding on rear left, front right and front left.",
+      "question_type": "procedural",
+      "id": "34-02_brakes-q08"
+    },
+    {
+      "question": "Why does brake fluid take on moisture and what effect does this have?",
+      "answer": "Brake fluid is hygroscopic and consequently takes on moisture in the air through the vent hole in brake fluid tank, which affects the boiling point.",
+      "question_type": "factual",
+      "id": "34-02_brakes-q09"
+    },
+    {
+      "question": "What should be done with bleeder valves after completing the bleeding procedure?",
+      "answer": "Hold brake pedal in down position, shut bleeder valves, then release brake pedal.",
+      "question_type": "procedural",
+      "id": "34-02_brakes-q10"
+    },
+    {
+      "question": "What component is shown with callout number 30 34 028 in the bleeding brake procedure?",
+      "answer": "The image shows the bleeder screw connection point on the brake caliper.",
+      "question_type": "visual",
+      "id": "34-02_brakes-q11"
+    },
+    {
+      "question": "Where can additional service information be found according to the reference at the bottom of the page?",
+      "answer": "See Service Information of Group 00.",
+      "question_type": "navigation",
+      "id": "34-02_brakes-q12"
+    }
+  ]
+}

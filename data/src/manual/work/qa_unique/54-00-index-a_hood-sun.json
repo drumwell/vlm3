@@ -1,0 +1,49 @@
+{
+  "page_id": "54-00-index-a_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-00-index-a.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:38:38.028811",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1748,
+    "tokens_output": 393
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number contains information about sun roof adjustment?",
+      "answer": "Sun roof adjustment information can be found on page 54-1.",
+      "question_type": "navigation",
+      "id": "54-00-index-a_hood-sun-q01"
+    },
+    {
+      "question": "Which procedure is covered on page 54-2?",
+      "answer": "Sun roof winder - remove and install is covered on page 54-2.",
+      "question_type": "procedural",
+      "id": "54-00-index-a_hood-sun-q02"
+    },
+    {
+      "question": "What is the procedure code for sun roof motor/gearbox removal and installation or replacement?",
+      "answer": "The procedure code for sun roof motor/gearbox - remove and install or replace is 54 13 010.",
+      "question_type": "factual",
+      "id": "54-00-index-a_hood-sun-q03"
+    },
+    {
+      "question": "On what page can I find information about convertible top canvas replacement?",
+      "answer": "Convertible top (canvas) - replace information can be found on page 54-16.",
+      "question_type": "navigation",
+      "id": "54-00-index-a_hood-sun-q04"
+    },
+    {
+      "question": "What type of sun roof drive cables are mentioned and what pages cover their replacement?",
+      "answer": "Both manual and electric sun roof drive cables are mentioned. Manual cables are covered on page 54-5 and electric cables are covered on page 54-6.",
+      "question_type": "component",
+      "id": "54-00-index-a_hood-sun-q05"
+    }
+  ]
+}

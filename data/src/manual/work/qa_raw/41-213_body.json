@@ -1,0 +1,91 @@
+{
+  "page_id": "41-213_body",
+  "image_path": "raw/41 - Body/41-213.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:53:44.035547",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 701
+  },
+  "qa_pairs": [
+    {
+      "question": "How much distance should reinforcement A be made from the remaining panel?",
+      "answer": "Make up reinforcement A approximately 40 mm (1.575 inches) from the remaining panel and fit in.",
+      "question_type": "factual",
+      "id": "41-213_body-q01"
+    },
+    {
+      "question": "What should be done to the reinforcement after it's ground down?",
+      "answer": "Coat mating surfaces with zinc dust paint and spot weld panel on reinforcement.",
+      "question_type": "procedural",
+      "id": "41-213_body-q02"
+    },
+    {
+      "question": "What type of paint should be used on mating surfaces before spot welding?",
+      "answer": "Zinc dust paint should be used to coat mating surfaces.",
+      "question_type": "factual",
+      "id": "41-213_body-q03"
+    },
+    {
+      "question": "What preparation is required for the new roof frame before welding?",
+      "answer": "Grind mating surfaces on new roof frame and coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-213_body-q04"
+    },
+    {
+      "question": "What important connection point should be verified when installing the cowl panel?",
+      "answer": "Make sure cowl panel grabs behind connection for A pillar.",
+      "question_type": "inspection",
+      "id": "41-213_body-q05"
+    },
+    {
+      "question": "Where does the roof frame grab underneath the vehicle?",
+      "answer": "The roof frame grabs underneath rear side panel.",
+      "question_type": "factual",
+      "id": "41-213_body-q06"
+    },
+    {
+      "question": "What should be checked when installing the windshield?",
+      "answer": "Make sure of uniform clearance and same curvature between glass and body opening.",
+      "question_type": "inspection",
+      "id": "41-213_body-q07"
+    },
+    {
+      "question": "How should the windshield be installed according to the manual?",
+      "answer": "Install windshield with several pieces of rubber frame.",
+      "question_type": "procedural",
+      "id": "41-213_body-q08"
+    },
+    {
+      "question": "What is the final step mentioned for the roof frame installation?",
+      "answer": "Install and clamp down roof frame complete with cowl, tack welding if necessary.",
+      "question_type": "procedural",
+      "id": "41-213_body-q09"
+    },
+    {
+      "question": "What should be checked after installing the door?",
+      "answer": "Install door and check door gap.",
+      "question_type": "inspection",
+      "id": "41-213_body-q10"
+    },
+    {
+      "question": "What diagram number shows the roof frame component?",
+      "answer": "Diagram 30 41 140 shows the roof frame component.",
+      "question_type": "visual",
+      "id": "41-213_body-q11"
+    },
+    {
+      "question": "What welding method is specified for attaching the reinforcement panel?",
+      "answer": "Spot welding is specified for attaching the panel to the reinforcement.",
+      "question_type": "factual",
+      "id": "41-213_body-q12"
+    }
+  ]
+}

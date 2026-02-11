@@ -1,0 +1,79 @@
+{
+  "page_id": "41-305_body",
+  "image_path": "raw/41 - Body/41-305.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:56:57.052991",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 711
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you ensure when making the cowl panel grab underneath connection for A pillar?",
+      "answer": "Make sure cowl panel grabs underneath connection for A pillar.",
+      "question_type": "procedural",
+      "id": "41-305_body-q01"
+    },
+    {
+      "question": "What components should be installed along with the roof panel?",
+      "answer": "Install roof panel and install windshield with several pieces of rubber frame.",
+      "question_type": "procedural",
+      "id": "41-305_body-q03"
+    },
+    {
+      "question": "What should be checked after installing the windshield and roof panel?",
+      "answer": "Check for uniform clearance and same curvature between glass pane and body opening.",
+      "question_type": "inspection",
+      "id": "41-305_body-q04"
+    },
+    {
+      "question": "What connection method is used on the A pillar according to image 30 41 206?",
+      "answer": "Braze connection on A pillar.",
+      "question_type": "visual",
+      "id": "41-305_body-q06"
+    },
+    {
+      "question": "What should be done if necessary regarding the connection on A pillar?",
+      "answer": "If necessary, tin cut connection on A pillar and match contour on front side panel.",
+      "question_type": "procedural",
+      "id": "41-305_body-q07"
+    },
+    {
+      "question": "What image number shows the spot welding of the cowl panel?",
+      "answer": "Image 30 41 205 shows spot weld cowl panel.",
+      "question_type": "visual",
+      "id": "41-305_body-q08"
+    },
+    {
+      "question": "What image number demonstrates the roof panel installation?",
+      "answer": "Image 30 41 204 shows the install roof panel procedure.",
+      "question_type": "visual",
+      "id": "41-305_body-q09"
+    },
+    {
+      "question": "What contour matching is required when working on the A pillar connection?",
+      "answer": "Match contour on front side panel when making the A pillar connection.",
+      "question_type": "procedural",
+      "id": "41-305_body-q10"
+    },
+    {
+      "question": "What type of frame material is used with the windshield installation?",
+      "answer": "Several pieces of rubber frame are used with the windshield installation.",
+      "question_type": "factual",
+      "id": "41-305_body-q11"
+    },
+    {
+      "question": "What image number shows the procedure for tinning and cutting the A pillar connection?",
+      "answer": "Image 30 41 208 shows the procedure for tin cut connection on A pillar and matching contour on front side panel.",
+      "question_type": "visual",
+      "id": "41-305_body-q12"
+    }
+  ]
+}

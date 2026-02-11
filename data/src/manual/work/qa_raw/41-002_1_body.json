@@ -1,0 +1,91 @@
+{
+  "page_id": "41-002_1_body",
+  "image_path": "raw/41 - Body/41-002_1.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:34:31.561649",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 879
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the recommended hole diameter to drill when preparing connections for spot welding?",
+      "answer": "8 mm (0.316\") dia. holes with same spacing as the drilled out welded spots in connections not accessible for the spot welding tongs.",
+      "question_type": "factual",
+      "id": "41-002_1_body-q01"
+    },
+    {
+      "question": "What precaution should be taken when grinding welded seams?",
+      "answer": "Don't grind down the sheet metal too thin. Straighten and tin out irregularities, with tinning out supposed to prepare the surface so that only a coat of fine filler has to be applied prior to spraying on paint.",
+      "question_type": "safety",
+      "id": "41-002_1_body-q02"
+    },
+    {
+      "question": "How should brazed connections be produced to minimize heat damage?",
+      "answer": "Produce brazed connections with as little as possible heat dispersion and without excessive heat. Procedures deviating from standard connections will be described in the repair manual.",
+      "question_type": "procedural",
+      "id": "41-002_1_body-q03"
+    },
+    {
+      "question": "What should be done with residual brazing solder after heating connections?",
+      "answer": "Remove residual brazing solder with a steel brush. Straighten and grind all connection points thoroughly.",
+      "question_type": "procedural",
+      "id": "41-002_1_body-q04"
+    },
+    {
+      "question": "What is the first step when cutting out damaged parts?",
+      "answer": "Determine the location of mating surfaces with help of the replacement part before beginning with the work. Cut out damaged part roughly within the mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-002_1_body-q05"
+    },
+    {
+      "question": "What material should be used to coat mating surfaces intended for resistance spot welding?",
+      "answer": "Coat mating surfaces intended for resistance spot welding with zinc dust paint.",
+      "question_type": "factual",
+      "id": "41-002_1_body-q06"
+    },
+    {
+      "question": "What should be done immediately after repairing welding seams that were originally sealed?",
+      "answer": "Seal off all welding seams, which had been sealed in original state, with a body sealing compound immediately after repairing.",
+      "question_type": "procedural",
+      "id": "41-002_1_body-q07"
+    },
+    {
+      "question": "What caution is given regarding sheet metal underneath when cutting?",
+      "answer": "Don't damage sheet metal located underneath.",
+      "question_type": "safety",
+      "id": "41-002_1_body-q08"
+    },
+    {
+      "question": "What should be removed from the neutral body points before drilling?",
+      "answer": "Remove sealing compound, anti-drumming compound and, if applicable, paint to neutralize the connection points. Drill out spot welding.",
+      "question_type": "procedural",
+      "id": "41-002_1_body-q09"
+    },
+    {
+      "question": "Who is listed as the source of supply for workshop equipment and materials?",
+      "answer": "HWB (a Business Division of BMW AG).",
+      "question_type": "factual",
+      "id": "41-002_1_body-q10"
+    },
+    {
+      "question": "What specific repairs should always be performed regarding suspension and drivetrain mounting points?",
+      "answer": "Always perform repairs, which concern the suspension points of the engine, transmission, axles or running gear, or a straightening bench with the attachments belonging to the car type.",
+      "question_type": "procedural",
+      "id": "41-002_1_body-q11"
+    },
+    {
+      "question": "What should be done when installing new sheet metal parts regarding sealing compounds?",
+      "answer": "Replace damaged anti-drumming compound. Seal new sheet metal parts or the cavities, seams and folds produced by new sheet metal parts with a body cavity sealing compound immediately.",
+      "question_type": "procedural",
+      "id": "41-002_1_body-q12"
+    }
+  ]
+}

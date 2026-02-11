@@ -1,0 +1,94 @@
+{
+  "page_id": "51-342_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-342.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:23:45.064085",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 680
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing left or right rear door window?",
+      "answer": "51 34 171 REPLACING LEFT OR RIGHT REAR DOOR WINDOW.",
+      "question_type": "factual",
+      "id": "51-342_body-equ-q01"
+    },
+    {
+      "question": "What should be removed first when replacing a rear door window?",
+      "answer": "Remove rear door trim panel 51 42 001.",
+      "question_type": "procedural",
+      "id": "51-342_body-equ-q02"
+    },
+    {
+      "question": "What is done with the plastic sheet during installation?",
+      "answer": "Replace damaged plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-342_body-equ-q03"
+    },
+    {
+      "question": "What should you do with the window recess cover on the inside?",
+      "answer": "Pull off window recess cover on inside.",
+      "question_type": "procedural",
+      "id": "51-342_body-equ-q04"
+    },
+    {
+      "question": "What is shown in image 30 51 123?",
+      "answer": "The step to lift clamps out of retainers.",
+      "question_type": "visual",
+      "id": "51-342_body-equ-q05"
+    },
+    {
+      "question": "What important note is given about holding the window?",
+      "answer": "Hold window tight.",
+      "question_type": "safety",
+      "id": "51-342_body-equ-q06"
+    },
+    {
+      "question": "Where can you find information about window adjustment?",
+      "answer": "Adjust window, see 51 32 154.",
+      "question_type": "navigation",
+      "id": "51-342_body-equ-q07"
+    },
+    {
+      "question": "What should you do with the guide roller during the procedure?",
+      "answer": "Wind down window and swing out guide roller. Rest window on bottom.",
+      "question_type": "procedural",
+      "id": "51-342_body-equ-q08"
+    },
+    {
+      "question": "What is the proper method for loosening the cover strip and window recess cover?",
+      "answer": "Loosen cover strip and window recess cover on outside by pressing up out of clamps with a wooden wedge carefully (to avoid damaging the paint finish!).",
+      "question_type": "procedural",
+      "id": "51-342_body-equ-q09"
+    },
+    {
+      "question": "What tool is recommended for removing the cover strips?",
+      "answer": "A wooden wedge is recommended to avoid damaging the paint finish.",
+      "question_type": "tool",
+      "id": "51-342_body-equ-q10"
+    },
+    {
+      "question": "What components are removed as shown in images 30 51 128 and 30 51 129?",
+      "answer": "Pull out rear window rubber guide and pull out front window rubber guide.",
+      "question_type": "visual",
+      "id": "51-342_body-equ-q11",
+      "_warnings": [
+        "Self-referential question: 'as shown'"
+      ]
+    },
+    {
+      "question": "What safety precaution is mentioned when using the wooden wedge?",
+      "answer": "Use the wooden wedge carefully to avoid damaging the paint finish.",
+      "question_type": "safety",
+      "id": "51-342_body-equ-q12"
+    }
+  ]
+}

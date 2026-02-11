@@ -1,0 +1,85 @@
+{
+  "page_id": "00-torque-specs-065",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/065.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:28:27.854935",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 530
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the temperature switch for electronic box?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-065-q01"
+    },
+    {
+      "question": "Which BMW models does the temperature switch for electronic box apply to?",
+      "answer": "E32/E34/E31",
+      "question_type": "factual",
+      "id": "00-torque-specs-065-q02"
+    },
+    {
+      "question": "What component has the designation 1AZ in the switches and relays section?",
+      "answer": "Temperature switch for electronic box",
+      "question_type": "component",
+      "id": "00-torque-specs-065-q03"
+    },
+    {
+      "question": "Under what section number are switches and relays covered?",
+      "answer": "12 63",
+      "question_type": "navigation",
+      "id": "00-torque-specs-065-q04"
+    },
+    {
+      "question": "What is the main section this page covers according to the header?",
+      "answer": "12 - 15 Engine Electrical Equipment",
+      "question_type": "navigation",
+      "id": "00-torque-specs-065-q05",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What unit of measurement is used for the temperature switch torque specification?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-065-q06"
+    },
+    {
+      "question": "How many different components are listed in the switches and relays subsection on this page?",
+      "answer": "1 component (temperature switch for electronic box)",
+      "question_type": "factual",
+      "id": "00-torque-specs-065-q07",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What type of specification is provided for component 1AZ?",
+      "answer": "Screw torque specification",
+      "question_type": "factual",
+      "id": "00-torque-specs-065-q08"
+    },
+    {
+      "question": "Does the temperature switch specification apply to E30 models according to this page?",
+      "answer": "No, it only applies to E32/E34/E31 models",
+      "question_type": "factual",
+      "id": "00-torque-specs-065-q09"
+    },
+    {
+      "question": "What columns are used to organize the specifications in this table?",
+      "answer": "Type, Screw, Measure, and Unit",
+      "question_type": "visual",
+      "id": "00-torque-specs-065-q10"
+    }
+  ]
+}

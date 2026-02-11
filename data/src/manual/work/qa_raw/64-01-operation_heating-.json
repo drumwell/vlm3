@@ -1,0 +1,55 @@
+{
+  "page_id": "64-01-operation_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-01-operation.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:51:44.198289",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1746,
+    "tokens_output": 512
+  },
+  "qa_pairs": [
+    {
+      "question": "What angle does the temperature control regulate the water valve at?",
+      "answer": "The temperature control regulates the water valve at an angle of \u2265 20\u00b0.",
+      "question_type": "factual",
+      "id": "64-01-operation_heating--q01"
+    },
+    {
+      "question": "At what coolant temperature does the valve close when the temperature control is set to < 20\u00b0 C?",
+      "answer": "The valve will be closed when the temperature control is set to < 20\u00b0 C (68\u00b0 F).",
+      "question_type": "factual",
+      "id": "64-01-operation_heating--q02"
+    },
+    {
+      "question": "What are the high pressure switch operating parameters for the A/C compressor?",
+      "answer": "The high pressure switch stops the compressor when reaching a coolant pressure of 25.5 to 17.7 bar (363 to 252 psi) and switches the compressor on again when coolant pressure drops to 22.5 to 20 bar (320 to 284 psi).",
+      "question_type": "factual",
+      "id": "64-01-operation_heating--q03"
+    },
+    {
+      "question": "What are the low pressure switch operating parameters?",
+      "answer": "The low pressure switch stops the compressor when coolant pressure drops to 2.22 to 1.72 bar (32 to 24 psi) and switches the compressor on again when coolant pressure rises to 2.0 to 2.4 bar (28 to 34).",
+      "question_type": "factual",
+      "id": "64-01-operation_heating--q04"
+    },
+    {
+      "question": "How many speeds does the air volume control switch operate the blower at?",
+      "answer": "The air volume control switch operates the blower in 3 speeds via fixed resistors, which are located in the heater.",
+      "question_type": "factual",
+      "id": "64-01-operation_heating--q05"
+    },
+    {
+      "question": "What happens to the additional electric fan when the air conditioner is switched on?",
+      "answer": "When the air conditioner is switched on, the additional 2-speed electric fan always runs at least in 1st speed.",
+      "question_type": "operation",
+      "id": "64-01-operation_heating--q06"
+    }
+  ]
+}

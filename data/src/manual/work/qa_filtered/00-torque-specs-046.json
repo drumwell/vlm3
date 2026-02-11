@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-046",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/046.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:24:55.578916",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 655
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the turbocharger to exhaust manifold connection?",
+      "answer": "25 Nm using M10 screws for M21 type, and 45 Nm for M30/M51/M41 types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-046-q01"
+    },
+    {
+      "question": "What screw size and torque value is required for the bypass valve to flow section?",
+      "answer": "M8 screws with 25 Nm torque for M30 type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-046-q02"
+    },
+    {
+      "question": "How much torque should be applied to the ring nut to exhaust manifold?",
+      "answer": "220 Nm for M30 type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-046-q03"
+    },
+    {
+      "question": "What is the torque specification for screws to bypass valve?",
+      "answer": "10 Nm using M6 screws for M30 type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-046-q04"
+    },
+    {
+      "question": "What torque value is specified for the charge tract to exhaust manifold connection?",
+      "answer": "22 Nm using M8 screws for M30 type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-046-q05"
+    },
+    {
+      "question": "What is the torque specification for the oil return flange to turbocharger?",
+      "answer": "22 Nm using M8 screws for M30 type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-046-q06"
+    },
+    {
+      "question": "How much torque is required for the oil supply hollow bolt for turbocharger and engine block?",
+      "answer": "25 Nm for M51/M41 type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-046-q07"
+    },
+    {
+      "question": "What screw size and torque is specified for the threaded plug to oil return?",
+      "answer": "M16 screws with 45 Nm torque for M30 type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-046-q08"
+    },
+    {
+      "question": "What is the torque specification for the control pipe to bypass valve/turbocharger?",
+      "answer": "30 Nm for M30 type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-046-q09"
+    },
+    {
+      "question": "Which turbocharger connection has the highest torque requirement?",
+      "answer": "The ring nut to exhaust manifold has the highest torque requirement at 220 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-046-q10"
+    }
+  ]
+}

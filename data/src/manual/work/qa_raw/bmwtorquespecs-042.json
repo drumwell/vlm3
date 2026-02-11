@@ -1,0 +1,82 @@
+{
+  "page_id": "bmwtorquespecs-042",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/042.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:20:26.058877",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 654
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the thermostat housing screws?",
+      "answer": "The thermostat housing screws (1AZ) require 10 Nm torque with M6 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-042-q01"
+    },
+    {
+      "question": "What size screw is used for the thermostat housing?",
+      "answer": "M6 screws are used for the thermostat housing.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-042-q02"
+    },
+    {
+      "question": "What is the torque value for the bleeder screw?",
+      "answer": "The bleeder screw (2AZ) requires 8 Nm torque.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-042-q03"
+    },
+    {
+      "question": "What screw size is specified for the bleeder screw?",
+      "answer": "M8 screws are specified for the bleeder screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-042-q04"
+    },
+    {
+      "question": "Which component has a higher torque specification, the thermostat housing or the bleeder screw?",
+      "answer": "The thermostat housing has a higher torque specification at 10 Nm compared to the bleeder screw at 8 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-042-q05"
+    },
+    {
+      "question": "What section of the manual does this torque specification table cover?",
+      "answer": "This table covers section 11 53 Thermostat and Connections under the Engine section 11-32.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-042-q06"
+    },
+    {
+      "question": "Do both the thermostat housing and bleeder screw specifications apply to all vehicle types?",
+      "answer": "Yes, both specifications show 'All' in the Type column, indicating they apply to all vehicle types.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-042-q07"
+    },
+    {
+      "question": "What is the reference code for the thermostat housing torque specification?",
+      "answer": "The reference code for the thermostat housing is 1AZ.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-042-q08"
+    },
+    {
+      "question": "What is the reference code for the bleeder screw specification?",
+      "answer": "The reference code for the bleeder screw is 2AZ.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-042-q09"
+    },
+    {
+      "question": "What unit of measurement is used for all torque values on this page?",
+      "answer": "All torque values on this page are measured in Nm (Newton meters).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-042-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

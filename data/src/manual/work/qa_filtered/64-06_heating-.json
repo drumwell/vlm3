@@ -1,0 +1,91 @@
+{
+  "page_id": "64-06_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-06.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:52:53.314146",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 871
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of refrigerant should be used in the air conditioning system?",
+      "answer": "The air conditioning system must be filled with a safety refrigerant (Frigen 12).",
+      "question_type": "factual",
+      "id": "64-06_heating--q01"
+    },
+    {
+      "question": "What should you do if refrigerant gets on your skin?",
+      "answer": "Refrigerant on the skin will cause frostbite. Wash off pertinent parts of body with cold water thoroughly.",
+      "question_type": "safety",
+      "id": "64-06_heating--q02"
+    },
+    {
+      "question": "What should you do if refrigerant gets in your eyes?",
+      "answer": "If refrigerant gets in the eyes, rinse out with water and then contact a physician immediately.",
+      "question_type": "safety",
+      "id": "64-06_heating--q03"
+    },
+    {
+      "question": "Why should refrigerants not be discharged in closed rooms?",
+      "answer": "Refrigerants are heavier than air and therefore should not be discharged in closed rooms. Especially in working pits there would be an acute danger of asphyxiation, which would not be noticeable since the gas has no color or odor.",
+      "question_type": "safety",
+      "id": "64-06_heating--q04"
+    },
+    {
+      "question": "What is the maximum storage temperature for full refrigerant cylinders?",
+      "answer": "Store full refrigerant cylinders so they are not subjected to direct sunshine or other sources of heat with a maximum temperature of 45\u00b0C / 113\u00b0F.",
+      "question_type": "factual",
+      "id": "64-06_heating--q05"
+    },
+    {
+      "question": "Can you perform welding work on a discharged air conditioner?",
+      "answer": "Never perform welding work on a discharged air conditioner or in the vicinity. The pressure which would occur could lead to an explosion.",
+      "question_type": "safety",
+      "id": "64-06_heating--q06"
+    },
+    {
+      "question": "What are the major procedures listed for discharging and charging the air conditioner?",
+      "answer": "The major procedures are: 1) Connecting charging equipment, 2) Discharging, 3) Flushing with refrigerant, 4) Discharging, 5) Charging with refrigerant, and 6) Checking function of air conditioner.",
+      "question_type": "procedural",
+      "id": "64-06_heating--q07"
+    },
+    {
+      "question": "What happens to refrigerants at high temperatures or when exposed to open flame?",
+      "answer": "Refrigerants decompose at high temperatures or when exposed to an open flame. The decomposed products are injurious to health.",
+      "question_type": "safety",
+      "id": "64-06_heating--q08"
+    },
+    {
+      "question": "What equipment is shown in the charging and discharging setup?",
+      "answer": "The image shows a charging/discharging station with gauges, hoses, and what appears to be a refrigerant recovery and charging unit.",
+      "question_type": "visual",
+      "id": "64-06_heating--q09"
+    },
+    {
+      "question": "What precaution is mentioned about operating the air conditioner while charging?",
+      "answer": "Never operate air conditioner while charging.",
+      "question_type": "safety",
+      "id": "64-06_heating--q10"
+    },
+    {
+      "question": "What should you do regarding air extraction systems when working with refrigerants?",
+      "answer": "Turn on available air extraction systems when working with refrigerants.",
+      "question_type": "safety",
+      "id": "64-06_heating--q11"
+    },
+    {
+      "question": "What is emphasized about following operating instructions for charging equipment?",
+      "answer": "You must conform with operating instructions supplied with pertinent charging equipment.",
+      "question_type": "procedural",
+      "id": "64-06_heating--q12"
+    }
+  ]
+}

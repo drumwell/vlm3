@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-04",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8500-04.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:17:00.950538",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 613
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for the Control Switches connector?",
+      "answer": "B060013.00",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-04-q01"
+    },
+    {
+      "question": "How many pins does the Dual Temperature Switch connector have?",
+      "answer": "The Dual Temperature Switch connector has 3 pins, numbered 1, 2, and 3.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-04-q02"
+    },
+    {
+      "question": "Which face view is shown for the Engine Speed Sensor connector?",
+      "answer": "The Wiring Face view is shown for the Engine Speed Sensor connector.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-04-q04"
+    },
+    {
+      "question": "How many pins does the Door Lock Motor connector have?",
+      "answer": "The Door Lock Motor connector has 6 pins, numbered 1 through 6.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-04-q05"
+    },
+    {
+      "question": "What component uses the B090001.04 connector?",
+      "answer": "The Evaporative Purge Valve Relay uses the B090001.04 connector.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-04-q06"
+    },
+    {
+      "question": "Which connector view is shown for the Cylinder Identification Sensor?",
+      "answer": "The Mating Face view is shown for the Cylinder Identification Sensor.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-04-q07"
+    },
+    {
+      "question": "How many pins does the Fog Light Switch connector have?",
+      "answer": "The Fog Light Switch connector has 8 pins, numbered 1 through 8.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-04-q08"
+    },
+    {
+      "question": "What is the part number for the Flasher connector?",
+      "answer": "The Flasher connector does not show a specific part number, but it has pins labeled 31, 49A, and 49.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-04-q09"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "page_id": "31-16_3_front-ax",
+  "image_path": "raw/31 - Front Axle/31-16_3.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:04:41.814094",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 685
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the spring height for part number 1127 282 in the four wheel drive cars table?",
+      "answer": "The spring height for part number 1127 282 is 1127.282 mm.",
+      "question_type": "factual",
+      "id": "31-16_3_front-ax-q01"
+    },
+    {
+      "question": "What height correction value is shown for part 1128 349 at position +7?",
+      "answer": "The height correction value for part 1128 349 at position +7 is +5.",
+      "question_type": "factual",
+      "id": "31-16_3_front-ax-q02"
+    },
+    {
+      "question": "What is the important installation requirement for coil springs mentioned in the information section?",
+      "answer": "Only install coil springs with stripes of red paint together with thick rubber rings T 124 322.",
+      "question_type": "procedural",
+      "id": "31-16_3_front-ax-q03"
+    },
+    {
+      "question": "Are additional height corrections with rubber rings possible according to the manual?",
+      "answer": "No, additional height corrections with rubber rings are not possible.",
+      "question_type": "factual",
+      "id": "31-16_3_front-ax-q04"
+    },
+    {
+      "question": "What is the spring height for part number 1129 880?",
+      "answer": "The spring height for part number 1129 880 is 1129.880 mm.",
+      "question_type": "factual",
+      "id": "31-16_3_front-ax-q05"
+    },
+    {
+      "question": "What height correction value is shown for part 1125 341 at position -10?",
+      "answer": "The height correction value for part 1125 341 at position -10 is -5.",
+      "question_type": "factual",
+      "id": "31-16_3_front-ax-q06"
+    },
+    {
+      "question": "What spring height is specified for part number 1133 542 in the M-Technic table?",
+      "answer": "The spring height for part number 1133 542 is 1133.542 mm.",
+      "question_type": "factual",
+      "id": "31-16_3_front-ax-q07"
+    },
+    {
+      "question": "What height correction values are shown for part 1133 563?",
+      "answer": "Part 1133 563 shows height correction values of -7 and +7.",
+      "question_type": "factual",
+      "id": "31-16_3_front-ax-q08"
+    },
+    {
+      "question": "How many different part numbers are listed in the four wheel drive cars table?",
+      "answer": "There are 7 different part numbers listed in the four wheel drive cars table.",
+      "question_type": "factual",
+      "id": "31-16_3_front-ax-q09"
+    },
+    {
+      "question": "What is the difference between the information sections for regular four wheel drive cars and M-Technic cars?",
+      "answer": "The M-Technic section simply states 'See above', referencing the same installation requirements as the regular four wheel drive cars.",
+      "question_type": "comparison",
+      "id": "31-16_3_front-ax-q10",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    }
+  ]
+}

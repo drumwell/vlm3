@@ -1,0 +1,91 @@
+{
+  "page_id": "51-360_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-360.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:24:44.748104",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 816
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers removing and installing left or right rear side windows?",
+      "answer": "Section 51 36 050 covers removing and installing left or right rear side windows.",
+      "question_type": "factual",
+      "id": "51-360_body-equ-q01"
+    },
+    {
+      "question": "What special tool is required for replacing rear side windows?",
+      "answer": "Special Tool 51 3 000 is required and should be applied in the toolbox when mounting glass windows.",
+      "question_type": "tool",
+      "id": "51-360_body-equ-q02"
+    },
+    {
+      "question": "What is the first step in removing a rear side window according to the procedure?",
+      "answer": "The first step is to remove the rear side trim panel (see section 51 43 000), then lift off the C pillar plate and unscrew the screw.",
+      "question_type": "procedural",
+      "id": "51-360_body-equ-q03"
+    },
+    {
+      "question": "What important safety precaution is mentioned when lifting off the rubber frame?",
+      "answer": "It is important to prevent window glass from falling down when lifting off the rubber frame beginning at a corner and pressing out the window glass.",
+      "question_type": "safety",
+      "id": "51-360_body-equ-q04"
+    },
+    {
+      "question": "What tool is specified for pressing on the window glass during installation?",
+      "answer": "Special Tool 51 3 057 is specified for pressing on the window glass and pulling in the rubber frame along with a plastic scraper.",
+      "question_type": "tool",
+      "id": "51-360_body-equ-q05"
+    },
+    {
+      "question": "What should be done to the rubber frame during installation according to the procedure?",
+      "answer": "The rubber frame should be rubbed with a lubricant during installation, and if necessary, it should be checked and replaced if necessary.",
+      "question_type": "procedural",
+      "id": "51-360_body-equ-q06"
+    },
+    {
+      "question": "What callout number 51 3 000 indicates in the diagram?",
+      "answer": "Callout number 51 3 000 indicates the special tool position used during the window installation process.",
+      "question_type": "visual",
+      "id": "51-360_body-equ-q07"
+    },
+    {
+      "question": "What steps are involved in removing the ornamental strips and rubber frame?",
+      "answer": "First lift off the ornamental strips, then pull off the rubber frame as shown in the procedural diagrams.",
+      "question_type": "procedural",
+      "id": "51-360_body-equ-q08"
+    },
+    {
+      "question": "What should be done if the side window had been broken?",
+      "answer": "If the side window had been broken, clean the automatic seat belt reel to remove splinters.",
+      "question_type": "inspection",
+      "id": "51-360_body-equ-q09"
+    },
+    {
+      "question": "Where should the installation of ornamental strips begin?",
+      "answer": "Installation of ornamental strips should begin at the upper edge of the window.",
+      "question_type": "procedural",
+      "id": "51-360_body-equ-q10"
+    },
+    {
+      "question": "What reference section is mentioned for removing the rear side window?",
+      "answer": "Section 51 36 050 is referenced for removing the rear side window procedure.",
+      "question_type": "navigation",
+      "id": "51-360_body-equ-q11"
+    },
+    {
+      "question": "What type of lubricant application is specified in the installation notes?",
+      "answer": "The procedure specifies to rub in rubber frame with a lubricant, with the specific lubricant details referenced in the Specifications section.",
+      "question_type": "factual",
+      "id": "51-360_body-equ-q12"
+    }
+  ]
+}

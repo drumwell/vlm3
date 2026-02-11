@@ -1,0 +1,85 @@
+{
+  "page_id": "41-304c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-304c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:56:42.639012",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 774
+  },
+  "qa_pairs": [
+    {
+      "question": "What welding method should be used to attach the side panel on the trunk lid opening surface?",
+      "answer": "Spot weld the side panel on the trunk lid opening surface.",
+      "question_type": "procedural",
+      "id": "41-304c_body-con-q01"
+    },
+    {
+      "question": "After inserting the gas weld side panel on the tail panel, what finishing step is required?",
+      "answer": "Grind down the welding bead after inserting the gas weld side panel on the tail panel.",
+      "question_type": "procedural",
+      "id": "41-304c_body-con-q02"
+    },
+    {
+      "question": "What type of welding should be used for the connector between the tail panel and side panel from the inside?",
+      "answer": "Use autogen weld for the connector between the tail panel and side panel from the inside.",
+      "question_type": "procedural",
+      "id": "41-304c_body-con-q03"
+    },
+    {
+      "question": "Where should the tail panel be spot welded in relation to the side panel?",
+      "answer": "Spot weld the tail panel on the side panel.",
+      "question_type": "procedural",
+      "id": "41-304c_body-con-q04"
+    },
+    {
+      "question": "What process should be performed to the side panel/tail panel joint?",
+      "answer": "Braze and grind down the side panel/tail panel joint.",
+      "question_type": "procedural",
+      "id": "41-304c_body-con-q05"
+    },
+    {
+      "question": "What finishing operation is performed on the transition area?",
+      "answer": "Braze the transition area.",
+      "question_type": "procedural",
+      "id": "41-304c_body-con-q06"
+    },
+    {
+      "question": "How should the entrance area be finished?",
+      "answer": "Braze the entrance area.",
+      "question_type": "procedural",
+      "id": "41-304c_body-con-q07"
+    },
+    {
+      "question": "What final finishing step may be necessary for the joint after brazing?",
+      "answer": "Grind down the joint, tinning if necessary.",
+      "question_type": "procedural",
+      "id": "41-304c_body-con-q08"
+    },
+    {
+      "question": "What body repair operations are covered on page 41-304C?",
+      "answer": "This page covers welding and brazing operations for trunk lid, tail panel, and side panel connections on convertible bodies.",
+      "question_type": "factual",
+      "id": "41-304c_body-con-q10"
+    },
+    {
+      "question": "Which welding processes are mentioned for different joints in these procedures?",
+      "answer": "The procedures mention spot welding, gas welding (autogen welding), and brazing for different joint types.",
+      "question_type": "factual",
+      "id": "41-304c_body-con-q11"
+    },
+    {
+      "question": "What finishing technique is mentioned as potentially necessary after grinding down joints?",
+      "answer": "Tinning is mentioned as potentially necessary after grinding down joints.",
+      "question_type": "procedural",
+      "id": "41-304c_body-con-q12"
+    }
+  ]
+}

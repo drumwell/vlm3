@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-13-05",
+  "image_path": "raw/00 - Torque Specs/13-05.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:52:35.332389",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 535
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the chain sprocket to injection pump?",
+      "answer": "47 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-05-q01"
+    },
+    {
+      "question": "What screw type is used for the toothed belt pulley to injection pump?",
+      "answer": "M51/M41",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-05-q02"
+    },
+    {
+      "question": "How much torque should be applied to the chain tensioner?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-05-q03"
+    },
+    {
+      "question": "What is the torque specification for the toothed belt pulley to injection pump?",
+      "answer": "50 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-05-q04"
+    },
+    {
+      "question": "Which component has the highest torque specification in the injection pump drive system?",
+      "answer": "The toothed belt pulley to injection pump at 50 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-05-q05"
+    },
+    {
+      "question": "Which component has the lowest torque specification in section 13.52?",
+      "answer": "The chain tensioner at 15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-05-q07"
+    },
+    {
+      "question": "What screw type is used for the chain tensioner?",
+      "answer": "M51/M41",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-05-q08"
+    },
+    {
+      "question": "What section number covers the injection pump drive specifications?",
+      "answer": "13.52",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-05-q09"
+    },
+    {
+      "question": "How many components are listed under the injection pump drive section?",
+      "answer": "Three components: chain sprocket to injection pump, toothed belt pulley to injection pump, and chain tensioner",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-05-q10"
+    }
+  ]
+}

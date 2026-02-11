@@ -1,0 +1,91 @@
+{
+  "page_id": "11-65_engine",
+  "image_path": "raw/11 - Engine/11-65.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:15:44.523472",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 852
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the specified piston installed clearance for the S14 engine using a Mahle piston at checkpoint A?",
+      "answer": "The specified piston installed clearance for the S14 Mahle piston at checkpoint A is 6 nm (0.236\").",
+      "question_type": "factual",
+      "id": "11-65_engine-q01"
+    },
+    {
+      "question": "What special tool is needed to compress the piston rings during installation?",
+      "answer": "Special Tool 11 2 270 is used to compress piston rings during installation.",
+      "question_type": "tool",
+      "id": "11-65_engine-q02"
+    },
+    {
+      "question": "What is the maximum permissible total wear play for piston installed clearance?",
+      "answer": "The maximum permissible total wear play is 0.15 mm (0.006\").",
+      "question_type": "factual",
+      "id": "11-65_engine-q03"
+    },
+    {
+      "question": "How should the piston rings be offset when installing them?",
+      "answer": "Offset piston ring end gaps by 120\u00b0 to each other when installing.",
+      "question_type": "procedural",
+      "id": "11-65_engine-q04"
+    },
+    {
+      "question": "What weight class diameter is specified for the S14 engine pistons?",
+      "answer": "The S14 engine has a weight class of 10.5 with a diameter of 93.4 mm (3.677\").",
+      "question_type": "factual",
+      "id": "11-65_engine-q05"
+    },
+    {
+      "question": "What should be done with the circlip during installation?",
+      "answer": "Install the circlip with the gap facing down, and ensure the pairing code and grooves of bearing shells are on the exhaust side.",
+      "question_type": "procedural",
+      "id": "11-65_engine-q06"
+    },
+    {
+      "question": "What is the acceptable range for installed piston clearance?",
+      "answer": "The installed clearance should be 0.03 to 0.06 mm (0.0012 to 0.0024\").",
+      "question_type": "factual",
+      "id": "11-65_engine-q07"
+    },
+    {
+      "question": "What special tool is used to bolt the connecting rod and what should be done before installation?",
+      "answer": "Special Tool 11 2 060 is used to bolt the connecting rod. The piston and piston rings should be lubricated with oil before installation.",
+      "question_type": "tool",
+      "id": "11-65_engine-q08"
+    },
+    {
+      "question": "How should cylinder bore diameter be measured?",
+      "answer": "Set internal calipers to zero on the micrometer with the measured piston diameter, then measure cylinder bore diameter at bottom, center and top with the internal calipers in forward and turning directions.",
+      "question_type": "procedural",
+      "id": "11-65_engine-q09"
+    },
+    {
+      "question": "What direction should the piston arrow face during installation?",
+      "answer": "Install the piston so that the arrow faces the timing chain.",
+      "question_type": "procedural",
+      "id": "11-65_engine-q10"
+    },
+    {
+      "question": "What important matching requirement exists for pistons?",
+      "answer": "Only install pistons of the same make and same weight class. The piston pin is matched with piston and must not be mixed up.",
+      "question_type": "safety",
+      "id": "11-65_engine-q11"
+    },
+    {
+      "question": "What should be done with the connecting rod bearing journal during installation?",
+      "answer": "Turn the pertinent conrod bearing journal to BDC for installation of the piston.",
+      "question_type": "procedural",
+      "id": "11-65_engine-q12"
+    }
+  ]
+}

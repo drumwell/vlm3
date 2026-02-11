@@ -1,0 +1,91 @@
+{
+  "page_id": "getrag-013",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/013.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:44:33.409943",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 786
+  },
+  "qa_pairs": [
+    {
+      "question": "What tools are required to remove the reverse gear and main output shaft bearing?",
+      "answer": "A puller is required along with some heat from a hot air gun to get the reverse gear and main output shaft bearing off.",
+      "question_type": "tool",
+      "id": "getrag-013-q01"
+    },
+    {
+      "question": "What characteristic makes disassembly of components in this transmission challenging?",
+      "answer": "Everything in this gearbox has a really tight press fit, which makes disassembly a bit nerve racking.",
+      "question_type": "procedural",
+      "id": "getrag-013-q02"
+    },
+    {
+      "question": "What should you do with all the parts once they are removed?",
+      "answer": "All parts should be kept loose and you should make note of what shim goes where.",
+      "question_type": "procedural",
+      "id": "getrag-013-q03"
+    },
+    {
+      "question": "What components are not shown in the photo according to the text?",
+      "answer": "The two c rings holding the synchro hub are not shown in the photo.",
+      "question_type": "visual",
+      "id": "getrag-013-q04"
+    },
+    {
+      "question": "What method is recommended for applying heat during the removal process?",
+      "answer": "Heat should be applied using a hot air gun during the removal of the reverse gear and main output shaft bearing.",
+      "question_type": "tool",
+      "id": "getrag-013-q05"
+    },
+    {
+      "question": "What can be seen on the workbench in the image?",
+      "answer": "The workbench shows a disassembled transmission with various gears, shafts, and transmission components spread out, along with a puller tool being used.",
+      "question_type": "visual",
+      "id": "getrag-013-q06"
+    },
+    {
+      "question": "Why is it important to note shim placement during disassembly?",
+      "answer": "It's important to make note of what shim goes where because proper shim placement is critical for correct reassembly and transmission operation.",
+      "question_type": "procedural",
+      "id": "getrag-013-q07"
+    },
+    {
+      "question": "What type of fit do the transmission components have?",
+      "answer": "The transmission components have a really tight press fit.",
+      "question_type": "factual",
+      "id": "getrag-013-q08"
+    },
+    {
+      "question": "What should you be prepared for when disassembling this transmission?",
+      "answer": "You should be prepared for disassembly to be a bit nerve racking due to the really tight press fit of all components.",
+      "question_type": "safety",
+      "id": "getrag-013-q09"
+    },
+    {
+      "question": "What specific bearing requires removal using a puller and heat?",
+      "answer": "The main output shaft bearing requires removal using a puller and heat from a hot air gun.",
+      "question_type": "procedural",
+      "id": "getrag-013-q10"
+    },
+    {
+      "question": "What gear component is mentioned as needing removal with special tools?",
+      "answer": "The reverse gear is mentioned as needing removal using a puller along with heat from a hot air gun.",
+      "question_type": "component",
+      "id": "getrag-013-q11"
+    },
+    {
+      "question": "What organizational practice is recommended during the disassembly process?",
+      "answer": "Keep all parts loose and make note of what shim goes where to ensure proper reassembly.",
+      "question_type": "procedural",
+      "id": "getrag-013-q12"
+    }
+  ]
+}

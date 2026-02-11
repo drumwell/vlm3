@@ -1,0 +1,43 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-07",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8500-07.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:17:31.809213",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 398
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for the On-Board Computer Module connector?",
+      "answer": "B260002.00",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-07-q01"
+    },
+    {
+      "question": "What type of face view is shown for the Oxygen Sensor Heater Relay?",
+      "answer": "Mating Face",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-07-q03"
+    },
+    {
+      "question": "What is the part number for the Power Mirrors connector?",
+      "answer": "B040012.01",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-07-q04"
+    },
+    {
+      "question": "What is the part number for the bottom Rear Light Assembly connector?",
+      "answer": "B060033.00",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-07-q08"
+    }
+  ]
+}

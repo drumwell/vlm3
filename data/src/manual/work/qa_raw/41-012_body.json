@@ -1,0 +1,91 @@
+{
+  "page_id": "41-012_body",
+  "image_path": "raw/41 - Body/41-012.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:36:44.940569",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 752
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of damage is being repaired in this glass fiber reinforced plastic parts procedure?",
+      "answer": "A damaged corner on a trunk lid is being repaired.",
+      "question_type": "factual",
+      "id": "41-012_body-q01"
+    },
+    {
+      "question": "What should you do first when grinding off the damaged corner?",
+      "answer": "Grind off damaged corner until firm, non-fibrous laminate is visible.",
+      "question_type": "procedural",
+      "id": "41-012_body-q02"
+    },
+    {
+      "question": "What additional grinding may be required if gasoline, oil or something similar has penetrated the damaged area?",
+      "answer": "Grind off that much further if gasoline, oil or something similar has penetrated into the damaged area.",
+      "question_type": "procedural",
+      "id": "41-012_body-q03"
+    },
+    {
+      "question": "How should the mating surfaces be prepared before applying the repair bandage?",
+      "answer": "Grind mating surfaces in flat-flowing transition.",
+      "question_type": "procedural",
+      "id": "41-012_body-q04"
+    },
+    {
+      "question": "Why does the plastic surface have a graphite coat and what should be done with it?",
+      "answer": "The plastic surface has a graphite coat to make it conductive for the painting method used in standard production. Grind off the graphite coat outside of the damaged area.",
+      "question_type": "factual",
+      "id": "41-012_body-q05"
+    },
+    {
+      "question": "What should be used to clean the ambient area after grinding?",
+      "answer": "Clean ambient area with acetone.",
+      "question_type": "procedural",
+      "id": "41-012_body-q06"
+    },
+    {
+      "question": "What should be applied to the mating surfaces before placing the repair bandage?",
+      "answer": "Coat mating surfaces with an adhesion agent.",
+      "question_type": "procedural",
+      "id": "41-012_body-q07"
+    },
+    {
+      "question": "How should the repair bandage be prepared from the aluminum foil?",
+      "answer": "Remove repair bandage from aluminum foil and cut off to size.",
+      "question_type": "procedural",
+      "id": "41-012_body-q08"
+    },
+    {
+      "question": "What important handling instruction is given about the material?",
+      "answer": "Material hardens in sunshine. Close aluminum bag immediately to keep out light.",
+      "question_type": "safety",
+      "id": "41-012_body-q09"
+    },
+    {
+      "question": "How should the transparent plastic sheet be removed?",
+      "answer": "Pull off transparent plastic sheet on one side.",
+      "question_type": "procedural",
+      "id": "41-012_body-q10"
+    },
+    {
+      "question": "What should be done after placing the repair bandage on the damaged surface?",
+      "answer": "Place repair bandage on damaged surface and mold. Press out air bubbles. Use a rubber roller, if necessary.",
+      "question_type": "procedural",
+      "id": "41-012_body-q11"
+    },
+    {
+      "question": "What optional step can be taken to cover the inside of the damaged surface?",
+      "answer": "If applicable, cover inside of damaged surface with the pulled off sheet and keep it stretched by applying strips of metal or plastic until hardening is finished.",
+      "question_type": "procedural",
+      "id": "41-012_body-q12"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "51-321_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-321.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:21:51.281374",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 732
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when adjusting left or right front door windows?",
+      "answer": "Remove door trim panel - see 51 41 001. Pull off plastic sheet partially.",
+      "question_type": "procedural",
+      "id": "51-321_body-equ-q01"
+    },
+    {
+      "question": "What should be done after raising the window completely during adjustment?",
+      "answer": "Loosen screw. Bolt down window guide again without tension.",
+      "question_type": "procedural",
+      "id": "51-321_body-equ-q02"
+    },
+    {
+      "question": "What are the convertible-specific procedures mentioned for front door window adjustment?",
+      "answer": "Remove door trim panel - see 51 41 001. Pull off plastic sheet. Replace damaged plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-321_body-equ-q03"
+    },
+    {
+      "question": "How should the window be adjusted after loosening the screws?",
+      "answer": "Adjust window in slots until there is an uniform gap between the window glass and window frame at top. Tighten screws.",
+      "question_type": "procedural",
+      "id": "51-321_body-equ-q04"
+    },
+    {
+      "question": "What are the requirements for correct door adjustment during side window adjustment?",
+      "answer": "If necessary, correct door outside panel in area of front side panel with shims - see Group 41.",
+      "question_type": "procedural",
+      "id": "51-321_body-equ-q05"
+    },
+    {
+      "question": "What adjustment may be needed for the rear side panel area?",
+      "answer": "If necessary, correct door outside panel in area of rear side panel by adjusting the door striker - also see 51 21 003.",
+      "question_type": "procedural",
+      "id": "51-321_body-equ-q06"
+    },
+    {
+      "question": "Where can information about triangular window adjustment be found?",
+      "answer": "Triangular window in area of cowl panel.",
+      "question_type": "factual",
+      "id": "51-321_body-equ-q07"
+    },
+    {
+      "question": "What reference is provided for correct top adjustment?",
+      "answer": "See Group 54.",
+      "question_type": "navigation",
+      "id": "51-321_body-equ-q08"
+    },
+    {
+      "question": "What component is being loosened in image 30 51 025?",
+      "answer": "Screws in the window guide mechanism after raising the window completely.",
+      "question_type": "visual",
+      "id": "51-321_body-equ-q10"
+    },
+    {
+      "question": "What does image 30 51 027 show regarding window adjustment?",
+      "answer": "The final positioning of the window with uniform gap between window glass and window frame at top before tightening screws.",
+      "question_type": "visual",
+      "id": "51-321_body-equ-q12"
+    }
+  ]
+}

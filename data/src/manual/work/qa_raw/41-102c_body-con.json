@@ -1,0 +1,91 @@
+{
+  "page_id": "41-102c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-102c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:38:47.081905",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 649
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step shown in the convertible door installation process?",
+      "answer": "Clamp down and tack weld cover.",
+      "question_type": "procedural",
+      "id": "41-102c_body-con-q01"
+    },
+    {
+      "question": "What should you do after fitting in the new door pillar?",
+      "answer": "Door pillar must be removed again after fitting in.",
+      "question_type": "procedural",
+      "id": "41-102c_body-con-q02"
+    },
+    {
+      "question": "What type of welding is used for the cover on entrance and underneath?",
+      "answer": "Plug spot weld cover on entrance and underneath.",
+      "question_type": "procedural",
+      "id": "41-102c_body-con-q03"
+    },
+    {
+      "question": "What are the three things you need to check when installing the door?",
+      "answer": "Check gap to entrance and rear side panel. Lift off door, door pillar and rear side panel.",
+      "question_type": "inspection",
+      "id": "41-102c_body-con-q04"
+    },
+    {
+      "question": "What welding technique is specified for the A pillar?",
+      "answer": "Weld cover on A pillar.",
+      "question_type": "procedural",
+      "id": "41-102c_body-con-q05"
+    },
+    {
+      "question": "What component needs to be set up and clamped down according to the procedure?",
+      "answer": "Set up and clamp down rear side panel.",
+      "question_type": "procedural",
+      "id": "41-102c_body-con-q06"
+    },
+    {
+      "question": "Where should the gas weld connection be inserted?",
+      "answer": "Insert gas weld connection on wheel house and end plate.",
+      "question_type": "procedural",
+      "id": "41-102c_body-con-q07"
+    },
+    {
+      "question": "What is the final welding step shown in the procedure?",
+      "answer": "Plug spot weld support through the provided holes and lock with inert gas welding seams.",
+      "question_type": "procedural",
+      "id": "41-102c_body-con-q08"
+    },
+    {
+      "question": "What reference number is associated with the door pillar setup image?",
+      "answer": "30 41 687",
+      "question_type": "visual",
+      "id": "41-102c_body-con-q09"
+    },
+    {
+      "question": "What reference number corresponds to the rear side panel clamping procedure?",
+      "answer": "30 41 688",
+      "question_type": "visual",
+      "id": "41-102c_body-con-q10"
+    },
+    {
+      "question": "What reference number is shown for the door installation check procedure?",
+      "answer": "30 41 689",
+      "question_type": "visual",
+      "id": "41-102c_body-con-q11"
+    },
+    {
+      "question": "What reference number identifies the final welding support step?",
+      "answer": "30 41 693",
+      "question_type": "visual",
+      "id": "41-102c_body-con-q12"
+    }
+  ]
+}

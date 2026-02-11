@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-033",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/033.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:22:22.880641",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 608
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component has a higher torque specification - the rocker arm clamping bolt or the drag arm clamping bolt?",
+      "answer": "The rocker arm clamping bolt has a higher torque specification at 10 Nm compared to the drag arm clamping bolt at 8 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-033-q04"
+    },
+    {
+      "question": "What type designation applies to the rocker arm clamping bolt?",
+      "answer": "M10/M20/M30",
+      "question_type": "factual",
+      "id": "00-torque-specs-033-q05"
+    },
+    {
+      "question": "What is the difference in torque specifications between the rocker arm and drag arm clamping bolts?",
+      "answer": "2 Nm (rocker arm is 10 Nm, drag arm is 8 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-033-q07"
+    },
+    {
+      "question": "What section and subsection covers the rocker arms/drag arms and bearings specifications?",
+      "answer": "Section 11-23 Engine, subsection 11 33 Rocker Arms/Drag Arms and Bearings",
+      "question_type": "navigation",
+      "id": "00-torque-specs-033-q08"
+    },
+    {
+      "question": "In what units are the torque specifications measured for the rocker arms and drag arms?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-033-q10"
+    }
+  ]
+}

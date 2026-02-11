@@ -1,0 +1,55 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8000-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:15:00.147925",
+    "prompt_template": "electrical_manual/index",
+    "tokens_input": 1892,
+    "tokens_output": 533
+  },
+  "qa_pairs": [
+    {
+      "question": "What page shows the splice location views for Engine (S14) splices S104, S105, and S106?",
+      "answer": "Page 8000-2 shows the splice location views for Engine (S14) splices S104, S105, and S106.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-00-q01"
+    },
+    {
+      "question": "Which harness contains splice S201 and S202?",
+      "answer": "Splices S201 and S202 are located in the ON-BOARD COMPUTER harness.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-00-q02"
+    },
+    {
+      "question": "Where can I find the splice location views for the INSTRUMENT PANEL splices S219 and S221?",
+      "answer": "The INSTRUMENT PANEL splices S219 and S221 are shown on page 8000-4.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-00-q03"
+    },
+    {
+      "question": "What does the index tell me about splice S125 and S126?",
+      "answer": "Splices S125 and S126 are in the JET HEATER harness, but their page locations are listed as NOT SHOWN.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-00-q04"
+    },
+    {
+      "question": "How many splices listed in this index are located in the MAIN harness?",
+      "answer": "There are 15 splices located in the MAIN harness: S100, S102, S103, S114, S115, S116, S118, S119, S203, S207, S209, S210, S211, S212, S213, S215, S230, S231, S232, S233, S234, S239, and S242.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-00-q05"
+    },
+    {
+      "question": "Which A/C and CRUISE CONTROL splices are not shown in the splice location views?",
+      "answer": "The A/C splices S226, S240, S250, S251, and S252 are not shown, along with CRUISE CONTROL splices S223, S228, and S241.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-00-q06"
+    }
+  ]
+}

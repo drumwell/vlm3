@@ -1,0 +1,91 @@
+{
+  "page_id": "31-06_front-ax",
+  "image_path": "raw/31 - Front Axle/31-06.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:00:18.328946",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 789
+  },
+  "qa_pairs": [
+    {
+      "question": "What section should you refer to for removing the front wheel before working on the control arm?",
+      "answer": "You should refer to Group 36 for removing the front wheel.",
+      "question_type": "navigation",
+      "id": "31-06_front-ax-q01"
+    },
+    {
+      "question": "What special tool is needed to unscrew the nut and press off the guide joint?",
+      "answer": "Special Tool 31 1 110 (or 31 2 160 for M 3) is needed to unscrew the nut and press off the guide joint.",
+      "question_type": "tool",
+      "id": "31-06_front-ax-q02"
+    },
+    {
+      "question": "What should you keep grease off of during installation of the guide joint?",
+      "answer": "You should keep grease off of pins and bores during installation.",
+      "question_type": "procedural",
+      "id": "31-06_front-ax-q03"
+    },
+    {
+      "question": "What type of fastener should be installed instead of the standard polystop nut?",
+      "answer": "Install locknut (1) and washer (2) instead of the standard polystop nut.",
+      "question_type": "component",
+      "id": "31-06_front-ax-q04"
+    },
+    {
+      "question": "How should you remove the knock pin from its position?",
+      "answer": "Knock pin loose with a plastic hammer.",
+      "question_type": "procedural",
+      "id": "31-06_front-ax-q05"
+    },
+    {
+      "question": "What is the procedure number for removing and installing the left or right control arm?",
+      "answer": "The procedure number is 31 12 000.",
+      "question_type": "factual",
+      "id": "31-06_front-ax-q06"
+    },
+    {
+      "question": "What should you do regarding the tightening torque for the push rod on the stabilizer?",
+      "answer": "Apply the specified tightening torque as referenced in the Specifications section.",
+      "question_type": "procedural",
+      "id": "31-06_front-ax-q07"
+    },
+    {
+      "question": "In the diagram showing the nut replacement, what do callout numbers 1 and 2 indicate?",
+      "answer": "Callout 1 indicates the locknut and callout 2 indicates the washer that should be installed instead of the standard polystop nut.",
+      "question_type": "visual",
+      "id": "31-06_front-ax-q08"
+    },
+    {
+      "question": "What should you replace during installation to ensure proper locking?",
+      "answer": "Replace the self locking nut during installation.",
+      "question_type": "component",
+      "id": "31-06_front-ax-q09"
+    },
+    {
+      "question": "What reference code is shown for the procedure to unscrew the push rod on stabilizer?",
+      "answer": "The reference code shown is 30 31 019.",
+      "question_type": "factual",
+      "id": "31-06_front-ax-q10"
+    },
+    {
+      "question": "What installation instruction is given for the holder of the control arm?",
+      "answer": "Unscrew the holder for the control arm and apply the specified tightening torque during installation.",
+      "question_type": "procedural",
+      "id": "31-06_front-ax-q11"
+    },
+    {
+      "question": "Where can you find the specific tightening torque values mentioned in this procedure?",
+      "answer": "The specific tightening torque values can be found in the Specifications section, as indicated by the asterisk references.",
+      "question_type": "navigation",
+      "id": "31-06_front-ax-q12"
+    }
+  ]
+}

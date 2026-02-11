@@ -1,0 +1,80 @@
+{
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "index_pages": [
+    "36-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "080",
+      "name": "Rear wheel on car - balance dynamically and electronically",
+      "pages": [
+        "36-1"
+      ]
+    },
+    {
+      "code": "090",
+      "name": "Front and rear wheels - balance dynamically and electronically (325 iX)",
+      "pages": [
+        "36-2"
+      ]
+    },
+    {
+      "code": "200",
+      "name": "Front or rear wheel - check for radial and lateral runout",
+      "pages": [
+        "36-5"
+      ]
+    },
+    {
+      "code": "300",
+      "name": "Front or rear wheel - remove and install",
+      "pages": [
+        "36-6"
+      ]
+    },
+    {
+      "code": "36 10 030",
+      "name": "Front wheels on car - balance dynamically and electronically",
+      "pages": [
+        "36-1"
+      ]
+    },
+    {
+      "code": "36 10 715",
+      "name": "Wheel rim - check for lateral and radial runout",
+      "pages": [
+        "36-8"
+      ]
+    },
+    {
+      "code": "506",
+      "name": "Wheel - balance dynamically (wheel removed)",
+      "pages": [
+        "36-7"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "36-1": [
+      "080",
+      "36 10 030"
+    ],
+    "36-2": [
+      "090"
+    ],
+    "36-5": [
+      "200"
+    ],
+    "36-6": [
+      "300"
+    ],
+    "36-8": [
+      "36 10 715"
+    ],
+    "36-7": [
+      "506"
+    ]
+  },
+  "merge_warnings": []
+}

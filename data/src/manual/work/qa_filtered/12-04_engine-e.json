@@ -1,0 +1,91 @@
+{
+  "page_id": "12-04_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-04.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:21:52.042910",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 753
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the three main components shown in the arrangement diagram for the distributor?",
+      "answer": "The three main components are: 12 - Insulator, 13 - Pulse transmitter, and 14 - Carrier plate.",
+      "question_type": "visual",
+      "id": "12-04_engine-e-q01"
+    },
+    {
+      "question": "What should be done after finishing the installation of the pulse transmitter?",
+      "answer": "After finishing installation, adjust ignition timing according to section 12 11 005.",
+      "question_type": "procedural",
+      "id": "12-04_engine-e-q02"
+    },
+    {
+      "question": "What procedure is described in section 12 11 201?",
+      "answer": "Section 12 11 201 describes the procedure for replacing vacuum control.",
+      "question_type": "navigation",
+      "id": "12-04_engine-e-q03"
+    },
+    {
+      "question": "What steps are required to access the vacuum control for replacement?",
+      "answer": "Take off protective cap and distributor cap, then unscrew and turn distributor for better accessibility, and finally unscrew vacuum control.",
+      "question_type": "procedural",
+      "id": "12-04_engine-e-q04"
+    },
+    {
+      "question": "What should be applied to the eye of the pull rod during installation?",
+      "answer": "Lubricate the eye of pull rod with grease during installation.",
+      "question_type": "tool",
+      "id": "12-04_engine-e-q05"
+    },
+    {
+      "question": "What must be checked after connecting the pull rod during installation?",
+      "answer": "Check that pivoting plate moves easily after connecting the pull rod.",
+      "question_type": "inspection",
+      "id": "12-04_engine-e-q06"
+    },
+    {
+      "question": "What timing adjustment is required after completing the vacuum control installation?",
+      "answer": "Complete installation and adjust ignition timing according to section 12 11 005.",
+      "question_type": "procedural",
+      "id": "12-04_engine-e-q07"
+    },
+    {
+      "question": "How should the BMW service test unit be connected for checking?",
+      "answer": "Connect BMW service test unit according to operating instructions and perform test step '06 Engine'.",
+      "question_type": "procedural",
+      "id": "12-04_engine-e-q08"
+    },
+    {
+      "question": "What test should be performed if vacuum hose is connected on the intake air manifold?",
+      "answer": "Perform test step '06 Engine' if vacuum hose is connected on the intake air manifold.",
+      "question_type": "diagnostic",
+      "id": "12-04_engine-e-q09"
+    },
+    {
+      "question": "What timing difference should be noted between disconnected and connected vacuum hose?",
+      "answer": "Note difference in ignition timing between disconnected and connected vacuum hose - 13 to 17\u00b0 before TDC on crankshaft.",
+      "question_type": "parameter",
+      "id": "12-04_engine-e-q10"
+    },
+    {
+      "question": "From which direction should the pull rod be disconnected?",
+      "answer": "Disconnect pull rod from below.",
+      "question_type": "procedural",
+      "id": "12-04_engine-e-q11"
+    },
+    {
+      "question": "What should be checked regarding the arrangement of carrier plate connections?",
+      "answer": "Check arrangement of carrier plate connections as shown in the installation instructions.",
+      "question_type": "inspection",
+      "id": "12-04_engine-e-q12"
+    }
+  ]
+}

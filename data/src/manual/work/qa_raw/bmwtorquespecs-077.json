@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-077",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/077.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:26:55.713639",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 517
+  },
+  "qa_pairs": [
+    {
+      "question": "What type designation is shown for the screw plug on the low-pressure regulator?",
+      "answer": "316g/518g",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-077-q02"
+    },
+    {
+      "question": "Which section of the fuel system does this page cover?",
+      "answer": "13 80 Gas-powered units",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-077-q03"
+    },
+    {
+      "question": "What units are used for the torque measurement on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-077-q05",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What component is specified with the 1AZ item code?",
+      "answer": "Screw plug on low-pressure regulator",
+      "question_type": "component",
+      "id": "bmwtorquespecs-077-q06"
+    },
+    {
+      "question": "What is the main system category shown at the top of this torque specification table?",
+      "answer": "13 - 10 Fuel System",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-077-q07"
+    },
+    {
+      "question": "How many torque specifications are listed on this page?",
+      "answer": "One torque specification is listed",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-077-q08",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What subsection does the gas-powered units fall under in the fuel system?",
+      "answer": "13 80",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-077-q09"
+    },
+    {
+      "question": "What type of regulator component is referenced in the specification?",
+      "answer": "Low-pressure regulator",
+      "question_type": "component",
+      "id": "bmwtorquespecs-077-q10"
+    }
+  ]
+}

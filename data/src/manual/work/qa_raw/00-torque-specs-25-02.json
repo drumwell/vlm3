@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-25-02",
+  "image_path": "raw/00 - Torque Specs/25-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:03:29.950145",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 600
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the Bowden cable on the shift tower/transmission?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-25-02-q01"
+    },
+    {
+      "question": "What torque should be applied to the clamping screw on the shift lever?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-25-02-q02"
+    },
+    {
+      "question": "How much torque is required for the switch to shift console connection?",
+      "answer": "4.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-25-02-q04"
+    },
+    {
+      "question": "Which automatic transmission shift mechanism component requires the highest torque specification?",
+      "answer": "The Bowden cable on shift tower/transmission requires the highest torque at 15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-25-02-q06"
+    },
+    {
+      "question": "Which component has the lowest torque specification in the shift console automatic transmission section?",
+      "answer": "The switch to shift console connection has the lowest torque specification at 4.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-25-02-q07"
+    },
+    {
+      "question": "Do the shift console to tunnel and interlock cable on shift tower have the same torque specification?",
+      "answer": "Yes, both the shift console to tunnel and interlock cable on shift tower have the same torque specification of 7 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-25-02-q08"
+    },
+    {
+      "question": "What type designation applies to all the shift console automatic transmission components listed?",
+      "answer": "All components are designated as type 'All'",
+      "question_type": "factual",
+      "id": "00-torque-specs-25-02-q09"
+    },
+    {
+      "question": "What section and subsection number covers the shift console automatic transmission specifications?",
+      "answer": "Section 25-2 Shift Mechanism, subsection 25 16 Shift Console - Automatic Transmission",
+      "question_type": "navigation",
+      "id": "00-torque-specs-25-02-q10"
+    }
+  ]
+}

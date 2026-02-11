@@ -1,0 +1,67 @@
+{
+  "page_id": "41-004_body",
+  "image_path": "raw/41 - Body/41-004.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:35:19.764647",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1751,
+    "tokens_output": 561
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the wheelbase measurement shown between points A and B on the BMW E30?",
+      "answer": "The wheelbase measurement between points A and B is 2017 \u00b1 1.5 mm.",
+      "question_type": "factual",
+      "id": "41-004_body-q01"
+    },
+    {
+      "question": "What is the rear axle take-up measurement labeled as B?",
+      "answer": "The rear axle take-up measurement B is 4294 \u00b1 1.5 mm.",
+      "question_type": "factual",
+      "id": "41-004_body-q02"
+    },
+    {
+      "question": "What is the height dimension at the front axle area?",
+      "answer": "The height dimension at the front axle area is 430 \u00b1 1.5 mm.",
+      "question_type": "factual",
+      "id": "41-004_body-q03"
+    },
+    {
+      "question": "What is the height measurement at the rear axle area?",
+      "answer": "The height measurement at the rear axle area is 376 \u00b1 1.5 mm.",
+      "question_type": "factual",
+      "id": "41-004_body-q04"
+    },
+    {
+      "question": "What is the overall length dimension shown in the bottom view?",
+      "answer": "The overall length dimension shown in the bottom view is 2264 \u00b1 3.0 mm.",
+      "question_type": "factual",
+      "id": "41-004_body-q05"
+    },
+    {
+      "question": "What are the width measurements shown on the left and right sides of the vehicle?",
+      "answer": "The width measurements shown are 1003.2 \u00b1 2.0 mm on the left side and 1036.8 \u00b1 4.0 mm on the right side.",
+      "question_type": "factual",
+      "id": "41-004_body-q06"
+    },
+    {
+      "question": "According to the note, what equipment is required for proper repairs?",
+      "answer": "According to the note, repairs can only be carried out correctly with the approved set of attachments and a straightening bench.",
+      "question_type": "procedural",
+      "id": "41-004_body-q07"
+    },
+    {
+      "question": "What vehicle models do these frame alignment control dimensions apply to?",
+      "answer": "These frame alignment control dimensions apply to BMW '3' Series / E 30 Sedans and Convertibles.",
+      "question_type": "factual",
+      "id": "41-004_body-q08"
+    }
+  ]
+}

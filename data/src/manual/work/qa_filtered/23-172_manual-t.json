@@ -1,0 +1,85 @@
+{
+  "page_id": "23-172_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-172.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:34:53.499830",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 791
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to pull out the radial oil seal?",
+      "answer": "Special Tool 00 5 010 is needed to pull out the radial oil seal.",
+      "question_type": "tool",
+      "id": "23-172_manual-t-q01"
+    },
+    {
+      "question": "What is the procedure reference for unscrewing the propeller shaft?",
+      "answer": "See section 23 00 022 for unscrewing the propeller shaft procedure.",
+      "question_type": "navigation",
+      "id": "23-172_manual-t-q02"
+    },
+    {
+      "question": "Which special tools are required to hold the output flange during collar nut removal?",
+      "answer": "Special Tool 23 0 020 is used to hold the output flange, and Special Tool 23 1 210 is used to remove the collar nut.",
+      "question_type": "tool",
+      "id": "23-172_manual-t-q03"
+    },
+    {
+      "question": "What should be done during installation of the collar nut?",
+      "answer": "Install the collar nut with bolt cement and tighten to the specified tightening torque.",
+      "question_type": "procedural",
+      "id": "23-172_manual-t-q04"
+    },
+    {
+      "question": "What special tools are needed to drive in the radial oil seal?",
+      "answer": "Special Tools 23 1 380 and 00 5 500 are needed to drive in the radial oil seal.",
+      "question_type": "tool",
+      "id": "23-172_manual-t-q05"
+    },
+    {
+      "question": "What preparation is required for the sealing lips before installation?",
+      "answer": "Lubricate the sealing lips with oil before installation.",
+      "question_type": "procedural",
+      "id": "23-172_manual-t-q06"
+    },
+    {
+      "question": "Which special tool is used for versions with Integrated Vibration Damper?",
+      "answer": "For versions with Integrated Vibration Damper, use Special Tool 23 1 320 to hold the output flange.",
+      "question_type": "tool",
+      "id": "23-172_manual-t-q07"
+    },
+    {
+      "question": "What alternative tool can be used if the output flange removal is difficult?",
+      "answer": "If too difficult, pull off the output flange with Special Tool 33 1 150.",
+      "question_type": "tool",
+      "id": "23-172_manual-t-q08"
+    },
+    {
+      "question": "What component callouts are shown in the top left image?",
+      "answer": "The top left image shows callouts 30 23 126, 23 1 200, and 23 0 020.",
+      "question_type": "visual",
+      "id": "23-172_manual-t-q09"
+    },
+    {
+      "question": "What should be replaced during the installation process according to the first procedure?",
+      "answer": "Replace the lockplate during installation.",
+      "question_type": "procedural",
+      "id": "23-172_manual-t-q11"
+    },
+    {
+      "question": "What is the source of supply noted at the bottom of the page?",
+      "answer": "The source of supply is HWB, as noted in the specifications section.",
+      "question_type": "factual",
+      "id": "23-172_manual-t-q12"
+    }
+  ]
+}

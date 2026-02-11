@@ -1,0 +1,91 @@
+{
+  "page_id": "51-323_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-323.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:22:19.221678",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 689
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure reference number for removing and installing or replacing left or right front door window glass?",
+      "answer": "The procedure reference number is 51 32 170.",
+      "question_type": "factual",
+      "id": "51-323_body-equ-q01"
+    },
+    {
+      "question": "What should you do with the plastic sheet during door trim panel removal?",
+      "answer": "Pull off the plastic sheet during removal, and replace the damaged plastic sheet during installation.",
+      "question_type": "procedural",
+      "id": "51-323_body-equ-q02"
+    },
+    {
+      "question": "What is the reference number for removing and installing door trim panel?",
+      "answer": "The reference number is 51 41 001.",
+      "question_type": "factual",
+      "id": "51-323_body-equ-q03"
+    },
+    {
+      "question": "What component needs to be pulled off according to the second procedural step?",
+      "answer": "Pull off the inside window recess cover.",
+      "question_type": "procedural",
+      "id": "51-323_body-equ-q04"
+    },
+    {
+      "question": "What important note is given when unscrewing the bolts?",
+      "answer": "Hold window glass tight.",
+      "question_type": "safety",
+      "id": "51-323_body-equ-q05"
+    },
+    {
+      "question": "Where can you find window adjustment procedures after installation?",
+      "answer": "Adjust window procedures can be found in section 51 32 154.",
+      "question_type": "navigation",
+      "id": "51-323_body-equ-q06"
+    },
+    {
+      "question": "What is the final step shown for removing the window glass?",
+      "answer": "Swing front end of window glass out of guide roller.",
+      "question_type": "procedural",
+      "id": "51-323_body-equ-q07"
+    },
+    {
+      "question": "What are the reference numbers shown in the three main procedural images?",
+      "answer": "The reference numbers are 30 51 046, 30 51 028, and 30 51 029.",
+      "question_type": "visual",
+      "id": "51-323_body-equ-q08"
+    },
+    {
+      "question": "What does the arrow in the top right image indicate?",
+      "answer": "The arrow indicates the direction to remove the door window glass.",
+      "question_type": "visual",
+      "id": "51-323_body-equ-q09"
+    },
+    {
+      "question": "What reference number is associated with the bottom image showing the window glass removal?",
+      "answer": "The reference number is 30 51 030.",
+      "question_type": "visual",
+      "id": "51-323_body-equ-q10"
+    },
+    {
+      "question": "What safety precaution must be taken when unscrewing bolts during this procedure?",
+      "answer": "You must hold the window glass tight to prevent it from falling or moving unexpectedly.",
+      "question_type": "safety",
+      "id": "51-323_body-equ-q11"
+    },
+    {
+      "question": "What is the reference number shown in the upper right corner of the page?",
+      "answer": "The reference number is 30 51 031.",
+      "question_type": "visual",
+      "id": "51-323_body-equ-q12"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-27-01",
+  "image_path": "raw/00 - Torque Specs/27-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:04:05.658998",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 625
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the transfer box to manual transmission bolts?",
+      "answer": "42 Nm using M10 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-01-q01"
+    },
+    {
+      "question": "What size screws are used for the transfer box on automatic transmission and what's their torque spec?",
+      "answer": "M8 screws torqued to 23 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-01-q02"
+    },
+    {
+      "question": "How much torque should be applied to the coupling between manual transmission and transfer box?",
+      "answer": "90 Nm using M12 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-01-q03"
+    },
+    {
+      "question": "What's the torque specification for the case bolts on the transfer box?",
+      "answer": "25 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-01-q04"
+    },
+    {
+      "question": "What torque should be used for the electromagnetic clutch to case bolts?",
+      "answer": "25 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-01-q05"
+    },
+    {
+      "question": "What's the highest torque value specified in the transfer box torque specifications?",
+      "answer": "110 Nm for the output flange collar nut.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-01-q06"
+    },
+    {
+      "question": "Which component requires Loctite 270 or Hylogrip bolt cement according to the specifications?",
+      "answer": "The output flange collar nut installation.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-01-q07"
+    },
+    {
+      "question": "What's the difference in torque between manual and automatic transmission transfer box mounting?",
+      "answer": "Manual transmission uses 42 Nm while automatic transmission uses 23 Nm, a difference of 19 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-01-q08"
+    },
+    {
+      "question": "Which screw size is used most frequently in the transfer box assembly?",
+      "answer": "M8 screws are used for three different applications: automatic transmission mounting, case bolts, and electromagnetic clutch to case.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-01-q09"
+    },
+    {
+      "question": "Do all the transfer box specifications apply to all vehicle types?",
+      "answer": "Yes, all specifications shown are marked as applying to 'All' vehicle types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-01-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "36-03_wheels-a",
+  "image_path": "raw/36 - Wheels and Tires/36-03.jpg",
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:30:27.519487",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 784
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of surface must balancing be carried out on?",
+      "answer": "Balancing must be carried out on firm underground (concrete floor without basement).",
+      "question_type": "factual",
+      "id": "36-03_wheels-a-q01"
+    },
+    {
+      "question": "What condition must the car be in after jacking up for balancing?",
+      "answer": "The car must be level after jacking up and all wheels must turn easily.",
+      "question_type": "procedural",
+      "id": "36-03_wheels-a-q02"
+    },
+    {
+      "question": "What additional reference should be consulted for balancing procedures?",
+      "answer": "Also refer to Service Information of Group 36.",
+      "question_type": "navigation",
+      "id": "36-03_wheels-a-q03"
+    },
+    {
+      "question": "What equipment should be used to lift the car if applicable?",
+      "answer": "Lift car with a two-pillar hoist if applicable.",
+      "question_type": "tool",
+      "id": "36-03_wheels-a-q04"
+    },
+    {
+      "question": "Where should measuring supports be applied on the front axle?",
+      "answer": "Apply measuring supports underneath the front axle on each wheel carrier/control arm joint, using suitable holding forks or additional forks.",
+      "question_type": "procedural",
+      "id": "36-03_wheels-a-q05"
+    },
+    {
+      "question": "Where should measuring supports be applied on the rear axle?",
+      "answer": "Apply measuring supports underneath the rear axle on each trailing arm as close as possible to the wheel, using suitable holding forks or additional forks.",
+      "question_type": "procedural",
+      "id": "36-03_wheels-a-q06"
+    },
+    {
+      "question": "Where should the workshop jack be positioned for the front axle final drive?",
+      "answer": "Apply a workshop jack underneath the front axle final drive in the middle and with light pressure, in order to suppress the oscillation of the front axle final drive.",
+      "question_type": "procedural",
+      "id": "36-03_wheels-a-q07"
+    },
+    {
+      "question": "Where should the workshop jack be positioned for the rear axle final drive?",
+      "answer": "Apply a workshop jack underneath the rear axle final drive in the middle and with light pressure, in order to suppress the oscillation of the rear axle final drive.",
+      "question_type": "procedural",
+      "id": "36-03_wheels-a-q08"
+    },
+    {
+      "question": "How should the hoist arms be positioned during balancing procedures?",
+      "answer": "Lower the arms of the hoist until they have just barely cleared, but never touch the body during balancing procedures (resonance oscillation).",
+      "question_type": "safety",
+      "id": "36-03_wheels-a-q09"
+    },
+    {
+      "question": "What documents should be referenced for additional fork information?",
+      "answer": "See Service Information or Workshop Equipment Planning Documents.",
+      "question_type": "navigation",
+      "id": "36-03_wheels-a-q10"
+    },
+    {
+      "question": "What is the purpose of applying light pressure with the workshop jack on the final drives?",
+      "answer": "The light pressure is applied in order to suppress the oscillation of the front axle final drive and rear axle final drive.",
+      "question_type": "operation",
+      "id": "36-03_wheels-a-q11"
+    },
+    {
+      "question": "What critical safety consideration is mentioned regarding hoist arm positioning?",
+      "answer": "The hoist arms must never touch the body during balancing procedures to avoid resonance oscillation.",
+      "question_type": "safety",
+      "id": "36-03_wheels-a-q12"
+    }
+  ]
+}

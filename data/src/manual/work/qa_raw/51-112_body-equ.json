@@ -1,0 +1,67 @@
+{
+  "page_id": "51-112_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-112.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:08:56.866840",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1752,
+    "tokens_output": 490
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of front bumper is shown in this diagram?",
+      "answer": "This diagram shows the front bumper survey for the solid plastic version.",
+      "question_type": "factual",
+      "id": "51-112_body-equ-q01"
+    },
+    {
+      "question": "What component is labeled as number 2 in the diagram?",
+      "answer": "Component number 2 is the impact absorber.",
+      "question_type": "component",
+      "id": "51-112_body-equ-q02"
+    },
+    {
+      "question": "What are the rubber guards identified as in this front bumper assembly?",
+      "answer": "The rubber guards are identified as component number 5 in the assembly.",
+      "question_type": "component",
+      "id": "51-112_body-equ-q03"
+    },
+    {
+      "question": "Where is the bracket on side panel located in relation to other components?",
+      "answer": "The bracket on side panel (component 7) is located on the right side of the bumper assembly near the mounting area.",
+      "question_type": "visual",
+      "id": "51-112_body-equ-q04"
+    },
+    {
+      "question": "What is the part number shown at the bottom of the diagram?",
+      "answer": "The part number shown at the bottom of the diagram is 30 51 823.",
+      "question_type": "factual",
+      "id": "51-112_body-equ-q05"
+    },
+    {
+      "question": "Which component serves as the cover for the towing eye?",
+      "answer": "Component number 6 serves as the cover for the towing eye.",
+      "question_type": "component",
+      "id": "51-112_body-equ-q06"
+    },
+    {
+      "question": "What is the main structural component that holds the bumper panel?",
+      "answer": "The bumper carrier (component 3) is the main structural component that holds the bumper panel.",
+      "question_type": "component",
+      "id": "51-112_body-equ-q07"
+    },
+    {
+      "question": "How many different components are labeled in this front bumper assembly diagram?",
+      "answer": "There are 7 different components labeled in this front bumper assembly diagram, numbered 1 through 7.",
+      "question_type": "factual",
+      "id": "51-112_body-equ-q08"
+    }
+  ]
+}

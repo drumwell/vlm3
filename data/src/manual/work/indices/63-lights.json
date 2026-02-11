@@ -1,0 +1,104 @@
+{
+  "section_id": "63",
+  "section_name": "Lights",
+  "index_pages": [
+    "63-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "...",
+      "name": "Light bulb(s) for tail lights, left or right -- replace",
+      "pages": [
+        "63-3"
+      ]
+    },
+    {
+      "code": "071",
+      "name": "Halogen light bulb for low beam headlight, left or right -- replace",
+      "pages": [
+        "63-2a"
+      ]
+    },
+    {
+      "code": "250",
+      "name": "High beam headlight lamp, left or right -- remove and install",
+      "pages": [
+        "63-2"
+      ]
+    },
+    {
+      "code": "260",
+      "name": "Low beam headlight lamp, left or right -- remove and install",
+      "pages": [
+        "63-2"
+      ]
+    },
+    {
+      "code": "271",
+      "name": "Light bulb for front turn signal, left or right -- replace",
+      "pages": [
+        "63-3"
+      ]
+    },
+    {
+      "code": "381",
+      "name": "Additional stop light for convertibles -- replace",
+      "pages": [
+        "63-4"
+      ]
+    },
+    {
+      "code": "63 10 004",
+      "name": "Headlights -- aim",
+      "pages": [
+        "63-1"
+      ]
+    },
+    {
+      "code": "63 12 100",
+      "name": "Double headlight assembly, left or right -- remove and install",
+      "pages": [
+        "63-1"
+      ]
+    },
+    {
+      "code": "63 21 180",
+      "name": "Tail light assembly, left or right -- remove and install",
+      "pages": [
+        "63-2"
+      ]
+    },
+    {
+      "code": "63 99 001",
+      "name": "Halogen light bulb for high beam headlight, left or right -- replace",
+      "pages": [
+        "63-2a"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "63-3": [
+      "...",
+      "271"
+    ],
+    "63-2a": [
+      "071",
+      "63 99 001"
+    ],
+    "63-2": [
+      "250",
+      "260",
+      "63 21 180"
+    ],
+    "63-4": [
+      "381"
+    ],
+    "63-1": [
+      "63 10 004",
+      "63 12 100"
+    ]
+  },
+  "merge_warnings": [
+    "Code 381: name mismatch 'Additional stop light for convertibles -- replace' vs 'Light bulb for high-mounted stop light -- replace'"
+  ]
+}

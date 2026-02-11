@@ -1,0 +1,91 @@
+{
+  "page_id": "41-101c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-101c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:38:19.044764",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 811
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for replacing the cover for left or right side member on a convertible?",
+      "answer": "The part number is 41 11 520 for replacing cover for left or right side member (rear side panel and door pillar removed) - convertible.",
+      "question_type": "factual",
+      "id": "41-101c_body-con-q01"
+    },
+    {
+      "question": "What page should you refer to for additional information before starting this repair procedure?",
+      "answer": "You should refer to information on page 41-001 before starting this repair procedure.",
+      "question_type": "navigation",
+      "id": "41-101c_body-con-q02"
+    },
+    {
+      "question": "What should be done to car parts located in the repair area before beginning work?",
+      "answer": "Remove or cover up all car parts which are located in the repair area or subjected to heat, sparks and dust.",
+      "question_type": "procedural",
+      "id": "41-101c_body-con-q03"
+    },
+    {
+      "question": "Which panels need to be removed before starting this repair, and where can you find the procedures?",
+      "answer": "Remove the front side panel, remove rear side panel (see 41 35 111), and remove door pillar with reinforcement (see 41 21 501).",
+      "question_type": "procedural",
+      "id": "41-101c_body-con-q04"
+    },
+    {
+      "question": "What is the first step after removing the panels?",
+      "answer": "Drill out spot welds.",
+      "question_type": "procedural",
+      "id": "41-101c_body-con-q05"
+    },
+    {
+      "question": "What important safety warning is given when grinding off edges?",
+      "answer": "Important! Don't damage the end plate when grinding off the edge and lifting off the cover.",
+      "question_type": "safety",
+      "id": "41-101c_body-con-q06"
+    },
+    {
+      "question": "What should be done after drilling out spot welds and before installing the new cover?",
+      "answer": "Grind off welding bead, then straighten and grind all mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-101c_body-con-q07"
+    },
+    {
+      "question": "What preparation is required on the new cover before installation?",
+      "answer": "Grind mating surfaces on new cover.",
+      "question_type": "procedural",
+      "id": "41-101c_body-con-q08"
+    },
+    {
+      "question": "Why are sheet metal panels too thick for perfect resistance spot welding with workshop equipment?",
+      "answer": "Sheet metal panels are too thick for perfect resistance spot welding with workshop equipment, so drill holes in all mating surfaces required for plug spot welding.",
+      "question_type": "factual",
+      "id": "41-101c_body-con-q09"
+    },
+    {
+      "question": "How should spacing be determined when drilling holes for plug spot welding?",
+      "answer": "Take spacing between holes from removed part.",
+      "question_type": "procedural",
+      "id": "41-101c_body-con-q10"
+    },
+    {
+      "question": "What is shown in image 30 41 679?",
+      "answer": "Image 30 41 679 shows the location of spot welds that need to be drilled out, indicated by arrows pointing to the weld locations.",
+      "question_type": "visual",
+      "id": "41-101c_body-con-q11"
+    },
+    {
+      "question": "What does image 30 41 685 demonstrate?",
+      "answer": "Image 30 41 685 shows the new cover with holes drilled in the mating surfaces for plug spot welding, with arrows indicating the hole locations.",
+      "question_type": "visual",
+      "id": "41-101c_body-con-q12"
+    }
+  ]
+}

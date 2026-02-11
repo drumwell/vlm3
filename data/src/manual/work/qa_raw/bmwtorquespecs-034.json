@@ -1,0 +1,58 @@
+{
+  "page_id": "bmwtorquespecs-034",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/034.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:18:45.411947",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 501
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the toothed belt pulley to intermediate shaft?",
+      "answer": "60 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-034-q01"
+    },
+    {
+      "question": "What engine types does the intermediate shaft specification apply to?",
+      "answer": "M20/M21",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-034-q03"
+    },
+    {
+      "question": "Which section of the manual does this torque specification belong to?",
+      "answer": "11 35 Intermediate Shaft",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-034-q04"
+    },
+    {
+      "question": "What is the complete description of the component being torqued in the intermediate shaft section?",
+      "answer": "Toothed belt pulley to intermediate",
+      "question_type": "component",
+      "id": "bmwtorquespecs-034-q07"
+    },
+    {
+      "question": "What section number covers Engine specifications on this page?",
+      "answer": "11 - 24",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-034-q08",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What is the subsection number for the Intermediate Shaft specifications?",
+      "answer": "11 35",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-034-q10"
+    }
+  ]
+}

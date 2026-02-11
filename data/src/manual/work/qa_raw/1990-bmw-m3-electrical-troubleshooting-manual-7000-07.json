@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-07",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-07.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:13:54.405406",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 561
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the seatbelt warning timer located according to Figure 1?",
+      "answer": "The seatbelt warning timer is located below the left-hand side of the dash, above the steering column.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-07-q01"
+    },
+    {
+      "question": "What component is shown in Figure 3 at the top of the steering column?",
+      "answer": "Figure 3 shows the air bag gas generator at the top of the steering column with the air bag gas generator removed.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-07-q02"
+    },
+    {
+      "question": "What components are visible in Figure 4 on the top of the steering column with the steering wheel removed?",
+      "answer": "Figure 4 shows the horn brush/slip ring, combination switch, ignition switch, and flasher components on top of the steering column with the steering wheel removed.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-07-q03"
+    },
+    {
+      "question": "What part is labeled C260 in Figure 2?",
+      "answer": "C260 is a component shown on the underside of the steering column in Figure 2.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-07-q04"
+    },
+    {
+      "question": "Where are the loop contact rings located according to the component views?",
+      "answer": "The loop contact rings are located at the top of the steering column, as shown in Figure 3.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-07-q05"
+    },
+    {
+      "question": "What components are shown in Figure 6 on the left-hand side of the evaporator housing?",
+      "answer": "Figure 6 shows the evaporator temperature regulator and evaporator temperature sensor on the left-hand side of the evaporator housing.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-07-q06"
+    },
+    {
+      "question": "What is shown inside the steering wheel in Figure 5?",
+      "answer": "Figure 5 shows the air bag gas generator inside the steering wheel when it is removed from the car.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-07-q07"
+    },
+    {
+      "question": "What is the page number and section title for this component locations reference?",
+      "answer": "This is page 7000-7 from the Component Locations Views section.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-07-q08"
+    }
+  ]
+}

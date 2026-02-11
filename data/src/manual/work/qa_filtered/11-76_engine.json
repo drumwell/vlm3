@@ -1,0 +1,91 @@
+{
+  "page_id": "11-76_engine",
+  "image_path": "raw/11 - Engine/11-76.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:18:35.872834",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 770
+  },
+  "qa_pairs": [
+    {
+      "question": "What pressure does the pressure safety valve regulate at?",
+      "answer": "The pressure safety valve regulates at 8 bar (114 psi).",
+      "question_type": "factual",
+      "id": "11-76_engine-q01"
+    },
+    {
+      "question": "What is the specified length for spring (7) in the pressure safety valve?",
+      "answer": "The length of spring (7) should be 68 mm (2.677 inches).",
+      "question_type": "factual",
+      "id": "11-76_engine-q02"
+    },
+    {
+      "question": "How do you test if the oil pump runs easily?",
+      "answer": "Check whether oil pump runs easily by turning the drive shaft.",
+      "question_type": "procedural",
+      "id": "11-76_engine-q03"
+    },
+    {
+      "question": "What should you check for when inspecting the oil pump for wear?",
+      "answer": "Check for scoring in the body and wear on rotors.",
+      "question_type": "inspection",
+      "id": "11-76_engine-q04"
+    },
+    {
+      "question": "What is the length specification for spring (9) in the pressure safety valve?",
+      "answer": "The length of spring (9) should be 44 \u00b1 0.4 mm (1.732 \u00b1 0.016 inches).",
+      "question_type": "factual",
+      "id": "11-76_engine-q05"
+    },
+    {
+      "question": "What tool is needed to install spring (9) and washer (10)?",
+      "answer": "Press in spring (9) and washer (10) with a wrench socket and install circlip (11).",
+      "question_type": "tool",
+      "id": "11-76_engine-q06"
+    },
+    {
+      "question": "What components are numbered 6 and 7 in the pressure safety valve diagram?",
+      "answer": "Component 6 is the piston and component 7 is the spring.",
+      "question_type": "visual",
+      "id": "11-76_engine-q07"
+    },
+    {
+      "question": "What should you do before removing the timing chain according to section 11 31 051?",
+      "answer": "Remove lower oil pan section as described in section 11 13 020.",
+      "question_type": "procedural",
+      "id": "11-76_engine-q08"
+    },
+    {
+      "question": "What is the tightening torque specification for the oil pump drive chain?",
+      "answer": "The tightening torque is 25 to 30 Nm (18 to 22 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-76_engine-q09"
+    },
+    {
+      "question": "What color coding distinguishes different chain lengths?",
+      "answer": "Chains with green code are longer than chains with red code.",
+      "question_type": "factual",
+      "id": "11-76_engine-q10"
+    },
+    {
+      "question": "Where is the pressure safety valve located in the engine?",
+      "answer": "The pressure safety valve is located in the main bore and regulates the engine oil pressure.",
+      "question_type": "component",
+      "id": "11-76_engine-q11"
+    },
+    {
+      "question": "What should be checked during sprocket installation for the oil pump drive chain?",
+      "answer": "Check sprockets for wear and adjust chain tightness according to section 11 41 000.",
+      "question_type": "inspection",
+      "id": "11-76_engine-q12"
+    }
+  ]
+}

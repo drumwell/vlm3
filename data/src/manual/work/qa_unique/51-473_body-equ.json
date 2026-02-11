@@ -1,0 +1,79 @@
+{
+  "page_id": "51-473_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-473.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:30:02.921540",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 754
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two procedure numbers shown for removing and installing trunk trim panels?",
+      "answer": "The two procedure numbers are 51 47 220 for removing and installing trunk trim panel on right side panel, and 51 47 240 for removing and installing trunk trim panel on tail panel.",
+      "question_type": "factual",
+      "id": "51-473_body-equ-q01"
+    },
+    {
+      "question": "What should you do with the battery cover before starting the trunk trim panel removal?",
+      "answer": "If applicable, remove battery cover before removing the trim panel for trunk separating wall.",
+      "question_type": "procedural",
+      "id": "51-473_body-equ-q02"
+    },
+    {
+      "question": "Where can you find information about removing the trim panel for trunk separating wall?",
+      "answer": "You can find this information in section 51 47 140.",
+      "question_type": "navigation",
+      "id": "51-473_body-equ-q03"
+    },
+    {
+      "question": "What is the basic procedure for removing the tail panel trunk trim?",
+      "answer": "Push down pins of clips and take off plate, then lift out trim panel.",
+      "question_type": "procedural",
+      "id": "51-473_body-equ-q04"
+    },
+    {
+      "question": "How do you remove the right side trunk trim panel?",
+      "answer": "Lift out trim panel after completing the preliminary steps.",
+      "question_type": "procedural",
+      "id": "51-473_body-equ-q05"
+    },
+    {
+      "question": "What callout number is shown in the upper left image of the trunk area?",
+      "answer": "Callout number 30 51 403 is shown in the upper left image.",
+      "question_type": "visual",
+      "id": "51-473_body-equ-q06"
+    },
+    {
+      "question": "What callout number is visible in the upper right image showing the tail panel area?",
+      "answer": "Callout number 30 51 352 is visible in the upper right image.",
+      "question_type": "visual",
+      "id": "51-473_body-equ-q08"
+    },
+    {
+      "question": "What callout number appears in the lower right image near the wheel well?",
+      "answer": "Callout number 30 51 342 appears in the lower right image near the wheel well.",
+      "question_type": "visual",
+      "id": "51-473_body-equ-q09"
+    },
+    {
+      "question": "What type of fasteners are used to secure the tail panel trim?",
+      "answer": "The tail panel trim is secured with clips that have pins that need to be pushed down for removal.",
+      "question_type": "component",
+      "id": "51-473_body-equ-q10"
+    },
+    {
+      "question": "What section of the manual covers these trunk trim panel procedures?",
+      "answer": "These procedures are covered in Section 51, which is the Body Equipment section.",
+      "question_type": "factual",
+      "id": "51-473_body-equ-q12"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "34-36_brakes",
+  "image_path": "raw/34 - Brakes/34-36.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:23:57.446373",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 792
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I do first when troubleshooting the wire harness relays and valves in step 02?",
+      "answer": "Turn off ignition for single tests, control unit not connected.",
+      "question_type": "procedural",
+      "id": "34-36_brakes-q01"
+    },
+    {
+      "question": "What resistance value indicates a break in wire to the valve relay?",
+      "answer": "A measured value reading greater than 100 ohms indicates a break in wire to valve relay (from ignition switch wire 27, wires in hydraulic unit).",
+      "question_type": "diagnostic",
+      "id": "34-36_brakes-q02"
+    },
+    {
+      "question": "What does a measured value reading less than 50 ohms indicate for the valve relay?",
+      "answer": "A measured value reading less than 50 ohms indicates a short circuit in wire to valve relay (wires 1 and 27, wires in hydraulic unit).",
+      "question_type": "diagnostic",
+      "id": "34-36_brakes-q03"
+    },
+    {
+      "question": "What resistance threshold indicates a break in wire to the motor relay?",
+      "answer": "A measured value reading greater than 58 ohms indicates a break in wire to motor relay (from ignition switch wire 28, wires in hydraulic control unit).",
+      "question_type": "diagnostic",
+      "id": "34-36_brakes-q04"
+    },
+    {
+      "question": "What should I check if specifications are not reached on all three valves?",
+      "answer": "First check wire 32 for breaks or short circuit, then pull off plugs on hydraulic unit.",
+      "question_type": "troubleshooting",
+      "id": "34-36_brakes-q05"
+    },
+    {
+      "question": "How do I test the front left valve resistance?",
+      "answer": "Measure resistance direct on hydraulic unit between wires 1 and 4. If specification not reached, replace hydraulic unit. Check wire 2 from hydraulic unit plug to control unit plug for breaks or short circuit.",
+      "question_type": "procedural",
+      "id": "34-36_brakes-q06"
+    },
+    {
+      "question": "What wires should I check for the front right valve resistance test?",
+      "answer": "Measure resistance direct on hydraulic unit between wires 3 and 4. Check wire 35 from hydraulic unit plug to control unit plug for breaks or short circuit.",
+      "question_type": "procedural",
+      "id": "34-36_brakes-q07"
+    },
+    {
+      "question": "Which wires are used to test the rear valve resistance?",
+      "answer": "Measure resistance direct on hydraulic unit between wires 5 and 4. Check wire 18 from hydraulic unit plug to control unit plug for breaks or short circuit.",
+      "question_type": "procedural",
+      "id": "34-36_brakes-q08"
+    },
+    {
+      "question": "What should I do if there's no measured value from the car for the rear right valve?",
+      "answer": "Repeat test with connected diagnosis plug for 'wrong connection' display (better ground connection with tester).",
+      "question_type": "troubleshooting",
+      "id": "34-36_brakes-q09"
+    },
+    {
+      "question": "What job position codes are referenced for valve and motor relay replacement?",
+      "answer": "Job position codes 61 31 570 and 61 11 530 are referenced for valve and motor relay replacement, and 34 51 520 for hydraulic unit replacement.",
+      "question_type": "navigation",
+      "id": "34-36_brakes-q10"
+    }
+  ]
+}

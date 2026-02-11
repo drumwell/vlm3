@@ -1,0 +1,31 @@
+{
+  "page_id": "bmwtorquespecs-084",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/084.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:28:12.823434",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 566
+  },
+  "qa_pairs": [
+    {
+      "question": "Which BMW models use the plastic sealing ring that is 31.5 mm high (new)?",
+      "answer": "E36/E34/E31",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-084-q09"
+    },
+    {
+      "question": "What section of the manual does this page cover?",
+      "answer": "16-4 Fuel Tank and Fuel Lines, specifically 16 14 Fuel Pump",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-084-q10"
+    }
+  ]
+}

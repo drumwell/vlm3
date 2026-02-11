@@ -1,0 +1,91 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6452-04.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:10:06.983779",
+    "prompt_template": "electrical_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 727
+  },
+  "qa_pairs": [
+    {
+      "question": "What temperature condition is required for the idle speed control voltage test?",
+      "answer": "Temperature outside car must be above 60 degrees F (16 degrees C).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q01"
+    },
+    {
+      "question": "Where do you measure voltage for the idle speed control voltage test?",
+      "answer": "At the Motronic Control Unit connector between pins 29 BL/WT and Ground.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q02"
+    },
+    {
+      "question": "What should you do if the voltage is correct during the idle speed control test?",
+      "answer": "Repair/replace the Motronic Control Unit.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q03"
+    },
+    {
+      "question": "What wire colors should you check for an open circuit in the idle speed control test?",
+      "answer": "Check for an open in the BL/WT and BK/RD wires.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q04"
+    },
+    {
+      "question": "What connector is used for the A/C select switch voltage test?",
+      "answer": "The control switches connector.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q05"
+    },
+    {
+      "question": "What ignition switch position is required for both voltage tests?",
+      "answer": "The ignition switch must be in the RUN position.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q06"
+    },
+    {
+      "question": "What A/C control panel setting is required for the A/C select switch voltage test?",
+      "answer": "The A/C control panel must be set to A/C ON.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q07"
+    },
+    {
+      "question": "What voltage should you measure between pins 4 (WT) and Ground in the A/C select switch test?",
+      "answer": "Battery voltage.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q08"
+    },
+    {
+      "question": "What voltage should you measure between pins 2 (BK/VI) and Ground in the A/C select switch test?",
+      "answer": "Battery voltage.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q09"
+    },
+    {
+      "question": "What should you check if both voltages are correct in the A/C select switch test?",
+      "answer": "Check connections at Evaporator Temperature Regulator.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q10"
+    },
+    {
+      "question": "What wires should you check for an open circuit in the A/C select switch test?",
+      "answer": "Check for an open in the WT and GN/BR wires.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q11"
+    },
+    {
+      "question": "What component should be replaced if the A/C select switch test shows correct voltages but connections are good?",
+      "answer": "Replace the A/C Select Switch.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-04-q12"
+    }
+  ]
+}

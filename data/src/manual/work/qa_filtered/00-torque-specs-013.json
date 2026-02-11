@@ -1,0 +1,25 @@
+{
+  "page_id": "00-torque-specs-013",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/013.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:18:26.862512",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 566
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the thread specification and torque for the drain plug for coolant on engine block?",
+      "answer": "M14 x 1.5 thread with 25 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-013-q05"
+    }
+  ]
+}

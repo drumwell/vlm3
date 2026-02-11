@@ -1,0 +1,79 @@
+{
+  "page_id": "13-811_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-811.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:50:58.190199",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 620
+  },
+  "qa_pairs": [
+    {
+      "question": "What signal must Terminal 3 have when checking the speed signal for the idle control unit?",
+      "answer": "Terminal 3 must have 'terminal 1 signal' with the engine running.",
+      "question_type": "diagnostic",
+      "id": "13-811_fuel-sys-q01"
+    },
+    {
+      "question": "Which terminals should I connect the ohmmeter to when checking the idle signal?",
+      "answer": "Connect ohmmeter (M 06) between terminals 4 and 12.",
+      "question_type": "procedural",
+      "id": "13-811_fuel-sys-q02"
+    },
+    {
+      "question": "What voltage should the voltmeter display when checking the idle signal initially?",
+      "answer": "Voltmeter should display at least 9 volts with a nominal value of 0 ohm.",
+      "question_type": "parameter",
+      "id": "13-811_fuel-sys-q03"
+    },
+    {
+      "question": "What should I do if the voltmeter is not displaying at least 9 volts during the idle signal test?",
+      "answer": "Adjust or replace throttle switch and adjust cable.",
+      "question_type": "troubleshooting",
+      "id": "13-811_fuel-sys-q04"
+    },
+    {
+      "question": "How far should I press down the accelerator pedal during the idle signal test?",
+      "answer": "Press down accelerator pedal several centimeters.",
+      "question_type": "procedural",
+      "id": "13-811_fuel-sys-q05"
+    },
+    {
+      "question": "What voltage should be displayed when pressing the accelerator pedal during the idle signal test?",
+      "answer": "Voltmeter should display approx. 0 volt.",
+      "question_type": "parameter",
+      "id": "13-811_fuel-sys-q06"
+    },
+    {
+      "question": "What corrective action should be taken if the voltmeter doesn't show approximately 0 volt when pressing the accelerator?",
+      "answer": "Adjust or replace throttle switch and adjust cable.",
+      "question_type": "troubleshooting",
+      "id": "13-811_fuel-sys-q07"
+    },
+    {
+      "question": "What conclusion can be drawn if both idle signal tests pass successfully?",
+      "answer": "Idle signal for idle control unit is okay.",
+      "question_type": "diagnostic",
+      "id": "13-811_fuel-sys-q08"
+    },
+    {
+      "question": "What are the two main signal checks performed for the idle control unit?",
+      "answer": "Speed Signal and Idle Signal checks.",
+      "question_type": "factual",
+      "id": "13-811_fuel-sys-q09"
+    },
+    {
+      "question": "What component is commonly adjusted or replaced when idle signal tests fail?",
+      "answer": "Throttle switch, and the cable should also be adjusted.",
+      "question_type": "component",
+      "id": "13-811_fuel-sys-q10"
+    }
+  ]
+}

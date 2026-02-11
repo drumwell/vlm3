@@ -1,0 +1,91 @@
+{
+  "page_id": "11-52_engine",
+  "image_path": "raw/11 - Engine/11-52.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:10:14.298060",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 809
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the tightening torque for the O-rings during installation?",
+      "answer": "The tightening torque is 9 Nm (6.5 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-52_engine-q01"
+    },
+    {
+      "question": "What should be done with the coolant during engine removal?",
+      "answer": "Drain coolant on engine and radiator.",
+      "question_type": "procedural",
+      "id": "11-52_engine-q02"
+    },
+    {
+      "question": "Which section should be referenced for transmission removal?",
+      "answer": "See Group 23 for transmission removal procedures.",
+      "question_type": "navigation",
+      "id": "11-52_engine-q03"
+    },
+    {
+      "question": "What components are indicated by callouts 1 and 2 in the middle right image?",
+      "answer": "Callout 1 indicates hose clamps and callout 2 indicates hoses on the coolant expansion tank.",
+      "question_type": "visual",
+      "id": "11-52_engine-q04"
+    },
+    {
+      "question": "How should the accelerator cable and cruise control cable be handled?",
+      "answer": "Disconnect accelerator cable (1) and cruise control cable (2), unscrew nuts (3) on holder and lay cables with holder aside.",
+      "question_type": "procedural",
+      "id": "11-52_engine-q05"
+    },
+    {
+      "question": "What needs to be done with the intake manifold hose?",
+      "answer": "Loosen hose clamp (1) and pull off hose on intake manifold, then unscrew nut (2) on intake manifold brace.",
+      "question_type": "procedural",
+      "id": "11-52_engine-q06"
+    },
+    {
+      "question": "Which group should be referenced for cooling system bleeding procedures?",
+      "answer": "See Group 17 for fill and bleed cooling system procedures.",
+      "question_type": "navigation",
+      "id": "11-52_engine-q07"
+    },
+    {
+      "question": "What should be checked and potentially replaced during installation?",
+      "answer": "Check O-rings, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "11-52_engine-q08"
+    },
+    {
+      "question": "What components need to be disconnected from the alternator?",
+      "answer": "Disconnect leads (1 and 2) on alternator and unscrew nuts (3 and 4) and take off leads.",
+      "question_type": "procedural",
+      "id": "11-52_engine-q09"
+    },
+    {
+      "question": "How should the vacuum hose in the brake booster be handled?",
+      "answer": "Pull off clamp and lift out vacuum hose (5) in the brake booster.",
+      "question_type": "procedural",
+      "id": "11-52_engine-q10"
+    },
+    {
+      "question": "What steps are required for removing the ignition system components?",
+      "answer": "Pull off ignition lead (1) on ignition coil, pull off plugs (2 and 3), unscrew nut (4) and lay lead aside on opposite end of engine.",
+      "question_type": "procedural",
+      "id": "11-52_engine-q11"
+    },
+    {
+      "question": "What should be removed from the coolant expansion tank area?",
+      "answer": "Loosen hose clamps (1 and 2) and pull off hoses on coolant expansion tank, then unscrew nut (3) and take off ground strap.",
+      "question_type": "procedural",
+      "id": "11-52_engine-q12"
+    }
+  ]
+}

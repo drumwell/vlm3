@@ -1,0 +1,85 @@
+{
+  "page_id": "51-712_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-712.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:30:56.473779",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 688
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the plate on rear side panel?",
+      "answer": "51 71 440 REPLACING PLATE ON REAR SIDE PANEL",
+      "question_type": "factual",
+      "id": "51-712_body-equ-q01"
+    },
+    {
+      "question": "What should be done with the grommet before installation?",
+      "answer": "The grommet must be softened in water for some time prior to installation.",
+      "question_type": "procedural",
+      "id": "51-712_body-equ-q02"
+    },
+    {
+      "question": "What tool is required to install plastic rivets in the wheel house?",
+      "answer": "Install plastic rivets with Special Tool.",
+      "question_type": "tool",
+      "id": "51-712_body-equ-q03"
+    },
+    {
+      "question": "What is the first step when replacing the plate on rear side panel?",
+      "answer": "Unscrew screw.",
+      "question_type": "procedural",
+      "id": "51-712_body-equ-q04"
+    },
+    {
+      "question": "How should the plate be installed after removal?",
+      "answer": "Clip in and align plate.",
+      "question_type": "procedural",
+      "id": "51-712_body-equ-q05"
+    },
+    {
+      "question": "What special preparation is needed when replacing the side panel?",
+      "answer": "Drill holes in new part when replacing the side panel, then insert plug in plate.",
+      "question_type": "procedural",
+      "id": "51-712_body-equ-q07"
+    },
+    {
+      "question": "What installation hardware is specified for the screw replacement?",
+      "answer": "Insert new screw and self-tapping nut.",
+      "question_type": "factual",
+      "id": "51-712_body-equ-q08"
+    },
+    {
+      "question": "What component needs to be lifted out from the wheel house area?",
+      "answer": "Lift out plastic rivets in wheel house.",
+      "question_type": "procedural",
+      "id": "51-712_body-equ-q09"
+    },
+    {
+      "question": "Where should the new plug be inserted during installation?",
+      "answer": "Insert new plug in side panel.",
+      "question_type": "procedural",
+      "id": "51-712_body-equ-q10"
+    },
+    {
+      "question": "What is required for grommet installation in the side member?",
+      "answer": "The grommet must be softened in water for some time prior to installation.",
+      "question_type": "procedural",
+      "id": "51-712_body-equ-q11"
+    },
+    {
+      "question": "What are the BMW part numbers visible in the diagrams?",
+      "answer": "30 51 648, 30 51 649, 30 51 650, 30 51 651, 30 51 652, and 30 51 656 are visible as diagram reference numbers.",
+      "question_type": "visual",
+      "id": "51-712_body-equ-q12"
+    }
+  ]
+}

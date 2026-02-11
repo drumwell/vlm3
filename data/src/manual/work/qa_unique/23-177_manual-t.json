@@ -1,0 +1,79 @@
+{
+  "page_id": "23-177_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-177.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:36:32.845731",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 791
+  },
+  "qa_pairs": [
+    {
+      "question": "What Loctite number should be used when installing and capping after coating?",
+      "answer": "Loctite No. 573 should be used for both installing and capping after coating, as well as for installing the end cover.",
+      "question_type": "factual",
+      "id": "23-177_manual-t-q01"
+    },
+    {
+      "question": "How should the four rollers be positioned during installation?",
+      "answer": "Hold the four rollers in position with grease, then slide in selector shaft and install selector arm at the same time.",
+      "question_type": "procedural",
+      "id": "23-177_manual-t-q03"
+    },
+    {
+      "question": "What is the important orientation requirement for the selector shaft opening?",
+      "answer": "The opening in selector shaft must face out.",
+      "question_type": "safety",
+      "id": "23-177_manual-t-q04"
+    },
+    {
+      "question": "How should the groove in the selector rail be oriented during installation?",
+      "answer": "The groove in selector rail should face up when installing the selector rail.",
+      "question_type": "procedural",
+      "id": "23-177_manual-t-q06"
+    },
+    {
+      "question": "What is the proper orientation for the operating lever notch during installation?",
+      "answer": "Install operating lever with notch facing up and toward selector rail.",
+      "question_type": "procedural",
+      "id": "23-177_manual-t-q07"
+    },
+    {
+      "question": "What preparation is required for the case rear section before coating with Loctite?",
+      "answer": "The surface must be thoroughly clean and dried of oil before coating the case rear section in the area of reverse gear shaft with Loctite No. 573.",
+      "question_type": "procedural",
+      "id": "23-177_manual-t-q08"
+    },
+    {
+      "question": "What should be done to the sealing lip of the radial oil seal before installation?",
+      "answer": "Lubricate the sealing lip of the radial oil seal with oil before installation.",
+      "question_type": "procedural",
+      "id": "23-177_manual-t-q09"
+    },
+    {
+      "question": "In the selector rail installation diagram, what do the numbered callouts 4, 5, and 6 indicate?",
+      "answer": "The numbered callouts show the sequence and positioning of components during selector rail installation, with specific orientations for proper assembly.",
+      "question_type": "visual",
+      "id": "23-177_manual-t-q10"
+    },
+    {
+      "question": "What components are installed together with the shaft in the final assembly step?",
+      "answer": "The shaft is installed with needle bearing and reverse gear together.",
+      "question_type": "factual",
+      "id": "23-177_manual-t-q11"
+    },
+    {
+      "question": "What is the procedure for driving the pin out of the selector arm?",
+      "answer": "Drive the pin out of the selector arm as shown in the diagram, which appears to be a removal step in the disassembly process.",
+      "question_type": "procedural",
+      "id": "23-177_manual-t-q12"
+    }
+  ]
+}

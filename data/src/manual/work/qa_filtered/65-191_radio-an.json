@@ -1,0 +1,91 @@
+{
+  "page_id": "65-191_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-191.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:02:34.581405",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 745
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the telescope for automatic antenna?",
+      "answer": "The procedure number is 65 22 040.",
+      "question_type": "factual",
+      "id": "65-191_radio-an-q01"
+    },
+    {
+      "question": "What happens to the automatic antenna when replacing the telescope?",
+      "answer": "The automatic antenna remains in the car when replacing telescope. The telescope is replaced together with the plastic cable.",
+      "question_type": "procedural",
+      "id": "65-191_radio-an-q02"
+    },
+    {
+      "question": "What is the first step when beginning telescope replacement?",
+      "answer": "Turn on radio to run out telescope as far as possible, then unscrew threaded sleeve.",
+      "question_type": "procedural",
+      "id": "65-191_radio-an-q03"
+    },
+    {
+      "question": "What should you do with the radio to run in the antenna during installation?",
+      "answer": "Turn off radio to run in the antenna. Push in cable slightly until it is pulled in automatically by the drive.",
+      "question_type": "procedural",
+      "id": "65-191_radio-an-q04"
+    },
+    {
+      "question": "What technique is required when removing the telescope and plastic cable?",
+      "answer": "This requires firm pulling, especially if, for example, a bent telescope cannot be run out fully.",
+      "question_type": "procedural",
+      "id": "65-191_radio-an-q05"
+    },
+    {
+      "question": "How should you handle the plastic cable and telescope during installation?",
+      "answer": "Guide in plastic cable and telescope by hand at same time.",
+      "question_type": "procedural",
+      "id": "65-191_radio-an-q06"
+    },
+    {
+      "question": "What should you do after screwing in the threaded sleeve?",
+      "answer": "Screw in threaded sleeve tight and run telescope out and in several times.",
+      "question_type": "procedural",
+      "id": "65-191_radio-an-q07"
+    },
+    {
+      "question": "How do you install the new telescope into the antenna adapter?",
+      "answer": "Slide straightened, pointed plastic end of new telescope into antenna adapter until resistance is felt on the contact roller.",
+      "question_type": "procedural",
+      "id": "65-191_radio-an-q08"
+    },
+    {
+      "question": "What diagram number shows the step for running out the telescope?",
+      "answer": "Diagram 28 65 026 shows turning on radio to run out telescope and unscrewing the threaded sleeve.",
+      "question_type": "visual",
+      "id": "65-191_radio-an-q09"
+    },
+    {
+      "question": "What diagram number illustrates the removal of telescope and plastic cable?",
+      "answer": "Diagram 28 65 026 shows the removal of telescope and plastic cable with firm pulling.",
+      "question_type": "visual",
+      "id": "65-191_radio-an-q10"
+    },
+    {
+      "question": "What diagram shows the installation of the new telescope?",
+      "answer": "Diagram 28 65 028 shows sliding the straightened, pointed plastic end of new telescope into antenna adapter.",
+      "question_type": "visual",
+      "id": "65-191_radio-an-q11"
+    },
+    {
+      "question": "What should you feel when properly inserting the new telescope?",
+      "answer": "You should feel resistance on the contact roller when the telescope is properly inserted into the antenna adapter.",
+      "question_type": "inspection",
+      "id": "65-191_radio-an-q12"
+    }
+  ]
+}

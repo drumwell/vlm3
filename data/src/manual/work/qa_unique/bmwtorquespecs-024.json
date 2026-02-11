@@ -1,0 +1,31 @@
+{
+  "page_id": "bmwtorquespecs-024",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/024.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:16:52.433765",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 610
+  },
+  "qa_pairs": [
+    {
+      "question": "What important warning is given about flywheel installation?",
+      "answer": "Do not install with screw retaining compound. Bolts are a component part of the flywheel. Screw threads oiled.",
+      "question_type": "safety",
+      "id": "bmwtorquespecs-024-q04"
+    },
+    {
+      "question": "What should be applied to the screw threads during flywheel installation?",
+      "answer": "Oil should be applied to screw threads.",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-024-q09"
+    }
+  ]
+}

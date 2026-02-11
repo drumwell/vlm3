@@ -1,0 +1,91 @@
+{
+  "page_id": "41-106c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-106c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:40:52.688397",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 746
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do after fitting the door in the rear side panel?",
+      "answer": "Install the door and check the gaps.",
+      "question_type": "procedural",
+      "id": "41-106c_body-con-q01"
+    },
+    {
+      "question": "How should you weld the support through the provided holes?",
+      "answer": "Plug spot weld the support through the provided holes and lock with inert gas welded seams.",
+      "question_type": "procedural",
+      "id": "41-106c_body-con-q02"
+    },
+    {
+      "question": "What welding process is specified for the cover on entrance and from underneath?",
+      "answer": "Plug spot weld cover on entrance and from underneath.",
+      "question_type": "procedural",
+      "id": "41-106c_body-con-q03"
+    },
+    {
+      "question": "Where should you perform plug spot weld connection on the wheel house?",
+      "answer": "Plug spot weld connection on wheel house at rear.",
+      "question_type": "procedural",
+      "id": "41-106c_body-con-q04"
+    },
+    {
+      "question": "What type of joint should be welded for the panel section connection?",
+      "answer": "Weld mating surface joint for the plug spot weld panel section connection.",
+      "question_type": "procedural",
+      "id": "41-106c_body-con-q05"
+    },
+    {
+      "question": "What finishing step may be necessary for the panel section connection?",
+      "answer": "Grind panel section connection, tinning if necessary.",
+      "question_type": "procedural",
+      "id": "41-106c_body-con-q06"
+    },
+    {
+      "question": "What welding method is used for the connection on wheel house and end plate?",
+      "answer": "Inert gas weld connection on wheel house and end plate.",
+      "question_type": "procedural",
+      "id": "41-106c_body-con-q07"
+    },
+    {
+      "question": "What sealing procedure should be followed after installing the rear side panel?",
+      "answer": "Seal off connections with a body sealing compound.",
+      "question_type": "procedural",
+      "id": "41-106c_body-con-q08"
+    },
+    {
+      "question": "What compound should be applied to prevent drumming after rear side panel installation?",
+      "answer": "Spray an anti-drumming compound on the wheel house, trunk floor plate and trunk lid from underneath.",
+      "question_type": "procedural",
+      "id": "41-106c_body-con-q09"
+    },
+    {
+      "question": "What is the first step mentioned for the rear side panel procedure?",
+      "answer": "Remove door and rear side panel.",
+      "question_type": "procedural",
+      "id": "41-106c_body-con-q10"
+    },
+    {
+      "question": "What reference numbers are visible in the images showing the welding procedures?",
+      "answer": "The reference numbers shown are 30 41 689, 30 41 709, 30 41 693, 30 41 694, 30 41 710, 30 41 711, and 30 41 692.",
+      "question_type": "visual",
+      "id": "41-106c_body-con-q11"
+    },
+    {
+      "question": "What areas require anti-drumming compound application according to the final instruction?",
+      "answer": "The wheel house, trunk floor plate, and trunk lid from underneath require anti-drumming compound application.",
+      "question_type": "factual",
+      "id": "41-106c_body-con-q12"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "-021",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/021.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:07:16.271611",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1884,
+    "tokens_output": 696
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the measurement specification for the 2nd gear synchronizer?",
+      "answer": "2nd gear: 1.20mm for the first column and 1.25mm for the second column.",
+      "question_type": "factual",
+      "id": "-021-q01"
+    },
+    {
+      "question": "What are the measurements for the 3rd and 4th gear synchronizers?",
+      "answer": "3rd gear: 1.12mm and 1.30mm. 4th gear: 1.12mm and 1.30mm.",
+      "question_type": "factual",
+      "id": "-021-q02"
+    },
+    {
+      "question": "What is the specification for the 5th gear synchronizer?",
+      "answer": "5th gear: 1.05mm and 1.25mm.",
+      "question_type": "factual",
+      "id": "-021-q03"
+    },
+    {
+      "question": "What are the reverse gear synchronizer measurements?",
+      "answer": "Reverse: 0.04mm and 0.08mm.",
+      "question_type": "factual",
+      "id": "-021-q04"
+    },
+    {
+      "question": "What is the replacement criteria for reverse gear synchronizers?",
+      "answer": "Reverse gear; 0.5-0.6 new less than 0.4mm replace.",
+      "question_type": "procedural",
+      "id": "-021-q05"
+    },
+    {
+      "question": "What type of replacement synchronizers were used according to the text?",
+      "answer": "New oem syncs supplied by Pelican Parts that looked identical in every way to the ones removed and a lot cheaper than the BMW oem items.",
+      "question_type": "factual",
+      "id": "-021-q07"
+    },
+    {
+      "question": "What solution was used for the reverse synchronizer?",
+      "answer": "For reverse I used the best used forward synchro and installed it in the new position reverse no worries.",
+      "question_type": "procedural",
+      "id": "-021-q08"
+    },
+    {
+      "question": "How long was the ultrasonic cleaner used and what was the result?",
+      "answer": "Used for 1/2 hour with hot water and detergent. The housing was dead clean after removal with no difference to staining corrosion marks, suggesting 1/2 hour may not be long enough to take effect.",
+      "question_type": "procedural",
+      "id": "-021-q10"
+    }
+  ]
+}

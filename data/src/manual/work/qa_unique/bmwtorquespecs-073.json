@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-073",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/073.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:26:11.892203",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 794
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the injection nozzle combination assembly (1AZ)?",
+      "answer": "The torque specification for the injection nozzle combination assembly (1AZ) is 80 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-073-q01"
+    },
+    {
+      "question": "What screw type is used for the injection nozzle combination to cylinder head (2AZ)?",
+      "answer": "The screw type used for the injection nozzle combination to cylinder head (2AZ) is M21.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-073-q02"
+    },
+    {
+      "question": "What is the torque value for the injection pipe coupling nut to injection pump and nozzle combination (3AZ)?",
+      "answer": "The torque value for the injection pipe coupling nut to injection pump and nozzle combination (3AZ) is 20 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-073-q03"
+    },
+    {
+      "question": "What are the two screw types used for the injection nozzle combination assembly (1AZ)?",
+      "answer": "The two screw types used for the injection nozzle combination assembly (1AZ) are M21/M51.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-073-q04"
+    },
+    {
+      "question": "What is the torque specification for the M51/M41 screw in the injection nozzle combination to cylinder head connection?",
+      "answer": "The torque specification for the M51/M41 screw in the injection nozzle combination to cylinder head connection is 65 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-073-q05"
+    },
+    {
+      "question": "What section of the manual does this page cover?",
+      "answer": "This page covers section 13-6, Fuel metering and regulation system, specifically 13 53 Fuel Injection Nozzles and Pipes.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-073-q07"
+    },
+    {
+      "question": "What is the torque value for the feed line on injection panel (4AZ)?",
+      "answer": "The torque value for the feed line on injection panel (4AZ) is 20 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-073-q08"
+    },
+    {
+      "question": "How many different components are listed in the Fuel Injection Nozzles and Pipes section?",
+      "answer": "There are 4 different components listed in the Fuel Injection Nozzles and Pipes section, labeled 1AZ through 4AZ.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-073-q09"
+    },
+    {
+      "question": "What screw types are used for the injection pipe coupling nut to injection pump and nozzle combination (3AZ)?",
+      "answer": "The screw types used for the injection pipe coupling nut to injection pump and nozzle combination (3AZ) are M21/M51/M41.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-073-q10"
+    }
+  ]
+}

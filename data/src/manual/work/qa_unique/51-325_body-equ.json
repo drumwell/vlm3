@@ -1,0 +1,85 @@
+{
+  "page_id": "51-325_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-325.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:22:47.250527",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 683
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers removing the door trim panel?",
+      "answer": "Section 51 41 001 covers removing the door trim panel.",
+      "question_type": "navigation",
+      "id": "51-325_body-equ-q01"
+    },
+    {
+      "question": "What should be done with the plastic sheet during installation?",
+      "answer": "Replace the damaged plastic sheet during installation.",
+      "question_type": "procedural",
+      "id": "51-325_body-equ-q02"
+    },
+    {
+      "question": "What needs to be done to the window regulator after unscrewing the screws?",
+      "answer": "Push back the window regulator after unscrewing the screws.",
+      "question_type": "procedural",
+      "id": "51-325_body-equ-q03"
+    },
+    {
+      "question": "How should the holder be removed according to the procedure?",
+      "answer": "Unscrew the screw and lift out the holder.",
+      "question_type": "procedural",
+      "id": "51-325_body-equ-q04"
+    },
+    {
+      "question": "Where should the holder be inserted during installation?",
+      "answer": "Insert the holder in the provided openings during installation.",
+      "question_type": "procedural",
+      "id": "51-325_body-equ-q05"
+    },
+    {
+      "question": "What is the procedure for installing window glass?",
+      "answer": "Rub in rubber frame with a lubricant and slide in window glass parallel to the stop.",
+      "question_type": "procedural",
+      "id": "51-325_body-equ-q06"
+    },
+    {
+      "question": "What lubricant requirement is specified for the rubber frame?",
+      "answer": "A lubricant should be used to rub in the rubber frame during installation.",
+      "question_type": "tool",
+      "id": "51-325_body-equ-q07"
+    },
+    {
+      "question": "What direction should the window glass be moved during installation?",
+      "answer": "The window glass should be slid in parallel to the stop.",
+      "question_type": "procedural",
+      "id": "51-325_body-equ-q08"
+    },
+    {
+      "question": "What additional step may be required on the door frame?",
+      "answer": "If applicable, lift off trim on door frame.",
+      "question_type": "procedural",
+      "id": "51-325_body-equ-q09"
+    },
+    {
+      "question": "What is the first step in the removal procedure?",
+      "answer": "Remove door trim panel as described in section 51 41 001 and pull off plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-325_body-equ-q10"
+    },
+    {
+      "question": "What is the main topic covered in section 51 32?",
+      "answer": "Section 51 32 covers removing and installing or replacing fixed front door windows.",
+      "question_type": "factual",
+      "id": "51-325_body-equ-q12"
+    }
+  ]
+}

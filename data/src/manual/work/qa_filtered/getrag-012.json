@@ -1,0 +1,91 @@
+{
+  "page_id": "getrag-012",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/012.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:44:18.516717",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 778
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure is described for removing shift rods from the gearbox?",
+      "answer": "To get the shift rods out and back of the box off, pull each shift rod out through the front.",
+      "question_type": "procedural",
+      "id": "getrag-012-q01"
+    },
+    {
+      "question": "What comment is made about the order of the photos shown?",
+      "answer": "Slightly out of order some of the photos.",
+      "question_type": "factual",
+      "id": "getrag-012-q02"
+    },
+    {
+      "question": "What type of transmission components are visible in the top image?",
+      "answer": "The top image shows transmission components including what appears to be a starter drive gear or pinion gear with splined teeth, along with bearing races or seals.",
+      "question_type": "visual",
+      "id": "getrag-012-q03"
+    },
+    {
+      "question": "What transmission components are shown in the bottom workshop photograph?",
+      "answer": "The bottom photograph shows an opened transmission case with internal gears, shift forks, and two shift rods that have been removed and are lying alongside the transmission.",
+      "question_type": "visual",
+      "id": "getrag-012-q04"
+    },
+    {
+      "question": "What is the direction for removing shift rods from the transmission?",
+      "answer": "Pull each shift rod out through the front of the transmission.",
+      "question_type": "procedural",
+      "id": "getrag-012-q05"
+    },
+    {
+      "question": "What numerical markings are visible on the parts in the top image?",
+      "answer": "Several numerical markings are visible including 3476, 3477, 3478, 3479, and 3490.",
+      "question_type": "visual",
+      "id": "getrag-012-q06"
+    },
+    {
+      "question": "What type of workspace setup is shown in the bottom image?",
+      "answer": "A workshop bench setup with the transmission disassembled, showing the internal components laid out for inspection or repair work.",
+      "question_type": "visual",
+      "id": "getrag-012-q07"
+    },
+    {
+      "question": "How many shift rods are visible in the bottom photograph?",
+      "answer": "Two shift rods are visible lying alongside the opened transmission case.",
+      "question_type": "visual",
+      "id": "getrag-012-q08"
+    },
+    {
+      "question": "What is required to access the back of the transmission box?",
+      "answer": "The shift rods must be pulled out through the front to get the back of the box off.",
+      "question_type": "procedural",
+      "id": "getrag-012-q09"
+    },
+    {
+      "question": "What type of gearing is visible inside the opened transmission case?",
+      "answer": "The transmission case shows multiple gear sets with helical cut teeth and what appears to be synchronizer assemblies.",
+      "question_type": "visual",
+      "id": "getrag-012-q10"
+    },
+    {
+      "question": "What automotive publication or reference material is visible in the background of the top image?",
+      "answer": "Auto parts catalogs or reference sheets are visible in the background, including what appears to be automotive manufacturer listings.",
+      "question_type": "visual",
+      "id": "getrag-012-q11"
+    },
+    {
+      "question": "What is the sequence for disassembling this transmission section?",
+      "answer": "Remove the shift rods by pulling them out through the front, which then allows removal of the back of the transmission box.",
+      "question_type": "procedural",
+      "id": "getrag-012-q12"
+    }
+  ]
+}

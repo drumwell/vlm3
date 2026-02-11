@@ -1,0 +1,55 @@
+{
+  "page_id": "16-00-index-a_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-00-index-a.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:57:27.557866",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1748,
+    "tokens_output": 418
+  },
+  "qa_pairs": [
+    {
+      "question": "What chapter number covers the Fuel Tank and Lines section?",
+      "answer": "Chapter 16 covers the Fuel Tank and Lines section.",
+      "question_type": "factual",
+      "id": "16-00-index-a_fuel-tan-q01"
+    },
+    {
+      "question": "On which page can I find information about the fuel tank survey for before 1988 models?",
+      "answer": "Information about the fuel tank survey for before 1988 models can be found on page 16-0.",
+      "question_type": "navigation",
+      "id": "16-00-index-a_fuel-tan-q02"
+    },
+    {
+      "question": "Where is the procedure for removing and installing the fuel tank located?",
+      "answer": "The procedure for removing and installing the fuel tank is located on page 16-2 under section 16 11 030.",
+      "question_type": "navigation",
+      "id": "16-00-index-a_fuel-tan-q03"
+    },
+    {
+      "question": "What page covers the fuel intake with integrated transfer pump removal and installation for before 1988 models?",
+      "answer": "Page 16-8 covers the fuel intake with integrated transfer pump removal and installation for before 1988 models under section 16 12 002.",
+      "question_type": "navigation",
+      "id": "16-00-index-a_fuel-tan-q04"
+    },
+    {
+      "question": "Where can I find information about checking the fuel intake/level transmitter?",
+      "answer": "Information about checking the fuel intake/level transmitter can be found on page 16-11.",
+      "question_type": "navigation",
+      "id": "16-00-index-a_fuel-tan-q05"
+    },
+    {
+      "question": "What is the page reference for carbon canister removal and installation or replacement procedures?",
+      "answer": "The carbon canister removal and installation or replacement procedures are referenced on page 16-11 under section 010.",
+      "question_type": "navigation",
+      "id": "16-00-index-a_fuel-tan-q06"
+    }
+  ]
+}

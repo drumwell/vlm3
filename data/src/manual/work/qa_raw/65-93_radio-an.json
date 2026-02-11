@@ -1,0 +1,91 @@
+{
+  "page_id": "65-93_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-93.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:08:40.167936",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 671
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step in the service installation procedure for the cassette box?",
+      "answer": "Lift out ashtray.",
+      "question_type": "procedural",
+      "id": "65-93_radio-an-q01"
+    },
+    {
+      "question": "What needs to be disconnected when unscrewing the nut during cassette box installation?",
+      "answer": "Disconnect plug on ashtray light.",
+      "question_type": "procedural",
+      "id": "65-93_radio-an-q02"
+    },
+    {
+      "question": "How should the console be moved when pulling up the parking brake lever?",
+      "answer": "Lift and slide console forward.",
+      "question_type": "procedural",
+      "id": "65-93_radio-an-q03"
+    },
+    {
+      "question": "What component is referenced as item (1) in the parking brake cover removal step?",
+      "answer": "The parking brake cover.",
+      "question_type": "visual",
+      "id": "65-93_radio-an-q04"
+    },
+    {
+      "question": "What installation kit component should be installed according to the instructions?",
+      "answer": "Install console from installation kit.",
+      "question_type": "factual",
+      "id": "65-93_radio-an-q05"
+    },
+    {
+      "question": "What is shown in diagram 30 65 065?",
+      "answer": "A set of three cassette boxes assembled together.",
+      "question_type": "visual",
+      "id": "65-93_radio-an-q06"
+    },
+    {
+      "question": "What are the numbered components (1, 2, 3, 4) in the final diagram showing?",
+      "answer": "Component 1 is the cassette box, 2 is the holder, 3 is the guide, and 4 is the opening of the holder.",
+      "question_type": "visual",
+      "id": "65-93_radio-an-q07"
+    },
+    {
+      "question": "How should the cassette boxes be inserted into the holder?",
+      "answer": "Slide cassette boxes (1) into holder (2).",
+      "question_type": "procedural",
+      "id": "65-93_radio-an-q08"
+    },
+    {
+      "question": "What important positioning requirement is noted for the cassette box guide?",
+      "answer": "Guide (3) of cassette box must be in opening (4) of holder.",
+      "question_type": "inspection",
+      "id": "65-93_radio-an-q09"
+    },
+    {
+      "question": "What component needs to be installed after the parking brake lever is pulled up?",
+      "answer": "Install parking brake lever cover (1).",
+      "question_type": "procedural",
+      "id": "65-93_radio-an-q10"
+    },
+    {
+      "question": "What is the BMW part number referenced for this service procedure?",
+      "answer": "65 14 000.",
+      "question_type": "factual",
+      "id": "65-93_radio-an-q11"
+    },
+    {
+      "question": "What is the main task being performed in this service procedure?",
+      "answer": "Service installing cassette box.",
+      "question_type": "factual",
+      "id": "65-93_radio-an-q12"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-115",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/115.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:34:30.192237",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 684
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw size is used for both transmission types shown in the wire harness shift elements and sensor section?",
+      "answer": "M26 screw size is used for both transmission types.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-115-q02"
+    },
+    {
+      "question": "Which transmission types are covered in section 24 35 for wire harness, shift elements and sensor specifications?",
+      "answer": "4HP-22 EH/4HP-24EH/A5S 310Z and A4S 270R/A4S 310R transmission types.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-115-q04"
+    },
+    {
+      "question": "What is the difference in torque specifications between the two transmission types listed?",
+      "answer": "The 4HP-22 EH/4HP-24EH/A5S 310Z requires 12 Nm while the A4S 270R/A4S 310R requires 14 Nm, a difference of 2 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-115-q07"
+    },
+    {
+      "question": "What section number covers the automatic transmission wire harness, shift elements and sensor specifications?",
+      "answer": "Section 24 35.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-115-q08"
+    }
+  ]
+}

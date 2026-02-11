@@ -1,0 +1,49 @@
+{
+  "page_id": "62-00-index-b_instrume",
+  "image_path": "raw/62 - Instruments/62-00-index-b.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:44:11.892089",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1744,
+    "tokens_output": 328
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers instruments in this manual?",
+      "answer": "Section 62 covers Instruments.",
+      "question_type": "factual",
+      "id": "62-00-index-b_instrume-q01"
+    },
+    {
+      "question": "What is the main topic covered in section 62?",
+      "answer": "Section 62 covers Instruments.",
+      "question_type": "factual",
+      "id": "62-00-index-b_instrume-q02"
+    },
+    {
+      "question": "What page range contains information about the simulator for testing instrument clusters?",
+      "answer": "Information about the simulator for testing instrument clusters can be found on pages 62-81.",
+      "question_type": "navigation",
+      "id": "62-00-index-b_instrume-q04"
+    },
+    {
+      "question": "What page number is shown at the top of this index page?",
+      "answer": "Page 73 is shown at the top of this index page.",
+      "question_type": "factual",
+      "id": "62-00-index-b_instrume-q05"
+    },
+    {
+      "question": "How many specific topics are listed under the Instruments section on this index page?",
+      "answer": "Only one specific topic is listed: Simulator for testing instrument clusters.",
+      "question_type": "factual",
+      "id": "62-00-index-b_instrume-q06"
+    }
+  ]
+}

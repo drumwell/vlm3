@@ -1,0 +1,91 @@
+{
+  "page_id": "31-02_front-ax",
+  "image_path": "raw/31 - Front Axle/31-02.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:58:34.488285",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 770
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure is being described in section 31 10 000?",
+      "answer": "Removing and installing front axle assembly.",
+      "question_type": "factual",
+      "id": "31-02_front-ax-q01"
+    },
+    {
+      "question": "Which cars require steering wheel removal according to the SRS note?",
+      "answer": "Only cars with SRS require steering wheel removal, and you should see Group 32 for the procedure.",
+      "question_type": "procedural",
+      "id": "31-02_front-ax-q02"
+    },
+    {
+      "question": "What should be checked after front axle installation?",
+      "answer": "Check front wheel alignment with an optical tester after installation, referencing Group 32.",
+      "question_type": "inspection",
+      "id": "31-02_front-ax-q03"
+    },
+    {
+      "question": "What components need to be disconnected for brake pad wear indicator and EDC?",
+      "answer": "Disconnect plugs for brake pad wear indicator and EDC, with information available in Group 37.",
+      "question_type": "procedural",
+      "id": "31-02_front-ax-q04"
+    },
+    {
+      "question": "What is the proper installation procedure for the steering spindle?",
+      "answer": "Mount steering spindle on the steering gear in such a manner that clamping slot of universal joint is aligned with mark on steering gear.",
+      "question_type": "procedural",
+      "id": "31-02_front-ax-q05"
+    },
+    {
+      "question": "What should be done with hydraulic fluid during the removal process?",
+      "answer": "Draw off hydraulic fluid in tank and disconnect hydraulic return hose. Never reuse drained hydraulic fluid.",
+      "question_type": "procedural",
+      "id": "31-02_front-ax-q06"
+    },
+    {
+      "question": "What callout numbers are shown in the bolt removal diagram?",
+      "answer": "Callout numbers 1 and 2 are shown, with number 1 indicating the bolt and number 2 showing the direction of removal.",
+      "question_type": "visual",
+      "id": "31-02_front-ax-q07"
+    },
+    {
+      "question": "What is the specified tightening torque requirement mentioned in multiple steps?",
+      "answer": "Tightening torque is specified and should be referenced in the Specifications of Group 32.",
+      "question_type": "factual",
+      "id": "31-02_front-ax-q08"
+    },
+    {
+      "question": "How should the bolt be positioned during installation according to step 1?",
+      "answer": "Bolt (1) must be located in groove of steering shaft, and replace the self-locking nut.",
+      "question_type": "procedural",
+      "id": "31-02_front-ax-q09"
+    },
+    {
+      "question": "What safety precaution is mentioned regarding hydraulic fluid?",
+      "answer": "Never reuse drained hydraulic fluid.",
+      "question_type": "safety",
+      "id": "31-02_front-ax-q10"
+    },
+    {
+      "question": "What should be done with pressure hose connections during installation?",
+      "answer": "Disconnect pressure hose and plug open connections with dust caps. During installation, replace seals.",
+      "question_type": "procedural",
+      "id": "31-02_front-ax-q11"
+    },
+    {
+      "question": "Where can specifications for Groups 32 and 34 be found?",
+      "answer": "See Specifications of Group 32 and 34, as referenced at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "31-02_front-ax-q12"
+    }
+  ]
+}

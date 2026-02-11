@@ -1,0 +1,85 @@
+{
+  "page_id": "52-101_seats",
+  "image_path": "raw/52 - Seats/52-101.jpg",
+  "section_id": "52",
+  "section_name": "Seats",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:37:45.720716",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 759
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the three main steps for removing the front seat according to section 52 10 000?",
+      "answer": "Push back seat, pull off caps, and unscrew nuts (1).",
+      "question_type": "procedural",
+      "id": "52-101_seats-q01"
+    },
+    {
+      "question": "What should you do with the pin during seat rail installation?",
+      "answer": "Always replace pin during installation.",
+      "question_type": "procedural",
+      "id": "52-101_seats-q02"
+    },
+    {
+      "question": "How do you remove the seat rail on the left or right front seat?",
+      "answer": "Remove front seat (see 52 10 000), unscrew bolt, compress springs and pull out pin.",
+      "question_type": "procedural",
+      "id": "52-101_seats-q03"
+    },
+    {
+      "question": "What torque specification is mentioned for the 4-door installation?",
+      "answer": "Tightening torque (with asterisk indicating to see specifications).",
+      "question_type": "factual",
+      "id": "52-101_seats-q04"
+    },
+    {
+      "question": "What special tool is mentioned for installing the Saxionia pin?",
+      "answer": "Drive in pin against stop with the special tool mandrel.",
+      "question_type": "tool",
+      "id": "52-101_seats-q05"
+    },
+    {
+      "question": "What should you check after installing the Saxionia pin?",
+      "answer": "Check whether arrest (1) has engaged and stops (2) are not damaged.",
+      "question_type": "inspection",
+      "id": "52-101_seats-q06"
+    },
+    {
+      "question": "What are the steps for the forward seat adjustment procedure shown in diagram 30 52 023?",
+      "answer": "Push seat forward, pull off caps, unscrew nut and bolt.",
+      "question_type": "procedural",
+      "id": "52-101_seats-q07"
+    },
+    {
+      "question": "What component is shown being disconnected in diagram 30 52 035?",
+      "answer": "Linkage rod - lift connecting tube out of square hole in control lever with a screwdriver.",
+      "question_type": "visual",
+      "id": "52-101_seats-q08"
+    },
+    {
+      "question": "What is the procedure for 4-door models according to diagram 30 52 026?",
+      "answer": "Pull off cap and unscrew seat belt, with tightening torque specified for installation.",
+      "question_type": "procedural",
+      "id": "52-101_seats-q09"
+    },
+    {
+      "question": "What safety note is given about the Saxionia pin installation?",
+      "answer": "Always replace pin during installation and ensure the arrest has engaged properly with stops undamaged.",
+      "question_type": "safety",
+      "id": "52-101_seats-q11"
+    },
+    {
+      "question": "What does the Saxionia Pin removal procedure require regarding the Special Tool 52 1100?",
+      "answer": "Guide in tongue of Special Tool 52 1100 until arrest (1) is deactivated, then drive out pin.",
+      "question_type": "tool",
+      "id": "52-101_seats-q12"
+    }
+  ]
+}

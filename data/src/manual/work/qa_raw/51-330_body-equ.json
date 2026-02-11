@@ -1,0 +1,91 @@
+{
+  "page_id": "51-330_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-330.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:23:02.572654",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 708
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing a power window regulator in the left or right front door?",
+      "answer": "51 33 000",
+      "question_type": "factual",
+      "id": "51-330_body-equ-q01"
+    },
+    {
+      "question": "What section should you reference for procedures that are identical to this power window regulator removal?",
+      "answer": "51 32 020",
+      "question_type": "navigation",
+      "id": "51-330_body-equ-q02"
+    },
+    {
+      "question": "How many nuts are used for mounting component (1) in the diagram?",
+      "answer": "3 nuts",
+      "question_type": "factual",
+      "id": "51-330_body-equ-q03"
+    },
+    {
+      "question": "What should you do with the wires when installing if applicable?",
+      "answer": "Secure wires with wire strap.",
+      "question_type": "procedural",
+      "id": "51-330_body-equ-q04"
+    },
+    {
+      "question": "What is the first step before accessing the window regulator?",
+      "answer": "Run the window down and unscrew screws.",
+      "question_type": "procedural",
+      "id": "51-330_body-equ-q05"
+    },
+    {
+      "question": "What adjustment procedure should be followed after installation?",
+      "answer": "Adjust window - see 51 32 154.",
+      "question_type": "procedural",
+      "id": "51-330_body-equ-q06"
+    },
+    {
+      "question": "How do you remove the window regulator from the door?",
+      "answer": "Pull off plug and slide window regulator forward out of the guides, then lift out complete window regulator.",
+      "question_type": "procedural",
+      "id": "51-330_body-equ-q07"
+    },
+    {
+      "question": "What guidance is provided for installing the window regulator?",
+      "answer": "Guide guiding rollers of window regulator into rails of window glass and align mounting holes of window regulator.",
+      "question_type": "procedural",
+      "id": "51-330_body-equ-q08"
+    },
+    {
+      "question": "For convertibles, what should be done with the door trim panel?",
+      "answer": "Remove door trim panel - see 51 41 001. Pull off plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-330_body-equ-q09"
+    },
+    {
+      "question": "What should be done with damaged plastic sheet on convertibles?",
+      "answer": "Replace damaged plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-330_body-equ-q10"
+    },
+    {
+      "question": "What are the callout numbers 1 and 2 pointing to in the first diagram?",
+      "answer": "Callout 1 points to the mounting component with 3 nuts, and callout 2 points to another component in the window regulator assembly.",
+      "question_type": "visual",
+      "id": "51-330_body-equ-q11"
+    },
+    {
+      "question": "What does the diagram numbered 30 51 044 show?",
+      "answer": "It shows the step to disconnect the plug, with installation instructions to secure wires with wire strap if applicable.",
+      "question_type": "visual",
+      "id": "51-330_body-equ-q12"
+    }
+  ]
+}

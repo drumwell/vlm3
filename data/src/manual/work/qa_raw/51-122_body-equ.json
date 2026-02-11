@@ -1,0 +1,94 @@
+{
+  "page_id": "51-122_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-122.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:10:32.821260",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 783
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing both impact absorbers for the rear bumper?",
+      "answer": "The procedure number is 51 21 170 for replacing both impact absorbers for rear bumper.",
+      "question_type": "factual",
+      "id": "51-122_body-equ-q01"
+    },
+    {
+      "question": "What is the first step when replacing the left absorber?",
+      "answer": "The first step is to unscrew the bolts on the left absorber.",
+      "question_type": "procedural",
+      "id": "51-122_body-equ-q02"
+    },
+    {
+      "question": "What must be done before starting the absorber replacement procedure?",
+      "answer": "The rear bumper must be removed according to procedure 51 12 000.",
+      "question_type": "procedural",
+      "id": "51-122_body-equ-q03"
+    },
+    {
+      "question": "What specific action is required for the BMW M3 model during this procedure?",
+      "answer": "For BMW M3 models, you must unscrew screws as shown in the diagram.",
+      "question_type": "procedural",
+      "id": "51-122_body-equ-q04"
+    },
+    {
+      "question": "What steps are involved in removing the cover during absorber replacement?",
+      "answer": "Lift out the cover and unscrew the bolts to remove it.",
+      "question_type": "procedural",
+      "id": "51-122_body-equ-q05"
+    },
+    {
+      "question": "What is specified for the installation process after removing components?",
+      "answer": "Installation requires following the specified tightening torque values.",
+      "question_type": "procedural",
+      "id": "51-122_body-equ-q06"
+    },
+    {
+      "question": "What final step is required after lifting out the bumper?",
+      "answer": "After lifting out the bumper, you need to unscrew the bolt and remove the absorber.",
+      "question_type": "procedural",
+      "id": "51-122_body-equ-q07"
+    },
+    {
+      "question": "What additional step is required for the right absorber if applicable?",
+      "answer": "For the right absorber, if applicable, you must unscrew the cover and remove the panel.",
+      "question_type": "procedural",
+      "id": "51-122_body-equ-q08"
+    },
+    {
+      "question": "What component is shown being unscrewed in the bottom diagram?",
+      "answer": "The bottom diagram shows unscrewing a screw as part of the absorber removal process.",
+      "question_type": "visual",
+      "id": "51-122_body-equ-q09"
+    },
+    {
+      "question": "Where can additional specifications be found for this procedure?",
+      "answer": "Additional specifications can be found in the Specifications section as noted at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "51-122_body-equ-q10"
+    },
+    {
+      "question": "What are the image reference numbers shown on this page?",
+      "answer": "The image reference numbers shown are 30 51 842, 30 51 843, 30 51 401, 30 51 402, 30 51 403, and 30 51 404.",
+      "question_type": "visual",
+      "id": "51-122_body-equ-q11",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What is the difference in procedure between left and right absorber removal?",
+      "answer": "The left absorber requires unscrewing bolts, while the right absorber may require additional steps of unscrewing a cover and removing a panel if applicable.",
+      "question_type": "procedural",
+      "id": "51-122_body-equ-q12"
+    }
+  ]
+}

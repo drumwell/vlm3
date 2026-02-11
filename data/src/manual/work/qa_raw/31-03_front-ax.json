@@ -1,0 +1,91 @@
+{
+  "page_id": "31-03_front-ax",
+  "image_path": "raw/31 - Front Axle/31-03.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:58:51.893001",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 827
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to support the front axle carrier during engine mount work?",
+      "answer": "Special Tool 00 0 200 is required to support the front axle carrier from underneath with a shop jack. The adapters bear on bolts of side panel walls.",
+      "question_type": "tool",
+      "id": "31-03_front-ax-q01"
+    },
+    {
+      "question": "What important safety warning is given about spring struts during front axle lowering?",
+      "answer": "Don't let spring struts tilt out or sag through as this would damage the ball joints. The front axle should be lowered slowly.",
+      "question_type": "safety",
+      "id": "31-03_front-ax-q02"
+    },
+    {
+      "question": "What type of nuts should be replaced when installing the front axle?",
+      "answer": "Replace self-locking nuts during installation and apply the specified tightening torque.",
+      "question_type": "procedural",
+      "id": "31-03_front-ax-q03"
+    },
+    {
+      "question": "For four cylinder models, what component needs to be unscrewed on the front axle carrier?",
+      "answer": "For four cylinder models, unscrew the engine damper on the front axle carrier.",
+      "question_type": "factual",
+      "id": "31-03_front-ax-q04"
+    },
+    {
+      "question": "What must be loosened at the top of the engine mount before removing it?",
+      "answer": "Loosen the right engine mount at the top before proceeding with removal.",
+      "question_type": "procedural",
+      "id": "31-03_front-ax-q05"
+    },
+    {
+      "question": "What is the critical installation requirement for the engine mount turning lock?",
+      "answer": "The engine mount turning lock (1) must engage in the bore and be torqued to specification.",
+      "question_type": "procedural",
+      "id": "31-03_front-ax-q06"
+    },
+    {
+      "question": "What locations require bolt removal on both the left and right sides?",
+      "answer": "Unscrew bolts on both left and right sides during the removal process, and apply tightening torque during installation.",
+      "question_type": "procedural",
+      "id": "31-03_front-ax-q07"
+    },
+    {
+      "question": "Where can the torque specifications be found for this procedure?",
+      "answer": "Tightening torque specifications are referenced with an asterisk and can be found in the Specifications of Gr. 11.",
+      "question_type": "navigation",
+      "id": "31-03_front-ax-q08"
+    },
+    {
+      "question": "What component is shown being removed in the top left image?",
+      "answer": "The top left image shows the engine damper being unscrewed from the front axle carrier on four cylinder models.",
+      "question_type": "visual",
+      "id": "31-03_front-ax-q09"
+    },
+    {
+      "question": "What is the purpose of the shop jack support shown in the middle image?",
+      "answer": "The shop jack with Special Tool 00 0 200 supports the front axle carrier from underneath during the removal procedure.",
+      "question_type": "visual",
+      "id": "31-03_front-ax-q10"
+    },
+    {
+      "question": "What does callout number 1 indicate in the engine mount diagram?",
+      "answer": "Callout number 1 indicates the engine mount turning lock that must engage in the bore during installation.",
+      "question_type": "component",
+      "id": "31-03_front-ax-q11"
+    },
+    {
+      "question": "Which engine mount should be unscrewed from the front axle carrier?",
+      "answer": "Unscrew both the left and right engine mounts from the front axle carrier.",
+      "question_type": "factual",
+      "id": "31-03_front-ax-q12"
+    }
+  ]
+}

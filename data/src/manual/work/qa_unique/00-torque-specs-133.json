@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-133",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/133.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:54:47.004328",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 539
+  },
+  "qa_pairs": [
+    {
+      "question": "What section and subsection covers car electrical system senders?",
+      "answer": "Section 62-1 Instruments, subsection 62 16 Car Electrical System Senders",
+      "question_type": "navigation",
+      "id": "00-torque-specs-133-q02"
+    },
+    {
+      "question": "What unit of measurement is used for the speedometer sender screw torque?",
+      "answer": "Nm (Newton-meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-133-q05"
+    },
+    {
+      "question": "Which component uses the 6.6 to 8.4 Nm torque specification?",
+      "answer": "Screws for speedometer sender",
+      "question_type": "component",
+      "id": "00-torque-specs-133-q09"
+    }
+  ]
+}

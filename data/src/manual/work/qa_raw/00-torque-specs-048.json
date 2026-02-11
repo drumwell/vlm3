@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-048",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/048.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:25:16.044937",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 538
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the cap nut on the air intake tube?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-048-q01"
+    },
+    {
+      "question": "What is the thread specification for the cap nut on the air intake tube?",
+      "answer": "M60/1/M60/2",
+      "question_type": "factual",
+      "id": "00-torque-specs-048-q03"
+    },
+    {
+      "question": "What thread type is specified for both the compression screw and lock nut?",
+      "answer": "M60/1/M60/2",
+      "question_type": "factual",
+      "id": "00-torque-specs-048-q06"
+    },
+    {
+      "question": "Which component in section 11 72 has the highest torque specification?",
+      "answer": "The cap nut on air intake tube at 30 Nm",
+      "question_type": "comparison",
+      "id": "00-torque-specs-048-q08",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "Do the compression screw and lock nut have the same torque specification?",
+      "answer": "Yes, both require 5 Nm",
+      "question_type": "comparison",
+      "id": "00-torque-specs-048-q09",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What section covers the air pump, lines and control valves specifications?",
+      "answer": "Section 11 72",
+      "question_type": "navigation",
+      "id": "00-torque-specs-048-q10"
+    }
+  ]
+}

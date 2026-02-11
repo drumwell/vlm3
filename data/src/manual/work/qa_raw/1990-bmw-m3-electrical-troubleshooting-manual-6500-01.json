@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6500-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:10:45.569751",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 673
+  },
+  "qa_pairs": [
+    {
+      "question": "What wire color connects to pin 20 on connector C404?",
+      "answer": ".75 GY/GN wire connects to pin 20 on connector C404.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01-q01"
+    },
+    {
+      "question": "Which fuse protects the radio/antenna circuit?",
+      "answer": "Fuse 27 (30 AMP) protects the radio/antenna circuit according to the 'HOT AT ALL TIMES' power distribution box.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01-q02"
+    },
+    {
+      "question": "What is the wire color for the right front tweeter connection?",
+      "answer": "The right front tweeter uses .75 GN/YL wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01-q03"
+    },
+    {
+      "question": "Where does the 1.5 RD/BK wire from the power distribution connect to?",
+      "answer": "The 1.5 RD/BK wire from the power distribution connects to connector S24 and continues to the on-board computer at connector C302 (accessory connector).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01-q04"
+    },
+    {
+      "question": "What type of amplifier is shown in the diagram?",
+      "answer": "The diagram shows a solid state amplifier that is mounted in the amplifier section.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01-q05"
+    },
+    {
+      "question": "Which connector designation is used for the left front tweeter?",
+      "answer": "Connector C405 is used for the left front tweeter connection.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01-q06"
+    },
+    {
+      "question": "What wire color connects the left rear speaker to ground?",
+      "answer": "A GN/BK wire connects the left rear speaker to ground.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01-q07"
+    },
+    {
+      "question": "What is the ground point designation shown at the bottom center of the diagram?",
+      "answer": "Ground point G200 is shown at the bottom center of the diagram for ground distribution.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01-q08"
+    },
+    {
+      "question": "Which wire carries the 1 GY/BR signal in the front speaker circuit?",
+      "answer": "The 1 GY/BR wire connects from connector C404 to the right front speaker circuit.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01-q09"
+    },
+    {
+      "question": "What note appears regarding some vehicles and ground distribution?",
+      "answer": "The note states 'SOME VEHICLES MAY CONTAIN AN ADDITIONAL SPLICE. (SEE GROUND DISTRIBUTION)' referring to the ground distribution system.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-01-q10"
+    }
+  ]
+}

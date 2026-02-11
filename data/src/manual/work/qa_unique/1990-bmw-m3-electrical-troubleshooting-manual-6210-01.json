@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6210-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:03:09.254602",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 509
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the fuse rating for the service interval indicator circuit in the power distribution box?",
+      "answer": "The fuse rating is 7.5 AMP for both the 'HOT AT ALL TIMES' and 'HOT IN RUN OR START' circuits.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-01-q01"
+    },
+    {
+      "question": "What color wires connect to the diagnostic connector C101?",
+      "answer": "According to the diagram, .5 BK (black) and .5 BK/YI (black/yellow) wires connect to the diagnostic connector C101.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-01-q02"
+    },
+    {
+      "question": "What voltages are output from the service interval processor?",
+      "answer": "The service interval processor outputs both 12 volt and 5 volt signals.",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-01-q03"
+    },
+    {
+      "question": "What three input signals does the service interval processor receive?",
+      "answer": "The service interval processor receives engine speed input, engine temperature input, and vehicle speed input.",
+      "question_type": "signal",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-01-q04"
+    },
+    {
+      "question": "What component provides the coolant temperature signal in this circuit?",
+      "answer": "The coolant temperature sender provides the temperature signal to the system.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-01-q05"
+    },
+    {
+      "question": "What colors are shown for the service interval display indicator?",
+      "answer": "The service interval display shows GREEN, YELLOW, and RED colors as indicated in the diagram.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-01-q06"
+    },
+    {
+      "question": "Which connector number is associated with the instrument cluster?",
+      "answer": "Connector C101 is associated with the instrument cluster printed circuit.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-01-q07"
+    },
+    {
+      "question": "What important note is mentioned about some vehicles regarding additional components?",
+      "answer": "The note states that some vehicles may contain an additional splice (see ground distribution).",
+      "question_type": "inspection",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-01-q08"
+    }
+  ]
+}

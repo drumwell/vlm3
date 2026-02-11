@@ -1,0 +1,55 @@
+{
+  "page_id": "36-00-index-a_wheels-a",
+  "image_path": "raw/36 - Wheels and Tires/36-00-index-a.jpg",
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:29:33.644127",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1749,
+    "tokens_output": 383
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers wheels and tires in this BMW manual?",
+      "answer": "Section 36 covers Wheels and Tires.",
+      "question_type": "factual",
+      "id": "36-00-index-a_wheels-a-q01"
+    },
+    {
+      "question": "On which page can I find information about balancing front wheels on the car dynamically and electronically?",
+      "answer": "Information about balancing front wheels on the car dynamically and electronically can be found on page 36-1.",
+      "question_type": "navigation",
+      "id": "36-00-index-a_wheels-a-q02"
+    },
+    {
+      "question": "What procedure is covered on page 36-5 related to wheel inspection?",
+      "answer": "Page 36-5 covers checking the front or rear wheel for radial and lateral runout.",
+      "question_type": "procedural",
+      "id": "36-00-index-a_wheels-a-q03"
+    },
+    {
+      "question": "Where can I find information about tire replacement procedures?",
+      "answer": "Tire replacement procedures can be found on page 36-9.",
+      "question_type": "navigation",
+      "id": "36-00-index-a_wheels-a-q04"
+    },
+    {
+      "question": "What specific wheel size is mentioned for front and rear wheel balancing?",
+      "answer": "The 325 iX wheel size is specifically mentioned for front and rear wheel balancing procedures.",
+      "question_type": "factual",
+      "id": "36-00-index-a_wheels-a-q05"
+    },
+    {
+      "question": "On which page would I find information about mounting tires with modern mounting machines?",
+      "answer": "Information about mounting tires with modern mounting machines can be found on page 36-10.",
+      "question_type": "navigation",
+      "id": "36-00-index-a_wheels-a-q06"
+    }
+  ]
+}

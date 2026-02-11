@@ -1,0 +1,79 @@
+{
+  "page_id": "17-04_1_radiator",
+  "image_path": "raw/17 - Radiator/17-04_1.jpg",
+  "section_id": "17",
+  "section_name": "Radiator",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:01:15.992908",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 749
+  },
+  "qa_pairs": [
+    {
+      "question": "What precaution is given for 6 Cyl. M 20 / 1988 Models when unscrewing the cap on the expansion tank?",
+      "answer": "There is danger of scalding when engine is hot, so caution must be exercised.",
+      "question_type": "safety",
+      "id": "17-04_1_radiator-q01"
+    },
+    {
+      "question": "What should be done after loosening the drain plug?",
+      "answer": "Drain coolant, catching it if applicable, then coolant should be drained and the drain plug tightening torque should be applied.",
+      "question_type": "procedural",
+      "id": "17-04_1_radiator-q02"
+    },
+    {
+      "question": "What warning is given regarding burns during the drain procedure?",
+      "answer": "There is danger of burns on hot engine, so caution must be taken.",
+      "question_type": "safety",
+      "id": "17-04_1_radiator-q03"
+    },
+    {
+      "question": "For M 20 cars, what direction should the fan cowl plugs be pressed?",
+      "answer": "Press out fan cowl plugs toward rear for M 20 cars.",
+      "question_type": "procedural",
+      "id": "17-04_1_radiator-q04"
+    },
+    {
+      "question": "What should be removed if applicable according to section 51 47?",
+      "answer": "Remove splash guard if applicable - see 51 47.",
+      "question_type": "procedural",
+      "id": "17-04_1_radiator-q05"
+    },
+    {
+      "question": "What hoses need to be disconnected during radiator removal?",
+      "answer": "Disconnect coolant hoses and disconnect vent hose.",
+      "question_type": "procedural",
+      "id": "17-04_1_radiator-q06"
+    },
+    {
+      "question": "How should the radiator be positioned during installation?",
+      "answer": "Place radiator on rubber mounts precisely.",
+      "question_type": "procedural",
+      "id": "17-04_1_radiator-q08"
+    },
+    {
+      "question": "What should be done with coolant hoses during installation?",
+      "answer": "Mount coolant hoses according to the specifications.",
+      "question_type": "procedural",
+      "id": "17-04_1_radiator-q09"
+    },
+    {
+      "question": "What reference is given for filling the cooling system?",
+      "answer": "Fill cooling system with specified coolant and bleed - see 17 00 039.",
+      "question_type": "navigation",
+      "id": "17-04_1_radiator-q10"
+    },
+    {
+      "question": "What is the section number for this radiator removal and installation procedure?",
+      "answer": "17 11 000 REMOVING AND INSTALLING RADIATORS.",
+      "question_type": "factual",
+      "id": "17-04_1_radiator-q12"
+    }
+  ]
+}

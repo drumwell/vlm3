@@ -1,0 +1,49 @@
+{
+  "page_id": "64-02_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-02.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:52:05.288984",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1756,
+    "tokens_output": 512
+  },
+  "qa_pairs": [
+    {
+      "question": "What does callout number 2 indicate?",
+      "answer": "Callout number 2 indicates Temperature controlled fresh air.",
+      "question_type": "factual",
+      "id": "64-02_heating--q02"
+    },
+    {
+      "question": "What page number is shown at the top of this diagram?",
+      "answer": "The page number shown is 64-2.",
+      "question_type": "navigation",
+      "id": "64-02_heating--q03"
+    },
+    {
+      "question": "Where are the arrows with callout 1 positioned in the dashboard?",
+      "answer": "The arrows with callout 1 are positioned on the right side of the dashboard, pointing towards what appears to be air vents or distribution points.",
+      "question_type": "visual",
+      "id": "64-02_heating--q05"
+    },
+    {
+      "question": "What type of transmission is shown in this dashboard view?",
+      "answer": "A manual transmission is shown, as evidenced by the gear shift lever visible in the center console area.",
+      "question_type": "visual",
+      "id": "64-02_heating--q07"
+    },
+    {
+      "question": "What main dashboard components are visible in this cutaway view?",
+      "answer": "The cutaway view shows the instrument cluster with gauges, the center console with climate controls, the steering wheel, gear shift lever, and various air distribution points throughout the dashboard.",
+      "question_type": "visual",
+      "id": "64-02_heating--q08"
+    }
+  ]
+}

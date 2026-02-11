@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-15",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/0670-15.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:10:06.950311",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 560
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the page number and section title for this power distribution diagram?",
+      "answer": "This is page 0670-15 from the Power Distribution section, showing Ground Distribution for G200 (partial) and G202.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-15-q01"
+    },
+    {
+      "question": "What are the five main components shown in the upper portion of this ground distribution diagram?",
+      "answer": "The five main components are: Left Front Seat, Left Front Seat Heater Switch, Right Front Seat Heater Switch, Right Front Seat, and SRS Diagnostic Module.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-15-q02"
+    },
+    {
+      "question": "What wire color designation is used for the connection from the Left Front Seat?",
+      "answer": "The wire color designation is RD (red).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-15-q03"
+    },
+    {
+      "question": "What connector numbers are labeled C421 and C422 connected to?",
+      "answer": "C421 is connected to the Left Front Seat ground path, and C422 is connected to the Right Front Seat ground path.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-15-q04"
+    },
+    {
+      "question": "What wire gauge is specified for the main horizontal distribution line?",
+      "answer": "The main horizontal distribution line is specified as 1 BR (1.0mm\u00b2 brown wire).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-15-q05"
+    },
+    {
+      "question": "Where is the G200 partial ground point located according to the diagram?",
+      "answer": "The G200 partial ground point is located under the left side of the dash, above the brake pedal.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-15-q06"
+    },
+    {
+      "question": "Where is the G202 ground point located?",
+      "answer": "The G202 ground point is located under the left side of the dash, above the brake pedal.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-15-q07"
+    },
+    {
+      "question": "What is the wire gauge for the vertical connection leading to the ground points?",
+      "answer": "The vertical connection to the ground points uses a 1.5 BR wire (1.5mm\u00b2 brown wire).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-15-q08"
+    }
+  ]
+}

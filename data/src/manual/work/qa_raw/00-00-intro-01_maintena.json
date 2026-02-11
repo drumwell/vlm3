@@ -1,0 +1,55 @@
+{
+  "page_id": "00-00-intro-01_maintena",
+  "image_path": "raw/00 - Maintenance/00-00-intro-01.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:08:25.907254",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1744,
+    "tokens_output": 474
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the purpose of this repair manual microfilm according to the introduction?",
+      "answer": "This repair manual microfilm is to assist you in performing the necessary maintenance and repair work expertly and correctly. It must be placed at the disposal of shop foremen and mechanics, and will complement the practical and theoretical training offered by our Service training schools.",
+      "question_type": "factual",
+      "id": "00-00-intro-01_maintena-q01"
+    },
+    {
+      "question": "How does the page numbering system work in this manual?",
+      "answer": "The individual page numbering, for example 32-6, means: 32 = main group and 6 = page number (in ascending numerical order).",
+      "question_type": "navigation",
+      "id": "00-00-intro-01_maintena-q02"
+    },
+    {
+      "question": "Where can special tools essential for correct repair work be found?",
+      "answer": "The special tools essential for correct repair work are summarized on the special tool microfilm, Order No. 01 99 9 639 422. Their use is illustrated in the descriptions of the various repair jobs.",
+      "question_type": "tool",
+      "id": "00-00-intro-01_maintena-q03"
+    },
+    {
+      "question": "What reference standard is this repair manual based on?",
+      "answer": "This repair manual microfilm is in reference to a standard production car free from accident damage and not subsequently modified in any way.",
+      "question_type": "factual",
+      "id": "00-00-intro-01_maintena-q04"
+    },
+    {
+      "question": "What should you do if installation does not take place in the reverse order of removal work?",
+      "answer": "The removal work is described for each repair job in this manual. If installation does not take place in the reverse order of work, an 'installation' note is provided.",
+      "question_type": "procedural",
+      "id": "00-00-intro-01_maintena-q05"
+    },
+    {
+      "question": "What year is the copyright for this BMW service manual?",
+      "answer": "1989 Bayerische Motoren Werke AG, Munich/Germany Service Division.",
+      "question_type": "factual",
+      "id": "00-00-intro-01_maintena-q06"
+    }
+  ]
+}

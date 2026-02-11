@@ -1,0 +1,67 @@
+{
+  "page_id": "11-50_engine",
+  "image_path": "raw/11 - Engine/11-50.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:09:40.519746",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1751,
+    "tokens_output": 530
+  },
+  "qa_pairs": [
+    {
+      "question": "What engine is shown in this cutaway diagram?",
+      "answer": "This is the BMW M3 Engine S 14 Z, as indicated by the caption at the bottom of the page.",
+      "question_type": "component",
+      "id": "11-50_engine-q01"
+    },
+    {
+      "question": "What text is visible on the engine's valve cover?",
+      "answer": "The valve cover displays 'BMW M Power' text on top.",
+      "question_type": "visual",
+      "id": "11-50_engine-q02"
+    },
+    {
+      "question": "What type of diagram is this showing the S14Z engine?",
+      "answer": "This is a detailed cutaway or cross-sectional diagram showing the internal components and construction of the engine.",
+      "question_type": "visual",
+      "id": "11-50_engine-q03"
+    },
+    {
+      "question": "What major engine components are visible in this cutaway view?",
+      "answer": "The diagram shows the valve cover, cylinder head, engine block, pistons, connecting rods, crankshaft, oil pan, intake manifold, and exhaust manifold.",
+      "question_type": "component",
+      "id": "11-50_engine-q04"
+    },
+    {
+      "question": "How is the intake system configured in this engine view?",
+      "answer": "The intake manifold is positioned on top of the engine, feeding into the cylinder head with individual runners visible for each cylinder.",
+      "question_type": "component",
+      "id": "11-50_engine-q05"
+    },
+    {
+      "question": "What can you see of the crankshaft and connecting rod assembly?",
+      "answer": "The cutaway shows the crankshaft at the bottom of the engine block with connecting rods attached to pistons, demonstrating the internal moving parts of the engine.",
+      "question_type": "component",
+      "id": "11-50_engine-q06"
+    },
+    {
+      "question": "Where is the oil pan located in this engine diagram?",
+      "answer": "The oil pan is shown at the very bottom of the engine assembly, beneath the crankshaft and engine block.",
+      "question_type": "component",
+      "id": "11-50_engine-q07"
+    },
+    {
+      "question": "What page number is shown for this engine diagram?",
+      "answer": "This diagram appears on page 11-50 of the service manual.",
+      "question_type": "navigation",
+      "id": "11-50_engine-q08"
+    }
+  ]
+}

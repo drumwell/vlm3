@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-103",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/103.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:31:52.180414",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 749
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M8 hex screws on the transmission to engine?",
+      "answer": "M8 hex screws should be torqued to 24 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-103-q01"
+    },
+    {
+      "question": "What torque value should be used for M10 Torx bolts in the transmission to engine assembly?",
+      "answer": "M10 Torx bolts should be torqued to 42 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-103-q02"
+    },
+    {
+      "question": "What is the highest torque specification shown for hex screws in this transmission section?",
+      "answer": "The highest torque specification for hex screws is 82 Nm (ft. lbs.) for M12 hex screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-103-q03"
+    },
+    {
+      "question": "What size and torque specification is required for the reinforcement plate to transmission fasteners?",
+      "answer": "The reinforcement plate to transmission uses M8 fasteners torqued to 23 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-103-q04"
+    },
+    {
+      "question": "What is the torque specification for M12 Torx bolts in the transmission assembly?",
+      "answer": "M12 Torx bolts should be torqued to 72 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-103-q05"
+    },
+    {
+      "question": "How many different screw sizes are specified for hex screws in the transmission to engine section?",
+      "answer": "There are three different hex screw sizes specified: M8, M10, and M12.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-103-q06"
+    },
+    {
+      "question": "What is the torque difference between M8 and M10 hex screws?",
+      "answer": "The torque difference is 21 Nm (45 Nm for M10 minus 24 Nm for M8).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-103-q07"
+    },
+    {
+      "question": "What type of fasteners are used for the reinforcement plate to transmission connection?",
+      "answer": "The type is not specifically identified in the table, but they are M8 size and torqued to 23 Nm (ft. lbs.).",
+      "question_type": "component",
+      "id": "bmwtorquespecs-103-q08"
+    },
+    {
+      "question": "What is the lowest torque specification shown for M8 fasteners in this section?",
+      "answer": "The lowest torque specification for M8 fasteners is 21 Nm (ft. lbs.) for M8 Torx bolts.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-103-q09"
+    },
+    {
+      "question": "Which section code covers the reinforcement plate to transmission specifications?",
+      "answer": "Section code 2AZ covers the reinforcement plate to transmission specifications.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-103-q10"
+    }
+  ]
+}

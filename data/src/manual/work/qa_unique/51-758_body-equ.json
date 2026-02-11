@@ -1,0 +1,85 @@
+{
+  "page_id": "51-758_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-758.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:32:54.036114",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 776
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with the plastic sheet on adhesive tape before installing the panel on the rear spoiler?",
+      "answer": "Remove the plastic sheet on adhesive tape and install the panel on the rear spoiler.",
+      "question_type": "procedural",
+      "id": "51-758_body-equ-q01"
+    },
+    {
+      "question": "How many screws are used to screw on the panel?",
+      "answer": "The panel is screwed on with three screws.",
+      "question_type": "factual",
+      "id": "51-758_body-equ-q02"
+    },
+    {
+      "question": "What are items 2 and 3 in the middle diagram?",
+      "answer": "Item 2 represents adhesive strips and item 3 represents adhesive parts.",
+      "question_type": "visual",
+      "id": "51-758_body-equ-q03"
+    },
+    {
+      "question": "What is the procedure after pasting on adhesive strips and adhesive parts?",
+      "answer": "After pasting on adhesive strips and adhesive parts, screw on the panel with three screws.",
+      "question_type": "procedural",
+      "id": "51-758_body-equ-q04"
+    },
+    {
+      "question": "What type of rear spoiler is being installed according to the bottom image?",
+      "answer": "An M-Technic rear spoiler is being installed.",
+      "question_type": "factual",
+      "id": "51-758_body-equ-q05"
+    },
+    {
+      "question": "What should you do with the plastic sheet before inserting the M-Technic rear spoiler?",
+      "answer": "Pull the plastic sheet off of adhesive strips before inserting the M-Technic rear spoiler in holes.",
+      "question_type": "procedural",
+      "id": "51-758_body-equ-q06"
+    },
+    {
+      "question": "How is the M-Technic rear spoiler secured in place?",
+      "answer": "The M-Technic rear spoiler is secured by screwing on with plastic nuts and insulators.",
+      "question_type": "procedural",
+      "id": "51-758_body-equ-q07"
+    },
+    {
+      "question": "What is item 1 pointing to in the middle diagram?",
+      "answer": "Item 1 points to the screws used to attach the panel.",
+      "question_type": "visual",
+      "id": "51-758_body-equ-q08"
+    },
+    {
+      "question": "What page number is shown for this body equipment section?",
+      "answer": "This is page 51-758 from the body equipment section.",
+      "question_type": "factual",
+      "id": "51-758_body-equ-q09"
+    },
+    {
+      "question": "What type of fasteners are used with the M-Technic rear spoiler installation?",
+      "answer": "Plastic nuts and insulators are used as fasteners for the M-Technic rear spoiler installation.",
+      "question_type": "factual",
+      "id": "51-758_body-equ-q10"
+    },
+    {
+      "question": "What is the sequence for installing the panel with adhesive components?",
+      "answer": "First paste on adhesive strips and adhesive parts, then screw on the panel with three screws.",
+      "question_type": "procedural",
+      "id": "51-758_body-equ-q12"
+    }
+  ]
+}

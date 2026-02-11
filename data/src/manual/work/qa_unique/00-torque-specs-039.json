@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-039",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/039.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:23:36.805455",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 676
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil cooler oil pipes to oil filter housing?",
+      "answer": "22 Nm using M8 screw for all types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-039-q01"
+    },
+    {
+      "question": "What torque should be applied to the oil pipes to turbocharger connection?",
+      "answer": "22 Nm using M8 screw for all types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-039-q02"
+    },
+    {
+      "question": "What torque value is specified for the oil supply pipe to turbocharger hollow bolt?",
+      "answer": "25 Nm for all types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-039-q04"
+    },
+    {
+      "question": "What is the torque specification for the oil supply pipe to turbocharger coupling nut?",
+      "answer": "30 Nm for all types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-039-q05"
+    },
+    {
+      "question": "Which connection requires the highest torque value in the oil filter and pipes section?",
+      "answer": "The oil lines from turbocharger to engine block hollow bolt requires the highest torque at 40 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-039-q06"
+    },
+    {
+      "question": "What thread specification is used for the oil lines from turbocharger to engine block?",
+      "answer": "M16 x 1.5 thread specification.",
+      "question_type": "factual",
+      "id": "00-torque-specs-039-q07"
+    },
+    {
+      "question": "How many different torque values are specified for the oil filter and pipes components?",
+      "answer": "Four different torque values: 22 Nm, 25 Nm, 30 Nm, and 40 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-039-q08"
+    },
+    {
+      "question": "What type of fastener is used for both the oil cooler pipes and oil pipes to turbocharger?",
+      "answer": "M8 screw is used for both connections.",
+      "question_type": "factual",
+      "id": "00-torque-specs-039-q09"
+    },
+    {
+      "question": "Which components in section 11 42 use the same 22 Nm torque specification?",
+      "answer": "Both the oil cooler oil pipes to oil filter housing (8AZ) and oil pipes to turbocharger (9AZ) use 22 Nm torque specification.",
+      "question_type": "factual",
+      "id": "00-torque-specs-039-q10"
+    }
+  ]
+}

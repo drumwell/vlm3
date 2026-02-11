@@ -1,0 +1,85 @@
+{
+  "page_id": "51-710_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-710.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:30:27.508559",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 741
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the front spoiler?",
+      "answer": "The procedure number is 51 71 404.",
+      "question_type": "factual",
+      "id": "51-710_body-equ-q01"
+    },
+    {
+      "question": "What is the first step in removing the front spoiler?",
+      "answer": "Unscrew bolts on left and right sides.",
+      "question_type": "procedural",
+      "id": "51-710_body-equ-q02"
+    },
+    {
+      "question": "What should you do after unscrewing the bolts during spoiler removal?",
+      "answer": "Take off spoiler. If applicable, pull off temperature sensor (1).",
+      "question_type": "procedural",
+      "id": "51-710_body-equ-q03"
+    },
+    {
+      "question": "What does callout number 1 indicate in the diagram?",
+      "answer": "Callout number 1 indicates the temperature sensor that should be pulled off if applicable during spoiler removal.",
+      "question_type": "visual",
+      "id": "51-710_body-equ-q04"
+    },
+    {
+      "question": "How should the plastic nut be tightened during installation?",
+      "answer": "Tighten plastic nut on holding screw about two turns.",
+      "question_type": "procedural",
+      "id": "51-710_body-equ-q05"
+    },
+    {
+      "question": "What is the final step in installing the front spoiler?",
+      "answer": "Slide in spoiler left and right.",
+      "question_type": "procedural",
+      "id": "51-710_body-equ-q06"
+    },
+    {
+      "question": "What component may need to be disconnected when removing the front spoiler?",
+      "answer": "The temperature sensor (1) may need to be pulled off if applicable.",
+      "question_type": "component",
+      "id": "51-710_body-equ-q07"
+    },
+    {
+      "question": "What are the reference numbers shown in the diagrams?",
+      "answer": "The reference numbers shown are 50 51 466 and 50 51 465J.",
+      "question_type": "factual",
+      "id": "51-710_body-equ-q08"
+    },
+    {
+      "question": "How many turns should the plastic nut be tightened on the holding screw?",
+      "answer": "The plastic nut should be tightened about two turns.",
+      "question_type": "factual",
+      "id": "51-710_body-equ-q09"
+    },
+    {
+      "question": "What does the upper diagram show in terms of spoiler removal?",
+      "answer": "The upper diagram shows the location of bolts on the left and right sides that need to be unscrewed for spoiler removal.",
+      "question_type": "visual",
+      "id": "51-710_body-equ-q10"
+    },
+    {
+      "question": "What does the lower diagram illustrate about the spoiler installation process?",
+      "answer": "The lower diagram shows the spoiler installation area with arrows indicating where to slide in the spoiler left and right.",
+      "question_type": "visual",
+      "id": "51-710_body-equ-q11"
+    }
+  ]
+}

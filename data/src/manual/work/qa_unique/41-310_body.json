@@ -1,0 +1,73 @@
+{
+  "page_id": "41-310_body",
+  "image_path": "raw/41 - Body/41-310.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:58:25.531684",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 759
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the shouldered metal edge before installing the tail panel?",
+      "answer": "Cut off shouldered metal edge on one side far enough that tail panel can be pushed behind the side panel.",
+      "question_type": "procedural",
+      "id": "41-310_body-q01"
+    },
+    {
+      "question": "What type of welder should be used to weld the bottom of the tail panel to the side panels?",
+      "answer": "An inert gas welder should be used to weld the bottom of tail panel on left and right side panels.",
+      "question_type": "tool",
+      "id": "41-310_body-q02"
+    },
+    {
+      "question": "How should the tail panel be secured after fitting?",
+      "answer": "Fit in and tack weld tail panel.",
+      "question_type": "procedural",
+      "id": "41-310_body-q03"
+    },
+    {
+      "question": "What type of welder is specified for welding the web of the tail panel to the side panels?",
+      "answer": "An autogen welder should be used to weld web of tail panel and left and right side panels in area of trunk lid.",
+      "question_type": "tool",
+      "id": "41-310_body-q04"
+    },
+    {
+      "question": "How is the tail panel mounted to the bumper bracket?",
+      "answer": "Mount tail panel on bumper bracket with a bolt.",
+      "question_type": "procedural",
+      "id": "41-310_body-q05"
+    },
+    {
+      "question": "Where should the tail panel be spot welded in relation to the trunk floor?",
+      "answer": "Spot weld tail panel on trunk floor plate and bumper bracket.",
+      "question_type": "procedural",
+      "id": "41-310_body-q07"
+    },
+    {
+      "question": "What welding operation is shown in image 30 41 057?",
+      "answer": "The image shows welding the bottom of tail panel on left and right side panels with an inert gas welder.",
+      "question_type": "visual",
+      "id": "41-310_body-q10"
+    },
+    {
+      "question": "What is demonstrated in image 30 41 058?",
+      "answer": "The image shows welding the web of tail panel and left and right side panels in area of trunk lid with an autogen welder.",
+      "question_type": "visual",
+      "id": "41-310_body-q11"
+    },
+    {
+      "question": "What fastening method is shown in image 30 41 055?",
+      "answer": "The image shows mounting the tail panel on bumper bracket with a bolt.",
+      "question_type": "visual",
+      "id": "41-310_body-q12"
+    }
+  ]
+}

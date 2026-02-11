@@ -1,0 +1,55 @@
+{
+  "page_id": "72-00-index-a_equipmen",
+  "image_path": "raw/72 - Equipment and Accessories for Body/72-00-index-a.jpg",
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:08:59.004231",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1748,
+    "tokens_output": 363
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers Equipment and Accessories for Body?",
+      "answer": "Section 72 covers Equipment and Accessories for Body.",
+      "question_type": "factual",
+      "id": "72-00-index-a_equipmen-q01"
+    },
+    {
+      "question": "On which pages can I find the procedure for removing and installing the front seat belt?",
+      "answer": "The procedure for removing and installing the front seat belt can be found on pages 72-110.",
+      "question_type": "navigation",
+      "id": "72-00-index-a_equipmen-q02"
+    },
+    {
+      "question": "What BMW part number is listed for the wind deflector installation procedure?",
+      "answer": "The BMW part number listed for the wind deflector installation procedure is 54 12 490.",
+      "question_type": "factual",
+      "id": "72-00-index-a_equipmen-q03"
+    },
+    {
+      "question": "Which pages contain information about seat belt inspection procedures?",
+      "answer": "Seat belt inspection procedures can be found on pages 72-115.",
+      "question_type": "navigation",
+      "id": "72-00-index-a_equipmen-q04"
+    },
+    {
+      "question": "Where can I find the procedure for removing and installing the rear seat belt?",
+      "answer": "The procedure for removing and installing the rear seat belt can be found on pages 72-112.",
+      "question_type": "navigation",
+      "id": "72-00-index-a_equipmen-q05"
+    },
+    {
+      "question": "On which pages is the wind deflector installation procedure located?",
+      "answer": "The wind deflector installation procedure is located on pages 72-120.",
+      "question_type": "navigation",
+      "id": "72-00-index-a_equipmen-q06"
+    }
+  ]
+}

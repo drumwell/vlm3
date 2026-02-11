@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-060",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/060.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:27:31.834836",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 593
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the battery positive connection point in the power distributor?",
+      "answer": "20 Nm with M8 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-060-q01"
+    },
+    {
+      "question": "What screw size is used for the wiring harness on distributor connection?",
+      "answer": "M8 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-060-q02"
+    },
+    {
+      "question": "What is the torque value for the wiring harness on distributor (2AZ)?",
+      "answer": "10 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-060-q03"
+    },
+    {
+      "question": "Which component types use the battery positive connection point specification?",
+      "answer": "E32/E34/E31/E36 model types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-060-q04"
+    },
+    {
+      "question": "What is the difference in torque between the battery positive connection and the wiring harness on distributor?",
+      "answer": "The battery positive connection requires 20 Nm while the wiring harness on distributor requires 10 Nm, a difference of 10 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-060-q05"
+    },
+    {
+      "question": "What component designation is used for the wiring harness on distributor?",
+      "answer": "E36 M41.",
+      "question_type": "factual",
+      "id": "00-torque-specs-060-q06"
+    },
+    {
+      "question": "What section of the manual does this torque specification table belong to?",
+      "answer": "Section 12-10 Engine Electrical Equipment, subsection 12 42 Wires to starter.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-060-q07"
+    },
+    {
+      "question": "Do both electrical connections use the same screw size?",
+      "answer": "Yes, both the battery positive connection point and wiring harness on distributor use M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-060-q10"
+    }
+  ]
+}

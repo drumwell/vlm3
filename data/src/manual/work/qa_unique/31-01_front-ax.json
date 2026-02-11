@@ -1,0 +1,61 @@
+{
+  "page_id": "31-01_front-ax",
+  "image_path": "raw/31 - Front Axle/31-01.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:58:17.587831",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 544
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of suspension layout is shown in this diagram?",
+      "answer": "This is a layout drawing of front wheel suspension, as indicated by the title at the top of the page.",
+      "question_type": "factual",
+      "id": "31-01_front-ax-q01"
+    },
+    {
+      "question": "What are the two main shock absorber/spring assemblies visible in this diagram?",
+      "answer": "The diagram shows two MacPherson strut assemblies - one fully assembled on the left side and one separate strut unit on the right side of the drawing.",
+      "question_type": "visual",
+      "id": "31-01_front-ax-q02"
+    },
+    {
+      "question": "Where is the steering rack positioned in relation to the suspension components?",
+      "answer": "The steering rack is positioned horizontally across the center of the suspension assembly, with tie rods connecting to the steering knuckles on each side.",
+      "question_type": "visual",
+      "id": "31-01_front-ax-q03"
+    },
+    {
+      "question": "What component connects the steering rack to the wheel hub assembly?",
+      "answer": "The tie rod connects the steering rack to the steering knuckle/wheel hub assembly, allowing steering input to turn the wheels.",
+      "question_type": "component",
+      "id": "31-01_front-ax-q04"
+    },
+    {
+      "question": "How are the coil springs positioned in relation to the shock absorbers?",
+      "answer": "The coil springs are positioned concentrically around the shock absorber struts, forming integrated MacPherson strut assemblies.",
+      "question_type": "visual",
+      "id": "31-01_front-ax-q06"
+    },
+    {
+      "question": "What section of the service manual does this diagram belong to?",
+      "answer": "This diagram belongs to section 31-1, as shown in the page header.",
+      "question_type": "navigation",
+      "id": "31-01_front-ax-q07"
+    },
+    {
+      "question": "What major suspension component is visible at the bottom right of the assembly?",
+      "answer": "The brake disc and caliper assembly is visible at the bottom right, mounted to the wheel hub and steering knuckle.",
+      "question_type": "component",
+      "id": "31-01_front-ax-q08"
+    }
+  ]
+}

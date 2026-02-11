@@ -1,0 +1,91 @@
+{
+  "page_id": "25-05_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-05.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:48:48.518909",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 807
+  },
+  "qa_pairs": [
+    {
+      "question": "What part number is specified for removing and installing the shift lever on all wheel drive vehicles?",
+      "answer": "Part number 25 11 000 is specified for removing and installing the shift lever on all wheel drive vehicles.",
+      "question_type": "factual",
+      "id": "25-05_gear-shi-q01"
+    },
+    {
+      "question": "Which special tools are mentioned for loosening the threaded sleeve?",
+      "answer": "Special Tool 26 1 060 or 26 1 040 are mentioned for loosening the threaded sleeve several turns.",
+      "question_type": "tool",
+      "id": "25-05_gear-shi-q02"
+    },
+    {
+      "question": "What should be removed before starting the shift lever removal procedure?",
+      "answer": "Remove exhaust assembly 18 00 020 and unscrew heat shields before starting the shift lever removal procedure.",
+      "question_type": "procedural",
+      "id": "25-05_gear-shi-q03"
+    },
+    {
+      "question": "What are the three numbered components shown in the middle right diagram?",
+      "answer": "The three numbered components are: (1) lift out circlip, (2) take off washer, and (3) pull out selector rod.",
+      "question_type": "visual",
+      "id": "25-05_gear-shi-q04"
+    },
+    {
+      "question": "What special tool is required to remove the shift lever from above?",
+      "answer": "Special Tool 25 1 100 is required to remove the shift lever from above.",
+      "question_type": "tool",
+      "id": "25-05_gear-shi-q05"
+    },
+    {
+      "question": "How should Special Tool 25 1 100 be positioned when removing the shift lever?",
+      "answer": "Apply Special Tool 25 1 100, turn counterclockwise 90\u00b0, push up spherical plate, then remove shift lever from above.",
+      "question_type": "procedural",
+      "id": "25-05_gear-shi-q06"
+    },
+    {
+      "question": "What should be done with the transmission during the removal procedure?",
+      "answer": "Support the transmission, unscrew cross member, and lower transmission to front axle carrier.",
+      "question_type": "procedural",
+      "id": "25-05_gear-shi-q07"
+    },
+    {
+      "question": "What inspection should be performed during installation?",
+      "answer": "Check length of bolts during installation.",
+      "question_type": "inspection",
+      "id": "25-05_gear-shi-q08"
+    },
+    {
+      "question": "What components need to be disconnected related to the backup lights?",
+      "answer": "Disconnect plug on wires for backup lights as part of the removal procedure.",
+      "question_type": "procedural",
+      "id": "25-05_gear-shi-q09"
+    },
+    {
+      "question": "What should be checked regarding the dust covers during installation?",
+      "answer": "Inspect dust covers and check for correct seating during installation.",
+      "question_type": "inspection",
+      "id": "25-05_gear-shi-q10"
+    },
+    {
+      "question": "What torque specification is mentioned for the threaded sleeve?",
+      "answer": "Tightening torque is specified for the threaded sleeve when using Special Tool 26 1 060 or 26 1 040 after finishing installation.",
+      "question_type": "factual",
+      "id": "25-05_gear-shi-q11"
+    },
+    {
+      "question": "What dust covers are mentioned in the removal procedure?",
+      "answer": "Two dust covers are mentioned: lift out dust cover, and disconnect dust cover (2) on shift console, with instructions to undo dust cover (1) on body and pull off shift lever.",
+      "question_type": "component",
+      "id": "25-05_gear-shi-q12"
+    }
+  ]
+}

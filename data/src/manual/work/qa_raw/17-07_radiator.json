@@ -1,0 +1,91 @@
+{
+  "page_id": "17-07_radiator",
+  "image_path": "raw/17 - Radiator/17-07.jpg",
+  "section_id": "17",
+  "section_name": "Radiator",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:02:39.267298",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 690
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the extra fan assembly?",
+      "answer": "The procedure number is 17 40 000.",
+      "question_type": "factual",
+      "id": "17-07_radiator-q01"
+    },
+    {
+      "question": "Which radiator and radiator grill sections need to be removed and installed during this procedure?",
+      "answer": "Remove and install radiator 17 11 000 and remove and install all radiator grill sections 51 13 070.",
+      "question_type": "procedural",
+      "id": "17-07_radiator-q02"
+    },
+    {
+      "question": "What should be done with the nuts on the extra fan?",
+      "answer": "Unscrew nuts on extra fan.",
+      "question_type": "procedural",
+      "id": "17-07_radiator-q03"
+    },
+    {
+      "question": "What component is shown in the diagram labeled 30 17 115?",
+      "answer": "The condenser is shown in diagram 30 17 115.",
+      "question_type": "visual",
+      "id": "17-07_radiator-q04"
+    },
+    {
+      "question": "What instruction is given for the condenser?",
+      "answer": "Unscrew condenser.",
+      "question_type": "procedural",
+      "id": "17-07_radiator-q05"
+    },
+    {
+      "question": "What should be done with the trim panel according to diagram 30 17 117?",
+      "answer": "Lift out trim panel.",
+      "question_type": "procedural",
+      "id": "17-07_radiator-q06"
+    },
+    {
+      "question": "What electrical connection needs to be addressed during the extra fan removal?",
+      "answer": "Disconnect wire plug.",
+      "question_type": "procedural",
+      "id": "17-07_radiator-q07"
+    },
+    {
+      "question": "How should the condenser be positioned when lifting out the extra fan?",
+      "answer": "Tie back condenser and lift out extra fan from above.",
+      "question_type": "procedural",
+      "id": "17-07_radiator-q08"
+    },
+    {
+      "question": "What diagram number shows the wire plug disconnection step?",
+      "answer": "Diagram 30 17 118 shows the wire plug disconnection step.",
+      "question_type": "visual",
+      "id": "17-07_radiator-q09"
+    },
+    {
+      "question": "From which direction should the extra fan be lifted out?",
+      "answer": "The extra fan should be lifted out from above.",
+      "question_type": "procedural",
+      "id": "17-07_radiator-q10"
+    },
+    {
+      "question": "What preliminary steps must be completed before removing the extra fan assembly?",
+      "answer": "Remove and install radiator 17 11 000 and remove and install all radiator grill sections 51 13 070.",
+      "question_type": "procedural",
+      "id": "17-07_radiator-q11"
+    },
+    {
+      "question": "What does the arrow symbol in diagram 30 17 118 indicate?",
+      "answer": "The arrow symbol indicates the direction to disconnect the wire plug.",
+      "question_type": "visual",
+      "id": "17-07_radiator-q12"
+    }
+  ]
+}

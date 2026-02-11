@@ -1,0 +1,73 @@
+{
+  "page_id": "64-124_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-124.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:57:38.685100",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 687
+  },
+  "qa_pairs": [
+    {
+      "question": "What must be removed before servicing the rear window ventilator?",
+      "answer": "Remove rear seat cushion and backrest - see 52 20 000.",
+      "question_type": "procedural",
+      "id": "64-124_heating--q02"
+    },
+    {
+      "question": "What are the three main steps shown in the diagram for removing the rear window ventilator?",
+      "answer": "Disconnect plug, pull off relay, and unscrew screws and remove ventilator.",
+      "question_type": "procedural",
+      "id": "64-124_heating--q03"
+    },
+    {
+      "question": "When is the ventilator ready for operation according to the note?",
+      "answer": "The ventilator is only ready for operation when the top is closed (microswitch in top box on left side).",
+      "question_type": "operation",
+      "id": "64-124_heating--q04"
+    },
+    {
+      "question": "What component controls the ventilator operation based on the top position?",
+      "answer": "A microswitch in the top box on the left side.",
+      "question_type": "component",
+      "id": "64-124_heating--q06"
+    },
+    {
+      "question": "What electrical connection must be disconnected first when removing the ventilator?",
+      "answer": "Disconnect the plug.",
+      "question_type": "procedural",
+      "id": "64-124_heating--q07"
+    },
+    {
+      "question": "What relay component is shown being removed in the procedure?",
+      "answer": "Pull off relay.",
+      "question_type": "procedural",
+      "id": "64-124_heating--q08"
+    },
+    {
+      "question": "Where is the microswitch located that affects ventilator operation?",
+      "answer": "In the top box on the left side.",
+      "question_type": "factual",
+      "id": "64-124_heating--q09"
+    },
+    {
+      "question": "What is the final mechanical step to remove the ventilator after electrical disconnection?",
+      "answer": "Unscrew screws and remove ventilator.",
+      "question_type": "procedural",
+      "id": "64-124_heating--q11"
+    },
+    {
+      "question": "What condition must be met for the rear window ventilator to be operational?",
+      "answer": "The top must be closed to activate the microswitch in the top box on the left side.",
+      "question_type": "operation",
+      "id": "64-124_heating--q12"
+    }
+  ]
+}

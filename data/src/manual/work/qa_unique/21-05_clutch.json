@@ -1,0 +1,85 @@
+{
+  "page_id": "21-05_clutch",
+  "image_path": "raw/21 - Clutch/21-05.jpg",
+  "section_id": "21",
+  "section_name": "Clutch",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:20:58.275772",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 847
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two main procedures described in section 21 52 000?",
+      "answer": "Removing and installing clutch master cylinder, which includes disconnecting the pipe to slave cylinder.",
+      "question_type": "factual",
+      "id": "21-05_clutch-q01"
+    },
+    {
+      "question": "What should you do with the brake fluid tank before removing the clutch master cylinder?",
+      "answer": "Unscrew cap on brake fluid tank, remove float container, and draw off brake fluid in tank to lower level to connection for the filling pipe.",
+      "question_type": "procedural",
+      "id": "21-05_clutch-q02"
+    },
+    {
+      "question": "What components are labeled with numbers 4, 5, and 6 in the top right diagram?",
+      "answer": "Number 4 is the filling pipe to pull out, numbers 5 and 6 are bolts to unscrew for removing the master cylinder.",
+      "question_type": "visual",
+      "id": "21-05_clutch-q03"
+    },
+    {
+      "question": "What diameter slave cylinder is required for dual-mass flywheel versions?",
+      "answer": "A slave cylinder with a diameter of 22.2 mm (0.874 inches), instead of 20.64 mm (0.809 inches), must be installed for the version with a double mass flywheel.",
+      "question_type": "factual",
+      "id": "21-05_clutch-q04"
+    },
+    {
+      "question": "How do you remove the instrument panel trim for clutch pedal access?",
+      "answer": "Remove instrument panel trim at bottom left and disconnect piston rod on the clutch pedal.",
+      "question_type": "procedural",
+      "id": "21-05_clutch-q05"
+    },
+    {
+      "question": "What cross-reference is provided for bleeding the clutch system?",
+      "answer": "Bleed clutch - see 21 00 006.",
+      "question_type": "navigation",
+      "id": "21-05_clutch-q06"
+    },
+    {
+      "question": "What important installation note is given regarding the over-center spring?",
+      "answer": "Engage over-center spring in guide tab on the pedal base prior to installation of the piston rod.",
+      "question_type": "procedural",
+      "id": "21-05_clutch-q07"
+    },
+    {
+      "question": "What components are shown in the bottom diagram numbered 8 and 9?",
+      "answer": "Number 8 is the over-center spring and number 9 is the guide tab on the pedal base where the spring must be engaged.",
+      "question_type": "visual",
+      "id": "21-05_clutch-q08"
+    },
+    {
+      "question": "What is the procedure for removing the clutch slave cylinder?",
+      "answer": "Unscrew slave cylinder on transmission, remove slave cylinder, and disconnect pipe.",
+      "question_type": "procedural",
+      "id": "21-05_clutch-q10"
+    },
+    {
+      "question": "What orientation should the bleeder screw have during installation?",
+      "answer": "Bleeder screw faces down, and install front push rod with Molykote Long-term 2.",
+      "question_type": "procedural",
+      "id": "21-05_clutch-q11"
+    },
+    {
+      "question": "Why is a larger diameter slave cylinder needed for dual-mass flywheel applications?",
+      "answer": "To avoid contact of the release lever when the clutch pedal is floored, as referenced in Service Information of Group 21.",
+      "question_type": "factual",
+      "id": "21-05_clutch-q12"
+    }
+  ]
+}

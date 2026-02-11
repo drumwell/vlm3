@@ -1,0 +1,91 @@
+{
+  "page_id": "36-07_wheels-a",
+  "image_path": "raw/36 - Wheels and Tires/36-07.jpg",
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:31:38.485759",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 766
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be removed from the wheel before balancing it dynamically?",
+      "answer": "Remove old balance weights, stones in treads and large pieces of dirt.",
+      "question_type": "procedural",
+      "id": "36-07_wheels-a-q01"
+    },
+    {
+      "question": "What three components are labeled 1, 2, and 3 in the balancing machine diagram?",
+      "answer": "1 is the basic flange, 2 is the center, and 3 is the type flange.",
+      "question_type": "visual",
+      "id": "36-07_wheels-a-q02"
+    },
+    {
+      "question": "What should you check on the tire before balancing?",
+      "answer": "Check tire inflation pressure, condition of tire (damage, cuts, flat spots caused by not using car with hot tires for a long time).",
+      "question_type": "inspection",
+      "id": "36-07_wheels-a-q03"
+    },
+    {
+      "question": "What type of balancing machine should be used for this procedure?",
+      "answer": "Use a suitable center of pertinent balancing machine.",
+      "question_type": "tool",
+      "id": "36-07_wheels-a-q04"
+    },
+    {
+      "question": "What important mounting requirement is specified to avoid clamping errors?",
+      "answer": "The wheel must be mounted on the balancing machine in the same manner (e.g. valve facing down) as mounted afterwards on the car.",
+      "question_type": "safety",
+      "id": "36-07_wheels-a-q05"
+    },
+    {
+      "question": "If necessary, what additional inspection should be performed on the wheel and tire?",
+      "answer": "Check wheel and tire for radial and lateral runout - see 36 10 209.",
+      "question_type": "inspection",
+      "id": "36-07_wheels-a-q06"
+    },
+    {
+      "question": "For aluminum wheel rims, how should the tire be positioned relative to the rim?",
+      "answer": "Press the side of the tire away from the rim flange slightly at an appropriate point with a tire clamp and insert a holder.",
+      "question_type": "procedural",
+      "id": "36-07_wheels-a-q07"
+    },
+    {
+      "question": "What are the two components shown in the arrangement of balance weights for cast aluminum rims?",
+      "answer": "1 is the spring holder and 2 is the balance weight.",
+      "question_type": "visual",
+      "id": "36-07_wheels-a-q08"
+    },
+    {
+      "question": "What additional reference documents should be consulted for this procedure?",
+      "answer": "Workshop Equipment Planning Documents.",
+      "question_type": "navigation",
+      "id": "36-07_wheels-a-q09"
+    },
+    {
+      "question": "How should the balance weight be positioned for aluminum rims after using the tire clamp?",
+      "answer": "Remove the tire clamp and push a balance weight underneath the holder until it engages.",
+      "question_type": "procedural",
+      "id": "36-07_wheels-a-q10"
+    },
+    {
+      "question": "What is the final step mentioned for completing the wheel balancing procedure?",
+      "answer": "Balance wheel to operating instructions of pertinent balancing machine.",
+      "question_type": "procedural",
+      "id": "36-07_wheels-a-q11"
+    },
+    {
+      "question": "What type of wheels are shown in the two different balance weight arrangement diagrams?",
+      "answer": "Cast aluminum rims (top diagram) and steel rims (bottom diagram).",
+      "question_type": "visual",
+      "id": "36-07_wheels-a-q12"
+    }
+  ]
+}

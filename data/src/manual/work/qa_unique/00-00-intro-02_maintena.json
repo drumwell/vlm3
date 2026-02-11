@@ -1,0 +1,85 @@
+{
+  "page_id": "00-00-intro-02_maintena",
+  "image_path": "raw/00 - Maintenance/00-00-intro-02.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:08:43.730325",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 808
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you check before driving a car onto a lifting platform?",
+      "answer": "Before driving a car on the platform, make sure that there is sufficient space (clearance) between the lifting platform and vehicle (if applicable spoiler, splash guard etc.).",
+      "question_type": "safety",
+      "id": "00-00-intro-02_maintena-q01"
+    },
+    {
+      "question": "What type of regulations must lifting platforms conform with?",
+      "answer": "Lifting platforms must conform with local and national legislative measures concerning accident prevention and maintenance.",
+      "question_type": "factual",
+      "id": "00-00-intro-02_maintena-q02"
+    },
+    {
+      "question": "Where should the arms of a lifting platform always be applied?",
+      "answer": "Arms of a lifting platform must always be applied only on the reinforced points of the frame members.",
+      "question_type": "procedural",
+      "id": "00-00-intro-02_maintena-q03"
+    },
+    {
+      "question": "What should be used between the lifting arm and vehicle frame at the front?",
+      "answer": "Apply rubber block of lifting arm on the front perpendicular reinforcement of the frame member, which is also provided for application of the car's jack.",
+      "question_type": "procedural",
+      "id": "00-00-intro-02_maintena-q04"
+    },
+    {
+      "question": "What is important to avoid when placing the rear lifting arm?",
+      "answer": "Do not touch on fuel tank underside.",
+      "question_type": "safety",
+      "id": "00-00-intro-02_maintena-q06"
+    },
+    {
+      "question": "What materials can be used as a suitable liner when using a workshop trolley jack?",
+      "answer": "A suitable liner (rubber, wood or plastic) must be used between the jack and vehicle to avoid damage to the undercoating, frame members or floor plate.",
+      "question_type": "tool",
+      "id": "00-00-intro-02_maintena-q07"
+    },
+    {
+      "question": "What happens to halfshaft joints if you drive the car while lifted?",
+      "answer": "Driving the car while lifted, will destroy the halfshaft joints because of excessive bending angle.",
+      "question_type": "safety",
+      "id": "00-00-intro-02_maintena-q08"
+    },
+    {
+      "question": "Where can a workshop trolley jack be applied for lifting?",
+      "answer": "A workshop trolley jack may also be only applied for lifting the vehicle on the same take-up points described for the lifting platform.",
+      "question_type": "procedural",
+      "id": "00-00-intro-02_maintena-q09"
+    },
+    {
+      "question": "What are the two main take-up points shown for lifting the vehicle?",
+      "answer": "The two main take-up points are the Front Take-up Point and Rear Take-up Point.",
+      "question_type": "visual",
+      "id": "00-00-intro-02_maintena-q10"
+    },
+    {
+      "question": "What caution is given regarding driving a lifted car?",
+      "answer": "Driving the car while lifted, will destroy the halfshaft joints because of excessive bending angle.",
+      "question_type": "safety",
+      "id": "00-00-intro-02_maintena-q11"
+    },
+    {
+      "question": "What type of block should be used with the lifting arm on frame reinforcements?",
+      "answer": "Apply rubber block of lifting arm on the perpendicular reinforcement of the frame member.",
+      "question_type": "tool",
+      "id": "00-00-intro-02_maintena-q12"
+    }
+  ]
+}

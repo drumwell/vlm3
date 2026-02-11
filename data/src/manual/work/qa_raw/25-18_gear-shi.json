@@ -1,0 +1,91 @@
+{
+  "page_id": "25-18_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-18.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:51:50.596466",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 729
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure reference number for removing and installing the selector lever complete with base for all wheel drive cars?",
+      "answer": "The procedure reference number is 25 16 050.",
+      "question_type": "factual",
+      "id": "25-18_gear-shi-q01"
+    },
+    {
+      "question": "What important warning is given when removing the center console and lifting out the retainer?",
+      "answer": "The manual states 'Important! Don't bend the steel wire.' when unscrewing the eye on pin.",
+      "question_type": "safety",
+      "id": "25-18_gear-shi-q02"
+    },
+    {
+      "question": "What should you check during installation of the transfer plate?",
+      "answer": "Check the installed direction of transfer plate and check for correct seating of rubber cover and foam rubber seal.",
+      "question_type": "inspection",
+      "id": "25-18_gear-shi-q03"
+    },
+    {
+      "question": "What step is shown in image 30 25 037?",
+      "answer": "Unscrewing the nut and disengaging the cable sleeve in holder.",
+      "question_type": "procedural",
+      "id": "25-18_gear-shi-q04"
+    },
+    {
+      "question": "What should be checked after finishing installation according to the rubber seals note?",
+      "answer": "Check for correct seating of rubber seals after finishing installation.",
+      "question_type": "inspection",
+      "id": "25-18_gear-shi-q05"
+    },
+    {
+      "question": "What is the procedure for adjusting the cable during installation?",
+      "answer": "Shift lever in 'P' (most forward position), press cable rod opposite forward direction, and clamp cable rod without tension.",
+      "question_type": "procedural",
+      "id": "25-18_gear-shi-q06"
+    },
+    {
+      "question": "What is the specified tightening torque for the cable adjustment?",
+      "answer": "The tightening torque is 10 to 12 Nm (7 to 9 ft. lbs.).",
+      "question_type": "factual",
+      "id": "25-18_gear-shi-q07"
+    },
+    {
+      "question": "What important warning is given regarding the cable during installation?",
+      "answer": "Important! Don't bend the cable.",
+      "question_type": "safety",
+      "id": "25-18_gear-shi-q08"
+    },
+    {
+      "question": "What action is shown in the bottom image 30 25 039?",
+      "answer": "Unscrewing bolts and removing the base.",
+      "question_type": "procedural",
+      "id": "25-18_gear-shi-q09"
+    },
+    {
+      "question": "What should be done with the plugs during the removal process?",
+      "answer": "Disconnect the plugs.",
+      "question_type": "procedural",
+      "id": "25-18_gear-shi-q10"
+    },
+    {
+      "question": "Which gear position should the shift lever be in during cable adjustment?",
+      "answer": "The shift lever should be in 'P' position (most forward position).",
+      "question_type": "procedural",
+      "id": "25-18_gear-shi-q11"
+    },
+    {
+      "question": "What cross-reference is provided for removing the center console?",
+      "answer": "See section 51 16 200 for removing the center console.",
+      "question_type": "navigation",
+      "id": "25-18_gear-shi-q12"
+    }
+  ]
+}

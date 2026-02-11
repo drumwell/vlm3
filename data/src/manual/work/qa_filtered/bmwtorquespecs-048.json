@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-048",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/048.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:21:36.279289",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 559
+  },
+  "qa_pairs": [
+    {
+      "question": "What thread type is specified for the compression screw (2AZ)?",
+      "answer": "M60/1/M60/2",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-048-q02"
+    },
+    {
+      "question": "Which components in the air pump system use the same torque specification of 5 Nm?",
+      "answer": "The compression screw (2AZ) and lock nut both use 5 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-048-q08"
+    },
+    {
+      "question": "What thread specification applies to all three components listed in section 11 72?",
+      "answer": "M60/1/M60/2",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-048-q09"
+    },
+    {
+      "question": "Which component in the air pump system has the highest torque specification?",
+      "answer": "The cap nut on air intake tube (1AZ) with 30 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-048-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "65-304_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-304.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:03:36.942570",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 774
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step to remove the instrument panel cover?",
+      "answer": "Unscrew mounting nuts for cover (1) and lift out cover.",
+      "question_type": "procedural",
+      "id": "65-304_radio-an-q01"
+    },
+    {
+      "question": "What caution is given when removing the trim screws?",
+      "answer": "The two inside screws must not be mixed up with outside screws (max. length 9.5 mm)!",
+      "question_type": "safety",
+      "id": "65-304_radio-an-q02"
+    },
+    {
+      "question": "What should you do first before pulling off the combination plug on the instrument carrier?",
+      "answer": "First pull out slider (1) on combination plug (2) to be able to pull off combination plug on instrument carrier.",
+      "question_type": "procedural",
+      "id": "65-304_radio-an-q03"
+    },
+    {
+      "question": "What components are connected in cars with manual transmission only?",
+      "answer": "Connect plug (1) of extra wire harness on clutch switch (see wire harness sketch).",
+      "question_type": "factual",
+      "id": "65-304_radio-an-q04"
+    },
+    {
+      "question": "How is the wire connection different for automatic transmission cars?",
+      "answer": "Connect plug (1) on extra wire harness for clutch switch with wire bridge (2) (see wire harness sketch).",
+      "question_type": "factual",
+      "id": "65-304_radio-an-q05"
+    },
+    {
+      "question": "What is the procedure for removing the instrument carrier?",
+      "answer": "Lift instrument carrier out of instrument panel. Pull off all plugs.",
+      "question_type": "procedural",
+      "id": "65-304_radio-an-q06"
+    },
+    {
+      "question": "What callout number indicates the trim component in the second image?",
+      "answer": "Callout number (1) indicates the trim that should be lifted out.",
+      "question_type": "visual",
+      "id": "65-304_radio-an-q07"
+    },
+    {
+      "question": "What is the maximum screw length mentioned for the trim screws?",
+      "answer": "9.5 mm maximum length for the outside screws.",
+      "question_type": "factual",
+      "id": "65-304_radio-an-q08"
+    },
+    {
+      "question": "Where should the adapter be inserted according to the instructions?",
+      "answer": "Insert adapter (1). Connect plug (2) of extra wire harness (see wire harness sketch). Install instrument carrier.",
+      "question_type": "procedural",
+      "id": "65-304_radio-an-q09"
+    },
+    {
+      "question": "What specific connection is made for automatic transmission cars in the bottom image?",
+      "answer": "Connect plug (1) tied back on extra wire harness with plug (2) tied back in car (see wire harness sketch).",
+      "question_type": "factual",
+      "id": "65-304_radio-an-q10"
+    },
+    {
+      "question": "What components are shown in callout numbers 1 and 2 in the combination plug image?",
+      "answer": "Callout (1) shows the slider that must be pulled out first, and callout (2) shows the combination plug.",
+      "question_type": "visual",
+      "id": "65-304_radio-an-q11"
+    },
+    {
+      "question": "What reference is consistently mentioned for wire harness details?",
+      "answer": "Wire harness sketch is referenced for all electrical connection details.",
+      "question_type": "navigation",
+      "id": "65-304_radio-an-q12"
+    }
+  ]
+}

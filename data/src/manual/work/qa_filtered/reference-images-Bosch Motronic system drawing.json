@@ -1,0 +1,67 @@
+{
+  "page_id": "reference-images-Bosch Motronic system drawing",
+  "image_path": "raw/Reference Images/Bosch Motronic system drawing.png",
+  "section_id": "reference",
+  "section_name": "Reference Images",
+  "source_type": "unknown",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:47:10.461148",
+    "prompt_template": "unknown/diagram",
+    "tokens_input": 1848,
+    "tokens_output": 512
+  },
+  "qa_pairs": [
+    {
+      "question": "What engine management system is shown in this diagram?",
+      "answer": "The diagram shows a Bosch Motronic engine management system.",
+      "question_type": "component",
+      "id": "reference-images-Bosch Motronic system drawing-q01"
+    },
+    {
+      "question": "Where is the fuel pressure regulator located in this fuel system?",
+      "answer": "The fuel pressure regulator is located on the fuel rail, connected between the fuel rail and the return line to the fuel tank.",
+      "question_type": "component",
+      "id": "reference-images-Bosch Motronic system drawing-q02"
+    },
+    {
+      "question": "What component is used to detect engine position for ignition timing?",
+      "answer": "The reference mark sensor is used to detect engine position for ignition timing, located near the crankshaft timing wheel.",
+      "question_type": "component",
+      "id": "reference-images-Bosch Motronic system drawing-q03"
+    },
+    {
+      "question": "What sensor monitors the air flow into the engine?",
+      "answer": "The air flow sensor monitors the air flow into the engine and is located in the intake system after the air filter.",
+      "question_type": "component",
+      "id": "reference-images-Bosch Motronic system drawing-q04"
+    },
+    {
+      "question": "What component controls the idle air bypass?",
+      "answer": "The idle air stabilizer controls the idle air bypass, allowing air to flow around the closed throttle valve during idle conditions.",
+      "question_type": "component",
+      "id": "reference-images-Bosch Motronic system drawing-q05"
+    },
+    {
+      "question": "Where is the oxygen sensor positioned in the exhaust system?",
+      "answer": "The oxygen sensor is positioned in the exhaust manifold to monitor the oxygen content in the exhaust gases.",
+      "question_type": "component",
+      "id": "reference-images-Bosch Motronic system drawing-q06"
+    },
+    {
+      "question": "What valve is used for cold start enrichment?",
+      "answer": "The cold-start valve is used for cold start enrichment, providing additional fuel during cold engine starts.",
+      "question_type": "component",
+      "id": "reference-images-Bosch Motronic system drawing-q07"
+    },
+    {
+      "question": "What relays are shown at the bottom right of the diagram?",
+      "answer": "The diagram shows the Main relay and Fuel pump relay at the bottom right, which control power distribution to the fuel system and other components.",
+      "question_type": "component",
+      "id": "reference-images-Bosch Motronic system drawing-q08"
+    }
+  ]
+}

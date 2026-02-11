@@ -1,0 +1,91 @@
+{
+  "page_id": "41-130_body",
+  "image_path": "raw/41 - Body/41-130.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:49:37.528268",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 813
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to mating surfaces on a new wheel house inside section before spot welding?",
+      "answer": "Grind mating surfaces on new wheel house inside section. Coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-130_body-q01"
+    },
+    {
+      "question": "Where should the car be placed when fitting in the wheel house?",
+      "answer": "Place car on straightening bench. Fit in wheel house.",
+      "question_type": "procedural",
+      "id": "41-130_body-q02"
+    },
+    {
+      "question": "What welding method is used for areas not accessible for spot welding on the wheel house?",
+      "answer": "Insert gas weld those mating surfaces which are not accessible for spot welding.",
+      "question_type": "procedural",
+      "id": "41-130_body-q03"
+    },
+    {
+      "question": "What additional welding may be required for the trunk lid hinge support?",
+      "answer": "Spot weld or, if necessary, plug spot weld trunk lid hinge support.",
+      "question_type": "procedural",
+      "id": "41-130_body-q04"
+    },
+    {
+      "question": "What preparation is required for the tank vent pipe?",
+      "answer": "Braze pipe for tank vent. Grind and prepare mating surfaces for wheel house outside section.",
+      "question_type": "procedural",
+      "id": "41-130_body-q05"
+    },
+    {
+      "question": "How many spot weld locations are visible in image 30 41 300?",
+      "answer": "Multiple spot weld locations are indicated by circular dots around the wheel house area in the diagram.",
+      "question_type": "visual",
+      "id": "41-130_body-q06"
+    },
+    {
+      "question": "What is shown in image 30 41 295?",
+      "answer": "Image 30 41 295 shows the wheel house inside section component that needs surface preparation before installation.",
+      "question_type": "visual",
+      "id": "41-130_body-q07"
+    },
+    {
+      "question": "What welding operation is being performed in images 30 41 297 and 30 41 298?",
+      "answer": "Both images show spot welding of the wheel house, with the welding equipment positioned at different locations on the wheel house assembly.",
+      "question_type": "visual",
+      "id": "41-130_body-q08"
+    },
+    {
+      "question": "What coating is specified for spot welding mating surfaces?",
+      "answer": "Zinc dust paint is specified to coat mating surfaces needed for spot welding.",
+      "question_type": "factual",
+      "id": "41-130_body-q09"
+    },
+    {
+      "question": "What type of welding is used as the primary method for joining the wheel house?",
+      "answer": "Spot welding is the primary welding method used for joining the wheel house components.",
+      "question_type": "factual",
+      "id": "41-130_body-q10"
+    },
+    {
+      "question": "What should be inspected on mating surfaces before welding?",
+      "answer": "Mating surfaces should be ground and properly prepared, and those needed for spot welding should be coated with zinc dust paint.",
+      "question_type": "inspection",
+      "id": "41-130_body-q11"
+    },
+    {
+      "question": "What alternative welding method is mentioned for the trunk lid hinge support if spot welding is not sufficient?",
+      "answer": "Plug spot welding is mentioned as an alternative method if regular spot welding is not sufficient for the trunk lid hinge support.",
+      "question_type": "procedural",
+      "id": "41-130_body-q12"
+    }
+  ]
+}

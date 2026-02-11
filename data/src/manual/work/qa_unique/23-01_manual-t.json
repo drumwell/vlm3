@@ -1,0 +1,61 @@
+{
+  "page_id": "23-01_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-01.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:22:24.802083",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 482
+  },
+  "qa_pairs": [
+    {
+      "question": "What does callout number 1 identify in the transmission diagram?",
+      "answer": "Callout number 1 identifies the first gear.",
+      "question_type": "component",
+      "id": "23-01_manual-t-q02"
+    },
+    {
+      "question": "Which gear is identified by callout number 5?",
+      "answer": "Callout number 5 identifies the fifth gear.",
+      "question_type": "component",
+      "id": "23-01_manual-t-q03"
+    },
+    {
+      "question": "What component does callout number 6 point to?",
+      "answer": "Callout number 6 points to the input shaft.",
+      "question_type": "component",
+      "id": "23-01_manual-t-q04"
+    },
+    {
+      "question": "Where is the layshaft located according to the diagram?",
+      "answer": "The layshaft is identified as callout number 8 and is located at the bottom of the transmission case.",
+      "question_type": "visual",
+      "id": "23-01_manual-t-q05"
+    },
+    {
+      "question": "What does the 'R' callout represent in this transmission diagram?",
+      "answer": "The 'R' callout represents the reverse gear.",
+      "question_type": "component",
+      "id": "23-01_manual-t-q06"
+    },
+    {
+      "question": "How many forward gears does this Getrag 240 transmission have?",
+      "answer": "This Getrag 240 transmission has five forward gears, as indicated in the title and by the numbered callouts 1 through 5.",
+      "question_type": "factual",
+      "id": "23-01_manual-t-q07"
+    },
+    {
+      "question": "What is callout number 7 identifying in the transmission assembly?",
+      "answer": "Callout number 7 identifies the output shaft.",
+      "question_type": "component",
+      "id": "23-01_manual-t-q08"
+    }
+  ]
+}

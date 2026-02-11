@@ -1,0 +1,85 @@
+{
+  "page_id": "12-52_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-52.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:40:24.072028",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 818
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure code covers disassembling and assembling the starter?",
+      "answer": "Procedure code 12 41 103 covers disassembling/assembling the starter.",
+      "question_type": "factual",
+      "id": "12-52_engine-e-q01"
+    },
+    {
+      "question": "What components need to be removed before taking off the circlip, shims, and seal?",
+      "answer": "The starter (see 12 41 020), solenoid switch (see 12 41 041), and cap must be unscrewed before removing the circlip, shims, and seal.",
+      "question_type": "procedural",
+      "id": "12-52_engine-e-q02"
+    },
+    {
+      "question": "What should be checked during installation of the armature?",
+      "answer": "Check axial play of armature and correct with shims if necessary.",
+      "question_type": "inspection",
+      "id": "12-52_engine-e-q03"
+    },
+    {
+      "question": "What should be applied to the housing bolts and insulator during installation?",
+      "answer": "High melting point grease should be applied to the housing bolts and insulator to each other.",
+      "question_type": "procedural",
+      "id": "12-52_engine-e-q05"
+    },
+    {
+      "question": "What lubrication is specified for the bearing sleeve in the drive bearing bracket?",
+      "answer": "The bearing sleeve should be lubricated with oil before installing.",
+      "question_type": "tool",
+      "id": "12-52_engine-e-q06"
+    },
+    {
+      "question": "How should the bearing race be removed from the shaft?",
+      "answer": "Push back bearing race with a piece of suitable pipe, pry circlip apart and pull it off the shaft, then remove burrs with a file.",
+      "question_type": "procedural",
+      "id": "12-52_engine-e-q07"
+    },
+    {
+      "question": "What components are labeled 1, 2, and 3 in the drive pinion assembly diagram?",
+      "answer": "Component 1 is the bearing race, component 2 is the new circlip, and component 3 is the drive pinion.",
+      "question_type": "visual",
+      "id": "12-52_engine-e-q08"
+    },
+    {
+      "question": "What should be checked when inspecting carbon brushes?",
+      "answer": "Check carbon brushes and commutator for wear, repairing if necessary (see 12 41 551).",
+      "question_type": "inspection",
+      "id": "12-52_engine-e-q09"
+    },
+    {
+      "question": "What must be done to remove the pole housing?",
+      "answer": "Unscrew engaging lever bolt and remove rubber seal to remove the pole housing.",
+      "question_type": "procedural",
+      "id": "12-52_engine-e-q10"
+    },
+    {
+      "question": "What inspection should be performed on the intermediate bearing during installation?",
+      "answer": "Check sleeve in intermediate bearing, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "12-52_engine-e-q11"
+    },
+    {
+      "question": "What lubrication should be applied to the drive pinion bearing surface during installation?",
+      "answer": "Lubricate bearing surface for drive pinion with grease during installation.",
+      "question_type": "tool",
+      "id": "12-52_engine-e-q12"
+    }
+  ]
+}

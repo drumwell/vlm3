@@ -1,0 +1,73 @@
+{
+  "page_id": "51-343_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-343.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:23:58.757240",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 703
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with the door remote control before loosening the clip?",
+      "answer": "Unscrew the door remote control, then loosen the clip and let the remote control hang down.",
+      "question_type": "procedural",
+      "id": "51-343_body-equ-q01"
+    },
+    {
+      "question": "How should the door remote control be preloaded during installation?",
+      "answer": "Preload the door remote control slightly during installation.",
+      "question_type": "procedural",
+      "id": "51-343_body-equ-q02"
+    },
+    {
+      "question": "What direction should you turn and push the guide rail?",
+      "answer": "Turn and push down the guide rail.",
+      "question_type": "procedural",
+      "id": "51-343_body-equ-q03"
+    },
+    {
+      "question": "From which direction should the window glass be pulled out?",
+      "answer": "Pull out the window glass from above.",
+      "question_type": "procedural",
+      "id": "51-343_body-equ-q04"
+    },
+    {
+      "question": "Where should you loosen the guide rail on the rubber frame?",
+      "answer": "Loosen the guide rail on the rubber frame of the fixed window and disconnect in retainer at top.",
+      "question_type": "procedural",
+      "id": "51-343_body-equ-q05"
+    },
+    {
+      "question": "What installation tip is given for working with the rubber frame?",
+      "answer": "Coat the rubber frame with relaxed water to make installation easier.",
+      "question_type": "procedural",
+      "id": "51-343_body-equ-q06"
+    },
+    {
+      "question": "Where must the beads on the rubber frame engage during installation?",
+      "answer": "The beads on the rubber frame must engage in bores of window guide.",
+      "question_type": "procedural",
+      "id": "51-343_body-equ-q07"
+    },
+    {
+      "question": "What component is shown in diagram 30 51 144?",
+      "answer": "The diagram shows the door remote control being unscrewed and the clip being loosened.",
+      "question_type": "visual",
+      "id": "51-343_body-equ-q08"
+    },
+    {
+      "question": "What is being shown in diagram 30 51 131?",
+      "answer": "The diagram shows loosening the guide rail on the rubber frame of the fixed window and disconnecting the retainer at the top.",
+      "question_type": "visual",
+      "id": "51-343_body-equ-q11"
+    }
+  ]
+}

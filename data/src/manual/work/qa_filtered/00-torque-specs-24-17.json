@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-24-17",
+  "image_path": "raw/00 - Torque Specs/24-17.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:03:06.799524",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 553
+  },
+  "qa_pairs": [
+    {
+      "question": "Which transmission mount component has the highest torque specification?",
+      "answer": "The support tube to engine subframe at 42 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-17-q06"
+    },
+    {
+      "question": "Which vehicle type applies to the cross member to body mounting specification?",
+      "answer": "All vehicle types",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-17-q07"
+    },
+    {
+      "question": "Are the rubber mount specifications the same for all mounting locations?",
+      "answer": "No, the support tube to engine subframe requires 42 Nm while other rubber mounts require 21 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-17-q08"
+    },
+    {
+      "question": "Which components in this table are specific to E36 models only?",
+      "answer": "Support tube to engine subframe, rubber mounts to carrier pipe, and carrier plate",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-17-q09"
+    },
+    {
+      "question": "What section of the service manual contains these transmission mount torque specifications?",
+      "answer": "Section 24-17 Automatic Transmission",
+      "question_type": "navigation",
+      "id": "00-torque-specs-24-17-q10"
+    }
+  ]
+}

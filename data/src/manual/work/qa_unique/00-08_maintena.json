@@ -1,0 +1,85 @@
+{
+  "page_id": "00-08_maintena",
+  "image_path": "raw/00 - Maintenance/00-08.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:12:45.810215",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 708
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maintenance interval for this inspection procedure?",
+      "answer": "This is the 1200 Mile Inspection procedure as part of the BMW Maintenance System.",
+      "question_type": "factual",
+      "id": "00-08_maintena-q01"
+    },
+    {
+      "question": "What type of oil should be used for the final drive and front axle oil replacement at 325 iX?",
+      "answer": "Use approved oil only, as specified in the Important Remarks column.",
+      "question_type": "safety",
+      "id": "00-08_maintena-q02"
+    },
+    {
+      "question": "Which group sections contain service information for brake and clutch hydraulic systems fluid check?",
+      "answer": "Group 00 and Group 34, as indicated in the Service Information column.",
+      "question_type": "navigation",
+      "id": "00-08_maintena-q03"
+    },
+    {
+      "question": "What should be checked regarding the parking brake during this inspection?",
+      "answer": "Check parking brake and adjust parking brake cables if necessary.",
+      "question_type": "procedural",
+      "id": "00-08_maintena-q04"
+    },
+    {
+      "question": "Where can you find the technical data for replacing final drive oil and front axle oil?",
+      "answer": "The technical data is located in Group 33.",
+      "question_type": "navigation",
+      "id": "00-08_maintena-q05"
+    },
+    {
+      "question": "What should be included when checking tire inflation pressure?",
+      "answer": "Check tire inflation pressure, correcting if necessary, and include the spare wheel in this check.",
+      "question_type": "inspection",
+      "id": "00-08_maintena-q07"
+    },
+    {
+      "question": "Which group section provides service information for tire pressure checking?",
+      "answer": "Group 36 provides the service information for tire pressure checking.",
+      "question_type": "navigation",
+      "id": "00-08_maintena-q08"
+    },
+    {
+      "question": "What should be done with the windshield washing system during this inspection?",
+      "answer": "Fill supply tank for windshield washing system and check antifreeze protection.",
+      "question_type": "procedural",
+      "id": "00-08_maintena-q09"
+    },
+    {
+      "question": "What additional maintenance is required for the washer fluid?",
+      "answer": "Check intensive washer fluid level and add intensive washer fluid if necessary.",
+      "question_type": "procedural",
+      "id": "00-08_maintena-q10"
+    },
+    {
+      "question": "Which group section contains service information for the windshield washing system?",
+      "answer": "Group 00 contains the service information for the windshield washing system.",
+      "question_type": "navigation",
+      "id": "00-08_maintena-q11"
+    },
+    {
+      "question": "What does the asterisk note at the bottom of the page indicate?",
+      "answer": "After introduction of: Operating-Fluids-File, indicating this information applies after a specific technical update.",
+      "question_type": "factual",
+      "id": "00-08_maintena-q12"
+    }
+  ]
+}

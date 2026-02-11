@@ -1,0 +1,37 @@
+{
+  "page_id": "12-40_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-40.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:37:55.315243",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 720
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check if the charge indicator lamp glows or is on with engine running?",
+      "answer": "Connect BMW service test unit and perform engine test (P 012). Check regulating voltage and check charging current. Also check oscillograph and harmonic wave ratio - see 12 31 009.",
+      "question_type": "diagnostic",
+      "id": "12-40_engine-e-q04"
+    },
+    {
+      "question": "What indicates that the battery is charged insufficiently with charge indicator lamp off while engine running?",
+      "answer": "Connect BMW service test unit and perform engine test (P 012). If not okay, check battery and replace if necessary. Check power drain with equipment switched off. If okay, check regulating voltage and charging current with equipment on too low.",
+      "question_type": "diagnostic",
+      "id": "12-40_engine-e-q05"
+    },
+    {
+      "question": "Where can I find the wiring diagram for alternator troubleshooting?",
+      "answer": "See Wiring Diagram.",
+      "question_type": "navigation",
+      "id": "12-40_engine-e-q10"
+    }
+  ]
+}

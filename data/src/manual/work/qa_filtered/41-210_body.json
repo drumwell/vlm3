@@ -1,0 +1,85 @@
+{
+  "page_id": "41-210_body",
+  "image_path": "raw/41 - Body/41-210.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:52:59.577759",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 662
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the mating surface if necessary?",
+      "answer": "Grind mating surface, tinning if necessary.",
+      "question_type": "procedural",
+      "id": "41-210_body-q01"
+    },
+    {
+      "question": "What should be used to seal all joints?",
+      "answer": "Seal all joints with a joint sealing compound.",
+      "question_type": "procedural",
+      "id": "41-210_body-q02"
+    },
+    {
+      "question": "What coating needs to be replaced on the entrance and wheel house?",
+      "answer": "Replace anti-drumming coat on entrance and in wheel house.",
+      "question_type": "procedural",
+      "id": "41-210_body-q03"
+    },
+    {
+      "question": "What is the callout number shown in the top image?",
+      "answer": "The callout number shown in the top image is 30 41 550.",
+      "question_type": "visual",
+      "id": "41-210_body-q04"
+    },
+    {
+      "question": "What callout number is visible in the middle diagram?",
+      "answer": "The callout number visible in the middle diagram is 30 41 551.",
+      "question_type": "visual",
+      "id": "41-210_body-q05"
+    },
+    {
+      "question": "What is the callout number in the bottom image?",
+      "answer": "The callout number in the bottom image is 30 41 552.",
+      "question_type": "visual",
+      "id": "41-210_body-q06"
+    },
+    {
+      "question": "What is the source reference noted at the bottom of the page?",
+      "answer": "The source reference is HWB.",
+      "question_type": "factual",
+      "id": "41-210_body-q07"
+    },
+    {
+      "question": "What type of surface preparation might be required before sealing?",
+      "answer": "Grinding the mating surface and tinning if necessary might be required before sealing.",
+      "question_type": "procedural",
+      "id": "41-210_body-q09"
+    },
+    {
+      "question": "Where specifically should the anti-drumming coat be replaced?",
+      "answer": "The anti-drumming coat should be replaced on entrance and in wheel house.",
+      "question_type": "factual",
+      "id": "41-210_body-q10"
+    },
+    {
+      "question": "What page number is this from the service manual?",
+      "answer": "This is page 41-210.",
+      "question_type": "factual",
+      "id": "41-210_body-q11"
+    },
+    {
+      "question": "What type of compound is specified for joint sealing?",
+      "answer": "A joint sealing compound is specified for sealing all joints.",
+      "question_type": "factual",
+      "id": "41-210_body-q12"
+    }
+  ]
+}

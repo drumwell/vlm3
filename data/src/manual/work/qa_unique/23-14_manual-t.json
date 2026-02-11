@@ -1,0 +1,73 @@
+{
+  "page_id": "23-14_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-14.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:32:00.429004",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 816
+  },
+  "qa_pairs": [
+    {
+      "question": "What must be removed before pressing off the reverse gear?",
+      "answer": "Circlip (11) must be removed before pressing off reverse gear.",
+      "question_type": "procedural",
+      "id": "23-14_manual-t-q01"
+    },
+    {
+      "question": "For the version with synchronized reverse gear, which groove should face the 5th gear wheel?",
+      "answer": "For version with 3 Grooves, grooves face the 5th gear wheel.",
+      "question_type": "factual",
+      "id": "23-14_manual-t-q04"
+    },
+    {
+      "question": "What components should be checked for wear before assembling according to the note?",
+      "answer": "Check wear of synchromesh rings according to see 23 23 505 prior to assembling.",
+      "question_type": "inspection",
+      "id": "23-14_manual-t-q06"
+    },
+    {
+      "question": "Which direction should the operating sleeve be moved during adjustment?",
+      "answer": "Move operating sleeve in direction of reverse gear and adjust guide sleeve with circlip (11) to take up all play.",
+      "question_type": "procedural",
+      "id": "23-14_manual-t-q07"
+    },
+    {
+      "question": "For the version without synchronized reverse gear, how should circlip (1) be positioned?",
+      "answer": "Circlip (1) in guide sleeve must face reverse gear for version without Synchronized Reverse Gear.",
+      "question_type": "factual",
+      "id": "23-14_manual-t-q08"
+    },
+    {
+      "question": "What components are installed on the splines of the output shaft during final assembly?",
+      "answer": "Install needle bearing, 1st gear and nickle-plated synchromesh ring, then install guide and operating sleeves on splines of output shaft.",
+      "question_type": "procedural",
+      "id": "23-14_manual-t-q09"
+    },
+    {
+      "question": "What is indicated by callout number 11 in the diagrams?",
+      "answer": "Callout number 11 indicates the circlip that must be removed before pressing off reverse gear and later reinstalled.",
+      "question_type": "visual",
+      "id": "23-14_manual-t-q10"
+    },
+    {
+      "question": "For the Shouldered Operating Sleeve Version, which component faces the 2nd gear wheel?",
+      "answer": "Shouldered end faces 2nd gear wheel for the Shouldered Operating Sleeve Version.",
+      "question_type": "factual",
+      "id": "23-14_manual-t-q11"
+    },
+    {
+      "question": "What must always be done during installation according to the important note?",
+      "answer": "Always replace circlip during installation.",
+      "question_type": "safety",
+      "id": "23-14_manual-t-q12"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "bmwtorquespecs-099",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/099.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:31:05.174345",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 561
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the holder to transfer case (16AZ)?",
+      "answer": "9 Nm (ft. lbs.) with M6 screw for 265 Sport type.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-099-q01"
+    },
+    {
+      "question": "What is the torque value for the retaining plates for bearings on housing?",
+      "answer": "10 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-099-q03"
+    },
+    {
+      "question": "Which transmission types use the retaining plates for bearings on housing (17AZ)?",
+      "answer": "S 5 D 310 Z/S 5 D 200 G/250 G.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-099-q04"
+    },
+    {
+      "question": "What section of the manual covers the case and cover components?",
+      "answer": "Section 23 11 Case and Cover.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-099-q05"
+    },
+    {
+      "question": "What transmission type applies to the holder to transfer case component?",
+      "answer": "265 Sport.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-099-q07"
+    },
+    {
+      "question": "What chapter does this torque specification table belong to?",
+      "answer": "Chapter 23-6 Manual Transmission.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-099-q10"
+    }
+  ]
+}

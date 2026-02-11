@@ -1,0 +1,91 @@
+{
+  "page_id": "26-01a_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-01a.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:53:39.675447",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 964
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to measure the angle of engine inclination?",
+      "answer": "Special Tool 26 1 030 is needed, along with a helping rail (steel ruler) on the vibration damper to measure the angle of engine inclination.",
+      "question_type": "tool",
+      "id": "26-01a_propello-q01"
+    },
+    {
+      "question": "What is the maximum amount of shims that can be used to correct deflection angles?",
+      "answer": "Up to max. 3 mm or 0.118\" shims can be used on the transmission suspension or center mount to correct deflection angles.",
+      "question_type": "factual",
+      "id": "26-01a_propello-q02"
+    },
+    {
+      "question": "Where should the gage be applied when measuring the propeller shaft front section angle?",
+      "answer": "Apply the gage on the propeller shaft front section and measure the angle. Measure deflection angle of joint disc and, if necessary, correct it with shims on the transmission suspension or center mount.",
+      "question_type": "procedural",
+      "id": "26-01a_propello-q03"
+    },
+    {
+      "question": "What are the example angles given for the engine angle and propeller shaft angle?",
+      "answer": "The example shows Engine angle: 2\u00b0 16' and Propeller shaft angle: -2\u00b0 06', with Joint disc defl. angle: +0\u00b0 10'.",
+      "question_type": "factual",
+      "id": "26-01a_propello-q04"
+    },
+    {
+      "question": "How should the deflection angle of the universal joint end be corrected if necessary?",
+      "answer": "Determine deflection angle of the universal joint end, and if necessary, correct it with shims (up to max. 3 mm or 0.118\") on the center mount.",
+      "question_type": "procedural",
+      "id": "26-01a_propello-q05"
+    },
+    {
+      "question": "What important note is given about correcting deflection angles with shims?",
+      "answer": "When correcting a deflection angle by installing shims, remember that the deflection angles of the adjacent joints will also change. In general joints should have as small as possible deflection angles.",
+      "question_type": "safety",
+      "id": "26-01a_propello-q06"
+    },
+    {
+      "question": "Where is the gage applied when measuring the final drive angle?",
+      "answer": "Apply gage on final drive with helping rail (steel ruler) and measure angle.",
+      "question_type": "procedural",
+      "id": "26-01a_propello-q07"
+    },
+    {
+      "question": "What procedure is followed for the propeller shaft rear section measurement?",
+      "answer": "Apply gage on propeller shaft rear section and measure angle. Determine deflection angle of center mount and, if necessary, correct it with shims (up to max. 3 mm / 0.118\") on transmission suspension or center mount.",
+      "question_type": "procedural",
+      "id": "26-01a_propello-q08"
+    },
+    {
+      "question": "What callout number identifies the special tool in the diagrams?",
+      "answer": "Callout number 26 1 030 identifies the special tool used for measuring angles in multiple locations throughout the diagrams.",
+      "question_type": "visual",
+      "id": "26-01a_propello-q09"
+    },
+    {
+      "question": "What reference numbers are shown for additional specifications?",
+      "answer": "The page shows reference numbers 20 26 045, 30 26 010, 30 26 006, and 30 26 009, with notes to \"See Specifications\" at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "26-01a_propello-q10"
+    },
+    {
+      "question": "What components are being measured for deflection angles according to the procedures shown?",
+      "answer": "The procedures measure deflection angles of the joint disc, universal joint end, and center mount, using the propeller shaft front and rear sections as reference points.",
+      "question_type": "component",
+      "id": "26-01a_propello-q11"
+    },
+    {
+      "question": "What is the general goal regarding deflection angles in joints?",
+      "answer": "In general, joints should have as small as possible deflection angles to minimize driveline vibration and wear.",
+      "question_type": "inspection",
+      "id": "26-01a_propello-q12"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "page_id": "bmwtorquespecs-020",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/020.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:16:07.036367",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 580
+  },
+  "qa_pairs": [
+    {
+      "question": "Which engine types use the cylinder head cover torque specifications shown in this table?",
+      "answer": "All engine types for most specifications, with M21 specifically noted for the oil trap connection",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-020-q07"
+    },
+    {
+      "question": "What section of the manual does this torque specification table belong to?",
+      "answer": "Section 11-10 Engine, subsection 11 12 Cylinder Head and Cover",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-020-q09"
+    },
+    {
+      "question": "What are the different screw sizes specified for cylinder head cover installation?",
+      "answer": "M6, M7, and M8 screws are specified for cylinder head cover installation",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-020-q10"
+    }
+  ]
+}

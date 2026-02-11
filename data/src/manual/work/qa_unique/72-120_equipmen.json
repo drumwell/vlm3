@@ -1,0 +1,85 @@
+{
+  "page_id": "72-120_equipmen",
+  "image_path": "raw/72 - Equipment and Accessories for Body/72-120.jpg",
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:11:48.300374",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 739
+  },
+  "qa_pairs": [
+    {
+      "question": "What parts are needed to install the wind deflector for sun roof?",
+      "answer": "1 Wind deflector, 1 Rubber seal, 2 Flat head screws, 2 Knurled nuts, and 2 Holders.",
+      "question_type": "factual",
+      "id": "72-120_equipmen-q02"
+    },
+    {
+      "question": "What should you do with protruding ends when mounting the rubber seal on the wind deflector?",
+      "answer": "Cut off protruding ends if applicable.",
+      "question_type": "procedural",
+      "id": "72-120_equipmen-q03"
+    },
+    {
+      "question": "How do you open the sun roof during wind deflector installation?",
+      "answer": "Press in holders between beaded edge and panel on left and right sides with a screwdriver.",
+      "question_type": "procedural",
+      "id": "72-120_equipmen-q04"
+    },
+    {
+      "question": "How should the wind deflector be positioned relative to the roof opening?",
+      "answer": "Align wind deflector parallel to roof opening and tighten left and right screws uniformly.",
+      "question_type": "procedural",
+      "id": "72-120_equipmen-q05"
+    },
+    {
+      "question": "When should the screws be retightened after initial installation?",
+      "answer": "Tighten screws uniformly after driving car approx. 100 km (60 miles).",
+      "question_type": "procedural",
+      "id": "72-120_equipmen-q06"
+    },
+    {
+      "question": "What tool is mentioned for pressing in the holders during sun roof opening?",
+      "answer": "A screwdriver.",
+      "question_type": "tool",
+      "id": "72-120_equipmen-q07"
+    },
+    {
+      "question": "What is the driving distance specified before retightening the wind deflector screws?",
+      "answer": "Approximately 100 km (60 miles).",
+      "question_type": "factual",
+      "id": "72-120_equipmen-q08"
+    },
+    {
+      "question": "What type of screws are used to secure the wind deflector?",
+      "answer": "Flat head screws.",
+      "question_type": "factual",
+      "id": "72-120_equipmen-q09"
+    },
+    {
+      "question": "How many knurled nuts are required for the wind deflector installation?",
+      "answer": "2 knurled nuts.",
+      "question_type": "factual",
+      "id": "72-120_equipmen-q10"
+    },
+    {
+      "question": "What component is shown in the top illustration of the wind deflector installation?",
+      "answer": "The wind deflector with rubber seal mounted on it, showing where to cut off protruding ends.",
+      "question_type": "visual",
+      "id": "72-120_equipmen-q11"
+    },
+    {
+      "question": "Why is there a note about retightening screws after driving?",
+      "answer": "The screws need to be retightened uniformly after approximately 100 km (60 miles) of driving to ensure proper installation.",
+      "question_type": "safety",
+      "id": "72-120_equipmen-q12"
+    }
+  ]
+}

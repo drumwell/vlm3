@@ -1,0 +1,18 @@
+{
+  "page_id": "-m",
+  "image_path": "raw/m.png",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:08:04.746608",
+    "prompt_template": "unknown/diagram",
+    "tokens_input": 436,
+    "tokens_output": 132
+  },
+  "qa_pairs": []
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "13-804_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-804.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:50:05.100645",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 736
+  },
+  "qa_pairs": [
+    {
+      "question": "What section is this diagnostic procedure from?",
+      "answer": "This is from Section 13 - 804, which covers checking periphery for warm-up speed, specifically the coolant temperature switch.",
+      "question_type": "navigation",
+      "id": "13-804_fuel-sys-q01"
+    },
+    {
+      "question": "What are the first steps to test the coolant temperature switch?",
+      "answer": "Connect voltmeter (M 01) between terminal 2 and terminal 6, then turn on ignition. The voltmeter should display approximately 0 volt with a coolant temperature of \u2264 30\u00b0 C (86\u00b0 F).",
+      "question_type": "procedural",
+      "id": "13-804_fuel-sys-q02"
+    },
+    {
+      "question": "What should the voltmeter reading be when coolant temperature is above 48\u00b0 C (118\u00b0 F)?",
+      "answer": "The voltmeter should display at least 9 volts with a coolant temperature of > 48\u00b0 C (118\u00b0 F).",
+      "question_type": "parameter",
+      "id": "13-804_fuel-sys-q03"
+    },
+    {
+      "question": "What diagnostic tool is specified for checking the white wire connection?",
+      "answer": "Use ohmmeter (M 06) on the \"white wire\" plug connection of temperature sensor and car ground.",
+      "question_type": "tool",
+      "id": "13-804_fuel-sys-q04"
+    },
+    {
+      "question": "What resistance reading indicates a problem with the temperature sensor at low coolant temperature?",
+      "answer": "If the ohmmeter displays at least 100 k-ohms with a coolant temperature of \u2264 30\u00b0 C (86\u00b0 F), there is no connection problem.",
+      "question_type": "parameter",
+      "id": "13-804_fuel-sys-q05"
+    },
+    {
+      "question": "What should you check if the white wire connection test fails?",
+      "answer": "Check the white wire of temperature sensor for breaks, eliminate breaks, check contact pins of temperature sensor for tight fit and good contact, and verify wire and contact pins are okay.",
+      "question_type": "inspection",
+      "id": "13-804_fuel-sys-q06"
+    },
+    {
+      "question": "What is the expected ohmmeter reading at higher coolant temperatures?",
+      "answer": "The ohmmeter should display approximately \"0\" ohm with a coolant temperature of > 48\u00b0 C (118\u00b0 F).",
+      "question_type": "parameter",
+      "id": "13-804_fuel-sys-q07"
+    },
+    {
+      "question": "What is the corrective action if the temperature sensor fails testing?",
+      "answer": "Replace temperature sensor and check code number.",
+      "question_type": "procedural",
+      "id": "13-804_fuel-sys-q08"
+    },
+    {
+      "question": "What reference is provided for additional information?",
+      "answer": "See Specifications (indicated by asterisk at bottom of page).",
+      "question_type": "navigation",
+      "id": "13-804_fuel-sys-q09"
+    },
+    {
+      "question": "What are the two main temperature thresholds used in this diagnostic procedure?",
+      "answer": "The procedure uses \u2264 30\u00b0 C (86\u00b0 F) for cold coolant temperature and > 48\u00b0 C (118\u00b0 F) for warm coolant temperature testing.",
+      "question_type": "parameter",
+      "id": "13-804_fuel-sys-q10"
+    }
+  ]
+}

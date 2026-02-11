@@ -1,0 +1,91 @@
+{
+  "page_id": "62-86_instrume",
+  "image_path": "raw/62 - Instruments/62-86.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:49:40.184054",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 866
+  },
+  "qa_pairs": [
+    {
+      "question": "What voltage battery should be used when connecting the simulator for testing instruments?",
+      "answer": "A 12 V battery should be used, with the red terminal connected to B+ and the black terminal connected to B-.",
+      "question_type": "factual",
+      "id": "62-86_instrume-q01"
+    },
+    {
+      "question": "What is the minimum battery voltage required for the simulator to be ready for use?",
+      "answer": "The battery voltage must be above 11.5 V. Below this voltage, the red control lamp will not come on and the simulator is not ready for use.",
+      "question_type": "factual",
+      "id": "62-86_instrume-q02"
+    },
+    {
+      "question": "How do you connect the simulator for '3' series cars?",
+      "answer": "Connect plug (1) and '3' series wire harness on adapter for instruments, then connect lead (1) and power supply lead (2) on simulator.",
+      "question_type": "procedural",
+      "id": "62-86_instrume-q03"
+    },
+    {
+      "question": "Where should you reference the procedure for disassembling the instrument carrier?",
+      "answer": "See Group 62 for the disassembly procedure for the instrument carrier.",
+      "question_type": "navigation",
+      "id": "62-86_instrume-q04"
+    },
+    {
+      "question": "What components are shown for checking the speedometer on '3' series cars?",
+      "answer": "The speedometer is connected on adapter (1) and should be checked as described in section 1.2.1.",
+      "question_type": "visual",
+      "id": "62-86_instrume-q05"
+    },
+    {
+      "question": "What terminals should the red and black leads be connected to on the simulator?",
+      "answer": "Connect the red terminal (3) to B+ and the black terminal (4) to B- of a 12 V battery.",
+      "question_type": "procedural",
+      "id": "62-86_instrume-q06"
+    },
+    {
+      "question": "How do you activate the simulator after making the connections?",
+      "answer": "Turn on the simulator with switch (1).",
+      "question_type": "procedural",
+      "id": "62-86_instrume-q07"
+    },
+    {
+      "question": "What instrument types can be tested for '5', '6' and '7' series cars according to the tachometer section?",
+      "answer": "Tachometer, with or without EC, or clock with EC can be connected on adapter (1) for testing.",
+      "question_type": "factual",
+      "id": "62-86_instrume-q08"
+    },
+    {
+      "question": "What special note is mentioned for '3' series cars regarding the tachometer and economy control?",
+      "answer": "There is a connector coding plug note specifically for '3' series cars when testing tachometer and economy control.",
+      "question_type": "factual",
+      "id": "62-86_instrume-q09"
+    },
+    {
+      "question": "Which BMW series use the same testing procedure for the tachometer and economy control?",
+      "answer": "'5', '6' and '7' series cars use the same testing procedure, which should be checked as described in sections 1.2.2 or 1.2.3.",
+      "question_type": "factual",
+      "id": "62-86_instrume-q10"
+    },
+    {
+      "question": "What callout number identifies the switch used to turn on the simulator?",
+      "answer": "Callout number (1) identifies the switch used to turn on the simulator.",
+      "question_type": "visual",
+      "id": "62-86_instrume-q11"
+    },
+    {
+      "question": "What happens if you try to use the simulator with insufficient battery voltage?",
+      "answer": "The red control lamp will not come on and the simulator is not ready for use if the battery voltage is below 11.5 V.",
+      "question_type": "troubleshooting",
+      "id": "62-86_instrume-q12"
+    }
+  ]
+}

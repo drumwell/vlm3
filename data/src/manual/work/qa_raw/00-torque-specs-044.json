@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-044",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/044.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:24:32.023124",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 697
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for exhaust manifold to cylinder head screws on all engine types?",
+      "answer": "10 Nm using M6 screws with Molykote HSC compound coat on screw connections.",
+      "question_type": "factual",
+      "id": "00-torque-specs-044-q01"
+    },
+    {
+      "question": "What torque should be applied to M50/M52/S52/S50 US engine exhaust manifold connections?",
+      "answer": "20 Nm using M7 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-044-q02"
+    },
+    {
+      "question": "How much torque is required for exhaust manifold connections on all engines other than M50/M52/S52/S50 US?",
+      "answer": "15 Nm using M7 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-044-q03"
+    },
+    {
+      "question": "What is the torque specification for the upper row of staybolts installed with bolt cement?",
+      "answer": "22 Nm using M8 screws on all engine types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-044-q04"
+    },
+    {
+      "question": "What torque should be applied when retorquing after 2000 km on M21 engines?",
+      "answer": "12 Nm using M8 screws, and the bolt should be loosened first.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-044-q05"
+    },
+    {
+      "question": "Which screw size is used for exhaust manifold to cylinder head connections on all engines?",
+      "answer": "M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-044-q06"
+    },
+    {
+      "question": "What special compound should be applied to exhaust manifold screw connections?",
+      "answer": "Molykote HSC compound coat.",
+      "question_type": "factual",
+      "id": "00-torque-specs-044-q07"
+    },
+    {
+      "question": "What is the difference in torque specifications between M50/M52/S52/S50 US engines and all other engines for exhaust manifold connections?",
+      "answer": "M50/M52/S52/S50 US engines require 20 Nm, while all other engines require 15 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-044-q08"
+    },
+    {
+      "question": "Which engine type requires retorquing after 2000 km?",
+      "answer": "M21 engines require retorquing after 2000 km.",
+      "question_type": "factual",
+      "id": "00-torque-specs-044-q09"
+    },
+    {
+      "question": "What procedure must be followed before retorquing M21 engine bolts after 2000 km?",
+      "answer": "The bolt must be loosened first before applying the 12 Nm torque specification.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-044-q10"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "51-260_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-260.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:17:35.895360",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 739
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be removed first when replacing the front door lock drive switch?",
+      "answer": "Remove door trim panel (see 51 41 001) and pull off plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-260_body-equ-q02"
+    },
+    {
+      "question": "How much torque should be applied when tightening the screw in step 4 of the installation?",
+      "answer": "2 Ncm (1.7 in. lbs.)",
+      "question_type": "factual",
+      "id": "51-260_body-equ-q03"
+    },
+    {
+      "question": "What are the three steps to remove the door lock drive switch?",
+      "answer": "Unscrew screws, pull off plug, and disengage drive.",
+      "question_type": "procedural",
+      "id": "51-260_body-equ-q04"
+    },
+    {
+      "question": "What color coding is used for the driver's door in the upper and lower sections?",
+      "answer": "Upper section is white and lower section is red.",
+      "question_type": "factual",
+      "id": "51-260_body-equ-q05"
+    },
+    {
+      "question": "In a two-door car arrangement, what does callout number 3 indicate?",
+      "answer": "Door remote control linkage",
+      "question_type": "visual",
+      "id": "51-260_body-equ-q06"
+    },
+    {
+      "question": "What position should the lock be in during installation step 1?",
+      "answer": "Lock in LOCKED position.",
+      "question_type": "procedural",
+      "id": "51-260_body-equ-q07"
+    },
+    {
+      "question": "What color coding is used for rear doors in both upper and lower sections?",
+      "answer": "Upper section is red and lower section is white.",
+      "question_type": "factual",
+      "id": "51-260_body-equ-q08"
+    },
+    {
+      "question": "In a four-door car arrangement, what components are numbered 1 through 4?",
+      "answer": "1 = Lock, 2 = Locking linkage, 3 = Door remote control linkage, 4 = Drive/connecting link",
+      "question_type": "visual",
+      "id": "51-260_body-equ-q09"
+    },
+    {
+      "question": "Where can troubleshooting information for control locks be found?",
+      "answer": "See page 51 - 800.",
+      "question_type": "navigation",
+      "id": "51-260_body-equ-q10"
+    },
+    {
+      "question": "What should be done with the drive in step 3 after engaging it in the connecting link?",
+      "answer": "Hold it in the installed position with a screw (screw is not tightened).",
+      "question_type": "procedural",
+      "id": "51-260_body-equ-q11"
+    },
+    {
+      "question": "Which direction does the upper section face in 2-door cars versus 4-door cars?",
+      "answer": "Upper section faces forward in 2-door cars or toward rear in 4-door cars.",
+      "question_type": "factual",
+      "id": "51-260_body-equ-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "13-630_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-630.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:42:50.695381",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 840
+  },
+  "qa_pairs": [
+    {
+      "question": "What resistance should be measured between connections 2 and 18 when the throttle is closed?",
+      "answer": "There should be approximately 0 ohm between connections 2 and 18 with the throttle closed.",
+      "question_type": "factual",
+      "id": "13-630_fuel-sys-q01"
+    },
+    {
+      "question": "What resistance reading indicates the throttle switch is in the wide open position?",
+      "answer": "With the throttle wide open there should be approximately 0 ohm between connections 3 and 18.",
+      "question_type": "factual",
+      "id": "13-630_fuel-sys-q02"
+    },
+    {
+      "question": "What do the abbreviations LL and VL stand for in the throttle switch testing?",
+      "answer": "LL stands for Idle and VL stands for Full load.",
+      "question_type": "factual",
+      "id": "13-630_fuel-sys-q03"
+    },
+    {
+      "question": "How do you adjust the throttle switch according to the procedure shown?",
+      "answer": "Adjust by loosening screws (1) and turning the throttle switch. There should be approximately 0 ohm between connections 2 and 18 with the throttle closed.",
+      "question_type": "procedural",
+      "id": "13-630_fuel-sys-q04"
+    },
+    {
+      "question": "What should happen to the resistance when you open the throttle after finishing the adjustment?",
+      "answer": "Open throttle after finishing adjustment - resistance should rise immediately to infinity ohms.",
+      "question_type": "procedural",
+      "id": "13-630_fuel-sys-q05"
+    },
+    {
+      "question": "What resistance value should you see when releasing the throttle back to idle after adjustment?",
+      "answer": "When releasing the throttle the resistance should drop back to approximately 0 ohm.",
+      "question_type": "factual",
+      "id": "13-630_fuel-sys-q06"
+    },
+    {
+      "question": "What component is identified by part number 13 63 544?",
+      "answer": "Part number 13 63 544 identifies the throttle switch that is being adjusted.",
+      "question_type": "factual",
+      "id": "13-630_fuel-sys-q07"
+    },
+    {
+      "question": "What component callout number 1 indicates in the adjustment photograph?",
+      "answer": "Callout number 1 indicates the screws that need to be loosened to adjust the throttle switch.",
+      "question_type": "visual",
+      "id": "13-630_fuel-sys-q08"
+    },
+    {
+      "question": "What is the part number shown at the bottom of the throttle switch component diagram?",
+      "answer": "The part number shown at the bottom of the throttle switch component diagram is 30 13 631.",
+      "question_type": "visual",
+      "id": "13-630_fuel-sys-q09"
+    },
+    {
+      "question": "What connections are used to check the full load position of the throttle switch?",
+      "answer": "Connections 3 and 18 are used to check the full load (VL) position of the throttle switch.",
+      "question_type": "factual",
+      "id": "13-630_fuel-sys-q10"
+    },
+    {
+      "question": "What is the expected resistance reading that indicates infinite ohms during throttle switch testing?",
+      "answer": "Infinity ohms (\u221e ohms) is the expected resistance reading when the throttle is opened after adjustment, indicating the switch has properly transitioned.",
+      "question_type": "factual",
+      "id": "13-630_fuel-sys-q11"
+    },
+    {
+      "question": "What photo reference number is shown for the throttle switch adjustment procedure?",
+      "answer": "Photo reference number 30 13 440 is shown for the throttle switch adjustment procedure.",
+      "question_type": "visual",
+      "id": "13-630_fuel-sys-q12"
+    }
+  ]
+}

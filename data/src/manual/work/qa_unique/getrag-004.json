@@ -1,0 +1,73 @@
+{
+  "page_id": "getrag-004",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/004.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:42:19.425771",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1945,
+    "tokens_output": 613
+  },
+  "qa_pairs": [
+    {
+      "question": "What important step should be done before removing seals from the transmission?",
+      "answer": "The trick is to photograph everything and measure where the seals sit before they are removed, especially the input shaft seal.",
+      "question_type": "procedural",
+      "id": "getrag-004-q01"
+    },
+    {
+      "question": "What measurement tool is being used to measure the seal position?",
+      "answer": "A Mitutoyo digital caliper (ABSOLUTE model) is being used to measure the seal position.",
+      "question_type": "tool",
+      "id": "getrag-004-q02"
+    },
+    {
+      "question": "What is the measurement reading shown on the digital caliper display?",
+      "answer": "The digital caliper display shows 1.14 mm.",
+      "question_type": "factual",
+      "id": "getrag-004-q03"
+    },
+    {
+      "question": "Which seal is specifically mentioned as being important to measure before removal?",
+      "answer": "The input shaft seal is specifically mentioned as being important to measure before removal.",
+      "question_type": "factual",
+      "id": "getrag-004-q04"
+    },
+    {
+      "question": "What brand of measuring calipers is shown in the image?",
+      "answer": "Mitutoyo brand digital calipers are shown in the image.",
+      "question_type": "factual",
+      "id": "getrag-004-q05"
+    },
+    {
+      "question": "Why is it important to measure seal positions before removal?",
+      "answer": "It's important to measure seal positions before removal to know exactly where to position the new seals during reassembly.",
+      "question_type": "procedural",
+      "id": "getrag-004-q06"
+    },
+    {
+      "question": "What should be documented along with measurements before seal removal?",
+      "answer": "Everything should be photographed along with taking measurements before seal removal.",
+      "question_type": "procedural",
+      "id": "getrag-004-q07"
+    },
+    {
+      "question": "What component is being measured in the lower image?",
+      "answer": "The input shaft seal bore or housing is being measured in the lower image.",
+      "question_type": "visual",
+      "id": "getrag-004-q08"
+    },
+    {
+      "question": "What is the recommended approach for documenting seal positions during transmission disassembly?",
+      "answer": "The recommended approach is to photograph everything and measure where the seals sit before they are removed.",
+      "question_type": "procedural",
+      "id": "getrag-004-q10"
+    }
+  ]
+}

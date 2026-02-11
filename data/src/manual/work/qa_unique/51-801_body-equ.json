@@ -1,0 +1,79 @@
+{
+  "page_id": "51-801_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-801.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:33:57.916259",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 627
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum battery voltage required for troubleshooting central locks?",
+      "answer": "Battery charged, at least 11 V.",
+      "question_type": "factual",
+      "id": "51-801_body-equ-q01"
+    },
+    {
+      "question": "What should I check if the battery voltage is okay but fuse no. 27 is not okay?",
+      "answer": "Check other connected electrical equipment: On-board computer, burglar alarm, door lock heating.",
+      "question_type": "diagnostic",
+      "id": "51-801_body-equ-q02"
+    },
+    {
+      "question": "What test equipment can be used for central lock troubleshooting?",
+      "answer": "Tests made with BMW service tester or digital tester II.",
+      "question_type": "tool",
+      "id": "51-801_body-equ-q03"
+    },
+    {
+      "question": "What is the symptom described for failure of the entire central locking system?",
+      "answer": "Locking is not possible from the driver's door, passenger's door or trunk lid with the central locking system unlocked.",
+      "question_type": "factual",
+      "id": "51-801_body-equ-q04"
+    },
+    {
+      "question": "Where should plug connections be tested during central lock diagnosis?",
+      "answer": "Tests on plug connections should be made on both sides of plug.",
+      "question_type": "procedural",
+      "id": "51-801_body-equ-q05"
+    },
+    {
+      "question": "What should be checked regarding the control unit/impact switch installation?",
+      "answer": "Check installed position (see print) of control unit/impact switch.",
+      "question_type": "inspection",
+      "id": "51-801_body-equ-q06"
+    },
+    {
+      "question": "What voltage should be present at pin 3 (red/black) of the control unit?",
+      "answer": "With connected plug U > 11 V.",
+      "question_type": "diagnostic",
+      "id": "51-801_body-equ-q07"
+    },
+    {
+      "question": "What should I check at socket 15 (red/black) of the driver's door/body plug?",
+      "answer": "Is there voltage in socket 15 (red/black) of driver's door/body plug? U > 11 V.",
+      "question_type": "diagnostic",
+      "id": "51-801_body-equ-q08"
+    },
+    {
+      "question": "What is the repair action if there is voltage at socket 15 but no voltage at pin 3 of the control unit?",
+      "answer": "Repair wire harness.",
+      "question_type": "procedural",
+      "id": "51-801_body-equ-q09"
+    },
+    {
+      "question": "What condition should the locks and lock cylinders be in for proper testing?",
+      "answer": "Locks and lock cylinders in perfect mechanical condition.",
+      "question_type": "inspection",
+      "id": "51-801_body-equ-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "12-10_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-10.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:26:43.944453",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 730
+  },
+  "qa_pairs": [
+    {
+      "question": "What temperature should the coolant temperature switch be checked at?",
+      "answer": "The coolant temperature switch should be checked at a temperature below 45\u00b0C (113\u00b0F).",
+      "question_type": "procedural",
+      "id": "12-10_engine-e-q01"
+    },
+    {
+      "question": "What should you do with the idle control unit plug when checking the coolant temperature switch?",
+      "answer": "Pull off the plug on the idle control unit located in the glove box above the L-Jetronic control unit.",
+      "question_type": "procedural",
+      "id": "12-10_engine-e-q02"
+    },
+    {
+      "question": "What vacuum advance control simulator part number should be connected for troubleshooting?",
+      "answer": "Connect vacuum advance control simulator 12 1 460.",
+      "question_type": "tool",
+      "id": "12-10_engine-e-q03"
+    },
+    {
+      "question": "What does it mean if the 'tp' lamp is not flashing during vacuum advance control troubleshooting?",
+      "answer": "If the 'tp' lamp is not flashing, it indicates no tp signal, no power supply for the simulator, L-Jetronic control unit connections or wire harness defective, or the engine is not running correctly or at all.",
+      "question_type": "diagnostic",
+      "id": "12-10_engine-e-q04"
+    },
+    {
+      "question": "What are the possible causes if the 'MV' lamp is not on during vacuum advance control testing?",
+      "answer": "If the 'MV' lamp is not on, the causes are no power supply for the simulator, wire harness to simulator defective, or vacuum advance control relay defective.",
+      "question_type": "troubleshooting",
+      "id": "12-10_engine-e-q05"
+    },
+    {
+      "question": "What should you check if there is no advance control during testing?",
+      "answer": "If there is no advance control, check for vacuum advance control relay defective, connections or wire harness for solenoid defective.",
+      "question_type": "diagnostic",
+      "id": "12-10_engine-e-q06"
+    },
+    {
+      "question": "What are the possible causes if ignition timing is not reached when vacuum is supplied to the advance control box?",
+      "answer": "The possible causes are solenoid defective, vacuum hose leaks, or distributor defective.",
+      "question_type": "troubleshooting",
+      "id": "12-10_engine-e-q07"
+    },
+    {
+      "question": "What should be done with the switches when checking the intake air temperature switch resistance?",
+      "answer": "The switches should be connected during the check with control simulator.",
+      "question_type": "procedural",
+      "id": "12-10_engine-e-q08"
+    },
+    {
+      "question": "At what engine speed should the vacuum advance control system troubleshooting be performed?",
+      "answer": "Run the engine at idle speed when troubleshooting the vacuum advance control system.",
+      "question_type": "procedural",
+      "id": "12-10_engine-e-q09"
+    },
+    {
+      "question": "What type of check should be performed on both the coolant temperature switch and intake air temperature switch?",
+      "answer": "Check resistance on both the coolant temperature switch and intake air temperature switch.",
+      "question_type": "diagnostic",
+      "id": "12-10_engine-e-q10"
+    }
+  ]
+}

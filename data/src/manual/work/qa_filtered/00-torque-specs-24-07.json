@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-24-07",
+  "image_path": "raw/00 - Torque Specs/24-07.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:00:59.255299",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 611
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the brake coupling D/G center bolt on the gear box housing?",
+      "answer": "30 Nm for the center bolt.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-07-q01"
+    },
+    {
+      "question": "What torque should be applied to both outer screws on the brake coupling D/G?",
+      "answer": "15 Nm for both outer screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-07-q02"
+    },
+    {
+      "question": "What screw size is used for the brake coupling D/G on gear box housing?",
+      "answer": "M10 screws are used.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-07-q03"
+    },
+    {
+      "question": "Which transmission types does this brake coupling specification apply to?",
+      "answer": "A5S 310Z/A5S 560Z transmission types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-07-q04"
+    },
+    {
+      "question": "What is the highest torque value specified for the brake coupling assembly?",
+      "answer": "63 Nm is the highest torque value specified.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-07-q05"
+    },
+    {
+      "question": "How many different torque values are specified for the brake coupling screws?",
+      "answer": "Three different torque values: 15 Nm, 30 Nm, and 63 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-07-q06"
+    },
+    {
+      "question": "What is the procedure for inserting screws on the brake coupling?",
+      "answer": "Insert all screws until contact is made with screw head in each case center bolt.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-24-07-q07"
+    },
+    {
+      "question": "What section and subsection number covers this planetary gear drive information?",
+      "answer": "Section 24-7 Automatic Transmission, subsection 24 22 Planetary gear drive.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-24-07-q08"
+    },
+    {
+      "question": "What is the reference code for this brake coupling specification?",
+      "answer": "The reference code is 1AZ.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-07-q09"
+    },
+    {
+      "question": "Are there multiple entries with the same torque specification for outer screws?",
+      "answer": "Yes, there are multiple entries showing both outer screws with 30 Nm and 63 Nm specifications.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-07-q10"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "34-26_brakes",
+  "image_path": "raw/34 - Brakes/34-26.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:19:41.930432",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1741,
+    "tokens_output": 501
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the main components of the ABS system?",
+      "answer": "The ABS consists of a control unit, hydraulic unit, speed sensors and a wire harness.",
+      "question_type": "factual",
+      "id": "34-26_brakes-q01"
+    },
+    {
+      "question": "Where is the electronic control unit located?",
+      "answer": "The electronic control unit is located in the passenger compartment below the instrument panel on the left-hand side.",
+      "question_type": "component",
+      "id": "34-26_brakes-q02"
+    },
+    {
+      "question": "How do the speed sensors work to detect wheel movement?",
+      "answer": "Each speed sensor has a gear wheel, which runs past the permanently magnetized edge of the speed sensor and is installed in the wheel hub. The rotary motion of the wheels is recorded by inductive sensors and an electric signal is sent to the electronic control unit.",
+      "question_type": "operation",
+      "id": "34-26_brakes-q03"
+    },
+    {
+      "question": "Where is the hydraulic unit located and what is its purpose?",
+      "answer": "The hydraulic unit is located in the engine compartment and was added to the conventional brake system. To control the brake pressure in the wheel brake cylinders, the brake hydraulic unit has the three-way valves which permit three brake pressure conditions.",
+      "question_type": "component",
+      "id": "34-26_brakes-q04"
+    },
+    {
+      "question": "What are the three brake pressure phases that the hydraulic unit controls?",
+      "answer": "Pressure build-up, pressure holding and pressure drop. These three pressure phases adapt themselves in the sequences and length to the requirements of the desired control characteristic and power flow between the road surface and tyre.",
+      "question_type": "operation",
+      "id": "34-26_brakes-q05"
+    },
+    {
+      "question": "What happens when the ABS control unit detects a defect in the wire harness or electrical part?",
+      "answer": "If the control unit detects a defect in the wire harness or electrical part of the equipment, the monitoring circuit will switch off the ABS and guarantees normal use of the brake system. An ABS indicator lamp reports this condition to the driver.",
+      "question_type": "diagnostic",
+      "id": "34-26_brakes-q06"
+    }
+  ]
+}

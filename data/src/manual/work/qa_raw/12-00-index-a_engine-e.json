@@ -1,0 +1,55 @@
+{
+  "page_id": "12-00-index-a_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-00-index-a.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:19:44.651923",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 382
+  },
+  "qa_pairs": [
+    {
+      "question": "What chapter number covers Engine Electrical Equipment?",
+      "answer": "Chapter 12 covers Engine Electrical Equipment.",
+      "question_type": "factual",
+      "id": "12-00-index-a_engine-e-q01"
+    },
+    {
+      "question": "On which page can I find information about TCI troubleshooting?",
+      "answer": "TCI troubleshooting information can be found on page 12-20.",
+      "question_type": "navigation",
+      "id": "12-00-index-a_engine-e-q02"
+    },
+    {
+      "question": "What is the procedure code for ignition timing adjustment?",
+      "answer": "The procedure code for ignition timing adjustment is 12 11 005.",
+      "question_type": "factual",
+      "id": "12-00-index-a_engine-e-q03"
+    },
+    {
+      "question": "Where can I find instructions for replacing the voltage regulator?",
+      "answer": "Instructions for voltage regulator replacement can be found on page 12-46, under procedure code 12 32 000.",
+      "question_type": "navigation",
+      "id": "12-00-index-a_engine-e-q04"
+    },
+    {
+      "question": "What page covers the procedure for checking the pulse transmitter in the distributor?",
+      "answer": "The procedure for checking the pulse transmitter in the distributor is covered on page 12-3, under code 150.",
+      "question_type": "navigation",
+      "id": "12-00-index-a_engine-e-q05"
+    },
+    {
+      "question": "Which procedure covers alternator belt tightening and what is its code?",
+      "answer": "Alternator belt tightening is covered under procedure code 299 and can be found on page 12-42.",
+      "question_type": "factual",
+      "id": "12-00-index-a_engine-e-q06"
+    }
+  ]
+}

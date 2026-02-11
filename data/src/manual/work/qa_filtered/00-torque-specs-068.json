@@ -1,0 +1,25 @@
+{
+  "page_id": "00-torque-specs-068",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/068.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:28:58.368647",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 524
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw type is used for most carburetor connections?",
+      "answer": "M10/M20/M30",
+      "question_type": "factual",
+      "id": "00-torque-specs-068-q02"
+    }
+  ]
+}

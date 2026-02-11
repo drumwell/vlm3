@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-24-12",
+  "image_path": "raw/00 - Torque Specs/24-12.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:02:06.712843",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 754
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the pressure regulator to valve housing bolts on the automatic transmission?",
+      "answer": "M6 bolts require 5 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-12-q01"
+    },
+    {
+      "question": "What torque should be applied to the solenoid valve to valve housing mounting bolts?",
+      "answer": "M6 bolts require 5 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-12-q02"
+    },
+    {
+      "question": "How much torque is required for the A5S 560Z transmission components on the guide plate/parking lock mechanism?",
+      "answer": "23 Nm torque is required.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-12-q03"
+    },
+    {
+      "question": "What is the torque specification for the A5S 300J transmission with M5 bolts on the pulse sender?",
+      "answer": "M5 bolts require 6 Nm torque for the A5S 300J transmission.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-12-q04"
+    },
+    {
+      "question": "What size and torque specification applies to the cover for servo piston on shift unit?",
+      "answer": "5/16\" bolts require 25 Nm torque for the A4S 270R/A4S 310R transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-12-q05"
+    },
+    {
+      "question": "How many different torque values are specified for the A5S 560Z transmission components?",
+      "answer": "Three different torque values: 6 Nm, 23 Nm, and 6 Nm for different A5S 560Z components.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-12-q07"
+    },
+    {
+      "question": "Which transmission types use 10 Nm torque specifications according to this table?",
+      "answer": "A4S 270R/A4S 310R and A5S 310Z transmissions use 10 Nm torque specifications.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-12-q08"
+    },
+    {
+      "question": "What torque is required for the retaining plate for solenoid valves and pressure regulator on the shift unit?",
+      "answer": "M5 bolts require 5 Nm torque for the A5S 440Z transmission.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-12-q09"
+    },
+    {
+      "question": "What is the lowest torque specification shown on this automatic transmission table?",
+      "answer": "3 Nm is the lowest torque specification, required for A5S 300J M5 bolts.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-12-q10"
+    }
+  ]
+}

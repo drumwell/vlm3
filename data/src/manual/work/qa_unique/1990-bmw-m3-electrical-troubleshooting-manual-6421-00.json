@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6421-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:08:39.915699",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 616
+  },
+  "qa_pairs": [
+    {
+      "question": "What fuse number is used for the power distribution in the A/C air delivery control system?",
+      "answer": "Fuse 29 with a 30 AMP rating is used for the power distribution in the A/C air delivery control system.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-00-q01"
+    },
+    {
+      "question": "What wire color coding is used for the 5 GN/BR wire in this diagram?",
+      "answer": "The 5 GN/BR wire represents a 5mm green/brown wire used in the air conditioning control circuit.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-00-q02"
+    },
+    {
+      "question": "What are the two air flap door motors shown in the system?",
+      "answer": "The system shows RH (right hand) and LH (left hand) fresh/recirculating air flap door motors that control airflow direction.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-00-q03"
+    },
+    {
+      "question": "What relays are shown for the fresh/recirculating air system?",
+      "answer": "The system shows RH FRESH/RECIRCULATING AIR RELAY and LH FRESH/RECIRCULATING AIR RELAY, both with terminals 30, 85, 86, and 87.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-00-q04"
+    },
+    {
+      "question": "What wire gauge is specified for the BR (brown) wire connections?",
+      "answer": "The brown wires are specified as 5 BR, indicating 5mm brown wires.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-00-q05"
+    },
+    {
+      "question": "What important note is given about some vehicles at the bottom of the diagram?",
+      "answer": "The note states 'SOME VEHICLES MAY CONTAIN AN ADDITIONAL SPLICE. (SEE GROUND DISTRIBUTION)' with reference to ground distribution for splice S229.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-00-q06"
+    },
+    {
+      "question": "What does the fresh/recirculating air switch control?",
+      "answer": "The fresh/recirculating air switch controls the selection between fresh outside air and recirculating interior air through the HVAC system.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-00-q07"
+    },
+    {
+      "question": "What section should be referenced for heating and air conditioning blower controls?",
+      "answer": "The diagram references 'SEE HEATING AND AIR CONDITIONING (BLOWER CONTROLS)' for additional blower control information.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6421-00-q08"
+    }
+  ]
+}

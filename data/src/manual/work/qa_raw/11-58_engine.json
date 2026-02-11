@@ -1,0 +1,91 @@
+{
+  "page_id": "11-58_engine",
+  "image_path": "raw/11 - Engine/11-58.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:13:30.887696",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 859
+  },
+  "qa_pairs": [
+    {
+      "question": "What tool is used to lift out the radial oil seal from the timing case cover?",
+      "answer": "A screwdriver is used to lift out the radial oil seal.",
+      "question_type": "tool",
+      "id": "11-58_engine-q01"
+    },
+    {
+      "question": "What special tools are needed to press in the radial oil seal flush?",
+      "answer": "Special Tools 11 1 273 and 11 1 271 are needed to press in the radial oil seal flush.",
+      "question_type": "tool",
+      "id": "11-58_engine-q02"
+    },
+    {
+      "question": "What should be done to the sealing lip of the radial oil seal before installation?",
+      "answer": "The sealing lip of the radial oil seal should be lubricated with oil.",
+      "question_type": "procedural",
+      "id": "11-58_engine-q03"
+    },
+    {
+      "question": "What is the first step when replacing the radial oil seal in the clutch end cover?",
+      "answer": "Remove the flywheel (see 11 22 000) and drain the engine oil.",
+      "question_type": "procedural",
+      "id": "11-58_engine-q04"
+    },
+    {
+      "question": "How should the gasket area of the end cover/oil pan joint be loosened?",
+      "answer": "Loosen the gasket in the area of the end cover/oil pan joint carefully with a knife.",
+      "question_type": "procedural",
+      "id": "11-58_engine-q05"
+    },
+    {
+      "question": "What special tool is mentioned for pressing in the radial oil seal in the clutch end cover?",
+      "answer": "Special Tools 11 1 260 and 00 5 500 are used to press in the radial oil seal.",
+      "question_type": "tool",
+      "id": "11-58_engine-q06"
+    },
+    {
+      "question": "What is the offset measurement range for the new radial oil seal installation?",
+      "answer": "The new radial oil seal should be pressed in with approximately 1 to 2 mm (0.039 to 0.079 inch) offset toward the inside.",
+      "question_type": "factual",
+      "id": "11-58_engine-q07"
+    },
+    {
+      "question": "What sealant should be used on the end cover/oil pan joint?",
+      "answer": "Three Bond Silicone 1207** should be used to coat the end cover/oil pan joint.",
+      "question_type": "factual",
+      "id": "11-58_engine-q08"
+    },
+    {
+      "question": "Which special tool should be used to avoid damaging the radial oil seal during installation?",
+      "answer": "Special Tool 11 2 213 should be used to avoid damaging the radial oil seal.",
+      "question_type": "tool",
+      "id": "11-58_engine-q09"
+    },
+    {
+      "question": "What should be done to the oil pan during the clutch end cover radial oil seal replacement?",
+      "answer": "Loosen the oil pan and remove the oil pan gasket if it was damaged (see 11 13 000).",
+      "question_type": "procedural",
+      "id": "11-58_engine-q10"
+    },
+    {
+      "question": "What procedure number should be referenced for removing the pulley on the crankshaft?",
+      "answer": "See procedure 11 21 120 for removing the pulley on the crankshaft.",
+      "question_type": "navigation",
+      "id": "11-58_engine-q11"
+    },
+    {
+      "question": "What should be done after pressing in the new radial oil seal in the clutch end cover?",
+      "answer": "Lubricate the sealing lip with oil after pressing in the new radial oil seal.",
+      "question_type": "procedural",
+      "id": "11-58_engine-q12"
+    }
+  ]
+}

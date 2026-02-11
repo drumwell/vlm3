@@ -1,0 +1,79 @@
+{
+  "page_id": "12-160_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-160.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:35:59.967058",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 585
+  },
+  "qa_pairs": [
+    {
+      "question": "What terminal number is used for the ground connection in the diagnosis plug?",
+      "answer": "Terminal 31 is used for the ground connection.",
+      "question_type": "factual",
+      "id": "12-160_engine-e-q01"
+    },
+    {
+      "question": "Which terminal designation is used for the temperature gauge signal?",
+      "answer": "Terminal FT is used for the temperature gauge signal.",
+      "question_type": "factual",
+      "id": "12-160_engine-e-q02"
+    },
+    {
+      "question": "What is the function of terminal L in the diagnosis plug connections?",
+      "answer": "Terminal L provides the integrator output for CO adjustments for Engine M 10 B 18, and oxygen sensor signal for Engine M 30 B 34.",
+      "question_type": "factual",
+      "id": "12-160_engine-e-q03"
+    },
+    {
+      "question": "What wire colors are used for the service indicator reset connection?",
+      "answer": "The service indicator reset connection uses white/green wire colors.",
+      "question_type": "wiring",
+      "id": "12-160_engine-e-q04"
+    },
+    {
+      "question": "Which pin number corresponds to the D+ alternator charge indicator in the diagnosis socket?",
+      "answer": "Pin 12 corresponds to the D+ alternator charge indicator.",
+      "question_type": "connector",
+      "id": "12-160_engine-e-q05"
+    },
+    {
+      "question": "What terminal number is used for the starting pulse for starter?",
+      "answer": "Terminal 50 is used for the starting pulse for starter.",
+      "question_type": "factual",
+      "id": "12-160_engine-e-q06"
+    },
+    {
+      "question": "What wire color is used for Terminal 30 in the diagnosis socket connections?",
+      "answer": "Terminal 30 uses red wire color.",
+      "question_type": "wiring",
+      "id": "12-160_engine-e-q07"
+    },
+    {
+      "question": "What is the function of pin 18 in the diagnosis socket?",
+      "answer": "Pin 18 is the PGSF for DME control unit programming.",
+      "question_type": "component",
+      "id": "12-160_engine-e-q08"
+    },
+    {
+      "question": "Which terminal provides the power supply for ignition?",
+      "answer": "Terminal 15 provides the power supply for ignition.",
+      "question_type": "factual",
+      "id": "12-160_engine-e-q09"
+    },
+    {
+      "question": "What wire colors are used for the TXD data lead connection?",
+      "answer": "The TXD data lead connection uses white/violet wire colors.",
+      "question_type": "wiring",
+      "id": "12-160_engine-e-q10"
+    }
+  ]
+}

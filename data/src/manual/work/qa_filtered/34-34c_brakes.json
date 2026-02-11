@@ -1,0 +1,73 @@
+{
+  "page_id": "34-34c_brakes",
+  "image_path": "raw/34 - Brakes/34-34c.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:23:22.149745",
+    "prompt_template": "service_manual/wiring",
+    "tokens_input": 1742,
+    "tokens_output": 570
+  },
+  "qa_pairs": [
+    {
+      "question": "What ABS system is shown in this wiring diagram?",
+      "answer": "ABS system 325 iX",
+      "question_type": "factual",
+      "id": "34-34c_brakes-q01"
+    },
+    {
+      "question": "When was the ABS system 325 iX introduced?",
+      "answer": "Introduced gradually since 8/87",
+      "question_type": "factual",
+      "id": "34-34c_brakes-q02"
+    },
+    {
+      "question": "What component is identified as number 360 in the wiring diagram?",
+      "answer": "Electronic control unit",
+      "question_type": "component",
+      "id": "34-34c_brakes-q04"
+    },
+    {
+      "question": "What does component 361 represent in this ABS system?",
+      "answer": "Hydraulic control unit",
+      "question_type": "component",
+      "id": "34-34c_brakes-q05"
+    },
+    {
+      "question": "What are the signal sender components numbered 362, 364, 366, and 368?",
+      "answer": "362 is signal sender front left, 364 is signal sender front right, 366 is signal sender rear left, and 368 is signal sender rear right",
+      "question_type": "component",
+      "id": "34-34c_brakes-q06"
+    },
+    {
+      "question": "What special note is mentioned regarding the diode in valve relay for 1988 models?",
+      "answer": "Diode in valve relay - 1988 models",
+      "question_type": "factual",
+      "id": "34-34c_brakes-q07"
+    },
+    {
+      "question": "What does KL61 represent in the diagram legend?",
+      "answer": "Term. 61 (charge ind.)",
+      "question_type": "wiring",
+      "id": "34-34c_brakes-q08"
+    },
+    {
+      "question": "What component is labeled as 375 in the acceleration system?",
+      "answer": "Acceleration sender",
+      "question_type": "component",
+      "id": "34-34c_brakes-q09"
+    },
+    {
+      "question": "What are the valve components d, e, and f in the hydraulic control unit?",
+      "answer": "d is Valve - front left, e is Valve - front right, and f is Valve - rear left",
+      "question_type": "component",
+      "id": "34-34c_brakes-q10"
+    }
+  ]
+}

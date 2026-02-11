@@ -1,0 +1,91 @@
+{
+  "page_id": "13-701_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-701.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:45:15.324754",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 868
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum engine oil temperature required before adjusting idle speed and CO level?",
+      "answer": "The engine oil temperature must be at least 60\u00b0 C (140\u00b0 F).",
+      "question_type": "factual",
+      "id": "13-701_fuel-sys-q01"
+    },
+    {
+      "question": "What special tool is needed to remove the cap and correct the CO value to zero?",
+      "answer": "Special Tool 13 1 011 is needed to remove the cap, and Special Tool 13 1 100 is used to correct the CO value to zero by adjusting the screw on the air flow sensor.",
+      "question_type": "tool",
+      "id": "13-701_fuel-sys-q02"
+    },
+    {
+      "question": "What should the CO value be corrected to during the oxygen sensor function check?",
+      "answer": "The CO value should be corrected to 0.5 to 1.0% by volume using Special Tool 13 1 100 applied on the adjusting screw on the air flow sensor, with the screw turned clockwise.",
+      "question_type": "procedural",
+      "id": "13-701_fuel-sys-q03"
+    },
+    {
+      "question": "Where should the CO tester be mounted during this procedure?",
+      "answer": "The CO tester should be mounted in the tailpipe.",
+      "question_type": "procedural",
+      "id": "13-701_fuel-sys-q04"
+    },
+    {
+      "question": "What must be disconnected to prevent CO level measurement in the tailpipe?",
+      "answer": "The oxygen sensor plug must be disconnected, as the idle speed CO level cannot be measured in the tailpipe when it's connected.",
+      "question_type": "procedural",
+      "id": "13-701_fuel-sys-q05"
+    },
+    {
+      "question": "What special tool should be inserted into the throttle valve switch wire plug?",
+      "answer": "Special Tool 13 4 010 should be inserted in the wire plug after pulling off the plug on the throttle valve switch.",
+      "question_type": "tool",
+      "id": "13-701_fuel-sys-q06"
+    },
+    {
+      "question": "What engine conditions are required before making any adjustments?",
+      "answer": "The engine must be at operating temperature, engine and ignition in good operating condition, valve clearance correct, and the BMW Service Tester must be connected to operating instructions with the altitude correction box connected.",
+      "question_type": "procedural",
+      "id": "13-701_fuel-sys-q07"
+    },
+    {
+      "question": "What should be done with exhaust extraction during the test?",
+      "answer": "The exhaust extraction should be switched off for the time of the test.",
+      "question_type": "safety",
+      "id": "13-701_fuel-sys-q08"
+    },
+    {
+      "question": "What happens to the CO level after disconnecting the oxygen sensor plug during the function check?",
+      "answer": "The CO level must go back to 0 (zero) after disconnecting the oxygen sensor plug, and then be corrected to 0 (zero) again with the adjusting screw as close as possible to the original value.",
+      "question_type": "diagnostic",
+      "id": "13-701_fuel-sys-q09"
+    },
+    {
+      "question": "What is the first step in checking and adjusting engine idle speed?",
+      "answer": "Check engine idle speed, then adjust engine idle speed with screw (1).",
+      "question_type": "procedural",
+      "id": "13-701_fuel-sys-q10"
+    },
+    {
+      "question": "What reference number is shown for the oxygen sensor function checking procedure?",
+      "answer": "The oxygen sensor function checking procedure is referenced as 11 78 010.",
+      "question_type": "navigation",
+      "id": "13-701_fuel-sys-q11"
+    },
+    {
+      "question": "What should you refer to for synchronization information?",
+      "answer": "You should refer to the next page for synchronization information.",
+      "question_type": "navigation",
+      "id": "13-701_fuel-sys-q12"
+    }
+  ]
+}

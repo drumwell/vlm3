@@ -1,0 +1,91 @@
+{
+  "page_id": "41-121_body",
+  "image_path": "raw/41 - Body/41-121.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:47:27.877914",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 745
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the cross member on the trunk floor plate?",
+      "answer": "The procedure number is 41 12 545.",
+      "question_type": "factual",
+      "id": "41-121_body-q01"
+    },
+    {
+      "question": "Where should you refer for additional information before cutting the cross member?",
+      "answer": "Refer to information on page 41-001 before cutting off the cross member along the line.",
+      "question_type": "navigation",
+      "id": "41-121_body-q02"
+    },
+    {
+      "question": "What surface preparation is required after removing the scrap metal?",
+      "answer": "Remove scrap metal, then straighten, grind and coat mating surfaces with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-121_body-q03"
+    },
+    {
+      "question": "What coating should be applied to the mating surfaces of the new cross member?",
+      "answer": "Grind mating surfaces on the new cross member and coat with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-121_body-q04"
+    },
+    {
+      "question": "How should the cross member be aligned during installation?",
+      "answer": "Align cross member in height, toward front and rear, according to seams in side members.",
+      "question_type": "procedural",
+      "id": "41-121_body-q05"
+    },
+    {
+      "question": "What welding method is specified for attaching the cross member?",
+      "answer": "Spot weld cross member on left and right sides.",
+      "question_type": "procedural",
+      "id": "41-121_body-q06"
+    },
+    {
+      "question": "What tool is used to install the cross member according to the procedure?",
+      "answer": "Install cross member with straightening bench attachment and clamp.",
+      "question_type": "tool",
+      "id": "41-121_body-q07"
+    },
+    {
+      "question": "What image number shows the removal of scrap metal?",
+      "answer": "Image 30 41 272 shows the removal of scrap metal.",
+      "question_type": "visual",
+      "id": "41-121_body-q08"
+    },
+    {
+      "question": "Which image demonstrates grinding the mating surfaces on the new cross member?",
+      "answer": "Image 30 41 273 shows grinding mating surfaces on the new cross member and coating with zinc dust paint.",
+      "question_type": "visual",
+      "id": "41-121_body-q09"
+    },
+    {
+      "question": "What does image 30 41 276 illustrate?",
+      "answer": "Image 30 41 276 shows aligning the cross member in height, toward front and rear, according to seams in side members.",
+      "question_type": "visual",
+      "id": "41-121_body-q10"
+    },
+    {
+      "question": "Which image shows the spot welding process?",
+      "answer": "Image 30 41 277 demonstrates spot welding the cross member on left and right sides.",
+      "question_type": "visual",
+      "id": "41-121_body-q11"
+    },
+    {
+      "question": "What does image 30 41 275 show regarding the installation process?",
+      "answer": "Image 30 41 275 shows installing the cross member with straightening bench attachment and clamp.",
+      "question_type": "visual",
+      "id": "41-121_body-q12"
+    }
+  ]
+}

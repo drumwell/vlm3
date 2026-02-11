@@ -1,0 +1,91 @@
+{
+  "page_id": "25-11_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-11.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:50:21.810005",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 752
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure section number for replacing the shift rod joint?",
+      "answer": "The procedure is section 25 11 111 for replacing shift rod joint on all wheel drive vehicles.",
+      "question_type": "factual",
+      "id": "25-11_gear-shi-q01"
+    },
+    {
+      "question": "What are the three main steps for removing the shift rod?",
+      "answer": "Lift out retainer (1), take off washer (2), and pull out shift rod (3).",
+      "question_type": "procedural",
+      "id": "25-11_gear-shi-q02"
+    },
+    {
+      "question": "What should be checked during installation of the shift rod joint?",
+      "answer": "Check rubber rings (3), replacing if necessary, and lubricate bearing surfaces with Molykote Longterm 2.",
+      "question_type": "inspection",
+      "id": "25-11_gear-shi-q03"
+    },
+    {
+      "question": "What lubricant is specified for the bearing surfaces?",
+      "answer": "Molykote Longterm 2 is specified for lubricating the bearing surfaces.",
+      "question_type": "tool",
+      "id": "25-11_gear-shi-q04"
+    },
+    {
+      "question": "What must be done with the locking sleeve before removing the shift rod?",
+      "answer": "Push back locking sleeve before proceeding with the shift rod removal.",
+      "question_type": "procedural",
+      "id": "25-11_gear-shi-q05"
+    },
+    {
+      "question": "How do you remove the shift rod with joint?",
+      "answer": "Drive out pin, then remove shift rod with joint.",
+      "question_type": "procedural",
+      "id": "25-11_gear-shi-q06"
+    },
+    {
+      "question": "What callout numbers are shown in the main shift rod diagram?",
+      "answer": "The main diagram shows callout numbers 1, 2, and 3 indicating the retainer, washer, and shift rod respectively.",
+      "question_type": "visual",
+      "id": "25-11_gear-shi-q07"
+    },
+    {
+      "question": "What important note is given about the bearing sleeve orientation?",
+      "answer": "The bearing sleeve is offset to the right as seen looking forward in car.",
+      "question_type": "factual",
+      "id": "25-11_gear-shi-q08"
+    },
+    {
+      "question": "What should be checked in the joint during installation?",
+      "answer": "Check damper in joint, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "25-11_gear-shi-q09"
+    },
+    {
+      "question": "What reference is given for removing and installing the transfer box?",
+      "answer": "Remove and install transfer box - see section 27 10 010.",
+      "question_type": "navigation",
+      "id": "25-11_gear-shi-q10"
+    },
+    {
+      "question": "What are the BMW part numbers shown in the diagrams?",
+      "answer": "The diagrams show part numbers 30 25 030, 30 25 047, 30 25 034, 30 25 035, and 32 25 053.",
+      "question_type": "factual",
+      "id": "25-11_gear-shi-q11"
+    },
+    {
+      "question": "What components need to be replaced if necessary during installation?",
+      "answer": "The rubber rings (3) and the damper in joint should be replaced if necessary during installation.",
+      "question_type": "inspection",
+      "id": "25-11_gear-shi-q12"
+    }
+  ]
+}

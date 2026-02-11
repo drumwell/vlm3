@@ -8,6 +8,7 @@ venv/
 
 # Work artifacts (large intermediate files)
 data/src/*/work/
+!data/src/manual/work/
 todo
 *~
 

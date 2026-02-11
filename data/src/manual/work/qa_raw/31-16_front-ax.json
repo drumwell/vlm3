@@ -1,0 +1,91 @@
+{
+  "page_id": "31-16_front-ax",
+  "image_path": "raw/31 - Front Axle/31-16.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:05:12.574591",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 842
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure section is 31 33 100 covering?",
+      "answer": "Section 31 33 100 covers removing and installing/replacing left or right front spring strut coil spring.",
+      "question_type": "factual",
+      "id": "31-16_front-ax-q01"
+    },
+    {
+      "question": "What is the first step when removing the coil spring?",
+      "answer": "Remove spring strut mount 31 33 001, then remove upper spring retainer with rubber ring and coil spring.",
+      "question_type": "procedural",
+      "id": "31-16_front-ax-q02"
+    },
+    {
+      "question": "What critical rule must be followed when installing pairs of springs?",
+      "answer": "Only install pairs of springs on one axle with same BMW number (1) on end of spring and same color code (2), either with or without a red paint stripe.",
+      "question_type": "safety",
+      "id": "31-16_front-ax-q03"
+    },
+    {
+      "question": "What callout numbers are shown in the upper left diagram?",
+      "answer": "The upper left diagram shows callout numbers 1 and 2, which indicate the BMW number on the end of spring and the color code respectively.",
+      "question_type": "visual",
+      "id": "31-16_front-ax-q04"
+    },
+    {
+      "question": "How do you determine the correct spare part number for a spring with red color code?",
+      "answer": "For a spring with red color code, find the number on the spring (e.g. 1 125 332), add 1 to get the part number (1 125 333).",
+      "question_type": "procedural",
+      "id": "31-16_front-ax-q05"
+    },
+    {
+      "question": "What should be done with the protective tube and rubber damper during installation?",
+      "answer": "Check protective tube and rubber damper, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "31-16_front-ax-q06"
+    },
+    {
+      "question": "What is the thickness specification for the upper rubber ring installation?",
+      "answer": "Install upper rubber ring with thickness (A) = 9 mm (0.354\") for coil springs with red color code.",
+      "question_type": "factual",
+      "id": "31-16_front-ax-q07"
+    },
+    {
+      "question": "How should the ends of the coil spring be positioned during installation?",
+      "answer": "Ends of coil spring must rest on shoulders in lower and upper spring retainers.",
+      "question_type": "procedural",
+      "id": "31-16_front-ax-q08"
+    },
+    {
+      "question": "What part number calculation applies to springs without red color code?",
+      "answer": "For springs without red color code, find the number on spring (e.g. 1 125 332), add 2 to get part number (1 125 334).",
+      "question_type": "procedural",
+      "id": "31-16_front-ax-q09"
+    },
+    {
+      "question": "What components should be inspected during installation according to the upper right instruction?",
+      "answer": "Check upper and lower rubber rings, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "31-16_front-ax-q10"
+    },
+    {
+      "question": "Where can additional specifications be found for this procedure?",
+      "answer": "See Specifications of Gr. 31 for additional information.",
+      "question_type": "navigation",
+      "id": "31-16_front-ax-q11"
+    },
+    {
+      "question": "What reference should be consulted for cross-referencing springs and vehicle types?",
+      "answer": "Refer to spare part microfiche for cross reference of springs and vehicle types as well as applicable special equipment (air conditioner, sport suspension, etc.) and introduction dates.",
+      "question_type": "navigation",
+      "id": "31-16_front-ax-q12"
+    }
+  ]
+}

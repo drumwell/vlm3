@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-12-04",
+  "image_path": "raw/00 - Torque Specs/12-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:47:18.996399",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 632
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the TCI control unit mounting screws?",
+      "answer": "2.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-04-q01"
+    },
+    {
+      "question": "What torque should be applied to the knock sensor on E23 models?",
+      "answer": "13 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-04-q02"
+    },
+    {
+      "question": "What is the torque specification for mounting screws on all models in the Electronic Shift Units section?",
+      "answer": "20 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-04-q03"
+    },
+    {
+      "question": "What torque is specified for the speed and reference mark senders on models with DME?",
+      "answer": "7 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-04-q04"
+    },
+    {
+      "question": "What is the torque specification for the cover on control unit box for E38 models?",
+      "answer": "4.4 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-04-q05"
+    },
+    {
+      "question": "What torque should be applied to the angle impulse sensor on cylinder head with M52 designation?",
+      "answer": "5.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-04-q06"
+    },
+    {
+      "question": "What is the torque specification for the crankshaft sensor on timing case cover?",
+      "answer": "5.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-04-q07"
+    },
+    {
+      "question": "Which components in this section use the same 5.0 Nm torque specification?",
+      "answer": "The angle impulse sensor on cylinder head and the crankshaft sensor on timing case cover both use 5.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-04-q08"
+    },
+    {
+      "question": "What is the highest torque specification listed in the Electronic Shift Units section?",
+      "answer": "20 Nm (ft. lbs.) for all models in the general specification row",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-04-q10"
+    }
+  ]
+}

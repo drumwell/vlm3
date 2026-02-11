@@ -1,0 +1,94 @@
+{
+  "page_id": "41-303_body",
+  "image_path": "raw/41 - Body/41-303.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:55:59.464480",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 719
+  },
+  "qa_pairs": [
+    {
+      "question": "What welding procedure is required for the roof panel on the left and right rain moldings?",
+      "answer": "Spot weld the roof panel on the left and right rain moldings.",
+      "question_type": "procedural",
+      "id": "41-303_body-q01"
+    },
+    {
+      "question": "What type of welding is specified for the cowl joints on left and right sides?",
+      "answer": "Braze cowl joints on left and right sides.",
+      "question_type": "procedural",
+      "id": "41-303_body-q02"
+    },
+    {
+      "question": "What preparation is required for the mating surfaces on the roof brace?",
+      "answer": "Grind mating surfaces on roof brace.",
+      "question_type": "procedural",
+      "id": "41-303_body-q03"
+    },
+    {
+      "question": "What welding method is used for the C pillar joints?",
+      "answer": "Braze C pillar joints on left and right sides.",
+      "question_type": "procedural",
+      "id": "41-303_body-q04"
+    },
+    {
+      "question": "What material should be applied to the bearing surfaces of the roof panel?",
+      "answer": "Paste Terostat tape on bearing surfaces of roof panel.",
+      "question_type": "procedural",
+      "id": "41-303_body-q05"
+    },
+    {
+      "question": "What type of welder is specified for welding the roof brace?",
+      "answer": "Use inert gas welder for welding the roof brace on left and right sides.",
+      "question_type": "tool",
+      "id": "41-303_body-q06"
+    },
+    {
+      "question": "How should the roof brace be positioned during installation?",
+      "answer": "Install roof brace and press against roof panel lightly.",
+      "question_type": "procedural",
+      "id": "41-303_body-q07"
+    },
+    {
+      "question": "What finishing procedure is mentioned for the front and rear joints?",
+      "answer": "Grind front and rear joints, tinning out if necessary.",
+      "question_type": "procedural",
+      "id": "41-303_body-q08"
+    },
+    {
+      "question": "What sealing procedure is specified for the joint between roof frame and roof panel?",
+      "answer": "Seal joint between roof frame and roof panel with a body sealing compound.",
+      "question_type": "procedural",
+      "id": "41-303_body-q09"
+    },
+    {
+      "question": "What is the page number and section number shown at the top of this page?",
+      "answer": "Page 41-303 from the Body section (Section 41).",
+      "question_type": "factual",
+      "id": "41-303_body-q10"
+    },
+    {
+      "question": "How many different welding operations are shown in the images on this page?",
+      "answer": "Six different welding operations are illustrated in the images.",
+      "question_type": "visual",
+      "id": "41-303_body-q11",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What is the purpose of applying Terostat tape before roof panel installation?",
+      "answer": "Terostat tape is applied to the bearing surfaces of the roof panel to provide proper sealing.",
+      "question_type": "factual",
+      "id": "41-303_body-q12"
+    }
+  ]
+}
