@@ -1,0 +1,91 @@
+{
+  "page_id": "34-10_brakes",
+  "image_path": "raw/34 - Brakes/34-10.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:15:11.114947",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 775
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing the rear brake disc?",
+      "answer": "Remove and install rear wheel. Unscrew bolts (1).",
+      "question_type": "procedural",
+      "id": "34-10_brakes-q01"
+    },
+    {
+      "question": "How should the caliper be positioned after pulling it toward the rear?",
+      "answer": "Pull off caliper toward rear and suspend with a piece of wire. Brake line remains connected.",
+      "question_type": "procedural",
+      "id": "34-10_brakes-q02"
+    },
+    {
+      "question": "What is the important rule about replacing brake discs on an axle?",
+      "answer": "Always replace both brake discs of one axle, even if only one disc has to be replaced.",
+      "question_type": "factual",
+      "id": "34-10_brakes-q03"
+    },
+    {
+      "question": "What parking brake adjustment procedure should be followed after replacing brake discs?",
+      "answer": "Adjust parking brake 34 10 014.",
+      "question_type": "procedural",
+      "id": "34-10_brakes-q04"
+    },
+    {
+      "question": "How many phases are there in the breaking in procedure for parking brake after replacing brake discs?",
+      "answer": "The car must be broken in in 3 phases.",
+      "question_type": "factual",
+      "id": "34-10_brakes-q05"
+    },
+    {
+      "question": "What is the speed and number of braking actions required in Phase 1 of the brake break-in procedure?",
+      "answer": "Phase 1: 5 full stop braking actions from 50 km/h (30 mph).",
+      "question_type": "factual",
+      "id": "34-10_brakes-q06"
+    },
+    {
+      "question": "What should be done between Phase 1 and Phase 3 of the brake break-in procedure?",
+      "answer": "Phase 2: Let brakes cool down.",
+      "question_type": "procedural",
+      "id": "34-10_brakes-q07"
+    },
+    {
+      "question": "How many points should be measured when checking brake disc thickness difference?",
+      "answer": "Measure difference in thickness within braking surface at about 8 points with a micrometer.",
+      "question_type": "inspection",
+      "id": "34-10_brakes-q08"
+    },
+    {
+      "question": "What tool is specified for measuring brake disc runout and thickness difference?",
+      "answer": "Mount dial gauge holder and check lateral runout of brake disc with dial gauge for runout, and use a micrometer for thickness difference.",
+      "question_type": "tool",
+      "id": "34-10_brakes-q09"
+    },
+    {
+      "question": "What is the important rule when grinding rear brake discs?",
+      "answer": "Always fine grind both sides of both brake discs on one axle.",
+      "question_type": "factual",
+      "id": "34-10_brakes-q10"
+    },
+    {
+      "question": "What should be installed after machining brake discs to minimum thickness?",
+      "answer": "After machining to minimum thickness, install only one more set of brake pads.",
+      "question_type": "procedural",
+      "id": "34-10_brakes-q11"
+    },
+    {
+      "question": "What cross-reference is provided for brake disc replacement procedures?",
+      "answer": "Always replace both brake discs of one axle, even if only one brake disc has to be replaced. See also SI Group 34.",
+      "question_type": "navigation",
+      "id": "34-10_brakes-q12"
+    }
+  ]
+}

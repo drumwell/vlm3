@@ -1,0 +1,85 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6452-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:09:53.193661",
+    "prompt_template": "electrical_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 739
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the correct resistance reading for the pressure switch test between terminals 2 and Ground?",
+      "answer": "Approximately 3 to 4 ohms.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q01"
+    },
+    {
+      "question": "What should be done if the A/C isolation test result is correct?",
+      "answer": "Go to Test B.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q02"
+    },
+    {
+      "question": "What are the required ignition switch and A/C selector switch positions for the A/C isolation test?",
+      "answer": "Ignition Switch: RUN and A/C Selector Switch: ON (Depressed).",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q03"
+    },
+    {
+      "question": "What is the expected resistance between terminals 1 and Ground in the evaporator temperature regulator test?",
+      "answer": "Approximately 3.5K to 4.5K ohms at 70\u00b0F (21\u00b0C).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q04"
+    },
+    {
+      "question": "What resistance values should terminals 4 and Ground show in the evaporator temperature regulator voltage and resistance test?",
+      "answer": "Less than 0.5 ohms.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q05"
+    },
+    {
+      "question": "What should be checked if all resistances are correct but the compressor clutch does not operate normally?",
+      "answer": "Replace the Evaporator Temperature Regulator.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q06"
+    },
+    {
+      "question": "Which terminals are tested between in the A/C isolation test?",
+      "answer": "Terminals 2 and 3.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q07"
+    },
+    {
+      "question": "What should be done if the measurement is correct in the pressure switch test?",
+      "answer": "Replace the Evaporator Temperature Regulator.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q09"
+    },
+    {
+      "question": "What wire should be checked for an open or short to ground according to the troubleshooting steps?",
+      "answer": "The BK/WT wire.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q10"
+    },
+    {
+      "question": "What is the expected result of the A/C isolation test?",
+      "answer": "Compressor Clutch Engages.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q11"
+    },
+    {
+      "question": "What should be checked between terminal 5 and the Refrigerant Pressure Switch?",
+      "answer": "Check BK/RD for an open between terminal 5 and the Refrigerant Pressure Switch.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-03-q12"
+    }
+  ]
+}

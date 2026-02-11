@@ -1,0 +1,91 @@
+{
+  "page_id": "11-61b_engine",
+  "image_path": "raw/11 - Engine/11-61b.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:14:37.607332",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 842
+  },
+  "qa_pairs": [
+    {
+      "question": "What color paint markings are used to identify crankshaft main bearing journal tolerances?",
+      "answer": "A crankshaft is marked with red or blue paint depending on main bearing journal tolerances.",
+      "question_type": "factual",
+      "id": "11-61b_engine-q01"
+    },
+    {
+      "question": "Where is the color code mark located on a bearing shell?",
+      "answer": "The color code mark is located on the side of a bearing shell.",
+      "question_type": "factual",
+      "id": "11-61b_engine-q02"
+    },
+    {
+      "question": "What do the double classification color codes Rt and Bl represent?",
+      "answer": "Rt = red and Bl = blue in the double classification color code system.",
+      "question_type": "factual",
+      "id": "11-61b_engine-q03"
+    },
+    {
+      "question": "What are the four measurements listed in the Survey of Color Code/Shaft Diameter/Bearing Shell Thickness diagram?",
+      "answer": "1. Crankshaft diameter, 2. Bearing play, 3. Bearing shell thickness, 4. Console diameter.",
+      "question_type": "visual",
+      "id": "11-61b_engine-q04"
+    },
+    {
+      "question": "How should bearing shells be installed in the crankcase according to color coding?",
+      "answer": "Install bearing shells in crankcase with same color code as the dot of paint on the console. Install both bearing shells according to the crankshaft color code.",
+      "question_type": "procedural",
+      "id": "11-61b_engine-q05"
+    },
+    {
+      "question": "What should you do if the color code mark on the crankcase is washed off?",
+      "answer": "If the color code mark on the crankcase is washed off, install bearing shells in bearing caps with the same color code as for the crankshaft.",
+      "question_type": "procedural",
+      "id": "11-61b_engine-q06"
+    },
+    {
+      "question": "What type of Plastigage should be used for measuring bearing play?",
+      "answer": "Use Type PG-1 Plastigage wiped clean of oil.",
+      "question_type": "tool",
+      "id": "11-61b_engine-q07"
+    },
+    {
+      "question": "What is the source of supply information for Plastigage?",
+      "answer": "CARTOOL, Alfred-Brehm-Str. 5, D-8070 Ingolstadt.",
+      "question_type": "factual",
+      "id": "11-61b_engine-q08"
+    },
+    {
+      "question": "What critical instruction is given about crankshaft rotation during bearing cap installation?",
+      "answer": "Do not turn the crankshaft after installing and tightening the bearing caps.",
+      "question_type": "safety",
+      "id": "11-61b_engine-q09"
+    },
+    {
+      "question": "How should bearing play be measured and corrected?",
+      "answer": "Read bearing play by measuring the width of the flattened Plastigage with help of the supplied scale. Correct bearing play by installing new bearing shells of different machined size or with different color code.",
+      "question_type": "procedural",
+      "id": "11-61b_engine-q10"
+    },
+    {
+      "question": "What components are identified as items 1 and 2 in the bearing shell diagram?",
+      "answer": "1 = Bearing shell 1-2-4-5, 2 = Bearing shell 3 (pilot bearing).",
+      "question_type": "visual",
+      "id": "11-61b_engine-q11"
+    },
+    {
+      "question": "What should be checked regarding the main bearing journals?",
+      "answer": "Check the ground size of main bearing journals.",
+      "question_type": "inspection",
+      "id": "11-61b_engine-q12"
+    }
+  ]
+}

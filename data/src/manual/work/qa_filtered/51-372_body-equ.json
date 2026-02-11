@@ -1,0 +1,91 @@
+{
+  "page_id": "51-372_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-372.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:25:41.601530",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 764
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for adjusting left or right rear side window?",
+      "answer": "The procedure number is 51 37 154.",
+      "question_type": "factual",
+      "id": "51-372_body-equ-q01"
+    },
+    {
+      "question": "What must be removed before adjusting the rear side window?",
+      "answer": "Remove rear side trim panel - see 51 43 000.",
+      "question_type": "procedural",
+      "id": "51-372_body-equ-q02"
+    },
+    {
+      "question": "What requirement must be met before adjusting the rear side window?",
+      "answer": "Front window adjusted correctly - see 51 32 154.",
+      "question_type": "procedural",
+      "id": "51-372_body-equ-q03"
+    },
+    {
+      "question": "What are the three main adjustment steps for the rear side window?",
+      "answer": "1. Adjust center position, 2. Adjust top stop, and 3. Adjust tension of side window.",
+      "question_type": "procedural",
+      "id": "51-372_body-equ-q04"
+    },
+    {
+      "question": "Where must the window glass submerge uniformly according to the upper diagram?",
+      "answer": "Window glass must submerge uniformly in rubber seal (3) and roof frame (2).",
+      "question_type": "inspection",
+      "id": "51-372_body-equ-q05"
+    },
+    {
+      "question": "What should be adjusted to make the gap between side window uniform at front and rear?",
+      "answer": "Adjust gap between side window to be uniform at front and rear as shown in image 30 51 702.",
+      "question_type": "procedural",
+      "id": "51-372_body-equ-q06"
+    },
+    {
+      "question": "How should the window be aligned during the adjustment process?",
+      "answer": "Align window uniformly at left and right as shown in procedure step with image 30 51 741.",
+      "question_type": "procedural",
+      "id": "51-372_body-equ-q07"
+    },
+    {
+      "question": "What does callout number 4 indicate in the upper right diagram?",
+      "answer": "Callout number 4 indicates the window adjustment mechanism or guide rail component.",
+      "question_type": "visual",
+      "id": "51-372_body-equ-q08"
+    },
+    {
+      "question": "What is the relationship between the rear side window and front side window seal according to the bottom diagram?",
+      "answer": "Rear side window (3) must bear together with seal (2) on front side window (1) uniformly with light tension.",
+      "question_type": "inspection",
+      "id": "51-372_body-equ-q09"
+    },
+    {
+      "question": "What image number shows the tension adjustment procedure?",
+      "answer": "Image 30 51 768 shows the tension adjustment procedure for the side window.",
+      "question_type": "visual",
+      "id": "51-372_body-equ-q10"
+    },
+    {
+      "question": "What image number corresponds to the bottom cross-sectional diagram?",
+      "answer": "The bottom cross-sectional diagram corresponds to image 30 51 701.",
+      "question_type": "visual",
+      "id": "51-372_body-equ-q11"
+    },
+    {
+      "question": "What type of tension should be applied when the rear side window bears against the front side window seal?",
+      "answer": "Light tension should be applied when the rear side window bears against the front side window seal.",
+      "question_type": "inspection",
+      "id": "51-372_body-equ-q12"
+    }
+  ]
+}

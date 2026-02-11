@@ -1,0 +1,79 @@
+{
+  "page_id": "65-502_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-502.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:07:34.523714",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 706
+  },
+  "qa_pairs": [
+    {
+      "question": "What test should I perform if the temperature function shows considerable difference between position R and 15?",
+      "answer": "Measure resistance between pin 16 and pin 10 (= B-) for BC II not connected and compare with actual temperature.",
+      "question_type": "diagnostic",
+      "id": "65-502_radio-an-q01"
+    },
+    {
+      "question": "What are the possible causes if the gong is not working?",
+      "answer": "Defect in gong signal transmitter/wires or BC II defective.",
+      "question_type": "troubleshooting",
+      "id": "65-502_radio-an-q02"
+    },
+    {
+      "question": "How do I test if the horn relay is working properly?",
+      "answer": "Connect pin 1 and pin 10 (= B-). Horn relay must be activated and horn must sound.",
+      "question_type": "procedural",
+      "id": "65-502_radio-an-q03"
+    },
+    {
+      "question": "What should I check if the parked car heating is not activating?",
+      "answer": "Connect pin 14 with pin 6 (= B+): relay must switch. Also measure resistance between pin 14 and pin 10, BC II not connected, ignition lock in position 0; specification: between 80 and 120 ohms.",
+      "question_type": "diagnostic",
+      "id": "65-502_radio-an-q04"
+    },
+    {
+      "question": "What are the sources of defect if there's a considerable temperature difference in the TEMP function display?",
+      "answer": "Fuel level transmitter/connections, short circuit in wire, break in wire, wires, or temperature sensor.",
+      "question_type": "troubleshooting",
+      "id": "65-502_radio-an-q05"
+    },
+    {
+      "question": "What is the correct procedure to test the gong function?",
+      "answer": "Turn ignition lock to pos. R or 15, connect pin 10 and pin 2 - gong must gong.",
+      "question_type": "procedural",
+      "id": "65-502_radio-an-q06"
+    },
+    {
+      "question": "What should I do if the temperature sensor is defective?",
+      "answer": "Replace temperature sensor.",
+      "question_type": "factual",
+      "id": "65-502_radio-an-q07"
+    },
+    {
+      "question": "What resistance specification should I check for the parked car heating relay?",
+      "answer": "Between 80 and 120 ohms, measured between pin 14 and pin 10 with BC II not connected and ignition lock in position 0.",
+      "question_type": "parameter",
+      "id": "65-502_radio-an-q08"
+    },
+    {
+      "question": "What are the possible issues if the horn relay is not activating?",
+      "answer": "Defect in relay box, wiring, horn, or BC II defective.",
+      "question_type": "troubleshooting",
+      "id": "65-502_radio-an-q09"
+    },
+    {
+      "question": "Where can I find more detailed specifications for these diagnostic procedures?",
+      "answer": "See Specifications section as referenced at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "65-502_radio-an-q10"
+    }
+  ]
+}

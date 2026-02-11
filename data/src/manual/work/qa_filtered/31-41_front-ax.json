@@ -1,0 +1,79 @@
+{
+  "page_id": "31-41_front-ax",
+  "image_path": "raw/31 - Front Axle/31-41.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:04:21.319850",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 599
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the installed shim thickness in the example calculation?",
+      "answer": "1.80 mm (0.071\")",
+      "question_type": "factual",
+      "id": "31-41_front-ax-q01"
+    },
+    {
+      "question": "What is the D target value shown in the shim calculation example?",
+      "answer": "+ 3.98 mm (0.156\")",
+      "question_type": "factual",
+      "id": "31-41_front-ax-q02"
+    },
+    {
+      "question": "What is the D actual measurement in the example?",
+      "answer": "- 3.90 mm (0.153\")",
+      "question_type": "factual",
+      "id": "31-41_front-ax-q03"
+    },
+    {
+      "question": "What shim thickness (A) is calculated in the example?",
+      "answer": "1.88 mm (0.074\")",
+      "question_type": "factual",
+      "id": "31-41_front-ax-q04"
+    },
+    {
+      "question": "What is the maximum deviation allowed from the determined shim thickness?",
+      "answer": "\u00b1 0.01 mm (0.0004\")",
+      "question_type": "factual",
+      "id": "31-41_front-ax-q05"
+    },
+    {
+      "question": "According to the example, what shim thickness must be installed to meet the tolerance?",
+      "answer": "A shim with a thickness of 1.89 mm (0.0744\") must be installed",
+      "question_type": "procedural",
+      "id": "31-41_front-ax-q06"
+    },
+    {
+      "question": "How do you calculate the required shim thickness from the measurements?",
+      "answer": "Add the installed shim (A) plus the D target, then subtract the D actual measurement to determine the new shim thickness (A)",
+      "question_type": "procedural",
+      "id": "31-41_front-ax-q07"
+    },
+    {
+      "question": "What is stated about shim availability?",
+      "answer": "Shims are available in appropriate thickness steps",
+      "question_type": "factual",
+      "id": "31-41_front-ax-q08"
+    },
+    {
+      "question": "What is the sum of the positive values in the shim calculation example?",
+      "answer": "5.78 mm (0.227\")",
+      "question_type": "factual",
+      "id": "31-41_front-ax-q09"
+    },
+    {
+      "question": "What does the tolerance specification mean for shim selection in practice?",
+      "answer": "The selected shim thickness must be within 0.01 mm of the calculated value, which may require choosing the next available shim size",
+      "question_type": "procedural",
+      "id": "31-41_front-ax-q10"
+    }
+  ]
+}

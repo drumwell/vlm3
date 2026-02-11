@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-00-04",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/00-04.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "symbols",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:06:01.507174",
+    "prompt_template": "electrical_manual/symbols",
+    "tokens_input": 1891,
+    "tokens_output": 603
+  },
+  "qa_pairs": [
+    {
+      "question": "What does a solid rectangle symbol represent in the wiring diagrams?",
+      "answer": "A solid rectangle symbol indicates that the entire component is shown.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-04-q01"
+    },
+    {
+      "question": "What does a dashed rectangle symbol indicate?",
+      "answer": "A dashed rectangle symbol indicates that only part of a component is shown.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-04-q02"
+    },
+    {
+      "question": "How is wire size indicated on the wiring diagrams?",
+      "answer": "Wire size is indicated in mm\u00b2 and is shown as a number next to the wire (for example, 1.5 RD indicates 1.5 mm\u00b2 wire).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-04-q03"
+    },
+    {
+      "question": "What does the symbol with a ground connection and G103 marking represent?",
+      "answer": "This symbol indicates that the wire is attached to a metal part of the car (grounded), and the ground is numbered G103 for reference on the component location chart.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-04-q04"
+    },
+    {
+      "question": "What does the diode symbol with an arrow indicate about current flow?",
+      "answer": "The diode symbol indicates that current can flow only in the direction of the arrow.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-04-q05"
+    },
+    {
+      "question": "What do the labels 'HOT AT ALL TIMES' and 'HOT IN RUN OR START' indicate on fuse boxes?",
+      "answer": "'HOT AT ALL TIMES' indicates that fuse 5 is always supplied with power, while 'HOT IN RUN OR START' indicates that fuse 6 is supplied with power only when the ignition switch is in the run or start positions.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-04-q06"
+    },
+    {
+      "question": "How are wire color variations shown in the diagrams?",
+      "answer": "Wire insulation of one color is shown with a solid line, while wire insulation of one color with another color stripe is shown with a dashed line (for example, 5 RD/BR indicates red wire with brown stripe).",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-04-q07"
+    },
+    {
+      "question": "What does a wavy line on a wire connection mean?",
+      "answer": "A wavy line means a wire is continued and indicates that the wire continues to another part of the diagram.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-04-q08"
+    }
+  ]
+}

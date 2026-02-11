@@ -1,0 +1,79 @@
+{
+  "page_id": "23-122_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-122.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:31:12.616506",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 764
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the possible causes when the transmission shifts hard or makes sticking and scratching noises?",
+      "answer": "The causes include insufficient clutch release due to inadequate pedal travel, worn drive plate, seized liner on flywheel, seized drive plate on transmission input shaft, defective bearing for transmission input shaft in crankshaft, air in clutch hydraulic system, thick viscous transmission oil, damaged bushes for selector rod arrest, excessive play in shift lever mount, worn selector forks, or worn sliding sleeve.",
+      "question_type": "diagnostic",
+      "id": "23-122_manual-t-q01"
+    },
+    {
+      "question": "How do you correct insufficient clutch pedal travel?",
+      "answer": "Check pedal travel and adjust if necessary. Remove excessively thick floor mats. Floor clutch pedal when changing gear 35 31 000.",
+      "question_type": "procedural",
+      "id": "23-122_manual-t-q02"
+    },
+    {
+      "question": "What should you do if the transmission grabs when shifting?",
+      "answer": "Check for insufficient clutch release or worn synchromesh rings/sliding sleeve. If clutch release is the issue, see the corrections listed above. For worn synchromesh components, check synchronization and replace damaged parts using procedure 23 23 503.",
+      "question_type": "troubleshooting",
+      "id": "23-122_manual-t-q03"
+    },
+    {
+      "question": "What causes a transmission to be loud during operation?",
+      "answer": "A loud transmission can be caused by oil level being too low, defective transmission shaft bearings, damaged gears, defective needle bearing of output or input shaft, or defective bearing for transmission input shaft in crankshaft.",
+      "question_type": "diagnostic",
+      "id": "23-122_manual-t-q04"
+    },
+    {
+      "question": "How do you fix worn selector forks?",
+      "answer": "Replace selector forks using procedure 23 31 501.",
+      "question_type": "procedural",
+      "id": "23-122_manual-t-q05"
+    },
+    {
+      "question": "What part number is used for replacing the drive plate?",
+      "answer": "The drive plate is replaced using part number 21 21 000.",
+      "question_type": "factual",
+      "id": "23-122_manual-t-q06"
+    },
+    {
+      "question": "When should you use 0W-50 engine oil in the transmission?",
+      "answer": "Use 0W-50 engine oil for cold climates or cold transmission when dealing with thick, viscous transmission oil that causes hard shifting.",
+      "question_type": "procedural",
+      "id": "23-122_manual-t-q07"
+    },
+    {
+      "question": "What procedure is used to replace transmission shaft bearings?",
+      "answer": "Replace all bearings using procedure 23 21 701.",
+      "question_type": "procedural",
+      "id": "23-122_manual-t-q08"
+    },
+    {
+      "question": "How do you address a reverse gear shift break of 3 seconds not being made?",
+      "answer": "Make shift break - this appears to be a timing requirement for reverse gear engagement.",
+      "question_type": "procedural",
+      "id": "23-122_manual-t-q09"
+    },
+    {
+      "question": "What part number is specified for replacing the crankshaft bearing?",
+      "answer": "Replace bearing in crankshaft using part number 11 21 571.",
+      "question_type": "factual",
+      "id": "23-122_manual-t-q10"
+    }
+  ]
+}

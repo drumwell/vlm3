@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-104",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/104.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:32:08.419282",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 873
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the torque specifications for the converter bell housing on A4S 270R/A4S 310R transmissions?",
+      "answer": "For A4S 270R/A4S 310R transmissions, the converter bell housing uses 5/16\" screws torqued to 32 Nm and 1/2\" screws torqued to 42 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-104-q03"
+    },
+    {
+      "question": "What torque value is required for M10 screws on the converter bell housing for 4HP-22/4HP-24 transmissions?",
+      "answer": "For 4HP-22/4HP-24 transmissions, the converter bell housing M10 screws should be torqued to 46 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-104-q04"
+    },
+    {
+      "question": "What are the different screw sizes and torque values for 4HP-22/4HP-24 transmissions on the plug transfer plate?",
+      "answer": "For 4HP-22/4HP-24 transmissions on the plug transfer plate, M14 screws require 40 Nm and M20 screws require 50 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-104-q06"
+    },
+    {
+      "question": "Which transmission types use 5/16\" and 1/2\" screws for the converter bell housing?",
+      "answer": "The A4S 270R and A4S 310R transmission types use 5/16\" screws (32 Nm) and 1/2\" screws (42 Nm) for the converter bell housing.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-104-q08"
+    },
+    {
+      "question": "What is the highest torque value shown in this specification table?",
+      "answer": "The highest torque value shown is 50 Nm, which is for M20 screws on 4HP-22/4HP-24 transmissions for the plug on transfer plate.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-104-q09"
+    }
+  ]
+}

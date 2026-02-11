@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-11-34",
+  "image_path": "raw/00 - Torque Specs/11-34.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:43:17.763001",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 756
+  },
+  "qa_pairs": [
+    {
+      "question": "What compound should be used on exhaust manifold screw connections?",
+      "answer": "Molykote HSC compound coat should be used on screw connections on exhaust.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-34-q02"
+    },
+    {
+      "question": "What is the torque specification for M50/M52/S52/S50 US engines compared to all others?",
+      "answer": "M50/M52/S52/S50 US engines use M7 screws torqued to 20 Nm, while all others use M7 screws torqued to 15 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-34-q03"
+    },
+    {
+      "question": "What size screws are used for the upper row of staybolts installed with bolt cement?",
+      "answer": "M8 screws are used for the upper row of staybolts.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-34-q04"
+    },
+    {
+      "question": "What is the torque specification for the upper row of staybolts?",
+      "answer": "The upper row of staybolts should be torqued to 22 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-34-q05"
+    },
+    {
+      "question": "When should you retorque after 2000 km and what is the specification?",
+      "answer": "For M21 engines, retorque after 2000 km using M8 screws torqued to 12 Nm, and loosen bolt first.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-34-q06"
+    },
+    {
+      "question": "What is the difference in torque specifications between regular exhaust manifold bolts and the retorque procedure?",
+      "answer": "Regular M8 bolts are torqued to 22 Nm, while the retorque procedure after 2000 km uses 12 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-34-q07"
+    },
+    {
+      "question": "Which engine type requires a retorque procedure after 2000 km?",
+      "answer": "The M21 engine requires retorquing after 2000 km.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-34-q08"
+    },
+    {
+      "question": "What special procedure must be followed during the retorque after 2000 km?",
+      "answer": "During retorque after 2000 km, you must loosen the bolt first before retorquing to 12 Nm.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-34-q09"
+    },
+    {
+      "question": "What section and subsection does this exhaust manifold information belong to?",
+      "answer": "This information is in section 11-34 Engine, subsection 11 62 Exhaust manifold.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-34-q10"
+    }
+  ]
+}

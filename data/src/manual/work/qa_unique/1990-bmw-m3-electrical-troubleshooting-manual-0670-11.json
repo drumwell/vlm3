@@ -1,0 +1,49 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-11",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/0670-11.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:09:18.123786",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 474
+  },
+  "qa_pairs": [
+    {
+      "question": "When is Fuse 27 hot according to the diagram?",
+      "answer": "Fuse 27 is hot at all times.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-11-q03"
+    },
+    {
+      "question": "What wire color and gauge connects to connector C101?",
+      "answer": "A 1.5 GN/YL wire connects to connector C101.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-11-q05"
+    },
+    {
+      "question": "Which components are fed through connector S420?",
+      "answer": "S420 feeds the Amplifier (not used) and Board Computer Horn unit, both on page 6500-1.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-11-q06"
+    },
+    {
+      "question": "What is the evaporative purge valve relay connector number?",
+      "answer": "The evaporative purge valve relay uses connector 75.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-11-q07"
+    },
+    {
+      "question": "On which page can you find details for the Interior Light Timer Control unit?",
+      "answer": "The Interior Light Timer Control unit details are on page 6330-0.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-11-q08"
+    }
+  ]
+}

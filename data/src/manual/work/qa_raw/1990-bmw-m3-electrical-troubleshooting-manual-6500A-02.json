@@ -1,0 +1,91 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6500A-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:11:36.363457",
+    "prompt_template": "electrical_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 814
+  },
+  "qa_pairs": [
+    {
+      "question": "What ohmmeter scale should be used for the suspect speaker test?",
+      "answer": "The ohmmeter should be set on Rx 1 scale or Diode Check Scale.",
+      "question_type": "tool",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q01"
+    },
+    {
+      "question": "What is the correct result when testing a suspect speaker with an ohmmeter?",
+      "answer": "The speaker should 'pops' when the ohmmeter is connected across the speaker terminals.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q02"
+    },
+    {
+      "question": "What resistance measurement should you get between the antenna plug base and ground?",
+      "answer": "Less than 3 Ohms.",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q03"
+    },
+    {
+      "question": "What resistance reading indicates an open circuit between the antenna plug tip and antenna plug base?",
+      "answer": "Greater than 1 Megaohm (open circuit).",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q04"
+    },
+    {
+      "question": "What should you do if the speaker test result is correct but there are still problems?",
+      "answer": "Check wires to the Amplifier or Radio for opens or shorts. If OK, check wires between Amplifier (if equipped) and the Radio. Remove Radio for service.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q05"
+    },
+    {
+      "question": "How do you perform the initial step of noise diagnosis?",
+      "answer": "With Radio on and noise present, unplug the Antenna at the back of the Radio.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q06"
+    },
+    {
+      "question": "What does it mean if noise is no longer present after unplugging the antenna?",
+      "answer": "If noise is no longer present, it was being picked up by the Antenna. Perform Antenna Noise Test.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q07"
+    },
+    {
+      "question": "Where should you refer if noise persists after unplugging the antenna?",
+      "answer": "If noise persists, it is coming in the Radio wiring. Refer to the following Noise Symptom Table.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q08"
+    },
+    {
+      "question": "What should you check at the antenna base if ground contact is needed?",
+      "answer": "Check ground contact at Antenna base. If necessary, install a braided ground strap from the Antenna Base to Chassis ground.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q09"
+    },
+    {
+      "question": "What additional check should be performed for antenna cable issues?",
+      "answer": "Check for an open in the Antenna Cable and check for a short to ground at the Antenna or Antenna cable.",
+      "question_type": "inspection",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q10"
+    },
+    {
+      "question": "What diagnosis reference should you use if both antenna resistance measurements are correct?",
+      "answer": "If both resistances are correct, check the hood ground strap. If OK, substitute different Antenna at Radio. If good, replace Antenna. If noise is still present, refer to Noise Symptom Table.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q11"
+    },
+    {
+      "question": "What is the first step to take if a suspect speaker fails the test?",
+      "answer": "Replace the suspect Speaker.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-02-q12"
+    }
+  ]
+}

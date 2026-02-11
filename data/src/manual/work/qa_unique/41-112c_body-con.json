@@ -1,0 +1,91 @@
+{
+  "page_id": "41-112c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-112c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:43:56.404795",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 778
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done with the connections of the left and right side members before drilling out spot welds?",
+      "answer": "Uncover connections of left and right side members, drill out spot welds, then lift off trunk floor plate complete with side members.",
+      "question_type": "procedural",
+      "id": "41-112c_body-con-q01"
+    },
+    {
+      "question": "What type of paint should be used on mating surfaces after straightening and grinding?",
+      "answer": "Coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "factual",
+      "id": "41-112c_body-con-q02"
+    },
+    {
+      "question": "What distance measurement A is specified for overlapping when cutting the trunk floor plate?",
+      "answer": "Mark distance A = 20 mm (0.787'') forward from the marked line for overlapping.",
+      "question_type": "factual",
+      "id": "41-112c_body-con-q03"
+    },
+    {
+      "question": "What should be checked in the area of the spare wheel well after grinding?",
+      "answer": "Check opening in area of the spare wheel well after grinding off cut flush with flange of the cross member.",
+      "question_type": "inspection",
+      "id": "41-112c_body-con-q04"
+    },
+    {
+      "question": "Where should spot welding holes be drilled for side members?",
+      "answer": "Drill plug spot welding holes in mating surfaces for side members. Also drill holes in flanges of side members through the trunk floor plate.",
+      "question_type": "procedural",
+      "id": "41-112c_body-con-q05"
+    },
+    {
+      "question": "What preparation steps are required before spot welding?",
+      "answer": "Remove scrap metal, straighten and grind mating surface, and coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-112c_body-con-q06"
+    },
+    {
+      "question": "What should be done with the car before inserting the trunk floor plate?",
+      "answer": "Set up car on straightening bench, then insert trunk floor plate.",
+      "question_type": "procedural",
+      "id": "41-112c_body-con-q07"
+    },
+    {
+      "question": "What should be marked on the new part when installing cross member connections?",
+      "answer": "Mark location of cross member connections on new part from underneath, then lift off trunk floor plate.",
+      "question_type": "procedural",
+      "id": "41-112c_body-con-q08"
+    },
+    {
+      "question": "What happens when spot welds are applicable according to the note?",
+      "answer": "Drill out spot welds when applicable.",
+      "question_type": "factual",
+      "id": "41-112c_body-con-q09"
+    },
+    {
+      "question": "What area of the new trunk floor plate should be cut?",
+      "answer": "Cut off new trunk floor plate in area of holes.",
+      "question_type": "procedural",
+      "id": "41-112c_body-con-q10"
+    },
+    {
+      "question": "What should be done after marking the distance for overlapping?",
+      "answer": "Cut off excessive metal after marking distance A = 20 mm (0.787'') forward from the marked line for overlapping.",
+      "question_type": "procedural",
+      "id": "41-112c_body-con-q11"
+    },
+    {
+      "question": "What component positioning equipment is specified for this repair?",
+      "answer": "A straightening bench is required to properly set up the car during trunk floor plate installation.",
+      "question_type": "tool",
+      "id": "41-112c_body-con-q12"
+    }
+  ]
+}

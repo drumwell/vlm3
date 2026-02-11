@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-109",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/109.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:36:50.258089",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 573
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the center bolt on the brake coupling D/G on gear box housing?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-109-q01"
+    },
+    {
+      "question": "What torque value should be applied to both outer screws during the first tightening sequence?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-109-q02"
+    },
+    {
+      "question": "What is the final torque specification for the center bolt in the tightening sequence?",
+      "answer": "63 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-109-q03"
+    },
+    {
+      "question": "What torque should be applied to both outer screws in the second tightening step?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-109-q04"
+    },
+    {
+      "question": "What is the final torque specification for both outer screws at the end of the sequence?",
+      "answer": "63 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-109-q05"
+    },
+    {
+      "question": "Which transmission types does this brake coupling specification apply to?",
+      "answer": "A5S 310Z/A5S 560Z",
+      "question_type": "factual",
+      "id": "00-torque-specs-109-q06"
+    },
+    {
+      "question": "What is the difference in torque between the initial and final tightening of the center bolt?",
+      "answer": "The center bolt is tightened from 30 Nm to 63 Nm, a difference of 33 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-109-q08"
+    },
+    {
+      "question": "What component is being serviced according to section 24.22?",
+      "answer": "Planetary gear drive",
+      "question_type": "factual",
+      "id": "00-torque-specs-109-q09"
+    },
+    {
+      "question": "What is the proper procedure for screw installation according to the table?",
+      "answer": "Insert all screws until contact is made with screw head in each case",
+      "question_type": "procedural",
+      "id": "00-torque-specs-109-q10"
+    }
+  ]
+}

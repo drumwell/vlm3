@@ -1,0 +1,67 @@
+{
+  "page_id": "bmwtorquespecs-019",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/019.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:15:55.904432",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 600
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the final torque specification for the S14/S38 B35 cylinder head bolts?",
+      "answer": "100 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-019-q02"
+    },
+    {
+      "question": "How long should you wait during the settling time for the S14/S38 B35 cylinder head bolts?",
+      "answer": "15 minutes",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-019-q03"
+    },
+    {
+      "question": "What is the initial torque value for the S38 B36/S38 B38 cylinder head bolts?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-019-q04"
+    },
+    {
+      "question": "What are the torque angle specifications for the S38 B36/S38 B38 cylinder head bolts?",
+      "answer": "60 degrees followed by 70 degrees",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-019-q05"
+    },
+    {
+      "question": "What torque specifications are listed for the S14/S38 B35 cylinder head bolts before the final torque?",
+      "answer": "50 Nm followed by 80 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-019-q06"
+    },
+    {
+      "question": "Which engine codes use the cylinder head bolt procedure with torque angles instead of just torque values?",
+      "answer": "S38 B36/S38 B38",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-019-q07"
+    },
+    {
+      "question": "What should be done to the cylinder head bolts according to the service note?",
+      "answer": "Replace, wash and oil cylinder head bolts",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-019-q08"
+    },
+    {
+      "question": "Which section of the service manual does this torque specification table belong to?",
+      "answer": "11 - 9 Engine, 11 12 Cylinder Head and Cover",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-019-q10"
+    }
+  ]
+}

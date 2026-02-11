@@ -1,0 +1,85 @@
+{
+  "page_id": "23-316_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-316.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:45:24.828631",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 893
+  },
+  "qa_pairs": [
+    {
+      "question": "What size pin should be driven in while counterholding during the 1st/2nd gear selector rod installation?",
+      "answer": "Drive in a 6 x 32 mm pin while counterholding.",
+      "question_type": "procedural",
+      "id": "23-316_manual-t-q01"
+    },
+    {
+      "question": "What size pin is used for the 3rd/4th gear selector fork installation?",
+      "answer": "Drive in a 6 x 26 mm pin while counterholding.",
+      "question_type": "factual",
+      "id": "23-316_manual-t-q02"
+    },
+    {
+      "question": "What are the three components shown in the selector arrest layout diagram?",
+      "answer": "1 - Locking ball, 2 - Spring, 3 - Detent ball.",
+      "question_type": "visual",
+      "id": "23-316_manual-t-q03"
+    },
+    {
+      "question": "How should the 1st/2nd gear selector fork be positioned during installation?",
+      "answer": "Mount 1st/2nd gear selector fork, push in 1st/2nd gear selector rod up to spring, insert locking balls and press down, then push in selector rod against arrest in this position.",
+      "question_type": "procedural",
+      "id": "23-316_manual-t-q04"
+    },
+    {
+      "question": "What should be done with the drive pin from the 1st/2nd gear selector rod?",
+      "answer": "Drive pin out of 1st/2nd gear selector rod during installation, then replace pin.",
+      "question_type": "procedural",
+      "id": "23-316_manual-t-q05"
+    },
+    {
+      "question": "What is the installation order for synchronizer assembly components?",
+      "answer": "Springs (2), thrust parts (3) and balls (4), with the curved surface of thrust parts (3) facing the operating sleeve.",
+      "question_type": "procedural",
+      "id": "23-316_manual-t-q06"
+    },
+    {
+      "question": "How should the 3rd/4th gear selector fork be positioned during installation?",
+      "answer": "Mount 3rd/4th gear selector fork, insert detent ball, push in selector rod up to spring, insert locking balls and press down, then push in selector rod against arrest in this position.",
+      "question_type": "procedural",
+      "id": "23-316_manual-t-q07"
+    },
+    {
+      "question": "What components are labeled as items 2, 3, and 4 in the synchronizer assembly diagram?",
+      "answer": "Item 2 is springs, item 3 is thrust parts, and item 4 is balls.",
+      "question_type": "visual",
+      "id": "23-316_manual-t-q08"
+    },
+    {
+      "question": "Which direction should the curved surface of the thrust parts face when assembling the synchronizer?",
+      "answer": "The curved surface of thrust parts (3) faces the operating sleeve.",
+      "question_type": "procedural",
+      "id": "23-316_manual-t-q09"
+    },
+    {
+      "question": "What is the first step when working with the 1st/2nd gear selector rod according to the instructions?",
+      "answer": "Drive pin out of 1st/2nd gear selector rod during installation.",
+      "question_type": "procedural",
+      "id": "23-316_manual-t-q10"
+    },
+    {
+      "question": "What should be inserted along with the detent ball when mounting the 3rd/4th gear selector fork?",
+      "answer": "Insert detent ball, then push in selector rod up to spring and insert locking balls.",
+      "question_type": "procedural",
+      "id": "23-316_manual-t-q11"
+    }
+  ]
+}

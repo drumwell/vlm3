@@ -1,0 +1,85 @@
+{
+  "page_id": "65-305_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-305.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:03:52.853642",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 787
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the four specific distances marked for drilling holes on the left front wheel house?",
+      "answer": "Distance 1 = 68 mm (2.677\"), Distance 2 = 104 mm (4.094\"), Distance 3 = 50 mm (1.968\"), Distance 4 = 62 mm (2.441\").",
+      "question_type": "factual",
+      "id": "65-305_radio-an-q01"
+    },
+    {
+      "question": "What diameter holes should be drilled and what should be done after drilling?",
+      "answer": "Punch mark points of intersection and drill 6 mm (0.236\") diameter holes. Deburr and coat edges of holes with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "65-305_radio-an-q02"
+    },
+    {
+      "question": "Where should the ground wire of the extra wire harness be connected?",
+      "answer": "Connect ground wire of extra wire harness on ground wire, which is mounted on central ground point (1) (see wire harness sketch).",
+      "question_type": "procedural",
+      "id": "65-305_radio-an-q03"
+    },
+    {
+      "question": "Where should plug (1) of the extra wire harness be connected?",
+      "answer": "Connect plug (1) of extra wire harness on special equipment plug (2) (see wire harness sketch).",
+      "question_type": "procedural",
+      "id": "65-305_radio-an-q05"
+    },
+    {
+      "question": "What component needs to be removed according to the bottom procedures?",
+      "answer": "Take off splash guard (1).",
+      "question_type": "procedural",
+      "id": "65-305_radio-an-q06"
+    },
+    {
+      "question": "What hardware is used to mount holder (1)?",
+      "answer": "Mount holder (1) with M 5 x 15 screws, spring washers and nuts.",
+      "question_type": "factual",
+      "id": "65-305_radio-an-q07"
+    },
+    {
+      "question": "What diagram reference numbers are shown for the wire harness connection procedures?",
+      "answer": "The diagram reference numbers shown are 30 65 315 and 30 65 316.",
+      "question_type": "visual",
+      "id": "65-305_radio-an-q08"
+    },
+    {
+      "question": "What is the reference number for the drilling location diagram on the wheel house?",
+      "answer": "30 65 318.",
+      "question_type": "visual",
+      "id": "65-305_radio-an-q09"
+    },
+    {
+      "question": "What should be applied to the hole edges after drilling?",
+      "answer": "Zinc dust paint should be applied to coat the edges of the holes after deburring.",
+      "question_type": "procedural",
+      "id": "65-305_radio-an-q10"
+    },
+    {
+      "question": "What component is labeled as (1) in the splash guard removal procedure?",
+      "answer": "The splash guard that needs to be taken off.",
+      "question_type": "visual",
+      "id": "65-305_radio-an-q11"
+    },
+    {
+      "question": "What type of screws are specified for mounting the holder?",
+      "answer": "M 5 x 15 screws with spring washers and nuts.",
+      "question_type": "tool",
+      "id": "65-305_radio-an-q12"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "page_id": "00-torque-specs-008",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/008.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:17:22.523881",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 722
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M14 8.8 screw?",
+      "answer": "130 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-008-q01"
+    },
+    {
+      "question": "Which M14 screw grade has the highest torque specification?",
+      "answer": "M14 12.9 has the highest torque at 220 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-008-q03"
+    },
+    {
+      "question": "What is the torque difference between M14x1.5 8.8 and M14x1.5 10.9?",
+      "answer": "The difference is 57 Nm, with M14x1.5 8.8 at 143 Nm and M14x1.5 10.9 at 200 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-008-q04"
+    },
+    {
+      "question": "What BMW standard should I refer to for tightening torque ranges?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-torque-specs-008-q05"
+    }
+  ]
+}

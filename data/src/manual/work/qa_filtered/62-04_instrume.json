@@ -1,0 +1,91 @@
+{
+  "page_id": "62-04_instrume",
+  "image_path": "raw/62 - Instruments/62-04.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:45:02.864992",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 693
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two main instrument procedures covered in section 62 13 000?",
+      "answer": "Removing and installing tachometer and removing and installing clock.",
+      "question_type": "factual",
+      "id": "62-04_instrume-q01"
+    },
+    {
+      "question": "What is the first step when removing the tachometer?",
+      "answer": "Remove and install instrument carrier assembly 62 21 000, then unscrew screws.",
+      "question_type": "procedural",
+      "id": "62-04_instrume-q02"
+    },
+    {
+      "question": "After unscrewing the screws for tachometer removal, what should be done next?",
+      "answer": "Take instruments with carrier out of housing.",
+      "question_type": "procedural",
+      "id": "62-04_instrume-q03"
+    },
+    {
+      "question": "What models does the clock removal procedure apply to?",
+      "answer": "BMW 320 i / 323 i.",
+      "question_type": "factual",
+      "id": "62-04_instrume-q04"
+    },
+    {
+      "question": "What is the first step for removing the clock?",
+      "answer": "Disconnect retaining straps.",
+      "question_type": "procedural",
+      "id": "62-04_instrume-q05"
+    },
+    {
+      "question": "What should be done after removing the trim for clock removal?",
+      "answer": "Pull off plug on clock, unscrew screws, and remove clock.",
+      "question_type": "procedural",
+      "id": "62-04_instrume-q06"
+    },
+    {
+      "question": "What diagram shows the instrument carrier assembly components?",
+      "answer": "Diagram 30 62 012 shows the instrument carrier assembly with various screws and mounting points indicated by arrows.",
+      "question_type": "visual",
+      "id": "62-04_instrume-q07"
+    },
+    {
+      "question": "What is shown in diagram 30 62 013?",
+      "answer": "The diagram shows instruments with carrier being taken out of housing and the instrument cluster components.",
+      "question_type": "visual",
+      "id": "62-04_instrume-q08"
+    },
+    {
+      "question": "What does diagram 30 62 020 illustrate?",
+      "answer": "It shows the step to unscrew screws during the tachometer removal process.",
+      "question_type": "visual",
+      "id": "62-04_instrume-q09"
+    },
+    {
+      "question": "What component is visible in diagram 30 62 021?",
+      "answer": "The tachometer component that is being removed during the procedure.",
+      "question_type": "visual",
+      "id": "62-04_instrume-q10"
+    },
+    {
+      "question": "What is shown in diagram 30 62 024?",
+      "answer": "The clock with its electrical connector and mounting screws that need to be removed.",
+      "question_type": "visual",
+      "id": "62-04_instrume-q11"
+    },
+    {
+      "question": "What is the reference number for the instrument carrier assembly procedure?",
+      "answer": "62 21 000 is referenced for the remove and install instrument carrier assembly procedure.",
+      "question_type": "navigation",
+      "id": "62-04_instrume-q12"
+    }
+  ]
+}

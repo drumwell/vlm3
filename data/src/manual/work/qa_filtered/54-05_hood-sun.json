@@ -1,0 +1,85 @@
+{
+  "page_id": "54-05_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-05.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:39:52.593231",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 673
+  },
+  "qa_pairs": [
+    {
+      "question": "What size hexagon key is needed for installation of the guide pin holder?",
+      "answer": "4 mm hexagon key",
+      "question_type": "tool",
+      "id": "54-05_hood-sun-q02"
+    },
+    {
+      "question": "How are the drive cables marked to indicate left and right sides?",
+      "answer": "Drive cables are marked L = left or R = right.",
+      "question_type": "factual",
+      "id": "54-05_hood-sun-q03"
+    },
+    {
+      "question": "What should you do first when replacing the drive cables?",
+      "answer": "Remove and install sun roof lid 54 12 100, then remove and install recess plate 54 12 050.",
+      "question_type": "procedural",
+      "id": "54-05_hood-sun-q04"
+    },
+    {
+      "question": "What does callout number 1 indicate in the installation diagram?",
+      "answer": "The 4 mm hexagon key",
+      "question_type": "visual",
+      "id": "54-05_hood-sun-q05"
+    },
+    {
+      "question": "Where should the guide pins be inserted during installation?",
+      "answer": "Place guide pins on left and right sides and insert in holes of operating lever and gate.",
+      "question_type": "procedural",
+      "id": "54-05_hood-sun-q06"
+    },
+    {
+      "question": "What should be done to the gear mounting bolts if needed?",
+      "answer": "If applicable, loosen gear mounting bolts further to make drive cables accessible.",
+      "question_type": "procedural",
+      "id": "54-05_hood-sun-q07"
+    },
+    {
+      "question": "How do you remove the drive cables from the guide tubes?",
+      "answer": "Pull drive cables out of guide tubes.",
+      "question_type": "procedural",
+      "id": "54-05_hood-sun-q08"
+    },
+    {
+      "question": "What components need to be removed to access the drive cables?",
+      "answer": "Remove cover rails and guide pins. Guide pins are marked L = left or R = right.",
+      "question_type": "procedural",
+      "id": "54-05_hood-sun-q09"
+    },
+    {
+      "question": "What should be done with the gear after installation?",
+      "answer": "Set gear to 0 (pressure point) and tighten bolts.",
+      "question_type": "procedural",
+      "id": "54-05_hood-sun-q10"
+    },
+    {
+      "question": "What does callout number 2 indicate in the drive cable diagram?",
+      "answer": "The drive cable",
+      "question_type": "visual",
+      "id": "54-05_hood-sun-q11"
+    },
+    {
+      "question": "What is the first step shown in the bolt removal procedure?",
+      "answer": "Loosen bolt, then unscrew left and right bolts.",
+      "question_type": "procedural",
+      "id": "54-05_hood-sun-q12"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "34-33_brakes",
+  "image_path": "raw/34 - Brakes/34-33.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:22:32.737216",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 735
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the relay on the hydraulic unit for ABS?",
+      "answer": "The procedure number is 61 31 570.",
+      "question_type": "factual",
+      "id": "34-33_brakes-q01"
+    },
+    {
+      "question": "What is the first step when replacing the relay on the hydraulic unit for ABS?",
+      "answer": "Unscrew screw (1) and pull off cover.",
+      "question_type": "procedural",
+      "id": "34-33_brakes-q02"
+    },
+    {
+      "question": "What two types of relays can be pulled out according to the procedure?",
+      "answer": "You can pull out motor relay (2) or valve relay (3).",
+      "question_type": "factual",
+      "id": "34-33_brakes-q03"
+    },
+    {
+      "question": "What are the callout numbers 2 and 3 identifying in the relay compartment?",
+      "answer": "Callout number 2 identifies the motor relay and callout number 3 identifies the valve relay.",
+      "question_type": "visual",
+      "id": "34-33_brakes-q05"
+    },
+    {
+      "question": "What is the procedure number for replacing the indicator lamp for ABS?",
+      "answer": "The procedure number is 62 99 080.",
+      "question_type": "factual",
+      "id": "34-33_brakes-q06"
+    },
+    {
+      "question": "What is the first step when replacing the ABS indicator lamp?",
+      "answer": "Remove instrument panel trim at bottom left.",
+      "question_type": "procedural",
+      "id": "34-33_brakes-q07"
+    },
+    {
+      "question": "What component needs to be removed before accessing the ABS indicator lamp?",
+      "answer": "The instrument panel trim at bottom left needs to be removed first.",
+      "question_type": "procedural",
+      "id": "34-33_brakes-q09"
+    },
+    {
+      "question": "What component is being accessed when the cover is pulled off in the ABS relay replacement procedure?",
+      "answer": "The relay compartment containing the motor relay and valve relay is being accessed.",
+      "question_type": "component",
+      "id": "34-33_brakes-q12"
+    }
+  ]
+}

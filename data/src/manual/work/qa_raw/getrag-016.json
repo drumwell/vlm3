@@ -1,0 +1,79 @@
+{
+  "page_id": "getrag-016",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/016.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:45:21.912974",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1945,
+    "tokens_output": 617
+  },
+  "qa_pairs": [
+    {
+      "question": "What cleaning method is described for treating transmission components?",
+      "answer": "Soaking in hot water with clothes wash powder, which has the effect of lightly eating at the surface by being slightly acidic.",
+      "question_type": "procedural",
+      "id": "getrag-016-q01"
+    },
+    {
+      "question": "What protective treatment is recommended after cleaning transmission parts?",
+      "answer": "Clean in straight hot water and finally coat in oiodine to form a protective layer to stop any future corrosion from dampness.",
+      "question_type": "procedural",
+      "id": "getrag-016-q02"
+    },
+    {
+      "question": "What effect does the clothes wash powder cleaning method have on metal surfaces?",
+      "answer": "It has the effect of lightly eating at the surface by being slightly acidic.",
+      "question_type": "factual",
+      "id": "getrag-016-q03"
+    },
+    {
+      "question": "What type of transmission components are visible in the photograph?",
+      "answer": "Various transmission gears, synchronizer rings, bearing races, and a transmission case housing are visible.",
+      "question_type": "visual",
+      "id": "getrag-016-q04"
+    },
+    {
+      "question": "What is the purpose of coating parts in oiodine after cleaning?",
+      "answer": "To form a protective layer to stop any future corrosion from dampness.",
+      "question_type": "factual",
+      "id": "getrag-016-q05"
+    },
+    {
+      "question": "What research method was mentioned before trying the cleaning procedure?",
+      "answer": "Researching on the computer before trying the soaking method with hot water and clothes wash powder.",
+      "question_type": "procedural",
+      "id": "getrag-016-q06"
+    },
+    {
+      "question": "What newspaper is visible under the transmission parts in the image?",
+      "answer": "Family Notices newspaper is visible as the protective surface under the transmission components.",
+      "question_type": "visual",
+      "id": "getrag-016-q07"
+    },
+    {
+      "question": "What is the final step in the cleaning and protection process?",
+      "answer": "Finally coating the parts in oiodine to form a protective layer against future corrosion.",
+      "question_type": "procedural",
+      "id": "getrag-016-q08"
+    },
+    {
+      "question": "What chemical property of clothes wash powder makes it effective for cleaning?",
+      "answer": "It is slightly acidic, which causes it to lightly eat at the surface.",
+      "question_type": "factual",
+      "id": "getrag-016-q09"
+    },
+    {
+      "question": "What type of corrosion protection is this cleaning method designed to prevent?",
+      "answer": "Future corrosion from dampness.",
+      "question_type": "factual",
+      "id": "getrag-016-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "12-141_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-141.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:32:08.758310",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 880
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the testing requirements before checking the alternator and voltage regulator?",
+      "answer": "The testing requirements are: correct connections on charged battery, correct connections on alternator and starter, good ground connection between engine and body, and tight drive belt.",
+      "question_type": "procedural",
+      "id": "12-141_engine-e-q01"
+    },
+    {
+      "question": "What should you do if the indicator lamp stays on continuously?",
+      "answer": "Remove voltage regulator and check carbon brushes, replacing if necessary (see 12 31 200). Check the distance 'V' for new condition - approximately 12 mm (0.472\").",
+      "question_type": "procedural",
+      "id": "12-141_engine-e-q02"
+    },
+    {
+      "question": "What distance measurement is specified for new carbon brushes?",
+      "answer": "The distance 'V' for new condition should be approximately 12 mm (0.472\").",
+      "question_type": "factual",
+      "id": "12-141_engine-e-q03"
+    },
+    {
+      "question": "What installation checks should be performed after alternator service?",
+      "answer": "Check slip rings for wear, fine grinding and polishing if necessary. Connect BMW service test unit. Start engine and compare test values with nominal values.",
+      "question_type": "procedural",
+      "id": "12-141_engine-e-q04"
+    },
+    {
+      "question": "What oscillograph pattern indicates a defective alternator with defective power or exciter diode?",
+      "answer": "The oscillograph shows an irregular wave pattern with varying amplitude, labeled as 'Oscillographs of Defective Alternator: Defective power or exciter diode.'",
+      "question_type": "diagnostic",
+      "id": "12-141_engine-e-q05"
+    },
+    {
+      "question": "What does the oscillograph pattern show for a shorted turn of stator coil?",
+      "answer": "The oscillograph shows a regular wave pattern with consistent amplitude but reduced peaks, indicating a shorted turn of stator coil.",
+      "question_type": "diagnostic",
+      "id": "12-141_engine-e-q06"
+    },
+    {
+      "question": "What oscillograph pattern indicates a break in one exciter diode?",
+      "answer": "The oscillograph shows three distinct peaks with gaps between them, indicating a break in one exciter diode.",
+      "question_type": "diagnostic",
+      "id": "12-141_engine-e-q07"
+    },
+    {
+      "question": "What should you do if the specified charging current is not reached during testing?",
+      "answer": "Remove and disassemble alternator, and inspect components (see 12 31 020/513).",
+      "question_type": "procedural",
+      "id": "12-141_engine-e-q08"
+    },
+    {
+      "question": "What condition indicates the voltage regulator needs to be replaced?",
+      "answer": "If the battery charge indicator lamp goes out while engine is running and the regulating voltage is not reached - harmonic wave ratio and oscillograph okay (as shown) - the voltage regulator has to be replaced (see 12 32 000).",
+      "question_type": "diagnostic",
+      "id": "12-141_engine-e-q09"
+    },
+    {
+      "question": "What are the positive and negative terminal markings shown in the alternator diagram?",
+      "answer": "The alternator diagram shows terminals marked as 'B+' (positive) and 'D+' (positive excitation terminal).",
+      "question_type": "visual",
+      "id": "12-141_engine-e-q10"
+    },
+    {
+      "question": "Where can you find nominal values for comparison during testing?",
+      "answer": "See nominal value microfiche for the test values to compare with during engine testing.",
+      "question_type": "navigation",
+      "id": "12-141_engine-e-q11"
+    },
+    {
+      "question": "What section should be referenced for voltage regulator replacement procedures?",
+      "answer": "Reference section 12 32 000 for voltage regulator replacement procedures.",
+      "question_type": "navigation",
+      "id": "12-141_engine-e-q12"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:13:10.883313",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 537
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the washer fluid level switch located on the E30 M3?",
+      "answer": "The washer fluid level switch is located in the RH front corner of the engine compartment, as shown in Figure 1.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-03-q01"
+    },
+    {
+      "question": "What connector designation is shown for the washer fluid level switch?",
+      "answer": "The washer fluid level switch has connector designation C110.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-03-q02"
+    },
+    {
+      "question": "Where can I find the RH horn in the engine compartment?",
+      "answer": "The RH horn is located behind the RH corner of the front bumper, as shown in Figure 3.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-03-q03"
+    },
+    {
+      "question": "What is the connector designation for the RH horn?",
+      "answer": "The RH horn has connector designation C127.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-03-q04"
+    },
+    {
+      "question": "Where is the dual temperature switch located?",
+      "answer": "The dual temperature switch is located in the lower RH front of the engine compartment, positioned behind other components as shown in Figure 5.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-03-q05"
+    },
+    {
+      "question": "What component is labeled C156 in these diagrams?",
+      "answer": "C156 is the connector designation for the refrigerant pressure switch, which is located in the RH front corner of the engine compartment.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-03-q06"
+    },
+    {
+      "question": "Where are the compressor clutch and compressor clutch diode located?",
+      "answer": "The compressor clutch and compressor clutch diode are located in the lower RH front of the engine compartment, as shown in Figure 4.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-03-q07"
+    },
+    {
+      "question": "What two coolant temperature components are shown in Figure 6?",
+      "answer": "Figure 6 shows the coolant temperature sender and the coolant temperature sensor, both located in the RH front of the engine compartment.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-03-q08"
+    }
+  ]
+}

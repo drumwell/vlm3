@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-113",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/113.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:34:00.800064",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 636
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the governor flange to transmission?",
+      "answer": "16 Nm using an M8 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-113-q01"
+    },
+    {
+      "question": "What size screw is used for the stud in centrifugal governor and what is its torque value?",
+      "answer": "M6 screw with 3 Nm torque.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-113-q02"
+    },
+    {
+      "question": "What is the specification for the hexagon head screw on centrifugal governor?",
+      "answer": "M6 screw torqued to 11 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-113-q04"
+    },
+    {
+      "question": "Which governor component uses the 4 HP-22 H transmission type?",
+      "answer": "The governor housing to hub connection.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-113-q05"
+    },
+    {
+      "question": "What is the torque value for the governor housing to hub connection?",
+      "answer": "11 Nm using an M6 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-113-q06"
+    },
+    {
+      "question": "Which components in the governor section use M6 screws?",
+      "answer": "The stud in centrifugal governor, hexagon head screw on centrifugal governor, and governor housing to hub all use M6 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-113-q07"
+    },
+    {
+      "question": "What section and subsection does this torque specification table cover?",
+      "answer": "Section 24-11 Automatic Transmission, subsection 24 32 Governor.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-113-q08"
+    },
+    {
+      "question": "Are there different transmission types specified for these governor components?",
+      "answer": "Yes, most components apply to 'All' transmission types, but the governor housing to hub specifically applies to '4 HP-22 H' transmission type.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-113-q09"
+    },
+    {
+      "question": "What is the range of torque values specified for the governor components?",
+      "answer": "The torque values range from 3 Nm (lowest) to 16 Nm (highest).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-113-q10"
+    }
+  ]
+}

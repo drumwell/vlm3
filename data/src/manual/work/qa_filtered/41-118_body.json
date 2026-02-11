@@ -1,0 +1,85 @@
+{
+  "page_id": "41-118_body",
+  "image_path": "raw/41 - Body/41-118.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:46:43.654705",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 679
+  },
+  "qa_pairs": [
+    {
+      "question": "What reference page should you consult before beginning the trunk floor plate replacement procedure?",
+      "answer": "Page 41-001",
+      "question_type": "navigation",
+      "id": "41-118_body-q02"
+    },
+    {
+      "question": "What components need to be removed or disconnected before replacing the trunk floor plate?",
+      "answer": "Final drive, right wheel house cover, fuel filler neck, complete fuel tank and, if applicable, heavy layer mat.",
+      "question_type": "procedural",
+      "id": "41-118_body-q03"
+    },
+    {
+      "question": "How far toward the rear should you drill off welding spots along the side members?",
+      "answer": "About 80 mm (3.150\") toward rear.",
+      "question_type": "procedural",
+      "id": "41-118_body-q04"
+    },
+    {
+      "question": "What specific action is required for the joints before drilling off welding spots?",
+      "answer": "Uncover joints.",
+      "question_type": "procedural",
+      "id": "41-118_body-q05"
+    },
+    {
+      "question": "Where should the trunk floor plate be cut off in relation to the wheel houses?",
+      "answer": "Cut off trunk floor plate on left and right wheel houses.",
+      "question_type": "procedural",
+      "id": "41-118_body-q06"
+    },
+    {
+      "question": "What surfaces need to be uncovered on the left and right side members?",
+      "answer": "Uncover mating surfaces of left and right side members.",
+      "question_type": "procedural",
+      "id": "41-118_body-q07"
+    },
+    {
+      "question": "What should be done with the trunk floor plate and side members during removal?",
+      "answer": "Lift out trunk floor plate complete with side members.",
+      "question_type": "procedural",
+      "id": "41-118_body-q08"
+    },
+    {
+      "question": "What final preparation steps are required for the mating surfaces?",
+      "answer": "Remove scrap metal. Straighten and grind mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-118_body-q09"
+    },
+    {
+      "question": "What is shown in diagram 30 41 254?",
+      "answer": "Uncovering joints and drilling off welding spots.",
+      "question_type": "visual",
+      "id": "41-118_body-q10"
+    },
+    {
+      "question": "What does diagram 30 41 257 illustrate?",
+      "answer": "Cutting off trunk floor plate on left and right wheel houses.",
+      "question_type": "visual",
+      "id": "41-118_body-q11"
+    },
+    {
+      "question": "What procedure is demonstrated in diagram 30 41 258?",
+      "answer": "Uncovering and drilling off welding spots.",
+      "question_type": "visual",
+      "id": "41-118_body-q12"
+    }
+  ]
+}

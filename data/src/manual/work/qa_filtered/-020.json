@@ -1,0 +1,55 @@
+{
+  "page_id": "-020",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/020.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:07:00.834313",
+    "prompt_template": "unknown/text",
+    "tokens_input": 1867,
+    "tokens_output": 403
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the mileage mentioned for the wear assessment of the syncros?",
+      "answer": "The wear from 160K od KMs is quite minimal according to the text shown.",
+      "question_type": "factual",
+      "id": "-020-q01"
+    },
+    {
+      "question": "What are the three categories shown in the comparison table at the bottom of the page?",
+      "answer": "The three categories are Gear, Old Syncros, and New Syncros.",
+      "question_type": "visual",
+      "id": "-020-q02"
+    },
+    {
+      "question": "What type of transmission components are being compared in this documentation?",
+      "answer": "Syncros (synchronizers) are being compared, specifically old syncros versus new syncros.",
+      "question_type": "component",
+      "id": "-020-q03"
+    },
+    {
+      "question": "What condition are the syncros described as being in after 160K kilometers?",
+      "answer": "All fwd syncros are described as being in spec with reverse borderline, with wear being quite minimal.",
+      "question_type": "inspection",
+      "id": "-020-q04"
+    },
+    {
+      "question": "What can be seen in the top image regarding transmission components?",
+      "answer": "The top image shows a large gear with teeth and what appears to be a bearing assembly or synchronizer hub with a golden/brass colored ring.",
+      "question_type": "visual",
+      "id": "-020-q05"
+    },
+    {
+      "question": "What does the bottom image show in terms of workspace organization?",
+      "answer": "The bottom image shows various transmission gears and components laid out on newspaper on a workbench, with tools and other parts organized around the workspace.",
+      "question_type": "visual",
+      "id": "-020-q06"
+    }
+  ]
+}

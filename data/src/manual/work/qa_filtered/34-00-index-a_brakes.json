@@ -1,0 +1,55 @@
+{
+  "page_id": "34-00-index-a_brakes",
+  "image_path": "raw/34 - Brakes/34-00-index-a.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:11:51.849283",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1745,
+    "tokens_output": 412
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers the procedure for checking brake discs for runout and difference in thickness?",
+      "answer": "Section 34 21 530 covers rear brake discs - remove and install, and section 879 covers rear brake discs - check runout and difference in thickness.",
+      "question_type": "navigation",
+      "id": "34-00-index-a_brakes-q01"
+    },
+    {
+      "question": "Which section would I reference for bleeding the ABS brakes?",
+      "answer": "Section 34 00 047 covers Brakes - bleed (ABS).",
+      "question_type": "navigation",
+      "id": "34-00-index-a_brakes-q02"
+    },
+    {
+      "question": "What is the section number for removing and installing the brake booster?",
+      "answer": "Section 34 33 000 covers Brake booster and tandem brake master cylinder - remove and install, and section 34 33 000 covers Brake booster - replace.",
+      "question_type": "navigation",
+      "id": "34-00-index-a_brakes-q03"
+    },
+    {
+      "question": "Where can I find information about adjusting the parking brake?",
+      "answer": "Section 34 10 010 covers Parking brake - adjust.",
+      "question_type": "navigation",
+      "id": "34-00-index-a_brakes-q04"
+    },
+    {
+      "question": "What section covers the procedure for replacing brake pipes?",
+      "answer": "Section 34 32 361 covers Brake pipes - replace.",
+      "question_type": "navigation",
+      "id": "34-00-index-a_brakes-q05"
+    },
+    {
+      "question": "Which section would I use for checking high and low pressure brake tests?",
+      "answer": "Section 34 00 519 covers Brakes - check (high and low pressure tests).",
+      "question_type": "navigation",
+      "id": "34-00-index-a_brakes-q06"
+    }
+  ]
+}

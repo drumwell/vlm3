@@ -1,0 +1,91 @@
+{
+  "page_id": "12-135_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-135.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:31:29.276497",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 778
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the multimeter test specification for the pulse sender?",
+      "answer": "Disconnect plug and measure resistance between pins 1 and 2. The resistance should be 520 ohms \u00b1 5%. Perform insulation test which should be greater than 100 k-ohms.",
+      "question_type": "factual",
+      "id": "12-135_engine-e-q01"
+    },
+    {
+      "question": "How should you prepare the pulse sender for testing?",
+      "answer": "Check pulse sender for tight fit and damage, then disconnect plug M 20. Note: Remove guard rail on face.",
+      "question_type": "procedural",
+      "id": "12-135_engine-e-q02"
+    },
+    {
+      "question": "What pins on the pulse sender connector should be tested for resistance?",
+      "answer": "Pins 1 and 2 on the pulse sender connector should be tested for resistance measurement.",
+      "question_type": "visual",
+      "id": "12-135_engine-e-q03"
+    },
+    {
+      "question": "What type of signal pattern should appear on the oscilloscope when testing the pulse sender?",
+      "answer": "The illustrated signal should appear in the oscilloscope screen showing a square wave pattern when the engine is cranked with the starting motor.",
+      "question_type": "diagnostic",
+      "id": "12-135_engine-e-q04"
+    },
+    {
+      "question": "Which connections should the oscilloscope be connected to for pulse sender testing?",
+      "answer": "Connect oscilloscope on connections 1 and 2 of pulse sender (M 22/23).",
+      "question_type": "procedural",
+      "id": "12-135_engine-e-q05"
+    },
+    {
+      "question": "What is the minimum insulation resistance specification for the pulse sender?",
+      "answer": "The insulation test should be greater than 100 k-ohms.",
+      "question_type": "factual",
+      "id": "12-135_engine-e-q06"
+    },
+    {
+      "question": "What should you do with the engine when testing the pulse sender signal?",
+      "answer": "Crank engine with the starting motor while observing the oscilloscope screen for the illustrated signal pattern.",
+      "question_type": "operation",
+      "id": "12-135_engine-e-q07"
+    },
+    {
+      "question": "Where must the TDC mark be positioned when checking the increment wheel?",
+      "answer": "The TDC mark must be in middle of a tooth.",
+      "question_type": "inspection",
+      "id": "12-135_engine-e-q08"
+    },
+    {
+      "question": "What is the gap requirement for the increment wheel checking?",
+      "answer": "Gap must be located 9 teeth away from the TDC mark in engine's direction of rotation.",
+      "question_type": "inspection",
+      "id": "12-135_engine-e-q09"
+    },
+    {
+      "question": "What should be replaced if the increment wheel checking criteria are not met?",
+      "answer": "If not correct, replace vibration damper.",
+      "question_type": "troubleshooting",
+      "id": "12-135_engine-e-q10"
+    },
+    {
+      "question": "What component contains the increment wheel that needs to be checked?",
+      "answer": "The increment wheel is part of the vibration damper assembly.",
+      "question_type": "component",
+      "id": "12-135_engine-e-q11"
+    },
+    {
+      "question": "What special note is given regarding the guard rail during pulse sender service?",
+      "answer": "Remove guard rail on face when disconnecting the pulse sender plug M 20.",
+      "question_type": "procedural",
+      "id": "12-135_engine-e-q12"
+    }
+  ]
+}

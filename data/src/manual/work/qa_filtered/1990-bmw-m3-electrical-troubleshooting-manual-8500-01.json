@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8500-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:16:25.749443",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 610
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the connector designation for the accessory connector shown in the diagram?",
+      "answer": "The accessory connector is designated as C302.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01-q01"
+    },
+    {
+      "question": "Where is the C302 accessory connector located?",
+      "answer": "The C302 accessory connector is located under the left side of the dash ahead of the pedal assembly.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01-q02"
+    },
+    {
+      "question": "Which terminal on the C302 connector is used for the Anti-Lock Braking circuit?",
+      "answer": "Terminals C and R are both used for Anti-Lock Braking circuits.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01-q03"
+    },
+    {
+      "question": "What circuit is connected to terminal Q on the C302 connector?",
+      "answer": "Terminal Q is connected to the Power Windows circuit.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01-q04"
+    },
+    {
+      "question": "Which terminals on the C302 connector are used for radio circuits?",
+      "answer": "Terminals V, W, X, and Y are all used for radio circuits.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01-q05"
+    },
+    {
+      "question": "What is connected to terminal H on the C302 accessory connector?",
+      "answer": "Terminal H is connected to the Multifunction Clock circuit.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01-q06"
+    },
+    {
+      "question": "Which terminal carries the Power Antenna circuit?",
+      "answer": "Terminal Z carries the Power Antenna circuit.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01-q07"
+    },
+    {
+      "question": "What circuit uses terminal S on the C302 connector?",
+      "answer": "Terminal S is used for the Cruise Control circuit.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01-q08"
+    },
+    {
+      "question": "How many terminals on the C302 connector are marked as 'Not Used'?",
+      "answer": "Fifteen terminals are marked as 'Not Used': A, B, D, E, F, I, J, K, L, M, N, O, P, T, and U.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01-q09"
+    },
+    {
+      "question": "What type of view is shown for the C302 connector in Figure 1?",
+      "answer": "Figure 1 shows the front view of the C302 accessory connector.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-01-q10"
+    }
+  ]
+}

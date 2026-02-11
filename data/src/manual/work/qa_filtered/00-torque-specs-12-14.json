@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-12-14",
+  "image_path": "raw/00 - Torque Specs/12-14.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:49:12.509711",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 634
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the temperature switch (5.5\u00b0C / 17\u00b0C) to fuel filter/cylinder head?",
+      "answer": "18 Nm with M21 thread",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-14-q03"
+    },
+    {
+      "question": "What is the torque for the remote thermometer sensor with 2-pin plug-in connection?",
+      "answer": "20 Nm for all others",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-14-q06"
+    },
+    {
+      "question": "Which temperature sensors have the same torque specification of 13 Nm on S38/S50 engines?",
+      "answer": "The coolant temperature sensor (2-pin plug-in connection), air temperature sensor, and oil temperature sensor all require 13 Nm on S38/S50 engines",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-14-q10"
+    }
+  ]
+}

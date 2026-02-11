@@ -1,0 +1,91 @@
+{
+  "page_id": "34-06_brakes",
+  "image_path": "raw/34 - Brakes/34-06.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:14:08.197137",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 764
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step in removing and installing brake shoes of the rear wheel?",
+      "answer": "Remove rear wheel and unscrew bolt.",
+      "question_type": "procedural",
+      "id": "34-06_brakes-q01"
+    },
+    {
+      "question": "How do you remove the brake drum according to the procedure shown?",
+      "answer": "Remove brake drum by loosening parking brake cables and unscrewing automatic slack control enough that brake drum can be pulled off.",
+      "question_type": "procedural",
+      "id": "34-06_brakes-q02"
+    },
+    {
+      "question": "What angle should you turn the return springs when pushing them in?",
+      "answer": "Push in return springs and turn 90\u00b0.",
+      "question_type": "procedural",
+      "id": "34-06_brakes-q03"
+    },
+    {
+      "question": "What components should be disconnected at the front when removing brake shoes?",
+      "answer": "Disconnect bottom return spring at front, pull brake shoes out of wheel brake cylinder, disconnect top return spring at front, and remove front brake shoes with automatic slack control.",
+      "question_type": "procedural",
+      "id": "34-06_brakes-q04"
+    },
+    {
+      "question": "What important installation requirement is specified for brake shoe replacement?",
+      "answer": "Always replace all four brake shoes and use same make. Also replace return springs and thermo clip when replacing brake shoes.",
+      "question_type": "factual",
+      "id": "34-06_brakes-q05"
+    },
+    {
+      "question": "What should you do with the parking brake cable during this procedure?",
+      "answer": "Disconnect parking brake cable and remove rear brake shoes.",
+      "question_type": "procedural",
+      "id": "34-06_brakes-q06"
+    },
+    {
+      "question": "What are the thread specifications for the automatic slack control adjusting pinion?",
+      "answer": "Adjusting pinion on left side has right-hand threads (R) and left-hand threads (L) on right side.",
+      "question_type": "factual",
+      "id": "34-06_brakes-q07"
+    },
+    {
+      "question": "What must engage properly in the thermo clip arrangement?",
+      "answer": "Thermo clip must engage (arrow). Note bends of return springs.",
+      "question_type": "inspection",
+      "id": "34-06_brakes-q08"
+    },
+    {
+      "question": "What maintenance should be performed on the adjusting pinion?",
+      "answer": "Unscrew adjusting pinion, check function and movement of automatic slack control. If applicable, clean and give threads of push rod a light coat of grease.",
+      "question_type": "procedural",
+      "id": "34-06_brakes-q09"
+    },
+    {
+      "question": "What reference is provided for additional brake shoe installation information?",
+      "answer": "Replace brake shoes by reversing. See Service Information of Group 34.",
+      "question_type": "navigation",
+      "id": "34-06_brakes-q10"
+    },
+    {
+      "question": "What components are visible in the brake drum assembly diagram?",
+      "answer": "The diagram shows the brake drum with brake shoes, return springs, wheel brake cylinder, and automatic slack control mechanism.",
+      "question_type": "visual",
+      "id": "34-06_brakes-q11"
+    },
+    {
+      "question": "What section number covers the removing and installing of brake shoes procedure?",
+      "answer": "Section 34 21 530 covers removing and installing brake shoes of rear wheel.",
+      "question_type": "factual",
+      "id": "34-06_brakes-q12"
+    }
+  ]
+}

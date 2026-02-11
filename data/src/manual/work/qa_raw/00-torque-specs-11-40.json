@@ -1,0 +1,82 @@
+{
+  "page_id": "00-torque-specs-11-40",
+  "image_path": "raw/00 - Torque Specs/11-40.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:44:26.602436",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 643
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the M8 screws on the rubber mount to front axle carrier?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-40-q01"
+    },
+    {
+      "question": "What torque should I use for the M10 bolts when installing the rubber mount to engine console?",
+      "answer": "47 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-40-q02"
+    },
+    {
+      "question": "What are the two different screw sizes used for the engine console to engine mounting?",
+      "answer": "M8 and M10 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-40-q03"
+    },
+    {
+      "question": "How many different torque values are specified for the engine suspension components?",
+      "answer": "Two torque values: 22 Nm and 47 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-40-q04"
+    },
+    {
+      "question": "What is the torque difference between M8 and M10 screws in the engine suspension section?",
+      "answer": "25 Nm difference (M8: 22 Nm, M10: 47 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-40-q05"
+    },
+    {
+      "question": "Which component uses both M8 and M10 fasteners according to this specification table?",
+      "answer": "All three components listed (rubber mount to front axle carrier, rubber mount to engine console, and engine console to engine) use both M8 and M10 fasteners",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-40-q06"
+    },
+    {
+      "question": "What section of the service manual does this torque specification table belong to?",
+      "answer": "Section 11-40 Engine, subsection 11 81 Engine Suspension",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-40-q07"
+    },
+    {
+      "question": "Do all vehicle types use the same torque specifications for these engine suspension components?",
+      "answer": "Yes, all components are marked as 'All' in the Type column, indicating the same specifications apply to all vehicle types",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-40-q08"
+    },
+    {
+      "question": "What is the torque specification for M8 screws on the engine console to engine mounting?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-40-q09"
+    },
+    {
+      "question": "What unit of measurement is used for all the torque specifications on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-40-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

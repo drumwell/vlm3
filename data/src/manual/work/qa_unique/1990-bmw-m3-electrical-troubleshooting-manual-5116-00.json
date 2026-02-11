@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-5116-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/5116-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:32:42.426270",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 516
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers power mirrors in this manual?",
+      "answer": "Section 5116-0 covers power mirrors.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5116-00-q01"
+    },
+    {
+      "question": "What fuse number is used for the power mirror system?",
+      "answer": "Fuse 18 (75 AMP) is used for the power mirror system.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5116-00-q02"
+    },
+    {
+      "question": "What is the wire color code for the hot wire that runs only from unloader relay K7?",
+      "answer": "The wire color code is .75 GN/BK for the hot wire that runs only from unloader relay K7.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5116-00-q03"
+    },
+    {
+      "question": "What type of control is used for mirror direction selection?",
+      "answer": "A mirror control switch with selector positions for left and right mirrors, and directional controls (up, down, left, right) is used.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5116-00-q04"
+    },
+    {
+      "question": "According to the note, how is motor direction controlled in the power mirror system?",
+      "answer": "According to the note, motor direction is controlled by polarity. When solenoid is energized, motor moves mirror up and down.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5116-00-q05"
+    },
+    {
+      "question": "What are the two main mirror assemblies shown in the diagram?",
+      "answer": "The two main mirror assemblies shown are the Driver's Mirror and the Passenger's Mirror.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5116-00-q06"
+    },
+    {
+      "question": "What connector number is associated with the interior light timer control?",
+      "answer": "Connector C406 is associated with the interior light timer control.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5116-00-q07"
+    },
+    {
+      "question": "What additional component might some vehicles contain according to the note at the bottom?",
+      "answer": "According to the note, some vehicles may contain an additional splice (see ground distribution).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5116-00-q08"
+    }
+  ]
+}

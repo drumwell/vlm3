@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-112",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/112.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:45:07.093784",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 665
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the difference in torque between 1st and 2nd pass for the oil pump to case installation?",
+      "answer": "The 1st pass is 10 Nm and the 2nd pass is 20 Nm, so the difference is 10 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-112-q02"
+    },
+    {
+      "question": "What screw size is used for the A4S 270R/A4S 310R oil pump to case mounting?",
+      "answer": "5/16\" screw",
+      "question_type": "factual",
+      "id": "00-torque-specs-112-q03"
+    }
+  ]
+}

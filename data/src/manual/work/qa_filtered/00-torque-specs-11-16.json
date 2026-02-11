@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-11-16",
+  "image_path": "raw/00 - Torque Specs/11-16.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:39:47.482748",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 557
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the torque angles specified for the vibration damper installation?",
+      "answer": "50\u00b0 for both torque angle specifications",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-16-q04"
+    },
+    {
+      "question": "What component is being specified under section 11 23?",
+      "answer": "Vibration Damper",
+      "question_type": "component",
+      "id": "00-torque-specs-11-16-q06"
+    },
+    {
+      "question": "What is the part designation 2AZ referring to?",
+      "answer": "Vibration damper hub on crankshaft Replace screws",
+      "question_type": "component",
+      "id": "00-torque-specs-11-16-q07"
+    },
+    {
+      "question": "How many torque angle steps are specified after the initial torque?",
+      "answer": "Two torque angle steps, both at 50\u00b0",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-16-q08"
+    },
+    {
+      "question": "What are the different engine types mentioned for the vibration damper specifications?",
+      "answer": "S38 B38 and S50",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-16-q09"
+    },
+    {
+      "question": "What is the complete tightening sequence for the vibration damper hub?",
+      "answer": "First torque to 60 Nm, then apply two torque angles of 50\u00b0 each",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-16-q10"
+    }
+  ]
+}

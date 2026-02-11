@@ -1,0 +1,79 @@
+{
+  "page_id": "25-07_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-07.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:49:14.532412",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 705
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for the shift lever that needs to be removed?",
+      "answer": "The shift lever part number is 25 11 000.",
+      "question_type": "factual",
+      "id": "25-07_gear-shi-q01"
+    },
+    {
+      "question": "What should be done with the wire snap ring during shift lever removal?",
+      "answer": "Lift out the wire snap ring.",
+      "question_type": "procedural",
+      "id": "25-07_gear-shi-q02"
+    },
+    {
+      "question": "How do you remove the shift lever upper section?",
+      "answer": "Pull off the shift lever upper section.",
+      "question_type": "procedural",
+      "id": "25-07_gear-shi-q03"
+    },
+    {
+      "question": "What components are numbered 1 through 6 in the shift lever assembly diagram?",
+      "answer": "The components are: (1) cap, (2) circlip, (3) rubber ring, (4) washer, (5) snap ring, and (6) rubber part.",
+      "question_type": "visual",
+      "id": "25-07_gear-shi-q05"
+    },
+    {
+      "question": "Which components need to be removed after the cap and circlip?",
+      "answer": "Remove rubber ring (3), washer (4), snap ring (5) and rubber part (6).",
+      "question_type": "procedural",
+      "id": "25-07_gear-shi-q07"
+    },
+    {
+      "question": "What components are numbered 7 through 11 in the lower assembly diagram?",
+      "answer": "The components are: (7) circlip, (8) spring retainer, (9) spring, (10) upper plate, and (11) lower (ribbed) plate.",
+      "question_type": "visual",
+      "id": "25-07_gear-shi-q08"
+    },
+    {
+      "question": "What lubricant is specified for the upper and lower plates?",
+      "answer": "Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "25-07_gear-shi-q09"
+    },
+    {
+      "question": "Which plates should be lubricated during installation?",
+      "answer": "Lubricate upper and lower plates.",
+      "question_type": "procedural",
+      "id": "25-07_gear-shi-q10"
+    },
+    {
+      "question": "What is the procedure section number for this shift lever disassembly/assembly?",
+      "answer": "25 11 003.",
+      "question_type": "factual",
+      "id": "25-07_gear-shi-q11"
+    },
+    {
+      "question": "What type of console is this shift lever procedure for?",
+      "answer": "Sheet Metal Shift Console.",
+      "question_type": "factual",
+      "id": "25-07_gear-shi-q12"
+    }
+  ]
+}

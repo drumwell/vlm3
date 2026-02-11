@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-24-14",
+  "image_path": "raw/00 - Torque Specs/24-14.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:02:34.341705",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 805
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the torque converter to flywheel bolts on all transmission types?",
+      "answer": "26 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-14-q01"
+    },
+    {
+      "question": "Which transmission models require 45 Nm torque for the torque converter to flywheel connection?",
+      "answer": "A4S 270R, A4S 310R, A5S 310Z, A5S 300J, A5S 440Z, and A5S 560Z transmissions using M10 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-14-q02"
+    },
+    {
+      "question": "What torque specification applies to all other transmission models not specifically listed?",
+      "answer": "49 Nm using M10 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-14-q03"
+    },
+    {
+      "question": "What screw size is used for the standard torque converter to flywheel connection on most transmissions?",
+      "answer": "M8 screws are used for the standard connection requiring 26 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-14-q04"
+    },
+    {
+      "question": "How does the torque specification differ between the A4S/A5S series and other transmissions?",
+      "answer": "The A4S/A5S series uses M10 screws at 45 Nm, while other transmissions use M10 screws at 49 Nm, except for the standard which uses M8 screws at 26 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-14-q05"
+    },
+    {
+      "question": "What is the reference number for the torque converter to flywheel specification?",
+      "answer": "1AZ is the reference number for the torque converter to flywheel specification.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-14-q06"
+    },
+    {
+      "question": "Which section of the manual contains this torque converter information?",
+      "answer": "Section 24-14 Automatic Transmission, specifically item 24 40 for the torque converter.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-24-14-q07"
+    },
+    {
+      "question": "What are the three different torque values specified for torque converter to flywheel connections?",
+      "answer": "26 Nm for all types with M8 screws, 45 Nm for specific A4S/A5S models with M10 screws, and 49 Nm for all others with M10 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-14-q08"
+    },
+    {
+      "question": "Which transmission models are specifically mentioned for the 45 Nm torque specification?",
+      "answer": "A4S 270R, A4S 310R, A5S 310Z, A5S 300J, A5S 440Z, and A5S 560Z transmission models.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-14-q09"
+    },
+    {
+      "question": "What screw thread size requires the highest torque specification for the torque converter?",
+      "answer": "M10 screws require the highest torque at either 45 Nm or 49 Nm, depending on the transmission model.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-14-q10"
+    }
+  ]
+}

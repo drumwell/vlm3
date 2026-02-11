@@ -1,0 +1,91 @@
+{
+  "page_id": "23-170_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-170.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:34:23.509736",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 873
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool numbers are needed to press the grooved ball bearing onto the input shaft?",
+      "answer": "Special Tools 23 1 007, 23 1 000 and 23 1 006 are needed to press the grooved ball bearing onto the input shaft and into case front section.",
+      "question_type": "tool",
+      "id": "23-170_manual-t-q01"
+    },
+    {
+      "question": "What is the specific play measurement that should be adjusted between the bearing inner race and circlip?",
+      "answer": "The play between bearing inner race and circlip should be adjusted to 0...0.09 mm (0...0.0035 in).",
+      "question_type": "factual",
+      "id": "23-170_manual-t-q02"
+    },
+    {
+      "question": "What product should be used to coat the sealing surface of the oil drain plug?",
+      "answer": "The sealing surface should be coated with Loctite No. 573.",
+      "question_type": "tool",
+      "id": "23-170_manual-t-q03"
+    },
+    {
+      "question": "What is the important characteristic of the grooved ball bearing for the input shaft?",
+      "answer": "The inner race of the grooved ball bearing has a protrusion, and the protrusion faces the gear shaft.",
+      "question_type": "factual",
+      "id": "23-170_manual-t-q04"
+    },
+    {
+      "question": "How should you remove the grooved ball bearing according to the procedure?",
+      "answer": "Keep driving on the grooved ball bearing simultaneously with light hammer knocks while removing it.",
+      "question_type": "procedural",
+      "id": "23-170_manual-t-q05"
+    },
+    {
+      "question": "What lubricants are specified for installation in the guide sleeve procedure?",
+      "answer": "Pack lubrication groove N with Molykote Longterm 2, and coat guides F and bearings L with Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "23-170_manual-t-q06"
+    },
+    {
+      "question": "What heating method is recommended for the bearing inner race and case front section?",
+      "answer": "Heat the bearing inner race and case front section in the area of grooved ball bearing with a hot air blower.",
+      "question_type": "procedural",
+      "id": "23-170_manual-t-q07"
+    },
+    {
+      "question": "In the clutch release guide sleeve diagram, what do callout numbers 1, 2, and 3 indicate?",
+      "answer": "Number 1 indicates the spring to lift out, number 2 indicates the release lever to remove, and number 3 shows the thrust bearing.",
+      "question_type": "visual",
+      "id": "23-170_manual-t-q08"
+    },
+    {
+      "question": "What is the consequence of non-conformance during the guide sleeve installation?",
+      "answer": "Non-conformance could cause the release bearing to seize on the guide sleeve.",
+      "question_type": "safety",
+      "id": "23-170_manual-t-q09"
+    },
+    {
+      "question": "What important detail about Special Tool 23 1 006 is mentioned?",
+      "answer": "Insert Special Tools 23 1 006 so that the flat sides face the input shaft.",
+      "question_type": "procedural",
+      "id": "23-170_manual-t-q10"
+    },
+    {
+      "question": "What should be done to the sealing surface before mounting the case front section?",
+      "answer": "The sealing surface must be thoroughly clean and dried of oil before mounting the case front section.",
+      "question_type": "procedural",
+      "id": "23-170_manual-t-q11"
+    },
+    {
+      "question": "What procedure is described for removing the clutch release components?",
+      "answer": "Lift out spring (1) and remove release lever (2) with thrust bearing (3) as shown in the transmission removed procedure.",
+      "question_type": "procedural",
+      "id": "23-170_manual-t-q12"
+    }
+  ]
+}

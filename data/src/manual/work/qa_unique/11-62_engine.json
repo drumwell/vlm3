@@ -1,0 +1,79 @@
+{
+  "page_id": "11-62_engine",
+  "image_path": "raw/11 - Engine/11-62.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:14:53.057644",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 810
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to pull out the ball bearing from the crankshaft?",
+      "answer": "Special Tool 11 2 010 is needed to pull out the ball bearing from the crankshaft.",
+      "question_type": "tool",
+      "id": "11-62_engine-q01"
+    },
+    {
+      "question": "What is the correct installation order for the pilot bearing components?",
+      "answer": "The installation order is: Ball bearing (1), cover (2), felt ring (3) and capsule (4). Install cover (2) with the embossment facing out.",
+      "question_type": "procedural",
+      "id": "11-62_engine-q02"
+    },
+    {
+      "question": "What component is identified as number 11 in the crankshaft survey diagram?",
+      "answer": "Component number 11 in the crankshaft survey is the Crankshaft.",
+      "question_type": "visual",
+      "id": "11-62_engine-q05"
+    },
+    {
+      "question": "What must be removed before pulling out the ball bearing?",
+      "answer": "The clutch must be removed (see section 21 21 000) before pulling out the ball bearing.",
+      "question_type": "procedural",
+      "id": "11-62_engine-q06"
+    },
+    {
+      "question": "What are components 14 and 15 in the crankshaft assembly?",
+      "answer": "Component 14 is the Vibration damper and component 15 is the Washer.",
+      "question_type": "visual",
+      "id": "11-62_engine-q07"
+    },
+    {
+      "question": "Which component is the flywheel in the crankshaft survey?",
+      "answer": "The flywheel is component number 1 in the crankshaft survey diagram.",
+      "question_type": "visual",
+      "id": "11-62_engine-q08"
+    },
+    {
+      "question": "What is the section number and title for this procedure?",
+      "answer": "This is section 11 21 571 titled 'REPLACING PILOT BEARING IN CRANKSHAFT'.",
+      "question_type": "navigation",
+      "id": "11-62_engine-q09"
+    },
+    {
+      "question": "What components make up the main bearing assembly according to the survey?",
+      "answer": "The main bearing assembly consists of the Main bearing shell (4), Main bearing cap (5), and Main bearing cap bolt (6).",
+      "question_type": "component",
+      "id": "11-62_engine-q10"
+    },
+    {
+      "question": "What is component number 17 in the crankshaft assembly?",
+      "answer": "Component number 17 is the Radial oil seal.",
+      "question_type": "visual",
+      "id": "11-62_engine-q11"
+    },
+    {
+      "question": "How should the cover be oriented during installation?",
+      "answer": "Install the cover with the embossment facing out.",
+      "question_type": "procedural",
+      "id": "11-62_engine-q12"
+    }
+  ]
+}

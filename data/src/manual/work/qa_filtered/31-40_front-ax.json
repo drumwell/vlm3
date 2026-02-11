@@ -1,0 +1,91 @@
+{
+  "page_id": "31-40_front-ax",
+  "image_path": "raw/31 - Front Axle/31-40.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:04:09.316962",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 932
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tools are needed to pull out the bearing outer race?",
+      "answer": "Special Tools 33 1 356 / 371 and 33 4 041 / 042 are needed to pull out the bearing outer race.",
+      "question_type": "tool",
+      "id": "31-40_front-ax-q01"
+    },
+    {
+      "question": "What is the target distance (D target) for the block distance adjustment?",
+      "answer": "D target = 4.00 mm / 0.157\" (predetermined basic distance) + e or - e, e.g. -2 (plus/minus sign and number indicating 100ths mm are engraved in pinion).",
+      "question_type": "factual",
+      "id": "31-40_front-ax-q02"
+    },
+    {
+      "question": "What special tool is used to mount the dial gage for measuring block distance?",
+      "answer": "Mount dial gage 00 2 510 in Special Tool 31 5 071. Apply Special Tool 31 5 072 and set dial gage to zero with pre-load.",
+      "question_type": "tool",
+      "id": "31-40_front-ax-q03"
+    },
+    {
+      "question": "What should be measured and noted before proceeding with the adjustment procedure?",
+      "answer": "Important! Measure and note thickness of shim (C).",
+      "question_type": "inspection",
+      "id": "31-40_front-ax-q04"
+    },
+    {
+      "question": "What is shown in the diagram with callout number 33 4 042?",
+      "answer": "Callout number 33 4 042 indicates a special tool used in the bearing outer race removal procedure.",
+      "question_type": "visual",
+      "id": "31-40_front-ax-q05"
+    },
+    {
+      "question": "How should Special Tool 31 5 072 be positioned during the measurement process?",
+      "answer": "Place Special Tool 31 5 072 on pinion. Insert Special Tool 31 5 071 in case bores. Read distance (D) to special tool gage and note value.",
+      "question_type": "procedural",
+      "id": "31-40_front-ax-q06"
+    },
+    {
+      "question": "What is the example calculation given for the D target determination?",
+      "answer": "Example: D target = 4.00 mm - 0.02 mm = 3.98 mm (0.157\" - 0.001\" = 0.156\").",
+      "question_type": "factual",
+      "id": "31-40_front-ax-q07"
+    },
+    {
+      "question": "What should be done with the originally installed shim during reassembly?",
+      "answer": "Install drive set with the originally installed shim (A), e.g. A = 1.80 mm (0.071\"), and bolt.",
+      "question_type": "procedural",
+      "id": "31-40_front-ax-q08"
+    },
+    {
+      "question": "What is the example D actual value mentioned in the procedure?",
+      "answer": "For example: D actual = 3.99 mm (0.153\").",
+      "question_type": "factual",
+      "id": "31-40_front-ax-q09"
+    },
+    {
+      "question": "What components are identified with callouts 33 1 356 and 33 1 371?",
+      "answer": "These are special tools used in conjunction with tool 33 4 041 for pulling out the bearing outer race.",
+      "question_type": "visual",
+      "id": "31-40_front-ax-q10"
+    },
+    {
+      "question": "What special tool number is labeled 31 5 071 in the diagrams?",
+      "answer": "Special Tool 31 5 071 is the tool that holds the dial gage 00 2 510 and is inserted in the case bores during the distance measurement procedure.",
+      "question_type": "component",
+      "id": "31-40_front-ax-q11"
+    },
+    {
+      "question": "What procedure is being described in section 2 of this page?",
+      "answer": "Block Distance Adjustment from Ring Gear and Pinion.",
+      "question_type": "factual",
+      "id": "31-40_front-ax-q12"
+    }
+  ]
+}

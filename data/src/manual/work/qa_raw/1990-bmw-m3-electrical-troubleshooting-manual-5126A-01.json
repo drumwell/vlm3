@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/5126A-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:00:20.700137",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1893,
+    "tokens_output": 609
+  },
+  "qa_pairs": [
+    {
+      "question": "What operation number involves turning the key to UNLOCK?",
+      "answer": "Operation 3 involves turning the key to UNLOCK.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01-q01"
+    },
+    {
+      "question": "If some doors unlock during Operation 3, what repair action is required?",
+      "answer": "Repair/replace the suspect Door Lock Motor circuit.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01-q02"
+    },
+    {
+      "question": "What should you do if no doors unlock during Operation 3?",
+      "answer": "Proceed to Operation 5.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01-q03"
+    },
+    {
+      "question": "In Operation 4, where should the key be inserted?",
+      "answer": "Insert the key in the Passenger's door.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01-q04"
+    },
+    {
+      "question": "If all doors lock during Operation 4, what repair action is needed?",
+      "answer": "If the doors did not lock in Operation 1, repair/replace the Driver's Door Lock Switch, otherwise proceed to Operation 5.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01-q05"
+    },
+    {
+      "question": "What component should be repaired if no doors lock during Operation 4?",
+      "answer": "If all the doors locked in Operation 1, repair/replace the Right Front Door Microswitch. If the doors did not lock in Operation 1, perform Test A.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01-q06"
+    },
+    {
+      "question": "What is the ignition switch position required in Operation 6?",
+      "answer": "Turn the Ignition Switch to RUN.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01-q07"
+    },
+    {
+      "question": "What terminal should be checked for a short to ground in Operation 7?",
+      "answer": "Check for a short to ground in the wires at terminal 11.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01-q08"
+    },
+    {
+      "question": "What component should be replaced if a short to ground is not present at terminal 11?",
+      "answer": "If short to ground is not present, replace the Central Locking Control Unit.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01-q09"
+    },
+    {
+      "question": "In Operation 7, how do you unlock each door manually?",
+      "answer": "Unlock each of the doors by pulling up the Safety Catch Buttons.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5126A-01-q10"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "13-730_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-730.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:46:53.919423",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 742
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing throttle valve necks?",
+      "answer": "Unscrew capped nuts (1) on all four throttle valve necks.",
+      "question_type": "procedural",
+      "id": "13-730_fuel-sys-q01"
+    },
+    {
+      "question": "Which hose straps need to be loosened during throttle valve neck removal?",
+      "answer": "Loosen hose straps (2 ... 4).",
+      "question_type": "procedural",
+      "id": "13-730_fuel-sys-q02"
+    },
+    {
+      "question": "What should be checked during installation of throttle valve necks?",
+      "answer": "Check O-rings (6), replacing if necessary. Replace hose (7) between manifold and crankcase.",
+      "question_type": "inspection",
+      "id": "13-730_fuel-sys-q03"
+    },
+    {
+      "question": "What components need to be disconnected after loosening the hose straps?",
+      "answer": "Disconnect throttle cable (5). Take off air intake manifold and cut off hose between manifold and crankcase (cannot be pulled off).",
+      "question_type": "procedural",
+      "id": "13-730_fuel-sys-q04"
+    },
+    {
+      "question": "What type of nuts are used to secure the throttle valve necks?",
+      "answer": "Torx nuts (1) are used on all throttle valve necks.",
+      "question_type": "factual",
+      "id": "13-730_fuel-sys-q05"
+    },
+    {
+      "question": "What should be done with the plug on the throttle valve switch?",
+      "answer": "Pull off plug on throttle valve switch.",
+      "question_type": "procedural",
+      "id": "13-730_fuel-sys-q06"
+    },
+    {
+      "question": "Which component is identified as item 8 in the diagram?",
+      "answer": "Item 8 is the plug plate on fuel injectors.",
+      "question_type": "visual",
+      "id": "13-730_fuel-sys-q07"
+    },
+    {
+      "question": "What vacuum hose needs to be removed during the procedure?",
+      "answer": "Pull off vacuum hose for the fuel pressure regulator.",
+      "question_type": "procedural",
+      "id": "13-730_fuel-sys-q08"
+    },
+    {
+      "question": "What bolts need to be unscrewed when lifting off the injection pipe?",
+      "answer": "Unscrew bolts (9 and 10) and lift off injection pipe with fuel injectors.",
+      "question_type": "procedural",
+      "id": "13-730_fuel-sys-q09"
+    },
+    {
+      "question": "What safety precaution is mentioned regarding needle bearings?",
+      "answer": "Do not lean on needle bearings. Keep dirt off of bearings and don't damage the shaft.",
+      "question_type": "safety",
+      "id": "13-730_fuel-sys-q10"
+    },
+    {
+      "question": "What should be checked when separating throttle valve necks?",
+      "answer": "Check O-ring of connecting pipe, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "13-730_fuel-sys-q11"
+    }
+  ]
+}

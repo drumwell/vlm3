@@ -1,0 +1,70 @@
+{
+  "page_id": "41-005_body",
+  "image_path": "raw/41 - Body/41-005.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:35:31.319266",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1751,
+    "tokens_output": 523
+  },
+  "qa_pairs": [
+    {
+      "question": "What specific BMW models do these frame alignment control dimensions apply to?",
+      "answer": "These frame alignment control dimensions apply to BMW 3 Series E30 All Wheel Drive Cars.",
+      "question_type": "factual",
+      "id": "41-005_body-q01"
+    },
+    {
+      "question": "What are the two measurement points labeled A and B used for?",
+      "answer": "Point A is for Front axle take-up and Point B is for Rear Axle take-up measurements.",
+      "question_type": "component",
+      "id": "41-005_body-q02"
+    },
+    {
+      "question": "What is the critical measurement distance between points A and B?",
+      "answer": "The distance between points A and B is 2017\u00b115 mm.",
+      "question_type": "factual",
+      "id": "41-005_body-q03"
+    },
+    {
+      "question": "What measurement is shown at point B for the rear axle take-up?",
+      "answer": "The measurement at point B shows 4294\u00b115 mm for the rear axle take-up.",
+      "question_type": "factual",
+      "id": "41-005_body-q04"
+    },
+    {
+      "question": "What units are all the dimensions given in on this page?",
+      "answer": "All dimensions are given in mm (millimeters).",
+      "question_type": "factual",
+      "id": "41-005_body-q05",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What is the width measurement shown in the bottom diagram?",
+      "answer": "The width measurement shown in the bottom diagram is 170 mm.",
+      "question_type": "factual",
+      "id": "41-005_body-q06"
+    },
+    {
+      "question": "What important note is provided regarding the use of these values?",
+      "answer": "The note states to only use these values for a rough inspection, and that repairs can only be carried out correctly with the approved set of attachments and a straightening bench.",
+      "question_type": "safety",
+      "id": "41-005_body-q07"
+    },
+    {
+      "question": "What are the key vertical measurements shown in the bottom right view?",
+      "answer": "The key vertical measurements in the bottom right view are 1224\u00b10.5 mm and 1038.8\u00b12.0 mm.",
+      "question_type": "factual",
+      "id": "41-005_body-q08"
+    }
+  ]
+}

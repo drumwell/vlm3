@@ -1,0 +1,76 @@
+{
+  "page_id": "00-torque-specs-17-02",
+  "image_path": "raw/00 - Torque Specs/17-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:56:24.251035",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 577
+  },
+  "qa_pairs": [
+    {
+      "question": "What torque should be applied to the M6 screws when mounting the radiator to the body?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-02-q02"
+    },
+    {
+      "question": "What is the torque specification for the drain plug on the radiator?",
+      "answer": "2.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-02-q03"
+    },
+    {
+      "question": "How much torque is required for the temperature switch to radiator connection?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-02-q04"
+    },
+    {
+      "question": "What is the maximum temperature rating specified for the temperature switch to radiator?",
+      "answer": "91\u00b0C / 99\u00b0C max",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-02-q05"
+    },
+    {
+      "question": "Which component has the highest torque specification in the radiator mounting section?",
+      "answer": "The temperature switch to radiator at 15 Nm",
+      "question_type": "comparison",
+      "id": "00-torque-specs-17-02-q07",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "Do all the radiator and mounting parts specifications apply to all vehicle types?",
+      "answer": "Yes, all specifications show 'All' in the Type column",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-02-q08"
+    },
+    {
+      "question": "What is the lowest torque specification listed for radiator components?",
+      "answer": "2.5 Nm for the drain plug on radiator",
+      "question_type": "comparison",
+      "id": "00-torque-specs-17-02-q09",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "Which two components share the same 9 Nm torque specification?",
+      "answer": "The radiator to body self-tapping screw (B6.3) and the expansion tank to body both require 9 Nm",
+      "question_type": "comparison",
+      "id": "00-torque-specs-17-02-q10",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    }
+  ]
+}

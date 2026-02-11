@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8000-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:15:32.717614",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 528
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the page number and section title shown in this diagram?",
+      "answer": "This is page 8000-3 from the Splice Location Views section showing Engine Harness Splice Locations.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-03-q01"
+    },
+    {
+      "question": "Where is splice S150 located in the engine compartment?",
+      "answer": "Splice S150 is located on the left side of the engine compartment near the power distribution box area.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-03-q02"
+    },
+    {
+      "question": "What splice locations are shown in the upper portion of the engine compartment?",
+      "answer": "The splice locations S104, S112, and S106 are shown in the upper portion of the engine compartment.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-03-q03"
+    },
+    {
+      "question": "Which splice is located closest to the diagnostic connector?",
+      "answer": "Splice S107 is located closest to the diagnostic connector.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-03-q04"
+    },
+    {
+      "question": "What are the three splice identifiers shown in the middle area of the engine compartment?",
+      "answer": "The three splice identifiers shown in the middle area are S105, S108, and S151.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-03-q05"
+    },
+    {
+      "question": "What component is labeled C101 in this diagram?",
+      "answer": "C101 appears to be a connector location in the engine harness splice diagram.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-03-q06"
+    },
+    {
+      "question": "What two major components are specifically labeled at the bottom of the diagram?",
+      "answer": "The two major components labeled at the bottom are the Power Distribution Box and the Diagnostic Connector.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-03-q07"
+    },
+    {
+      "question": "How many individual splice locations are identified in this engine harness diagram?",
+      "answer": "There are 8 individual splice locations identified: S104, S105, S106, S107, S108, S112, S150, and S151.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-03-q08"
+    }
+  ]
+}

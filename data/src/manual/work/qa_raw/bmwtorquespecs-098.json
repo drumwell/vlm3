@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-098",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/098.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:30:54.324409",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 712
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the plug in rear casing section on all transmission types?",
+      "answer": "60 Nm with M20 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-098-q01"
+    },
+    {
+      "question": "What screw size and torque is required for the sealing caps on rear case section for 240/260/280 transmissions?",
+      "answer": "M6 screw with 10 Nm torque.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-098-q02"
+    },
+    {
+      "question": "What is the torque specification for the reversing bolt to reversing lever on ZF S-5-16/5 S D 310 Z transmissions?",
+      "answer": "43 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-098-q03"
+    },
+    {
+      "question": "How much torque should be applied to clamping claws to rear case section?",
+      "answer": "33 Nm for ZF S-5-16/5 S D 310 Z transmissions.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-098-q04"
+    },
+    {
+      "question": "What is the torque value for screws on detent plate?",
+      "answer": "9 Nm for ZF S-5-16/5 S D 310 Z transmissions.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-098-q05"
+    },
+    {
+      "question": "Which transmission types use M16 screws with 40 Nm torque for the plug in rear casing section?",
+      "answer": "240 type transmissions.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-098-q06"
+    },
+    {
+      "question": "What screw size is used for the plug in rear casing section on 260/280 transmissions?",
+      "answer": "M22 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-098-q07"
+    },
+    {
+      "question": "What section of the manual does this torque specification table cover?",
+      "answer": "Section 23-5 Manual transmission, specifically 23 11 Case and Covers.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-098-q08"
+    },
+    {
+      "question": "Which components in this table have the same torque specification of 43 Nm and 33 Nm respectively?",
+      "answer": "The reversing bolt to reversing lever has 43 Nm, and the clamping claws to rear case section has 33 Nm, both for ZF S-5-16/5 S D 310 Z transmissions.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-098-q09"
+    },
+    {
+      "question": "What are the reference numbers for the sealing caps and reversing bolt components?",
+      "answer": "12AZ for sealing caps on rear case section and 13AZ for reversing bolt to reversing lever.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-098-q10"
+    }
+  ]
+}

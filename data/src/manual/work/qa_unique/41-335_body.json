@@ -1,0 +1,49 @@
+{
+  "page_id": "41-335_body",
+  "image_path": "raw/41 - Body/41-335.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:04:37.748967",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 689
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the upper tail panel connecting joint if applicable?",
+      "answer": "If applicable, tin the upper tail panel connecting joint.",
+      "question_type": "procedural",
+      "id": "41-335_body-q01"
+    },
+    {
+      "question": "What should you do if necessary when working on the wheel housing opening flange?",
+      "answer": "Compare with opposite side if necessary.",
+      "question_type": "procedural",
+      "id": "41-335_body-q03"
+    },
+    {
+      "question": "What specific area should receive anti-drumming compound spray according to the bottom instruction?",
+      "answer": "Spray anti-drumming compound on the side panel/tail panel joint underneath the bumper.",
+      "question_type": "procedural",
+      "id": "41-335_body-q06"
+    },
+    {
+      "question": "When is crimping of the spot welding flange required?",
+      "answer": "Crimping is required on cars beginning with 1988 models or when using wider tires.",
+      "question_type": "factual",
+      "id": "41-335_body-q10"
+    },
+    {
+      "question": "What two types of compounds are specified for joint treatment?",
+      "answer": "Body sealing compound and anti-drumming compound.",
+      "question_type": "factual",
+      "id": "41-335_body-q11"
+    }
+  ]
+}

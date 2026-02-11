@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/9005-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:18:54.459387",
+    "prompt_template": "electrical_manual/specification",
+    "tokens_input": 1909,
+    "tokens_output": 536
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the Main Fuel Pump located on the BMW E30 M3?",
+      "answer": "Below LH rear of car, in front of rear wheel.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02-q01"
+    },
+    {
+      "question": "What page and figure reference is provided for the Motronic Control Unit?",
+      "answer": "Page-Figure 7000- 9-5",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02-q02"
+    },
+    {
+      "question": "Where can I find the Oil Pressure Switch in the engine compartment?",
+      "answer": "Lower LH front of engine.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02-q03"
+    },
+    {
+      "question": "What is the location of the On-Board Computer Module?",
+      "answer": "Center of dash, on RH side of digital radio.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02-q04"
+    },
+    {
+      "question": "Where is the Oxygen Sensor located on the BMW E30 M3?",
+      "answer": "Lower RH rear of engine compartment, on exhaust manifold.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02-q05"
+    },
+    {
+      "question": "What page reference is given for the Power Distribution Box?",
+      "answer": "7000- 0-1",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02-q06"
+    },
+    {
+      "question": "Where can I locate the Speed Detectors on the vehicle?",
+      "answer": "On respective wheel assemblies, in brake housing.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02-q07"
+    },
+    {
+      "question": "What is the location of the TDC Sensor?",
+      "answer": "Lower LH rear of engine.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02-q08"
+    },
+    {
+      "question": "Where is the Trunk Light Switch positioned?",
+      "answer": "Top center of trunk lid.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02-q09"
+    },
+    {
+      "question": "What page and figure reference is provided for the SRS Diagnostic Module?",
+      "answer": "Page-Figure 7000- 6-2",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-02-q10"
+    }
+  ]
+}

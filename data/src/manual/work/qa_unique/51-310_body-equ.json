@@ -1,0 +1,91 @@
+{
+  "page_id": "51-310_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-310.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:18:35.977460",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 769
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool numbers are needed to pull rubber frame off the body and window glass?",
+      "answer": "Special Tool 51 3 057 is needed to pull the rubber frame off the body and window glass carefully.",
+      "question_type": "tool",
+      "id": "51-310_body-equ-q01"
+    },
+    {
+      "question": "What is the procedure for removing the windshield once it's loosened?",
+      "answer": "Loosen and press out windshield with foot pressure carefully, beginning at an upper corner.",
+      "question_type": "procedural",
+      "id": "51-310_body-equ-q02"
+    },
+    {
+      "question": "What important note is given about the rubber frame in newer versions?",
+      "answer": "The rubber frame has sheet metal reinforcement in contradiction to older versions, which changes the installation procedures.",
+      "question_type": "factual",
+      "id": "51-310_body-equ-q03"
+    },
+    {
+      "question": "Where should you begin when placing the rubber frame in the body opening?",
+      "answer": "Begin with the seam at bottom center when placing the rubber frame in the body opening.",
+      "question_type": "procedural",
+      "id": "51-310_body-equ-q04"
+    },
+    {
+      "question": "What should be applied to the fold for the window glass and filler strip?",
+      "answer": "Rub in fold for window glass and filler strip with a lubricant.",
+      "question_type": "procedural",
+      "id": "51-310_body-equ-q05"
+    },
+    {
+      "question": "What tool is used to pull the rubber frame over the window glass all around?",
+      "answer": "Pull rubber frame over window glass all around with a flat wood or plastic scraper.",
+      "question_type": "tool",
+      "id": "51-310_body-equ-q06"
+    },
+    {
+      "question": "What special tools are needed to pull the filler strip into the rubber frame?",
+      "answer": "Special Tools 51 3 051 and 51 3 058 are needed to pull the filler strip into the rubber frame, beginning at bottom center.",
+      "question_type": "tool",
+      "id": "51-310_body-equ-q07"
+    },
+    {
+      "question": "What should you do with the windshield in the window opening holder?",
+      "answer": "Slide windshield into window opening holder, starting from the middle, and center.",
+      "question_type": "procedural",
+      "id": "51-310_body-equ-q08"
+    },
+    {
+      "question": "What inspection should be performed during installation?",
+      "answer": "Check rubber frame and filler strip, replacing if necessary during installation.",
+      "question_type": "inspection",
+      "id": "51-310_body-equ-q09"
+    },
+    {
+      "question": "What happens to the rubber frame after the windshield is removed?",
+      "answer": "The rubber frame remains in the body opening after the windshield is pressed out.",
+      "question_type": "factual",
+      "id": "51-310_body-equ-q10"
+    },
+    {
+      "question": "How should the rubber frame be pressed into the body opening?",
+      "answer": "Press rubber frame firmly into body opening.",
+      "question_type": "procedural",
+      "id": "51-310_body-equ-q11"
+    },
+    {
+      "question": "What is the first step shown in the windshield replacement procedure?",
+      "answer": "Pull out filler strip, then pull rubber frame off of body and window glass carefully with Special Tool 51 3 057.",
+      "question_type": "procedural",
+      "id": "51-310_body-equ-q12"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-088",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/088.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:32:40.494752",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 610
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for pipes to engine oil cooler?",
+      "answer": "28 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-088-q01"
+    },
+    {
+      "question": "What torque should be applied to pipes to oil filter head on the E36 M3?",
+      "answer": "25 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-088-q02"
+    },
+    {
+      "question": "What torque and screw type are specified for the holder for oil cooler pipes to alternator on the E36 M3?",
+      "answer": "10 Nm with M6 screw",
+      "question_type": "factual",
+      "id": "00-torque-specs-088-q04"
+    },
+    {
+      "question": "Which oil cooler pipe components apply to all vehicle types?",
+      "answer": "Pipes to engine oil cooler (1AZ) and holder on oil cooler pipes (3AZ)",
+      "question_type": "factual",
+      "id": "00-torque-specs-088-q05"
+    },
+    {
+      "question": "Which oil cooler pipe specifications are specific to the E36 M3?",
+      "answer": "Pipes to oil filter head (2AZ) and holder for oil cooler pipes to alternator (4AZ)",
+      "question_type": "factual",
+      "id": "00-torque-specs-088-q06"
+    },
+    {
+      "question": "What is the difference in torque between pipes to engine oil cooler and pipes to oil filter head?",
+      "answer": "3 Nm (28 Nm vs 25 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-088-q08"
+    },
+    {
+      "question": "Which oil cooler pipe component has the lowest torque specification?",
+      "answer": "Holder on oil cooler pipes at 6 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-088-q09"
+    },
+    {
+      "question": "What section and subsection does this oil cooler pipes specification belong to?",
+      "answer": "Section 17-4 Radiator, subsection 17 22 Oil Cooler Pipes",
+      "question_type": "navigation",
+      "id": "00-torque-specs-088-q10"
+    }
+  ]
+}

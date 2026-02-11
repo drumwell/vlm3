@@ -1,0 +1,91 @@
+{
+  "page_id": "00-12_maintena",
+  "image_path": "raw/00 - Maintenance/00-12.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:14:13.684832",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 764
+  },
+  "qa_pairs": [
+    {
+      "question": "What inspection code is referenced for checking brake lines and connections?",
+      "answer": "The inspection code is 00 00 220 BMW Inspection I, and it references Group 34 for checking brake lines and connections for leaks, damage or distortion.",
+      "question_type": "factual",
+      "id": "00-12_maintena-q01"
+    },
+    {
+      "question": "What should be done with tire inflation pressure during this inspection?",
+      "answer": "Check tire inflation pressure and correct if necessary, including the spare wheel. This task references Group 36 and has a plus (+) marking in the Owner's Manual column.",
+      "question_type": "procedural",
+      "id": "00-12_maintena-q02"
+    },
+    {
+      "question": "What specific maintenance is required for door and hood hinges?",
+      "answer": "Lubricate door hinges and hood hinges with oil, and lubricate door locks with grease and check their function.",
+      "question_type": "procedural",
+      "id": "00-12_maintena-q03"
+    },
+    {
+      "question": "What type of water should be added to the battery if necessary?",
+      "answer": "Add distilled water if necessary when checking the battery acid level.",
+      "question_type": "factual",
+      "id": "00-12_maintena-q04"
+    },
+    {
+      "question": "Which group number is referenced for air conditioner and Freon charge inspection?",
+      "answer": "Group 64 is referenced for checking the function of air conditioner and Freon charge.",
+      "question_type": "factual",
+      "id": "00-12_maintena-q05"
+    },
+    {
+      "question": "What should be inspected regarding the parking brake cables?",
+      "answer": "Check movement of brake cables and adjust parking brake as part of the brake lines and connections inspection.",
+      "question_type": "inspection",
+      "id": "00-12_maintena-q06"
+    },
+    {
+      "question": "What condition assessment is required for the tires?",
+      "answer": "Check condition of tires as part of the inspection routine.",
+      "question_type": "inspection",
+      "id": "00-12_maintena-q07"
+    },
+    {
+      "question": "What type of lubricant is specified for door locks?",
+      "answer": "Grease is specified for lubricating door locks, and their function should also be checked.",
+      "question_type": "tool",
+      "id": "00-12_maintena-q08"
+    },
+    {
+      "question": "Which maintenance item has a plus (+) marking in the Owner's Manual column?",
+      "answer": "Checking tire inflation pressure (including spare wheel) has a plus (+) marking in the Owner's Manual column.",
+      "question_type": "visual",
+      "id": "00-12_maintena-q09"
+    },
+    {
+      "question": "What should be checked regarding brake lines beyond just leaks?",
+      "answer": "Check brake lines and connections for leaks, damage, or distortion.",
+      "question_type": "inspection",
+      "id": "00-12_maintena-q10"
+    },
+    {
+      "question": "What are the two components of the air conditioning system check?",
+      "answer": "Check function of air conditioner and Freon charge.",
+      "question_type": "factual",
+      "id": "00-12_maintena-q11"
+    },
+    {
+      "question": "What page number is shown at the top of this maintenance schedule?",
+      "answer": "Page 00-12 is shown at the top of this maintenance schedule page.",
+      "question_type": "factual",
+      "id": "00-12_maintena-q12"
+    }
+  ]
+}

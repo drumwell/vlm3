@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-101",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/101.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:35:12.565236",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 506
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for shift arms to transmission case?",
+      "answer": "45 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-101-q01"
+    },
+    {
+      "question": "What type of screw is used for the shift arms to transmission case connection?",
+      "answer": "S 5 D 310 Z",
+      "question_type": "factual",
+      "id": "00-torque-specs-101-q02"
+    },
+    {
+      "question": "What section does this manual page belong to?",
+      "answer": "23 - 8 Manual transmission",
+      "question_type": "navigation",
+      "id": "00-torque-specs-101-q03"
+    },
+    {
+      "question": "What subsection covers the shift arms specification?",
+      "answer": "23 31 Interior Shift Components",
+      "question_type": "navigation",
+      "id": "00-torque-specs-101-q05"
+    },
+    {
+      "question": "What unit is used for the shift arms torque specification?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-101-q06"
+    },
+    {
+      "question": "Which component requires a torque of 45 Nm during installation?",
+      "answer": "Shift arms to transmission case",
+      "question_type": "application",
+      "id": "00-torque-specs-101-q07",
+      "_warnings": [
+        "Invalid question_type: application"
+      ]
+    },
+    {
+      "question": "What is the document reference number shown at the top of the page?",
+      "answer": "AZD23-8.frb",
+      "question_type": "factual",
+      "id": "00-torque-specs-101-q08"
+    },
+    {
+      "question": "What date is shown on this manual page?",
+      "answer": "20/10/97",
+      "question_type": "factual",
+      "id": "00-torque-specs-101-q09"
+    },
+    {
+      "question": "How many different components are listed in the Interior Shift Components section on this page?",
+      "answer": "One component - shift arms to transmission case",
+      "question_type": "factual",
+      "id": "00-torque-specs-101-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "13-812_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-812.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:51:13.126740",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 700
+  },
+  "qa_pairs": [
+    {
+      "question": "What should the ohmmeter display when checking the idle control valve resistance?",
+      "answer": "Ohmmeter displaying 9 to 10 ohms with a component temperature of 23 \u00b1 5\u00b0 C (73 \u00b1 9\u00b0 F).",
+      "question_type": "diagnostic",
+      "id": "13-812_fuel-sys-q02"
+    },
+    {
+      "question": "What should you do if the idle control valve resistance is not within specification?",
+      "answer": "Replace idle control valve and check code number and color code.",
+      "question_type": "troubleshooting",
+      "id": "13-812_fuel-sys-q03"
+    },
+    {
+      "question": "How do you test the wiring between the control unit and idle control valve?",
+      "answer": "Connect ammeter (M 03) between idle control valve and wire plug, run engine with operating temperature at idle speed, and check if ammeter displays 400 to 500 mA.",
+      "question_type": "diagnostic",
+      "id": "13-812_fuel-sys-q04"
+    },
+    {
+      "question": "What should you do if there are breaks in the wiring to the idle control valve?",
+      "answer": "Check flow of both wires from control unit to idle valve according to wiring diagram with ohmmeter (M 06), eliminate any breaks, and if there are no breaks, replace control unit and check code number and color code.",
+      "question_type": "troubleshooting",
+      "id": "13-812_fuel-sys-q05"
+    },
+    {
+      "question": "What should happen to engine speed when you pull off the wire plug on the idle control valve while the engine is running at operating temperature?",
+      "answer": "Engine speed should rise to approx. 2,000 rpm.",
+      "question_type": "diagnostic",
+      "id": "13-812_fuel-sys-q06"
+    },
+    {
+      "question": "If the engine speed doesn't rise when the idle control valve plug is removed, what should you do?",
+      "answer": "Replace idle control valve and check code number and color code.",
+      "question_type": "troubleshooting",
+      "id": "13-812_fuel-sys-q07"
+    },
+    {
+      "question": "What is the minimum engine oil temperature required for these tests?",
+      "answer": "Engine oil temperature at least 60\u00b0 C (140\u00b0 F).",
+      "question_type": "parameter",
+      "id": "13-812_fuel-sys-q09"
+    },
+    {
+      "question": "What conclusion can you draw if all tests pass successfully?",
+      "answer": "Idle control valve is okay!",
+      "question_type": "diagnostic",
+      "id": "13-812_fuel-sys-q10"
+    }
+  ]
+}

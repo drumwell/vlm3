@@ -1,0 +1,91 @@
+{
+  "page_id": "23-308_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-308.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:43:12.546700",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 853
+  },
+  "qa_pairs": [
+    {
+      "question": "What Loctite number should be used when replacing the end cap?",
+      "answer": "Loctite No. 573 should be used when replacing and installing the end cap.",
+      "question_type": "factual",
+      "id": "23-308_manual-t-q01"
+    },
+    {
+      "question": "What temperature should the bearing inner race be heated to during installation?",
+      "answer": "Heat the bearing inner race to about 80\u00b0C (175\u00b0F) with a hot air blower and slide onto the output shaft.",
+      "question_type": "procedural",
+      "id": "23-308_manual-t-q02"
+    },
+    {
+      "question": "What is the proper procedure for positioning the output shaft and engaging second gear?",
+      "answer": "Position the output shaft upright, engage second gear, then adjust the reverse/5th gear selector rod until the opening of the 5th gear selector rod is aligned with the end of the 1st/2nd gear selector rod.",
+      "question_type": "procedural",
+      "id": "23-308_manual-t-q03"
+    },
+    {
+      "question": "What important preparation step must be done before applying Loctite No. 573 to sealing surfaces?",
+      "answer": "Sealing surfaces must be cleaned thoroughly and dried of oil before coating with Loctite No. 573.",
+      "question_type": "procedural",
+      "id": "23-308_manual-t-q04"
+    },
+    {
+      "question": "What does callout number 6 indicate in the transmission assembly procedure?",
+      "answer": "Callout number 6 shows pressing the lockpin into the opening of the 1st/2nd gear selector rod, with instructions to push on and bolt down the transmission case rear section.",
+      "question_type": "visual",
+      "id": "23-308_manual-t-q05"
+    },
+    {
+      "question": "What special tool is required for driving in the radial oil seal?",
+      "answer": "Special Tool 23 1 370 is required to drive in the radial oil seal flush.",
+      "question_type": "tool",
+      "id": "23-308_manual-t-q06"
+    },
+    {
+      "question": "What critical requirement is mentioned for the lockpin installation?",
+      "answer": "The lockpin must move easily and face down after installation.",
+      "question_type": "inspection",
+      "id": "23-308_manual-t-q07"
+    },
+    {
+      "question": "What should be done with the rollers during transmission case mounting?",
+      "answer": "Hold the rollers in position with grease when mounting the transmission case rear section.",
+      "question_type": "procedural",
+      "id": "23-308_manual-t-q08"
+    },
+    {
+      "question": "What does callout number 9 show in the bearing installation diagram?",
+      "answer": "Callout number 9 indicates the bearing inner race that should be heated to 80\u00b0C and slid onto the output shaft.",
+      "question_type": "visual",
+      "id": "23-308_manual-t-q09"
+    },
+    {
+      "question": "What component is shown in callout number 2 and what installation step is required?",
+      "answer": "Callout number 2 shows a spacer that needs to be installed during the assembly process.",
+      "question_type": "visual",
+      "id": "23-308_manual-t-q10"
+    },
+    {
+      "question": "What specific action should be taken regarding the spring of the selector arm during installation?",
+      "answer": "Make sure the spring of the selector arm engages on lever 8 during the mounting procedure.",
+      "question_type": "procedural",
+      "id": "23-308_manual-t-q11"
+    },
+    {
+      "question": "What tool number is referenced for knocking against the ball bearing if necessary?",
+      "answer": "Special Tool 23 1 440 should be used if it's necessary to knock against the ball bearing during output shaft installation.",
+      "question_type": "tool",
+      "id": "23-308_manual-t-q12"
+    }
+  ]
+}

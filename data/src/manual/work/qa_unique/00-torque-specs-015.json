@@ -1,0 +1,25 @@
+{
+  "page_id": "00-torque-specs-015",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/015.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:18:46.811824",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 553
+  },
+  "qa_pairs": [
+    {
+      "question": "How does the initial torque differ between M21 and M30 cylinder head bolts?",
+      "answer": "M21 bolts require 50 Nm while M30 bolts require 60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-015-q06"
+    }
+  ]
+}

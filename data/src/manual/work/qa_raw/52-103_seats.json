@@ -1,0 +1,91 @@
+{
+  "page_id": "52-103_seats",
+  "image_path": "raw/52 - Seats/52-103.jpg",
+  "section_id": "52",
+  "section_name": "Seats",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:38:16.291430",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 730
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the back panel for left or right front seat backrest?",
+      "answer": "The procedure number is 52 10 450.",
+      "question_type": "factual",
+      "id": "52-103_seats-q01"
+    },
+    {
+      "question": "How do you remove the back panel on a BMW 318i front seat?",
+      "answer": "Unscrew screws and pull back panel down.",
+      "question_type": "procedural",
+      "id": "52-103_seats-q02"
+    },
+    {
+      "question": "What are the steps for removing the back panel on a BMW sport seat?",
+      "answer": "Unscrew screws and pull off handles.",
+      "question_type": "procedural",
+      "id": "52-103_seats-q03"
+    },
+    {
+      "question": "What should you do after unscrewing the screws on the sport seat back panel?",
+      "answer": "Pull off handles.",
+      "question_type": "procedural",
+      "id": "52-103_seats-q04"
+    },
+    {
+      "question": "How do you remove the plates from underneath the seat?",
+      "answer": "Lift out plates from underneath.",
+      "question_type": "procedural",
+      "id": "52-103_seats-q05"
+    },
+    {
+      "question": "What is the procedure for accessing the inside handle on the passenger's side?",
+      "answer": "Unscrew screws and lift out holder from above.",
+      "question_type": "procedural",
+      "id": "52-103_seats-q06"
+    },
+    {
+      "question": "How do you remove the back panel after accessing the inside handle?",
+      "answer": "Push up back panel and remove over outside handle.",
+      "question_type": "procedural",
+      "id": "52-103_seats-q07"
+    },
+    {
+      "question": "What diagram number shows the BMW 318i seat back panel removal?",
+      "answer": "Diagram 30 52 027 shows the BMW 318i seat back panel removal.",
+      "question_type": "visual",
+      "id": "52-103_seats-q08"
+    },
+    {
+      "question": "What diagram number illustrates the sport seat handle removal?",
+      "answer": "Diagram 30 52 028 illustrates the sport seat handle removal.",
+      "question_type": "visual",
+      "id": "52-103_seats-q09"
+    },
+    {
+      "question": "Which diagram shows lifting out the plates from underneath?",
+      "answer": "Diagram 30 52 029 shows lifting out the plates from underneath.",
+      "question_type": "visual",
+      "id": "52-103_seats-q10"
+    },
+    {
+      "question": "What is shown in diagram 30 52 030?",
+      "answer": "Diagram 30 52 030 shows the inside handle on the passenger's side and the procedure for unscrewing screws and lifting out the holder from above.",
+      "question_type": "visual",
+      "id": "52-103_seats-q11"
+    },
+    {
+      "question": "What is the difference in procedure between BMW 318i and BMW sport seat back panel removal?",
+      "answer": "For BMW 318i, you unscrew screws and pull the back panel down, while for BMW sport seat, you unscrew screws and pull off handles.",
+      "question_type": "factual",
+      "id": "52-103_seats-q12"
+    }
+  ]
+}

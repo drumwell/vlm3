@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-016",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/016.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:15:23.297509",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 584
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the torque angles specified for the 5AZ cylinder head bolts?",
+      "answer": "90 degrees for each torque angle step",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-016-q04"
+    },
+    {
+      "question": "What is the warm-running time requirement for the 5AZ cylinder head bolts?",
+      "answer": "25 minutes",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-016-q05"
+    },
+    {
+      "question": "Which engine types use the 6AZ cylinder head bolt procedure?",
+      "answer": "M40/M42/M43/M44/M50/S50 US/S52/M52 with cast iron engine block",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-016-q07"
+    },
+    {
+      "question": "What important instruction is given for M52 aluminum block cylinder head bolts?",
+      "answer": "Fit new cylinder head bolts. Do not wash away coating on cylinder head screws",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-016-q09"
+    }
+  ]
+}

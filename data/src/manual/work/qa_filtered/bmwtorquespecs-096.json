@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-096",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/096.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:30:26.178204",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 557
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw size is used for the cover with guide tube/transmission case?",
+      "answer": "M8x22 and M8x30",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-096-q02"
+    },
+    {
+      "question": "Which component has a torque specification of 25 Nm?",
+      "answer": "The retaining plate for reverse gear shaft on intermediate housing and M8x30 screws",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-096-q08"
+    },
+    {
+      "question": "What section of the manual is this page from?",
+      "answer": "Section 23-3 Manual transmission, specifically 23 11 Case and Covers",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-096-q09"
+    },
+    {
+      "question": "Do all the components listed apply to all vehicle types?",
+      "answer": "Yes, all components listed show 'All' in the Type column",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-096-q10"
+    }
+  ]
+}

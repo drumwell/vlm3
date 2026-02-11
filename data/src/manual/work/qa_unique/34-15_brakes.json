@@ -1,0 +1,91 @@
+{
+  "page_id": "34-15_brakes",
+  "image_path": "raw/34 - Brakes/34-15.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:16:49.432008",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 805
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum vacuum value when checking engine vacuum for the brake booster?",
+      "answer": "The minimum value is -0.35 bar (-5 psi).",
+      "question_type": "factual",
+      "id": "34-15_brakes-q01"
+    },
+    {
+      "question": "How many times should you operate the brake pedal during the function test with the engine stopped?",
+      "answer": "Operate the brake pedal 10 times with the engine stopped.",
+      "question_type": "procedural",
+      "id": "34-15_brakes-q02"
+    },
+    {
+      "question": "What should you do if the brake pedal does not give during the function test?",
+      "answer": "Check the valve, vacuum hose and/or rubber ring between tandem brake master cylinder and brake booster, as they could be defective.",
+      "question_type": "diagnostic",
+      "id": "34-15_brakes-q03"
+    },
+    {
+      "question": "What is the basic adjustment distance A on the piston rod?",
+      "answer": "The basic adjustment distance A on the piston rod is 125 mm (4.921 inches).",
+      "question_type": "factual",
+      "id": "34-15_brakes-q04"
+    },
+    {
+      "question": "Which brake lines correspond to the 1st brake circuit?",
+      "answer": "Brake lines 2 (front left) and 3 (front right) correspond to the 1st brake circuit.",
+      "question_type": "factual",
+      "id": "34-15_brakes-q05"
+    },
+    {
+      "question": "What vacuum tester specification is mentioned for checking vacuum between brake booster and check valve?",
+      "answer": "Install vacuum tester 34 3 100 between brake booster and check valve.",
+      "question_type": "tool",
+      "id": "34-15_brakes-q06"
+    },
+    {
+      "question": "At what engine speed should you check vacuum when decelerating from operating temperature?",
+      "answer": "Check vacuum when decelerating from an engine speed of 3,000 rpm with the engine having operating temperature.",
+      "question_type": "procedural",
+      "id": "34-15_brakes-q07"
+    },
+    {
+      "question": "What callout numbers are shown in the brake booster filter diagram?",
+      "answer": "The diagram shows callout numbers 1, 2, 3, and 4, representing the cap, holder, damper, and filter respectively.",
+      "question_type": "visual",
+      "id": "34-15_brakes-q08"
+    },
+    {
+      "question": "How should the damper and filter slots be positioned during installation?",
+      "answer": "Turn slots of damper (3) and filter (4) to be offset to each other by 180\u00b0.",
+      "question_type": "procedural",
+      "id": "34-15_brakes-q09"
+    },
+    {
+      "question": "What should you use to draw off brake fluid from the tank?",
+      "answer": "Draw off brake fluid in tank with a syringe used exclusively with brake fluids.",
+      "question_type": "tool",
+      "id": "34-15_brakes-q10"
+    },
+    {
+      "question": "What is the minimum vacuum value for specified idle speed and engine with operating temperature?",
+      "answer": "The minimum value is -0.50 bar (-7 psi).",
+      "question_type": "factual",
+      "id": "34-15_brakes-q11"
+    },
+    {
+      "question": "What should you disconnect when removing the instrument panel trim?",
+      "answer": "Disconnect the spring, press off clip (3) and pull out pin (4).",
+      "question_type": "procedural",
+      "id": "34-15_brakes-q12"
+    }
+  ]
+}

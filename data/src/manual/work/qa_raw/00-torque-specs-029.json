@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-029",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/029.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:21:32.983407",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 554
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for connecting rod bolts marked S14?",
+      "answer": "55 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-029-q01"
+    },
+    {
+      "question": "What is the main torque value for S38 connecting rod bolts?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-029-q03"
+    },
+    {
+      "question": "What torque angle is specified for S38 connecting rod bolts?",
+      "answer": "60 degrees",
+      "question_type": "factual",
+      "id": "00-torque-specs-029-q04"
+    },
+    {
+      "question": "What is the final torque specification for S50 connecting rod bolts?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-029-q06"
+    },
+    {
+      "question": "What torque angle should be applied to S50 connecting rod bolts?",
+      "answer": "65 degrees",
+      "question_type": "factual",
+      "id": "00-torque-specs-029-q07"
+    },
+    {
+      "question": "How does the main torque differ between S38 and S50 connecting rod bolts?",
+      "answer": "S38 requires 30 Nm while S50 requires 20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-029-q08"
+    },
+    {
+      "question": "Which connecting rod bolt type requires the highest torque angle?",
+      "answer": "S50 connecting rod bolts require 65 degrees, which is higher than S38's 60 degrees",
+      "question_type": "factual",
+      "id": "00-torque-specs-029-q09"
+    },
+    {
+      "question": "What procedure should be followed when replacing connecting rod bolts according to code 1AZ?",
+      "answer": "Replace, wash and oil conrod bolts",
+      "question_type": "procedural",
+      "id": "00-torque-specs-029-q10"
+    }
+  ]
+}

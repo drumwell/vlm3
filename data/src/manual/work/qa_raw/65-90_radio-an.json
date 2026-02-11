@@ -1,0 +1,67 @@
+{
+  "page_id": "65-90_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-90.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:08:00.331222",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 425
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the title of this diagram section?",
+      "answer": "SOUND SYSTEM LAYOUT",
+      "question_type": "factual",
+      "id": "65-90_radio-an-q01"
+    },
+    {
+      "question": "What component is labeled as item 1 in the sound system layout?",
+      "answer": "Radio",
+      "question_type": "component",
+      "id": "65-90_radio-an-q02"
+    },
+    {
+      "question": "Where is the high tuner (item 2) located in the vehicle?",
+      "answer": "The high tuner is positioned in the rear area of the vehicle, as shown by the callout line pointing to that location.",
+      "question_type": "visual",
+      "id": "65-90_radio-an-q03"
+    },
+    {
+      "question": "What does callout number 3 identify in this sound system diagram?",
+      "answer": "Speakers - rear",
+      "question_type": "component",
+      "id": "65-90_radio-an-q04"
+    },
+    {
+      "question": "What component is indicated by item 4 in the layout?",
+      "answer": "Amplifier",
+      "question_type": "component",
+      "id": "65-90_radio-an-q05"
+    },
+    {
+      "question": "Where are the front speakers located according to this diagram?",
+      "answer": "The front speakers (item 6) are located in the front area of the vehicle, as indicated by the callout line.",
+      "question_type": "visual",
+      "id": "65-90_radio-an-q06"
+    },
+    {
+      "question": "What is item 5 in the sound system layout?",
+      "answer": "Speaker balance control",
+      "question_type": "component",
+      "id": "65-90_radio-an-q07"
+    },
+    {
+      "question": "What is the reference number shown at the bottom right of this diagram page?",
+      "answer": "30 65 334",
+      "question_type": "navigation",
+      "id": "65-90_radio-an-q08"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "getrag-023",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/023.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:46:44.965574",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1945,
+    "tokens_output": 561
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main shaft roller assembly component shown in the image?",
+      "answer": "It is the main shaft roller assembly inner sleeve and outer race.",
+      "question_type": "component",
+      "id": "getrag-023-q01"
+    },
+    {
+      "question": "What components make up the main shaft roller assembly?",
+      "answer": "The main shaft roller assembly consists of an inner sleeve and outer race.",
+      "question_type": "component",
+      "id": "getrag-023-q03"
+    },
+    {
+      "question": "What is the relative cost significance of this part compared to other gearbox components?",
+      "answer": "It is described as the single most expensive part bought for the gearbox.",
+      "question_type": "factual",
+      "id": "getrag-023-q04"
+    },
+    {
+      "question": "How many main components are visible in the roller assembly?",
+      "answer": "Two main components are visible - the inner sleeve and outer race.",
+      "question_type": "visual",
+      "id": "getrag-023-q06"
+    },
+    {
+      "question": "What is the purpose of the inner sleeve in this assembly?",
+      "answer": "The inner sleeve is part of the main shaft roller assembly bearing system.",
+      "question_type": "component",
+      "id": "getrag-023-q07"
+    },
+    {
+      "question": "What warning is given about the cost of this component?",
+      "answer": "The cost is described as enough to make your eyes water.",
+      "question_type": "factual",
+      "id": "getrag-023-q08"
+    },
+    {
+      "question": "Which shaft does this roller assembly belong to?",
+      "answer": "This roller assembly belongs to the main shaft.",
+      "question_type": "component",
+      "id": "getrag-023-q09"
+    },
+    {
+      "question": "What type of mechanical component is the outer race part of?",
+      "answer": "The outer race is part of the main shaft roller bearing assembly.",
+      "question_type": "component",
+      "id": "getrag-023-q10"
+    }
+  ]
+}

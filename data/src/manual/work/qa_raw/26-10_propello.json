@@ -1,0 +1,91 @@
+{
+  "page_id": "26-10_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-10.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:56:10.583454",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 815
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to unscrew the threaded sleeve during propeller shaft removal?",
+      "answer": "Special Tool 26 1 040 is required to unscrew the threaded sleeve.",
+      "question_type": "tool",
+      "id": "26-10_propello-q01"
+    },
+    {
+      "question": "What important warning is given about the propeller shaft during disassembly?",
+      "answer": "The propeller shaft was balanced in assembled state and must not be turned in slide. You should punch mark an unmarked propeller shaft.",
+      "question_type": "safety",
+      "id": "26-10_propello-q02"
+    },
+    {
+      "question": "What lubricant should be used during installation and where?",
+      "answer": "Molykote Longterm 2** should be used to lubricate the slide during installation.",
+      "question_type": "tool",
+      "id": "26-10_propello-q03"
+    },
+    {
+      "question": "In what sequence should the components be assembled during installation according to the numbered callouts?",
+      "answer": "Slide on threaded sleeve (1), washer (2) and rubber ring (3), then assemble propeller shaft ensuring punch marks are aligned.",
+      "question_type": "procedural",
+      "id": "26-10_propello-q04"
+    },
+    {
+      "question": "What is the significance of universal joints being mounted in one plane?",
+      "answer": "Propeller shaft sections are mounted to have universal joints in one plane. If slide had been taken apart without punch marking, only wrong installation by 180\u00b0 is possible because of balancing.",
+      "question_type": "factual",
+      "id": "26-10_propello-q05"
+    },
+    {
+      "question": "What component is shown being lifted out in the upper right diagram?",
+      "answer": "The diagram shows lifting out circlip (4) and removing dust guard (5).",
+      "question_type": "visual",
+      "id": "26-10_propello-q06"
+    },
+    {
+      "question": "How should the center mount complete with grooved ball bearing be removed?",
+      "answer": "Pull off center mount complete with grooved ball bearing as shown in the diagram.",
+      "question_type": "procedural",
+      "id": "26-10_propello-q07"
+    },
+    {
+      "question": "What procedure is shown for installing the grooved ball bearing?",
+      "answer": "Press grooved ball bearing into center mount as illustrated in the installation diagram.",
+      "question_type": "procedural",
+      "id": "26-10_propello-q08"
+    },
+    {
+      "question": "What final installation steps are required for the dust guard and center mount?",
+      "answer": "Slide on dust guard (1), then press on center mount with Special Tool 24 1 050.",
+      "question_type": "procedural",
+      "id": "26-10_propello-q09"
+    },
+    {
+      "question": "What should be done with the threaded sleeve after completing the installation?",
+      "answer": "Tighten threaded sleeve with Special Tool 26 1 040 after finishing installation. Tightening torque is specified elsewhere.",
+      "question_type": "procedural",
+      "id": "26-10_propello-q10"
+    },
+    {
+      "question": "What part number identifies the propeller shaft being removed?",
+      "answer": "The propeller shaft is identified as part number 26 11 000.",
+      "question_type": "factual",
+      "id": "26-10_propello-q11"
+    },
+    {
+      "question": "What reference sources are noted at the bottom of the page for additional information?",
+      "answer": "The page references 'See Specifications' and lists 'Source: HWB' for additional information.",
+      "question_type": "navigation",
+      "id": "26-10_propello-q12"
+    }
+  ]
+}

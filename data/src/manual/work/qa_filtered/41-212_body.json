@@ -1,0 +1,85 @@
+{
+  "page_id": "41-212_body",
+  "image_path": "raw/41 - Body/41-212.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:53:29.061003",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 763
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done with welded spots during the panel repair process?",
+      "answer": "Drill off welded spots as shown in the first image.",
+      "question_type": "procedural",
+      "id": "41-212_body-q01"
+    },
+    {
+      "question": "What steps are required after removing scrap metal from the damaged area?",
+      "answer": "Straighten and grind mating surfaces to prepare for the repair panel installation.",
+      "question_type": "procedural",
+      "id": "41-212_body-q02"
+    },
+    {
+      "question": "How should the new panel be sized for proper fitment?",
+      "answer": "Cut new panel for cowl to size, so that hole in new part can be aligned with old hole.",
+      "question_type": "procedural",
+      "id": "41-212_body-q03"
+    },
+    {
+      "question": "What is the proper method for positioning the new panel during installation?",
+      "answer": "Clamp on panel and align according to hole and seams.",
+      "question_type": "procedural",
+      "id": "41-212_body-q04"
+    },
+    {
+      "question": "What preparation is needed before spot welding the new panel?",
+      "answer": "Mark cutting point on panel, take off and cut panel to size, grind mating surfaces, and coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-212_body-q05"
+    },
+    {
+      "question": "What reference numbers are shown for the drilling off welded spots procedure?",
+      "answer": "Reference number 30 41 130 is shown for the drilling off welded spots procedure.",
+      "question_type": "visual",
+      "id": "41-212_body-q06"
+    },
+    {
+      "question": "Which reference number corresponds to the step showing scrap metal removal and surface preparation?",
+      "answer": "Reference numbers 30 41 131 and 30 41 132 correspond to the scrap metal removal and surface preparation steps.",
+      "question_type": "visual",
+      "id": "41-212_body-q07"
+    },
+    {
+      "question": "What reference number is associated with the panel cutting and sizing procedure?",
+      "answer": "Reference number 30 41 135 is associated with the panel cutting and sizing procedure.",
+      "question_type": "visual",
+      "id": "41-212_body-q08"
+    },
+    {
+      "question": "What protective coating should be applied to mating surfaces before spot welding?",
+      "answer": "Zinc dust paint should be applied to coat mating surfaces needed for spot welding.",
+      "question_type": "factual",
+      "id": "41-212_body-q09"
+    },
+    {
+      "question": "What type of surface preparation is consistently required throughout this repair procedure?",
+      "answer": "Straightening and grinding mating surfaces is consistently required throughout the repair procedure.",
+      "question_type": "factual",
+      "id": "41-212_body-q11"
+    },
+    {
+      "question": "What alignment method is used to ensure proper panel fitment?",
+      "answer": "Alignment is done according to hole and seams, ensuring the hole in the new part can be aligned with the old hole.",
+      "question_type": "procedural",
+      "id": "41-212_body-q12"
+    }
+  ]
+}

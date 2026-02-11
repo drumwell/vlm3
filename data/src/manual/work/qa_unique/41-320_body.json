@@ -1,0 +1,55 @@
+{
+  "page_id": "41-320_body",
+  "image_path": "raw/41 - Body/41-320.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:01:02.110733",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 774
+  },
+  "qa_pairs": [
+    {
+      "question": "How far above the required joint should the C pillar be cut through on the new side panel?",
+      "answer": "The C pillar should be cut through approximately 10 mm (0.394\") above the required joint on the new side panel.",
+      "question_type": "factual",
+      "id": "41-320_body-q03"
+    },
+    {
+      "question": "What should be done after drilling off the remaining guide plate?",
+      "answer": "Clean mating surfaces after drilling off the remaining guide plate.",
+      "question_type": "procedural",
+      "id": "41-320_body-q05"
+    },
+    {
+      "question": "What should be marked after mounting the side panel?",
+      "answer": "Mark the cutting line after mounting the side panel.",
+      "question_type": "procedural",
+      "id": "41-320_body-q08"
+    },
+    {
+      "question": "Which image reference shows the preparation of the brace from pillar sections?",
+      "answer": "Image reference number 30 41 228 shows the preparation of the brace from pillar sections.",
+      "question_type": "visual",
+      "id": "41-320_body-q10"
+    },
+    {
+      "question": "What is done with the pillar sections that are cut off the new side panel?",
+      "answer": "The pillar sections cut off the new side panel are used to prepare an approximately 50 mm (2\") wide brace.",
+      "question_type": "procedural",
+      "id": "41-320_body-q11"
+    },
+    {
+      "question": "What component must not be damaged when removing scrap metal from the pillars?",
+      "answer": "The air guide plate must not be damaged when removing scrap metal from the B and C pillars.",
+      "question_type": "safety",
+      "id": "41-320_body-q12"
+    }
+  ]
+}

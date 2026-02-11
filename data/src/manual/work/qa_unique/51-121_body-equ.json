@@ -1,0 +1,73 @@
+{
+  "page_id": "51-121_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-121.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:10:17.884696",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 745
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the basic distance A that should be adjusted after replacing the side panel or bracket?",
+      "answer": "The basic distance A should be adjusted to 36 \u00b1 1 mm (1.417 \u00b1 0.039\") after replacing the side panel or bracket.",
+      "question_type": "factual",
+      "id": "51-121_body-equ-q01"
+    },
+    {
+      "question": "What are the first two steps for removing the rear bumper assembly?",
+      "answer": "First, unscrew the screws. Then, take off the bumper.",
+      "question_type": "procedural",
+      "id": "51-121_body-equ-q02"
+    },
+    {
+      "question": "How should the bumper be positioned during installation?",
+      "answer": "During installation, the bevelled surface should face up.",
+      "question_type": "procedural",
+      "id": "51-121_body-equ-q03"
+    },
+    {
+      "question": "What tool is needed to remove the side marker light on the solid plastic version?",
+      "answer": "A screwdriver is needed to press into the notch on the side and pry out the side marker light.",
+      "question_type": "tool",
+      "id": "51-121_body-equ-q04"
+    },
+    {
+      "question": "What should be done with the plastic rivets on the panel?",
+      "answer": "Press out the plastic rivets and take off the panel.",
+      "question_type": "procedural",
+      "id": "51-121_body-equ-q06"
+    },
+    {
+      "question": "What is the installation instruction for the bumper mounting?",
+      "answer": "Use tightening torque as specified (see Specifications section).",
+      "question_type": "procedural",
+      "id": "51-121_body-equ-q08"
+    },
+    {
+      "question": "What component is shown being removed with the screwdriver in image 30 51 400?",
+      "answer": "The side marker light plug on the solid plastic version of the bumper.",
+      "question_type": "visual",
+      "id": "51-121_body-equ-q09"
+    },
+    {
+      "question": "What arrows are pointing to in image 30 51 837?",
+      "answer": "The arrows are pointing to the clips that need to be lifted out through the holes to remove the rubber guard.",
+      "question_type": "visual",
+      "id": "51-121_body-equ-q10"
+    },
+    {
+      "question": "What section should be referenced for the tightening torque specification?",
+      "answer": "The Specifications section should be referenced for the proper tightening torque.",
+      "question_type": "navigation",
+      "id": "51-121_body-equ-q11"
+    }
+  ]
+}

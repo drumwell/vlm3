@@ -1,0 +1,85 @@
+{
+  "page_id": "62-75_instrume",
+  "image_path": "raw/62 - Instruments/62-75.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:46:38.915798",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 616
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I do if the engine oil level is not okay?",
+      "answer": "Add oil.",
+      "question_type": "procedural",
+      "id": "62-75_instrume-q01"
+    },
+    {
+      "question": "What resistance values should the transmitter in oil pan show when tested?",
+      "answer": "0 ohm static and 1 k-ohm dynamic.",
+      "question_type": "diagnostic",
+      "id": "62-75_instrume-q02"
+    },
+    {
+      "question": "What should I do if the transmitter in oil pan shows incorrect resistance values?",
+      "answer": "Apply extra ground wire or replace transmitter.",
+      "question_type": "troubleshooting",
+      "id": "62-75_instrume-q03"
+    },
+    {
+      "question": "How do I test the coolant/washing fluid level sensors?",
+      "answer": "Check coolant/washing fluid level sensors with ohmmeter - 0 ohm. Okay?",
+      "question_type": "diagnostic",
+      "id": "62-75_instrume-q04",
+      "_warnings": [
+        "Answer ends with '?' (may be a question)"
+      ]
+    },
+    {
+      "question": "What should I do if the coolant and washing fluid levels are not okay?",
+      "answer": "Add coolant and/or washing fluid with pertinent antifreeze concentration.",
+      "question_type": "procedural",
+      "id": "62-75_instrume-q05"
+    },
+    {
+      "question": "What is the corrective action if the coolant/washing fluid level sensors don't show 0 ohm?",
+      "answer": "Repair ground wire. Replace transmitters.",
+      "question_type": "troubleshooting",
+      "id": "62-75_instrume-q06"
+    },
+    {
+      "question": "What should I check if the transmitter wire plug connection is not okay?",
+      "answer": "Repair or replace transmitter.",
+      "question_type": "troubleshooting",
+      "id": "62-75_instrume-q07"
+    },
+    {
+      "question": "How do I test power flow in wires from transmitter to check control?",
+      "answer": "Check power flow in wires from transmitter to check control static oil term. and dyn. oil terminal. Okay?",
+      "question_type": "diagnostic",
+      "id": "62-75_instrume-q08",
+      "_warnings": [
+        "Answer ends with '?' (may be a question)"
+      ]
+    },
+    {
+      "question": "What should I do if there's no power flow in the wires from transmitters to check control terminals KW and WW?",
+      "answer": "Repair or replace wires.",
+      "question_type": "troubleshooting",
+      "id": "62-75_instrume-q09"
+    },
+    {
+      "question": "What is the final step if all other checks pass for both engine oil and coolant/washing fluid systems?",
+      "answer": "Check plug connections of check control. Replace check control.",
+      "question_type": "troubleshooting",
+      "id": "62-75_instrume-q10"
+    }
+  ]
+}

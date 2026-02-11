@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/1364-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:10:54.799808",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 443
+  },
+  "qa_pairs": [
+    {
+      "question": "What engine type is covered in this injection electronics diagram?",
+      "answer": "S14 ENGINE",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-00-q01"
+    },
+    {
+      "question": "What component is labeled as 'HOT AT ALL TIMES' in the ignition switch section?",
+      "answer": "The ignition switch connection point that provides constant power is labeled as 'HOT AT ALL TIMES'.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-00-q02"
+    },
+    {
+      "question": "What are the two main sections of the ignition coil shown in the diagram?",
+      "answer": "PRIMARY and SECONDARY",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-00-q03"
+    },
+    {
+      "question": "What sensor is connected to terminal 30 according to the wiring diagram?",
+      "answer": "BAROMETRIC PRESSURE SENSOR",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-00-q04"
+    },
+    {
+      "question": "What type of engine management unit is shown at the bottom of the diagram?",
+      "answer": "MOTRONIC CONTROL UNIT",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-00-q05"
+    },
+    {
+      "question": "What gauge components are shown in the instrument cluster section?",
+      "answer": "TACHOMETER and FUEL ECONOMY GAUGE",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-00-q06"
+    },
+    {
+      "question": "What are the three airflow measurement ranges shown on the air flow meter?",
+      "answer": "LIGHT LOAD, INCREASING AIR FLOW, and FULL LOAD",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-00-q07"
+    },
+    {
+      "question": "Which terminal number is associated with the coding plug input?",
+      "answer": "Terminal 10",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-00-q08"
+    }
+  ]
+}

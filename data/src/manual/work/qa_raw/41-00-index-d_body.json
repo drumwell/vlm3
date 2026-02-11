@@ -1,0 +1,55 @@
+{
+  "page_id": "41-00-index-d_body",
+  "image_path": "raw/41 - Body/41-00-index-d.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:33:25.732132",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1742,
+    "tokens_output": 395
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number contains information about front panel complete with front wall replacement?",
+      "answer": "Page 41-306 contains information about front panel complete with front wall replacement.",
+      "question_type": "navigation",
+      "id": "41-00-index-d_body-q01"
+    },
+    {
+      "question": "Where can I find the procedure for tail panel replacement?",
+      "answer": "Tail panel replacement procedures can be found on page 41-309.",
+      "question_type": "navigation",
+      "id": "41-00-index-d_body-q02"
+    },
+    {
+      "question": "What is the part number for the rear side panel, left (up to roof joint) replacement for 2-door cars?",
+      "answer": "The part number is 41 35 101 for rear side panel, left (up to roof joint) replacement for 2-door cars.",
+      "question_type": "factual",
+      "id": "41-00-index-d_body-q03"
+    },
+    {
+      "question": "On which page can I find information about rear side panel, right replacement for 2-door cars?",
+      "answer": "Information about rear side panel, right (partial replacement cut to window line) replacement for 2-door cars can be found on page 41-318.",
+      "question_type": "navigation",
+      "id": "41-00-index-d_body-q04"
+    },
+    {
+      "question": "What part number corresponds to the tail panel replacement?",
+      "answer": "Part number 41 34 041 corresponds to the tail panel replacement.",
+      "question_type": "factual",
+      "id": "41-00-index-d_body-q05"
+    },
+    {
+      "question": "What section number is this Body chapter assigned?",
+      "answer": "This Body chapter is assigned section number 41.",
+      "question_type": "factual",
+      "id": "41-00-index-d_body-q06"
+    }
+  ]
+}

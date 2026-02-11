@@ -1,0 +1,91 @@
+{
+  "page_id": "11-57_engine",
+  "image_path": "raw/11 - Engine/11-57.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:13:15.317933",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 764
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the lower oil pan section when unscrewing the reinforcement plate?",
+      "answer": "The lower oil pan section should be removed - see section 11 13 020.",
+      "question_type": "procedural",
+      "id": "11-57_engine-q01"
+    },
+    {
+      "question": "What product should be used when installing bolts 1 through 3?",
+      "answer": "Install bolts (1 ... 3) with Loctite No. 270.",
+      "question_type": "tool",
+      "id": "11-57_engine-q02"
+    },
+    {
+      "question": "How many bolts need to be loosened on the remaining oil pan bolts according to the procedure?",
+      "answer": "Loosen remaining oil pan bolts and unscrew bolts (4).",
+      "question_type": "procedural",
+      "id": "11-57_engine-q03"
+    },
+    {
+      "question": "What components need to be removed according to the references provided in the middle section?",
+      "answer": "Remove water pump (see 11 51 000), remove pulley on crankshaft (see 11 21 120), and remove piston for chain tensioner (see 11 31 090).",
+      "question_type": "procedural",
+      "id": "11-57_engine-q04"
+    },
+    {
+      "question": "What tool should be used to loosen the oil pan gasket on the timing case cover?",
+      "answer": "Loosen oil pan gasket on timing case cover carefully with a knife.",
+      "question_type": "tool",
+      "id": "11-57_engine-q05"
+    },
+    {
+      "question": "What should be done if the oil pan gasket is damaged during removal?",
+      "answer": "If oil pan gasket is damaged, remove oil pan and replace gasket - see 11 13 000.",
+      "question_type": "inspection",
+      "id": "11-57_engine-q06"
+    },
+    {
+      "question": "What should be used to break the upper edges of the timing case cover during installation?",
+      "answer": "Break upper edges with a file.",
+      "question_type": "tool",
+      "id": "11-57_engine-q07"
+    },
+    {
+      "question": "What product should be applied to the sealing surfaces during timing case cover installation?",
+      "answer": "Coat sealing surfaces with Three Bond Silicone 1207.",
+      "question_type": "tool",
+      "id": "11-57_engine-q08"
+    },
+    {
+      "question": "What should be done to new gaskets during installation?",
+      "answer": "Install new gaskets, coat with Three Bond Silicone 1207 and cut off ends.",
+      "question_type": "procedural",
+      "id": "11-57_engine-q09"
+    },
+    {
+      "question": "How should the mating surfaces be prepared during installation?",
+      "answer": "Coat mating surfaces with Three Bond Silicone 1207.",
+      "question_type": "procedural",
+      "id": "11-57_engine-q10"
+    },
+    {
+      "question": "What is the final step mentioned for the timing case cover installation?",
+      "answer": "Guide in cover uniformly.",
+      "question_type": "procedural",
+      "id": "11-57_engine-q11"
+    },
+    {
+      "question": "What is the source attribution shown at the bottom of the page?",
+      "answer": "Source: HWB",
+      "question_type": "factual",
+      "id": "11-57_engine-q12"
+    }
+  ]
+}

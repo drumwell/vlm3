@@ -1,0 +1,91 @@
+{
+  "page_id": "13-909_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-909.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:56:22.201312",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 671
+  },
+  "qa_pairs": [
+    {
+      "question": "What is Test Position 14 for?",
+      "answer": "Test Position 14 is for THROTTLE HOUSING.",
+      "question_type": "factual",
+      "id": "13-909_fuel-sys-q01"
+    },
+    {
+      "question": "What should be checked regarding throttle cable adjustment?",
+      "answer": "Check throttle cable adjustment and check full load position.",
+      "question_type": "inspection",
+      "id": "13-909_fuel-sys-q02"
+    },
+    {
+      "question": "Where can I find information about throttle cable adjustment procedures?",
+      "answer": "See Groups 24/35/65.",
+      "question_type": "navigation",
+      "id": "13-909_fuel-sys-q03"
+    },
+    {
+      "question": "What should be done if there are leaks in the throttle housing?",
+      "answer": "Eliminate leaks if applicable.",
+      "question_type": "procedural",
+      "id": "13-909_fuel-sys-q04"
+    },
+    {
+      "question": "What movement aspect of the throttle should be checked?",
+      "answer": "Check movement of throttle.",
+      "question_type": "inspection",
+      "id": "13-909_fuel-sys-q05"
+    },
+    {
+      "question": "What basic throttle setting should be verified?",
+      "answer": "Check basic setting of throttle.",
+      "question_type": "inspection",
+      "id": "13-909_fuel-sys-q06"
+    },
+    {
+      "question": "Where can I find information about the basic throttle setting procedure?",
+      "answer": "See 13 54 051.",
+      "question_type": "navigation",
+      "id": "13-909_fuel-sys-q07"
+    },
+    {
+      "question": "What are the main inspection points for the throttle housing test position?",
+      "answer": "The main inspection points are throttle cable adjustment, full load position, eliminating leaks if applicable, checking throttle movement, and checking basic throttle setting.",
+      "question_type": "procedural",
+      "id": "13-909_fuel-sys-q08"
+    },
+    {
+      "question": "What page number is this in the manual?",
+      "answer": "This is page 13-909.",
+      "question_type": "factual",
+      "id": "13-909_fuel-sys-q09"
+    },
+    {
+      "question": "How many specific check items are listed for the throttle housing test?",
+      "answer": "There are five specific check items listed for the throttle housing test.",
+      "question_type": "factual",
+      "id": "13-909_fuel-sys-q10"
+    },
+    {
+      "question": "Which manual section references are provided for throttle-related procedures?",
+      "answer": "Groups 24/35/65 for throttle cable adjustment and 13 54 051 for basic throttle setting.",
+      "question_type": "navigation",
+      "id": "13-909_fuel-sys-q11"
+    },
+    {
+      "question": "What components need to be inspected for proper operation during this test position?",
+      "answer": "The throttle cable, throttle movement mechanism, and the basic throttle setting need to be inspected for proper operation.",
+      "question_type": "inspection",
+      "id": "13-909_fuel-sys-q12"
+    }
+  ]
+}

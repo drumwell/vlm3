@@ -1,0 +1,79 @@
+{
+  "page_id": "65-503_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-503.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:07:51.735396",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 732
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I do if the starter interlocking relay doesn't activate?",
+      "answer": "Connect pin 11 and pin 10 (= B-) and turn ignition lock to R or 15; relay in relay box must operate. If it doesn't, see point 10, but check between pin 6 and pin 11.",
+      "question_type": "procedural",
+      "id": "65-503_radio-an-q01"
+    },
+    {
+      "question": "What are the possible causes when the starter interlocking relay has no activation?",
+      "answer": "Defect in relay box, activation of interlock defective, wires, or BC II.",
+      "question_type": "diagnostic",
+      "id": "65-503_radio-an-q02"
+    },
+    {
+      "question": "How do I test the remote control function when it's not working?",
+      "answer": "Set ignition lock in R or 15. Pin 10 (= B-) connected briefly with pin 4 several times: Information in display must change each time.",
+      "question_type": "procedural",
+      "id": "65-503_radio-an-q03"
+    },
+    {
+      "question": "What causes the remote control to not function properly?",
+      "answer": "Steering column switch defective, wires, or BC II.",
+      "question_type": "diagnostic",
+      "id": "65-503_radio-an-q04"
+    },
+    {
+      "question": "What should I check if the remote control isn't working and BC II is suspected?",
+      "answer": "Check for defect in steering column switch without BC II and check wiring. If BC II is the issue, replace BC II (see point 1).",
+      "question_type": "troubleshooting",
+      "id": "65-503_radio-an-q05"
+    },
+    {
+      "question": "What are the possible defects when the driving range function is wrong?",
+      "answer": "Coding plug, reserve volume balance, speed signal, consumption signal, or fuel level transmitter/reserve contact.",
+      "question_type": "diagnostic",
+      "id": "65-503_radio-an-q06"
+    },
+    {
+      "question": "Which points should I reference for driving range function problems?",
+      "answer": "See point 1 for coding plug, point 6 for reserve volume balance, and point 7 for speed and consumption signals.",
+      "question_type": "navigation",
+      "id": "65-503_radio-an-q07"
+    },
+    {
+      "question": "What should I check if the fuel gauge display in the instrument cluster is incorrect?",
+      "answer": "Check the connection from instrument cluster to BC II and check wires to instrument cluster.",
+      "question_type": "troubleshooting",
+      "id": "65-503_radio-an-q08"
+    },
+    {
+      "question": "When BC II needs to be replaced, which point should I reference?",
+      "answer": "Replace BC II (see point 1).",
+      "question_type": "navigation",
+      "id": "65-503_radio-an-q09"
+    },
+    {
+      "question": "What specific test involves connecting pins 11 and 10 with B-?",
+      "answer": "Testing the starter interlocking relay activation - connect pin 11 and pin 10 (= B-) and turn ignition lock to R or 15, and the relay in relay box must operate.",
+      "question_type": "procedural",
+      "id": "65-503_radio-an-q10"
+    }
+  ]
+}

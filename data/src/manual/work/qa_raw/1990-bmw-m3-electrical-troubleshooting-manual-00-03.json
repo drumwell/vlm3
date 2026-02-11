@@ -1,0 +1,55 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-00-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/00-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:05:48.200696",
+    "prompt_template": "electrical_manual/text",
+    "tokens_input": 1891,
+    "tokens_output": 455
+  },
+  "qa_pairs": [
+    {
+      "question": "What AWG wire gauge corresponds to a 2.5 mm\u00b2 metric cross-sectional area?",
+      "answer": "According to the wire size conversion chart, a 2.5 mm\u00b2 metric cross-sectional area corresponds to 12 AWG American wire gauge.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-03-q01"
+    },
+    {
+      "question": "What does the abbreviation 'GN' represent in the wire insulation color codes?",
+      "answer": "According to the wire insulation abbreviations chart, 'GN' represents GREEN.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-03-q02"
+    },
+    {
+      "question": "How are switches and sensors shown in the electrical schematics?",
+      "answer": "Within the schematic, all switches and sensors are shown 'at rest,' as though the ignition switch were off.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-03-q03"
+    },
+    {
+      "question": "What is the smallest metric wire size shown in the conversion chart and what AWG does it correspond to?",
+      "answer": "The smallest metric wire size shown is 0.5 mm\u00b2, which corresponds to 20 AWG.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-03-q04"
+    },
+    {
+      "question": "What does the 'Solid State' label designate in the schematics?",
+      "answer": "The 'Solid State' label designates electronic components.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-03-q05"
+    },
+    {
+      "question": "Where is the fuse located in relation to current flow in the electrical schematics?",
+      "answer": "At the top of the page is the fuse (positive) that powers the circuit. The flow of current is shown through all wires, connectors, switches, and motors to ground (negative) at the bottom of the page.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-03-q06"
+    }
+  ]
+}

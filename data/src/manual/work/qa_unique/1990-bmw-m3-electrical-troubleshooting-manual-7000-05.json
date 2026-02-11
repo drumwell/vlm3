@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-05",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-05.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:13:31.806541",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 532
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the back up light switch located according to the component locations?",
+      "answer": "The back up light switch is located below center of car, RH side of transmission as shown in Figure 1.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-05-q01"
+    },
+    {
+      "question": "What component is found inside the pulse wheel behind the LH front wheel?",
+      "answer": "The speed detector (pulse wheel inside) is located behind the LH front wheel as shown in Figure 3.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-05-q02"
+    },
+    {
+      "question": "What is the component identifier for the part shown at the front of LH door jamb?",
+      "answer": "The component identifier is C405, located at the front of LH door jamb as shown in Figure 5.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-05-q03"
+    },
+    {
+      "question": "Where are the engine speed sensor and cylinder identification sensor located?",
+      "answer": "The engine speed sensor and cylinder identification sensor are located below center of car, LH side of transmission bell housing as shown in Figure 2.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-05-q04"
+    },
+    {
+      "question": "What type of sensor is shown in the LH front brake caliper assembly?",
+      "answer": "A brake wear sensor is shown in the LH front brake caliper assembly in Figure 4.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-05-q05"
+    },
+    {
+      "question": "What is the component identifier for the part shown in the LH kick panel?",
+      "answer": "The component identifier is C407, located in the LH kick panel as shown in Figure 6.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-05-q06"
+    },
+    {
+      "question": "How many figures are shown on this component locations page?",
+      "answer": "There are 6 figures shown on this page, numbered Figure 1 through Figure 6.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-05-q07"
+    },
+    {
+      "question": "What page number and section is this from in the manual?",
+      "answer": "This is page 7000-5 from the Component Locations Views section.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-05-q08"
+    }
+  ]
+}

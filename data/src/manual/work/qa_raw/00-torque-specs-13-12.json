@@ -1,0 +1,76 @@
+{
+  "page_id": "00-torque-specs-13-12",
+  "image_path": "raw/00 - Torque Specs/13-12.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:53:53.322302",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 519
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the MAP sensor on holder?",
+      "answer": "3.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-12-q01"
+    },
+    {
+      "question": "What component uses screw type 316g/518g?",
+      "answer": "MAP sensor on holder",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-12-q02"
+    },
+    {
+      "question": "Which section does this torque specification table belong to?",
+      "answer": "13-12 Fuel System",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-12-q03"
+    },
+    {
+      "question": "What is the specific subsystem covered in section 13 82?",
+      "answer": "Mixture and metering system, low-pressure reducer",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-12-q04"
+    },
+    {
+      "question": "What unit is used for the torque measurement in this specification?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-12-q06"
+    },
+    {
+      "question": "What type of fuel system component requires 3.5 Nm torque?",
+      "answer": "MAP sensor on holder",
+      "question_type": "application",
+      "id": "00-torque-specs-13-12-q07",
+      "_warnings": [
+        "Invalid question_type: application"
+      ]
+    },
+    {
+      "question": "What document reference number is shown at the top of this page?",
+      "answer": "AZD13-12.frb",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-12-q08"
+    },
+    {
+      "question": "What date is shown on this service manual page?",
+      "answer": "20/10/97",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-12-q09"
+    },
+    {
+      "question": "How many torque specifications are listed for the mixture and metering system, low-pressure reducer?",
+      "answer": "One specification (MAP sensor on holder at 3.5 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-12-q10"
+    }
+  ]
+}

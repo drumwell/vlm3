@@ -1,0 +1,91 @@
+{
+  "page_id": "51-316_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-316.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:20:15.205671",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 704
+  },
+  "qa_pairs": [
+    {
+      "question": "What section reference is provided for windshield procedures when working on the rear window?",
+      "answer": "The same conditions applicable to the rear window as to the windshield are covered in introduction 51 31.",
+      "question_type": "navigation",
+      "id": "51-316_body-equ-q01"
+    },
+    {
+      "question": "What should be disconnected when removing the trunk lid?",
+      "answer": "Disconnect torsion bars - see 51 24 341.",
+      "question_type": "procedural",
+      "id": "51-316_body-equ-q02"
+    },
+    {
+      "question": "How should the knife be positioned when mounting it on the tool for window removal?",
+      "answer": "The knife must be parallel to axis of the tool.",
+      "question_type": "tool",
+      "id": "51-316_body-equ-q03"
+    },
+    {
+      "question": "What is the procedure for removing the C pillar trim on cars without vent windows?",
+      "answer": "Lift out C pillar trim and pull off plug for the rear window defogger, then remove side window - see 51 36 080.",
+      "question_type": "procedural",
+      "id": "51-316_body-equ-q04"
+    },
+    {
+      "question": "What safety precaution should be taken when using the knife to cut around the window?",
+      "answer": "Guide in knife between body and window carefully.",
+      "question_type": "safety",
+      "id": "51-316_body-equ-q05"
+    },
+    {
+      "question": "What is the first step shown for removing the rear window?",
+      "answer": "Lift out clips.",
+      "question_type": "procedural",
+      "id": "51-316_body-equ-q06"
+    },
+    {
+      "question": "What should be done to protect the body during window removal?",
+      "answer": "Protect body with adhesive tape.",
+      "question_type": "safety",
+      "id": "51-316_body-equ-q07"
+    },
+    {
+      "question": "How should the ornamental frame be removed during the procedure?",
+      "answer": "Push cover aside and lift out ornamental frame.",
+      "question_type": "procedural",
+      "id": "51-316_body-equ-q08"
+    },
+    {
+      "question": "Where should the C pillar trim be cemented during installation?",
+      "answer": "Cement C pillar trim on window opening edge.",
+      "question_type": "procedural",
+      "id": "51-316_body-equ-q09"
+    },
+    {
+      "question": "What is the source of supply indicated for the knife tool?",
+      "answer": "HWB (Heyco Werkzeug und Betriebsmittel).",
+      "question_type": "tool",
+      "id": "51-316_body-equ-q10"
+    },
+    {
+      "question": "What specific bolts need to be unscrewed as part of the trunk lid removal?",
+      "answer": "Unscrew bolts and remove trunk lid.",
+      "question_type": "procedural",
+      "id": "51-316_body-equ-q11"
+    },
+    {
+      "question": "What section number covers this rear window removal and installation procedure?",
+      "answer": "Section 51 31 covers removing and installing rear window for M3.",
+      "question_type": "navigation",
+      "id": "51-316_body-equ-q12"
+    }
+  ]
+}

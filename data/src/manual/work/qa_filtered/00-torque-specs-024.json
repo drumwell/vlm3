@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-024",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/024.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:20:33.365779",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 721
+  },
+  "qa_pairs": [
+    {
+      "question": "Should screw retaining compound be used when installing flywheel to crankshaft bolts?",
+      "answer": "No, do not install with screw retaining compound. Bolts are a component part of the flywheel. Screw threads oiled.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-024-q04"
+    },
+    {
+      "question": "What is the difference in torque between M40/M42/M43/M44/M51 Automatic/M52 Automatic and all other transmissions for new micro-encapsulated screws?",
+      "answer": "M40/M42/M43/M44/M51 Automatic/M52 Automatic require 120 Nm while all others require 105 Nm, a difference of 15 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-024-q05"
+    },
+    {
+      "question": "What component is referenced by code 1AZ in section 11 22?",
+      "answer": "Flywheel to crankshaft",
+      "question_type": "factual",
+      "id": "00-torque-specs-024-q06"
+    },
+    {
+      "question": "What section and subsection covers flywheel specifications?",
+      "answer": "Section 11 22 Flywheel",
+      "question_type": "navigation",
+      "id": "00-torque-specs-024-q07"
+    },
+    {
+      "question": "Are the flywheel bolts separate components or part of the flywheel assembly?",
+      "answer": "The bolts are a component part of the flywheel, not separate components.",
+      "question_type": "component",
+      "id": "00-torque-specs-024-q08"
+    },
+    {
+      "question": "What preparation is specified for the flywheel to crankshaft bolt threads?",
+      "answer": "Screw threads oiled",
+      "question_type": "procedural",
+      "id": "00-torque-specs-024-q09"
+    },
+    {
+      "question": "Which transmission types require the higher torque specification of 120 Nm for new micro-encapsulated screws?",
+      "answer": "M40/M42/M43/M44/M51 Automatic/M52 Automatic",
+      "question_type": "factual",
+      "id": "00-torque-specs-024-q10"
+    }
+  ]
+}

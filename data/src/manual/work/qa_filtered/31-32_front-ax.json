@@ -1,0 +1,91 @@
+{
+  "page_id": "31-32_front-ax",
+  "image_path": "raw/31 - Front Axle/31-32.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:01:57.965444",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 821
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the bearing in the console for the right output shaft?",
+      "answer": "The procedure number is 31 53 050.",
+      "question_type": "factual",
+      "id": "31-32_front-ax-q01"
+    },
+    {
+      "question": "Which output shaft needs to be removed before replacing the console bearing?",
+      "answer": "The output shaft 31 60 000 needs to be removed.",
+      "question_type": "procedural",
+      "id": "31-32_front-ax-q02"
+    },
+    {
+      "question": "What special tools are required to pull off the bearing?",
+      "answer": "Special Tools 00 8 550 and 31 5 012 are required to pull off the bearing.",
+      "question_type": "tool",
+      "id": "31-32_front-ax-q03"
+    },
+    {
+      "question": "What are the three installation steps mentioned for the console?",
+      "answer": "The three steps are: Replace seal, apply tightening torque, and see the note about tightening torque specifications.",
+      "question_type": "procedural",
+      "id": "31-32_front-ax-q04"
+    },
+    {
+      "question": "What special tool is used to press in the new bearing?",
+      "answer": "Special Tool 23 1 390 is used to press in the new bearing.",
+      "question_type": "tool",
+      "id": "31-32_front-ax-q05"
+    },
+    {
+      "question": "What components are shown in the top right diagram with callout numbers?",
+      "answer": "The diagram shows tool 00 5 500, component 31 5 030, and component 30 31 589 used for dipping the new shaft seal in gear lube.",
+      "question_type": "visual",
+      "id": "31-32_front-ax-q06"
+    },
+    {
+      "question": "What should be done with the new shaft seal before installation?",
+      "answer": "The new shaft seal should be dipped in gear lube and driven in against the stop with Special Tools 00 5 500 and 31 5 030.",
+      "question_type": "procedural",
+      "id": "31-32_front-ax-q07"
+    },
+    {
+      "question": "What callout number identifies the bearing puller tool in the middle diagram?",
+      "answer": "Callout number 00 8 550 identifies the bearing puller tool.",
+      "question_type": "visual",
+      "id": "31-32_front-ax-q08"
+    },
+    {
+      "question": "Where can the tightening torque specifications be found?",
+      "answer": "The tightening torque specifications can be found in the Specifications section, as indicated by the asterisk note.",
+      "question_type": "navigation",
+      "id": "31-32_front-ax-q09"
+    },
+    {
+      "question": "What component is labeled as 30 31 586 in the console removal image?",
+      "answer": "Component 30 31 586 appears to be part of the console assembly that needs to be unscrewed.",
+      "question_type": "visual",
+      "id": "31-32_front-ax-q10"
+    },
+    {
+      "question": "What are the two special tools needed for the bearing pressing operation?",
+      "answer": "The bearing pressing operation requires Special Tool 23 1 390 and the bearing installation setup shown in the bottom diagram.",
+      "question_type": "tool",
+      "id": "31-32_front-ax-q11"
+    },
+    {
+      "question": "What callout numbers are associated with the bearing pressing tool assembly?",
+      "answer": "The bearing pressing assembly includes callout numbers 23 1 390, 31 5 012, 30 31 587, and 30 31 588.",
+      "question_type": "visual",
+      "id": "31-32_front-ax-q12"
+    }
+  ]
+}

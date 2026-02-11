@@ -1,0 +1,70 @@
+{
+  "page_id": "00-torque-specs-11-24",
+  "image_path": "raw/00 - Torque Specs/11-24.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:41:18.472360",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 534
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the toothed belt pulley to intermediate shaft?",
+      "answer": "60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-24-q01"
+    },
+    {
+      "question": "What engine types does the intermediate shaft specification apply to?",
+      "answer": "M20/M21",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-24-q03"
+    },
+    {
+      "question": "Which section of the manual covers the intermediate shaft specifications?",
+      "answer": "11 35 Intermediate Shaft",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-24-q05"
+    },
+    {
+      "question": "What unit of measurement is used for the torque specification on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-24-q06",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "How many torque specifications are listed for the intermediate shaft section?",
+      "answer": "One specification is listed",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-24-q07"
+    },
+    {
+      "question": "What component connects the toothed belt pulley according to this specification?",
+      "answer": "Intermediate shaft",
+      "question_type": "component",
+      "id": "00-torque-specs-11-24-q08"
+    },
+    {
+      "question": "Is there a different torque specification for M20 versus M21 engines for this connection?",
+      "answer": "No, both M20 and M21 engines use the same 60 Nm torque specification",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-24-q09"
+    },
+    {
+      "question": "What page number and date is shown on this manual page?",
+      "answer": "Page 11-24, dated 20/10/97",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-24-q10"
+    }
+  ]
+}

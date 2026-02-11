@@ -1,0 +1,37 @@
+{
+  "page_id": "bmwtorquespecs-047",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/047.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:21:26.168984",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 591
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is referenced under section 11 66?",
+      "answer": "Vacuum pump",
+      "question_type": "component",
+      "id": "bmwtorquespecs-047-q05"
+    },
+    {
+      "question": "How many different screw sizes are specified for vacuum pump mounting?",
+      "answer": "Three different screw sizes: M6, M8, and M9",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-047-q09"
+    },
+    {
+      "question": "What is the difference in torque between M6 and M8/M9 screws for vacuum pump components?",
+      "answer": "M6 screws require 10 Nm while M8 and M9 screws require 22 Nm, a difference of 12 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-047-q10"
+    }
+  ]
+}

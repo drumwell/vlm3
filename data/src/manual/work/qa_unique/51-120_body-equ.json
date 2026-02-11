@@ -1,0 +1,55 @@
+{
+  "page_id": "51-120_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-120.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:10:03.451451",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1752,
+    "tokens_output": 455
+  },
+  "qa_pairs": [
+    {
+      "question": "What is component number 1 in the rear bumper assembly drawing?",
+      "answer": "Component number 1 is the bracket with mounting parts.",
+      "question_type": "component",
+      "id": "51-120_body-equ-q01"
+    },
+    {
+      "question": "What does callout number 5 identify in this assembly diagram?",
+      "answer": "Callout number 5 identifies the ornamental strip.",
+      "question_type": "component",
+      "id": "51-120_body-equ-q02"
+    },
+    {
+      "question": "Which component is labeled as number 3 in the rear bumper assembly?",
+      "answer": "Number 3 is the foam rubber inlet.",
+      "question_type": "component",
+      "id": "51-120_body-equ-q03"
+    },
+    {
+      "question": "What component does number 4 represent in this M3 rear bumper assembly?",
+      "answer": "Number 4 represents the bumper trim panel.",
+      "question_type": "component",
+      "id": "51-120_body-equ-q05"
+    },
+    {
+      "question": "Which numbered component is the bumper carrier in this diagram?",
+      "answer": "The bumper carrier is component number 2.",
+      "question_type": "component",
+      "id": "51-120_body-equ-q06"
+    },
+    {
+      "question": "What is component number 6 identified as in the parts list?",
+      "answer": "Component number 6 is identified as the bracket on side panel.",
+      "question_type": "component",
+      "id": "51-120_body-equ-q07"
+    }
+  ]
+}

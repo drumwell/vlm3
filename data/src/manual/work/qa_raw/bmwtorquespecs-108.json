@@ -1,0 +1,76 @@
+{
+  "page_id": "bmwtorquespecs-108",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/108.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:32:56.708359",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 589
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the output flange collar nut on ASS 300J type automatic transmission?",
+      "answer": "225 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-108-q01"
+    },
+    {
+      "question": "What torque value should be used for output flange collar nuts on all other automatic transmission types besides ASS 300J?",
+      "answer": "100 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-108-q02"
+    },
+    {
+      "question": "Which section of the manual covers Input, Intermediate and Output Shafts for automatic transmission?",
+      "answer": "Section 24 21",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-108-q03"
+    },
+    {
+      "question": "What unit of measurement is used for the torque specifications on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-108-q05",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "How much higher is the torque specification for ASS 300J compared to all other transmission types for the output flange collar nut?",
+      "answer": "125 Nm higher (225 Nm - 100 Nm = 125 Nm)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-108-q06"
+    },
+    {
+      "question": "What chapter and section does this torque specification table belong to?",
+      "answer": "Chapter 24-6 Automatic Transmission",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-108-q07"
+    },
+    {
+      "question": "Which automatic transmission type requires the higher torque specification for the output flange collar nut?",
+      "answer": "ASS 300J",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-108-q08"
+    },
+    {
+      "question": "What component is being torqued according to the specifications shown in this table?",
+      "answer": "Output flange collar nut",
+      "question_type": "component",
+      "id": "bmwtorquespecs-108-q09"
+    },
+    {
+      "question": "Are there different torque specifications based on transmission type for this component?",
+      "answer": "Yes, ASS 300J requires 225 Nm while all others require 100 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-108-q10"
+    }
+  ]
+}

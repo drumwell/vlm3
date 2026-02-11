@@ -1,0 +1,55 @@
+{
+  "page_id": "64-00-index-b_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-00-index-b.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:51:33.129373",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1748,
+    "tokens_output": 417
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers Heating and Air Conditioning?",
+      "answer": "Section 64 covers Heating and Air Conditioning.",
+      "question_type": "factual",
+      "id": "64-00-index-b_heating--q01"
+    },
+    {
+      "question": "On which page can I find information about removing and installing the expansion valve?",
+      "answer": "Information about removing and installing the expansion valve can be found on page 64-500.",
+      "question_type": "navigation",
+      "id": "64-00-index-b_heating--q02"
+    },
+    {
+      "question": "What is the part number for the compressor removal and installation procedure for the 318i?",
+      "answer": "The part number for the compressor removal and installation procedure for the 318i is 64 52 020.",
+      "question_type": "factual",
+      "id": "64-00-index-b_heating--q03"
+    },
+    {
+      "question": "Where can I find the procedure for removing and installing the evaporator?",
+      "answer": "The procedure for removing and installing the evaporator can be found on page 64-503.",
+      "question_type": "navigation",
+      "id": "64-00-index-b_heating--q04"
+    },
+    {
+      "question": "What are the two different compressor part numbers listed and what models do they correspond to?",
+      "answer": "The two compressor part numbers are 64 52 020 for the 318i model and 64 52 020 for the 325e model, with procedures on pages 64-505 and 64-505a respectively.",
+      "question_type": "factual",
+      "id": "64-00-index-b_heating--q05"
+    },
+    {
+      "question": "Which air conditioning component procedure is covered on page 64-507?",
+      "answer": "The condenser removal and installation procedure is covered on page 64-507.",
+      "question_type": "navigation",
+      "id": "64-00-index-b_heating--q06"
+    }
+  ]
+}

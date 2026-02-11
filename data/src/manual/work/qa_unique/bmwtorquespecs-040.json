@@ -1,0 +1,37 @@
+{
+  "page_id": "bmwtorquespecs-040",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/040.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:20:04.241140",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 582
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is being attached to the crankcase according to the 1AZ specification?",
+      "answer": "Water pump",
+      "question_type": "component",
+      "id": "bmwtorquespecs-040-q04"
+    },
+    {
+      "question": "Which screw size requires higher torque for water pump to crankcase installation?",
+      "answer": "M8 screw requires higher torque at 22 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-040-q09"
+    },
+    {
+      "question": "What is the main engine section number that contains this water pump torque specification information?",
+      "answer": "11 - 30 Engine",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-040-q10"
+    }
+  ]
+}

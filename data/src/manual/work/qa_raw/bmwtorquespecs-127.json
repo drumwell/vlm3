@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-127",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/127.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:36:48.760287",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 550
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the temperature switch at 91\u00b0C?",
+      "answer": "14 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-127-q01"
+    },
+    {
+      "question": "What is the torque specification for the temperature switch at 99\u00b0C?",
+      "answer": "14 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-127-q02"
+    },
+    {
+      "question": "Which vehicle types use the oil pressure switch with 40 Nm torque specification?",
+      "answer": "M10/M40/M42/M21/M51/M20/M30/M50/M60/1/M60/2/M70/S70",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-127-q03"
+    },
+    {
+      "question": "What is the torque specification for the oil pressure switch on S14/S50/S38/M43 engines?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-127-q04"
+    },
+    {
+      "question": "What torque specification applies to the reversing light switch?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-127-q05"
+    },
+    {
+      "question": "Which vehicle models use the light switch on instrument panel with 2 Nm torque?",
+      "answer": "E36/E38",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-127-q06"
+    },
+    {
+      "question": "What is the torque specification for the transmission switch on shift block?",
+      "answer": "4.5 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-127-q07"
+    },
+    {
+      "question": "What special note is provided for the oil pressure switch installation?",
+      "answer": "Note: oil and screw in",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-127-q08"
+    },
+    {
+      "question": "What section number covers the General Electrical system switches?",
+      "answer": "61 - 2",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-127-q09"
+    }
+  ]
+}

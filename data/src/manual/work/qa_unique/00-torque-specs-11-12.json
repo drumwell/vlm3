@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-11-12",
+  "image_path": "raw/00 - Torque Specs/11-12.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:39:00.085836",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 720
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for timing case and top and bottom timing case cover screws on all engine types?",
+      "answer": "M6 screws: 10 Nm, M8 screws: 22 Nm, M10 screws: 47 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-12-q01"
+    },
+    {
+      "question": "What torque should I apply to the front/rear end cover to crankcase bolts?",
+      "answer": "M6 bolts: 10 Nm, M8 bolts: 22 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-12-q02"
+    },
+    {
+      "question": "What is the torque specification for bolts on timing case cover for M51/M41 engines?",
+      "answer": "M42x1.5 bolts: 65 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-12-q03"
+    },
+    {
+      "question": "How much torque should I apply to sealing plugs or connectors on timing case cover for M51/M41 engines?",
+      "answer": "M20x1.5: 30 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-12-q04"
+    },
+    {
+      "question": "Which engine types use the timing case cover bolt specification of M42x1.5?",
+      "answer": "M51/M41 engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-12-q05"
+    },
+    {
+      "question": "What are the different screw sizes used for timing case covers and their respective torques?",
+      "answer": "M6 screws: 10 Nm, M8 screws: 22 Nm, M10 screws: 47 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-12-q06"
+    },
+    {
+      "question": "Do the front/rear end cover to crankcase torque specifications apply to all engine types?",
+      "answer": "Yes, the specifications apply to all engine types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-12-q07"
+    },
+    {
+      "question": "What is the highest torque value specified for case covers in this section?",
+      "answer": "65 Nm for M42x1.5 bolts on timing case cover for M51/M41 engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-12-q08"
+    },
+    {
+      "question": "Which component uses M20x1.5 fasteners and what is their torque specification?",
+      "answer": "Sealing plug or connector on timing case cover uses M20x1.5 fasteners torqued to 30 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-12-q09"
+    },
+    {
+      "question": "What section of the manual contains these case cover torque specifications?",
+      "answer": "Section 11-12 Engine, subsection 11 14 Case covers.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-12-q10"
+    }
+  ]
+}

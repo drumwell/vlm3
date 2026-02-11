@@ -1,0 +1,91 @@
+{
+  "page_id": "51-163_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-163.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:13:23.531938",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 683
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step shown for removing the ashtray console?",
+      "answer": "Unscrew bolts and lift out ashtray console.",
+      "question_type": "procedural",
+      "id": "51-163_body-equ-q01"
+    },
+    {
+      "question": "What components need to be disconnected when removing the ashtray light?",
+      "answer": "Pull off ashtray light and wires for cigar lighter.",
+      "question_type": "procedural",
+      "id": "51-163_body-equ-q02"
+    },
+    {
+      "question": "Which direction should you pull the tray according to the procedure?",
+      "answer": "Pull out tray toward rear.",
+      "question_type": "procedural",
+      "id": "51-163_body-equ-q03"
+    },
+    {
+      "question": "What part number is shown for the step involving unscrewing bolts and lifting out the ashtray console?",
+      "answer": "30 51 006",
+      "question_type": "factual",
+      "id": "51-163_body-equ-q04"
+    },
+    {
+      "question": "What part number corresponds to the step for pulling off the ashtray light and cigar lighter wires?",
+      "answer": "30 51 007",
+      "question_type": "factual",
+      "id": "51-163_body-equ-q05"
+    },
+    {
+      "question": "How should the retainers be turned for removal?",
+      "answer": "Remove retainers by turning clockwise and anticlockwise 90\u00b0.",
+      "question_type": "procedural",
+      "id": "51-163_body-equ-q06"
+    },
+    {
+      "question": "What is the part number for the step showing the removal of retainers?",
+      "answer": "30 51 009",
+      "question_type": "factual",
+      "id": "51-163_body-equ-q07"
+    },
+    {
+      "question": "What component is shown being unscrewed in the image with part number 30 51 008?",
+      "answer": "A bolt that needs to be unscrewed.",
+      "question_type": "visual",
+      "id": "51-163_body-equ-q08"
+    },
+    {
+      "question": "How many degrees should the retainers be turned during removal?",
+      "answer": "The retainers should be turned 90\u00b0 in both clockwise and anticlockwise directions.",
+      "question_type": "factual",
+      "id": "51-163_body-equ-q09"
+    },
+    {
+      "question": "What is the part number associated with pulling out the tray toward the rear?",
+      "answer": "30 51 010",
+      "question_type": "factual",
+      "id": "51-163_body-equ-q10"
+    },
+    {
+      "question": "What electrical components are mentioned in the ashtray removal procedure?",
+      "answer": "Ashtray light and wires for cigar lighter are the electrical components mentioned.",
+      "question_type": "component",
+      "id": "51-163_body-equ-q11"
+    },
+    {
+      "question": "What page number is shown at the top of this service manual page?",
+      "answer": "51-163",
+      "question_type": "navigation",
+      "id": "51-163_body-equ-q12"
+    }
+  ]
+}

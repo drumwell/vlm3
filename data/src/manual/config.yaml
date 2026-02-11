@@ -143,6 +143,7 @@ generation:
     - "*-blank-*"
     - "*-cover-*"
     - "*-title-*"
+    - "favicon-*"
 
   # Skip content types (no useful Q&A)
   # Note: Index pages DO generate Q&A (navigation questions about repair codes,
@@ -245,6 +246,7 @@ output:
 
   # Stratification
   stratify_by: section_id        # Options: section_id, source_type, none
+  split_unit: page_id            # Split at page level so no image appears in both train and val
 
   # Minimum samples per stratum for stratification
   min_stratum_size: 10           # Fall back to random if stratum too small

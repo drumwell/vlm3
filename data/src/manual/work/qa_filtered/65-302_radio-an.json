@@ -1,0 +1,91 @@
+{
+  "page_id": "65-302_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-302.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:03:06.834136",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 839
+  },
+  "qa_pairs": [
+    {
+      "question": "What distance should be maintained between distance A when adjusting the stop light switch for manual transmission vehicles?",
+      "answer": "Distance A should be 5 to 6 mm (0.197 to 0.236 inches) of contact button visible when the brake pedal is released.",
+      "question_type": "factual",
+      "id": "65-302_radio-an-q01"
+    },
+    {
+      "question": "How do you remove the stop light switch on manual transmission vehicles?",
+      "answer": "Loosen lock nut (1) on the stop light switch, unscrew nut (2), and remove the stop light switch.",
+      "question_type": "procedural",
+      "id": "65-302_radio-an-q02"
+    },
+    {
+      "question": "What components are used to mount the clutch switch on manual transmission vehicles?",
+      "answer": "The clutch switch (1) is mounted on bracket (4) using nuts (2) and (3).",
+      "question_type": "visual",
+      "id": "65-302_radio-an-q03"
+    },
+    {
+      "question": "What is the adjustment specification for the clutch switch contact button visibility?",
+      "answer": "Adjust the clutch switch with nuts so that 4 to 5 mm (0.157 to 0.197 inches) of contact button is visible when the clutch pedal is released.",
+      "question_type": "factual",
+      "id": "65-302_radio-an-q04"
+    },
+    {
+      "question": "How do you install the clutch switch holder on manual transmission vehicles?",
+      "answer": "Mount holder (1) with switch on bracket (2) using an M 6 x 12 screw and spring washer.",
+      "question_type": "procedural",
+      "id": "65-302_radio-an-q05"
+    },
+    {
+      "question": "What should be done before installing the steering column casing?",
+      "answer": "Cut out the marked opening in the steering column casing before installation.",
+      "question_type": "procedural",
+      "id": "65-302_radio-an-q06"
+    },
+    {
+      "question": "How do you access the glove box retaining straps?",
+      "answer": "Open the glove box and pull out pins (1) of both retaining straps.",
+      "question_type": "procedural",
+      "id": "65-302_radio-an-q07"
+    },
+    {
+      "question": "What step is required to remove the bracket and switch assembly?",
+      "answer": "Remove bracket (1) and pull plug off of switch (2).",
+      "question_type": "procedural",
+      "id": "65-302_radio-an-q08"
+    },
+    {
+      "question": "What are the numbered callouts in the clutch switch mounting diagram?",
+      "answer": "In the clutch switch mounting diagram, (1) is the clutch switch, (2) and (3) are mounting nuts, and (4) is the bracket.",
+      "question_type": "visual",
+      "id": "65-302_radio-an-q09"
+    },
+    {
+      "question": "What procedures are specifically for manual transmission vehicles only?",
+      "answer": "Stop light switch installation/adjustment, clutch switch mounting and adjustment, and clutch switch holder mounting are all procedures for manual transmission vehicles only.",
+      "question_type": "factual",
+      "id": "65-302_radio-an-q10"
+    },
+    {
+      "question": "How do you prepare the cover for removal in the lower procedure?",
+      "answer": "Unscrew screws and lay cover aside.",
+      "question_type": "procedural",
+      "id": "65-302_radio-an-q11"
+    },
+    {
+      "question": "What component identification numbers are shown in the glove box access procedure?",
+      "answer": "The glove box procedure shows pins (1) for the retaining straps that need to be pulled out.",
+      "question_type": "visual",
+      "id": "65-302_radio-an-q12"
+    }
+  ]
+}

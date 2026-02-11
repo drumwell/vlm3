@@ -1,0 +1,25 @@
+{
+  "page_id": "00-torque-specs-17-01",
+  "image_path": "raw/00 - Torque Specs/17-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:56:13.525438",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 564
+  },
+  "qa_pairs": [
+    {
+      "question": "What section and subsection number covers these radiator coolant specifications?",
+      "answer": "Section 17-1 Radiator, subsection 17 00 Coolant",
+      "question_type": "navigation",
+      "id": "00-torque-specs-17-01-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "25-17_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-17.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:51:34.812577",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 639
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the selector lever complete with base?",
+      "answer": "The procedure number is 25 16 050.",
+      "question_type": "factual",
+      "id": "25-17_gear-shi-q01"
+    },
+    {
+      "question": "What should be done first when removing the center console for this procedure?",
+      "answer": "Remove center console - see 51 16 200.",
+      "question_type": "procedural",
+      "id": "25-17_gear-shi-q02"
+    },
+    {
+      "question": "After lifting out the retainer, what component needs to be disengaged?",
+      "answer": "Disengage shift rod.",
+      "question_type": "procedural",
+      "id": "25-17_gear-shi-q03"
+    },
+    {
+      "question": "Where can you find information about adjusting the shift rod during installation?",
+      "answer": "Adjust shift rod - see 24 00 004.",
+      "question_type": "navigation",
+      "id": "25-17_gear-shi-q04"
+    },
+    {
+      "question": "What component is indicated by callout number 2 in the middle diagram?",
+      "answer": "The plug that needs to be disconnected.",
+      "question_type": "visual",
+      "id": "25-17_gear-shi-q05"
+    },
+    {
+      "question": "How many bolts need to be removed according to the instructions shown in the middle image?",
+      "answer": "Remove bolts (3).",
+      "question_type": "factual",
+      "id": "25-17_gear-shi-q06"
+    },
+    {
+      "question": "What important caution is given during the installation process?",
+      "answer": "Be careful not to pinch the wire harness.",
+      "question_type": "safety",
+      "id": "25-17_gear-shi-q07"
+    },
+    {
+      "question": "What component is indicated by callout number 4 in the bottom diagram?",
+      "answer": "The insulator that needs to be inserted during installation.",
+      "question_type": "visual",
+      "id": "25-17_gear-shi-q08"
+    },
+    {
+      "question": "What is the final installation step shown in the bottom image?",
+      "answer": "Insert insulator (4).",
+      "question_type": "procedural",
+      "id": "25-17_gear-shi-q09"
+    },
+    {
+      "question": "What component needs to be removed after disconnecting the plug and removing the bolts?",
+      "answer": "Remove base.",
+      "question_type": "procedural",
+      "id": "25-17_gear-shi-q10"
+    },
+    {
+      "question": "What type of transmission is this procedure specifically for?",
+      "answer": "Version with Shift Rod.",
+      "question_type": "factual",
+      "id": "25-17_gear-shi-q11"
+    },
+    {
+      "question": "What is the identification number shown in the bottom right of the last image?",
+      "answer": "20 25 022.",
+      "question_type": "visual",
+      "id": "25-17_gear-shi-q12"
+    }
+  ]
+}

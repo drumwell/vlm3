@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-097",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/097.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:34:25.682570",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 711
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the reverse gear shaft to case on all transmission types?",
+      "answer": "25 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-097-q01"
+    },
+    {
+      "question": "What torque should be applied to the reverse gear shaft to case on the S 5 D 310 Z transmission?",
+      "answer": "20 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-097-q02"
+    },
+    {
+      "question": "What is the torque specification for the support for reverse gear shaft on 240/260 transmissions?",
+      "answer": "25 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-097-q03"
+    },
+    {
+      "question": "How much torque should be applied to the bearing bracket on rear section of case?",
+      "answer": "10 Nm using M6 screws for 240/260/265/280 transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-097-q04"
+    },
+    {
+      "question": "What is the torque specification for mounting tabs for sealing cover on the 280 transmission?",
+      "answer": "10 Nm using M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-097-q05"
+    },
+    {
+      "question": "What torque should be applied to the bearing on countershaft for S 5 D 200 G/S 5 D 250 G transmissions?",
+      "answer": "90 Nm using M10 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-097-q06"
+    },
+    {
+      "question": "How does the torque specification for bearing on countershaft differ between S 5 D 310 Z and 280 transmissions?",
+      "answer": "S 5 D 310 Z requires 30 Nm while 280 transmission requires 60 Nm, both using M10 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-097-q07"
+    },
+    {
+      "question": "What screw size is used for the highest torque specification in this table?",
+      "answer": "M10 screws are used for the highest torque specification of 90 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-097-q08"
+    },
+    {
+      "question": "Which component uses M6 screws in the manual transmission case and cover assembly?",
+      "answer": "Both the bearing bracket on rear section of case and mounting tabs for sealing cover use M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-097-q09"
+    },
+    {
+      "question": "What is the torque range for M10 screws used on the bearing on countershaft across different transmission types?",
+      "answer": "The torque range is 30 Nm to 90 Nm depending on the transmission type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-097-q10"
+    }
+  ]
+}

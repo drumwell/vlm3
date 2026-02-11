@@ -1,0 +1,91 @@
+{
+  "page_id": "41-123_body",
+  "image_path": "raw/41 - Body/41-123.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:47:59.321042",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 748
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done after removing the brazing solder?",
+      "answer": "After removing the brazing solder, lift off the end plate.",
+      "question_type": "procedural",
+      "id": "41-123_body-q01"
+    },
+    {
+      "question": "What procedure follows cutting off the holder for the end plate?",
+      "answer": "After cutting off the holder for the end plate, drill out the spot welds and remove the scrap metal.",
+      "question_type": "procedural",
+      "id": "41-123_body-q02"
+    },
+    {
+      "question": "What should be applied to all mating surfaces before reassembly?",
+      "answer": "Coat all mating surfaces with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-123_body-q03"
+    },
+    {
+      "question": "What is the reference number for the step showing drilling holes for plug spot welding?",
+      "answer": "The reference number is 30 41 484.",
+      "question_type": "factual",
+      "id": "41-123_body-q04"
+    },
+    {
+      "question": "What type of welding is performed in the area of the engine compartment wall?",
+      "answer": "Plug spot welding is performed in the area of the engine compartment wall.",
+      "question_type": "factual",
+      "id": "41-123_body-q05"
+    },
+    {
+      "question": "What preparation is required for mating surfaces after removing scrap metal?",
+      "answer": "After removing scrap metal, straighten and grind the mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-123_body-q06"
+    },
+    {
+      "question": "Which reference number corresponds to the step showing removal of scrap metal and straightening of mating surfaces?",
+      "answer": "Reference number 30 41 482 corresponds to removing scrap metal and straightening and grinding mating surfaces.",
+      "question_type": "factual",
+      "id": "41-123_body-q07"
+    },
+    {
+      "question": "What is shown in the image with reference number 30 41 483?",
+      "answer": "The image shows the removal of scrap metal and straightening and grinding of mating surfaces.",
+      "question_type": "visual",
+      "id": "41-123_body-q08"
+    },
+    {
+      "question": "What operation is performed after drilling holes for plug spot welding?",
+      "answer": "After drilling holes for plug spot welding, remove scrap metal and straighten and grind mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-123_body-q09"
+    },
+    {
+      "question": "What reference number is associated with coating mating surfaces with zinc dust paint?",
+      "answer": "Reference number 30 41 486 is associated with coating all mating surfaces with zinc dust paint.",
+      "question_type": "factual",
+      "id": "41-123_body-q10"
+    },
+    {
+      "question": "What is the final step shown in this repair procedure?",
+      "answer": "The final step is to coat all mating surfaces with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-123_body-q11"
+    },
+    {
+      "question": "What type of paint is specified for coating the mating surfaces?",
+      "answer": "Zinc dust paint is specified for coating the mating surfaces.",
+      "question_type": "factual",
+      "id": "41-123_body-q12"
+    }
+  ]
+}

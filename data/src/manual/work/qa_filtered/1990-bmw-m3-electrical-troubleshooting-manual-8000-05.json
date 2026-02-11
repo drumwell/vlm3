@@ -1,0 +1,61 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-05",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8000-05.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:15:52.888936",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 463
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of harness splice locations are shown in this diagram?",
+      "answer": "Instrument panel harness splice locations",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-05-q02"
+    },
+    {
+      "question": "What splice location is labeled C103?",
+      "answer": "C103 is shown on the left side of the diagram, connected to the instrument panel wiring",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-05-q03"
+    },
+    {
+      "question": "Where is splice location S219 positioned in the diagram?",
+      "answer": "S219 is located at the bottom right of the diagram, below the center console area",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-05-q04"
+    },
+    {
+      "question": "What splice locations are shown grouped together on the left side?",
+      "answer": "C103, S306, S307, and S221 are grouped together on the left side of the diagram",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-05-q05"
+    },
+    {
+      "question": "What components are visible in the instrument cluster area of the diagram?",
+      "answer": "The instrument cluster shows gauges including what appears to be a speedometer, tachometer, and various warning lights and indicators",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-05-q06"
+    },
+    {
+      "question": "What section of the manual does this diagram belong to?",
+      "answer": "This diagram belongs to the Splice Location Views section",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-05-q07"
+    },
+    {
+      "question": "What part of the vehicle's electrical system does this diagram focus on?",
+      "answer": "This diagram focuses on the instrument panel and dashboard area electrical connections and splice points",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8000-05-q08"
+    }
+  ]
+}

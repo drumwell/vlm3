@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-11-37",
+  "image_path": "raw/00 - Torque Specs/11-37.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:43:52.954228",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 660
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for vacuum pump mounting bolts on the cylinder head for all engine types?",
+      "answer": "10 Nm for M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-37-q01"
+    },
+    {
+      "question": "What screw size and torque is used for M51/M41 engine vacuum pump mounting?",
+      "answer": "M8 screws torqued to 22 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-37-q02"
+    },
+    {
+      "question": "What is the torque specification for microencapsulated vacuum pump bolts on M51/M41 engines?",
+      "answer": "22 Nm for M9 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-37-q03"
+    },
+    {
+      "question": "Which engine codes use M8 screws for vacuum pump mounting?",
+      "answer": "M51/M41 engines use M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-37-q04"
+    },
+    {
+      "question": "What is the difference in screw size between standard vacuum pump mounting and microencapsulated mounting on M51/M41 engines?",
+      "answer": "Standard uses M8 screws while microencapsulated uses M9 screws, both with the same 22 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-37-q05"
+    },
+    {
+      "question": "What component is covered in section 11 66 of the manual?",
+      "answer": "Vacuum pump.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-37-q06"
+    },
+    {
+      "question": "What is the specific part designation 1AZ referring to in this torque specification table?",
+      "answer": "Vacuum pump on cylinder head.",
+      "question_type": "component",
+      "id": "00-torque-specs-11-37-q07"
+    },
+    {
+      "question": "Are the torque values the same for M51/M41 engines regardless of whether the bolts are microencapsulated or not?",
+      "answer": "Yes, both standard and microencapsulated bolts on M51/M41 engines require 22 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-37-q08"
+    },
+    {
+      "question": "What is the lowest torque specification shown for vacuum pump mounting?",
+      "answer": "10 Nm for M6 screws on all engine types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-37-q09"
+    },
+    {
+      "question": "Which screw size requires the highest torque for vacuum pump installation?",
+      "answer": "Both M8 and M9 screws require the highest torque at 22 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-37-q10"
+    }
+  ]
+}

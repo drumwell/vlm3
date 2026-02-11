@@ -1,0 +1,91 @@
+{
+  "page_id": "23-104_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-104.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:25:58.021192",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 866
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required for the selector shaft?",
+      "answer": "Special Tool 23 2 180 is required for the selector shaft.",
+      "question_type": "tool",
+      "id": "23-104_manual-t-q01"
+    },
+    {
+      "question": "What is the required axial play for the input shaft?",
+      "answer": "The axial play required is 1.1 to 1.3 mm (0.043 to 0.051\").",
+      "question_type": "factual",
+      "id": "23-104_manual-t-q02"
+    },
+    {
+      "question": "How should the thrust washer be positioned when installing?",
+      "answer": "Hold thrust washer (4) with angle facing bore (5) in case rear section on reverse gear shaft with grease. Install gasket with grease.",
+      "question_type": "procedural",
+      "id": "23-104_manual-t-q03"
+    },
+    {
+      "question": "What must be done with the input shaft after replacing the case or bearing?",
+      "answer": "Input shaft axial play must be adjusted after replacing case or bearing. The input shaft must rest on synchromesh ring.",
+      "question_type": "procedural",
+      "id": "23-104_manual-t-q04"
+    },
+    {
+      "question": "What temperature should the ball bearing inner race and case front section be heated to?",
+      "answer": "Heat grooved ball bearing inner race and case front section in area of bearing to approx. 80\u00b0 C (175\u00b0 F).",
+      "question_type": "procedural",
+      "id": "23-104_manual-t-q05"
+    },
+    {
+      "question": "What are the example measurements for distances A, B, and C?",
+      "answer": "A: 25.3 mm (0.996\"), B: 10.1 mm (0.398\"), C: 15.2 mm (0.598\") and 14.0 mm (0.551\"), with a difference of 1.2 mm (0.047\").",
+      "question_type": "factual",
+      "id": "23-104_manual-t-q06"
+    },
+    {
+      "question": "What should be done if a spacer is found between the circlip and case when removing the bearing?",
+      "answer": "If a spacer is found between the circlip and case when removing the bearing, it must be installed again for measuring distance.",
+      "question_type": "inspection",
+      "id": "23-104_manual-t-q07"
+    },
+    {
+      "question": "How should the grooved ball bearing be positioned on the input shaft?",
+      "answer": "Push grooved ball bearing on to input shaft as far as possible.",
+      "question_type": "procedural",
+      "id": "23-104_manual-t-q08"
+    },
+    {
+      "question": "What components are indicated by callout numbers 4 and 5 in the first diagram?",
+      "answer": "Number 4 indicates the thrust washer and number 5 indicates the bore in the case rear section.",
+      "question_type": "visual",
+      "id": "23-104_manual-t-q09"
+    },
+    {
+      "question": "What is measured as distance B in the bearing measurement procedure?",
+      "answer": "Distance B is measured from guide sleeve sealing surface to circlip bearing surface.",
+      "question_type": "factual",
+      "id": "23-104_manual-t-q10"
+    },
+    {
+      "question": "What note is given about the circlip during measurement?",
+      "answer": "The circlip must fit right in groove for measuring. Circlips are available from Parts in different thicknesses for corrections.",
+      "question_type": "inspection",
+      "id": "23-104_manual-t-q11"
+    },
+    {
+      "question": "What is the final step after installing the case front section?",
+      "answer": "Remove guide sleeve 23 2 180 and install end cover for selector shaft.",
+      "question_type": "procedural",
+      "id": "23-104_manual-t-q12"
+    }
+  ]
+}

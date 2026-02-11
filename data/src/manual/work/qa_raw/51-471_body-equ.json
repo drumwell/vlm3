@@ -1,0 +1,91 @@
+{
+  "page_id": "51-471_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-471.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:29:35.096547",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 666
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing or replacing left or right rear entrance cover strip?",
+      "answer": "51 47 030",
+      "question_type": "factual",
+      "id": "51-471_body-equ-q01"
+    },
+    {
+      "question": "What should you do with the seat belt on convertibles before removing the rear entrance cover strip?",
+      "answer": "Lift off cover on seat belt and lift out clips.",
+      "question_type": "procedural",
+      "id": "51-471_body-equ-q02"
+    },
+    {
+      "question": "How do you remove the expander rivet when servicing the rear entrance cover strip?",
+      "answer": "Pull out expander rivet.",
+      "question_type": "procedural",
+      "id": "51-471_body-equ-q03"
+    },
+    {
+      "question": "What tool is recommended for removing the clips during rear entrance cover strip service?",
+      "answer": "A pliers to compress and lift out clips.",
+      "question_type": "tool",
+      "id": "51-471_body-equ-q04"
+    },
+    {
+      "question": "What is shown in diagram 30 51 751?",
+      "answer": "The procedure for removing the cover on convertibles.",
+      "question_type": "visual",
+      "id": "51-471_body-equ-q05"
+    },
+    {
+      "question": "What action should be taken with the cover according to diagram 30 51 752?",
+      "answer": "Remove cover.",
+      "question_type": "procedural",
+      "id": "51-471_body-equ-q06"
+    },
+    {
+      "question": "What does diagram 30 51 753 illustrate?",
+      "answer": "The step to pull out expander rivet.",
+      "question_type": "visual",
+      "id": "51-471_body-equ-q07"
+    },
+    {
+      "question": "How should you handle the cover according to diagram 30 51 754?",
+      "answer": "Lift out cover.",
+      "question_type": "procedural",
+      "id": "51-471_body-equ-q08"
+    },
+    {
+      "question": "What specific technique is shown in diagram 30 51 050 for clip removal?",
+      "answer": "Compress and lift out clips with a pliers.",
+      "question_type": "procedural",
+      "id": "51-471_body-equ-q09"
+    },
+    {
+      "question": "What installation instruction is provided for the clips?",
+      "answer": "If applicable, slide on and align new clips.",
+      "question_type": "procedural",
+      "id": "51-471_body-equ-q10"
+    },
+    {
+      "question": "What is depicted in diagram 30 51 051?",
+      "answer": "The installation procedure showing how to slide on and align new clips if applicable.",
+      "question_type": "visual",
+      "id": "51-471_body-equ-q11"
+    },
+    {
+      "question": "What is the main difference in the procedure between convertibles and other models?",
+      "answer": "For convertibles, you must lift off cover on seat belt and lift out clips as an additional step.",
+      "question_type": "factual",
+      "id": "51-471_body-equ-q12"
+    }
+  ]
+}

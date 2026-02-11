@@ -1,0 +1,55 @@
+{
+  "page_id": "18-00-index-a_exhaust-",
+  "image_path": "raw/18 - Exhaust System/18-00-index-a.jpg",
+  "section_id": "18",
+  "section_name": "Exhaust System",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:02:49.335770",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 450
+  },
+  "qa_pairs": [
+    {
+      "question": "What chapter number covers the Exhaust System in this manual?",
+      "answer": "Chapter 18 covers the Exhaust System.",
+      "question_type": "factual",
+      "id": "18-00-index-a_exhaust--q01"
+    },
+    {
+      "question": "On which page can I find information about catalytic converter removal and installation for the 318i model?",
+      "answer": "Page 18-4 covers catalytic converter removal and installation/replace procedures for the Model 318i.",
+      "question_type": "navigation",
+      "id": "18-00-index-a_exhaust--q02"
+    },
+    {
+      "question": "What are the three main procedures listed for the Model M3 exhaust system?",
+      "answer": "The three main procedures for Model M3 are: exhaust assembly remove and install (18-8), final muffler replace (18-8), and exhaust suspension layout (18-9).",
+      "question_type": "procedural",
+      "id": "18-00-index-a_exhaust--q03"
+    },
+    {
+      "question": "Which models are covered under the '325 ... 325 iX' designation in this exhaust system section?",
+      "answer": "Models 325 ... 325 iX are covered, which includes the range from 325 through 325 iX models.",
+      "question_type": "factual",
+      "id": "18-00-index-a_exhaust--q04"
+    },
+    {
+      "question": "What page number contains information about pivot sleeves on exhaust carrier for the 318i?",
+      "answer": "Page 18-3 contains information about pivot sleeves on exhaust carrier replace for the Model 318i.",
+      "question_type": "navigation",
+      "id": "18-00-index-a_exhaust--q05"
+    },
+    {
+      "question": "How many different BMW model groups are covered in this exhaust system chapter index?",
+      "answer": "Three different model groups are covered: Model 318i, Models 325...325 iX, and Model M3.",
+      "question_type": "factual",
+      "id": "18-00-index-a_exhaust--q06"
+    }
+  ]
+}

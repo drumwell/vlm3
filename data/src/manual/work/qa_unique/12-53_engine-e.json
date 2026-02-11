@@ -1,0 +1,85 @@
+{
+  "page_id": "12-53_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-53.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:40:40.156583",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 795
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you remove first when replacing carbon brushes on the starter?",
+      "answer": "First unscrew the mounting bolts (1), then remove the dust cap (2).",
+      "question_type": "procedural",
+      "id": "12-53_engine-e-q02"
+    },
+    {
+      "question": "What components are indicated by callout numbers 3, 4, and 5 in the carbon brush replacement diagram?",
+      "answer": "Number 3 is the lock washer, number 4 is the shims, and number 5 is the seal.",
+      "question_type": "visual",
+      "id": "12-53_engine-e-q03"
+    },
+    {
+      "question": "What is the acceptable range for machine insulation between plates on the commutator?",
+      "answer": "The machine insulation between plates should be approximately 0.5 to 0.7 mm (0.020 to 0.028\") deep.",
+      "question_type": "inspection",
+      "id": "12-53_engine-e-q04"
+    },
+    {
+      "question": "What voltage should be applied when checking the power input of engaging and holding coils in the solenoid switch?",
+      "answer": "Apply 12V when checking the power input of engaging and holding coils in the solenoid switch.",
+      "question_type": "factual",
+      "id": "12-53_engine-e-q05"
+    },
+    {
+      "question": "What should be checked on the commutator and when might fine grinding be necessary?",
+      "answer": "Check the commutator for wear, and fine grinding may be necessary if wear is found.",
+      "question_type": "inspection",
+      "id": "12-53_engine-e-q06"
+    },
+    {
+      "question": "What precaution should be taken when soldering in new carbon brushes?",
+      "answer": "When soldering in new carbon brushes, make sure that copper leads are not hardened with flowing solder.",
+      "question_type": "safety",
+      "id": "12-53_engine-e-q07"
+    },
+    {
+      "question": "What components should be checked for ground contact during starter inspection?",
+      "answer": "Check the exciter coil, carbon brush holder, and armature coil for ground contact.",
+      "question_type": "inspection",
+      "id": "12-53_engine-e-q08"
+    },
+    {
+      "question": "How should you install the components during carbon brush replacement?",
+      "answer": "During installation, take up axial play with the shims (4).",
+      "question_type": "procedural",
+      "id": "12-53_engine-e-q09"
+    },
+    {
+      "question": "What should be done to remove all carbon brushes from the starter?",
+      "answer": "Remove the holder and pole housing, then unsolder or cut off all carbon brushes.",
+      "question_type": "procedural",
+      "id": "12-53_engine-e-q10"
+    },
+    {
+      "question": "What should be checked on the armature after repairing?",
+      "answer": "Check the armature for shorted turns after repairing.",
+      "question_type": "inspection",
+      "id": "12-53_engine-e-q11"
+    },
+    {
+      "question": "What type of tester should be used for checking armature shorts?",
+      "answer": "Use a standard tester to check the armature for shorted turns.",
+      "question_type": "tool",
+      "id": "12-53_engine-e-q12"
+    }
+  ]
+}

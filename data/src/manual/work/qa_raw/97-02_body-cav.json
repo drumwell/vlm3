@@ -1,0 +1,67 @@
+{
+  "page_id": "97-02_body-cav",
+  "image_path": "raw/97 - Body Cavity Sealing and Undercoating/97-02.jpg",
+  "section_id": "97",
+  "section_name": "Body Cavity Sealing and Undercoating",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:12:25.871859",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1761,
+    "tokens_output": 545
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number is shown at the top of this service manual page?",
+      "answer": "Page 97-2",
+      "question_type": "navigation",
+      "id": "97-02_body-cav-q01"
+    },
+    {
+      "question": "How many numbered callouts are shown on the side view diagram of the E30?",
+      "answer": "16 numbered callouts are shown on the side view diagram, numbered from 1 to 16.",
+      "question_type": "visual",
+      "id": "97-02_body-cav-q02"
+    },
+    {
+      "question": "What is the BMW part number reference shown below the side view diagram?",
+      "answer": "The part number reference shown is 30 97 001.",
+      "question_type": "factual",
+      "id": "97-02_body-cav-q03"
+    },
+    {
+      "question": "Which callout numbers are positioned along the roofline of the vehicle?",
+      "answer": "Callout numbers 10, 11, 12, 13, 14, 15, and 16 are positioned along the roofline of the vehicle.",
+      "question_type": "visual",
+      "id": "97-02_body-cav-q04"
+    },
+    {
+      "question": "What callout numbers are located near the front wheel area?",
+      "answer": "Callout numbers 1 and 2 are located near the front wheel area.",
+      "question_type": "visual",
+      "id": "97-02_body-cav-q05"
+    },
+    {
+      "question": "How many detailed photographs are shown around the main diagram?",
+      "answer": "There are 15 detailed photographs arranged around the main side view diagram.",
+      "question_type": "visual",
+      "id": "97-02_body-cav-q06"
+    },
+    {
+      "question": "What callout numbers are positioned along the bottom/undercarriage of the vehicle?",
+      "answer": "Callout numbers 3, 4, 5, 6, 7, 8, and 9 are positioned along the bottom/undercarriage of the vehicle.",
+      "question_type": "visual",
+      "id": "97-02_body-cav-q07"
+    },
+    {
+      "question": "What type of work does this section of the manual appear to cover based on the visible content?",
+      "answer": "This section appears to cover body cavity sealing and undercoating work, as indicated by the detailed photographs showing various body panel areas and joints that would require sealing treatment.",
+      "question_type": "factual",
+      "id": "97-02_body-cav-q08"
+    }
+  ]
+}

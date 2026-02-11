@@ -1,0 +1,91 @@
+{
+  "page_id": "72-116_equipmen",
+  "image_path": "raw/72 - Equipment and Accessories for Body/72-116.jpg",
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:11:00.931884",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 841
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be used to clean seat belt straps?",
+      "answer": "Use a luke warm soap solution or commercial fire laundry detergent to clean seat belt straps. Seat belt straps may never be cleaned chemically or dyed.",
+      "question_type": "procedural",
+      "id": "72-116_equipmen-q01"
+    },
+    {
+      "question": "When should an automatic seat belt be replaced?",
+      "answer": "Replace an automatic seat belt in case of creases, fringing, pinches, tears or cuts, melting, or seam damage on end of belt strap in area of holding or swinging fitting.",
+      "question_type": "inspection",
+      "id": "72-116_equipmen-q02"
+    },
+    {
+      "question": "What happens when the 'PRESS' button is activated during seat belt fastening?",
+      "answer": "The insert must be ejected out of the lock by spring pressure when pressing the 'PRESS' button.",
+      "question_type": "operation",
+      "id": "72-116_equipmen-q03"
+    },
+    {
+      "question": "What spray should be used on seat belts and what is its purpose?",
+      "answer": "Spray a seat belt with universal spray, HWB No. 8 122 947 005, to improve retraction of belt in reel (reduces friction, especially on the belt reversing holder).",
+      "question_type": "tool",
+      "id": "72-116_equipmen-q04"
+    },
+    {
+      "question": "What component is labeled as item 1 in the seat belt mechanism diagram?",
+      "answer": "Item 1 indicates a deformed slide that has to be replaced.",
+      "question_type": "visual",
+      "id": "72-116_equipmen-q05"
+    },
+    {
+      "question": "When should the lower strap be replaced during seat belt service?",
+      "answer": "The lower strap must also be replaced when replacing a seat belt.",
+      "question_type": "procedural",
+      "id": "72-116_equipmen-q06"
+    },
+    {
+      "question": "What is the proper way to insert the seat belt insert into the lock?",
+      "answer": "To fasten a seat belt the insert must be inserted in the lock lightly and heard to engage with a click.",
+      "question_type": "procedural",
+      "id": "72-116_equipmen-q07"
+    },
+    {
+      "question": "What component is shown as item 16 in the belt opening diagram?",
+      "answer": "Item 16 shows the belt insert in the plastic sleeve of the belt opening.",
+      "question_type": "visual",
+      "id": "72-116_equipmen-q08"
+    },
+    {
+      "question": "When should the seat belt be replaced based on wear inspection?",
+      "answer": "The seat belt has to be replaced if traces of wear are found in the plastic sleeve of the belt opening above the belt insert.",
+      "question_type": "inspection",
+      "id": "72-116_equipmen-q09"
+    },
+    {
+      "question": "What should be done if the lock trim is missing or damaged?",
+      "answer": "Replace the seat belt if the lock trim is missing or damaged.",
+      "question_type": "procedural",
+      "id": "72-116_equipmen-q10"
+    },
+    {
+      "question": "What are straightening attempts on the seat and seat rail not approved for?",
+      "answer": "Straightening attempts on the seat and seat rail are not approved in the case of a seat-integrated seat belt where the stop of the lower strap could be deformed on the seat rail in a collision.",
+      "question_type": "safety",
+      "id": "72-116_equipmen-q11"
+    },
+    {
+      "question": "What type of damage is specifically illustrated in the seat belt inspection criteria?",
+      "answer": "Melting damage is specifically illustrated as one of the conditions requiring seat belt replacement.",
+      "question_type": "visual",
+      "id": "72-116_equipmen-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "35-09_pedals",
+  "image_path": "raw/35 - Pedals/35-09.jpg",
+  "section_id": "35",
+  "section_name": "Pedals",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:29:05.019680",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 672
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW part number for replacing the accelerator cable?",
+      "answer": "35 41 421",
+      "question_type": "factual",
+      "id": "35-09_pedals-q01"
+    },
+    {
+      "question": "Which group should you reference when removing the dashboard trim panel at bottom left?",
+      "answer": "Group 51",
+      "question_type": "navigation",
+      "id": "35-09_pedals-q02"
+    },
+    {
+      "question": "What is the first step shown for disconnecting the accelerator cable?",
+      "answer": "Disconnect cable on pedal lever.",
+      "question_type": "procedural",
+      "id": "35-09_pedals-q03"
+    },
+    {
+      "question": "How do you remove the cable from the engine compartment wall?",
+      "answer": "Compress locking hooks and pull cable out of the engine compartment wall.",
+      "question_type": "procedural",
+      "id": "35-09_pedals-q04"
+    },
+    {
+      "question": "What should you do with the nipple when removing the accelerator cable?",
+      "answer": "Take nipple off of cable.",
+      "question_type": "procedural",
+      "id": "35-09_pedals-q05"
+    },
+    {
+      "question": "What does callout number 1 indicate in the bottom photograph?",
+      "answer": "The operating nipple that needs to be pressed out of the throttle valve lever.",
+      "question_type": "visual",
+      "id": "35-09_pedals-q06"
+    },
+    {
+      "question": "What does callout number 2 point to in the throttle valve lever area?",
+      "answer": "The rubber pad on holder that needs to be disconnected.",
+      "question_type": "visual",
+      "id": "35-09_pedals-q07"
+    },
+    {
+      "question": "What procedure is shown in the middle diagram with the arrows?",
+      "answer": "Compressing locking hooks and pulling the cable out of the engine compartment wall.",
+      "question_type": "visual",
+      "id": "35-09_pedals-q08"
+    },
+    {
+      "question": "What are the two components that need to be disconnected at the throttle valve lever?",
+      "answer": "Press operating nipple (1) out of the throttle valve lever and disconnect rubber pad on holder (2).",
+      "question_type": "component",
+      "id": "35-09_pedals-q09"
+    },
+    {
+      "question": "What is the reference number for the diagram showing the cable removal from engine compartment?",
+      "answer": "518 35 061",
+      "question_type": "factual",
+      "id": "35-09_pedals-q10"
+    },
+    {
+      "question": "What is the reference number for the photograph showing the pedal lever disconnection?",
+      "answer": "730 35 036",
+      "question_type": "factual",
+      "id": "35-09_pedals-q11"
+    },
+    {
+      "question": "What is the reference number for the photograph showing the throttle valve lever components?",
+      "answer": "30 35 038",
+      "question_type": "factual",
+      "id": "35-09_pedals-q12"
+    }
+  ]
+}

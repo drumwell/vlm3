@@ -1,0 +1,55 @@
+{
+  "page_id": "41-00-index-b_body",
+  "image_path": "raw/41 - Body/41-00-index-b.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:33:07.964052",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1742,
+    "tokens_output": 404
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for Body in the service manual?",
+      "answer": "Section 41 covers Body procedures and components.",
+      "question_type": "factual",
+      "id": "41-00-index-b_body-q01"
+    },
+    {
+      "question": "What page should I reference for side member cover replacement on 4-door cars?",
+      "answer": "Page 41-111 covers side member cover replacement for left or right on 4-door cars.",
+      "question_type": "navigation",
+      "id": "41-00-index-b_body-q02"
+    },
+    {
+      "question": "Where can I find information about trunk floor plate assembly replacement?",
+      "answer": "Trunk floor plate assembly replacement with tail panel removed is covered on page 41-118.",
+      "question_type": "navigation",
+      "id": "41-00-index-b_body-q03"
+    },
+    {
+      "question": "What procedure is described on page 41-122?",
+      "answer": "Page 41-122 covers wheel house, front, left replacement procedures.",
+      "question_type": "factual",
+      "id": "41-00-index-b_body-q04"
+    },
+    {
+      "question": "Which page covers complete wheel house and side panel replacement for the rear right?",
+      "answer": "Page 41-129 covers wheel house complete and side panel, rear, right replacement procedures.",
+      "question_type": "navigation",
+      "id": "41-00-index-b_body-q05"
+    },
+    {
+      "question": "What is the difference between procedures 41 11 101 and 41 11 121?",
+      "answer": "Procedure 41 11 101 is for complete side member cover replacement on 4-door cars, while 41 11 121 is for partial replacement without removal of door on 2-door cars.",
+      "question_type": "factual",
+      "id": "41-00-index-b_body-q06"
+    }
+  ]
+}

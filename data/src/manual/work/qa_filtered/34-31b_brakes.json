@@ -1,0 +1,79 @@
+{
+  "page_id": "34-31b_brakes",
+  "image_path": "raw/34 - Brakes/34-31b.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:21:43.592096",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 699
+  },
+  "qa_pairs": [
+    {
+      "question": "How do you remove the acceleration pick-up plug?",
+      "answer": "Pull off plug (1). Remove shear-off screws (only drilling out is approved).",
+      "question_type": "procedural",
+      "id": "34-31b_brakes-q02"
+    },
+    {
+      "question": "What adjustment is required during installation of the acceleration pick-up?",
+      "answer": "Adjust acceleration pick-up.",
+      "question_type": "procedural",
+      "id": "34-31b_brakes-q03"
+    },
+    {
+      "question": "What test lead should be connected when checking the acceleration pick-up for ABS?",
+      "answer": "Connect Jetronic test lead 61 1 440 on acceleration pick-up.",
+      "question_type": "procedural",
+      "id": "34-31b_brakes-q05"
+    },
+    {
+      "question": "What ohmmeter model is specified for testing the acceleration pick-up?",
+      "answer": "Connect ohmmeter (M 06) of BMW service tester.",
+      "question_type": "tool",
+      "id": "34-31b_brakes-q06"
+    },
+    {
+      "question": "What is the nominal resistance value for the acceleration pick-up switch?",
+      "answer": "Less than 1 k-ohm.",
+      "question_type": "factual",
+      "id": "34-31b_brakes-q07"
+    },
+    {
+      "question": "What connections should be measured when checking the switch with wire and plug?",
+      "answer": "Measure resistance between connections (1 and 16).",
+      "question_type": "procedural",
+      "id": "34-31b_brakes-q08"
+    },
+    {
+      "question": "What is the nominal resistance value when measuring between connections 1 and 16?",
+      "answer": "Less than 1 k-ohm.",
+      "question_type": "factual",
+      "id": "34-31b_brakes-q09"
+    },
+    {
+      "question": "What must be turned off while measuring resistance?",
+      "answer": "Ignition must be turned off while measuring.",
+      "question_type": "safety",
+      "id": "34-31b_brakes-q10"
+    },
+    {
+      "question": "What callout number indicates the acceleration pick-up plug in both procedures?",
+      "answer": "Callout number 1 indicates the acceleration pick-up plug in both the removal/installation and checking procedures.",
+      "question_type": "visual",
+      "id": "34-31b_brakes-q11"
+    },
+    {
+      "question": "What universal adapter is mentioned for connecting to the ABS control unit wire harness?",
+      "answer": "Connect universal adapter on wire harness from ABS control unit, with a source reference to HWB.",
+      "question_type": "tool",
+      "id": "34-31b_brakes-q12"
+    }
+  ]
+}

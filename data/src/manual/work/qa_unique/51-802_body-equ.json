@@ -1,0 +1,67 @@
+{
+  "page_id": "51-802_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-802.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:34:11.972915",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 733
+  },
+  "qa_pairs": [
+    {
+      "question": "What voltage should be present in socket 3 (red/black) of the driver's door/body plug?",
+      "answer": "There should be voltage greater than 11V in socket 3 (red/black) of the driver's door/body plug.",
+      "question_type": "diagnostic",
+      "id": "51-802_body-equ-q01"
+    },
+    {
+      "question": "What should I do if there is voltage in socket 3 of the driver's door/body plug?",
+      "answer": "Repair the wire harness of the driver's door. Also refer to driver's door/body plug connection for corrosion or no connection issues.",
+      "question_type": "procedural",
+      "id": "51-802_body-equ-q02"
+    },
+    {
+      "question": "How do I test if pin 4 (brown) of the control unit has ground?",
+      "answer": "Test for continuity to ground on pin 4 (brown) of the control unit. The resistance should be approximately 0 ohms.",
+      "question_type": "diagnostic",
+      "id": "51-802_body-equ-q04"
+    },
+    {
+      "question": "What should I do if pin 4 (brown) of the control unit does not have ground?",
+      "answer": "Check socket 4 wire (brown) on control unit plug for breaks and repair if necessary. Also refer to ground supply on central ground point behind the instrument panel at bottom left.",
+      "question_type": "procedural",
+      "id": "51-802_body-equ-q05"
+    },
+    {
+      "question": "What color wire should I check for ground on the control unit?",
+      "answer": "Check the brown wire (pin 4) for ground on the control unit.",
+      "question_type": "wiring",
+      "id": "51-802_body-equ-q07"
+    },
+    {
+      "question": "Where is the central ground point located that I should refer to?",
+      "answer": "The central ground point is located behind the instrument panel at the bottom left.",
+      "question_type": "navigation",
+      "id": "51-802_body-equ-q08"
+    },
+    {
+      "question": "What are the two main diagnostic paths shown on this troubleshooting flowchart?",
+      "answer": "The two main diagnostic paths are: 1) Testing for voltage in socket 3 (red/black) of the driver's door/body plug, and 2) Testing for ground on pin 4 (brown) of the control unit.",
+      "question_type": "diagnostic",
+      "id": "51-802_body-equ-q09"
+    },
+    {
+      "question": "What should I inspect on the driver's door/body plug connection?",
+      "answer": "Inspect the driver's door/body plug connection for corrosion or no connection.",
+      "question_type": "inspection",
+      "id": "51-802_body-equ-q10"
+    }
+  ]
+}

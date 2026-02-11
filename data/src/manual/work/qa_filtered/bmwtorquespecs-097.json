@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-097",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/097.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:30:39.576935",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 678
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the reverse gear shaft to case on the 6AZ transmission?",
+      "answer": "25 Nm using M8 screws for all types.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-097-q01"
+    },
+    {
+      "question": "What screw size is used for the support for reverse gear shaft on the 7AZ transmission?",
+      "answer": "M8 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-097-q02"
+    },
+    {
+      "question": "What is the torque value for the bearing bracket on rear section of case for transmissions 240/260/265/280?",
+      "answer": "10 Nm using M6 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-097-q03"
+    },
+    {
+      "question": "Which transmission types use M6 screws for the mounting tabs for sealing cover?",
+      "answer": "280 transmission type uses M6 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-097-q04"
+    },
+    {
+      "question": "What torque specification is required for the S 5 D 310 Z transmission type when installing the reverse gear shaft to case?",
+      "answer": "20 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-097-q06"
+    },
+    {
+      "question": "What screw size is used for the bearing on countershaft across all transmission types listed?",
+      "answer": "M10 screws are used for all bearing on countershaft applications.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-097-q07"
+    },
+    {
+      "question": "Which component uses M10 screws with 45 Nm torque for all transmission types?",
+      "answer": "The reverse gear shaft to case uses M10 screws with 45 Nm torque for all transmission types.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-097-q08"
+    },
+    {
+      "question": "What is the torque specification for the bearing on countershaft for the 280 transmission?",
+      "answer": "60 Nm using M10 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-097-q09"
+    },
+    {
+      "question": "Which transmission types require 25 Nm torque for the support for reverse gear shaft?",
+      "answer": "240/260 transmission types require 25 Nm torque using M8 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-097-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "11-67_engine",
+  "image_path": "raw/11 - Engine/11-67.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:16:12.408612",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 802
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the tightening torque specification for the distributor rotor adapter?",
+      "answer": "The tightening torque for the distributor rotor adapter is 23 \u00b1 1 Nm (16.5 \u00b1 0.5 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-67_engine-q01"
+    },
+    {
+      "question": "What is the camshaft timing specification shown in the valve timing data?",
+      "answer": "The camshaft timing is specified as 248\u00b0.",
+      "question_type": "factual",
+      "id": "11-67_engine-q02"
+    },
+    {
+      "question": "What diameter is specified for the intake valve?",
+      "answer": "The intake valve diameter is 37 mm (1.457 inches).",
+      "question_type": "factual",
+      "id": "11-67_engine-q03"
+    },
+    {
+      "question": "What should be checked when removing the distributor housing and plugs?",
+      "answer": "Check O-rings, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "11-67_engine-q04"
+    },
+    {
+      "question": "What is the first step shown for removing the camshaft?",
+      "answer": "Remove cylinder head cover (see section 11 12 000), then unscrew bolts (1 through 3) and take off distributor cap.",
+      "question_type": "procedural",
+      "id": "11-67_engine-q05"
+    },
+    {
+      "question": "What components are numbered 4 and 5 in the valve timing diagram?",
+      "answer": "Component 4 is the Dowel pin and component 5 is the Sprocket - intake 'E'.",
+      "question_type": "visual",
+      "id": "11-67_engine-q06"
+    },
+    {
+      "question": "What is the length specification for the valve spring inside measurement?",
+      "answer": "The valve spring inside length is 38.5 mm (1.516 inches) long.",
+      "question_type": "factual",
+      "id": "11-67_engine-q07"
+    },
+    {
+      "question": "What tool specification is given for the hexagon head screw?",
+      "answer": "The hexagon head screw is specified as M 6 x 16.",
+      "question_type": "tool",
+      "id": "11-67_engine-q08"
+    },
+    {
+      "question": "What range is specified for the shims in the valve timing components?",
+      "answer": "Shims are available from 3.00 to 4.25 mm (0.118 to 0.167 inches).",
+      "question_type": "factual",
+      "id": "11-67_engine-q09"
+    },
+    {
+      "question": "What should be done when replacing the end cover gasket?",
+      "answer": "Replace gasket and use longer bolts in bores with a dowel sleeve.",
+      "question_type": "procedural",
+      "id": "11-67_engine-q10"
+    },
+    {
+      "question": "What is the exhaust valve diameter specification?",
+      "answer": "The exhaust valve diameter is 32 mm (1.260 inches).",
+      "question_type": "factual",
+      "id": "11-67_engine-q11"
+    },
+    {
+      "question": "What components are identified as numbers 1, 2, and 3 in the camshaft removal procedure?",
+      "answer": "These numbers refer to the bolts that must be unscrewed to remove the distributor cap during camshaft removal.",
+      "question_type": "visual",
+      "id": "11-67_engine-q12"
+    }
+  ]
+}

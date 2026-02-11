@@ -1,0 +1,67 @@
+{
+  "page_id": "41-204c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-204c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:51:35.501044",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 720
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done with the partial replacement section after it's positioned?",
+      "answer": "Insert gas weld the partial replacement section.",
+      "question_type": "procedural",
+      "id": "41-204c_body-con-q01"
+    },
+    {
+      "question": "What area needs to be brazed during this repair procedure?",
+      "answer": "Braze in area of the cowl panel.",
+      "question_type": "procedural",
+      "id": "41-204c_body-con-q02"
+    },
+    {
+      "question": "What step is required after mounting the reinforcement?",
+      "answer": "Mount and weld the reinforcement.",
+      "question_type": "procedural",
+      "id": "41-204c_body-con-q03"
+    },
+    {
+      "question": "What should be applied to all mating surfaces?",
+      "answer": "Seal off all mating surfaces with a joint sealing compound.",
+      "question_type": "procedural",
+      "id": "41-204c_body-con-q04"
+    },
+    {
+      "question": "What procedure should be performed on joints after welding?",
+      "answer": "Grind down joints, tinning if necessary.",
+      "question_type": "procedural",
+      "id": "41-204c_body-con-q05"
+    },
+    {
+      "question": "What component should be replaced at the entrance and in the wheel house?",
+      "answer": "Replace anti-drumming compound on entrance and in wheel house.",
+      "question_type": "procedural",
+      "id": "41-204c_body-con-q06"
+    },
+    {
+      "question": "What surfaces on the new reinforcement need preparation?",
+      "answer": "Grind mating surfaces on new reinforcement for door pillar.",
+      "question_type": "procedural",
+      "id": "41-204c_body-con-q07"
+    },
+    {
+      "question": "What is the reference number 30 41 547 indicating in the first image?",
+      "answer": "The reference number 30 41 547 indicates the location where the partial replacement section should be insert gas welded.",
+      "question_type": "visual",
+      "id": "41-204c_body-con-q08"
+    }
+  ]
+}

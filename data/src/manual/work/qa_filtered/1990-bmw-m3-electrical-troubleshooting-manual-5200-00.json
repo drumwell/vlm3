@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/5200-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:01:15.068443",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 668
+  },
+  "qa_pairs": [
+    {
+      "question": "What section and page number covers heated seats in the BMW E30 M3?",
+      "answer": "Section 5200-0 SEATS covers heated seats.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00-q01"
+    },
+    {
+      "question": "Which fuse protects the heated seat circuit and what is its amperage rating?",
+      "answer": "Fuse 16 with a 15 AMP rating protects the heated seat circuit.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00-q02"
+    },
+    {
+      "question": "What wire color carries power from the fuse box to the heated seat system?",
+      "answer": "A 2.5 WT/BN (white/brown) wire carries power from the fuse box.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00-q03"
+    },
+    {
+      "question": "What is the connector designation for the accessory connector in the heated seat circuit?",
+      "answer": "The accessory connector is designated as C302.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00-q04"
+    },
+    {
+      "question": "What wire color connects from the accessory connector C302 to splice S540?",
+      "answer": "A 1.5 WT/BN (white/brown) wire connects from C302 to splice S540.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00-q05"
+    },
+    {
+      "question": "What are the two main seat heater switch designations shown in the diagram?",
+      "answer": "The left front seat heater switch and right front seat heater switch are the two main switches shown.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00-q06"
+    },
+    {
+      "question": "What wire colors are used for the 1 BR connections in the heated seat circuit?",
+      "answer": "1 BR (brown) wires are used for connections throughout the heated seat circuit.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00-q07"
+    },
+    {
+      "question": "Which connectors are associated with the left front seat heating elements?",
+      "answer": "Connectors C421 are associated with the left front seat heating elements for both the seat heater and back heater.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00-q08"
+    },
+    {
+      "question": "What is the ground point designation shown at the bottom of the circuit?",
+      "answer": "Ground point G200 is shown at the bottom of the circuit.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00-q09"
+    },
+    {
+      "question": "If the right front seat heater isn't working, which connector should be checked first?",
+      "answer": "Connector C422 should be checked first, as it connects to both the right front seat back heater and seat heater elements.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5200-00-q10"
+    }
+  ]
+}

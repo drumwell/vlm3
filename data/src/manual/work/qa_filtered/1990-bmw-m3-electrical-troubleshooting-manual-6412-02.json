@@ -1,0 +1,73 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6412-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6412-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:07:39.923910",
+    "prompt_template": "electrical_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 752
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do if all voltages are correct during the air delivery control diagnosis?",
+      "answer": "If all voltages are correct, replace the suspect Fresh/Recirculating Air Relay.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6412-02-q01"
+    },
+    {
+      "question": "What wire should be checked for an open circuit first in the diagnostic sequence?",
+      "answer": "Check the GN/BR wire for an open.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6412-02-q02"
+    },
+    {
+      "question": "Where should you measure voltage for the Control Switches Voltage Test?",
+      "answer": "At the CONTROL SWITCHES CONNECTOR (Disconnected).",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6412-02-q03"
+    },
+    {
+      "question": "What ignition switch position is required for the Control Switches Voltage Test?",
+      "answer": "Ignition Switch: RUN",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6412-02-q04"
+    },
+    {
+      "question": "What voltage should be measured between pins 7 (GN/BR) and Ground?",
+      "answer": "Battery voltage",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6412-02-q05"
+    },
+    {
+      "question": "What should you do if both voltages are correct in the Control Switches test?",
+      "answer": "If both voltages are correct, replace the Control Switches.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6412-02-q07"
+    },
+    {
+      "question": "What connector should be checked for proper mating if the GN/BR wire is good?",
+      "answer": "Check that connector C204 is properly mated.",
+      "question_type": "inspection",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6412-02-q08"
+    },
+    {
+      "question": "What wire should be checked for an open between the Control Switches and the Fresh/Recirculating Air Relays?",
+      "answer": "Check the GN wire for an open between the Control Switches and the LH and RH Fresh/Recirculating Air Relays.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6412-02-q09"
+    },
+    {
+      "question": "What does 'See 1' refer to in the diagnosis column of the voltage test table?",
+      "answer": "See 1 refers to the first diagnostic step in the sequence for troubleshooting when the voltage measurement is incorrect.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6412-02-q11"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-115",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/115.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:45:46.778580",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 729
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the transmission socket to case connection on 4HP-22 EH/4HP-24EH/A5S 310Z transmissions?",
+      "answer": "12 Nm using M26 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-115-q01"
+    },
+    {
+      "question": "What screw size is used for the transmission socket to case connection on A4S 270R/A4S 310R transmissions?",
+      "answer": "M26 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-115-q02"
+    },
+    {
+      "question": "What is the difference in torque specification between the 4HP-22 EH/4HP-24EH/A5S 310Z and A4S 270R/A4S 310R transmission socket connections?",
+      "answer": "The 4HP-22 EH/4HP-24EH/A5S 310Z requires 12 Nm while the A4S 270R/A4S 310R requires 14 Nm, a difference of 2 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-115-q04"
+    },
+    {
+      "question": "What component is being torqued according to the 1AZ specification?",
+      "answer": "Transmission socket to case.",
+      "question_type": "component",
+      "id": "00-torque-specs-115-q05"
+    },
+    {
+      "question": "What section of the manual covers Wire Harness, Shift Elements and Sensor specifications?",
+      "answer": "Section 24 35 under the Automatic Transmission chapter (24-13).",
+      "question_type": "navigation",
+      "id": "00-torque-specs-115-q06"
+    },
+    {
+      "question": "Do both transmission types use the same screw size for the socket to case connection?",
+      "answer": "Yes, both use M26 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-115-q07"
+    },
+    {
+      "question": "What is the unit of measurement for the torque specifications shown?",
+      "answer": "Nm (Newton meters).",
+      "question_type": "factual",
+      "id": "00-torque-specs-115-q08"
+    },
+    {
+      "question": "Which transmission type requires higher torque for the socket to case connection?",
+      "answer": "The A4S 270R/A4S 310R requires higher torque at 14 Nm compared to the 4HP-22 EH/4HP-24EH/A5S 310Z at 12 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-115-q09"
+    }
+  ]
+}

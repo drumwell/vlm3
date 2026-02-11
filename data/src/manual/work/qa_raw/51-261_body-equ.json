@@ -1,0 +1,91 @@
+{
+  "page_id": "51-261_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-261.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:17:51.710286",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 729
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the switch for left or right rear door lock drive?",
+      "answer": "51 26 010",
+      "question_type": "factual",
+      "id": "51-261_body-equ-q01"
+    },
+    {
+      "question": "What are the four components labeled in the rear door lock arrangement diagram?",
+      "answer": "1 = Lock, 2 = Locking linkage, 3 = Door remote control linkage, 4 = Drive/connecting link",
+      "question_type": "visual",
+      "id": "51-261_body-equ-q02"
+    },
+    {
+      "question": "What should be done with the plastic sheet during installation?",
+      "answer": "Replace damaged plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-261_body-equ-q03"
+    },
+    {
+      "question": "What is the first step in the removal procedure for the door lock switch?",
+      "answer": "Remove door trim panel - see 51 42 001.",
+      "question_type": "procedural",
+      "id": "51-261_body-equ-q04"
+    },
+    {
+      "question": "What torque specification is given for the screw in step 4 of the installation process?",
+      "answer": "2 Nm (1.4 ft. lbs.)",
+      "question_type": "factual",
+      "id": "51-261_body-equ-q05"
+    },
+    {
+      "question": "Where can you find information about troubleshooting central locks?",
+      "answer": "See page 51 - 800.",
+      "question_type": "navigation",
+      "id": "51-261_body-equ-q06"
+    },
+    {
+      "question": "What should be checked during installation according to the drive identification reference?",
+      "answer": "Check drive identification - see 51 26 000.",
+      "question_type": "procedural",
+      "id": "51-261_body-equ-q07"
+    },
+    {
+      "question": "What position should the lock be in during step 1 of the installation process?",
+      "answer": "Lock in LOCKED position.",
+      "question_type": "procedural",
+      "id": "51-261_body-equ-q08"
+    },
+    {
+      "question": "How should the drive be positioned in step 4 during installation?",
+      "answer": "Compress drive (position A), pull down lightly (linkage play) and then tighten screw to 2 Nm (1.4 ft. lbs.).",
+      "question_type": "procedural",
+      "id": "51-261_body-equ-q09"
+    },
+    {
+      "question": "What should be done with the connecting link during step 3 of installation?",
+      "answer": "Engage drive in connecting link and hold in installed position with a screw (screw is not tightened).",
+      "question_type": "procedural",
+      "id": "51-261_body-equ-q10"
+    },
+    {
+      "question": "What are the three main steps for removing the drive mechanism?",
+      "answer": "Unscrew screws, pull off plug, and disengage drive.",
+      "question_type": "procedural",
+      "id": "51-261_body-equ-q11"
+    },
+    {
+      "question": "What is the final step in the installation procedure?",
+      "answer": "Tighten the screw installed first.",
+      "question_type": "procedural",
+      "id": "51-261_body-equ-q12"
+    }
+  ]
+}

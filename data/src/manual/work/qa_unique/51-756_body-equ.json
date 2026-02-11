@@ -1,0 +1,91 @@
+{
+  "page_id": "51-756_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-756.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:32:22.292850",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 726
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW part number for installing the rear spoiler?",
+      "answer": "The BMW part number is 51 71 412.",
+      "question_type": "factual",
+      "id": "51-756_body-equ-q01"
+    },
+    {
+      "question": "What width of adhesive tape should be used for the rear spoiler installation?",
+      "answer": "Adhesive tape approximately 30 mm (1.181\") wide should be used.",
+      "question_type": "factual",
+      "id": "51-756_body-equ-q02"
+    },
+    {
+      "question": "Where should the adhesive tape be installed on the trunk lid?",
+      "answer": "The adhesive tape should be installed at distance K to the trunk lid edge over the entire width.",
+      "question_type": "procedural",
+      "id": "51-756_body-equ-q03"
+    },
+    {
+      "question": "What diameter hole should be drilled in the trunk lid?",
+      "answer": "A 7.5 mm (0.295\") diameter hole should be drilled.",
+      "question_type": "factual",
+      "id": "51-756_body-equ-q04"
+    },
+    {
+      "question": "What are the dimensions for measurement A on the rear spoiler?",
+      "answer": "Measurement A is 565 mm (22.244\").",
+      "question_type": "factual",
+      "id": "51-756_body-equ-q05"
+    },
+    {
+      "question": "What is the measurement for dimension 'a' shown in the diagram?",
+      "answer": "Dimension 'a' is 125 mm (4.921\").",
+      "question_type": "factual",
+      "id": "51-756_body-equ-q06"
+    },
+    {
+      "question": "How should the center point of the bore be determined?",
+      "answer": "Mark the center point of bore from the middle of the trunk lid and trunk lid edge using measuring tape, then punch and drill.",
+      "question_type": "procedural",
+      "id": "51-756_body-equ-q07"
+    },
+    {
+      "question": "What should be done after removing the adhesive tape?",
+      "answer": "Pull off adhesive tape carefully, deburr edges of holes and coat with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "51-756_body-equ-q08"
+    },
+    {
+      "question": "How is the rear spoiler attached to the trunk lid?",
+      "answer": "Screw on rear spoiler with the supplied cap nuts.",
+      "question_type": "procedural",
+      "id": "51-756_body-equ-q09"
+    },
+    {
+      "question": "What is the value for dimension D in the measurement table?",
+      "answer": "Dimension D is 130 mm (5.118\").",
+      "question_type": "factual",
+      "id": "51-756_body-equ-q10"
+    },
+    {
+      "question": "What painting information is referenced for this procedure?",
+      "answer": "Procedures for painting BMW plastic parts are referenced.",
+      "question_type": "navigation",
+      "id": "51-756_body-equ-q11"
+    },
+    {
+      "question": "What is the measurement for dimension 'c' shown in the spoiler diagram?",
+      "answer": "Dimension 'c' is 129 mm (5.079\").",
+      "question_type": "factual",
+      "id": "51-756_body-equ-q12"
+    }
+  ]
+}

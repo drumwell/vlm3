@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-027",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/027.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:21:10.977914",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 787
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the vee belt pulley/vibration damper on hub for S38 B36 engines?",
+      "answer": "34 Nm using M8 10.9 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-027-q01"
+    },
+    {
+      "question": "What screw type and torque should be used for pulley to vibration damper on S38 B 35 engines?",
+      "answer": "M8 8.8 screw torqued to 22 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-027-q02"
+    },
+    {
+      "question": "What is the torque specification for sprocket with hub or hub to crankshaft replace screw on M40 engines?",
+      "answer": "310 Nm using M16 x 1.5 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-027-q03"
+    },
+    {
+      "question": "How does the torque specification differ between M40 and M42/M43/M44 engines for the sprocket with hub or hub to crankshaft replace screw?",
+      "answer": "M40 engines require 310 Nm while M42/M43/M44 engines require 330 Nm, both using M16 x 1.5 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-027-q04"
+    },
+    {
+      "question": "What torque should be applied to all other vibration damper components not specifically listed for S38 engines?",
+      "answer": "22 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-027-q05"
+    },
+    {
+      "question": "What is the torque specification for pulley to vibration damper on S50 engines?",
+      "answer": "22 Nm using M8 8.8 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-027-q06"
+    },
+    {
+      "question": "Which engine code requires the highest torque value for crankshaft sprocket attachment?",
+      "answer": "M42/M43/M44 engines require the highest torque at 330 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-027-q07"
+    },
+    {
+      "question": "What screw specification is used for the vee belt pulley/vibration damper on S38 B 38 engines?",
+      "answer": "M8 10.9 screw torqued to 34 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-027-q08"
+    },
+    {
+      "question": "What section and subsection does this torque specification table cover?",
+      "answer": "Section 11-17 Engine, subsection 11 23 Vibration Damper.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-027-q09"
+    },
+    {
+      "question": "Are the torque specifications the same for S38 B36 and S38 B 38 engines on the vee belt pulley/vibration damper?",
+      "answer": "Yes, both S38 B36 and S38 B 38 engines use the same specification: 34 Nm with M8 10.9 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-027-q10"
+    }
+  ]
+}

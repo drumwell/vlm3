@@ -1,0 +1,85 @@
+{
+  "page_id": "00-00-intro-03_maintena",
+  "image_path": "raw/00 - Maintenance/00-00-intro-03.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:09:01.758599",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 848
+  },
+  "qa_pairs": [
+    {
+      "question": "What ignition key position should be used when preparing a vehicle for towing?",
+      "answer": "Turn the ignition key to position \"1\" to unlock the steering wheel and be able to use the turn signals, horn and possibly windshield wipers.",
+      "question_type": "procedural",
+      "id": "00-00-intro-03_maintena-q01"
+    },
+    {
+      "question": "What is the maximum towing speed for BMW E30 vehicles?",
+      "answer": "The maximum towing speed is 50 km/h (30 mph).",
+      "question_type": "factual",
+      "id": "00-00-intro-03_maintena-q02"
+    },
+    {
+      "question": "What is the maximum towing distance specified for these vehicles?",
+      "answer": "The maximum towing distance is 40 to 50 kilometers (25 to 30 miles).",
+      "question_type": "factual",
+      "id": "00-00-intro-03_maintena-q03"
+    },
+    {
+      "question": "What selector lever position should be used when towing cars with automatic transmission?",
+      "answer": "The selector lever should be in \"N\" (Neutral) position.",
+      "question_type": "procedural",
+      "id": "00-00-intro-03_maintena-q04"
+    },
+    {
+      "question": "What type of towing cable should be used and why?",
+      "answer": "The towing cable should be elastic to protect the towing and towed vehicles. Consequently only use plastic fiber cables or cables with elastic links.",
+      "question_type": "safety",
+      "id": "00-00-intro-03_maintena-q05"
+    },
+    {
+      "question": "Why is greater brake pedal force required when the engine is stopped during towing?",
+      "answer": "Since the brake booster only works with the engine running, greater force will be required on the brake pedal of cars with a brake booster when the \"engine is stopped\".",
+      "question_type": "operation",
+      "id": "00-00-intro-03_maintena-q06"
+    },
+    {
+      "question": "What special procedure is required if an automatic transmission car needs to be towed further than the maximum distance?",
+      "answer": "If the car has to be towed further than 50 km (30 miles) add an extra liter (2 pints) of ATF than the specified oil volume for automatics or remove the propeller shaft.",
+      "question_type": "procedural",
+      "id": "00-00-intro-03_maintena-q07"
+    },
+    {
+      "question": "What must be done to the ATF volume after repairing the car following extended towing?",
+      "answer": "After repairing the car it is absolutely essential to correct the ATF volume to the specified amount.",
+      "question_type": "procedural",
+      "id": "00-00-intro-03_maintena-q08"
+    },
+    {
+      "question": "What components are shown in the front towing eyes diagram?",
+      "answer": "The diagram shows the front towing eyes location on the vehicle, with arrows pointing to the mounting points.",
+      "question_type": "visual",
+      "id": "00-00-intro-03_maintena-q09"
+    },
+    {
+      "question": "What legal requirement is mentioned regarding vehicle towing?",
+      "answer": "Please conform with local and national legislative measures concerning the towing of vehicles as applicable.",
+      "question_type": "safety",
+      "id": "00-00-intro-03_maintena-q11"
+    },
+    {
+      "question": "How much extra ATF should be added for extended towing beyond the maximum distance?",
+      "answer": "Add an extra liter (2 pints) of ATF than the specified oil volume for automatics.",
+      "question_type": "factual",
+      "id": "00-00-intro-03_maintena-q12"
+    }
+  ]
+}

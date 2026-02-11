@@ -1,0 +1,85 @@
+{
+  "page_id": "00-10_maintena",
+  "image_path": "raw/00 - Maintenance/00-10.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:13:41.529616",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 754
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of oil should be used for the engine oil and oil filter replacement?",
+      "answer": "Use approved oil only.",
+      "question_type": "factual",
+      "id": "00-10_maintena-q01"
+    },
+    {
+      "question": "Which group contains the procedure for checking and adjusting valve clearance?",
+      "answer": "Group 11 contains the procedure for checking and adjusting valve clearance.",
+      "question_type": "navigation",
+      "id": "00-10_maintena-q02"
+    },
+    {
+      "question": "What lubricant is specified for the throttle linkage bearings and throttle lever gate?",
+      "answer": "Use Molykote Longterm Order No. 81 22 9 407 007 HWB for lubricating the throttle linkage bearings and throttle lever gate.",
+      "question_type": "tool",
+      "id": "00-10_maintena-q03"
+    },
+    {
+      "question": "How should the fuel tank inspection be performed?",
+      "answer": "Check fuel tank, tank cap, lines and connections for leaks using visual inspection.",
+      "question_type": "inspection",
+      "id": "00-10_maintena-q04"
+    },
+    {
+      "question": "What should be checked on the cooling system during inspection?",
+      "answer": "Check cooling system and all connections as well as heater hoses for leaks. Check coolant level and concentration, correcting if necessary.",
+      "question_type": "procedural",
+      "id": "00-10_maintena-q06"
+    },
+    {
+      "question": "Which group covers the exhaust assembly inspection procedure?",
+      "answer": "Group 18 covers checking condition, routing, suspension and leaks on exhaust assembly.",
+      "question_type": "navigation",
+      "id": "00-10_maintena-q07"
+    },
+    {
+      "question": "What type of fluid should be used for automatic transmission service?",
+      "answer": "Use approved ATF only for automatic transmission fluid replacement.",
+      "question_type": "factual",
+      "id": "00-10_maintena-q08"
+    },
+    {
+      "question": "Which inspection includes automatic transmission fluid replacement?",
+      "answer": "Automatic transmission fluid replacement at operating temperature is only performed in Inspection I.",
+      "question_type": "factual",
+      "id": "00-10_maintena-q09"
+    },
+    {
+      "question": "What components should be lubricated with oil during the accelerator linkage service?",
+      "answer": "Lubricate joints and bearings of accelerator linkage and rotary shaft with oil.",
+      "question_type": "procedural",
+      "id": "00-10_maintena-q10"
+    },
+    {
+      "question": "What does the asterisk (*) notation refer to at the bottom of the page?",
+      "answer": "The asterisk (*) refers to procedures that should be performed after introduction of the Operating-Fluids-File.",
+      "question_type": "factual",
+      "id": "00-10_maintena-q11"
+    },
+    {
+      "question": "What components should be lubricated with grease during throttle maintenance?",
+      "answer": "Lubricate bearings of throttle lever and gate with grease.",
+      "question_type": "procedural",
+      "id": "00-10_maintena-q12"
+    }
+  ]
+}

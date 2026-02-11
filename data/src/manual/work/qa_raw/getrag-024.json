@@ -1,0 +1,79 @@
+{
+  "page_id": "getrag-024",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/024.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:46:55.031362",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1945,
+    "tokens_output": 558
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the bearing number shown in the image?",
+      "answer": "The bearing number shown is INA NK 10/12.",
+      "question_type": "component",
+      "id": "getrag-024-q01"
+    },
+    {
+      "question": "What are the dimensions marked on the bearing?",
+      "answer": "The bearing shows dimensions of 10.3 and 16.0 mm.",
+      "question_type": "factual",
+      "id": "getrag-024-q02"
+    },
+    {
+      "question": "What country is marked on the bearing?",
+      "answer": "The bearing is marked with GERMANY.",
+      "question_type": "factual",
+      "id": "getrag-024-q03"
+    },
+    {
+      "question": "What type of bearing is this based on the INA designation?",
+      "answer": "This is an INA needle roller bearing based on the NK designation.",
+      "question_type": "component",
+      "id": "getrag-024-q04"
+    },
+    {
+      "question": "What is the inner diameter of this bearing?",
+      "answer": "The inner diameter is 10 mm based on the NK 10/12 designation.",
+      "question_type": "factual",
+      "id": "getrag-024-q05"
+    },
+    {
+      "question": "What is the width of this bearing?",
+      "answer": "The width is 12 mm based on the NK 10/12 designation.",
+      "question_type": "factual",
+      "id": "getrag-024-q06"
+    },
+    {
+      "question": "What manufacturer produced this bearing?",
+      "answer": "This bearing is manufactured by INA.",
+      "question_type": "factual",
+      "id": "getrag-024-q07"
+    },
+    {
+      "question": "What are the visible dimension measurements on the bearing face?",
+      "answer": "The visible measurements are 10.3 mm and 16.0 mm.",
+      "question_type": "factual",
+      "id": "getrag-024-q08"
+    },
+    {
+      "question": "Is this bearing part of the Getrag 265 transmission rebuild?",
+      "answer": "Yes, this bearing is shown in the Getrag 265 rebuild section as indicated by the visible BMW parts documentation.",
+      "question_type": "component",
+      "id": "getrag-024-q09"
+    },
+    {
+      "question": "What type of bearing construction is this?",
+      "answer": "This is a needle roller bearing construction, indicated by the NK designation in the part number.",
+      "question_type": "component",
+      "id": "getrag-024-q10"
+    }
+  ]
+}

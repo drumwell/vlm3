@@ -1,0 +1,80 @@
+{
+  "section_id": "35",
+  "section_name": "Pedals",
+  "index_pages": [
+    "35-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "010",
+      "name": "Accelerator lever - remove and install",
+      "pages": [
+        "35-8"
+      ]
+    },
+    {
+      "code": "35 11 000",
+      "name": "Pedal base - remove and install",
+      "pages": [
+        "35-3"
+      ]
+    },
+    {
+      "code": "35 21 000",
+      "name": "Brake pedal - remove and install",
+      "pages": [
+        "35-5"
+      ]
+    },
+    {
+      "code": "35 31 000",
+      "name": "Clutch pedal - remove and install",
+      "pages": [
+        "35-6"
+      ]
+    },
+    {
+      "code": "35 41 000",
+      "name": "Accelerator pedal - remove and install",
+      "pages": [
+        "35-8"
+      ]
+    },
+    {
+      "code": "421",
+      "name": "Accelerator cable - replace",
+      "pages": [
+        "35-9"
+      ]
+    },
+    {
+      "code": "480",
+      "name": "Kickdown switch - replace (EH transmission)",
+      "pages": [
+        "35-10"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "35-8": [
+      "010",
+      "35 41 000"
+    ],
+    "35-3": [
+      "35 11 000"
+    ],
+    "35-5": [
+      "35 21 000"
+    ],
+    "35-6": [
+      "35 31 000"
+    ],
+    "35-9": [
+      "421"
+    ],
+    "35-10": [
+      "480"
+    ]
+  },
+  "merge_warnings": []
+}

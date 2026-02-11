@@ -1,0 +1,91 @@
+{
+  "page_id": "23-186_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-186.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:38:55.262488",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 827
+  },
+  "qa_pairs": [
+    {
+      "question": "What temperature should the rear case section be heated to in the area of the grooved ball bearing?",
+      "answer": "The rear case section should be heated to about 80\u00b0C (175\u00b0F) with a hot air blower.",
+      "question_type": "factual",
+      "id": "23-186_manual-t-q01"
+    },
+    {
+      "question": "What is the important note about the inner race orientation of the grooved ball bearing?",
+      "answer": "The inner race of the grooved ball bearing has protrusion, and the bearing race with the protrusion must face the gear set.",
+      "question_type": "safety",
+      "id": "23-186_manual-t-q02"
+    },
+    {
+      "question": "Which special tool should be used if it's necessary to drive in the bearing against the stop?",
+      "answer": "Use Special Tool 23 1 470 if it's necessary to drive in the bearing against the stop.",
+      "question_type": "tool",
+      "id": "23-186_manual-t-q03"
+    },
+    {
+      "question": "What tools are required to drive in the bearing shell to fit tight in the front case section?",
+      "answer": "Use Special Tools 23 1 260 and 00 5 500 to drive in the bearing shell.",
+      "question_type": "tool",
+      "id": "23-186_manual-t-q04"
+    },
+    {
+      "question": "What is the critical alignment requirement when installing the bearing shell?",
+      "answer": "The oil groove must be aligned with the groove in the case.",
+      "question_type": "safety",
+      "id": "23-186_manual-t-q05"
+    },
+    {
+      "question": "Which special tools are needed to apply and pull out the bearing shell according to the procedure shown?",
+      "answer": "Apply Special Tool 33 4 020, screw on Special Tool 23 1 300, then pull out the bearing shell.",
+      "question_type": "tool",
+      "id": "23-186_manual-t-q06"
+    },
+    {
+      "question": "Where should the layshaft with roller bearings be placed?",
+      "answer": "Place the layshaft with roller bearings in the rear case section.",
+      "question_type": "procedural",
+      "id": "23-186_manual-t-q07"
+    },
+    {
+      "question": "How should the front case section be mounted and what should be checked?",
+      "answer": "Install the front case section and mount with two bolts opposite each other, center the front case section with dowel pins slightly, then unscrew the oil filler plug.",
+      "question_type": "procedural",
+      "id": "23-186_manual-t-q08"
+    },
+    {
+      "question": "What should be done after checking the axial play of the layshaft?",
+      "answer": "Check axial play of layshaft, then install circlip (2).",
+      "question_type": "procedural",
+      "id": "23-186_manual-t-q09"
+    },
+    {
+      "question": "Which special tool number is used for the layshaft procedure?",
+      "answer": "Apply the large end of Special Tool 23 1 280 in the bearing shell for the layshaft procedure.",
+      "question_type": "tool",
+      "id": "23-186_manual-t-q10"
+    },
+    {
+      "question": "What component is identified by callout number 1 in the bottom right image?",
+      "answer": "Callout number 1 indicates the oil filler plug that should be unscrewed.",
+      "question_type": "visual",
+      "id": "23-186_manual-t-q11"
+    },
+    {
+      "question": "What should be installed after the old shims are removed?",
+      "answer": "Install old shims after driving in the bearing shell to fit tight in the front case section.",
+      "question_type": "procedural",
+      "id": "23-186_manual-t-q12"
+    }
+  ]
+}

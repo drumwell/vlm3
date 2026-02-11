@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-11-08",
+  "image_path": "raw/00 - Torque Specs/11-08.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:38:08.692225",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 672
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M70/S70/M73 cylinder head bolts?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-08-q01"
+    },
+    {
+      "question": "What are the torque angle specifications for 7AZ cylinder head bolts after the initial torque?",
+      "answer": "60\u00b0 for both torque angle steps",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-08-q02"
+    },
+    {
+      "question": "What engine types use the M60/1/M60/2/M62 cylinder head bolt specification?",
+      "answer": "M60/1/M60/2/M62 engine types use this specification under section 8AZ",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-08-q03"
+    },
+    {
+      "question": "What is the difference in torque angle between 7AZ and 8AZ cylinder head bolts?",
+      "answer": "7AZ uses 60\u00b0 torque angles while 8AZ uses 80\u00b0 torque angles",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-08-q04"
+    },
+    {
+      "question": "What is the initial torque value for M60/1/M60/2/M62 cylinder head bolts?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-08-q06"
+    },
+    {
+      "question": "What special instruction is given for cylinder head bolt installation?",
+      "answer": "Fit new cylinder head bolts, do not wash away coating on cylinder head screws, and for repair work only use screws with Torx head",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-08-q07"
+    },
+    {
+      "question": "How many torque angle steps are required for 8AZ cylinder head bolts?",
+      "answer": "Two torque angle steps of 80\u00b0 each",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-08-q08"
+    },
+    {
+      "question": "What section and subsection covers cylinder head with cover specifications?",
+      "answer": "Section 11-8 Engine, subsection 11 12 Cylinder head with cover",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-08-q09"
+    },
+    {
+      "question": "Are the initial torque values the same for both 7AZ and 8AZ cylinder head bolts?",
+      "answer": "Yes, both 7AZ and 8AZ cylinder head bolts have the same initial torque value of 30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-08-q10"
+    }
+  ]
+}

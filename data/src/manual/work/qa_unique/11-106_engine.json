@@ -1,0 +1,79 @@
+{
+  "page_id": "11-106_engine",
+  "image_path": "raw/11 - Engine/11-106.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:08:40.042976",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1759,
+    "tokens_output": 783
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main topic covered in section 11 12 100?",
+      "answer": "Removing and installing cylinder head.",
+      "question_type": "factual",
+      "id": "11-106_engine-q01"
+    },
+    {
+      "question": "What should be done with the cooling system before removing the cylinder head?",
+      "answer": "Fill and bleed cooling system - see Gr. 17.",
+      "question_type": "procedural",
+      "id": "11-106_engine-q02"
+    },
+    {
+      "question": "Which components need to be disconnected first when removing the cylinder head?",
+      "answer": "Disconnect battery ground lead, unscrew splash guard, and remove coolant on engine and radiator.",
+      "question_type": "procedural",
+      "id": "11-106_engine-q04"
+    },
+    {
+      "question": "What do callout numbers 4 and 5 indicate in the air cleaner removal diagram?",
+      "answer": "Nuts that need to be loosened to remove the air cleaner.",
+      "question_type": "visual",
+      "id": "11-106_engine-q05"
+    },
+    {
+      "question": "What should be checked during installation of the intake manifold?",
+      "answer": "Check O-rings, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "11-106_engine-q06"
+    },
+    {
+      "question": "How should the electric leads be handled when removing plugs 2 and 3?",
+      "answer": "Pull off plugs (2 and 3) and place electric leads aside.",
+      "question_type": "procedural",
+      "id": "11-106_engine-q07"
+    },
+    {
+      "question": "What should be done with the throttle cable and cruise control cable?",
+      "answer": "Disconnect throttle cable (1) and cruise control cable (2).",
+      "question_type": "procedural",
+      "id": "11-106_engine-q09"
+    },
+    {
+      "question": "What is the procedure for the vacuum hose connected to the brake booster?",
+      "answer": "Unscrew nut (3), pull off clamp and lift vacuum hose (1) out of brake booster.",
+      "question_type": "procedural",
+      "id": "11-106_engine-q10"
+    },
+    {
+      "question": "What do callouts 1 and 2 represent in the intake manifold removal diagram?",
+      "answer": "Hose clamp (1) and nut (2) on intake manifold support that need attention during removal.",
+      "question_type": "visual",
+      "id": "11-106_engine-q11"
+    },
+    {
+      "question": "What needs to be done with the vacuum hose and pressure regulator?",
+      "answer": "Pull vacuum hose (3) off of pressure regulator and unscrew screw (4) to take off electric lead with holder.",
+      "question_type": "procedural",
+      "id": "11-106_engine-q12"
+    }
+  ]
+}

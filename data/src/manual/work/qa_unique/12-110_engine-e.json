@@ -1,0 +1,79 @@
+{
+  "page_id": "12-110_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-110.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:27:05.015482",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 919
+  },
+  "qa_pairs": [
+    {
+      "question": "What temperature range defines a cold engine condition for troubleshooting purposes?",
+      "answer": "A cold engine is defined as oil temperature less than 20\u00b0C or 68\u00b0F.",
+      "question_type": "factual",
+      "id": "12-110_engine-e-q01"
+    },
+    {
+      "question": "If I have a warm engine that's hard to start, which test positions should I check according to the troubleshooting chart?",
+      "answer": "For a warm engine that's hard to start (symptom 5), check test positions 1, 2, 4, 16, 17, and 18 according to the X marks in the chart.",
+      "question_type": "diagnostic",
+      "id": "12-110_engine-e-q02"
+    },
+    {
+      "question": "What components should be tested if the engine has erratic idling during warm-up phase?",
+      "answer": "For erratic idling during warm-up phase (symptom 6), test the speed sensor/reference mark sensor (position 1), ignition coil (position 2), and oxygen sensor/emission control and EGR system (position 10).",
+      "question_type": "diagnostic",
+      "id": "12-110_engine-e-q03"
+    },
+    {
+      "question": "Where can I find additional information about fuel injection troubleshooting?",
+      "answer": "Refer to 'Troubleshooting Fuel Injection' in Group 13 for other test positions.",
+      "question_type": "navigation",
+      "id": "12-110_engine-e-q04"
+    },
+    {
+      "question": "What are the testing requirements mentioned for troubleshooting digital motor electronics?",
+      "answer": "Testing requirements include: engine in perfect running condition (timing, compression, oil, carbon deposits, etc.), starting system in perfect condition (battery voltage, starter, ignition lock, etc.), correct fuel in tank (octane rating, leaded/unleaded, dirt, etc.), and connections and ground points according to wiring diagram.",
+      "question_type": "procedural",
+      "id": "12-110_engine-e-q05"
+    },
+    {
+      "question": "If the engine has poor acceleration and high fuel consumption, which systems should I check?",
+      "answer": "For poor acceleration/final output and high fuel consumption (symptoms 13-14), check oxygen sensor/emission control and EGR (position 10), active carbon filter/purge valve (position 11), fuel supply (position 15), intake system (position 16), catalytic converter (position 17), and exhaust system (position 18).",
+      "question_type": "diagnostic",
+      "id": "12-110_engine-e-q06"
+    },
+    {
+      "question": "What does test position 6 refer to and in which group can I find more information?",
+      "answer": "Test position 6 refers to DME control unit/ignition timing. No specific group reference is provided for this test position.",
+      "question_type": "component",
+      "id": "12-110_engine-e-q07"
+    },
+    {
+      "question": "If I have CO/HC readings that are not correct, which components need to be tested?",
+      "answer": "For incorrect CO/HC readings (symptom 15), test oxygen sensor/emission control and EGR (position 10), fuel supply (position 15), intake system (position 16), catalytic converter (position 17), exhaust system (position 18), and crankcase vent/air hoses (position 19).",
+      "question_type": "diagnostic",
+      "id": "12-110_engine-e-q08"
+    },
+    {
+      "question": "Which group contains information about the active carbon filter/purge valve system?",
+      "answer": "The active carbon filter/purge valve system information can be found in Group 13/16.",
+      "question_type": "navigation",
+      "id": "12-110_engine-e-q09"
+    },
+    {
+      "question": "What symptom pathway leads to checking the cooling system?",
+      "answer": "The cooling system (test position 20) should be checked when troubleshooting various engine performance issues, as indicated by the X mark in the troubleshooting chart matrix.",
+      "question_type": "troubleshooting",
+      "id": "12-110_engine-e-q10"
+    }
+  ]
+}

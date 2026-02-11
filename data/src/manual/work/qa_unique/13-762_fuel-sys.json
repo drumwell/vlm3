@@ -1,0 +1,73 @@
+{
+  "page_id": "13-762_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-762.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:48:12.378655",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 795
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for the coolant temperature sensor?",
+      "answer": "The part number is 13 62 531.",
+      "question_type": "factual",
+      "id": "13-762_fuel-sys-q03"
+    },
+    {
+      "question": "What should be checked during installation of the coolant temperature sensor?",
+      "answer": "Check code number (1), replace seal (2), and note that FD = Manufacturing date. Fill and bleed cooling system (Group 17).",
+      "question_type": "procedural",
+      "id": "13-762_fuel-sys-q04"
+    },
+    {
+      "question": "What test leads are used when checking the temperature sensor?",
+      "answer": "Use Jetronic test leads 61 1 440 to connect to the sensor for checking.",
+      "question_type": "tool",
+      "id": "13-762_fuel-sys-q05"
+    },
+    {
+      "question": "How should the temperature sensor be tested to check its resistance values?",
+      "answer": "To check the entire temperature range, remove and place temperature sensor in a water bath, heat bath to testing temperature and check resistance with an ohmmeter.",
+      "question_type": "procedural",
+      "id": "13-762_fuel-sys-q06"
+    },
+    {
+      "question": "What should be done after unscrewing the temperature sensor during removal?",
+      "answer": "After unscrewing the temperature sensor, it should be removed from its location.",
+      "question_type": "procedural",
+      "id": "13-762_fuel-sys-q08"
+    },
+    {
+      "question": "What is specified for the installation torque of the temperature sensor?",
+      "answer": "The installation requires a specific tightening torque, which is referenced to the Specifications section.",
+      "question_type": "procedural",
+      "id": "13-762_fuel-sys-q09"
+    },
+    {
+      "question": "What part number corresponds to the Jetronic test leads?",
+      "answer": "The Jetronic test leads have part number 61 1 440.",
+      "question_type": "factual",
+      "id": "13-762_fuel-sys-q10"
+    },
+    {
+      "question": "What type of resistor technology does the coolant temperature sensor use?",
+      "answer": "The sensor uses NTC (Negative Temperature Coefficient) resistor technology, where resistance drops with rising temperature.",
+      "question_type": "factual",
+      "id": "13-762_fuel-sys-q11"
+    },
+    {
+      "question": "What system needs to be filled and bled after installing the coolant temperature sensor?",
+      "answer": "The cooling system needs to be filled and bled after installation, with procedures found in Group 17.",
+      "question_type": "procedural",
+      "id": "13-762_fuel-sys-q12"
+    }
+  ]
+}

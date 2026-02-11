@@ -1,0 +1,79 @@
+{
+  "page_id": "12-07_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-07.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:22:46.889197",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 835
+  },
+  "qa_pairs": [
+    {
+      "question": "What page should you refer to for instructions on working with transistor coil ignition systems?",
+      "answer": "Refer to page 12-0 for instructions for working on transistor coil ignition systems.",
+      "question_type": "navigation",
+      "id": "12-07_engine-e-q02"
+    },
+    {
+      "question": "What are the removal steps for a TCi Control Unit (Bosch)?",
+      "answer": "Take off cap, unlock lock wire and pull off plug, then unscrew screws and remove control unit.",
+      "question_type": "procedural",
+      "id": "12-07_engine-e-q03"
+    },
+    {
+      "question": "What preparation should be done to sealing surfaces during installation?",
+      "answer": "Clean sealing surfaces, grinding down with sandpaper if necessary to guarantee good thermal carrying-off.",
+      "question_type": "procedural",
+      "id": "12-07_engine-e-q04"
+    },
+    {
+      "question": "What product should be applied to the back of the control unit during installation?",
+      "answer": "Coat back of control unit with Curil K 2 before installation of the control unit.",
+      "question_type": "procedural",
+      "id": "12-07_engine-e-q05"
+    },
+    {
+      "question": "What must be checked after installation of a TCi control unit?",
+      "answer": "Check ignition timing after installation, correcting if necessary.",
+      "question_type": "inspection",
+      "id": "12-07_engine-e-q06"
+    },
+    {
+      "question": "How do you remove a TCi-S Control Unit (Siemens/Telefunken)?",
+      "answer": "Pull off plug, then unscrew nuts and remove control unit.",
+      "question_type": "procedural",
+      "id": "12-07_engine-e-q07"
+    },
+    {
+      "question": "What is the difference in removal procedure between the Bosch and Siemens/Telefunken TCi control units?",
+      "answer": "The Bosch unit requires taking off a cap and unlocking a lock wire before pulling the plug, while the Siemens/Telefunken unit only requires pulling off the plug directly.",
+      "question_type": "factual",
+      "id": "12-07_engine-e-q08"
+    },
+    {
+      "question": "What is shown in the top diagram image 30 12 045?",
+      "answer": "The diagram shows the TCi Control Unit (Bosch) with arrows indicating the removal process including the cap, lock wire, and plug connection.",
+      "question_type": "visual",
+      "id": "12-07_engine-e-q09"
+    },
+    {
+      "question": "What component is illustrated in the bottom diagram image 30 12 051?",
+      "answer": "The diagram shows the TCi-S Control Unit (Siemens/Telefunken) with arrows indicating the plug removal and nut locations.",
+      "question_type": "visual",
+      "id": "12-07_engine-e-q11"
+    },
+    {
+      "question": "What is the source reference for the Curil K 2 product mentioned?",
+      "answer": "Source: HWB Product Range (Division of BMW), as noted in the footnote with double asterisks.",
+      "question_type": "factual",
+      "id": "12-07_engine-e-q12"
+    }
+  ]
+}

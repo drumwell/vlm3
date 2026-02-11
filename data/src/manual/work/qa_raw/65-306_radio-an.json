@@ -1,0 +1,91 @@
+{
+  "page_id": "65-306_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-306.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:04:11.247717",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 836
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the color codes for the operating motor cable connections?",
+      "answer": "The cable color codes are 318 i - green and 325 e - blue.",
+      "question_type": "factual",
+      "id": "65-306_radio-an-q01"
+    },
+    {
+      "question": "How should the cable be inserted into the holders during installation?",
+      "answer": "Insert cable (1) in holders (2) until spring retainer (3) engages. The cable holder is guided into the cable.",
+      "question_type": "procedural",
+      "id": "65-306_radio-an-q02"
+    },
+    {
+      "question": "What is the specified gap between the nipple and holder when adjusting the cable on hexagon?",
+      "answer": "A gap of 1 to 2 mm (0.040 to 0.080 inch) is provided between the nipple and holder.",
+      "question_type": "factual",
+      "id": "65-306_radio-an-q03"
+    },
+    {
+      "question": "Which BMW model requires special handling for the cable and rubber grommet?",
+      "answer": "Only BMW 318 i requires guiding the cable through holder (1) and inserting rubber grommet (2) in holder, lifting out nipple bearing (3), and clipping on nipple bearing again.",
+      "question_type": "procedural",
+      "id": "65-306_radio-an-q04"
+    },
+    {
+      "question": "What components are identified by callouts 1, 2, and 3 in the cable insertion diagram?",
+      "answer": "Callout 1 indicates the cable, callout 2 indicates the holders, and callout 3 indicates the spring retainer.",
+      "question_type": "visual",
+      "id": "65-306_radio-an-q05"
+    },
+    {
+      "question": "How should the operating motor be mounted to the holder?",
+      "answer": "Mount operating motor on holder with nuts and spring washers.",
+      "question_type": "procedural",
+      "id": "65-306_radio-an-q06"
+    },
+    {
+      "question": "What should be done with the standard rubber grommet during wire harness routing?",
+      "answer": "Cut open standard rubber grommet when routing wire harness from operating motor along standard wire harness into passenger compartment.",
+      "question_type": "procedural",
+      "id": "65-306_radio-an-q07"
+    },
+    {
+      "question": "What condition should the throttle and operating motor be in when adjusting the cable gap?",
+      "answer": "The throttle should be closed and the operating motor should be unactivated (engine running at idle speed) when adjusting the cable gap.",
+      "question_type": "inspection",
+      "id": "65-306_radio-an-q08"
+    },
+    {
+      "question": "Where should the operating motor wire harness plug be connected?",
+      "answer": "Connect plug (1) of operating motor wire harness with plug (2) of extra wire harness as shown in the wire harness sketch.",
+      "question_type": "procedural",
+      "id": "65-306_radio-an-q09"
+    },
+    {
+      "question": "What is the final step after connecting the wire harness plugs?",
+      "answer": "Install trim panel after connecting the wire harness plugs.",
+      "question_type": "procedural",
+      "id": "65-306_radio-an-q10"
+    },
+    {
+      "question": "What tool position is required when counterholding during cable adjustment?",
+      "answer": "Counterhold on hexagon (2) when adjusting the cable gap.",
+      "question_type": "tool",
+      "id": "65-306_radio-an-q11"
+    },
+    {
+      "question": "What important note is given regarding color codes during cable connection?",
+      "answer": "Check color codes when connecting the cable in holder of operating motor.",
+      "question_type": "safety",
+      "id": "65-306_radio-an-q12"
+    }
+  ]
+}

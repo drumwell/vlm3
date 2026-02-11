@@ -1,0 +1,79 @@
+{
+  "page_id": "13-813_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-813.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:51:26.468474",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 705
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure for checking periphery for air conditioner speed?",
+      "answer": "Connect voltmeter (M 01) between terminal 4 and terminal 9, turn on ignition, turn on air conditioner, and check if voltmeter displays at least 9 volts.",
+      "question_type": "procedural",
+      "id": "13-813_fuel-sys-q01"
+    },
+    {
+      "question": "What should you do if the voltmeter reads less than 9 volts during the air conditioner speed check?",
+      "answer": "Check the blue/white wire for breaks with ohmmeter (M 06) and eliminate any breaks found.",
+      "question_type": "troubleshooting",
+      "id": "13-813_fuel-sys-q02"
+    },
+    {
+      "question": "Which terminals should the voltmeter be connected between for the air conditioner speed check?",
+      "answer": "Terminal 4 and terminal 9.",
+      "question_type": "factual",
+      "id": "13-813_fuel-sys-q03"
+    },
+    {
+      "question": "What is the minimum voltage reading required during the air conditioner periphery speed check?",
+      "answer": "At least 9 volts.",
+      "question_type": "parameter",
+      "id": "13-813_fuel-sys-q04"
+    },
+    {
+      "question": "What tool should be used to check the blue/white wire for breaks?",
+      "answer": "Ohmmeter (M 06).",
+      "question_type": "tool",
+      "id": "13-813_fuel-sys-q06"
+    },
+    {
+      "question": "What wire color should be checked if the voltage reading is insufficient?",
+      "answer": "Blue/white wire.",
+      "question_type": "wiring",
+      "id": "13-813_fuel-sys-q07"
+    },
+    {
+      "question": "What is the important note regarding drive range gears with automatic transmission?",
+      "answer": "After selecting a drive range gears with automatic transmission, always only the nominal idle speed (700 \u00b1 50 rpm) is regulated (preferred circuit).",
+      "question_type": "factual",
+      "id": "13-813_fuel-sys-q08"
+    },
+    {
+      "question": "What is the nominal idle speed specification mentioned in the important note?",
+      "answer": "700 \u00b1 50 rpm.",
+      "question_type": "parameter",
+      "id": "13-813_fuel-sys-q09"
+    },
+    {
+      "question": "What type of circuit is referenced in the automatic transmission idle speed regulation?",
+      "answer": "Preferred circuit.",
+      "question_type": "operation",
+      "id": "13-813_fuel-sys-q10"
+    },
+    {
+      "question": "What should be done after identifying breaks in the blue/white wire?",
+      "answer": "Eliminate breaks.",
+      "question_type": "procedural",
+      "id": "13-813_fuel-sys-q12"
+    }
+  ]
+}

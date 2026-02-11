@@ -1,0 +1,79 @@
+{
+  "page_id": "23-20_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-20.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:40:19.463972",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 880
+  },
+  "qa_pairs": [
+    {
+      "question": "What temperature should the rear case section be heated to in the area of the grooved ball bearing?",
+      "answer": "The rear case section should be heated to about 80\u00b0C (175\u00b0F) in the area of the grooved ball bearing.",
+      "question_type": "factual",
+      "id": "23-20_manual-t-q01"
+    },
+    {
+      "question": "What special tool is used to drive the bearing shell with part number 00 5 500?",
+      "answer": "Special Tools 23 1 260 and 00 5 500 are used to drive the bearing shell into the front case section to fit tight.",
+      "question_type": "tool",
+      "id": "23-20_manual-t-q02"
+    },
+    {
+      "question": "How should the layshaft be positioned when inserting Special Tool 23 1 280 into the bearing shell?",
+      "answer": "Insert the thicker end of Special Tool 23 1 280 in the bearing shell, and if necessary, remove the lock on the side of the drain plug.",
+      "question_type": "procedural",
+      "id": "23-20_manual-t-q03"
+    },
+    {
+      "question": "What is the important alignment requirement when installing the bearing shell?",
+      "answer": "The oil groove must be aligned with groove in case when installing the bearing shell that slot in bearing shell is aligned with turning lock bead in case.",
+      "question_type": "safety",
+      "id": "23-20_manual-t-q05"
+    },
+    {
+      "question": "How many circlips are installed when checking axial play of the layshaft?",
+      "answer": "Install circlip (2) when checking axial play of the layshaft.",
+      "question_type": "procedural",
+      "id": "23-20_manual-t-q06"
+    },
+    {
+      "question": "What should be done with the closed cage end faces when installing the grooved ball bearing?",
+      "answer": "The closed cage end faces should be positioned down when installing the grooved ball bearing.",
+      "question_type": "procedural",
+      "id": "23-20_manual-t-q08"
+    },
+    {
+      "question": "What is installed in the rear case section along with the layshaft?",
+      "answer": "Install layshaft with roller bearings in rear case section.",
+      "question_type": "procedural",
+      "id": "23-20_manual-t-q09"
+    },
+    {
+      "question": "What special tool might be needed if driving against a stop?",
+      "answer": "If necessary, drive in against stop with Special Tool 24 1 060.",
+      "question_type": "tool",
+      "id": "23-20_manual-t-q10"
+    },
+    {
+      "question": "What callout number identifies the special tool 33 4 020 in the diagram?",
+      "answer": "Callout number 33 4 020 identifies the special tool used in conjunction with Special Tool 23 1 300 to pull out the bearing shell.",
+      "question_type": "visual",
+      "id": "23-20_manual-t-q11"
+    },
+    {
+      "question": "What must be installed before driving the bearing shell into the front case section?",
+      "answer": "Install old spacers before driving the bearing shell into the front case section to fit tight with Special Tool 23 1 260 and 00 5 500.",
+      "question_type": "procedural",
+      "id": "23-20_manual-t-q12"
+    }
+  ]
+}

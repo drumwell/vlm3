@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-127",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/127.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:51:17.752520",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 716
+  },
+  "qa_pairs": [
+    {
+      "question": "Which engines require 40 Nm torque for the oil pressure switch?",
+      "answer": "M10/M40/M42/M21/M51/M20/M30/M50/M60/1/M60/2/M70/S70",
+      "question_type": "factual",
+      "id": "00-torque-specs-127-q08"
+    },
+    {
+      "question": "What is the difference in torque specification between the oil pressure switches for different engine types?",
+      "answer": "The M10/M40/M42/M21/M51/M20/M30/M50/M60/1/M60/2/M70/S70 engines require 40 Nm, while the S14/S50/S38/M43 engines require 20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-127-q09"
+    }
+  ]
+}

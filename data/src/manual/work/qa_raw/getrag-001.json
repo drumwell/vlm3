@@ -1,0 +1,91 @@
+{
+  "page_id": "getrag-001",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/001.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:41:35.894518",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 782
+  },
+  "qa_pairs": [
+    {
+      "question": "What transmission does this rebuild article cover?",
+      "answer": "This article covers the Getrag 265/5 transmission rebuild.",
+      "question_type": "factual",
+      "id": "getrag-001-q01"
+    },
+    {
+      "question": "Who wrote this Getrag 265/5 rebuild article?",
+      "answer": "The article was written by Dave @NZ.",
+      "question_type": "factual",
+      "id": "getrag-001-q02"
+    },
+    {
+      "question": "When was this Getrag 265/5 rebuild article published?",
+      "answer": "The article was published on August 2, 2020.",
+      "question_type": "factual",
+      "id": "getrag-001-q03"
+    },
+    {
+      "question": "Which BMW models does this Getrag 265/5 transmission article apply to?",
+      "answer": "This article applies to all BMW models with the Getrag 265/5 transmission.",
+      "question_type": "factual",
+      "id": "getrag-001-q04"
+    },
+    {
+      "question": "What was the main problem that prompted this transmission rebuild?",
+      "answer": "The main problem was rattle noise when hot with the foot off the clutch, which was more pronounced with ATF oil. If gearbox oil 70/90 was run, the noise was good but would be stiff to change in cold weather.",
+      "question_type": "diagnostic",
+      "id": "getrag-001-q05"
+    },
+    {
+      "question": "How many syncro rings were purchased for this rebuild?",
+      "answer": "Five syncro rings were purchased for this rebuild.",
+      "question_type": "factual",
+      "id": "getrag-001-q06"
+    },
+    {
+      "question": "How many new springs for the syncro hubs were obtained?",
+      "answer": "Nine new springs for the syncro hubs were obtained.",
+      "question_type": "factual",
+      "id": "getrag-001-q07"
+    },
+    {
+      "question": "What additional parts were purchased along with the syncro rings and springs?",
+      "answer": "Gaskets and seals were purchased along with the syncro rings and springs.",
+      "question_type": "factual",
+      "id": "getrag-001-q08"
+    },
+    {
+      "question": "What was unexpected about removing the gear box during this rebuild?",
+      "answer": "The weight of the gearbox was unexpected and not anticipated, which didn't help when trying to handle it out from under the M3 on axle stands.",
+      "question_type": "procedural",
+      "id": "getrag-001-q09"
+    },
+    {
+      "question": "What acknowledgment does the author give regarding guidance received?",
+      "answer": "The author acknowledges the guidance received from Brian Xworks, John Jwbavalon and Diego.",
+      "question_type": "factual",
+      "id": "getrag-001-q10"
+    },
+    {
+      "question": "What inspection was performed on the remaining parts after disassembly?",
+      "answer": "The remaining parts were stripped and inspected after disassembly.",
+      "question_type": "inspection",
+      "id": "getrag-001-q11"
+    },
+    {
+      "question": "How is the gearbox removal process described in terms of difficulty?",
+      "answer": "Removing the gear box was described as straight forward enough except for the unexpected weight, and the drain bung came out while trying to manhandle it out from under the M3 on axle stands.",
+      "question_type": "procedural",
+      "id": "getrag-001-q12"
+    }
+  ]
+}

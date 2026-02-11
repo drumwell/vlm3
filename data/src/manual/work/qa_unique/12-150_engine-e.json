@@ -1,0 +1,55 @@
+{
+  "page_id": "12-150_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-150.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:34:11.683538",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 630
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the testing requirements before troubleshooting the starter?",
+      "answer": "Correct connections on battery and starter, good ground connection between engine and body, and charged battery.",
+      "question_type": "procedural",
+      "id": "12-150_engine-e-q01"
+    },
+    {
+      "question": "What should I do if the starter slips?",
+      "answer": "Remove starter and check gear ring teeth on flywheel for damage.",
+      "question_type": "procedural",
+      "id": "12-150_engine-e-q04"
+    },
+    {
+      "question": "If the lights go out while starting, what does this indicate?",
+      "answer": "Short in starter.",
+      "question_type": "diagnostic",
+      "id": "12-150_engine-e-q05"
+    },
+    {
+      "question": "What are the possible causes if the starter does not turn but only clicks in the solenoid?",
+      "answer": "Carbon brushes worn or solenoid faulty.",
+      "question_type": "troubleshooting",
+      "id": "12-150_engine-e-q06"
+    },
+    {
+      "question": "If the starter works when bridging connections 30 and 50, but doesn't work normally, what should I check?",
+      "answer": "Check for faulty wires and connections on starter switch, or starter switch faulty.",
+      "question_type": "diagnostic",
+      "id": "12-150_engine-e-q07"
+    },
+    {
+      "question": "If the flywheel gear ring teeth are okay but the starter still slips, what should I repair?",
+      "answer": "Repair starter: drive pinion (one-way clutch), engaging mechanism, or planet gears faulty.",
+      "question_type": "troubleshooting",
+      "id": "12-150_engine-e-q09"
+    }
+  ]
+}

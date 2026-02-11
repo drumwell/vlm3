@@ -1,0 +1,67 @@
+{
+  "page_id": "51-113_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-113.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:09:07.348368",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1752,
+    "tokens_output": 489
+  },
+  "qa_pairs": [
+    {
+      "question": "What does component number 2 represent on the M3 front bumper assembly?",
+      "answer": "Component number 2 is the foam rubber inlet.",
+      "question_type": "component",
+      "id": "51-113_body-equ-q01"
+    },
+    {
+      "question": "Which component is labeled as number 6 in this front bumper assembly drawing?",
+      "answer": "Component number 6 is the spoiler.",
+      "question_type": "component",
+      "id": "51-113_body-equ-q02"
+    },
+    {
+      "question": "What is the function of part number 1 shown in the diagram?",
+      "answer": "Part number 1 is the bracket with mounting parts.",
+      "question_type": "component",
+      "id": "51-113_body-equ-q03"
+    },
+    {
+      "question": "Where is the bumper carrier located in this assembly diagram?",
+      "answer": "The bumper carrier is component number 3, located at the upper portion of the assembly.",
+      "question_type": "visual",
+      "id": "51-113_body-equ-q04"
+    },
+    {
+      "question": "What does the ornamental strip refer to in this M3 front bumper assembly?",
+      "answer": "The ornamental strip is component number 7, shown as the lower decorative element of the bumper assembly.",
+      "question_type": "component",
+      "id": "51-113_body-equ-q05"
+    },
+    {
+      "question": "Which component is identified as the bracket on side panel?",
+      "answer": "Component number 4 is identified as the bracket on side panel.",
+      "question_type": "component",
+      "id": "51-113_body-equ-q06"
+    },
+    {
+      "question": "What is component number 5 in this front bumper assembly drawing?",
+      "answer": "Component number 5 is the bumper trim panel.",
+      "question_type": "component",
+      "id": "51-113_body-equ-q07"
+    },
+    {
+      "question": "What manual section and page number is this front bumper assembly drawing from?",
+      "answer": "This is from page 51-113 of the Body Equipment section, specifically showing the Front Bumper Assembly Drawing for the M3.",
+      "question_type": "navigation",
+      "id": "51-113_body-equ-q08"
+    }
+  ]
+}

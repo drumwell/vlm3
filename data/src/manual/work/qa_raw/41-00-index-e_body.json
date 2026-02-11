@@ -1,0 +1,55 @@
+{
+  "page_id": "41-00-index-e_body",
+  "image_path": "raw/41 - Body/41-00-index-e.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:33:35.380848",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1742,
+    "tokens_output": 412
+  },
+  "qa_pairs": [
+    {
+      "question": "What page contains information about adjusting front doors?",
+      "answer": "Front door adjustment (left or right) can be found on page 41-501.",
+      "question_type": "navigation",
+      "id": "41-00-index-e_body-q01"
+    },
+    {
+      "question": "Where can I find the procedure for replacing rear side panels up to the window line?",
+      "answer": "Rear side panel replacement (partial replacement up to window line) for 4-door cars is covered on page 41-325.",
+      "question_type": "navigation",
+      "id": "41-00-index-e_body-q02"
+    },
+    {
+      "question": "What is the reference number for bearing sleeves replacement for door hinges?",
+      "answer": "The reference number for bearing sleeves for door hinges replacement is 41 51 004.",
+      "question_type": "factual",
+      "id": "41-00-index-e_body-q03"
+    },
+    {
+      "question": "On which page would I find instructions for removing and installing unhingable rear doors?",
+      "answer": "Instructions for removing and installing unhingable rear doors (left or right) can be found on page 41-507.",
+      "question_type": "navigation",
+      "id": "41-00-index-e_body-q04"
+    },
+    {
+      "question": "What are the two alignment procedures listed in the body section?",
+      "answer": "The two alignment procedures listed are engine hood alignment (41 61 014) on page 41-601 and trunk lid alignment (41 62 014) on page 41-602.",
+      "question_type": "factual",
+      "id": "41-00-index-e_body-q05"
+    },
+    {
+      "question": "Which page covers rear door replacement procedures?",
+      "answer": "Rear door replacement (left or right) procedures are covered on page 41-508.",
+      "question_type": "navigation",
+      "id": "41-00-index-e_body-q06"
+    }
+  ]
+}

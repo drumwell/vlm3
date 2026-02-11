@@ -1,0 +1,79 @@
+{
+  "page_id": "13-900_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-900.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:54:25.573688",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 1112
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the main categories of fuel injection troubleshooting symptoms listed?",
+      "answer": "The main categories are: 1) Cold engine does not start (oil temp \u2264 20\u00b0C/68\u00b0F), 2) Engine starts but stops again, 3) Cold engine hard to start (oil temp \u2264 20\u00b0C/68\u00b0F), 4) Warm engine does not start (oil temp \u2264 60\u00b0C/140\u00b0F), 5) Warm engine hard to start (oil temp \u2264 60\u00b0C/140\u00b0F), 6) Erratic idling during warm-up phase, 7) Idle speed not correct.",
+      "question_type": "factual",
+      "id": "13-900_fuel-sys-q01"
+    },
+    {
+      "question": "What conditions must be met for proper fuel injection testing according to the requirements?",
+      "answer": "Testing requirements include: Engine in perfect running condition (timing, compression, oil/carbon deposits, etc.), starting system in perfect condition (battery voltage, starter, ignition lock, etc.), correct fuel in tank (octane rating, leaded/unleaded, dirt, etc.), and connections and plugs correct according to wiring diagram.",
+      "question_type": "procedural",
+      "id": "13-900_fuel-sys-q02"
+    },
+    {
+      "question": "What is the job number for the fuel injector test position?",
+      "answer": "The job number for the fuel injector test position is 13 64 501.",
+      "question_type": "factual",
+      "id": "13-900_fuel-sys-q03"
+    },
+    {
+      "question": "Which symptoms would lead you to check the cold start valve?",
+      "answer": "You would check the cold start valve (job no. 13 64 030) for symptoms including cold engine does not start, engine starts but stops again, cold engine hard to start, and warm engine does not start.",
+      "question_type": "diagnostic",
+      "id": "13-900_fuel-sys-q04"
+    },
+    {
+      "question": "What component should be tested if the engine has poor acceleration and final power output issues?",
+      "answer": "For poor acceleration and final power output issues, you should test the fuel pressure (injection pressure) with job number 13 51 200, fuel pressure regulator with job number 13 51 200, fuel injector with job number 13 64 501, and control unit (DME or L-Jetronic) with job number 13 61 000.",
+      "question_type": "diagnostic",
+      "id": "13-900_fuel-sys-q05"
+    },
+    {
+      "question": "Which test positions are checked for misfiring at constant engine speed?",
+      "answer": "For misfiring at constant engine speed, you should check fuel injector (position 6, job no. 13 64 501), throttle switch (position 12, job no. 13 63 544), throttle housing (position 14, job no. 13 54 051), throttle positioner (position 15, job no. 13 54 130), and control unit DME or L-Jetronic (position 16, job no. 13 61 000).",
+      "question_type": "diagnostic",
+      "id": "13-900_fuel-sys-q06"
+    },
+    {
+      "question": "What is the job number for testing the oxygen sensor?",
+      "answer": "The oxygen sensor testing is referenced as Group 11, but no specific job number is provided on this page.",
+      "question_type": "factual",
+      "id": "13-900_fuel-sys-q07"
+    },
+    {
+      "question": "If the engine has incorrect CO/HC values, which components should be tested?",
+      "answer": "For incorrect CO/HC values, you should test the fuel injector (job no. 13 64 501), control unit DME or L-Jetronic (job no. 13 61 000), air flow sensor (job no. 13 62 000), electric idle control valve (job no. 13 41 000), control unit for idle speed regulation (job no. 13 41 010), and oxygen sensor (Group 11).",
+      "question_type": "diagnostic",
+      "id": "13-900_fuel-sys-q08"
+    },
+    {
+      "question": "What symptoms would indicate a problem with the temperature time switch?",
+      "answer": "The temperature time switch (job no. 13 62 050) should be checked for symptoms including cold engine does not start, engine starts but stops again, cold engine hard to start, warm engine does not start, and warm engine hard to start.",
+      "question_type": "diagnostic",
+      "id": "13-900_fuel-sys-q09"
+    },
+    {
+      "question": "Where can additional application information be found for this troubleshooting section?",
+      "answer": "Additional application information can be found on the next page, as indicated by the note 'See application information on next page' in the troubleshooting fuel injection section.",
+      "question_type": "navigation",
+      "id": "13-900_fuel-sys-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-123",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/123.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:50:32.657951",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 629
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the universal joint compression nut on the propeller shaft?",
+      "answer": "64 Nm for the M10 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-123-q01"
+    },
+    {
+      "question": "What torque should be applied to the finned nut on the propeller shaft?",
+      "answer": "80 Nm for the M10 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-123-q02"
+    },
+    {
+      "question": "What is the compression nut torque for the constant velocity joint?",
+      "answer": "32 Nm for the M8 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-123-q03"
+    },
+    {
+      "question": "What special instruction is given for the universal joint compression nut after loosening?",
+      "answer": "After loosening connection only use ribbed nuts with higher tightening torque.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-123-q04"
+    },
+    {
+      "question": "What is the torque specification for the center mount to body?",
+      "answer": "21 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-123-q05"
+    },
+    {
+      "question": "What torque is specified for the pivot to center propeller shaft journal with Loctite?",
+      "answer": "97 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-123-q06"
+    },
+    {
+      "question": "How many different M8 screw torque specifications are shown for propeller shaft components?",
+      "answer": "Two different M8 torque specifications: 32 Nm and 43 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-123-q07"
+    },
+    {
+      "question": "What is the torque difference between the M10 compression nut and finned nut for the universal joint?",
+      "answer": "The finned nut requires 80 Nm while the compression nut requires 64 Nm, a difference of 16 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-123-q08"
+    },
+    {
+      "question": "Which propeller shaft component has the highest torque specification?",
+      "answer": "The pivot to center propeller shaft journal with Loctite at 97 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-123-q09"
+    },
+    {
+      "question": "What type of nuts should be used for the universal joint compression nut after loosening the connection?",
+      "answer": "Ribbed nuts with higher tightening torque.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-123-q10"
+    }
+  ]
+}

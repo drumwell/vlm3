@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-17-05",
+  "image_path": "raw/00 - Torque Specs/17-05.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:56:56.617417",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 612
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the cap nut on transmission oil cooler for all variants?",
+      "answer": "20 Nm with M18x1.5 screw thread.",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-05-q01"
+    },
+    {
+      "question": "What torque should I use for the cap nut on transmission oil cooler for 5HP30 transmissions?",
+      "answer": "28 Nm with M22x1.5 screw thread.",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-05-q02"
+    },
+    {
+      "question": "What is the torque specification for the hollow bolt on oil lines on transmission?",
+      "answer": "37 Nm with M16 x 1.5 screw thread.",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-05-q03"
+    },
+    {
+      "question": "What is the screw thread specification for the hollow bolt on transmission oil cooler?",
+      "answer": "M14 x 1.5 with 27 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-05-q05"
+    },
+    {
+      "question": "What torque should be applied to screw-in fitting on transmission for all variants?",
+      "answer": "37 Nm with M14x1.5 and M16x1.5 thread.",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-05-q06"
+    }
+  ]
+}

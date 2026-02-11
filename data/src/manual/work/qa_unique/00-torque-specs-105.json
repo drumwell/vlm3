@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-105",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/105.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:36:03.334338",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 707
+  },
+  "qa_pairs": [
+    {
+      "question": "What torque should I use for the oil drain plug on all automatic transmission types?",
+      "answer": "16 Nm with M10 thread.",
+      "question_type": "factual",
+      "id": "00-torque-specs-105-q02"
+    },
+    {
+      "question": "What is the difference in oil drain plug torque between the A4S 270R/A4S 310R and A5S 560Z transmissions?",
+      "answer": "The A4S 270R/A4S 310R requires 25 Nm while the A5S 560Z requires 50 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-105-q04"
+    },
+    {
+      "question": "What thread size is used for the oil drain plug on the A5S 440Z transmission?",
+      "answer": "M16x1.5 thread with 30 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-105-q05"
+    },
+    {
+      "question": "Which transmission has the highest torque specification for the oil filler plug?",
+      "answer": "The A5S 310Z/A5S 560Z transmission at 100 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-105-q06"
+    },
+    {
+      "question": "What thread pitch is specified for the A5S 440Z oil filler plug?",
+      "answer": "M18x1.5 thread with 35 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-105-q08"
+    },
+    {
+      "question": "How many different torque values are specified for oil drain plugs across all transmission types?",
+      "answer": "Five different torque values: 16 Nm, 25 Nm, 30 Nm, 35 Nm, and 50 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-105-q09"
+    }
+  ]
+}

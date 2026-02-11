@@ -1,0 +1,91 @@
+{
+  "page_id": "41-003_body",
+  "image_path": "raw/41 - Body/41-003.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:35:08.750316",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 775
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum temperature that SRS parts must not be subjected to?",
+      "answer": "Parts of SRS must not be subjected to heat greater than 100\u00b0 C (212\u00b0 F), not even briefly.",
+      "question_type": "factual",
+      "id": "41-003_body-q01"
+    },
+    {
+      "question": "What safety precaution should be taken with the battery before working with an electric welder on an SRS-equipped vehicle?",
+      "answer": "Disconnect both poles of the car's battery and cover the battery poles before working with an electric welder.",
+      "question_type": "safety",
+      "id": "41-003_body-q02"
+    },
+    {
+      "question": "Which sensors need to be disconnected before welding work on the vehicle?",
+      "answer": "Disconnect the plugs of both front sensors in the left and right wheel houses.",
+      "question_type": "procedural",
+      "id": "41-003_body-q03"
+    },
+    {
+      "question": "Where should you refer for complete details on SRS safety regulations?",
+      "answer": "Refer to Group 32 for complete details on safety regulations.",
+      "question_type": "navigation",
+      "id": "41-003_body-q04"
+    },
+    {
+      "question": "What precaution must be taken when installing holders for both crash sensors in the front wheel houses?",
+      "answer": "Make sure that the holders are aligned parallel to the car's longitudinal axis precisely.",
+      "question_type": "procedural",
+      "id": "41-003_body-q05"
+    },
+    {
+      "question": "How do you access the lower steering wheel sensor connection?",
+      "answer": "Lift the cap out of the lower steering wheel casing section and disconnect the plug.",
+      "question_type": "procedural",
+      "id": "41-003_body-q06"
+    },
+    {
+      "question": "What components are integrated into the SRS steering wheel according to component (a)?",
+      "answer": "The SRS steering wheel with impact shell and impact pad, in which the airbag, gas generator and ignition pill are integrated.",
+      "question_type": "component",
+      "id": "41-003_body-q07"
+    },
+    {
+      "question": "What is the function of the contact ring (component b)?",
+      "answer": "Contact ring guarantees power supply to the ignition pill.",
+      "question_type": "component",
+      "id": "41-003_body-q08"
+    },
+    {
+      "question": "Where are the two crash sensors located?",
+      "answer": "Two crash sensors are located left and right in front wheel houses and safety switch left.",
+      "question_type": "component",
+      "id": "41-003_body-q09"
+    },
+    {
+      "question": "What is the purpose of the electronic diagnosis unit with integrated safing sensor?",
+      "answer": "Electronic diagnosis unit (in glove box) with integrated safing sensor prevents unwanted actuation.",
+      "question_type": "component",
+      "id": "41-003_body-q10"
+    },
+    {
+      "question": "Where is the SRS indicator lamp integrated?",
+      "answer": "SRS indicator lamp integrated in check control unit.",
+      "question_type": "component",
+      "id": "41-003_body-q11"
+    },
+    {
+      "question": "What should be removed as a precautionary measure if working on the body could subject SRS parts to strong vibrations?",
+      "answer": "If there is danger that working on the body could subject the parts of SRS to strong vibrations, they should be removed as a precautionary measure.",
+      "question_type": "safety",
+      "id": "41-003_body-q12"
+    }
+  ]
+}

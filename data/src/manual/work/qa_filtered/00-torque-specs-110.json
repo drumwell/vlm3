@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-110",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/110.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:44:41.423190",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 788
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the Torx screws on the F clutch transmission case?",
+      "answer": "The Torx screws for F clutch on transmission case (4HP-22/4HP-24) require M6 screws torqued to 10 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-110-q01"
+    },
+    {
+      "question": "What size and torque value is specified for the ASS 560Z component?",
+      "answer": "The ASS 560Z component uses M8 screws torqued to 23 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-110-q02"
+    },
+    {
+      "question": "What is the torque specification for the brake band adjusting screw?",
+      "answer": "The brake band adjusting screw (A 4 S 270 R/A 4 S 310 R) uses a 5/16\" screw torqued to 5 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-110-q03"
+    },
+    {
+      "question": "What torque value is required for the lock nut of the brake band adjusting screw?",
+      "answer": "The lock nut of brake band adjusting screw (A 4 S 270 R/A 4 S 310 R) uses a 5/16\" screw torqued to 21 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-110-q04"
+    },
+    {
+      "question": "What transmission types are referenced for the Torx screws specification?",
+      "answer": "The Torx screws specification references 4HP-22 and 4HP-24 transmission types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-110-q06"
+    },
+    {
+      "question": "What is the difference in torque between the brake band adjusting screw and its lock nut?",
+      "answer": "The lock nut requires 21 Nm while the brake band adjusting screw requires 5 Nm, a difference of 16 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-110-q07"
+    },
+    {
+      "question": "Which components use metric screws versus imperial screws?",
+      "answer": "The Torx screws use metric M6 and M8 sizes, while the brake band components use imperial 5/16\" screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-110-q08"
+    },
+    {
+      "question": "What section and subsection number covers shift clutches specifications?",
+      "answer": "Shift clutches specifications are covered in section 24-8 Automatic Transmission, subsection 24 23.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-110-q09"
+    },
+    {
+      "question": "What are the transmission model designations that apply to the brake band specifications?",
+      "answer": "The brake band specifications apply to transmission models A 4 S 270 R and A 4 S 310 R.",
+      "question_type": "factual",
+      "id": "00-torque-specs-110-q10"
+    }
+  ]
+}

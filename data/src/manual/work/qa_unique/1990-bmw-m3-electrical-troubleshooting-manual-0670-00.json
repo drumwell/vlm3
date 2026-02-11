@@ -1,0 +1,55 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/0670-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:07:07.458028",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 457
+  },
+  "qa_pairs": [
+    {
+      "question": "Where are connectors C100, C114, and C115 located?",
+      "answer": "Connectors C100, C114, and C115 are located on the underside of the printed circuit board",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-00-q03"
+    },
+    {
+      "question": "What component is located in position K10?",
+      "answer": "K10 is the Wiper Control Unit",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-00-q04"
+    },
+    {
+      "question": "Which relay is designated as K8?",
+      "answer": "K8 is the Fog Light Relay",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-00-q05"
+    },
+    {
+      "question": "What fuse positions are shown in the lower row of the power distribution box?",
+      "answer": "The lower row shows fuse positions 16 through 30",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-00-q06"
+    },
+    {
+      "question": "What special components are noted as being part of the printed circuit board?",
+      "answer": "The low beam check relay and relay noise suppressors are part of the printed circuit board",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-00-q07"
+    },
+    {
+      "question": "Which direction is indicated as the front of the car in this diagram?",
+      "answer": "The front of the car is indicated by an arrow pointing to the left",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-00-q08"
+    }
+  ]
+}

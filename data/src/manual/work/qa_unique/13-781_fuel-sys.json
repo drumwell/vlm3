@@ -1,0 +1,67 @@
+{
+  "page_id": "13-781_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-781.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:48:45.869167",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 722
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing a fuel injector?",
+      "answer": "Unscrew screws on injection pipe.",
+      "question_type": "procedural",
+      "id": "13-781_fuel-sys-q01"
+    },
+    {
+      "question": "What two components need to be pulled off during fuel injector removal?",
+      "answer": "Pull off plug on throttle valve switch (1) and pull off plug plate (2) on fuel injectors.",
+      "question_type": "procedural",
+      "id": "13-781_fuel-sys-q02"
+    },
+    {
+      "question": "How do you lift the fuel injectors out of their guides?",
+      "answer": "Push up injection pipe (3) until fuel injectors are lifted out of guides on throttle valve necks.",
+      "question_type": "procedural",
+      "id": "13-781_fuel-sys-q03"
+    },
+    {
+      "question": "What component is labeled as item 4 in the fuel injector removal procedure?",
+      "answer": "The retainer that needs to be lifted out to take off the fuel injector.",
+      "question_type": "visual",
+      "id": "13-781_fuel-sys-q04"
+    },
+    {
+      "question": "What does the code number check involve during installation?",
+      "answer": "Check code number (2) - FD = Manufacturing date.",
+      "question_type": "factual",
+      "id": "13-781_fuel-sys-q06"
+    },
+    {
+      "question": "What lubricant should be used to coat the O-rings during installation?",
+      "answer": "Only coat O-rings with vaseline or SAE 90 gear lube for installation.",
+      "question_type": "tool",
+      "id": "13-781_fuel-sys-q07"
+    },
+    {
+      "question": "What color marking should be checked during installation?",
+      "answer": "Check color of plug receptacle (5) or fuel injector guard (4).",
+      "question_type": "inspection",
+      "id": "13-781_fuel-sys-q09"
+    },
+    {
+      "question": "What reference number identifies this procedure in the manual?",
+      "answer": "13 64 501 - Removing and Installing One Fuel Injector.",
+      "question_type": "navigation",
+      "id": "13-781_fuel-sys-q10"
+    }
+  ]
+}

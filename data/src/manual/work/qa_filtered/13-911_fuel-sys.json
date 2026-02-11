@@ -1,0 +1,91 @@
+{
+  "page_id": "13-911_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-911.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:56:49.022608",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 709
+  },
+  "qa_pairs": [
+    {
+      "question": "What is Test Position 17 for?",
+      "answer": "Test Position 17 is for the AIR FLOW SENSOR.",
+      "question_type": "factual",
+      "id": "13-911_fuel-sys-q01"
+    },
+    {
+      "question": "What should you check regarding the code number and manufacturing date for the air flow sensor?",
+      "answer": "Check code number and manufacturing date, then replace air flow sensor.",
+      "question_type": "procedural",
+      "id": "13-911_fuel-sys-q02"
+    },
+    {
+      "question": "What components should be inspected on the air flow sensor plug connection?",
+      "answer": "Check contact of plug connections, fit of plug, movement and swinging range of sensor plate.",
+      "question_type": "inspection",
+      "id": "13-911_fuel-sys-q03"
+    },
+    {
+      "question": "What type of test adapter is needed for the electric test of the air flow sensor?",
+      "answer": "A universal test adapter and connecting wire harness (35 pins) is needed.",
+      "question_type": "tool",
+      "id": "13-911_fuel-sys-q04"
+    },
+    {
+      "question": "What is the recommended action after checking the air flow sensor with the universal test adapter?",
+      "answer": "Replace air flow sensor.",
+      "question_type": "procedural",
+      "id": "13-911_fuel-sys-q05"
+    },
+    {
+      "question": "How many pins does the connecting wire harness have for testing the air flow sensor?",
+      "answer": "The connecting wire harness has 35 pins.",
+      "question_type": "factual",
+      "id": "13-911_fuel-sys-q06"
+    },
+    {
+      "question": "What should be done with test values during the electric test?",
+      "answer": "Test values should be checked, with specific values referenced in the Specifications section.",
+      "question_type": "procedural",
+      "id": "13-911_fuel-sys-q07"
+    },
+    {
+      "question": "Where can you find the specific test values for the air flow sensor?",
+      "answer": "The test values can be found in the Specifications section.",
+      "question_type": "navigation",
+      "id": "13-911_fuel-sys-q08"
+    },
+    {
+      "question": "What is the page number shown at the top of this manual page?",
+      "answer": "The page number is 13-911.",
+      "question_type": "factual",
+      "id": "13-911_fuel-sys-q09"
+    },
+    {
+      "question": "Where can you find the wiring diagram referenced for this test?",
+      "answer": "The wiring diagram is referenced with 'See wiring diagram' at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "13-911_fuel-sys-q10"
+    },
+    {
+      "question": "What specific mechanical aspects of the sensor plate should be checked?",
+      "answer": "Check the movement and swinging range of the sensor plate.",
+      "question_type": "inspection",
+      "id": "13-911_fuel-sys-q11"
+    },
+    {
+      "question": "What are the two main testing approaches described for the air flow sensor?",
+      "answer": "The two approaches are checking code number/manufacturing date/plug connections/sensor plate movement, and performing an electric test with universal test adapter.",
+      "question_type": "procedural",
+      "id": "13-911_fuel-sys-q12"
+    }
+  ]
+}

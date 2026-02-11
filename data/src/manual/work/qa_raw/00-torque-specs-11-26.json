@@ -1,0 +1,91 @@
+{
+  "page_id": "00-torque-specs-11-26",
+  "image_path": "raw/00 - Torque Specs/11-26.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:41:44.533488",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 622
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the plug for pressure relief valve with M10/M30 thread?",
+      "answer": "40 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-26-q01"
+    },
+    {
+      "question": "What torque should be applied to the M20 pressure relief valve plug?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-26-q02"
+    },
+    {
+      "question": "What is the torque specification for the oil pump to crankcase bolts?",
+      "answer": "22 Nm with M8 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-26-q03"
+    },
+    {
+      "question": "What torque is required for the oil pump cover bolts?",
+      "answer": "10 Nm with M6 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-26-q04"
+    },
+    {
+      "question": "What is the torque specification for the sprocket to oil pump bolts?",
+      "answer": "10 Nm with M6 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-26-q05"
+    },
+    {
+      "question": "What are the two different torque specifications for M10 bolts in the oil pump assembly?",
+      "answer": "47 Nm for M10 bolts and 25 Nm for M10x1 bolts",
+      "question_type": "comparison",
+      "id": "00-torque-specs-11-26-q06",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "Which component uses M8 screws according to the oil pump specifications?",
+      "answer": "The oil pump to crankcase connection uses M8 screws",
+      "question_type": "application",
+      "id": "00-torque-specs-11-26-q07",
+      "_warnings": [
+        "Invalid question_type: application"
+      ]
+    },
+    {
+      "question": "What is the difference in torque between M6 screws used in the oil pump assembly?",
+      "answer": "Both the oil pump cover and sprocket to oil pump use M6 screws with the same 10 Nm torque specification",
+      "question_type": "comparison",
+      "id": "00-torque-specs-11-26-q08",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What section and subsection does this oil pump torque specification table belong to?",
+      "answer": "Section 11-26 Engine, subsection 11.41 Oil Pump with Strainer and Drive",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-26-q09"
+    },
+    {
+      "question": "Which oil pump component requires the highest torque specification?",
+      "answer": "The M10 bolts require the highest torque at 47 Nm",
+      "question_type": "comparison",
+      "id": "00-torque-specs-11-26-q10",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    }
+  ]
+}

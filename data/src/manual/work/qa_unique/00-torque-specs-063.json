@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-063",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/063.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:28:05.461764",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 637
+  },
+  "qa_pairs": [
+    {
+      "question": "Which engine types require a 27 Nm torque specification for the oil pressure/temperature switch?",
+      "answer": "M60/M62/M73 engines",
+      "question_type": "factual",
+      "id": "00-torque-specs-063-q04"
+    },
+    {
+      "question": "How does the torque specification differ between S14/S50/S38 engines and M60/M62/M73 engines for the oil pressure switch?",
+      "answer": "S14/S50/S38 engines require 20 Nm while M60/M62/M73 engines require 27 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-063-q07"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "12-112_3_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-112_3.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:27:56.124834",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 857
+  },
+  "qa_pairs": [
+    {
+      "question": "What pin on the universal adapter is used for the ignition final stage ground connection?",
+      "answer": "Pin 1 (term. 1) on the universal adapter is used for the ignition final stage ground connection.",
+      "question_type": "factual",
+      "id": "12-112_3_engine-e-q01"
+    },
+    {
+      "question": "What test equipment is needed to check the signal on Pin 1 for ignition final stage testing?",
+      "answer": "An oscilloscope is needed to check the signal while cranking the engine with the starting motor.",
+      "question_type": "tool",
+      "id": "12-112_3_engine-e-q02"
+    },
+    {
+      "question": "What corrective measure should be taken if the ignition final stage tests are okay up to this point?",
+      "answer": "Replace the DME control unit if tests up to this point are okay.",
+      "question_type": "procedural",
+      "id": "12-112_3_engine-e-q03"
+    },
+    {
+      "question": "Which pins are used for testing the final stage of fuel injectors for cylinder 2-4-6 on the M20 engine?",
+      "answer": "Pins 17 / 14 are used for testing the final stage of fuel injectors for cylinder 2-4-6 (M20 engine).",
+      "question_type": "factual",
+      "id": "12-112_3_engine-e-q04"
+    },
+    {
+      "question": "What additional tests should be performed besides checking the signal with an oscilloscope for fuel injector testing?",
+      "answer": "Check plug connections and leads for fuel injectors, and test the fuel injectors themselves.",
+      "question_type": "procedural",
+      "id": "12-112_3_engine-e-q05"
+    },
+    {
+      "question": "Which cylinders are tested using pins 16 / 14 for fuel injector final stage testing?",
+      "answer": "Pins 16 / 14 are used for testing the final stage of fuel injectors for cylinders 1-3-5 on the M20 engine.",
+      "question_type": "factual",
+      "id": "12-112_3_engine-e-q06"
+    },
+    {
+      "question": "What type of engine designation is specified for the fuel injector testing procedures shown?",
+      "answer": "The fuel injector testing procedures are specified for the M20 engine.",
+      "question_type": "factual",
+      "id": "12-112_3_engine-e-q07"
+    },
+    {
+      "question": "What components should be checked in addition to the oscilloscope signal test for ignition final stage diagnosis?",
+      "answer": "Check the power supply for ignition coil, ignition coil, distributor and leads, and spark plugs.",
+      "question_type": "inspection",
+      "id": "12-112_3_engine-e-q08"
+    },
+    {
+      "question": "What is the recommended corrective action if fuel injector final stage tests are satisfactory?",
+      "answer": "Replace the DME control unit if tests up to this point are okay.",
+      "question_type": "procedural",
+      "id": "12-112_3_engine-e-q09"
+    },
+    {
+      "question": "What diagnostic tool is consistently specified for checking signals in all the test procedures?",
+      "answer": "An oscilloscope is consistently specified for checking signals in all the test procedures shown.",
+      "question_type": "tool",
+      "id": "12-112_3_engine-e-q10"
+    },
+    {
+      "question": "How should the engine be operated when testing Pin 1 for ignition final stage ground?",
+      "answer": "Crank the engine with the starting motor while checking the signal with an oscilloscope.",
+      "question_type": "procedural",
+      "id": "12-112_3_engine-e-q11"
+    },
+    {
+      "question": "What page number is shown at the top of this service manual section?",
+      "answer": "Page 12-112/3 is shown at the top of this service manual section.",
+      "question_type": "navigation",
+      "id": "12-112_3_engine-e-q12"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-046",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/046.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:21:15.622504",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 815
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the turbocharger to exhaust manifold connection?",
+      "answer": "The turbocharger to exhaust manifold (1AZ) requires 25 Nm torque with M10 screws for M21 type, and 45 Nm for M30/M51/M41 types.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-046-q01"
+    },
+    {
+      "question": "What screw size and torque is specified for the bypass valve to flow section?",
+      "answer": "The bypass valve to flow section (2AZ) uses M8 screws with 25 Nm torque specification for M30 type.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-046-q02"
+    },
+    {
+      "question": "How much torque should be applied to the ring nut to exhaust manifold?",
+      "answer": "The ring nut to exhaust manifold (3AZ) should be torqued to 220 Nm for M30 type.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-046-q03"
+    },
+    {
+      "question": "What is the torque specification for screws to bypass valve?",
+      "answer": "The screws to bypass valve (4AZ) require 10 Nm torque using M6 screws for M30 type.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-046-q04"
+    },
+    {
+      "question": "What torque specification is required for the charge tract to exhaust manifold connection?",
+      "answer": "The charge tract to exhaust manifold (5AZ) requires 22 Nm torque using M8 screws for M30 type.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-046-q05"
+    },
+    {
+      "question": "What is the torque value for the oil return flange to turbocharger?",
+      "answer": "The oil return flange to turbocharger (6AZ) requires 22 Nm torque using M8 screws for M30 type.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-046-q06"
+    },
+    {
+      "question": "What torque specification applies to the oil supply for turbocharger and engine block hollow bolt?",
+      "answer": "The oil supply for turbocharger and engine block hollow bolt (7AZ) requires 25 Nm torque for M51/M41 types.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-046-q07"
+    },
+    {
+      "question": "What is the torque specification for the threaded plug to oil return?",
+      "answer": "The threaded plug to oil return (8AZ) requires 45 Nm torque using M16 screws for M30 type.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-046-q08"
+    },
+    {
+      "question": "What torque should be applied to the control pipe to bypass valve/turbocharger connection?",
+      "answer": "The control pipe to bypass valve/turbocharger (9AZ) requires 30 Nm torque for M30 type.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-046-q09"
+    },
+    {
+      "question": "Which section of the manual does this torque specification table cover?",
+      "answer": "This table covers section 11 65 Turbocharger and Control under the 11 - 36 Engine category.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-046-q10"
+    }
+  ]
+}

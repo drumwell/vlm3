@@ -1,0 +1,67 @@
+{
+  "page_id": "33-00_2_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-00_2.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:06:43.949958",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1937,
+    "tokens_output": 501
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the pulse wheel cycle time in the example given?",
+      "answer": "22 ms for the pulse wheel.",
+      "question_type": "factual",
+      "id": "33-00_2_rear-axl-q01"
+    },
+    {
+      "question": "What braking force is specified for the left or right wheel in the example?",
+      "answer": "550 N (121 lbs.)",
+      "question_type": "factual",
+      "id": "33-00_2_rear-axl-q02"
+    },
+    {
+      "question": "What tire sizes are specified for this brake test?",
+      "answer": "220/60, 195/65, 195/60",
+      "question_type": "factual",
+      "id": "33-00_2_rear-axl-q03"
+    },
+    {
+      "question": "What is the maximum testing time allowed?",
+      "answer": "10 sec.",
+      "question_type": "factual",
+      "id": "33-00_2_rear-axl-q06"
+    },
+    {
+      "question": "What is the total testing time specified?",
+      "answer": "40 sec.",
+      "question_type": "factual",
+      "id": "33-00_2_rear-axl-q07"
+    },
+    {
+      "question": "What is the warm-up time requirement?",
+      "answer": "Approximately 30 sec.",
+      "question_type": "factual",
+      "id": "33-00_2_rear-axl-q08"
+    },
+    {
+      "question": "How long should you wait between two tests?",
+      "answer": "30 minutes between two tests",
+      "question_type": "factual",
+      "id": "33-00_2_rear-axl-q09"
+    },
+    {
+      "question": "What speed range shows 'Impermissible Speed Range' on the diagram?",
+      "answer": "The hatched area in the middle section of the roller speed range from approximately 4.5 to 6.5 km/h",
+      "question_type": "visual",
+      "id": "33-00_2_rear-axl-q10"
+    }
+  ]
+}

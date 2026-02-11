@@ -1,0 +1,49 @@
+{
+  "page_id": "34-43_brakes",
+  "image_path": "raw/34 - Brakes/34-43.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:25:57.453644",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 665
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the initial steps to perform when testing the hydraulic unit pressure drop?",
+      "answer": "Turn on ignition, run engine, and check that battery is charged.",
+      "question_type": "procedural",
+      "id": "34-43_brakes-q02"
+    },
+    {
+      "question": "What should you do if high switching on power is detected during the test?",
+      "answer": "Due to high switching on power, possibly repeat test step with engine running. Refer to test steps 05, 06 and 07.",
+      "question_type": "troubleshooting",
+      "id": "34-43_brakes-q03"
+    },
+    {
+      "question": "What is the recommended action if nominal values are not reached in this test?",
+      "answer": "Replace hydraulic unit.",
+      "question_type": "troubleshooting",
+      "id": "34-43_brakes-q05"
+    },
+    {
+      "question": "Which cars have a restriction for this test step regarding dynamometer testing?",
+      "answer": "325 iX cars - this test step may not be performed on a dynamometer for 325 iX cars.",
+      "question_type": "factual",
+      "id": "34-43_brakes-q07"
+    },
+    {
+      "question": "What is the maximum loading time restriction for the central lock in the transfer box?",
+      "answer": "The total loading time for the central lock in the transfer box must not exceed 60 seconds at a wheel speed of max. 7.5 km/h (4.5 mph).",
+      "question_type": "parameter",
+      "id": "34-43_brakes-q08"
+    }
+  ]
+}

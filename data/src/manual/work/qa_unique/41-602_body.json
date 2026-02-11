@@ -1,0 +1,85 @@
+{
+  "page_id": "41-602_body",
+  "image_path": "raw/41 - Body/41-602.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:07:28.083216",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 885
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW part number for the trunk lid alignment procedure?",
+      "answer": "The BMW part number is 41 62 014 for the aligning trunk lid procedure.",
+      "question_type": "factual",
+      "id": "41-602_body-q01"
+    },
+    {
+      "question": "What should be done at the trunk lid height at the front end during alignment?",
+      "answer": "Loosen bolts and install spacers as required at the trunk lid height at the front end.",
+      "question_type": "procedural",
+      "id": "41-602_body-q02"
+    },
+    {
+      "question": "What adjustment should be made to the locking bar length at the rear of the trunk lid?",
+      "answer": "Adjust length of locking bar by turning the nut, until surface of closed trunk lid at rear is approximately 1 mm (0.039\") deeper than the side panels.",
+      "question_type": "procedural",
+      "id": "41-602_body-q03"
+    },
+    {
+      "question": "What important note is given about the engine hood, trunk lid and doors?",
+      "answer": "Engine hood, trunk lid and doors are fitted and bolted in an unfinished body shell. Subsequent adjustments could uncover unpainted surfaces that must be painted with paint of same color as body paint.",
+      "question_type": "safety",
+      "id": "41-602_body-q04"
+    },
+    {
+      "question": "What should be done with the stop pads during the trunk lid height adjustment at the rear end?",
+      "answer": "Screw in left and right stop pads completely, then unscrew stop pads after finishing adjustments until the trunk lid rests on them with light tension and is in same plane with side panels.",
+      "question_type": "procedural",
+      "id": "41-602_body-q05"
+    },
+    {
+      "question": "How should the locking bar be aligned when adjusting the trunk lid in the body opening?",
+      "answer": "Loosen locking bar, unscrewing if necessary, then align locking bar according to lock bottom section.",
+      "question_type": "procedural",
+      "id": "41-602_body-q06"
+    },
+    {
+      "question": "What diagram number shows the trunk lid height adjustment at the rear end?",
+      "answer": "Diagram number 30 41 321 shows the trunk lid height adjustment at the rear end.",
+      "question_type": "visual",
+      "id": "41-602_body-q07"
+    },
+    {
+      "question": "What diagram number corresponds to loosening the bolts during trunk lid alignment?",
+      "answer": "Diagram number 30 41 319 shows the step for loosening bolts during trunk lid alignment.",
+      "question_type": "visual",
+      "id": "41-602_body-q08"
+    },
+    {
+      "question": "What is the target depth measurement for the closed trunk lid surface at the rear compared to side panels?",
+      "answer": "The closed trunk lid surface at the rear should be approximately 1 mm (0.039\") deeper than the side panels.",
+      "question_type": "factual",
+      "id": "41-602_body-q09"
+    },
+    {
+      "question": "What diagram shows the alignment of the trunk lid in the body opening?",
+      "answer": "Diagram 30 41 318 shows the alignment of the trunk lid in the body opening with the locking bar adjustment.",
+      "question_type": "visual",
+      "id": "41-602_body-q10"
+    },
+    {
+      "question": "What general instruction is given for aligning the trunk lid?",
+      "answer": "The final instruction simply states \"Align trunk lid\" as shown in the bottom diagram.",
+      "question_type": "procedural",
+      "id": "41-602_body-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "23-315_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-315.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:45:07.635354",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 751
+  },
+  "qa_pairs": [
+    {
+      "question": "What Loctite number should be used when installing the bolt during transmission assembly?",
+      "answer": "Install bolt with Loctite No. 270.",
+      "question_type": "factual",
+      "id": "23-315_manual-t-q01"
+    },
+    {
+      "question": "What temperature should the hot air blower be set to when installing shim X?",
+      "answer": "Heat bearing sleeve (1) with a hot air blower to approx. 80\u00b0 C (175\u00b0 F) and install on output shaft.",
+      "question_type": "procedural",
+      "id": "23-315_manual-t-q02"
+    },
+    {
+      "question": "What should you do with the thrust washer when knocking out the reverse gear shaft?",
+      "answer": "Check installed position of thrust washer (13).",
+      "question_type": "inspection",
+      "id": "23-315_manual-t-q03"
+    },
+    {
+      "question": "What reference number is given for checking needle bearing condition?",
+      "answer": "Check needle bearing, replacing if necessary. Check condition of all bearings, replacing if necessary - see 23 21 703.",
+      "question_type": "navigation",
+      "id": "23-315_manual-t-q04"
+    },
+    {
+      "question": "What component is labeled as number 11 in the transmission assembly?",
+      "answer": "Number 11 indicates the bolt that needs to be unscrewed while counterholding on front of shaft.",
+      "question_type": "visual",
+      "id": "23-315_manual-t-q05"
+    },
+    {
+      "question": "What should be done with the balls when pulling out the input and output shaft assembly?",
+      "answer": "Important! Loose balls.",
+      "question_type": "safety",
+      "id": "23-315_manual-t-q06"
+    },
+    {
+      "question": "What component is labeled as number 12 in the procedure?",
+      "answer": "Number 12 indicates the washer that should be removed.",
+      "question_type": "visual",
+      "id": "23-315_manual-t-q07"
+    },
+    {
+      "question": "How should the reverse gear be oriented during installation?",
+      "answer": "Install and mount reverse gear. Stepped collar of reverse gear faces out. Tightening torque: *",
+      "question_type": "procedural",
+      "id": "23-315_manual-t-q08"
+    },
+    {
+      "question": "What component is numbered 13 in the thrust washer inspection?",
+      "answer": "Number 13 indicates the thrust washer whose installed position should be checked.",
+      "question_type": "visual",
+      "id": "23-315_manual-t-q09"
+    },
+    {
+      "question": "What should be done while unscrewing bolt 11?",
+      "answer": "Unscrew bolt (11), while counterholding on front of shaft.",
+      "question_type": "procedural",
+      "id": "23-315_manual-t-q10"
+    },
+    {
+      "question": "What is the final step mentioned for installing the needle bearing and reverse gear?",
+      "answer": "Install needle bearing and reverse gear. Push on synchromesh ring.",
+      "question_type": "procedural",
+      "id": "23-315_manual-t-q11"
+    },
+    {
+      "question": "What tool or equipment is specifically mentioned for heating the bearing sleeve?",
+      "answer": "A hot air blower is used to heat bearing sleeve (1) to approximately 80\u00b0 C (175\u00b0 F).",
+      "question_type": "tool",
+      "id": "23-315_manual-t-q12"
+    }
+  ]
+}

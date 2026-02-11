@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-12-01",
+  "image_path": "raw/00 - Torque Specs/12-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:46:45.464839",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 600
+  },
+  "qa_pairs": [
+    {
+      "question": "Which distributor component requires the highest torque value?",
+      "answer": "The distributor with M20 screws requires the highest torque at 22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-01-q05"
+    },
+    {
+      "question": "What screw types are specified for the main distributor component?",
+      "answer": "M20 and M10/M30 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-01-q06"
+    },
+    {
+      "question": "What is the difference in torque between M20 and M10/M30 distributor screws?",
+      "answer": "12 Nm difference (M20 at 22 Nm vs M10/M30 at 10 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-01-q07"
+    },
+    {
+      "question": "Which distributor components use 'All' as the screw type specification?",
+      "answer": "The distributor rotor to adapter with DME and the high-tension distributor cap",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-01-q08"
+    },
+    {
+      "question": "What component is identified as 2AZ in the distributor section?",
+      "answer": "Distributor rotor to adapter with DME",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-01-q09"
+    },
+    {
+      "question": "What is the lowest torque specification shown for distributor components?",
+      "answer": "2.8 Nm for the distributor rotor to adapter with DME",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-01-q10"
+    }
+  ]
+}

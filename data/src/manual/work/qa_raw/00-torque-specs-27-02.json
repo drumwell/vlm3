@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-27-02",
+  "image_path": "raw/00 - Torque Specs/27-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:04:16.116409",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 592
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the M24x1.5 plug on the transfer box?",
+      "answer": "33 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-02-q01"
+    },
+    {
+      "question": "What torque should be applied to the M14 x 1.5 screws on the transfer box?",
+      "answer": "33 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-02-q02"
+    },
+    {
+      "question": "What is the torque specification for M18x1.5 fasteners on the transfer box?",
+      "answer": "23 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-02-q03"
+    },
+    {
+      "question": "What torque value is specified for the transmission cross member to rubber mounts bolts?",
+      "answer": "80 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-02-q04"
+    },
+    {
+      "question": "What is the torque specification for the transmission cross member to body attachment?",
+      "answer": "24 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-02-q06"
+    },
+    {
+      "question": "Which fasteners on the transfer box require the highest torque specification?",
+      "answer": "The transmission cross member to rubber mounts (M12) requires 80 Nm, which is the highest torque specification shown.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-02-q08"
+    },
+    {
+      "question": "Do the M24x1.5 and M14x1.5 plugs have the same torque specification?",
+      "answer": "Yes, both the M24x1.5 and M14x1.5 plugs require 33 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-27-02-q09"
+    },
+    {
+      "question": "What section of the service manual covers these transfer box torque specifications?",
+      "answer": "Section 27-2, Transfer Box - Four Wheel Drive",
+      "question_type": "navigation",
+      "id": "00-torque-specs-27-02-q10"
+    }
+  ]
+}

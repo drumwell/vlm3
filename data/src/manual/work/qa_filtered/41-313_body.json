@@ -1,0 +1,91 @@
+{
+  "page_id": "41-313_body",
+  "image_path": "raw/41 - Body/41-313.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:59:15.097782",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 848
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the specification number for cutting off the side panel along the line?",
+      "answer": "The specification numbers shown are 30 41 441 and 30 41 442 for cutting off side panel along line.",
+      "question_type": "factual",
+      "id": "41-313_body-q01"
+    },
+    {
+      "question": "What important caution is given when cutting through the side panel in the area of the B pillar?",
+      "answer": "The caution states 'Don't cut the end plate' when cutting through side panel in area of B pillar at top.",
+      "question_type": "safety",
+      "id": "41-313_body-q02"
+    },
+    {
+      "question": "How far below the joint should you cut through the side panel when uncovering the brazed roof joint?",
+      "answer": "Cut through side panel about 10 mm (0.394 inches) below joint when uncovering brazed roof joint.",
+      "question_type": "procedural",
+      "id": "41-313_body-q03"
+    },
+    {
+      "question": "What procedure should be followed after removing scrap metal from brazing solder?",
+      "answer": "After removing scrap metal (brazing solder), straighten and grind mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-313_body-q04"
+    },
+    {
+      "question": "What specification number corresponds to lifting off the side panel?",
+      "answer": "Specification number 30 41 445 corresponds to lifting off the side panel.",
+      "question_type": "factual",
+      "id": "41-313_body-q05"
+    },
+    {
+      "question": "What are the specification numbers shown for removing scrap metal and grinding mating surfaces?",
+      "answer": "The specification numbers are 30 41 446, 30 41 447, and 30 41 448 for removing scrap metal (brazing solder) and straightening and grinding mating surfaces.",
+      "question_type": "factual",
+      "id": "41-313_body-q06"
+    },
+    {
+      "question": "What is the first step shown in the side panel removal process?",
+      "answer": "The first step is to cut off side panel along line, as shown in specification 30 41 441.",
+      "question_type": "procedural",
+      "id": "41-313_body-q07"
+    },
+    {
+      "question": "What specification number shows the process for uncovering the brazed roof joint?",
+      "answer": "Specification number 30 41 444 shows the process for uncovering the brazed roof joint.",
+      "question_type": "factual",
+      "id": "41-313_body-q08"
+    },
+    {
+      "question": "What type of joint is being uncovered in step 30 41 444?",
+      "answer": "A brazed roof joint is being uncovered in step 30 41 444.",
+      "question_type": "factual",
+      "id": "41-313_body-q09"
+    },
+    {
+      "question": "What measurement specification is given for the cutting distance below the joint?",
+      "answer": "The measurement is 10 mm (0.394 inches) below joint when cutting through side panel.",
+      "question_type": "factual",
+      "id": "41-313_body-q10"
+    },
+    {
+      "question": "What process involves brazing solder removal according to the images shown?",
+      "answer": "The process involves removing scrap metal (brazing solder), then straightening and grinding mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-313_body-q11"
+    },
+    {
+      "question": "What is shown in specification 30 41 443?",
+      "answer": "Specification 30 41 443 shows cutting off side panel along line as part of the removal process.",
+      "question_type": "visual",
+      "id": "41-313_body-q12"
+    }
+  ]
+}

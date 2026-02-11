@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-093",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/093.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:33:38.471924",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 596
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for coupling bolts for hydraulic pipes?",
+      "answer": "17 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-093-q01"
+    },
+    {
+      "question": "What torque should be applied when connecting the master cylinder to console?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-093-q02"
+    },
+    {
+      "question": "What is the torque value for the master cylinder setscrew?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-093-q03"
+    },
+    {
+      "question": "How much torque should be applied to the master cylinder to pedal assembly connection?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-093-q04"
+    },
+    {
+      "question": "What is the specified torque for the slave cylinder to clutch housing or transmission case?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-093-q05"
+    },
+    {
+      "question": "Which hydraulic clutch component has the lowest torque specification?",
+      "answer": "The master cylinder to pedal assembly at 10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-093-q06"
+    },
+    {
+      "question": "Do all the hydraulic clutch components use the same screw type?",
+      "answer": "Yes, all components are listed as using 'All' type screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-093-q07"
+    },
+    {
+      "question": "What torque specifications have the same value of 22 Nm?",
+      "answer": "Master cylinder to console, master cylinder setscrew, and slave cylinder to clutch housing or transmission case all require 22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-093-q08"
+    },
+    {
+      "question": "What section and subsection does this torque specification table cover?",
+      "answer": "Section 21-3 Clutch, subsection 21 52 Clutch operation (hydraulic)",
+      "question_type": "navigation",
+      "id": "00-torque-specs-093-q09"
+    },
+    {
+      "question": "Which hydraulic clutch component requires the highest torque specification?",
+      "answer": "Three components share the highest specification at 22 Nm: master cylinder to console, master cylinder setscrew, and slave cylinder to clutch housing or transmission case",
+      "question_type": "factual",
+      "id": "00-torque-specs-093-q10"
+    }
+  ]
+}

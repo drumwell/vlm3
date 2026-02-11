@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-24-06",
+  "image_path": "raw/00 - Torque Specs/24-06.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:00:47.433775",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 645
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the manual covers automatic transmission input, intermediate and output shafts?",
+      "answer": "Section 24 21",
+      "question_type": "navigation",
+      "id": "00-torque-specs-24-06-q03"
+    },
+    {
+      "question": "Which transmission type requires a higher torque specification for the output flange collar nut?",
+      "answer": "A5S 300J transmission requires 225 Nm, which is higher than the 100 Nm required for all other transmissions",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-06-q04"
+    },
+    {
+      "question": "What is the difference in torque specifications between A5S 300J and other transmissions for the output flange collar nut?",
+      "answer": "The difference is 125 Nm (225 Nm for A5S 300J versus 100 Nm for all others)",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-06-q05"
+    },
+    {
+      "question": "What component is referenced by the code 1AZ in the automatic transmission section?",
+      "answer": "Output flange collar nut",
+      "question_type": "component",
+      "id": "00-torque-specs-24-06-q06"
+    },
+    {
+      "question": "What page number and date are shown on this service manual page?",
+      "answer": "Page AZD24-6 frb dated 20/10/97",
+      "question_type": "navigation",
+      "id": "00-torque-specs-24-06-q09"
+    }
+  ]
+}

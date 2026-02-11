@@ -1,0 +1,82 @@
+{
+  "page_id": "getrag-011",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/011.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:44:03.257579",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1945,
+    "tokens_output": 641
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of gear is visible in the center of this differential assembly?",
+      "answer": "A helical gear with angled teeth is visible in the center of the differential assembly.",
+      "question_type": "visual",
+      "id": "getrag-011-q01"
+    },
+    {
+      "question": "What tool setup is being used to hold this differential component?",
+      "answer": "The differential is mounted in a press fixture with adjustable arms to securely hold the component during service.",
+      "question_type": "tool",
+      "id": "getrag-011-q02"
+    },
+    {
+      "question": "What is the main housing material visible in this differential assembly?",
+      "answer": "The differential housing appears to be made of cast aluminum or aluminum alloy, with a natural metallic finish.",
+      "question_type": "component",
+      "id": "getrag-011-q03"
+    },
+    {
+      "question": "How many mounting points are visible on the differential housing?",
+      "answer": "Multiple bolt holes and mounting points are visible around the perimeter of the differential housing for securing it in the transmission case.",
+      "question_type": "visual",
+      "id": "getrag-011-q04"
+    },
+    {
+      "question": "What type of bearing is visible at the top of the differential assembly?",
+      "answer": "A roller bearing or ball bearing assembly is visible at the top where the differential pinion shaft extends through the housing.",
+      "question_type": "component",
+      "id": "getrag-011-q05"
+    },
+    {
+      "question": "What safety equipment is visible in the background of this workshop?",
+      "answer": "A high-visibility safety vest can be seen hanging in the background of the workshop.",
+      "question_type": "safety",
+      "id": "getrag-011-q06"
+    },
+    {
+      "question": "What color is the workbench or tooling visible in the background?",
+      "answer": "Yellow tooling or workbench equipment is visible in the background of the workshop.",
+      "question_type": "visual",
+      "id": "getrag-011-q07"
+    },
+    {
+      "question": "What is the condition of the gear teeth visible in this assembly?",
+      "answer": "The helical gear teeth appear to be in good condition with clean, well-defined tooth surfaces and no visible damage or excessive wear.",
+      "question_type": "inspection",
+      "id": "getrag-011-q08"
+    },
+    {
+      "question": "How is the differential positioned for this service procedure?",
+      "answer": "The differential is positioned vertically with the ring gear facing upward, secured in a press fixture for safe handling during service operations.",
+      "question_type": "procedural",
+      "id": "getrag-011-q09"
+    },
+    {
+      "question": "What type of workshop environment is shown in this image?",
+      "answer": "This appears to be a professional automotive workshop with proper tooling, safety equipment, and organized work areas for transmission service work.",
+      "question_type": "visual",
+      "id": "getrag-011-q10",
+      "_warnings": [
+        "Self-referential question: 'in this image'"
+      ]
+    }
+  ]
+}

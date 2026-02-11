@@ -1,0 +1,25 @@
+{
+  "page_id": "23-00-index-b_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-00-index-b.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:21:44.245239",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1746,
+    "tokens_output": 320
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of transmission is covered in section 23?",
+      "answer": "ZF-S5 \u2013 16 Five Speed Manual Transmission with Overdrive",
+      "question_type": "factual",
+      "id": "23-00-index-b_manual-t-q01"
+    }
+  ]
+}

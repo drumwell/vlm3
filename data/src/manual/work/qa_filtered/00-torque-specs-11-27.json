@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-11-27",
+  "image_path": "raw/00 - Torque Specs/11-27.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:41:57.301770",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 654
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the torque values for M10 and M12 screws on the full flow oil filter?",
+      "answer": "M10: 33 Nm, M12: 33 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-27-q02"
+    },
+    {
+      "question": "How should the oil filter one-way cartridge (1AZ) be tightened?",
+      "answer": "Tightening torque by hand in accordance with specification on spin-on oil filter",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-27-q03"
+    },
+    {
+      "question": "Which components are covered under section 11 42 Oil Filter and Pipes?",
+      "answer": "Oil filter (one-way cartridge), full flow oil filter (cover), and oil filter housing and lines on crankcase",
+      "question_type": "component",
+      "id": "00-torque-specs-11-27-q07"
+    },
+    {
+      "question": "Do all the torque specifications in this section apply to all vehicle types?",
+      "answer": "Yes, all specifications are marked as applying to 'All' vehicle types",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-27-q08"
+    },
+    {
+      "question": "What section and subsection does this oil filter and pipes torque specification belong to?",
+      "answer": "Section 11-27 Engine, subsection 11 42 Oil Filter and Pipes",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-27-q10"
+    }
+  ]
+}

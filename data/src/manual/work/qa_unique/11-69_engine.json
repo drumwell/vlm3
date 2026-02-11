@@ -1,0 +1,85 @@
+{
+  "page_id": "11-69_engine",
+  "image_path": "raw/11 - Engine/11-69.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:16:48.615236",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 828
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the tightening torque for the camshaft bearing caps?",
+      "answer": "22 + 2 Nm (16 + 1.5 ft. lbs.)",
+      "question_type": "factual",
+      "id": "11-69_engine-q01"
+    },
+    {
+      "question": "What is the nominal value for cam distance 'N'?",
+      "answer": "43.713 mm (1.721'')",
+      "question_type": "factual",
+      "id": "11-69_engine-q02"
+    },
+    {
+      "question": "What tightening torque should be used for the timing chain sprocket bolts?",
+      "answer": "9 + 1 Nm (6.5 + 0.5 ft. lbs.)",
+      "question_type": "factual",
+      "id": "11-69_engine-q03"
+    },
+    {
+      "question": "How should the timing chain be positioned when mounting it on the intake side sprocket?",
+      "answer": "Tighten the timing chain in opposite direction of engine rotation and mount on the intake side sprocket 'I' first.",
+      "question_type": "procedural",
+      "id": "11-69_engine-q04"
+    },
+    {
+      "question": "What installation sequence should be followed for the exhaust side sprocket?",
+      "answer": "Install exhaust side sprocket 'A', install adapter (1), install lockplate and bolt down the sprocket with the specified torque of 9 + 1 Nm (6.5 + 0.5 ft. lbs.).",
+      "question_type": "procedural",
+      "id": "11-69_engine-q05"
+    },
+    {
+      "question": "What adjustment is mentioned for sprocket mounting bolts?",
+      "answer": "Lock sprocket mounting bolts with a lockplate. Adjust valve clearance - see 11 31 020.",
+      "question_type": "procedural",
+      "id": "11-69_engine-q06"
+    },
+    {
+      "question": "Where should you refer for chain tensioner installation?",
+      "answer": "See 11 31 090",
+      "question_type": "navigation",
+      "id": "11-69_engine-q07"
+    },
+    {
+      "question": "What timing verification steps are specified after installation?",
+      "answer": "Turn engine once in direction of rotation and recheck the timing. Check crankshaft at TDC, one each camshaft groove faces in, one each camshaft groove faces out, and bearing cap positioning.",
+      "question_type": "inspection",
+      "id": "11-69_engine-q08"
+    },
+    {
+      "question": "What components are labeled 'A' and 'E' in the installation diagram?",
+      "answer": "A indicates the exhaust side sprocket and E indicates another component in the timing chain assembly.",
+      "question_type": "visual",
+      "id": "11-69_engine-q10"
+    },
+    {
+      "question": "How should camshaft bearing caps be installed according to the lettering?",
+      "answer": "Install camshaft bearing caps on timing case according to lettering.",
+      "question_type": "procedural",
+      "id": "11-69_engine-q11"
+    },
+    {
+      "question": "What timing positions should the camshaft grooves be in when checking timing?",
+      "answer": "One each camshaft groove faces in, one each camshaft groove faces out, with bearing cap on bearing cap.",
+      "question_type": "inspection",
+      "id": "11-69_engine-q12"
+    }
+  ]
+}

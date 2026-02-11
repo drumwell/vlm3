@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-071",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/071.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:25:49.250174",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 551
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the plug for high pressure section of injection pump?",
+      "answer": "25 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-071-q01"
+    },
+    {
+      "question": "What screw type is used for the distributor injection pump to holder connection?",
+      "answer": "M21/M51/M41",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-071-q02"
+    },
+    {
+      "question": "What torque value should be applied to the electric shutoff to injection pump?",
+      "answer": "20 \u00b1 5 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-071-q03"
+    },
+    {
+      "question": "What is the torque specification for the electric cold start valve to injection pump?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-071-q04"
+    },
+    {
+      "question": "Which component has the highest torque specification on this page?",
+      "answer": "The pressure valve holder to injection pump at 45 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-071-q05",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What torque should be applied to the distributor injection pump to flange and console?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-071-q07"
+    },
+    {
+      "question": "What is the lowest torque specification listed on this page?",
+      "answer": "2.5 Nm for the electrical line on fuel cutout device",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-071-q08",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What screw type is used for the electrical line on fuel cutout device?",
+      "answer": "M51/M41",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-071-q09"
+    },
+    {
+      "question": "What section of the service manual does this page cover?",
+      "answer": "Section 13-4 Fuel delivery and metering system, specifically the Injection Pump Control receptacle",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-071-q10"
+    }
+  ]
+}

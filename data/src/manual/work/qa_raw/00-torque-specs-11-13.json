@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-11-13",
+  "image_path": "raw/00 - Torque Specs/11-13.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:39:09.323725",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 528
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the increment wheel on crankshaft?",
+      "answer": "13 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-13-q01"
+    },
+    {
+      "question": "What screw type is specified for the increment wheel on crankshaft?",
+      "answer": "M5 10.9",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-13-q02"
+    },
+    {
+      "question": "Which engine types does the increment wheel on crankshaft specification apply to?",
+      "answer": "All engine types",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-13-q03"
+    },
+    {
+      "question": "Under which main section is the crankshaft and bearings subsection located?",
+      "answer": "11 - 13 Engine",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-13-q05"
+    },
+    {
+      "question": "What is the subsection number for Crankshaft and Bearings?",
+      "answer": "11 21",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-13-q06"
+    },
+    {
+      "question": "What component is being torqued according to specification 1AZ?",
+      "answer": "Increment wheel on crankshaft",
+      "question_type": "component",
+      "id": "00-torque-specs-11-13-q07"
+    },
+    {
+      "question": "What grade of screw is specified for the increment wheel mounting?",
+      "answer": "Grade 10.9",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-13-q08"
+    },
+    {
+      "question": "In what units is the torque specification for the increment wheel given?",
+      "answer": "Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-13-q10"
+    }
+  ]
+}

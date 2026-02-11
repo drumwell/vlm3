@@ -1,0 +1,93 @@
+{
+  "section_id": "26",
+  "section_name": "Propeller Shaft",
+  "index_pages": [
+    "26-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "020",
+      "name": "Propeller shaft cap (front) - replace (all wheel drive)",
+      "pages": [
+        "26-13"
+      ]
+    },
+    {
+      "code": "051",
+      "name": "Propeller shaft - remove and install (all wheel drive)",
+      "pages": [
+        "26-14",
+        "26-5",
+        "26-6"
+      ]
+    },
+    {
+      "code": "26 11 000",
+      "name": "Propeller shaft vibration and noise - eliminate",
+      "pages": [
+        "26-1",
+        "26-3"
+      ]
+    },
+    {
+      "code": "26 12 001",
+      "name": "Propeller shaft center mount assembly - replace",
+      "pages": [
+        "26-10"
+      ]
+    },
+    {
+      "code": "26 20 000",
+      "name": "Propeller shaft (front) - remove and install (all wheel drive)",
+      "pages": [
+        "26-12"
+      ]
+    },
+    {
+      "code": "501",
+      "name": "Propeller shaft joint (rear) - replace (all wheel drive)",
+      "pages": [
+        "26-8",
+        "26-9"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "26-13": [
+      "020"
+    ],
+    "26-14": [
+      "051"
+    ],
+    "26-5": [
+      "051"
+    ],
+    "26-6": [
+      "051"
+    ],
+    "26-1": [
+      "26 11 000"
+    ],
+    "26-3": [
+      "26 11 000"
+    ],
+    "26-10": [
+      "26 12 001"
+    ],
+    "26-12": [
+      "26 20 000"
+    ],
+    "26-8": [
+      "501"
+    ],
+    "26-9": [
+      "501"
+    ]
+  },
+  "merge_warnings": [
+    "Code 26 11 000: name mismatch 'Propeller shaft vibration and noise - eliminate' vs 'Propeller shaft - remove and install (all wheel drive)'",
+    "Code 051: name mismatch 'Propeller shaft - remove and install (all wheel drive)' vs 'Propeller shaft joint (rear) - replace (all wheel drive)'",
+    "Code 501: name mismatch 'Propeller shaft joint (rear) - replace (all wheel drive)' vs 'Propeller shaft center (front) - remove (all propeller shaft removed)'",
+    "Code 051: name mismatch 'Propeller shaft - remove and install (all wheel drive)' vs 'Propeller shaft joint (front) - replace (all wheel drive)'"
+  ]
+}

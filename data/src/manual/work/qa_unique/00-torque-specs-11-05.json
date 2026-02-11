@@ -1,0 +1,25 @@
+{
+  "page_id": "00-torque-specs-11-05",
+  "image_path": "raw/00 - Torque Specs/11-05.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:37:33.218436",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 550
+  },
+  "qa_pairs": [
+    {
+      "question": "How does the warm-running time differ between M21 and M30 cylinder head bolts?",
+      "answer": "M21 requires 15 min while M30 requires 25 min",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-05-q09"
+    }
+  ]
+}

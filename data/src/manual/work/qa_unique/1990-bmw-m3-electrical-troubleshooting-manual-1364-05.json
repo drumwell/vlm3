@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-05",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/1364-05.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:30:41.143879",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 550
+  },
+  "qa_pairs": [
+    {
+      "question": "How many fuel injectors are shown in this wiring diagram?",
+      "answer": "Four fuel injectors are shown, labeled as NO. 1, NO. 2, NO. 3, and NO. 4.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-05-q01"
+    },
+    {
+      "question": "What wire color and gauge connects to the fuel injectors from the main relay?",
+      "answer": ".75 RD/WT (0.75mm red/white wire) connects from the main relay to all four fuel injectors.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-05-q02"
+    },
+    {
+      "question": "What are the terminal numbers for the air flow meter connector?",
+      "answer": "The air flow meter has terminals numbered 22, 6, 7, 2, and 3.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-05-q03"
+    },
+    {
+      "question": "What important warning is displayed regarding the air flow meter?",
+      "answer": "DO NOT MEASURE RESISTANCE AT TERMINAL 9 is the warning shown for the air flow meter.",
+      "question_type": "safety",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-05-q04"
+    },
+    {
+      "question": "What are the two throttle switch positions shown?",
+      "answer": "The throttle switch shows CLOSED THROTTLE INPUT and WIDE OPEN THROTTLE INPUT positions.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-05-q05"
+    },
+    {
+      "question": "What wire gauge and color connects the barometric pressure sensor to the motronic control unit?",
+      "answer": ".75 WT (0.75mm white wire) connects the barometric pressure sensor to the motronic control unit.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-05-q06"
+    },
+    {
+      "question": "Which ground points are referenced in this diagram?",
+      "answer": "Ground points G101 and G103 are referenced in this wiring diagram.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-05-q07"
+    },
+    {
+      "question": "What wire colors are used for the fuel injector control signals?",
+      "answer": "The fuel injector control signals use .75 BR/WT (brown/white) and .75 BR/YL (brown/yellow) wires.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-05-q08"
+    }
+  ]
+}

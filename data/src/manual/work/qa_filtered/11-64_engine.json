@@ -1,0 +1,91 @@
+{
+  "page_id": "11-64_engine",
+  "image_path": "raw/11 - Engine/11-64.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:15:27.013190",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 810
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the important requirement when installing connecting rods?",
+      "answer": "Only install connecting rods of same weight class in one engine. Weight class is shown on the connecting rod by a certain number and color of paint dots.",
+      "question_type": "factual",
+      "id": "11-64_engine-q01"
+    },
+    {
+      "question": "Can connecting rods be machined?",
+      "answer": "Connecting rods may not be machined.",
+      "question_type": "factual",
+      "id": "11-64_engine-q02"
+    },
+    {
+      "question": "How should the piston pin slide through the conrod bushing?",
+      "answer": "Piston pin must slide through the conrod bushing under light pressure.",
+      "question_type": "procedural",
+      "id": "11-64_engine-q03"
+    },
+    {
+      "question": "What are the two bearing shell installation options for the connecting rod and conrod cap?",
+      "answer": "Install one each yellow bearing shell in connecting rod and conrod cap, or one blue bearing shell in connecting rod and one red bearing shell in conrod cap.",
+      "question_type": "factual",
+      "id": "11-64_engine-q04"
+    },
+    {
+      "question": "What should be checked regarding the conrod bearing diameter?",
+      "answer": "Check the machined size (conrod bearing dia.).",
+      "question_type": "inspection",
+      "id": "11-64_engine-q05"
+    },
+    {
+      "question": "What type of Plastigage should be placed on the conrod bearing journal?",
+      "answer": "Place Type PG-1 Plastigage on conrod bearing journal wiped clean of oil in BDC position.",
+      "question_type": "procedural",
+      "id": "11-64_engine-q06"
+    },
+    {
+      "question": "Where can Plastigage be sourced from according to the manual?",
+      "answer": "CARTOOL, Alfred-Brehm-Str. 5, D-8070 Ingolstadt.",
+      "question_type": "factual",
+      "id": "11-64_engine-q07"
+    },
+    {
+      "question": "What type of conrod bolts should be used when tightening?",
+      "answer": "Use old conrod bolts. Don't turn the crankshaft.",
+      "question_type": "safety",
+      "id": "11-64_engine-q08"
+    },
+    {
+      "question": "What are the three-step torque specifications for conrod bolt tightening?",
+      "answer": "Step 1: 10 Nm (7 ft. lbs.), Step 2: 30 Nm (22 ft. lbs.), Step 3: 60 + 2\u00b0 torque angle.",
+      "question_type": "factual",
+      "id": "11-64_engine-q09"
+    },
+    {
+      "question": "What is the acceptable conrod bearing play range?",
+      "answer": "Conrod bearing play: 0.024 to 0.064 mm (0.0009 to 0.0025\").",
+      "question_type": "factual",
+      "id": "11-64_engine-q10"
+    },
+    {
+      "question": "How should bearing play be corrected if it's not within specification?",
+      "answer": "Correct bearing play by installing new bearing shells or bearing shells with different machined size or different color code.",
+      "question_type": "procedural",
+      "id": "11-64_engine-q11"
+    },
+    {
+      "question": "What should be done with conrod bolts for final installation?",
+      "answer": "Replace conrod bolts for final installation.",
+      "question_type": "procedural",
+      "id": "11-64_engine-q12"
+    }
+  ]
+}

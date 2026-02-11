@@ -1,0 +1,61 @@
+{
+  "page_id": "-011",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/011.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:04:59.502517",
+    "prompt_template": "unknown/diagram",
+    "tokens_input": 1867,
+    "tokens_output": 499
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of gear is visible on the differential component?",
+      "answer": "A helical gear with multiple teeth is visible on the top of the differential assembly.",
+      "question_type": "visual",
+      "id": "-011-q02"
+    },
+    {
+      "question": "What tool is being used to work on this differential component?",
+      "answer": "A hydraulic press with specialized fixtures and adapters is being used to work on the differential component.",
+      "question_type": "tool",
+      "id": "-011-q03"
+    },
+    {
+      "question": "How is the differential housing positioned in the press?",
+      "answer": "The differential housing is positioned with the gear facing upward, supported by press fixtures from below.",
+      "question_type": "procedural",
+      "id": "-011-q04"
+    },
+    {
+      "question": "What can be seen at the center of the differential gear?",
+      "answer": "A central shaft or spindle with a bearing race can be seen at the center of the differential gear.",
+      "question_type": "visual",
+      "id": "-011-q05"
+    },
+    {
+      "question": "What type of press fixture is supporting the differential from below?",
+      "answer": "A multi-piece press fixture with adjustable supports is positioned below the differential housing to provide proper support during pressing operations.",
+      "question_type": "tool",
+      "id": "-011-q06"
+    },
+    {
+      "question": "What is the condition of the differential gear teeth visible in the image?",
+      "answer": "The differential gear teeth appear to be in good condition with clear, well-defined helical tooth patterns visible.",
+      "question_type": "inspection",
+      "id": "-011-q07"
+    },
+    {
+      "question": "What safety consideration is evident in the workshop setup?",
+      "answer": "High-visibility safety clothing is visible in the background, indicating proper safety protocols are being followed in the workshop environment.",
+      "question_type": "safety",
+      "id": "-011-q08"
+    }
+  ]
+}

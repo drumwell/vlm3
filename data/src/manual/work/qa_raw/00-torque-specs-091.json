@@ -1,0 +1,64 @@
+{
+  "page_id": "00-torque-specs-091",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/091.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:33:15.206708",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 596
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M8 screws when attaching the clutch housing to crankcase?",
+      "answer": "27 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-091-q01"
+    },
+    {
+      "question": "What torque value should be used for M10 bolts in the clutch housing to crankcase assembly?",
+      "answer": "51 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-091-q02"
+    },
+    {
+      "question": "What is the highest torque specification shown for clutch housing to crankcase bolts?",
+      "answer": "86 Nm for M12 bolts",
+      "question_type": "factual",
+      "id": "00-torque-specs-091-q03"
+    },
+    {
+      "question": "What section and subsection does this torque specification table cover?",
+      "answer": "Section 21-1 Clutch, subsection 21 11 Bell housing",
+      "question_type": "navigation",
+      "id": "00-torque-specs-091-q06"
+    },
+    {
+      "question": "How many different bolt sizes are specified for the clutch housing to crankcase assembly?",
+      "answer": "Three bolt sizes: M8, M10, and M12",
+      "question_type": "factual",
+      "id": "00-torque-specs-091-q07"
+    },
+    {
+      "question": "What is the torque difference between M8 and M12 bolts for the clutch housing to crankcase?",
+      "answer": "59 Nm (86 Nm for M12 minus 27 Nm for M8)",
+      "question_type": "factual",
+      "id": "00-torque-specs-091-q09"
+    },
+    {
+      "question": "What unit of measurement is used for all the torque specifications on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-091-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

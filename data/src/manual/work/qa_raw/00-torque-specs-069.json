@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-069",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/069.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:29:09.236428",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 599
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the fuel pump to engine connection?",
+      "answer": "12 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-069-q01"
+    },
+    {
+      "question": "What is the torque specification for the M12 fuel pipe coupling bolt?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-069-q04"
+    },
+    {
+      "question": "How much torque should be applied to the fuel pipe to pressure regulator connection?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-069-q05"
+    },
+    {
+      "question": "What is the torque specification for the return pipe connector to pressure regulator?",
+      "answer": "27 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-069-q06"
+    },
+    {
+      "question": "Which fuel system components require L-Jetr type connections?",
+      "answer": "The fuel pipe to pressure regulator and return pipe connector to pressure regulator both require L-Jetr type connections.",
+      "question_type": "factual",
+      "id": "00-torque-specs-069-q07"
+    },
+    {
+      "question": "What is the difference in torque between the M8 and M12 fuel pipe coupling bolts?",
+      "answer": "The M12 bolt requires 20 Nm while the M8 bolt requires 9 Nm, a difference of 11 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-069-q08"
+    },
+    {
+      "question": "Which component has the highest torque specification in the fuel pump assembly?",
+      "answer": "The fuel pipe to pressure regulator has the highest torque specification at 30 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-069-q09"
+    },
+    {
+      "question": "What vehicle types use the fuel pump to engine torque specification of 12 Nm?",
+      "answer": "All vehicle types use the 12 Nm torque specification for the fuel pump to engine connection.",
+      "question_type": "factual",
+      "id": "00-torque-specs-069-q10"
+    }
+  ]
+}

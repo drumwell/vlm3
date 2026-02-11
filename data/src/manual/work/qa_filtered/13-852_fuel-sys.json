@@ -1,0 +1,82 @@
+{
+  "page_id": "13-852_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-852.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:53:03.209974",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 657
+  },
+  "qa_pairs": [
+    {
+      "question": "What symptom indicates a fuel pump control relay issue?",
+      "answer": "Fuel pump running only during starting procedures.",
+      "question_type": "diagnostic",
+      "id": "13-852_fuel-sys-q01"
+    },
+    {
+      "question": "How do you check the power supply of the control relay?",
+      "answer": "Pull off plug on control relay and connect voltmeter (M 01) between conn. 30 on disconnected control relay plug and ground. Voltmeter must display battery voltage.",
+      "question_type": "procedural",
+      "id": "13-852_fuel-sys-q02"
+    },
+    {
+      "question": "What should you do if the voltage value is not okay when checking connection 30?",
+      "answer": "Provide power supply (see wiring diagram).",
+      "question_type": "troubleshooting",
+      "id": "13-852_fuel-sys-q03"
+    },
+    {
+      "question": "Which connection should you test after conn. 30 when checking the control relay?",
+      "answer": "Connect voltmeter (M 01) between conn. 15 on disconnected control relay socket and ground, then turn on ignition.",
+      "question_type": "procedural",
+      "id": "13-852_fuel-sys-q04"
+    },
+    {
+      "question": "What voltage reading should you get when testing conn. 50 with the engine started?",
+      "answer": "Voltmeter should display battery voltage when the engine is started.",
+      "question_type": "diagnostic",
+      "id": "13-852_fuel-sys-q05"
+    },
+    {
+      "question": "How do you check the ground connection of the control relay?",
+      "answer": "Connect ohmmeter (M 06) between conn. 31 on disconnected control relay plug and ground. Ohmmeter should display approx. 0 ohm.",
+      "question_type": "procedural",
+      "id": "13-852_fuel-sys-q06"
+    },
+    {
+      "question": "What should you do if the resistance value is not okay when checking the ground connection?",
+      "answer": "Repair wire. Electric ground (see wiring diagram).",
+      "question_type": "troubleshooting",
+      "id": "13-852_fuel-sys-q07"
+    },
+    {
+      "question": "How do you check the speed signal for the control relay?",
+      "answer": "Connect voltmeter (M 02) between conn. 1 on disconnected control relay plug and ground. Voltmeter should display voltage.",
+      "question_type": "procedural",
+      "id": "13-852_fuel-sys-q08"
+    },
+    {
+      "question": "What should you check if no voltage is displayed during the speed signal test?",
+      "answer": "Check ignition system. Ignition system okay?",
+      "question_type": "diagnostic",
+      "id": "13-852_fuel-sys-q09",
+      "_warnings": [
+        "Answer ends with '?' (may be a question)"
+      ]
+    },
+    {
+      "question": "What is the final step if all voltage and resistance tests pass?",
+      "answer": "Replace control relay.",
+      "question_type": "troubleshooting",
+      "id": "13-852_fuel-sys-q10"
+    }
+  ]
+}

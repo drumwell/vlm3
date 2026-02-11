@@ -1,0 +1,31 @@
+{
+  "page_id": "00-14_maintena",
+  "image_path": "raw/00 - Maintenance/00-14.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:14:42.991143",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1802,
+    "tokens_output": 526
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the inspection interval code for the BMW Inspection II maintenance?",
+      "answer": "00 00 230 BMW Inspection II = Inspection I + Additional Jobs",
+      "question_type": "factual",
+      "id": "00-14_maintena-q01"
+    },
+    {
+      "question": "Which group reference covers checking all drive belts and adjusting tension if necessary?",
+      "answer": "Gr. 12/32/64",
+      "question_type": "factual",
+      "id": "00-14_maintena-q02"
+    }
+  ]
+}

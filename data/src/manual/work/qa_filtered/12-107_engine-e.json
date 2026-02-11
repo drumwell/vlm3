@@ -1,0 +1,79 @@
+{
+  "page_id": "12-107_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-107.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:25:50.040426",
+    "prompt_template": "service_manual/wiring",
+    "tokens_input": 1743,
+    "tokens_output": 611
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the three relays shown in the relay survey for the M20 engine?",
+      "answer": "The three relays are: 1 Master relay, 2 Fuel pump relay, and 3 Oxygen sensor relay.",
+      "question_type": "factual",
+      "id": "12-107_engine-e-q01"
+    },
+    {
+      "question": "What is the reference number shown for the upper image in the relay survey?",
+      "answer": "The reference number is 30 12 914.",
+      "question_type": "factual",
+      "id": "12-107_engine-e-q02"
+    },
+    {
+      "question": "Where is the M20 DME control unit located according to the manual?",
+      "answer": "The M20 DME control unit is located in the glove box.",
+      "question_type": "factual",
+      "id": "12-107_engine-e-q03"
+    },
+    {
+      "question": "What is the reference number for the lower image showing the DME control unit?",
+      "answer": "The reference number is 30 12 923.",
+      "question_type": "factual",
+      "id": "12-107_engine-e-q04"
+    },
+    {
+      "question": "Which relay is labeled as number 1 in the relay survey?",
+      "answer": "The Master relay is labeled as number 1 in the relay survey.",
+      "question_type": "visual",
+      "id": "12-107_engine-e-q05"
+    },
+    {
+      "question": "Which relay is positioned as number 2 in the relay configuration?",
+      "answer": "The Fuel pump relay is positioned as number 2 in the relay configuration.",
+      "question_type": "visual",
+      "id": "12-107_engine-e-q06"
+    },
+    {
+      "question": "What type of control unit is shown in the lower photograph?",
+      "answer": "A DME (Digital Motor Electronics) control unit is shown in the lower photograph.",
+      "question_type": "component",
+      "id": "12-107_engine-e-q07"
+    },
+    {
+      "question": "Which relay handles oxygen sensor functions in the M20 system?",
+      "answer": "The Oxygen sensor relay, which is labeled as number 3, handles oxygen sensor functions.",
+      "question_type": "factual",
+      "id": "12-107_engine-e-q08"
+    },
+    {
+      "question": "What engine type do these electrical components belong to?",
+      "answer": "These electrical components belong to the M20 engine.",
+      "question_type": "factual",
+      "id": "12-107_engine-e-q09"
+    },
+    {
+      "question": "How are the relays numbered in the relay survey diagram?",
+      "answer": "The relays are numbered 1, 2, and 3, with arrows pointing to each relay position.",
+      "question_type": "visual",
+      "id": "12-107_engine-e-q10"
+    }
+  ]
+}

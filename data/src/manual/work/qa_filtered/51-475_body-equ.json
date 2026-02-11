@@ -1,0 +1,67 @@
+{
+  "page_id": "51-475_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-475.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:30:13.672769",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 623
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step in removing the engine splash guard?",
+      "answer": "Unscrew bolts on left and right sides.",
+      "question_type": "procedural",
+      "id": "51-475_body-equ-q02"
+    },
+    {
+      "question": "What are the two main steps required to remove the engine splash guard?",
+      "answer": "First, unscrew bolts on left and right sides, then remove engine splash guard.",
+      "question_type": "procedural",
+      "id": "51-475_body-equ-q03"
+    },
+    {
+      "question": "What component is being removed according to the procedure shown?",
+      "answer": "Engine splash guard",
+      "question_type": "component",
+      "id": "51-475_body-equ-q04"
+    },
+    {
+      "question": "On which sides of the vehicle should the bolts be unscrewed?",
+      "answer": "Left and right sides",
+      "question_type": "factual",
+      "id": "51-475_body-equ-q07"
+    },
+    {
+      "question": "How many images are shown to illustrate the engine splash guard removal procedure?",
+      "answer": "Two images are shown to illustrate the procedure.",
+      "question_type": "visual",
+      "id": "51-475_body-equ-q09"
+    },
+    {
+      "question": "What do the arrows in the second image indicate?",
+      "answer": "The arrows indicate the locations of bolts that need to be unscrewed on the left and right sides.",
+      "question_type": "visual",
+      "id": "51-475_body-equ-q10"
+    },
+    {
+      "question": "Is this procedure for removal only or both removal and installation?",
+      "answer": "This procedure is for both removing and installing the engine splash guard.",
+      "question_type": "factual",
+      "id": "51-475_body-equ-q11"
+    },
+    {
+      "question": "What section of the service manual contains this engine splash guard procedure?",
+      "answer": "Section 51-475",
+      "question_type": "navigation",
+      "id": "51-475_body-equ-q12"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-013",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/013.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:18:26.862512",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 566
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for main bearing cap inclined bolts?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-013-q01"
+    },
+    {
+      "question": "What is the torque specification for threaded support sleeves?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-013-q03"
+    },
+    {
+      "question": "What are the two different torque values for struts/bracing shell fasteners?",
+      "answer": "43 Nm for M10 screws and 22 Nm for M8 screws",
+      "question_type": "comparison",
+      "id": "00-torque-specs-013-q04",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What is the thread specification and torque for the drain plug for coolant on engine block?",
+      "answer": "M14 x 1.5 thread with 25 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-013-q05"
+    },
+    {
+      "question": "What torque should be applied to main oil duct screw plugs?",
+      "answer": "34 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-013-q06"
+    },
+    {
+      "question": "What is the thread size for main oil duct screw plugs?",
+      "answer": "M16 x 1.5",
+      "question_type": "factual",
+      "id": "00-torque-specs-013-q07"
+    },
+    {
+      "question": "What is the torque specification for oil spray nozzle on engine block?",
+      "answer": "12 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-013-q08"
+    },
+    {
+      "question": "Which engine types require the main bearing cap inclined bolt specifications?",
+      "answer": "M60/1/M60/2/M62/M70/S70/M73",
+      "question_type": "application",
+      "id": "00-torque-specs-013-q09",
+      "_warnings": [
+        "Invalid question_type: application"
+      ]
+    }
+  ]
+}

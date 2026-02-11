@@ -1,0 +1,79 @@
+{
+  "page_id": "62-76_instrume",
+  "image_path": "raw/62 - Instruments/62-76.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:46:52.834664",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 640
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when troubleshooting stop light problems?",
+      "answer": "Check both stop lights to see if they are working okay.",
+      "question_type": "procedural",
+      "id": "62-76_instrume-q01"
+    },
+    {
+      "question": "If both stop lights are not working, what should you check first?",
+      "answer": "Check if power supply from ignition lock terminal R to fuse F 12 is okay.",
+      "question_type": "diagnostic",
+      "id": "62-76_instrume-q02"
+    },
+    {
+      "question": "What fuse should be checked if there's no power from the ignition lock terminal?",
+      "answer": "Replace the 8 ampere fuse if it's blown.",
+      "question_type": "troubleshooting",
+      "id": "62-76_instrume-q03"
+    },
+    {
+      "question": "Where do you check for voltage when testing the stop light switch?",
+      "answer": "Check voltage in wire from stop light switch inlet to check control terminal 54 Si7.",
+      "question_type": "diagnostic",
+      "id": "62-76_instrume-q04"
+    },
+    {
+      "question": "What resistance reading should you get when testing the bulb tester?",
+      "answer": "Resistance should be 4.7 ohms in bulb tester from terminal 31 to terminal 54 KL with stop light switch operated.",
+      "question_type": "diagnostic",
+      "id": "62-76_instrume-q05"
+    },
+    {
+      "question": "What terminal is used for the ground connection when testing the bulb tester?",
+      "answer": "Terminal 31 (ground) on bulb tester.",
+      "question_type": "factual",
+      "id": "62-76_instrume-q06"
+    },
+    {
+      "question": "If the voltage is not okay from the stop light switch outlet to bulb tester terminal 54, what should you do?",
+      "answer": "Check wires.",
+      "question_type": "troubleshooting",
+      "id": "62-76_instrume-q07"
+    },
+    {
+      "question": "What should you check if the voltage is not okay on bulb tester outlet terminals 54 L and 54 R?",
+      "answer": "Replace bulb tester.",
+      "question_type": "troubleshooting",
+      "id": "62-76_instrume-q08"
+    },
+    {
+      "question": "What is the final step if the wires from bulb tester to stop lights are not okay?",
+      "answer": "Supply electric power and check wires and plugs.",
+      "question_type": "troubleshooting",
+      "id": "62-76_instrume-q09"
+    },
+    {
+      "question": "If the ground wires to stop lights are not okay, what corrective action should be taken?",
+      "answer": "Make ground connections and replace light bulbs if necessary.",
+      "question_type": "troubleshooting",
+      "id": "62-76_instrume-q10"
+    }
+  ]
+}

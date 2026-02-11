@@ -1,0 +1,91 @@
+{
+  "page_id": "34-18_brakes",
+  "image_path": "raw/34 - Brakes/34-18.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:17:33.732944",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 783
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure section number for removing and installing the brake force regulator?",
+      "answer": "The procedure section number is 34 34 100.",
+      "question_type": "factual",
+      "id": "34-18_brakes-q01"
+    },
+    {
+      "question": "What type of syringe should be used when drawing off brake fluid from the tank?",
+      "answer": "A syringe used exclusively with brake fluids should be used.",
+      "question_type": "safety",
+      "id": "34-18_brakes-q02"
+    },
+    {
+      "question": "Which brake lines need to be disconnected during brake force regulator removal?",
+      "answer": "Lines 1 and 2 need to be disconnected.",
+      "question_type": "procedural",
+      "id": "34-18_brakes-q03"
+    },
+    {
+      "question": "What must be done after installing the brake force regulator?",
+      "answer": "The system must be bled according to procedure 34 00 046.",
+      "question_type": "procedural",
+      "id": "34-18_brakes-q04"
+    },
+    {
+      "question": "What components are visible in the top diagram showing the brake force regulator removal?",
+      "answer": "The diagram shows the brake force regulator with numbered callouts 1 and 2 indicating the brake lines that need to be disconnected.",
+      "question_type": "visual",
+      "id": "34-18_brakes-q05"
+    },
+    {
+      "question": "What should be removed along with the brake force regulator?",
+      "answer": "Remove the clamp and brake force regulator.",
+      "question_type": "procedural",
+      "id": "34-18_brakes-q06"
+    },
+    {
+      "question": "What codes should be checked when replacing a brake force regulator?",
+      "answer": "Check the calendar day/year number, reduction (e.g. 0.45), and switching over pressure codes.",
+      "question_type": "inspection",
+      "id": "34-18_brakes-q07"
+    },
+    {
+      "question": "What do the numbered callouts 1, 2, and 3 represent in the brake force regulator diagram?",
+      "answer": "Callout 1 indicates the calendar day/year number, callout 2 shows the reduction value (e.g. 0.45), and callout 3 indicates the switching over pressure.",
+      "question_type": "visual",
+      "id": "34-18_brakes-q08"
+    },
+    {
+      "question": "What is an example of the reduction value that might be found on a brake force regulator?",
+      "answer": "An example reduction value is 0.45.",
+      "question_type": "factual",
+      "id": "34-18_brakes-q09"
+    },
+    {
+      "question": "Where can the tightening torque specification be found for this procedure?",
+      "answer": "The tightening torque specification is referenced to the Specifications section, as indicated by the asterisk and note at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "34-18_brakes-q10"
+    },
+    {
+      "question": "What diagram reference number is shown for the brake force regulator removal procedure?",
+      "answer": "The diagram reference number is 30 34 081.",
+      "question_type": "factual",
+      "id": "34-18_brakes-q11"
+    },
+    {
+      "question": "What is the diagram reference number for the brake force regulator code checking illustration?",
+      "answer": "The diagram reference number is 30 34 083.",
+      "question_type": "factual",
+      "id": "34-18_brakes-q12"
+    }
+  ]
+}

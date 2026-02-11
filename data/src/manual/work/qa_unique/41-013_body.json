@@ -1,0 +1,85 @@
+{
+  "page_id": "41-013_body",
+  "image_path": "raw/41 - Body/41-013.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:37:03.510141",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 838
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the hardening time for a 1 mm (0.039\") coat when using ultraviolet lamp treatment?",
+      "answer": "The hardening time for a 1 mm (0.039\") coat is approximately 2 minutes.",
+      "question_type": "factual",
+      "id": "41-013_body-q01"
+    },
+    {
+      "question": "Why should the ultraviolet lamp treatment be interrupted occasionally during the chemical reaction process?",
+      "answer": "The chemical reaction produces heat, which could lead to self-destruction of the laminate. Interrupting the ultraviolet lamp treatment occasionally prevents overheating.",
+      "question_type": "safety",
+      "id": "41-013_body-q02"
+    },
+    {
+      "question": "What are the four numbered components shown in the diagram with the ultraviolet lamp setup?",
+      "answer": "1 - Cover, 2 - Repair material, 3 - GFP part, 4 - Ultraviolet lamp.",
+      "question_type": "visual",
+      "id": "41-013_body-q03"
+    },
+    {
+      "question": "In which zones is ultraviolet radiation not effective for hardening?",
+      "answer": "Ultraviolet radiation is not effective in zones of shade or on covered laminate, as it is only effective when applied direct.",
+      "question_type": "factual",
+      "id": "41-013_body-q04"
+    },
+    {
+      "question": "How should you handle areas that cannot be directly exposed to ultraviolet radiation?",
+      "answer": "Some sections can be covered so only certain surfaces are hardened or cemented, then the remaining sections can be molded and hardened separately.",
+      "question_type": "procedural",
+      "id": "41-013_body-q05"
+    },
+    {
+      "question": "How should foil be removed between layers during the laminate buildup process?",
+      "answer": "Remove foil between layers, harden the laminate with an ultraviolet lamp, then transfer the edge shape with a paper template from the other side.",
+      "question_type": "procedural",
+      "id": "41-013_body-q07"
+    },
+    {
+      "question": "What steps should be performed on the inside and outside of the repaired area?",
+      "answer": "Grind inside and outside of repaired area, then remove irregularities with a glass fiber putty.",
+      "question_type": "procedural",
+      "id": "41-013_body-q08"
+    },
+    {
+      "question": "What factors affect the hardening time when using an ultraviolet lamp?",
+      "answer": "The hardening time depends on the lamp version, scope and strength of laminate.",
+      "question_type": "factual",
+      "id": "41-013_body-q09"
+    },
+    {
+      "question": "What should you aim the ultraviolet lamp on during the treatment process?",
+      "answer": "Aim the ultraviolet lamp on the damaged surface.",
+      "question_type": "procedural",
+      "id": "41-013_body-q10"
+    },
+    {
+      "question": "What is recommended to gain experience with ultraviolet lamp treatment?",
+      "answer": "Gain experience by making tests, if necessary.",
+      "question_type": "procedural",
+      "id": "41-013_body-q11"
+    },
+    {
+      "question": "What material is used to remove irregularities after grinding the repaired area?",
+      "answer": "Glass fiber putty is used to remove irregularities.",
+      "question_type": "tool",
+      "id": "41-013_body-q12"
+    }
+  ]
+}

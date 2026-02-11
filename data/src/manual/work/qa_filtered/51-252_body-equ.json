@@ -1,0 +1,85 @@
+{
+  "page_id": "51-252_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-252.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:17:20.409687",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 688
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure being described in section 51 25?",
+      "answer": "Removing and installing or replacing top lid lock.",
+      "question_type": "factual",
+      "id": "51-252_body-equ-q01"
+    },
+    {
+      "question": "What must be removed first before working on the top lid lock?",
+      "answer": "Remove trim panel - see 51 43 000. Unscrew screws.",
+      "question_type": "procedural",
+      "id": "51-252_body-equ-q02"
+    },
+    {
+      "question": "What should you do with the cable during the removal process?",
+      "answer": "Disconnect cable.",
+      "question_type": "procedural",
+      "id": "51-252_body-equ-q03"
+    },
+    {
+      "question": "What is the first step in the installation process?",
+      "answer": "Preload the short cable lightly by adjusting the remote control.",
+      "question_type": "procedural",
+      "id": "51-252_body-equ-q04"
+    },
+    {
+      "question": "What is the second step for cable adjustment during installation?",
+      "answer": "Preload the long cable lightly by adjusting.",
+      "question_type": "procedural",
+      "id": "51-252_body-equ-q05"
+    },
+    {
+      "question": "What reference number corresponds to the trim panel removal procedure?",
+      "answer": "51 43 000.",
+      "question_type": "factual",
+      "id": "51-252_body-equ-q06"
+    },
+    {
+      "question": "What component is shown in diagram 30 51 251?",
+      "answer": "The area where screws need to be unscrewed during the removal process.",
+      "question_type": "visual",
+      "id": "51-252_body-equ-q07"
+    },
+    {
+      "question": "What does diagram 30 51 720 illustrate?",
+      "answer": "The preloading of the short cable by adjusting the remote control during installation.",
+      "question_type": "visual",
+      "id": "51-252_body-equ-q09"
+    },
+    {
+      "question": "What is shown in diagram 30 51 721?",
+      "answer": "The preloading of the long cable by adjusting during the installation process.",
+      "question_type": "visual",
+      "id": "51-252_body-equ-q10"
+    },
+    {
+      "question": "How should the cables be adjusted during installation?",
+      "answer": "Both the short and long cables should be preloaded lightly by adjusting - the short cable via the remote control and the long cable by adjusting.",
+      "question_type": "procedural",
+      "id": "51-252_body-equ-q11"
+    },
+    {
+      "question": "What is the correct sequence for cable preloading during installation?",
+      "answer": "First preload the short cable lightly by adjusting the remote control, then preload the long cable lightly by adjusting.",
+      "question_type": "procedural",
+      "id": "51-252_body-equ-q12"
+    }
+  ]
+}

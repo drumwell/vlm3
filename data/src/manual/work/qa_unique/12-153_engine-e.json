@@ -1,0 +1,85 @@
+{
+  "page_id": "12-153_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-153.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:34:58.532281",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 733
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for disassembling and assembling the starter?",
+      "answer": "The procedure number is 12 41 513.",
+      "question_type": "factual",
+      "id": "12-153_engine-e-q01"
+    },
+    {
+      "question": "What should you do to the engaging fork guide during installation?",
+      "answer": "Lubricate the guide for engaging fork with grease.",
+      "question_type": "procedural",
+      "id": "12-153_engine-e-q02"
+    },
+    {
+      "question": "What components are numbered 1, 2, 3, 4, and 5 in the starter disassembly diagram?",
+      "answer": "The diagram shows numbered components of the starter assembly, with component 5 being specifically called out in the removal instructions for the retainer, shims, and seal.",
+      "question_type": "visual",
+      "id": "12-153_engine-e-q03"
+    },
+    {
+      "question": "What should you check on the drive bearing bracket during installation?",
+      "answer": "Check the bearing sleeve in the drive bearing bracket, lubricating with oil prior to installation.",
+      "question_type": "inspection",
+      "id": "12-153_engine-e-q04"
+    },
+    {
+      "question": "What tool is recommended for removing burrs from the drive pinion?",
+      "answer": "Remove burrs with a file.",
+      "question_type": "tool",
+      "id": "12-153_engine-e-q05"
+    },
+    {
+      "question": "How should you push back the bearing race during disassembly?",
+      "answer": "Push back bearing race (1) with a piece of suitable pipe.",
+      "question_type": "procedural",
+      "id": "12-153_engine-e-q06"
+    },
+    {
+      "question": "What parts should be checked for wear during carbon brush inspection?",
+      "answer": "Check carbon brushes and commutator for wear, repairing if necessary.",
+      "question_type": "inspection",
+      "id": "12-153_engine-e-q07"
+    },
+    {
+      "question": "What reference number should you see for carbon brush repair procedures?",
+      "answer": "See 12 41 551 for carbon brush repair procedures.",
+      "question_type": "navigation",
+      "id": "12-153_engine-e-q08"
+    },
+    {
+      "question": "What should you use for the drive pinion surface during installation?",
+      "answer": "Use a new circlip and lubricate bearing surface for drive pinion with grease.",
+      "question_type": "procedural",
+      "id": "12-153_engine-e-q09"
+    },
+    {
+      "question": "What components should you check on the pinion during installation inspection?",
+      "answer": "Check pinion for wear (on teeth, bearings, one-way clutch), replacing if necessary.",
+      "question_type": "inspection",
+      "id": "12-153_engine-e-q10"
+    },
+    {
+      "question": "What is the source of supply reference noted at the bottom of the page?",
+      "answer": "The source of supply reference is HWB.",
+      "question_type": "factual",
+      "id": "12-153_engine-e-q12"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "13-810_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-810.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:50:44.350084",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 677
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum battery voltage required for testing the electronic idle control on BMW 325e?",
+      "answer": "Battery charged - battery voltage at least 11.5 volts.",
+      "question_type": "parameter",
+      "id": "13-810_fuel-sys-q01"
+    },
+    {
+      "question": "What temperature range must components be at during electronic idle control testing?",
+      "answer": "Components must have room temperature = 23 \u00b1 5\u00b0 C (73 \u00b1 9\u00b0 F).",
+      "question_type": "parameter",
+      "id": "13-810_fuel-sys-q02"
+    },
+    {
+      "question": "Where should measurements be taken when testing the electronic idle control unit?",
+      "answer": "Measurements are taken on the disconnected plug of the electronic idle control unit.",
+      "question_type": "procedural",
+      "id": "13-810_fuel-sys-q03"
+    },
+    {
+      "question": "What multimeter designation is referenced for testing procedures?",
+      "answer": "Quoted multimeter steps (for example, M 01) refer to the BMW SERVICE TEST.",
+      "question_type": "tool",
+      "id": "13-810_fuel-sys-q04"
+    },
+    {
+      "question": "Which terminals should you connect the voltmeter between when checking voltage supply to the idle control unit?",
+      "answer": "Connect voltmeter (M 01) between terminal 2 and car ground.",
+      "question_type": "diagnostic",
+      "id": "13-810_fuel-sys-q05"
+    },
+    {
+      "question": "What voltage reading should the voltmeter display when testing between terminal 2 and ground with ignition on?",
+      "answer": "Voltmeter displaying at least 9 volts?",
+      "question_type": "parameter",
+      "id": "13-810_fuel-sys-q06",
+      "_warnings": [
+        "Answer ends with '?' (may be a question)"
+      ]
+    },
+    {
+      "question": "If there's no voltage between terminal 2 and ground, what should you check?",
+      "answer": "Check green/yellow wire for breaks according to wiring diagram with ohmmeter (M 06). Eliminate breaks.",
+      "question_type": "troubleshooting",
+      "id": "13-810_fuel-sys-q07"
+    },
+    {
+      "question": "What is the second voltage test procedure for the idle control unit?",
+      "answer": "Connect voltmeter (M 01) between terminal 2 and terminal 4. Turn on ignition. Voltmeter displaying at least 9 volts?",
+      "question_type": "diagnostic",
+      "id": "13-810_fuel-sys-q08",
+      "_warnings": [
+        "Answer ends with '?' (may be a question)"
+      ]
+    },
+    {
+      "question": "If there's no voltage between terminal 2 and terminal 4, what wire should you check?",
+      "answer": "Check brown wire for breaks according to wiring diagram with ohmmeter (M 06). Eliminate breaks.",
+      "question_type": "troubleshooting",
+      "id": "13-810_fuel-sys-q09"
+    },
+    {
+      "question": "What indicates that the voltage supply and ground of the idle control unit are functioning properly?",
+      "answer": "Voltage supply and ground of idle control unit okay!",
+      "question_type": "diagnostic",
+      "id": "13-810_fuel-sys-q10"
+    }
+  ]
+}

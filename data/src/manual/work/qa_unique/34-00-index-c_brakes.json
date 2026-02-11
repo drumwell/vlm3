@@ -1,0 +1,49 @@
+{
+  "page_id": "34-00-index-c_brakes",
+  "image_path": "raw/34 - Brakes/34-00-index-c.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:12:07.916790",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1745,
+    "tokens_output": 353
+  },
+  "qa_pairs": [
+    {
+      "question": "What chapter number covers the Brakes section?",
+      "answer": "Chapter 34 covers the Brakes section.",
+      "question_type": "factual",
+      "id": "34-00-index-c_brakes-q01"
+    },
+    {
+      "question": "What topic is covered in the ABS troubleshooting section?",
+      "answer": "The ABS troubleshooting section covers ABS - troubleshoot.",
+      "question_type": "factual",
+      "id": "34-00-index-c_brakes-q03"
+    },
+    {
+      "question": "What page range covers the ABS troubleshooting information?",
+      "answer": "The ABS troubleshooting information is covered on pages 34-35.",
+      "question_type": "navigation",
+      "id": "34-00-index-c_brakes-q04"
+    },
+    {
+      "question": "How many main topics are listed under the Brakes chapter on this index page?",
+      "answer": "There is one main topic listed under the Brakes chapter: ABS - troubleshoot.",
+      "question_type": "factual",
+      "id": "34-00-index-c_brakes-q05"
+    },
+    {
+      "question": "What type of page is this in the service manual?",
+      "answer": "This is an index or table of contents page for the Brakes section.",
+      "question_type": "navigation",
+      "id": "34-00-index-c_brakes-q06"
+    }
+  ]
+}

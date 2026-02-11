@@ -1,0 +1,37 @@
+{
+  "page_id": "bmwtorquespecs-005",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/005.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:13:21.989417",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 662
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the difference in torque between M8 10.9 and M8x1 10.9 bolts?",
+      "answer": "M8 10.9 is 34 Nm and M8x1 10.9 is 36 Nm, a difference of 2 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-005-q07"
+    },
+    {
+      "question": "Which section of the manual contains these M8 and M8x1 torque specifications?",
+      "answer": "Section 00-4 General Instructions",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-005-q08"
+    },
+    {
+      "question": "What is the torque specification for the strongest M8x1 bolt listed in the table?",
+      "answer": "44 Nm (ft. lbs.) for the M8x1 12.9 bolt",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-005-q10"
+    }
+  ]
+}

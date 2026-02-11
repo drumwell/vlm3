@@ -1,0 +1,85 @@
+{
+  "page_id": "11-72_engine",
+  "image_path": "raw/11 - Engine/11-72.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:17:33.068954",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 734
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the nominal spring length for the chain tensioner spring?",
+      "answer": "159 \u00b1 0.5 mm (6.260 \u00b1 0.020\").",
+      "question_type": "factual",
+      "id": "11-72_engine-q01"
+    },
+    {
+      "question": "What is the tightening torque for the chain tensioner plug?",
+      "answer": "40 \u00b1 2 Nm (29 \u00b1 1.5 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-72_engine-q02"
+    },
+    {
+      "question": "What safety warning is given for the chain tensioner spring?",
+      "answer": "Strong spring pressure.",
+      "question_type": "safety",
+      "id": "11-72_engine-q04"
+    },
+    {
+      "question": "What should be done during installation regarding the spring's wound end?",
+      "answer": "Conically wound end of spring faces plug (1).",
+      "question_type": "procedural",
+      "id": "11-72_engine-q05"
+    },
+    {
+      "question": "How should the cylinder be positioned during installation?",
+      "answer": "Install cylinder with groove facing back (as seen looking forward in car) and position with groove facing up.",
+      "question_type": "procedural",
+      "id": "11-72_engine-q06"
+    },
+    {
+      "question": "What components are matched according to the manual?",
+      "answer": "Piston (4) and cylinder (5) are matched - code 1 or 2. Only install parts with same code.",
+      "question_type": "factual",
+      "id": "11-72_engine-q07"
+    },
+    {
+      "question": "What should be added to the nipple during installation?",
+      "answer": "Add engine oil, until oil runs out of nipple (7).",
+      "question_type": "procedural",
+      "id": "11-72_engine-q08"
+    },
+    {
+      "question": "In the exploded diagram, what does callout number 3 represent?",
+      "answer": "The spring component of the chain tensioner assembly.",
+      "question_type": "visual",
+      "id": "11-72_engine-q09"
+    },
+    {
+      "question": "What should be done with the O-ring on the nipple?",
+      "answer": "Unscrew nipple (7) - replace O-ring (8) if necessary.",
+      "question_type": "procedural",
+      "id": "11-72_engine-q10"
+    },
+    {
+      "question": "What needs to be checked during installation regarding spring length?",
+      "answer": "Check length of spring (3) and ensure it meets the nominal value of 159 \u00b1 0.5 mm.",
+      "question_type": "inspection",
+      "id": "11-72_engine-q11"
+    },
+    {
+      "question": "How should the piston opening be guided during installation?",
+      "answer": "Guide piston opening into tensioning rail.",
+      "question_type": "procedural",
+      "id": "11-72_engine-q12"
+    }
+  ]
+}

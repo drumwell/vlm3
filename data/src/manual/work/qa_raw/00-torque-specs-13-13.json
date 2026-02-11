@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-13-13",
+  "image_path": "raw/00 - Torque Specs/13-13.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:54:03.672842",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 560
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the support frame on body in the gas tank with attachment section?",
+      "answer": "45 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-13-q01"
+    },
+    {
+      "question": "What torque value should be used when installing the gas density sensor on non-return cock of gas tank?",
+      "answer": "35 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-13-q02"
+    },
+    {
+      "question": "Which component in the fuel system has the highest torque specification?",
+      "answer": "The support frame on body at 45 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-13-q05"
+    },
+    {
+      "question": "What screw type is used for both the support frame on body and gas density sensor on non-return cock?",
+      "answer": "316g/518g",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-13-q06"
+    },
+    {
+      "question": "Which fuel system components use the 316g screw type?",
+      "answer": "The holder of filler connection on body",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-13-q07"
+    },
+    {
+      "question": "What is the difference in torque between the support frame on body and the gas density sensor?",
+      "answer": "10 Nm (45 Nm - 35 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-13-q08"
+    },
+    {
+      "question": "Which component has the lowest torque specification in section 13 83?",
+      "answer": "The holder for filler connections on body at 3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-13-q09"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "page_id": "23-13_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-13.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:31:42.322280",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 838
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the proper clearance adjustment between circlip and guide sleeve?",
+      "answer": "The play between circlip and guide sleeve should be adjusted to 0...0.09 mm (0 to 0.0035\").",
+      "question_type": "factual",
+      "id": "23-13_manual-t-q02"
+    },
+    {
+      "question": "What is the important operating instruction for the 3rd/4th gear operating sleeve?",
+      "answer": "Operate 3rd/4th gear operating sleeve by hand in direction of 3rd gear, press off 3rd gear with guide and operating sleeve using Special Tool 23 1 490, then remove needle bearing with pressing off force.",
+      "question_type": "procedural",
+      "id": "23-13_manual-t-q04"
+    },
+    {
+      "question": "What should always be replaced during circlip installation?",
+      "answer": "Always replace circlip during both removal and installation procedures.",
+      "question_type": "safety",
+      "id": "23-13_manual-t-q06"
+    },
+    {
+      "question": "What is removed in step showing components 7 and 8?",
+      "answer": "Lift out circlip (7) and remove spacer (8).",
+      "question_type": "procedural",
+      "id": "23-13_manual-t-q07"
+    },
+    {
+      "question": "Why is synchronization marking recommended when disassembling the output shaft?",
+      "answer": "It is recommended to mark synchromesh rings and their corresponding gear wheels when disassembling the output shaft in order to avoid mixing up synchromesh rings.",
+      "question_type": "inspection",
+      "id": "23-13_manual-t-q08"
+    },
+    {
+      "question": "What important step must be done before pressing off 1st gear?",
+      "answer": "Remove circlip (10) before pressing off 1st gear.",
+      "question_type": "safety",
+      "id": "23-13_manual-t-q09"
+    },
+    {
+      "question": "What tool is used for pressing off the bearing sleeve and 2nd gear?",
+      "answer": "Special Tool 23 1 490 is used to press off bearing sleeve and 2nd gear, and to remove nickle-plated synchromesh ring and needle bearing.",
+      "question_type": "tool",
+      "id": "23-13_manual-t-q10"
+    },
+    {
+      "question": "What section should be referenced for additional specifications?",
+      "answer": "See Specifications section for additional information.",
+      "question_type": "navigation",
+      "id": "23-13_manual-t-q11"
+    },
+    {
+      "question": "What is the procedure number for replacing the output shaft?",
+      "answer": "The procedure is numbered 23 21 554 for replacing output shaft with output shaft removed.",
+      "question_type": "factual",
+      "id": "23-13_manual-t-q12"
+    }
+  ]
+}

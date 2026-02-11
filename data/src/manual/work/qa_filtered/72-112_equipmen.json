@@ -1,0 +1,91 @@
+{
+  "page_id": "72-112_equipmen",
+  "image_path": "raw/72 - Equipment and Accessories for Body/72-112.jpg",
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:09:50.025097",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 738
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with the seat belt when working on convertibles?",
+      "answer": "Lift out the seat belt after unscrewing the screw and lifting out the plate.",
+      "question_type": "procedural",
+      "id": "72-112_equipmen-q01"
+    },
+    {
+      "question": "What installation check is required when installing the convertible seat belt mechanism?",
+      "answer": "Check for correct fit of spring during installation.",
+      "question_type": "inspection",
+      "id": "72-112_equipmen-q02"
+    },
+    {
+      "question": "What is the reference number for removing the complete rear seat?",
+      "answer": "See section 52 20 000 for removing the complete rear seat.",
+      "question_type": "navigation",
+      "id": "72-112_equipmen-q03"
+    },
+    {
+      "question": "What steps are required to access door components after unscrewing the screws?",
+      "answer": "Unscrew screws, open the window, pull off rubber seal on door, lift out trim, and if applicable, pull off speaker wires.",
+      "question_type": "procedural",
+      "id": "72-112_equipmen-q04"
+    },
+    {
+      "question": "What components need to be removed to access the stirrup?",
+      "answer": "Unscrew the screw and take off the stirrup.",
+      "question_type": "procedural",
+      "id": "72-112_equipmen-q05"
+    },
+    {
+      "question": "What is shown in diagram 30 51 738?",
+      "answer": "The convertible seat belt mechanism with the plate being lifted out and screw being unscrewed.",
+      "question_type": "visual",
+      "id": "72-112_equipmen-q06"
+    },
+    {
+      "question": "What should be done with the automatic reel during installation?",
+      "answer": "The automatic reel should be installed with the specified tightening torque according to specifications.",
+      "question_type": "procedural",
+      "id": "72-112_equipmen-q07"
+    },
+    {
+      "question": "What is the procedure for removing trim components?",
+      "answer": "Pull off the trim after completing the previous steps of window opening and rubber seal removal.",
+      "question_type": "procedural",
+      "id": "72-112_equipmen-q08"
+    },
+    {
+      "question": "What electrical component may need attention when removing door trim?",
+      "answer": "Speaker wires may need to be pulled off if applicable when removing door trim.",
+      "question_type": "component",
+      "id": "72-112_equipmen-q09"
+    },
+    {
+      "question": "What torque specification reference is provided for the convertible installation?",
+      "answer": "The tightening torque specification is referenced to 'See Specifications' with an asterisk.",
+      "question_type": "factual",
+      "id": "72-112_equipmen-q10"
+    },
+    {
+      "question": "What is the final step for the automatic reel removal procedure?",
+      "answer": "Unscrew the bolt and remove the automatic reel, then install with specified tightening torque.",
+      "question_type": "procedural",
+      "id": "72-112_equipmen-q11"
+    },
+    {
+      "question": "What diagram number shows the door seal removal procedure?",
+      "answer": "Diagram 30 51 769 shows pulling off the rubber seal on the door and lifting out trim.",
+      "question_type": "visual",
+      "id": "72-112_equipmen-q12"
+    }
+  ]
+}

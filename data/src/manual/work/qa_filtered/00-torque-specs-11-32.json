@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-11-32",
+  "image_path": "raw/00 - Torque Specs/11-32.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:42:53.612083",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 674
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the thermostat housing bolts?",
+      "answer": "The thermostat housing bolts should be torqued to 10 Nm using M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-32-q01"
+    },
+    {
+      "question": "What size screws are used for the thermostat housing?",
+      "answer": "M6 screws are used for the thermostat housing.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-32-q02"
+    },
+    {
+      "question": "What is the torque specification for the bleeder screw?",
+      "answer": "The bleeder screw should be torqued to 8 Nm using M8 threads.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-32-q03"
+    },
+    {
+      "question": "What thread size is the bleeder screw?",
+      "answer": "The bleeder screw uses M8 threads.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-32-q04"
+    },
+    {
+      "question": "Do these torque specifications apply to all engine variants?",
+      "answer": "Yes, both the thermostat housing and bleeder screw specifications apply to all engine variants as indicated by 'All' in the Type column.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-32-q05"
+    },
+    {
+      "question": "Which component requires the higher torque value - the thermostat housing or bleeder screw?",
+      "answer": "The thermostat housing requires the higher torque value at 10 Nm compared to the bleeder screw at 8 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-32-q06"
+    },
+    {
+      "question": "What section of the manual covers thermostat and connections?",
+      "answer": "Section 11 53 covers Thermostat and Connections.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-32-q07"
+    },
+    {
+      "question": "What are the reference numbers for the thermostat housing and bleeder screw components?",
+      "answer": "The thermostat housing is referenced as 1AZ and the bleeder screw is referenced as 2AZ.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-32-q08"
+    },
+    {
+      "question": "What units are used for the torque measurements in this table?",
+      "answer": "The torque measurements are specified in Newton-meters (Nm).",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-32-q09"
+    },
+    {
+      "question": "What is the difference in torque between the thermostat housing and bleeder screw?",
+      "answer": "The thermostat housing torque is 2 Nm higher than the bleeder screw torque (10 Nm vs 8 Nm).",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-32-q10"
+    }
+  ]
+}

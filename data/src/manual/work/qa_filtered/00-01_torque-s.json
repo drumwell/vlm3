@@ -1,0 +1,79 @@
+{
+  "page_id": "00-01_torque-s",
+  "image_path": "raw/00 - Torque Specs/00-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:09:43.078414",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 708
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum coefficient of friction (\u03bc total) for phosphatized, untreated or galvanized screws?",
+      "answer": "0.12s (screws phosphatized, screws untreated or galvanized).",
+      "question_type": "factual",
+      "id": "00-01_torque-s-q01"
+    },
+    {
+      "question": "What is the \u03bc total range for cadmium-plated screws or nuts?",
+      "answer": "0.08 to 0.09 for cadmium-plated screws or nuts.",
+      "question_type": "factual",
+      "id": "00-01_torque-s-q02"
+    },
+    {
+      "question": "By what percentage must the tightening torque be reduced for cadmium-plated screws compared to the table values?",
+      "answer": "The tightening torque must be 30% less than shown in the table.",
+      "question_type": "factual",
+      "id": "00-01_torque-s-q03"
+    },
+    {
+      "question": "What shaft screw standards are these torque values applicable to?",
+      "answer": "Only applicable to shaft screws with metric standard and fine threads acc. to DIN 13, sheet 13 and nuts with height of 0.8 x d acc. to DIN 934.",
+      "question_type": "factual",
+      "id": "00-01_torque-s-q04"
+    },
+    {
+      "question": "What lubrication condition is specified for the standard torque values?",
+      "answer": "Lubrication condition: unlubricated and also oiled.",
+      "question_type": "factual",
+      "id": "00-01_torque-s-q05"
+    },
+    {
+      "question": "When do these torque specifications not apply regarding thread surface conditions?",
+      "answer": "Not applicable when using a different surface or lubricant condition on the thread, or if the height of the nut differs.",
+      "question_type": "factual",
+      "id": "00-01_torque-s-q06"
+    },
+    {
+      "question": "What types of bolt and screw connections are excluded from these specifications?",
+      "answer": "Not applicable to necked-down bolts, self-tapping screw connections or to connections between parts made of different materials.",
+      "question_type": "factual",
+      "id": "00-01_torque-s-q07"
+    },
+    {
+      "question": "What BMW standard document is this extract from?",
+      "answer": "Extract from company standard BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-01_torque-s-q08"
+    },
+    {
+      "question": "Why is maintaining specified tightening torques important?",
+      "answer": "Maintaining specified tightening torques is vital for performing repair work to a professional standard. This presupposes that the torque wrenches required for this are subjected to a regular inspection.",
+      "question_type": "factual",
+      "id": "00-01_torque-s-q09"
+    },
+    {
+      "question": "Where can information about approved torque testing equipment be found?",
+      "answer": "Approved torque testing equipment is listed in the catalogue of workshop equipment planning documents.",
+      "question_type": "navigation",
+      "id": "00-01_torque-s-q10"
+    }
+  ]
+}

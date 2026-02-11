@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-087",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/087.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:32:29.648258",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 646
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the engine oil cooler to body connection?",
+      "answer": "14 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-087-q01"
+    },
+    {
+      "question": "Does the engine oil cooler to body torque specification apply to all E30 models?",
+      "answer": "Yes, it applies to all models as indicated by 'All' in the Type column.",
+      "question_type": "factual",
+      "id": "00-torque-specs-087-q04"
+    },
+    {
+      "question": "Is the oil cooler vapor extraction guide specific to certain models?",
+      "answer": "Yes, it is specific to the E36 M3 model only.",
+      "question_type": "factual",
+      "id": "00-torque-specs-087-q05"
+    },
+    {
+      "question": "What section and subsection covers the Engine Oil Cooler specifications?",
+      "answer": "Section 17-3 Radiator, subsection 17 21 Engine Oil Cooler",
+      "question_type": "navigation",
+      "id": "00-torque-specs-087-q06"
+    },
+    {
+      "question": "What is the difference in torque specifications between the engine oil cooler to body and the vapor extraction guide connections?",
+      "answer": "The engine oil cooler to body requires 14 Nm while the vapor extraction guide requires only 4 Nm, a difference of 10 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-087-q07"
+    },
+    {
+      "question": "What component uses the 1AZ designation?",
+      "answer": "The engine oil cooler to body connection uses the 1AZ designation.",
+      "question_type": "component",
+      "id": "00-torque-specs-087-q08"
+    },
+    {
+      "question": "Are there any special tools or procedures mentioned for these oil cooler connections?",
+      "answer": "No special tools or procedures are mentioned on this specification page, only the torque values and screw types are provided.",
+      "question_type": "tool",
+      "id": "00-torque-specs-087-q09"
+    },
+    {
+      "question": "Which oil cooler component has a higher torque requirement?",
+      "answer": "The engine oil cooler to body connection has the higher torque requirement at 14 Nm compared to the vapor extraction guide at 4 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-087-q10"
+    }
+  ]
+}

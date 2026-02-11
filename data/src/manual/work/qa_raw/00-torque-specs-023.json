@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-023",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/023.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:20:19.759828",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 589
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the increment wheel on crankshaft?",
+      "answer": "M5 10.9 with 13 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-023-q01"
+    },
+    {
+      "question": "What screw type is specified for the crankshaft increment wheel?",
+      "answer": "M5 10.9",
+      "question_type": "factual",
+      "id": "00-torque-specs-023-q02"
+    },
+    {
+      "question": "What unit of measurement is used for the increment wheel torque specification?",
+      "answer": "Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-023-q04"
+    },
+    {
+      "question": "Which engine section does the crankshaft and bearings specification fall under?",
+      "answer": "11 21 Crankshaft and Bearings under section 11 - 13 Engine",
+      "question_type": "navigation",
+      "id": "00-torque-specs-023-q05"
+    },
+    {
+      "question": "How many torque specifications are listed for the crankshaft and bearings section?",
+      "answer": "One specification is listed for the increment wheel on crankshaft",
+      "question_type": "factual",
+      "id": "00-torque-specs-023-q08"
+    },
+    {
+      "question": "What component in the crankshaft and bearings section has a torque specification?",
+      "answer": "Increment wheel on crankshaft",
+      "question_type": "component",
+      "id": "00-torque-specs-023-q09"
+    },
+    {
+      "question": "What is the complete torque specification entry for reference 1AZ?",
+      "answer": "Increment wheel on crankshaft, All type, M5 10.9 screw, 13 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-023-q10"
+    }
+  ]
+}

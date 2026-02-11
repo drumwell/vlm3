@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-102",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/102.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:31:39.279014",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 587
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for transmission mounts (rubber) to body?",
+      "answer": "42 Nm using M10 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-102-q01"
+    },
+    {
+      "question": "What size screws are used for the transmission cross member to body connection?",
+      "answer": "M10 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-102-q02"
+    },
+    {
+      "question": "How much torque should be applied to the transmission cross member to body bolts?",
+      "answer": "42 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-102-q03"
+    },
+    {
+      "question": "What is the torque value for the mount bracket to transmission connection?",
+      "answer": "21 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-102-q04"
+    },
+    {
+      "question": "What screw size is specified for the mount bracket to transmission attachment?",
+      "answer": "M8 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-102-q05"
+    },
+    {
+      "question": "Which transmission mount connections use M10 bolts?",
+      "answer": "Both the transmission mounts (rubber) to body (1AZ) and the transmission cross member to body (2AZ) use M10 bolts.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-102-q06"
+    },
+    {
+      "question": "What section of the manual covers transmission mounts?",
+      "answer": "Section 23 71 covers transmission mounts.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-102-q07"
+    },
+    {
+      "question": "Are the torque specifications the same for both rubber transmission mounts and cross member mounting?",
+      "answer": "Yes, both the transmission mounts (rubber) to body and transmission cross member to body require 42 Nm of torque.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-102-q08"
+    },
+    {
+      "question": "What type of vehicle application do these torque specifications apply to?",
+      "answer": "All vehicle types, as indicated in the Type column.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-102-q09"
+    },
+    {
+      "question": "Which connection requires the lowest torque value among the transmission mount specifications?",
+      "answer": "The mount bracket to transmission connection (3AZ) requires the lowest torque at 21 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-102-q10"
+    }
+  ]
+}

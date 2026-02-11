@@ -1,0 +1,79 @@
+{
+  "page_id": "31-20_front-ax",
+  "image_path": "raw/31 - Front Axle/31-20.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:06:11.002521",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 621
+  },
+  "qa_pairs": [
+    {
+      "question": "How can the condition of shock absorbers be properly checked?",
+      "answer": "The condition of shock absorbers can only be checked with a Shock Tester or in a shock absorber testing machine.",
+      "question_type": "diagnostic",
+      "id": "31-20_front-ax-q01"
+    },
+    {
+      "question": "What causes shock absorbers to make a knocking or bottoming noise?",
+      "answer": "Shock absorbers knocking (bottoming) can be caused by a rubber damper defective or shock absorber efficiency insufficient.",
+      "question_type": "troubleshooting",
+      "id": "31-20_front-ax-q02"
+    },
+    {
+      "question": "How do you fix shock absorber knocking when the rubber damper is defective?",
+      "answer": "Check/replace rubber damper.",
+      "question_type": "procedural",
+      "id": "31-20_front-ax-q03"
+    },
+    {
+      "question": "What should you do if shock absorber efficiency is insufficient and causing knocking?",
+      "answer": "Replace shock absorber.",
+      "question_type": "procedural",
+      "id": "31-20_front-ax-q04"
+    },
+    {
+      "question": "What causes shock absorber noise besides a loose cartridge?",
+      "answer": "Shock absorber noise can be caused by an installed shock absorber that had been stored laying down with piston rod run in, or a shock absorber defective.",
+      "question_type": "troubleshooting",
+      "id": "31-20_front-ax-q05"
+    },
+    {
+      "question": "How do you correct shock absorber noise when the cartridge is loose?",
+      "answer": "Tighten threaded ring \u2014 inspect threads.",
+      "question_type": "procedural",
+      "id": "31-20_front-ax-q06"
+    },
+    {
+      "question": "What's the proper storage procedure for shock absorbers to prevent noise issues?",
+      "answer": "Store shock absorber standing upright at room temperature 24 hours and with piston rod run out.",
+      "question_type": "procedural",
+      "id": "31-20_front-ax-q07"
+    },
+    {
+      "question": "What symptom indicates shock absorber efficiency is weak?",
+      "answer": "Poor handling indicates that shock absorber efficiency is weak.",
+      "question_type": "diagnostic",
+      "id": "31-20_front-ax-q08"
+    },
+    {
+      "question": "What causes flat spots on tire treads according to this troubleshooting chart?",
+      "answer": "Flat spots on tire treads are caused by shock absorber defective.",
+      "question_type": "troubleshooting",
+      "id": "31-20_front-ax-q09"
+    },
+    {
+      "question": "What's the correction for poor handling caused by weak shock absorber efficiency?",
+      "answer": "Replace shock absorber.",
+      "question_type": "procedural",
+      "id": "31-20_front-ax-q10"
+    }
+  ]
+}

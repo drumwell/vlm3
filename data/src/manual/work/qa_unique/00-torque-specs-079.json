@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-079",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/079.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:30:58.543997",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 514
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the full description of the fuel system component 13 82?",
+      "answer": "Mixture and metering system, low-pressure reducer",
+      "question_type": "component",
+      "id": "00-torque-specs-079-q07"
+    },
+    {
+      "question": "What type of document page is this from?",
+      "answer": "AZD13-12.frb dated 20/10/97",
+      "question_type": "navigation",
+      "id": "00-torque-specs-079-q09"
+    }
+  ]
+}

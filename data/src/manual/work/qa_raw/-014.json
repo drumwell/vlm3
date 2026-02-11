@@ -1,0 +1,91 @@
+{
+  "page_id": "-014",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/014.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:05:42.058645",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 734
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is shown being removed with the shift rod in the first image?",
+      "answer": "The reverse gear loose and 1st reverse synchro hub which has to be removed as an assembly along with the shift rod by sliding it out along the out put shaft.",
+      "question_type": "component",
+      "id": "-014-q01"
+    },
+    {
+      "question": "How should the reverse gear and synchro hub be removed?",
+      "answer": "By sliding it out along the output shaft as an assembly along with the shift rod.",
+      "question_type": "procedural",
+      "id": "-014-q02"
+    },
+    {
+      "question": "What type of gear is visible in the top left portion of the first image?",
+      "answer": "A gear with teeth that appears to be part of the reverse gear assembly.",
+      "question_type": "visual",
+      "id": "-014-q03"
+    },
+    {
+      "question": "What housing component is shown split open in the second image?",
+      "answer": "The gearbox housing is shown split open, revealing the internal gear assemblies.",
+      "question_type": "component",
+      "id": "-014-q04"
+    },
+    {
+      "question": "What issue was discovered with the shimmed items in the gearbox?",
+      "answer": "Every shimmed item in the gearbox was not correct at disassembly with the old bearings and some result with new bearings and same shims.",
+      "question_type": "diagnostic",
+      "id": "-014-q05"
+    },
+    {
+      "question": "What specific synchro hub is mentioned in the removal procedure?",
+      "answer": "The 1st reverse synchro hub.",
+      "question_type": "component",
+      "id": "-014-q06"
+    },
+    {
+      "question": "What shaft is the reverse gear assembly removed along?",
+      "answer": "The output shaft.",
+      "question_type": "component",
+      "id": "-014-q07"
+    },
+    {
+      "question": "What method is described for removing the reverse gear assembly?",
+      "answer": "Sliding it out along the output shaft.",
+      "question_type": "procedural",
+      "id": "-014-q08"
+    },
+    {
+      "question": "What was found to be incorrect during disassembly?",
+      "answer": "Every shimmed item in the gearbox was not correct at disassembly with the old bearings.",
+      "question_type": "diagnostic",
+      "id": "-014-q09"
+    },
+    {
+      "question": "What parts are shown separated in the bottom image?",
+      "answer": "The gearbox housing is split showing the gear assemblies, shafts, and internal components separated.",
+      "question_type": "visual",
+      "id": "-014-q10"
+    },
+    {
+      "question": "What remains problematic even with new bearings?",
+      "answer": "Some shimmed items result with issues even with new bearings and same shims.",
+      "question_type": "troubleshooting",
+      "id": "-014-q11"
+    },
+    {
+      "question": "What type of assembly must the reverse gear and synchro hub be treated as during removal?",
+      "answer": "As an assembly that must be removed together along with the shift rod.",
+      "question_type": "procedural",
+      "id": "-014-q12"
+    }
+  ]
+}

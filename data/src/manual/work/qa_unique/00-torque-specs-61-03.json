@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-61-03",
+  "image_path": "raw/00 - Torque Specs/61-03.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:04:48.636369",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 525
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component has the designation 1AZ in the control units section?",
+      "answer": "Power window module to drive",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-03-q03"
+    },
+    {
+      "question": "How many control unit components are listed in section 61 35?",
+      "answer": "2 components",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-03-q08"
+    }
+  ]
+}

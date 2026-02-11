@@ -1,0 +1,67 @@
+{
+  "page_id": "12-08_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-08.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:22:58.631690",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 588
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main component shown in this transistor ignition control unit connection plan?",
+      "answer": "The main component is the Transistor Ignition Control Unit, with connection plans shown for both the Bosch TCii Control Unit and the Siemens/Telefunken TCii-S Control Unit.",
+      "question_type": "component",
+      "id": "12-08_engine-e-q01"
+    },
+    {
+      "question": "What does terminal 1 connect to on the Bosch TCii Control Unit?",
+      "answer": "Terminal 1 connects to the ignition coil on the Bosch TCii Control Unit.",
+      "question_type": "connector",
+      "id": "12-08_engine-e-q02"
+    },
+    {
+      "question": "Which terminal provides the ground connection on the Bosch control unit?",
+      "answer": "Terminal 31 provides the ground connection on the Bosch control unit.",
+      "question_type": "connector",
+      "id": "12-08_engine-e-q03"
+    },
+    {
+      "question": "What are the three functions of terminal TD on the Siemens/Telefunken control unit?",
+      "answer": "Terminal TD connects to fuel pump relay, to L-Jetronic control unit, and to tachometer.",
+      "question_type": "connector",
+      "id": "12-08_engine-e-q04"
+    },
+    {
+      "question": "What does terminal 15 represent on both control units?",
+      "answer": "Terminal 15 represents the power supply connection on both the Bosch and Siemens/Telefunken control units.",
+      "question_type": "connector",
+      "id": "12-08_engine-e-q05"
+    },
+    {
+      "question": "Which terminals handle the pulse transmitter function?",
+      "answer": "Terminals A+/B- (terminals 5/6) handle the pulse transmitter function on the Bosch unit, while terminal +/- handles it on the Siemens/Telefunken unit.",
+      "question_type": "connector",
+      "id": "12-08_engine-e-q06"
+    },
+    {
+      "question": "What does terminal S connect to on the Siemens/Telefunken control unit?",
+      "answer": "Terminal S connects to starter terminal 50 on the Siemens/Telefunken control unit.",
+      "question_type": "connector",
+      "id": "12-08_engine-e-q07"
+    },
+    {
+      "question": "How many numbered connection points are shown in the bottom circular diagram?",
+      "answer": "The bottom circular diagram shows 6 numbered connection points, labeled 1 through 6.",
+      "question_type": "visual",
+      "id": "12-08_engine-e-q08"
+    }
+  ]
+}

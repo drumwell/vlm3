@@ -1,0 +1,37 @@
+{
+  "page_id": "bmwtorquespecs-082",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/082.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:27:50.399623",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 606
+  },
+  "qa_pairs": [
+    {
+      "question": "Which components have a torque specification of 2 Nm?",
+      "answer": "Electric connections on fuel pump (3AZ), plastic nut on cover for fuel pipes (6AZ), and hose clamps 10 - 16 mm dia. (7AZ)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-082-q07"
+    },
+    {
+      "question": "What vehicle types apply to most of the fuel supply specifications?",
+      "answer": "All with fuel injection",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-082-q08"
+    },
+    {
+      "question": "Which specification requires the highest torque value in this fuel supply table?",
+      "answer": "The pump assembly to metal-bonded mount (1AZ) and holder to fuel pump or fuel reservoir (2AZ) both require 6.5 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-082-q10"
+    }
+  ]
+}

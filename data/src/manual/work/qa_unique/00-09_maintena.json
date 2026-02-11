@@ -1,0 +1,91 @@
+{
+  "page_id": "00-09_maintena",
+  "image_path": "raw/00 - Maintenance/00-09.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:13:14.285885",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 802
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of inspection is described in this maintenance procedure?",
+      "answer": "This is a 1200 Mile Inspection (00 00 210) as part of the BMW Maintenance System.",
+      "question_type": "factual",
+      "id": "00-09_maintena-q01"
+    },
+    {
+      "question": "Which group number should be referenced for headlight aiming adjustment?",
+      "answer": "Group 63 (Gr. 63) should be referenced for aiming of headlights and adjusting if necessary.",
+      "question_type": "navigation",
+      "id": "00-09_maintena-q02"
+    },
+    {
+      "question": "What lights need to be checked during this inspection?",
+      "answer": "Check headlights, parking lights, backup lights, license plate lights, interior lights and delay system, glove box light, engine compartment light and trunk light.",
+      "question_type": "inspection",
+      "id": "00-09_maintena-q03"
+    },
+    {
+      "question": "What indicators and warning lights should be tested?",
+      "answer": "Test turn signals, hazard lights, stop lights, headlight flasher and headlight dimmer switch.",
+      "question_type": "inspection",
+      "id": "00-09_maintena-q04"
+    },
+    {
+      "question": "What control panel operations need to be inspected?",
+      "answer": "Inspect check control panel operation, ABS and SRS lights.",
+      "question_type": "inspection",
+      "id": "00-09_maintena-q05"
+    },
+    {
+      "question": "What instrument and indication systems should be checked?",
+      "answer": "Check instrument lights, indication lamps, windshield wipe/wash system and aiming of spray jets, heater and air conditioner blowers, rear window defogger.",
+      "question_type": "inspection",
+      "id": "00-09_maintena-q06"
+    },
+    {
+      "question": "What systems are included in the final inspection and test drive?",
+      "answer": "The final inspection includes checking fuel inspection system and operational safety of brakes, steering, clutch or automatic transmission and mirrors, and checking break in parking brake.",
+      "question_type": "procedural",
+      "id": "00-09_maintena-q07"
+    },
+    {
+      "question": "Which group number contains information for the final inspection procedures?",
+      "answer": "Group 34 (Gr. 34) contains the information for final inspection and test drive procedures.",
+      "question_type": "navigation",
+      "id": "00-09_maintena-q08"
+    },
+    {
+      "question": "What important caution is mentioned regarding brake systems?",
+      "answer": "On systems with Pollen brake linings, there is increased braking effect. See Repair Manual Group 34 10 014 for breaking in procedures for brake.",
+      "question_type": "safety",
+      "id": "00-09_maintena-q09"
+    },
+    {
+      "question": "What type of brake linings require special attention according to the caution?",
+      "answer": "Pollen brake linings require special attention due to increased braking effect and need proper breaking in procedures.",
+      "question_type": "safety",
+      "id": "00-09_maintena-q10"
+    },
+    {
+      "question": "Where can you find the specific breaking in procedure for brake systems?",
+      "answer": "The breaking in procedure for brake systems can be found in Repair Manual Group 34 10 014.",
+      "question_type": "navigation",
+      "id": "00-09_maintena-q11"
+    },
+    {
+      "question": "What is the procedure identification number for this 1200 mile inspection?",
+      "answer": "The procedure identification number is 00 00 210.",
+      "question_type": "factual",
+      "id": "00-09_maintena-q12"
+    }
+  ]
+}

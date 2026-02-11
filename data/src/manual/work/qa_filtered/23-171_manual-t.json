@@ -1,0 +1,91 @@
+{
+  "page_id": "23-171_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-171.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:34:38.952851",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 807
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the acceptable play adjustment range when installing the guide sleeve?",
+      "answer": "The play should be adjusted to 0 to 0.09 mm (0 to 0.0035 inches).",
+      "question_type": "factual",
+      "id": "23-171_manual-t-q01"
+    },
+    {
+      "question": "How should the guide sleeve be aligned during installation?",
+      "answer": "Mount the guide sleeve so that the oil groove (1) is aligned with the oil bore (2) in the transmission case, or the arrow on the face points to the middle of the layshaft.",
+      "question_type": "procedural",
+      "id": "23-171_manual-t-q02"
+    },
+    {
+      "question": "What special compound is required for installing the guide sleeve and bolts?",
+      "answer": "Install the guide sleeve and bolts with a surface sealing compound.",
+      "question_type": "tool",
+      "id": "23-171_manual-t-q03"
+    },
+    {
+      "question": "What preparation is required for the sealing surface and bolts before installation?",
+      "answer": "The sealing surface and bolts must be cleaned thoroughly and dried of oil.",
+      "question_type": "procedural",
+      "id": "23-171_manual-t-q04"
+    },
+    {
+      "question": "What measurement should be taken at distance A?",
+      "answer": "Measure distance A to determine the thickness of spacer needed.",
+      "question_type": "inspection",
+      "id": "23-171_manual-t-q05"
+    },
+    {
+      "question": "In the example calculation shown, what spacer thickness is required?",
+      "answer": "0.4 mm (0.016 inch) spacer thickness is required based on the calculation: A = 3.0 mm minus B = 2.6 mm.",
+      "question_type": "factual",
+      "id": "23-171_manual-t-q06"
+    },
+    {
+      "question": "What does callout number 1 indicate in the upper diagram?",
+      "answer": "Callout number 1 indicates the oil groove in the guide sleeve that must be aligned with the oil bore.",
+      "question_type": "visual",
+      "id": "23-171_manual-t-q07"
+    },
+    {
+      "question": "What does callout number 2 point to in the transmission case?",
+      "answer": "Callout number 2 points to the oil bore in the transmission case that must be aligned with the oil groove.",
+      "question_type": "visual",
+      "id": "23-171_manual-t-q08"
+    },
+    {
+      "question": "What is the BMW part number shown in the first diagram?",
+      "answer": "The BMW part number shown is 630 23 210.",
+      "question_type": "factual",
+      "id": "23-171_manual-t-q09"
+    },
+    {
+      "question": "What are the example measurements given for distances A and B?",
+      "answer": "Example shows A = 3.0 mm (0.118 inch) and B = 2.6 mm (0.102 inch).",
+      "question_type": "factual",
+      "id": "23-171_manual-t-q10"
+    },
+    {
+      "question": "What important note is given about the spacer installation?",
+      "answer": "The text indicates 'Important! Spacer. Installation:' emphasizing the critical nature of proper spacer installation procedures.",
+      "question_type": "safety",
+      "id": "23-171_manual-t-q11"
+    },
+    {
+      "question": "What is the source of supply noted at the bottom of the page?",
+      "answer": "The source of supply is HWB, as indicated by the double asterisk reference.",
+      "question_type": "factual",
+      "id": "23-171_manual-t-q12"
+    }
+  ]
+}

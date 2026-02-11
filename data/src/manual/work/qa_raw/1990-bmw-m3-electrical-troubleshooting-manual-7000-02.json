@@ -1,0 +1,70 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:13:00.986651",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 542
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the idle speed actuator located in the engine compartment?",
+      "answer": "The idle speed actuator is located at the top center front of the engine, as shown in Figure 1.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-02-q01"
+    },
+    {
+      "question": "What component is visible on the left-hand front of the engine?",
+      "answer": "The alternator is visible on the left-hand front of the engine, as shown in Figure 3.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-02-q02"
+    },
+    {
+      "question": "Where are the LH and RH jet heaters positioned?",
+      "answer": "The LH jet heater and RH jet heater are positioned in the center of the engine compartment hood, as shown in Figure 5.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-02-q03"
+    },
+    {
+      "question": "What fuel system component is shown at the top of the engine in Figure 2?",
+      "answer": "The fuel injectors are shown at the top of the engine in Figure 2.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-02-q04"
+    },
+    {
+      "question": "Where is the throttle switch located?",
+      "answer": "The throttle switch is located at the top center front of the engine, as shown in Figure 1.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-02-q05"
+    },
+    {
+      "question": "What auxiliary component is located behind the center of the front bumper?",
+      "answer": "The auxiliary fan and auxiliary fan normal speed blower resistor are located behind the center of the front bumper, as shown in Figure 4.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-02-q06"
+    },
+    {
+      "question": "What component labeled G106 is shown in the engine compartment?",
+      "answer": "Component G106 is located in the right-hand front corner of the engine compartment, as shown in Figure 6.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-02-q07"
+    },
+    {
+      "question": "How many different engine compartment views are provided on this page?",
+      "answer": "There are 6 different engine compartment views provided on this page, labeled as Figures 1 through 6.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-02-q08",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

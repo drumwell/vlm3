@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-052",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/052.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:26:00.729113",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 628
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the service manual covers spark plug torque specifications?",
+      "answer": "Section 12-2 Engine Electrical System, subsection 12 12 Spark plugs",
+      "question_type": "navigation",
+      "id": "00-torque-specs-052-q03"
+    },
+    {
+      "question": "Do both spark plug sizes use the same torque tolerance?",
+      "answer": "Yes, both M12x1.25 and M14x1.25 spark plugs use a tolerance of \u00b1 3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-052-q08"
+    },
+    {
+      "question": "What unit is used for measuring spark plug torque specifications?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-052-q09"
+    }
+  ]
+}

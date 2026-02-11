@@ -1,0 +1,79 @@
+{
+  "page_id": "54-10_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-10.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:41:17.158739",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1791,
+    "tokens_output": 687
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check if there's exhaust odor in the passenger compartment?",
+      "answer": "Check that the flaps close properly. If they don't close, service the flaps.",
+      "question_type": "diagnostic",
+      "id": "54-10_hood-sun-q01"
+    },
+    {
+      "question": "What causes whistling noise when the sun roof is closed?",
+      "answer": "An excessive gap between the roof and sun roof front or rear causes whistling noise with the sun roof closed.",
+      "question_type": "troubleshooting",
+      "id": "54-10_hood-sun-q02"
+    },
+    {
+      "question": "How do I fix whistling noise from a closed sun roof?",
+      "answer": "Replace the rubber seals or adjust the sun roof lid to eliminate the excessive gap.",
+      "question_type": "procedural",
+      "id": "54-10_hood-sun-q03"
+    },
+    {
+      "question": "What are the possible causes if the electric sun roof drive motor does not run?",
+      "answer": "The causes can be: a) fuse blown, b) control switch defective, c) wire harness has a break, or d) drive motor defective.",
+      "question_type": "troubleshooting",
+      "id": "54-10_hood-sun-q04"
+    },
+    {
+      "question": "If the sun roof drive motor runs but the lid doesn't move, what should I check?",
+      "answer": "Check for insufficient contact force of the slip clutch and adjust the slip clutch if necessary.",
+      "question_type": "diagnostic",
+      "id": "54-10_hood-sun-q05"
+    },
+    {
+      "question": "What causes the sun roof not to lift?",
+      "answer": "The sun roof may not lift due to a defective relay or maladjustment.",
+      "question_type": "troubleshooting",
+      "id": "54-10_hood-sun-q06"
+    },
+    {
+      "question": "How do I correct a sun roof that won't lift?",
+      "answer": "Replace the relay if defective, or adjust the sun roof in position 0 if maladjusted.",
+      "question_type": "procedural",
+      "id": "54-10_hood-sun-q07"
+    },
+    {
+      "question": "What component should I replace if the sun roof goes immediately to lift position when closed?",
+      "answer": "Replace the microswitch on the drive motor if the sun roof goes immediately to lift position when closed.",
+      "question_type": "component",
+      "id": "54-10_hood-sun-q08"
+    },
+    {
+      "question": "What electrical components might need replacement for electric sun roof motor issues?",
+      "answer": "Depending on the symptom, you may need to replace the fuse, control switch, wire harness, drive motor, relay, or microswitch.",
+      "question_type": "component",
+      "id": "54-10_hood-sun-q09"
+    },
+    {
+      "question": "What adjustment procedure is mentioned for sun roof problems?",
+      "answer": "The manual mentions adjusting the slip clutch for motor running but lid not moving, and adjusting the sun roof in position 0 for lift problems.",
+      "question_type": "procedural",
+      "id": "54-10_hood-sun-q10"
+    }
+  ]
+}

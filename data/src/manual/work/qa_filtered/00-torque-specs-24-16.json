@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-24-16",
+  "image_path": "raw/00 - Torque Specs/24-16.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:02:55.438366",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 618
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw type and torque value is specified for the A5S 300J transmission shift segment to shaft?",
+      "answer": "M14x1.5 screw with 35 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-16-q02"
+    },
+    {
+      "question": "Which transmission types use 22 Nm torque for the shift segment to shaft?",
+      "answer": "A4S 310R/A4S 310R",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-16-q05"
+    },
+    {
+      "question": "What is the highest torque value specified in the Interior Shift Elements section?",
+      "answer": "35 Nm for the A5S 300J transmission shift segment to shaft",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-16-q06"
+    },
+    {
+      "question": "Which component uses a 5/16 inch screw in the Interior Shift Elements section?",
+      "answer": "The detent spring on shift unit for A4S 270R/A4S 310R transmissions",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-16-q07"
+    },
+    {
+      "question": "What transmission types are specified for the detent spring on shift unit?",
+      "answer": "A4S 270R/A4S 310R",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-16-q08"
+    }
+  ]
+}

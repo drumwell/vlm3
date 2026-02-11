@@ -1,0 +1,91 @@
+{
+  "page_id": "35-04_pedals",
+  "image_path": "raw/35 - Pedals/35-04.jpg",
+  "section_id": "35",
+  "section_name": "Pedals",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:27:36.432545",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 737
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you check for when installing the brake pedal position in models with an over-center helper spring?",
+      "answer": "Check for correct installed position in models with an over-center helper spring. Also refer to the pedal assembly drawing.",
+      "question_type": "procedural",
+      "id": "35-04_pedals-q01"
+    },
+    {
+      "question": "What distance should the brake pedal be adjusted to on the brake master cylinder push rod?",
+      "answer": "Adjust brake pedal to distance (A) on the brake master cylinder push rod.",
+      "question_type": "procedural",
+      "id": "35-04_pedals-q02"
+    },
+    {
+      "question": "What important limitation exists regarding movement in the brake master cylinder?",
+      "answer": "Movement must be limited in the brake master cylinder and may not be accomplished with, for example, the stop light switch (distance B).",
+      "question_type": "safety",
+      "id": "35-04_pedals-q03"
+    },
+    {
+      "question": "What should be done to the brake pedal during installation regarding lubrication?",
+      "answer": "Lubricate brake pedal with grease in area of the stop light switch.",
+      "question_type": "procedural",
+      "id": "35-04_pedals-q04"
+    },
+    {
+      "question": "What distance should the stop light switch be adjusted to?",
+      "answer": "Adjust stop light switch to distance (B).",
+      "question_type": "procedural",
+      "id": "35-04_pedals-q05"
+    },
+    {
+      "question": "What is the first step shown for removing the master cylinder?",
+      "answer": "Unscrew master cylinder on pedal base.",
+      "question_type": "procedural",
+      "id": "35-04_pedals-q06"
+    },
+    {
+      "question": "What should be done with the bolts during installation?",
+      "answer": "Tightening torque (see specifications).",
+      "question_type": "procedural",
+      "id": "35-04_pedals-q07"
+    },
+    {
+      "question": "Where should the base be unscrewed during the removal process?",
+      "answer": "Unscrew base on engine compartment wall.",
+      "question_type": "procedural",
+      "id": "35-04_pedals-q08"
+    },
+    {
+      "question": "What special procedure applies to stop light switches on 1987 and later models?",
+      "answer": "Stop Light Switch Since 1987 Models: Adjust - see Group 61. Check function of stop lights.",
+      "question_type": "factual",
+      "id": "35-04_pedals-q09"
+    },
+    {
+      "question": "What part number is referenced for the stop light switch component?",
+      "answer": "The stop light switch component is referenced as part number 30 35 460.",
+      "question_type": "factual",
+      "id": "35-04_pedals-q10"
+    },
+    {
+      "question": "What type of fastener removal is shown in the middle procedures?",
+      "answer": "Unscrew bolts, with installation requiring tightening torque per specifications.",
+      "question_type": "procedural",
+      "id": "35-04_pedals-q11"
+    },
+    {
+      "question": "Where can the tightening torque specifications be found?",
+      "answer": "See Specifications (referenced multiple times throughout the installation procedures).",
+      "question_type": "navigation",
+      "id": "35-04_pedals-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "41-110_body",
+  "image_path": "raw/41 - Body/41-110.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:42:37.276858",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 774
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of paint should be used to coat mating surfaces on the cover plate?",
+      "answer": "Zinc dust paint should be used to coat mating surfaces on the cover plate.",
+      "question_type": "factual",
+      "id": "41-110_body-q01"
+    },
+    {
+      "question": "What welding method is used for the end plate attachment?",
+      "answer": "Spot welding is used for the end plate attachment.",
+      "question_type": "procedural",
+      "id": "41-110_body-q02"
+    },
+    {
+      "question": "Where should holes be drilled for inert gas plug welding?",
+      "answer": "Holes should be drilled for inert gas plug welding at the joint between the support and wheel house.",
+      "question_type": "procedural",
+      "id": "41-110_body-q03"
+    },
+    {
+      "question": "What procedure is shown in image 30 41 115?",
+      "answer": "Image 30 41 115 shows the procedure to grind and coat mating surfaces with zinc dust paint.",
+      "question_type": "visual",
+      "id": "41-110_body-q04"
+    },
+    {
+      "question": "What component is being spot welded in image 30 41 118?",
+      "answer": "The end plate is being spot welded on the wheel house in image 30 41 118.",
+      "question_type": "visual",
+      "id": "41-110_body-q05"
+    },
+    {
+      "question": "What type of welding is performed on the wheel house support?",
+      "answer": "Inert gas plug spot weld is performed on the wheel house support.",
+      "question_type": "procedural",
+      "id": "41-110_body-q06"
+    },
+    {
+      "question": "What should be installed and clamped according to image 30 41 117?",
+      "answer": "The end plate should be installed and clamped according to image 30 41 117.",
+      "question_type": "procedural",
+      "id": "41-110_body-q07"
+    },
+    {
+      "question": "What sealing materials are specified for the joints?",
+      "answer": "Body sealing compound should be used to seal joints, and an anti-drumming coat should be sprayed on the wheel house in the engine carrier area.",
+      "question_type": "factual",
+      "id": "41-110_body-q08"
+    },
+    {
+      "question": "What is the source reference shown at the bottom of the page?",
+      "answer": "The source reference shown is HWB (Hauptwerkstatt-Bulletin).",
+      "question_type": "factual",
+      "id": "41-110_body-q09"
+    },
+    {
+      "question": "What preparation step is required before welding according to the grinding instruction?",
+      "answer": "Mating surfaces must be ground and coated with zinc dust paint before welding.",
+      "question_type": "procedural",
+      "id": "41-110_body-q10"
+    },
+    {
+      "question": "Which image shows the final sealing step with body sealing compound?",
+      "answer": "Image 30 41 121 shows the final sealing step where joints are sealed with body sealing compound.",
+      "question_type": "visual",
+      "id": "41-110_body-q11"
+    },
+    {
+      "question": "What additional coating is applied in the engine carrier area?",
+      "answer": "An anti-drumming coat is sprayed on the wheel house in the engine carrier area.",
+      "question_type": "factual",
+      "id": "41-110_body-q12"
+    }
+  ]
+}

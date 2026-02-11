@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-035",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/035.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:22:47.487692",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 741
+  },
+  "qa_pairs": [
+    {
+      "question": "What torque should be applied to the plug to hydraulic plunger?",
+      "answer": "60 Nm using M36x1 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q02"
+    },
+    {
+      "question": "What torque value is specified for the cover on VANOS control unit on the intake side?",
+      "answer": "5 Nm using M5 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q04"
+    },
+    {
+      "question": "What screw type and torque is used for the plug to VANOS adjusting unit?",
+      "answer": "M22 x 1.5 screw with 50 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q07"
+    },
+    {
+      "question": "What torque specification applies to the 4/2 way directional valve/solenoid valve on VANOS housing?",
+      "answer": "30 Nm (no specific screw thread listed).",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q08"
+    },
+    {
+      "question": "What torque is specified for the hydraulic line for VANOS on oil filter aggregate carrier?",
+      "answer": "32 Nm (no specific screw thread listed).",
+      "question_type": "factual",
+      "id": "00-torque-specs-035-q10"
+    }
+  ]
+}

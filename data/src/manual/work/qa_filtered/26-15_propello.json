@@ -1,0 +1,79 @@
+{
+  "page_id": "26-15_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-15.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:57:25.369209",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1792,
+    "tokens_output": 759
+  },
+  "qa_pairs": [
+    {
+      "question": "What could cause drumming in a stationary car with the propeller shaft?",
+      "answer": "Propeller shaft without influence. The correction is to check engine tuning and remove stress in exhaust line.",
+      "question_type": "diagnostic",
+      "id": "26-15_propello-q01"
+    },
+    {
+      "question": "If I'm experiencing vibration while moving off forward/reverse with center mount knocking, what should I check first?",
+      "answer": "Check if the propeller shaft is aligned precisely. If not aligned, align propeller shaft using procedure S. I. 26 01 77 (235).",
+      "question_type": "troubleshooting",
+      "id": "26-15_propello-q02"
+    },
+    {
+      "question": "What part number should I use to replace a damaged center mount?",
+      "answer": "Replace center mount with part number 26 12 001. Important: Tighten screw-on bushing to correct torque with Special Tool 26 1 040.",
+      "question_type": "component",
+      "id": "26-15_propello-q03"
+    },
+    {
+      "question": "What's the correction for worn or seized universal joints?",
+      "answer": "Check clearance and movement, replacing propeller shaft if necessary using part number 26 11 000.",
+      "question_type": "procedural",
+      "id": "26-15_propello-q04"
+    },
+    {
+      "question": "If the joint coupling rubber is damaged, what part number do I need for replacement?",
+      "answer": "Replace joint coupling with part number 26 11 051.",
+      "question_type": "component",
+      "id": "26-15_propello-q05"
+    },
+    {
+      "question": "At what speed range might I experience vibration due to propeller shaft issues?",
+      "answer": "Vibration at 40 to 50 km/h (25 to 30 mph) can indicate propeller shaft problems such as misalignment or worn components.",
+      "question_type": "factual",
+      "id": "26-15_propello-q06"
+    },
+    {
+      "question": "What should I do if there's runout on centering pin, transmission or final drive flanges?",
+      "answer": "Check centering pin and flanges for runout with dial gage - see Specifications; offset or replace final drive flange.",
+      "question_type": "inspection",
+      "id": "26-15_propello-q07"
+    },
+    {
+      "question": "What special tool is required when replacing the center mount?",
+      "answer": "Special Tool 26 1 040 is required to tighten the screw-on bushing to correct torque when replacing the center mount.",
+      "question_type": "tool",
+      "id": "26-15_propello-q08"
+    },
+    {
+      "question": "If engine/transmission suspension is not okay, what's the recommended action?",
+      "answer": "Check mounts, aligning or replacing if necessary.",
+      "question_type": "procedural",
+      "id": "26-15_propello-q09"
+    },
+    {
+      "question": "What causes center mount rubber damage and propeller shaft axial compensation issues?",
+      "answer": "This can cause vibration while moving off forward/reverse with center mount knocking. The correction is to replace center mount 26 12 001 and tighten screw-on bushing to correct torque with Special Tool 26 1 040.",
+      "question_type": "troubleshooting",
+      "id": "26-15_propello-q10"
+    }
+  ]
+}

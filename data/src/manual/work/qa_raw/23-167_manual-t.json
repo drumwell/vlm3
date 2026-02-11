@@ -1,0 +1,91 @@
+{
+  "page_id": "23-167_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-167.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:32:56.147812",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 781
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required for installing the threaded ring?",
+      "answer": "Special Tool 26 1 040 is required after finishing the installation.",
+      "question_type": "tool",
+      "id": "23-167_manual-t-q01"
+    },
+    {
+      "question": "What is the recommended torque specification for tightening nuts with socket together?",
+      "answer": "Use a standard 17 or 19 mm wrench socket together with a torque wrench, following the tightening torque specifications.",
+      "question_type": "procedural",
+      "id": "23-167_manual-t-q02"
+    },
+    {
+      "question": "What distance should the center mount be preloaded forward by?",
+      "answer": "The center mount should be preloaded forward by distance (A) = 4 to 6 mm (0.157 to 0.236 inches).",
+      "question_type": "factual",
+      "id": "23-167_manual-t-q03"
+    },
+    {
+      "question": "What important safety warning is given regarding the propeller shaft?",
+      "answer": "Don't let the propeller shaft fall into joints. Suspend propeller shaft from car on pieces of wire.",
+      "question_type": "safety",
+      "id": "23-167_manual-t-q04"
+    },
+    {
+      "question": "What should always be replaced when working with stop nuts?",
+      "answer": "Always replace stop nuts when unscrewing the joint disc on transmission.",
+      "question_type": "procedural",
+      "id": "23-167_manual-t-q05"
+    },
+    {
+      "question": "What components are shown in callouts 1 and 2 in the shift console removal diagram?",
+      "answer": "Callout 1 indicates the retainer and callout 2 indicates the washer that should be taken off when lifting out the retainer.",
+      "question_type": "visual",
+      "id": "23-167_manual-t-q06"
+    },
+    {
+      "question": "Which BMW model number is specifically noted for the vibration damper mounting?",
+      "answer": "BMW 325 i is noted, where the vibration damper is mounted together with the joint disc.",
+      "question_type": "factual",
+      "id": "23-167_manual-t-q07"
+    },
+    {
+      "question": "What should be done with the console orientation during installation?",
+      "answer": "Make sure consoles are horizontal to the shift console while tightening to prevent shift lever noise.",
+      "question_type": "procedural",
+      "id": "23-167_manual-t-q08"
+    },
+    {
+      "question": "What type of bolts are mentioned as being difficult to unscrew?",
+      "answer": "Self-locking bolts are mentioned as being hard to unscrew.",
+      "question_type": "factual",
+      "id": "23-167_manual-t-q09"
+    },
+    {
+      "question": "What cross-reference is given for removing the transfer box?",
+      "answer": "See section 27 10 010 for removing the transfer box.",
+      "question_type": "navigation",
+      "id": "23-167_manual-t-q10"
+    },
+    {
+      "question": "What should always be replaced when working on bolts during installation?",
+      "answer": "Always replace bolts during installation procedures.",
+      "question_type": "procedural",
+      "id": "23-167_manual-t-q11"
+    },
+    {
+      "question": "What important design consideration is mentioned when tightening nuts?",
+      "answer": "Only tighten nuts on flange end, whenever possible by design, to avoid tension in the joint disc.",
+      "question_type": "safety",
+      "id": "23-167_manual-t-q12"
+    }
+  ]
+}

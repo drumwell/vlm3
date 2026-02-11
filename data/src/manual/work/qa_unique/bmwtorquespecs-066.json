@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-066",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/066.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:24:53.336161",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 586
+  },
+  "qa_pairs": [
+    {
+      "question": "Which vehicle types does the lever to pedal value sender specification apply to?",
+      "answer": "E32/E34/E31/E36",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-066-q03"
+    },
+    {
+      "question": "What section of the manual covers these sender specifications?",
+      "answer": "12 - 16 Engine Electrical System, subsection 12 72 Senders for Control Unit",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-066-q05"
+    },
+    {
+      "question": "How many different sender components are listed in this torque specification table?",
+      "answer": "2 components (1AZ and 2AZ)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-066-q07"
+    },
+    {
+      "question": "What is the difference in torque specification between the two sender components?",
+      "answer": "4 Nm (9 Nm for 1AZ minus 5 Nm for 2AZ)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-066-q08"
+    },
+    {
+      "question": "What document reference number is shown for this page?",
+      "answer": "AZD12-10A.frb dated 20/10/97",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-066-q10"
+    }
+  ]
+}

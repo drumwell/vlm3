@@ -1,0 +1,91 @@
+{
+  "page_id": "51-319a_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-319a.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:21:20.440985",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 818
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum diameter allowed for impact spot cavities on laminated safety glass windshields?",
+      "answer": "Impact spot cavities must not exceed a diameter of 5 mm (0.197\").",
+      "question_type": "factual",
+      "id": "51-319a_body-equ-q01"
+    },
+    {
+      "question": "What is the maximum length allowed for cracks leading away from an impact spot?",
+      "answer": "Cracks leading away from the impact spot must not be longer than 50 mm (2\"). They must not end in the rubber window frame or ornamental strip.",
+      "question_type": "factual",
+      "id": "51-319a_body-equ-q02"
+    },
+    {
+      "question": "Where can repairs be made on laminated safety glass windshields?",
+      "answer": "Repairs must only be carried out outside of the field of vision. Only damage on the outside surface of windows may be repaired - inside of window and plastic sheet must not be damaged in any manner whatsoever.",
+      "question_type": "procedural",
+      "id": "51-319a_body-equ-q03"
+    },
+    {
+      "question": "What is the distance from the field of vision to the middle of the car according to dimension 'a'?",
+      "answer": "The distance from field of vision to middle of car is 210 mm (8.268\").",
+      "question_type": "factual",
+      "id": "51-319a_body-equ-q04"
+    },
+    {
+      "question": "What does dimension 'b' represent in the windshield diagram?",
+      "answer": "Dimension 'b' represents 290 mm (11.417\").",
+      "question_type": "visual",
+      "id": "51-319a_body-equ-q05"
+    },
+    {
+      "question": "When should windshield repair be carried out after damage occurs?",
+      "answer": "Repairing should be carried out as soon as possible after occurrence of the damage. The penetration of moisture or dirt must not be visible in the damaged spot.",
+      "question_type": "procedural",
+      "id": "51-319a_body-equ-q06"
+    },
+    {
+      "question": "What visibility requirements must be met for repaired windshield surfaces?",
+      "answer": "Visibility through the repaired surface must be clear, penetrant for light and without distortion as well as possible.",
+      "question_type": "inspection",
+      "id": "51-319a_body-equ-q07"
+    },
+    {
+      "question": "What legislation must windshield repairs conform to?",
+      "answer": "Conditions listed conform with legislation of the Federal Republic of Germany. Always conform with legislation valid in other countries.",
+      "question_type": "factual",
+      "id": "51-319a_body-equ-q08"
+    },
+    {
+      "question": "What is shown in the shaded areas of the windshield diagram?",
+      "answer": "The shaded areas represent the borders or wiped field, indicating the area where windshield wipers operate.",
+      "question_type": "visual",
+      "id": "51-319a_body-equ-q09"
+    },
+    {
+      "question": "What reference number is shown at the bottom of the windshield diagram?",
+      "answer": "The reference number shown is 32 51 231.",
+      "question_type": "visual",
+      "id": "51-319a_body-equ-q10"
+    },
+    {
+      "question": "What additional instructions should be followed when performing windshield repairs?",
+      "answer": "Conform with working instructions of the manufacturers.",
+      "question_type": "procedural",
+      "id": "51-319a_body-equ-q11"
+    },
+    {
+      "question": "What is the source of supply indicated for windshield repair materials?",
+      "answer": "The source of supply is HWB.",
+      "question_type": "factual",
+      "id": "51-319a_body-equ-q12"
+    }
+  ]
+}

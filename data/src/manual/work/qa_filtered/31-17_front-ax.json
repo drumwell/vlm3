@@ -1,0 +1,91 @@
+{
+  "page_id": "31-17_front-ax",
+  "image_path": "raw/31 - Front Axle/31-17.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:05:25.749978",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 682
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing or replacing the front stabilizer?",
+      "answer": "The procedure number is 31 35 000.",
+      "question_type": "factual",
+      "id": "31-17_front-ax-q01"
+    },
+    {
+      "question": "What are the first components that need to be disconnected when removing the front stabilizer?",
+      "answer": "Disconnect thrust rods on stabilizer at left and right sides.",
+      "question_type": "procedural",
+      "id": "31-17_front-ax-q02"
+    },
+    {
+      "question": "What should be done regarding tightening torque during installation of thrust rods?",
+      "answer": "Apply the specified tightening torque according to specifications.",
+      "question_type": "procedural",
+      "id": "31-17_front-ax-q03"
+    },
+    {
+      "question": "Which control arm component needs to be disconnected according to the second step?",
+      "answer": "Disconnect left bracket for control arm.",
+      "question_type": "procedural",
+      "id": "31-17_front-ax-q04"
+    },
+    {
+      "question": "What diagram number shows the left bracket for control arm disconnection?",
+      "answer": "Diagram number 30 31 014.",
+      "question_type": "visual",
+      "id": "31-17_front-ax-q05"
+    },
+    {
+      "question": "What is the final step before removing the stabilizer?",
+      "answer": "Disconnect left and right stabilizer mounts, then remove stabilizer.",
+      "question_type": "procedural",
+      "id": "31-17_front-ax-q06"
+    },
+    {
+      "question": "Where can the specific tightening torque values be found?",
+      "answer": "See Specifications section as indicated by the asterisk notation.",
+      "question_type": "navigation",
+      "id": "31-17_front-ax-q07"
+    },
+    {
+      "question": "What diagram number corresponds to the stabilizer mount disconnection procedure?",
+      "answer": "Diagram number 30 31 022.",
+      "question_type": "visual",
+      "id": "31-17_front-ax-q08"
+    },
+    {
+      "question": "How many main steps are involved in the front stabilizer removal procedure?",
+      "answer": "Three main steps: disconnect thrust rods, disconnect left bracket for control arm, and disconnect stabilizer mounts.",
+      "question_type": "procedural",
+      "id": "31-17_front-ax-q09"
+    },
+    {
+      "question": "What installation requirement is mentioned for all three disconnection steps?",
+      "answer": "All three steps require applying the specified tightening torque during installation.",
+      "question_type": "procedural",
+      "id": "31-17_front-ax-q10"
+    },
+    {
+      "question": "What diagram number shows the thrust rod disconnection at the stabilizer?",
+      "answer": "Diagram number 30 31 019.",
+      "question_type": "visual",
+      "id": "31-17_front-ax-q11"
+    },
+    {
+      "question": "What critical installation note appears at the bottom of the page?",
+      "answer": "See Specifications for the proper tightening torque values.",
+      "question_type": "safety",
+      "id": "31-17_front-ax-q12"
+    }
+  ]
+}

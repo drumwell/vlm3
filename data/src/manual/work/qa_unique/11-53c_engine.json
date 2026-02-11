@@ -1,0 +1,85 @@
+{
+  "page_id": "11-53c_engine",
+  "image_path": "raw/11 - Engine/11-53c.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:11:56.810381",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 981
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the specified tappet clearance range for installation?",
+      "answer": "The tappet clearance/installed clearance is 0.0025 to 0.066 mm (0.0001 to 0.0026 inches).",
+      "question_type": "factual",
+      "id": "11-53c_engine-q01"
+    },
+    {
+      "question": "What are the three tightening torque steps for cylinder head bolts and what are their values?",
+      "answer": "Step 1: 50 + 2 Nm (36 + 1 ft. lbs.), Step 2: 80 + 2 Nm (58 + 1 ft. lbs.), Step 3: 100 + 2 Nm (72 + 1 ft. lbs.). Wait 15 minutes between steps.",
+      "question_type": "procedural",
+      "id": "11-53c_engine-q02"
+    },
+    {
+      "question": "What torque specifications are given for M7 and M8 bolts during installation?",
+      "answer": "M7 = 15 + 2 Nm (11 + 1 ft. lbs.) and M8 = 21 + 1 Nm (15 + 0.5 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-53c_engine-q03"
+    },
+    {
+      "question": "In what order should cylinder head bolts be unscrewed and tightened?",
+      "answer": "Unscrew cylinder head bolts in order of 10 to 1 and lift off the cylinder head. Tighten bolts in order of 1 to 10 in three steps.",
+      "question_type": "procedural",
+      "id": "11-53c_engine-q05"
+    },
+    {
+      "question": "What cleaning procedure is specified for the crankcase and cylinder head bolt holes?",
+      "answer": "Clean holes in crankcase and cylinder head bolts, lubricate cylinder head bolts with oil, and clean sealing surfaces on cylinder head and crankcase thoroughly using a gasket remover and hard wood scraper.",
+      "question_type": "procedural",
+      "id": "11-53c_engine-q06"
+    },
+    {
+      "question": "How should tappet clearance be measured according to the instructions?",
+      "answer": "Set internal calipers to zero on the micrometer with the measured tappet diameter, measure tappet bore diameter, and compare measured tappet clearance with the specified clearance.",
+      "question_type": "inspection",
+      "id": "11-53c_engine-q07"
+    },
+    {
+      "question": "What tool is specified for measuring tappet diameter?",
+      "answer": "A micrometer should be used to measure tappet diameter.",
+      "question_type": "tool",
+      "id": "11-53c_engine-q08"
+    },
+    {
+      "question": "What should be checked during cylinder head installation?",
+      "answer": "Check levelness with a standard steel ruler, replace cylinder head gasket, and check arrangement of tensioning rails while mounting the cylinder head.",
+      "question_type": "inspection",
+      "id": "11-53c_engine-q09"
+    },
+    {
+      "question": "What components are shown being removed in the timing case removal diagram?",
+      "answer": "The diagram shows removal of pipe (2) and unscrewing bolt (3), followed by removing the timing case.",
+      "question_type": "visual",
+      "id": "11-53c_engine-q10"
+    },
+    {
+      "question": "What is the numbered sequence shown in the cylinder head bolt tightening diagram?",
+      "answer": "The diagram shows bolts numbered 1 through 10, indicating the proper sequence for tightening cylinder head bolts.",
+      "question_type": "visual",
+      "id": "11-53c_engine-q11"
+    },
+    {
+      "question": "What installation step involves O-ring replacement?",
+      "answer": "Replace O-ring (2) in oil bore and check O-rings if replacement is necessary during installation.",
+      "question_type": "procedural",
+      "id": "11-53c_engine-q12"
+    }
+  ]
+}

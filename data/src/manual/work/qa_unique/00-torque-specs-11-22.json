@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-11-22",
+  "image_path": "raw/00 - Torque Specs/11-22.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:40:57.335112",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 737
+  },
+  "qa_pairs": [
+    {
+      "question": "How does the torque specification differ for the chain tensioner plug between M50/S50 US engines and all others?",
+      "answer": "M50/S50 US engines require 50 Nm while all others require 40 Nm, both using M22 x 1.5 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-22-q03"
+    },
+    {
+      "question": "What torque should be applied to the bearing flange on engine block?",
+      "answer": "13 Nm using M6 screws for M60/1/M60/2 type engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-22-q05"
+    },
+    {
+      "question": "What is the torque specification for the reversing rail on engine block?",
+      "answer": "13 Nm using M6 screws for M62 type engines.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-22-q06"
+    },
+    {
+      "question": "Which component uses M26 x 1.5 screws and what are the different torque values?",
+      "answer": "The cylinder for chain tensioner plunger uses M26 x 1.5 screws with 70 Nm for M50/M52/S52/S50 US engines and 50 Nm for all others.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-22-q09"
+    },
+    {
+      "question": "What section and subsection does this camshaft torque specification table belong to?",
+      "answer": "Section 11-22 Engine, subsection 11 31 Camshaft.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-22-q10"
+    }
+  ]
+}

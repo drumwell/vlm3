@@ -1,0 +1,79 @@
+{
+  "page_id": "12-20_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-20.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:36:29.767947",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 653
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the testing requirements before troubleshooting the TCI system?",
+      "answer": "Battery charged (voltage > 12 V), specified fuel in tank (octane rating lead content), and ambient temperature approx 20\u00b0 C (68\u00b0 F); considerable deviation would change the measured values.",
+      "question_type": "procedural",
+      "id": "12-20_engine-e-q01"
+    },
+    {
+      "question": "What symptoms indicate faults in the TCI system?",
+      "answer": "Engine not starting running incorrectly, misfiring in different operating conditions, and poor engine output.",
+      "question_type": "diagnostic",
+      "id": "12-20_engine-e-q02"
+    },
+    {
+      "question": "What page should I refer to for instructions on working with TCI and DME?",
+      "answer": "Page 12-0.",
+      "question_type": "navigation",
+      "id": "12-20_engine-e-q03"
+    },
+    {
+      "question": "What is the first step in Test 1 for the pulse sensor in distributor?",
+      "answer": "Crank engine with starter and check pulse sensor voltage using multimeter M 02.",
+      "question_type": "procedural",
+      "id": "12-20_engine-e-q04"
+    },
+    {
+      "question": "What should I do if the pulse sensor voltage is not okay during cranking?",
+      "answer": "Check pulse sensor resistance on disconnected control unit plug M 06 - see 12 11 150.",
+      "question_type": "diagnostic",
+      "id": "12-20_engine-e-q05"
+    },
+    {
+      "question": "If the pulse sensor resistance check is not okay, what is the next step?",
+      "answer": "Replace pulse sensor - see 12 11 151.",
+      "question_type": "troubleshooting",
+      "id": "12-20_engine-e-q06"
+    },
+    {
+      "question": "What should I do if the pulse sensor resistance is okay but voltage was not okay?",
+      "answer": "Disconnect pulse sensor wire on distributor and on control unit - check power flow and ground out.",
+      "question_type": "diagnostic",
+      "id": "12-20_engine-e-q07"
+    },
+    {
+      "question": "If the power flow and ground check is okay, what should be replaced?",
+      "answer": "Replace pulse sensor - see 12 11 151.",
+      "question_type": "troubleshooting",
+      "id": "12-20_engine-e-q08"
+    },
+    {
+      "question": "What should I do if the power flow and ground check is not okay?",
+      "answer": "Replace wire for pulse sensor.",
+      "question_type": "troubleshooting",
+      "id": "12-20_engine-e-q09"
+    },
+    {
+      "question": "What BMW service test procedures are referenced for testing instructions?",
+      "answer": "Engine test/test step 05 (P 05) or multimeter 02 (M 02), and connections should be made according to operating instructions.",
+      "question_type": "tool",
+      "id": "12-20_engine-e-q10"
+    }
+  ]
+}

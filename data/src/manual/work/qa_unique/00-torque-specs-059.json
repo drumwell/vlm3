@@ -1,0 +1,43 @@
+{
+  "page_id": "00-torque-specs-059",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/059.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:27:20.854567",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 640
+  },
+  "qa_pairs": [
+    {
+      "question": "What size screw is used for the support to starter and what torque should it be tightened to?",
+      "answer": "M5 screw tightened to 5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-059-q02"
+    },
+    {
+      "question": "What are the torque specifications for the electrical terminal connections to the starter?",
+      "answer": "Terminal 30h: 5 Nm with M5 screw, Terminal 50: 6 Nm with M6 screw, Terminal 30: 12 Nm with M8 screw",
+      "question_type": "factual",
+      "id": "00-torque-specs-059-q04"
+    },
+    {
+      "question": "What screw size and torque is specified for the bolt connection to the pole tube?",
+      "answer": "M6 screw tightened to 6 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-059-q06"
+    },
+    {
+      "question": "Which components in the starter mounting system use M5 screws?",
+      "answer": "The support to starter (2AZ) and Terminal 30h both use M5 screws",
+      "question_type": "component",
+      "id": "00-torque-specs-059-q07"
+    }
+  ]
+}

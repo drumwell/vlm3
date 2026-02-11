@@ -1,0 +1,43 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-1240-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/1240-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:10:45.172799",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 476
+  },
+  "qa_pairs": [
+    {
+      "question": "According to the note about unloader relay coils, when are they grounded through the starting motor?",
+      "answer": "Unloader relay coils are grounded through starting motor except when starting. When starting, battery voltage is applied to both sides of unloader relay coils and relays are de-energized.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1240-00-q03"
+    },
+    {
+      "question": "Which instrument cluster pages are referenced for diagnostic connections?",
+      "answer": "Pages 1364-3, 3435-0, 6210-3 AND 6561-1",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1240-00-q04"
+    },
+    {
+      "question": "What page contains information about the Supplemental Restraint System (SRS)?",
+      "answer": "Page 3234-1",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1240-00-q05"
+    },
+    {
+      "question": "What are the two coils identified in the starter motor assembly?",
+      "answer": "PULL-IN COIL and HOLD-IN COIL",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1240-00-q06"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-12-12",
+  "image_path": "raw/00 - Torque Specs/12-12.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:48:49.944033",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 608
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the wiring harness on the electrical cutout device?",
+      "answer": "2.5 Nm with M5 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-12-q01"
+    },
+    {
+      "question": "Which wiring harness connection requires higher torque, the electrical cutout device or the distributor?",
+      "answer": "The distributor connection requires higher torque at 10 Nm compared to the electrical cutout device at 2.5 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-12-q06"
+    },
+    {
+      "question": "What section of the manual does this engine electrical equipment specification belong to?",
+      "answer": "Section 12-12 Engine Electrical Equipment.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-12-q07"
+    },
+    {
+      "question": "What subsection number covers the engine wiring harness specifications?",
+      "answer": "Subsection 12.51.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-12-q08"
+    },
+    {
+      "question": "What is the difference in screw sizes between the electrical cutout device and distributor wiring harness connections?",
+      "answer": "The electrical cutout device uses M5 screws while the distributor connection uses M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-12-q09"
+    },
+    {
+      "question": "How many different wiring harness connections are specified in this engine electrical equipment section?",
+      "answer": "Two wiring harness connections are specified: one for the electrical cutout device and one for the distributor.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-12-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "34-30_brakes",
+  "image_path": "raw/34 - Brakes/34-30.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:20:50.489243",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 829
+  },
+  "qa_pairs": [
+    {
+      "question": "What important safety precaution must be followed before removing or installing the ABS control unit?",
+      "answer": "Always turn off ignition before removing or installing control unit.",
+      "question_type": "safety",
+      "id": "34-30_brakes-q01"
+    },
+    {
+      "question": "What are the two numbered components shown in the second diagram for replacing the ABS control unit?",
+      "answer": "Component 1 is the clamp that needs to be pushed back, and component 2 is the multiple pin plug that needs to be pulled out to the right.",
+      "question_type": "visual",
+      "id": "34-30_brakes-q02"
+    },
+    {
+      "question": "How do you disconnect the multiple pin plug from the ABS control unit?",
+      "answer": "Push back clamp (1) and pull out multiple pin plug (2) to the right, and then disengage it to the left.",
+      "question_type": "procedural",
+      "id": "34-30_brakes-q03"
+    },
+    {
+      "question": "What should you check for correct connection when replacing the ABS control unit?",
+      "answer": "The multiple pin plug has a tab on the left side, for which the control unit must have an opening.",
+      "question_type": "inspection",
+      "id": "34-30_brakes-q04"
+    },
+    {
+      "question": "What is the correct installation sequence for the ABS control unit plug?",
+      "answer": "First engage left side of plug and then press right side into clamp.",
+      "question_type": "procedural",
+      "id": "34-30_brakes-q05"
+    },
+    {
+      "question": "What components are numbered 7 and 8 in the hydraulic unit removal diagram?",
+      "answer": "Component 7 is the cover that needs to be unscrewed, and component 8 is one of the bolts that needs to be unscrewed.",
+      "question_type": "visual",
+      "id": "34-30_brakes-q06"
+    },
+    {
+      "question": "What precaution should be taken when pulling off the multiple pin plug on the hydraulic unit?",
+      "answer": "Pull off multiple pin plug on hydraulic unit carefully (plastic pins) and loosen wire straps.",
+      "question_type": "safety",
+      "id": "34-30_brakes-q07"
+    },
+    {
+      "question": "What must be done with the battery connections when replacing the ABS wire harness?",
+      "answer": "Disconnect battery ground lead, disconnect lead on battery positive terminal and lay back to left side in engine compartment, and disconnect battery ground lead in the trunk.",
+      "question_type": "procedural",
+      "id": "34-30_brakes-q08"
+    },
+    {
+      "question": "Where should the positive terminal cable be disconnected in the engine compartment?",
+      "answer": "Disconnect cable on positive terminal, in engine compartment on rear panel.",
+      "question_type": "factual",
+      "id": "34-30_brakes-q09"
+    },
+    {
+      "question": "What should be done with the headlight covers during ABS wire harness replacement?",
+      "answer": "Remove left and right headlight covers and disconnect both plugs for pulse sensors in engine compartment.",
+      "question_type": "procedural",
+      "id": "34-30_brakes-q10"
+    },
+    {
+      "question": "What is the final step shown for the wire harness routing?",
+      "answer": "Pull out right wire to left side of engine compartment.",
+      "question_type": "procedural",
+      "id": "34-30_brakes-q11"
+    },
+    {
+      "question": "What critical requirement is emphasized about using the correct ABS control unit?",
+      "answer": "Only use a control unit with the correct code number, and this information can be found in the Specifications section.",
+      "question_type": "factual",
+      "id": "34-30_brakes-q12"
+    }
+  ]
+}

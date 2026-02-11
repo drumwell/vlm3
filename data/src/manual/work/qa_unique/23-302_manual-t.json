@@ -1,0 +1,67 @@
+{
+  "page_id": "23-302_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-302.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:41:29.614173",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 729
+  },
+  "qa_pairs": [
+    {
+      "question": "What should always be replaced when unscrewing the joint disc on the transmission?",
+      "answer": "Always replace stop nuts.",
+      "question_type": "procedural",
+      "id": "23-302_manual-t-q03"
+    },
+    {
+      "question": "What tool size wrench and socket are needed for tightening the installation nuts?",
+      "answer": "A standard 19 mm wrench socket and a torque wrench.",
+      "question_type": "tool",
+      "id": "23-302_manual-t-q04"
+    },
+    {
+      "question": "What components are numbered 2, 3, and 4 in the transmission diagram?",
+      "answer": "Component 2 is a retainer, components 3 and 4 are washers that should be noted during removal.",
+      "question_type": "visual",
+      "id": "23-302_manual-t-q06"
+    },
+    {
+      "question": "When should nuts only be tightened on the flange end?",
+      "answer": "Only tighten nuts on flange end, whenever possible by design, to avoid tension in the joint disc.",
+      "question_type": "procedural",
+      "id": "23-302_manual-t-q07"
+    },
+    {
+      "question": "How many turns should the threaded ring be loosened?",
+      "answer": "Loosen threaded ring (1) several turns.",
+      "question_type": "procedural",
+      "id": "23-302_manual-t-q09"
+    },
+    {
+      "question": "What should be done with the bleeder screw during clutch slave cylinder removal?",
+      "answer": "Bleeder screw faces down during installation.",
+      "question_type": "procedural",
+      "id": "23-302_manual-t-q10"
+    },
+    {
+      "question": "What reference section is mentioned at the bottom of the page for removing the exhaust assembly?",
+      "answer": "See 18 00 020 for removing the exhaust assembly.",
+      "question_type": "navigation",
+      "id": "23-302_manual-t-q11"
+    },
+    {
+      "question": "What should be done with the reverse gear switch wires during removal?",
+      "answer": "Pull off wires on reverse gear switch, unscrew clutch slave cylinder, but keep the pipe connected.",
+      "question_type": "procedural",
+      "id": "23-302_manual-t-q12"
+    }
+  ]
+}

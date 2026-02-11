@@ -1,0 +1,85 @@
+{
+  "page_id": "11-68_engine",
+  "image_path": "raw/11 - Engine/11-68.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:16:30.440697",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 860
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is used to turn the crankshaft to position cylinder no. 1 to TDC?",
+      "answer": "Special Tool 11 3 020 is used to turn the crankshaft to position cylinder no. 1 to TDC - cylinder no. 4 overlaps.",
+      "question_type": "tool",
+      "id": "11-68_engine-q01"
+    },
+    {
+      "question": "What is the tightening torque specification for the chain tensioner installation?",
+      "answer": "The tightening torque is 9 \u00b1 1 Nm (6.5 \u00b1 0.5 ft lbs.).",
+      "question_type": "factual",
+      "id": "11-68_engine-q02"
+    },
+    {
+      "question": "What important caution is given regarding the engine after removing the timing chain?",
+      "answer": "Never crank the engine after removing the timing chain.",
+      "question_type": "safety",
+      "id": "11-68_engine-q03"
+    },
+    {
+      "question": "Which special tool is mounted on the timing case to hold the camshaft in TDC position?",
+      "answer": "Special Tool 11 3 010 is mounted on the timing case and used to turn shaft up to the arrest - camshaft is held down for removal of bearing caps.",
+      "question_type": "tool",
+      "id": "11-68_engine-q04"
+    },
+    {
+      "question": "What procedure is used for centering the guide rail during installation?",
+      "answer": "Center guide rail with a feeler gage.",
+      "question_type": "procedural",
+      "id": "11-68_engine-q05"
+    },
+    {
+      "question": "How should camshafts be marked and installed according to the instructions?",
+      "answer": "Mark camshafts \"E\" or \"A\" and remove. For installation, camshafts are identical for exhaust and intake sides, and you should install a used camshaft in the same direction.",
+      "question_type": "procedural",
+      "id": "11-68_engine-q06"
+    },
+    {
+      "question": "What should be done with lockplates and sprockets during chain tensioner removal?",
+      "answer": "Open lockplates and unscrew sprockets.",
+      "question_type": "procedural",
+      "id": "11-68_engine-q07"
+    },
+    {
+      "question": "Where can information about removing the chain tensioner be found?",
+      "answer": "Remove chain tensioner - see 11 31 090.",
+      "question_type": "navigation",
+      "id": "11-68_engine-q08"
+    },
+    {
+      "question": "What is the proper position for installing the camshaft according to the TDC procedure?",
+      "answer": "Turn crankshaft to TDC and install camshaft so that each groove faces up and inward - TDC position.",
+      "question_type": "procedural",
+      "id": "11-68_engine-q09"
+    },
+    {
+      "question": "What should be done after loosening the arrest and relaxing the camshaft?",
+      "answer": "Remove Special Tool 11 3 010.",
+      "question_type": "procedural",
+      "id": "11-68_engine-q10"
+    },
+    {
+      "question": "How is the camshaft held in position when Special Tool 11 3 020 is used with Special Tool 11 3 010?",
+      "answer": "Hold camshaft in TDC position with Special Tool 11 3 020 and turn shaft up to the arrest - camshaft is held down for installation of bearing caps.",
+      "question_type": "procedural",
+      "id": "11-68_engine-q11"
+    }
+  ]
+}

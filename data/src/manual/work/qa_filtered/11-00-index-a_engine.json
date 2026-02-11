@@ -1,0 +1,55 @@
+{
+  "page_id": "11-00-index-a_engine",
+  "image_path": "raw/11 - Engine/11-00-index-a.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:06:32.695486",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1742,
+    "tokens_output": 404
+  },
+  "qa_pairs": [
+    {
+      "question": "What engine designation is used for the BMW M3 according to this service manual?",
+      "answer": "The BMW M3 uses Engine S 14 Z.",
+      "question_type": "factual",
+      "id": "11-00-index-a_engine-q01"
+    },
+    {
+      "question": "On which page can I find information about compression checking for all cylinders?",
+      "answer": "Compression of all cylinders - check can be found on page 11-51.",
+      "question_type": "navigation",
+      "id": "11-00-index-a_engine-q02"
+    },
+    {
+      "question": "What is the page reference for cylinder head sealing surface procedures when the cylinder head is disassembled?",
+      "answer": "Cylinder head sealing surface (cylinder head disassembled) procedures are on page 11-55.",
+      "question_type": "navigation",
+      "id": "11-00-index-a_engine-q03"
+    },
+    {
+      "question": "Where can I find the procedure for replacing the crankshaft main bearing shells with the engine disassembled?",
+      "answer": "The procedure for replacing crankshaft main bearing shells (engine disassembled) is found on page 11-61b.",
+      "question_type": "navigation",
+      "id": "11-00-index-a_engine-q04"
+    },
+    {
+      "question": "What service procedure is listed under section 11 14 141?",
+      "answer": "Section 11 14 141 covers radial oil seal in lower timing case cover - replace.",
+      "question_type": "factual",
+      "id": "11-00-index-a_engine-q05"
+    },
+    {
+      "question": "On which page would I find information about starter gear ring replacement?",
+      "answer": "Starter gear ring replacement information is on page 11-63.",
+      "question_type": "navigation",
+      "id": "11-00-index-a_engine-q06"
+    }
+  ]
+}

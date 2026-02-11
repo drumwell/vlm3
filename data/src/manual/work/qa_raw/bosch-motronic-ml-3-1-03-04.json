@@ -1,0 +1,79 @@
+{
+  "page_id": "bosch-motronic-ml-3-1-03-04",
+  "image_path": "raw/Bosch Motronic ML 3-1/03-04.png",
+  "section_id": "bosch",
+  "section_name": "Bosch Motronic ML 3-1",
+  "source_type": "ecu_technical",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:39:00.295823",
+    "prompt_template": "ecu_technical/specification",
+    "tokens_input": 1923,
+    "tokens_output": 665
+  },
+  "qa_pairs": [
+    {
+      "question": "What is this instruction document about according to the title?",
+      "answer": "This brief instruction covers the maximum line characteristics and test values (nominal values) specified for the vehicle.",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-03-04-q01"
+    },
+    {
+      "question": "What does the fault finding chart show according to the customer complaint symptoms?",
+      "answer": "The fault finding chart shows various causes/faults of components based on customer complaint symptoms (fault symptoms).",
+      "question_type": "factual",
+      "id": "bosch-motronic-ml-3-1-03-04-q02"
+    },
+    {
+      "question": "What safety precaution is mentioned regarding high and low voltage systems?",
+      "answer": "Warning! High voltage ignition system with high and low voltage dangerous! Contact with parts or terminals under voltage can be fatal (both on primary and secondary sides).",
+      "question_type": "safety",
+      "id": "bosch-motronic-ml-3-1-03-04-q03"
+    },
+    {
+      "question": "What should be avoided during compression testing?",
+      "answer": "Avoid injections and sparks of high voltage during compression control. Therefore, disconnect the main relay.",
+      "question_type": "safety",
+      "id": "bosch-motronic-ml-3-1-03-04-q04"
+    },
+    {
+      "question": "What are the first three symptoms listed in the fault finding chart?",
+      "answer": "1. The starting motor turns, the engine does not start or starts with difficulty. 2. The engine starts and stops immediately after 3. Minimum problems (number of revolutions, exhaust gas discharge).",
+      "question_type": "diagnostic",
+      "id": "bosch-motronic-ml-3-1-03-04-q05"
+    },
+    {
+      "question": "What component is listed as 'Causa (guasto del componente)' in the chart?",
+      "answer": "The chart shows 'Causa (guasto del componente)' which means 'Cause (component fault)' and includes components like electronic control unit, ignition coil, fuel injector, and others.",
+      "question_type": "component",
+      "id": "bosch-motronic-ml-3-1-03-04-q06"
+    },
+    {
+      "question": "What does symptom 4 in the fault finding chart describe?",
+      "answer": "Faulty acceleration, lack of performance.",
+      "question_type": "diagnostic",
+      "id": "bosch-motronic-ml-3-1-03-04-q07"
+    },
+    {
+      "question": "What does symptom 6 describe regarding engine power?",
+      "answer": "Engine power/maximum speed insufficient.",
+      "question_type": "diagnostic",
+      "id": "bosch-motronic-ml-3-1-03-04-q08"
+    },
+    {
+      "question": "What does symptom 8 describe about engine operation after warm-up?",
+      "answer": "The engine continues its run after having turned off the ignition.",
+      "question_type": "diagnostic",
+      "id": "bosch-motronic-ml-3-1-03-04-q09"
+    },
+    {
+      "question": "What page numbers are shown at the bottom of this document?",
+      "answer": "J03 and J04 are shown at the bottom of the pages.",
+      "question_type": "navigation",
+      "id": "bosch-motronic-ml-3-1-03-04-q10"
+    }
+  ]
+}

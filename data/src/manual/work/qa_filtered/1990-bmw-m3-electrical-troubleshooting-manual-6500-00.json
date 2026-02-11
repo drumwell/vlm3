@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6500-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:10:31.538177",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 524
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the fuse rating for Fuse 12 in the power distribution box?",
+      "answer": "Fuse 12 is rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-00-q01"
+    },
+    {
+      "question": "What are the fuse ratings for Fuse 20 and Fuse 21 in the hot at all times power distribution box?",
+      "answer": "Fuse 20 is rated at 30 AMP and Fuse 21 is rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-00-q02"
+    },
+    {
+      "question": "Where does the amplifier connection reference on page 6500-1?",
+      "answer": "The amplifier terminal 13 connection references page 6500-1.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-00-q03"
+    },
+    {
+      "question": "What connector is labeled as C302 and what is its function?",
+      "answer": "C302 is labeled as the accessory connector.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-00-q04"
+    },
+    {
+      "question": "What important note is provided about some vehicles regarding ground distribution?",
+      "answer": "Some vehicles may contain an additional splice in the ground distribution.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-00-q05"
+    },
+    {
+      "question": "What wire gauge and color coding is used for the main antenna input connection?",
+      "answer": "The antenna input uses .75 VI/GY wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-00-q06"
+    },
+    {
+      "question": "What are the four speaker output channels shown in the solid state amplifier section?",
+      "answer": "The four speaker output channels are Left Rear, Left Front, Right Rear, and Right Front.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-00-q07"
+    },
+    {
+      "question": "What switch is mounted on the back of the radio and what is its fuse rating?",
+      "answer": "There is a switch mounted on the back of the radio with a 7 AMP fuse.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500-00-q08"
+    }
+  ]
+}

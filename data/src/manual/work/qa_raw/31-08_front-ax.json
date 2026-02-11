@@ -1,0 +1,91 @@
+{
+  "page_id": "31-08_front-ax",
+  "image_path": "raw/31 - Front Axle/31-08.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:00:52.839879",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 798
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to remove the rubber mount from the control arm bracket?",
+      "answer": "Special Tool 31 2 130 is required to press the rubber mount out of the bracket.",
+      "question_type": "tool",
+      "id": "31-08_front-ax-q01"
+    },
+    {
+      "question": "What is the normal gap measurement for checking the rubber mount?",
+      "answer": "The normal value A is 0.7 to 1.7 mm (0.028 to 0.067 inches) when measured with a feeler gauge blade.",
+      "question_type": "inspection",
+      "id": "31-08_front-ax-q02"
+    },
+    {
+      "question": "What should you do if the measured gap value deviates from the nominal value?",
+      "answer": "If the measured value deviates from the nominal value, replace the rubber mount.",
+      "question_type": "diagnostic",
+      "id": "31-08_front-ax-q03"
+    },
+    {
+      "question": "What is important to remember when replacing rubber bearings?",
+      "answer": "Always replace rubber bearings on both sides and use bearings of same make (visible on bearing).",
+      "question_type": "procedural",
+      "id": "31-08_front-ax-q04"
+    },
+    {
+      "question": "How should the arrow on the rubber mount be positioned during installation?",
+      "answer": "The arrow on the rubber mount faces cast boss (1) on bracket.",
+      "question_type": "procedural",
+      "id": "31-08_front-ax-q05"
+    },
+    {
+      "question": "What cleaning requirement is specified before installation?",
+      "answer": "Bracket and rubber mount should be cleaned to remove grease.",
+      "question_type": "procedural",
+      "id": "31-08_front-ax-q06"
+    },
+    {
+      "question": "How are rubber mounts for 6 cylinder and M 3 models identified?",
+      "answer": "Rubber mounts for 6 cylinder and M 3 models are marked with an 'orange' paint dot (2).",
+      "question_type": "factual",
+      "id": "31-08_front-ax-q07"
+    },
+    {
+      "question": "What does callout number 1 indicate in the installation diagram?",
+      "answer": "Callout number 1 indicates the cast boss on the bracket where the arrow on the rubber mount should face.",
+      "question_type": "visual",
+      "id": "31-08_front-ax-q08"
+    },
+    {
+      "question": "What does callout number 2 point to in the diagram?",
+      "answer": "Callout number 2 points to the orange paint dot marking on rubber mounts for 6 cylinder and M 3 models.",
+      "question_type": "visual",
+      "id": "31-08_front-ax-q09"
+    },
+    {
+      "question": "From which end of the bracket should the rubber mount be pressed in during installation?",
+      "answer": "The rubber mount should be pressed into the bracket from the angled end of the bracket using Special Tool 31 2 130.",
+      "question_type": "procedural",
+      "id": "31-08_front-ax-q10"
+    },
+    {
+      "question": "What part number is associated with the control arm bracket removal and installation?",
+      "answer": "Part number 31 12 048 is associated with removing and installing the control arm bracket.",
+      "question_type": "factual",
+      "id": "31-08_front-ax-q11"
+    },
+    {
+      "question": "What position should the car be in when checking the rubber mount gap?",
+      "answer": "The car should be in normal position when checking the rubber mount gap measurement.",
+      "question_type": "inspection",
+      "id": "31-08_front-ax-q12"
+    }
+  ]
+}

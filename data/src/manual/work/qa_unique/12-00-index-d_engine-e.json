@@ -1,0 +1,55 @@
+{
+  "page_id": "12-00-index-d_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-00-index-d.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:20:06.622971",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 323
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number contains information about TDC position transmitter replacement or check?",
+      "answer": "Page 12-130",
+      "question_type": "navigation",
+      "id": "12-00-index-d_engine-e-q01"
+    },
+    {
+      "question": "On which page can I find the procedure for alternator troubleshooting?",
+      "answer": "Page 12-140",
+      "question_type": "navigation",
+      "id": "12-00-index-d_engine-e-q02"
+    },
+    {
+      "question": "What vehicle models does this Engine Electrical Equipment section cover?",
+      "answer": "Models 325 / 325 e / 325 es / 325 i / M 3",
+      "question_type": "factual",
+      "id": "12-00-index-d_engine-e-q03"
+    },
+    {
+      "question": "Where can I find information about spark plug connector replacement?",
+      "answer": "Pages 12-132 and 12-132/1",
+      "question_type": "navigation",
+      "id": "12-00-index-d_engine-e-q04"
+    },
+    {
+      "question": "What page covers the starter solenoid replacement procedure?",
+      "answer": "Page 12-152",
+      "question_type": "navigation",
+      "id": "12-00-index-d_engine-e-q05"
+    },
+    {
+      "question": "Which page contains the voltage regulator removal and installation procedure?",
+      "answer": "Page 12-143/2",
+      "question_type": "navigation",
+      "id": "12-00-index-d_engine-e-q06"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-11-36",
+  "image_path": "raw/00 - Torque Specs/11-36.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:43:40.602291",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 707
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the turbocharger to exhaust manifold with M21 bolts?",
+      "answer": "25 Nm for M21 bolts and 45 Nm for M30/M51/M41 bolts.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-36-q01"
+    },
+    {
+      "question": "What torque should I use for the ring nut to exhaust manifold connection?",
+      "answer": "220 Nm for the M30 ring nut to exhaust manifold.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-36-q02"
+    },
+    {
+      "question": "How much torque should be applied to the screws for the bypass valve?",
+      "answer": "10 Nm for the M30 screws to bypass valve with M6 bolts.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-36-q04"
+    },
+    {
+      "question": "What is the torque specification for the oil return flange to turbocharger?",
+      "answer": "22 Nm for the M30 oil return flange to turbocharger with M8 bolts.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-36-q06"
+    },
+    {
+      "question": "What torque should be used for the oil supply hollow bolt for the turbocharger and engine block?",
+      "answer": "25 Nm for the M51/M41 oil supply hollow bolt for turbocharger and engine block.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-36-q07"
+    },
+    {
+      "question": "Which turbocharger and control component has the highest torque specification?",
+      "answer": "The ring nut to exhaust manifold has the highest torque at 220 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-36-q10"
+    }
+  ]
+}

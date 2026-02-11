@@ -1,0 +1,37 @@
+{
+  "page_id": "bmwtorquespecs-086",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/086.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:28:33.612159",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 548
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum temperature range for the temperature switch to radiator (3AZ)?",
+      "answer": "91\u00b0C / 99\u00b0C max.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-086-q04"
+    },
+    {
+      "question": "Which components are listed under section 17-2 Radiator?",
+      "answer": "Radiator and Mounting Parts (17 11)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-086-q07"
+    },
+    {
+      "question": "What are the reference numbers for the radiator mounting components listed?",
+      "answer": "1AZ, 2AZ, 3AZ, and 4AZ",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-086-q09"
+    }
+  ]
+}

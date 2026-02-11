@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-5133-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/5133-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:01:01.760643",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 540
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of the power window circuit breaker?",
+      "answer": "The power window circuit breaker is rated at 25 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5133-00-q01"
+    },
+    {
+      "question": "Which fuse provides power to the power windows system?",
+      "answer": "Fuse 17 (30 AMP) in the power distribution box provides power to the power windows system.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5133-00-q02"
+    },
+    {
+      "question": "What wire color and gauge connects to the sunroof from the C302 accessory connector?",
+      "answer": "A 2.5 GN/BU wire connects from the C302 accessory connector to the sunroof.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5133-00-q03"
+    },
+    {
+      "question": "What is the wire gauge specification for the main power distribution line in the power window circuit?",
+      "answer": "The main power distribution line uses 1.5 GN/GY wire gauge.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5133-00-q04"
+    },
+    {
+      "question": "What ground point is used for the power window motors?",
+      "answer": "Ground point G200 is used for the power window motors.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5133-00-q05"
+    },
+    {
+      "question": "What type of motors are used for the driver's and RH front windows?",
+      "answer": "The driver's window uses a driver's window motor, and the RH front window uses an RH front window motor.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5133-00-q06"
+    },
+    {
+      "question": "What wire colors connect to terminals 13 and 14 on both window console switches?",
+      "answer": "Terminal 13 connects to a 2.5 VI wire and terminal 14 connects to a 1.5 BK wire on both console switches.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5133-00-q07"
+    },
+    {
+      "question": "What important note is mentioned about some vehicles in the power window circuit?",
+      "answer": "Some vehicles may contain an additional splice (see ground distribution).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-5133-00-q08"
+    }
+  ]
+}

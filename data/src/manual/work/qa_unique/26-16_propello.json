@@ -1,0 +1,79 @@
+{
+  "page_id": "26-16_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-16.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:57:42.533609",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1792,
+    "tokens_output": 700
+  },
+  "qa_pairs": [
+    {
+      "question": "What could cause drumming noise from 60 km/h (35 mph) on?",
+      "answer": "Possible causes include propeller shaft not aligned precisely or installed with stress - axial compensator, center damaged, runout on centering pin/transmission/final drive flanges, centering error due to worn flange bores, excessive propeller shaft imbalance with balance plate missing, or universal joints worn or seized.",
+      "question_type": "diagnostic",
+      "id": "26-16_propello-q01"
+    },
+    {
+      "question": "How do you correct propeller shaft alignment issues causing drumming noise?",
+      "answer": "Align propeller shaft or check movement of axial compensator, lubricating slide with Molykote Longterm 2 and tightening screw-on bushing to correct torque if necessary.",
+      "question_type": "procedural",
+      "id": "26-16_propello-q02"
+    },
+    {
+      "question": "What part number is used to replace a damaged center?",
+      "answer": "Replace center - 26 11 501",
+      "question_type": "factual",
+      "id": "26-16_propello-q03"
+    },
+    {
+      "question": "How should you check for runout on centering pin and flanges?",
+      "answer": "Check centering pin and flanges for runout with dial gage - see Specifications; offset or replace final drive flange.",
+      "question_type": "procedural",
+      "id": "26-16_propello-q04"
+    },
+    {
+      "question": "What causes center mount noise while driving?",
+      "answer": "Center mount not perpendicular to propeller shaft with no or insufficient preload, or center mount grooved ball bearing not okay.",
+      "question_type": "diagnostic",
+      "id": "26-16_propello-q05"
+    },
+    {
+      "question": "What is the correct preload specification for the center mount?",
+      "answer": "Preload center mount 4 to 6 mm (0.157 to 0.236\") in forward direction at right angle to propeller shaft.",
+      "question_type": "parameter",
+      "id": "26-16_propello-q06"
+    },
+    {
+      "question": "What part number is needed to replace the center mount grooved ball bearing?",
+      "answer": "Replace grooved ball bearing - 26 12 001",
+      "question_type": "factual",
+      "id": "26-16_propello-q07"
+    },
+    {
+      "question": "What section reference is given for propeller shaft balancing procedures?",
+      "answer": "Balance or replace propeller shaft - see 26 11 000",
+      "question_type": "navigation",
+      "id": "26-16_propello-q08"
+    },
+    {
+      "question": "What should you do if universal joints are worn or seized?",
+      "answer": "Check clearance and movement, replacing propeller shaft if necessary.",
+      "question_type": "procedural",
+      "id": "26-16_propello-q09"
+    },
+    {
+      "question": "What correction is needed for centering error due to worn flange bores?",
+      "answer": "Replace transmission or final drive flange.",
+      "question_type": "procedural",
+      "id": "26-16_propello-q10"
+    }
+  ]
+}

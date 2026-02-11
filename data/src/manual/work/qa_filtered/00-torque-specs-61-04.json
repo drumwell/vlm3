@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-61-04",
+  "image_path": "raw/00 - Torque Specs/61-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:05:04.588428",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 754
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for securing the wiper motor to the wiper bracket?",
+      "answer": "7.5 Nm (ft. lbs.) for E31LL/E38 type, and 10 Nm (ft. lbs.) for E36/E31RL type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-04-q01"
+    },
+    {
+      "question": "What torque should be applied to the parked position stop to wiper console?",
+      "answer": "15 Nm (ft. lbs.) for type E31.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-04-q02"
+    },
+    {
+      "question": "What is the correct torque for the wiper contact pressure motor to wiper console connection?",
+      "answer": "6.5 Nm (ft. lbs.) for types E31/E32/E34/E38.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-04-q03"
+    },
+    {
+      "question": "What M8 screw torque is specified for SWF motor crank to wiper motor?",
+      "answer": "27 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-04-q04"
+    },
+    {
+      "question": "What is the torque specification for the wiper shaft nut to body?",
+      "answer": "12 Nm (ft. lbs.) for types E31/E36/E32/E34.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-04-q06"
+    },
+    {
+      "question": "What M6 screw torque is required for the holder to firewall connection?",
+      "answer": "10 Nm (ft. lbs.) for type E31.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-04-q07"
+    },
+    {
+      "question": "What torque should be applied to screws in the firewall for E38/E39/E36 Coup\u00e9?",
+      "answer": "10 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-04-q08"
+    },
+    {
+      "question": "What section of the manual covers windshield wipers specifications?",
+      "answer": "Section 61 61 under General Electrical system (61-4).",
+      "question_type": "navigation",
+      "id": "00-torque-specs-61-04-q10"
+    }
+  ]
+}

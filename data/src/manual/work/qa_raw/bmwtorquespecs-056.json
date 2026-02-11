@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-056",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/056.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:22:59.260033",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 539
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the glow plug (1AZ)?",
+      "answer": "25 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-056-q01"
+    },
+    {
+      "question": "What is the torque value for the 4-inch glow plug (2AZ)?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-056-q03"
+    },
+    {
+      "question": "Which thread types are specified for the glow plug 4-inch component?",
+      "answer": "M21/M41/M51",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-056-q04"
+    },
+    {
+      "question": "What is the lowest torque specification shown on this page?",
+      "answer": "4 Nm for the wire to glow plug",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-056-q05",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What section number covers the glow plugs specifications?",
+      "answer": "12.23",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-056-q06"
+    },
+    {
+      "question": "How many different glow plug related components are listed in this table?",
+      "answer": "3 components: glow plug, glow plug 4-inch, and wire to glow plug",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-056-q07"
+    },
+    {
+      "question": "What is the thread specification for the wire to glow plug connection?",
+      "answer": "M21/M41/M51",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-056-q08"
+    },
+    {
+      "question": "Which component has the highest torque specification in this table?",
+      "answer": "The glow plug (1AZ) with 25 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-056-q09"
+    },
+    {
+      "question": "What unit of measurement is used for all torque specifications on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-056-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "41-311_body",
+  "image_path": "raw/41 - Body/41-311.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:58:38.714883",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 738
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the reinforcement corner on the tail panel?",
+      "answer": "Braze reinforcement corner on tail panel.",
+      "question_type": "procedural",
+      "id": "41-311_body-q01"
+    },
+    {
+      "question": "What is the proper finishing procedure for all welded joints?",
+      "answer": "Grind down all welded joints.",
+      "question_type": "procedural",
+      "id": "41-311_body-q02"
+    },
+    {
+      "question": "What coating should be applied to all welded joints after grinding?",
+      "answer": "Coat all welded joints with body sealing compound and spray with anti-drumming compound.",
+      "question_type": "procedural",
+      "id": "41-311_body-q03"
+    },
+    {
+      "question": "Where should anti-drumming compound be sprayed on the side panel/tail panel joint?",
+      "answer": "Spray anti-drumming compound on the side panel/tail panel joint underneath the bumper.",
+      "question_type": "procedural",
+      "id": "41-311_body-q04"
+    },
+    {
+      "question": "What are the two types of compounds that need to be applied to welded joints?",
+      "answer": "Body sealing compound and anti-drumming compound.",
+      "question_type": "factual",
+      "id": "41-311_body-q05"
+    },
+    {
+      "question": "Which figure shows the procedure for grinding welded joints?",
+      "answer": "Figure 30 41 062 shows the procedure for grinding welded joints.",
+      "question_type": "visual",
+      "id": "41-311_body-q06"
+    },
+    {
+      "question": "What is shown in figure 30 41 061?",
+      "answer": "Figure 30 41 061 shows brazing the reinforcement corner on the tail panel.",
+      "question_type": "visual",
+      "id": "41-311_body-q07"
+    },
+    {
+      "question": "What does the arrow indicate in figure 30 41 063?",
+      "answer": "The arrow in figure 30 41 063 indicates the direction for applying coating to the welded joints.",
+      "question_type": "visual",
+      "id": "41-311_body-q08"
+    },
+    {
+      "question": "What specific area is highlighted for anti-drumming compound application in the bottom figure?",
+      "answer": "The side panel/tail panel joint underneath the bumper area is highlighted for anti-drumming compound application.",
+      "question_type": "visual",
+      "id": "41-311_body-q09"
+    },
+    {
+      "question": "What is the source reference noted at the bottom of the page?",
+      "answer": "The source reference is HWB.",
+      "question_type": "factual",
+      "id": "41-311_body-q10"
+    },
+    {
+      "question": "What figure number corresponds to the anti-drumming compound application underneath the bumper?",
+      "answer": "Figure 30 41 064 shows the anti-drumming compound application underneath the bumper.",
+      "question_type": "visual",
+      "id": "41-311_body-q11"
+    },
+    {
+      "question": "In what sequence should the welded joints be processed?",
+      "answer": "First grind down all welded joints, then coat them with body sealing compound and spray with anti-drumming compound.",
+      "question_type": "procedural",
+      "id": "41-311_body-q12"
+    }
+  ]
+}

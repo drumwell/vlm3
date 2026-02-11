@@ -1,0 +1,85 @@
+{
+  "page_id": "00-torque-specs-061",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/061.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:27:42.698515",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 574
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the holder for modules?",
+      "answer": "9 Nm with M6 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-061-q01"
+    },
+    {
+      "question": "What torque value should be used for ground connections flange nut?",
+      "answer": "16 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-061-q02"
+    },
+    {
+      "question": "What is the torque specification for the cover on heating splash wall?",
+      "answer": "1.1 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-061-q03"
+    },
+    {
+      "question": "Which component has the highest torque specification in this table?",
+      "answer": "The ground connections flange nut at 16 Nm.",
+      "question_type": "comparison",
+      "id": "00-torque-specs-061-q04",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "Which component has the lowest torque specification in this table?",
+      "answer": "The cover on heating splash wall at 1.1 Nm.",
+      "question_type": "comparison",
+      "id": "00-torque-specs-061-q05",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What type designation applies to all the plug connectors and terminals listed?",
+      "answer": "E36 type designation applies to all listed components.",
+      "question_type": "factual",
+      "id": "00-torque-specs-061-q06"
+    },
+    {
+      "question": "What screw size is specified for the holder for modules?",
+      "answer": "M6 screw size.",
+      "question_type": "factual",
+      "id": "00-torque-specs-061-q07"
+    },
+    {
+      "question": "How many different torque specifications are listed for plug connectors and terminals?",
+      "answer": "Three different torque specifications: 9 Nm, 16 Nm, and 1.1 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-061-q08"
+    },
+    {
+      "question": "What section and subsection does this torque specification table belong to?",
+      "answer": "Section 12-11 Engine Electrical Equipment, subsection 12 52 Plug Connectors, Terminals.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-061-q09"
+    },
+    {
+      "question": "What units are used for all torque specifications in this table?",
+      "answer": "All torque specifications are given in Newton meters (Nm).",
+      "question_type": "factual",
+      "id": "00-torque-specs-061-q10"
+    }
+  ]
+}

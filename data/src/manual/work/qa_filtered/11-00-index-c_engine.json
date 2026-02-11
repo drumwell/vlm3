@@ -1,0 +1,55 @@
+{
+  "page_id": "11-00-index-c_engine",
+  "image_path": "raw/11 - Engine/11-00-index-c.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:06:48.630951",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1874,
+    "tokens_output": 335
+  },
+  "qa_pairs": [
+    {
+      "question": "What chapter section is this page from?",
+      "answer": "This page is from Chapter 11 Engine.",
+      "question_type": "navigation",
+      "id": "11-00-index-c_engine-q01"
+    },
+    {
+      "question": "Which engine models are covered in this section?",
+      "answer": "This section covers the Engine M3 / 320is models.",
+      "question_type": "factual",
+      "id": "11-00-index-c_engine-q02"
+    },
+    {
+      "question": "What page number contains the engine view information?",
+      "answer": "The engine view information is found on page 11-100.",
+      "question_type": "navigation",
+      "id": "11-00-index-c_engine-q03"
+    },
+    {
+      "question": "On which page can I find the compression check procedure for all cylinders?",
+      "answer": "The compression of all cylinders check procedure is on page 11-101.",
+      "question_type": "navigation",
+      "id": "11-00-index-c_engine-q04"
+    },
+    {
+      "question": "What are the two oil pan sections referenced in this index?",
+      "answer": "The two oil pan sections are the oil pan upper section and oil pan lower section, both with remove and install procedures.",
+      "question_type": "component",
+      "id": "11-00-index-c_engine-q05"
+    },
+    {
+      "question": "Which page covers cylinder head removal and installation?",
+      "answer": "Cylinder head removal and installation is covered on page 11-106.",
+      "question_type": "navigation",
+      "id": "11-00-index-c_engine-q06"
+    }
+  ]
+}

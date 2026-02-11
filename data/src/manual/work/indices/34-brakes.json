@@ -1,0 +1,388 @@
+{
+  "section_id": "34",
+  "section_name": "Brakes",
+  "index_pages": [
+    "34-00-index-a.jpg",
+    "34-00-index-b.jpg",
+    "34-00-index-c.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "000",
+      "name": "Brake booster and tandem brake master cylinder - remove and install",
+      "pages": [
+        "34-15"
+      ]
+    },
+    {
+      "code": "012",
+      "name": "Tandem brake master cylinder - remove and install",
+      "pages": [
+        "34-12"
+      ]
+    },
+    {
+      "code": "020",
+      "name": "Front brake pads - remove and install",
+      "pages": [
+        "34-4"
+      ]
+    },
+    {
+      "code": "046",
+      "name": "Brakes - check (high and low pressure tests)",
+      "pages": [
+        "34-1"
+      ]
+    },
+    {
+      "code": "047",
+      "name": "Brakes - bleed",
+      "pages": [
+        "34-2"
+      ]
+    },
+    {
+      "code": "051",
+      "name": "Brake booster - replace",
+      "pages": [
+        "34-16"
+      ]
+    },
+    {
+      "code": "071",
+      "name": "Brake booster check valve - replace",
+      "pages": [
+        "34-16"
+      ]
+    },
+    {
+      "code": "100",
+      "name": "Brake force regulator - check",
+      "pages": [
+        "34-17",
+        "34-19"
+      ]
+    },
+    {
+      "code": "104",
+      "name": "Tandem brake master cylinder - overhaul",
+      "pages": [
+        "34-12"
+      ]
+    },
+    {
+      "code": "200",
+      "name": "Rear brake pads - remove and install",
+      "pages": [
+        "34-20",
+        "34-7"
+      ]
+    },
+    {
+      "code": "220",
+      "name": "Front brake calipers - remove and install",
+      "pages": [
+        "34-4",
+        "34-8"
+      ]
+    },
+    {
+      "code": "292",
+      "name": "Rear brake calipers - overhaul",
+      "pages": [
+        "34-9"
+      ]
+    },
+    {
+      "code": "330",
+      "name": "Rear brake discs - remove and install",
+      "pages": [
+        "34-10"
+      ]
+    },
+    {
+      "code": "34 00 009",
+      "name": "Introduction",
+      "pages": [
+        "34-1"
+      ]
+    },
+    {
+      "code": "34 10 014",
+      "name": "Brakes - bleed (ABS)",
+      "pages": [
+        "34-2"
+      ]
+    },
+    {
+      "code": "34 11 000",
+      "name": "Parking brake - adjust",
+      "pages": [
+        "34-3"
+      ]
+    },
+    {
+      "code": "34 21 530",
+      "name": "Front brake discs - grind",
+      "pages": [
+        "34-5"
+      ]
+    },
+    {
+      "code": "34 31 000",
+      "name": "Brake pipe/hose layout",
+      "pages": [
+        "34-10"
+      ]
+    },
+    {
+      "code": "34 32 361",
+      "name": "Stop light switch - adjust",
+      "pages": [
+        "34-13"
+      ]
+    },
+    {
+      "code": "34 33 000",
+      "name": "Brake hose, rear - replace",
+      "pages": [
+        "34-14"
+      ]
+    },
+    {
+      "code": "34 34 099",
+      "name": "Brake booster vacuum hose - replace",
+      "pages": [
+        "34-16"
+      ]
+    },
+    {
+      "code": "34 41 000",
+      "name": "Brake force regulator - remove and install",
+      "pages": [
+        "34-18"
+      ]
+    },
+    {
+      "code": "34 50 000",
+      "name": "ABS - check",
+      "pages": [
+        "34-28"
+      ]
+    },
+    {
+      "code": "34 51 520",
+      "name": "Hydraulic control unit - remove and install / replace",
+      "pages": [
+        "34-29"
+      ]
+    },
+    {
+      "code": "34 52 510",
+      "name": "ABS electronic control unit - remove and install / replace",
+      "pages": [
+        "34-30"
+      ]
+    },
+    {
+      "code": "34 52 520",
+      "name": "Acceleration sensor - remove and install or replace (325 IX)",
+      "pages": [
+        "34-31b"
+      ]
+    },
+    {
+      "code": "381",
+      "name": "Brake pipes - replace",
+      "pages": [
+        "34-14"
+      ]
+    },
+    {
+      "code": "451",
+      "name": "Brake hose, front - replace",
+      "pages": [
+        "34-14"
+      ]
+    },
+    {
+      "code": "519",
+      "name": "Brakes - check on test stand",
+      "pages": [
+        "34-1"
+      ]
+    },
+    {
+      "code": "522",
+      "name": "ABS pulse sensor, rear - remove and install / replace",
+      "pages": [
+        "34-32"
+      ]
+    },
+    {
+      "code": "569",
+      "name": "Front brake discs - remove and install",
+      "pages": [
+        "34-5"
+      ]
+    },
+    {
+      "code": "600",
+      "name": "Rear brake shoes - remove and install",
+      "pages": [
+        "34-6"
+      ]
+    },
+    {
+      "code": "61 11 530",
+      "name": "ABS wire harness - replace",
+      "pages": [
+        "34-30"
+      ]
+    },
+    {
+      "code": "61 12 510",
+      "name": "ABS pulse sensor, front - remove and install / replace",
+      "pages": [
+        "34-32"
+      ]
+    },
+    {
+      "code": "61 31 570",
+      "name": "ABS hydraulic control unit relay - replace",
+      "pages": [
+        "34-33"
+      ]
+    },
+    {
+      "code": "62 99 080",
+      "name": "ABS indicator lamp - replace",
+      "pages": [
+        "34-33"
+      ]
+    },
+    {
+      "code": "657",
+      "name": "Front brake discs - check runout and difference in thickness",
+      "pages": [
+        "34-5"
+      ]
+    },
+    {
+      "code": "879",
+      "name": "Rear brake discs - check runout and difference in thickness",
+      "pages": [
+        "34-10"
+      ]
+    },
+    {
+      "code": "947",
+      "name": "Rear brake discs - grind",
+      "pages": [
+        "34-10"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "34-15": [
+      "000"
+    ],
+    "34-12": [
+      "012",
+      "104"
+    ],
+    "34-4": [
+      "020",
+      "220"
+    ],
+    "34-1": [
+      "046",
+      "34 00 009",
+      "519"
+    ],
+    "34-2": [
+      "047",
+      "34 10 014"
+    ],
+    "34-16": [
+      "051",
+      "071",
+      "34 34 099"
+    ],
+    "34-17": [
+      "100"
+    ],
+    "34-19": [
+      "100"
+    ],
+    "34-20": [
+      "200"
+    ],
+    "34-7": [
+      "200"
+    ],
+    "34-8": [
+      "220"
+    ],
+    "34-9": [
+      "292"
+    ],
+    "34-10": [
+      "330",
+      "34 31 000",
+      "879",
+      "947"
+    ],
+    "34-3": [
+      "34 11 000"
+    ],
+    "34-5": [
+      "34 21 530",
+      "569",
+      "657"
+    ],
+    "34-13": [
+      "34 32 361"
+    ],
+    "34-14": [
+      "34 33 000",
+      "381",
+      "451"
+    ],
+    "34-18": [
+      "34 41 000"
+    ],
+    "34-28": [
+      "34 50 000"
+    ],
+    "34-29": [
+      "34 51 520"
+    ],
+    "34-30": [
+      "34 52 510",
+      "61 11 530"
+    ],
+    "34-31b": [
+      "34 52 520"
+    ],
+    "34-32": [
+      "522",
+      "61 12 510"
+    ],
+    "34-6": [
+      "600"
+    ],
+    "34-33": [
+      "61 31 570",
+      "62 99 080"
+    ]
+  },
+  "merge_warnings": [
+    "Code 220: name mismatch 'Front brake calipers - remove and install' vs 'Rear brake calipers - remove and install'",
+    "Code 100: name mismatch 'Brake force regulator - check' vs 'Parking brake lever - remove and install'",
+    "Code 200: name mismatch 'Rear brake pads - remove and install' vs 'Parking brake cable - remove and install'",
+    "Code 200: name mismatch 'Rear brake pads - remove and install' vs 'Parking brake cable - remove and install (rear brake discs)'",
+    "Code 200: name mismatch 'Rear brake pads - remove and install' vs 'Parking brake shoes - remove and install'"
+  ]
+}

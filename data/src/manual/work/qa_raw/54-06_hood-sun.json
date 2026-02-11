@@ -1,0 +1,91 @@
+{
+  "page_id": "54-06_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-06.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:40:08.544408",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 768
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure section number for replacing both drive cables for electric sun roof?",
+      "answer": "54 12 241",
+      "question_type": "factual",
+      "id": "54-06_hood-sun-q01"
+    },
+    {
+      "question": "Which related procedures should be removed and installed when replacing sun roof drive cables?",
+      "answer": "Remove and install sun roof lid 54 12 100, and remove and install motor/gear unit for sun roof 54 13 010.",
+      "question_type": "procedural",
+      "id": "54-06_hood-sun-q02"
+    },
+    {
+      "question": "What is the first step to remove the drive cables from the sunroof?",
+      "answer": "Unscrew left and right bolts, remove cover rails and guide pins, with guide pins marked L = left or R = right.",
+      "question_type": "procedural",
+      "id": "54-06_hood-sun-q03"
+    },
+    {
+      "question": "How should the guide pins be identified during removal?",
+      "answer": "Guide pins are marked L = left or R = right.",
+      "question_type": "factual",
+      "id": "54-06_hood-sun-q04"
+    },
+    {
+      "question": "What should you do after removing the cover rails and guide pins?",
+      "answer": "Pull drive cables out of guide tubes.",
+      "question_type": "procedural",
+      "id": "54-06_hood-sun-q05"
+    },
+    {
+      "question": "What tool size hexagon key is required for installation?",
+      "answer": "A 4 mm hexagon key is required.",
+      "question_type": "tool",
+      "id": "54-06_hood-sun-q06"
+    },
+    {
+      "question": "Where should the 4 mm hexagon key be placed during installation?",
+      "answer": "Place the 4 mm hexagon key in holder of guide pin on left and right sides and insert in holes of operating lever and gate.",
+      "question_type": "procedural",
+      "id": "54-06_hood-sun-q07"
+    },
+    {
+      "question": "What should be done with the motor/gear unit during installation?",
+      "answer": "Set motor/gear unit to 0 and tighten bolts (54 13 010).",
+      "question_type": "procedural",
+      "id": "54-06_hood-sun-q08"
+    },
+    {
+      "question": "What do the numbered callouts 1, 2, 3, and 4 indicate in the bottom installation diagram?",
+      "answer": "The callouts show the sequence for placing the hexagon key (1), in the guide pin holder (2), inserting into operating lever holes (3), and gate (4).",
+      "question_type": "visual",
+      "id": "54-06_hood-sun-q09"
+    },
+    {
+      "question": "What action is shown in the top right diagram with callout number 2?",
+      "answer": "Press gate off of drive cable.",
+      "question_type": "visual",
+      "id": "54-06_hood-sun-q10"
+    },
+    {
+      "question": "What reference number is associated with the motor/gear unit tightening procedure?",
+      "answer": "54 13 010",
+      "question_type": "factual",
+      "id": "54-06_hood-sun-q11"
+    },
+    {
+      "question": "How do you remove the drive cables from their guide system?",
+      "answer": "First unscrew left and right bolts, remove cover rails and guide pins, then pull drive cables out of guide tubes.",
+      "question_type": "procedural",
+      "id": "54-06_hood-sun-q12"
+    }
+  ]
+}

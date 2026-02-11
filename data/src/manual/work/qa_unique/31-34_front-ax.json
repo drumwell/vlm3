@@ -1,0 +1,91 @@
+{
+  "page_id": "31-34_front-ax",
+  "image_path": "raw/31 - Front Axle/31-34.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:02:29.057722",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 765
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW part number for the special tool used in differential replacement?",
+      "answer": "Special Tool 33 1 309 is used for placing the differential during installation.",
+      "question_type": "tool",
+      "id": "31-34_front-ax-q01"
+    },
+    {
+      "question": "What component is identified as item 5 in the differential cross-section diagram?",
+      "answer": "Item 5 is the Differential case.",
+      "question_type": "visual",
+      "id": "31-34_front-ax-q02"
+    },
+    {
+      "question": "What procedure is described for removing the differential for front axle final drive removal?",
+      "answer": "Remove differential for front axle final drive according to procedure 31 53 500.",
+      "question_type": "procedural",
+      "id": "31-34_front-ax-q03"
+    },
+    {
+      "question": "What type of jaws should be used when clamping the differential in a vise?",
+      "answer": "Clamp differential in vise fitted with aluminum jaws.",
+      "question_type": "safety",
+      "id": "31-34_front-ax-q04"
+    },
+    {
+      "question": "What are the bolt specifications for installing the differential on Special Tool 33 1 309?",
+      "answer": "Screw two M 10 x 50 bolts into tapped bores against stop.",
+      "question_type": "factual",
+      "id": "31-34_front-ax-q05"
+    },
+    {
+      "question": "How should the ring gear be loosened from the differential case?",
+      "answer": "Loosen ring gear on differential case by applying alternating knocks on the bolts.",
+      "question_type": "procedural",
+      "id": "31-34_front-ax-q06"
+    },
+    {
+      "question": "What components are identified as items 1, 2, and 3 in the installation diagram?",
+      "answer": "Item 1 is M 10 x 50 bolt, item 2 is Washer, and item 3 is M 10 nut.",
+      "question_type": "visual",
+      "id": "31-34_front-ax-q07"
+    },
+    {
+      "question": "What is component number 8 in the differential bearing diagram?",
+      "answer": "Component 8 is the Ring gear bolt.",
+      "question_type": "visual",
+      "id": "31-34_front-ax-q08"
+    },
+    {
+      "question": "What installation procedure is specified for the ring gear?",
+      "answer": "Clean tapped bores of ring gear with a tapper. Pull ring gear on to differential case by tightening both nuts uniformly.",
+      "question_type": "procedural",
+      "id": "31-34_front-ax-q09"
+    },
+    {
+      "question": "What component is labeled as item 12 in the differential assembly?",
+      "answer": "Item 12 is identified as Shim.",
+      "question_type": "visual",
+      "id": "31-34_front-ax-q10"
+    },
+    {
+      "question": "What is the first step mentioned for differential removal?",
+      "answer": "Unscrew bolts as the first step in the removal process.",
+      "question_type": "procedural",
+      "id": "31-34_front-ax-q11"
+    },
+    {
+      "question": "What are components 9 and 10 in the differential cross-section?",
+      "answer": "Component 9 is the O ring and component 10 is the Circlip.",
+      "question_type": "visual",
+      "id": "31-34_front-ax-q12"
+    }
+  ]
+}

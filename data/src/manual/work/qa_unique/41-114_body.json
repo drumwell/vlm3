@@ -1,0 +1,79 @@
+{
+  "page_id": "41-114_body",
+  "image_path": "raw/41 - Body/41-114.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:44:41.283351",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 754
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum distance A that the cutting line must be from the B pillar connection?",
+      "answer": "The cutting line must be at least distance A = 30 mm (1.181\") away from B pillar connection.",
+      "question_type": "factual",
+      "id": "41-114_body-q01"
+    },
+    {
+      "question": "What procedure is described in section 41 11 121?",
+      "answer": "Section 41 11 121 describes replacing cover for left or right side member (partial replacement without removal of door).",
+      "question_type": "factual",
+      "id": "41-114_body-q02"
+    },
+    {
+      "question": "What preparation steps are required before marking cutting lines?",
+      "answer": "Remove front seat 52 10 000, remove inner and outer entrance rail plates, edge guard of front door opening and seat belt on entrance rail, then fold back carpet partially.",
+      "question_type": "procedural",
+      "id": "41-114_body-q03"
+    },
+    {
+      "question": "What welding preparation is required after cutting through the cover?",
+      "answer": "Straighten and grind mating surfaces, then coat surfaces for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-114_body-q05"
+    },
+    {
+      "question": "Where should the cut be made in relation to the connecting surfaces and shoulder?",
+      "answer": "Make cut in rear of connecting surfaces and shoulder with a shouldering pliers.",
+      "question_type": "procedural",
+      "id": "41-114_body-q07"
+    },
+    {
+      "question": "What should be done with scrap metal during the removal process?",
+      "answer": "Remove scrap metal after drilling out spot welds.",
+      "question_type": "procedural",
+      "id": "41-114_body-q08"
+    },
+    {
+      "question": "What special characteristic does the cover have along its edge?",
+      "answer": "The cover is brazed along the edge.",
+      "question_type": "factual",
+      "id": "41-114_body-q09"
+    },
+    {
+      "question": "At what location should you cut through the cover on connection of A pillar?",
+      "answer": "Cut through cover on connection of A pillar as shown in the diagram.",
+      "question_type": "procedural",
+      "id": "41-114_body-q10"
+    },
+    {
+      "question": "What tools are implied to be needed for this repair procedure?",
+      "answer": "Drill for spot welds, cutting tools, grinder for mating surfaces, and shouldering pliers are needed.",
+      "question_type": "tool",
+      "id": "41-114_body-q11"
+    },
+    {
+      "question": "What type of replacement method is this procedure for?",
+      "answer": "This is a partial replacement method that can be performed without removal of the door.",
+      "question_type": "factual",
+      "id": "41-114_body-q12"
+    }
+  ]
+}

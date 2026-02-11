@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6313-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:05:47.462740",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 541
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the wire gauge specification shown for the main power feed to the turn signal switch?",
+      "answer": "1.5 GN/VL",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-01-q01"
+    },
+    {
+      "question": "What are the two wire specifications shown coming from connector C202?",
+      "answer": "1.5 BU/RD and 1.5 BU/BK",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-01-q02"
+    },
+    {
+      "question": "Which ground distribution points are labeled S324 in this circuit?",
+      "answer": "There are two ground distribution points labeled S324, one connected to the left side turn indicators and one connected to the right side turn indicators.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-01-q03"
+    },
+    {
+      "question": "What connector designation is shown for the turn signal/combination switch?",
+      "answer": "Connector 54 is shown for the turn signal/combination switch.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-01-q04"
+    },
+    {
+      "question": "What wire gauge is used for the connection between S211 and the rear light assemblies?",
+      "answer": "1 BU/RD wire gauge is used for connections to both the left rear and right rear light assemblies from S211.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-01-q05"
+    },
+    {
+      "question": "What ground distribution points are connected to the instrument cluster printed circuit?",
+      "answer": "Ground distribution points G200 and G206 are connected to the instrument cluster printed circuit.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-01-q06"
+    },
+    {
+      "question": "What important note is provided at the bottom of the diagram regarding additional splices?",
+      "answer": "Some vehicles may contain an additional splice (see ground distribution).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-01-q07"
+    },
+    {
+      "question": "What are the wire specifications for the connections between the front turn signal lights and their respective ground distributions?",
+      "answer": "The left front turn signal light uses 1.5 BR to ground distribution G300, and the right front turn signal light uses 1.5 BR to ground distribution G300.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6313-01-q08"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-00-05",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/00-05.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:06:14.203686",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1891,
+    "tokens_output": 497
+  },
+  "qa_pairs": [
+    {
+      "question": "What does a dashed line between switches indicate?",
+      "answer": "A dashed line shows a mechanical connection between switches that move together.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-05-q01"
+    },
+    {
+      "question": "What wire color designation is shown for the connector terminal in the start relay example?",
+      "answer": "75 BR/BK is shown as the connector terminal wire color designation.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-05-q02"
+    },
+    {
+      "question": "What does the symbol with two connections in the same connector represent?",
+      "answer": "Two connections (pins) in the same connector, where a dashed line shows parts of the same connector.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-05-q03"
+    },
+    {
+      "question": "In the ignition switch diagram, which position has 'R' energized?",
+      "answer": "'R' is energized in ACCY, RUN or START positions according to the two pole, four position switch diagram.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-05-q04"
+    },
+    {
+      "question": "What happens when the relay coil is energized according to the relay symbol explanation?",
+      "answer": "When the coil is energized, the switch is pulled closed.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-05-q05"
+    },
+    {
+      "question": "What ground distribution points are shown at the bottom of the page?",
+      "answer": "Ground distribution points G101 and G102 are shown, with G101 at 2.5 BR.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-05-q06"
+    },
+    {
+      "question": "What is the purpose of the resistor across the coil in relay symbols?",
+      "answer": "The resistor across coil is for noise suppression.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-05-q07"
+    },
+    {
+      "question": "What does the arrow indicate in current path diagrams?",
+      "answer": "The arrow shows direction of current flow and is repeated where current path continues.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-05-q08"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "page_id": "bmwtorquespecs-041",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/041.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:20:14.896081",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 511
+  },
+  "qa_pairs": [
+    {
+      "question": "Under which main engine section is the fan component listed?",
+      "answer": "11 - 31 Engine",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-041-q07"
+    }
+  ]
+}

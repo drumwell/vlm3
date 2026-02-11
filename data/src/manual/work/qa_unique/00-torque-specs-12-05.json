@@ -1,0 +1,25 @@
+{
+  "page_id": "00-torque-specs-12-05",
+  "image_path": "raw/00 - Torque Specs/12-05.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:47:29.494735",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 596
+  },
+  "qa_pairs": [
+    {
+      "question": "Which preheating relay component has the higher torque specification?",
+      "answer": "The terminal 30 wire to glow plug relay has the higher torque specification at 4 Nm compared to 2 Nm for the 80 A fuse.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-05-q06"
+    }
+  ]
+}

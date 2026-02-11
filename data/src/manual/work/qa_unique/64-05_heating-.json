@@ -1,0 +1,67 @@
+{
+  "page_id": "64-05_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-05.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:52:35.400755",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1756,
+    "tokens_output": 593
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is identified as number 1 on the discharging and charging station?",
+      "answer": "Number 1 is the Pull-out carrying handle.",
+      "question_type": "component",
+      "id": "64-05_heating--q01"
+    },
+    {
+      "question": "What are the three different types of charging hoses shown in the diagram?",
+      "answer": "The three charging hoses are: blue hose for \"low pressure\" (14), red hose for \"high pressure\" (15), and white charging hose (16).",
+      "question_type": "component",
+      "id": "64-05_heating--q02"
+    },
+    {
+      "question": "Which components are used for pressure measurement on this charging station?",
+      "answer": "The pressure measurement components are the low pressure gage (3), pressure gage \"charging pressure\" (20), and pressure gage \"high pressure\" (21).",
+      "question_type": "component",
+      "id": "64-05_heating--q03"
+    },
+    {
+      "question": "What is component number 11 in the discharging and charging station?",
+      "answer": "Component number 11 is the Vacuum pump.",
+      "question_type": "component",
+      "id": "64-05_heating--q04"
+    },
+    {
+      "question": "What type of valves are used for controlling different pressures in the system?",
+      "answer": "The system uses several valves including: vacuum valve (4), charging valve \"low pressure\" (5), shut-off valve (6), gas ballast valve (8), shut-off valve for compressor oil (10), and Schrader valve (19).",
+      "question_type": "component",
+      "id": "64-05_heating--q05"
+    },
+    {
+      "question": "Where is the volume scale located on the charging station?",
+      "answer": "The volume scale is component number 18, located on the upper right portion of the charging station.",
+      "question_type": "visual",
+      "id": "64-05_heating--q06"
+    },
+    {
+      "question": "What components are used for different types of charging operations?",
+      "answer": "For charging operations, the station has charging valve \"gas\" (22), charging valve \"high pressure\" (23), charging valve \"liquid\" (24), charging valve \"refrigerant\" (25), and charging cylinder (26).",
+      "question_type": "component",
+      "id": "64-05_heating--q07"
+    },
+    {
+      "question": "What is the purpose of component 17 shown at the bottom of the station?",
+      "answer": "Component 17 is the Power cord for the discharging and charging station.",
+      "question_type": "component",
+      "id": "64-05_heating--q08"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "getrag-018",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/018.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:45:44.104614",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1945,
+    "tokens_output": 648
+  },
+  "qa_pairs": [
+    {
+      "question": "What part number is visible on this transmission housing component?",
+      "answer": "The part number 262010E500 is visible on the transmission housing component.",
+      "question_type": "factual",
+      "id": "getrag-018-q01"
+    },
+    {
+      "question": "What tool is being used to clean this transmission component?",
+      "answer": "A wire brush with brass bristles is being used to clean the transmission component.",
+      "question_type": "tool",
+      "id": "getrag-018-q02"
+    },
+    {
+      "question": "How many circular openings or ports are visible on the bottom face of this component?",
+      "answer": "There are approximately 4-5 circular openings or ports visible on the bottom face of the transmission housing component.",
+      "question_type": "visual",
+      "id": "getrag-018-q04"
+    },
+    {
+      "question": "What material appears to be used for the transmission housing construction?",
+      "answer": "The transmission housing appears to be made of cast aluminum alloy, as evidenced by its metallic finish and casting marks.",
+      "question_type": "component",
+      "id": "getrag-018-q06"
+    },
+    {
+      "question": "What section of the service manual does this image relate to?",
+      "answer": "This image relates to the Getrag265:5_Rebuild_Shift section of the BMW E30 M3 Service Manual.",
+      "question_type": "navigation",
+      "id": "getrag-018-q07"
+    },
+    {
+      "question": "What is the purpose of the wire brush cleaning shown?",
+      "answer": "The wire brush cleaning is used to remove old gasket material, debris, and contaminants from sealing surfaces and internal passages during transmission rebuild procedures.",
+      "question_type": "procedural",
+      "id": "getrag-018-q08"
+    },
+    {
+      "question": "What type of bristles does the cleaning brush have?",
+      "answer": "The cleaning brush has brass bristles, which are visible as the golden-colored bristles on the black-handled brush.",
+      "question_type": "tool",
+      "id": "getrag-018-q09"
+    },
+    {
+      "question": "Where is this transmission component positioned during cleaning?",
+      "answer": "The transmission component is positioned on a wooden workbench surface during the cleaning procedure.",
+      "question_type": "procedural",
+      "id": "getrag-018-q10"
+    }
+  ]
+}

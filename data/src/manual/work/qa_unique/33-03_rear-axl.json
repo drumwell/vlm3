@@ -1,0 +1,85 @@
+{
+  "page_id": "33-03_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-03.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:07:58.526918",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 733
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the rubber mount for the final drive?",
+      "answer": "The procedure number is 33 17 001.",
+      "question_type": "factual",
+      "id": "33-03_rear-axl-q01"
+    },
+    {
+      "question": "What special tool is required for pressing out and pulling in the rubber mount?",
+      "answer": "Special Tool 33 2 120 is required for both pressing out and pulling in the rubber mount.",
+      "question_type": "tool",
+      "id": "33-03_rear-axl-q02"
+    },
+    {
+      "question": "What should you do before removing the rubber mount mounting bolt?",
+      "answer": "Pull off wires on speed pulse transmitter before removing the rubber mount mounting bolt.",
+      "question_type": "procedural",
+      "id": "33-03_rear-axl-q03"
+    },
+    {
+      "question": "What type of nuts should be replaced during installation of the rubber mount?",
+      "answer": "Replace self-locking nuts during installation.",
+      "question_type": "procedural",
+      "id": "33-03_rear-axl-q04"
+    },
+    {
+      "question": "What important check must be performed after installing the rubber mount?",
+      "answer": "Check the installed position of the rubber mount to ensure it is properly positioned.",
+      "question_type": "inspection",
+      "id": "33-03_rear-axl-q05"
+    },
+    {
+      "question": "What condition might indicate the rubber mount is eccentric?",
+      "answer": "If the rubber mount is eccentric, make sure the special tool is applied correctly.",
+      "question_type": "diagnostic",
+      "id": "33-03_rear-axl-q06"
+    },
+    {
+      "question": "What are the initial steps for replacing the rubber mount?",
+      "answer": "Loosen nuts on rear axle carrier and support the final drive.",
+      "question_type": "procedural",
+      "id": "33-03_rear-axl-q07"
+    },
+    {
+      "question": "What should be done with the tightening torque during installation?",
+      "answer": "Apply the tightening torque as specified (marked with asterisk indicating reference to specifications).",
+      "question_type": "procedural",
+      "id": "33-03_rear-axl-q08"
+    },
+    {
+      "question": "What does the bottom image show in relation to the final drive?",
+      "answer": "The bottom image shows the lower final drive assembly and the installed position of the rubber mount.",
+      "question_type": "visual",
+      "id": "33-03_rear-axl-q10"
+    },
+    {
+      "question": "Where can additional specifications for this procedure be found?",
+      "answer": "Additional specifications can be found in the Specifications section, as indicated by the asterisk and note at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "33-03_rear-axl-q11"
+    },
+    {
+      "question": "What safety consideration is noted regarding the special tool application?",
+      "answer": "The note emphasizes that if the rubber mount is eccentric, make sure the special tool is applied correctly to avoid improper installation.",
+      "question_type": "safety",
+      "id": "33-03_rear-axl-q12"
+    }
+  ]
+}

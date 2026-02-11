@@ -1,0 +1,91 @@
+{
+  "page_id": "41-015_body",
+  "image_path": "raw/41 - Body/41-015.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:37:40.552545",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 821
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you use to remove irregularities after grinding the repaired area?",
+      "answer": "Remove irregularities with a glass fiber putty.",
+      "question_type": "procedural",
+      "id": "41-015_body-q01"
+    },
+    {
+      "question": "What is the approximate hardening time for 1 mm (0.039\") coat of laminate under an ultraviolet lamp?",
+      "answer": "Approximately 2 minutes.",
+      "question_type": "factual",
+      "id": "41-015_body-q02"
+    },
+    {
+      "question": "What important safety consideration is mentioned regarding the chemical reaction during UV lamp treatment?",
+      "answer": "Chemical reaction produces heat, which could lead to self-destruction of the laminate. If necessary, interrupt the ultraviolet lamp treatment occasionally.",
+      "question_type": "safety",
+      "id": "41-015_body-q03"
+    },
+    {
+      "question": "What should you do in case of large damage before applying the repair material?",
+      "answer": "In case of large damage, cover the inside of the hole with the pulled off sheet and hold it with a piece of metal or something similar until hardening is finished.",
+      "question_type": "procedural",
+      "id": "41-015_body-q04"
+    },
+    {
+      "question": "In the diagram showing UV lamp positioning, what do the numbered callouts 1-4 represent?",
+      "answer": "1 - Cover, 2 - Repair material, 3 - GFP part, 4 - Ultraviolet lamp.",
+      "question_type": "visual",
+      "id": "41-015_body-q05"
+    },
+    {
+      "question": "Why is ultraviolet radiation only effective when applied directly?",
+      "answer": "There is no hardening in zones of shade or on covered laminate. This can be exploited, in that some sections are covered and only certain surfaces are hardened, or are cemented.",
+      "question_type": "factual",
+      "id": "41-015_body-q06"
+    },
+    {
+      "question": "What method is recommended to gain experience with UV lamp hardening?",
+      "answer": "Gain experience by making tests, if necessary. Hardening time will depend on the lamp version, scope and strength of laminate.",
+      "question_type": "procedural",
+      "id": "41-015_body-q07"
+    },
+    {
+      "question": "What should you do to pull off foil from the repair area?",
+      "answer": "Pull off foil. Build up laminate to final thickness by cutting repair bandages to size, hardening and grinding inbetween as necessary.",
+      "question_type": "procedural",
+      "id": "41-015_body-q08"
+    },
+    {
+      "question": "What important step must be done between layers when building up the laminate?",
+      "answer": "Remove foils between layers and harden the laminate with an ultraviolet lamp.",
+      "question_type": "procedural",
+      "id": "41-015_body-q09"
+    },
+    {
+      "question": "How should you repair the inside panel according to the instructions?",
+      "answer": "Repair the inside panel to the instructions for the outside.",
+      "question_type": "procedural",
+      "id": "41-015_body-q10"
+    },
+    {
+      "question": "What sections can be molded and hardened separately if UV radiation doesn't reach certain areas?",
+      "answer": "The remaining sections can then be molded and hardened separately.",
+      "question_type": "procedural",
+      "id": "41-015_body-q11"
+    },
+    {
+      "question": "What tool is needed to aim the ultraviolet treatment on the damaged surface?",
+      "answer": "An ultraviolet lamp.",
+      "question_type": "tool",
+      "id": "41-015_body-q12"
+    }
+  ]
+}

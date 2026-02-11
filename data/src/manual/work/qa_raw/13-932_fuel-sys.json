@@ -1,0 +1,79 @@
+{
+  "page_id": "13-932_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-932.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:57:18.719915",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1803,
+    "tokens_output": 598
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the normal operating voltage range for the power supply to the control unit?",
+      "answer": "10 to 15 V for normal operation, and 6 to 15 V during starting.",
+      "question_type": "factual",
+      "id": "13-932_fuel-sys-q01"
+    },
+    {
+      "question": "What voltage jumps are associated with the oxygen sensor signal?",
+      "answer": "0.7 volt voltage jumps.",
+      "question_type": "factual",
+      "id": "13-932_fuel-sys-q02"
+    },
+    {
+      "question": "What percentage of leaning occurs throughout the working range when applied ground is present?",
+      "answer": "Approximately 1% leaning throughout the entire working range of the control unit.",
+      "question_type": "factual",
+      "id": "13-932_fuel-sys-q03"
+    },
+    {
+      "question": "Which pins are used for power ground of fuel injectors in a 6 cylinder engine for the 1st, 2nd and 3rd cylinders?",
+      "answer": "Pin 25.",
+      "question_type": "factual",
+      "id": "13-932_fuel-sys-q04"
+    },
+    {
+      "question": "Which pin provides the power ground for fuel injectors in the 4th, 5th and 6th cylinders of a 6 cylinder engine?",
+      "answer": "Pin 13.",
+      "question_type": "factual",
+      "id": "13-932_fuel-sys-q05"
+    },
+    {
+      "question": "What is the function of pin 22 on the L-Jetronic control unit?",
+      "answer": "Integrator voltage outlet for diagnosis socket, Plug socket 5.",
+      "question_type": "factual",
+      "id": "13-932_fuel-sys-q06"
+    },
+    {
+      "question": "Which pin carries the coolant temperature sensor signal?",
+      "answer": "Pin 10.",
+      "question_type": "factual",
+      "id": "13-932_fuel-sys-q07"
+    },
+    {
+      "question": "What signal does pin 6 carry and where does it go?",
+      "answer": "Load signal ti to knock protection relay.",
+      "question_type": "factual",
+      "id": "13-932_fuel-sys-q08"
+    },
+    {
+      "question": "Which pin provides the idle signal from the throttle switch?",
+      "answer": "Pin 2.",
+      "question_type": "factual",
+      "id": "13-932_fuel-sys-q09"
+    },
+    {
+      "question": "What is the function of pin 328 according to the control unit code table?",
+      "answer": "It is connected via running-up safety relay/signal for fuel consumption display (economy control).",
+      "question_type": "factual",
+      "id": "13-932_fuel-sys-q10"
+    }
+  ]
+}

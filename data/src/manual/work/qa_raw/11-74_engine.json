@@ -1,0 +1,91 @@
+{
+  "page_id": "11-74_engine",
+  "image_path": "raw/11 - Engine/11-74.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:18:04.529661",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 916
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the tightening torque specification for spark plugs during installation?",
+      "answer": "The tightening torque for spark plugs is 20 \u00b1 5 Nm (14.5 \u00b1 3.5 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-74_engine-q01"
+    },
+    {
+      "question": "Which special tool is used to pull off the valve stem seal?",
+      "answer": "Special Tool 11 1 250 is used to pull off the valve stem seal.",
+      "question_type": "tool",
+      "id": "11-74_engine-q02"
+    },
+    {
+      "question": "What should be done to the valve guide and valve stem during installation?",
+      "answer": "Lubricate the valve guide and valve stem with oil during installation.",
+      "question_type": "procedural",
+      "id": "11-74_engine-q03"
+    },
+    {
+      "question": "What special tools are required to mount Special Tools 11 1 068, 11 1 052 and 11 1 067?",
+      "answer": "Special Tool 11 1 051 is required to mount Special Tools 11 1 068, 11 1 052 and 11 1 067.",
+      "question_type": "tool",
+      "id": "11-74_engine-q04"
+    },
+    {
+      "question": "What diameters are available for Special Tool 11 1 200 valve stem seals?",
+      "answer": "Special Tool 11 1 200 has two diameters available - for 7 and 8 mm (0.275 and 0.315 in.) valve stem seals.",
+      "question_type": "factual",
+      "id": "11-74_engine-q05"
+    },
+    {
+      "question": "What procedure should be followed to compress valve springs and remove valve collets?",
+      "answer": "Compress valve springs and remove valve collets. Place Special Tool 11 1 053 (tray) in the assembly stand and pull out rubber part.",
+      "question_type": "procedural",
+      "id": "11-74_engine-q06"
+    },
+    {
+      "question": "What is the purpose of Special Tool 11 1 360 when installing valves?",
+      "answer": "Special Tool 11 1 360 is used to avoid damaging the valve stem seal during installation.",
+      "question_type": "tool",
+      "id": "11-74_engine-q07"
+    },
+    {
+      "question": "What should be done with the valve stem seal after installation?",
+      "answer": "Lubricate the valve stem seal with oil and install it. Press on the valve stem seal with Special Tool 11 1 200 by hand.",
+      "question_type": "procedural",
+      "id": "11-74_engine-q08"
+    },
+    {
+      "question": "What components need to be removed from the upper spring retainer assembly?",
+      "answer": "Remove the upper spring retainer and double spring set, then take the tray out of the assembly stand and pull out the valve.",
+      "question_type": "procedural",
+      "id": "11-74_engine-q09"
+    },
+    {
+      "question": "Where can Special Tool Sleeves be sourced from according to the manual?",
+      "answer": "Special Tool Sleeves can be sourced from CARTOOL, Alfred Brehm Str. 5, D - 8070 Ingolstadt.",
+      "question_type": "factual",
+      "id": "11-74_engine-q10"
+    },
+    {
+      "question": "What reference should be checked for valve guide wear inspection?",
+      "answer": "Check valve guide for wear - see 11 12 595 for the inspection procedure.",
+      "question_type": "inspection",
+      "id": "11-74_engine-q11"
+    },
+    {
+      "question": "What is the first step in removing valves with the cylinder head removed?",
+      "answer": "Unscrew spark plugs, then mount the cylinder head on Special Tool 11 1 065 with Special Tools 11 1 054.",
+      "question_type": "procedural",
+      "id": "11-74_engine-q12"
+    }
+  ]
+}

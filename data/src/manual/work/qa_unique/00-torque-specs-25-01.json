@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-25-01",
+  "image_path": "raw/00 - Torque Specs/25-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:03:18.870259",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 622
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the front console to shift console connection?",
+      "answer": "25 Nm for all vehicles with sheet metal console.",
+      "question_type": "factual",
+      "id": "00-torque-specs-25-01-q01"
+    },
+    {
+      "question": "How much torque is required for the rear shift console to body connection?",
+      "answer": "11 Nm for all vehicles.",
+      "question_type": "factual",
+      "id": "00-torque-specs-25-01-q03"
+    },
+    {
+      "question": "Which vehicle models use aluminum shift arm components according to this specification table?",
+      "answer": "E30 M3 models use aluminum shift arm console to transmission and aluminum shift arm to console components.",
+      "question_type": "factual",
+      "id": "00-torque-specs-25-01-q10"
+    }
+  ]
+}

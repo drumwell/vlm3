@@ -1,0 +1,79 @@
+{
+  "page_id": "72-117_equipmen",
+  "image_path": "raw/72 - Equipment and Accessories for Body/72-117.jpg",
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:11:17.471278",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1792,
+    "tokens_output": 719
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I do if the automatic reel seat belt with lower strap has been replaced after a head-on or side collision that exceeded car parking damage?",
+      "answer": "Replace the automatic seat belt.",
+      "question_type": "procedural",
+      "id": "72-117_equipmen-q01"
+    },
+    {
+      "question": "If the seat belt reel locks when pulling out the belt suddenly, what action is required?",
+      "answer": "Replace the automatic seat belt.",
+      "question_type": "diagnostic",
+      "id": "72-117_equipmen-q02"
+    },
+    {
+      "question": "What are the possible causes if the seat belt cannot be pulled out without hesitation?",
+      "answer": "Loosen reel - tighten reel, or return spring broken - replace seat belt.",
+      "question_type": "troubleshooting",
+      "id": "72-117_equipmen-q03"
+    },
+    {
+      "question": "What should I check if the seat belt does not wind up on its own for the last section?",
+      "answer": "Check position of reversing holder - correct installed position. Check for excessive friction in belt guides - replace seat belt and belt guides. Check if reel is loose - tighten reel. Spray belt straps with HWB 81 229 407 005 spray. Check if return spring is broken - replace seat belt.",
+      "question_type": "diagnostic",
+      "id": "72-117_equipmen-q04"
+    },
+    {
+      "question": "What spray should be used on belt straps during troubleshooting?",
+      "answer": "HWB 81 229 407 005 spray.",
+      "question_type": "factual",
+      "id": "72-117_equipmen-q05"
+    },
+    {
+      "question": "If the reel produces rolling and squeaking noise when fastening and taking off the seat belt, does this affect the reel's function?",
+      "answer": "Rolling and squeaking noise does not influence the locking function of reel.",
+      "question_type": "diagnostic",
+      "id": "72-117_equipmen-q06"
+    },
+    {
+      "question": "What should be done if the plastic sleeve on the belt insert shows signs of wear in the area of the belt strap opening?",
+      "answer": "Replace complete automatic seat belt.",
+      "question_type": "procedural",
+      "id": "72-117_equipmen-q07"
+    },
+    {
+      "question": "What action is required if the belt reversing holder shows signs of abrasion?",
+      "answer": "Replace complete automatic seat belt.",
+      "question_type": "procedural",
+      "id": "72-117_equipmen-q08"
+    },
+    {
+      "question": "What should be done if the belt reversing holder shows signs of deformation?",
+      "answer": "Replace complete automatic seat belt.",
+      "question_type": "procedural",
+      "id": "72-117_equipmen-q09"
+    },
+    {
+      "question": "What is the general approach for inspecting automatic seat belt components for wear or damage?",
+      "answer": "The test list provides a systematic flowchart starting with collision history, then checking reel locking, belt pull-out resistance, winding function, noise during operation, and finally inspecting plastic sleeve and reversing holder for wear, abrasion, or deformation.",
+      "question_type": "inspection",
+      "id": "72-117_equipmen-q10"
+    }
+  ]
+}

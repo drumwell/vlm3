@@ -1,0 +1,85 @@
+{
+  "page_id": "12-111_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-111.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:27:25.993431",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 836
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main purpose of Test 1 in the Digital Motor Electronics troubleshooting section?",
+      "answer": "Test 1 is for testing the SPEED AND REFERENCE MARK SENSORS.",
+      "question_type": "factual",
+      "id": "12-111_engine-e-q01"
+    },
+    {
+      "question": "What should you check first when troubleshooting the speed and reference mark sensors?",
+      "answer": "Check wires for tight fit and damage, then check connections and arrangement of plug connections.",
+      "question_type": "procedural",
+      "id": "12-111_engine-e-q02"
+    },
+    {
+      "question": "How is the reference mark sensor identified in the engine bay?",
+      "answer": "The reference mark sensor (B) is marked with a ring and can be found at reference location 12 14 510 / 515.",
+      "question_type": "visual",
+      "id": "12-111_engine-e-q03"
+    },
+    {
+      "question": "What multimeter functions are referenced for testing the DME pulse sensor?",
+      "answer": "Use resistance function (M 06) and oscillograph function (M 22/23) with the BMW service tester at reference 12 14 510.",
+      "question_type": "tool",
+      "id": "12-111_engine-e-q04"
+    },
+    {
+      "question": "What procedure should be followed when checking the DME control unit connections?",
+      "answer": "Take off trim panel, pull off plug on control unit and connect on universal adapter with (35-pin) test lead as shown in the illustration.",
+      "question_type": "procedural",
+      "id": "12-111_engine-e-q05"
+    },
+    {
+      "question": "What components are labeled as 'D' and 'B' in the engine bay photographs?",
+      "answer": "Component 'D' appears to be a connector or electrical component, while 'B' is the reference mark sensor that is marked with a ring.",
+      "question_type": "visual",
+      "id": "12-111_engine-e-q06"
+    },
+    {
+      "question": "What additional testing reference is mentioned for engine test procedures?",
+      "answer": "Testing instructions refer to the BMW SERVICE TEST, specifically engine test/test step 05 (P 05).",
+      "question_type": "factual",
+      "id": "12-111_engine-e-q07"
+    },
+    {
+      "question": "What should be checked regarding power flow in the DME wires?",
+      "answer": "Check power flow and insulation (M 06) in wires on specified pins.",
+      "question_type": "inspection",
+      "id": "12-111_engine-e-q08"
+    },
+    {
+      "question": "What important limitation is mentioned about this troubleshooting survey?",
+      "answer": "The checked causes of malfunction might not always be sufficient to eliminate a defect, so under certain circumstances additional tests could be necessary.",
+      "question_type": "troubleshooting",
+      "id": "12-111_engine-e-q09"
+    },
+    {
+      "question": "What should be done with the engine when checking resistance and oscillograph readings?",
+      "answer": "Turn engine with the starter while checking resistance (M 06) and oscillograph (M 22/23) on disconnected pulse sensor plug with BMW service tester.",
+      "question_type": "procedural",
+      "id": "12-111_engine-e-q10"
+    },
+    {
+      "question": "What cross-references are provided for additional information?",
+      "answer": "See Specifications, Source: HWB (= Division of BMW), and See engine wiring diagram for additional information.",
+      "question_type": "navigation",
+      "id": "12-111_engine-e-q12"
+    }
+  ]
+}

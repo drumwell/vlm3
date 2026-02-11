@@ -1,0 +1,79 @@
+{
+  "page_id": "11-103_engine",
+  "image_path": "raw/11 - Engine/11-103.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:07:54.983417",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1759,
+    "tokens_output": 872
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with the electric leads on the starter before unscrewing the cover?",
+      "answer": "Disconnect electric leads 2 and 3 on the starter before unscrewing cover 1.",
+      "question_type": "procedural",
+      "id": "11-103_engine-q01"
+    },
+    {
+      "question": "How do you remove the oil plugs and electric leads from the oil pan area?",
+      "answer": "Pull off plugs 1 and 2 and unclip electric leads in holders. Then remove electric lead 3 on oil pan, pull off plug and unscrew holder, and take out lead from above.",
+      "question_type": "procedural",
+      "id": "11-103_engine-q02"
+    },
+    {
+      "question": "Which hoses need to be disconnected from the injection pipe?",
+      "answer": "Loosen clamp 1 and pull off breather hose, then disconnect fuel hoses 2 and 3 on the injection pipe.",
+      "question_type": "procedural",
+      "id": "11-103_engine-q04"
+    },
+    {
+      "question": "What is the installation note regarding hoses 2 and 3?",
+      "answer": "Don't mix up hoses 2 and 3 during installation.",
+      "question_type": "safety",
+      "id": "11-103_engine-q05"
+    },
+    {
+      "question": "How do you handle the engine wire harness during removal?",
+      "answer": "Loosen clamp 1 and place engine wire harness aside, then loosen hose clamp 2 and pull off heater hose.",
+      "question_type": "procedural",
+      "id": "11-103_engine-q07"
+    },
+    {
+      "question": "What is the procedure for removing the vacuum hose from the intake manifold support?",
+      "answer": "Pull off vacuum hose 1 and pull it out of the intake manifold support, then pull off plug 2.",
+      "question_type": "procedural",
+      "id": "11-103_engine-q08"
+    },
+    {
+      "question": "What should be done with the idle speed control after lifting out the rubber holder?",
+      "answer": "Lift out rubber holder 3, place idle speed control aside and take the engine wire harness located behind it out of the holders.",
+      "question_type": "procedural",
+      "id": "11-103_engine-q09"
+    },
+    {
+      "question": "How should the carbon filter be positioned when loosening the clamp?",
+      "answer": "Loosen clamp and place carbon filter aside, with hoses remaining connected.",
+      "question_type": "procedural",
+      "id": "11-103_engine-q10"
+    },
+    {
+      "question": "What components are numbered 1, 2, and 3 in the starter area diagram?",
+      "answer": "Component 1 is the cover to unscrew, while components 2 and 3 are the electric leads to disconnect on the starter.",
+      "question_type": "visual",
+      "id": "11-103_engine-q11"
+    },
+    {
+      "question": "Which heater hose needs to be disconnected and where is it located?",
+      "answer": "Disconnect heater hose 4 on cylinder head after loosening the clamp.",
+      "question_type": "factual",
+      "id": "11-103_engine-q12"
+    }
+  ]
+}

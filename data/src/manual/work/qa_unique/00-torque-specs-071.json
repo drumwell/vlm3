@@ -1,0 +1,43 @@
+{
+  "page_id": "00-torque-specs-071",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/071.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:29:30.903264",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 580
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw type is used for the distributor injection pump to holder connection?",
+      "answer": "M21/M51/M41",
+      "question_type": "factual",
+      "id": "00-torque-specs-071-q02"
+    },
+    {
+      "question": "What is the highest torque specification listed in this injection pump control receptacle table?",
+      "answer": "45 Nm for the pressure valve holder to injection pump",
+      "question_type": "factual",
+      "id": "00-torque-specs-071-q05"
+    },
+    {
+      "question": "What is the lowest torque value specified in this table?",
+      "answer": "2.5 Nm for the electrical line on fuel cutout device",
+      "question_type": "factual",
+      "id": "00-torque-specs-071-q08"
+    },
+    {
+      "question": "Which connections use the M21/M51/M41 screw type?",
+      "answer": "Plug for high pressure section, distributor injection pump to holder, electric shutoff to injection pump, coupling bolt (OUT) to injection pump, and distributor injection pump to flange and console",
+      "question_type": "factual",
+      "id": "00-torque-specs-071-q09"
+    }
+  ]
+}

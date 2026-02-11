@@ -1,0 +1,73 @@
+{
+  "page_id": "16-05_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-05.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:58:45.970878",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 757
+  },
+  "qa_pairs": [
+    {
+      "question": "What is section 16.11 about in the fuel tank service procedures?",
+      "answer": "Section 16.11 covers checking the venting system for the fuel tank.",
+      "question_type": "factual",
+      "id": "16-05_fuel-tan-q01"
+    },
+    {
+      "question": "What three connections should be checked on the expansion tank for tight fit and leaks?",
+      "answer": "1) Pipe to outdoors, 2) Pipe to filler neck, and 3) Pipe to fuel tank.",
+      "question_type": "procedural",
+      "id": "16-05_fuel-tan-q02"
+    },
+    {
+      "question": "What components are labeled as 1 and 2 in diagram M 10?",
+      "answer": "1 = Carbon canister and 2 = Check valve.",
+      "question_type": "visual",
+      "id": "16-05_fuel-tan-q03"
+    },
+    {
+      "question": "What specific inspection should be performed on the venting pipe connection?",
+      "answer": "Check connection for venting pipe.",
+      "question_type": "inspection",
+      "id": "16-05_fuel-tan-q04"
+    },
+    {
+      "question": "What routing instruction is given for cars with catalytic converter regarding the vent hose?",
+      "answer": "Route vent hose in direction of engine in side member area and check flow.",
+      "question_type": "procedural",
+      "id": "16-05_fuel-tan-q05"
+    },
+    {
+      "question": "What should be done with the tank venting valve on cars with catalytic converter?",
+      "answer": "If applicable, remove and install / check tank venting valve.",
+      "question_type": "procedural",
+      "id": "16-05_fuel-tan-q06"
+    },
+    {
+      "question": "What is the procedure for checking the routing and flow of vent hose?",
+      "answer": "Checking routine and flow of vent hose is performed as shown in the diagram, particularly focusing on proper routing in cars with catalytic converter.",
+      "question_type": "procedural",
+      "id": "16-05_fuel-tan-q07"
+    },
+    {
+      "question": "What components are numbered 1 and 2 in the engine compartment diagram on the right?",
+      "answer": "The diagram shows components 1 and 2 in the engine area, with part number 30 16 054.",
+      "question_type": "visual",
+      "id": "16-05_fuel-tan-q11"
+    },
+    {
+      "question": "What special consideration is noted for cars with catalytic converter systems?",
+      "answer": "Cars with catalytic converter require specific vent hose routing in the direction of engine in side member area and may need tank venting valve removal and installation/checking.",
+      "question_type": "factual",
+      "id": "16-05_fuel-tan-q12"
+    }
+  ]
+}

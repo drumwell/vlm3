@@ -1,0 +1,79 @@
+{
+  "page_id": "41-306_body",
+  "image_path": "raw/41 - Body/41-306.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:57:25.830419",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 716
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the front panel with front wall assembly?",
+      "answer": "The procedure number is 41 33 001.",
+      "question_type": "factual",
+      "id": "41-306_body-q01"
+    },
+    {
+      "question": "What part numbers are referenced for removing the engine hood complete with hinges?",
+      "answer": "The part numbers are 41 61 000 and 41 61 050.",
+      "question_type": "factual",
+      "id": "41-306_body-q02"
+    },
+    {
+      "question": "What components need to be removed along with the front bumper?",
+      "answer": "You need to remove the grill, headlights, front fog lights, horns, engine hood lock, data plate and radiator.",
+      "question_type": "procedural",
+      "id": "41-306_body-q04"
+    },
+    {
+      "question": "What part number is specified for removing the front bumper?",
+      "answer": "The front bumper part number is 51 11 000.",
+      "question_type": "factual",
+      "id": "41-306_body-q05"
+    },
+    {
+      "question": "What method is used to remove the front wall from the wheel house?",
+      "answer": "The front wall should be cut off from the wheel house.",
+      "question_type": "procedural",
+      "id": "41-306_body-q07"
+    },
+    {
+      "question": "How should the welding seams be removed when taking off the front wall?",
+      "answer": "The welding seams should be ground off to take off the front wall.",
+      "question_type": "procedural",
+      "id": "41-306_body-q08"
+    },
+    {
+      "question": "What part number is associated with removing both front side panels?",
+      "answer": "The part number for removing both front side panels is 41 35 000.",
+      "question_type": "factual",
+      "id": "41-306_body-q09"
+    },
+    {
+      "question": "What finishing work is required after removing scrap metal?",
+      "answer": "After removing scrap metal, you need to straighten and grind mating surfaces, then coat with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-306_body-q10"
+    },
+    {
+      "question": "What specific area needs welding seam grinding according to the bottom right image?",
+      "answer": "The welding seams on the towline eye need to be ground off.",
+      "question_type": "visual",
+      "id": "41-306_body-q11"
+    },
+    {
+      "question": "What is the first step mentioned in the procedure?",
+      "answer": "The first step is to disconnect the battery ground lead.",
+      "question_type": "procedural",
+      "id": "41-306_body-q12"
+    }
+  ]
+}

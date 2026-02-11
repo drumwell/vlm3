@@ -1,0 +1,76 @@
+{
+  "page_id": "00-torque-specs-103",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/103.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:35:34.834390",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 593
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M8 hex screws on the transmission to engine connection?",
+      "answer": "24 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-103-q01"
+    },
+    {
+      "question": "What torque should I use for M10 hex screws in the transmission?",
+      "answer": "45 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-103-q02"
+    },
+    {
+      "question": "What is the highest torque specification for hex screws shown on this page?",
+      "answer": "82 Nm (ft. lbs.) for M12 hex screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-103-q03",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What is the torque specification for M8 Torx bolts?",
+      "answer": "21 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-103-q04"
+    },
+    {
+      "question": "How much torque should be applied to M10 Torx bolts?",
+      "answer": "42 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-103-q05"
+    },
+    {
+      "question": "What is the torque specification for M12 Torx bolts?",
+      "answer": "72 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-103-q06"
+    },
+    {
+      "question": "What torque should be used for the reinforcement plate to transmission connection?",
+      "answer": "23 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-103-q07"
+    },
+    {
+      "question": "Which fastener type requires the highest torque specification in the transmission section?",
+      "answer": "M12 hex screws at 82 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-103-q09"
+    },
+    {
+      "question": "What section of the manual covers these transmission torque specifications?",
+      "answer": "Section 24-1 Automatic Transmission, subsection 24 00 Transmission in General",
+      "question_type": "navigation",
+      "id": "00-torque-specs-103-q10"
+    }
+  ]
+}

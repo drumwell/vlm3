@@ -1,0 +1,91 @@
+{
+  "page_id": "36-10_wheels-a",
+  "image_path": "raw/36 - Wheels and Tires/36-10.jpg",
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:32:27.853366",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 764
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when mounting tires with a modern mounting machine?",
+      "answer": "Unscrew valve and deflate the tire.",
+      "question_type": "procedural",
+      "id": "36-10_wheels-a-q01"
+    },
+    {
+      "question": "How should the tire beads be pressed off the rim flange?",
+      "answer": "Press off tire bead from rim flange all around on outside and inside with pressing-off horn of the machine.",
+      "question_type": "procedural",
+      "id": "36-10_wheels-a-q02"
+    },
+    {
+      "question": "What should you do if tire beads fit too tight during removal?",
+      "answer": "First only loosen tire from flange at several points with the pressing-off horn prior to the actual pressing-off.",
+      "question_type": "procedural",
+      "id": "36-10_wheels-a-q03"
+    },
+    {
+      "question": "How far should the tire beads be pushed into the rim well?",
+      "answer": "Push both tire beads into rim well completely until they are loose.",
+      "question_type": "procedural",
+      "id": "36-10_wheels-a-q04"
+    },
+    {
+      "question": "What should be done to the rim after removing the tire?",
+      "answer": "Pull off balance weights on rim and clean rim to remove large pieces of dirt.",
+      "question_type": "procedural",
+      "id": "36-10_wheels-a-q05"
+    },
+    {
+      "question": "What should be applied to tire beads before mounting?",
+      "answer": "Coat tire beads with mounting paste.",
+      "question_type": "procedural",
+      "id": "36-10_wheels-a-q06"
+    },
+    {
+      "question": "Which direction should the narrow rim shoulder always face when mounting?",
+      "answer": "Narrow rim shoulder always faces up.",
+      "question_type": "factual",
+      "id": "36-10_wheels-a-q07"
+    },
+    {
+      "question": "What distance should the valve be positioned from the right of the mounting head?",
+      "answer": "Valve should be at about 10 cm (4\") to the right of the mounting head.",
+      "question_type": "factual",
+      "id": "36-10_wheels-a-q08"
+    },
+    {
+      "question": "What type of tire irons should be used for aluminum rims?",
+      "answer": "Use coated or shrink-fit hose covered tire irons for aluminum rims.",
+      "question_type": "tool",
+      "id": "36-10_wheels-a-q09"
+    },
+    {
+      "question": "In which direction should the mounting machine run back initially to allow the tire bead to slide onto the mounting finger?",
+      "answer": "Let mounting machine run back a short distance (counterclockwise) so that the tire bead can slide fully on to the mounting finger.",
+      "question_type": "procedural",
+      "id": "36-10_wheels-a-q10"
+    },
+    {
+      "question": "What should be checked when the mounting machine runs forward briefly?",
+      "answer": "Always check whether the bottom bead is fully in the well and the tire is given enough time to move.",
+      "question_type": "inspection",
+      "id": "36-10_wheels-a-q11"
+    },
+    {
+      "question": "What is the final step to achieve complete separation of the tire from the rim?",
+      "answer": "Let machine run back a short distance again and then forward (clockwise) briefly, until there is complete separation of the tire from the rim.",
+      "question_type": "procedural",
+      "id": "36-10_wheels-a-q12"
+    }
+  ]
+}

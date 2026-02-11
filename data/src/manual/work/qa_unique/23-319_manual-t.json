@@ -1,0 +1,85 @@
+{
+  "page_id": "23-319_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-319.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:46:18.697480",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 856
+  },
+  "qa_pairs": [
+    {
+      "question": "What components need to be pulled off when the output shaft is removed?",
+      "answer": "When the output shaft is removed, you need to pull off the input shaft (1), synchromesh ring (2) and needle bearing (3).",
+      "question_type": "procedural",
+      "id": "23-319_manual-t-q02"
+    },
+    {
+      "question": "What is the specified play adjustment between the snap ring and guide sleeve?",
+      "answer": "The play between the snap ring and guide sleeve should be adjusted to 0...0.09 mm (0 to 0.0035 inches).",
+      "question_type": "factual",
+      "id": "23-319_manual-t-q03"
+    },
+    {
+      "question": "What temperature should the bearing inner race be heated to during installation?",
+      "answer": "The bearing inner race (7) should be heated to approximately 80\u00b0 C (175\u00b0 F) with a hot air blower before installation.",
+      "question_type": "procedural",
+      "id": "23-319_manual-t-q04"
+    },
+    {
+      "question": "What tool is mentioned for pressing the bearing onto the output shaft?",
+      "answer": "Special Tool 23 1 440 is mentioned for pressing the bearing onto the output shaft if necessary.",
+      "question_type": "tool",
+      "id": "23-319_manual-t-q05"
+    },
+    {
+      "question": "What should always be replaced during this procedure?",
+      "answer": "The snap ring should always be replaced during this procedure.",
+      "question_type": "inspection",
+      "id": "23-319_manual-t-q06"
+    },
+    {
+      "question": "What measurement examples are given for determining shim thickness?",
+      "answer": "The examples given are: A = 52.2 mm (2.056 inches), B = 52.0 mm (2.056 inches), and X = 0.2 mm (0.008 inches) shim thickness.",
+      "question_type": "factual",
+      "id": "23-319_manual-t-q07"
+    },
+    {
+      "question": "What components are pressed off the output shaft according to the lower left diagram?",
+      "answer": "According to the lower left diagram, the 2nd gear, needle bearing, synchromesh ring, guide sleeve, synchromesh ring, 1st gear, needle bearing with bearing sleeve and bearing inner race are pressed off the output shaft.",
+      "question_type": "visual",
+      "id": "23-319_manual-t-q08"
+    },
+    {
+      "question": "What should be checked regarding the synchromesh rings?",
+      "answer": "The synchromesh rings should be checked according to section 23 23 505.",
+      "question_type": "inspection",
+      "id": "23-319_manual-t-q09"
+    },
+    {
+      "question": "How should the synchromesh ring be guided during installation?",
+      "answer": "The synchromesh ring should be guided with tabs in the sliding sleeve during installation.",
+      "question_type": "procedural",
+      "id": "23-319_manual-t-q10"
+    },
+    {
+      "question": "Where should the bearing sleeve for reverse gear be placed?",
+      "answer": "The bearing sleeve for reverse gear should be placed in the guide sleeve.",
+      "question_type": "procedural",
+      "id": "23-319_manual-t-q11"
+    },
+    {
+      "question": "What distance measurements are indicated by callouts A and B in the shim thickness determination procedure?",
+      "answer": "Distance A is measured from the collar of the output shaft to the bearing inner race, and distance B is measured from the collar of the guide sleeve to the bearing sleeve.",
+      "question_type": "visual",
+      "id": "23-319_manual-t-q12"
+    }
+  ]
+}

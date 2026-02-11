@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6500A-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:11:50.393432",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1893,
+    "tokens_output": 595
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the possible cause of harsh popping or crackling noise when the ignition changes with engine rpm?",
+      "answer": "Ignition Noise",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03-q01"
+    },
+    {
+      "question": "What should you check first when diagnosing ignition noise in the radio system?",
+      "answer": "Check for proper distributor cap shielding and check shielding ground strap. If not present, install.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03-q02"
+    },
+    {
+      "question": "What is the recommended repair action for high whine or howling that changes with engine rpm?",
+      "answer": "Connect dedicated ground strap to Radio and run a direct wire from Battery to Alternator.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03-q03"
+    },
+    {
+      "question": "What should you do if AM reception is weak and noisy?",
+      "answer": "Remove Radio for service.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03-q04"
+    },
+    {
+      "question": "What is the possible cause of FM-only weak and noisy reception?",
+      "answer": "FM alignment",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03-q05"
+    },
+    {
+      "question": "What should be checked if spark plug wires could be transmitting noise to the radio?",
+      "answer": "Reroute spark plug wires laying against anything that could be transmitting noise to the Radio (wiring or sensor leads traveling into the passenger compartment).",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03-q06"
+    },
+    {
+      "question": "What ground straps should be checked when diagnosing ignition noise?",
+      "answer": "Check engine/firewall ground strap and engine hood/body ground strap.",
+      "question_type": "inspection",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03-q07"
+    },
+    {
+      "question": "What is the possible cause of alternator noise symptoms?",
+      "answer": "Alternator noise",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03-q08"
+    },
+    {
+      "question": "What should be checked regarding the engine hood when troubleshooting ignition noise?",
+      "answer": "Check if engine hood is closing properly.",
+      "question_type": "inspection",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03-q09"
+    },
+    {
+      "question": "What components should be replaced when troubleshooting ignition noise?",
+      "answer": "Replace distributor cap and rotor.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-03-q10"
+    }
+  ]
+}

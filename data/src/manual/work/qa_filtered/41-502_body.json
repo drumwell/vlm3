@@ -1,0 +1,73 @@
+{
+  "page_id": "41-502_body",
+  "image_path": "raw/41 - Body/41-502.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:05:26.012855",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 665
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when adjusting the door lock?",
+      "answer": "Loosen the Torx bolts.",
+      "question_type": "procedural",
+      "id": "41-502_body-q01"
+    },
+    {
+      "question": "How should the striker be aligned vertically?",
+      "answer": "Align striker vertically until guide engages in door without tension.",
+      "question_type": "procedural",
+      "id": "41-502_body-q02"
+    },
+    {
+      "question": "What is the horizontal alignment requirement for the striker?",
+      "answer": "Align striker horizontally until outside surface of closed door (2nd catch) is in same plane with rear side panel or rear door.",
+      "question_type": "procedural",
+      "id": "41-502_body-q03"
+    },
+    {
+      "question": "What is the maximum adjustment allowed for the door's outside surface?",
+      "answer": "The door's outside surface may be adjusted deeper than the neighboring rear side panel or rear door by max. 1 mm (0.039\").",
+      "question_type": "factual",
+      "id": "41-502_body-q04"
+    },
+    {
+      "question": "Why might you need to adjust the door surface deeper than neighboring panels?",
+      "answer": "To avoid wind noise and stone damage or to eliminate optical irregularities.",
+      "question_type": "factual",
+      "id": "41-502_body-q05"
+    },
+    {
+      "question": "What type of fasteners are used to secure the door lock mechanism?",
+      "answer": "Torx bolts",
+      "question_type": "factual",
+      "id": "41-502_body-q09"
+    },
+    {
+      "question": "What should you check for when aligning the striker vertically?",
+      "answer": "Check that the guide engages in the door without tension.",
+      "question_type": "inspection",
+      "id": "41-502_body-q10"
+    },
+    {
+      "question": "What reference points are used for horizontal striker alignment?",
+      "answer": "The outside surface of the closed door should align with the rear side panel or rear door.",
+      "question_type": "procedural",
+      "id": "41-502_body-q11"
+    },
+    {
+      "question": "What adjustment tolerance is specified in both metric and imperial units?",
+      "answer": "Maximum 1 mm (0.039\") deeper adjustment.",
+      "question_type": "factual",
+      "id": "41-502_body-q12"
+    }
+  ]
+}

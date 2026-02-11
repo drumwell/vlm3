@@ -1,0 +1,61 @@
+{
+  "page_id": "bmwtorquespecs-067",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/067.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:25:04.395331",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 578
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the assembly of upper and lower sections (1AZ) on E32/E34/E36 models?",
+      "answer": "5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-067-q01"
+    },
+    {
+      "question": "What is the torque specification for the center section to body on E32/E34 models?",
+      "answer": "3 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-067-q03"
+    },
+    {
+      "question": "What component is designated as 3AZ in the control unit housing section?",
+      "answer": "Control unit holder in E box",
+      "question_type": "component",
+      "id": "bmwtorquespecs-067-q04"
+    },
+    {
+      "question": "What is the torque specification for the control unit holder in E box (3AZ) on E36 models?",
+      "answer": "5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-067-q05"
+    },
+    {
+      "question": "What is the torque specification for the control unit box cover on E38/E39 models?",
+      "answer": "4.4 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-067-q07"
+    },
+    {
+      "question": "What section of the service manual does this page belong to?",
+      "answer": "12 - 17 Engine Electrical System",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-067-q08"
+    },
+    {
+      "question": "What is the main component category being covered in section 12 90?",
+      "answer": "Control unit housing",
+      "question_type": "component",
+      "id": "bmwtorquespecs-067-q09"
+    }
+  ]
+}

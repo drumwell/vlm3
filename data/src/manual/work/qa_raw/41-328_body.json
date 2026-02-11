@@ -1,0 +1,91 @@
+{
+  "page_id": "41-328_body",
+  "image_path": "raw/41 - Body/41-328.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:03:01.091246",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 660
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you check after mounting and clamping the side panel?",
+      "answer": "Check door gaps.",
+      "question_type": "procedural",
+      "id": "41-328_body-q01"
+    },
+    {
+      "question": "What type of welding is specified for the side panel on the trunk floor plate?",
+      "answer": "Spot weld side panel on trunk floor plate.",
+      "question_type": "procedural",
+      "id": "41-328_body-q02"
+    },
+    {
+      "question": "Where should the side panel be spot welded in the wheel opening area?",
+      "answer": "Spot weld side panel in wheel opening.",
+      "question_type": "procedural",
+      "id": "41-328_body-q03"
+    },
+    {
+      "question": "What gap should be checked according to the procedure shown in image 30 41 397?",
+      "answer": "Check trunk lid gap.",
+      "question_type": "inspection",
+      "id": "41-328_body-q04"
+    },
+    {
+      "question": "What welding procedure is shown for the door opening area?",
+      "answer": "Spot weld side panel in door opening.",
+      "question_type": "procedural",
+      "id": "41-328_body-q05"
+    },
+    {
+      "question": "What should be done at the rear window frame location?",
+      "answer": "Spot weld side panel on rear window frame.",
+      "question_type": "procedural",
+      "id": "41-328_body-q06"
+    },
+    {
+      "question": "What type of weld joint is specified for the entrance area?",
+      "answer": "Insert gas plug weld joint on entrance.",
+      "question_type": "procedural",
+      "id": "41-328_body-q07"
+    },
+    {
+      "question": "What procedure is specified for the outside edge of the entrance?",
+      "answer": "Braze entrance on outside edge.",
+      "question_type": "procedural",
+      "id": "41-328_body-q08"
+    },
+    {
+      "question": "What welding method may be necessary when mounting the side panel?",
+      "answer": "Tack welding if necessary.",
+      "question_type": "procedural",
+      "id": "41-328_body-q09"
+    },
+    {
+      "question": "How many different welding locations are shown in the diagrams for the side panel installation?",
+      "answer": "Six different welding locations are shown: trunk floor plate, wheel opening, door opening, rear window frame, entrance gas plug weld joint, and entrance outside edge brazing.",
+      "question_type": "visual",
+      "id": "41-328_body-q10"
+    },
+    {
+      "question": "What is the reference number for the image showing the trunk lid gap check?",
+      "answer": "30 41 397",
+      "question_type": "visual",
+      "id": "41-328_body-q11"
+    },
+    {
+      "question": "What is the reference number for the image showing the entrance brazing procedure?",
+      "answer": "30 41 244",
+      "question_type": "visual",
+      "id": "41-328_body-q12"
+    }
+  ]
+}

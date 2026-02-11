@@ -1,0 +1,61 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6160-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6160-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:02:45.896311",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 553
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two jet heater components shown in this windshield washer jet heater circuit?",
+      "answer": "The two jet heater components are the LH JET HEATER and RH JET HEATER.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6160-01-q02"
+    },
+    {
+      "question": "What wire color designation is used for the ground connection at connector G108?",
+      "answer": "The wire color designation BR (brown) is used for the ground connection at connector G108.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6160-01-q03"
+    },
+    {
+      "question": "What connector designation is shown between the K16 wiper control unit and connector S125?",
+      "answer": "Connector C106 is shown between the K16 wiper control unit and connector S125.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6160-01-q04"
+    },
+    {
+      "question": "What is the wire color coding for the power supply line from the 30 AMP fuse?",
+      "answer": "The wire color coding is .75 VI/BK (0.75mm violet/black).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6160-01-q05"
+    },
+    {
+      "question": "What component controls the operation of the windshield washer jet heaters?",
+      "answer": "The K16 WIPER CONTROL UNIT controls the operation of the windshield washer jet heaters.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6160-01-q06"
+    },
+    {
+      "question": "What is the page number and section identifier for this windshield washer jet heater diagram?",
+      "answer": "This is page 6160-1 from the WINDSHIELD WASHER JET HEATER section.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6160-01-q07"
+    },
+    {
+      "question": "What condition is indicated in the box at the top of the power distribution section?",
+      "answer": "The condition indicated is 'HOT IN ACCY, RUN OR START'.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6160-01-q08"
+    }
+  ]
+}

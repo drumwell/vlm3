@@ -1,0 +1,91 @@
+{
+  "page_id": "16-07_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-07.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:59:12.202597",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 812
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two components labeled in the fuel tank diagram?",
+      "answer": "Component 1 is the Carbon canister and component 2 is the Tank venting valve.",
+      "question_type": "visual",
+      "id": "16-07_fuel-tan-q01"
+    },
+    {
+      "question": "What diameter vacuum hose should be connected to the tank venting valve?",
+      "answer": "A vacuum hose with 0.8 mm (0.031\") diameter neck should be connected to the tank venting valve.",
+      "question_type": "factual",
+      "id": "16-07_fuel-tan-q02"
+    },
+    {
+      "question": "What voltage should be supplied to the tank venting valve and what is the reference lead number?",
+      "answer": "Supply 12 V voltage to tank venting valve with lead 61 1 440.",
+      "question_type": "factual",
+      "id": "16-07_fuel-tan-q03"
+    },
+    {
+      "question": "Which multimeter function should be selected on the BMW Service Tester for this procedure?",
+      "answer": "Select multimeter function 21 on the BMW Service Tester.",
+      "question_type": "tool",
+      "id": "16-07_fuel-tan-q04"
+    },
+    {
+      "question": "What vacuum level should be adjusted to during the tank venting valve test?",
+      "answer": "Adjust vacuum to 600 \u00b1 100 mbar, then switch off.",
+      "question_type": "procedural",
+      "id": "16-07_fuel-tan-q05"
+    },
+    {
+      "question": "What is the maximum allowable pressure drop during the test and over what time period?",
+      "answer": "Pressure should not drop by more than 50 mbar during the test time of about 20 seconds.",
+      "question_type": "inspection",
+      "id": "16-07_fuel-tan-q06"
+    },
+    {
+      "question": "What should be done if the pressure drops by more than 50 mbar during the test?",
+      "answer": "Replace tank venting valve, if pressure drops by more than 50 mbar.",
+      "question_type": "troubleshooting",
+      "id": "16-07_fuel-tan-q07"
+    },
+    {
+      "question": "What preliminary steps must be completed before connecting the vacuum hose?",
+      "answer": "Lift out plug for all previously mentioned models, pull off hoses, and lift out tank venting valve.",
+      "question_type": "procedural",
+      "id": "16-07_fuel-tan-q08"
+    },
+    {
+      "question": "What type of engine is visible in the left photograph?",
+      "answer": "The engine visible is a BMW M Power engine, as indicated by the \"BMW M Power\" text on the engine cover.",
+      "question_type": "visual",
+      "id": "16-07_fuel-tan-q09"
+    },
+    {
+      "question": "What are the part numbers shown in the images?",
+      "answer": "The part numbers shown are 30 16 057, 32 16 035, and 32 16 036.",
+      "question_type": "factual",
+      "id": "16-07_fuel-tan-q10"
+    },
+    {
+      "question": "What instrument is shown in the lower right photograph?",
+      "answer": "The BMW Service Tester multimeter is shown in the lower right photograph.",
+      "question_type": "visual",
+      "id": "16-07_fuel-tan-q11"
+    },
+    {
+      "question": "What happens after adjusting the vacuum to the specified level?",
+      "answer": "After adjusting vacuum to 600 \u00b1 100 mbar, switch off and monitor that pressure should not drop by more than 50 mbar during about 20 seconds.",
+      "question_type": "procedural",
+      "id": "16-07_fuel-tan-q12"
+    }
+  ]
+}

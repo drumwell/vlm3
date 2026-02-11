@@ -1,0 +1,94 @@
+{
+  "page_id": "23-16_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-16.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:34:04.747550",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 864
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the introduction date for the operating sleeves?",
+      "answer": "The introduction date for the operating sleeves is 8.85.",
+      "question_type": "factual",
+      "id": "23-16_manual-t-q01"
+    },
+    {
+      "question": "How is the 1st/2nd gear operating sleeve oriented when installed?",
+      "answer": "The 1st/2nd gear operating sleeve is installed with the shouldered end of the operating sleeve facing the 2nd gear.",
+      "question_type": "procedural",
+      "id": "23-16_manual-t-q02"
+    },
+    {
+      "question": "What do the numbered callouts 1, 3, and 5 indicate in the transmission diagrams?",
+      "answer": "The numbered callouts indicate the positions of the operating sleeves: 1 is the 1st/2nd gear operating sleeve, 3 is the 3rd/4th gear operating sleeve, and 5 is the 5th/reverse gear operating sleeve.",
+      "question_type": "visual",
+      "id": "23-16_manual-t-q03"
+    },
+    {
+      "question": "How many grooves does the 5th/reverse gear operating sleeve have?",
+      "answer": "The 5th/reverse gear operating sleeve has three grooves.",
+      "question_type": "factual",
+      "id": "23-16_manual-t-q04"
+    },
+    {
+      "question": "What important modification was made to shift parts since 11.87?",
+      "answer": "Modified synchronization since 11.87 introduced new gear wheels, synchromesh rings, guide and operating sleeves, slides, balls and springs.",
+      "question_type": "factual",
+      "id": "23-16_manual-t-q05"
+    },
+    {
+      "question": "How should the operating sleeve grooves be positioned for the 3rd/4th gear?",
+      "answer": "For the 3rd/4th gear operating sleeve, the grooves should be facing the 3rd gear.",
+      "question_type": "procedural",
+      "id": "23-16_manual-t-q06"
+    },
+    {
+      "question": "What is the key difference between the operating sleeves shown in the two diagrams?",
+      "answer": "The upper diagram shows operating sleeves from introduction date 8.85, while the lower diagram shows modified operating sleeves from 11.87 with different groove configurations.",
+      "question_type": "visual",
+      "id": "23-16_manual-t-q07"
+    },
+    {
+      "question": "What critical installation note applies to modified shift parts?",
+      "answer": "Modified shift parts cannot be installed in transmissions manufactured earlier, as this would result in difficult operation.",
+      "question_type": "safety",
+      "id": "23-16_manual-t-q08"
+    },
+    {
+      "question": "How many grooves does the 1st/2nd gear operating sleeve have in the modified version?",
+      "answer": "In the modified version, the 1st/2nd gear operating sleeve has one groove.",
+      "question_type": "factual",
+      "id": "23-16_manual-t-q09"
+    },
+    {
+      "question": "What should you note when installing operating sleeves for correct position?",
+      "answer": "You should note the grooves on operating sleeves for correct installed position, ensuring they face the proper gear as specified for each sleeve.",
+      "question_type": "inspection",
+      "id": "23-16_manual-t-q10"
+    },
+    {
+      "question": "Which gear does the 5th/reverse operating sleeve groove face?",
+      "answer": "The 5th/reverse operating sleeve grooves face the 5th gear.",
+      "question_type": "factual",
+      "id": "23-16_manual-t-q11"
+    },
+    {
+      "question": "What are the diagram reference numbers shown on this page?",
+      "answer": "The diagram reference numbers are 30 23 142 for the upper diagram and 30 23 141 for the lower diagram.",
+      "question_type": "factual",
+      "id": "23-16_manual-t-q12",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

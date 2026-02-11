@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-16-03",
+  "image_path": "raw/00 - Torque Specs/16-03.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:55:52.500802",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 615
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for fuel vapor venting tank to body connection on E24 models?",
+      "answer": "3 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-03-q01"
+    },
+    {
+      "question": "What torque should be applied to the fuel vapor venting tank to body connection on E30 models?",
+      "answer": "4.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-03-q02"
+    },
+    {
+      "question": "What is the specified torque for the fuel vapor venting tank to body connection on E39 models?",
+      "answer": "4.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-03-q03"
+    },
+    {
+      "question": "Which BMW model has the highest torque specification for the fuel vapor venting tank to body connection?",
+      "answer": "E30 model with 4.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-03-q04"
+    },
+    {
+      "question": "What component is being torqued according to specification 14Z?",
+      "answer": "Fuel vapor venting tank to body",
+      "question_type": "component",
+      "id": "00-torque-specs-16-03-q06"
+    },
+    {
+      "question": "What section of the service manual covers fuel tank and fuel lines?",
+      "answer": "Section 16-3",
+      "question_type": "navigation",
+      "id": "00-torque-specs-16-03-q07"
+    },
+    {
+      "question": "How much higher is the E30 torque specification compared to the E24 for fuel vapor venting tank to body?",
+      "answer": "1.5 Nm (ft. lbs.) higher (4.5 vs 3)",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-03-q09"
+    },
+    {
+      "question": "What units are used for the torque specifications in this fuel vapor venting table?",
+      "answer": "Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-16-03-q10"
+    }
+  ]
+}

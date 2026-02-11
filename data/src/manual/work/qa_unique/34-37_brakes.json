@@ -1,0 +1,79 @@
+{
+  "page_id": "34-37_brakes",
+  "image_path": "raw/34 - Brakes/34-37.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:24:11.159681",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 638
+  },
+  "qa_pairs": [
+    {
+      "question": "What test step covers the dynamic speed sensor test?",
+      "answer": "Test Step 03 covers the Dynamic speed sensor test for speed sensors (DF).",
+      "question_type": "navigation",
+      "id": "34-37_brakes-q01"
+    },
+    {
+      "question": "Which speed sensors are tested in the dynamic speed sensor test?",
+      "answer": "The front left, front right, rear left, and rear right speed sensors are tested.",
+      "question_type": "component",
+      "id": "34-37_brakes-q02"
+    },
+    {
+      "question": "What should I check if the cycle time is less than the specified value?",
+      "answer": "If cycle time is less than specified value, the wheel turns too fast. Check for excessive clearance between speed sensor and pulse wheel, and verify the speed sensor is not loose or dirty.",
+      "question_type": "diagnostic",
+      "id": "34-37_brakes-q03"
+    },
+    {
+      "question": "What does it mean when the cycle time is greater than the specified value?",
+      "answer": "When cycle time is greater than specified value, it means the wheel turns too slow.",
+      "question_type": "diagnostic",
+      "id": "34-37_brakes-q04"
+    },
+    {
+      "question": "What visual inspection should be performed on the speed sensor?",
+      "answer": "Check for excessive clearance between speed sensor and pulse wheel, verify the speed sensor is not loose or dirty, and check the installation.",
+      "question_type": "inspection",
+      "id": "34-37_brakes-q05"
+    },
+    {
+      "question": "What are the job position numbers for replacing the speed sensor?",
+      "answer": "The job position numbers are 61 12 510 and 61 12 520 for speed sensor replacement.",
+      "question_type": "navigation",
+      "id": "34-37_brakes-q06"
+    },
+    {
+      "question": "What should I do if wheel rotation is not uniform enough?",
+      "answer": "Check pulse wheel teeth for condition and dirt, check clearance between speed sensor and pulse wheel, and replace the pulse wheel if necessary.",
+      "question_type": "troubleshooting",
+      "id": "34-37_brakes-q07"
+    },
+    {
+      "question": "How do I check the wheel arrangement with a gage?",
+      "answer": "Check arrangement of wheel with gage and hold the opposite wheel on rear axle during the check.",
+      "question_type": "procedural",
+      "id": "34-37_brakes-q08"
+    },
+    {
+      "question": "What job position covers pulse wheel replacement?",
+      "answer": "Job position 61 12 510 / 520 covers pulse wheel replacement.",
+      "question_type": "navigation",
+      "id": "34-37_brakes-q09"
+    },
+    {
+      "question": "What group does this dynamic speed sensor test belong to?",
+      "answer": "This dynamic speed sensor test belongs to Group 34.",
+      "question_type": "navigation",
+      "id": "34-37_brakes-q10"
+    }
+  ]
+}

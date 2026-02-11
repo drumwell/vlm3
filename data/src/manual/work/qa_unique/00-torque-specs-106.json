@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-106",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/106.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:36:16.099127",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 636
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the screw size and torque specification for the plug component 9AZ?",
+      "answer": "M18 screw size with 43 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-106-q03"
+    },
+    {
+      "question": "What are the two different torque values for oil bore plugs depending on the transmission type?",
+      "answer": "8 Nm for ASS 300J transmissions and 15 Nm for ASS 310Z/ASS 560Z transmissions",
+      "question_type": "factual",
+      "id": "00-torque-specs-106-q04"
+    },
+    {
+      "question": "What torque specification is required for the damper cover on transmission case for ASS 300J?",
+      "answer": "10 Nm with M6 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-106-q05"
+    },
+    {
+      "question": "What is the torque value for the radial shaft seal on converter bell housing?",
+      "answer": "3 Nm with M4 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-106-q06"
+    },
+    {
+      "question": "Which transmission types use the radial shaft seal on converter bell housing specification?",
+      "answer": "A4S 270R/A4S 310R",
+      "question_type": "factual",
+      "id": "00-torque-specs-106-q07"
+    },
+    {
+      "question": "What screw size and torque are specified for the intermediate plate on intermediate housing?",
+      "answer": "5/16\" screws with 25 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-106-q08"
+    },
+    {
+      "question": "What transmission types are associated with the intermediate plate component 13AZ?",
+      "answer": "A4S 270R/A4S 310R",
+      "question_type": "factual",
+      "id": "00-torque-specs-106-q10"
+    }
+  ]
+}

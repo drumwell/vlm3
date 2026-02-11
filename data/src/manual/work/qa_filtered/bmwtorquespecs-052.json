@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-052",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/052.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:22:16.041547",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 550
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the service manual covers spark plug specifications?",
+      "answer": "Section 12-2 Engine Electrical System, subsection 12 12 Spark plugs",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-052-q03"
+    },
+    {
+      "question": "What type of spark plugs are covered in this specification table?",
+      "answer": "Spark plugs (ungreased)",
+      "question_type": "component",
+      "id": "bmwtorquespecs-052-q05"
+    },
+    {
+      "question": "What are the two different screw thread sizes specified for spark plugs?",
+      "answer": "M12x1.25 and M14x1.25",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-052-q07"
+    },
+    {
+      "question": "What is the unit of measurement used for the torque specifications?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-052-q08"
+    }
+  ]
+}

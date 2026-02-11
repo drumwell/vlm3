@@ -1,0 +1,73 @@
+{
+  "page_id": "12-142_2_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-142_2.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:32:37.725311",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 670
+  },
+  "qa_pairs": [
+    {
+      "question": "What components need to be unscrewed to remove the shielded capacitor?",
+      "answer": "Unscrew the shielded capacitor itself, unscrew nuts on B+ and D+ studs, and take off the diode plate with stator coil.",
+      "question_type": "procedural",
+      "id": "12-142_2_engine-e-q01"
+    },
+    {
+      "question": "What should be checked during installation according to the manual?",
+      "answer": "Check condition of insulating sleeves and washers, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "12-142_2_engine-e-q04"
+    },
+    {
+      "question": "Which terminals are mentioned for nut removal during disassembly?",
+      "answer": "B+ and D+ studs.",
+      "question_type": "factual",
+      "id": "12-142_2_engine-e-q05"
+    },
+    {
+      "question": "What components are removed together with the diode plate?",
+      "answer": "The diode plate is removed with the stator coil.",
+      "question_type": "procedural",
+      "id": "12-142_2_engine-e-q06"
+    },
+    {
+      "question": "What type of capacitor is being removed in this procedure?",
+      "answer": "A shielded capacitor.",
+      "question_type": "factual",
+      "id": "12-142_2_engine-e-q07"
+    },
+    {
+      "question": "What action should be taken if the insulating sleeves and washers are damaged?",
+      "answer": "Replace them if necessary during installation.",
+      "question_type": "procedural",
+      "id": "12-142_2_engine-e-q08"
+    },
+    {
+      "question": "What is shown in the top diagram?",
+      "answer": "The alternator with the shielded capacitor and connections to B+ and D+ studs visible.",
+      "question_type": "visual",
+      "id": "12-142_2_engine-e-q09"
+    },
+    {
+      "question": "What is shown in the bottom diagram?",
+      "answer": "The rear view of the alternator housing showing the internal diode arrangement and wiring connections.",
+      "question_type": "visual",
+      "id": "12-142_2_engine-e-q10"
+    },
+    {
+      "question": "What section of the manual is this page from?",
+      "answer": "Section 12, Engine Electrical Equipment.",
+      "question_type": "navigation",
+      "id": "12-142_2_engine-e-q11"
+    }
+  ]
+}

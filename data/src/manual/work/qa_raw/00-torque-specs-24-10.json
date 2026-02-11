@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-24-10",
+  "image_path": "raw/00 - Torque Specs/24-10.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:01:41.908707",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 789
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil pump to case 1st pass on A4S 270R/A4S 310R transmissions?",
+      "answer": "10 Nm using a 5/16\" screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-10-q01"
+    },
+    {
+      "question": "What torque value should be used for the 2nd pass when installing the oil pump to case?",
+      "answer": "20 Nm using a 5/16\" screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-10-q02"
+    },
+    {
+      "question": "What is the torque specification for A5S 560Z transmission components using M6 screws?",
+      "answer": "10 Nm for M6 screws on A5S 560Z transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-10-q03"
+    },
+    {
+      "question": "How much torque is required for A5S 560Z components using M5 screws?",
+      "answer": "5 Nm for M5 screws on A5S 560Z transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-10-q04"
+    },
+    {
+      "question": "What torque specification applies to 'All others' transmission types using M6 screws?",
+      "answer": "11 Nm for M6 screws on all other transmission types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-10-q05"
+    },
+    {
+      "question": "What is the torque value for the oil strainer on A5S 440Z/A5S 560Z transmissions?",
+      "answer": "5 Nm for the oil strainer on A5S 440Z/A5S 560Z transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-10-q06"
+    },
+    {
+      "question": "How much torque is specified for the oil pump body on A4S 270R/A4S 310R transmissions?",
+      "answer": "20 Nm using a 5/16\" screw for the oil pump body on A4S 270R/A4S 310R transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-10-q07"
+    },
+    {
+      "question": "What torque specification is used for the oil cooler pipe adapter to transmission?",
+      "answer": "28 Nm for the oil cooler pipe adapter to transmission on A5S 300J/A4S 270R/A 4 S 310 R.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-10-q08"
+    },
+    {
+      "question": "What is the torque specification for the hollow bolt on A5S 440Z transmissions?",
+      "answer": "25 Nm using an M18x1.5 hollow bolt on A5S 440Z transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-10-q09"
+    },
+    {
+      "question": "How does the cap screw torque compare to the hollow bolt torque on A5S 440Z transmissions?",
+      "answer": "The cap screw requires 20 Nm while the hollow bolt requires 25 Nm, both using M18x1.5 threads on A5S 440Z transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-10-q10"
+    }
+  ]
+}

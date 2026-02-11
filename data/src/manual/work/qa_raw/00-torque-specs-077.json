@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-077",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/077.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:30:37.296938",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 524
+  },
+  "qa_pairs": [
+    {
+      "question": "What type designation applies to the screw plug on low-pressure regulator?",
+      "answer": "316g/518g",
+      "question_type": "factual",
+      "id": "00-torque-specs-077-q03"
+    },
+    {
+      "question": "What section of the fuel system does this torque specification belong to?",
+      "answer": "13 80 Gas-powered units",
+      "question_type": "navigation",
+      "id": "00-torque-specs-077-q04"
+    },
+    {
+      "question": "What is the unit of measurement for the torque specification listed?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-077-q05"
+    },
+    {
+      "question": "How many torque specifications are listed for gas-powered units in section 13 80?",
+      "answer": "1 torque specification",
+      "question_type": "factual",
+      "id": "00-torque-specs-077-q06"
+    },
+    {
+      "question": "What is the complete section reference for the fuel system specifications shown?",
+      "answer": "13 - 10 Fuel System",
+      "question_type": "navigation",
+      "id": "00-torque-specs-077-q07"
+    },
+    {
+      "question": "Which column contains the torque values in this specification table?",
+      "answer": "The Measure column",
+      "question_type": "visual",
+      "id": "00-torque-specs-077-q08"
+    },
+    {
+      "question": "What component requires a 3 Nm torque specification according to this page?",
+      "answer": "Screw plug on low-pressure regulator",
+      "question_type": "factual",
+      "id": "00-torque-specs-077-q09"
+    }
+  ]
+}

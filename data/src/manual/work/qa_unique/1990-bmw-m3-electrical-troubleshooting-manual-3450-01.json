@@ -1,0 +1,61 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/3450-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:32:30.076806",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 600
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the page number for this antilock braking system diagram?",
+      "answer": "This is page 3450-1 of the Antilock Braking System (ABS) section.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-01-q01"
+    },
+    {
+      "question": "What are the four main solenoid valves shown in the ABS hydraulic unit?",
+      "answer": "The four main solenoid valves are: LH FRONT SOLENOID VALVE, RH FRONT SOLENOID VALVE, REAR SOLENOID VALVE, and PUMP MOTOR.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-01-q02"
+    },
+    {
+      "question": "What wire color designation is used for the connection from splice S242 on page 3450-9?",
+      "answer": ".75 RD/YL wire connects from splice S242 on page 3450-9.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-01-q03"
+    },
+    {
+      "question": "How many wheel speed detectors are shown in this ABS system diagram?",
+      "answer": "Four wheel speed detectors are shown: LH FRONT SPEED DETECTOR, RH FRONT SPEED DETECTOR, LH REAR SPEED DETECTOR, and RH REAR SPEED DETECTOR.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-01-q04"
+    },
+    {
+      "question": "What are the wire gauge and color specifications for the connection to the LH FRONT VALVE CONTROL?",
+      "answer": "The LH FRONT VALVE CONTROL uses 1.5 BR/RD wire specification.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-01-q06"
+    },
+    {
+      "question": "What component connects to terminal 16 BR in the power distribution section?",
+      "answer": "The battery connects to terminal 16 BR in the power distribution section.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-01-q07"
+    },
+    {
+      "question": "What is the destination of the connection labeled '75 GY/RD' at terminal 7?",
+      "answer": "The 75 GY/RD wire at terminal 7 goes FROM S118 ON OTHER PAGE.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-3450-01-q08"
+    }
+  ]
+}

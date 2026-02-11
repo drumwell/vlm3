@@ -1,0 +1,73 @@
+{
+  "page_id": "11-107_engine",
+  "image_path": "raw/11 - Engine/11-107.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:08:57.174036",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1759,
+    "tokens_output": 880
+  },
+  "qa_pairs": [
+    {
+      "question": "Which numbered components are shown in the fuel injector and pressure regulator removal procedure?",
+      "answer": "The diagram shows numbered components 1, 2, and 3, with component 1 being the clamp to loosen, and components 2 and 3 being the fuel hoses to disconnect on the injection pipe.",
+      "question_type": "visual",
+      "id": "11-107_engine-q03"
+    },
+    {
+      "question": "What important warning is given about the fuel hoses during the breather pipe disconnection procedure?",
+      "answer": "The manual warns not to mix up hoses 2 and 3 during installation.",
+      "question_type": "safety",
+      "id": "11-107_engine-q05"
+    },
+    {
+      "question": "What should be done with the cam followers after removing the camshaft?",
+      "answer": "The cam followers should be pulled out using Special Tool 11 3 030 and placed in a tray, then installed in the same positions during reassembly.",
+      "question_type": "procedural",
+      "id": "11-107_engine-q06"
+    },
+    {
+      "question": "Which hose number represents the heater hose that should be disconnected on the cylinder head?",
+      "answer": "Hose number 4 is the heater hose that should be disconnected on the cylinder head.",
+      "question_type": "visual",
+      "id": "11-107_engine-q07"
+    },
+    {
+      "question": "What needs to be replaced during the oxygen sensor installation procedure?",
+      "answer": "The gaskets and self-locking nuts need to be replaced during oxygen sensor installation.",
+      "question_type": "factual",
+      "id": "11-107_engine-q08"
+    },
+    {
+      "question": "What reference section should you consult for camshaft removal details?",
+      "answer": "You should see section 11 31 000 for camshaft removal details.",
+      "question_type": "navigation",
+      "id": "11-107_engine-q09"
+    },
+    {
+      "question": "What is the purpose of the longer bolt mentioned in the cylinder head removal procedure?",
+      "answer": "The longer bolt (1) is required to secure the shaft for the upper tensioning rail during installation.",
+      "question_type": "procedural",
+      "id": "11-107_engine-q10"
+    },
+    {
+      "question": "What should be done with the radiator hoses during the cylinder head removal process?",
+      "answer": "The hose clamps should be loosened and the radiator hoses should be pulled off.",
+      "question_type": "procedural",
+      "id": "11-107_engine-q11"
+    },
+    {
+      "question": "What components are numbered 1, 2, and 3 in the cylinder head removal diagram at the bottom of the page?",
+      "answer": "In the bottom diagram, component 1 appears to be a bolt or fastener that needs to be unscrewed as part of the cylinder head removal process.",
+      "question_type": "visual",
+      "id": "11-107_engine-q12"
+    }
+  ]
+}

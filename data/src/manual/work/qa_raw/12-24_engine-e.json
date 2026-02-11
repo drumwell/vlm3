@@ -1,0 +1,91 @@
+{
+  "page_id": "12-24_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-24.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:37:37.459069",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 796
+  },
+  "qa_pairs": [
+    {
+      "question": "What is Test 7 focused on testing?",
+      "answer": "Test 7 is focused on testing ignition timing and ignition timing control.",
+      "question_type": "factual",
+      "id": "12-24_engine-e-q01"
+    },
+    {
+      "question": "What should you do if the engine does not run after checking ignition timing?",
+      "answer": "Check the position of the distributor - move piston in cylinder no. 1 to ignition position; mark on distributor housing must be aligned with contact on distributor rotor - see 12 11 060.",
+      "question_type": "procedural",
+      "id": "12-24_engine-e-q02"
+    },
+    {
+      "question": "Where should you look for ignition timing adjustment procedures if necessary?",
+      "answer": "See section 12 11 005 for ignition timing adjustment procedures.",
+      "question_type": "navigation",
+      "id": "12-24_engine-e-q03"
+    },
+    {
+      "question": "If the engine still does not run after the initial timing check, what should be checked next?",
+      "answer": "Check fuel supply - see Groups 13 and 16, and check engine for mechanical defect - see Group 11.",
+      "question_type": "troubleshooting",
+      "id": "12-24_engine-e-q04"
+    },
+    {
+      "question": "What specific ignition timing control tests are mentioned in the procedure?",
+      "answer": "Check ignition timing control with centrifugal force and vacuum (P 07 / 08), and check ignition voltage (P 09), repeating tests 3, 5 and 6 if necessary.",
+      "question_type": "procedural",
+      "id": "12-24_engine-e-q05"
+    },
+    {
+      "question": "What should be done if the distributor needs repair or replacement?",
+      "answer": "Repair or replace distributor if necessary - see 12 11.",
+      "question_type": "procedural",
+      "id": "12-24_engine-e-q06"
+    },
+    {
+      "question": "What is the final conclusion if all tests pass?",
+      "answer": "Ignition system is okay!",
+      "question_type": "factual",
+      "id": "12-24_engine-e-q07"
+    },
+    {
+      "question": "What does P 06 refer to in the ignition timing procedure?",
+      "answer": "P 06 refers to checking ignition timing, adjusting if necessary.",
+      "question_type": "factual",
+      "id": "12-24_engine-e-q08"
+    },
+    {
+      "question": "What specific tests need to be repeated if ignition voltage check (P 09) shows problems?",
+      "answer": "Tests 3, 5 and 6 need to be repeated if necessary.",
+      "question_type": "procedural",
+      "id": "12-24_engine-e-q09"
+    },
+    {
+      "question": "What are the two types of ignition timing control that need to be checked?",
+      "answer": "Centrifugal force and vacuum control need to be checked (P 07 / 08).",
+      "question_type": "factual",
+      "id": "12-24_engine-e-q10"
+    },
+    {
+      "question": "What references are provided at the bottom of the page?",
+      "answer": "See Nominal Value Microfiche and See Specifications.",
+      "question_type": "navigation",
+      "id": "12-24_engine-e-q11"
+    },
+    {
+      "question": "What section should you refer to for distributor repair or replacement procedures?",
+      "answer": "Section 12 11 for distributor repair or replacement procedures.",
+      "question_type": "navigation",
+      "id": "12-24_engine-e-q12"
+    }
+  ]
+}

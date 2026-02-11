@@ -1,0 +1,85 @@
+{
+  "page_id": "13-720_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-720.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:46:37.858510",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 718
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing the fuel pressure regulator?",
+      "answer": "Disconnect fuel hose (1).",
+      "question_type": "procedural",
+      "id": "13-720_fuel-sys-q01"
+    },
+    {
+      "question": "What should you do after unscrewing the bolts to remove the fuel pressure regulator?",
+      "answer": "Pull fuel pressure regulator out of injection pipe and pull off vacuum hose (2).",
+      "question_type": "procedural",
+      "id": "13-720_fuel-sys-q02"
+    },
+    {
+      "question": "What should be checked during installation of the fuel pressure regulator?",
+      "answer": "Check seal (1), replacing if necessary.",
+      "question_type": "inspection",
+      "id": "13-720_fuel-sys-q03"
+    },
+    {
+      "question": "What special tools are needed for checking between the feed pipe and hose?",
+      "answer": "Install Special Tools 13 3 060 and 13 3 064 between feed pipe and hose.",
+      "question_type": "tool",
+      "id": "13-720_fuel-sys-q04"
+    },
+    {
+      "question": "What procedure should be followed with the fuel pump relay?",
+      "answer": "Pull off fuel pump relay (1), bridge terminals 87 and 30 with Special Tool 61 3 050, press the button, fuel pump runs, then check fuel injection pressure.",
+      "question_type": "procedural",
+      "id": "13-720_fuel-sys-q05"
+    },
+    {
+      "question": "What does callout number 2 indicate in the fuel pressure regulator removal diagram?",
+      "answer": "The vacuum hose that needs to be pulled off during removal.",
+      "question_type": "visual",
+      "id": "13-720_fuel-sys-q07"
+    },
+    {
+      "question": "What should be done to the engine compartment wall trim during this procedure?",
+      "answer": "Remove trim on engine compartment wall.",
+      "question_type": "procedural",
+      "id": "13-720_fuel-sys-q08"
+    },
+    {
+      "question": "What code numbers are visible on the fuel pressure regulator installation diagram?",
+      "answer": "Check code number (1) and manufacturing date (2).",
+      "question_type": "factual",
+      "id": "13-720_fuel-sys-q09"
+    },
+    {
+      "question": "Where can you find fuel injection pressure specifications?",
+      "answer": "See Specifications and Nominal Value Microfiche.",
+      "question_type": "navigation",
+      "id": "13-720_fuel-sys-q10"
+    },
+    {
+      "question": "What component is identified by part number 28 13 51001?",
+      "answer": "The fuel pressure regulator component shown in the installation diagram.",
+      "question_type": "component",
+      "id": "13-720_fuel-sys-q11"
+    },
+    {
+      "question": "What terminals need to be bridged on the fuel pump relay for testing?",
+      "answer": "Bridge terminals 87 and 30 with Special Tool 61 3 050.",
+      "question_type": "diagnostic",
+      "id": "13-720_fuel-sys-q12"
+    }
+  ]
+}

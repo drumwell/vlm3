@@ -1,0 +1,91 @@
+{
+  "page_id": "72-110_equipmen",
+  "image_path": "raw/72 - Equipment and Accessories for Body/72-110.jpg",
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:09:16.928680",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 812
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing or replacing the front seat belt complete?",
+      "answer": "The procedure number is 72 11 030.",
+      "question_type": "factual",
+      "id": "72-110_equipmen-q01"
+    },
+    {
+      "question": "What should you do before removing the front seat belt according to the initial steps?",
+      "answer": "Remove front seat 52 10 000, pull off cap, unscrew lower strap, and if applicable, pull off plug.",
+      "question_type": "procedural",
+      "id": "72-110_equipmen-q02"
+    },
+    {
+      "question": "What reference should you check when working with the seat belt switch?",
+      "answer": "Check the switch according to the test list for seat belts.",
+      "question_type": "factual",
+      "id": "72-110_equipmen-q03"
+    },
+    {
+      "question": "How do you remove the rear seat cushion on a two-door model?",
+      "answer": "Lift out the rear seat cushion from above and unscrew bolts and lift back rest out of holders.",
+      "question_type": "procedural",
+      "id": "72-110_equipmen-q04"
+    },
+    {
+      "question": "Where can the belt reversing holder be mounted and what determines the mounting location?",
+      "answer": "The belt reversing holder can be mounted at point A or B, depending on the size of the person.",
+      "question_type": "factual",
+      "id": "72-110_equipmen-q05"
+    },
+    {
+      "question": "What is the approximate measurement for cutting out the B pillar trim for bore B?",
+      "answer": "Cut out B pillar trim for bore B at approximately 50 mm (2 inches).",
+      "question_type": "factual",
+      "id": "72-110_equipmen-q06"
+    },
+    {
+      "question": "What are the components in the installed order list for the seat belt assembly?",
+      "answer": "1 Bolt, 2 Washer (plastic), 3 Upper strap, 4 Washer (plastic), 5 Washers (two), with tightening torque specified.",
+      "question_type": "visual",
+      "id": "72-110_equipmen-q07"
+    },
+    {
+      "question": "What change was made to the washer configuration since 1985 models?",
+      "answer": "Since 1985 models, washers 2 and 4 are omitted from the assembly.",
+      "question_type": "factual",
+      "id": "72-110_equipmen-q08"
+    },
+    {
+      "question": "How do you disconnect the side trim panel?",
+      "answer": "Disconnect the side trim panel by removing 3 clips and pull up out of clamps.",
+      "question_type": "procedural",
+      "id": "72-110_equipmen-q09"
+    },
+    {
+      "question": "What is the procedure for removing the slide mechanism?",
+      "answer": "Drive out pin 1 and take off slide.",
+      "question_type": "procedural",
+      "id": "72-110_equipmen-q10"
+    },
+    {
+      "question": "What steps are involved in detaching the belt strap from the automatic reel?",
+      "answer": "Unscrew bolt 1 and detach belt strap, then unscrew bolt 2 and remove automatic reel.",
+      "question_type": "procedural",
+      "id": "72-110_equipmen-q11"
+    },
+    {
+      "question": "What installation note is provided for the centering pin?",
+      "answer": "During installation, the centering pin engages in the bore, and tightening torque specifications should be followed.",
+      "question_type": "procedural",
+      "id": "72-110_equipmen-q12"
+    }
+  ]
+}

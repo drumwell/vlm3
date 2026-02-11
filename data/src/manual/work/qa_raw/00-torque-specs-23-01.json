@@ -1,0 +1,82 @@
+{
+  "page_id": "00-torque-specs-23-01",
+  "image_path": "raw/00 - Torque Specs/23-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:57:56.786513",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 639
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M8 hex screws when attaching the transmission to engine?",
+      "answer": "25 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-01-q01"
+    },
+    {
+      "question": "What torque should I use for M10 hex screws in the transmission to engine connection?",
+      "answer": "48 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-01-q02"
+    },
+    {
+      "question": "What is the torque specification for the largest hex screws (M12) used in transmission to engine mounting?",
+      "answer": "74 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-01-q03"
+    },
+    {
+      "question": "What torque should M8 Torx bolts be tightened to for transmission mounting?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-01-q04"
+    },
+    {
+      "question": "What is the torque specification for M10 Torx bolts in the transmission assembly?",
+      "answer": "43 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-01-q05"
+    },
+    {
+      "question": "What torque should I apply to M12 Torx bolts in the transmission?",
+      "answer": "72 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-01-q06"
+    },
+    {
+      "question": "Which hex screw size requires the highest torque for transmission to engine mounting?",
+      "answer": "M12 hex screws require the highest torque at 74 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-01-q07"
+    },
+    {
+      "question": "What is the difference in torque between M8 hex screws and M8 Torx bolts for transmission mounting?",
+      "answer": "M8 hex screws use 25 Nm while M8 Torx bolts use 22 Nm, a difference of 3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-01-q08"
+    },
+    {
+      "question": "What section and subsection covers these manual transmission torque specifications?",
+      "answer": "Section 23-1 Manual Transmission, subsection 23 00 Transmission in general",
+      "question_type": "navigation",
+      "id": "00-torque-specs-23-01-q09"
+    },
+    {
+      "question": "Do hex screws or Torx bolts generally require higher torque values for the same thread size in transmission mounting?",
+      "answer": "Hex screws generally require higher torque values than Torx bolts for the same thread size",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-01-q10",
+      "_warnings": [
+        "Potential hedge/hallucination: 'generally'"
+      ]
+    }
+  ]
+}

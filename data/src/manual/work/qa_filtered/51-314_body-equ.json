@@ -1,0 +1,91 @@
+{
+  "page_id": "51-314_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-314.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:19:42.864359",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 798
+  },
+  "qa_pairs": [
+    {
+      "question": "What should the residual cement be reduced to before the window can be used again?",
+      "answer": "The residual cement should be reduced to about 0.5 mm (0.020\") with the knife, if the window can be used again.",
+      "question_type": "factual",
+      "id": "51-314_body-equ-q01"
+    },
+    {
+      "question": "What are the dimensions for the cement bead when reusing a window?",
+      "answer": "When reusing a window, the cement bead dimensions are a = 12 mm (0.472\") and b = 22 mm (0.866\").",
+      "question_type": "factual",
+      "id": "51-314_body-equ-q02"
+    },
+    {
+      "question": "What are the cement bead dimensions when replacing a window?",
+      "answer": "When replacing a window, the cement bead dimensions are a = 10 mm (0.394\") and b = 12 mm (0.472\").",
+      "question_type": "factual",
+      "id": "51-314_body-equ-q03"
+    },
+    {
+      "question": "What should be done to the window and body in the area of cementing surface?",
+      "answer": "Coat the window and body in the area of cementing surface with a primer.",
+      "question_type": "procedural",
+      "id": "51-314_body-equ-q04"
+    },
+    {
+      "question": "How long is the air drying time required after coating with primer?",
+      "answer": "Air drying time at least 10 minutes.",
+      "question_type": "factual",
+      "id": "51-314_body-equ-q05"
+    },
+    {
+      "question": "What is the proper way to hold the cartridge during cement application?",
+      "answer": "The cartridge must be held perpendicular to the window surface. Make sure of uniform feed and pulling speed during application.",
+      "question_type": "procedural",
+      "id": "51-314_body-equ-q06"
+    },
+    {
+      "question": "What distance should be maintained when producing the cement bead next to the rubber seal?",
+      "answer": "Produce cement bead next to rubber seal on window all around at distance A = 5 mm (0.197\").",
+      "question_type": "factual",
+      "id": "51-314_body-equ-q07"
+    },
+    {
+      "question": "What should you check on the cement cartridge before use?",
+      "answer": "Check use date of cement.",
+      "question_type": "inspection",
+      "id": "51-314_body-equ-q08"
+    },
+    {
+      "question": "What components are labeled as 1 and 2 in the bottom diagram?",
+      "answer": "Component 1 is the cement bead and component 2 is the basic bead on the window.",
+      "question_type": "visual",
+      "id": "51-314_body-equ-q09"
+    },
+    {
+      "question": "What is recommended before cementing if necessary?",
+      "answer": "If necessary, make a sample bead before cementing.",
+      "question_type": "procedural",
+      "id": "51-314_body-equ-q10"
+    },
+    {
+      "question": "What is noted about the basic bead coating?",
+      "answer": "The basic bead is not coated with primer.",
+      "question_type": "factual",
+      "id": "51-314_body-equ-q11"
+    },
+    {
+      "question": "What type of nozzle should be used for high cement bead application?",
+      "answer": "Screw on nozzle for high cement bead when opening the cartridge and placing it in the gun.",
+      "question_type": "tool",
+      "id": "51-314_body-equ-q12"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-12-09",
+  "image_path": "raw/00 - Torque Specs/12-09.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:48:11.612062",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 586
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw size and torque is specified for the support to starter?",
+      "answer": "M5 screw with 5 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-09-q02"
+    },
+    {
+      "question": "What torque specification is used for Terminal 30h on the starter electrical leads?",
+      "answer": "M5 screw with 5 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-09-q04"
+    },
+    {
+      "question": "What is the screw size and torque for Terminal 50?",
+      "answer": "M6 screw with 6 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-09-q05"
+    },
+    {
+      "question": "What torque specification is required for Terminal 30?",
+      "answer": "M8 screw with 12 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-09-q06"
+    },
+    {
+      "question": "Which terminal has the highest torque specification?",
+      "answer": "Terminal 30 has the highest torque specification at 12 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-09-q07"
+    },
+    {
+      "question": "What is the bolt specification for the pole tube connection?",
+      "answer": "M6 bolt with 6 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-09-q08"
+    },
+    {
+      "question": "Do all the components in section 12.41 apply to all vehicle types?",
+      "answer": "Yes, all components listed under section 12.41 apply to 'All' vehicle types",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-09-q09"
+    },
+    {
+      "question": "Which two components share the same M6 6 Nm torque specification?",
+      "answer": "Terminal 50 and the bolt connection for pole tube both use M6 screws with 6 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-09-q10"
+    }
+  ]
+}

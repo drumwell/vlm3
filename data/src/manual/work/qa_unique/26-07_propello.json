@@ -1,0 +1,67 @@
+{
+  "page_id": "26-07_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-07.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:55:20.826861",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 781
+  },
+  "qa_pairs": [
+    {
+      "question": "How much should you turn the vibration damper when unscrewing the propeller shaft on transmission?",
+      "answer": "Turn vibration damper 60\u00b0 and place on rubber coupling.",
+      "question_type": "procedural",
+      "id": "26-07_propello-q02"
+    },
+    {
+      "question": "What important safety note is mentioned about the propeller shaft?",
+      "answer": "The propeller shaft was balanced in assembled state and may only be replaced as such. Do not disconnect propeller shaft on slide.",
+      "question_type": "safety",
+      "id": "26-07_propello-q03"
+    },
+    {
+      "question": "What caution is given about where to let the propeller shaft rest?",
+      "answer": "Don't let propeller shaft rest on fuel tank connecting line.",
+      "question_type": "safety",
+      "id": "26-07_propello-q04"
+    },
+    {
+      "question": "When installing the coupling, which direction should the arrows face?",
+      "answer": "Install coupling that arrows face flange arms.",
+      "question_type": "procedural",
+      "id": "26-07_propello-q05"
+    },
+    {
+      "question": "What is the specified tightening torque for the coupling installation?",
+      "answer": "The tightening torque is marked with an asterisk, indicating it should be referenced in the specifications section.",
+      "question_type": "factual",
+      "id": "26-07_propello-q06"
+    },
+    {
+      "question": "What important rule applies when turning nuts and bolts on flange side?",
+      "answer": "Only turn nuts and bolts on flange side whenever permitted by design, to avoid stress in the coupling.",
+      "question_type": "safety",
+      "id": "26-07_propello-q07"
+    },
+    {
+      "question": "How far forward should you preload the center mount during installation?",
+      "answer": "Preload center mount forward by distance A = 4 to 6 mm (0.157 to 0.236 inches).",
+      "question_type": "procedural",
+      "id": "26-07_propello-q08"
+    },
+    {
+      "question": "What diagram numbers are shown for the propeller shaft removal and center mount procedures?",
+      "answer": "The diagrams show numbers 30 26 026, 30 26 027, 20 26 002, 30 26 004, 30 26 024, and 30 26 003.",
+      "question_type": "visual",
+      "id": "26-07_propello-q12"
+    }
+  ]
+}

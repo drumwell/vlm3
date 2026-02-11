@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-085",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/085.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:28:22.349922",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 528
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for coolant hoses with 32 to 48 mm diameter?",
+      "answer": "2.5 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-085-q01"
+    },
+    {
+      "question": "What wrench size is required for the bleeder screw on the thermostat housing?",
+      "answer": "8 mm wrench size",
+      "question_type": "tool",
+      "id": "bmwtorquespecs-085-q02"
+    },
+    {
+      "question": "Which component requires a 30 mm wrench size according to this torque specification table?",
+      "answer": "Level switch to coolant expansion tank",
+      "question_type": "component",
+      "id": "bmwtorquespecs-085-q04"
+    },
+    {
+      "question": "What section of the manual does this page cover according to the header?",
+      "answer": "17-1 Radiator",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-085-q06"
+    },
+    {
+      "question": "What diameter range is specified for the coolant hoses in the torque specification?",
+      "answer": "32 to 48 mm diameter",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-085-q10"
+    }
+  ]
+}

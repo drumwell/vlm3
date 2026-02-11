@@ -1,0 +1,91 @@
+{
+  "page_id": "41-320_body",
+  "image_path": "raw/41 - Body/41-320.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:01:02.110733",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 774
+  },
+  "qa_pairs": [
+    {
+      "question": "How far above the provided joint should the B pillar be cut on the new side panel?",
+      "answer": "The B pillar should be cut approximately 10 mm (0.394\") above the provided joint on the new side panel.",
+      "question_type": "factual",
+      "id": "41-320_body-q01"
+    },
+    {
+      "question": "What should be done to mating surfaces before spot welding?",
+      "answer": "Remove scrap metal, straighten and grind mating surfaces, then coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-320_body-q02"
+    },
+    {
+      "question": "How far above the required joint should the C pillar be cut through on the new side panel?",
+      "answer": "The C pillar should be cut through approximately 10 mm (0.394\") above the required joint on the new side panel.",
+      "question_type": "factual",
+      "id": "41-320_body-q03"
+    },
+    {
+      "question": "What caution is given when removing scrap metal on B and C pillars?",
+      "answer": "Don't damage air guide plate.",
+      "question_type": "safety",
+      "id": "41-320_body-q04"
+    },
+    {
+      "question": "What should be done after drilling off the remaining guide plate?",
+      "answer": "Clean mating surfaces after drilling off the remaining guide plate.",
+      "question_type": "procedural",
+      "id": "41-320_body-q05"
+    },
+    {
+      "question": "How wide should the brace be that is prepared from pillar sections cut off the new side panel?",
+      "answer": "The brace should be approximately 50 mm (2\") wide.",
+      "question_type": "factual",
+      "id": "41-320_body-q06"
+    },
+    {
+      "question": "What is the first step shown in the procedure?",
+      "answer": "Mount side panel and mark cutting line.",
+      "question_type": "procedural",
+      "id": "41-320_body-q07"
+    },
+    {
+      "question": "What should be marked after mounting the side panel?",
+      "answer": "Mark the cutting line after mounting the side panel.",
+      "question_type": "procedural",
+      "id": "41-320_body-q08"
+    },
+    {
+      "question": "What image reference number shows the step for marking the cutting line?",
+      "answer": "Image reference number 30 41 226 shows the step for marking the cutting line.",
+      "question_type": "visual",
+      "id": "41-320_body-q09"
+    },
+    {
+      "question": "Which image reference shows the preparation of the brace from pillar sections?",
+      "answer": "Image reference number 30 41 228 shows the preparation of the brace from pillar sections.",
+      "question_type": "visual",
+      "id": "41-320_body-q10"
+    },
+    {
+      "question": "What is done with the pillar sections that are cut off the new side panel?",
+      "answer": "The pillar sections cut off the new side panel are used to prepare an approximately 50 mm (2\") wide brace.",
+      "question_type": "procedural",
+      "id": "41-320_body-q11"
+    },
+    {
+      "question": "What component must not be damaged when removing scrap metal from the pillars?",
+      "answer": "The air guide plate must not be damaged when removing scrap metal from the B and C pillars.",
+      "question_type": "safety",
+      "id": "41-320_body-q12"
+    }
+  ]
+}

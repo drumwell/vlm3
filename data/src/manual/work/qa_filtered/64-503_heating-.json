@@ -1,0 +1,91 @@
+{
+  "page_id": "64-503_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-503.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:58:38.964612",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 670
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing and installing the evaporator according to procedure 64 51 590?",
+      "answer": "Disconnect battery ground lead.",
+      "question_type": "procedural",
+      "id": "64-503_heating--q01"
+    },
+    {
+      "question": "Which tray needs to be removed and installed during evaporator service?",
+      "answer": "Tray 51 16 200.",
+      "question_type": "factual",
+      "id": "64-503_heating--q02"
+    },
+    {
+      "question": "What instrument panel trim component must be removed on the left side?",
+      "answer": "Instrument panel trim on left side 51 45 180.",
+      "question_type": "factual",
+      "id": "64-503_heating--q03"
+    },
+    {
+      "question": "What tool is recommended for discharging pressure in the air conditioner system?",
+      "answer": "A valve core remover.",
+      "question_type": "tool",
+      "id": "64-503_heating--q04"
+    },
+    {
+      "question": "What should be done after installing the air conditioning system?",
+      "answer": "Discharge, charge and check air conditioner for leaks after installation.",
+      "question_type": "procedural",
+      "id": "64-503_heating--q05"
+    },
+    {
+      "question": "How should the glove box be opened during evaporator removal?",
+      "answer": "Unscrew bolt (1) and remove trim panel (2) to open the glove box.",
+      "question_type": "procedural",
+      "id": "64-503_heating--q06"
+    },
+    {
+      "question": "What components are identified by callout numbers 1 and 2 in the lower right diagram?",
+      "answer": "Lines (1 and 2) that need to be disconnected.",
+      "question_type": "visual",
+      "id": "64-503_heating--q07"
+    },
+    {
+      "question": "How should open connections be handled immediately after disconnection?",
+      "answer": "Plug open connections with caps (3) immediately.",
+      "question_type": "procedural",
+      "id": "64-503_heating--q08"
+    },
+    {
+      "question": "What tool is specified for counterholding the expansion valve?",
+      "answer": "Wrench (5).",
+      "question_type": "tool",
+      "id": "64-503_heating--q09"
+    },
+    {
+      "question": "What should be done to the torque when installing the expansion valve?",
+      "answer": "Tightening torque should be applied and seals should be replaced.",
+      "question_type": "procedural",
+      "id": "64-503_heating--q10"
+    },
+    {
+      "question": "What special tool is needed for straightening bent cooling fins on the condenser?",
+      "answer": "Special comb (1).",
+      "question_type": "tool",
+      "id": "64-503_heating--q11"
+    },
+    {
+      "question": "What reference should be consulted for additional specifications?",
+      "answer": "See Specifications.",
+      "question_type": "navigation",
+      "id": "64-503_heating--q12"
+    }
+  ]
+}

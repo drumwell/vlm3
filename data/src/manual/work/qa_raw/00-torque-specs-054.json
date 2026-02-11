@@ -1,0 +1,85 @@
+{
+  "page_id": "00-torque-specs-054",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/054.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:26:23.533926",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 642
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the TCI control unit?",
+      "answer": "2.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-054-q01"
+    },
+    {
+      "question": "What torque value should be used for the knock sensor on E23 models?",
+      "answer": "13 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-054-q02"
+    },
+    {
+      "question": "What is the general torque specification for all models regarding the knock sensor?",
+      "answer": "20 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-054-q03"
+    },
+    {
+      "question": "How much torque should be applied to speed and reference mark senders on all models with DME?",
+      "answer": "7 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-054-q04"
+    },
+    {
+      "question": "What is the torque specification for the cover on control unit box for E38 models?",
+      "answer": "4.4 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-054-q05"
+    },
+    {
+      "question": "What torque value is specified for the angle impulse sensor on cylinder head using M52 fasteners?",
+      "answer": "5.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-054-q06"
+    },
+    {
+      "question": "What is the torque specification for crankshaft sensors on timing case cover and cylinder crankcase with M52 fasteners?",
+      "answer": "5.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-054-q07"
+    },
+    {
+      "question": "Which electronic shift unit component has the lowest torque specification?",
+      "answer": "The TCI control unit at 2.5 Nm (ft. lbs.)",
+      "question_type": "comparison",
+      "id": "00-torque-specs-054-q08",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "Do the crankshaft sensors on timing case cover and cylinder crankcase have the same torque specification?",
+      "answer": "Yes, both have 5.0 Nm (ft. lbs.) with M52 fasteners",
+      "question_type": "comparison",
+      "id": "00-torque-specs-054-q09",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What section of the manual does this torque specification table belong to?",
+      "answer": "Section 12-4 Engine Electrical System, subsection 12 14 Electronic Shift Units or Control Units",
+      "question_type": "navigation",
+      "id": "00-torque-specs-054-q10"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "page_id": "62-00-index-a_instrume",
+  "image_path": "raw/62 - Instruments/62-00-index-a.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:44:04.285414",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1744,
+    "tokens_output": 316
+  },
+  "qa_pairs": [
+    {
+      "question": "Where can I find information about troubleshooting the check control system?",
+      "answer": "Page 62-71",
+      "question_type": "navigation",
+      "id": "62-00-index-a_instrume-q04"
+    },
+    {
+      "question": "Which section covers the fuel level transmitter for twin-check or replace procedure?",
+      "answer": "62 16 000, and it references Group 16",
+      "question_type": "factual",
+      "id": "62-00-index-a_instrume-q06"
+    }
+  ]
+}

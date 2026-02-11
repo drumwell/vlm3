@@ -1,0 +1,91 @@
+{
+  "page_id": "00-07_maintena",
+  "image_path": "raw/00 - Maintenance/00-07.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:12:19.518079",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 727
+  },
+  "qa_pairs": [
+    {
+      "question": "What service interval is being covered in this maintenance schedule?",
+      "answer": "The 1200 Mile Inspection (00 00 210).",
+      "question_type": "factual",
+      "id": "00-07_maintena-q01"
+    },
+    {
+      "question": "What important remark is noted for engine oil replacement?",
+      "answer": "Use approved oil only.",
+      "question_type": "safety",
+      "id": "00-07_maintena-q02"
+    },
+    {
+      "question": "Which repair manual group covers valve clearance checking and adjustment?",
+      "answer": "Group 11 (Gr. 11) covers valve clearance checking and adjustment.",
+      "question_type": "navigation",
+      "id": "00-07_maintena-q03"
+    },
+    {
+      "question": "What should be checked regarding coolant hoses during this inspection?",
+      "answer": "Check coolant hoses and connections as well as heater hoses for leaks; check coolant level and concentration, correcting if necessary.",
+      "question_type": "inspection",
+      "id": "00-07_maintena-q04"
+    },
+    {
+      "question": "What type of oil should be used for manual transmission and transfer case replacement?",
+      "answer": "Use approved oil only, and this applies to 325 iX only at operating temperature (not applicable to automatic transmission).",
+      "question_type": "procedural",
+      "id": "00-07_maintena-q05"
+    },
+    {
+      "question": "Which repair manual groups provide service information for ATF level checking?",
+      "answer": "Groups 00/23/24 and 23/24 provide service information for ATF level checking.",
+      "question_type": "navigation",
+      "id": "00-07_maintena-q06"
+    },
+    {
+      "question": "What type of inspection is required for the exhaust system and catalytic converter?",
+      "answer": "Visual inspection for correct installation, routing, damage or leaks.",
+      "question_type": "inspection",
+      "id": "00-07_maintena-q07"
+    },
+    {
+      "question": "What should be checked when tightening chassis nuts and bolts?",
+      "answer": "Check tightening torque, locks and cotter pins when tightening steering, brake calipers and wheel bolts.",
+      "question_type": "procedural",
+      "id": "00-07_maintena-q08"
+    },
+    {
+      "question": "Which repair manual group covers power steering service?",
+      "answer": "Group 32 (Gr. 32) covers power steering leaks and oil level checking.",
+      "question_type": "navigation",
+      "id": "00-07_maintena-q09"
+    },
+    {
+      "question": "What important remark applies to coolant system maintenance?",
+      "answer": "Use longterm antifreeze and corrosion inhibitor.",
+      "question_type": "safety",
+      "id": "00-07_maintena-q10"
+    },
+    {
+      "question": "What does the asterisk (*) notation indicate at the bottom of the page?",
+      "answer": "After introduction of: Operating-Fluids-File.",
+      "question_type": "factual",
+      "id": "00-07_maintena-q11"
+    },
+    {
+      "question": "What valve clearance exception is noted for the M3?",
+      "answer": "Check and adjust valve clearance except M3.",
+      "question_type": "factual",
+      "id": "00-07_maintena-q12"
+    }
+  ]
+}

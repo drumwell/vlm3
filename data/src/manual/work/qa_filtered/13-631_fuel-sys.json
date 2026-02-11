@@ -1,0 +1,91 @@
+{
+  "page_id": "13-631_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-631.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:43:02.819833",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 669
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step in removing the throttle switch?",
+      "answer": "Pull off multiple pin plug (3).",
+      "question_type": "procedural",
+      "id": "13-631_fuel-sys-q01"
+    },
+    {
+      "question": "How many screws need to be unscrewed during throttle switch removal?",
+      "answer": "Unscrew screws (1).",
+      "question_type": "procedural",
+      "id": "13-631_fuel-sys-q02"
+    },
+    {
+      "question": "What is the final step in the throttle switch removal procedure?",
+      "answer": "Take off throttle switch (2).",
+      "question_type": "procedural",
+      "id": "13-631_fuel-sys-q03"
+    },
+    {
+      "question": "What does callout number 1 indicate in the throttle switch diagram?",
+      "answer": "Callout number 1 indicates the screws that need to be unscrewed.",
+      "question_type": "visual",
+      "id": "13-631_fuel-sys-q04"
+    },
+    {
+      "question": "What does callout number 2 point to in the throttle switch removal diagram?",
+      "answer": "Callout number 2 points to the throttle switch itself.",
+      "question_type": "visual",
+      "id": "13-631_fuel-sys-q05"
+    },
+    {
+      "question": "What does callout number 3 identify in the throttle switch diagram?",
+      "answer": "Callout number 3 identifies the multiple pin plug that needs to be pulled off.",
+      "question_type": "visual",
+      "id": "13-631_fuel-sys-q06"
+    },
+    {
+      "question": "What should you check during throttle switch installation?",
+      "answer": "Check code number (1).",
+      "question_type": "inspection",
+      "id": "13-631_fuel-sys-q07"
+    },
+    {
+      "question": "What adjustment procedure is required after throttle switch installation?",
+      "answer": "Adjust throttle switch 13 63 544.",
+      "question_type": "procedural",
+      "id": "13-631_fuel-sys-q08"
+    },
+    {
+      "question": "What manufacturer made the throttle switch shown in the diagram?",
+      "answer": "BOSCH made in Germany.",
+      "question_type": "factual",
+      "id": "13-631_fuel-sys-q09"
+    },
+    {
+      "question": "What is the part number visible on the Bosch throttle switch?",
+      "answer": "0 280 120 302.",
+      "question_type": "factual",
+      "id": "13-631_fuel-sys-q10"
+    },
+    {
+      "question": "What reference number is shown for the throttle switch installation procedure?",
+      "answer": "13 63 551 for removing and installing throttle switch.",
+      "question_type": "factual",
+      "id": "13-631_fuel-sys-q11"
+    },
+    {
+      "question": "What section should be referenced for specifications during installation?",
+      "answer": "See Specifications as indicated by the asterisk note at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "13-631_fuel-sys-q12"
+    }
+  ]
+}

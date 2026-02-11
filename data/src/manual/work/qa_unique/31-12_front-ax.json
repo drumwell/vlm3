@@ -1,0 +1,67 @@
+{
+  "page_id": "31-12_front-ax",
+  "image_path": "raw/31 - Front Axle/31-12.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:03:05.143840",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 477
+  },
+  "qa_pairs": [
+    {
+      "question": "What is component number 13 in this shock absorber assembly diagram?",
+      "answer": "Component number 13 is the shock absorber piston rod.",
+      "question_type": "component",
+      "id": "31-12_front-ax-q01"
+    },
+    {
+      "question": "What does callout number 2 identify in this layout drawing?",
+      "answer": "Callout number 2 identifies the mount.",
+      "question_type": "component",
+      "id": "31-12_front-ax-q02"
+    },
+    {
+      "question": "Which component is located at the very top of the shock absorber assembly?",
+      "answer": "The cap (component 1) is located at the very top of the shock absorber assembly.",
+      "question_type": "visual",
+      "id": "31-12_front-ax-q03"
+    },
+    {
+      "question": "What is the difference between components 10 and 14?",
+      "answer": "Component 10 is the upper rubber ring, while component 14 is the lower rubber ring.",
+      "question_type": "factual",
+      "id": "31-12_front-ax-q04"
+    },
+    {
+      "question": "What component surrounds the shock absorber piston rod in the middle section?",
+      "answer": "The coil spring (component 12) surrounds the shock absorber piston rod in the middle section.",
+      "question_type": "visual",
+      "id": "31-12_front-ax-q05"
+    },
+    {
+      "question": "Which components are washers according to the parts list?",
+      "answer": "Components 4 and 6 are both identified as washers in the parts list.",
+      "question_type": "factual",
+      "id": "31-12_front-ax-q06"
+    },
+    {
+      "question": "What is component number 11 called?",
+      "answer": "Component number 11 is the upper spring retainer.",
+      "question_type": "component",
+      "id": "31-12_front-ax-q07"
+    },
+    {
+      "question": "What protective component is shown as number 8 in this assembly?",
+      "answer": "Component number 8 is the protective tube.",
+      "question_type": "component",
+      "id": "31-12_front-ax-q08"
+    }
+  ]
+}

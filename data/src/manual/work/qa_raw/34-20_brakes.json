@@ -1,0 +1,91 @@
+{
+  "page_id": "34-20_brakes",
+  "image_path": "raw/34 - Brakes/34-20.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:18:06.166600",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 787
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to turn the retainer springs 90 degrees when working on parking brake shoes?",
+      "answer": "Special Tool 34 4 000 is required to turn the retainer springs 90 degrees and disconnect them.",
+      "question_type": "tool",
+      "id": "34-20_brakes-q01"
+    },
+    {
+      "question": "What procedure is referenced for removing and installing parking brake lever?",
+      "answer": "The procedure references section 34 41 000 for removing and installing the parking brake lever.",
+      "question_type": "navigation",
+      "id": "34-20_brakes-q02"
+    },
+    {
+      "question": "How should the brake shoes be spread apart when removing them?",
+      "answer": "Spread brake shoes apart at bottom and lift off from above.",
+      "question_type": "procedural",
+      "id": "34-20_brakes-q03"
+    },
+    {
+      "question": "What are the three phases for breaking in parking brake shoes after replacement?",
+      "answer": "Phase 1: 5 full stop braking actions from 50 km/h (30 mph). Phase 2: Let brakes cool down. Phase 3: 5 additional braking actions from 50 km/h (30 mph).",
+      "question_type": "procedural",
+      "id": "34-20_brakes-q04"
+    },
+    {
+      "question": "What lubricant should be applied to sliding surfaces and pins during installation?",
+      "answer": "Give sliding surfaces and pins a thin coat of Molykote G paste.",
+      "question_type": "tool",
+      "id": "34-20_brakes-q05"
+    },
+    {
+      "question": "What part number is referenced for the parking brake cable procedure?",
+      "answer": "Part number 34 41 100 is referenced for removing and installing parking brake cable for rear disc brakes.",
+      "question_type": "factual",
+      "id": "34-20_brakes-q06"
+    },
+    {
+      "question": "How should the parking brake cable be removed from the swinging arm?",
+      "answer": "Disconnect parking brake cable on swinging arm and pull parking brake cable out of protective tube.",
+      "question_type": "procedural",
+      "id": "34-20_brakes-q07"
+    },
+    {
+      "question": "What components are labeled as A, B, and C in the spreader diagram?",
+      "answer": "In the spreader diagram, A shows the pin area, B indicates a pin to be pressed out, and C shows another part of the spreader mechanism.",
+      "question_type": "visual",
+      "id": "34-20_brakes-q08"
+    },
+    {
+      "question": "What should be done with the return spring during installation?",
+      "answer": "Check return spring, replacing it if necessary during installation.",
+      "question_type": "inspection",
+      "id": "34-20_brakes-q09"
+    },
+    {
+      "question": "What is the proper installation position for the cable holder?",
+      "answer": "During installation, the cable holder must rest on protective tube.",
+      "question_type": "procedural",
+      "id": "34-20_brakes-q10"
+    },
+    {
+      "question": "What adjustment procedure is mentioned after installing parking brake components?",
+      "answer": "Adjust parking brake 34 10 014 is referenced after installation procedures.",
+      "question_type": "navigation",
+      "id": "34-20_brakes-q11"
+    },
+    {
+      "question": "What should be done to remove the spreader components?",
+      "answer": "Pull off part A toward rear, press out pin B, and pull out part C.",
+      "question_type": "procedural",
+      "id": "34-20_brakes-q12"
+    }
+  ]
+}

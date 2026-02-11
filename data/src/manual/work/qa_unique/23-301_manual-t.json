@@ -1,0 +1,61 @@
+{
+  "page_id": "23-301_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-301.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:41:13.056325",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 503
+  },
+  "qa_pairs": [
+    {
+      "question": "What transmission type is shown in this section drawing?",
+      "answer": "This is a section drawing of the shift mechanism for GETRAG 265/6 Overdrive Transmission.",
+      "question_type": "factual",
+      "id": "23-301_manual-t-q01"
+    },
+    {
+      "question": "Which selector rod is used for 3rd and 4th gear?",
+      "answer": "The selector rod for 3rd/4th gear is indicated by callout number 2.",
+      "question_type": "component",
+      "id": "23-301_manual-t-q03"
+    },
+    {
+      "question": "What does callout number 8 identify in this transmission diagram?",
+      "answer": "Callout number 8 identifies the reversing lever.",
+      "question_type": "component",
+      "id": "23-301_manual-t-q04"
+    },
+    {
+      "question": "Where is the selector shaft located in relation to the selector rods?",
+      "answer": "The selector shaft (callout 4) is positioned centrally and connects to the selector rods through the selector arm mechanism.",
+      "question_type": "visual",
+      "id": "23-301_manual-t-q05"
+    },
+    {
+      "question": "What component allows the selector shaft to engage different gear selector rods?",
+      "answer": "The selector arm (callout 5) allows the selector shaft to engage different gear selector rods.",
+      "question_type": "operation",
+      "id": "23-301_manual-t-q06"
+    },
+    {
+      "question": "Which callout number corresponds to the dog component?",
+      "answer": "Callout number 7 corresponds to the dog component.",
+      "question_type": "component",
+      "id": "23-301_manual-t-q07"
+    },
+    {
+      "question": "What is the function of the selector rail shown as callout 6?",
+      "answer": "The selector rail (callout 6) provides a guide and support structure for the movement of the selector mechanism components.",
+      "question_type": "operation",
+      "id": "23-301_manual-t-q08"
+    }
+  ]
+}

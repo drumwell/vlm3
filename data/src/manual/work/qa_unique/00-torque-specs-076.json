@@ -1,0 +1,43 @@
+{
+  "page_id": "00-torque-specs-076",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/076.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:30:27.280036",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 509
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the manual contains the air intake silencer specifications?",
+      "answer": "13-9 Fuel System",
+      "question_type": "navigation",
+      "id": "00-torque-specs-076-q04"
+    },
+    {
+      "question": "Which component in the fuel system section has a 6 Nm torque specification?",
+      "answer": "Air intake silencer on cylinder head cover",
+      "question_type": "component",
+      "id": "00-torque-specs-076-q08"
+    },
+    {
+      "question": "What is the complete component description for reference 13 71?",
+      "answer": "Air intake silencer",
+      "question_type": "component",
+      "id": "00-torque-specs-076-q09"
+    },
+    {
+      "question": "What specific location is mentioned for the air intake silencer installation?",
+      "answer": "On cylinder head cover",
+      "question_type": "factual",
+      "id": "00-torque-specs-076-q10"
+    }
+  ]
+}

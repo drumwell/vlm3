@@ -1,0 +1,94 @@
+{
+  "page_id": "11-102_engine",
+  "image_path": "raw/11 - Engine/11-102.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:07:37.481888",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1759,
+    "tokens_output": 952
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the tightening torque specification for the air intake manifold installation?",
+      "answer": "The tightening torque is 9 Nm (6.5 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-102_engine-q01"
+    },
+    {
+      "question": "What should be checked when installing O-rings during the air intake manifold installation?",
+      "answer": "Check O-rings, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "11-102_engine-q02"
+    },
+    {
+      "question": "What are the first steps when removing the engine according to procedure 11 00 050?",
+      "answer": "Disconnect battery ground lead, remove transmission (see Gr. 23), unscrew splash guard, drain coolant on engine and radiator, and remove air filter.",
+      "question_type": "procedural",
+      "id": "11-102_engine-q03"
+    },
+    {
+      "question": "Where can you find information about filling and bleeding the cooling system?",
+      "answer": "Fill and bleed cooling system - see Gr. 17.",
+      "question_type": "navigation",
+      "id": "11-102_engine-q04"
+    },
+    {
+      "question": "What components are indicated by callout numbers 1, 2, and 3 in the top right diagram showing hose clamp removal?",
+      "answer": "The callouts show the process of loosening hose clamps and pulling hoses off of the coolant expansion tank, with number 3 indicating unscrewing the nut and taking off the ground strap.",
+      "question_type": "visual",
+      "id": "11-102_engine-q05"
+    },
+    {
+      "question": "What procedure should be followed when disconnecting the throttle cable and cruise control cable?",
+      "answer": "Disconnect throttle cable (1) and cruise control cable (2), unscrew nuts (3) on holder and place cables with holder aside, then unscrew nut (4), pull off clamp and lift vacuum hose (5) out of brake booster.",
+      "question_type": "procedural",
+      "id": "11-102_engine-q06"
+    },
+    {
+      "question": "What are the numbered components in the middle left diagram showing throttle cable disconnection?",
+      "answer": "1 - throttle cable, 2 - cruise control cable, 3 - nuts on holder, 4 - nut for clamp, 5 - vacuum hose from brake booster.",
+      "question_type": "visual",
+      "id": "11-102_engine-q07"
+    },
+    {
+      "question": "What should be done with the ignition lead and plugs during engine removal?",
+      "answer": "Pull ignition lead (1) off of ignition coil, pull off plugs (2 and 3), unscrew nut (4) and place electric lead on opposite end of engine.",
+      "question_type": "procedural",
+      "id": "11-102_engine-q08"
+    },
+    {
+      "question": "How do you remove the intake manifold hose according to the bottom left procedure?",
+      "answer": "Loosen hose clamp (1) and pull hose off of intake manifold, then unscrew nut (2) on intake manifold support.",
+      "question_type": "procedural",
+      "id": "11-102_engine-q09"
+    },
+    {
+      "question": "What is shown in callout numbers 3 and 4 in the alternator disconnection diagram?",
+      "answer": "3 and 4 indicate the nuts that need to be unscrewed to take off the electric leads from the alternator.",
+      "question_type": "visual",
+      "id": "11-102_engine-q10"
+    },
+    {
+      "question": "What electric components need to be disconnected from the alternator?",
+      "answer": "Disconnect electric leads (1 and 2) on alternator, unscrew nuts (3 and 4) and take off electric leads.",
+      "question_type": "procedural",
+      "id": "11-102_engine-q11"
+    },
+    {
+      "question": "What is the main topic covered in section 11 00 050 shown on this page?",
+      "answer": "Removing and installing engine.",
+      "question_type": "factual",
+      "id": "11-102_engine-q12",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

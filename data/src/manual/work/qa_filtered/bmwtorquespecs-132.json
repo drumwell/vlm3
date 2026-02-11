@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-132",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/132.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:37:48.145394",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 601
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the service manual covers headlight cleaners torque specifications?",
+      "answer": "61 67 Headlight Cleaners under General Electrical system",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-132-q04"
+    },
+    {
+      "question": "What are the two connection points specified for headlight cleaner torque values?",
+      "answer": "Telescope to bracket (1AZ) and Bracket to body (2AZ)",
+      "question_type": "component",
+      "id": "bmwtorquespecs-132-q05"
+    },
+    {
+      "question": "What is the difference in torque values between the telescope to bracket and bracket to body connections?",
+      "answer": "12 Nm (15 Nm for bracket to body minus 3 Nm for telescope to bracket)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-132-q06"
+    },
+    {
+      "question": "Which headlight cleaner connection requires the higher torque value?",
+      "answer": "The bracket to body connection (2AZ) requires 15 Nm, which is higher than the 3 Nm for telescope to bracket (1AZ)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-132-q08"
+    },
+    {
+      "question": "Are the screw types the same for both headlight cleaner mounting points?",
+      "answer": "Yes, both the telescope to bracket and bracket to body connections use E36 type screws",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-132-q10"
+    }
+  ]
+}

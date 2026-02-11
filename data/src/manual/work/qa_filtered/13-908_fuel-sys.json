@@ -1,0 +1,91 @@
+{
+  "page_id": "13-908_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-908.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:56:09.488852",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 692
+  },
+  "qa_pairs": [
+    {
+      "question": "What is Test Position 12 for?",
+      "answer": "Test Position 12 is for the throttle switch.",
+      "question_type": "factual",
+      "id": "13-908_fuel-sys-q01"
+    },
+    {
+      "question": "What are the three main checks to perform for the throttle switch test?",
+      "answer": "Check code number, check switching points - 13 63 544, and check connections and wires.",
+      "question_type": "procedural",
+      "id": "13-908_fuel-sys-q02"
+    },
+    {
+      "question": "What should you do if the throttle switch fails its checks?",
+      "answer": "Replace throttle switch and adjust throttle switch.",
+      "question_type": "procedural",
+      "id": "13-908_fuel-sys-q03"
+    },
+    {
+      "question": "What is the switching points specification number for the throttle switch?",
+      "answer": "The switching points specification is 13 63 544.",
+      "question_type": "factual",
+      "id": "13-908_fuel-sys-q04"
+    },
+    {
+      "question": "Where can I find more information about the specifications mentioned?",
+      "answer": "See Specifications section as noted at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "13-908_fuel-sys-q05"
+    },
+    {
+      "question": "Where can I find the wiring information for the throttle switch connections?",
+      "answer": "See Wiring Diagram as noted at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "13-908_fuel-sys-q06"
+    },
+    {
+      "question": "What page number is this from the service manual?",
+      "answer": "This is page 13-908 from the service manual.",
+      "question_type": "factual",
+      "id": "13-908_fuel-sys-q07"
+    },
+    {
+      "question": "What two actions are required if throttle switch replacement is necessary?",
+      "answer": "Replace throttle switch and adjust throttle switch.",
+      "question_type": "procedural",
+      "id": "13-908_fuel-sys-q08"
+    },
+    {
+      "question": "What type of component inspection involves checking connections and wires?",
+      "answer": "Electrical connection and wiring inspection for the throttle switch circuit.",
+      "question_type": "inspection",
+      "id": "13-908_fuel-sys-q09"
+    },
+    {
+      "question": "What should be verified regarding the code number during throttle switch testing?",
+      "answer": "The code number should be checked as part of the throttle switch diagnostic procedure.",
+      "question_type": "diagnostic",
+      "id": "13-908_fuel-sys-q10"
+    },
+    {
+      "question": "What are the main diagnostic steps for troubleshooting throttle switch issues?",
+      "answer": "Check the code number, verify switching points against specification 13 63 544, and inspect all connections and wires.",
+      "question_type": "troubleshooting",
+      "id": "13-908_fuel-sys-q11"
+    },
+    {
+      "question": "What component is being tested in Test Position 12?",
+      "answer": "The throttle switch is the component being tested in Test Position 12.",
+      "question_type": "component",
+      "id": "13-908_fuel-sys-q12"
+    }
+  ]
+}

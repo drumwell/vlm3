@@ -1,0 +1,91 @@
+{
+  "page_id": "23-03_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-03.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:22:53.796087",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 798
+  },
+  "qa_pairs": [
+    {
+      "question": "What section should be referenced for removing the exhaust assembly during transmission removal?",
+      "answer": "See section 18 00 020 for removing the exhaust assembly.",
+      "question_type": "navigation",
+      "id": "23-03_manual-t-q01"
+    },
+    {
+      "question": "What is the preload distance (A) for the center mount installation?",
+      "answer": "The preload center mount forward by distance (A) should be 4 to 6 mm (0.157 to 0.236\").",
+      "question_type": "factual",
+      "id": "23-03_manual-t-q02"
+    },
+    {
+      "question": "What important precaution should be taken with the propeller shaft during transmission removal?",
+      "answer": "Don't let the propeller shaft fall into the joints. Suspend propeller shaft from car on a piece of wire.",
+      "question_type": "safety",
+      "id": "23-03_manual-t-q03"
+    },
+    {
+      "question": "What socket size is recommended for tightening nuts during installation?",
+      "answer": "Tighten nuts with a standard 17 mm socket together with a torque wrench.",
+      "question_type": "tool",
+      "id": "23-03_manual-t-q04"
+    },
+    {
+      "question": "What important guideline should be followed when tightening fasteners to avoid stress in Guibo coupling?",
+      "answer": "Only tighten nuts (never bolts) to avoid stress in Guibo coupling.",
+      "question_type": "procedural",
+      "id": "23-03_manual-t-q05"
+    },
+    {
+      "question": "What components are indicated by callout numbers 1 and 2 in the shift rod removal diagram?",
+      "answer": "Callout 1 indicates the circlip and callout 2 indicates the washer that should be lifted out and removed.",
+      "question_type": "visual",
+      "id": "23-03_manual-t-q06"
+    },
+    {
+      "question": "What should be done to ensure proper bracket alignment during installation?",
+      "answer": "When tightening make sure brackets are horizontal to the shift console (shift lever noise). Always replace bolts.",
+      "question_type": "procedural",
+      "id": "23-03_manual-t-q07"
+    },
+    {
+      "question": "What special tool is required for the threaded ring version and what is its part number?",
+      "answer": "Special Tool 26 1 040 is required for tightening the threaded ring after finishing installation.",
+      "question_type": "tool",
+      "id": "23-03_manual-t-q08"
+    },
+    {
+      "question": "What lubricant should be used on the bearing pin and what is the specification?",
+      "answer": "Lubricate bearing pin lightly with Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "23-03_manual-t-q09"
+    },
+    {
+      "question": "How should the clutch slave cylinder bleeder screw be positioned during installation?",
+      "answer": "The bleeder screw faces down during installation.",
+      "question_type": "procedural",
+      "id": "23-03_manual-t-q10"
+    },
+    {
+      "question": "What should be done with stop nuts during bolt removal?",
+      "answer": "Replace stop nuts when unscrewing bolts.",
+      "question_type": "procedural",
+      "id": "23-03_manual-t-q11"
+    },
+    {
+      "question": "What procedure is required for the threaded ring version during loosening?",
+      "answer": "Loosen threaded ring (1) several turns before proceeding with removal.",
+      "question_type": "procedural",
+      "id": "23-03_manual-t-q12"
+    }
+  ]
+}

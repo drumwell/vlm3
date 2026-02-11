@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6452-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:09:20.975858",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 501
+  },
+  "qa_pairs": [
+    {
+      "question": "At what pressure does the refrigerant pressure switch open?",
+      "answer": "The refrigerant pressure switch opens above 435 PSI (30.0 BAR).",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-01-q01"
+    },
+    {
+      "question": "What happens when there is a loss of refrigerant in the system?",
+      "answer": "The refrigerant pressure switch opens with loss of refrigerant.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-01-q02"
+    },
+    {
+      "question": "At what temperature does the coolant temperature switch open?",
+      "answer": "The coolant temperature switch opens above 326\u00b0F (180\u00b0C).",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-01-q03"
+    },
+    {
+      "question": "What is the temperature rating for the compressor oil temperature switch?",
+      "answer": "The compressor oil temperature switch is rated at 150\u00b0C.",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-01-q04"
+    },
+    {
+      "question": "Which component controls the A/C clutch monitor input?",
+      "answer": "The A/C clutch monitor input is controlled by the compressor control unit along with the evaporator temperature regulator.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-01-q05"
+    },
+    {
+      "question": "What wire color designation is used for the connection at terminal 6?",
+      "answer": "The wire color designation at terminal 6 is 5 BK/YL.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-01-q06"
+    },
+    {
+      "question": "What is the connector designation for the Motronic control unit?",
+      "answer": "The connector designation for the Motronic control unit is 29.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-01-q07"
+    },
+    {
+      "question": "What are the two main components shown in the A/C compressor section?",
+      "answer": "The two main components shown in the A/C compressor section are the compressor clutch and the compressor clutch diode.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-01-q08"
+    }
+  ]
+}

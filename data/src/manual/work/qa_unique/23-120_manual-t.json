@@ -1,0 +1,91 @@
+{
+  "page_id": "23-120_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-120.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:30:38.607118",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 860
+  },
+  "qa_pairs": [
+    {
+      "question": "What service manual section number covers the disassembly and assembly of synchronization components?",
+      "answer": "Section 23 23 506 covers the disassembly/assembling synchronization with output shaft removed.",
+      "question_type": "factual",
+      "id": "23-120_manual-t-q01"
+    },
+    {
+      "question": "What measurements should be taken when disassembling the output shaft?",
+      "answer": "Measure the distance between the synchromesh ring and clutch, and measure in the area of stops.",
+      "question_type": "procedural",
+      "id": "23-120_manual-t-q02"
+    },
+    {
+      "question": "What reference section should be consulted for the output shaft disassembly procedure?",
+      "answer": "See section 23 21 555 for output shaft disassembly procedures.",
+      "question_type": "navigation",
+      "id": "23-120_manual-t-q03"
+    },
+    {
+      "question": "How should the sliding sleeve be removed during synchronization disassembly?",
+      "answer": "Press the sliding sleeve off of the guide sleeve, along with spring (1), pressure piece (2) and ball (3).",
+      "question_type": "procedural",
+      "id": "23-120_manual-t-q04"
+    },
+    {
+      "question": "What is the critical alignment requirement during installation of the sliding sleeve?",
+      "answer": "The flat teeth of the sliding sleeve must be aligned with the pressure pieces during installation.",
+      "question_type": "procedural",
+      "id": "23-120_manual-t-q05"
+    },
+    {
+      "question": "What components are numbered 1, 2, and 3 in diagram 30 23 272?",
+      "answer": "Component 1 is the spring, component 2 is the pressure piece, and component 3 is the ball.",
+      "question_type": "visual",
+      "id": "23-120_manual-t-q06"
+    },
+    {
+      "question": "What is the proper installation sequence for the springs, pressure pieces, and balls?",
+      "answer": "Install all springs, pressure pieces and balls, with the shouldered end of pressure pieces facing the collar. Press in balls one after the other and into sliding sleeve.",
+      "question_type": "procedural",
+      "id": "23-120_manual-t-q07"
+    },
+    {
+      "question": "What synchronization check should be performed for 1st/2nd gear?",
+      "answer": "Check the installed position of the sliding sleeve, ensuring the wide web (4) of the sliding sleeve faces the thick collar (5).",
+      "question_type": "inspection",
+      "id": "23-120_manual-t-q08"
+    },
+    {
+      "question": "What synchronization check should be performed for 5th/Reverse gear?",
+      "answer": "Check the installed position of the sliding sleeve, ensuring the wide web (6) of the sliding sleeve faces the narrow collar (7).",
+      "question_type": "inspection",
+      "id": "23-120_manual-t-q09"
+    },
+    {
+      "question": "Which diagram numbers show the 1st/2nd gear and 5th/Reverse gear synchronization assemblies?",
+      "answer": "Diagram 30 23 274 shows the 1st/2nd gear synchronization and diagram 30 23 275 shows the 5th/Reverse gear synchronization.",
+      "question_type": "visual",
+      "id": "23-120_manual-t-q10"
+    },
+    {
+      "question": "What important note is given regarding the pressure pieces during installation?",
+      "answer": "The shouldered end of pressure pieces must face the collar during installation.",
+      "question_type": "safety",
+      "id": "23-120_manual-t-q11"
+    },
+    {
+      "question": "Where can specifications for the distance measurements be found?",
+      "answer": "The specifications for the distance measurements are referenced at the bottom of the page with an asterisk note to 'See Specifications'.",
+      "question_type": "navigation",
+      "id": "23-120_manual-t-q12"
+    }
+  ]
+}

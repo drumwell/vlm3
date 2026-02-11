@@ -1,0 +1,85 @@
+{
+  "page_id": "41-125_body",
+  "image_path": "raw/41 - Body/41-125.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:48:26.352075",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 793
+  },
+  "qa_pairs": [
+    {
+      "question": "Where should you plug spot weld support on the wheel house?",
+      "answer": "Plug spot weld support on wheel house as shown in diagram 30 41 495.",
+      "question_type": "procedural",
+      "id": "41-125_body-q02"
+    },
+    {
+      "question": "What area needs to be plug spot welded from the passenger compartment?",
+      "answer": "Plug spot weld in area of engine compartment wall from the passenger compartment.",
+      "question_type": "procedural",
+      "id": "41-125_body-q03"
+    },
+    {
+      "question": "What components should be plug spot welded on the wheel house according to diagram 30 41 497?",
+      "answer": "Plug spot weld engine hood lock holder and heater separating wall on wheel house.",
+      "question_type": "procedural",
+      "id": "41-125_body-q04"
+    },
+    {
+      "question": "What preparation is required for mating surfaces before spot welding according to diagram 30 41 498?",
+      "answer": "Grind mating surfaces for end plate. Coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-125_body-q05"
+    },
+    {
+      "question": "What should be done with the end plate according to diagram 30 41 500?",
+      "answer": "Install and spot weld end plate.",
+      "question_type": "procedural",
+      "id": "41-125_body-q06"
+    },
+    {
+      "question": "Where should you inert gas weld the end plate?",
+      "answer": "Inert gas weld end plate in A pillar area as shown in diagram 30 41 501.",
+      "question_type": "procedural",
+      "id": "41-125_body-q07"
+    },
+    {
+      "question": "What joint should be plug spot welded according to the bottom diagram?",
+      "answer": "Plug spot weld the heater separating wall joint as shown in diagram 30 41 502.",
+      "question_type": "procedural",
+      "id": "41-125_body-q08"
+    },
+    {
+      "question": "What diagram number shows the plug spot welding of support on the wheel house?",
+      "answer": "Diagram 30 41 495 shows the plug spot welding of support on the wheel house.",
+      "question_type": "visual",
+      "id": "41-125_body-q09"
+    },
+    {
+      "question": "Which diagram illustrates grinding mating surfaces on the end plate?",
+      "answer": "Diagram 30 41 499 illustrates grinding mating surfaces on the end plate.",
+      "question_type": "visual",
+      "id": "41-125_body-q10"
+    },
+    {
+      "question": "What type of welding is used in the A pillar area?",
+      "answer": "Inert gas welding is used for the end plate in the A pillar area.",
+      "question_type": "factual",
+      "id": "41-125_body-q11"
+    },
+    {
+      "question": "What coating should be applied to mating surfaces for spot welding?",
+      "answer": "Zinc dust paint should be applied to mating surfaces needed for spot welding.",
+      "question_type": "factual",
+      "id": "41-125_body-q12"
+    }
+  ]
+}

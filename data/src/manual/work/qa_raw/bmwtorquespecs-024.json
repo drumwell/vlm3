@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-024",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/024.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:16:52.433765",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 610
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for flywheel to crankshaft bolts on M60/1/M60/2/M62 Manual Transmission?",
+      "answer": "105 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-024-q01"
+    },
+    {
+      "question": "What torque value should be used for new micro-encapsulated screws on M40/M42/M43/M44/M51 Automatic/M52 Automatic transmissions?",
+      "answer": "120 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-024-q02"
+    },
+    {
+      "question": "What is the torque specification for new micro-encapsulated screws on all other transmission types?",
+      "answer": "105 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-024-q03"
+    },
+    {
+      "question": "What important warning is given about flywheel installation?",
+      "answer": "Do not install with screw retaining compound. Bolts are a component part of the flywheel. Screw threads oiled.",
+      "question_type": "safety",
+      "id": "bmwtorquespecs-024-q04"
+    },
+    {
+      "question": "What section number covers the engine flywheel specifications?",
+      "answer": "11 22",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-024-q06"
+    },
+    {
+      "question": "Which transmission types require 120 Nm torque for new micro-encapsulated screws?",
+      "answer": "M40/M42/M43/M44/M51 Automatic/M52 Automatic",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-024-q07"
+    },
+    {
+      "question": "Should screw retaining compound be used when installing the flywheel?",
+      "answer": "No, do not install with screw retaining compound.",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-024-q08"
+    },
+    {
+      "question": "What should be applied to the screw threads during flywheel installation?",
+      "answer": "Oil should be applied to screw threads.",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-024-q09"
+    },
+    {
+      "question": "What is the general section this torque specification table covers?",
+      "answer": "11 - 14 Engine",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-024-q10"
+    }
+  ]
+}

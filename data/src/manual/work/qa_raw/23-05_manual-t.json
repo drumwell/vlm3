@@ -1,0 +1,91 @@
+{
+  "page_id": "23-05_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-05.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:23:58.809365",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 732
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of adhesive should be used when installing the guide sleeve?",
+      "answer": "Install guide sleeve with Loctite No. 573.",
+      "question_type": "tool",
+      "id": "23-05_manual-t-q01"
+    },
+    {
+      "question": "What is the acceptable play range between the bearing race and circlip?",
+      "answer": "Take up play between bearing race and circlip to 0...0.009 mm (0...0.0035\").",
+      "question_type": "factual",
+      "id": "23-05_manual-t-q02"
+    },
+    {
+      "question": "What should be done to the sealing surface before installing the guide sleeve?",
+      "answer": "Sealing surface must be thoroughly clean and dried of oil.",
+      "question_type": "procedural",
+      "id": "23-05_manual-t-q03"
+    },
+    {
+      "question": "What lubricant should be packed into groove N?",
+      "answer": "Pack lubricating groove N with Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "23-05_manual-t-q04"
+    },
+    {
+      "question": "What components need to be coated with Molykote Longterm 2?",
+      "answer": "Coat guides F and bearings L with Molykote Longterm 2.",
+      "question_type": "procedural",
+      "id": "23-05_manual-t-q05"
+    },
+    {
+      "question": "What distance measurement example is given for dimension B?",
+      "answer": "B = 4.0 mm (0.157\").",
+      "question_type": "factual",
+      "id": "23-05_manual-t-q06"
+    },
+    {
+      "question": "What could happen if the release bearing seizes on the guide sleeve?",
+      "answer": "Non-conformance could cause release bearing to seize on guide sleeve.",
+      "question_type": "safety",
+      "id": "23-05_manual-t-q07"
+    },
+    {
+      "question": "How do you remove the release lever from the clutch release mechanism?",
+      "answer": "Lift out spring (1) and remove release lever (2) with thrust bearing (3).",
+      "question_type": "procedural",
+      "id": "23-05_manual-t-q08"
+    },
+    {
+      "question": "What is the example spacer thickness given in the measurements?",
+      "answer": "1.4 mm (0.055\") spacer thickness.",
+      "question_type": "factual",
+      "id": "23-05_manual-t-q09"
+    },
+    {
+      "question": "Where should distance C be measured from?",
+      "answer": "Measure distance (C) from guide sleeve protrusion to outside surface.",
+      "question_type": "inspection",
+      "id": "23-05_manual-t-q10"
+    },
+    {
+      "question": "What procedure code covers removing and installing the guide sleeve for clutch release?",
+      "answer": "23 11 623 REMOVING AND INSTALLING GUIDE SLEEVE FOR CLUTCH RELEASE - TRANSMISSION REMOVED.",
+      "question_type": "navigation",
+      "id": "23-05_manual-t-q11"
+    },
+    {
+      "question": "What is the example measurement given for dimension C?",
+      "answer": "C = 2.6 mm (0.102\").",
+      "question_type": "factual",
+      "id": "23-05_manual-t-q12"
+    }
+  ]
+}

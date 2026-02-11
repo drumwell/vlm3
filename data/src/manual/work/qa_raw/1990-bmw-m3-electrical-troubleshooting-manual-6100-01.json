@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6100-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:01:51.006998",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 553
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of fuse 28 in the cigar lighter circuit?",
+      "answer": "Fuse 28 is rated at 30 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-01-q01"
+    },
+    {
+      "question": "Which fuse protects the auto-charging flashlight circuit and what is its rating?",
+      "answer": "Fuse 21 protects the auto-charging flashlight circuit and is rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-01-q02"
+    },
+    {
+      "question": "What voltage is present at wire connection C103 in the glove box light circuit?",
+      "answer": "1.5 V/GY is present at connection C103 in the glove box light circuit.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-01-q03"
+    },
+    {
+      "question": "Which circuits are hot at all times according to the diagram?",
+      "answer": "The cigar lighter circuit (fuse 28) and the auto-charging flashlight circuit (fuse 21) are hot at all times.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-01-q04"
+    },
+    {
+      "question": "What is the amperage rating of fuse 4 that supplies the glove box light?",
+      "answer": "Fuse 4 is rated at 15 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-01-q05"
+    },
+    {
+      "question": "Which circuits are only hot in ACC, RUN or START positions?",
+      "answer": "The glove box light circuit (fuse 4) and the map reading light circuit (fuse 8) are hot in ACC, RUN or START positions.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-01-q06"
+    },
+    {
+      "question": "What component controls the active check function shown in the diagram?",
+      "answer": "The Active Check Control component controls the active check function, receiving 5 V/GY input.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-01-q07"
+    },
+    {
+      "question": "What important note is provided at the bottom of the diagram regarding vehicle variations?",
+      "answer": "Some vehicles may contain an additional splice (see ground distribution).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6100-01-q08"
+    }
+  ]
+}

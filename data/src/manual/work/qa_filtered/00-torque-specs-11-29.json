@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-11-29",
+  "image_path": "raw/00 - Torque Specs/11-29.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:42:21.250862",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 675
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil cooler oil pipes to oil filter housing?",
+      "answer": "22 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-29-q01"
+    },
+    {
+      "question": "What size and torque are specified for the oil lines from turbocharger to engine block hollow bolt?",
+      "answer": "M16 x 1.5 bolts torqued to 40 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-29-q02"
+    },
+    {
+      "question": "What torque should be applied to the oil pipes to turbocharger connection?",
+      "answer": "22 Nm using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-29-q03"
+    },
+    {
+      "question": "Which oil filter and pipes components use M8 screws with 22 Nm torque?",
+      "answer": "Both the oil cooler oil pipes to oil filter housing and the oil pipes to turbocharger connections use M8 screws with 22 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-29-q06"
+    },
+    {
+      "question": "What is the highest torque specification shown for oil filter and pipes components?",
+      "answer": "40 Nm, which is specified for the M16 x 1.5 hollow bolt connecting oil lines from turbocharger to engine block.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-29-q07"
+    },
+    {
+      "question": "Do all the oil filter and pipes specifications apply to all vehicle types?",
+      "answer": "Yes, all the specifications shown in section 11 42 Oil Filter and Pipes are marked as applying to 'All' vehicle types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-29-q08"
+    },
+    {
+      "question": "What section number covers the oil filter and pipes torque specifications?",
+      "answer": "Section 11 42 covers the Oil Filter and Pipes torque specifications.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-29-q09"
+    },
+    {
+      "question": "What are the two different torque values specified for the oil supply pipe to turbocharger connections?",
+      "answer": "25 Nm for the hollow bolt and 30 Nm for the coupling nut.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-29-q10"
+    }
+  ]
+}

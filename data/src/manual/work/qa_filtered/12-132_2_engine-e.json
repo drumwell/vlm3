@@ -1,0 +1,91 @@
+{
+  "page_id": "12-132_2_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-132_2.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:30:19.846709",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 855
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the tearing-out force specification for the ignition lead after installation?",
+      "answer": "The tearing-out force should be \u2265 200 N / 44 lbs.",
+      "question_type": "factual",
+      "id": "12-132_2_engine-e-q01"
+    },
+    {
+      "question": "How much should you strip the end of the ignition lead and what wire cross section size should be used?",
+      "answer": "Strip the end of the ignition lead by 6 mm with stripping pliers for 1.5 mm wire cross section size.",
+      "question_type": "procedural",
+      "id": "12-132_2_engine-e-q02"
+    },
+    {
+      "question": "What special tool is used for placing the connector on the ignition lead?",
+      "answer": "Special Tool 12 1 091 is used for placing the connector on the ignition lead.",
+      "question_type": "tool",
+      "id": "12-132_2_engine-e-q03"
+    },
+    {
+      "question": "What should be applied to the guiding sleeve of Special Tool 12 1 092?",
+      "answer": "Spray a thin coat of lubricant 12 1 098 on the guiding sleeve of Special Tool 12 1 092.",
+      "question_type": "tool",
+      "id": "12-132_2_engine-e-q04"
+    },
+    {
+      "question": "What is the procedure for installing the connector after placing it on the ignition lead?",
+      "answer": "Move clamping jaws together by turning screw against stop, then after squeezing, release jaws and take out the ignition lead.",
+      "question_type": "procedural",
+      "id": "12-132_2_engine-e-q05"
+    },
+    {
+      "question": "What voltage system does this spark plug connector replacement procedure apply to?",
+      "answer": "This procedure applies to the non-disconnectable version 30 kV system.",
+      "question_type": "factual",
+      "id": "12-132_2_engine-e-q06"
+    },
+    {
+      "question": "What is the first step when replacing a spark plug connector according to procedure 12 12 072?",
+      "answer": "Cut off the ignition lead as shown.",
+      "question_type": "procedural",
+      "id": "12-132_2_engine-e-q07"
+    },
+    {
+      "question": "What caution is given about tightening the screw in step 26 12 105?",
+      "answer": "Tighten screw enough that the pliers can be pulled back. Opening the pliers too much could cause the plug receptacle to break.",
+      "question_type": "safety",
+      "id": "12-132_2_engine-e-q08"
+    },
+    {
+      "question": "How should the ignition lead be positioned during the connector installation process?",
+      "answer": "Unscrew screw, slide in ignition lead against stop, follow with pliers and slide in ignition lead further until connector is heard to engage.",
+      "question_type": "procedural",
+      "id": "12-132_2_engine-e-q09"
+    },
+    {
+      "question": "What alternative tool set is mentioned as being available for this procedure?",
+      "answer": "The required special tools 12 1 091/092/098 are also available as a complete set 12 1 090.",
+      "question_type": "tool",
+      "id": "12-132_2_engine-e-q10"
+    },
+    {
+      "question": "What is shown in the plug receptacle illustration for better understanding?",
+      "answer": "The plug receptacle is shown cut open for better illustration.",
+      "question_type": "visual",
+      "id": "12-132_2_engine-e-q11"
+    },
+    {
+      "question": "What test should be performed after the connector installation is complete?",
+      "answer": "Perform tear-out test by hand with a tearing-out force of \u2265 200 N / 44 lbs.",
+      "question_type": "inspection",
+      "id": "12-132_2_engine-e-q12"
+    }
+  ]
+}

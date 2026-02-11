@@ -1,0 +1,85 @@
+{
+  "page_id": "-007",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/007.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:04:13.166038",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 732
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is shown being worked on in the image?",
+      "answer": "A gear assembly from what appears to be a transmission or differential, with a large helical gear and bearing visible.",
+      "question_type": "visual",
+      "id": "-007-q01"
+    },
+    {
+      "question": "What happened when getting 2nd gear off?",
+      "answer": "Getting 2nd gear off managed to 'loose' a ball bearing from the syncro hub never to be found again.",
+      "question_type": "troubleshooting",
+      "id": "-007-q02"
+    },
+    {
+      "question": "What size bearing was needed as a replacement?",
+      "answer": "6.5mm ball bearings were needed as replacements.",
+      "question_type": "factual",
+      "id": "-007-q03"
+    },
+    {
+      "question": "What did the bearing shop say about the bearing size?",
+      "answer": "The bearing shop told them it was an unusual size and that it was a BMW NLA (No Longer Available) part.",
+      "question_type": "factual",
+      "id": "-007-q05"
+    },
+    {
+      "question": "What condition was everything inside the gearbox in?",
+      "answer": "Everything inside the box was covered in black grime and took lots of work to clean it all off.",
+      "question_type": "inspection",
+      "id": "-007-q06"
+    },
+    {
+      "question": "What type of gear teeth pattern is visible on the large gear?",
+      "answer": "The large gear shows helical gear teeth with an angled pattern.",
+      "question_type": "visual",
+      "id": "-007-q07"
+    },
+    {
+      "question": "What color is the gear press or fixture visible in the image?",
+      "answer": "The gear press or fixture visible in the image is red in color.",
+      "question_type": "visual",
+      "id": "-007-q08"
+    },
+    {
+      "question": "What component appears to have a cylindrical bearing race on top?",
+      "answer": "The large helical gear has a cylindrical bearing race or hub mounted on top of it.",
+      "question_type": "component",
+      "id": "-007-q09"
+    },
+    {
+      "question": "What does NLA stand for in BMW parts terminology?",
+      "answer": "NLA stands for 'No Longer Available' in BMW parts terminology.",
+      "question_type": "factual",
+      "id": "-007-q10"
+    },
+    {
+      "question": "What was the main challenge with the lost ball bearing?",
+      "answer": "The main challenge was that it was an unusual size bearing that BMW no longer manufactured, making it difficult to source a replacement.",
+      "question_type": "troubleshooting",
+      "id": "-007-q11"
+    },
+    {
+      "question": "What work was required on the internal components?",
+      "answer": "Lots of cleaning work was required to remove the black grime that covered everything inside the gearbox.",
+      "question_type": "procedural",
+      "id": "-007-q12"
+    }
+  ]
+}

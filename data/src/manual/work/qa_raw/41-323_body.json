@@ -1,0 +1,94 @@
+{
+  "page_id": "41-323_body",
+  "image_path": "raw/41 - Body/41-323.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:01:44.632808",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 851
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of welding joint should be used on the B pillar?",
+      "answer": "A plug spot weld joint should be used on the B pillar, and then a gas weld joint should be inserted.",
+      "question_type": "procedural",
+      "id": "41-323_body-q01"
+    },
+    {
+      "question": "What welding method is specified for connecting the tail panel and side panel?",
+      "answer": "Autogen weld is specified for connecting the panel on the tail panel and side panel.",
+      "question_type": "factual",
+      "id": "41-323_body-q02"
+    },
+    {
+      "question": "What procedure is shown for the C pillar repair?",
+      "answer": "The procedure shows to plug spot weld joint on the C pillar, then insert a gas weld joint.",
+      "question_type": "procedural",
+      "id": "41-323_body-q03"
+    },
+    {
+      "question": "What is the reference number for the gas plug weld cowl panel procedure?",
+      "answer": "The reference number for the gas plug weld cowl panel procedure is 30 41 246.",
+      "question_type": "factual",
+      "id": "41-323_body-q04"
+    },
+    {
+      "question": "Where should the gas weld side panel be inserted according to the diagram?",
+      "answer": "The gas weld side panel should be inserted on the tail panel, as shown in reference 30 41 086.",
+      "question_type": "visual",
+      "id": "41-323_body-q05"
+    },
+    {
+      "question": "What type of joint is specified for the braze connection?",
+      "answer": "A braze joint is specified, as indicated in the upper right diagram with reference 30 41 248.",
+      "question_type": "factual",
+      "id": "41-323_body-q06"
+    },
+    {
+      "question": "What welding procedure is shown for the trunk opening edge?",
+      "answer": "Spot weld side panel on trunk opening edge is the procedure shown, with reference number 30 41 089.",
+      "question_type": "procedural",
+      "id": "41-323_body-q07"
+    },
+    {
+      "question": "How many different welding reference numbers are visible on this page?",
+      "answer": "There are 8 different welding reference numbers visible: 30 41 245, 30 41 246, 30 41 247, 30 41 248, 30 41 086, 30 41 087, 30 41 089, and 30 41 088.",
+      "question_type": "visual",
+      "id": "41-323_body-q08",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What is the final step shown for tail panel welding?",
+      "answer": "The final step shown is to spot weld tail panel on side panel, as indicated by reference 30 41 088.",
+      "question_type": "procedural",
+      "id": "41-323_body-q09"
+    },
+    {
+      "question": "What component is being repaired in the diagram with reference 30 41 087?",
+      "answer": "The diagram with reference 30 41 087 shows autogen weld connecting panel on tail panel and side panel repair.",
+      "question_type": "visual",
+      "id": "41-323_body-q10"
+    },
+    {
+      "question": "Which pillar requires both plug spot weld joint and gas weld joint insertion?",
+      "answer": "Both the B pillar and C pillar require plug spot weld joint followed by gas weld joint insertion.",
+      "question_type": "factual",
+      "id": "41-323_body-q11"
+    },
+    {
+      "question": "What page number is shown at the top of this manual page?",
+      "answer": "The page number shown at the top is 41-323.",
+      "question_type": "factual",
+      "id": "41-323_body-q12"
+    }
+  ]
+}

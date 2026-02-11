@@ -1,0 +1,67 @@
+{
+  "page_id": "31-45_front-ax",
+  "image_path": "raw/31 - Front Axle/31-45.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:05:20.593725",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 806
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing or replacing left or right output shaft?",
+      "answer": "The procedure number is 31 60 000.",
+      "question_type": "factual",
+      "id": "31-45_front-ax-q01"
+    },
+    {
+      "question": "What special tools are needed to drive in the new lockplate?",
+      "answer": "Special Tools 33 4 050 and 00 5 500 are needed to drive in the new lockplate.",
+      "question_type": "tool",
+      "id": "31-45_front-ax-q02"
+    },
+    {
+      "question": "What should be done to the gear lube before installation?",
+      "answer": "Pour in gear lube and apply the specified tightening torque.",
+      "question_type": "procedural",
+      "id": "31-45_front-ax-q03"
+    },
+    {
+      "question": "What special tool is required to mount with two wheel bolts and press off the output shaft?",
+      "answer": "Special Tools 33 2 112 / 113 are required to mount with two wheel bolts and press off the output shaft.",
+      "question_type": "tool",
+      "id": "31-45_front-ax-q05"
+    },
+    {
+      "question": "What should be applied to the splines of the output shaft during installation?",
+      "answer": "Give splines of output shaft a light coat of oil and pull in output shaft with Special Tools 33 2 112 / 124 and 33 4 042.",
+      "question_type": "procedural",
+      "id": "31-45_front-ax-q06"
+    },
+    {
+      "question": "What should be done with the pressure spindle bears on bolt head during left side output shaft removal?",
+      "answer": "Pressure spindle bears on bolt head and screw in pressure spindle alternately.",
+      "question_type": "procedural",
+      "id": "31-45_front-ax-q08"
+    },
+    {
+      "question": "What special tool is used to unscrew the nut and press off the control arm?",
+      "answer": "Special Tool 31 2 160 is used to unscrew the nut and press off the control arm.",
+      "question_type": "tool",
+      "id": "31-45_front-ax-q10"
+    },
+    {
+      "question": "What should be done with the nut during control arm installation?",
+      "answer": "Apply the specified tightening torque and lock the nut with a cotter pin.",
+      "question_type": "procedural",
+      "id": "31-45_front-ax-q11"
+    }
+  ]
+}

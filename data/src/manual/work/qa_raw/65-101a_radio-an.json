@@ -1,0 +1,91 @@
+{
+  "page_id": "65-101a_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-101a.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:00:47.476271",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 697
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be inserted into the plug-in antenna?",
+      "answer": "Insert rubber grommet.",
+      "question_type": "procedural",
+      "id": "65-101a_radio-an-q01"
+    },
+    {
+      "question": "How should the antenna be pressed into the sealing grommet?",
+      "answer": "Press antenna into sealing grommet from underneath.",
+      "question_type": "procedural",
+      "id": "65-101a_radio-an-q02"
+    },
+    {
+      "question": "What type of screw is used to secure the antenna holder?",
+      "answer": "A self-tapping screw is used to adjust the holder and secure it.",
+      "question_type": "factual",
+      "id": "65-101a_radio-an-q03"
+    },
+    {
+      "question": "What size screw is specified for mounting the ground strap on the ground point?",
+      "answer": "Mount ground strap on ground point with a M 6 x 10 screw.",
+      "question_type": "factual",
+      "id": "65-101a_radio-an-q04"
+    },
+    {
+      "question": "What is the first step for removing the seat cushion?",
+      "answer": "Lift out seat cushion.",
+      "question_type": "procedural",
+      "id": "65-101a_radio-an-q05"
+    },
+    {
+      "question": "What additional step is required for cars with Bolted Version when removing the seat cushion?",
+      "answer": "Pull off covers and unscrew bolts on left and right sides.",
+      "question_type": "procedural",
+      "id": "65-101a_radio-an-q06"
+    },
+    {
+      "question": "How do you remove the backrest after unscrewing the bolts?",
+      "answer": "Unscrew left and right bolts, then pull up and remove backrest.",
+      "question_type": "procedural",
+      "id": "65-101a_radio-an-q07"
+    },
+    {
+      "question": "Where should the backrest be engaged during installation?",
+      "answer": "Engage backrest in (upper) holder.",
+      "question_type": "procedural",
+      "id": "65-101a_radio-an-q08"
+    },
+    {
+      "question": "What are the reference numbers shown for the antenna installation images?",
+      "answer": "The reference numbers are 30 85 095 and 30 85 090.",
+      "question_type": "visual",
+      "id": "65-101a_radio-an-q09"
+    },
+    {
+      "question": "What reference numbers are associated with the seat removal procedure?",
+      "answer": "The reference numbers are 30 52 021 and 30 52 022.",
+      "question_type": "visual",
+      "id": "65-101a_radio-an-q10"
+    },
+    {
+      "question": "What reference number is shown for the ground strap mounting procedure?",
+      "answer": "The reference number is 30 65 097.",
+      "question_type": "visual",
+      "id": "65-101a_radio-an-q11"
+    },
+    {
+      "question": "What component is being secured with the self-tapping screw in the antenna installation?",
+      "answer": "The antenna holder is being adjusted and secured with the self-tapping screw.",
+      "question_type": "component",
+      "id": "65-101a_radio-an-q12"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "page_id": "65-103_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-103.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:01:15.320154",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 722
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the page number and section topic shown?",
+      "answer": "This is page 65-103 from the Radio and Special Equipment section dealing with radio antenna installation.",
+      "question_type": "navigation",
+      "id": "65-103_radio-an-q01"
+    },
+    {
+      "question": "What component is labeled as number 1 in the diagram?",
+      "answer": "Component number 1 indicates the antenna wire that needs to be plugged into the jack of the radio.",
+      "question_type": "visual",
+      "id": "65-103_radio-an-q02"
+    },
+    {
+      "question": "Where should the antenna wire be connected according to the instructions?",
+      "answer": "The antenna wire (1) should be plugged into the jack of the radio.",
+      "question_type": "procedural",
+      "id": "65-103_radio-an-q03"
+    },
+    {
+      "question": "What is the part number reference shown in the diagram?",
+      "answer": "The part number reference shown is 28 65 023.",
+      "question_type": "factual",
+      "id": "65-103_radio-an-q04"
+    },
+    {
+      "question": "What should be done with removed parts during this procedure?",
+      "answer": "Re-install all removed parts after completing the antenna wire connection.",
+      "question_type": "procedural",
+      "id": "65-103_radio-an-q05"
+    },
+    {
+      "question": "What type of connection method is shown for the antenna wire?",
+      "answer": "The antenna wire uses a plug-in connection that inserts into a jack on the radio.",
+      "question_type": "component",
+      "id": "65-103_radio-an-q06"
+    },
+    {
+      "question": "What does the diagram show about the radio installation area?",
+      "answer": "The diagram shows the back area of the radio where the antenna wire connection is made, with surrounding dashboard components visible.",
+      "question_type": "visual",
+      "id": "65-103_radio-an-q07"
+    },
+    {
+      "question": "How many main procedural steps are outlined on this page?",
+      "answer": "There are two main procedural steps: plugging in the antenna wire and re-installing all removed parts.",
+      "question_type": "factual",
+      "id": "65-103_radio-an-q08",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What component requires the antenna wire to be connected to it?",
+      "answer": "The antenna wire must be connected to the radio unit via its antenna jack.",
+      "question_type": "component",
+      "id": "65-103_radio-an-q09"
+    },
+    {
+      "question": "What should be done after connecting the antenna wire?",
+      "answer": "After connecting the antenna wire, re-install all removed parts to complete the installation.",
+      "question_type": "procedural",
+      "id": "65-103_radio-an-q10"
+    },
+    {
+      "question": "What type of electrical connection is being made in this procedure?",
+      "answer": "This procedure involves making an antenna signal connection between the antenna wire and the radio's antenna input jack.",
+      "question_type": "signal",
+      "id": "65-103_radio-an-q11"
+    },
+    {
+      "question": "What does the photograph show about accessing the radio connections?",
+      "answer": "The photograph shows that dashboard components need to be removed to access the back of the radio where the antenna connection is made.",
+      "question_type": "visual",
+      "id": "65-103_radio-an-q12"
+    }
+  ]
+}

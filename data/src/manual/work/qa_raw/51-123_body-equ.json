@@ -1,0 +1,91 @@
+{
+  "page_id": "51-123_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-123.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:10:48.206215",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 813
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure section number for removing and installing the upper cover plate?",
+      "answer": "The procedure section number is 51 12 190.",
+      "question_type": "factual",
+      "id": "51-123_body-equ-q01"
+    },
+    {
+      "question": "What should be removed first when removing the upper cover plate?",
+      "answer": "If applicable, remove the panel, then remove the battery cover.",
+      "question_type": "procedural",
+      "id": "51-123_body-equ-q02"
+    },
+    {
+      "question": "How do you remove the absorber after unscrewing the bolts?",
+      "answer": "Lift out the impact absorber.",
+      "question_type": "procedural",
+      "id": "51-123_body-equ-q03"
+    },
+    {
+      "question": "What is the minimum distance A that must be maintained after repairing accident damage?",
+      "answer": "Distance A must not be less than 39 mm (1.535 inches) after repairing damage from an accident.",
+      "question_type": "inspection",
+      "id": "51-123_body-equ-q04"
+    },
+    {
+      "question": "For versions with pipe flange, what additional step is required and where can more information be found?",
+      "answer": "For versions with pipe flange, remove the bumper - see section 51 12 000, then unscrew bolts.",
+      "question_type": "procedural",
+      "id": "51-123_body-equ-q05"
+    },
+    {
+      "question": "Where is the right bolted connection located?",
+      "answer": "The right bolted connection is in the trunk.",
+      "question_type": "factual",
+      "id": "51-123_body-equ-q06"
+    },
+    {
+      "question": "How do you remove the plate for the upper cover plate installation?",
+      "answer": "Unscrew screws on left and right sides, then remove the plate.",
+      "question_type": "procedural",
+      "id": "51-123_body-equ-q07"
+    },
+    {
+      "question": "What does callout number 30 51 406 indicate in the upper right diagram?",
+      "answer": "Callout number 30 51 406 shows the location of screws on the left and right sides that need to be unscrewed to remove the plate.",
+      "question_type": "visual",
+      "id": "51-123_body-equ-q08"
+    },
+    {
+      "question": "What does callout number 30 51 839 show in the left side diagrams?",
+      "answer": "Callout number 30 51 839 shows the absorber that needs to be removed by unscrewing bolts.",
+      "question_type": "visual",
+      "id": "51-123_body-equ-q09"
+    },
+    {
+      "question": "What does callout number 30 51 840 illustrate?",
+      "answer": "Callout number 30 51 840 shows the impact absorber being lifted out after the bolts are unscrewed.",
+      "question_type": "visual",
+      "id": "51-123_body-equ-q10"
+    },
+    {
+      "question": "What measurement dimension is labeled as 'A' in the bottom diagram?",
+      "answer": "Dimension 'A' represents the critical distance that must not be less than 39 mm (1.535 inches) after repairing accident damage.",
+      "question_type": "inspection",
+      "id": "51-123_body-equ-q11"
+    },
+    {
+      "question": "What does callout number 30 51 841 represent?",
+      "answer": "Callout number 30 51 841 shows the technical diagram illustrating the proper measurement of distance A for post-accident repair specifications.",
+      "question_type": "visual",
+      "id": "51-123_body-equ-q12"
+    }
+  ]
+}

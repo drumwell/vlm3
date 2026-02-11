@@ -1,0 +1,91 @@
+{
+  "page_id": "62-81_instrume",
+  "image_path": "raw/62 - Instruments/62-81.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:48:12.006115",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 819
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the purpose of the simulator for checking instrument clusters?",
+      "answer": "The simulator is used for checking instrument clusters on BMW E30 models, specifically for testing the complete instrument cluster functionality.",
+      "question_type": "factual",
+      "id": "62-81_instrume-q01"
+    },
+    {
+      "question": "What are the numbered components 1-10 on the simulator device?",
+      "answer": "1: ON/OFF switch, 2: Power supply control lamp, 3: Selector switch, 4: Distance pulse control lamp, 5: Tachometer changeover switch, 6: Starting simulation button, 7: Display range running off knob, 8: Oil service reset button, 9: Inspection reset button, 10: SI running off and adjusting button.",
+      "question_type": "visual",
+      "id": "62-81_instrume-q02"
+    },
+    {
+      "question": "How should you connect the wire harness plugs to the instrument cluster?",
+      "answer": "Connect the blue and white plugs of the wire harness on the instrument cluster for both '3' Series Cars and Second Generation Service Indicator models.",
+      "question_type": "procedural",
+      "id": "62-81_instrume-q03"
+    },
+    {
+      "question": "What important caution is given when mounting the connection plate?",
+      "answer": "Be careful not to bend the spring contacts when mounting the connection plate.",
+      "question_type": "safety",
+      "id": "62-81_instrume-q04"
+    },
+    {
+      "question": "What voltage should be used when connecting the battery terminals to the simulator?",
+      "answer": "Connect the red terminal (3) on B+ and black terminal (4) on B- of a 12 V battery.",
+      "question_type": "factual",
+      "id": "62-81_instrume-q05"
+    },
+    {
+      "question": "How do you know if the simulator is ready for use?",
+      "answer": "The red control lamp will come on when battery voltage is \u2265 11.5 V; if the simulator is not ready for use, this lamp will not come on.",
+      "question_type": "diagnostic",
+      "id": "62-81_instrume-q06"
+    },
+    {
+      "question": "What are the lead connections needed on the simulator itself?",
+      "answer": "Connect lead (1) and power supply lead (2) on the simulator.",
+      "question_type": "procedural",
+      "id": "62-81_instrume-q07"
+    },
+    {
+      "question": "Which BMW models does this instrument cluster checking procedure apply to?",
+      "answer": "This procedure applies to '3' Series Cars, including both standard models and Second Generation Service Indicator equipped vehicles.",
+      "question_type": "factual",
+      "id": "62-81_instrume-q08"
+    },
+    {
+      "question": "What should you secure the connection plate with?",
+      "answer": "Secure the connection plate with clamps (2).",
+      "question_type": "procedural",
+      "id": "62-81_instrume-q09"
+    },
+    {
+      "question": "What is the function of component number 6 on the simulator?",
+      "answer": "Component number 6 is the Starting simulation button.",
+      "question_type": "visual",
+      "id": "62-81_instrume-q10"
+    },
+    {
+      "question": "How do you turn on the simulator?",
+      "answer": "Turn on the simulator with switch (1).",
+      "question_type": "procedural",
+      "id": "62-81_instrume-q11"
+    },
+    {
+      "question": "What does the connection plate (1) plug into?",
+      "answer": "The connection plate (1) plugs into the '3' series wire harness on the instrument cluster.",
+      "question_type": "visual",
+      "id": "62-81_instrume-q12"
+    }
+  ]
+}

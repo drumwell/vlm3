@@ -1,0 +1,55 @@
+{
+  "page_id": "bmwtorquespecs-014",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/014.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:15:03.263056",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 513
+  },
+  "qa_pairs": [
+    {
+      "question": "What torque angle should be applied after the initial torque for cylinder head bolts?",
+      "answer": "90 degrees",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-014-q02"
+    },
+    {
+      "question": "What type of screws should be used for repair work on cylinder head bolts?",
+      "answer": "Only use screws with Torx head",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-014-q03"
+    },
+    {
+      "question": "How many torque angle steps are required for cylinder head bolt installation?",
+      "answer": "Two torque angle steps of 90 degrees each",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-014-q06"
+    },
+    {
+      "question": "Is there a settling time required for cylinder head bolts?",
+      "answer": "No settling time. No warm-running time.",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-014-q07"
+    },
+    {
+      "question": "What section of the manual covers cylinder head and cover information?",
+      "answer": "Section 11 12 Cylinder Head and Cover",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-014-q08"
+    },
+    {
+      "question": "What should be done to cylinder head bolts during replacement?",
+      "answer": "Replace, wash and oil cylinder head bolts",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-014-q09"
+    }
+  ]
+}

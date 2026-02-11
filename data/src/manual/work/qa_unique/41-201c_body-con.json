@@ -1,0 +1,73 @@
+{
+  "page_id": "41-201c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-201c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:50:09.477346",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 770
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing left or right front door pillar on convertible models?",
+      "answer": "The procedure number is 41 21 501 for replacing left or right front door pillar (Front Side Panel Removed) on convertible models.",
+      "question_type": "factual",
+      "id": "41-201c_body-con-q01"
+    },
+    {
+      "question": "What is the first step shown in the procedure after preparation?",
+      "answer": "The first step is to uncover connections, as shown in image 30 41 637.",
+      "question_type": "procedural",
+      "id": "41-201c_body-con-q04"
+    },
+    {
+      "question": "What two operations are performed after uncovering connections in the second step?",
+      "answer": "Grind off welding beads and lift off reinforcement.",
+      "question_type": "procedural",
+      "id": "41-201c_body-con-q05"
+    },
+    {
+      "question": "What three operations are performed on the welding seams in the upper right section?",
+      "answer": "Grind off welding seams, drill out spot welds from underneath, and take off end plate.",
+      "question_type": "procedural",
+      "id": "41-201c_body-con-q07"
+    },
+    {
+      "question": "What is done to the connections in image 30 41 529?",
+      "answer": "Uncover connections and drill off spot welding seam.",
+      "question_type": "procedural",
+      "id": "41-201c_body-con-q08"
+    },
+    {
+      "question": "What operation is shown in the final step with image 30 41 640?",
+      "answer": "Grind off welding beads.",
+      "question_type": "procedural",
+      "id": "41-201c_body-con-q09"
+    },
+    {
+      "question": "How many different welding removal operations are mentioned in this procedure?",
+      "answer": "Three different welding removal operations are mentioned: grinding off welding seams/beads, drilling out spot welds, and drilling off spot welding seam.",
+      "question_type": "factual",
+      "id": "41-201c_body-con-q10"
+    },
+    {
+      "question": "What safety precaution is mentioned regarding the repair area?",
+      "answer": "Remove or cover up all car parts in the repair area that could be subjected to heat, sparks and dust.",
+      "question_type": "safety",
+      "id": "41-201c_body-con-q11"
+    },
+    {
+      "question": "What component is specifically mentioned to be lifted off after grinding welding beads?",
+      "answer": "The reinforcement is lifted off after grinding off welding beads.",
+      "question_type": "component",
+      "id": "41-201c_body-con-q12"
+    }
+  ]
+}

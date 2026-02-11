@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-13-11",
+  "image_path": "raw/00 - Torque Specs/13-11.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:53:42.742489",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 566
+  },
+  "qa_pairs": [
+    {
+      "question": "What component type is listed under section 13 81?",
+      "answer": "Air intake valves, low-pressure and vacuum hoses",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-11-q02"
+    },
+    {
+      "question": "Which section and subsection covers the air intake valves and vacuum hoses?",
+      "answer": "Section 13-11 Fuel System, subsection 13 81",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-11-q04"
+    },
+    {
+      "question": "What system does this specification page cover?",
+      "answer": "Fuel System (13-11)",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-11-q07"
+    },
+    {
+      "question": "How many components are listed in the air intake valves, low-pressure and vacuum hoses section?",
+      "answer": "One component is listed - the air intake line on low-pressure unit",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-11-q08"
+    },
+    {
+      "question": "What columns are shown in this specification table?",
+      "answer": "Type, Screw, Measure, and Unit columns",
+      "question_type": "visual",
+      "id": "00-torque-specs-13-11-q09"
+    },
+    {
+      "question": "What is the complete specification entry for component 1AZ?",
+      "answer": "Air intake line on low-pressure unit, type 316g/518g, torque specification 22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-11-q10"
+    }
+  ]
+}

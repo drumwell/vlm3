@@ -1,0 +1,67 @@
+{
+  "page_id": "-008",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/008.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:04:22.751604",
+    "prompt_template": "unknown/diagram",
+    "tokens_input": 1867,
+    "tokens_output": 470
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is shown in the image?",
+      "answer": "A synchronizer ring or synchro ring from a transmission, showing its internal splined surface and external gear teeth.",
+      "question_type": "component",
+      "id": "-008-q01"
+    },
+    {
+      "question": "What condition is described in the text below the image?",
+      "answer": "Black grime was found everywhere even though the oil seemed cleanish.",
+      "question_type": "inspection",
+      "id": "-008-q02"
+    },
+    {
+      "question": "What can be seen on the outer edge of the component?",
+      "answer": "Gear teeth are visible around the outer circumference of the synchro ring.",
+      "question_type": "visual",
+      "id": "-008-q03"
+    },
+    {
+      "question": "What is visible on the inner surface of the component?",
+      "answer": "Splined teeth are visible on the inner surface of the synchro ring.",
+      "question_type": "visual",
+      "id": "-008-q04"
+    },
+    {
+      "question": "What type of contamination was found during inspection?",
+      "answer": "Black grime contamination was found throughout the component.",
+      "question_type": "inspection",
+      "id": "-008-q05"
+    },
+    {
+      "question": "How did the oil condition appear despite the contamination?",
+      "answer": "The oil seemed cleanish despite the presence of black grime everywhere.",
+      "question_type": "inspection",
+      "id": "-008-q06"
+    },
+    {
+      "question": "What material appears to be used for the component shown?",
+      "answer": "The component appears to be made of metal, likely steel or brass, based on its metallic appearance.",
+      "question_type": "component",
+      "id": "-008-q07"
+    },
+    {
+      "question": "What does the presence of black grime indicate about this transmission component?",
+      "answer": "The black grime indicates wear and contamination within the transmission, suggesting the need for thorough cleaning and inspection of related components.",
+      "question_type": "diagnostic",
+      "id": "-008-q08"
+    }
+  ]
+}

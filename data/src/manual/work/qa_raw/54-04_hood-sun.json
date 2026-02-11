@@ -1,0 +1,94 @@
+{
+  "page_id": "54-04_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-04.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:39:38.235954",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 630
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing or replacing gear for manual sun roof?",
+      "answer": "The procedure number is 54 12 230.",
+      "question_type": "factual",
+      "id": "54-04_hood-sun-q01"
+    },
+    {
+      "question": "What should be done first when beginning the manual sun roof gear removal procedure?",
+      "answer": "Remove the clamping strip.",
+      "question_type": "procedural",
+      "id": "54-04_hood-sun-q02"
+    },
+    {
+      "question": "How should the trim be handled during the removal process?",
+      "answer": "Pull off trim carefully and unscrew left and right bolts.",
+      "question_type": "procedural",
+      "id": "54-04_hood-sun-q03"
+    },
+    {
+      "question": "What is the installation instruction for the trim?",
+      "answer": "Paste trim during installation.",
+      "question_type": "procedural",
+      "id": "54-04_hood-sun-q04"
+    },
+    {
+      "question": "What should be done with the roof during this procedure?",
+      "answer": "Close roof.",
+      "question_type": "procedural",
+      "id": "54-04_hood-sun-q05"
+    },
+    {
+      "question": "What part number is referenced for the recess plate removal and installation?",
+      "answer": "54 12 050.",
+      "question_type": "factual",
+      "id": "54-04_hood-sun-q06"
+    },
+    {
+      "question": "What components need to be removed along with the recess plate?",
+      "answer": "Remove sun visors with holders.",
+      "question_type": "procedural",
+      "id": "54-04_hood-sun-q07"
+    },
+    {
+      "question": "How should the edge guard be handled during removal?",
+      "answer": "Pull off edge guard partially.",
+      "question_type": "procedural",
+      "id": "54-04_hood-sun-q08"
+    },
+    {
+      "question": "What installation step is required for the inside mirror area?",
+      "answer": "Insert rubber cover in plate for inside mirror.",
+      "question_type": "procedural",
+      "id": "54-04_hood-sun-q09"
+    },
+    {
+      "question": "What is the final installation instruction for the gear?",
+      "answer": "Set gear to 0 (pressure point).",
+      "question_type": "procedural",
+      "id": "54-04_hood-sun-q10"
+    },
+    {
+      "question": "What are the three diagram reference numbers shown on this page?",
+      "answer": "The diagram reference numbers are 30 54 015, 30 54 016, and 30 54 017.",
+      "question_type": "visual",
+      "id": "54-04_hood-sun-q11",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What is the initial step for removing the gear according to the installation note?",
+      "answer": "Unscrew bolt and take off gear.",
+      "question_type": "procedural",
+      "id": "54-04_hood-sun-q12"
+    }
+  ]
+}

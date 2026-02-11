@@ -1,0 +1,79 @@
+{
+  "page_id": "12-104_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-104.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:24:22.704171",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 569
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the terminal number for the ground connection on the diagnosis plug?",
+      "answer": "Terminal 31 is the ground connection.",
+      "question_type": "factual",
+      "id": "12-104_engine-e-q01"
+    },
+    {
+      "question": "Which terminal provides the oxygen sensor signal?",
+      "answer": "Terminal L (terminal 5) provides the oxygen sensor signal.",
+      "question_type": "factual",
+      "id": "12-104_engine-e-q02"
+    },
+    {
+      "question": "What function does terminal A serve on the diagnosis plug?",
+      "answer": "Terminal A (terminal 6) is the diagnosis lead for airbag.",
+      "question_type": "factual",
+      "id": "12-104_engine-e-q03"
+    },
+    {
+      "question": "Which two terminals are used for TDC position transmitter signals?",
+      "answer": "Terminals P+ (terminal 8) and P- (terminal 10) are both used for TDC position transmitter signals.",
+      "question_type": "factual",
+      "id": "12-104_engine-e-q04"
+    },
+    {
+      "question": "What signal is provided by terminal 61?",
+      "answer": "Terminal 61 (terminal 12) provides the alternator charge indicator signal.",
+      "question_type": "factual",
+      "id": "12-104_engine-e-q05"
+    },
+    {
+      "question": "Which terminal number corresponds to the service indicator?",
+      "answer": "Terminal SI (terminal 7) corresponds to the service indicator.",
+      "question_type": "factual",
+      "id": "12-104_engine-e-q06"
+    },
+    {
+      "question": "What is the function of terminal 50 on the diagnosis plug?",
+      "answer": "Terminal 50 (terminal 11) provides power while starting.",
+      "question_type": "factual",
+      "id": "12-104_engine-e-q07"
+    },
+    {
+      "question": "Which terminal provides the speed signal?",
+      "answer": "Terminal 1 (terminal 13) provides the speed signal.",
+      "question_type": "factual",
+      "id": "12-104_engine-e-q08"
+    },
+    {
+      "question": "What does terminal 15 represent in the diagnosis plug connection?",
+      "answer": "Terminal 15 represents power with ignition turned on.",
+      "question_type": "factual",
+      "id": "12-104_engine-e-q09"
+    },
+    {
+      "question": "Which terminal is designated as Battery + on the diagnosis plug?",
+      "answer": "Terminal 30 (terminal 14) is designated as Battery +.",
+      "question_type": "factual",
+      "id": "12-104_engine-e-q10"
+    }
+  ]
+}

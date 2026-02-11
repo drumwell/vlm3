@@ -1,0 +1,43 @@
+{
+  "page_id": "41-00-index-g_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-00-index-g.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:33:55.388254",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1749,
+    "tokens_output": 372
+  },
+  "qa_pairs": [
+    {
+      "question": "What does this section specifically cover regarding convertibles?",
+      "answer": "This section only describes special repairs for convertibles. Repairs which are identical or practically identical with those for sedans and/or four wheel drive models are not described here.",
+      "question_type": "factual",
+      "id": "41-00-index-g_body-con-q02"
+    },
+    {
+      "question": "What is the procedure number for rear side panel, right - replace?",
+      "answer": "The procedure number is 41 35 110.",
+      "question_type": "factual",
+      "id": "41-00-index-g_body-con-q03"
+    },
+    {
+      "question": "Where can I find the procedure for replacing the rear side panel, right?",
+      "answer": "The procedure can be found on page 41 - 301C.",
+      "question_type": "navigation",
+      "id": "41-00-index-g_body-con-q04"
+    },
+    {
+      "question": "What types of vehicle models are NOT covered in this body section?",
+      "answer": "Repairs for sedans and/or four wheel drive models are not described in this section, as they are identical or practically identical to convertible repairs.",
+      "question_type": "factual",
+      "id": "41-00-index-g_body-con-q05"
+    }
+  ]
+}

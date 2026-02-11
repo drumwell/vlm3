@@ -1,0 +1,43 @@
+{
+  "page_id": "12-105_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-105.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:24:33.984437",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 514
+  },
+  "qa_pairs": [
+    {
+      "question": "What does callout number 2 represent in the engine electric layout?",
+      "answer": "Callout number 2 represents the Engine electric/electronic ground point.",
+      "question_type": "component",
+      "id": "12-105_engine-e-q04"
+    },
+    {
+      "question": "What are the three components shown in the Relay Survey section?",
+      "answer": "The Relay Survey shows: 1 = DME, 2 = Electric fuel pumps, 3 = Oxygen sensor.",
+      "question_type": "component",
+      "id": "12-105_engine-e-q06"
+    },
+    {
+      "question": "What sensor is shown in the image labeled as 'Coolant temperature sensor (DME) blue Temperature gage'?",
+      "answer": "The image shows the Coolant temperature sensor (DME) blue for the temperature gage.",
+      "question_type": "component",
+      "id": "12-105_engine-e-q07"
+    },
+    {
+      "question": "What component is labeled as 'Inductive pulse sender' in the bottom left image?",
+      "answer": "The bottom left image shows the Inductive pulse sender component.",
+      "question_type": "component",
+      "id": "12-105_engine-e-q08"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "33-11_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-11.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:10:02.475123",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1887,
+    "tokens_output": 578
+  },
+  "qa_pairs": [
+    {
+      "question": "What does callout number 1 represent in the diagram?",
+      "answer": "Callout number 1 represents the forward direction, as shown in the legend on the right side of the page.",
+      "question_type": "factual",
+      "id": "33-11_rear-axl-q02"
+    },
+    {
+      "question": "What are callouts 9 and 10 indicating in the adjustment diagram?",
+      "answer": "Callout 9 indicates toe increase (+ direction) and callout 10 indicates toe decrease (- direction) during the adjustment procedure.",
+      "question_type": "factual",
+      "id": "33-11_rear-axl-q03"
+    },
+    {
+      "question": "What do callouts 5 and 6 represent according to the legend?",
+      "answer": "Callout 5 represents the reading point for toe increase and callout 6 represents the reading point for toe decrease.",
+      "question_type": "factual",
+      "id": "33-11_rear-axl-q05"
+    },
+    {
+      "question": "What is shown by callout 7 in the adjustment diagram?",
+      "answer": "Callout 7 represents the trailing arm eye, as indicated in the legend.",
+      "question_type": "component",
+      "id": "33-11_rear-axl-q06"
+    },
+    {
+      "question": "What does callout 8 identify in the diagram?",
+      "answer": "Callout 8 identifies the silent block component in the suspension assembly.",
+      "question_type": "component",
+      "id": "33-11_rear-axl-q07"
+    },
+    {
+      "question": "What is the BMW part number shown at the bottom of the page?",
+      "answer": "The BMW part number shown at the bottom of the page is 730 33 187.",
+      "question_type": "factual",
+      "id": "33-11_rear-axl-q08"
+    }
+  ]
+}

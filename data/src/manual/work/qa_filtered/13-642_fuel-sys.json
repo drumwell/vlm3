@@ -1,0 +1,85 @@
+{
+  "page_id": "13-642_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-642.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:44:05.067229",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 673
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when replacing a fuel injector?",
+      "answer": "Unscrew bolts on injection tube.",
+      "question_type": "procedural",
+      "id": "13-642_fuel-sys-q02"
+    },
+    {
+      "question": "What should you do with the injection tube after unscrewing the bolts?",
+      "answer": "Push up injection tube until fuel injectors have cleared guide in the intake manifold.",
+      "question_type": "procedural",
+      "id": "13-642_fuel-sys-q03"
+    },
+    {
+      "question": "What two items need to be removed after pulling off the plug?",
+      "answer": "Lift out retainer (2) and remove fuel injector.",
+      "question_type": "procedural",
+      "id": "13-642_fuel-sys-q04"
+    },
+    {
+      "question": "What does callout number 1 indicate in the fuel injector diagram?",
+      "answer": "The plug connection that needs to be pulled off.",
+      "question_type": "visual",
+      "id": "13-642_fuel-sys-q05"
+    },
+    {
+      "question": "What does callout number 2 represent in the installation diagram?",
+      "answer": "The retainer that must be lifted out during fuel injector removal.",
+      "question_type": "visual",
+      "id": "13-642_fuel-sys-q06"
+    },
+    {
+      "question": "What should you check on the O-rings during installation?",
+      "answer": "Check O-rings (1), replacing if necessary.",
+      "question_type": "inspection",
+      "id": "13-642_fuel-sys-q07"
+    },
+    {
+      "question": "What does the code number (2) on the fuel injector indicate?",
+      "answer": "The code number should be checked, and FD indicates the manufacturing date.",
+      "question_type": "factual",
+      "id": "13-642_fuel-sys-q08"
+    },
+    {
+      "question": "What should you inspect regarding the plastic washer during installation?",
+      "answer": "Check location of plastic washer (3).",
+      "question_type": "inspection",
+      "id": "13-642_fuel-sys-q09"
+    },
+    {
+      "question": "What two color-coded items should be checked during fuel injector installation?",
+      "answer": "Check color of plug receptacle (5) or fuel injector guard (4).",
+      "question_type": "inspection",
+      "id": "13-642_fuel-sys-q10"
+    },
+    {
+      "question": "Where can additional specifications for fuel injector replacement be found?",
+      "answer": "See Specifications section 13 64 025.",
+      "question_type": "navigation",
+      "id": "13-642_fuel-sys-q11"
+    },
+    {
+      "question": "What does 'FD' represent on the fuel injector diagram?",
+      "answer": "FD represents the manufacturing date marking on the fuel injector.",
+      "question_type": "factual",
+      "id": "13-642_fuel-sys-q12"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "31-07_front-ax",
+  "image_path": "raw/31 - Front Axle/31-07.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:00:37.269124",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 856
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tools are needed to remove the bracket for left or right control arm?",
+      "answer": "Special Tools 31 2 151 and 00 7 500 are needed to pull the bracket off the control arm.",
+      "question_type": "tool",
+      "id": "31-07_front-ax-q01"
+    },
+    {
+      "question": "What happens if you reuse a rubber mount that has been pulled off dry?",
+      "answer": "The rubberized inner sleeve will be destroyed when pulled off dry, so never reuse a rubber mount pulled out of the control arm.",
+      "question_type": "safety",
+      "id": "31-07_front-ax-q02"
+    },
+    {
+      "question": "What is the proper procedure for installing the control arm bracket on the body?",
+      "answer": "Bolt bracket on body immediately, use tightening torque specified, load down car to normal position, and leave car in normal position at least 30 minutes to avoid any suspension movement.",
+      "question_type": "procedural",
+      "id": "31-07_front-ax-q03"
+    },
+    {
+      "question": "What tool should be used for All Wheel Drive vehicles instead of Special Tool 31 2 153?",
+      "answer": "For All Wheel Drive vehicles, use Special Tool 31 2 155 instead of Special Tool 31 2 153.",
+      "question_type": "tool",
+      "id": "31-07_front-ax-q04"
+    },
+    {
+      "question": "What part number should be used to replace the rubber mounts?",
+      "answer": "Always replace rubber mounts with part number 31 12 130, and use mounts of same make as visible on the mount.",
+      "question_type": "component",
+      "id": "31-07_front-ax-q05"
+    },
+    {
+      "question": "What should be done with the control arm journal during installation?",
+      "answer": "Coat the control arm journal with an approved lubricant and engage Special Tool 31 2 153 in the control arm bore.",
+      "question_type": "procedural",
+      "id": "31-07_front-ax-q06"
+    },
+    {
+      "question": "What is the first step when removing the control arm bracket?",
+      "answer": "Punch mark center of control arm, then unscrew control arm bracket and remove heat shield if applicable.",
+      "question_type": "procedural",
+      "id": "31-07_front-ax-q07"
+    },
+    {
+      "question": "Why must the car be left in normal position for at least 30 minutes after installation?",
+      "answer": "The lubricant will evaporate after 30 minutes so that the control arm fits tight and is positioned correctly in the rubber mount.",
+      "question_type": "factual",
+      "id": "31-07_front-ax-q08"
+    },
+    {
+      "question": "What callout numbers are shown in the control arm removal diagram?",
+      "answer": "The diagram shows callout numbers 31 2 154, 31 2 152, 31 2 153, and 00 7 501.",
+      "question_type": "visual",
+      "id": "31-07_front-ax-q09"
+    },
+    {
+      "question": "What happens if the installation procedures are not followed correctly?",
+      "answer": "Non conformance with these procedures could impair handling considerably.",
+      "question_type": "safety",
+      "id": "31-07_front-ax-q10"
+    },
+    {
+      "question": "What is noted about centering bores in the bracket installation?",
+      "answer": "The note states that centering bores (large diameter) of bracket face engine carrier.",
+      "question_type": "factual",
+      "id": "31-07_front-ax-q12"
+    }
+  ]
+}

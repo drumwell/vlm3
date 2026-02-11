@@ -1,0 +1,91 @@
+{
+  "page_id": "41-307_body",
+  "image_path": "raw/41 - Body/41-307.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:57:40.496331",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 739
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do to the welding seams on the towline eye?",
+      "answer": "Grind off welding seams on towline eye and drill off welding spots, then remove towline eye.",
+      "question_type": "procedural",
+      "id": "41-307_body-q01"
+    },
+    {
+      "question": "What is the specified distance A measurement shown in the diagram?",
+      "answer": "Distance A is 33.5 mm (1.319 inches).",
+      "question_type": "factual",
+      "id": "41-307_body-q02"
+    },
+    {
+      "question": "What preparation steps are required for the scrap metal and mating surfaces?",
+      "answer": "Remove scrap metal, then straighten and grind mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-307_body-q03"
+    },
+    {
+      "question": "How should you prepare the left and right sides of the new front wall before installation?",
+      "answer": "Grind mating surfaces on left and right sides of new front wall and coat with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-307_body-q04"
+    },
+    {
+      "question": "What welding method is specified for attaching the front wall to the wheel house?",
+      "answer": "Spot weld front wall on wheel house.",
+      "question_type": "procedural",
+      "id": "41-307_body-q05"
+    },
+    {
+      "question": "What preparation is required for the new front panel wall before welding?",
+      "answer": "Grind mating surfaces on left and right sides of new front panel wall and drill holes for inert gas plug welding.",
+      "question_type": "procedural",
+      "id": "41-307_body-q06"
+    },
+    {
+      "question": "Where should the gas weld towline eye be inserted during installation?",
+      "answer": "Inert gas weld towline eye on engine carrier inside and outside.",
+      "question_type": "procedural",
+      "id": "41-307_body-q07"
+    },
+    {
+      "question": "What type of welding is used for the bracket attachment?",
+      "answer": "Spot weld and/or inert gas weld bracket.",
+      "question_type": "factual",
+      "id": "41-307_body-q08"
+    },
+    {
+      "question": "What step comes immediately after grinding off the welding seams on the towline eye?",
+      "answer": "Drill off welding spots, then remove towline eye.",
+      "question_type": "procedural",
+      "id": "41-307_body-q09"
+    },
+    {
+      "question": "What protective coating is specified for the mating surfaces?",
+      "answer": "Zinc dust paint is used to coat the mating surfaces.",
+      "question_type": "factual",
+      "id": "41-307_body-q10"
+    },
+    {
+      "question": "What components are shown being fitted and clamped in the upper right image?",
+      "answer": "The front wall is being fitted in and clamped.",
+      "question_type": "visual",
+      "id": "41-307_body-q11"
+    },
+    {
+      "question": "What drilling operation is required for the front panel wall preparation?",
+      "answer": "Drill holes for inert gas plug welding in the front panel wall.",
+      "question_type": "procedural",
+      "id": "41-307_body-q12"
+    }
+  ]
+}

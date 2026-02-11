@@ -1,0 +1,79 @@
+{
+  "page_id": "23-307_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-307.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:42:54.602837",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 804
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to hold the output flange when removing the lockplate?",
+      "answer": "Special Tool 23 0 020 is needed to hold the output flange with Special Tool 23 1 200.",
+      "question_type": "tool",
+      "id": "23-307_manual-t-q01"
+    },
+    {
+      "question": "Which special tool is used to unscrew the collar nut during transmission case rear section removal?",
+      "answer": "Special Tool 23 1 210 is used to unscrew the collar nut.",
+      "question_type": "tool",
+      "id": "23-307_manual-t-q02"
+    },
+    {
+      "question": "What tool combination is required to pull off the transmission case rear section?",
+      "answer": "Special Tool 23 1 350 is used in conjunction with Special Tool 33 1 301 to pull off the transmission case rear section.",
+      "question_type": "tool",
+      "id": "23-307_manual-t-q03"
+    },
+    {
+      "question": "What caution is given before pulling off components during transmission disassembly?",
+      "answer": "Make sure 2nd gear is engaged before pulling off cover. Swing selector shaft to the left against stop and slide forward.",
+      "question_type": "safety",
+      "id": "23-307_manual-t-q04"
+    },
+    {
+      "question": "What components are labeled as items 2 and 3 in the lower right diagram?",
+      "answer": "Item 2 is the spacer and item 3 is the ball bearing inner race, both of which should be removed.",
+      "question_type": "visual",
+      "id": "23-307_manual-t-q06"
+    },
+    {
+      "question": "When is Special Tool 33 1 150 used during the procedure?",
+      "answer": "Special Tool 33 1 150 is used to pull off the output flange if necessary.",
+      "question_type": "tool",
+      "id": "23-307_manual-t-q08"
+    },
+    {
+      "question": "What important note is given about the selector shaft when taking off the rear section?",
+      "answer": "There are rollers on the selector shaft that must be noted when taking off the rear section.",
+      "question_type": "inspection",
+      "id": "23-307_manual-t-q09"
+    },
+    {
+      "question": "What is the first step in the lockplate removal procedure?",
+      "answer": "Lift out the lockplate, then apply Special Tool 23 1 200.",
+      "question_type": "procedural",
+      "id": "23-307_manual-t-q10"
+    },
+    {
+      "question": "What must be unscrewed before removing the rear case section?",
+      "answer": "The rear case section mounting bolts must be unscrewed before removal.",
+      "question_type": "procedural",
+      "id": "23-307_manual-t-q11"
+    },
+    {
+      "question": "What section number covers the removing and installing or sealing transmission case rear section?",
+      "answer": "Section 23 11 522 covers removing and installing or sealing transmission case rear section.",
+      "question_type": "navigation",
+      "id": "23-307_manual-t-q12"
+    }
+  ]
+}

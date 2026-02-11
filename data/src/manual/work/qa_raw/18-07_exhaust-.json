@@ -1,0 +1,91 @@
+{
+  "page_id": "18-07_exhaust-",
+  "image_path": "raw/18 - Exhaust System/18-07.jpg",
+  "section_id": "18",
+  "section_name": "Exhaust System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:04:38.191058",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 703
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the job number for removing and installing or replacing the catalytic converter?",
+      "answer": "18 32 005",
+      "question_type": "factual",
+      "id": "18-07_exhaust--q01"
+    },
+    {
+      "question": "What should you do with the oxygen sensor plug on a 6 cylinder M 20 engine during catalytic converter removal?",
+      "answer": "Disconnect oxygen sensor plug (1) and lift out wire harness.",
+      "question_type": "procedural",
+      "id": "18-07_exhaust--q02"
+    },
+    {
+      "question": "What type of sealant should be used to seal off the plug connection during installation?",
+      "answer": "Three Bond Silicone 1207.",
+      "question_type": "tool",
+      "id": "18-07_exhaust--q03"
+    },
+    {
+      "question": "What should you check on the gaskets when unscrewing exhaust pipes on manifold?",
+      "answer": "Check gaskets, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "18-07_exhaust--q04"
+    },
+    {
+      "question": "What type of nuts should be replaced when working on the exhaust pipes?",
+      "answer": "Replace self-locking nuts.",
+      "question_type": "procedural",
+      "id": "18-07_exhaust--q05"
+    },
+    {
+      "question": "What product should be used to coat the threads when installing exhaust pipes?",
+      "answer": "Coat threads with copper paste CRC.",
+      "question_type": "tool",
+      "id": "18-07_exhaust--q06"
+    },
+    {
+      "question": "For cars with automatic transmission, what nut should be unscrewed?",
+      "answer": "Unscrew nut (2).",
+      "question_type": "procedural",
+      "id": "18-07_exhaust--q07"
+    },
+    {
+      "question": "How should the exhaust carrier be mounted during installation?",
+      "answer": "Mount the exhaust carrier without tension by adjusting nut (1).",
+      "question_type": "procedural",
+      "id": "18-07_exhaust--q08"
+    },
+    {
+      "question": "What should you check when installing the catalytic converter on final muffler?",
+      "answer": "Check seals, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "18-07_exhaust--q09"
+    },
+    {
+      "question": "How many bolts should be loosened for installation without tension when working on the exhaust carrier?",
+      "answer": "Loosen bolts (2) for installation without tension.",
+      "question_type": "procedural",
+      "id": "18-07_exhaust--q10"
+    },
+    {
+      "question": "What is the important safety note about torquing the exhaust assembly?",
+      "answer": "Torque holder to correct torque only after finishing installation of the exhaust assembly (danger of tension).",
+      "question_type": "safety",
+      "id": "18-07_exhaust--q11"
+    },
+    {
+      "question": "What are the two different flange versions shown for the catalytic converter connection?",
+      "answer": "Three Hole Flange Version and Two Hole Flange Version.",
+      "question_type": "visual",
+      "id": "18-07_exhaust--q12"
+    }
+  ]
+}

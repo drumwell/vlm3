@@ -1,0 +1,85 @@
+{
+  "page_id": "00-11_maintena",
+  "image_path": "raw/00 - Maintenance/00-11.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:13:57.398883",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 677
+  },
+  "qa_pairs": [
+    {
+      "question": "What service operation is detailed on page 00-11?",
+      "answer": "BMW Inspection I maintenance procedures (00 00 220 BMW Inspection I).",
+      "question_type": "factual",
+      "id": "00-11_maintena-q01"
+    },
+    {
+      "question": "For which transmission type should you check the manual transmission oil level for tightness?",
+      "answer": "Transfer case, 325 iX only.",
+      "question_type": "factual",
+      "id": "00-11_maintena-q02"
+    },
+    {
+      "question": "What repair manual group references power steering leak and oil level checks?",
+      "answer": "Gr. 32 for the repair manual, and Gr. 00, Gr. 32 for service information.",
+      "question_type": "navigation",
+      "id": "00-11_maintena-q03"
+    },
+    {
+      "question": "What components should be inspected when checking the condition of suspension?",
+      "answer": "Tie rods, front axle joints, drop arms and coupling.",
+      "question_type": "inspection",
+      "id": "00-11_maintena-q04"
+    },
+    {
+      "question": "What type of inspection is recommended for cotter pins during suspension checks?",
+      "answer": "Tightening torque/visual inspection of cotter pins.",
+      "question_type": "inspection",
+      "id": "00-11_maintena-q05"
+    },
+    {
+      "question": "Which repair manual group covers brake disc pad replacement procedures?",
+      "answer": "Gr. 34 for repair manual and technical data, with service information in Gr. 36.",
+      "question_type": "navigation",
+      "id": "00-11_maintena-q06"
+    },
+    {
+      "question": "What important maintenance note is given for brake fluid replacement?",
+      "answer": "Replace brake fluid annually at latest.",
+      "question_type": "procedural",
+      "id": "00-11_maintena-q07"
+    },
+    {
+      "question": "What type of fluids should be used for hydraulic brake and clutch systems?",
+      "answer": "Use approved brake fluids only.",
+      "question_type": "safety",
+      "id": "00-11_maintena-q08"
+    },
+    {
+      "question": "How should brake calipers and dust boots be inspected?",
+      "answer": "Visual inspection for leaks.",
+      "question_type": "inspection",
+      "id": "00-11_maintena-q09"
+    },
+    {
+      "question": "What type of oil should be used for final drive service?",
+      "answer": "Use approved oil only.",
+      "question_type": "safety",
+      "id": "00-11_maintena-q10"
+    },
+    {
+      "question": "After lubrication, what component should receive attention on aluminum wheels?",
+      "answer": "Aluminum wheel rim centers should be lubricated.",
+      "question_type": "procedural",
+      "id": "00-11_maintena-q11"
+    }
+  ]
+}

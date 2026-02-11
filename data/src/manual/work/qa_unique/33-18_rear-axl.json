@@ -1,0 +1,67 @@
+{
+  "page_id": "33-18_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-18.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:11:42.993934",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1923,
+    "tokens_output": 662
+  },
+  "qa_pairs": [
+    {
+      "question": "What could cause a loud change knock in the rear axle?",
+      "answer": "A loud change knock can be caused by excessive backlash, output shaft faulty, or play in propeller shaft slide.",
+      "question_type": "diagnostic",
+      "id": "33-18_rear-axl-q01"
+    },
+    {
+      "question": "How do I fix excessive backlash that's causing a load change knock?",
+      "answer": "Adjust backlash - see 33 12 551.",
+      "question_type": "procedural",
+      "id": "33-18_rear-axl-q02"
+    },
+    {
+      "question": "What should I do if the output shaft is faulty and causing noise?",
+      "answer": "Replace output shaft - see 33 21 000.",
+      "question_type": "procedural",
+      "id": "33-18_rear-axl-q03"
+    },
+    {
+      "question": "What causes traction or compression noise in the rear axle?",
+      "answer": "Traction or compression noise is caused by backlash that is excessive or insufficient.",
+      "question_type": "troubleshooting",
+      "id": "33-18_rear-axl-q04"
+    },
+    {
+      "question": "What are the possible causes of drumming noise from the rear axle?",
+      "answer": "Drumming can be caused by propeller shaft issues or rubber mounts on rear axle carrier faulty.",
+      "question_type": "diagnostic",
+      "id": "33-18_rear-axl-q05"
+    },
+    {
+      "question": "What should I check if there's rattling noise from the rear axle?",
+      "answer": "Check for shock absorbers installed loose, upper or lower shock absorber rubber ring faulty, rubber mounts on rear axle carrier faulty, or shock absorbers faulty or worn.",
+      "question_type": "inspection",
+      "id": "33-18_rear-axl-q08"
+    },
+    {
+      "question": "What causes grinding noise only when driving in curves?",
+      "answer": "Grinding noise only when driving in curves is caused by wheel bearings faulty.",
+      "question_type": "diagnostic",
+      "id": "33-18_rear-axl-q09"
+    },
+    {
+      "question": "How do I fix faulty wheel bearings that cause grinding in curves?",
+      "answer": "Replace wheel bearings - see 33 41 141.",
+      "question_type": "procedural",
+      "id": "33-18_rear-axl-q10"
+    }
+  ]
+}

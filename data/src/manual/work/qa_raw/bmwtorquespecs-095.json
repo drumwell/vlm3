@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-095",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/095.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:30:14.380849",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 616
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the transmission to clutch housing bolts?",
+      "answer": "76 Nm using M12 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-095-q01"
+    },
+    {
+      "question": "What size screw is used for the reinforcement plate to transmission connection?",
+      "answer": "M8 screw.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-095-q02"
+    },
+    {
+      "question": "What is the torque value for the reinforcement plate to transmission bolts?",
+      "answer": "23 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-095-q03"
+    },
+    {
+      "question": "How much torque should be applied to the oil drain plug/filler plug for all transmission types?",
+      "answer": "50 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-095-q04"
+    },
+    {
+      "question": "What is the specific torque specification for the S 6 S 560 G transmission type oil drain plug?",
+      "answer": "52 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-095-q05"
+    },
+    {
+      "question": "Which section of the manual does this torque specification table cover?",
+      "answer": "Section 23-2 Manual transmission, specifically 23 00 Transmission Assembly.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-095-q06"
+    },
+    {
+      "question": "What type of transmission does the S 6 S 560 G designation refer to?",
+      "answer": "It is a specific type designation for one of the manual transmission variants covered in this specification table.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-095-q07"
+    },
+    {
+      "question": "Are the torque specifications for transmission to clutch housing the same for all transmission types?",
+      "answer": "Yes, all transmission types use M12 screws with 76 Nm torque specification.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-095-q08"
+    },
+    {
+      "question": "What component is referenced by code 3AZ in this specification table?",
+      "answer": "Reinforcement plate to transmission.",
+      "question_type": "component",
+      "id": "bmwtorquespecs-095-q09"
+    },
+    {
+      "question": "Is there a difference in oil drain plug torque between the general specification and the S 6 S 560 G type?",
+      "answer": "Yes, the general specification is 50 Nm while the S 6 S 560 G type requires 52 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-095-q10"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-011",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/011.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:14:28.780836",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 626
+  },
+  "qa_pairs": [
+    {
+      "question": "What special instruction is given for M70/S70/M73/M52 engines with cast aluminum engine block regarding main bearing screws?",
+      "answer": "Do not wash off coating on main bearing screw",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-011-q04"
+    },
+    {
+      "question": "Which engine types are listed for the S38/S14/M40/M42/M43/M44/M50/M41/M51/S50/S50 US main bearing screws?",
+      "answer": "S38/S14/M40/M42/M43/M44/M50/M41/M51/S50/S50 US",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-011-q07"
+    },
+    {
+      "question": "What engine types are specified for the S52/M52 main bearing screws with cast iron engine block?",
+      "answer": "S52/M52 With cast iron engine block",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-011-q09"
+    },
+    {
+      "question": "What section of the manual does this torque specification table cover?",
+      "answer": "11 11 Crankcase under section 11 - 1 Engine",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-011-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "34-31c_brakes",
+  "image_path": "raw/34 - Brakes/34-31c.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:22:01.927119",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 890
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required for adjusting the acceleration pick-up for ABS?",
+      "answer": "Special Tool 34 5 150 is required for adjusting the acceleration pick-up.",
+      "question_type": "tool",
+      "id": "34-31c_brakes-q01"
+    },
+    {
+      "question": "What are the requirements for the car position when adjusting the acceleration pick-up?",
+      "answer": "The car must be parked on level ground (workshop floor), including trunk empty, fuel tank full (or equal weight in trunk), and tire inflation pressure correct.",
+      "question_type": "procedural",
+      "id": "34-31c_brakes-q02"
+    },
+    {
+      "question": "What is the normal value for ohmmeter resistance when testing the acceleration pick-up?",
+      "answer": "The normal value is less than 1 k ohm.",
+      "question_type": "factual",
+      "id": "34-31c_brakes-q03"
+    },
+    {
+      "question": "What should be done if the measured actual value is smaller than the nominal value?",
+      "answer": "Install the shim on mounting point (1).",
+      "question_type": "procedural",
+      "id": "34-31c_brakes-q04"
+    },
+    {
+      "question": "What should be done if the measured actual value is larger than the nominal value?",
+      "answer": "Install the shim on mounting point (2).",
+      "question_type": "procedural",
+      "id": "34-31c_brakes-q05"
+    },
+    {
+      "question": "What is the tightening torque specification for the shear-off screws?",
+      "answer": "The tightening torque is 6 to 8 Nm (4.5 to 5.5 ft.lbs.).",
+      "question_type": "factual",
+      "id": "34-31c_brakes-q06"
+    },
+    {
+      "question": "What is the nominal distance 'A' value in the table?",
+      "answer": "The nominal distance 'A' value is 26.5 mm.",
+      "question_type": "factual",
+      "id": "34-31c_brakes-q07"
+    },
+    {
+      "question": "What is the permissible switching tolerance of acceleration pick-up in the car?",
+      "answer": "The permissible switching tolerance is 33.0 mm.",
+      "question_type": "factual",
+      "id": "34-31c_brakes-q08"
+    },
+    {
+      "question": "What are the actual value measurements provided in the example?",
+      "answer": "The actual value is 35.6 mm (1.401''), maximum value is 33.0 mm (1.299''), and minimum shim thickness is 2.6 mm (0.102'').",
+      "question_type": "factual",
+      "id": "34-31c_brakes-q09"
+    },
+    {
+      "question": "What is the alternative actual value measurement given?",
+      "answer": "The alternative actual value is 35.6 mm (1.401''), minimum value is 26.5 mm (1.043''), and maximum shim thickness is 9.1 mm (0.358'').",
+      "question_type": "factual",
+      "id": "34-31c_brakes-q10"
+    },
+    {
+      "question": "How many wedges and shims can be used maximum on one mounting bolt?",
+      "answer": "A maximum of one wedge and three shims (= 1 mm / 0.039'') may be used on one mounting bolt to correct the switching point of the acceleration pick-up in the car.",
+      "question_type": "procedural",
+      "id": "34-31c_brakes-q11"
+    },
+    {
+      "question": "What is the part number and thickness range of the wedge?",
+      "answer": "The wedge, Part No. 34 51 1 156 827, is equal to 4.9 to 5.3 mm (0.193 to 0.209'').",
+      "question_type": "factual",
+      "id": "34-31c_brakes-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "12-03_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-03.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:21:36.505524",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 838
+  },
+  "qa_pairs": [
+    {
+      "question": "What safety precaution must be taken before working on the ignition system?",
+      "answer": "Always turn off ignition before working on dangerous high power ignition systems.",
+      "question_type": "safety",
+      "id": "12-03_engine-e-q01"
+    },
+    {
+      "question": "What terminals should be connected when using a BMW service test unit or ohmmeter to check the pulse transmitter?",
+      "answer": "Connect the BMW service test unit (M 06) or ohmmeter on plug pins terminals 5 and 6 of the plug.",
+      "question_type": "procedural",
+      "id": "12-03_engine-e-q02"
+    },
+    {
+      "question": "What should be done if the nominal coil resistance value is not reached during checking?",
+      "answer": "Check plug connection on distributor or, if necessary, replace pulse transmitter coil.",
+      "question_type": "diagnostic",
+      "id": "12-03_engine-e-q03"
+    },
+    {
+      "question": "What voltage range should be produced when cranking the engine at 200 to 300 rpm?",
+      "answer": "Voltage of 1.0 to 2.0 V should be produced.",
+      "question_type": "parameter",
+      "id": "12-03_engine-e-q04"
+    },
+    {
+      "question": "What tool is needed to remove the pulse transmitter gear?",
+      "answer": "Knock down dowel pin with an impact mandrel and take off pulse transmitter gear (rotor).",
+      "question_type": "tool",
+      "id": "12-03_engine-e-q05"
+    },
+    {
+      "question": "What should be lubricated during installation of the pulse transmitter?",
+      "answer": "Lubricate connecting rod with grease at opening.",
+      "question_type": "procedural",
+      "id": "12-03_engine-e-q06"
+    },
+    {
+      "question": "What is distance 'A' referring to in the pulse transmitter installation?",
+      "answer": "Distance 'A' refers to the pulse transmitter distance that should be checked and corrected by loosening and centering the carrier plate.",
+      "question_type": "visual",
+      "id": "12-03_engine-e-q07"
+    },
+    {
+      "question": "What components are numbered 1 through 6 in the distributor plug diagram?",
+      "answer": "The numbers 1 through 6 indicate the terminal positions on the distributor plug connector for testing the pulse transmitter.",
+      "question_type": "visual",
+      "id": "12-03_engine-e-q08"
+    },
+    {
+      "question": "What test equipment is mentioned for connecting to the ignition control unit?",
+      "answer": "Connect multimeter (M 02) and oscilloscope (M 22) of BMW service test unit on disconnected ignition control unit plug terminals 5 and 6.",
+      "question_type": "tool",
+      "id": "12-03_engine-e-q09"
+    },
+    {
+      "question": "What pattern should appear on the oscilloscope screen during testing?",
+      "answer": "The voltage waveform shown in the graph should appear on screen, displaying a pattern with peaks of 1.0 to 2.0 V.",
+      "question_type": "diagnostic",
+      "id": "12-03_engine-e-q10"
+    },
+    {
+      "question": "What is the first step when replacing the pulse transmitter?",
+      "answer": "Remove distributor as referenced in section 12 11 060, then unscrew vacuum control and let it hang down.",
+      "question_type": "procedural",
+      "id": "12-03_engine-e-q11"
+    },
+    {
+      "question": "What should be checked between the pulse transmitter and pulse transmitter gear?",
+      "answer": "Check distance 'A' between pulse transmitter and pulse transmitter gear, adjusting if necessary.",
+      "question_type": "inspection",
+      "id": "12-03_engine-e-q12"
+    }
+  ]
+}

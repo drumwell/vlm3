@@ -1,0 +1,91 @@
+{
+  "page_id": "11-53_engine",
+  "image_path": "raw/11 - Engine/11-53.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:11:01.817989",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 782
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure section number for removing and installing the cylinder head cover?",
+      "answer": "The procedure section number is 11 12 000.",
+      "question_type": "factual",
+      "id": "11-53_engine-q01"
+    },
+    {
+      "question": "What are the first steps to remove the cylinder head cover?",
+      "answer": "First unscrew nuts (1), then pull off spark plug connectors, take off ignition lead tube, and loosen hose clamp (2) and pull off bleeder hose.",
+      "question_type": "procedural",
+      "id": "11-53_engine-q02"
+    },
+    {
+      "question": "What do the numbered callouts (1) and (2) indicate in the top diagram?",
+      "answer": "Callout (1) indicates the nuts that need to be unscrewed, and callout (2) indicates the hose clamp that needs to be loosened.",
+      "question_type": "visual",
+      "id": "11-53_engine-q03"
+    },
+    {
+      "question": "What is the final step for cylinder head cover removal?",
+      "answer": "Unscrew nuts and take off cylinder head cover.",
+      "question_type": "procedural",
+      "id": "11-53_engine-q04"
+    },
+    {
+      "question": "What should be checked during installation of the cylinder head cover?",
+      "answer": "Check gaskets, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "11-53_engine-q05"
+    },
+    {
+      "question": "Which hose needs to be disconnected during cylinder head cover removal?",
+      "answer": "The bleeder hose needs to be disconnected after loosening hose clamp (2).",
+      "question_type": "factual",
+      "id": "11-53_engine-q06"
+    },
+    {
+      "question": "What component is visible in the bottom diagram that shows the BMW M Power branding?",
+      "answer": "The bottom diagram shows the cylinder head cover with BMW M Power branding after removal.",
+      "question_type": "visual",
+      "id": "11-53_engine-q07"
+    },
+    {
+      "question": "What electrical connections must be removed before taking off the cylinder head cover?",
+      "answer": "The spark plug connectors must be pulled off and the ignition lead tube must be taken off.",
+      "question_type": "procedural",
+      "id": "11-53_engine-q08"
+    },
+    {
+      "question": "What is shown in the installation note for the cylinder head cover procedure?",
+      "answer": "The installation note states to check gaskets, replacing if necessary.",
+      "question_type": "factual",
+      "id": "11-53_engine-q09"
+    },
+    {
+      "question": "How many main steps are involved in the cylinder head cover removal process?",
+      "answer": "There are two main steps: first removing the preliminary components (nuts, connectors, tube, and hose), then unscrewing nuts and taking off the cover itself.",
+      "question_type": "procedural",
+      "id": "11-53_engine-q10"
+    },
+    {
+      "question": "What type of clamp needs to be loosened during the procedure?",
+      "answer": "A hose clamp (2) needs to be loosened to pull off the bleeder hose.",
+      "question_type": "factual",
+      "id": "11-53_engine-q11"
+    },
+    {
+      "question": "What should be inspected before reinstalling the cylinder head cover?",
+      "answer": "The gaskets should be inspected and replaced if necessary during installation.",
+      "question_type": "inspection",
+      "id": "11-53_engine-q12"
+    }
+  ]
+}

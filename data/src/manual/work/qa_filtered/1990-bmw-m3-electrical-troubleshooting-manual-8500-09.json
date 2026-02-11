@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/8500-09.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:17:58.439864",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 727
+  },
+  "qa_pairs": [
+    {
+      "question": "What connector designation is shown for the throttle switch potentiometer?",
+      "answer": "The throttle switch potentiometer uses connector B030015.07 with a 3-pin wiring face configuration.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09-q01"
+    },
+    {
+      "question": "How many pins does connector C101 have and what is its part number?",
+      "answer": "Connector C101 has 20 pins arranged in a circular configuration and uses part number B200002.00.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09-q02"
+    },
+    {
+      "question": "What type of connector face does the trunk lid lock motor use?",
+      "answer": "The trunk lid lock motor uses a 6-pin rectangular wiring face connector.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09-q03"
+    },
+    {
+      "question": "Which connector designation is associated with the wiper motor?",
+      "answer": "The wiper motor uses a 6-pin connector with pins numbered 1-6 in a rectangular configuration.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09-q04"
+    },
+    {
+      "question": "What is the part number for the large rectangular connector C103?",
+      "answer": "Connector C103 uses part number B300001.00 and has a 30-pin rectangular wiring face.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09-q05"
+    },
+    {
+      "question": "How many pins does connector C114 have and how are they arranged?",
+      "answer": "Connector C114 has 8 pins arranged vertically in a single column configuration, numbered 1 through 8.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09-q06"
+    },
+    {
+      "question": "What connectors are listed under part number B040002.00?",
+      "answer": "Part number B040002.00 is associated with connector designations C107, C131, C136, and C270, all showing a 4-pin rectangular wiring face.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09-q07"
+    },
+    {
+      "question": "What type of face does connector C110 have?",
+      "answer": "Connector C110 has a mating face rather than a wiring face, with part number B030004.02.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09-q08"
+    },
+    {
+      "question": "How many pins are visible in connector C140 and what is its part number?",
+      "answer": "Connector C140 has 4 pins in a circular configuration and uses part number B040006.01.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09-q09"
+    },
+    {
+      "question": "What components are shown on this connector views page?",
+      "answer": "The page shows connector views for the throttle switch potentiometer, trunk lid lock motor, and wiper motor, along with various multi-pin connectors C101, C103, C107, C110, C113, C114, C131, C136, C140, and C270.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-8500-09-q10"
+    }
+  ]
+}

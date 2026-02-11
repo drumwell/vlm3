@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-052",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/052.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:26:00.729113",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 628
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M12x1.25 spark plugs?",
+      "answer": "23 \u00b1 3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-052-q01"
+    },
+    {
+      "question": "What is the torque specification for M14x1.25 spark plugs?",
+      "answer": "30 \u00b1 3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-052-q02"
+    },
+    {
+      "question": "What section of the service manual covers spark plug torque specifications?",
+      "answer": "Section 12-2 Engine Electrical System, subsection 12 12 Spark plugs",
+      "question_type": "navigation",
+      "id": "00-torque-specs-052-q03"
+    },
+    {
+      "question": "What is the difference in torque between M12x1.25 and M14x1.25 spark plugs?",
+      "answer": "The M14x1.25 spark plugs require 7 Nm more torque (30 \u00b1 3 Nm) compared to M12x1.25 spark plugs (23 \u00b1 3 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-052-q05"
+    },
+    {
+      "question": "What thread pitch is specified for the M12 spark plugs?",
+      "answer": "1.25 mm",
+      "question_type": "factual",
+      "id": "00-torque-specs-052-q06"
+    },
+    {
+      "question": "What thread pitch is specified for the M14 spark plugs?",
+      "answer": "1.25 mm",
+      "question_type": "factual",
+      "id": "00-torque-specs-052-q07"
+    },
+    {
+      "question": "Do both spark plug sizes use the same torque tolerance?",
+      "answer": "Yes, both M12x1.25 and M14x1.25 spark plugs use a tolerance of \u00b1 3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-052-q08"
+    },
+    {
+      "question": "What unit is used for measuring spark plug torque specifications?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-052-q09"
+    },
+    {
+      "question": "Are these torque specifications applicable to all vehicle types?",
+      "answer": "Yes, the specifications show 'All' in the Type column for both spark plug sizes",
+      "question_type": "factual",
+      "id": "00-torque-specs-052-q10"
+    }
+  ]
+}

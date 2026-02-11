@@ -1,0 +1,91 @@
+{
+  "page_id": "16-11_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-11.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:00:11.954055",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 774
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the resistance specification between terminals W and 31 when the fuel level sender float is in the EMPTY position?",
+      "answer": "There should be flow between W and 31 in EMPTY float position - approx. 0 ohm.",
+      "question_type": "factual",
+      "id": "16-11_fuel-tan-q01"
+    },
+    {
+      "question": "How should the fuel level sender be tested when checking its operation?",
+      "answer": "Swing fuel level sender slowly and measure resistance with float in EMPTY and FULL positions. Resistance must change continuously while moving the float.",
+      "question_type": "procedural",
+      "id": "16-11_fuel-tan-q02"
+    },
+    {
+      "question": "What procedure is described in section 16 12 010?",
+      "answer": "Removing and installing or replacing carbon canister.",
+      "question_type": "factual",
+      "id": "16-11_fuel-tan-q03"
+    },
+    {
+      "question": "What should be done with the hose clamps when installing the carbon canister?",
+      "answer": "Use new hose clamps during installation.",
+      "question_type": "procedural",
+      "id": "16-11_fuel-tan-q04"
+    },
+    {
+      "question": "How do you remove the carbon canister according to the instructions?",
+      "answer": "Loosen clamp and take off carbon canister after pulling off hoses.",
+      "question_type": "procedural",
+      "id": "16-11_fuel-tan-q05"
+    },
+    {
+      "question": "What terminals should the ohmmeter be connected to when checking the fuel level sender for the left tank side?",
+      "answer": "Connect ohmmeter on terminals 1 and 2 for the left tank side fuel level sender.",
+      "question_type": "procedural",
+      "id": "16-11_fuel-tan-q06"
+    },
+    {
+      "question": "What tool is specified for measuring the fuel level sender resistance?",
+      "answer": "Connect ohmmeter (M 06) of BMW Service Tester on terminals G and 31.",
+      "question_type": "tool",
+      "id": "16-11_fuel-tan-q07"
+    },
+    {
+      "question": "What component provides power supply for the fuel transfer pump?",
+      "answer": "Power supply for the fuel transfer pump comes via the fuel pump relay (relay 1).",
+      "question_type": "factual",
+      "id": "16-11_fuel-tan-q08"
+    },
+    {
+      "question": "Where can you find additional information about the engine wiring diagram mentioned for the fuel pump relay?",
+      "answer": "See engine wiring diagram for relay 1 information.",
+      "question_type": "navigation",
+      "id": "16-11_fuel-tan-q09"
+    },
+    {
+      "question": "What should be measured to check the fuel transfer pump according to the instructions?",
+      "answer": "To check, measure power input and delivery pressure.",
+      "question_type": "diagnostic",
+      "id": "16-11_fuel-tan-q10"
+    },
+    {
+      "question": "What are the terminal designations shown in the fuel level sender connector diagram?",
+      "answer": "The connector shows terminals G, W, and 31.",
+      "question_type": "visual",
+      "id": "16-11_fuel-tan-q11"
+    },
+    {
+      "question": "What reference numbers are shown for the fuel level sender diagrams?",
+      "answer": "The fuel level sender diagrams show reference numbers 733 16 010, 28 16 131, 733 16 006, and 30 16 059.",
+      "question_type": "visual",
+      "id": "16-11_fuel-tan-q12"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "00-09_torque-s",
+  "image_path": "raw/00 - Torque Specs/00-09.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:13:24.959127",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 649
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M18 8.8 bolt?",
+      "answer": "280 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-09_torque-s-q01"
+    },
+    {
+      "question": "What torque specification applies to an M18 10.9 fastener?",
+      "answer": "390 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-09_torque-s-q02"
+    },
+    {
+      "question": "What is the tightening torque for an M18 12.9 bolt?",
+      "answer": "470 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-09_torque-s-q03"
+    },
+    {
+      "question": "What torque value should I use for an M18x1.5 8.8 thread?",
+      "answer": "313 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-09_torque-s-q04"
+    },
+    {
+      "question": "What is the maximum tightening torque for an M18x1.5 10.9 fastener?",
+      "answer": "440 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-09_torque-s-q05"
+    },
+    {
+      "question": "What torque specification applies to an M18x1.5 12.9 bolt?",
+      "answer": "527 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-09_torque-s-q06"
+    },
+    {
+      "question": "Which has a higher torque specification: M18 8.8 or M18x1.5 8.8?",
+      "answer": "M18x1.5 8.8 has a higher torque specification at 313 Nm compared to M18 8.8 at 280 Nm.",
+      "question_type": "factual",
+      "id": "00-09_torque-s-q07"
+    },
+    {
+      "question": "What BMW standard should I refer to for the applicable range of tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-09_torque-s-q08"
+    },
+    {
+      "question": "What thread types are covered in this torque specification table?",
+      "answer": "M18 thread and M18x1.5 thread",
+      "question_type": "factual",
+      "id": "00-09_torque-s-q09"
+    },
+    {
+      "question": "What is the highest torque value shown in this specification table?",
+      "answer": "527 Nm (ft. lbs.) for M18x1.5 12.9",
+      "question_type": "factual",
+      "id": "00-09_torque-s-q10"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "23-300_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-300.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:41:03.594935",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 520
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of transmission is shown in this section drawing?",
+      "answer": "This is a section drawing of the GETRAG 265/6 Overdrive Manual Transmission.",
+      "question_type": "factual",
+      "id": "23-300_manual-t-q01"
+    },
+    {
+      "question": "What does callout number 1 identify in the transmission diagram?",
+      "answer": "Callout number 1 identifies the First gear.",
+      "question_type": "component",
+      "id": "23-300_manual-t-q02"
+    },
+    {
+      "question": "Which component is labeled as number 6 in the transmission cross-section?",
+      "answer": "Number 6 identifies the Input shaft.",
+      "question_type": "component",
+      "id": "23-300_manual-t-q03"
+    },
+    {
+      "question": "What gear is represented by callout number 5?",
+      "answer": "Callout number 5 represents the Fifth gear.",
+      "question_type": "component",
+      "id": "23-300_manual-t-q04"
+    },
+    {
+      "question": "Where is the layshaft located in this transmission diagram?",
+      "answer": "The layshaft is labeled as number 8 and is positioned in the lower portion of the transmission case.",
+      "question_type": "visual",
+      "id": "23-300_manual-t-q05"
+    },
+    {
+      "question": "What does the 'R' designation refer to in the component list?",
+      "answer": "The 'R' designation refers to the Reverse gear.",
+      "question_type": "component",
+      "id": "23-300_manual-t-q06"
+    },
+    {
+      "question": "How many forward gears does this GETRAG transmission have based on the component list?",
+      "answer": "This GETRAG transmission has five forward gears, as shown by the First gear through Fifth gear listings (numbers 1-5).",
+      "question_type": "factual",
+      "id": "23-300_manual-t-q07"
+    },
+    {
+      "question": "What is the relationship between components 6 and 7 in the transmission layout?",
+      "answer": "Component 6 (Input shaft) and component 7 (Output shaft) are positioned on opposite sides of the transmission, with the input shaft on the left side and output shaft on the right side of the assembly.",
+      "question_type": "visual",
+      "id": "23-300_manual-t-q08"
+    }
+  ]
+}

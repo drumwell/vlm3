@@ -1,0 +1,55 @@
+{
+  "page_id": "41-001_body",
+  "image_path": "raw/41 - Body/41-001.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:34:08.399102",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1738,
+    "tokens_output": 470
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum distance required between welding and ground connections according to the manual?",
+      "answer": "There must be a guarantee of about 1 meter (3 feet) distance between welding and ground connections.",
+      "question_type": "factual",
+      "id": "41-001_body-q01"
+    },
+    {
+      "question": "What should be done with sealing seams after body repairs are completed?",
+      "answer": "All sealing seams, sealed in original state, should be sealed off with a body sealing compound immediately after repairing. Also replace damaged anti-drumming insulation.",
+      "question_type": "procedural",
+      "id": "41-001_body-q02"
+    },
+    {
+      "question": "When should inert gas plug welding be used instead of spot welding?",
+      "answer": "Use inert gas plug welding instead of spot welding in non-accessible areas.",
+      "question_type": "procedural",
+      "id": "41-001_body-q03"
+    },
+    {
+      "question": "What safety precaution is mentioned regarding the battery during body repair work?",
+      "answer": "Disconnect the ground lead on the battery or body connection point. Protect electric leads against dangers of mechanical or thermal influence.",
+      "question_type": "safety",
+      "id": "41-001_body-q04"
+    },
+    {
+      "question": "What important inspection must be performed after an accident according to the manual?",
+      "answer": "The steering gear must be inspected and maybe replaced after an accident or accident-similar driving conditions - see Service Information 32 01 88 (826).",
+      "question_type": "inspection",
+      "id": "41-001_body-q05"
+    },
+    {
+      "question": "What welding method should be used for repairing faulty welded points, and what thickness is specified?",
+      "answer": "Faulty welded points should be repaired with inert gas spot welding or, when not accessible, with 15 mm (0.590\") pin inert gas welded seams on the flange end.",
+      "question_type": "procedural",
+      "id": "41-001_body-q06"
+    }
+  ]
+}

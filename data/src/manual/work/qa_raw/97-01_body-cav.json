@@ -1,0 +1,91 @@
+{
+  "page_id": "97-01_body-cav",
+  "image_path": "raw/97 - Body Cavity Sealing and Undercoating/97-01.jpg",
+  "section_id": "97",
+  "section_name": "Body Cavity Sealing and Undercoating",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:12:15.392507",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1901,
+    "tokens_output": 818
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum thickness allowed for undercoating?",
+      "answer": "The thickness of undercoating should not exceed 250 \u03bcm (0.25 mm/0.010\").",
+      "question_type": "factual",
+      "id": "97-01_body-cav-q01"
+    },
+    {
+      "question": "What temperature should sealing compounds and the car be at during application?",
+      "answer": "Sealing compounds and the car itself should have room temperature (approx. 20\u00b0C / 68\u00b0F).",
+      "question_type": "factual",
+      "id": "97-01_body-cav-q02"
+    },
+    {
+      "question": "What should be done with damaged PVC on the underside of the car?",
+      "answer": "If applicable, damaged PVC on underside including wheel housings and side panels must be repaired and treated with Tectyl.",
+      "question_type": "procedural",
+      "id": "97-01_body-cav-q03"
+    },
+    {
+      "question": "What does the code 'H or F' indicate in the sealing procedures?",
+      "answer": "H represents Hook-type probe and F represents Flat spray pattern nozzle.",
+      "question_type": "factual",
+      "id": "97-01_body-cav-q04"
+    },
+    {
+      "question": "What should be done when drilling holes for sealing?",
+      "answer": "When drilling holes, dip the stepped drill bit in sealing compound to trap burrs.",
+      "question_type": "procedural",
+      "id": "97-01_body-cav-q05"
+    },
+    {
+      "question": "How should plugs be treated after sealing is finished?",
+      "answer": "Insert plugs dipped in Tectyl in all drilled holes after finishing sealing.",
+      "question_type": "procedural",
+      "id": "97-01_body-cav-q06"
+    },
+    {
+      "question": "What does 'N or RS' represent in the sealing procedure codes?",
+      "answer": "N represents Nylon probe and RS represents Round spray pattern slotted nozzle.",
+      "question_type": "factual",
+      "id": "97-01_body-cav-q07"
+    },
+    {
+      "question": "Which sealing procedure uses the 'T+N or F+RS' code combination?",
+      "answer": "Item 7: Doors twice each through provided openings as well as front door window frame at rear (plates removed) uses the T+N or F+RS code.",
+      "question_type": "factual",
+      "id": "97-01_body-cav-q08"
+    },
+    {
+      "question": "What special consideration is mentioned for body repairs?",
+      "answer": "When repairing body parts damaged in an accident or replacing the car body, body cavity sealing must be carried out immediately after painting and before installation of attachments, equipment, trim, etc.",
+      "question_type": "procedural",
+      "id": "97-01_body-cav-q09"
+    },
+    {
+      "question": "What must be done before starting sealing preparations?",
+      "answer": "Underside of car must be clean and dry, and check car for paint finish damage and damage from flying stones, repairing after consulting the customer if applicable.",
+      "question_type": "inspection",
+      "id": "97-01_body-cav-q10"
+    },
+    {
+      "question": "What should be done with dripping sealing compound?",
+      "answer": "Remove dripping sealing compound.",
+      "question_type": "procedural",
+      "id": "97-01_body-cav-q11"
+    },
+    {
+      "question": "Where should body cavity sealing be confirmed after completion?",
+      "answer": "Body cavity sealing performed after body repairs must be confirmed on the annual inspection sheets (Owner's Manual).",
+      "question_type": "procedural",
+      "id": "97-01_body-cav-q12"
+    }
+  ]
+}

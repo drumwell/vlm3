@@ -1,0 +1,91 @@
+{
+  "page_id": "-022",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/022.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:07:30.788724",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 735
+  },
+  "qa_pairs": [
+    {
+      "question": "Which shift rod from the left is the input shaft?",
+      "answer": "The shift rod 2nd from the left is the input shaft.",
+      "question_type": "factual",
+      "id": "-022-q01"
+    },
+    {
+      "question": "What can you notice around the input shaft in the ultrasonic cleaner?",
+      "answer": "You can notice the rings around it.",
+      "question_type": "visual",
+      "id": "-022-q02"
+    },
+    {
+      "question": "What is the shaft coated in to prevent corrosion?",
+      "answer": "The shaft is coated in what looks like zinc to stop corrosion.",
+      "question_type": "factual",
+      "id": "-022-q03"
+    },
+    {
+      "question": "Where has the seal been sitting that reveals corrosion issues?",
+      "answer": "The seal has been sitting where a close look reveals the shaft is coated, and it has a rough edge where the seal has worn through it.",
+      "question_type": "inspection",
+      "id": "-022-q04"
+    },
+    {
+      "question": "What maintenance procedure was performed on the seal area?",
+      "answer": "The seal area was polished and all the shift rods where they go through bushes were polished just to help smooth gear shifting and prolong the seal life.",
+      "question_type": "procedural",
+      "id": "-022-q05"
+    },
+    {
+      "question": "What component is shown in the ultrasonic cleaner basket?",
+      "answer": "A transmission component with multiple bolt holes and a central shaft opening is shown in the ultrasonic cleaner basket.",
+      "question_type": "component",
+      "id": "-022-q06"
+    },
+    {
+      "question": "What type of cleaning equipment is being used in the first image?",
+      "answer": "An ultrasonic cleaner with a wire basket is being used.",
+      "question_type": "tool",
+      "id": "-022-q07"
+    },
+    {
+      "question": "What is the purpose of polishing the shift rods where they go through bushes?",
+      "answer": "Polishing the shift rods where they go through bushes helps smooth gear shifting and prolongs the seal life.",
+      "question_type": "procedural",
+      "id": "-022-q08"
+    },
+    {
+      "question": "What problem is identified with the seal area on the shaft?",
+      "answer": "The problem is that the seal has worn through the coating, creating a rough edge where the seal has been sitting.",
+      "question_type": "diagnostic",
+      "id": "-022-q09"
+    },
+    {
+      "question": "What component is shown in the lower image?",
+      "answer": "A polished shift rod or shaft component is shown in the lower image.",
+      "question_type": "component",
+      "id": "-022-q10"
+    },
+    {
+      "question": "What is the condition of the shaft surface after the maintenance work?",
+      "answer": "The shaft surface appears polished and smooth after the maintenance work.",
+      "question_type": "inspection",
+      "id": "-022-q11"
+    },
+    {
+      "question": "Why was the zinc coating applied to the shaft?",
+      "answer": "The zinc coating was applied to stop corrosion.",
+      "question_type": "factual",
+      "id": "-022-q12"
+    }
+  ]
+}

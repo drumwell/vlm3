@@ -1,0 +1,109 @@
+{
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "index_pages": [
+    "65-00-index-a.jpg",
+    "65-00-index-b.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "020",
+      "name": "Radio speaker, rear - remove and install",
+      "pages": [
+        "65-92"
+      ]
+    },
+    {
+      "code": "040",
+      "name": "Power antenna telescope - replace",
+      "pages": [
+        "65-191"
+      ]
+    },
+    {
+      "code": "060",
+      "name": "Air temperature sensor - remove and install",
+      "pages": [
+        "65-361"
+      ]
+    },
+    {
+      "code": "65 12 000",
+      "name": "Radio speaker, front - remove and install",
+      "pages": [
+        "65-91"
+      ]
+    },
+    {
+      "code": "65 14 000",
+      "name": "Cassette box - service install",
+      "pages": [
+        "65-93"
+      ]
+    },
+    {
+      "code": "65 21 100",
+      "name": "Retractable antenna, rear, left - install",
+      "pages": [
+        "65-101"
+      ]
+    },
+    {
+      "code": "65 22 005",
+      "name": "Power antenna - install",
+      "pages": [
+        "65-151"
+      ]
+    },
+    {
+      "code": "65 71 000",
+      "name": "Cruise control - install",
+      "pages": [
+        "65-301"
+      ]
+    },
+    {
+      "code": "65 81 030",
+      "name": "Cruise control - testing instructions",
+      "pages": [
+        "65-351",
+        "65-360"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "65-92": [
+      "020"
+    ],
+    "65-191": [
+      "040"
+    ],
+    "65-361": [
+      "060"
+    ],
+    "65-91": [
+      "65 12 000"
+    ],
+    "65-93": [
+      "65 14 000"
+    ],
+    "65-101": [
+      "65 21 100"
+    ],
+    "65-151": [
+      "65 22 005"
+    ],
+    "65-301": [
+      "65 71 000"
+    ],
+    "65-351": [
+      "65 81 030"
+    ],
+    "65-360": [
+      "65 81 030"
+    ]
+  },
+  "merge_warnings": [
+    "Code 65 81 030: name mismatch 'Cruise control - testing instructions' vs 'On-board computer - remove and install'"
+  ]
+}

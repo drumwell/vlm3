@@ -1,0 +1,79 @@
+{
+  "page_id": "34-44_brakes",
+  "image_path": "raw/34 - Brakes/34-44.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:26:13.944099",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 682
+  },
+  "qa_pairs": [
+    {
+      "question": "What is being tested in test step 10?",
+      "answer": "Hydraulic unit pressure build-up pressure hold is being tested.",
+      "question_type": "factual",
+      "id": "34-44_brakes-q01"
+    },
+    {
+      "question": "What voltage should be checked between wires 1 and 10?",
+      "answer": "The voltage between wires 1 and 10 should be checked as part of the test procedure.",
+      "question_type": "diagnostic",
+      "id": "34-44_brakes-q02"
+    },
+    {
+      "question": "What are the initial steps if nominal values are not reached for the voltage test?",
+      "answer": "Turn on ignition, run engine, and check that the battery is charged.",
+      "question_type": "procedural",
+      "id": "34-44_brakes-q03"
+    },
+    {
+      "question": "What should be done if there are issues with the front left, right, left/right, or rear left/right during testing?",
+      "answer": "Due to high switching on power, possibly repeat test step with engine running. Refer to test steps 05, 06 and 07.",
+      "question_type": "troubleshooting",
+      "id": "34-44_brakes-q04"
+    },
+    {
+      "question": "What conventional brake system requirements must be met for ABS testing?",
+      "answer": "Testing the ABS requires the conventional brake system to be okay: bled properly, brake line connections tight, brake pads okay, and watch uniformity of wheels on one axle.",
+      "question_type": "procedural",
+      "id": "34-44_brakes-q05"
+    },
+    {
+      "question": "What should be checked if there are problems with the hydraulic unit?",
+      "answer": "Check lines to and from hydraulic unit for leaks. Replace hydraulic unit.",
+      "question_type": "diagnostic",
+      "id": "34-44_brakes-q06"
+    },
+    {
+      "question": "What is the job position number for the hydraulic unit replacement?",
+      "answer": "34 51 520",
+      "question_type": "factual",
+      "id": "34-44_brakes-q07"
+    },
+    {
+      "question": "Why can't this test step be performed on a dynamometer for 325 iX cars?",
+      "answer": "This test step may not be performed on a dynamometer for 325 iX cars, since the total loading time for the central lock in the transfer box must not exceed 60 seconds at a wheel speed of max. 7.5 km/h (4.5 mph).",
+      "question_type": "safety",
+      "id": "34-44_brakes-q08"
+    },
+    {
+      "question": "What reference document should be consulted for brake test dynamometer procedures?",
+      "answer": "Refer to brake test dynamometer in 34 00 009.",
+      "question_type": "navigation",
+      "id": "34-44_brakes-q09"
+    },
+    {
+      "question": "What group classification does this hydraulic unit test belong to?",
+      "answer": "Group 34",
+      "question_type": "factual",
+      "id": "34-44_brakes-q10"
+    }
+  ]
+}

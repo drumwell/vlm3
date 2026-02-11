@@ -1,0 +1,55 @@
+{
+  "page_id": "64-00-index-a_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-00-index-a.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:51:24.859565",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1748,
+    "tokens_output": 376
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers Heating and Air Conditioning in this manual?",
+      "answer": "Section 64 covers Heating and Air Conditioning.",
+      "question_type": "factual",
+      "id": "64-00-index-a_heating--q01"
+    },
+    {
+      "question": "On which page can I find information about discharging and charging the air conditioner?",
+      "answer": "Information about discharging and charging the air conditioner can be found on page 64-6.",
+      "question_type": "navigation",
+      "id": "64-00-index-a_heating--q02"
+    },
+    {
+      "question": "What is the part number for the cable for footwell ventilation removal and installation?",
+      "answer": "The part number for the cable for footwell ventilation is 64 11 071.",
+      "question_type": "factual",
+      "id": "64-00-index-a_heating--q03"
+    },
+    {
+      "question": "Where can I find the procedure for removing and installing the heater core?",
+      "answer": "The procedure for removing and installing the heater core can be found on page 64-123.",
+      "question_type": "navigation",
+      "id": "64-00-index-a_heating--q04"
+    },
+    {
+      "question": "What page contains safety precautions for handling refrigerants?",
+      "answer": "Safety precautions for handling refrigerants are on page 64-6.",
+      "question_type": "safety",
+      "id": "64-00-index-a_heating--q05"
+    },
+    {
+      "question": "What is the part number for the rear window fan component?",
+      "answer": "The part number for the rear window fan is 64 23 000.",
+      "question_type": "component",
+      "id": "64-00-index-a_heating--q06"
+    }
+  ]
+}

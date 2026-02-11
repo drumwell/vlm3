@@ -1,0 +1,73 @@
+{
+  "page_id": "getrag-021",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/021.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:46:18.613407",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1945,
+    "tokens_output": 590
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the clearance specification for 2nd gear?",
+      "answer": "2nd gear clearance is 1.12mm.",
+      "question_type": "factual",
+      "id": "getrag-021-q01"
+    },
+    {
+      "question": "What are the clearance measurements for 3rd and 4th gears?",
+      "answer": "Both 3rd and 4th gears have a clearance of 1.12mm.",
+      "question_type": "factual",
+      "id": "getrag-021-q02"
+    },
+    {
+      "question": "What is the clearance specification for 5th gear?",
+      "answer": "5th gear clearance is 1.05mm.",
+      "question_type": "factual",
+      "id": "getrag-021-q03"
+    },
+    {
+      "question": "What is the reverse gear clearance measurement?",
+      "answer": "Reverse gear clearance is 0.04mm.",
+      "question_type": "factual",
+      "id": "getrag-021-q04"
+    },
+    {
+      "question": "What is the measurement in the second column for 2nd gear?",
+      "answer": "The second column shows 1.30mm for 2nd gear.",
+      "question_type": "factual",
+      "id": "getrag-021-q05"
+    },
+    {
+      "question": "What are the measurements for 3rd and 4th gears in the second column?",
+      "answer": "Both 3rd and 4th gears show 1.30mm in the second column.",
+      "question_type": "factual",
+      "id": "getrag-021-q06"
+    },
+    {
+      "question": "What is the 5th gear measurement in the second column?",
+      "answer": "5th gear shows 1.25mm in the second column.",
+      "question_type": "factual",
+      "id": "getrag-021-q07"
+    },
+    {
+      "question": "What is the replacement specification for reverse gear?",
+      "answer": "Reverse gear 0.5-0.6 new less than 0.4mm replace.",
+      "question_type": "procedural",
+      "id": "getrag-021-q09"
+    },
+    {
+      "question": "What is the specification range for forward syncros?",
+      "answer": "Forward syncros 1.0 to 1.3mm.",
+      "question_type": "factual",
+      "id": "getrag-021-q10"
+    }
+  ]
+}

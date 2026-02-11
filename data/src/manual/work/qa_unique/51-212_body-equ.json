@@ -1,0 +1,79 @@
+{
+  "page_id": "51-212_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-212.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:14:20.673588",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 779
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the four components labeled in the two door arrangement diagram?",
+      "answer": "The four components are: 1 = Lock, 2 = Locking linkage, 3 = Door remote control linkage, and 4 = Drive/connecting link.",
+      "question_type": "visual",
+      "id": "51-212_body-equ-q01"
+    },
+    {
+      "question": "What is the first step shown in the removal procedure?",
+      "answer": "The first step is to unscrew bolts.",
+      "question_type": "procedural",
+      "id": "51-212_body-equ-q03"
+    },
+    {
+      "question": "What specific reference is given for convertible lock cylinder removal?",
+      "answer": "For convertibles, remove lock cylinder according to section 51 21 140.",
+      "question_type": "navigation",
+      "id": "51-212_body-equ-q05"
+    },
+    {
+      "question": "What lubrication requirement is specified during installation?",
+      "answer": "Lubricate lock with grease during installation.",
+      "question_type": "tool",
+      "id": "51-212_body-equ-q06"
+    },
+    {
+      "question": "What part numbers are shown in the diagrams?",
+      "answer": "The part numbers shown are 30 51 472 for the two door arrangement and 30 51 473 for the four door arrangement.",
+      "question_type": "factual",
+      "id": "51-212_body-equ-q07"
+    },
+    {
+      "question": "What additional part number is visible in the middle photograph?",
+      "answer": "The part number 30 51 016 is visible in the middle photograph showing the lock cylinder area.",
+      "question_type": "factual",
+      "id": "51-212_body-equ-q08"
+    },
+    {
+      "question": "What is the difference between the two door and four door arrangements shown?",
+      "answer": "Both arrangements have the same four numbered components (lock, locking linkage, door remote control linkage, and drive/connecting link), but they are configured differently for their respective door configurations.",
+      "question_type": "factual",
+      "id": "51-212_body-equ-q09"
+    },
+    {
+      "question": "What source information is provided at the bottom of the page?",
+      "answer": "The source is listed as HWIB.",
+      "question_type": "factual",
+      "id": "51-212_body-equ-q10"
+    },
+    {
+      "question": "What type of vehicle configuration has special instructions for lock cylinder removal?",
+      "answer": "Convertibles have special instructions and must refer to section 51 21 140 for lock cylinder removal.",
+      "question_type": "factual",
+      "id": "51-212_body-equ-q11"
+    },
+    {
+      "question": "What should be removed together with the lock during the procedure?",
+      "answer": "The lock should be removed complete with remote control.",
+      "question_type": "procedural",
+      "id": "51-212_body-equ-q12"
+    }
+  ]
+}

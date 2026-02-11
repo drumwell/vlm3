@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-11-35",
+  "image_path": "raw/00 - Torque Specs/11-35.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:43:28.672032",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 594
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of thread locker should be applied to exhaust nuts and bolts on the 2AZ engine?",
+      "answer": "Molykote HSC paste",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-35-q04"
+    },
+    {
+      "question": "What is the protrusion measurement for short studs from the cylinder head?",
+      "answer": "88 + 1.0 mm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-35-q05"
+    },
+    {
+      "question": "What is the difference in protrusion between short studs and long studs?",
+      "answer": "Long studs protrude 10 mm more than short studs (98 mm vs 88 mm base measurement)",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-35-q08"
+    },
+    {
+      "question": "What procedure should be followed when installing studs with Molykote HSC?",
+      "answer": "Loosen bolt first, then install studs with Molykote HSC",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-35-q09"
+    },
+    {
+      "question": "What engine type uses M30 Turbo specifications for exhaust manifold mounting?",
+      "answer": "2AZ engine",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-35-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "00-05_maintena",
+  "image_path": "raw/00 - Maintenance/00-05.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:11:22.314806",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 727
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be tested during the road test portion of the pre-delivery inspection?",
+      "answer": "During the road test, check acceleration, coasting, and brake system performance both before and during the road test.",
+      "question_type": "procedural",
+      "id": "00-05_maintena-q02"
+    },
+    {
+      "question": "Which group reference is provided for checking engine, clutch, transmission, and rear axle functions?",
+      "answer": "Group reference Gr. 34 is provided for checking these functions.",
+      "question_type": "navigation",
+      "id": "00-05_maintena-q04"
+    },
+    {
+      "question": "What specific transmission models are mentioned for the functional check?",
+      "answer": "The 325iX with front axle and steering functions are mentioned, with the wheel in straight ahead position, for cars with rear disc brakes including braking in parking brake.",
+      "question_type": "factual",
+      "id": "00-05_maintena-q05"
+    },
+    {
+      "question": "What engine management system function needs to be checked during pre-delivery inspection?",
+      "answer": "The function of Motronic engine management system needs to be checked.",
+      "question_type": "inspection",
+      "id": "00-05_maintena-q06"
+    },
+    {
+      "question": "What noise-related inspection is required during pre-delivery?",
+      "answer": "Check the car for rattling and squeaking noise.",
+      "question_type": "inspection",
+      "id": "00-05_maintena-q07"
+    },
+    {
+      "question": "What vehicle dynamics checks are specified in the inspection list?",
+      "answer": "Check handling and wheel balance as part of the vehicle dynamics inspection.",
+      "question_type": "inspection",
+      "id": "00-05_maintena-q08"
+    },
+    {
+      "question": "What HVAC system components need functional verification?",
+      "answer": "Check the function of heater, fresh air ventilation, and air conditioning systems.",
+      "question_type": "inspection",
+      "id": "00-05_maintena-q09"
+    },
+    {
+      "question": "What dashboard-related check is required during pre-delivery inspection?",
+      "answer": "Check the function of all instruments in the dashboard.",
+      "question_type": "inspection",
+      "id": "00-05_maintena-q10"
+    },
+    {
+      "question": "What driving assistance feature needs to be tested if equipped?",
+      "answer": "The cruise control system function needs to be checked if the vehicle is equipped with it.",
+      "question_type": "inspection",
+      "id": "00-05_maintena-q11"
+    },
+    {
+      "question": "What engine parameter should be verified during the inspection?",
+      "answer": "Check the engine idle RPM to ensure it meets specification.",
+      "question_type": "parameter",
+      "id": "00-05_maintena-q12"
+    }
+  ]
+}

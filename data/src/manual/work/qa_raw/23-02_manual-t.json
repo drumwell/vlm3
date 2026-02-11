@@ -1,0 +1,67 @@
+{
+  "page_id": "23-02_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-02.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:22:36.026944",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 537
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of transmission is shown in this assembly drawing?",
+      "answer": "This is an assembly drawing of shift parts for a 240 five speed overdrive manual transmission.",
+      "question_type": "factual",
+      "id": "23-02_manual-t-q01"
+    },
+    {
+      "question": "What component is identified by callout number 1?",
+      "answer": "Callout number 1 identifies the selector rod for 1st/2nd gear.",
+      "question_type": "component",
+      "id": "23-02_manual-t-q02"
+    },
+    {
+      "question": "Which component controls the reverse/5th gear selection according to the diagram?",
+      "answer": "According to the diagram, component 7 is the selector rod for reverse/5th gear.",
+      "question_type": "component",
+      "id": "23-02_manual-t-q03"
+    },
+    {
+      "question": "What is the function of component number 8 in this transmission?",
+      "answer": "Component number 8 is the lockpin.",
+      "question_type": "component",
+      "id": "23-02_manual-t-q04"
+    },
+    {
+      "question": "Where is the operating lever located in this assembly?",
+      "answer": "The operating lever is located at position 12 at the top right of the assembly.",
+      "question_type": "visual",
+      "id": "23-02_manual-t-q05"
+    },
+    {
+      "question": "What are the three selector forks shown in this diagram and their corresponding gear ranges?",
+      "answer": "The three selector forks are: component 2 for 3rd/4th gear, component 5 for 1st/2nd gear, and component 6 for reverse/5th gear.",
+      "question_type": "component",
+      "id": "23-02_manual-t-q06"
+    },
+    {
+      "question": "Which component connects the selector forks to the shift mechanism?",
+      "answer": "The selector shaft (component 9) and selector arm (component 10) connect the selector forks to the shift mechanism.",
+      "question_type": "procedural",
+      "id": "23-02_manual-t-q07"
+    },
+    {
+      "question": "What is the relationship between components 10 and 11 in the shift mechanism?",
+      "answer": "Component 10 is the selector arm and component 11 is the selector rail, which work together as part of the gear selection mechanism.",
+      "question_type": "procedural",
+      "id": "23-02_manual-t-q08"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "18-02_exhaust-",
+  "image_path": "raw/18 - Exhaust System/18-02.jpg",
+  "section_id": "18",
+  "section_name": "Exhaust System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:03:18.490995",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 718
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure section number for replacing the final muffler?",
+      "answer": "The procedure section number is 18 12 031.",
+      "question_type": "factual",
+      "id": "18-02_exhaust--q01"
+    },
+    {
+      "question": "On the BMW 318i, what must be disconnected from the final muffler during removal?",
+      "answer": "The catalytic converter must be disconnected from the final muffler.",
+      "question_type": "procedural",
+      "id": "18-02_exhaust--q02"
+    },
+    {
+      "question": "What should be replaced during final muffler installation?",
+      "answer": "Replace the gasket and self-locking nuts. Use tightening torque as specified.",
+      "question_type": "procedural",
+      "id": "18-02_exhaust--q03"
+    },
+    {
+      "question": "When should the suspension on the rear axle carrier be disconnected?",
+      "answer": "Disconnect suspension on rear axle carrier, if necessary.",
+      "question_type": "procedural",
+      "id": "18-02_exhaust--q04"
+    },
+    {
+      "question": "What is the installation procedure for adjusting the final muffler holder?",
+      "answer": "Adjust holder by moving and torque only after finishing installation of the exhaust assembly.",
+      "question_type": "procedural",
+      "id": "18-02_exhaust--q05"
+    },
+    {
+      "question": "What should be checked during final muffler installation?",
+      "answer": "Check spacing to body and rear axle carrier, correcting if necessary.",
+      "question_type": "inspection",
+      "id": "18-02_exhaust--q06"
+    },
+    {
+      "question": "How should the holder for the final muffler be loosened?",
+      "answer": "Loosen holder for final muffler.",
+      "question_type": "procedural",
+      "id": "18-02_exhaust--q07"
+    },
+    {
+      "question": "What reference should be consulted for exhaust system layout information?",
+      "answer": "See exhaust suspension layout drawing.",
+      "question_type": "navigation",
+      "id": "18-02_exhaust--q10"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "23-22_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-22.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:40:52.364885",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 738
+  },
+  "qa_pairs": [
+    {
+      "question": "Where should the distance between the synchromesh ring and clutch body be measured?",
+      "answer": "Measure in area of stops.",
+      "question_type": "inspection",
+      "id": "23-22_manual-t-q02"
+    },
+    {
+      "question": "How should synchromesh rings be pressed together during measurement?",
+      "answer": "The synchromesh ring must be pressed together while twisting for the measurement.",
+      "question_type": "procedural",
+      "id": "23-22_manual-t-q03"
+    },
+    {
+      "question": "What should synchromesh rings look like around their entire surface?",
+      "answer": "Synchromesh rings should bear uniformly around the entire surface.",
+      "question_type": "inspection",
+      "id": "23-22_manual-t-q04"
+    },
+    {
+      "question": "What components are shown in the synchromizer disassembly diagram numbered 1, 2, and 3?",
+      "answer": "Component 1 is the thrust piece, component 2 is the spring, and component 3 is the ball.",
+      "question_type": "visual",
+      "id": "23-22_manual-t-q05"
+    },
+    {
+      "question": "What must be aligned during synchromizer installation?",
+      "answer": "Bores (4) or flat teeth of operating sleeve must be aligned with ball (3).",
+      "question_type": "procedural",
+      "id": "23-22_manual-t-q06"
+    },
+    {
+      "question": "On which end should the groove of the operating sleeve be positioned for the version with one groove?",
+      "answer": "Groove of operating sleeve must be on the narrow collar end.",
+      "question_type": "procedural",
+      "id": "23-22_manual-t-q07"
+    },
+    {
+      "question": "For the version with two grooves, where should the grooves of the operating sleeve be positioned?",
+      "answer": "Grooves of operating sleeve must be on the wide collar end (1).",
+      "question_type": "procedural",
+      "id": "23-22_manual-t-q08"
+    },
+    {
+      "question": "What components should be installed along with the springs during assembly?",
+      "answer": "Install all springs, thrust pieces and balls.",
+      "question_type": "procedural",
+      "id": "23-22_manual-t-q09"
+    },
+    {
+      "question": "Where should the shouldered ends of thrust pieces face?",
+      "answer": "The shouldered ends of thrust pieces face the operating sleeve.",
+      "question_type": "procedural",
+      "id": "23-22_manual-t-q10"
+    },
+    {
+      "question": "How should the guide sleeve be inserted and the balls positioned?",
+      "answer": "Insert guide sleeve in operating sleeve half the distance. Press in balls so far that the guide sleeve can be pushed into the operating sleeve.",
+      "question_type": "procedural",
+      "id": "23-22_manual-t-q11"
+    },
+    {
+      "question": "What gear synchronization does the important note specifically reference?",
+      "answer": "Only with 3rd/4th Gear Synchronization.",
+      "question_type": "factual",
+      "id": "23-22_manual-t-q12"
+    }
+  ]
+}

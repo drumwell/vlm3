@@ -1,0 +1,91 @@
+{
+  "page_id": "41-216_body",
+  "image_path": "raw/41 - Body/41-216.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:54:27.121364",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 726
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number and title for replacing the front roof frame?",
+      "answer": "Section 41 22 541, REPLACING FRONT ROOF FRAME - ROOF PANEL REMOVED.",
+      "question_type": "factual",
+      "id": "41-216_body-q01"
+    },
+    {
+      "question": "What page should you refer to for additional information about this procedure?",
+      "answer": "Refer to information on page 41-001.",
+      "question_type": "navigation",
+      "id": "41-216_body-q02"
+    },
+    {
+      "question": "What is the first step when cutting the roof frame?",
+      "answer": "Cut through roof frame on left and right sides.",
+      "question_type": "procedural",
+      "id": "41-216_body-q03"
+    },
+    {
+      "question": "What should be done to welded spots on the left and right sides?",
+      "answer": "Drill off welded spots on left and right sides.",
+      "question_type": "procedural",
+      "id": "41-216_body-q04"
+    },
+    {
+      "question": "What preparation is required for mating surfaces before spot welding?",
+      "answer": "Remove scrap metal, straighten and grind mating surfaces, then coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-216_body-q05"
+    },
+    {
+      "question": "What preparation is needed for new parts before installation?",
+      "answer": "Grind mating surfaces on new parts and coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-216_body-q06"
+    },
+    {
+      "question": "How should the roof panel be secured during installation?",
+      "answer": "Install and clamp roof panel.",
+      "question_type": "procedural",
+      "id": "41-216_body-q07"
+    },
+    {
+      "question": "What is the final welding step for the roof frame installation?",
+      "answer": "Install and tack weld roof frame inside section.",
+      "question_type": "procedural",
+      "id": "41-216_body-q08"
+    },
+    {
+      "question": "What diagram number shows the cutting procedure for the roof frame?",
+      "answer": "Diagram 30 41161 shows the cutting procedure for the roof frame on left and right sides.",
+      "question_type": "visual",
+      "id": "41-216_body-q09"
+    },
+    {
+      "question": "Which diagram illustrates drilling off the welded spots?",
+      "answer": "Diagram 30 41162 and 30 41163 show the drilling off of welded spots.",
+      "question_type": "visual",
+      "id": "41-216_body-q10"
+    },
+    {
+      "question": "What type of paint should be applied to mating surfaces for welding?",
+      "answer": "Zinc dust paint should be applied to mating surfaces needed for spot welding.",
+      "question_type": "factual",
+      "id": "41-216_body-q11"
+    },
+    {
+      "question": "What diagram shows the final installation and tack welding step?",
+      "answer": "Diagram 30 41167 shows the installation and tack welding of the roof frame inside section.",
+      "question_type": "visual",
+      "id": "41-216_body-q12"
+    }
+  ]
+}

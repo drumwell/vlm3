@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-17-04",
+  "image_path": "raw/00 - Torque Specs/17-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:56:45.458216",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 548
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for pipes to engine oil cooler?",
+      "answer": "28 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-04-q01"
+    },
+    {
+      "question": "What torque should be applied to the pipes to oil filter head?",
+      "answer": "25 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-04-q02"
+    },
+    {
+      "question": "What torque value is required for the holder for oil cooler pipes to alternator?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-04-q04"
+    },
+    {
+      "question": "Which oil cooler pipe connection has the highest torque specification?",
+      "answer": "Pipes to engine oil cooler at 28 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-04-q05"
+    },
+    {
+      "question": "Which components are applicable to all vehicle types in the oil cooler pipes section?",
+      "answer": "Pipes to engine oil cooler and holder on oil cooler pipes",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-04-q07"
+    },
+    {
+      "question": "What vehicle type specification applies to the pipes to oil filter head?",
+      "answer": "E36 M3",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-04-q08"
+    },
+    {
+      "question": "Which oil cooler component has the lowest torque specification?",
+      "answer": "Holder on oil cooler pipes at 6 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-04-q09"
+    },
+    {
+      "question": "What is the difference in torque between pipes to engine oil cooler and pipes to oil filter head?",
+      "answer": "3 Nm (28 Nm - 25 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-04-q10"
+    }
+  ]
+}

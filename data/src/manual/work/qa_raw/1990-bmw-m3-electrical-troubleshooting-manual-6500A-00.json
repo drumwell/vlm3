@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6500A-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:11:01.542203",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1893,
+    "tokens_output": 731
+  },
+  "qa_pairs": [
+    {
+      "question": "Which fuse provides voltage to turn on the three components in the radio system?",
+      "answer": "Fuse 12 provides voltage to turn on the three components in the system when the Ignition Switch is in ACCY, RUN or START.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00-q01"
+    },
+    {
+      "question": "Which fuse constantly supplies voltage to the Memory Power Input of the Radio?",
+      "answer": "Fuse 21 constantly supplies voltage to the Memory Power Input of the Radio.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00-q02"
+    },
+    {
+      "question": "What are the first three troubleshooting checks you should perform before doing the System Check?",
+      "answer": "1. Check power input to the Radio by observing if Instrument Cluster Indicators light. 2. Check memory power to Radio by checking operation of the Glove Box Light. 3. Check power input to the Amplifier.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00-q03"
+    },
+    {
+      "question": "What should you check if the display shows 'CODE' and the Radio will not operate?",
+      "answer": "If display shows 'CODE' and Radio will not operate, the individual Anti-Theft Code must be entered before the 'Anti-Theft' instruction booklet.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00-q04"
+    },
+    {
+      "question": "What is the normal result when operating the Fader Control according to the System Check Table?",
+      "answer": "Sound volume varies from front to rear.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00-q05"
+    },
+    {
+      "question": "Which fuse provides constant power to the Amplifier at terminal 11?",
+      "answer": "Fuse 27 provides constant power to the Amplifier at terminal 11.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00-q06"
+    },
+    {
+      "question": "What diagnostic test should you perform if the radio does not work with no display and no sound?",
+      "answer": "Do Test A.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00-q07"
+    },
+    {
+      "question": "What should you do if a speaker is inoperative when troubleshooting a Radio without Sound System?",
+      "answer": "If a speaker is inoperative, switch with a good speaker. If still inoperative, check related wiring. Remove Radio for service if wiring is OK.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00-q08"
+    },
+    {
+      "question": "What enables the Amplifier when the Radio is on?",
+      "answer": "When the Radio is on, voltage is applied to terminal 13 to enable the Amplifier.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00-q09"
+    },
+    {
+      "question": "According to the System Check Table, what is the normal result when the Ignition Switch is in RUN and Radio is ON?",
+      "answer": "Digital display lights and sound is emitted from all Speakers.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6500A-00-q10"
+    }
+  ]
+}

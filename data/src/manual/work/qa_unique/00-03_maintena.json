@@ -1,0 +1,73 @@
+{
+  "page_id": "00-03_maintena",
+  "image_path": "raw/00 - Maintenance/00-03.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:10:30.561884",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 795
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the service operation number for Pre-Delivery Inspection?",
+      "answer": "00 00 009 Pre-Delivery Inspection",
+      "question_type": "factual",
+      "id": "00-03_maintena-q01"
+    },
+    {
+      "question": "What should be checked regarding the windshield washing system during pre-delivery inspection?",
+      "answer": "Fill supply tank for windshield washing system, check antifreeze protection, and check intensive washer fluid level.",
+      "question_type": "procedural",
+      "id": "00-03_maintena-q02"
+    },
+    {
+      "question": "What specific radio functions should be checked during pre-delivery inspection?",
+      "answer": "Check antenna, trimming, tune in station, check shielding with engine running while switching all electric equipment on and off, and check cassette tape player.",
+      "question_type": "inspection",
+      "id": "00-03_maintena-q04"
+    },
+    {
+      "question": "What important instruction is noted for the windshield washer fluid?",
+      "answer": "Fill with antifreeze additive if necessary",
+      "question_type": "safety",
+      "id": "00-03_maintena-q06"
+    },
+    {
+      "question": "What indicator and warning lamps should be checked during pre-delivery inspection?",
+      "answer": "Check indicator and warning lamps, clock, buzzer and check control: alternator, oil pressure, coolant temperature, turn signal indicator, fog light indicator, oxygen sensor, seat belt lamps, ignition key warning buzzer, high beam indicator, fuel gauge, ABS and SRS light.",
+      "question_type": "inspection",
+      "id": "00-03_maintena-q07"
+    },
+    {
+      "question": "What windshield wiper system components need to be inspected?",
+      "answer": "Check function of windshield wipe/wash system and aiming of spray jets, and remove protective sleeves on wiper blades.",
+      "question_type": "procedural",
+      "id": "00-03_maintena-q08"
+    },
+    {
+      "question": "Which special equipment items should be checked during pre-delivery inspection?",
+      "answer": "Check function of other special equipment, e.g.: electric windows front and rear, sun roof in all positions, fog lights and aiming, electric radio antenna and speaker balance control. Check other equipment installed by dealer.",
+      "question_type": "inspection",
+      "id": "00-03_maintena-q09"
+    },
+    {
+      "question": "What seat-related items need to be checked during pre-delivery inspection?",
+      "answer": "Check seat adjustment manual/electric and check seat belts.",
+      "question_type": "inspection",
+      "id": "00-03_maintena-q11"
+    },
+    {
+      "question": "What lighting systems require functional checks during pre-delivery inspection?",
+      "answer": "Check instrument and sign lights, brightness control, cigar lighter, headlight cleaners, and rear window defogger.",
+      "question_type": "inspection",
+      "id": "00-03_maintena-q12"
+    }
+  ]
+}

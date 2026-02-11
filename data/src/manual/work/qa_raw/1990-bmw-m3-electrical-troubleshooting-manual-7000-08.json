@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-08",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-08.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:14:05.570085",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 596
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the A/C IN-LINE FUSE located according to the component location views?",
+      "answer": "The A/C IN-LINE FUSE is located on the LH Side of Evaporator Housing, as shown in Figure 1.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-08-q01"
+    },
+    {
+      "question": "What component is labeled C243 in the component location diagrams?",
+      "answer": "C243 is located behind the center of dash and appears to be part of the ON-BOARD COMPUTER MODULE area, as shown in Figure 5.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-08-q02"
+    },
+    {
+      "question": "Where can I find the FRESH/RECIRCULATING AIR RELAYS?",
+      "answer": "The FRESH/RECIRCULATING AIR RELAYS are located behind the center of dash, as shown in Figure 3.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-08-q03"
+    },
+    {
+      "question": "What is the component labeled C204 and where is it located?",
+      "answer": "C204 is located on the LH Side of Evaporator Housing near the FRESH/RECIRCULATING AIR FLAP DOOR MOTOR, as shown in Figure 2.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-08-q04"
+    },
+    {
+      "question": "Where is the HAZARD SWITCH located according to these component views?",
+      "answer": "The HAZARD SWITCH is located behind the center of dash, as shown in Figure 4.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-08-q05"
+    },
+    {
+      "question": "What component is shown in Figure 6 at the center of windshield header?",
+      "answer": "The ACTIVE CHECK CONTROL UNIT is shown in Figure 6 at the center of windshield header.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-08-q06"
+    },
+    {
+      "question": "Which connectors are labeled in Figure 4 behind the center of dash?",
+      "answer": "The connectors labeled in Figure 4 are C213, C214, C216, and C242.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-08-q07"
+    },
+    {
+      "question": "Where is the HOT WATER CUT-OUT SWITCH located?",
+      "answer": "The HOT WATER CUT-OUT SWITCH is located behind the center of dash, as shown in Figure 3.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-08-q08"
+    }
+  ]
+}

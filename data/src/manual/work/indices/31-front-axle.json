@@ -1,0 +1,340 @@
+{
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "index_pages": [
+    "31-00-index-a.jpg",
+    "31-00-index-b.jpg",
+    "31-00-index-c.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "020",
+      "name": "Constant velocity joint (outer) of output shaft - replace",
+      "pages": [
+        "31-47"
+      ]
+    },
+    {
+      "code": "021",
+      "name": "Constant velocity joint (inner) of output shaft - replace",
+      "pages": [
+        "31-47"
+      ]
+    },
+    {
+      "code": "030",
+      "name": "Dust cover for left or right output shaft - replace",
+      "pages": [
+        "31-48"
+      ]
+    },
+    {
+      "code": "048",
+      "name": "Bracket for left or right control arm - remove and install or replace",
+      "pages": [
+        "31-7"
+      ]
+    },
+    {
+      "code": "130",
+      "name": "Rubber mount for left or right control arm - replace",
+      "pages": [
+        "31-8"
+      ]
+    },
+    {
+      "code": "151",
+      "name": "Bearings of wheel hub (drive flange), left or right - replace",
+      "pages": [
+        "31-9.1"
+      ]
+    },
+    {
+      "code": "180",
+      "name": "Bearings (wheel hub) for front wheel - replace",
+      "pages": [
+        "31-10"
+      ]
+    },
+    {
+      "code": "31 10 000",
+      "name": "Front wheel suspension - layout drawing",
+      "pages": [
+        "31-1"
+      ]
+    },
+    {
+      "code": "31 11 001",
+      "name": "Front axle assembly - remove and install",
+      "pages": [
+        "31-2",
+        "31-4",
+        "31-5.1"
+      ]
+    },
+    {
+      "code": "31 12 000",
+      "name": "Control arm, left or right - remove and install",
+      "pages": [
+        "31-6",
+        "31-6.1"
+      ]
+    },
+    {
+      "code": "31 21 121",
+      "name": "Drive flange for front axle - replace (all wheel drive)",
+      "pages": [
+        "31-9"
+      ]
+    },
+    {
+      "code": "31 31 000",
+      "name": "Spring strut, front, left or right - remove and install",
+      "pages": [
+        "31-11",
+        "31-11.1",
+        "31-12"
+      ]
+    },
+    {
+      "code": "31 32 001",
+      "name": "Shock absorber for front spring strut - replace",
+      "pages": [
+        "31-13"
+      ]
+    },
+    {
+      "code": "31 33 001",
+      "name": "Spring strut mount - replace",
+      "pages": [
+        "31-15"
+      ]
+    },
+    {
+      "code": "31 33 100",
+      "name": "Coil spring for front spring strut - remove and install or replace",
+      "pages": [
+        "31-16",
+        "31-16.1"
+      ]
+    },
+    {
+      "code": "31 35 000",
+      "name": "Stabilizer, front - remove and install or replace",
+      "pages": [
+        "31-17",
+        "31-18",
+        "31-20",
+        "31-21"
+      ]
+    },
+    {
+      "code": "31 50 000",
+      "name": "Front axle final drive - remove and install or replace",
+      "pages": [
+        "31-22"
+      ]
+    },
+    {
+      "code": "31 51 010",
+      "name": "Shaft seal for input flange of front axle final drive - replace",
+      "pages": [
+        "31-23"
+      ]
+    },
+    {
+      "code": "31 51 015",
+      "name": "Shaft seal for output shaft, left - replace",
+      "pages": [
+        "31-25"
+      ]
+    },
+    {
+      "code": "31 51 020",
+      "name": "Shaft seal for output shaft, right - replace",
+      "pages": [
+        "31-25"
+      ]
+    },
+    {
+      "code": "31 52 505",
+      "name": "Drive pinion/ring gear - remove and install (front axle final drive removed)",
+      "pages": [
+        "31-26",
+        "31-27"
+      ]
+    },
+    {
+      "code": "31 52 510",
+      "name": "Bearing for drive pinion - replace (front axle final drive removed)",
+      "pages": [
+        "31-27"
+      ]
+    },
+    {
+      "code": "31 52 520",
+      "name": "Drive pinion and ring gear - replace (front axle final drive removed)",
+      "pages": [
+        "31-30"
+      ]
+    },
+    {
+      "code": "31 53 050",
+      "name": "Bearing (in console) for right output shaft - replace",
+      "pages": [
+        "31-32"
+      ]
+    },
+    {
+      "code": "31 60 000",
+      "name": "Output shaft, left or right - remove and install or replace",
+      "pages": [
+        "31-45"
+      ]
+    },
+    {
+      "code": "500",
+      "name": "Differential - remove and install (front axle final drive removed)",
+      "pages": [
+        "31-33"
+      ]
+    },
+    {
+      "code": "510",
+      "name": "Differential gears - replace (front axle final drive removed)",
+      "pages": [
+        "31-34"
+      ]
+    },
+    {
+      "code": "520",
+      "name": "Differential mounts - replace (front axle final drive removed)",
+      "pages": [
+        "31-37"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "31-47": [
+      "020",
+      "021"
+    ],
+    "31-48": [
+      "030"
+    ],
+    "31-7": [
+      "048"
+    ],
+    "31-8": [
+      "130"
+    ],
+    "31-9.1": [
+      "151"
+    ],
+    "31-10": [
+      "180"
+    ],
+    "31-1": [
+      "31 10 000"
+    ],
+    "31-2": [
+      "31 11 001"
+    ],
+    "31-4": [
+      "31 11 001"
+    ],
+    "31-5.1": [
+      "31 11 001"
+    ],
+    "31-6": [
+      "31 12 000"
+    ],
+    "31-6.1": [
+      "31 12 000"
+    ],
+    "31-9": [
+      "31 21 121"
+    ],
+    "31-11": [
+      "31 31 000"
+    ],
+    "31-11.1": [
+      "31 31 000"
+    ],
+    "31-12": [
+      "31 31 000"
+    ],
+    "31-13": [
+      "31 32 001"
+    ],
+    "31-15": [
+      "31 33 001"
+    ],
+    "31-16": [
+      "31 33 100"
+    ],
+    "31-16.1": [
+      "31 33 100"
+    ],
+    "31-17": [
+      "31 35 000"
+    ],
+    "31-18": [
+      "31 35 000"
+    ],
+    "31-20": [
+      "31 35 000"
+    ],
+    "31-21": [
+      "31 35 000"
+    ],
+    "31-22": [
+      "31 50 000"
+    ],
+    "31-23": [
+      "31 51 010"
+    ],
+    "31-25": [
+      "31 51 015",
+      "31 51 020"
+    ],
+    "31-26": [
+      "31 52 505"
+    ],
+    "31-27": [
+      "31 52 505",
+      "31 52 510"
+    ],
+    "31-30": [
+      "31 52 520"
+    ],
+    "31-32": [
+      "31 53 050"
+    ],
+    "31-45": [
+      "31 60 000"
+    ],
+    "31-33": [
+      "500"
+    ],
+    "31-34": [
+      "510"
+    ],
+    "31-37": [
+      "520"
+    ]
+  },
+  "merge_warnings": [
+    "Code 31 11 001: name mismatch 'Front axle assembly - remove and install' vs 'Front axle carrier - replace'",
+    "Code 31 11 001: name mismatch 'Front axle assembly - remove and install' vs 'Front axle carrier - replace (all wheel drive)'",
+    "Code 31 12 000: name mismatch 'Control arm, left or right - remove and install' vs 'Control arm, left or right - remove and install (all wheel drive)'",
+    "Code 130: name mismatch 'Rubber mount for left or right control arm - replace' vs 'Rubber mounts for control arms - check'",
+    "Code 31 31 000: name mismatch 'Spring strut, front, left or right - remove and install' vs 'Spring strut, front, left or right - remove and install (all wheel drive)'",
+    "Code 31 31 000: name mismatch 'Spring strut, front, left or right - remove and install' vs 'Shock absorber with mount and coil spring - layout drawing'",
+    "Code 31 33 100: name mismatch 'Coil spring for front spring strut - remove and install or replace' vs 'Ride level height - measure and correct'",
+    "Code 31 35 000: name mismatch 'Stabilizer, front - remove and install or replace' vs 'Front axle - troubleshoot'",
+    "Code 31 35 000: name mismatch 'Stabilizer, front - remove and install or replace' vs 'Shock absorbers - troubleshoot'",
+    "Code 31 35 000: name mismatch 'Stabilizer, front - remove and install or replace' vs 'Front axle final drive - general information'",
+    "Code 31 52 505: name mismatch 'Drive pinion/ring gear - remove and install (front axle final drive removed)' vs 'Drive pinion/ring gear - layout drawing'"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-11",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-11.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:14:38.375164",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 499
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is component C304 located according to the manual?",
+      "answer": "Component C304 is located at the base of the left 'B' pillar.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-11-q01"
+    },
+    {
+      "question": "What fuel system components are shown below the right side of the rear seat?",
+      "answer": "The fuel tank sender (C360) and auxiliary fuel pump (G7839A) are shown below the right side of the rear seat.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-11-q02"
+    },
+    {
+      "question": "What components are identified below the left side of the rear seat?",
+      "answer": "Components G300 and C352 are identified below the left side of the rear seat.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-11-q04"
+    },
+    {
+      "question": "Where is component C303 positioned in the vehicle?",
+      "answer": "Component C303 is positioned at the base of the right 'B' pillar.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-11-q05"
+    },
+    {
+      "question": "What component is located at the right rear of the rear differential?",
+      "answer": "The speedometer sender is located at the right rear of the rear differential.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-11-q06"
+    }
+  ]
+}

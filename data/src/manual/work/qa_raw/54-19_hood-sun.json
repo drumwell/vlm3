@@ -1,0 +1,97 @@
+{
+  "page_id": "54-19_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-19.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:43:54.895383",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 794
+  },
+  "qa_pairs": [
+    {
+      "question": "What special lubricant should be used when mounting the rail and pulling in the rubber seal?",
+      "answer": "A special lubricant should be used, as indicated by the asterisk reference in the instructions.",
+      "question_type": "tool",
+      "id": "54-19_hood-sun-q01"
+    },
+    {
+      "question": "How should the window guide be secured into the rail?",
+      "answer": "Slide the window guide into the rail using a special lubricant, then secure it with a rivet and cement the side on the frame.",
+      "question_type": "procedural",
+      "id": "54-19_hood-sun-q02"
+    },
+    {
+      "question": "What are the two main steps shown for mounting the rail?",
+      "answer": "First, slide the window guide into the rail using special lubricant and secure with rivet and cement. Second, mount the rail and pull in the rubber seal using special lubricant.",
+      "question_type": "procedural",
+      "id": "54-19_hood-sun-q03"
+    },
+    {
+      "question": "What should be done after cementing the banner?",
+      "answer": "Mount the rail and pull in the rubber seal using special lubricant.",
+      "question_type": "procedural",
+      "id": "54-19_hood-sun-q04"
+    },
+    {
+      "question": "What component is being cemented in the second image?",
+      "answer": "The banner is being cemented, and then the rail is mounted and the rubber seal is pulled in.",
+      "question_type": "visual",
+      "id": "54-19_hood-sun-q05"
+    },
+    {
+      "question": "What is the final step shown in the procedure?",
+      "answer": "Close the top by cementing the top on hoopsticks, beginning with the short banner.",
+      "question_type": "procedural",
+      "id": "54-19_hood-sun-q06"
+    },
+    {
+      "question": "What method is used to secure the window guide to the frame?",
+      "answer": "The window guide is secured with a rivet and cement on the side of the frame.",
+      "question_type": "factual",
+      "id": "54-19_hood-sun-q07"
+    },
+    {
+      "question": "Where should you begin when cementing the top on hoopsticks?",
+      "answer": "Begin with the short banner when cementing the top on hoopsticks.",
+      "question_type": "procedural",
+      "id": "54-19_hood-sun-q08"
+    },
+    {
+      "question": "What image numbers are shown on this page?",
+      "answer": "The image numbers shown are 30 54 038, 30 54 039, 30 54 040, and 30 54 041.",
+      "question_type": "factual",
+      "id": "54-19_hood-sun-q09",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What is the source reference indicated at the bottom of the page?",
+      "answer": "The source reference is HWB, as indicated by the asterisk at the bottom of the page.",
+      "question_type": "factual",
+      "id": "54-19_hood-sun-q10"
+    },
+    {
+      "question": "What type of seal is used with the rail mounting procedure?",
+      "answer": "A rubber seal is used and should be pulled in during the rail mounting procedure using special lubricant.",
+      "question_type": "component",
+      "id": "54-19_hood-sun-q11"
+    },
+    {
+      "question": "How many distinct procedural steps are illustrated on this page?",
+      "answer": "Four distinct procedural steps are illustrated, showing the mounting rail process, cementing the banner, mounting rail with rubber seal, and closing the top.",
+      "question_type": "visual",
+      "id": "54-19_hood-sun-q12",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

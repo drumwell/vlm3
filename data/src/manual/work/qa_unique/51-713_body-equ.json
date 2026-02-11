@@ -1,0 +1,85 @@
+{
+  "page_id": "51-713_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-713.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:31:09.000872",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 683
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when working on the side panel?",
+      "answer": "Clip in and align side panel.",
+      "question_type": "procedural",
+      "id": "51-713_body-equ-q01"
+    },
+    {
+      "question": "What should you do after clipping in and aligning the side panel?",
+      "answer": "Mark centers of holes.",
+      "question_type": "procedural",
+      "id": "51-713_body-equ-q02"
+    },
+    {
+      "question": "What diameter holes should be drilled in the side panel?",
+      "answer": "6.2 mm (0.244\") diameter holes should be drilled.",
+      "question_type": "factual",
+      "id": "51-713_body-equ-q03"
+    },
+    {
+      "question": "How should you mark the hole centers before drilling?",
+      "answer": "Punch mark centers, then drill the specified diameter holes.",
+      "question_type": "procedural",
+      "id": "51-713_body-equ-q04"
+    },
+    {
+      "question": "What must be done to the hole edges after drilling?",
+      "answer": "Deburr and coat edges of holes with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "51-713_body-equ-q05"
+    },
+    {
+      "question": "What type of paint should be used on the drilled hole edges?",
+      "answer": "Zinc dust paint should be used to coat the edges of the holes.",
+      "question_type": "factual",
+      "id": "51-713_body-equ-q06"
+    },
+    {
+      "question": "What components are visible in the diagram?",
+      "answer": "The diagram shows a side panel with multiple holes marked by arrows, indicating drilling locations.",
+      "question_type": "visual",
+      "id": "51-713_body-equ-q07"
+    },
+    {
+      "question": "What is the metric equivalent of the 0.244\" hole diameter?",
+      "answer": "The metric equivalent is 6.2 mm.",
+      "question_type": "factual",
+      "id": "51-713_body-equ-q08"
+    },
+    {
+      "question": "Why is it important to coat the hole edges with zinc dust paint?",
+      "answer": "The zinc dust paint coating protects the drilled hole edges from corrosion.",
+      "question_type": "factual",
+      "id": "51-713_body-equ-q09"
+    },
+    {
+      "question": "What arrows are pointing to in the side panel diagram?",
+      "answer": "The arrows are pointing to the locations where holes should be drilled in the side panel.",
+      "question_type": "visual",
+      "id": "51-713_body-equ-q10"
+    },
+    {
+      "question": "What sequence should be followed when preparing the holes?",
+      "answer": "First punch mark centers, then drill 6.2 mm holes, then deburr and coat edges with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "51-713_body-equ-q11"
+    }
+  ]
+}

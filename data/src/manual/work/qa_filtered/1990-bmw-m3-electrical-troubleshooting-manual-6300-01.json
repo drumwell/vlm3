@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6300-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:04:56.669481",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 690
+  },
+  "qa_pairs": [
+    {
+      "question": "What fuse protects the dash lights circuit?",
+      "answer": "Fuse 24, which is a 7.5 amp fuse located in the power distribution box.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01-q01"
+    },
+    {
+      "question": "What wire color connects from the light switch to the instrument cluster?",
+      "answer": "5 GY/RD (5 gray/red wire) connects from the light switch to the instrument cluster.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01-q02"
+    },
+    {
+      "question": "Which connector designation is shown for the rear defogger circuit?",
+      "answer": "Connector S221 is shown in the rear defogger circuit path.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01-q03"
+    },
+    {
+      "question": "What components are controlled by the dash light circuit according to this diagram?",
+      "answer": "The dash light circuit controls the instrument cluster, dash light, rear ashtray light, air conditioning light switch details, front ashtray light, and A/C control power lights.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01-q04"
+    },
+    {
+      "question": "What wire color provides power to the hazard switch?",
+      "answer": "A 5 GY/RD (5 gray/red) wire provides power to the hazard switch.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01-q05"
+    },
+    {
+      "question": "Where does the ground distribution connect according to the diagram?",
+      "answer": "The ground distribution connects at connector G200, and some vehicles may contain an additional splice (see ground distribution).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01-q06"
+    },
+    {
+      "question": "What connector is labeled as 'NOT USED' in the accessory connector area?",
+      "answer": "Connector C302 is labeled as 'NOT USED' in the accessory connector area.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01-q07"
+    },
+    {
+      "question": "What wire colors are shown going to the light switch bright position?",
+      "answer": "The wire colors shown going to the light switch bright position are 75 BR/BK (brown/black) and 5 BR/BK (brown/black).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01-q08"
+    },
+    {
+      "question": "Which connector designation appears in the rear defogger circuit path?",
+      "answer": "Connector C103 appears in the rear defogger circuit path, along with S307.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01-q09"
+    },
+    {
+      "question": "What type of switch positions are shown for the light switch?",
+      "answer": "The light switch shows HEAD, OFF, and PARK positions, with separate sections for each headlight (HEAD) and parking light (PARK) functions.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6300-01-q10"
+    }
+  ]
+}

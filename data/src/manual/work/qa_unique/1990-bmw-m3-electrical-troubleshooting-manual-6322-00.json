@@ -1,0 +1,61 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6322-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6322-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:06:18.696735",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 498
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the fuse rating for the backup light circuit?",
+      "answer": "The backup light circuit uses Fuse 10, which is rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6322-00-q01"
+    },
+    {
+      "question": "What connector designation is shown for the backup light switch?",
+      "answer": "The backup light switch uses connector C901.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6322-00-q02"
+    },
+    {
+      "question": "When does the backup light switch close according to the diagram?",
+      "answer": "The backup light switch closes when the transmission is in reverse.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6322-00-q03"
+    },
+    {
+      "question": "What wire colors are used for the main power feed to the backup lights?",
+      "answer": "The main power feed uses .75 GN/YT (0.75mm\u00b2 Green/Yellow) wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6322-00-q04"
+    },
+    {
+      "question": "What is the wire size and color for the connections to each backup light assembly?",
+      "answer": "Each backup light assembly uses 1.5 BR (1.5mm\u00b2 Brown) wire for the power connection.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6322-00-q05"
+    },
+    {
+      "question": "Where does the ground distribution for the backup lights connect?",
+      "answer": "The ground distribution connects to ground point G300 using 1.5 BR wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6322-00-q06"
+    },
+    {
+      "question": "What section reference number is shown for this backup lights diagram?",
+      "answer": "This backup lights diagram is section 6322-0.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6322-00-q07"
+    }
+  ]
+}

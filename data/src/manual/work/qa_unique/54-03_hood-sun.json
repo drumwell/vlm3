@@ -1,0 +1,91 @@
+{
+  "page_id": "54-03_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-03.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:39:24.712108",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 767
+  },
+  "qa_pairs": [
+    {
+      "question": "How far should the sun roof lid be closed during installation?",
+      "answer": "Close sun roof lid but for about 5 cm (2\").",
+      "question_type": "procedural",
+      "id": "54-03_hood-sun-q01"
+    },
+    {
+      "question": "What special tools are required to unscrew the bolts on the left and right sides of the sun roof lid?",
+      "answer": "Special Tools 00 2 102/103 are required to unscrew the bolts on left and right sides.",
+      "question_type": "tool",
+      "id": "54-03_hood-sun-q02"
+    },
+    {
+      "question": "What procedure is referenced for removing and installing the sun roof lid?",
+      "answer": "Remove and install sun roof lid 54 12 100.",
+      "question_type": "navigation",
+      "id": "54-03_hood-sun-q03"
+    },
+    {
+      "question": "What should you adjust during sun roof installation?",
+      "answer": "Adjust sun roof 54 12 004 and replace self-locking bolts.",
+      "question_type": "procedural",
+      "id": "54-03_hood-sun-q04"
+    },
+    {
+      "question": "What are the two types of velvet strips used for sealing the sun roof lid?",
+      "answer": "V = Short front velvet strip (sealing lip faces forward) and H = Long rear velvet strip.",
+      "question_type": "factual",
+      "id": "54-03_hood-sun-q05"
+    },
+    {
+      "question": "What should be done to avoid rattling noise when connecting rods are present?",
+      "answer": "Use a piece of tape on both sides in area of rivets (to avoid rattling noise).",
+      "question_type": "procedural",
+      "id": "54-03_hood-sun-q06"
+    },
+    {
+      "question": "What components need to be unscrewed to remove the roof liner frame?",
+      "answer": "Unscrew screws on left and right sides, remove cover rails (1) and guide pins (2).",
+      "question_type": "procedural",
+      "id": "54-03_hood-sun-q07"
+    },
+    {
+      "question": "How should the cables be handled during roof liner frame removal?",
+      "answer": "Pull cables out of guides, pull roof liner frame forward and remove. If applicable, unrivet and rivet connecting rods (3).",
+      "question_type": "procedural",
+      "id": "54-03_hood-sun-q08"
+    },
+    {
+      "question": "What marking system is used to identify left and right guide pins?",
+      "answer": "Guide pins (2) are marked with L for left or R for right.",
+      "question_type": "factual",
+      "id": "54-03_hood-sun-q09"
+    },
+    {
+      "question": "What should be done with the roof liner frame after removing the cover rails?",
+      "answer": "Pull roof liner frame forward uniformly and open sun roof lid slightly while holding roof liner frame by hand.",
+      "question_type": "procedural",
+      "id": "54-03_hood-sun-q10"
+    },
+    {
+      "question": "What type of bolts should be used during sun roof installation?",
+      "answer": "Replace self-locking bolts during installation.",
+      "question_type": "procedural",
+      "id": "54-03_hood-sun-q11"
+    },
+    {
+      "question": "How should the holding clamps be positioned during installation?",
+      "answer": "Press in holding clamps for front roof liner frame.",
+      "question_type": "procedural",
+      "id": "54-03_hood-sun-q12"
+    }
+  ]
+}

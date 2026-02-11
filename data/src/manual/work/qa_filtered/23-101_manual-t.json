@@ -1,0 +1,67 @@
+{
+  "page_id": "23-101_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-101.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:25:13.655999",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 529
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of transmission is shown in this assembly drawing?",
+      "answer": "This is a ZF - S5 - 16 five speed overdrive manual transmission.",
+      "question_type": "factual",
+      "id": "23-101_manual-t-q01"
+    },
+    {
+      "question": "Which component is labeled as number 1 in the assembly drawing?",
+      "answer": "Component number 1 is the first gear.",
+      "question_type": "component",
+      "id": "23-101_manual-t-q02"
+    },
+    {
+      "question": "What does callout number 6 identify in this transmission cross-section?",
+      "answer": "Callout number 6 identifies the input shaft.",
+      "question_type": "component",
+      "id": "23-101_manual-t-q03"
+    },
+    {
+      "question": "Where is the reverse gear located in relation to the other forward gears?",
+      "answer": "The reverse gear (marked as R) is positioned between the first gear and fifth gear on the upper gear cluster.",
+      "question_type": "visual",
+      "id": "23-101_manual-t-q04"
+    },
+    {
+      "question": "What component is shown at the bottom of the transmission case as number 8?",
+      "answer": "Component number 8 is the layshaft, located at the bottom of the transmission case.",
+      "question_type": "component",
+      "id": "23-101_manual-t-q05"
+    },
+    {
+      "question": "How many forward gear positions are labeled in this transmission diagram?",
+      "answer": "There are five forward gear positions labeled: first gear (1), second gear (2), third gear (3), fourth gear (4), and fifth gear (5).",
+      "question_type": "factual",
+      "id": "23-101_manual-t-q06"
+    },
+    {
+      "question": "What is the relationship between the input shaft and output shaft in this assembly?",
+      "answer": "The input shaft (6) is positioned at the top/front of the transmission, while the output shaft (7) extends from the rear of the transmission case, with the gear clusters arranged between them.",
+      "question_type": "visual",
+      "id": "23-101_manual-t-q07"
+    },
+    {
+      "question": "Which page number is this diagram found on in the service manual?",
+      "answer": "This diagram is found on page 23-101 of the service manual.",
+      "question_type": "navigation",
+      "id": "23-101_manual-t-q08"
+    }
+  ]
+}

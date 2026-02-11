@@ -1,0 +1,91 @@
+{
+  "page_id": "51-250_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-250.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:16:54.086972",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 754
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing or replacing locking element?",
+      "answer": "The procedure number is 51 25.",
+      "question_type": "factual",
+      "id": "51-250_body-equ-q01"
+    },
+    {
+      "question": "What is the first step when beginning the locking element procedure?",
+      "answer": "Lift out trim panel.",
+      "question_type": "procedural",
+      "id": "51-250_body-equ-q02"
+    },
+    {
+      "question": "What safety precaution should be followed when disconnecting cables from the circlip?",
+      "answer": "Only open one lid after disconnecting a cable (danger of damage).",
+      "question_type": "safety",
+      "id": "51-250_body-equ-q03"
+    },
+    {
+      "question": "What steps are required after lifting out the circlip?",
+      "answer": "Disconnect cable. Note: Only open one lid after disconnecting a cable (danger of damage).",
+      "question_type": "procedural",
+      "id": "51-250_body-equ-q04"
+    },
+    {
+      "question": "What sequence should be followed when working with the trunk and top lids?",
+      "answer": "Shut trunk lid, open the top lid, lift out circlip, disconnect cable.",
+      "question_type": "procedural",
+      "id": "51-250_body-equ-q05"
+    },
+    {
+      "question": "How should the lock be adjusted after installation?",
+      "answer": "Tighten lock only finger tight, connect cables, shut the trunk lid, open the top lid, adjust lock in slots in forward direction until the cables are tight, screw on lock tight.",
+      "question_type": "procedural",
+      "id": "51-250_body-equ-q06"
+    },
+    {
+      "question": "What is the function check requirement for the locking system?",
+      "answer": "Trunk lid and top lid must not interfere with each other when opened.",
+      "question_type": "inspection",
+      "id": "51-250_body-equ-q07"
+    },
+    {
+      "question": "How should the locking element be removed after unbolting?",
+      "answer": "Unscrew bolts and lift out locking element.",
+      "question_type": "procedural",
+      "id": "51-250_body-equ-q08"
+    },
+    {
+      "question": "What special handling note is given about the plastic cover?",
+      "answer": "The plastic cover must be turned carefully to replace the cables.",
+      "question_type": "safety",
+      "id": "51-250_body-equ-q09"
+    },
+    {
+      "question": "What additional step may be required when working with the retainer?",
+      "answer": "If applicable, lift out retainer and remove the cable.",
+      "question_type": "procedural",
+      "id": "51-250_body-equ-q10"
+    },
+    {
+      "question": "How is the lock shown in the bottom right image for better understanding?",
+      "answer": "The lock is shown in the picture without a plastic cover for better understanding.",
+      "question_type": "visual",
+      "id": "51-250_body-equ-q11"
+    },
+    {
+      "question": "What image reference numbers are shown for the locking element procedure?",
+      "answer": "The images are referenced as 30 51 710, 30 51 711, 30 51 712, 30 51 714, 30 51 713, 30 51 820, and 30 51 821.",
+      "question_type": "factual",
+      "id": "51-250_body-equ-q12"
+    }
+  ]
+}

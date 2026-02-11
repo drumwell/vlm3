@@ -1,0 +1,55 @@
+{
+  "page_id": "51-00-index-b_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-00-index-b.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:07:45.079866",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1746,
+    "tokens_output": 405
+  },
+  "qa_pairs": [
+    {
+      "question": "What page reference covers the removal and installation of the front door lock?",
+      "answer": "Page 51-211 covers the removal and installation of the front door lock, left or right.",
+      "question_type": "navigation",
+      "id": "51-00-index-b_body-equ-q01"
+    },
+    {
+      "question": "Where can I find procedures for replacing the windshield?",
+      "answer": "Windshield replacement procedures are found on page 51-310.",
+      "question_type": "navigation",
+      "id": "51-00-index-b_body-equ-q02"
+    },
+    {
+      "question": "What section covers the trunk lid lock removal and installation?",
+      "answer": "Section 51 24 100 covers trunk lid lock removal and installation, with details on page 51-240.",
+      "question_type": "navigation",
+      "id": "51-00-index-b_body-equ-q03"
+    },
+    {
+      "question": "Which page provides instructions for window installation specifically for the M3?",
+      "answer": "Page 51-313 provides windshield installation instructions specifically for the M3.",
+      "question_type": "navigation",
+      "id": "51-00-index-b_body-equ-q04"
+    },
+    {
+      "question": "What procedures are covered under section 51 26 000?",
+      "answer": "Section 51 26 000 covers switch procedures, including switches for front door lock (driver), rear door lock (driver), trunk lid lock (driver), and tank flap lock (driver).",
+      "question_type": "factual",
+      "id": "51-00-index-b_body-equ-q05"
+    },
+    {
+      "question": "Where can I find information about gas pressure props removal and installation?",
+      "answer": "Gas pressure props removal and installation procedures are covered in section 51 25 and can be found on page 51-241.",
+      "question_type": "navigation",
+      "id": "51-00-index-b_body-equ-q06"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "13-629_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-629.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:42:34.651480",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 805
+  },
+  "qa_pairs": [
+    {
+      "question": "What does the temperature sensor for coolant measure and how does it send this information?",
+      "answer": "The temperature sensor measures the engine temperature and sends this information to the control unit as a resistance value. The resistance value drops with rising temperature (NTC).",
+      "question_type": "factual",
+      "id": "13-629_fuel-sys-q01"
+    },
+    {
+      "question": "What are the three main components of the coolant temperature sensor shown in the diagram?",
+      "answer": "The three main components are: 1 = Plug connection, 2 = Housing, and 3 = NTC resistor.",
+      "question_type": "visual",
+      "id": "13-629_fuel-sys-q02"
+    },
+    {
+      "question": "How do you remove the coolant temperature sensor?",
+      "answer": "Pull off plug (1), then unscrew temperature sensor.",
+      "question_type": "procedural",
+      "id": "13-629_fuel-sys-q03"
+    },
+    {
+      "question": "What should you do during installation regarding the tightening torque?",
+      "answer": "Tightening torque should be followed according to specifications (marked with asterisk).",
+      "question_type": "procedural",
+      "id": "13-629_fuel-sys-q04"
+    },
+    {
+      "question": "What checks should be performed during installation of a replacement sensor?",
+      "answer": "Check code number (1), replace seal (2), note that FD = Manufacturing date, and fill and bleed cooling system (Group 17).",
+      "question_type": "inspection",
+      "id": "13-629_fuel-sys-q05"
+    },
+    {
+      "question": "What tool is needed to check the temperature sensor and what is its part number?",
+      "answer": "A Jetronic test lead 61 1 440 is needed to check the temperature sensor.",
+      "question_type": "tool",
+      "id": "13-629_fuel-sys-q06"
+    },
+    {
+      "question": "How should you check the nominal value of the temperature sensor?",
+      "answer": "Connect Jetronic test lead 61 1 440 and check nominal value with an ohmmeter.",
+      "question_type": "procedural",
+      "id": "13-629_fuel-sys-q07"
+    },
+    {
+      "question": "What procedure is recommended to check the entire temperature range of the sensor?",
+      "answer": "To check the entire temperature range, remove temperature sensor, place it in a water bath heated to testing temperature and check resistance with an ohmmeter.",
+      "question_type": "inspection",
+      "id": "13-629_fuel-sys-q08"
+    },
+    {
+      "question": "What does 'FD' marking on the temperature sensor indicate?",
+      "answer": "FD indicates the Manufacturing date of the temperature sensor.",
+      "question_type": "factual",
+      "id": "13-629_fuel-sys-q09"
+    },
+    {
+      "question": "What type of resistor technology does the coolant temperature sensor use?",
+      "answer": "The coolant temperature sensor uses NTC (Negative Temperature Coefficient) resistor technology.",
+      "question_type": "factual",
+      "id": "13-629_fuel-sys-q10"
+    },
+    {
+      "question": "What additional system work is required after installing a new temperature sensor?",
+      "answer": "After installation, you must fill and bleed the cooling system according to Group 17 procedures.",
+      "question_type": "procedural",
+      "id": "13-629_fuel-sys-q11"
+    },
+    {
+      "question": "What part number is associated with the temperature sensor removal and installation procedure?",
+      "answer": "The procedure is identified as 13 62 531 for removing and installing/checking temperature sensor for coolant.",
+      "question_type": "factual",
+      "id": "13-629_fuel-sys-q12"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "12-101_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-101.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:23:47.066599",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 490
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the three relays shown in the bottom left image used for?",
+      "answer": "Relay 1 for fuel pump, Relay 2 for DME, and Relay 3 for oxygen sensor heating.",
+      "question_type": "component",
+      "id": "12-101_engine-e-q01"
+    },
+    {
+      "question": "What wire colors are specified for the transmission versions plug?",
+      "answer": "Green/yellow and blue/brown wire colors, and it's noted as not used for automatics (lean mixture) but connected for manuals.",
+      "question_type": "wiring",
+      "id": "12-101_engine-e-q02"
+    },
+    {
+      "question": "What temperature switch is identified as component 4 in the top right image?",
+      "answer": "Temperature time switch.",
+      "question_type": "component",
+      "id": "12-101_engine-e-q03"
+    },
+    {
+      "question": "What are the wire colors for the air conditioner plug?",
+      "answer": "Blue/white wire colors.",
+      "question_type": "wiring",
+      "id": "12-101_engine-e-q04"
+    },
+    {
+      "question": "What does component 1 represent in the engine bay according to the top right image?",
+      "answer": "Temperature switch with 45\u00b0 C (113\u00b0 F) for idle speed control.",
+      "question_type": "component",
+      "id": "12-101_engine-e-q05"
+    },
+    {
+      "question": "What sensors are connected to plugs B and D in the bottom right image?",
+      "answer": "Plug for (gray) reference mark sensor (B) and speed sensor (D).",
+      "question_type": "connector",
+      "id": "12-101_engine-e-q06"
+    },
+    {
+      "question": "According to the middle left image, what is the temperature specification for the idle speed control switch?",
+      "answer": "Switch 0\u00b0 C (32\u00b0 F) for idle speed control.",
+      "question_type": "parameter",
+      "id": "12-101_engine-e-q07"
+    },
+    {
+      "question": "What component is shown in the bottom right corner image?",
+      "answer": "Pressure sensor (see Gr. 13).",
+      "question_type": "component",
+      "id": "12-101_engine-e-q08"
+    }
+  ]
+}

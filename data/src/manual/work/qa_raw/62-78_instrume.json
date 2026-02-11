@@ -1,0 +1,79 @@
+{
+  "page_id": "62-78_instrume",
+  "image_path": "raw/62 - Instruments/62-78.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:47:24.822082",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 781
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first thing to check when the license plate lights are not working?",
+      "answer": "Check if there is power supply from terminal 30 via fuse F 23. If there's no power, supply electric power and replace the fuse.",
+      "question_type": "diagnostic",
+      "id": "62-78_instrume-q01"
+    },
+    {
+      "question": "Which fuse should I check for license plate light power supply issues?",
+      "answer": "Check fuse F 23 for power supply from terminal 30.",
+      "question_type": "factual",
+      "id": "62-78_instrume-q02"
+    },
+    {
+      "question": "How do I test the light switch for the license plate lights?",
+      "answer": "Check the light switch by testing for voltage on the outlet to terminal 58 K. If there's no voltage, replace the light switch.",
+      "question_type": "procedural",
+      "id": "62-78_instrume-q03"
+    },
+    {
+      "question": "What wire should I check from the light switch to the bulb tester?",
+      "answer": "Check the gray/red wire from light switch 58 K to bulb tester terminal KL. If it's not okay, check the wire and supply electric power.",
+      "question_type": "wiring",
+      "id": "62-78_instrume-q04"
+    },
+    {
+      "question": "How do I test the bulb tester output terminals?",
+      "answer": "Check for voltage on bulb tester outlet terminals KAL and KAR. If there's no voltage, replace the bulb tester.",
+      "question_type": "diagnostic",
+      "id": "62-78_instrume-q05"
+    },
+    {
+      "question": "What should I check if the wires from the bulb tester to license plate lights are not okay?",
+      "answer": "If the wires from bulb tester to license plate lights are not okay, supply electric power and check the wires and plugs.",
+      "question_type": "troubleshooting",
+      "id": "62-78_instrume-q06"
+    },
+    {
+      "question": "What do I do if the ground wires to the license plate lights are faulty?",
+      "answer": "If ground wires to license plate lights are not okay, make ground connections and replace the light bulbs.",
+      "question_type": "procedural",
+      "id": "62-78_instrume-q07"
+    },
+    {
+      "question": "How do I check the ground connection on the bulb tester?",
+      "answer": "Check terminal 31 (ground) on the bulb tester. If it's not okay, make the ground connection.",
+      "question_type": "diagnostic",
+      "id": "62-78_instrume-q08"
+    },
+    {
+      "question": "What resistance value should I measure in the bulb tester for proper operation?",
+      "answer": "The resistance should be 4.7 ohms in the bulb tester from terminal 31 to terminal KKL with lights turned on. If not okay, replace the bulb tester.",
+      "question_type": "parameter",
+      "id": "62-78_instrume-q09"
+    },
+    {
+      "question": "What is the final step if the wire from bulb tester terminal KKL to check control terminal KKL is faulty?",
+      "answer": "If the wire from bulb tester terminal KKL to check control terminal KKL is not okay, check or replace the wire, then check plug connections on check control and replace the check control.",
+      "question_type": "troubleshooting",
+      "id": "62-78_instrume-q10"
+    }
+  ]
+}

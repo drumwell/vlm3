@@ -1,0 +1,88 @@
+{
+  "page_id": "00-torque-specs-118",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/118.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:46:23.944012",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 611
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the shift segment to shaft on A4S 310R/A4S 310R type transmissions?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-118-q01"
+    },
+    {
+      "question": "What screw type is used for the A5S 300J transmission and what is its torque specification?",
+      "answer": "M14x1.5 screw with 35 Nm torque specification",
+      "question_type": "factual",
+      "id": "00-torque-specs-118-q02"
+    },
+    {
+      "question": "What is the torque value for the detent spring on shift unit component?",
+      "answer": "25 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-118-q03"
+    },
+    {
+      "question": "Which transmission types use the 5/16\" screw specification?",
+      "answer": "A4S 270R/A4S 310R transmission types",
+      "question_type": "factual",
+      "id": "00-torque-specs-118-q04"
+    },
+    {
+      "question": "What is the difference in torque specifications between the shift segment to shaft and the A5S 300J connection?",
+      "answer": "The shift segment to shaft requires 22 Nm while the A5S 300J requires 35 Nm, a difference of 13 Nm",
+      "question_type": "comparison",
+      "id": "00-torque-specs-118-q05",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What component is referenced as 1AZ in the Interior Shift Elements section?",
+      "answer": "Shift segment to shaft",
+      "question_type": "component",
+      "id": "00-torque-specs-118-q06"
+    },
+    {
+      "question": "What component is referenced as 2AZ in the Interior Shift Elements section?",
+      "answer": "Detent spring on shift unit",
+      "question_type": "component",
+      "id": "00-torque-specs-118-q07"
+    },
+    {
+      "question": "What section number covers the Interior Shift Elements specifications?",
+      "answer": "24 52",
+      "question_type": "navigation",
+      "id": "00-torque-specs-118-q08"
+    },
+    {
+      "question": "Which has the highest torque specification among the interior shift elements shown?",
+      "answer": "The A5S 300J with M14x1.5 screw at 35 Nm",
+      "question_type": "comparison",
+      "id": "00-torque-specs-118-q09",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What is the main section number for Automatic Transmission specifications shown on this page?",
+      "answer": "24 - 16",
+      "question_type": "navigation",
+      "id": "00-torque-specs-118-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

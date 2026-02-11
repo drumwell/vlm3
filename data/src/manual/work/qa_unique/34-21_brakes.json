@@ -1,0 +1,79 @@
+{
+  "page_id": "34-21_brakes",
+  "image_path": "raw/34 - Brakes/34-21.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:18:22.654713",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 660
+  },
+  "qa_pairs": [
+    {
+      "question": "What could cause the brakes to pull to one side?",
+      "answer": "The causes include tire inflation pressure incorrect, uneven tire tread wear, oil on pads/liners, pad/liner type not as specified, caliper recesses dirty, guide bolts dirty or damaged, rear wheel alignment maladjusted, corrosion in calipers or wheel cylinders, shock absorbers without action, pad of one caliper worn, or pad glazed.",
+      "question_type": "diagnostic",
+      "id": "34-21_brakes-q01"
+    },
+    {
+      "question": "How do I correct brakes that are pulling to one side due to dirty calipers?",
+      "answer": "Remove, clean and install calipers.",
+      "question_type": "procedural",
+      "id": "34-21_brakes-q02"
+    },
+    {
+      "question": "What are the symptoms of brakes getting excessively hot while driving?",
+      "answer": "The brakes become excessively hot during normal driving conditions.",
+      "question_type": "factual",
+      "id": "34-21_brakes-q03"
+    },
+    {
+      "question": "What should I check if the compensation bore in master cylinder is clogged?",
+      "answer": "Check or replace master cylinder.",
+      "question_type": "diagnostic",
+      "id": "34-21_brakes-q04"
+    },
+    {
+      "question": "What causes insufficient braking effect despite great force on the pedal with normal brake pedal travel?",
+      "answer": "The cause is brake pads oil splattered or burnt; wrong type of brake pads.",
+      "question_type": "troubleshooting",
+      "id": "34-21_brakes-q05"
+    },
+    {
+      "question": "How do I fix brake booster malfunctions when engine vacuum is insufficient?",
+      "answer": "Check power brake system - check engine (valves, cylinder head, gasket, etc.).",
+      "question_type": "procedural",
+      "id": "34-21_brakes-q06"
+    },
+    {
+      "question": "What could cause the parking brake lever not to release fully?",
+      "answer": "This can be caused by a cross spring broken or the parking brake lever mechanism being faulty.",
+      "question_type": "diagnostic",
+      "id": "34-21_brakes-q07"
+    },
+    {
+      "question": "What's the correction for glazed brake pads?",
+      "answer": "Replace brake pads and check calipers.",
+      "question_type": "procedural",
+      "id": "34-21_brakes-q08"
+    },
+    {
+      "question": "What causes short brake pedal travel with insufficient braking effect?",
+      "answer": "The cause is brake booster malfunctions with engine vacuum insufficient.",
+      "question_type": "troubleshooting",
+      "id": "34-21_brakes-q09"
+    },
+    {
+      "question": "How do I fix a brake system with one brake circuit failed due to leaks or damage?",
+      "answer": "Check brake system for leaks.",
+      "question_type": "procedural",
+      "id": "34-21_brakes-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "62-83_instrume",
+  "image_path": "raw/62 - Instruments/62-83.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:48:54.008836",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 1018
+  },
+  "qa_pairs": [
+    {
+      "question": "What does the green LED (4) indicate in the service indicator system?",
+      "answer": "The green LED (4) indicates the 100 meter pulse required for the service indicator (SI) and economy control (EC). The LED must come on and go out in 100 meter intervals (not for final display value).",
+      "question_type": "factual",
+      "id": "62-83_instrume-q01"
+    },
+    {
+      "question": "What position should the selector switch be set to for tachometer testing?",
+      "answer": "Turn selector switch (3) to 1/min (rpm) position. Turn knob (7) against the left stop; tachometer needle points to 0.",
+      "question_type": "procedural",
+      "id": "62-83_instrume-q02"
+    },
+    {
+      "question": "What are the tachometer settings for different engine types?",
+      "answer": "6 cylinder engines = 6 cyl, 4 cylinder engines = 4 cyl, diesel engines = Diesel. Turn switch (5) to correct position for the engine type being tested.",
+      "question_type": "factual",
+      "id": "62-83_instrume-q03"
+    },
+    {
+      "question": "How should the tachometer needle be adjusted during testing?",
+      "answer": "Turn knob (7) clockwise slowly; tachometer needle moves through the display range. If the green LEDs are still on at the beginning of the test, cancel them when the speed exceeds approx. 500 rpm.",
+      "question_type": "procedural",
+      "id": "62-83_instrume-q04"
+    },
+    {
+      "question": "What is the maximum display range for the tachometer simulator?",
+      "answer": "The simulator is designed for a tachometer with a display range of 8,000 1/min (rpm). In case of tachometers with a display range of 5,000 1/min (rpm), the needle will fall back to an undefined display value after reaching the final display value.",
+      "question_type": "factual",
+      "id": "62-83_instrume-q05"
+    },
+    {
+      "question": "Where can the set frequency be measured for the economy control system?",
+      "answer": "The set frequency can be measured on the yellow jack with a BMW Service Tester (multimeter 14) - see operating instructions of BMW Service Tester.",
+      "question_type": "factual",
+      "id": "62-83_instrume-q06"
+    },
+    {
+      "question": "What selector switch position is used for Economy Control (EC) testing?",
+      "answer": "Turn selector switch (3) to L/100 km or MPG position. Press and hold button pressed on connecting plate (only with 2nd generation SI).",
+      "question_type": "procedural",
+      "id": "62-83_instrume-q07"
+    },
+    {
+      "question": "How should the EC needle be adjusted during testing?",
+      "answer": "Turn knob (7) against left stop; needle of EC points to 0 (for L/100 km) or \u221e (for MPG). Turn knob (7) clockwise slowly; the EC needle moves through the display range to approx. \u221e (for L/100 km) or to approx. 0 (for MPG).",
+      "question_type": "procedural",
+      "id": "62-83_instrume-q08"
+    },
+    {
+      "question": "What are the connection terminals for frequency measurement?",
+      "answer": "Yellow connection terminal FREQ in + in yellow jack; black connection terminal FREQ in - on B - of battery.",
+      "question_type": "factual",
+      "id": "62-83_instrume-q09"
+    },
+    {
+      "question": "Which SI generation does the green LED function NOT apply to?",
+      "answer": "The green LED function is not applicable to 2nd generation SI.",
+      "question_type": "factual",
+      "id": "62-83_instrume-q10"
+    },
+    {
+      "question": "What components are visible in callout number 3 in the diagrams?",
+      "answer": "Callout number 3 indicates the selector switch that is turned to different positions (1/min rpm for tachometer or L/100 km or MPG for economy control).",
+      "question_type": "visual",
+      "id": "62-83_instrume-q11"
+    },
+    {
+      "question": "What happens if the tachometer frequency is increased beyond the display range?",
+      "answer": "If the frequency is increased even more, the needle will move through the display range again from this display value on.",
+      "question_type": "operation",
+      "id": "62-83_instrume-q12"
+    }
+  ]
+}

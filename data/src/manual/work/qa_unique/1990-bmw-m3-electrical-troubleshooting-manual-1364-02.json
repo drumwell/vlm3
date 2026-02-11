@@ -1,0 +1,61 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/1364-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:26:25.261143",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 534
+  },
+  "qa_pairs": [
+    {
+      "question": "How many fuel injectors are shown in the engine block diagram?",
+      "answer": "Four fuel injectors are shown, numbered 1 through 4.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-02-q02"
+    },
+    {
+      "question": "What component controls the fuel injectors according to the diagram?",
+      "answer": "The Fuel Injectors Control unit controls the fuel injectors, as shown by the connections from terminals 14 and 15.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-02-q03"
+    },
+    {
+      "question": "What are the two main control units shown at the bottom of the diagram?",
+      "answer": "The two main control units are the Solid State Evaporative Purge Valve Relay Control and the Motronic Control Unit.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-02-q04"
+    },
+    {
+      "question": "What sensors provide input to the control system?",
+      "answer": "The Cylinder Identification Sensor and Engine Speed Sensor provide input to the control system.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-02-q05"
+    },
+    {
+      "question": "What terminal numbers connect the fuel injectors control to the main control block?",
+      "answer": "Terminal numbers 14 and 15 connect the fuel injectors control to the main control block.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-02-q06"
+    },
+    {
+      "question": "What valves are shown in the evaporative emission system?",
+      "answer": "The Evaporative Purge Valve and an Evaporative Purge Valve Relay are shown in the evaporative emission system.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-02-q07"
+    },
+    {
+      "question": "What condition is indicated at the top of the diagram for system operation?",
+      "answer": "The diagram shows 'HOT IN RUN OR START' conditions at the top, indicating when the system is operational.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-02-q08"
+    }
+  ]
+}

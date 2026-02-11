@@ -1,0 +1,49 @@
+{
+  "page_id": "31-06_1_front-ax",
+  "image_path": "raw/31 - Front Axle/31-06_1.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:00:02.580368",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 605
+  },
+  "qa_pairs": [
+    {
+      "question": "What must be done to the wheel before starting control arm work?",
+      "answer": "Remove from wheel - see Group 36.",
+      "question_type": "procedural",
+      "id": "31-06_1_front-ax-q02"
+    },
+    {
+      "question": "What type of nut should be used when installing the control arm?",
+      "answer": "Replace self-locking nut.",
+      "question_type": "procedural",
+      "id": "31-06_1_front-ax-q05"
+    },
+    {
+      "question": "What special tool is required for pressing off the control arm?",
+      "answer": "Special Tool 31 2 160.",
+      "question_type": "tool",
+      "id": "31-06_1_front-ax-q06"
+    },
+    {
+      "question": "What should be kept out of the bore during installation?",
+      "answer": "Keep grease out of bore and off of pin.",
+      "question_type": "procedural",
+      "id": "31-06_1_front-ax-q07"
+    },
+    {
+      "question": "How should the nut be secured after installation?",
+      "answer": "Lock nut with cotter pin.",
+      "question_type": "procedural",
+      "id": "31-06_1_front-ax-q08"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "51-815_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-815.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:37:18.347214",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 604
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the next step if voltage or ground is present in sockets 2 or 3 of the plug connection between left rear door wire harness and power window motor while operating the push button?",
+      "answer": "Check power window motor, replacing if necessary.",
+      "question_type": "procedural",
+      "id": "51-815_body-equ-q02"
+    },
+    {
+      "question": "When should I test the voltage or ground in the plug connection sockets?",
+      "answer": "While operating the push button.",
+      "question_type": "procedural",
+      "id": "51-815_body-equ-q04"
+    },
+    {
+      "question": "What component connects the left rear door wire harness to the power window motor?",
+      "answer": "The plug connection.",
+      "question_type": "component",
+      "id": "51-815_body-equ-q05"
+    },
+    {
+      "question": "What repair should I perform if the door wire harness has breaks?",
+      "answer": "Repair the door wire harness if necessary.",
+      "question_type": "procedural",
+      "id": "51-815_body-equ-q06"
+    },
+    {
+      "question": "What should I do with the power window motor if the electrical connections test good?",
+      "answer": "Check power window motor, replacing if necessary.",
+      "question_type": "procedural",
+      "id": "51-815_body-equ-q07"
+    },
+    {
+      "question": "What page number is this troubleshooting flowchart from?",
+      "answer": "Page 51-815.",
+      "question_type": "navigation",
+      "id": "51-815_body-equ-q08"
+    },
+    {
+      "question": "How many decision points are shown in this troubleshooting flowchart?",
+      "answer": "Two decision points are shown.",
+      "question_type": "visual",
+      "id": "51-815_body-equ-q09"
+    },
+    {
+      "question": "What type of diagnostic approach does this page use?",
+      "answer": "A flowchart with yes/no decision points leading to specific diagnostic and repair actions.",
+      "question_type": "diagnostic",
+      "id": "51-815_body-equ-q10"
+    }
+  ]
+}

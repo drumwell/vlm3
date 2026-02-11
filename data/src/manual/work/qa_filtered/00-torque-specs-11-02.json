@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-11-02",
+  "image_path": "raw/00 - Torque Specs/11-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:37:14.730450",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 646
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for main bearing cap inclined bolts screws and spacer pin?",
+      "answer": "20 Nm torque and 45\u00b0 torque angle.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-02-q01"
+    },
+    {
+      "question": "What screw size is used for the main bearing cap inclined bolts?",
+      "answer": "M8 screws (M60/1/M60/2/M62/M70/S70/M73).",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-02-q02"
+    },
+    {
+      "question": "What are the two different torque values for the struts/bracing shell?",
+      "answer": "43 Nm for M10 screws and 22 Nm for M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-02-q04"
+    },
+    {
+      "question": "What thread size and torque is specified for the drain plug for coolant on engine block?",
+      "answer": "M14 x 1.5 thread size with 25 Nm torque specification.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-02-q05"
+    },
+    {
+      "question": "What is the torque specification for main oil duct screw plugs?",
+      "answer": "34 Nm for M16 x 1.5 thread size.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-02-q06"
+    },
+    {
+      "question": "What torque should be applied to the oil spray nozzle on engine block?",
+      "answer": "12 Nm for M8x1 thread size.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-02-q07"
+    },
+    {
+      "question": "What engine types are covered under the threaded support sleeves specification?",
+      "answer": "M70/M60/1/M60/2/M62/S70/M73 engine types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-02-q09"
+    },
+    {
+      "question": "Which component has the smallest torque specification listed on this crankcase page?",
+      "answer": "The threaded support sleeves at 10 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-02-q10"
+    }
+  ]
+}

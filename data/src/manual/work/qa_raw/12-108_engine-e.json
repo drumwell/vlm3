@@ -1,0 +1,79 @@
+{
+  "page_id": "12-108_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-108.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:26:28.555591",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 660
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the BMW E30 M3 service manual covers troubleshooting engine electrical and DME issues?",
+      "answer": "Section 12-108 covers troubleshooting engine electric and DME.",
+      "question_type": "navigation",
+      "id": "12-108_engine-e-q01"
+    },
+    {
+      "question": "What diagnostic system is used for troubleshooting engine electrical and DME problems since the introduction of M 1.1?",
+      "answer": "BMW Diagnosis Test is used for troubleshooting engine electrical and DME problems since the introduction of M 1.1.",
+      "question_type": "diagnostic",
+      "id": "12-108_engine-e-q02"
+    },
+    {
+      "question": "Where can the increment wheel for single-sender Motronic be found?",
+      "answer": "The increment wheel (1) for single-sender Motronic is recognizable on the increment wheel and is shown in the diagram.",
+      "question_type": "component",
+      "id": "12-108_engine-e-q03"
+    },
+    {
+      "question": "What component is labeled as item 1 in the diagram?",
+      "answer": "Item 1 in the diagram is the increment wheel for single-sender Motronic.",
+      "question_type": "visual",
+      "id": "12-108_engine-e-q04"
+    },
+    {
+      "question": "What is the reference number shown in the bottom right of the diagram?",
+      "answer": "The reference number shown is 32 12 169.",
+      "question_type": "visual",
+      "id": "12-108_engine-e-q05"
+    },
+    {
+      "question": "What type of Motronic system does this increment wheel apply to?",
+      "answer": "This increment wheel applies to single-sender Motronic systems.",
+      "question_type": "factual",
+      "id": "12-108_engine-e-q06"
+    },
+    {
+      "question": "How is the increment wheel identified in the engine bay?",
+      "answer": "The increment wheel is recognizable on the increment wheel itself for single-sender Motronic systems.",
+      "question_type": "inspection",
+      "id": "12-108_engine-e-q07"
+    },
+    {
+      "question": "What engine management system version introduced the use of BMW Diagnosis Test?",
+      "answer": "BMW Diagnosis Test has been used since the introduction of M 1.1.",
+      "question_type": "factual",
+      "id": "12-108_engine-e-q08"
+    },
+    {
+      "question": "What is the main focus of this troubleshooting section?",
+      "answer": "This section focuses on troubleshooting engine electric and DME (Digital Motor Electronics) systems.",
+      "question_type": "factual",
+      "id": "12-108_engine-e-q09"
+    },
+    {
+      "question": "What visual method is used to show the increment wheel location?",
+      "answer": "A black and white photograph with an arrow pointing to the increment wheel (labeled as 1) is used to show its location.",
+      "question_type": "visual",
+      "id": "12-108_engine-e-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "51-808_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-808.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:35:50.124918",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 746
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check first if the unlocking arrest has no function when operating?",
+      "answer": "Check if the microswitch of the driver's door is operated. If not, repair it and also refer to section 51 21 140.",
+      "question_type": "diagnostic",
+      "id": "51-808_body-equ-q01"
+    },
+    {
+      "question": "What voltage should I measure on control unit pin 10 for the unlocking-locking function?",
+      "answer": "For unlocking-locking function, voltage measured on control unit pin 10 (red/brown) should be greater than 9 V.",
+      "question_type": "parameter",
+      "id": "51-808_body-equ-q02"
+    },
+    {
+      "question": "What voltage indicates proper unlocking arrest operation on control unit pin 10?",
+      "answer": "For unlocking arrest operation, voltage measured on control unit pin 10 (red/brown) should be less than 0 V.",
+      "question_type": "parameter",
+      "id": "51-808_body-equ-q03"
+    },
+    {
+      "question": "What should I do if the voltage readings on pin 10 are incorrect?",
+      "answer": "Replace the control unit, if applicable.",
+      "question_type": "procedural",
+      "id": "51-808_body-equ-q04"
+    },
+    {
+      "question": "How do I test the microswitch after pulling off the plug?",
+      "answer": "Pull off the plug on microswitch and measure switch end. Switch opened between terminals 1 and 2 should show infinity ohms. Switch pressed between terminals 1 and 2 should show 0 ohms.",
+      "question_type": "diagnostic",
+      "id": "51-808_body-equ-q05"
+    },
+    {
+      "question": "What should I do if the microswitch test results are incorrect?",
+      "answer": "Replace the microswitch.",
+      "question_type": "procedural",
+      "id": "51-808_body-equ-q06"
+    },
+    {
+      "question": "Which wires should I check for power flow between the microswitch and control unit?",
+      "answer": "Check power flow in wires between socket 2 on microswitch plug wire end and socket 10 on control unit (red/brown wire).",
+      "question_type": "diagnostic",
+      "id": "51-808_body-equ-q07"
+    },
+    {
+      "question": "What should I check if there's no power flow in the microswitch to control unit wires?",
+      "answer": "Repair wires, if necessary. Also refer to driver's door/body plug socket 17 for corrosion or no connection.",
+      "question_type": "procedural",
+      "id": "51-808_body-equ-q08"
+    },
+    {
+      "question": "What should I test on the white wire from the microswitch plug?",
+      "answer": "Check power flow in plug on microswitch wire end socket 1 (white). Test for continuity - it should show 0 ohms.",
+      "question_type": "diagnostic",
+      "id": "51-808_body-equ-q09"
+    },
+    {
+      "question": "What's the remedy if there's a break in the ground supply wires?",
+      "answer": "Break in ground supply wires - repair. Also refer to driver's door/body plug socket no. 10 for corrosion or no connection.",
+      "question_type": "procedural",
+      "id": "51-808_body-equ-q10"
+    }
+  ]
+}

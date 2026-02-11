@@ -1,0 +1,91 @@
+{
+  "page_id": "51-769_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-769.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:33:11.973834",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 834
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main procedure being covered in section 51 71?",
+      "answer": "Installing M-Technic footrest.",
+      "question_type": "factual",
+      "id": "51-769_body-equ-q01"
+    },
+    {
+      "question": "Where should the upper part of the M-Technic footrest be pushed?",
+      "answer": "Push upper part of M-Technic footrest underneath the bottom dashboard trim panel.",
+      "question_type": "procedural",
+      "id": "51-769_body-equ-q02"
+    },
+    {
+      "question": "What tools are needed to punch through the carpet at the turnlock mounting point?",
+      "answer": "A mandrel and screw in the turnlock.",
+      "question_type": "tool",
+      "id": "51-769_body-equ-q03"
+    },
+    {
+      "question": "How is the footrest mounted on the side?",
+      "answer": "Mount footrest with bolt (1) on the side and turnlock (2).",
+      "question_type": "procedural",
+      "id": "51-769_body-equ-q04"
+    },
+    {
+      "question": "What important caution is given regarding the mounting tab of the footrest?",
+      "answer": "It might be necessary to bend the tab slightly!",
+      "question_type": "safety",
+      "id": "51-769_body-equ-q05"
+    },
+    {
+      "question": "What procedure is described for cars before 09/85 with carpeting and without front speakers?",
+      "answer": "Pull away carpet on side and mount self-tapping nut.",
+      "question_type": "procedural",
+      "id": "51-769_body-equ-q06"
+    },
+    {
+      "question": "What steps are required for cars before 09/85 with carpeting and with front speakers?",
+      "answer": "Unscrew cover (1) and take out speaker, pull away carpet on side, push mounting tab of footrest underneath the carpet and mount with bolt (2).",
+      "question_type": "procedural",
+      "id": "51-769_body-equ-q07"
+    },
+    {
+      "question": "How do you remove the dashboard trim panel on cars since 09/85 with plastic side panel?",
+      "answer": "Remove dashboard trim panel at bottom by unscrewing screws.",
+      "question_type": "procedural",
+      "id": "51-769_body-equ-q08"
+    },
+    {
+      "question": "What components need to be removed when removing the side trim panel?",
+      "answer": "Unscrew hexagon head screws (1) and self-tapping screw (2), pull off seal (3), then take off engine hood release grip and side trim panel.",
+      "question_type": "procedural",
+      "id": "51-769_body-equ-q09"
+    },
+    {
+      "question": "What do the numbered callouts (1) and (2) indicate in the M-Technic footrest installation diagram?",
+      "answer": "Callout (1) indicates the bolt for mounting the footrest on the side, and callout (2) indicates the turnlock.",
+      "question_type": "visual",
+      "id": "51-769_body-equ-q10"
+    },
+    {
+      "question": "What are the reference numbers for the different procedures shown in the images?",
+      "answer": "30 51 556, 30 51 558, 30 32 021, and 30 51 613.",
+      "question_type": "factual",
+      "id": "51-769_body-equ-q11"
+    },
+    {
+      "question": "What is the difference in installation procedures between cars before and after 09/85?",
+      "answer": "Cars before 09/85 require carpet manipulation and speaker removal if equipped, while cars since 09/85 with plastic side panels require removing dashboard trim panel screws and side trim panel components.",
+      "question_type": "factual",
+      "id": "51-769_body-equ-q12"
+    }
+  ]
+}

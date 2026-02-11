@@ -1,0 +1,85 @@
+{
+  "page_id": "23-111_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-111.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:28:02.244195",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 742
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required for removing the leaf spring?",
+      "answer": "Special Tool 23 2 170 is required for leaf spring removal.",
+      "question_type": "tool",
+      "id": "23-111_manual-t-q01"
+    },
+    {
+      "question": "How should the 3rd/4th gear selector rod be positioned when removing the reverse gear?",
+      "answer": "Slide in 3rd/4th gear selector rod with openings (2) facing up.",
+      "question_type": "procedural",
+      "id": "23-111_manual-t-q02"
+    },
+    {
+      "question": "What component must engage with the selector arm when removing the leaf spring?",
+      "answer": "Roller (3) on leaf spring (6) must engage in selector arm (7).",
+      "question_type": "procedural",
+      "id": "23-111_manual-t-q03"
+    },
+    {
+      "question": "How many springs need to be inserted for the stop pins?",
+      "answer": "Insert 3 springs for stop pins.",
+      "question_type": "factual",
+      "id": "23-111_manual-t-q04"
+    },
+    {
+      "question": "What is the procedure for securing new end caps after installing springs?",
+      "answer": "Install and lock new end caps by punching.",
+      "question_type": "procedural",
+      "id": "23-111_manual-t-q05"
+    },
+    {
+      "question": "In the thrust washer installation diagram, what do the numbered callouts (1) and (2) represent?",
+      "answer": "Callout (1) indicates the thrust washer and callout (2) indicates the angle in the upper opening of the case.",
+      "question_type": "visual",
+      "id": "23-111_manual-t-q06"
+    },
+    {
+      "question": "What is the orientation requirement when inserting the reverse gear?",
+      "answer": "Insert reverse gear with long collar facing case, two needle bearings and shaft.",
+      "question_type": "procedural",
+      "id": "23-111_manual-t-q07"
+    },
+    {
+      "question": "What should be done to secure the operating lever bolt?",
+      "answer": "Place insulator on bolt, install bolt (9), install new bolt lock, and apply tightening torque per specifications.",
+      "question_type": "procedural",
+      "id": "23-111_manual-t-q08"
+    },
+    {
+      "question": "Where should the tip of the operating lever bolt engage?",
+      "answer": "Tip of bolt must engage in bore of operating lever.",
+      "question_type": "procedural",
+      "id": "23-111_manual-t-q09"
+    },
+    {
+      "question": "What type of bolt lock should be used for the operating lever?",
+      "answer": "Install new bolt lock for the operating lever bolt.",
+      "question_type": "factual",
+      "id": "23-111_manual-t-q10"
+    },
+    {
+      "question": "What component is being driven in for the 3rd/4th gear selector forks according to the diagram?",
+      "answer": "Drive in pins for 3rd/4th gear selector forks (counterhold).",
+      "question_type": "procedural",
+      "id": "23-111_manual-t-q12"
+    }
+  ]
+}

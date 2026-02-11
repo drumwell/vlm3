@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-002",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/002.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:12:49.123572",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 654
+  },
+  "qa_pairs": [
+    {
+      "question": "What BMW standard document is referenced for the torque specifications?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-002-q01"
+    },
+    {
+      "question": "What dimensional requirements must shaft screws meet to be applicable for these torque specifications?",
+      "answer": "Metric standard and fine threads according to DIN 13, sheet 13 and nuts with height of 0.8 x d according to DIN 934 and only for a \u03bc total = 0.125",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-002-q03"
+    },
+    {
+      "question": "What types of bolt connections are these torque specifications not applicable to?",
+      "answer": "Necked-down bolts, self-tapping screw connections or to connections between parts made of different materials",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-002-q07"
+    },
+    {
+      "question": "What lubrication condition is specified for the screws in these torque specifications?",
+      "answer": "Unlubricated and also oiled",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-002-q08"
+    },
+    {
+      "question": "Why is maintaining specified tightening torques important according to the manual?",
+      "answer": "It is vital for performing repair work to a professional standard and presupposes that the torque wrenches required are subjected to regular inspection",
+      "question_type": "safety",
+      "id": "bmwtorquespecs-002-q09"
+    }
+  ]
+}

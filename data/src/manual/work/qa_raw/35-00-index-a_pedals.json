@@ -1,0 +1,55 @@
+{
+  "page_id": "35-00-index-a_pedals",
+  "image_path": "raw/35 - Pedals/35-00-index-a.jpg",
+  "section_id": "35",
+  "section_name": "Pedals",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:26:40.312689",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1745,
+    "tokens_output": 372
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers the pedals in this manual?",
+      "answer": "Section 35 covers the pedals.",
+      "question_type": "factual",
+      "id": "35-00-index-a_pedals-q01"
+    },
+    {
+      "question": "On which page can I find information about removing and installing the brake pedal?",
+      "answer": "Information about removing and installing the brake pedal can be found on page 35-5.",
+      "question_type": "navigation",
+      "id": "35-00-index-a_pedals-q02"
+    },
+    {
+      "question": "What is the part number for the clutch pedal removal and installation procedure?",
+      "answer": "The part number for the clutch pedal removal and installation procedure is 35 31 000.",
+      "question_type": "factual",
+      "id": "35-00-index-a_pedals-q03"
+    },
+    {
+      "question": "Which page contains information about adjusting the accelerator cable?",
+      "answer": "Information about adjusting the accelerator cable is on page 35-10.",
+      "question_type": "navigation",
+      "id": "35-00-index-a_pedals-q04"
+    },
+    {
+      "question": "What component has part number 35 41 000?",
+      "answer": "Part number 35 41 000 is for the accelerator pedal removal and installation procedure.",
+      "question_type": "component",
+      "id": "35-00-index-a_pedals-q05"
+    },
+    {
+      "question": "On which page can I find the kickdown switch replacement procedure for EH transmission?",
+      "answer": "The kickdown switch replacement procedure for EH transmission can be found on page 35-10.",
+      "question_type": "navigation",
+      "id": "35-00-index-a_pedals-q06"
+    }
+  ]
+}

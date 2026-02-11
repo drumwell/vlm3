@@ -1,0 +1,85 @@
+{
+  "page_id": "41-006_body",
+  "image_path": "raw/41 - Body/41-006.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:35:49.681559",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 857
+  },
+  "qa_pairs": [
+    {
+      "question": "What part number is the fixture used for die stamping the chassis number?",
+      "answer": "Fixture 41 1 001 is used for die stamping the chassis number.",
+      "question_type": "factual",
+      "id": "41-006_body-q02"
+    },
+    {
+      "question": "How should the base plate be positioned when assembling fixture 41 1 001?",
+      "answer": "Assemble fixture 41 1 001 so that the smooth side of the base plate faces the stamp guide.",
+      "question_type": "procedural",
+      "id": "41-006_body-q03"
+    },
+    {
+      "question": "What should be done with the bolts after screwing them in only enough for spacing holder insertion?",
+      "answer": "Screw in bolts only enough that the spacing holders can be inserted later.",
+      "question_type": "procedural",
+      "id": "41-006_body-q04"
+    },
+    {
+      "question": "What part numbers are inserted separately in the fixture?",
+      "answer": "Insert numbers 41 1 002 in fixture separately and knock in tight.",
+      "question_type": "factual",
+      "id": "41-006_body-q05"
+    },
+    {
+      "question": "What special marking should be die stamped when replacing a complete body in workshops?",
+      "answer": "If parts or the complete body is replaced in workshops, die stamp a \"+\" before and after the number instead of the BMW emblem for definite identification.",
+      "question_type": "procedural",
+      "id": "41-006_body-q06"
+    },
+    {
+      "question": "What part number are the spacing holders that need to be applied?",
+      "answer": "Apply and clamp down spacing holders 41 1 003 on the left and right sides.",
+      "question_type": "factual",
+      "id": "41-006_body-q07"
+    },
+    {
+      "question": "What step comes after applying the fixture and placing the base plate?",
+      "answer": "After applying the fixture and placing the base plate on the surface for the chassis number, apply and clamp down spacing holders 41 1 003 on the left and right sides.",
+      "question_type": "procedural",
+      "id": "41-006_body-q08"
+    },
+    {
+      "question": "What should be done to the fixture after positioning the base plate?",
+      "answer": "Push up fixture completely and tighten bolts after aligning the base plate for stamp guide parallel with bolts.",
+      "question_type": "procedural",
+      "id": "41-006_body-q09"
+    },
+    {
+      "question": "When can the chassis number also be die stamped after assembly work?",
+      "answer": "The chassis number can also be die stamped after finishing the assembly work, which requires removing the cover on the compartment wall and cover for the blower motor.",
+      "question_type": "factual",
+      "id": "41-006_body-q10"
+    },
+    {
+      "question": "What are the numbered callouts 1 and 2 indicating in the die stamping procedure?",
+      "answer": "Callout 1 indicates aligning the base plate for stamp guide parallel with bolts, and callout 2 shows pushing up fixture completely and tightening bolts.",
+      "question_type": "visual",
+      "id": "41-006_body-q11"
+    },
+    {
+      "question": "What covers need to be removed if die stamping after assembly work?",
+      "answer": "Remove the cover on the compartment wall and cover for the blower motor when die stamping after finishing assembly work.",
+      "question_type": "procedural",
+      "id": "41-006_body-q12"
+    }
+  ]
+}

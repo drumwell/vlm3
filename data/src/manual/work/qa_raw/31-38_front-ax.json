@@ -1,0 +1,82 @@
+{
+  "page_id": "31-38_front-ax",
+  "image_path": "raw/31 - Front Axle/31-38.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:03:32.662182",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 675
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tools are needed to press on tapered roller bearings?",
+      "answer": "Special Tools 33 1 309 and 31 5 050.",
+      "question_type": "tool",
+      "id": "31-38_front-ax-q01"
+    },
+    {
+      "question": "What is part number 31 5 050 shown in the diagram?",
+      "answer": "31 5 050 is a special tool used for pressing on tapered roller bearings.",
+      "question_type": "component",
+      "id": "31-38_front-ax-q02"
+    },
+    {
+      "question": "What is part number 33 1 309 in the illustration?",
+      "answer": "33 1 309 is a special tool component used with 31 5 050 for pressing on tapered roller bearings.",
+      "question_type": "component",
+      "id": "31-38_front-ax-q03"
+    },
+    {
+      "question": "What is part number 30 31 518 shown in the diagram?",
+      "answer": "30 31 518 appears to be a component in the tapered roller bearing assembly.",
+      "question_type": "component",
+      "id": "31-38_front-ax-q04"
+    },
+    {
+      "question": "What adjustments are necessary because of new bearings?",
+      "answer": "Friction torque of tapered roller bearings, backlash of ring gear, and tooth contact pattern adjustments are necessary because of new bearings.",
+      "question_type": "procedural",
+      "id": "31-38_front-ax-q05"
+    },
+    {
+      "question": "What three types of adjustments must be made when installing new bearings?",
+      "answer": "a) Friction torque of tapered roller bearings, b) Backlash of ring gear, c) Tooth contact pattern.",
+      "question_type": "procedural",
+      "id": "31-38_front-ax-q06"
+    },
+    {
+      "question": "Where can I find information about front axle final drive adjustments?",
+      "answer": "See adjustments on front axle final drive.",
+      "question_type": "navigation",
+      "id": "31-38_front-ax-q07"
+    },
+    {
+      "question": "What does the manual emphasize as 'Important' regarding new bearings?",
+      "answer": "The manual emphasizes that adjustments are necessary because of new bearings, including friction torque of tapered roller bearings, backlash of ring gear, and tooth contact pattern.",
+      "question_type": "factual",
+      "id": "31-38_front-ax-q08"
+    },
+    {
+      "question": "What procedure is shown in the illustration on this page?",
+      "answer": "The illustration shows pressing on tapered roller bearings with Special Tools 33 1 309 and 31 5 050.",
+      "question_type": "procedural",
+      "id": "31-38_front-ax-q09",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What section of the manual is this page from?",
+      "answer": "This page is from section 31-38 of the manual.",
+      "question_type": "navigation",
+      "id": "31-38_front-ax-q10"
+    }
+  ]
+}

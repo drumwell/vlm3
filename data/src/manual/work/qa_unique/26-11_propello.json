@@ -1,0 +1,79 @@
+{
+  "page_id": "26-11_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-11.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:56:24.077647",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 694
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for the component shown in the illustration?",
+      "answer": "The part number is 30 26 017.",
+      "question_type": "factual",
+      "id": "26-11_propello-q01"
+    },
+    {
+      "question": "What should be checked regarding the dust guard during installation?",
+      "answer": "Check the installed position of the dust guard - it must be flush with the center mount.",
+      "question_type": "procedural",
+      "id": "26-11_propello-q02"
+    },
+    {
+      "question": "What important clearance check is required during installation?",
+      "answer": "Check the clearance of the center mount.",
+      "question_type": "inspection",
+      "id": "26-11_propello-q03"
+    },
+    {
+      "question": "Is there any special emphasis placed on the clearance check mentioned in the installation notes?",
+      "answer": "Yes, the clearance check is marked as 'Important!' indicating it is a critical step.",
+      "question_type": "safety",
+      "id": "26-11_propello-q05"
+    },
+    {
+      "question": "How many installation checks are specified for this component?",
+      "answer": "There are two installation checks specified: checking the dust guard position and checking the center mount clearance.",
+      "question_type": "procedural",
+      "id": "26-11_propello-q06"
+    },
+    {
+      "question": "What is the relationship between the dust guard and center mount according to the installation instructions?",
+      "answer": "The dust guard must be flush with the center mount when properly installed.",
+      "question_type": "factual",
+      "id": "26-11_propello-q08"
+    },
+    {
+      "question": "What page number is shown for this propellor shaft information?",
+      "answer": "This is page 26-11.",
+      "question_type": "navigation",
+      "id": "26-11_propello-q09"
+    },
+    {
+      "question": "What component appears to have a ribbed or corrugated surface in the illustration?",
+      "answer": "The dust guard or boot component shows a ribbed/corrugated flexible surface.",
+      "question_type": "visual",
+      "id": "26-11_propello-q10"
+    },
+    {
+      "question": "Are there any torque specifications provided for this installation?",
+      "answer": "No torque specifications are visible on this page.",
+      "question_type": "factual",
+      "id": "26-11_propello-q11"
+    },
+    {
+      "question": "What is the primary focus of the installation instructions provided?",
+      "answer": "The installation instructions focus on proper positioning and clearance verification of the dust guard and center mount assembly.",
+      "question_type": "procedural",
+      "id": "26-11_propello-q12"
+    }
+  ]
+}

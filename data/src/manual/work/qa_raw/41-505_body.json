@@ -1,0 +1,91 @@
+{
+  "page_id": "41-505_body",
+  "image_path": "raw/41 - Body/41-505.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:06:12.200969",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 806
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the service manual reference number for adjusting left or right rear door?",
+      "answer": "41 52 004",
+      "question_type": "factual",
+      "id": "41-505_body-q01"
+    },
+    {
+      "question": "What must be removed before adjusting the rear door on hinges?",
+      "answer": "Remove door trim panel - see 51 42 001.",
+      "question_type": "procedural",
+      "id": "41-505_body-q02"
+    },
+    {
+      "question": "What should be done with the plastic sheet on the door during installation?",
+      "answer": "Pull off plastic sheet on door as required for installation, then replace damaged plastic sheet.",
+      "question_type": "procedural",
+      "id": "41-505_body-q03"
+    },
+    {
+      "question": "What thickness washers should be used for basic door adjustments?",
+      "answer": "Make basic adjustments with 1 mm (0.039\") thick washers.",
+      "question_type": "factual",
+      "id": "41-505_body-q04"
+    },
+    {
+      "question": "What are the two optional washer thicknesses available for final adjustments?",
+      "answer": "Final adjustments are made with washers available optionally 0.5 mm (0.020\") and 1.0 mm (0.039\") thick.",
+      "question_type": "factual",
+      "id": "41-505_body-q05"
+    },
+    {
+      "question": "Why should unpainted surfaces be touched up with paint after adjustments?",
+      "answer": "Engine hood, trunk lid and doors are fitted and bolted in an unfinished body shell. Subsequent adjustments could uncover unpainted surfaces, so these unpainted surfaces must be touched up with paint of same color.",
+      "question_type": "procedural",
+      "id": "41-505_body-q06"
+    },
+    {
+      "question": "How should the door panel outside surface be aligned?",
+      "answer": "Adjust door panel outside surface to be in same plane with that of front door.",
+      "question_type": "procedural",
+      "id": "41-505_body-q07"
+    },
+    {
+      "question": "What is the maximum adjustment tolerance for the outside surface to prevent wind noise and stone damage?",
+      "answer": "To prevent wind noise and stone damage or to eliminate optical irregularities, the outside surface may be \"adjusted deeper\" than the front door by max. 1 mm (0.039\").",
+      "question_type": "factual",
+      "id": "41-505_body-q08"
+    },
+    {
+      "question": "How should the door be adjusted for proper gap uniformity?",
+      "answer": "Adjust door forward and back in such a manner, to have an uniform gap at front and rear.",
+      "question_type": "procedural",
+      "id": "41-505_body-q09"
+    },
+    {
+      "question": "What should be done with the door lock striker if necessary?",
+      "answer": "Loosen striker of door lock, if necessary.",
+      "question_type": "procedural",
+      "id": "41-505_body-q10"
+    },
+    {
+      "question": "In the adjustment diagram, what do callouts 1 and 2 indicate?",
+      "answer": "Callout 1 indicates one adjustment point and callout 2 indicates another adjustment point for the door hinge mechanism.",
+      "question_type": "visual",
+      "id": "41-505_body-q11"
+    },
+    {
+      "question": "What bolts need to be loosened during the door adjustment process?",
+      "answer": "Loosen top bolts and loosen bottom bolts.",
+      "question_type": "procedural",
+      "id": "41-505_body-q12"
+    }
+  ]
+}

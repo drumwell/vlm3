@@ -1,0 +1,91 @@
+{
+  "page_id": "16-09_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-09.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:59:44.764934",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 749
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the six main components labeled in the fuel level sender and intank pump diagram?",
+      "answer": "The six components are: 1 = Fuel level sender, 2 = Gasket, 3 = Gasket, 4 = Pressure damper, 5 = Fuel pump, 6 = Fuel filter screen.",
+      "question_type": "visual",
+      "id": "16-09_fuel-tan-q01"
+    },
+    {
+      "question": "What should you do with gasoline before starting the fuel level sender removal procedure?",
+      "answer": "If necessary, draw off gasoline partially with a scavenging pump.",
+      "question_type": "procedural",
+      "id": "16-09_fuel-tan-q02"
+    },
+    {
+      "question": "Which Group should you refer to for rear seat cushion removal?",
+      "answer": "See Group 52 for rear seat cushion removal procedures.",
+      "question_type": "navigation",
+      "id": "16-09_fuel-tan-q03"
+    },
+    {
+      "question": "What specific checks are mentioned for the fuel system components?",
+      "answer": "Check fuel pressure and delivery rate (see Group 13) and check fuel level sender (also refer to plug connections on page 16-8).",
+      "question_type": "inspection",
+      "id": "16-09_fuel-tan-q04"
+    },
+    {
+      "question": "How should you handle the fuel intake when removing the intank pump?",
+      "answer": "Turn fuel intake counterclockwise and pull out carefully.",
+      "question_type": "procedural",
+      "id": "16-09_fuel-tan-q05"
+    },
+    {
+      "question": "What is the first step after lifting out the rear seat cushion?",
+      "answer": "Lift out insulation sheet partially, then unscrew cover.",
+      "question_type": "procedural",
+      "id": "16-09_fuel-tan-q06"
+    },
+    {
+      "question": "What direction should you turn the fuel level sender for the right tank chamber?",
+      "answer": "Turn fuel level sender for right tank chamber counterclockwise and pull out carefully.",
+      "question_type": "procedural",
+      "id": "16-09_fuel-tan-q07"
+    },
+    {
+      "question": "What should be replaced during installation of these components?",
+      "answer": "Replace gasket during installation.",
+      "question_type": "procedural",
+      "id": "16-09_fuel-tan-q08"
+    },
+    {
+      "question": "What year models does this fuel level sender and intank pump procedure apply to?",
+      "answer": "Since 1988 Models.",
+      "question_type": "factual",
+      "id": "16-09_fuel-tan-q09"
+    },
+    {
+      "question": "What should you do after unscrewing the screws to access the fuel level sender?",
+      "answer": "Unscrew screws, then lift out fuel level sender.",
+      "question_type": "procedural",
+      "id": "16-09_fuel-tan-q10"
+    },
+    {
+      "question": "What is the final step mentioned after removing the cover?",
+      "answer": "Pull off plug and hose.",
+      "question_type": "procedural",
+      "id": "16-09_fuel-tan-q11"
+    },
+    {
+      "question": "What does the diagram reference number 30 16 042 identify?",
+      "answer": "The diagram reference number 30 16 042 identifies the fuel level sender and intank pump assembly diagram.",
+      "question_type": "visual",
+      "id": "16-09_fuel-tan-q12"
+    }
+  ]
+}

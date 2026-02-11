@@ -1,0 +1,73 @@
+{
+  "page_id": "52-201_seats",
+  "image_path": "raw/52 - Seats/52-201.jpg",
+  "section_id": "52",
+  "section_name": "Seats",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:38:29.288468",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 735
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing rear seat cushion and backrest?",
+      "answer": "The procedure number is 52 20 000.",
+      "question_type": "factual",
+      "id": "52-201_seats-q01"
+    },
+    {
+      "question": "What is the first step to remove the rear seat cushion?",
+      "answer": "Lift out seat cushion, then unscrew bolt (1).",
+      "question_type": "procedural",
+      "id": "52-201_seats-q02"
+    },
+    {
+      "question": "What additional bolt needs to be unscrewed on convertible models?",
+      "answer": "On convertibles, unscrew bolt (1a).",
+      "question_type": "procedural",
+      "id": "52-201_seats-q03"
+    },
+    {
+      "question": "How do you remove the backrest from its holders?",
+      "answer": "Disengage backrest in holders (2) by lifting up.",
+      "question_type": "procedural",
+      "id": "52-201_seats-q04"
+    },
+    {
+      "question": "What does callout number 1a refer to specifically?",
+      "answer": "Callout number 1a refers to an additional bolt that needs to be unscrewed on convertible models only.",
+      "question_type": "visual",
+      "id": "52-201_seats-q06"
+    },
+    {
+      "question": "What is the difference in removal procedure between standard and convertible models?",
+      "answer": "Convertible models require unscrewing an additional bolt (1a) that is not present on standard models.",
+      "question_type": "factual",
+      "id": "52-201_seats-q08"
+    },
+    {
+      "question": "What motion is required to disengage the backrest from its holders?",
+      "answer": "The backrest must be lifted up to disengage it from holders (2).",
+      "question_type": "procedural",
+      "id": "52-201_seats-q09"
+    },
+    {
+      "question": "What is the reference number shown at the bottom of the diagram?",
+      "answer": "The reference number shown at the bottom is 30 52 033.",
+      "question_type": "factual",
+      "id": "52-201_seats-q11"
+    },
+    {
+      "question": "What components are being removed according to the procedure title?",
+      "answer": "The procedure covers removing and installing the rear seat cushion and backrest.",
+      "question_type": "component",
+      "id": "52-201_seats-q12"
+    }
+  ]
+}

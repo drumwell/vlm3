@@ -1,0 +1,67 @@
+{
+  "page_id": "23-117_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-117.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:29:30.590245",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 539
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is identified as number 27 in this gear set diagram?",
+      "answer": "Component number 27 is the Output shaft.",
+      "question_type": "component",
+      "id": "23-117_manual-t-q01"
+    },
+    {
+      "question": "Which bearing types are used in positions 4 and 40?",
+      "answer": "Position 4 is a Grooved ball bearing and position 40 is also a Grooved ball bearing.",
+      "question_type": "component",
+      "id": "23-117_manual-t-q02"
+    },
+    {
+      "question": "What are the three synchromesh ring locations shown in this transmission assembly?",
+      "answer": "The synchromesh rings are located at positions 6, 14, 20, 24, and 30 according to the parts list.",
+      "question_type": "factual",
+      "id": "23-117_manual-t-q03"
+    },
+    {
+      "question": "What component connects to the layshaft at position 49?",
+      "answer": "Position 49 is the Layshaft itself, which appears to be the main shaft running through the lower portion of the transmission assembly.",
+      "question_type": "component",
+      "id": "23-117_manual-t-q04"
+    },
+    {
+      "question": "Which gear positions represent 3rd, 4th, and 5th gears in this transmission?",
+      "answer": "According to the parts list, 3rd gear is position 48, 4th gear is position 47, and 5th gear is position 50.",
+      "question_type": "factual",
+      "id": "23-117_manual-t-q05"
+    },
+    {
+      "question": "What type of bearing is used at position 16?",
+      "answer": "Position 16 is a Needle bearing.",
+      "question_type": "component",
+      "id": "23-117_manual-t-q06"
+    },
+    {
+      "question": "How many balls are specified for the component at position 31?",
+      "answer": "Position 31 is labeled as 'Balls (six)', indicating there are six balls in this component.",
+      "question_type": "factual",
+      "id": "23-117_manual-t-q07"
+    },
+    {
+      "question": "What component secures the assembly at position 57?",
+      "answer": "Position 57 is the Bolt lock, which secures the bolt at position 56.",
+      "question_type": "component",
+      "id": "23-117_manual-t-q08"
+    }
+  ]
+}

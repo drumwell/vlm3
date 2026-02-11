@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/9005-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:18:31.276377",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 526
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the 150\u00b0 Compressor Oil Temperature Switch located?",
+      "answer": "The 150\u00b0 Compressor Oil Temperature Switch is located on the lower RH side of engine compartment, on A/C compressor.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-00-q01"
+    },
+    {
+      "question": "What page and figure reference shows the location of the ABS Electronic Control Unit?",
+      "answer": "The ABS Electronic Control Unit location is shown on page 7000, figure 6-3.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-00-q02"
+    },
+    {
+      "question": "Where can I find the Auxiliary Fuel Pump in the vehicle?",
+      "answer": "The Auxiliary Fuel Pump is located below RH side of rear seat, in fuel tank, below access panel.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-00-q03"
+    },
+    {
+      "question": "What is the specific location of the Battery Junction Block?",
+      "answer": "The Battery Junction Block is located at RH rear corner of engine compartment, on bulkhead.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-00-q04"
+    },
+    {
+      "question": "Where is the Brake Fluid Level Switch positioned?",
+      "answer": "The Brake Fluid Level Switch is located at LH rear corner of engine compartment, on brake fluid reservoir.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-00-q05"
+    },
+    {
+      "question": "What page reference shows the location of the Brake Wear Sensors?",
+      "answer": "The Brake Wear Sensors location is shown on page 7000, figure 5-4.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-00-q06"
+    },
+    {
+      "question": "Where is the Coolant Temperature Sender located in the engine?",
+      "answer": "The Coolant Temperature Sender is located at lower RH front side of engine, on coolant manifold.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-00-q07"
+    },
+    {
+      "question": "What is the location of the Combination Switch?",
+      "answer": "The Combination Switch is located at upper LH side of steering column.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-00-q08"
+    }
+  ]
+}

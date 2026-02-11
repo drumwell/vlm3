@@ -1,0 +1,67 @@
+{
+  "page_id": "41-334_body",
+  "image_path": "raw/41 - Body/41-334.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:04:24.345892",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1751,
+    "tokens_output": 459
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of welding procedure is shown for reinforcing the tail panel?",
+      "answer": "Spot weld tail panel on side panel for reinforcement.",
+      "question_type": "procedural",
+      "id": "41-334_body-q01"
+    },
+    {
+      "question": "What surface preparation technique is specified for mating surface joints?",
+      "answer": "Braze mating surface joint.",
+      "question_type": "procedural",
+      "id": "41-334_body-q02"
+    },
+    {
+      "question": "Where should the side panel be spot welded in the trunk area?",
+      "answer": "Spot weld side panel in trunk lid opening.",
+      "question_type": "procedural",
+      "id": "41-334_body-q03"
+    },
+    {
+      "question": "What welding technique is used for the side panel in the wheel house opening?",
+      "answer": "Spot weld side panel in wheel house opening.",
+      "question_type": "procedural",
+      "id": "41-334_body-q04"
+    },
+    {
+      "question": "How should the side panel/tail panel reinforcement plate be joined?",
+      "answer": "Braze side panel/tail panel reinforcement plate.",
+      "question_type": "procedural",
+      "id": "41-334_body-q05"
+    },
+    {
+      "question": "What post-welding procedure is required for all welding seams?",
+      "answer": "Grind down all welding seams.",
+      "question_type": "procedural",
+      "id": "41-334_body-q06"
+    },
+    {
+      "question": "Where should spot welding be performed on the joint of trunk floor and wheel house?",
+      "answer": "Spot weld side panel on joint of trunk floor and wheel house.",
+      "question_type": "procedural",
+      "id": "41-334_body-q07"
+    },
+    {
+      "question": "What finishing technique is used for mating surface joints on side panel partial replacement sections?",
+      "answer": "Tin mating surface joints of side panel partial replacement sections.",
+      "question_type": "procedural",
+      "id": "41-334_body-q08"
+    }
+  ]
+}

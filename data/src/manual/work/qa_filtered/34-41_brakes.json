@@ -1,0 +1,73 @@
+{
+  "page_id": "34-41_brakes",
+  "image_path": "raw/34 - Brakes/34-41.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:25:23.057701",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 621
+  },
+  "qa_pairs": [
+    {
+      "question": "What test step is being performed for the control unit/simulation rear wheels?",
+      "answer": "Test Step 07 - Control unit/simulation rear wheels",
+      "question_type": "factual",
+      "id": "34-41_brakes-q01"
+    },
+    {
+      "question": "What voltage measurement is being tested in this step?",
+      "answer": "Voltage between wires 1 and 10",
+      "question_type": "factual",
+      "id": "34-41_brakes-q02"
+    },
+    {
+      "question": "What should be done before testing the solenoid pressure build-up/drop/hold?",
+      "answer": "Turn on ignition, run engine, and check that battery is charged.",
+      "question_type": "procedural",
+      "id": "34-41_brakes-q03"
+    },
+    {
+      "question": "What could cause high switching on power during this test?",
+      "answer": "Due to high switching on power, it may be necessary to repeat the test step with engine running.",
+      "question_type": "troubleshooting",
+      "id": "34-41_brakes-q04"
+    },
+    {
+      "question": "What should be replaced if test steps 08, 09 and 10 valves do not switch or pump does not run?",
+      "answer": "Replace hydraulic unit.",
+      "question_type": "diagnostic",
+      "id": "34-41_brakes-q05"
+    },
+    {
+      "question": "What are the job position codes referenced for this troubleshooting?",
+      "answer": "34 52 510 and 34 51 520",
+      "question_type": "factual",
+      "id": "34-41_brakes-q06"
+    },
+    {
+      "question": "What phases can be checked in 325 iX cars and why?",
+      "answer": "Only the pressure building-up and pressure holding phases (2 A) can be checked in 325 iX cars because of the changed activation times in the control unit.",
+      "question_type": "factual",
+      "id": "34-41_brakes-q07"
+    },
+    {
+      "question": "Where will irregular values be displayed in 325 iX cars?",
+      "answer": "Irregular values will be displayed on adapter B in switch position (5 A).",
+      "question_type": "factual",
+      "id": "34-41_brakes-q08"
+    },
+    {
+      "question": "Why might it be necessary to repeat this test step?",
+      "answer": "It might be necessary to repeat this test step to reach the nominal values due to the high switching-on power and short switching phase.",
+      "question_type": "troubleshooting",
+      "id": "34-41_brakes-q09"
+    }
+  ]
+}

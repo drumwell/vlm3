@@ -1,0 +1,79 @@
+{
+  "page_id": "62-74_instrume",
+  "image_path": "raw/62 - Instruments/62-74.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:46:25.710346",
+    "prompt_template": "service_manual/wiring",
+    "tokens_input": 1740,
+    "tokens_output": 511
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the component labeled as number 1 in the check control wiring diagram?",
+      "answer": "Check control",
+      "question_type": "component",
+      "id": "62-74_instrume-q01"
+    },
+    {
+      "question": "What does component number 4 represent in this wiring diagram?",
+      "answer": "Low beam relay",
+      "question_type": "component",
+      "id": "62-74_instrume-q02"
+    },
+    {
+      "question": "What are the two bulb tester components shown in the legend?",
+      "answer": "Bulb tester (stop/tail/license plt. lights) and Bulb tester (low beams)",
+      "question_type": "component",
+      "id": "62-74_instrume-q03"
+    },
+    {
+      "question": "What component is represented by number 8 in the diagram?",
+      "answer": "Coolant level",
+      "question_type": "component",
+      "id": "62-74_instrume-q04"
+    },
+    {
+      "question": "What does the abbreviation KAL stand for in the component list?",
+      "answer": "License plate light outlet left",
+      "question_type": "factual",
+      "id": "62-74_instrume-q05"
+    },
+    {
+      "question": "What is the function of component number 10?",
+      "answer": "Central warning lamp in instr. cluster",
+      "question_type": "component",
+      "id": "62-74_instrume-q06"
+    },
+    {
+      "question": "What does KKL represent in the wiring diagram legend?",
+      "answer": "Indicator lamp outlet, license pt. lights",
+      "question_type": "factual",
+      "id": "62-74_instrume-q07"
+    },
+    {
+      "question": "Which component number corresponds to the ignition lock?",
+      "answer": "Number 5",
+      "question_type": "component",
+      "id": "62-74_instrume-q08"
+    },
+    {
+      "question": "What is the purpose of component number 13?",
+      "answer": "Ignition switch (parking lights)",
+      "question_type": "component",
+      "id": "62-74_instrume-q09"
+    },
+    {
+      "question": "What does the abbreviation KAR stand for in this diagram?",
+      "answer": "License plate light outlet right",
+      "question_type": "factual",
+      "id": "62-74_instrume-q10"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "page_id": "25-22_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-22.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:52:49.889591",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 711
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure for adjusting the cable for the range selection lever?",
+      "answer": "Shift lever in 'P' (most forward position). Loosen nut until cable rod has cleared.",
+      "question_type": "procedural",
+      "id": "25-22_gear-shi-q01"
+    },
+    {
+      "question": "What position should the transmission lever be in during cable adjustment?",
+      "answer": "Transmission lever in 'P' (most forward position).",
+      "question_type": "procedural",
+      "id": "25-22_gear-shi-q02"
+    },
+    {
+      "question": "How should the cable rod be pressed during the adjustment procedure?",
+      "answer": "Press cable rod opposite forward direction.",
+      "question_type": "procedural",
+      "id": "25-22_gear-shi-q03"
+    },
+    {
+      "question": "What is the specified tightening torque for clamping the cable rod?",
+      "answer": "10 to 12 Nm (7 to 9 ft. lbs.).",
+      "question_type": "factual",
+      "id": "25-22_gear-shi-q04"
+    },
+    {
+      "question": "What important caution is given regarding the cable during adjustment?",
+      "answer": "Don't bend the cable.",
+      "question_type": "safety",
+      "id": "25-22_gear-shi-q05"
+    },
+    {
+      "question": "How should the cable rod be clamped during the procedure?",
+      "answer": "Clamp cable rod without tension.",
+      "question_type": "procedural",
+      "id": "25-22_gear-shi-q06"
+    },
+    {
+      "question": "What does the 'P' marking indicate in the transmission lever position?",
+      "answer": "The 'P' marking indicates the most forward position of the transmission lever.",
+      "question_type": "factual",
+      "id": "25-22_gear-shi-q07"
+    },
+    {
+      "question": "What components are visible in the upper diagram?",
+      "answer": "The upper diagram shows the shift lever assembly and cable adjustment area for the range selection lever.",
+      "question_type": "visual",
+      "id": "25-22_gear-shi-q08"
+    },
+    {
+      "question": "What is shown in the lower diagram with the arrow pointing to 'P'?",
+      "answer": "The lower diagram shows the transmission lever in the 'P' position with cable rod adjustment components.",
+      "question_type": "visual",
+      "id": "25-22_gear-shi-q09"
+    },
+    {
+      "question": "What is the main topic covered on this page?",
+      "answer": "Adjusting cable for range selection lever.",
+      "question_type": "factual",
+      "id": "25-22_gear-shi-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What should be done with the nut during the initial adjustment step?",
+      "answer": "Loosen nut until cable rod has cleared.",
+      "question_type": "procedural",
+      "id": "25-22_gear-shi-q11"
+    },
+    {
+      "question": "What is emphasized as 'Important!' in the adjustment procedure?",
+      "answer": "The tightening torque specification of 10 to 12 Nm (7 to 9 ft. lbs.) and not to bend the cable.",
+      "question_type": "safety",
+      "id": "25-22_gear-shi-q12"
+    }
+  ]
+}

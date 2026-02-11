@@ -1,0 +1,67 @@
+{
+  "page_id": "16-06_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-06.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:58:55.140822",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1755,
+    "tokens_output": 480
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is labeled as number 1 in this diagram?",
+      "answer": "Component 1 is the Carbon canister.",
+      "question_type": "component",
+      "id": "16-06_fuel-tan-q01"
+    },
+    {
+      "question": "What is component number 2 in the fuel system diagram?",
+      "answer": "Component 2 is the Tank venting valve.",
+      "question_type": "component",
+      "id": "16-06_fuel-tan-q02"
+    },
+    {
+      "question": "What engine designation does this diagram reference?",
+      "answer": "This diagram references the M20 engine.",
+      "question_type": "factual",
+      "id": "16-06_fuel-tan-q03"
+    },
+    {
+      "question": "What is the BMW part number shown at the bottom of the photograph?",
+      "answer": "The BMW part number shown is 30 16 056.",
+      "question_type": "factual",
+      "id": "16-06_fuel-tan-q04"
+    },
+    {
+      "question": "Where is the carbon canister positioned relative to the tank venting valve in this assembly?",
+      "answer": "The carbon canister (1) is positioned below and to the left of the tank venting valve (2) in the assembly.",
+      "question_type": "visual",
+      "id": "16-06_fuel-tan-q05"
+    },
+    {
+      "question": "What two main components are shown in this fuel system evaporative emissions diagram?",
+      "answer": "The two main components shown are the Carbon canister (1) and the Tank venting valve (2).",
+      "question_type": "component",
+      "id": "16-06_fuel-tan-q06"
+    },
+    {
+      "question": "What page number is this in the service manual?",
+      "answer": "This is page 16-6 of the service manual.",
+      "question_type": "navigation",
+      "id": "16-06_fuel-tan-q07"
+    },
+    {
+      "question": "How are the carbon canister and tank venting valve connected in this assembly?",
+      "answer": "The carbon canister and tank venting valve are connected by what appears to be vacuum hoses or lines visible in the photograph.",
+      "question_type": "visual",
+      "id": "16-06_fuel-tan-q08"
+    }
+  ]
+}

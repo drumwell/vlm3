@@ -1,0 +1,61 @@
+{
+  "page_id": "bmwtorquespecs-112",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/112.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:33:48.009281",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 698
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil pump to case on A4S 270R/A4S 310R transmissions using 5/16\" screws on the 1st pass?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-112-q01"
+    },
+    {
+      "question": "What is the torque specification for the oil pump to case on A4S 270R/A4S 310R transmissions using 5/16\" screws on the 2nd pass?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-112-q02"
+    },
+    {
+      "question": "What screw size and torque is specified for the oil pump body on A5S 310Z/A5S 560Z transmissions?",
+      "answer": "M6 screws with 10 Nm torque",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-112-q06"
+    },
+    {
+      "question": "What is the torque specification for the oil cooler pipe adapter to transmission on A5S 300J/A4S 270R/A 4 S 310 R?",
+      "answer": "28 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-112-q07"
+    },
+    {
+      "question": "What thread size and torque is specified for the hollow bolt on A5S 440Z transmissions?",
+      "answer": "M18x1.5 thread with 25 Nm torque",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-112-q08"
+    },
+    {
+      "question": "What is the torque specification for the cap screw on A5S 440Z transmissions?",
+      "answer": "20 Nm with M18x1.5 thread",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-112-q09"
+    },
+    {
+      "question": "Which transmission types use 5/16\" screws for the oil pump body attachment?",
+      "answer": "A4S 270R/A4S 310R",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-112-q10"
+    }
+  ]
+}

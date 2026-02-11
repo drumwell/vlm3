@@ -1,0 +1,67 @@
+{
+  "page_id": "51-810_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-810.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:36:02.568676",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1752,
+    "tokens_output": 524
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is labeled as number 1 in the power windows diagram?",
+      "answer": "Number 1 is the window motor.",
+      "question_type": "component",
+      "id": "51-810_body-equ-q01"
+    },
+    {
+      "question": "Where is the child safety lock component located according to the diagram?",
+      "answer": "The child safety lock is component number 4, shown in the rear door area of the vehicle.",
+      "question_type": "component",
+      "id": "51-810_body-equ-q02"
+    },
+    {
+      "question": "What is component number 7 in the power windows system?",
+      "answer": "Component number 7 is the relay K 5 in fuse box or behind instrument panel at bottom left in case of service installation of holder on special equipment plug.",
+      "question_type": "component",
+      "id": "51-810_body-equ-q03"
+    },
+    {
+      "question": "How many different wire harnesses are shown in the power windows system diagram?",
+      "answer": "There are two wire harnesses shown: component 2 is the door wire harness and component 5 is the main wire harness.",
+      "question_type": "factual",
+      "id": "51-810_body-equ-q04"
+    },
+    {
+      "question": "What ignition key position is required for power window operation?",
+      "answer": "Power windows can be operated with the ignition key in position 2.",
+      "question_type": "operation",
+      "id": "51-810_body-equ-q05"
+    },
+    {
+      "question": "Where can the power windows be operated from according to the manual?",
+      "answer": "Power windows can be operated with push buttons in the center console or push buttons in the trim panels of the rear doors.",
+      "question_type": "operation",
+      "id": "51-810_body-equ-q06"
+    },
+    {
+      "question": "How can operation of the rear door window buttons be disabled?",
+      "answer": "Operation with the push buttons in the trim panels of the rear doors can be stopped by pressing the 'child safety lock' push button in the center console.",
+      "question_type": "safety",
+      "id": "51-810_body-equ-q07"
+    },
+    {
+      "question": "What protects the power window system from excessive loads?",
+      "answer": "The system is protected against excessive loads by a safety switch in the instrument panel.",
+      "question_type": "safety",
+      "id": "51-810_body-equ-q08"
+    }
+  ]
+}

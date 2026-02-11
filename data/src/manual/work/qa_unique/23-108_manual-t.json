@@ -1,0 +1,55 @@
+{
+  "page_id": "23-108_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-108.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:26:54.230222",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 700
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure is being shown for section 23 12 504?",
+      "answer": "Replacing radial oil seal for input shaft with transmission removed.",
+      "question_type": "factual",
+      "id": "23-108_manual-t-q01"
+    },
+    {
+      "question": "What tool part number is required to remove the guide sleeve?",
+      "answer": "Guide sleeve 23 11 624.",
+      "question_type": "tool",
+      "id": "23-108_manual-t-q02"
+    },
+    {
+      "question": "What component is labeled as 30 23 269 in the diagram?",
+      "answer": "The upper housing or transmission case component where the radial oil seal is located.",
+      "question_type": "visual",
+      "id": "23-108_manual-t-q06"
+    },
+    {
+      "question": "What tool number 00 5 500 represents in this procedure?",
+      "answer": "A special tool used in conjunction with 23 1 360 to drive in the radial oil seal.",
+      "question_type": "tool",
+      "id": "23-108_manual-t-q09"
+    },
+    {
+      "question": "What condition must exist before performing this radial oil seal replacement?",
+      "answer": "The transmission must be removed from the vehicle.",
+      "question_type": "factual",
+      "id": "23-108_manual-t-q10"
+    },
+    {
+      "question": "How should the new radial oil seal be installed?",
+      "answer": "Drive in radial oil seal with Special Tools 23 1 360 and 00 5 500, and lubricate sealing lips with oil.",
+      "question_type": "procedural",
+      "id": "23-108_manual-t-q11"
+    }
+  ]
+}

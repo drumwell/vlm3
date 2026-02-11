@@ -1,0 +1,85 @@
+{
+  "page_id": "51-432_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-432.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:26:51.929240",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 756
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure is being described in section 51 43 150?",
+      "answer": "Section 51 43 150 covers removing and installing trim panel for left or right door pillar.",
+      "question_type": "factual",
+      "id": "51-432_body-equ-q01"
+    },
+    {
+      "question": "What are the first two steps to remove the door pillar trim panel according to figure 30 51 430?",
+      "answer": "Pull off cap and unscrew screw.",
+      "question_type": "procedural",
+      "id": "51-432_body-equ-q02"
+    },
+    {
+      "question": "What steps are shown in figure 30 51 431 for trim panel removal?",
+      "answer": "Pull off cap and unscrew screw.",
+      "question_type": "procedural",
+      "id": "51-432_body-equ-q03"
+    },
+    {
+      "question": "How do you remove the clips from the trim panel according to figure 30 51 432?",
+      "answer": "Lift out clips and pull trim panel out of upper holder.",
+      "question_type": "procedural",
+      "id": "51-432_body-equ-q04"
+    },
+    {
+      "question": "What is the final step shown in figure 30 51 433 for trim panel removal?",
+      "answer": "Press out cover and run belt through B pillar trim panel, then remove trim panel.",
+      "question_type": "procedural",
+      "id": "51-432_body-equ-q05"
+    },
+    {
+      "question": "Which door pillars can this trim panel removal procedure be applied to?",
+      "answer": "This procedure can be used for both left or right door pillar trim panels.",
+      "question_type": "factual",
+      "id": "51-432_body-equ-q06"
+    },
+    {
+      "question": "What component needs to be threaded through the B pillar trim panel during removal?",
+      "answer": "The belt needs to be run through the B pillar trim panel.",
+      "question_type": "component",
+      "id": "51-432_body-equ-q07"
+    },
+    {
+      "question": "What type of fastener is used to secure the door pillar trim panel caps?",
+      "answer": "Screws are used to secure the trim panel caps after they are pulled off.",
+      "question_type": "component",
+      "id": "51-432_body-equ-q09"
+    },
+    {
+      "question": "In what sequence should the trim panel be removed from its holders?",
+      "answer": "First lift out the clips, then pull the trim panel out of the upper holder.",
+      "question_type": "procedural",
+      "id": "51-432_body-equ-q10"
+    },
+    {
+      "question": "What needs to be pressed out before running the belt through the trim panel?",
+      "answer": "The cover needs to be pressed out before running the belt through the B pillar trim panel.",
+      "question_type": "procedural",
+      "id": "51-432_body-equ-q11"
+    },
+    {
+      "question": "What page number is this procedure located on?",
+      "answer": "This procedure is located on page 51-432.",
+      "question_type": "navigation",
+      "id": "51-432_body-equ-q12"
+    }
+  ]
+}

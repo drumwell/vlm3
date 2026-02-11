@@ -1,0 +1,91 @@
+{
+  "page_id": "13-903_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-903.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:55:11.629994",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 882
+  },
+  "qa_pairs": [
+    {
+      "question": "What is Test Position 6 used to test?",
+      "answer": "Test Position 6 is used to test fuel injectors.",
+      "question_type": "factual",
+      "id": "13-903_fuel-sys-q01"
+    },
+    {
+      "question": "What should you check when you start the engine and feel movement of valve needles on fuel injectors with your fingers?",
+      "answer": "You should check wire harness and relay 2 or fuel pump relay. Power supply is via relay 2 or fuel pump relay term. 87 (battery voltage). Ground from term. 12, 14, 15 and 24 different depending on control unit.",
+      "question_type": "procedural",
+      "id": "13-903_fuel-sys-q02"
+    },
+    {
+      "question": "What BMW service test unit model is specified for checking fuel injector resistance?",
+      "answer": "BMW service test unit (M 06) is specified for checking fuel injector resistance.",
+      "question_type": "tool",
+      "id": "13-903_fuel-sys-q03"
+    },
+    {
+      "question": "What Jetronic test step is mentioned for checking fuel injector resistance?",
+      "answer": "L-Jetronic Test Step 05 is mentioned for checking fuel injector resistance.",
+      "question_type": "factual",
+      "id": "13-903_fuel-sys-q04"
+    },
+    {
+      "question": "What section should you refer to for fuel injector replacement procedures?",
+      "answer": "You should refer to section 13 64 501 for fuel injector replacement procedures.",
+      "question_type": "navigation",
+      "id": "13-903_fuel-sys-q05"
+    },
+    {
+      "question": "What parameters should be checked for leak rate, spray angle, and fuel flow rate?",
+      "answer": "You should check leak rate, spray angle, and fuel flow rate for the fuel injectors, with detailed procedures found on pages 13-651 to 13-654 under Checking Fuel Injectors and Cold Start Valve.",
+      "question_type": "inspection",
+      "id": "13-903_fuel-sys-q06"
+    },
+    {
+      "question": "What ground terminals are mentioned for the fuel injector power supply?",
+      "answer": "Ground terminals 12, 14, 15 and 24 are mentioned, and these differ depending on the control unit.",
+      "question_type": "factual",
+      "id": "13-903_fuel-sys-q07"
+    },
+    {
+      "question": "What should you check regarding the code number and color code?",
+      "answer": "You should check the code number and color code, which leads to replacing the fuel injector as referenced in section 13 64 501.",
+      "question_type": "procedural",
+      "id": "13-903_fuel-sys-q08"
+    },
+    {
+      "question": "What is the power supply source for the fuel injectors?",
+      "answer": "Power supply is via relay 2 or fuel pump relay terminal 87, which provides battery voltage.",
+      "question_type": "factual",
+      "id": "13-903_fuel-sys-q09"
+    },
+    {
+      "question": "Where can you find specifications referenced with asterisks?",
+      "answer": "Specifications referenced with asterisks can be found in the Specifications section.",
+      "question_type": "navigation",
+      "id": "13-903_fuel-sys-q10"
+    },
+    {
+      "question": "Where should you look for wiring information referenced with double asterisks?",
+      "answer": "Wiring information referenced with double asterisks can be found in the Wiring Diagram section.",
+      "question_type": "navigation",
+      "id": "13-903_fuel-sys-q11"
+    },
+    {
+      "question": "What diagnostic approach does this flowchart follow for fuel injector testing?",
+      "answer": "The flowchart follows a systematic diagnostic approach starting with physical inspection (feeling valve needle movement), then electrical checks (wire harness and relay), followed by resistance testing, code verification, and finally performance testing for leak rate, spray angle, and fuel flow rate.",
+      "question_type": "diagnostic",
+      "id": "13-903_fuel-sys-q12"
+    }
+  ]
+}

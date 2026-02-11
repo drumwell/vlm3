@@ -1,0 +1,49 @@
+{
+  "page_id": "34-00-index-b_brakes",
+  "image_path": "raw/34 - Brakes/34-00-index-b.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:12:00.073377",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1745,
+    "tokens_output": 417
+  },
+  "qa_pairs": [
+    {
+      "question": "What page contains information about ABS troubleshooting?",
+      "answer": "ABS troubleshooting information can be found on page 34-21.",
+      "question_type": "navigation",
+      "id": "34-00-index-b_brakes-q01"
+    },
+    {
+      "question": "What procedure code is used for removing and installing the hydraulic control unit?",
+      "answer": "The procedure code for removing and installing/replacing the hydraulic control unit is 34 51 520.",
+      "question_type": "procedural",
+      "id": "34-00-index-b_brakes-q03"
+    },
+    {
+      "question": "On which page can I find information about replacing the ABS pulse sensor at the front?",
+      "answer": "Information about removing and installing/replacing the front ABS pulse sensor can be found on page 34-32.",
+      "question_type": "navigation",
+      "id": "34-00-index-b_brakes-q04"
+    },
+    {
+      "question": "What is the procedure code for ABS electronic control unit removal and installation?",
+      "answer": "The procedure code for ABS electronic control unit remove and install/replace is 34 52 510.",
+      "question_type": "procedural",
+      "id": "34-00-index-b_brakes-q05"
+    },
+    {
+      "question": "Where can I find the ABS wiring diagram for 1988 model 325 iX?",
+      "answer": "The ABS wiring diagram for 1988 model 325 iX can be found on page 34-34c.",
+      "question_type": "navigation",
+      "id": "34-00-index-b_brakes-q06"
+    }
+  ]
+}

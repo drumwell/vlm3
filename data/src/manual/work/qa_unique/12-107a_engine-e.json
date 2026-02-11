@@ -1,0 +1,73 @@
+{
+  "page_id": "12-107a_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-107a.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:26:04.592041",
+    "prompt_template": "service_manual/wiring",
+    "tokens_input": 1744,
+    "tokens_output": 819
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the wire colors and sizes for terminal 2 on the Master Relay M20?",
+      "answer": "Terminal 2 on the Master Relay M20 uses terminal 87 with red/white wire color and a size of 0.75/4 mm\u00b2.",
+      "question_type": "wiring",
+      "id": "12-107a_engine-e-q01"
+    },
+    {
+      "question": "Which terminal number corresponds to the brown wire on the Master Relay M20?",
+      "answer": "Terminal number 85 corresponds to the brown wire on the Master Relay M20, with a wire size of 0.5 mm\u00b2.",
+      "question_type": "wiring",
+      "id": "12-107a_engine-e-q02"
+    },
+    {
+      "question": "What wire color and size is used for terminal 6 on the Fuel Pump Relay M20?",
+      "answer": "Terminal 6 on the Fuel Pump Relay M20 uses terminal 30 with a red wire color and a size of 1.5 mm\u00b2.",
+      "question_type": "wiring",
+      "id": "12-107a_engine-e-q03"
+    },
+    {
+      "question": "What are the terminal assignments for the green/violet wire on the Fuel Pump Relay?",
+      "answer": "The green/violet wire on the Fuel Pump Relay is assigned to jack number 2, terminal number 87, with a wire size of 1.5/1 mm\u00b2.",
+      "question_type": "wiring",
+      "id": "12-107a_engine-e-q04"
+    },
+    {
+      "question": "Which relay uses a green/blue wire color, and what is its wire size?",
+      "answer": "The Oxygen Sensor Relay M20 uses a green/blue wire color on terminal 87 (jack 2) with a wire size of 0.5 mm\u00b2.",
+      "question_type": "wiring",
+      "id": "12-107a_engine-e-q05"
+    },
+    {
+      "question": "What is the terminal number for jack 8 on all the relay sockets shown?",
+      "answer": "Jack 8 on all the relay sockets shown corresponds to terminal number 86.",
+      "question_type": "connector",
+      "id": "12-107a_engine-e-q06"
+    },
+    {
+      "question": "What wire color is used for terminal 30 across all three relays?",
+      "answer": "Red wire color is used for terminal 30 across all three relays shown.",
+      "question_type": "wiring",
+      "id": "12-107a_engine-e-q08"
+    },
+    {
+      "question": "What is the largest wire size specification shown for the Oxygen Sensor Relay?",
+      "answer": "The largest wire size specification for the Oxygen Sensor Relay is 1/0.5 mm\u00b2 for the green/white wire on terminal 30 (jack 6).",
+      "question_type": "factual",
+      "id": "12-107a_engine-e-q09"
+    },
+    {
+      "question": "Which terminal position uses brown/green wire color and what is its size?",
+      "answer": "The brown/green wire color is used on terminal 85 (jack 4) of the Fuel Pump Relay and Oxygen Sensor Relay, with a size of 0.5 mm\u00b2.",
+      "question_type": "wiring",
+      "id": "12-107a_engine-e-q10"
+    }
+  ]
+}

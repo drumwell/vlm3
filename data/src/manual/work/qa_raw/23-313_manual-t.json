@@ -1,0 +1,91 @@
+{
+  "page_id": "23-313_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-313.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:44:33.321649",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 828
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is used to pull the 5th gear wheel off of the layshaft?",
+      "answer": "Special Tool 23 0 080 is used to pull the 5th gear wheel off of the layshaft.",
+      "question_type": "tool",
+      "id": "23-313_manual-t-q01"
+    },
+    {
+      "question": "What safety caution is given regarding the use of Special Tool 23 0 080?",
+      "answer": "The caution states to prevent the pulling-off tool from falling down and causing injury, as this also pulls off the bearing inner race with pressing-off force.",
+      "question_type": "safety",
+      "id": "23-313_manual-t-q02"
+    },
+    {
+      "question": "What is the important note about installing 5th gear in relation to the layshaft?",
+      "answer": "When installing 5th gear, always remember to provide play between 3rd gear and layshaft to avoid damaging the 3rd gear wheel, and push up the output shaft if necessary.",
+      "question_type": "procedural",
+      "id": "23-313_manual-t-q03"
+    },
+    {
+      "question": "Which special tools are used to pull the bearing inner race off of the output shaft?",
+      "answer": "Special Tools 23 1 100 and 00 7 500 are used to pull the bearing inner race off of the output shaft.",
+      "question_type": "tool",
+      "id": "23-313_manual-t-q04"
+    },
+    {
+      "question": "What procedure is described for removing needles on the selector shaft?",
+      "answer": "Drive out pin (3) in the selector shaft while counterholding, then pull out the selector shaft toward rear and remove the selector arm.",
+      "question_type": "procedural",
+      "id": "23-313_manual-t-q05"
+    },
+    {
+      "question": "What components need to be taken off according to the first step shown?",
+      "answer": "Take off washer (1) and ball (2).",
+      "question_type": "procedural",
+      "id": "23-313_manual-t-q06"
+    },
+    {
+      "question": "What should be done when engaging 2nd gear during the procedure?",
+      "answer": "Drive out pin (4) while counterholding when engaging 2nd gear.",
+      "question_type": "procedural",
+      "id": "23-313_manual-t-q07"
+    },
+    {
+      "question": "What installation instruction is given for both the selector shaft and 2nd gear procedures?",
+      "answer": "For both procedures, the installation instruction is to replace the pin.",
+      "question_type": "procedural",
+      "id": "23-313_manual-t-q08"
+    },
+    {
+      "question": "What is pulled off with the synchromesh ring and split needle bearing in step 2?",
+      "answer": "The 5th gear wheel is pulled off with the synchromesh ring and split needle bearing.",
+      "question_type": "factual",
+      "id": "23-313_manual-t-q09"
+    },
+    {
+      "question": "What section number covers removing and installing the input and output shaft assembly?",
+      "answer": "Section 23 21 503 covers removing and installing the input and output shaft assembly.",
+      "question_type": "navigation",
+      "id": "23-313_manual-t-q10"
+    },
+    {
+      "question": "What is the condition specified for the front and rear transmission case sections during this procedure?",
+      "answer": "The front and rear transmission case sections are removed during this procedure.",
+      "question_type": "factual",
+      "id": "23-313_manual-t-q11"
+    },
+    {
+      "question": "What reference is made at the bottom of the page for additional information?",
+      "answer": "The page references 'See Specifications' for additional information.",
+      "question_type": "navigation",
+      "id": "23-313_manual-t-q12"
+    }
+  ]
+}

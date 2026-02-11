@@ -1,0 +1,85 @@
+{
+  "page_id": "51-452_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-452.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:27:49.429217",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 764
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step shown for removing the instrument cluster trim?",
+      "answer": "Unscrew nuts (1) and remove trim.",
+      "question_type": "procedural",
+      "id": "51-452_body-equ-q01"
+    },
+    {
+      "question": "How many plugs need to be pulled off the light switch according to the instructions?",
+      "answer": "Pull off plugs (1...3) on light switch.",
+      "question_type": "factual",
+      "id": "51-452_body-equ-q02"
+    },
+    {
+      "question": "Which BMW models require opening the glove box as part of this procedure?",
+      "answer": "Only BMW 320i/323i require opening the glove box and unscrewing bolts.",
+      "question_type": "factual",
+      "id": "51-452_body-equ-q03"
+    },
+    {
+      "question": "What specific action is required for the glove box light on 320i/323i models?",
+      "answer": "Pull off plug on glove box light and take off trim.",
+      "question_type": "procedural",
+      "id": "51-452_body-equ-q04"
+    },
+    {
+      "question": "What should be done with the instrument carrier after lifting it out?",
+      "answer": "Pull off all plugs from the instrument carrier.",
+      "question_type": "procedural",
+      "id": "51-452_body-equ-q05"
+    },
+    {
+      "question": "What is the note regarding the combination plug removal sequence?",
+      "answer": "First pull back slider (1) on combination plug (2) to pull off combination plug on instrument carrier.",
+      "question_type": "procedural",
+      "id": "51-452_body-equ-q06"
+    },
+    {
+      "question": "What step is required for the retaining straps shown in the bottom right image?",
+      "answer": "Disconnect pins of both retaining straps.",
+      "question_type": "procedural",
+      "id": "51-452_body-equ-q08"
+    },
+    {
+      "question": "How many bolts need to be unscrewed in the second procedural step?",
+      "answer": "Unscrew bolts (1) and remove trim.",
+      "question_type": "factual",
+      "id": "51-452_body-equ-q09"
+    },
+    {
+      "question": "What is shown in the diagram with reference number 30 62 025?",
+      "answer": "The diagram shows the location of nuts (1) that need to be unscrewed to remove the trim.",
+      "question_type": "visual",
+      "id": "51-452_body-equ-q10"
+    },
+    {
+      "question": "What is the difference in procedure between standard models and BMW 320i/323i models?",
+      "answer": "BMW 320i/323i models require additional steps to open the glove box, unscrew bolts, pull off the glove box light plug, and take off trim.",
+      "question_type": "factual",
+      "id": "51-452_body-equ-q11"
+    },
+    {
+      "question": "What is the final step shown for instrument carrier removal?",
+      "answer": "Lift instrument carrier out of instrument panel and pull off all plugs.",
+      "question_type": "procedural",
+      "id": "51-452_body-equ-q12"
+    }
+  ]
+}

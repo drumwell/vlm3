@@ -1,0 +1,37 @@
+{
+  "page_id": "bmwtorquespecs-106",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/106.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:32:33.972030",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 600
+  },
+  "qa_pairs": [
+    {
+      "question": "What transmission types are specified for the oil filter pipe with 98 Nm torque?",
+      "answer": "4HP-22/4HP-24/ASS 310Z",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-106-q08"
+    },
+    {
+      "question": "Which component uses an M4 screw with 3 Nm torque specification?",
+      "answer": "Radial shaft seal on converter bell housing",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-106-q09"
+    },
+    {
+      "question": "What section and item number covers the transmission case and oil sump specifications?",
+      "answer": "Section 24-4, Item 24 11",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-106-q10"
+    }
+  ]
+}

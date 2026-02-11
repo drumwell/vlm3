@@ -1,0 +1,91 @@
+{
+  "page_id": "23-188_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-188.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:39:28.846136",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 798
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for disassembling and assembling complete synchronization with output shaft removed?",
+      "answer": "Section 23 23 505.",
+      "question_type": "factual",
+      "id": "23-188_manual-t-q01"
+    },
+    {
+      "question": "What type of synchromesh rings should be used for repairs?",
+      "answer": "Only use molybdenum-coated synchromesh rings for repairs.",
+      "question_type": "factual",
+      "id": "23-188_manual-t-q02"
+    },
+    {
+      "question": "What materials are the synchromesh rings made of for different gears?",
+      "answer": "Synchromesh Ring for 3rd/4th Gears: brass; Synchromesh Ring for 1st/2nd Gears: brass, hard nickel plated; Synchromesh Ring for Reverse Gear: brass, molybdenum coated.",
+      "question_type": "factual",
+      "id": "23-188_manual-t-q03"
+    },
+    {
+      "question": "What must be checked between the synchromesh ring and clutch body?",
+      "answer": "Check distance between synchromesh ring and clutch body. Measure in area of stops.",
+      "question_type": "inspection",
+      "id": "23-188_manual-t-q04"
+    },
+    {
+      "question": "How should the synchromesh ring be positioned for measuring?",
+      "answer": "Synchromesh ring must be pressed on slightly for measuring.",
+      "question_type": "procedural",
+      "id": "23-188_manual-t-q05"
+    },
+    {
+      "question": "What is the critical requirement for synchromesh ring contact?",
+      "answer": "Synchromesh rings must have uniform contact on entire surface.",
+      "question_type": "inspection",
+      "id": "23-188_manual-t-q06"
+    },
+    {
+      "question": "What components make up the synchronizer assembly that needs to be disassembled?",
+      "answer": "Thrust piece (1), spring (2) and ball (3).",
+      "question_type": "component",
+      "id": "23-188_manual-t-q07"
+    },
+    {
+      "question": "What alignment requirement must be met during synchronizer installation?",
+      "answer": "Bore (4) in operating sleeve must be aligned with ball (3).",
+      "question_type": "procedural",
+      "id": "23-188_manual-t-q08"
+    },
+    {
+      "question": "Which end of the thrust pieces must face the operating sleeve?",
+      "answer": "Stepped end of thrust pieces faces the operating sleeve.",
+      "question_type": "procedural",
+      "id": "23-188_manual-t-q09"
+    },
+    {
+      "question": "What components have a weaker version in the modified synchronization since 5.85?",
+      "answer": "Thrust pieces (1), springs (2) and balls (3) in weaker version.",
+      "question_type": "factual",
+      "id": "23-188_manual-t-q10"
+    },
+    {
+      "question": "What must face the long collar of the guide sleeve for the 3rd/4th gear guide sleeve?",
+      "answer": "The operating sleeve with the stepped end faces the long collar (4) of the guide sleeve.",
+      "question_type": "procedural",
+      "id": "23-188_manual-t-q11"
+    },
+    {
+      "question": "How far should the guide sleeve be inserted into the operating sleeve initially?",
+      "answer": "Insert guide sleeve in operating sleeve half the distance. Press in balls far enough that the guide sleeve can be pressed into the operating sleeve.",
+      "question_type": "procedural",
+      "id": "23-188_manual-t-q12"
+    }
+  ]
+}

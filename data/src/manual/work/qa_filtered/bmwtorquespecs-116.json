@@ -1,0 +1,55 @@
+{
+  "page_id": "bmwtorquespecs-116",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/116.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:34:43.209592",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 659
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the torque converter to flywheel connection for all transmission types?",
+      "answer": "M8 screw, 26 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-116-q01"
+    },
+    {
+      "question": "What component is being addressed in section 24 40?",
+      "answer": "Torque converter",
+      "question_type": "component",
+      "id": "bmwtorquespecs-116-q04"
+    },
+    {
+      "question": "What is the difference in torque values between the specific A4S/A5S transmission models and all other types for M10 screws?",
+      "answer": "The specific A4S/A5S models require 45 Nm while all others require 49 Nm, a difference of 4 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-116-q05"
+    },
+    {
+      "question": "What transmission models are specifically listed for the 45 Nm torque specification?",
+      "answer": "A4S 270R/A4S 310R/A5S 310Z/A5S 300J/A5S 440Z/A5S 560Z",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-116-q06"
+    },
+    {
+      "question": "What chapter and section number covers the automatic transmission torque specifications?",
+      "answer": "24 - 14 Automatic Transmission",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-116-q09"
+    },
+    {
+      "question": "How many different screw sizes are specified for torque converter connections?",
+      "answer": "Two screw sizes: M8 and M10",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-116-q10"
+    }
+  ]
+}

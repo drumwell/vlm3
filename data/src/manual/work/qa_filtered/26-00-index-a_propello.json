@@ -1,0 +1,55 @@
+{
+  "page_id": "26-00-index-a_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-00-index-a.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:52:57.873436",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1748,
+    "tokens_output": 387
+  },
+  "qa_pairs": [
+    {
+      "question": "What page contains information about propeller shaft vibration and noise elimination?",
+      "answer": "Page 26-1 contains information about propeller shaft vibration and noise elimination.",
+      "question_type": "navigation",
+      "id": "26-00-index-a_propello-q01"
+    },
+    {
+      "question": "Where can I find the procedure for replacing the propeller shaft joint for all wheel drive models?",
+      "answer": "The procedure for replacing the propeller shaft joint (rear) for all wheel drive models can be found on page 26-8.",
+      "question_type": "navigation",
+      "id": "26-00-index-a_propello-q02"
+    },
+    {
+      "question": "What section covers propeller shaft troubleshooting procedures?",
+      "answer": "Propeller shaft troubleshooting procedures are covered on page 26-15.",
+      "question_type": "navigation",
+      "id": "26-00-index-a_propello-q03"
+    },
+    {
+      "question": "Which page shows how to replace the propeller shaft center mount assembly?",
+      "answer": "The procedure to replace the propeller shaft center mount assembly is found on page 26-10.",
+      "question_type": "navigation",
+      "id": "26-00-index-a_propello-q04"
+    },
+    {
+      "question": "What is the service code number for propeller shaft procedures?",
+      "answer": "The service code number for propeller shaft procedures is 26 11 000.",
+      "question_type": "factual",
+      "id": "26-00-index-a_propello-q05"
+    },
+    {
+      "question": "Where can I find information about removing and installing the front propeller shaft?",
+      "answer": "Information about removing and installing the front propeller shaft can be found on page 26-12.",
+      "question_type": "navigation",
+      "id": "26-00-index-a_propello-q06"
+    }
+  ]
+}

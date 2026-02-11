@@ -1,0 +1,79 @@
+{
+  "page_id": "41-211_body",
+  "image_path": "raw/41 - Body/41-211.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:53:13.703528",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 716
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure code covers replacing left or right roof frame with roof panel removed?",
+      "answer": "Procedure code 41 22 501 covers replacing left or right roof frame with roof panel removed.",
+      "question_type": "factual",
+      "id": "41-211_body-q01"
+    },
+    {
+      "question": "What parts need to be removed or disconnected before starting the roof frame replacement?",
+      "answer": "Remove or disconnect the instrument panel trim, grill on bottom of cowl, front door, front bumper, and front side panel.",
+      "question_type": "procedural",
+      "id": "41-211_body-q03"
+    },
+    {
+      "question": "What is the important safety note regarding supporting the car during this procedure?",
+      "answer": "Support car from underneath so that roof frame is without pressure.",
+      "question_type": "safety",
+      "id": "41-211_body-q04"
+    },
+    {
+      "question": "What is the first cutting step in the roof frame removal process?",
+      "answer": "Cut off roof frame along the line as shown in the diagram.",
+      "question_type": "procedural",
+      "id": "41-211_body-q05"
+    },
+    {
+      "question": "What should be done to the welded spots on the roof frame at the front?",
+      "answer": "Drill off welded spots on roof frame at front.",
+      "question_type": "procedural",
+      "id": "41-211_body-q06"
+    },
+    {
+      "question": "What drilling operation is required on the inside of the roof frame?",
+      "answer": "Drill off welded spots on inside of the roof frame.",
+      "question_type": "procedural",
+      "id": "41-211_body-q07"
+    },
+    {
+      "question": "What should be done to the B pillar and plate on roof frame?",
+      "answer": "Cut off B pillar and plate on roof frame, then drill off welded spots.",
+      "question_type": "procedural",
+      "id": "41-211_body-q08"
+    },
+    {
+      "question": "What needs to be drilled off on the left and right roof braces?",
+      "answer": "Drill off left and right roof braces.",
+      "question_type": "procedural",
+      "id": "41-211_body-q09"
+    },
+    {
+      "question": "When are the roof braces installed during the repair process?",
+      "answer": "Roof braces are installed after installation of roof panel.",
+      "question_type": "procedural",
+      "id": "41-211_body-q10"
+    },
+    {
+      "question": "What connection between roof frame and B pillar needs to be cut?",
+      "answer": "Cut off brazed connection between roof frame and B pillar.",
+      "question_type": "procedural",
+      "id": "41-211_body-q11"
+    }
+  ]
+}

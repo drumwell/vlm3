@@ -1,0 +1,82 @@
+{
+  "page_id": "bmwtorquespecs-021",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/021.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:16:18.744735",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 667
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil drain plug?",
+      "answer": "The oil drain plug has two torque specifications: M12 x 1.5 at 25 Nm and M22 x 1.5 at 60 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-021-q01"
+    },
+    {
+      "question": "What are the torque values for mounting the oil pan to the engine block?",
+      "answer": "The oil pan on engine block has two torque specifications: M6 8.8 at 10 Nm and M6 10.9 at 12 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-021-q02"
+    },
+    {
+      "question": "What component is referenced as 1AZ in the oil pan section?",
+      "answer": "1AZ refers to the oil drain plug.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-021-q03"
+    },
+    {
+      "question": "What component is referenced as 2AZ in the oil pan section?",
+      "answer": "2AZ refers to the oil pan on engine block.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-021-q04"
+    },
+    {
+      "question": "What section number covers the engine oil pan specifications?",
+      "answer": "Section 11 13 covers the oil pan specifications.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-021-q05"
+    },
+    {
+      "question": "What is the unit of measurement used for all torque specifications on this page?",
+      "answer": "All torque specifications are measured in Nm (Newton meters).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-021-q06",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What screw size is used for the higher torque oil drain plug specification?",
+      "answer": "The M22 x 1.5 screw size is used for the 60 Nm torque specification.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-021-q07"
+    },
+    {
+      "question": "What screw size is used for the lower torque oil drain plug specification?",
+      "answer": "The M12 x 1.5 screw size is used for the 25 Nm torque specification.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-021-q08"
+    },
+    {
+      "question": "What type designation applies to all the components listed in this oil pan section?",
+      "answer": "All components in this section are designated as type 'All'.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-021-q09"
+    },
+    {
+      "question": "What is the document reference number shown at the top of this page?",
+      "answer": "The document reference number is AZD11-10.frb dated 20/10/97.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-021-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "12-00_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-00.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:20:34.913624",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 931
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you always do when working on the electrical system for TCI and DME?",
+      "answer": "Always disconnect battery or interrupt power supply to ignition control unit and ignition coil when working on the electrical system (charging battery or welding, etc.) - dangerous primary and secondary voltage as well as danger of destroying the ignition system.",
+      "question_type": "safety",
+      "id": "12-00_engine-e-q01"
+    },
+    {
+      "question": "What happens if you start the engine after removing the distributor cap or disconnecting wire on ignition coil term. 4?",
+      "answer": "Never start the engine after removal of distributor cap and/or disconnection of wire on ignition coil term. 4 - pull off plug on ignition control unit.",
+      "question_type": "safety",
+      "id": "12-00_engine-e-q02"
+    },
+    {
+      "question": "When should you never disconnect the battery or leads on the alternator and starter?",
+      "answer": "Never disconnect the battery or leads on the alternator and starter while engine is running.",
+      "question_type": "safety",
+      "id": "12-00_engine-e-q03"
+    },
+    {
+      "question": "What type of parts should be installed for TCI and DME systems?",
+      "answer": "Only install specified original BMW parts.",
+      "question_type": "factual",
+      "id": "12-00_engine-e-q04"
+    },
+    {
+      "question": "Which ignition coil terminal should never have a shielded capacitor or test lamp connected?",
+      "answer": "Never connect a shielded capacitor or test lamp on term. 1 of the ignition coil.",
+      "question_type": "safety",
+      "id": "12-00_engine-e-q05"
+    },
+    {
+      "question": "What is the restriction for connecting ignition coil term. 1 to ground or B+?",
+      "answer": "Never connect wire of ignition coil term. 1 on ground or B+. Consequently the ignition coil term. 1 wire must not be used to prevent engine starting when service installing a burglar alarm system.",
+      "question_type": "safety",
+      "id": "12-00_engine-e-q06"
+    },
+    {
+      "question": "What should you do when checking compression for TCI or DME systems?",
+      "answer": "When checking the compression, pull off plug on control unit for TCI or master relay for fuel injection (relay no. 2) for DME.",
+      "question_type": "procedural",
+      "id": "12-00_engine-e-q07"
+    },
+    {
+      "question": "What is the minimum shielding requirement for the secondary side of the ignition system?",
+      "answer": "The secondary side (high voltage side) of the ignition system must be shielded with at least 4 k-ohms, whereby the original distributor rotor with 1 k-ohm shielded resistor must be installed.",
+      "question_type": "factual",
+      "id": "12-00_engine-e-q08"
+    },
+    {
+      "question": "What distributor rotor resistance should not be used for radio shielding?",
+      "answer": "Do not use a 5 k-ohm distributor rotor for the shielding of radio and/or communication equipment.",
+      "question_type": "factual",
+      "id": "12-00_engine-e-q09"
+    },
+    {
+      "question": "What ignition systems are covered by these working instructions?",
+      "answer": "These instructions are for working on Transistorized Coil-Type Ignition (TCI) and Digital Motor Electronics (DME).",
+      "question_type": "factual",
+      "id": "12-00_engine-e-q10"
+    },
+    {
+      "question": "What are the potential dangers mentioned when working on the electrical system?",
+      "answer": "The dangers include dangerous primary and secondary voltage as well as danger of destroying the ignition system.",
+      "question_type": "safety",
+      "id": "12-00_engine-e-q11"
+    },
+    {
+      "question": "What is the original distributor rotor shielded resistor value?",
+      "answer": "The original distributor rotor has a 1 k-ohm shielded resistor.",
+      "question_type": "factual",
+      "id": "12-00_engine-e-q12"
+    }
+  ]
+}

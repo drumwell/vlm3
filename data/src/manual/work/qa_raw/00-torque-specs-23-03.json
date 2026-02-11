@@ -1,0 +1,82 @@
+{
+  "page_id": "00-torque-specs-23-03",
+  "image_path": "raw/00 - Torque Specs/23-03.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:58:20.165335",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 570
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for transmission case rear/front sections?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q01"
+    },
+    {
+      "question": "What screw size is used for the cover with guide tube/transmission case?",
+      "answer": "M8x22",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q02"
+    },
+    {
+      "question": "What is the torque value for the cover with guide tube/transmission case bolts?",
+      "answer": "18 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q03"
+    },
+    {
+      "question": "Which component has the highest torque specification in section 23.11?",
+      "answer": "The reverse gear shaft on intermediate housing with 49 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q04"
+    },
+    {
+      "question": "What are the two different screw sizes used in the M8 category for this transmission section?",
+      "answer": "M8x22 and M8x30",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q05"
+    },
+    {
+      "question": "What is the torque specification for M6 screws in this transmission section?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q06"
+    },
+    {
+      "question": "What torque value should be applied to the bearing cap/sealing flange?",
+      "answer": "10.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q07"
+    },
+    {
+      "question": "What is the torque specification for the retaining plate for reverse gear shaft on intermediate housing?",
+      "answer": "25 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q08"
+    },
+    {
+      "question": "Which components share the same 25 Nm torque specification?",
+      "answer": "M8x30 screws and the retaining plate for reverse gear shaft on intermediate housing",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-03-q09"
+    },
+    {
+      "question": "What section and subsection number covers the case and covers specifications shown on this page?",
+      "answer": "Section 23-3 Manual transmission, subsection 23.11 Case and Covers",
+      "question_type": "navigation",
+      "id": "00-torque-specs-23-03-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

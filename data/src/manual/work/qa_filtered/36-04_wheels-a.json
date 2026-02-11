@@ -1,0 +1,91 @@
+{
+  "page_id": "36-04_wheels-a",
+  "image_path": "raw/36 - Wheels and Tires/36-04.jpg",
+  "section_id": "36",
+  "section_name": "Wheels and Tires",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:30:46.578639",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 794
+  },
+  "qa_pairs": [
+    {
+      "question": "How should the car be secured during wheel balancing procedures?",
+      "answer": "Secure the car with a steel cable attached to the rear towing eye. The cable must not be tight to avoid wrong measuring values.",
+      "question_type": "procedural",
+      "id": "36-04_wheels-a-q01"
+    },
+    {
+      "question": "Which wheels should be balanced first during the balancing procedure?",
+      "answer": "Balance the wheels on the front axle first.",
+      "question_type": "procedural",
+      "id": "36-04_wheels-a-q02"
+    },
+    {
+      "question": "At what speed and in which gear is wheel balancing performed?",
+      "answer": "Balancing is performed with engine power in fourth gear at 100 km/h (60 mph).",
+      "question_type": "factual",
+      "id": "36-04_wheels-a-q03"
+    },
+    {
+      "question": "What conditions must be met for the engine during wheel balancing?",
+      "answer": "The engine must run smoothly without hesitation, doors, engine hood and trunk lid must be closed and the driver must sit in the car as still as possible.",
+      "question_type": "procedural",
+      "id": "36-04_wheels-a-q04"
+    },
+    {
+      "question": "Where should the chalk mark or adhesive tape be placed on the tire?",
+      "answer": "Paste adhesive tape or make a chalk mark, both 3 to 4 cm (1.18 to 1.575 inches) long, on the outside of the tire being balanced, opposite the valve.",
+      "question_type": "procedural",
+      "id": "36-04_wheels-a-q05"
+    },
+    {
+      "question": "What must not touch the tail panel during balancing?",
+      "answer": "The exhaust extraction hose must not touch the tail panel.",
+      "question_type": "safety",
+      "id": "36-04_wheels-a-q06"
+    },
+    {
+      "question": "What should be done carefully after wheel balancing testing?",
+      "answer": "Brake the wheels carefully after testing.",
+      "question_type": "procedural",
+      "id": "36-04_wheels-a-q07"
+    },
+    {
+      "question": "When should the balance test be repeated?",
+      "answer": "Repeat test after installation of balance weights on the displayed positions.",
+      "question_type": "procedural",
+      "id": "36-04_wheels-a-q08"
+    },
+    {
+      "question": "What is the maximum acceptable imbalance value for finish balancing?",
+      "answer": "If a value of more than 15 grams is displayed for finish balancing of a wheel, the possible causes must be eliminated and the finish balanced wheels rechecked.",
+      "question_type": "factual",
+      "id": "36-04_wheels-a-q09"
+    },
+    {
+      "question": "What equipment is needed to connect for testing during wheel balancing?",
+      "answer": "Connect leads for test sender and balance wheels to operating instructions supplied with pertinent balancing machine.",
+      "question_type": "tool",
+      "id": "36-04_wheels-a-q10"
+    },
+    {
+      "question": "What must be adjusted on the finish balancer before starting?",
+      "answer": "Adjust the correct sensitivity on the finish balancer to the supplied operating instruction prior to balancing.",
+      "question_type": "procedural",
+      "id": "36-04_wheels-a-q11"
+    },
+    {
+      "question": "Can sensitivity settings for wheel balancing be transferred between different vehicles?",
+      "answer": "Since the sensitivity degree for balancing a wheel can not be transferred to a different wheel position or different car, it must be determined separately for each wheel.",
+      "question_type": "factual",
+      "id": "36-04_wheels-a-q12"
+    }
+  ]
+}

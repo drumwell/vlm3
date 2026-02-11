@@ -1,0 +1,67 @@
+{
+  "page_id": "17-01_radiator",
+  "image_path": "raw/17 - Radiator/17-01.jpg",
+  "section_id": "17",
+  "section_name": "Radiator",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:00:30.078161",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 504
+  },
+  "qa_pairs": [
+    {
+      "question": "What does callout number 1 identify in the coolant circuit diagram?",
+      "answer": "Callout number 1 identifies the water pump.",
+      "question_type": "component",
+      "id": "17-01_radiator-q01"
+    },
+    {
+      "question": "What component is labeled as number 8 in this BMW 318i coolant circuit?",
+      "answer": "Number 8 identifies the thermostat.",
+      "question_type": "component",
+      "id": "17-01_radiator-q02"
+    },
+    {
+      "question": "What does the solid black arrow symbol represent in this coolant circuit diagram?",
+      "answer": "The solid black arrow represents the circuit with closed thermostat.",
+      "question_type": "visual",
+      "id": "17-01_radiator-q03"
+    },
+    {
+      "question": "What is the difference between the solid and dashed arrows shown in the legend?",
+      "answer": "The solid black arrow shows circuit with closed thermostat, while the dashed arrow shows circuit with opened thermostat.",
+      "question_type": "visual",
+      "id": "17-01_radiator-q04"
+    },
+    {
+      "question": "Which component connects to the throttle preheating according to callout 9?",
+      "answer": "Callout 9 shows the line that goes to throttle preheating.",
+      "question_type": "component",
+      "id": "17-01_radiator-q05"
+    },
+    {
+      "question": "What does callout number 12 represent in the coolant system?",
+      "answer": "Callout number 12 represents the heater feed.",
+      "question_type": "component",
+      "id": "17-01_radiator-q06"
+    },
+    {
+      "question": "Where does the water pump (component 1) connect in the coolant flow diagram?",
+      "answer": "In the flow diagram, the water pump (component 1) connects between the crankcase (2) and feeds into the main coolant circuit.",
+      "question_type": "procedural",
+      "id": "17-01_radiator-q07"
+    },
+    {
+      "question": "What vehicle model is this coolant circuit diagram specifically for?",
+      "answer": "This coolant circuit diagram is specifically for the BMW 318i.",
+      "question_type": "factual",
+      "id": "17-01_radiator-q08"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "72-115_equipmen",
+  "image_path": "raw/72 - Equipment and Accessories for Body/72-115.jpg",
+  "section_id": "72",
+  "section_name": "Equipment and Accessories for Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:10:42.032448",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 885
+  },
+  "qa_pairs": [
+    {
+      "question": "How many independent activation systems does the automatic reel have for locking the belt?",
+      "answer": "The automatic reel has three independent activation systems for locking the belt.",
+      "question_type": "factual",
+      "id": "72-115_equipmen-q01"
+    },
+    {
+      "question": "What triggers the first activation system in the automatic seat belt?",
+      "answer": "The first activation system should lock the belt when driving fast in tight curves, in case of strong inclination (rolling over), full stop braking or collision. Ball (1) introduces this activation.",
+      "question_type": "procedural",
+      "id": "72-115_equipmen-q02"
+    },
+    {
+      "question": "How should you test the first activation system of the automatic seat belt?",
+      "answer": "To check, set the seat backrest straight and take hold of the steering wheel with both hands in a supporting position. Then stop the car with full stop braking from a speed twice as fast as walking. The seat belt should lock.",
+      "question_type": "procedural",
+      "id": "72-115_equipmen-q03"
+    },
+    {
+      "question": "What is the purpose of the second activation system in the automatic seat belt?",
+      "answer": "The second activation system is provided for additional safety and is controlled by inertia mass (2). This system is also okay, if the reel locks when pulling out the belt suddenly.",
+      "question_type": "factual",
+      "id": "72-115_equipmen-q04"
+    },
+    {
+      "question": "What does component (1) represent in the belt stopper diagram?",
+      "answer": "Component (1) is an eccentrically mounted friction roller that is moved against connector (2) and locks the belt.",
+      "question_type": "visual",
+      "id": "72-115_equipmen-q05"
+    },
+    {
+      "question": "What is the function of the belt stopper system?",
+      "answer": "The belt stopper is the third system and is provided to prevent the film winding effect occurring when the reel is locked and with strong deceleration.",
+      "question_type": "factual",
+      "id": "72-115_equipmen-q06"
+    },
+    {
+      "question": "When should the belt wind up on the reel automatically?",
+      "answer": "The belt should wind up on the reel automatically almost completely when taken off.",
+      "question_type": "procedural",
+      "id": "72-115_equipmen-q07"
+    },
+    {
+      "question": "What should you do if the last section of the belt is not winding up?",
+      "answer": "It might be necessary to guide the last section of the belt to the door beam. If the last section is not wounding up, the return spring (3) could be weak or broken, or there might be excessive friction in the belt guides.",
+      "question_type": "troubleshooting",
+      "id": "72-115_equipmen-q08"
+    },
+    {
+      "question": "What must be done with a seat belt that has been worn in an accident?",
+      "answer": "A seat belt, which is no longer usable or had been worn in an accident, must be destroyed immediately after removal to make it impossible to use it again.",
+      "question_type": "safety",
+      "id": "72-115_equipmen-q09"
+    },
+    {
+      "question": "Does the automatic reel require servicing?",
+      "answer": "The automatic reel does not require servicing and must not be opened.",
+      "question_type": "factual",
+      "id": "72-115_equipmen-q10"
+    },
+    {
+      "question": "When must an automatic seat belt be replaced according to the mounting tab inspection?",
+      "answer": "An automatic seat belt must be replaced if mounting tab (6) is bent or the belt reversing holder is deformed in any (7).",
+      "question_type": "inspection",
+      "id": "72-115_equipmen-q11"
+    },
+    {
+      "question": "What must be done to the front belt reversing holder after installation?",
+      "answer": "The front belt reversing holder must swing after installation.",
+      "question_type": "procedural",
+      "id": "72-115_equipmen-q12"
+    }
+  ]
+}

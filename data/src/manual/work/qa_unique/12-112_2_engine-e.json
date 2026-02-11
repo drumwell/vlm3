@@ -1,0 +1,79 @@
+{
+  "page_id": "12-112_2_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-112_2.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:27:39.816572",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 627
+  },
+  "qa_pairs": [
+    {
+      "question": "What voltage should be measured on pin 18 to ground for the battery positive supply?",
+      "answer": "The voltage should measure approximately 12 V.",
+      "question_type": "diagnostic",
+      "id": "12-112_2_engine-e-q01"
+    },
+    {
+      "question": "What should I check if the voltage on pin 18 is low?",
+      "answer": "Check battery and lead via relay 2 (master relay) to control unit.",
+      "question_type": "troubleshooting",
+      "id": "12-112_2_engine-e-q02"
+    },
+    {
+      "question": "What voltage should pin 37 show with ignition ON?",
+      "answer": "Pin 37 should measure voltage greater than 10 V with ignition ON.",
+      "question_type": "diagnostic",
+      "id": "12-112_2_engine-e-q03"
+    },
+    {
+      "question": "What corrective action should be taken if pin 37 voltage is too low?",
+      "answer": "Check/repair relay 2 (master relay) and electronics ground point.",
+      "question_type": "troubleshooting",
+      "id": "12-112_2_engine-e-q04"
+    },
+    {
+      "question": "How do I test the ground supply connections for the control unit?",
+      "answer": "Measure resistance against battery negative or ground on pins 2, 14, 19, 24 and body ground. Resistance should be less than 1 ohm.",
+      "question_type": "diagnostic",
+      "id": "12-112_2_engine-e-q05"
+    },
+    {
+      "question": "What is the correct resistance specification for the inductive pulse sender?",
+      "answer": "The resistance should be 540 ohms \u00b1 10%.",
+      "question_type": "factual",
+      "id": "12-112_2_engine-e-q06"
+    },
+    {
+      "question": "How should I test the inductive pulse sender signal?",
+      "answer": "Check speed signal (one signal for each revolution) with an oscilloscope.",
+      "question_type": "procedural",
+      "id": "12-112_2_engine-e-q07"
+    },
+    {
+      "question": "What should I do if the pulse sender resistance is out of specification?",
+      "answer": "Repair leads, replacing pulse sender if necessary.",
+      "question_type": "troubleshooting",
+      "id": "12-112_2_engine-e-q08"
+    },
+    {
+      "question": "How do I test the fuel pump relay activation signal?",
+      "answer": "Check speed signal with oscilloscope on pin 3 to ground.",
+      "question_type": "diagnostic",
+      "id": "12-112_2_engine-e-q09"
+    },
+    {
+      "question": "What should I replace if the pulse sender tests okay but there's still no speed signal?",
+      "answer": "If pulse sender (pins 47/48) is okay, replace DME control unit.",
+      "question_type": "troubleshooting",
+      "id": "12-112_2_engine-e-q10"
+    }
+  ]
+}

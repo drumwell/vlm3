@@ -1,0 +1,91 @@
+{
+  "page_id": "23-03b_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-03b.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:23:27.557431",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 834
+  },
+  "qa_pairs": [
+    {
+      "question": "What section should be referenced for transmission removal procedures?",
+      "answer": "See section 23 00 022 for transmission removal procedures.",
+      "question_type": "navigation",
+      "id": "23-03b_manual-t-q01"
+    },
+    {
+      "question": "Where is the BMW code located for transmission identification?",
+      "answer": "The BMW code is die-stamped on the front case section and also marked on the front case section label.",
+      "question_type": "factual",
+      "id": "23-03b_manual-t-q02"
+    },
+    {
+      "question": "What lubricant should be used to coat the transmission input shaft?",
+      "answer": "Coat the transmission input shaft lightly with Molykote GL 261 in the area of splines and guide pins.",
+      "question_type": "tool",
+      "id": "23-03b_manual-t-q03"
+    },
+    {
+      "question": "What should be filled in the lubricating groove during installation?",
+      "answer": "Fill lubricating groove (N) with Molykote Longterm 2.",
+      "question_type": "procedural",
+      "id": "23-03b_manual-t-q04"
+    },
+    {
+      "question": "What components are shown in callout numbers 1, 2, and 3 in the upper right diagram?",
+      "answer": "Callout 1 shows the transfer spring, callout 2 shows the release lever, and callout 3 shows the release mechanism.",
+      "question_type": "visual",
+      "id": "23-03b_manual-t-q05"
+    },
+    {
+      "question": "What is the important step to perform before installing the transmission on ZF S 5-16 models?",
+      "answer": "Mount vent (1) prior to installation of the transmission (red label). Pull vent (1) and sleeve (2) off of the shift shaft, then lift out cap (3) and install vent (1).",
+      "question_type": "procedural",
+      "id": "23-03b_manual-t-q06"
+    },
+    {
+      "question": "What should be checked regarding the shift rod joint installation position?",
+      "answer": "Check the installed position of the shift rod joint - the offset end of the shift rod joint must face right as seen looking forward in the car.",
+      "question_type": "inspection",
+      "id": "23-03b_manual-t-q07"
+    },
+    {
+      "question": "What lubricant should be applied to guides and bearings during installation?",
+      "answer": "Coat guides (F) and bearings (L) lightly with Molykote Longterm 2.",
+      "question_type": "tool",
+      "id": "23-03b_manual-t-q08"
+    },
+    {
+      "question": "What components are identified in the transfer shift rod joint procedure?",
+      "answer": "The procedure shows pushing back the locking sleeve (1) and driving out the dowel pin (2).",
+      "question_type": "visual",
+      "id": "23-03b_manual-t-q09"
+    },
+    {
+      "question": "What important note is given about oil level checking after transmission installation?",
+      "answer": "Transmissions are supplied with oil since 1.86. Consequently it is only necessary to check the oil level after installation of a transmission.",
+      "question_type": "safety",
+      "id": "23-03b_manual-t-q10"
+    },
+    {
+      "question": "What could happen if non-conformance occurs during bearing installation?",
+      "answer": "Non-conformance could cause seizure of the bearing on the guide sleeve.",
+      "question_type": "safety",
+      "id": "23-03b_manual-t-q11"
+    },
+    {
+      "question": "What components are mentioned in the transfer rubber mounts section at the bottom of the page?",
+      "answer": "Transfer rubber mounts, exhaust carrier and backup light switch are shown.",
+      "question_type": "component",
+      "id": "23-03b_manual-t-q12"
+    }
+  ]
+}

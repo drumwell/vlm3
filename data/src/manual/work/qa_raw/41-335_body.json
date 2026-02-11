@@ -1,0 +1,85 @@
+{
+  "page_id": "41-335_body",
+  "image_path": "raw/41 - Body/41-335.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:04:37.748967",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 689
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the upper tail panel connecting joint if applicable?",
+      "answer": "If applicable, tin the upper tail panel connecting joint.",
+      "question_type": "procedural",
+      "id": "41-335_body-q01"
+    },
+    {
+      "question": "What is the important note about the spot welding flange in the rear area of the wheel housing opening?",
+      "answer": "The spot welding flange in the rear area of the wheel housing opening must be crimped on cars beginning with 1988 models or when using wider tires.",
+      "question_type": "factual",
+      "id": "41-335_body-q02"
+    },
+    {
+      "question": "What should you do if necessary when working on the wheel housing opening flange?",
+      "answer": "Compare with opposite side if necessary.",
+      "question_type": "procedural",
+      "id": "41-335_body-q03"
+    },
+    {
+      "question": "What part number is shown in the diagram illustrating the wheel housing flange area?",
+      "answer": "30 41 740",
+      "question_type": "visual",
+      "id": "41-335_body-q04"
+    },
+    {
+      "question": "How should all joints be sealed after body work?",
+      "answer": "Seal all joints with body sealing compound and spray with anti-drumming compound.",
+      "question_type": "procedural",
+      "id": "41-335_body-q05"
+    },
+    {
+      "question": "What specific area should receive anti-drumming compound spray according to the bottom instruction?",
+      "answer": "Spray anti-drumming compound on the side panel/tail panel joint underneath the bumper.",
+      "question_type": "procedural",
+      "id": "41-335_body-q06"
+    },
+    {
+      "question": "What part number corresponds to the image showing the side panel/tail panel joint area?",
+      "answer": "30 41 098",
+      "question_type": "visual",
+      "id": "41-335_body-q08"
+    },
+    {
+      "question": "What part number is associated with the middle image showing joint sealing?",
+      "answer": "30 41 097",
+      "question_type": "visual",
+      "id": "41-335_body-q09"
+    },
+    {
+      "question": "When is crimping of the spot welding flange required?",
+      "answer": "Crimping is required on cars beginning with 1988 models or when using wider tires.",
+      "question_type": "factual",
+      "id": "41-335_body-q10"
+    },
+    {
+      "question": "What two types of compounds are specified for joint treatment?",
+      "answer": "Body sealing compound and anti-drumming compound.",
+      "question_type": "factual",
+      "id": "41-335_body-q11"
+    },
+    {
+      "question": "What page number is shown at the top of this manual page?",
+      "answer": "41-335",
+      "question_type": "navigation",
+      "id": "41-335_body-q12"
+    }
+  ]
+}

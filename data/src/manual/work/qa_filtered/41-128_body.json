@@ -1,0 +1,67 @@
+{
+  "page_id": "41-128_body",
+  "image_path": "raw/41 - Body/41-128.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:49:06.495516",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 690
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done with spot weld mating surfaces that are not accessible for spot welding?",
+      "answer": "Plug spot weld mating surfaces not accessible for spot welding.",
+      "question_type": "procedural",
+      "id": "41-128_body-q01"
+    },
+    {
+      "question": "Where should the gas weld wheel house outside section be inserted?",
+      "answer": "Insert gas weld wheel house outside section on cover for side member.",
+      "question_type": "procedural",
+      "id": "41-128_body-q03"
+    },
+    {
+      "question": "What type of welding is being performed on the wheel house outside section?",
+      "answer": "Gas welding is being performed on the wheel house outside section.",
+      "question_type": "factual",
+      "id": "41-128_body-q05"
+    },
+    {
+      "question": "What component is the wheel house outside section being welded to?",
+      "answer": "The wheel house outside section is being welded to the side member cover.",
+      "question_type": "factual",
+      "id": "41-128_body-q06"
+    },
+    {
+      "question": "What arrows are visible in the second illustration?",
+      "answer": "Two arrows pointing to specific areas where the gas weld wheel house outside section should be inserted on the cover for side member.",
+      "question_type": "visual",
+      "id": "41-128_body-q07"
+    },
+    {
+      "question": "What welding method is recommended when spot welding is not accessible?",
+      "answer": "Plug spot welding is recommended when normal spot welding is not accessible.",
+      "question_type": "procedural",
+      "id": "41-128_body-q08"
+    },
+    {
+      "question": "What body panel component is specifically mentioned in the gas welding instruction?",
+      "answer": "The wheel house outside section is the body panel component mentioned in the gas welding instruction.",
+      "question_type": "component",
+      "id": "41-128_body-q11"
+    },
+    {
+      "question": "What structural element serves as the mounting point for the wheel house outside section?",
+      "answer": "The side member serves as the structural mounting point for the wheel house outside section.",
+      "question_type": "component",
+      "id": "41-128_body-q12"
+    }
+  ]
+}

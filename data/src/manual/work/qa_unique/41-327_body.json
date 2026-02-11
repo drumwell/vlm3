@@ -1,0 +1,73 @@
+{
+  "page_id": "41-327_body",
+  "image_path": "raw/41 - Body/41-327.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:02:48.923718",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 709
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do after mounting the side panel?",
+      "answer": "Mount side panel and mark cutting point.",
+      "question_type": "procedural",
+      "id": "41-327_body-q01"
+    },
+    {
+      "question": "What surface preparation is required for the new side panel before spot welding?",
+      "answer": "Grind mating surfaces on new side panel. Coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-327_body-q02"
+    },
+    {
+      "question": "What is the caution when removing scrap metal on C pillar?",
+      "answer": "Caution! Don't damage end plate on inside.",
+      "question_type": "safety",
+      "id": "41-327_body-q03"
+    },
+    {
+      "question": "How wide should the brace be that you prepare from the new side panel?",
+      "answer": "Prepare an approx. 50 mm (2\") wide brace from a section of the new side panel.",
+      "question_type": "factual",
+      "id": "41-327_body-q04"
+    },
+    {
+      "question": "What drilling procedure is required for the C pillar joint?",
+      "answer": "Drill holes for plug spot welding in C pillar joint.",
+      "question_type": "procedural",
+      "id": "41-327_body-q06"
+    },
+    {
+      "question": "What drilling procedure is required for the entrance joint?",
+      "answer": "Drill holes for plug spot welding in entrance joint.",
+      "question_type": "procedural",
+      "id": "41-327_body-q07"
+    },
+    {
+      "question": "Where should body sealing compound be applied according to the final step?",
+      "answer": "Apply a coat of body sealing compound on the bearing surfaces of the wind guide plate, tank filler neck and wheel opening.",
+      "question_type": "procedural",
+      "id": "41-327_body-q08"
+    },
+    {
+      "question": "What diagram number shows the procedure for removing scrap metal on C pillar?",
+      "answer": "Diagram 30 41 390.",
+      "question_type": "visual",
+      "id": "41-327_body-q09"
+    },
+    {
+      "question": "What type of welding is used to attach the brace to the C pillar?",
+      "answer": "Spot weld the brace into the C pillar.",
+      "question_type": "factual",
+      "id": "41-327_body-q12"
+    }
+  ]
+}

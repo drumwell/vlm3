@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-23-02",
+  "image_path": "raw/00 - Torque Specs/23-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:58:08.909543",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 620
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the transmission to clutch housing bolts?",
+      "answer": "76 Nm using M12 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-02-q01"
+    },
+    {
+      "question": "What size screw is used for the reinforcement plate to transmission connection?",
+      "answer": "M8 screw with a torque specification of 23 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-02-q02"
+    },
+    {
+      "question": "How many different torque specifications are listed for the oil drain plug/filler plug?",
+      "answer": "Two specifications: 50 Nm for all types and 52 Nm specifically for S 6 S 560 G transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-02-q07"
+    },
+    {
+      "question": "What section and subsection does this torque specification table cover?",
+      "answer": "Section 23-2 Manual transmission, subsection 23 00 Transmission Assembly.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-23-02-q08"
+    },
+    {
+      "question": "Which component has the designation 2AZ?",
+      "answer": "Transmission to clutch housing.",
+      "question_type": "component",
+      "id": "00-torque-specs-23-02-q09"
+    }
+  ]
+}

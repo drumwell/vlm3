@@ -1,0 +1,91 @@
+{
+  "page_id": "65-151a_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-151a.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:01:47.391687",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 826
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the four numbered components shown in the plug-in antenna diagram?",
+      "answer": "Component 1 is the sealing grommet, component 2 is the mounting bolt, component 3 is the holder, and component 4 is the bolts used to mount the antenna.",
+      "question_type": "visual",
+      "id": "65-151a_radio-an-q01"
+    },
+    {
+      "question": "What is the first step when installing a plug-in antenna?",
+      "answer": "Insert the sealing grommet (1) first, then mount the antenna with holder (3) and bolts (4), and finally mount the ground wire with bolt (2).",
+      "question_type": "procedural",
+      "id": "65-151a_radio-an-q02"
+    },
+    {
+      "question": "How do you remove the seat cushion on cars with the bolted version?",
+      "answer": "Lift out the seat cushion by pulling off covers and unscrewing bolts on left and right sides.",
+      "question_type": "procedural",
+      "id": "65-151a_radio-an-q03"
+    },
+    {
+      "question": "What should you do with the left and right bolts when removing the backrest?",
+      "answer": "Unscrew the left and right bolts, then pull up and remove the backrest.",
+      "question_type": "procedural",
+      "id": "65-151a_radio-an-q04"
+    },
+    {
+      "question": "Where should the backrest be engaged during installation?",
+      "answer": "Engage the backrest in the upper holder during installation.",
+      "question_type": "procedural",
+      "id": "65-151a_radio-an-q05"
+    },
+    {
+      "question": "What diagram reference number is shown at the bottom left of the antenna illustration?",
+      "answer": "The diagram reference number is 30 65 335.",
+      "question_type": "factual",
+      "id": "65-151a_radio-an-q06"
+    },
+    {
+      "question": "What are the two photograph reference numbers shown in the seat removal images?",
+      "answer": "The photograph reference numbers are 30 52 021 and 30 52 022.",
+      "question_type": "factual",
+      "id": "65-151a_radio-an-q07"
+    },
+    {
+      "question": "What type of antenna installation procedure is being shown in the left diagram?",
+      "answer": "The diagram shows the procedure for installing a plug-in antenna with its mounting components.",
+      "question_type": "factual",
+      "id": "65-151a_radio-an-q08"
+    },
+    {
+      "question": "What is the proper sequence for mounting the plug-in antenna components?",
+      "answer": "First insert the sealing grommet (1), then mount the antenna with holder (3) and bolts (4), and finally mount the ground wire with bolt (2).",
+      "question_type": "procedural",
+      "id": "65-151a_radio-an-q09"
+    },
+    {
+      "question": "What section and page number is this information from?",
+      "answer": "This is page 65-151a from Section 65 covering radio and antenna procedures.",
+      "question_type": "navigation",
+      "id": "65-151a_radio-an-q10"
+    },
+    {
+      "question": "What components need to be removed to access the seat mounting bolts?",
+      "answer": "The covers need to be pulled off to access the bolts on the left and right sides of the seat.",
+      "question_type": "procedural",
+      "id": "65-151a_radio-an-q11"
+    },
+    {
+      "question": "What is the difference between the removal procedures shown in the two photographs?",
+      "answer": "The first photo shows lifting out the seat cushion, while the second photo shows removing the backrest by unscrewing bolts and pulling it up.",
+      "question_type": "visual",
+      "id": "65-151a_radio-an-q12"
+    }
+  ]
+}

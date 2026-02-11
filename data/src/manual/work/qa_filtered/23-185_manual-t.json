@@ -1,0 +1,91 @@
+{
+  "page_id": "23-185_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-185.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:38:38.280042",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 771
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to insert the selector arm?",
+      "answer": "Special Tool 23 1 250 is required to insert the selector arm.",
+      "question_type": "tool",
+      "id": "23-185_manual-t-q01"
+    },
+    {
+      "question": "How should the selector arm be positioned when removing it?",
+      "answer": "Remove the selector arm from above using a roller.",
+      "question_type": "procedural",
+      "id": "23-185_manual-t-q02"
+    },
+    {
+      "question": "What important safety note is given about the locking lever during bearing holder removal?",
+      "answer": "Don't unscrew bolt (6). Locking lever (7) remains on the bearing holder.",
+      "question_type": "safety",
+      "id": "23-185_manual-t-q03"
+    },
+    {
+      "question": "What should be checked during installation regarding the locking lever and thrust pin?",
+      "answer": "Check installed position of locking lever (7) and thrust pin (8).",
+      "question_type": "inspection",
+      "id": "23-185_manual-t-q04"
+    },
+    {
+      "question": "What tools are needed to drive out the grooved ball bearing?",
+      "answer": "Special Tools 23 1 120 and 00 5 500 are needed to drive out the grooved ball bearing.",
+      "question_type": "tool",
+      "id": "23-185_manual-t-q05"
+    },
+    {
+      "question": "Where should the end of spring (3) be positioned?",
+      "answer": "Position end of spring (3) above high spot. Press (don't knock) down selector arm in this position.",
+      "question_type": "procedural",
+      "id": "23-185_manual-t-q06"
+    },
+    {
+      "question": "What components are numbered 4, 5, 6, and 7 in the bearing holder removal diagram?",
+      "answer": "Component 4 is the selector arm, 5 is the bearing holder, 6 is a bolt, and 7 is the locking lever.",
+      "question_type": "visual",
+      "id": "23-185_manual-t-q07"
+    },
+    {
+      "question": "What measurements are shown in the shim thickness example?",
+      "answer": "The example shows A = 20.3 mm (0.799\"), B = 20.0 mm (0.787\"), resulting in shim X = 0.3 mm (0.012\") thick.",
+      "question_type": "factual",
+      "id": "23-185_manual-t-q08"
+    },
+    {
+      "question": "What installation method is specified for the socket head bolt?",
+      "answer": "Mount selector arm with socket head bolt before removing the special tool. Install socket head bolt with bolt cement and specified tightening torque.",
+      "question_type": "procedural",
+      "id": "23-185_manual-t-q09"
+    },
+    {
+      "question": "What important note is given about shim X?",
+      "answer": "Important! Shim X.",
+      "question_type": "safety",
+      "id": "23-185_manual-t-q10"
+    },
+    {
+      "question": "How should the radial oil seal be removed?",
+      "answer": "Lift out radial oil seal.",
+      "question_type": "procedural",
+      "id": "23-185_manual-t-q11"
+    },
+    {
+      "question": "Where can specifications and supply information be found?",
+      "answer": "See Specifications section and Source of Supply: HWB.",
+      "question_type": "navigation",
+      "id": "23-185_manual-t-q12"
+    }
+  ]
+}

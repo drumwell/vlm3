@@ -1,0 +1,85 @@
+{
+  "page_id": "23-318_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-318.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:46:01.292858",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 797
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is referenced for driving on the collar of bearing race faces gear?",
+      "answer": "Special Tool 23 1 030 is referenced for driving on the collar of bearing race faces gear if necessary.",
+      "question_type": "tool",
+      "id": "23-318_manual-t-q02"
+    },
+    {
+      "question": "What should be inserted with grease and what component is pushed on?",
+      "answer": "Insert ball (2) with grease and push on washer (1).",
+      "question_type": "procedural",
+      "id": "23-318_manual-t-q03"
+    },
+    {
+      "question": "What temperature should the ball bearing inner races be heated to during installation?",
+      "answer": "Heat ball bearing inner races to approximately 80\u00b0C (175\u00b0F) with a hot air blower and install on output shaft.",
+      "question_type": "factual",
+      "id": "23-318_manual-t-q04"
+    },
+    {
+      "question": "What must the opening in the bearing inner race engage with?",
+      "answer": "The opening in the bearing inner race must engage in the ball.",
+      "question_type": "procedural",
+      "id": "23-318_manual-t-q05"
+    },
+    {
+      "question": "What should be drawn to make installation of the bearing race easier?",
+      "answer": "Draw line (1) to make installation of bearing race easier.",
+      "question_type": "procedural",
+      "id": "23-318_manual-t-q06"
+    },
+    {
+      "question": "What component should be held in position on the selector shaft with grease?",
+      "answer": "Hold four rollers in position on selector shaft with grease.",
+      "question_type": "procedural",
+      "id": "23-318_manual-t-q07"
+    },
+    {
+      "question": "What should be done while pushing on the selector arm with the long finger facing 3rd/4th gear?",
+      "answer": "Install selector shaft, while pushing on selector arm (3) with long finger facing 3rd/4th gear selector rod.",
+      "question_type": "procedural",
+      "id": "23-318_manual-t-q08"
+    },
+    {
+      "question": "How should the selector shaft be arrested and what fastener is used?",
+      "answer": "Arrest on selector shaft faces selector rail (4). Drive in 6 x 32 mm pin, while counterholding.",
+      "question_type": "procedural",
+      "id": "23-318_manual-t-q09"
+    },
+    {
+      "question": "What callout number indicates the washer in the assembly procedure?",
+      "answer": "Callout number (1) indicates the washer that should be pushed on after inserting the ball with grease.",
+      "question_type": "visual",
+      "id": "23-318_manual-t-q10"
+    },
+    {
+      "question": "What is the important note about the turning lock during installation?",
+      "answer": "The important note states 'Turning lock' and emphasizes that the opening in bearing inner race must engage in ball.",
+      "question_type": "safety",
+      "id": "23-318_manual-t-q11"
+    },
+    {
+      "question": "What callout number identifies the selector rail component?",
+      "answer": "Callout number (4) identifies the selector rail component that the selector shaft faces should be arrested on.",
+      "question_type": "visual",
+      "id": "23-318_manual-t-q12"
+    }
+  ]
+}

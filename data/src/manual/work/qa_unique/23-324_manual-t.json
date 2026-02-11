@@ -1,0 +1,73 @@
+{
+  "page_id": "23-324_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-324.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:47:35.193023",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 758
+  },
+  "qa_pairs": [
+    {
+      "question": "What material coating is applied to all synchromesh rings?",
+      "answer": "All synchromesh rings are identical and coated with molybdenum on the inside.",
+      "question_type": "factual",
+      "id": "23-324_manual-t-q01"
+    },
+    {
+      "question": "What should you check between the synchromesh ring and clutch when measuring in the area of stops?",
+      "answer": "Check distance between synchromesh ring and clutch. Measure in area of stops.",
+      "question_type": "inspection",
+      "id": "23-324_manual-t-q02"
+    },
+    {
+      "question": "What components need to be disassembled from the synchronization unit?",
+      "answer": "Disassemble the pressure piece (1), spring (2), and ball (3) from the synchronization unit.",
+      "question_type": "procedural",
+      "id": "23-324_manual-t-q03"
+    },
+    {
+      "question": "What alignment requirement must be met during installation of the operating sleeve?",
+      "answer": "Bore (4) in operating sleeve must be aligned with ball (3) during installation.",
+      "question_type": "procedural",
+      "id": "23-324_manual-t-q04"
+    },
+    {
+      "question": "What is the proper orientation for the curved surface of pressure pieces during installation?",
+      "answer": "The curved surface of pressure pieces faces the operating sleeve during installation.",
+      "question_type": "procedural",
+      "id": "23-324_manual-t-q05"
+    },
+    {
+      "question": "What is the final step for pressing in the balls during assembly?",
+      "answer": "Press in balls far enough until the guide sleeve can be pressed into the operating sleeve.",
+      "question_type": "procedural",
+      "id": "23-324_manual-t-q07"
+    },
+    {
+      "question": "What should synchromesh rings bear uniformly all around?",
+      "answer": "Synchromesh rings should bear uniformly all around.",
+      "question_type": "inspection",
+      "id": "23-324_manual-t-q10"
+    },
+    {
+      "question": "What components must be installed together according to the installation instructions?",
+      "answer": "Install all springs, pressure pieces and balls together during assembly.",
+      "question_type": "procedural",
+      "id": "23-324_manual-t-q11"
+    },
+    {
+      "question": "What section number is this page part of in the manual?",
+      "answer": "This is section 23 23 505 covering disassembling and assembling complete synchronization with output shaft removed.",
+      "question_type": "navigation",
+      "id": "23-324_manual-t-q12"
+    }
+  ]
+}

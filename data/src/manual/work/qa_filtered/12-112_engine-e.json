@@ -1,0 +1,79 @@
+{
+  "page_id": "12-112_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-112.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:28:12.181081",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 795
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you check the ignition coil wires for during Test 2?",
+      "answer": "Check the wires for tight fit and examine the connection plate and ignition lead contacts for traces of burning, cracks and oxidation.",
+      "question_type": "inspection",
+      "id": "12-112_engine-e-q01"
+    },
+    {
+      "question": "Where can you find the code number for the ignition coil?",
+      "answer": "The code number of the ignition coil can be found in section 12 13 009.",
+      "question_type": "navigation",
+      "id": "12-112_engine-e-q02"
+    },
+    {
+      "question": "What two electrical properties should be checked for the ignition coil's primary and secondary coils?",
+      "answer": "Check resistance (M 06) and inductivity (M 07) of the primary and secondary coils.",
+      "question_type": "diagnostic",
+      "id": "12-112_engine-e-q03"
+    },
+    {
+      "question": "What reference section provides the specifications for ignition coil resistance and inductivity testing?",
+      "answer": "See section 12 13 009 for the resistance and inductivity specifications.",
+      "question_type": "navigation",
+      "id": "12-112_engine-e-q04"
+    },
+    {
+      "question": "What are the two main checks required for spark plugs in Test 3?",
+      "answer": "Check spark plugs for tight fit and leaks, and check the insulator for signs of leakage current.",
+      "question_type": "inspection",
+      "id": "12-112_engine-e-q05"
+    },
+    {
+      "question": "What two spark plug specifications need to be verified during testing?",
+      "answer": "Check spark plug type and electrode gap, and check resistance.",
+      "question_type": "diagnostic",
+      "id": "12-112_engine-e-q06"
+    },
+    {
+      "question": "What component is labeled as number 4 in the diagram?",
+      "answer": "Number 4 indicates a component in the ignition system assembly, visible in the lower portion of the diagram.",
+      "question_type": "visual",
+      "id": "12-112_engine-e-q07"
+    },
+    {
+      "question": "What part number is visible in the diagram for the ignition coil assembly?",
+      "answer": "The part number 630 12 907 is visible for the upper ignition coil assembly, and 630 12 is shown for the lower component.",
+      "question_type": "factual",
+      "id": "12-112_engine-e-q09"
+    },
+    {
+      "question": "What should you look for when checking the spark plug insulator?",
+      "answer": "Check the insulator for signs of leakage current.",
+      "question_type": "inspection",
+      "id": "12-112_engine-e-q10"
+    },
+    {
+      "question": "What does the asterisk notation at the bottom of the page indicate?",
+      "answer": "The asterisk indicates 'See Specifications' for detailed values and parameters.",
+      "question_type": "navigation",
+      "id": "12-112_engine-e-q12"
+    }
+  ]
+}

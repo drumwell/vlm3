@@ -1,0 +1,94 @@
+{
+  "page_id": "23-15_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-15.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:32:18.158610",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 829
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is required to press on the guide sleeve?",
+      "answer": "Special Tool 23 1 290 is required to press on the guide sleeve to fit tight.",
+      "question_type": "tool",
+      "id": "23-15_manual-t-q01"
+    },
+    {
+      "question": "What temperature should the bearing sleeve be heated to before installation?",
+      "answer": "The bearing sleeve should be heated to approximately 80\u00b0C (175\u00b0F) before installation on the output shaft.",
+      "question_type": "procedural",
+      "id": "23-15_manual-t-q02"
+    },
+    {
+      "question": "What is the critical alignment requirement when installing the synchromesh ring?",
+      "answer": "The tabs on the synchromesh ring must be aligned with openings in the guide sleeve while installing.",
+      "question_type": "safety",
+      "id": "23-15_manual-t-q03"
+    },
+    {
+      "question": "What range of circlip thicknesses is available from Parts?",
+      "answer": "Circlips are available from Parts in different thicknesses from 1.7 to 2.0 mm (0.067 to 0.079 inches).",
+      "question_type": "factual",
+      "id": "23-15_manual-t-q04"
+    },
+    {
+      "question": "What components should be installed together as shown in the needle bearing installation step?",
+      "answer": "Install the needle bearing, nickle-plated synchromesh ring and 2nd gear together.",
+      "question_type": "procedural",
+      "id": "23-15_manual-t-q05",
+      "_warnings": [
+        "Self-referential question: 'as shown'"
+      ]
+    },
+    {
+      "question": "What must the collar for the bearing sleeve do on the output shaft?",
+      "answer": "The collar for bearing sleeve on output shaft must protrude slightly, and if necessary, check circlip for proper fit.",
+      "question_type": "inspection",
+      "id": "23-15_manual-t-q06"
+    },
+    {
+      "question": "In what direction should the operating sleeve be moved?",
+      "answer": "Move the operating sleeve in direction of 1st gear.",
+      "question_type": "procedural",
+      "id": "23-15_manual-t-q07"
+    },
+    {
+      "question": "What components are installed in the version with thrust washer?",
+      "answer": "Install thrust washer (1) and ball (2), then heat bearing sleeve (3) without collar to about 80\u00b0C (175\u00b0F) with a hot air blower and install on output shaft.",
+      "question_type": "procedural",
+      "id": "23-15_manual-t-q08"
+    },
+    {
+      "question": "What is the groove orientation for the version with 2 grooves?",
+      "answer": "For the version with 2 grooves, the grooves face 3rd gear.",
+      "question_type": "factual",
+      "id": "23-15_manual-t-q09"
+    },
+    {
+      "question": "What should be checked during the guide sleeve adjustment procedure?",
+      "answer": "Adjust guide sleeve to remove all play, and install circlip (10).",
+      "question_type": "inspection",
+      "id": "23-15_manual-t-q10"
+    },
+    {
+      "question": "What critical step must be performed when pressing on the guide sleeve with Special Tool 23 1 290?",
+      "answer": "Make sure while pressing on that tabs on the synchromesh ring are aligned with openings in the guide sleeve, then install shim and circlip.",
+      "question_type": "safety",
+      "id": "23-15_manual-t-q11"
+    },
+    {
+      "question": "Where should the guide and operating sleeves be installed in relation to the splines?",
+      "answer": "Install guide and operating sleeves on splines with the groove facing 4th gear.",
+      "question_type": "procedural",
+      "id": "23-15_manual-t-q12"
+    }
+  ]
+}

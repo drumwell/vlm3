@@ -1,0 +1,91 @@
+{
+  "page_id": "51-454_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-454.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:28:22.457471",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 802
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do to the plug on the right additional turn signal?",
+      "answer": "Pull off plug (1) on right additional turn signal.",
+      "question_type": "procedural",
+      "id": "51-454_body-equ-q01"
+    },
+    {
+      "question": "What are the three steps for removing the multiple pin plug from the control unit?",
+      "answer": "Push back retainer (1), pull off multiple pin plug (2) on control unit, and disconnect plug (3).",
+      "question_type": "procedural",
+      "id": "51-454_body-equ-q02"
+    },
+    {
+      "question": "What components are identified by numbers 1, 2, and 3 in image 30 64 164?",
+      "answer": "Number 1 identifies plug 1, number 2 identifies plug 2, and number 3 identifies the switch that needs to have plugs pulled off and control unit removed with holders.",
+      "question_type": "visual",
+      "id": "51-454_body-equ-q03"
+    },
+    {
+      "question": "What fasteners need to be removed according to the instructions in multiple images?",
+      "answer": "Various bolts need to be unscrewed, including single bolts in several locations and both bolts in one location.",
+      "question_type": "procedural",
+      "id": "51-454_body-equ-q04"
+    },
+    {
+      "question": "What is the reference number for the image showing the retainer and multiple pin plug removal?",
+      "answer": "The reference number is 30 13 210.",
+      "question_type": "factual",
+      "id": "51-454_body-equ-q05"
+    },
+    {
+      "question": "What should be done after pulling off plugs 1 and 2 on the switch?",
+      "answer": "Remove control unit with holders.",
+      "question_type": "procedural",
+      "id": "51-454_body-equ-q06"
+    },
+    {
+      "question": "Which image shows the procedure for unscrewing both bolts?",
+      "answer": "Image 30 64 162 shows the procedure for unscrewing both bolts.",
+      "question_type": "visual",
+      "id": "51-454_body-equ-q07"
+    },
+    {
+      "question": "What is the first step when working with the multiple pin plug on the control unit?",
+      "answer": "Push back retainer (1).",
+      "question_type": "procedural",
+      "id": "51-454_body-equ-q08"
+    },
+    {
+      "question": "How many different bolt removal procedures are shown in the images?",
+      "answer": "There are multiple bolt removal procedures shown, including single bolt removals and one procedure for removing both bolts.",
+      "question_type": "factual",
+      "id": "51-454_body-equ-q09"
+    },
+    {
+      "question": "What component is being accessed in image 30 64 169?",
+      "answer": "The right additional turn signal where plug (1) needs to be pulled off.",
+      "question_type": "visual",
+      "id": "51-454_body-equ-q10"
+    },
+    {
+      "question": "What is the sequence for disconnecting the control unit plugs?",
+      "answer": "First push back retainer (1), then pull off multiple pin plug (2) on control unit, then disconnect plug (3).",
+      "question_type": "procedural",
+      "id": "51-454_body-equ-q11"
+    },
+    {
+      "question": "Which reference numbers correspond to the bolt removal procedures?",
+      "answer": "Reference numbers 30 64 167, 30 64 166, 30 64 163, and 30 64 162 correspond to various bolt removal procedures.",
+      "question_type": "factual",
+      "id": "51-454_body-equ-q12"
+    }
+  ]
+}

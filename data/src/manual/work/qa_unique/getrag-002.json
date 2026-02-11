@@ -1,0 +1,73 @@
+{
+  "page_id": "getrag-002",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/002.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:41:51.667459",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 784
+  },
+  "qa_pairs": [
+    {
+      "question": "What condition were the bearings in when the front cover was removed?",
+      "answer": "The bearings looked all intact, which was the only good thing found during disassembly.",
+      "question_type": "inspection",
+      "id": "getrag-002-q01"
+    },
+    {
+      "question": "What component is shown disassembled in the top image?",
+      "answer": "The transmission case with the front cover removed, exposing the internal bearings and shafts.",
+      "question_type": "visual",
+      "id": "getrag-002-q03"
+    },
+    {
+      "question": "What parts are visible laid out in the bottom image?",
+      "answer": "The input shaft, various seals, gaskets, and other internal transmission components are displayed on newspaper.",
+      "question_type": "visual",
+      "id": "getrag-002-q04"
+    },
+    {
+      "question": "What needs to be removed from the front housing before proceeding?",
+      "answer": "The main selector shaft detent spring and plunger must be removed first.",
+      "question_type": "procedural",
+      "id": "getrag-002-q05"
+    },
+    {
+      "question": "What overall assessment was made when the front cover came off?",
+      "answer": "The front cover came off good and exposed the bearings, but only the bearings looked intact while one input shaft shim was cracked.",
+      "question_type": "inspection",
+      "id": "getrag-002-q07"
+    },
+    {
+      "question": "What is the next step after removing the front cover?",
+      "answer": "The next step is to remove the main selector shaft detent spring and plunger from the front housing.",
+      "question_type": "procedural",
+      "id": "getrag-002-q08"
+    },
+    {
+      "question": "What can be seen protruding from the transmission case in the top image?",
+      "answer": "Input and output shafts are visible protruding from the opened transmission case.",
+      "question_type": "visual",
+      "id": "getrag-002-q09"
+    },
+    {
+      "question": "What type of damage was observed on the input shaft shim?",
+      "answer": "The shim showed signs of impact damage, appearing cracked as if it had taken a pounding.",
+      "question_type": "inspection",
+      "id": "getrag-002-q10"
+    },
+    {
+      "question": "How should the detent spring and plunger be removed?",
+      "answer": "Use a hammer to pry it out with screwdrivers-type tools to remove the components from the front housing.",
+      "question_type": "procedural",
+      "id": "getrag-002-q11"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "51-800_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-800.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:33:43.724784",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 828
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the different ways the central locking system can be operated?",
+      "answer": "The locks can be operated with: a) the driver's door lock (key turned 45\u00b0), b) the passenger's door lock, c) the trunk lid lock, or d) the catch button on inside of the driver's door.",
+      "question_type": "procedural",
+      "id": "51-800_body-equ-q01"
+    },
+    {
+      "question": "What happens to the locks when the impact switch is activated?",
+      "answer": "The impact switch will unlock all locks automatically in case of a collision.",
+      "question_type": "factual",
+      "id": "51-800_body-equ-q02"
+    },
+    {
+      "question": "How is the unlocking arrest operated?",
+      "answer": "The unlocking arrest can only be operated via the driver's door lock (horizontal lock position).",
+      "question_type": "procedural",
+      "id": "51-800_body-equ-q03"
+    },
+    {
+      "question": "What wire color is used for the Battery + connection on the control unit?",
+      "answer": "The Battery + connection (pin 3) uses a red/black wire.",
+      "question_type": "wiring",
+      "id": "51-800_body-equ-q04"
+    },
+    {
+      "question": "What component is labeled as number 5 in the diagram?",
+      "answer": "Number 5 is the Lock cylinder - driver's door.",
+      "question_type": "visual",
+      "id": "51-800_body-equ-q05"
+    },
+    {
+      "question": "Can the trunk lid be unlocked when the unlocking arrest is operated?",
+      "answer": "Yes, the trunk lid can still be unlocked and locked by turning the key clockwise even with the unlocking arrest operated.",
+      "question_type": "factual",
+      "id": "51-800_body-equ-q06"
+    },
+    {
+      "question": "What is the connector designation for the Control Unit / Impact Switch?",
+      "answer": "The connector designation is 730 51 B23.",
+      "question_type": "connector",
+      "id": "51-800_body-equ-q07"
+    },
+    {
+      "question": "What happens if the central locking system fails?",
+      "answer": "The tank flap can be unlocked manually by moving the locking rod (accessible from the trunk) in case of central locking system failure.",
+      "question_type": "troubleshooting",
+      "id": "51-800_body-equ-q08"
+    },
+    {
+      "question": "Which pins control the driver's and passenger's door locks?",
+      "answer": "Pins 6 and 7 control the driver's and passenger's doors - pin 6 is Inlet I UNLOCKED and pin 7 is Inlet I LOCKED.",
+      "question_type": "wiring",
+      "id": "51-800_body-equ-q09"
+    },
+    {
+      "question": "What special feature does the central locking system have since 9/85 models?",
+      "answer": "Since 9/85 models, the central locking system is equipped with a multiple identifier (overload protector). Frequent operation within a brief period will activate the integrated overload protector, which switches off the system for a short time.",
+      "question_type": "factual",
+      "id": "51-800_body-equ-q10"
+    },
+    {
+      "question": "What component is represented by callout number 8 in the vehicle diagram?",
+      "answer": "Number 8 is the Connection on special equipment plug.",
+      "question_type": "visual",
+      "id": "51-800_body-equ-q11"
+    },
+    {
+      "question": "What restriction applies when the unlocking arrest is operated?",
+      "answer": "The locks cannot be unlocked with the unlocking buttons on the doors when the unlocking arrest is operated.",
+      "question_type": "operation",
+      "id": "51-800_body-equ-q12"
+    }
+  ]
+}

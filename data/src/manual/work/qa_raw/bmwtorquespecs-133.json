@@ -1,0 +1,61 @@
+{
+  "page_id": "bmwtorquespecs-133",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/133.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:37:58.181182",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 508
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for speedometer sender screws?",
+      "answer": "6.6 ... 8.4 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-133-q01"
+    },
+    {
+      "question": "What section does this torque specification table cover?",
+      "answer": "62 - 1 Instruments",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-133-q02"
+    },
+    {
+      "question": "What is the subsection number for Car Electrical System Senders?",
+      "answer": "62 16",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-133-q03"
+    },
+    {
+      "question": "What is the minimum torque value for speedometer sender screws?",
+      "answer": "6.6 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-133-q07"
+    },
+    {
+      "question": "What is the maximum torque value for speedometer sender screws?",
+      "answer": "8.4 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-133-q08"
+    },
+    {
+      "question": "Which component's screws are specified in this torque table?",
+      "answer": "Speedometer sender",
+      "question_type": "component",
+      "id": "bmwtorquespecs-133-q09"
+    },
+    {
+      "question": "What document reference and date appear at the top of this page?",
+      "answer": "AZD62-1.frb 20/10/97",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-133-q10"
+    }
+  ]
+}

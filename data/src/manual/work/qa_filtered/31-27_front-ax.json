@@ -1,0 +1,91 @@
+{
+  "page_id": "31-27_front-ax",
+  "image_path": "raw/31 - Front Axle/31-27.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T05:04:38.209248",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 811
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW part number for replacing bearings for drive pinion with the front axle final drive removed?",
+      "answer": "The part number is 31 52 510.",
+      "question_type": "factual",
+      "id": "31-27_front-ax-q01"
+    },
+    {
+      "question": "Should you replace just one bearing or both bearings when servicing the drive pinion?",
+      "answer": "Always replace both bearings according to the manual instructions.",
+      "question_type": "procedural",
+      "id": "31-27_front-ax-q02"
+    },
+    {
+      "question": "What component is indicated by callout number 3 in the drive pinion assembly diagram?",
+      "answer": "Callout number 3 indicates the tapered roller bearing.",
+      "question_type": "visual",
+      "id": "31-27_front-ax-q03"
+    },
+    {
+      "question": "What special tool is needed to hold the flange when unscrewing the collar nut?",
+      "answer": "Special Tool 23 0 020 is needed to hold the flange while unscrewing the collar nut.",
+      "question_type": "tool",
+      "id": "31-27_front-ax-q04"
+    },
+    {
+      "question": "What should you inspect on the flange when replacing the shaft seal bearing surface?",
+      "answer": "You should check if the shaft seal bearing surface on the flange is scored seriously, and replace the flange if it is damaged.",
+      "question_type": "inspection",
+      "id": "31-27_front-ax-q05"
+    },
+    {
+      "question": "What components are identified by callout numbers 1 and 2 in the assembly diagram?",
+      "answer": "Callout number 1 is the bevel gear and callout number 2 is the bushing.",
+      "question_type": "visual",
+      "id": "31-27_front-ax-q06"
+    },
+    {
+      "question": "Which special tools are required to pull out the shaft seal?",
+      "answer": "Special Tools 00 5 010 and 33 1 309 are required to pull out the shaft seal.",
+      "question_type": "tool",
+      "id": "31-27_front-ax-q07"
+    },
+    {
+      "question": "What type of vise jaws should be used when clamping the drive set?",
+      "answer": "The drive set should be clamped in a vise fitted with aluminum jaws.",
+      "question_type": "procedural",
+      "id": "31-27_front-ax-q08"
+    },
+    {
+      "question": "What important note is given about the surfaces marked 'A' in the drive pinion bearing replacement?",
+      "answer": "Surfaces A are finish machined and you must be careful not to damage them during the procedure.",
+      "question_type": "safety",
+      "id": "31-27_front-ax-q09"
+    },
+    {
+      "question": "What components are indicated by callout numbers 9 and 10 in the assembly?",
+      "answer": "Callout number 9 indicates the shaft seal and callout number 10 indicates the case.",
+      "question_type": "visual",
+      "id": "31-27_front-ax-q10"
+    },
+    {
+      "question": "How should the lockplate be lifted out during disassembly?",
+      "answer": "Lift out the lockplate with a screwdriver.",
+      "question_type": "procedural",
+      "id": "31-27_front-ax-q11"
+    },
+    {
+      "question": "What cross-reference is provided for removing the drive set from the front axle final drive?",
+      "answer": "The cross-reference is 31 52 505 for removing the drive set from the front axle final drive.",
+      "question_type": "navigation",
+      "id": "31-27_front-ax-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "51-111_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-111.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:08:47.262876",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 778
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be used to clean the area to be repaired in the first step?",
+      "answer": "A cement remover should be used to clean the area to be repaired.",
+      "question_type": "procedural",
+      "id": "51-111_body-equ-q01"
+    },
+    {
+      "question": "How long should the cleaned surface dry at room temperature before applying repair material?",
+      "answer": "The cleaned surface should dry at room temperature for about 10 minutes before application of the repair material.",
+      "question_type": "factual",
+      "id": "51-111_body-equ-q02"
+    },
+    {
+      "question": "What grain size should be used to grind down the repair surface?",
+      "answer": "Grain size P 80 should be used to grind down the repair surface.",
+      "question_type": "factual",
+      "id": "51-111_body-equ-q03"
+    },
+    {
+      "question": "What grain size is specified for grinding the damaged surface in V-shape?",
+      "answer": "Grain size P 36 is specified for grinding the damaged surface in V-shape.",
+      "question_type": "factual",
+      "id": "51-111_body-equ-q04"
+    },
+    {
+      "question": "What should be done if damage continues through the plastic?",
+      "answer": "If damage continues through the plastic, clean the back side of the repair surface with a cement remover and grind with grain size P 36.",
+      "question_type": "procedural",
+      "id": "51-111_body-equ-q05"
+    },
+    {
+      "question": "What type of fabric should be cut to size for the repair surface?",
+      "answer": "Glass grid fabric should be cut to size for the repair surface.",
+      "question_type": "factual",
+      "id": "51-111_body-equ-q06"
+    },
+    {
+      "question": "How long should the repair material harden at room temperature in step 7?",
+      "answer": "The repair material should harden at room temperature for about 20 minutes.",
+      "question_type": "factual",
+      "id": "51-111_body-equ-q07"
+    },
+    {
+      "question": "What should be placed above the damaged surface on the front?",
+      "answer": "Aluminum adhesive tape should be pasted above the damaged surface on the front.",
+      "question_type": "procedural",
+      "id": "51-111_body-equ-q08"
+    },
+    {
+      "question": "What grain sizes are specified for the final grinding and smoothing process?",
+      "answer": "Grain size P 80 is specified for grinding down the repaired surface, and grain size P 180 for smoothing.",
+      "question_type": "factual",
+      "id": "51-111_body-equ-q09"
+    },
+    {
+      "question": "According to the important note, why is it necessary to use the specified grain size grinding materials?",
+      "answer": "It is absolutely necessary to use the specified grain size grinding materials in order to guarantee perfect results related to thermal development.",
+      "question_type": "factual",
+      "id": "51-111_body-equ-q10"
+    },
+    {
+      "question": "What should be done with the aluminum adhesive tape after the back repair is complete?",
+      "answer": "Pull off the aluminum adhesive tape and, if necessary, grind down and clean the repaired surface again.",
+      "question_type": "procedural",
+      "id": "51-111_body-equ-q11"
+    },
+    {
+      "question": "How should the repair material be prepared before application?",
+      "answer": "The repair material should be mixed according to the instructions supplied with it.",
+      "question_type": "procedural",
+      "id": "51-111_body-equ-q12"
+    }
+  ]
+}

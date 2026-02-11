@@ -1,0 +1,18 @@
+{
+  "page_id": "31-16_2_front-ax",
+  "image_path": "raw/31 - Front Axle/31-16_2.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:04:29.113090",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 618
+  },
+  "qa_pairs": []
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "11-61_engine",
+  "image_path": "raw/11 - Engine/11-61.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:14:00.543598",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 803
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tools are needed to drive in the pilot bearing?",
+      "answer": "Special Tools 11 2 030 and 00 5 500 are needed to drive in the pilot bearing.",
+      "question_type": "tool",
+      "id": "11-61_engine-q01"
+    },
+    {
+      "question": "How much lubricating grease should be used to fill the bore in the crankshaft?",
+      "answer": "Fill the bore in crankshaft with approximately 1 gram (0.035 oz.) of lubricating grease.",
+      "question_type": "procedural",
+      "id": "11-61_engine-q02"
+    },
+    {
+      "question": "What comes with a replacement crankshaft?",
+      "answer": "A replacement crankshaft is supplied complete with corresponding bearing shells for main and conrod bearings.",
+      "question_type": "factual",
+      "id": "11-61_engine-q03"
+    },
+    {
+      "question": "How can you identify reground crankshafts?",
+      "answer": "Reground crankshafts are marked with stripes of paint.",
+      "question_type": "inspection",
+      "id": "11-61_engine-q04"
+    },
+    {
+      "question": "What are the paint stripe markings for Size 1 and Size 2 Conrod Bearing Journals?",
+      "answer": "Conrod Bearing Journal (A): 1 paint stripe for Size 1, 2 paint stripes for Size 2.",
+      "question_type": "factual",
+      "id": "11-61_engine-q05"
+    },
+    {
+      "question": "Which special tool is used to pull off the transferring sprocket?",
+      "answer": "Pull off sprocket with Special Tool 11 2 000.",
+      "question_type": "tool",
+      "id": "11-61_engine-q07"
+    },
+    {
+      "question": "What do bearing shell numbers 1 and 2 represent in the diagram?",
+      "answer": "1 = Bearing shell 1-2-4-5, 2 = Bearing shell 3 (pilot bearing).",
+      "question_type": "visual",
+      "id": "11-61_engine-q08"
+    },
+    {
+      "question": "What is the installed order for the pilot bearing components in cars with manual transmission?",
+      "answer": "Ball bearing (1), cover (2), felt ring (3) and capsule (4).",
+      "question_type": "procedural",
+      "id": "11-61_engine-q10"
+    },
+    {
+      "question": "What color marks should bearing shells have when installing in the crankcase?",
+      "answer": "Only place bearing shells with 'red' marks in the crankcase (regardless of the old color code mark on the crankcase).",
+      "question_type": "procedural",
+      "id": "11-61_engine-q11"
+    },
+    {
+      "question": "What important limitation exists regarding crankshaft regrinding?",
+      "answer": "Crankshaft is surface treated and may only be reground in the factory.",
+      "question_type": "safety",
+      "id": "11-61_engine-q12"
+    }
+  ]
+}

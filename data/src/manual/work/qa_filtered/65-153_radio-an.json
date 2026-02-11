@@ -1,0 +1,91 @@
+{
+  "page_id": "65-153_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-153.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:02:17.952517",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 729
+  },
+  "qa_pairs": [
+    {
+      "question": "Where should the white wire be plugged in the automatic antenna connection?",
+      "answer": "Plug white wire in \"automatic antenna\" connection and antenna wire (1) in jack of radio.",
+      "question_type": "procedural",
+      "id": "65-153_radio-an-q01"
+    },
+    {
+      "question": "What is the correct distance between the run out antenna and raised trunk lid?",
+      "answer": "A = 18 mm (0.709\"). Distance (A) can be corrected by adjusting antenna on mounting bracket.",
+      "question_type": "factual",
+      "id": "65-153_radio-an-q02"
+    },
+    {
+      "question": "Where should the red wire be connected for the antenna system?",
+      "answer": "Plug red wire in \"SA\" connection (1).",
+      "question_type": "procedural",
+      "id": "65-153_radio-an-q03"
+    },
+    {
+      "question": "What should happen when the radio is turned on during a checking operation?",
+      "answer": "The antenna should run out when radio is turned on.",
+      "question_type": "operation",
+      "id": "65-153_radio-an-q04"
+    },
+    {
+      "question": "What occurs with the antenna when switching off the radio?",
+      "answer": "Antenna will run in when switching off the radio.",
+      "question_type": "operation",
+      "id": "65-153_radio-an-q05"
+    },
+    {
+      "question": "What component is labeled as (1) in the connector diagram?",
+      "answer": "Component (1) in the connector diagram refers to the connection point for the red wire in the \"SA\" connection.",
+      "question_type": "visual",
+      "id": "65-153_radio-an-q06"
+    },
+    {
+      "question": "Can the radio be turned on when the ignition key is in position \"0\"?",
+      "answer": "No, radio cannot be turned on when ignition key is turned to position \"0\".",
+      "question_type": "factual",
+      "id": "65-153_radio-an-q07"
+    },
+    {
+      "question": "How can distance A be corrected if it's not within specification?",
+      "answer": "Distance (A) can be corrected by adjusting antenna on mounting bracket.",
+      "question_type": "procedural",
+      "id": "65-153_radio-an-q08"
+    },
+    {
+      "question": "What part number is shown in the first image?",
+      "answer": "The part number shown is 28 65 023.",
+      "question_type": "factual",
+      "id": "65-153_radio-an-q09"
+    },
+    {
+      "question": "What part number is associated with the antenna distance measurement image?",
+      "answer": "The part number shown is 30 65 111.",
+      "question_type": "factual",
+      "id": "65-153_radio-an-q10"
+    },
+    {
+      "question": "What type of checking operation is described for the antenna system?",
+      "answer": "The checking operation involves verifying that the antenna runs out when radio is turned on and runs in when switching off the radio.",
+      "question_type": "inspection",
+      "id": "65-153_radio-an-q11"
+    },
+    {
+      "question": "What is the measurement unit for the antenna distance specification?",
+      "answer": "The distance is specified as 18 mm, which equals 0.709 inches.",
+      "question_type": "factual",
+      "id": "65-153_radio-an-q12"
+    }
+  ]
+}

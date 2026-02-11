@@ -1,0 +1,67 @@
+{
+  "page_id": "23-183_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-183.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:38:07.087328",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 442
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is labeled as number 5 in the gear set layout?",
+      "answer": "Number 5 is the Input shaft with 4th gear.",
+      "question_type": "component",
+      "id": "23-183_manual-t-q01"
+    },
+    {
+      "question": "Which component is identified by callout number 28?",
+      "answer": "Number 28 is the Reverse gear.",
+      "question_type": "component",
+      "id": "23-183_manual-t-q02"
+    },
+    {
+      "question": "What type of bearing is shown at position 7?",
+      "answer": "Position 7 shows a Needle bearing.",
+      "question_type": "component",
+      "id": "23-183_manual-t-q03"
+    },
+    {
+      "question": "What is the function of component number 37?",
+      "answer": "Component number 37 is the Speedometer drive gear.",
+      "question_type": "factual",
+      "id": "23-183_manual-t-q04"
+    },
+    {
+      "question": "Which gear is located at position 15 in the assembly?",
+      "answer": "Position 15 is the 3rd gear.",
+      "question_type": "component",
+      "id": "23-183_manual-t-q05"
+    },
+    {
+      "question": "What component secures the assembly at position 40?",
+      "answer": "Position 40 is the Lockplate.",
+      "question_type": "component",
+      "id": "23-183_manual-t-q06"
+    },
+    {
+      "question": "How many synchromesh rings are identified in this gear set layout?",
+      "answer": "There are four synchromesh rings identified: positions 6, 20, 23, and 29.",
+      "question_type": "factual",
+      "id": "23-183_manual-t-q07"
+    },
+    {
+      "question": "What is the last component shown in the parts list at position 45?",
+      "answer": "Position 45 is a Bearing.",
+      "question_type": "component",
+      "id": "23-183_manual-t-q08"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "33-07_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-07.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:09:06.298693",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 678
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for removing and installing trailing arm assembly?",
+      "answer": "33 32 000",
+      "question_type": "factual",
+      "id": "33-07_rear-axl-q01"
+    },
+    {
+      "question": "What should be removed first when working on the trailing arm assembly?",
+      "answer": "Remove rear wheel - 36 10 300.",
+      "question_type": "procedural",
+      "id": "33-07_rear-axl-q02"
+    },
+    {
+      "question": "What brake system maintenance is required when removing the parking brake lever?",
+      "answer": "Draw off brake fluid in tank with a syringe reserved exclusively for brake fluids. Remove filter screen sleeve.",
+      "question_type": "procedural",
+      "id": "33-07_rear-axl-q03"
+    },
+    {
+      "question": "What must be done to the brake system during installation after removing the parking brake lever?",
+      "answer": "Add brake fluid and bleed brakes.",
+      "question_type": "procedural",
+      "id": "33-07_rear-axl-q04"
+    },
+    {
+      "question": "What reference number is used for removing the parking brake lever?",
+      "answer": "34 41 000",
+      "question_type": "factual",
+      "id": "33-07_rear-axl-q05"
+    },
+    {
+      "question": "What should be operated before removing the output shaft if necessary?",
+      "answer": "Operate parking brake.",
+      "question_type": "procedural",
+      "id": "33-07_rear-axl-q06"
+    },
+    {
+      "question": "What is the procedure for disconnecting the brake line during installation?",
+      "answer": "Disconnect brake line. Installation: Tightening torque*.",
+      "question_type": "procedural",
+      "id": "33-07_rear-axl-q07"
+    },
+    {
+      "question": "What important step is mentioned when unscrewing the trailing arm on rear axle carrier?",
+      "answer": "First guide in brake bolt for inner bracket. Important! Tighten bolts with car in normal position*.",
+      "question_type": "procedural",
+      "id": "33-07_rear-axl-q08"
+    },
+    {
+      "question": "What components are shown being removed in the support trailing arm procedure?",
+      "answer": "Unscrew shock absorber and lower trailing arm.",
+      "question_type": "visual",
+      "id": "33-07_rear-axl-q09"
+    },
+    {
+      "question": "Where can the tightening torque specifications be found?",
+      "answer": "See Specifications (referenced at bottom of page) and See Specifications of Group 32.",
+      "question_type": "navigation",
+      "id": "33-07_rear-axl-q10"
+    },
+    {
+      "question": "What special positioning requirement is noted when tightening bolts?",
+      "answer": "Tighten bolts with car in normal position.",
+      "question_type": "safety",
+      "id": "33-07_rear-axl-q11"
+    },
+    {
+      "question": "What output shaft procedure reference is mentioned if necessary during removal?",
+      "answer": "If necessary, remove output shaft 33 21 000.",
+      "question_type": "navigation",
+      "id": "33-07_rear-axl-q12"
+    }
+  ]
+}

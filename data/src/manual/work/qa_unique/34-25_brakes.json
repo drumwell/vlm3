@@ -1,0 +1,67 @@
+{
+  "page_id": "34-25_brakes",
+  "image_path": "raw/34 - Brakes/34-25.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:19:28.949077",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 667
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the basis of a braking action according to this ABS system description?",
+      "answer": "The basis of a braking action is the friction between the tires and road surface.",
+      "question_type": "factual",
+      "id": "34-25_brakes-q01"
+    },
+    {
+      "question": "What happens to the frictional force when a wheel is locked with 100% slip?",
+      "answer": "When a wheel is locked with 100% slip, the frictional force will normally be lower than when a wheel is rolling.",
+      "question_type": "factual",
+      "id": "34-25_brakes-q02"
+    },
+    {
+      "question": "What does the ABS control range represent in the diagram?",
+      "answer": "The ABS control range is shown as the shaded area where the transmitted braking force reaches its maximum value, which is also where ABS operates to prevent wheel lock.",
+      "question_type": "visual",
+      "id": "34-25_brakes-q03"
+    },
+    {
+      "question": "What do the letters A through G represent in the diagram legend?",
+      "answer": "A = ABS operating range, B = Braking and lateral force, C = Braking force, D = Lateral force, E = Rolling wheel, F = Slip, G = Locked wheel.",
+      "question_type": "visual",
+      "id": "34-25_brakes-q04"
+    },
+    {
+      "question": "How does ABS control brake pressure to maintain optimal frictional force?",
+      "answer": "The ABS must control the brake pressure in the wheel brake cylinder so that the slip remains in the shaded area, because here the highest frictional force is available.",
+      "question_type": "operation",
+      "id": "34-25_brakes-q05"
+    },
+    {
+      "question": "What factors affect the amount of slip and frictional force according to the manual?",
+      "answer": "The amount of slip and frictional force depend chiefly on the tires (type, treads, rubber composition), the road surface (material, surface condition, wet, ice), the road speed and the slip angle of the wheel.",
+      "question_type": "factual",
+      "id": "34-25_brakes-q06"
+    },
+    {
+      "question": "How does ABS detect and respond to frictional conditions?",
+      "answer": "The ABS detects the frictional conditions between the tires and road surface prevailing at the moment. It automatically adjusts to each change in road surface/tire relation and makes use of the highest coefficient of friction, without the vehicle slips or skids because of wheel lock.",
+      "question_type": "operation",
+      "id": "34-25_brakes-q07"
+    },
+    {
+      "question": "What benefit does ABS provide for lateral cornering force and steering stability?",
+      "answer": "ABS ensures there will be sufficient lateral cornering force to guarantee steering and directional stability by maintaining the slip in the optimal range where both braking and lateral forces are available.",
+      "question_type": "operation",
+      "id": "34-25_brakes-q08"
+    }
+  ]
+}

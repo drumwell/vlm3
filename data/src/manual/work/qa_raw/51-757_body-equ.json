@@ -1,0 +1,91 @@
+{
+  "page_id": "51-757_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-757.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:32:40.116659",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 789
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum temperature for baking the enamel on the rear spoiler?",
+      "answer": "The maximum temperature for baking the enamel is 50\u00b0C (122\u00b0F) - deformation is possible at higher temperatures.",
+      "question_type": "factual",
+      "id": "51-757_body-equ-q01"
+    },
+    {
+      "question": "What type of paint and method should be used for the rear spoiler panel?",
+      "answer": "Use BMW plastic part painting method with BMW acrylic paint + 20% BMW softface additive.",
+      "question_type": "factual",
+      "id": "51-757_body-equ-q02"
+    },
+    {
+      "question": "How should adhesive surfaces be prepared before applying the spoiler?",
+      "answer": "Clean adhesive surfaces with alcohol or cold cleaners by wiping off with a saturated, clean cloth.",
+      "question_type": "procedural",
+      "id": "51-757_body-equ-q03"
+    },
+    {
+      "question": "What is the proper procedure for applying double-sided adhesive tape?",
+      "answer": "Apply and press on double-sided adhesive tape, heating to hand temperature before applying.",
+      "question_type": "procedural",
+      "id": "51-757_body-equ-q04"
+    },
+    {
+      "question": "How long should the spoiler be pressed on after mounting?",
+      "answer": "Pull off plastic sheets and mount the part, pressing it on at least 5 to 10 seconds. The initial adhesion can be improved by heating the body.",
+      "question_type": "procedural",
+      "id": "51-757_body-equ-q05"
+    },
+    {
+      "question": "What are the dimensions for hole position K in the trunk lid?",
+      "answer": "K = 110 mm (4.331\")",
+      "question_type": "factual",
+      "id": "51-757_body-equ-q06"
+    },
+    {
+      "question": "What diameter holes should be drilled for the rear spoiler installation?",
+      "answer": "Drill 7.5 mm (0.295\") dia. holes.",
+      "question_type": "factual",
+      "id": "51-757_body-equ-q07"
+    },
+    {
+      "question": "What is the distance measurement for position A on cars without a standard rear spoiler?",
+      "answer": "A = 565 mm (22.244\")",
+      "question_type": "factual",
+      "id": "51-757_body-equ-q08"
+    },
+    {
+      "question": "How should the holes be finished after drilling?",
+      "answer": "Pull off masking tape carefully. Deburr and coat edges of holes with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "51-757_body-equ-q09"
+    },
+    {
+      "question": "What width masking tape should be used during the drilling process?",
+      "answer": "Install masking tape (approx. 30 mm / 1.181\" wide) across the entire width at distance K to the bottom edge of the trunk lid.",
+      "question_type": "factual",
+      "id": "51-757_body-equ-q10"
+    },
+    {
+      "question": "What should be removed from cars with a standard rear spoiler before installation?",
+      "answer": "Remove plastic nuts in trunk lid and take off standard spoiler.",
+      "question_type": "procedural",
+      "id": "51-757_body-equ-q11"
+    },
+    {
+      "question": "What is shown in the diagram labeled 30 51 540?",
+      "answer": "The diagram shows the rear spoiler component with adhesive strips (1) installation reference.",
+      "question_type": "visual",
+      "id": "51-757_body-equ-q12"
+    }
+  ]
+}

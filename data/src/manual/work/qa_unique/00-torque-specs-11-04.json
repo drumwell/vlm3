@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-11-04",
+  "image_path": "raw/00 - Torque Specs/11-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:37:24.492075",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 510
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of screw head should be used for cylinder head bolt repair work?",
+      "answer": "Only use screws with Torx head",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-04-q03"
+    },
+    {
+      "question": "What procedure should be followed with cylinder head bolts?",
+      "answer": "Replace, wash and oil cylinder head bolts.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-04-q09"
+    }
+  ]
+}

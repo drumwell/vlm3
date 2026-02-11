@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-24-13",
+  "image_path": "raw/00 - Torque Specs/24-13.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:02:20.193229",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 738
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the transmission socket to case on 4HP-22 EH/4HP-24EH/A5S 310Z transmissions?",
+      "answer": "12 Nm with M26 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-13-q01"
+    },
+    {
+      "question": "What torque value should be used for A4S 270R/A4S 310R transmission socket to case connections?",
+      "answer": "14 Nm with M26 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-13-q02"
+    },
+    {
+      "question": "What screw size is used for both transmission types listed for the transmission socket to case connection?",
+      "answer": "M26 screw is used for both transmission types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-13-q03"
+    },
+    {
+      "question": "Which transmission type requires a higher torque specification for the socket to case connection?",
+      "answer": "A4S 270R/A4S 310R requires 14 Nm, which is higher than the 12 Nm required for 4HP-22 EH/4HP-24EH/A5S 310Z.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-13-q04"
+    },
+    {
+      "question": "What section and subsection does this torque specification table belong to?",
+      "answer": "Section 24-13 Automatic Transmission, subsection 24 35 Wire Harness, Shift Elements and Sensor.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-24-13-q05"
+    },
+    {
+      "question": "How many different transmission types are listed for the socket to case torque specification?",
+      "answer": "Two transmission types are listed: 4HP-22 EH/4HP-24EH/A5S 310Z and A4S 270R/A4S 310R.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-13-q08"
+    },
+    {
+      "question": "What is the difference in torque values between the two transmission types?",
+      "answer": "The difference is 2 Nm (14 Nm for A4S 270R/A4S 310R minus 12 Nm for 4HP-22 EH/4HP-24EH/A5S 310Z).",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-13-q09"
+    },
+    {
+      "question": "What component is being fastened according to this torque specification table?",
+      "answer": "Transmission socket to case connection for wire harness, shift elements and sensor applications.",
+      "question_type": "component",
+      "id": "00-torque-specs-24-13-q10"
+    }
+  ]
+}

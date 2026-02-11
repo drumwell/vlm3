@@ -1,0 +1,18 @@
+{
+  "page_id": "getrag-025",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/025.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:47:00.522154",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1883,
+    "tokens_output": 127
+  },
+  "qa_pairs": []
+}

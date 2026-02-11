@@ -1,0 +1,85 @@
+{
+  "page_id": "12-143_2_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-143_2.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:33:38.445204",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 696
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when removing the voltage regulator?",
+      "answer": "Unscrew negative terminal on battery (in trunk).",
+      "question_type": "procedural",
+      "id": "12-143_2_engine-e-q01"
+    },
+    {
+      "question": "What should be removed along with the air cleaner?",
+      "answer": "Take off air cleaner with air flow sensor.",
+      "question_type": "procedural",
+      "id": "12-143_2_engine-e-q02"
+    },
+    {
+      "question": "What is the proper installation sequence for mounting the voltage regulator?",
+      "answer": "Mount regulator at first with one bolt screwed on finger tight, then press alternator to final installed position carefully, install and tighten all bolts.",
+      "question_type": "procedural",
+      "id": "12-143_2_engine-e-q03"
+    },
+    {
+      "question": "What should be checked on the spring contacts during voltage regulator work?",
+      "answer": "Clean contact surfaces and check tension of spring contacts, correcting if necessary.",
+      "question_type": "inspection",
+      "id": "12-143_2_engine-e-q04"
+    },
+    {
+      "question": "How should the voltage regulator bolts be removed?",
+      "answer": "Unscrew bolts and take off voltage regulator carefully.",
+      "question_type": "procedural",
+      "id": "12-143_2_engine-e-q05"
+    },
+    {
+      "question": "What should be inspected on the slip rings?",
+      "answer": "Check slip rings for wear, fine grinding if necessary.",
+      "question_type": "inspection",
+      "id": "12-143_2_engine-e-q06"
+    },
+    {
+      "question": "What should be done with the battery during this procedure?",
+      "answer": "Remove battery. Check gas discharging tank for battery, discharging if necessary - see 61 21 015.",
+      "question_type": "procedural",
+      "id": "12-143_2_engine-e-q08"
+    },
+    {
+      "question": "What reference number should be consulted for battery discharging procedures?",
+      "answer": "See 61 21 015 for battery discharging procedures.",
+      "question_type": "navigation",
+      "id": "12-143_2_engine-e-q09"
+    },
+    {
+      "question": "What component is shown in image 30 61 062?",
+      "answer": "The air cleaner with air flow sensor that needs to be removed.",
+      "question_type": "visual",
+      "id": "12-143_2_engine-e-q10"
+    },
+    {
+      "question": "What is shown in image M 21 12 078?",
+      "answer": "The voltage regulator installation showing the mounting position and bolt configuration.",
+      "question_type": "visual",
+      "id": "12-143_2_engine-e-q11"
+    },
+    {
+      "question": "What does image M 21 12 080 demonstrate?",
+      "answer": "The slip rings that should be checked for wear and fine grinding if necessary.",
+      "question_type": "visual",
+      "id": "12-143_2_engine-e-q12"
+    }
+  ]
+}

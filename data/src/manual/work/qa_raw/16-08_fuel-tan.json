@@ -1,0 +1,91 @@
+{
+  "page_id": "16-08_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-08.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:59:28.471986",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 722
+  },
+  "qa_pairs": [
+    {
+      "question": "How much gasoline should you draw off from a full fuel tank before beginning fuel intake removal?",
+      "answer": "Draw off about 10 liters (10 quarts) of gasoline from a full fuel tank with a scavenging pump or unscrew plug and drain this amount.",
+      "question_type": "procedural",
+      "id": "16-08_fuel-tan-q01"
+    },
+    {
+      "question": "What safety precaution is mentioned when draining fuel from the tank?",
+      "answer": "Conform with safety precautions and pertinent country legislation.",
+      "question_type": "safety",
+      "id": "16-08_fuel-tan-q02"
+    },
+    {
+      "question": "What is the first step in removing the fuel intake for pre-1988 models?",
+      "answer": "Pull up rear seat cushion (1) and take off insulation sheet.",
+      "question_type": "procedural",
+      "id": "16-08_fuel-tan-q03"
+    },
+    {
+      "question": "What components are shown numbered 1-5 in the fuel pump removal diagram?",
+      "answer": "The diagram shows the fuel pump assembly with numbered components including hoses (1 and 3), the pump unit (2), cover (3), and additional connections (4 and 5).",
+      "question_type": "visual",
+      "id": "16-08_fuel-tan-q04"
+    },
+    {
+      "question": "What should you use when installing new hose connections?",
+      "answer": "Use new hose clamps for installation.",
+      "question_type": "procedural",
+      "id": "16-08_fuel-tan-q05"
+    },
+    {
+      "question": "How should you remove the fuel level sender?",
+      "answer": "Loosen and pull out fuel level sender slowly.",
+      "question_type": "procedural",
+      "id": "16-08_fuel-tan-q06"
+    },
+    {
+      "question": "What seal should be used during fuel level sender installation?",
+      "answer": "Use a new seal for installation.",
+      "question_type": "procedural",
+      "id": "16-08_fuel-tan-q07"
+    },
+    {
+      "question": "What terminals should you measure resistance on when checking the fuel level sender?",
+      "answer": "Measure resistance on terminals 31 and G with float in both 'EMPTY' and 'FULL' positions.",
+      "question_type": "diagnostic",
+      "id": "16-08_fuel-tan-q08"
+    },
+    {
+      "question": "What does terminal G represent in the fuel level sender circuit?",
+      "answer": "G = Sender resistance.",
+      "question_type": "wiring",
+      "id": "16-08_fuel-tan-q09"
+    },
+    {
+      "question": "What does terminal W represent in the fuel level sender circuit?",
+      "answer": "W = Warning lamp.",
+      "question_type": "wiring",
+      "id": "16-08_fuel-tan-q10"
+    },
+    {
+      "question": "What should you check during fuel transfer pump testing?",
+      "answer": "Measure power consumption of pump. If necessary, check the delivery pressure.",
+      "question_type": "diagnostic",
+      "id": "16-08_fuel-tan-q11"
+    },
+    {
+      "question": "What direction should you turn the fuel intake during removal?",
+      "answer": "Turn fuel intake counterclockwise and pull out carefully.",
+      "question_type": "procedural",
+      "id": "16-08_fuel-tan-q12"
+    }
+  ]
+}

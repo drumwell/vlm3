@@ -1,0 +1,61 @@
+{
+  "page_id": "16-00_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-00.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:57:36.432809",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1755,
+    "tokens_output": 449
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component is labeled as number 8 in the fuel tank system?",
+      "answer": "Component number 8 is the Fuel tank.",
+      "question_type": "component",
+      "id": "16-00_fuel-tan-q02"
+    },
+    {
+      "question": "What is the function of component 4 according to the diagram?",
+      "answer": "Component 4 is the Electric fuel pump.",
+      "question_type": "component",
+      "id": "16-00_fuel-tan-q03"
+    },
+    {
+      "question": "Where is the fuel level transmitter located in this system?",
+      "answer": "The fuel level transmitter is component number 5, located in the fuel tank assembly.",
+      "question_type": "factual",
+      "id": "16-00_fuel-tan-q04"
+    },
+    {
+      "question": "What does the diagram indicate component 12 is used for?",
+      "answer": "Component 12 is the Vent for right tank chamber.",
+      "question_type": "component",
+      "id": "16-00_fuel-tan-q05"
+    },
+    {
+      "question": "Which component connects to the carbon canister according to this diagram?",
+      "answer": "Component 7 connects to the carbon canister.",
+      "question_type": "factual",
+      "id": "16-00_fuel-tan-q06"
+    },
+    {
+      "question": "What is component 6 identified as in the fuel supply system?",
+      "answer": "Component 6 is the Diaphragm damper.",
+      "question_type": "component",
+      "id": "16-00_fuel-tan-q07"
+    },
+    {
+      "question": "What model years does this fuel supply diagram apply to?",
+      "answer": "This fuel supply diagram applies to before 1988 models.",
+      "question_type": "factual",
+      "id": "16-00_fuel-tan-q08"
+    }
+  ]
+}

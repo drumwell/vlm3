@@ -1,0 +1,91 @@
+{
+  "page_id": "-006",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/006.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:03:57.293015",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 740
+  },
+  "qa_pairs": [
+    {
+      "question": "What specific procedure is being described for the 2nd gear and inner roller race removal?",
+      "answer": "The procedure involves pressing the 2nd gear and inner roller race off, with the weight being taken by the sides of the teeth.",
+      "question_type": "procedural",
+      "id": "-006-q01"
+    },
+    {
+      "question": "How much force was required to get the component moving during this procedure?",
+      "answer": "4.5 tons of force was required to get it moving.",
+      "question_type": "factual",
+      "id": "-006-q02"
+    },
+    {
+      "question": "What was the concern regarding the teeth during this removal process?",
+      "answer": "The concern was hoping that the teeth did not break off during the removal process.",
+      "question_type": "safety",
+      "id": "-006-q03"
+    },
+    {
+      "question": "What component is visible in the center of the image?",
+      "answer": "A transmission shaft with gears and splined sections is visible in the center of the image.",
+      "question_type": "visual",
+      "id": "-006-q04"
+    },
+    {
+      "question": "What happened to the teeth during the actual removal process?",
+      "answer": "No teeth were broken during the removal process, which was a relief as mentioned in the text.",
+      "question_type": "factual",
+      "id": "-006-q05"
+    },
+    {
+      "question": "Where should the weight be supported when pressing off the 2nd gear and inner roller race?",
+      "answer": "The weight should be taken by the sides of the teeth.",
+      "question_type": "procedural",
+      "id": "-006-q06"
+    },
+    {
+      "question": "What type of tool appears to have been used based on the force measurement mentioned?",
+      "answer": "A press capable of applying 4.5 tons of force was used for this removal procedure.",
+      "question_type": "tool",
+      "id": "-006-q07"
+    },
+    {
+      "question": "How many attempts were made at this procedure according to the text?",
+      "answer": "The text indicates they had a few goes at it, suggesting multiple attempts were made.",
+      "question_type": "factual",
+      "id": "-006-q08"
+    },
+    {
+      "question": "What is the condition of the shaft shown in the image?",
+      "answer": "The shaft appears to be in good condition with clean, machined surfaces and intact splined sections.",
+      "question_type": "visual",
+      "id": "-006-q09"
+    },
+    {
+      "question": "What was the outcome regarding potential damage during this procedure?",
+      "answer": "The procedure was successful with no teeth broken, despite the concern that they might break off.",
+      "question_type": "factual",
+      "id": "-006-q10"
+    },
+    {
+      "question": "What type of surface is the component resting on in the image?",
+      "answer": "The component is resting on a colorful striped cloth or towel surface.",
+      "question_type": "visual",
+      "id": "-006-q11"
+    },
+    {
+      "question": "What was the mechanic's emotional response to completing this procedure successfully?",
+      "answer": "The mechanic was really glad that no teeth were broken during the process.",
+      "question_type": "factual",
+      "id": "-006-q12"
+    }
+  ]
+}

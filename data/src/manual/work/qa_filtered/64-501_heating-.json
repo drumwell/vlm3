@@ -1,0 +1,91 @@
+{
+  "page_id": "64-501_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-501.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:58:09.157894",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 735
+  },
+  "qa_pairs": [
+    {
+      "question": "How many bolts need to be unscrewed in the first step?",
+      "answer": "Four bolts need to be unscrewed (bolts 1 through 4).",
+      "question_type": "factual",
+      "id": "64-501_heating--q01"
+    },
+    {
+      "question": "What should be done immediately after disconnecting both pipes?",
+      "answer": "Insert plugs in open connections immediately to prevent contamination.",
+      "question_type": "procedural",
+      "id": "64-501_heating--q02"
+    },
+    {
+      "question": "What component is shown being removed with the foam rubber cover?",
+      "answer": "The evaporator is being pulled out of its housing after removing the foam rubber cover.",
+      "question_type": "visual",
+      "id": "64-501_heating--q03"
+    },
+    {
+      "question": "What tool is needed to counterhold the expansion valve during disconnection?",
+      "answer": "A wrench is needed to counterhold on the expansion valve.",
+      "question_type": "tool",
+      "id": "64-501_heating--q04"
+    },
+    {
+      "question": "What must be replaced during installation according to the instructions?",
+      "answer": "The seals must be replaced during installation.",
+      "question_type": "factual",
+      "id": "64-501_heating--q05"
+    },
+    {
+      "question": "What is the sequence for removing the evaporator housing components?",
+      "answer": "First unscrew bolts 1-4 and take off cover 5, then take off foam rubber cover 1 and pull evaporator out of housing.",
+      "question_type": "procedural",
+      "id": "64-501_heating--q06"
+    },
+    {
+      "question": "What callout numbers are visible in the first diagram?",
+      "answer": "The first diagram shows callout numbers 1, 2, 3, 4, and 5.",
+      "question_type": "visual",
+      "id": "64-501_heating--q07"
+    },
+    {
+      "question": "What special procedure is noted for straightening the evaporator fins?",
+      "answer": "Straighten bent fins on evaporator with help of special comb (1).",
+      "question_type": "inspection",
+      "id": "64-501_heating--q08"
+    },
+    {
+      "question": "Where can the tightening torque specification be found?",
+      "answer": "The tightening torque specification can be found in the Specifications section, as indicated by the asterisk reference.",
+      "question_type": "navigation",
+      "id": "64-501_heating--q09"
+    },
+    {
+      "question": "What is the diagram reference number for the evaporator removal procedure?",
+      "answer": "The diagram reference number is 30 64 139.",
+      "question_type": "factual",
+      "id": "64-501_heating--q10"
+    },
+    {
+      "question": "What safety precaution should be taken when working with the expansion valve?",
+      "answer": "Use a wrench to counterhold on the expansion valve to prevent damage during pipe disconnection.",
+      "question_type": "safety",
+      "id": "64-501_heating--q11"
+    },
+    {
+      "question": "What component requires the use of a special comb tool?",
+      "answer": "A special comb is used to straighten bent fins on the evaporator.",
+      "question_type": "tool",
+      "id": "64-501_heating--q12"
+    }
+  ]
+}

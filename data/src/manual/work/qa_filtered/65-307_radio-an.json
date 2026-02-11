@@ -1,0 +1,91 @@
+{
+  "page_id": "65-307_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-307.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:04:32.272440",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 890
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the operating speed range of the electronic cruise control system?",
+      "answer": "The electronic cruise control operates in a range from approximately 45 km/h (28 mph) to almost top speed.",
+      "question_type": "factual",
+      "id": "65-307_radio-an-q01"
+    },
+    {
+      "question": "What tolerance does the cruise control system maintain for the stored road speed?",
+      "answer": "The system regulates the car's speed to a stored road speed with a tolerance of approximately 2 km/h (1 mph).",
+      "question_type": "factual",
+      "id": "65-307_radio-an-q02"
+    },
+    {
+      "question": "At what percentage below the set road speed does the cruise control system stop operating?",
+      "answer": "The system stops when the actual road speed drops below the set road speed by about 15%.",
+      "question_type": "factual",
+      "id": "65-307_radio-an-q03"
+    },
+    {
+      "question": "What happens when the actual road speed increases by 6 to 8 km/h over the set speed?",
+      "answer": "A quick action clutch opens and the throttle moves into idle position. The clutch closes and the system operates again when the car reaches the set road speed.",
+      "question_type": "operation",
+      "id": "65-307_radio-an-q04"
+    },
+    {
+      "question": "How should the gap (A) be adjusted with the throttle closed and operating motor unactivated?",
+      "answer": "With throttle closed and operating motor unactivated (engine running at idle speed), adjust gap (A) to 1 to 2 mm (0.040 to 0.080 inches) on knurled nut (1).",
+      "question_type": "procedural",
+      "id": "65-307_radio-an-q05"
+    },
+    {
+      "question": "What components are shown in the cable routing diagram numbered 1, 2, and 3?",
+      "answer": "Component 1 is the holder for cable (BMW 525 only), component 2 is the clamp inserted in holder, and component 3 is the white nipple bearing where the cable connects.",
+      "question_type": "visual",
+      "id": "65-307_radio-an-q06"
+    },
+    {
+      "question": "What does the 'Brief Tipping to CONSTANT (4)' function do?",
+      "answer": "Instantaneous road speed is maintained and stored in memory.",
+      "question_type": "operation",
+      "id": "65-307_radio-an-q07"
+    },
+    {
+      "question": "What happens when holding the lever in CONSTANT position?",
+      "answer": "Car accelerates until desired road speed is reached; release lever. Reached road speed is maintained and stored in memory.",
+      "question_type": "operation",
+      "id": "65-307_radio-an-q08"
+    },
+    {
+      "question": "What occurs when pulling the lever to CALL (2) position?",
+      "answer": "The control unit accelerates car to a previously stored road speed when lever is pulled in CALL direction.",
+      "question_type": "operation",
+      "id": "65-307_radio-an-q09"
+    },
+    {
+      "question": "How is the cruise control switched off and what happens to stored values?",
+      "answer": "Cruise control is switched off by moving the lever Up - Down OFF (1/3). Stored value is cancelled only after turning off the ignition.",
+      "question_type": "operation",
+      "id": "65-307_radio-an-q10"
+    },
+    {
+      "question": "Which BMW model requires the cable holder attachment mentioned in the instructions?",
+      "answer": "Only BMW 525 requires attaching holder (1) for cable.",
+      "question_type": "factual",
+      "id": "65-307_radio-an-q11"
+    },
+    {
+      "question": "What is the purpose of the 15% speed drop protection mentioned in the operation section?",
+      "answer": "This measure is provided to protect the engine against overloads from, for example, uphill trailer hauling.",
+      "question_type": "operation",
+      "id": "65-307_radio-an-q12"
+    }
+  ]
+}

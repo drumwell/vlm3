@@ -1,0 +1,79 @@
+{
+  "page_id": "13-853_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-853.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:53:20.854015",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 744
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check if fuel pressure is too low or zero?",
+      "answer": "Check fuel pressure with BMW service test unit / test step M 19. If fuel pressure is not okay, check fuel filter, fuel line and pressure regulator.",
+      "question_type": "diagnostic",
+      "id": "13-853_fuel-sys-q01"
+    },
+    {
+      "question": "What causes fuel pressure to be too high?",
+      "answer": "Check fuel pressure with BMW service test unit / test step M 19. If fuel pressure is not okay, check pressure regulator and fuel line.",
+      "question_type": "troubleshooting",
+      "id": "13-853_fuel-sys-q02"
+    },
+    {
+      "question": "How do I test the cold start valve if it doesn't open?",
+      "answer": "Remove cold start valve (fuel line remains connected). Plug Jetronic test lead 61 1 440 on cold start valve and connect with B + and ground. Hold cold start valve in measuring glass I3 3 020. Pull off plug on control relay. Connect conn. 87a on disconnected control relay socket with B + (fuel pump runs). Cold start valve must eject fuel correctly.",
+      "question_type": "procedural",
+      "id": "13-853_fuel-sys-q03"
+    },
+    {
+      "question": "What should I do if the cold start valve doesn't eject fuel?",
+      "answer": "Replace cold start valve.",
+      "question_type": "procedural",
+      "id": "13-853_fuel-sys-q04"
+    },
+    {
+      "question": "How do I check the power supply of the cold start valve?",
+      "answer": "Pull off plug on cold start valve. Connect voltmeter (M 01) between conn. 29 on disconnected plug and ground. Start engine. There should be battery voltage while starting.",
+      "question_type": "diagnostic",
+      "id": "13-853_fuel-sys-q05"
+    },
+    {
+      "question": "What should I do if there's no voltage at the cold start valve?",
+      "answer": "Provide power supply, check wire with ohmmeter (see wiring diagram).",
+      "question_type": "troubleshooting",
+      "id": "13-853_fuel-sys-q06"
+    },
+    {
+      "question": "How do I test the temperature time switch?",
+      "answer": "Pull off plug on temp. time switch. Connect Jetronic test lead 61 1 440 on temperature time switch. Measure resistance betw. red wire (term. W) and black wire (term. G), red wire (term. W) and ground as well as black wire (term. G) and ground with ohmmeter.",
+      "question_type": "diagnostic",
+      "id": "13-853_fuel-sys-q07"
+    },
+    {
+      "question": "What should I do if the temperature time switch resistance values are not okay?",
+      "answer": "Replace temperature time switch.",
+      "question_type": "procedural",
+      "id": "13-853_fuel-sys-q08"
+    },
+    {
+      "question": "What test equipment is needed for checking fuel pressure?",
+      "answer": "BMW service test unit / test step M 19.",
+      "question_type": "tool",
+      "id": "13-853_fuel-sys-q09"
+    },
+    {
+      "question": "What reference should I check for resistance specifications?",
+      "answer": "See Specifications and Nominal Value Microfiche.",
+      "question_type": "navigation",
+      "id": "13-853_fuel-sys-q10"
+    }
+  ]
+}

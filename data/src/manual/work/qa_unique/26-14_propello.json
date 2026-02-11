@@ -1,0 +1,73 @@
+{
+  "page_id": "26-14_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-14.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:57:07.346303",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 754
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the joint disc for the front propeller shaft on all wheel drive vehicles?",
+      "answer": "The procedure number is 26 20 051.",
+      "question_type": "factual",
+      "id": "26-14_propello-q01"
+    },
+    {
+      "question": "How many bolts need to be removed when replacing the joint disc for the front propeller shaft?",
+      "answer": "Remove all six bolts.",
+      "question_type": "procedural",
+      "id": "26-14_propello-q02"
+    },
+    {
+      "question": "What important instruction is given regarding the tightening torque when installing the stop nuts?",
+      "answer": "Replace stop nuts and apply the tightening torque. It's marked as 'Important!' that you only turn nuts on flange end whenever possible by design, to avoid tension in joint disc.",
+      "question_type": "procedural",
+      "id": "26-14_propello-q03"
+    },
+    {
+      "question": "What should be done with the propeller shaft before removing the joint disc?",
+      "answer": "Push back propeller shaft, then remove joint disc with centering disc.",
+      "question_type": "procedural",
+      "id": "26-14_propello-q04"
+    },
+    {
+      "question": "What direction should the joint disc arrows face during installation?",
+      "answer": "Install joint disc so that arrows face flange arms.",
+      "question_type": "procedural",
+      "id": "26-14_propello-q06"
+    },
+    {
+      "question": "What should be done with the cap on the power divider after finishing installation?",
+      "answer": "Slide cap on to power divider after finishing installation.",
+      "question_type": "procedural",
+      "id": "26-14_propello-q07"
+    },
+    {
+      "question": "What image numbers are shown for the joint disc replacement procedure?",
+      "answer": "The image numbers shown are 30 26 030, 30 26 031, 30 26 032, 30 26 033, 30 26 034, and 30 26 035.",
+      "question_type": "visual",
+      "id": "26-14_propello-q09"
+    },
+    {
+      "question": "Why is it important to only turn nuts on the flange end when possible?",
+      "answer": "To avoid tension in the joint disc, as noted in the important instruction.",
+      "question_type": "safety",
+      "id": "26-14_propello-q10"
+    },
+    {
+      "question": "What component is used together with the joint disc during installation?",
+      "answer": "The centering disc is used together with the joint disc and must be mounted on the flange of the propeller shaft.",
+      "question_type": "component",
+      "id": "26-14_propello-q12"
+    }
+  ]
+}

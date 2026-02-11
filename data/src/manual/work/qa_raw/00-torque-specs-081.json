@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-081",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/081.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:31:21.025209",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 691
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the fuel tank to body screw on all models?",
+      "answer": "23 Nm (ft. lbs.) with M8 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-081-q01"
+    },
+    {
+      "question": "How much torque should be applied to the fuel tank nut on the E30 model?",
+      "answer": "25 Nm (ft. lbs.) with M8 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-081-q02"
+    },
+    {
+      "question": "What is the torque difference between the E30 and E24 fuel tank nuts?",
+      "answer": "The E30 requires 25 Nm (ft. lbs.) while the E24 requires 45 Nm (ft. lbs.), both using M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-081-q03"
+    },
+    {
+      "question": "What torque specification is required for the retaining strap on the E39?",
+      "answer": "23 Nm (ft. lbs.) with M8 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-081-q04"
+    },
+    {
+      "question": "How much torque is specified for the connecting pipe to fuel tank on the E30?",
+      "answer": "25 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-081-q05"
+    },
+    {
+      "question": "What is the torque specification for the heat shield to fuel tank on the E30 model?",
+      "answer": "8.5 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-081-q06"
+    },
+    {
+      "question": "How does the heat shield torque specification differ between E24 and E31 models?",
+      "answer": "The E24 requires 1.0 Nm (ft. lbs.) while the E31 requires 3 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-081-q07"
+    },
+    {
+      "question": "What torque should be applied to the drain plug on the fuel tank for all models?",
+      "answer": "25 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-081-q08"
+    },
+    {
+      "question": "Which component has the lowest torque specification shown in this fuel tank section?",
+      "answer": "The heat shield to fuel tank on the E24 model at 1.0 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-081-q09"
+    },
+    {
+      "question": "What is the torque specification for the retaining strap that doesn't specify a model type?",
+      "answer": "8 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-081-q10"
+    }
+  ]
+}

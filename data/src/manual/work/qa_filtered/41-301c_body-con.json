@@ -1,0 +1,85 @@
+{
+  "page_id": "41-301c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-301c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:55:15.570892",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 779
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main procedure covered in section 41 35 110?",
+      "answer": "Replacing the right rear side panel on convertible models.",
+      "question_type": "factual",
+      "id": "41-301c_body-con-q01"
+    },
+    {
+      "question": "What reference page should be consulted before beginning this repair?",
+      "answer": "Page 41-001 for information on removing or covering car parts in the repair area.",
+      "question_type": "navigation",
+      "id": "41-301c_body-con-q02"
+    },
+    {
+      "question": "What should be done to protect car parts during this repair procedure?",
+      "answer": "Remove or cover up all car parts which are located in the repair area or subjected to heat, sparks and dust.",
+      "question_type": "safety",
+      "id": "41-301c_body-con-q03"
+    },
+    {
+      "question": "What is the first step shown in the procedural images for removing spot welds?",
+      "answer": "Uncover and drill out spot welds as shown in the various locations on the side panel.",
+      "question_type": "procedural",
+      "id": "41-301c_body-con-q04"
+    },
+    {
+      "question": "What additional welding component needs to be addressed according to image 30 41 655?",
+      "answer": "Remove brazing solder and uncover spot welding in the indicated area.",
+      "question_type": "procedural",
+      "id": "41-301c_body-con-q05"
+    },
+    {
+      "question": "What cutting procedure is shown in image 30 41 658?",
+      "answer": "Uncover joint and cut off side panel along the indicated line.",
+      "question_type": "procedural",
+      "id": "41-301c_body-con-q06"
+    },
+    {
+      "question": "What separation step is demonstrated in image 30 41 659?",
+      "answer": "Cut off side panel from tail panel along the specified line.",
+      "question_type": "procedural",
+      "id": "41-301c_body-con-q07"
+    },
+    {
+      "question": "What final cutting operation is shown in the bottom image 30 41 070?",
+      "answer": "Cut off side panel from tail panel and trunk side section.",
+      "question_type": "procedural",
+      "id": "41-301c_body-con-q08"
+    },
+    {
+      "question": "What type of joints need to be exposed before cutting in multiple locations?",
+      "answer": "Spot welds need to be uncovered and drilled out in various locations on the panel.",
+      "question_type": "inspection",
+      "id": "41-301c_body-con-q10"
+    },
+    {
+      "question": "What specific welding material needs to be removed according to one of the steps?",
+      "answer": "Brazing solder must be removed in addition to uncovering spot welding.",
+      "question_type": "procedural",
+      "id": "41-301c_body-con-q11"
+    },
+    {
+      "question": "What areas of the vehicle does this side panel connect to that require separation?",
+      "answer": "The side panel connects to the tail panel and trunk side section, both requiring separation cuts.",
+      "question_type": "component",
+      "id": "41-301c_body-con-q12"
+    }
+  ]
+}

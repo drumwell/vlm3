@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/00-07.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:06:46.261445",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1891,
+    "tokens_output": 671
+  },
+  "qa_pairs": [
+    {
+      "question": "What should the voltage drop be across wires, connectors, and switches during normal operation?",
+      "answer": "More than one volt indicates a problem. Wires, connectors, and switches are designed to conduct current with a minimum loss of voltage.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07-q01"
+    },
+    {
+      "question": "What is the first step when performing a continuity test?",
+      "answer": "First disconnect the car battery. Then adjust the ohmmeter to read zero while holding the test leads together.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07-q02"
+    },
+    {
+      "question": "Where should the positive lead be connected during a voltage drop test?",
+      "answer": "The positive lead should be connected to the connector closest to the power source.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07-q03"
+    },
+    {
+      "question": "What does it indicate if the voltmeter registers a reading when performing a short test using voltmeter?",
+      "answer": "If the voltmeter registers a reading, there is a short to ground in the wiring. Somewhere in the area of the harness being moved, the wire insulation is worn away and the circuit is grounding.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07-q04"
+    },
+    {
+      "question": "What should you do with the wire harness when performing the short test using voltmeter?",
+      "answer": "Move the wire harness back and forth and watch the voltmeter reading while starting near the POWER DISTRIBUTION BOX.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07-q05"
+    },
+    {
+      "question": "What preparation is required before performing the short test using voltmeter?",
+      "answer": "Remove the blown fuse and disconnect the load. Connect the voltmeter leads to the fuse terminals with the positive lead connected to the terminal closest to the power source.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07-q06"
+    },
+    {
+      "question": "What will the ohmmeter show during a continuity test?",
+      "answer": "The ohmmeter will show the resistance across that part of the circuit.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07-q07"
+    },
+    {
+      "question": "What type of circuit problem area is being tested in the voltage drop test diagram?",
+      "answer": "The circuit's suspected problem area between the power distribution box and the low fluid indicator.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07-q08"
+    },
+    {
+      "question": "What warning appears on all three test diagrams?",
+      "answer": "NOT AT ALL TIMES",
+      "question_type": "safety",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07-q09"
+    },
+    {
+      "question": "What component is shown at the bottom of all three test circuits?",
+      "answer": "LOW FLUID INDICATOR",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-07-q10"
+    }
+  ]
+}

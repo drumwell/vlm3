@@ -1,0 +1,94 @@
+{
+  "page_id": "51-319_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-319.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:21:03.339781",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 733
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the dimensions for selecting the correct nozzle shape for cement beads?",
+      "answer": "For cement bead shape: a = 10 mm (0.394\") and b = 12 mm (0.472\").",
+      "question_type": "factual",
+      "id": "51-319_body-equ-q01"
+    },
+    {
+      "question": "What should you check regarding the cement before using it in the gun?",
+      "answer": "Check use date of cement.",
+      "question_type": "inspection",
+      "id": "51-319_body-equ-q02"
+    },
+    {
+      "question": "How should the cartridge be positioned when cementing?",
+      "answer": "The cartridge must be held perpendicular to the window surface.",
+      "question_type": "procedural",
+      "id": "51-319_body-equ-q03"
+    },
+    {
+      "question": "What distance should be maintained from point A to the edge of the window when applying cement?",
+      "answer": "Distance A to edge of window = approx. 5 mm (0.197\").",
+      "question_type": "factual",
+      "id": "51-319_body-equ-q04"
+    },
+    {
+      "question": "What tool is specified for fitting and pressing the window carefully?",
+      "answer": "Special Tool 51 3 010.",
+      "question_type": "tool",
+      "id": "51-319_body-equ-q05"
+    },
+    {
+      "question": "How can leaks be detected after window installation?",
+      "answer": "Leaks can be detected by spraying water underneath ornamental strips or with an ultra-sonic tester and eliminated with a pertinent nozzle from the repair kit from the inside of the car.",
+      "question_type": "diagnostic",
+      "id": "51-319_body-equ-q06"
+    },
+    {
+      "question": "What should you check for uniform feed and pulling speed during application?",
+      "answer": "Check for uniform feed and pulling speed during application.",
+      "question_type": "inspection",
+      "id": "51-319_body-equ-q07"
+    },
+    {
+      "question": "What preparation step is recommended before cementing?",
+      "answer": "If necessary, make a sample bead before cementing.",
+      "question_type": "procedural",
+      "id": "51-319_body-equ-q08"
+    },
+    {
+      "question": "What should be done if the window needs to be preloaded with adhesive tape?",
+      "answer": "If applicable, preload window with adhesive tape and rolls of foam rubber or Special Tool 51 3 010.",
+      "question_type": "procedural",
+      "id": "51-319_body-equ-q09"
+    },
+    {
+      "question": "What must be done to the nozzle to have an appropriate opening?",
+      "answer": "Nozzle must be cut to size to have an appropriate opening.",
+      "question_type": "procedural",
+      "id": "51-319_body-equ-q10"
+    },
+    {
+      "question": "What should you check for between the body and ornamental strip?",
+      "answer": "Check for uniform spacing between body and ornamental strip.",
+      "question_type": "inspection",
+      "id": "51-319_body-equ-q11"
+    },
+    {
+      "question": "What is the source of supply noted on this page?",
+      "answer": "HWB (Hottinger Wilhelm Bloeser).",
+      "question_type": "factual",
+      "id": "51-319_body-equ-q12",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

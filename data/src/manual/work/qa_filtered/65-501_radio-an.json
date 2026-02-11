@@ -1,0 +1,73 @@
+{
+  "page_id": "65-501_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-501.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:07:18.649221",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 849
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the possible causes when the ignition lock from position R display board background button lighting is not working?",
+      "answer": "The possible causes are: Term. 31 g, term. R, term. 58 power supply missing, or lights in BC II defective.",
+      "question_type": "diagnostic",
+      "id": "65-501_radio-an-q01"
+    },
+    {
+      "question": "How do you test the ignition lock display board background button lighting issue?",
+      "answer": "Test between pin 10 (= term. 31) and pin 5 (= term. R), specification 10 V (button board lighting only works with lights on). Also test between pin 9 (= term. 31 g) and pin 8 (= term. 58 k), specification U = U battery depending on switch position.",
+      "question_type": "procedural",
+      "id": "65-501_radio-an-q02"
+    },
+    {
+      "question": "What should you do if there's a break in the wire for the ignition lock display lighting?",
+      "answer": "Replace light bulbs; depending on defect pull out light slider with a small pliers (check printed voltage data when testing externally) or light bulb for button lighting (12 V, 1.2 W).",
+      "question_type": "procedural",
+      "id": "65-501_radio-an-q03"
+    },
+    {
+      "question": "What are the possible causes for none or wrong SPEED display?",
+      "answer": "The possible causes are: wrong coding plug in BC II, speed signal missing, defect in input signal, or BC II defective.",
+      "question_type": "diagnostic",
+      "id": "65-501_radio-an-q04"
+    },
+    {
+      "question": "How do you simulate a speed signal for testing the speed display?",
+      "answer": "Simulate speed signal on speed transmitter wire plug connection with BMW service test unit. With simulation of 256 Hz, ignition on (engine not running), on BC II button SPEED and button SET-RES displayed value see coding plug table.",
+      "question_type": "procedural",
+      "id": "65-501_radio-an-q05"
+    },
+    {
+      "question": "What should you do if the BC II is defective when troubleshooting speed display issues?",
+      "answer": "Replace BC II (see point 1).",
+      "question_type": "procedural",
+      "id": "65-501_radio-an-q06"
+    },
+    {
+      "question": "How do you test the consumption display signal with the engine running?",
+      "answer": "With engine running there must be consumption signal on pin 17 and pin 10 (= B--). Check signal from L-Jetronic control unit pin 12 or wire 11 from 2BE control unit with BMW service test unit. Scope test or BMW digital tester II: ms-test, possibly compare with signal of cyl. 1 or 2.",
+      "question_type": "procedural",
+      "id": "65-501_radio-an-q08"
+    },
+    {
+      "question": "What diagnostic step is referenced for both speed and consumption display issues?",
+      "answer": "See point 1 is referenced for both speed and consumption display troubleshooting.",
+      "question_type": "navigation",
+      "id": "65-501_radio-an-q09"
+    },
+    {
+      "question": "What is the recommended action when BC II is found to be defective in consumption display diagnosis?",
+      "answer": "Replace BC II (see point 1).",
+      "question_type": "procedural",
+      "id": "65-501_radio-an-q10"
+    }
+  ]
+}

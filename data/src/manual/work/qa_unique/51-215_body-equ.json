@@ -1,0 +1,85 @@
+{
+  "page_id": "51-215_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-215.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:15:06.757609",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 714
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for removing and installing or replacing the outside handle and locking mechanism of the left or right front door?",
+      "answer": "The procedure code is 51 21 200.",
+      "question_type": "factual",
+      "id": "51-215_body-equ-q01"
+    },
+    {
+      "question": "What important note is given about the pictures showing sheet metal parts?",
+      "answer": "Some pictures show the sheet metal parts cut off for better understanding.",
+      "question_type": "factual",
+      "id": "51-215_body-equ-q02"
+    },
+    {
+      "question": "What should you do with the door trim panel according to the procedure?",
+      "answer": "Remove door trim panel - see 51 41 001. Pull off plastic sheet partially.",
+      "question_type": "procedural",
+      "id": "51-215_body-equ-q03"
+    },
+    {
+      "question": "What must be done when unscrewing nuts to remove the locking mechanism?",
+      "answer": "Unscrew nuts. Remove locking mechanism. Important! Be careful not to damage paint at openings.",
+      "question_type": "safety",
+      "id": "51-215_body-equ-q04"
+    },
+    {
+      "question": "How should the outside handle be positioned during installation?",
+      "answer": "Align outside handle that it rests on the rubber pads.",
+      "question_type": "procedural",
+      "id": "51-215_body-equ-q05"
+    },
+    {
+      "question": "What should be done with damaged plastic sheet during installation?",
+      "answer": "Replace damaged plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-215_body-equ-q06"
+    },
+    {
+      "question": "How should the locking mechanism be aligned after screwing on the outside handle?",
+      "answer": "Align locking mechanism with bead in the door panel after screwing on the outside handle.",
+      "question_type": "procedural",
+      "id": "51-215_body-equ-q07"
+    },
+    {
+      "question": "What must the lifted outside handle operate correctly for the door lock?",
+      "answer": "If applicable, the lifted outside handle must operate the heating contact for the door lock or the contact transmitter for inside light delayed action.",
+      "question_type": "operation",
+      "id": "51-215_body-equ-q08"
+    },
+    {
+      "question": "What adjustment may be necessary if applicable during installation?",
+      "answer": "If applicable, adjust or bend the contact tongue.",
+      "question_type": "procedural",
+      "id": "51-215_body-equ-q09"
+    },
+    {
+      "question": "What does the arrow indicate in diagram 30 51 022?",
+      "answer": "The arrow indicates the alignment of the outside handle so that it rests on the rubber pads.",
+      "question_type": "visual",
+      "id": "51-215_body-equ-q11"
+    },
+    {
+      "question": "What instruction is given about disconnecting a plug if applicable?",
+      "answer": "If applicable, disconnect plug.",
+      "question_type": "procedural",
+      "id": "51-215_body-equ-q12"
+    }
+  ]
+}

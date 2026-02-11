@@ -1,0 +1,76 @@
+{
+  "page_id": "00-torque-specs-092",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/092.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:33:26.902508",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 613
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M8 8.8 bolts when attaching the clutch to flywheel?",
+      "answer": "24 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-092-q01"
+    },
+    {
+      "question": "What torque value should be used for M8 10.9 bolts in the clutch to flywheel assembly?",
+      "answer": "34 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-092-q02"
+    },
+    {
+      "question": "Which vehicle types require the M8 10.9 bolt specification for clutch to flywheel mounting?",
+      "answer": "All vehicle types",
+      "question_type": "factual",
+      "id": "00-torque-specs-092-q03"
+    },
+    {
+      "question": "What special note is given regarding the S14/S38 B36 engine clutch bolts?",
+      "answer": "Replace bolt and taper sleeve.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-092-q04"
+    },
+    {
+      "question": "What is the difference in torque between M8 8.8 and M8 10.9 bolts for clutch mounting?",
+      "answer": "The M8 8.8 bolts require 24 Nm while M8 10.9 bolts require 34 Nm, a difference of 10 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-092-q05"
+    },
+    {
+      "question": "Which engine types are specifically mentioned for the bolt replacement procedure?",
+      "answer": "S14/S38 B36 engines",
+      "question_type": "factual",
+      "id": "00-torque-specs-092-q06"
+    },
+    {
+      "question": "What component designation is used for the clutch disc and drive plate assembly?",
+      "answer": "21 21",
+      "question_type": "factual",
+      "id": "00-torque-specs-092-q07"
+    },
+    {
+      "question": "What unit of measurement is used for all torque specifications on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-092-q09",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "For which clutch component assembly do these torque specifications apply?",
+      "answer": "Clutch disc and drive plate assembly, specifically the clutch to flywheel connection",
+      "question_type": "component",
+      "id": "00-torque-specs-092-q10"
+    }
+  ]
+}

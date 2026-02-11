@@ -1,0 +1,79 @@
+{
+  "page_id": "41-322_body",
+  "image_path": "raw/41 - Body/41-322.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:01:29.150832",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 701
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do after mounting and clamping the side panel?",
+      "answer": "Mount and clamp side panel, tack welding if necessary. Check door gap.",
+      "question_type": "procedural",
+      "id": "41-322_body-q01"
+    },
+    {
+      "question": "What is the procedure for the side panel shown in image 30 41 241?",
+      "answer": "Spot weld side panel on trunk floor plate.",
+      "question_type": "procedural",
+      "id": "41-322_body-q02"
+    },
+    {
+      "question": "What should be checked according to image 30 41 238?",
+      "answer": "Check trunk lid gap.",
+      "question_type": "inspection",
+      "id": "41-322_body-q03"
+    },
+    {
+      "question": "Where should the side panel be spot welded according to image 30 41 242?",
+      "answer": "Spot weld side panel in wheel opening.",
+      "question_type": "procedural",
+      "id": "41-322_body-q04"
+    },
+    {
+      "question": "What should be done to the entrance according to image 30 41 243?",
+      "answer": "Insert gas plug weld joint on entrance.",
+      "question_type": "procedural",
+      "id": "41-322_body-q06"
+    },
+    {
+      "question": "What welding procedure is specified for the rear window frame in image 30 41 240?",
+      "answer": "Spot weld side panel on rear window frame.",
+      "question_type": "procedural",
+      "id": "41-322_body-q07"
+    },
+    {
+      "question": "What should be done along the outside edge according to image 30 41 244?",
+      "answer": "Braze entrance along outside edge.",
+      "question_type": "procedural",
+      "id": "41-322_body-q08"
+    },
+    {
+      "question": "What component is being worked on in all the procedures shown?",
+      "answer": "Side panel components and related body panels are being worked on in all the procedures.",
+      "question_type": "component",
+      "id": "41-322_body-q10"
+    },
+    {
+      "question": "What inspection is required after mounting the side panel?",
+      "answer": "Check door gap after mounting and clamping the side panel.",
+      "question_type": "inspection",
+      "id": "41-322_body-q11"
+    },
+    {
+      "question": "What type of joint is used for the entrance welding in image 30 41 243?",
+      "answer": "A gas plug weld joint is used on the entrance.",
+      "question_type": "factual",
+      "id": "41-322_body-q12"
+    }
+  ]
+}

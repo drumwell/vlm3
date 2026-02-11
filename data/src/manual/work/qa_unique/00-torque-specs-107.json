@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-107",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/107.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:36:28.036812",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 575
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the main category this torque specification falls under?",
+      "answer": "24 - 5 Automatic Transmission",
+      "question_type": "factual",
+      "id": "00-torque-specs-107-q05"
+    },
+    {
+      "question": "What unit of measurement is used for the slotted nut/output flange torque?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-107-q06"
+    },
+    {
+      "question": "What specific component within the transmission extension category requires 120 Nm torque?",
+      "answer": "Slotted nut/output flange",
+      "question_type": "component",
+      "id": "00-torque-specs-107-q07"
+    },
+    {
+      "question": "How many different automatic transmission types are listed for this torque specification?",
+      "answer": "Three transmission types: A5S 310Z, A 5 S 440 Z, and A5S 560Z",
+      "question_type": "factual",
+      "id": "00-torque-specs-107-q08"
+    },
+    {
+      "question": "What is the document reference number for this specification page?",
+      "answer": "AZD24-5.frb",
+      "question_type": "factual",
+      "id": "00-torque-specs-107-q09"
+    }
+  ]
+}

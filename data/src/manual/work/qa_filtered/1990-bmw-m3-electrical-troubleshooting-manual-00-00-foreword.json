@@ -1,0 +1,55 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-foreword",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/00-00-foreword.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:05:21.364674",
+    "prompt_template": "electrical_manual/text",
+    "tokens_input": 1893,
+    "tokens_output": 343
+  },
+  "qa_pairs": [
+    {
+      "question": "What does BMW reserve the right to do according to the foreword?",
+      "answer": "BMW reserves the right to modify designs and equipment in the interests of continuing technical development work.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-foreword-q01"
+    },
+    {
+      "question": "Where was this service manual printed?",
+      "answer": "This service manual was printed in USA.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-foreword-q02"
+    },
+    {
+      "question": "Who owns the copyright for this manual?",
+      "answer": "The copyright belongs to BMW of North America, Inc.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-foreword-q03"
+    },
+    {
+      "question": "What is the part number for this manual?",
+      "answer": "The part number is PN 89 89 1 000 333.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-foreword-q04"
+    },
+    {
+      "question": "Can this manual be reproduced without permission?",
+      "answer": "No, this manual is not to be reproduced wholly or in part without written permission of BMW of North America, Inc.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-foreword-q05"
+    },
+    {
+      "question": "What is the main reason BMW states for reserving the right to modify designs?",
+      "answer": "BMW states they reserve this right in the interests of continuing technical development work.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-00-00-foreword-q06"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "page_id": "-016",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/016.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:06:11.672073",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1884,
+    "tokens_output": 586
+  },
+  "qa_pairs": [
+    {
+      "question": "What cleaning solution was used to soak the transmission component?",
+      "answer": "Hot water with clothes wash powder.",
+      "question_type": "procedural",
+      "id": "-016-q01"
+    },
+    {
+      "question": "What effect did the clothes wash powder have on the component surface?",
+      "answer": "It had the effect of lightly eating at the surface by being slightly acidic.",
+      "question_type": "factual",
+      "id": "-016-q02"
+    },
+    {
+      "question": "What is the recommended counter-treatment after cleaning with the acidic solution?",
+      "answer": "Clean in straight hot water and finally coat in oiodine to form a protective layer to stop any future corrosion from dampness.",
+      "question_type": "procedural",
+      "id": "-016-q03"
+    },
+    {
+      "question": "What is the purpose of the oiodine coating mentioned in the procedure?",
+      "answer": "It forms a protective layer to stop any future corrosion from dampness.",
+      "question_type": "factual",
+      "id": "-016-q05"
+    },
+    {
+      "question": "What type of publication appears to be spread under the transmission components?",
+      "answer": "Newspaper pages.",
+      "question_type": "visual",
+      "id": "-016-q07"
+    },
+    {
+      "question": "How many major gear components with teeth are visible in the image?",
+      "answer": "At least three major gear components with teeth are visible.",
+      "question_type": "visual",
+      "id": "-016-q08"
+    },
+    {
+      "question": "What characteristic of the wash powder made it effective for cleaning but required counter-treatment?",
+      "answer": "It was slightly acidic, which helped clean the surface but required neutralization to prevent damage.",
+      "question_type": "factual",
+      "id": "-016-q10"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "page_id": "00-04_torque-s",
+  "image_path": "raw/00 - Torque Specs/00-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:11:06.165629",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 681
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M8 8.8 screw?",
+      "answer": "24 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q01"
+    },
+    {
+      "question": "What is the tightening torque for an M8 12.9 screw?",
+      "answer": "40 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q03"
+    },
+    {
+      "question": "What torque should I apply to an M8x1 8.8 threaded fastener?",
+      "answer": "26 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q04"
+    },
+    {
+      "question": "What BMW standard should I reference for the applicable range of tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-04_torque-s-q07"
+    }
+  ]
+}

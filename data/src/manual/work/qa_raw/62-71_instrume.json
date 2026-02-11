@@ -1,0 +1,82 @@
+{
+  "page_id": "62-71_instrume",
+  "image_path": "raw/62 - Instruments/62-71.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:45:45.824188",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 808
+  },
+  "qa_pairs": [
+    {
+      "question": "What wire color is used for the ignition key in 'R' position signal on pin 1 'R'?",
+      "answer": "The wire color for pin 1 'R' Terminal 'R' is violet/gray.",
+      "question_type": "wiring",
+      "id": "62-71_instrume-q01"
+    },
+    {
+      "question": "How do you test the central warning lamp circuit on pin 2 'ZHL'?",
+      "answer": "Connect pin 2 with pin 9 (-) to activate the central warning lamp continuously. The wire color is brown/yellow and it functions when ignition is turned on.",
+      "question_type": "diagnostic",
+      "id": "62-71_instrume-q02"
+    },
+    {
+      "question": "What is the expected test result for pin 3 'OH' (Japan) Overheat when testing with a voltmeter?",
+      "answer": "Pin 3 (-) to voltmeter to pin 4 (+) should equal UB. This circuit is only for E 28 and on pin 5 for E 24/E 23.",
+      "question_type": "diagnostic",
+      "id": "62-71_instrume-q03"
+    },
+    {
+      "question": "Which pins are used for air bag testing and what are their designations?",
+      "answer": "Pin 6 'AB' (USA) Air bag (+) and pin 7 'AB' (USA) Air bag (-) are used for air bag testing.",
+      "question_type": "component",
+      "id": "62-71_instrume-q04"
+    },
+    {
+      "question": "What wire color identifies the oxygen sensor circuit?",
+      "answer": "The oxygen sensor circuit on pin 5 'OX' (USA) uses blue/white wire color.",
+      "question_type": "wiring",
+      "id": "62-71_instrume-q05"
+    },
+    {
+      "question": "How do you test the fasten seat belts warning system?",
+      "answer": "Test pin 8 'FS' (USA) Fasten seat belts with brown/violet wire. Test pin 8 (-) to voltmeter to pin 4 (+) should equal UB when ignition is turned on.",
+      "question_type": "diagnostic",
+      "id": "62-71_instrume-q06"
+    },
+    {
+      "question": "What is the ground reference point for check control testing?",
+      "answer": "Pin 9 '31' Terminal '31' with brown wire color serves as the ground reference point.",
+      "question_type": "wiring",
+      "id": "62-71_instrume-q07"
+    },
+    {
+      "question": "Which terminal provides battery voltage for most check control circuits?",
+      "answer": "Pin 4 (+) and pin 15 (+) provide battery voltage (UB) for the check control circuits during testing.",
+      "question_type": "electrical",
+      "id": "62-71_instrume-q08",
+      "_warnings": [
+        "Invalid question_type: electrical"
+      ]
+    },
+    {
+      "question": "What does the green/white wire on pin 4 '15' control?",
+      "answer": "The green/white wire on pin 4 '15' Terminal '15' functions when ignition is turned on.",
+      "question_type": "wiring",
+      "id": "62-71_instrume-q09"
+    },
+    {
+      "question": "How should you set up the voltmeter connections for testing most check control input signals?",
+      "answer": "Most tests require connecting the negative voltmeter lead to the specified pin (-) and the positive lead to either pin 4 (+), pin 9 (-), or pin 15 (+) depending on the circuit being tested.",
+      "question_type": "procedural",
+      "id": "62-71_instrume-q10"
+    }
+  ]
+}

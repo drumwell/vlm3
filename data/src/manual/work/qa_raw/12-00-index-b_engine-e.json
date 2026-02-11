@@ -1,0 +1,55 @@
+{
+  "page_id": "12-00-index-b_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-00-index-b.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:19:51.443709",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 356
+  },
+  "qa_pairs": [
+    {
+      "question": "What chapter section does this index page cover?",
+      "answer": "This index page covers Chapter 12 - Engine Electrical Equipment.",
+      "question_type": "navigation",
+      "id": "12-00-index-b_engine-e-q01"
+    },
+    {
+      "question": "On which page can I find information about starter troubleshooting?",
+      "answer": "Starter troubleshooting information can be found on page 12-50.",
+      "question_type": "navigation",
+      "id": "12-00-index-b_engine-e-q02"
+    },
+    {
+      "question": "What page covers the procedure for removing and installing the starter?",
+      "answer": "The procedure for removing and installing the starter is covered on page 12-51.",
+      "question_type": "navigation",
+      "id": "12-00-index-b_engine-e-q03"
+    },
+    {
+      "question": "Where can I find instructions for replacing the solenoid switch?",
+      "answer": "Instructions for replacing the solenoid switch can be found on page 12-51.",
+      "question_type": "navigation",
+      "id": "12-00-index-b_engine-e-q04"
+    },
+    {
+      "question": "What page contains information about replacing carbon brushes?",
+      "answer": "Information about replacing carbon brushes is on page 12-53.",
+      "question_type": "navigation",
+      "id": "12-00-index-b_engine-e-q05"
+    },
+    {
+      "question": "On which page would I find procedures for disassembling and assembling the starter?",
+      "answer": "Procedures for disassembling and assembling the starter are on page 12-52.",
+      "question_type": "navigation",
+      "id": "12-00-index-b_engine-e-q06"
+    }
+  ]
+}

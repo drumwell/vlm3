@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-12-07",
+  "image_path": "raw/00 - Torque Specs/12-07.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:47:51.521152",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 624
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the KI. D+ wire to alternator for M10/M20 engines?",
+      "answer": "5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-07-q01"
+    },
+    {
+      "question": "What torque should be applied to all other KI. D+ wires to alternator besides M10/M20?",
+      "answer": "7 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-07-q02"
+    },
+    {
+      "question": "What is the torque specification for the KI. B+ wire S38 B 38 connection?",
+      "answer": "8 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-07-q03"
+    },
+    {
+      "question": "How much torque should be applied to all other KI. B+ connections?",
+      "answer": "13 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-07-q04"
+    },
+    {
+      "question": "Which alternator components have the same torque specification of 3.5 Nm?",
+      "answer": "The rear holder and fillister head screw for wire holder both require 3.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-07-q10"
+    }
+  ]
+}

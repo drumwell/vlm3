@@ -1,0 +1,37 @@
+{
+  "page_id": "bmwtorquespecs-033",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/033.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:18:35.875660",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 557
+  },
+  "qa_pairs": [
+    {
+      "question": "What type designation is given for the clamping bolt in the rocker arm?",
+      "answer": "M10/M20/M30",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-033-q04"
+    },
+    {
+      "question": "Which section of the manual does this torque specification table belong to?",
+      "answer": "11 - 23 Engine, section 11 33 Rocker Arms/Drag Arms and Bearings",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-033-q07"
+    },
+    {
+      "question": "How many different clamping bolt specifications are shown in the Rocker Arms/Drag Arms and Bearings section?",
+      "answer": "2 specifications - one for rocker arm and one for drag arm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-033-q10"
+    }
+  ]
+}

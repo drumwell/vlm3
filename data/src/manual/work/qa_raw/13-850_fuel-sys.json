@@ -1,0 +1,79 @@
+{
+  "page_id": "13-850_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-850.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:52:35.790876",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 1035
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the main engine starting and running symptoms covered in this L-Jetronic troubleshooting chart?",
+      "answer": "The chart covers: 1. Cold engine cannot be started or hard to start, 2. Warm engine cannot be started or hard to start, 3. Engine starts but stops again, 4. Engine idle speed incorrect, 5. Poor pick-up, 6. Engine misfiring in all driving conditions, 7. Fuel consumption too high, 8. Final power output not reached, 9. Basic mixture setting at idle speed too rich, 10. Basic mixture setting at idle speed too lean.",
+      "question_type": "factual",
+      "id": "13-850_fuel-sys-q01"
+    },
+    {
+      "question": "What causes are listed for when the fuel pump is not running?",
+      "answer": "According to the troubleshooting chart, cause 1 'Fuel pump not running' can be related to multiple symptoms including cold engine starting problems, warm engine starting problems, and engine stopping after starting.",
+      "question_type": "diagnostic",
+      "id": "13-850_fuel-sys-q02"
+    },
+    {
+      "question": "If the engine has poor pick-up, what are the potential causes according to this chart?",
+      "answer": "For poor pick-up (symptom 5), the chart indicates potential causes include air flow sensor defective (cause 8), one or more fuel injectors defective (cause 9), coolant temperature sensor defective (cause 10), control unit defective (cause 11), and throttle switch maladjusted or defective (cause 12).",
+      "question_type": "troubleshooting",
+      "id": "13-850_fuel-sys-q03"
+    },
+    {
+      "question": "What does cause 18 'Intake system leaks' relate to in terms of symptoms?",
+      "answer": "Cause 18 'Intake system leaks' is associated with basic mixture setting problems at idle speed, specifically relating to both too rich and too lean mixture conditions.",
+      "question_type": "diagnostic",
+      "id": "13-850_fuel-sys-q04"
+    },
+    {
+      "question": "Which causes are related to fuel pressure problems?",
+      "answer": "The chart lists cause 3 'Fuel pressure too low or zero' and cause 4 'Fuel pressure too high' as potential fuel pressure related problems that can affect engine starting and running.",
+      "question_type": "factual",
+      "id": "13-850_fuel-sys-q05"
+    },
+    {
+      "question": "What sensor defects are listed as potential causes in this troubleshooting chart?",
+      "answer": "The chart lists several sensor defects: cause 8 'Air flow sensor defective', cause 10 'Coolant temperature sensor defective', and cause 12 'Throttle switch maladjusted or defective'.",
+      "question_type": "component",
+      "id": "13-850_fuel-sys-q06"
+    },
+    {
+      "question": "If the engine misfires in all driving conditions, what should be checked according to this chart?",
+      "answer": "For engine misfiring in all driving conditions (symptom 6), the chart indicates to check for air flow sensor defective (cause 8), one or more fuel injectors defective (cause 9), coolant temperature sensor defective (cause 10), and control unit defective (cause 11).",
+      "question_type": "troubleshooting",
+      "id": "13-850_fuel-sys-q07"
+    },
+    {
+      "question": "What causes are associated with cold start valve problems?",
+      "answer": "The chart lists cause 5 'Cold start valve does not open' and cause 6 'Cold start valve leaks' as cold start valve related problems that primarily affect cold engine starting difficulties.",
+      "question_type": "component",
+      "id": "13-850_fuel-sys-q08"
+    },
+    {
+      "question": "Which symptoms are related to throttle problems according to this chart?",
+      "answer": "Throttle problems include cause 12 'Throttle switch maladjusted or defective', cause 14 'Throttle does not close', and cause 15 'Throttle does not open completely'. These are associated with various symptoms including poor pick-up, misfiring, and mixture setting problems.",
+      "question_type": "component",
+      "id": "13-850_fuel-sys-q09"
+    },
+    {
+      "question": "What page number and section is this troubleshooting chart from?",
+      "answer": "This troubleshooting chart is from page 13-850 and is part of the 'TROUBLESHOOTING L-JETRONIC' section.",
+      "question_type": "navigation",
+      "id": "13-850_fuel-sys-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "41-108_body",
+  "image_path": "raw/41 - Body/41-108.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:41:38.066820",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 731
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing left/right engine carrier front section without wheel house?",
+      "answer": "41 11 043/044 is the procedure number for replacing left/right engine carrier front section without wheel house.",
+      "question_type": "factual",
+      "id": "41-108_body-q01"
+    },
+    {
+      "question": "What page should be referenced for information before starting this procedure?",
+      "answer": "Page 41-001 should be referenced for information before starting this procedure.",
+      "question_type": "navigation",
+      "id": "41-108_body-q02"
+    },
+    {
+      "question": "What are the first steps required before beginning the engine carrier front section replacement?",
+      "answer": "Remove or disconnect the following parts: disconnect battery ground lead, remove radiator grill, headlight, front fog light, two-tone horns, engine hood lock, data plate and radiator.",
+      "question_type": "procedural",
+      "id": "41-108_body-q03"
+    },
+    {
+      "question": "Where can information about removing the front bumper be found?",
+      "answer": "Information about removing the front bumper can be found in section 51 11 000.",
+      "question_type": "navigation",
+      "id": "41-108_body-q04"
+    },
+    {
+      "question": "What reference section covers removing both front side panels?",
+      "answer": "Section 41 35 000 covers removing both front side panels.",
+      "question_type": "navigation",
+      "id": "41-108_body-q05"
+    },
+    {
+      "question": "What should be done with the wire harness during this procedure?",
+      "answer": "The wire harness should be disconnected as required.",
+      "question_type": "procedural",
+      "id": "41-108_body-q06"
+    },
+    {
+      "question": "What is the instruction for the cover shown in the first diagram?",
+      "answer": "Cut out cover along line.",
+      "question_type": "procedural",
+      "id": "41-108_body-q07"
+    },
+    {
+      "question": "What should be done with welding spots throughout this procedure?",
+      "answer": "Drill off welding spots at various locations as shown in the diagrams.",
+      "question_type": "procedural",
+      "id": "41-108_body-q08"
+    },
+    {
+      "question": "What is the instruction for the bracket shown in diagram 30 41 101?",
+      "answer": "Cut off bracket.",
+      "question_type": "procedural",
+      "id": "41-108_body-q09"
+    },
+    {
+      "question": "What should be done after taking off the engine carrier front section?",
+      "answer": "Remove scrap metal and straighten and grind mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-108_body-q10"
+    },
+    {
+      "question": "What reference section provides information about replacing the front panel complete with front wall?",
+      "answer": "Section 41 33 001 provides information about replacing the front panel complete with front wall.",
+      "question_type": "navigation",
+      "id": "41-108_body-q11"
+    },
+    {
+      "question": "What are the two main tasks shown in the final diagram (30 41 105)?",
+      "answer": "Remove scrap metal and straighten and grind mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-108_body-q12"
+    }
+  ]
+}

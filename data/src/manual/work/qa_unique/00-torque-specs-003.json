@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-003",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/003.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:16:25.395902",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 685
+  },
+  "qa_pairs": [
+    {
+      "question": "What torque specification applies to M4 10.9 screws?",
+      "answer": "4.1 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-003-q06"
+    },
+    {
+      "question": "What are the three different M4 screw grades shown and their torque specs?",
+      "answer": "M4 8.8 at 2.9 Nm, M4 10.9 at 4.1 Nm, and M4 12.9 at 4.9 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-003-q08"
+    },
+    {
+      "question": "What is the torque specification for M5 8.8 screws?",
+      "answer": "5.9 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-003-q10"
+    }
+  ]
+}

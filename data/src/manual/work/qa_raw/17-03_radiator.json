@@ -1,0 +1,91 @@
+{
+  "page_id": "17-03_radiator",
+  "image_path": "raw/17 - Radiator/17-03.jpg",
+  "section_id": "17",
+  "section_name": "Radiator",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:00:59.395210",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 817
+  },
+  "qa_pairs": [
+    {
+      "question": "What pressure should the cooling system be tested at for the BMW 318i?",
+      "answer": "The cooling system should be tested at 1 bar (14 psi) pressure using tester 17 0 002 with adapter 17 0 003.",
+      "question_type": "factual",
+      "id": "17-03_radiator-q01"
+    },
+    {
+      "question": "What is the maximum allowable pressure drop for the BMW 325e cooling system test?",
+      "answer": "The maximum allowable pressure drop is 0.1 bar or 1.4 psi after about 2 minutes.",
+      "question_type": "factual",
+      "id": "17-03_radiator-q02"
+    },
+    {
+      "question": "How do you check for leaks between the cooling system and combustion chamber?",
+      "answer": "Fill the tester for cylinder head gaskets and carry out the test. Refer to instructions supplied with the tester.",
+      "question_type": "procedural",
+      "id": "17-03_radiator-q03"
+    },
+    {
+      "question": "What components are shown in diagram 17 0 002?",
+      "answer": "The diagram shows the pressure tester assembly including the tester body (17 0 002), adapter (17 0 003), and radiator cap connector (17 0 004).",
+      "question_type": "visual",
+      "id": "17-03_radiator-q04"
+    },
+    {
+      "question": "What should you check after lifting the vacuum valve slightly?",
+      "answer": "Check for correct fit and check the gasket, replacing the cap if necessary.",
+      "question_type": "inspection",
+      "id": "17-03_radiator-q05"
+    },
+    {
+      "question": "What specific coolant type should be used when bleeding the cooling system?",
+      "answer": "Use specified coolant as referenced in the Service Information or Gr. 00.",
+      "question_type": "tool",
+      "id": "17-03_radiator-q06"
+    },
+    {
+      "question": "What safety caution is mentioned regarding the cooling system bleeding procedure?",
+      "answer": "Danger of injury on turning fan.",
+      "question_type": "safety",
+      "id": "17-03_radiator-q07"
+    },
+    {
+      "question": "What are the requirements for bleeding the cooling system on a BMW 325e?",
+      "answer": "Engine at operating temperature, heater controls set to 'warm', engine running at fast idle speed.",
+      "question_type": "procedural",
+      "id": "17-03_radiator-q08"
+    },
+    {
+      "question": "What should you do when escaping coolant is without air bubbles during bleeding?",
+      "answer": "Unscrew the bleeder screw and tighten again when escaping coolant is without air bubbles.",
+      "question_type": "procedural",
+      "id": "17-03_radiator-q09"
+    },
+    {
+      "question": "What adapter is used with the BMW M3 for cooling system pressure testing?",
+      "answer": "Screw adapter 17 0 009 on the expansion tank for connection of tester 17 0 002.",
+      "question_type": "factual",
+      "id": "17-03_radiator-q10"
+    },
+    {
+      "question": "What should you do while bleeding the cooling system?",
+      "answer": "Keep adding coolant to expansion tank while bleeding.",
+      "question_type": "procedural",
+      "id": "17-03_radiator-q11"
+    },
+    {
+      "question": "What does callout number 30 17 036 indicate in the cooling system diagram?",
+      "answer": "It indicates a component in the cooling system assembly, specifically shown in the upper right portion of the testing setup.",
+      "question_type": "visual",
+      "id": "17-03_radiator-q12"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6312-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6312-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:05:23.641502",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 694
+  },
+  "qa_pairs": [
+    {
+      "question": "What fuse protects the high beam relay circuit?",
+      "answer": "Fuse 1, rated at 7.5 AMP, protects the high beam relay circuit.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6312-01-q01"
+    },
+    {
+      "question": "Where is the low beam check relay located in this circuit?",
+      "answer": "The low beam check relay is shown in the upper right portion of the diagram, connected to the power distribution box.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6312-01-q02"
+    },
+    {
+      "question": "What wire color connects to the auxiliary fan circuit?",
+      "answer": "A .75 BR (0.75mm brown) wire connects to the auxiliary fan circuit.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6312-01-q03"
+    },
+    {
+      "question": "Which fuses are shown protecting the headlight circuits?",
+      "answer": "Fuse 1 (7.5 AMP), Fuse 11 (7.5 AMP), Fuse 14 (5 AMP), and Fuse 2 (7.5 AMP) are shown protecting various headlight circuits.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6312-01-q04"
+    },
+    {
+      "question": "What does the active check control unit monitor?",
+      "answer": "The active check control unit monitors the 'LOW BEAM' fault indicator circuit.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6312-01-q05"
+    },
+    {
+      "question": "What wire sizes are used for the ground distribution connections?",
+      "answer": "The ground distribution connections use 2.5 BR (2.5mm brown) wire size.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6312-01-q06"
+    },
+    {
+      "question": "Where are the high beam indicator connections shown?",
+      "answer": "The high beam indicator connections are shown in the instrument cluster printed circuit section in the lower left, with connections at terminals 31 and 62.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6312-01-q07"
+    },
+    {
+      "question": "What connector designation is shown for the ground distribution point?",
+      "answer": "The ground distribution points are labeled as G200 and G104.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6312-01-q08"
+    },
+    {
+      "question": "Which headlight beams have dual beam capability according to the diagram?",
+      "answer": "Both the left and right sides show 'LH DUAL BEAM' and 'RH DUAL BEAM' connections, indicating dual beam capability on both headlights.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6312-01-q09"
+    }
+  ]
+}

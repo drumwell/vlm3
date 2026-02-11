@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-057",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/057.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:26:57.955093",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 642
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the Kl. D+ terminal on M10/M20 engines?",
+      "answer": "5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-057-q01"
+    },
+    {
+      "question": "What is the torque specification for the alternator pulley?",
+      "answer": "45 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-057-q03"
+    },
+    {
+      "question": "How much torque should be applied to the pulley for the ribbed drive belt?",
+      "answer": "60 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-057-q04"
+    },
+    {
+      "question": "What is the torque specification for the alternator rear holder?",
+      "answer": "3.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-057-q05"
+    },
+    {
+      "question": "What torque should be applied to the fillister head screw for the wire holder?",
+      "answer": "3.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-057-q06"
+    },
+    {
+      "question": "What is the torque specification for mounting the alternator on the bearing block?",
+      "answer": "43 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-057-q07"
+    },
+    {
+      "question": "What is the difference in torque between Kl. B+ terminals on S38 B 38 engines versus all other engines?",
+      "answer": "S38 B 38 engines require 8 Nm (ft. lbs.) while all other engines require 13 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-057-q09"
+    },
+    {
+      "question": "Which alternator bearing block bolt specification applies to M40/M42/M43/M44 engines?",
+      "answer": "43 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-057-q10"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "00-13_maintena",
+  "image_path": "raw/00 - Maintenance/00-13.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:14:32.494804",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 866
+  },
+  "qa_pairs": [
+    {
+      "question": "What equipment should be checked during the BMW Inspection I lighting system check?",
+      "answer": "Check headlights, parking lights, backup lights, license plate lights, interior light and delay system, glove box light, engine compartment light and trunk light. Also check indicators including turn signals, hazard lights, stop lights, horn, headlight flasher and dimmer switch.",
+      "question_type": "inspection",
+      "id": "00-13_maintena-q01"
+    },
+    {
+      "question": "What reference should be consulted for the lighting system checks?",
+      "answer": "Reference Gr. 63 for the lighting system inspection procedures.",
+      "question_type": "navigation",
+      "id": "00-13_maintena-q02"
+    },
+    {
+      "question": "What windshield washer system maintenance tasks are required?",
+      "answer": "Fill supply tank for windshield washing system, check antifreeze protection, check intensive washer fluid level, and add intensive washer fluid if necessary. Also check function of windshield wipe/wash system and aiming of spray jets.",
+      "question_type": "procedural",
+      "id": "00-13_maintena-q03"
+    },
+    {
+      "question": "What reference number is given for windshield washer system procedures?",
+      "answer": "Reference Gr. 00 is indicated for windshield washer system procedures.",
+      "question_type": "navigation",
+      "id": "00-13_maintena-q04"
+    },
+    {
+      "question": "What final safety checks are performed during the inspection?",
+      "answer": "Final inspection and test drive with check of operational safety including brakes, steering, clutch or automatic transmission and mirrors, and break in parking brake.",
+      "question_type": "safety",
+      "id": "00-13_maintena-q05"
+    },
+    {
+      "question": "What is the order number for the Service Indicator resetter?",
+      "answer": "The Service Indicator resetter order number is 62 1 100.",
+      "question_type": "factual",
+      "id": "00-13_maintena-q06"
+    },
+    {
+      "question": "How long does the red lamp stay on when using the Service Indicator reset procedure?",
+      "answer": "The red lamp comes on after approximately 3 seconds and goes out after approximately 7 seconds.",
+      "question_type": "procedural",
+      "id": "00-13_maintena-q08"
+    },
+    {
+      "question": "What should be done with electrical equipment before resetting the Service Indicator?",
+      "answer": "Switch off all electrical equipment and turn on ignition, but do not run the engine.",
+      "question_type": "safety",
+      "id": "00-13_maintena-q09"
+    },
+    {
+      "question": "What lights should be visible when checking the Service Indicator after reset?",
+      "answer": "All five green diode lights must be on. Yellow and possibly red diodes as well as INSPECTION sign should go out.",
+      "question_type": "inspection",
+      "id": "00-13_maintena-q10"
+    },
+    {
+      "question": "What caution is given regarding brake systems with Politex brake linings?",
+      "answer": "On systems with Politex brake linings, there is increased braking effect. See Repair Manual Gr. 34 10 014 for breaking in parking brake procedures.",
+      "question_type": "safety",
+      "id": "00-13_maintena-q11"
+    },
+    {
+      "question": "What components are shown in the diagram with callout numbers 62 1100 and 62 1140?",
+      "answer": "The diagram shows the Service Indicator resetter (62 1100) and adapter (62 1140) being used in the diagnosis socket location.",
+      "question_type": "visual",
+      "id": "00-13_maintena-q12"
+    }
+  ]
+}

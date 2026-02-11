@@ -1,0 +1,85 @@
+{
+  "page_id": "51-251_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-251.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:17:07.905504",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 712
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for removing and installing or replacing cables for top lid locks?",
+      "answer": "Section 51 25",
+      "question_type": "factual",
+      "id": "51-251_body-equ-q01"
+    },
+    {
+      "question": "What are the first two steps in the removal procedure for top lid lock cables?",
+      "answer": "Lift out plate and remove trim panel.",
+      "question_type": "procedural",
+      "id": "51-251_body-equ-q02"
+    },
+    {
+      "question": "What should you reference if you need to lift out the trim panel?",
+      "answer": "See 51 43 000 if applicable for lifting out trim panel.",
+      "question_type": "navigation",
+      "id": "51-251_body-equ-q03"
+    },
+    {
+      "question": "What component needs to be removed after the trim panel according to the procedure?",
+      "answer": "Remove remote control.",
+      "question_type": "procedural",
+      "id": "51-251_body-equ-q04"
+    },
+    {
+      "question": "What specific action is required with the clips during the removal process?",
+      "answer": "Disengage clips.",
+      "question_type": "procedural",
+      "id": "51-251_body-equ-q05"
+    },
+    {
+      "question": "What cables need to be disconnected during the removal procedure?",
+      "answer": "Disconnect left and right cables.",
+      "question_type": "procedural",
+      "id": "51-251_body-equ-q06"
+    },
+    {
+      "question": "What are the three actions required when pulling out the remote control?",
+      "answer": "Pull out remote control, lift out caps, and disconnect cables.",
+      "question_type": "procedural",
+      "id": "51-251_body-equ-q07"
+    },
+    {
+      "question": "What is the first installation step for the cables?",
+      "answer": "Preload the short cable lightly by adjusting the remote control.",
+      "question_type": "procedural",
+      "id": "51-251_body-equ-q08"
+    },
+    {
+      "question": "What is the second installation step mentioned in the procedure?",
+      "answer": "Preload the long cable lightly by adjusting.",
+      "question_type": "procedural",
+      "id": "51-251_body-equ-q09"
+    },
+    {
+      "question": "What component is visible in the top left illustration showing the mesh pattern?",
+      "answer": "The top left illustration shows what appears to be a lid or cover plate with a mesh or grid pattern.",
+      "question_type": "visual",
+      "id": "51-251_body-equ-q11"
+    },
+    {
+      "question": "What type of adjustment is specified for both cable installation steps?",
+      "answer": "Both cables should be preloaded lightly by adjusting - the short cable through remote control adjustment and the long cable through adjustment.",
+      "question_type": "procedural",
+      "id": "51-251_body-equ-q12"
+    }
+  ]
+}

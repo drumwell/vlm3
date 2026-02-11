@@ -1,0 +1,79 @@
+{
+  "page_id": "00-08_torque-s",
+  "image_path": "raw/00 - Torque Specs/00-08.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:12:56.575622",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 662
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M16 8.8 bolt?",
+      "answer": "200 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q01"
+    },
+    {
+      "question": "What torque specification should I use for an M16 10.9 bolt?",
+      "answer": "280 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q02"
+    },
+    {
+      "question": "What is the tightening torque for an M16 12.9 bolt?",
+      "answer": "340 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q03"
+    },
+    {
+      "question": "What is the torque specification for an M16x1.5 8.8 bolt?",
+      "answer": "216 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q04"
+    },
+    {
+      "question": "How much torque should I apply to an M16x1.5 10.9 bolt?",
+      "answer": "303 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q05"
+    },
+    {
+      "question": "What is the maximum tightening torque for an M16x1.5 12.9 bolt?",
+      "answer": "364 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q06"
+    },
+    {
+      "question": "What BMW standard should I refer to for the applicable range of tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q07"
+    },
+    {
+      "question": "What is the difference in torque between M16 8.8 and M16 12.9 bolts?",
+      "answer": "140 Nm (340 Nm - 200 Nm)",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q08"
+    },
+    {
+      "question": "Which has a higher torque specification: M16x1.5 8.8 or M16 10.9?",
+      "answer": "M16 10.9 has a higher specification at 280 Nm compared to M16x1.5 8.8 at 216 Nm",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q09"
+    },
+    {
+      "question": "What section of the manual contains these M16 and M16x1.5 maximum tightening torques?",
+      "answer": "Section 00-8 General Instructions",
+      "question_type": "navigation",
+      "id": "00-08_torque-s-q10"
+    }
+  ]
+}

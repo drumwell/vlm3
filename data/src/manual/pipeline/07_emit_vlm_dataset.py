@@ -51,6 +51,7 @@ class EmitConfig:
     normalize_image_names: bool = True
     stratify_by: Optional[str] = "section_id"  # section_id, source_type, None
     min_stratum_size: int = 10
+    split_unit: str = "record"  # "page_id" to keep all Q&A from same image together
 
 
 def load_emit_config(config_path: Path) -> EmitConfig:
@@ -91,6 +92,8 @@ def load_emit_config(config_path: Path) -> EmitConfig:
             config.stratify_by = val if val != "none" else None
         if "min_stratum_size" in output_config:
             config.min_stratum_size = int(output_config["min_stratum_size"])
+        if "split_unit" in output_config:
+            config.split_unit = output_config["split_unit"]
 
     # Validate
     if config.train_split < 0 or config.train_split > 1:
@@ -333,7 +336,22 @@ def stratified_split(
     val = []
 
     for stratum_key, stratum_records in strata.items():
-        if len(stratum_records) < config.min_stratum_size:
+        if config.split_unit == "page_id":
+            # Page-level split: all Q&A from the same image stay together
+            pages = {}
+            for rec in stratum_records:
+                pid = rec.get("page_id", "")
+                pages.setdefault(pid, []).append(rec)
+
+            page_ids = list(pages.keys())
+            random.shuffle(page_ids)
+            split_idx = int(len(page_ids) * config.train_split)
+
+            for pid in page_ids[:split_idx]:
+                train.extend(pages[pid])
+            for pid in page_ids[split_idx:]:
+                val.extend(pages[pid])
+        elif len(stratum_records) < config.min_stratum_size:
             # Too small for stratification, add to pool for random assignment
             shuffled = stratum_records.copy()
             random.shuffle(shuffled)
@@ -341,7 +359,7 @@ def stratified_split(
             train.extend(shuffled[:split_idx])
             val.extend(shuffled[split_idx:])
         else:
-            # Stratified split within this stratum
+            # Record-level split within this stratum
             shuffled = stratum_records.copy()
             random.shuffle(shuffled)
             split_idx = int(len(shuffled) * config.train_split)

@@ -1,0 +1,79 @@
+{
+  "page_id": "bmwtorquespecs-007",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/007.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:13:42.436277",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 618
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M12 8.8 screw?",
+      "answer": "82 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-007-q01"
+    },
+    {
+      "question": "What torque specification should I use for an M12x1.5 10.9 bolt?",
+      "answer": "123 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-007-q02"
+    },
+    {
+      "question": "What is the tightening torque for an M12 12.9 screw?",
+      "answer": "140 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-007-q03"
+    },
+    {
+      "question": "What BMW standard should I refer to for tightening torque ranges?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-007-q04"
+    },
+    {
+      "question": "What is the torque specification for an M12x1.5 8.8 bolt?",
+      "answer": "87 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-007-q05"
+    },
+    {
+      "question": "What thread types are covered in this torque specification table?",
+      "answer": "M12 thread and M12x1.5 thread",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-007-q06"
+    },
+    {
+      "question": "What is the highest torque specification shown for M12x1.5 bolts?",
+      "answer": "147 Nm (ft. lbs.) for M12x1.5 12.9",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-007-q07"
+    },
+    {
+      "question": "What torque should I apply to an M12 10.9 screw?",
+      "answer": "115 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-007-q08"
+    },
+    {
+      "question": "What is the torque specification for the strongest M12x1.5 bolt shown?",
+      "answer": "147 Nm (ft. lbs.) for M12x1.5 12.9",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-007-q09"
+    },
+    {
+      "question": "What units are used for all the torque specifications in this table?",
+      "answer": "Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-007-q10"
+    }
+  ]
+}

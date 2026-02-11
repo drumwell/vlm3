@@ -1,0 +1,67 @@
+{
+  "page_id": "18-09_exhaust-",
+  "image_path": "raw/18 - Exhaust System/18-09.jpg",
+  "section_id": "18",
+  "section_name": "Exhaust System",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:05:04.974441",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1754,
+    "tokens_output": 475
+  },
+  "qa_pairs": [
+    {
+      "question": "What does the 'H' designation mean in the exhaust carrier installation?",
+      "answer": "H = Version with manual transmission",
+      "question_type": "factual",
+      "id": "18-09_exhaust--q01"
+    },
+    {
+      "question": "What does the 'A' designation mean in the exhaust carrier installation?",
+      "answer": "A = Version with automatic transmission",
+      "question_type": "factual",
+      "id": "18-09_exhaust--q02"
+    },
+    {
+      "question": "When should the exhaust carrier be tightened?",
+      "answer": "Tighten the exhaust carrier (H or A) only after the exhaust assembly is in correct installed position (danger of tension).",
+      "question_type": "procedural",
+      "id": "18-09_exhaust--q03"
+    },
+    {
+      "question": "What is the preload specification for the final muffler clamps?",
+      "answer": "Preload A = 6 mm (0.236\")",
+      "question_type": "parameter",
+      "id": "18-09_exhaust--q04"
+    },
+    {
+      "question": "How should the clamps for the final muffler be tightened?",
+      "answer": "Tighten clamps (1) for the final muffler in such a manner, that rubber suspension parts are pre-loaded.",
+      "question_type": "procedural",
+      "id": "18-09_exhaust--q05"
+    },
+    {
+      "question": "What component is labeled as 'A' in the upper diagram?",
+      "answer": "The exhaust carrier mounting point for automatic transmission version",
+      "question_type": "visual",
+      "id": "18-09_exhaust--q06"
+    },
+    {
+      "question": "What component is labeled as '1' in the lower diagram?",
+      "answer": "The final muffler clamps",
+      "question_type": "visual",
+      "id": "18-09_exhaust--q07"
+    },
+    {
+      "question": "What part numbers are referenced in the diagrams?",
+      "answer": "30 18 032 and 30 18 114",
+      "question_type": "factual",
+      "id": "18-09_exhaust--q08"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "page_id": "51-411_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-411.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:26:08.290576",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 712
+  },
+  "qa_pairs": [
+    {
+      "question": "What happens to the window recess seal when lifting the door trim panel out of the clamps?",
+      "answer": "The window recess seal will also be lifted out along with the door trim panel.",
+      "question_type": "factual",
+      "id": "51-411_body-equ-q01"
+    },
+    {
+      "question": "What are the four numbered components shown in the door trim panel installation diagram?",
+      "answer": "1 - Window recess seal, 2 - Ornamental strip, 3 - Clip, 4 - Door trim panel.",
+      "question_type": "visual",
+      "id": "51-411_body-equ-q02"
+    },
+    {
+      "question": "What should you check during installation of the door trim panel components?",
+      "answer": "Check for correct fit of clips.",
+      "question_type": "inspection",
+      "id": "51-411_body-equ-q03"
+    },
+    {
+      "question": "When should the door trim panel be installed complete with the window recess seal?",
+      "answer": "Install door trim panel complete with window recess seal after lowering the door window.",
+      "question_type": "procedural",
+      "id": "51-411_body-equ-q04"
+    },
+    {
+      "question": "What component should be checked on the window regulator during installation?",
+      "answer": "Check foam rubber washer on window regulator.",
+      "question_type": "inspection",
+      "id": "51-411_body-equ-q05"
+    },
+    {
+      "question": "What is the first step shown for door trim panel removal?",
+      "answer": "Lift door trim panel out of clamps.",
+      "question_type": "procedural",
+      "id": "51-411_body-equ-q06"
+    },
+    {
+      "question": "What are the three BMW part numbers referenced on this page?",
+      "answer": "30 51 040, 30 51 470, and 30 51 041.",
+      "question_type": "factual",
+      "id": "51-411_body-equ-q07",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "Which component is indicated by callout number 2 in the installation diagram?",
+      "answer": "Ornamental strip.",
+      "question_type": "visual",
+      "id": "51-411_body-equ-q08"
+    },
+    {
+      "question": "What should be done with the door window before installing the door trim panel?",
+      "answer": "Lower the door window before installing the door trim panel complete with window recess seal.",
+      "question_type": "procedural",
+      "id": "51-411_body-equ-q09"
+    },
+    {
+      "question": "What type of washer should be inspected on the window regulator?",
+      "answer": "Foam rubber washer.",
+      "question_type": "component",
+      "id": "51-411_body-equ-q10"
+    },
+    {
+      "question": "Which callout number identifies the clip in the door trim panel diagram?",
+      "answer": "Number 3 identifies the clip.",
+      "question_type": "visual",
+      "id": "51-411_body-equ-q11"
+    },
+    {
+      "question": "What is the relationship between the door trim panel and window recess seal during removal?",
+      "answer": "When the door trim panel is lifted out of clamps, the window recess seal will also be lifted out with it.",
+      "question_type": "operation",
+      "id": "51-411_body-equ-q12"
+    }
+  ]
+}

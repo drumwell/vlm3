@@ -1,0 +1,91 @@
+{
+  "page_id": "41-309_body",
+  "image_path": "raw/41 - Body/41-309.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:58:11.556860",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 799
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the service procedure number for replacing the tail panel?",
+      "answer": "The service procedure number for replacing the tail panel is 41 34 041.",
+      "question_type": "factual",
+      "id": "41-309_body-q01"
+    },
+    {
+      "question": "What page should you refer to for additional information before starting this procedure?",
+      "answer": "You should refer to information on page 41-001 before starting this procedure.",
+      "question_type": "navigation",
+      "id": "41-309_body-q02"
+    },
+    {
+      "question": "What components need to be removed before replacing the tail panel?",
+      "answer": "Remove the rear bumper, unscrew tail and license plate lights, disconnect wire harness partially, unscrew lock lower section with lock cylinder and license plate, unscrew final muffler holder, pull off trunk lid seal partially, and remove trunk mat and spare wheel.",
+      "question_type": "procedural",
+      "id": "41-309_body-q03"
+    },
+    {
+      "question": "What is the minimum distance measurement for tail panel painting?",
+      "answer": "Distance A = 265 mm (10.433\") is the minimum measurement to limit tail panel painting.",
+      "question_type": "factual",
+      "id": "41-309_body-q04"
+    },
+    {
+      "question": "What special preparation is needed for spot welding surfaces?",
+      "answer": "Remove scrap metal and coat surfaces for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-309_body-q05"
+    },
+    {
+      "question": "How should the tail panel be cut for removal?",
+      "answer": "Cut off the left and right tail panel along the line, and cut off the tail panel along the line on left and right sides.",
+      "question_type": "procedural",
+      "id": "41-309_body-q06"
+    },
+    {
+      "question": "What should be done to welding spots before removing the tail panel?",
+      "answer": "Drill off welding spots before taking off the tail panel.",
+      "question_type": "procedural",
+      "id": "41-309_body-q07"
+    },
+    {
+      "question": "What preparation is required for the new tail panel before installation?",
+      "answer": "Grind mating surfaces on the new tail panel and coat surfaces for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-309_body-q08"
+    },
+    {
+      "question": "What is shown in figure 30 41 046?",
+      "answer": "Figure 30 41 046 shows the location for cutting the tail panel with measurement lines indicated.",
+      "question_type": "visual",
+      "id": "41-309_body-q09"
+    },
+    {
+      "question": "What does the note specify about limiting tail panel painting?",
+      "answer": "The note specifies that to limit tail panel painting to a minimum, the cut can also be made in the tail light opening at distance A = 265 mm (10.433\").",
+      "question_type": "factual",
+      "id": "41-309_body-q10"
+    },
+    {
+      "question": "What is depicted in figure 30 41 052?",
+      "answer": "Figure 30 41 052 shows the new tail panel with prepared mating surfaces ready for installation.",
+      "question_type": "visual",
+      "id": "41-309_body-q11"
+    },
+    {
+      "question": "What must be done to scrap metal during the replacement process?",
+      "answer": "Remove scrap metal from the work area during the tail panel replacement process.",
+      "question_type": "procedural",
+      "id": "41-309_body-q12"
+    }
+  ]
+}

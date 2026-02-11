@@ -1,0 +1,43 @@
+{
+  "page_id": "00-08_torque-s",
+  "image_path": "raw/00 - Torque Specs/00-08.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:12:56.575622",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 662
+  },
+  "qa_pairs": [
+    {
+      "question": "What torque specification should I use for an M16 10.9 bolt?",
+      "answer": "280 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q02"
+    },
+    {
+      "question": "How much torque should I apply to an M16x1.5 10.9 bolt?",
+      "answer": "303 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q05"
+    },
+    {
+      "question": "What is the maximum tightening torque for an M16x1.5 12.9 bolt?",
+      "answer": "364 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-08_torque-s-q06"
+    },
+    {
+      "question": "What section of the manual contains these M16 and M16x1.5 maximum tightening torques?",
+      "answer": "Section 00-8 General Instructions",
+      "question_type": "navigation",
+      "id": "00-08_torque-s-q10"
+    }
+  ]
+}

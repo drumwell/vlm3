@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-036",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/036.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:22:59.558264",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 642
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two different torque specifications shown for M10 screws in this oil pump section?",
+      "answer": "47 Nm for M10 screws and 25 Nm for M10x1 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-036-q06"
+    },
+    {
+      "question": "Which components in the oil pump assembly use M6 screws?",
+      "answer": "Oil pump cover and sprocket to oil pump both use M6 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-036-q07"
+    },
+    {
+      "question": "What is the difference in torque specification between M10/M30 and M20 pressure relief valve plugs?",
+      "answer": "M10/M30 requires 40 Nm while M20 requires 30 Nm, a difference of 10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-036-q08"
+    },
+    {
+      "question": "What section and subsection covers these oil pump torque specifications?",
+      "answer": "Section 11-26 Engine, subsection 11 41 Oil Pump with Strainer and Drive",
+      "question_type": "navigation",
+      "id": "00-torque-specs-036-q09"
+    },
+    {
+      "question": "Which oil pump components apply to all engine types?",
+      "answer": "Oil pump to crankcase, oil pump cover, and sprocket to oil pump all apply to all engine types",
+      "question_type": "factual",
+      "id": "00-torque-specs-036-q10"
+    }
+  ]
+}

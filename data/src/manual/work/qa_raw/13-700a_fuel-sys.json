@@ -1,0 +1,91 @@
+{
+  "page_id": "13-700a_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-700a.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:44:57.409774",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 874
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the minimum oil temperature required for all adjustments when adjusting engine idle speed and CO level?",
+      "answer": "The engine must be at operating temperature with oil temperature at least 60\u00b0C (140\u00b0F).",
+      "question_type": "factual",
+      "id": "13-700a_fuel-sys-q01"
+    },
+    {
+      "question": "What special tool is needed to adjust the CO level?",
+      "answer": "Special Tool 13 1 011 is required to remove the cap and adjust the CO level with Special Tool 13 1 100 applied on the air control screw in the air flow sensor.",
+      "question_type": "tool",
+      "id": "13-700a_fuel-sys-q02"
+    },
+    {
+      "question": "What must be done before starting CO adjustment according to the emission test requirements?",
+      "answer": "First make sure that there are no faults in the engine, ignition or fuel injection before correcting the CO adjustment and see Troubleshooting section.",
+      "question_type": "procedural",
+      "id": "13-700a_fuel-sys-q03"
+    },
+    {
+      "question": "What special tool is inserted into the throttle valve switch wire plug?",
+      "answer": "Special Tool 13 4 010 is inserted into the wire plug after pulling off the plug on the throttle valve switch.",
+      "question_type": "tool",
+      "id": "13-700a_fuel-sys-q04"
+    },
+    {
+      "question": "What is the maximum allowable vacuum difference when adjusting throttle valve necks?",
+      "answer": "The maximum vacuum difference is 5 mbar when adjusting each throttle valve neck to the same intake pipe vacuum.",
+      "question_type": "factual",
+      "id": "13-700a_fuel-sys-q05"
+    },
+    {
+      "question": "What tool is needed to adjust the throttle valve necks and what size socket is required?",
+      "answer": "A 7 mm wrench socket is needed at nominal idle speed (screw 3) to adjust each throttle valve neck to the same intake pipe vacuum.",
+      "question_type": "tool",
+      "id": "13-700a_fuel-sys-q06"
+    },
+    {
+      "question": "What should be done with the altitude correction box during synchronization measurements?",
+      "answer": "Leave caps on the throttle valve necks not being measured so the altitude correction box remains connected during synchronization.",
+      "question_type": "procedural",
+      "id": "13-700a_fuel-sys-q07"
+    },
+    {
+      "question": "What BMW service test is mentioned for connecting the vacuum tester?",
+      "answer": "BMW service test M 21 is mentioned for connecting the vacuum tester when pulling off plugs.",
+      "question_type": "factual",
+      "id": "13-700a_fuel-sys-q08"
+    },
+    {
+      "question": "What should be checked after finishing the throttle valve adjustments?",
+      "answer": "After finishing adjustments, check engine idle speed and CO level, correcting if necessary, then install new anti-tamper plugs.",
+      "question_type": "procedural",
+      "id": "13-700a_fuel-sys-q09"
+    },
+    {
+      "question": "What is required for push rod adjustment according to the synchronization section?",
+      "answer": "Push rod adjustment must be correct, referencing Removing and Installing Throttle Valve Housing section 13 54 030.",
+      "question_type": "procedural",
+      "id": "13-700a_fuel-sys-q10"
+    },
+    {
+      "question": "What should be switched off during the adjustment requirements?",
+      "answer": "All electric consumers should be switched off and the BMW Service Tester should be connected according to operating instructions.",
+      "question_type": "procedural",
+      "id": "13-700a_fuel-sys-q11"
+    },
+    {
+      "question": "What vacuum measurement procedure is described for the four throttle valves?",
+      "answer": "Measure intake pipe vacuum in all four throttle valve necks and note values, then pull off caps to remove plugs and connect vacuum tester.",
+      "question_type": "procedural",
+      "id": "13-700a_fuel-sys-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "-012",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/012.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:05:14.101307",
+    "prompt_template": "unknown/procedure",
+    "tokens_input": 1867,
+    "tokens_output": 724
+  },
+  "qa_pairs": [
+    {
+      "question": "How do you remove the shift rods from the transmission?",
+      "answer": "To get the shift rods out and back of the box off, pull each shift rod out through the front.",
+      "question_type": "procedural",
+      "id": "-012-q01"
+    },
+    {
+      "question": "What direction should you pull the shift rods during removal?",
+      "answer": "Pull each shift rod out through the front.",
+      "question_type": "procedural",
+      "id": "-012-q02"
+    },
+    {
+      "question": "What component is shown with splined teeth in the upper image?",
+      "answer": "A gear or shaft component with splined teeth that appears to be part of the transmission assembly.",
+      "question_type": "visual",
+      "id": "-012-q03"
+    },
+    {
+      "question": "What is visible in the lower workshop image?",
+      "answer": "A disassembled transmission case with shift rods and internal gearing components laid out on a workbench.",
+      "question_type": "visual",
+      "id": "-012-q04"
+    },
+    {
+      "question": "What type of transmission components are being worked on in this procedure?",
+      "answer": "Shift rods and transmission case components from what appears to be a manual transmission.",
+      "question_type": "component",
+      "id": "-012-q05"
+    },
+    {
+      "question": "What is the condition of some photos mentioned in the text?",
+      "answer": "Some of the photos are slightly out of order.",
+      "question_type": "factual",
+      "id": "-012-q06"
+    },
+    {
+      "question": "What internal components can be seen once the shift rods are removed?",
+      "answer": "Internal gearing, synchronizer assemblies, and the transmission case internals are visible once disassembled.",
+      "question_type": "visual",
+      "id": "-012-q07"
+    },
+    {
+      "question": "What tool appears to be used in the workshop image?",
+      "answer": "There appears to be a specialized transmission tool or puller visible in the workshop setup.",
+      "question_type": "tool",
+      "id": "-012-q08"
+    },
+    {
+      "question": "What is the purpose of removing the shift rods?",
+      "answer": "The shift rods need to be removed to get the back of the transmission box off for further disassembly.",
+      "question_type": "procedural",
+      "id": "-012-q09"
+    },
+    {
+      "question": "How many shift rods need to be removed according to the instructions?",
+      "answer": "Each shift rod needs to be pulled out, indicating multiple shift rods are present in the transmission.",
+      "question_type": "factual",
+      "id": "-012-q10"
+    },
+    {
+      "question": "What workspace setup is shown in the lower image?",
+      "answer": "A workshop bench with laptop, specialized tools, and transmission components laid out for repair work.",
+      "question_type": "visual",
+      "id": "-012-q11"
+    },
+    {
+      "question": "What happens after the shift rods are removed?",
+      "answer": "After the shift rods are removed, the back of the transmission box can be taken off.",
+      "question_type": "procedural",
+      "id": "-012-q12"
+    }
+  ]
+}

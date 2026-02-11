@@ -1,0 +1,79 @@
+{
+  "page_id": "11-52b_engine",
+  "image_path": "raw/11 - Engine/11-52b.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:10:47.307707",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 770
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the tightening torque for oil cooler pipe coupling nuts?",
+      "answer": "The tightening torque for oil cooler pipe coupling nuts is 35 Nm (25 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-52b_engine-q01"
+    },
+    {
+      "question": "What should be disconnected before removing the oil pan?",
+      "answer": "The ground lead on the oil pan should be disconnected.",
+      "question_type": "procedural",
+      "id": "11-52b_engine-q02"
+    },
+    {
+      "question": "What should remain connected when unscrewing the power steering pump from its holder?",
+      "answer": "The hydraulic lines should remain connected when unscrewing the power steering pump from its holder.",
+      "question_type": "procedural",
+      "id": "11-52b_engine-q04"
+    },
+    {
+      "question": "What is the tightening torque for engine mounts on the front axle carrier?",
+      "answer": "The tightening torque for engine mounts on the front axle carrier is 45 Nm (32.5 ft. lbs.).",
+      "question_type": "factual",
+      "id": "11-52b_engine-q05"
+    },
+    {
+      "question": "Which hoses remain connected when removing the A/C compressor?",
+      "answer": "The refrigerant hoses remain connected when removing the A/C compressor.",
+      "question_type": "procedural",
+      "id": "11-52b_engine-q06"
+    },
+    {
+      "question": "What special tool is used to lift out the engine?",
+      "answer": "Special Tool 11 0 000 is used to connect on the engine and lift out the engine.",
+      "question_type": "tool",
+      "id": "11-52b_engine-q07"
+    },
+    {
+      "question": "How should the left and right engine mounts be loosened on the front axle carrier?",
+      "answer": "Left engine mount should be unscrewed at top and loosened at bottom. Right engine mount should be loosened at top and unscrewed at bottom.",
+      "question_type": "procedural",
+      "id": "11-52b_engine-q08"
+    },
+    {
+      "question": "What part number is referenced for removing the fan?",
+      "answer": "The fan removal references section 11 52 000.",
+      "question_type": "navigation",
+      "id": "11-52b_engine-q09"
+    },
+    {
+      "question": "What should be used as a retainer during installation of the support arm and gas pressure prop?",
+      "answer": "Use retainer (1) during installation.",
+      "question_type": "procedural",
+      "id": "11-52b_engine-q11"
+    },
+    {
+      "question": "What plastic part should be inserted during installation of the support arm?",
+      "answer": "Insert plastic part (2) during installation of the support arm.",
+      "question_type": "procedural",
+      "id": "11-52b_engine-q12"
+    }
+  ]
+}

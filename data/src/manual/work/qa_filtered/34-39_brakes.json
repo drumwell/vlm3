@@ -1,0 +1,79 @@
+{
+  "page_id": "34-39_brakes",
+  "image_path": "raw/34 - Brakes/34-39.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:24:48.842920",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 659
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I do before pulling off a plug and measuring resistance in test step 05?",
+      "answer": "Turn off ignition before pulling off a plug and measuring resistance.",
+      "question_type": "safety",
+      "id": "34-39_brakes-q01"
+    },
+    {
+      "question": "What are the initial steps to test voltage between wires 1 and 10?",
+      "answer": "Turn on ignition, run engine, and ensure battery is charged before checking.",
+      "question_type": "procedural",
+      "id": "34-39_brakes-q02"
+    },
+    {
+      "question": "Where should I check the ground connections for wires 10, 20, and 34?",
+      "answer": "Check ground connection below instrument panel on left side for all three ground wires.",
+      "question_type": "diagnostic",
+      "id": "34-39_brakes-q03"
+    },
+    {
+      "question": "What should I check for wire 14/return delivery pump ground?",
+      "answer": "Check ground connection on battery console, check ground connection on return delivery pump, and check flow in ground wire and multiple pin plug on wire harness.",
+      "question_type": "diagnostic",
+      "id": "34-39_brakes-q04"
+    },
+    {
+      "question": "What job position number applies to checking ground wire connections?",
+      "answer": "Job position 61 11 530 applies to checking ground wire 10, 20, and 34 connections.",
+      "question_type": "factual",
+      "id": "34-39_brakes-q05"
+    },
+    {
+      "question": "What should I do if there is a power flow break in the wire harness?",
+      "answer": "Replace wire harness if there is power flow break.",
+      "question_type": "troubleshooting",
+      "id": "34-39_brakes-q06"
+    },
+    {
+      "question": "What job position covers replacing the electronic relay?",
+      "answer": "Job position 34 52 510 covers replacing the electronic relay.",
+      "question_type": "factual",
+      "id": "34-39_brakes-q07"
+    },
+    {
+      "question": "What happens if the motor relay only switches at intervals without the pump motor running?",
+      "answer": "The voltage will briefly drop excessively due to the high switching on power at the feed wires from the battery. Repeat test with engine running and see test steps 04, 06, and 07.",
+      "question_type": "diagnostic",
+      "id": "34-39_brakes-q08"
+    },
+    {
+      "question": "What is the remedy for overvoltage protector issues?",
+      "answer": "Replace electronic relay. Note that there is no overvoltage protection relay since 1989 models.",
+      "question_type": "troubleshooting",
+      "id": "34-39_brakes-q09"
+    },
+    {
+      "question": "What should I do for fault simulation in the test cycle?",
+      "answer": "Replace control unit and watch the above mentioned points.",
+      "question_type": "troubleshooting",
+      "id": "34-39_brakes-q10"
+    }
+  ]
+}

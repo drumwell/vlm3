@@ -1,0 +1,67 @@
+{
+  "page_id": "35-01_pedals",
+  "image_path": "raw/35 - Pedals/35-01.jpg",
+  "section_id": "35",
+  "section_name": "Pedals",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:26:50.463361",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 507
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the three main pedal assemblies shown in this diagram?",
+      "answer": "The three main pedal assemblies shown are the clutch pedal (with over-center helper spring), brake pedal, and accelerator pedal.",
+      "question_type": "component",
+      "id": "35-01_pedals-q01"
+    },
+    {
+      "question": "What part number is associated with the clutch pedal assembly?",
+      "answer": "The clutch pedal assembly is labeled with part number 30 35 028.",
+      "question_type": "factual",
+      "id": "35-01_pedals-q02"
+    },
+    {
+      "question": "What special feature is noted for the clutch pedal?",
+      "answer": "The clutch pedal has an over-center helper spring.",
+      "question_type": "component",
+      "id": "35-01_pedals-q03"
+    },
+    {
+      "question": "What part number corresponds to the brake pedal assembly?",
+      "answer": "The brake pedal assembly is labeled with part number 30 35 002.",
+      "question_type": "factual",
+      "id": "35-01_pedals-q04"
+    },
+    {
+      "question": "What part number is shown for the brake pedal mechanism in the center diagram?",
+      "answer": "The brake pedal mechanism in the center diagram shows part number 30 35 001.",
+      "question_type": "factual",
+      "id": "35-01_pedals-q05"
+    },
+    {
+      "question": "What part number is associated with the accelerator pedal?",
+      "answer": "The accelerator pedal is labeled with part number 20 35 022.",
+      "question_type": "factual",
+      "id": "35-01_pedals-q06"
+    },
+    {
+      "question": "What dimension markings are visible on the brake pedal diagrams?",
+      "answer": "The brake pedal diagrams show dimension markings labeled as 'A' and 'B' with measurement arrows.",
+      "question_type": "visual",
+      "id": "35-01_pedals-q07"
+    },
+    {
+      "question": "What note appears at the bottom of the page regarding specifications?",
+      "answer": "At the bottom of the page, there is a note that says 'See Specifications'.",
+      "question_type": "navigation",
+      "id": "35-01_pedals-q08"
+    }
+  ]
+}

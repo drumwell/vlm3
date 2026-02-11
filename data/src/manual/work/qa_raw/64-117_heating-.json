@@ -1,0 +1,91 @@
+{
+  "page_id": "64-117_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-117.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:55:59.799600",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 776
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with the bypass flaps before removing the heater?",
+      "answer": "Close bypass flaps (2), because the heater can only be removed in this state.",
+      "question_type": "procedural",
+      "id": "64-117_heating--q01"
+    },
+    {
+      "question": "What are the first steps to remove the heater according to the removal procedure?",
+      "answer": "Unscrew left and right nuts (1), then remove heater.",
+      "question_type": "procedural",
+      "id": "64-117_heating--q02"
+    },
+    {
+      "question": "What must be connected to the heater during installation?",
+      "answer": "Condensation water drains (1 ... 3) must be connected on heater.",
+      "question_type": "procedural",
+      "id": "64-117_heating--q03"
+    },
+    {
+      "question": "What should you check and potentially replace during heater installation?",
+      "answer": "Check rubber mount (4), replacing if necessary. Also check rear area heater ducts (5 and 6).",
+      "question_type": "inspection",
+      "id": "64-117_heating--q04"
+    },
+    {
+      "question": "What callout numbers indicate the condensation water drains in the installation diagram?",
+      "answer": "Callout numbers 1, 2, and 3 indicate the condensation water drains that must be connected to the heater.",
+      "question_type": "visual",
+      "id": "64-117_heating--q05"
+    },
+    {
+      "question": "What installation requirement is specified for sleeve (1) in the middle diagram?",
+      "answer": "Make sure sleeve (1) has perfect fit in body wall.",
+      "question_type": "procedural",
+      "id": "64-117_heating--q06"
+    },
+    {
+      "question": "What component should be inspected in the sealing frame during installation?",
+      "answer": "Check sealing frame (1), replacing if necessary.",
+      "question_type": "inspection",
+      "id": "64-117_heating--q07"
+    },
+    {
+      "question": "What are the BMW part numbers shown in the diagrams?",
+      "answer": "The diagrams show BMW part numbers 30 64 149, 30 64 148, 30 64 147, and 30 64 146.",
+      "question_type": "factual",
+      "id": "64-117_heating--q08"
+    },
+    {
+      "question": "Which callout numbers represent the rear area heater ducts?",
+      "answer": "Callout numbers 5 and 6 represent the rear area heater ducts.",
+      "question_type": "visual",
+      "id": "64-117_heating--q09"
+    },
+    {
+      "question": "What is the critical state requirement for heater removal mentioned in the note?",
+      "answer": "The bypass flaps must be closed because the heater can only be removed in this state.",
+      "question_type": "safety",
+      "id": "64-117_heating--q10"
+    },
+    {
+      "question": "What rubber component requires inspection during heater installation?",
+      "answer": "The rubber mount (4) requires inspection and should be replaced if necessary.",
+      "question_type": "component",
+      "id": "64-117_heating--q11"
+    },
+    {
+      "question": "How many condensation water drains need to be connected during heater installation?",
+      "answer": "Three condensation water drains (numbered 1, 2, and 3) must be connected on the heater.",
+      "question_type": "factual",
+      "id": "64-117_heating--q12"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "25-02_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-02.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:48:03.765350",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1756,
+    "tokens_output": 476
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of shift console is shown in this diagram?",
+      "answer": "This diagram shows an aluminum shift console for manual transmission.",
+      "question_type": "component",
+      "id": "25-02_gear-shi-q01"
+    },
+    {
+      "question": "Which component connects the shift lever to the transmission mechanism?",
+      "answer": "The selector rod (component 7) connects the shift lever to the transmission mechanism.",
+      "question_type": "component",
+      "id": "25-02_gear-shi-q03"
+    },
+    {
+      "question": "What is the purpose of component number 10 in this shift layout?",
+      "answer": "Component number 10 is the backup light wires that provide electrical connection for the reverse lights.",
+      "question_type": "factual",
+      "id": "25-02_gear-shi-q04"
+    },
+    {
+      "question": "Where is the bearing shell located in relation to the selector rod?",
+      "answer": "The bearing shell (component 6) is positioned around the selector rod (component 7) to provide smooth operation.",
+      "question_type": "visual",
+      "id": "25-02_gear-shi-q05"
+    },
+    {
+      "question": "What component is identified as number 8 in the shift console assembly?",
+      "answer": "Component number 8 is the shift console.",
+      "question_type": "factual",
+      "id": "25-02_gear-shi-q06"
+    },
+    {
+      "question": "How many dust covers are shown in this shift layout diagram?",
+      "answer": "There are two dust covers shown: component 2 (dust cover) and component 5 (dust cover).",
+      "question_type": "visual",
+      "id": "25-02_gear-shi-q07"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "16-03_fuel-tan",
+  "image_path": "raw/16 - Fuel Tank and Lines/16-03.jpg",
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:58:17.087474",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 762
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be loosened first before pulling off the hoses in the initial step?",
+      "answer": "Loosen hose clamps 1 and 2 first, then pull off the hoses.",
+      "question_type": "procedural",
+      "id": "16-03_fuel-tan-q01"
+    },
+    {
+      "question": "Which side of the fuel tank should be removed first?",
+      "answer": "Take off the fuel tank on the right-hand side first.",
+      "question_type": "procedural",
+      "id": "16-03_fuel-tan-q02"
+    },
+    {
+      "question": "What items need to be loosened and pulled off for the fuel tank on the right side?",
+      "answer": "Loosen and pull off hose 8, and remove strips of adhesive tape.",
+      "question_type": "procedural",
+      "id": "16-03_fuel-tan-q03"
+    },
+    {
+      "question": "What components are identified by callout numbers 1 and 2 in the first diagram?",
+      "answer": "Callout numbers 1 and 2 identify the hose clamps that need to be loosened before pulling off the hoses.",
+      "question_type": "visual",
+      "id": "16-03_fuel-tan-q04"
+    },
+    {
+      "question": "What additional step is required for 1988 models when removing fuel pipes?",
+      "answer": "For 1988 models, pull off fuel pipes and unscrew the fuel filter if applicable.",
+      "question_type": "procedural",
+      "id": "16-03_fuel-tan-q05"
+    },
+    {
+      "question": "What protective components need to be removed from both sides?",
+      "answer": "Remove stone guards from both left and right sides.",
+      "question_type": "procedural",
+      "id": "16-03_fuel-tan-q06"
+    },
+    {
+      "question": "How should the fuel tank be removed on 1988 models?",
+      "answer": "On 1988 models, tilt and lift out the fuel tank.",
+      "question_type": "procedural",
+      "id": "16-03_fuel-tan-q07"
+    },
+    {
+      "question": "What component is labeled as number 8 in the diagrams?",
+      "answer": "Number 8 identifies a hose that needs to be loosened and pulled off when removing the right-side fuel tank.",
+      "question_type": "visual",
+      "id": "16-03_fuel-tan-q08"
+    },
+    {
+      "question": "What should be done if tank support is necessary?",
+      "answer": "Support the tank if necessary, then unscrew bolts and nuts.",
+      "question_type": "procedural",
+      "id": "16-03_fuel-tan-q09"
+    },
+    {
+      "question": "What type of fasteners need to be removed when supporting the tank?",
+      "answer": "Unscrew bolts and nuts when supporting the tank.",
+      "question_type": "factual",
+      "id": "16-03_fuel-tan-q10"
+    },
+    {
+      "question": "What year models require the additional step of unscrewing the fuel filter?",
+      "answer": "1988 models require unscrewing the fuel filter if applicable when pulling off fuel pipes.",
+      "question_type": "factual",
+      "id": "16-03_fuel-tan-q11"
+    },
+    {
+      "question": "What type of material needs to be removed from the right-side fuel tank area?",
+      "answer": "Remove strips of adhesive tape from the right-side fuel tank area.",
+      "question_type": "factual",
+      "id": "16-03_fuel-tan-q12"
+    }
+  ]
+}

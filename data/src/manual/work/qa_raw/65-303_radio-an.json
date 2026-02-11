@@ -1,0 +1,91 @@
+{
+  "page_id": "65-303_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-303.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:03:20.655580",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 740
+  },
+  "qa_pairs": [
+    {
+      "question": "What size screws are used to mount the control unit holder?",
+      "answer": "4.2 x 13 mm self-tapping screws are used to mount holder (1) for the control unit.",
+      "question_type": "factual",
+      "id": "65-303_radio-an-q01"
+    },
+    {
+      "question": "How do you install the control unit into the holder?",
+      "answer": "Slide control unit (1) into holder (2) as shown in the diagram.",
+      "question_type": "procedural",
+      "id": "65-303_radio-an-q02"
+    },
+    {
+      "question": "What does connection number 1 represent in the wire harness sketch?",
+      "answer": "Connection 1 is the connection for the control unit.",
+      "question_type": "wiring",
+      "id": "65-303_radio-an-q03"
+    },
+    {
+      "question": "Where should the extra wire harness from the installation kit be routed?",
+      "answer": "Route the extra wire harness from the installation kit from the driver's side via center console to the place of control unit installation.",
+      "question_type": "procedural",
+      "id": "65-303_radio-an-q04"
+    },
+    {
+      "question": "What does connection number 3 in the wiring diagram connect to?",
+      "answer": "Connection 3 is for the range indicator (only cars with automatic transmission).",
+      "question_type": "wiring",
+      "id": "65-303_radio-an-q05"
+    },
+    {
+      "question": "What components need to be installed after connecting the extra wire harness?",
+      "answer": "Install holders, install casing and trim panels after connecting the extra wire harness on the control unit.",
+      "question_type": "procedural",
+      "id": "65-303_radio-an-q06"
+    },
+    {
+      "question": "Which connection number is used for the speedometer?",
+      "answer": "Connection 2 is the connection for the speedometer.",
+      "question_type": "wiring",
+      "id": "65-303_radio-an-q07"
+    },
+    {
+      "question": "What does connection 7 represent in the wire harness?",
+      "answer": "Connection 7 is the connection for the clutch switch.",
+      "question_type": "wiring",
+      "id": "65-303_radio-an-q08"
+    },
+    {
+      "question": "What is shown in diagram 30 65 309?",
+      "answer": "Diagram 30 65 309 shows how to slide control unit (1) into holder (2).",
+      "question_type": "visual",
+      "id": "65-303_radio-an-q09"
+    },
+    {
+      "question": "What does connection 9 connect to in the wiring harness?",
+      "answer": "Connection 9 is the connection for the selector switch.",
+      "question_type": "wiring",
+      "id": "65-303_radio-an-q10"
+    },
+    {
+      "question": "How many numbered connections are shown in the wire harness sketch?",
+      "answer": "There are 9 numbered connections shown in the wire harness sketch (connections 1 through 9).",
+      "question_type": "visual",
+      "id": "65-303_radio-an-q11"
+    },
+    {
+      "question": "What does connection 6 represent in the wiring diagram?",
+      "answer": "Connection 6 is the wire bridge connection.",
+      "question_type": "wiring",
+      "id": "65-303_radio-an-q12"
+    }
+  ]
+}

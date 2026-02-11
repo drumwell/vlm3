@@ -1,0 +1,79 @@
+{
+  "page_id": "51-313_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-313.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:19:26.254661",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 778
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number and title for removing and installing the windshield on the BMW E30 M3?",
+      "answer": "Section 51 31, titled 'REMOVING AND INSTALLING WINDSHIELD - M 3'.",
+      "question_type": "factual",
+      "id": "51-313_body-equ-q01"
+    },
+    {
+      "question": "What components need to be removed before starting the windshield removal process?",
+      "answer": "Lift out the front roof liner plate and A pillar trim, remove windshield wipers, and lift out the rubber seal.",
+      "question_type": "procedural",
+      "id": "51-313_body-equ-q02"
+    },
+    {
+      "question": "What precaution should be taken to protect the vehicle body during windshield removal?",
+      "answer": "Protect body with tape.",
+      "question_type": "safety",
+      "id": "51-313_body-equ-q03"
+    },
+    {
+      "question": "How should the knife be positioned when mounting it on the tool for windshield removal?",
+      "answer": "Mount the knife on the tool. The knife must be parallel to axis of the tool.",
+      "question_type": "procedural",
+      "id": "51-313_body-equ-q04"
+    },
+    {
+      "question": "What is the proper technique for guiding the knife during windshield removal?",
+      "answer": "Guide traverse of knife parallel to window and guide the knife between the body and window carefully.",
+      "question_type": "procedural",
+      "id": "51-313_body-equ-q05"
+    },
+    {
+      "question": "What should be done with the knife if applicable during the cutting process?",
+      "answer": "If applicable, regrind the knife while the machine is running. Also refer to operating instructions.",
+      "question_type": "procedural",
+      "id": "51-313_body-equ-q07"
+    },
+    {
+      "question": "What is the recommended repair method for paint damage after windshield removal?",
+      "answer": "Touch up damage on paint finish with zinc dust paint and enamel.",
+      "question_type": "procedural",
+      "id": "51-313_body-equ-q09"
+    },
+    {
+      "question": "What is the source of supply for the special windshield removal tools?",
+      "answer": "HWB (as indicated by the footnote 'Source of Supply: HWB').",
+      "question_type": "factual",
+      "id": "51-313_body-equ-q10"
+    },
+    {
+      "question": "What reference should be consulted for additional windshield repair information?",
+      "answer": "Also refer to other sections of repair manual.",
+      "question_type": "navigation",
+      "id": "51-313_body-equ-q11"
+    },
+    {
+      "question": "What is shown in diagram 30 51 787?",
+      "answer": "The diagram shows cutting through the cement bead all around and lifting out the window with Special Tool 51 3 010.",
+      "question_type": "visual",
+      "id": "51-313_body-equ-q12"
+    }
+  ]
+}

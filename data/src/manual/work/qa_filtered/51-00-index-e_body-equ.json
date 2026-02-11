@@ -1,0 +1,55 @@
+{
+  "page_id": "51-00-index-e_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-00-index-e.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:08:10.477414",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1746,
+    "tokens_output": 448
+  },
+  "qa_pairs": [
+    {
+      "question": "What page reference covers the trim panel for cover on side member replacement?",
+      "answer": "The trim panel for cover on side member replacement is covered on page 51-714.",
+      "question_type": "navigation",
+      "id": "51-00-index-e_body-equ-q01"
+    },
+    {
+      "question": "Where can I find information about installing the rear spoiler using M-Technic procedures?",
+      "answer": "The rear spoiler installation using M-Technic procedures is found on page 51-757.",
+      "question_type": "navigation",
+      "id": "51-00-index-e_body-equ-q02"
+    },
+    {
+      "question": "What troubleshooting issue is covered on page 51-801?",
+      "answer": "Page 51-801 covers troubleshooting for failure of the entire central locking system.",
+      "question_type": "troubleshooting",
+      "id": "51-00-index-e_body-equ-q03"
+    },
+    {
+      "question": "Which page should I reference if the driver's door lock won't unlock or lock?",
+      "answer": "You should reference page 51-803 for issues with the driver's door lock not functioning when operating (unlocking-locking).",
+      "question_type": "troubleshooting",
+      "id": "51-00-index-e_body-equ-q04"
+    },
+    {
+      "question": "What specific power window troubleshooting issue is addressed on page 51-812?",
+      "answer": "Page 51-812 addresses the issue of no function when operating the push button for the power window in the driver's door.",
+      "question_type": "troubleshooting",
+      "id": "51-00-index-e_body-equ-q05"
+    },
+    {
+      "question": "Where can I find troubleshooting information for the left rear door power window operated from the center console?",
+      "answer": "Troubleshooting for no function when operating the push button for the power window in the left rear door from the center console is found on page 51-813.",
+      "question_type": "troubleshooting",
+      "id": "51-00-index-e_body-equ-q06"
+    }
+  ]
+}

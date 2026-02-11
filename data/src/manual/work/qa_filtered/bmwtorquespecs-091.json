@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-091",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/091.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:29:26.966853",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 562
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the specific part referenced under item 21 11?",
+      "answer": "Bell housing",
+      "question_type": "component",
+      "id": "bmwtorquespecs-091-q05"
+    },
+    {
+      "question": "What units are used for all the torque measurements in this table?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-091-q07"
+    },
+    {
+      "question": "How many different screw sizes are specified for the clutch housing to crankcase connection?",
+      "answer": "Three different screw sizes: M8, M10, and M12",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-091-q08"
+    },
+    {
+      "question": "What does the 'All' designation in the Type column indicate?",
+      "answer": "The torque specifications apply to all vehicle types",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-091-q09"
+    },
+    {
+      "question": "Which screw size requires the highest torque value for the clutch housing to crankcase connection?",
+      "answer": "M12 screws require the highest torque at 86 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-091-q10"
+    }
+  ]
+}

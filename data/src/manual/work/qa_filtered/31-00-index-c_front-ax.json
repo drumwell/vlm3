@@ -1,0 +1,37 @@
+{
+  "page_id": "31-00-index-c_front-ax",
+  "image_path": "raw/31 - Front Axle/31-00-index-c.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:58:06.082775",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 308
+  },
+  "qa_pairs": [
+    {
+      "question": "Which page covers the procedure for removing and installing the differential?",
+      "answer": "Page 31 33",
+      "question_type": "navigation",
+      "id": "31-00-index-c_front-ax-q02"
+    },
+    {
+      "question": "On which page can I find information about the constant velocity joint outer of the output shaft?",
+      "answer": "Page 31 47",
+      "question_type": "navigation",
+      "id": "31-00-index-c_front-ax-q04"
+    },
+    {
+      "question": "Which page covers front axle final drive adjustments?",
+      "answer": "Page 31 39",
+      "question_type": "navigation",
+      "id": "31-00-index-c_front-ax-q06"
+    }
+  ]
+}

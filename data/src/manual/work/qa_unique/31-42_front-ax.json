@@ -1,0 +1,73 @@
+{
+  "page_id": "31-42_front-ax",
+  "image_path": "raw/31 - Front Axle/31-42.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:04:35.298420",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1804,
+    "tokens_output": 680
+  },
+  "qa_pairs": [
+    {
+      "question": "What tools are needed for ring gear/pinion backlash adjustment?",
+      "answer": "Mount dial gage 00 2 510 and Special Tool 00 2 500, with dial gage point at right angle to tooth, and measure play.",
+      "question_type": "tool",
+      "id": "31-42_front-ax-q01"
+    },
+    {
+      "question": "What is the minimum thickness requirement for installed shims?",
+      "answer": "The thickness of installed shim(C), e.g 2.01 mm (0.079\"), must be increased by 0.15 mm (0.006\").",
+      "question_type": "factual",
+      "id": "31-42_front-ax-q02"
+    },
+    {
+      "question": "What thickness increments are available for shims?",
+      "answer": "Shims are available in thickness steps of 0.03 mm (0.0012\").",
+      "question_type": "factual",
+      "id": "31-42_front-ax-q03"
+    },
+    {
+      "question": "What should you do if backlash is excessive?",
+      "answer": "Install thicker shim (C).",
+      "question_type": "procedural",
+      "id": "31-42_front-ax-q04"
+    },
+    {
+      "question": "In the example calculation, what is the measured backlash value?",
+      "answer": "0.19 mm (0.0075\").",
+      "question_type": "factual",
+      "id": "31-42_front-ax-q06"
+    },
+    {
+      "question": "What is the specified minimum play value in the example?",
+      "answer": "0.06 mm (0.0024\").",
+      "question_type": "factual",
+      "id": "31-42_front-ax-q07"
+    },
+    {
+      "question": "What is the calculated difference in the example?",
+      "answer": "0.13 mm (0.0051\").",
+      "question_type": "factual",
+      "id": "31-42_front-ax-q08"
+    },
+    {
+      "question": "What factor is used in the calculation and what is the final result?",
+      "answer": "The factor is 1.15. The calculation is 0.13 mm x 1.15 = 0.15 mm or 0.0051\" x 1.15 = 0.0059\".",
+      "question_type": "factual",
+      "id": "31-42_front-ax-q09"
+    },
+    {
+      "question": "What important rule must be followed regarding total shim thickness?",
+      "answer": "The total thickness of shims (B + C) must not be changed. If the thickness of shim (C) is reduced, the thickness of shim (B) must be increased by the same amount, or vice versa.",
+      "question_type": "procedural",
+      "id": "31-42_front-ax-q10"
+    }
+  ]
+}

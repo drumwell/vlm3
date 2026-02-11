@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-26-02",
+  "image_path": "raw/00 - Torque Specs/26-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:03:53.775626",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 633
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the driveshaft to drive flange compression nut with universal joint?",
+      "answer": "64 Nm for M10 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-02-q01"
+    },
+    {
+      "question": "What torque should I apply to the finned nut on the driveshaft to drive flange?",
+      "answer": "80 Nm for M10 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-02-q02"
+    },
+    {
+      "question": "What is the compression nut torque for the constant velocity joint version?",
+      "answer": "32 Nm for M8 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-02-q03"
+    },
+    {
+      "question": "What are the two different finned nut torque specifications listed for the propeller shaft?",
+      "answer": "43 Nm for M8 screw and 70 Nm for M10 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-02-q05"
+    },
+    {
+      "question": "What torque is specified for pivoting to center propeller shaft journal with Loctite?",
+      "answer": "97 Nm for versions without slide.",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-02-q06"
+    },
+    {
+      "question": "What special instruction is given for the universal joint compression nut?",
+      "answer": "After loosening connection only use ribbed nuts with higher tightening torque.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-26-02-q08"
+    },
+    {
+      "question": "Which screw sizes are used for the different finned nuts on the propeller shaft?",
+      "answer": "M8 screws require 43 Nm and M10 screws require 70 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-02-q09"
+    },
+    {
+      "question": "What is the difference in torque between the universal joint and constant velocity joint compression nuts?",
+      "answer": "Universal joint requires 64 Nm (M10) while constant velocity joint requires 32 Nm (M8).",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-02-q10"
+    }
+  ]
+}

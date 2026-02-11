@@ -1,0 +1,91 @@
+{
+  "page_id": "31-48_front-ax",
+  "image_path": "raw/31 - Front Axle/31-48.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:06:04.601202",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 716
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the service procedure number for replacing one dust cover of the left or right output shaft?",
+      "answer": "The service procedure number is 31 60 030.",
+      "question_type": "factual",
+      "id": "31-48_front-ax-q01"
+    },
+    {
+      "question": "What section contains the identical procedures referenced for this dust cover replacement?",
+      "answer": "The procedures are identical with those described in section 31 60 020/021.",
+      "question_type": "navigation",
+      "id": "31-48_front-ax-q02"
+    },
+    {
+      "question": "What must be done to the joint before removing the old grease?",
+      "answer": "The joint must be cleaned to remove the old grease.",
+      "question_type": "procedural",
+      "id": "31-48_front-ax-q03"
+    },
+    {
+      "question": "What is the important warning regarding joint disassembly during this procedure?",
+      "answer": "Do not disassemble a joint or let it fall apart.",
+      "question_type": "safety",
+      "id": "31-48_front-ax-q04"
+    },
+    {
+      "question": "Which output shafts does this dust cover replacement procedure apply to?",
+      "answer": "This procedure applies to replacing one dust cover of either the left or right output shaft.",
+      "question_type": "factual",
+      "id": "31-48_front-ax-q05"
+    },
+    {
+      "question": "What should you clean from the joint during this procedure?",
+      "answer": "You should clean the joint to remove the old grease.",
+      "question_type": "procedural",
+      "id": "31-48_front-ax-q06"
+    },
+    {
+      "question": "What is the critical instruction about handling the joint during dust cover replacement?",
+      "answer": "The joint must not be disassembled or allowed to fall apart during the procedure.",
+      "question_type": "safety",
+      "id": "31-48_front-ax-q07"
+    },
+    {
+      "question": "Where can you find the detailed procedures for this dust cover replacement?",
+      "answer": "The detailed procedures are identical to those described in section 31 60 020/021.",
+      "question_type": "navigation",
+      "id": "31-48_front-ax-q08"
+    },
+    {
+      "question": "What component is being replaced according to the procedure title?",
+      "answer": "One dust cover of the left or right output shaft is being replaced.",
+      "question_type": "component",
+      "id": "31-48_front-ax-q09"
+    },
+    {
+      "question": "What preparation step is required for the joint before performing the dust cover replacement?",
+      "answer": "The joint must be cleaned to remove the old grease before proceeding with the replacement.",
+      "question_type": "procedural",
+      "id": "31-48_front-ax-q10"
+    },
+    {
+      "question": "What is the consequence that must be avoided when handling the joint?",
+      "answer": "The joint must not be allowed to fall apart or be disassembled during the procedure.",
+      "question_type": "safety",
+      "id": "31-48_front-ax-q11"
+    },
+    {
+      "question": "How many dust covers are being replaced in this specific procedure?",
+      "answer": "Only one dust cover is being replaced in this procedure, either from the left or right output shaft.",
+      "question_type": "factual",
+      "id": "31-48_front-ax-q12"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-092",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/092.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:29:39.164781",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 568
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M8 8.8 screws when connecting the clutch to flywheel?",
+      "answer": "24 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-092-q01"
+    },
+    {
+      "question": "What torque value should be used for M8 10.9 screws on all clutch applications?",
+      "answer": "34 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-092-q02"
+    },
+    {
+      "question": "Which vehicle types require the M8 10.9 screw specification with 34 Nm torque for clutch work?",
+      "answer": "S14/S38 B36",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-092-q03"
+    },
+    {
+      "question": "What special instruction is given regarding the clutch to flywheel connection bolts?",
+      "answer": "Replace bolt and taper sleeve.",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-092-q04"
+    },
+    {
+      "question": "What is the section number and title for this clutch torque specifications page?",
+      "answer": "21-2 Clutch",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-092-q05"
+    },
+    {
+      "question": "What component is referenced as 1AZ in the clutch specifications?",
+      "answer": "Clutch to flywheel",
+      "question_type": "component",
+      "id": "bmwtorquespecs-092-q06"
+    },
+    {
+      "question": "What is the reference number for the clutch disc and drive plate section?",
+      "answer": "21 21",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-092-q08"
+    },
+    {
+      "question": "How many different torque values are specified for clutch to flywheel connections?",
+      "answer": "Two different torque values: 24 Nm and 34 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-092-q09"
+    },
+    {
+      "question": "What type of fastener threading is specified for the higher torque clutch connection?",
+      "answer": "M8 10.9",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-092-q10"
+    }
+  ]
+}

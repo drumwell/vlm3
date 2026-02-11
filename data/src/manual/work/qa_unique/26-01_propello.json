@@ -1,0 +1,91 @@
+{
+  "page_id": "26-01_propello",
+  "image_path": "raw/26 - Propellor Shaft/26-01.jpg",
+  "section_id": "26",
+  "section_name": "Propellor Shaft",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:53:19.594708",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 915
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the main requirements for eliminating propeller shaft vibration and noise?",
+      "answer": "The requirements include elimination of disturbances from faulty engine and transmission mounts, tension in exhaust assembly, etc. The propeller shaft must be in perfect optical and mechanical condition, and if balance plates are missing or propeller shaft is suspected to have imbalance, refer to instructions supplied with balancing equipment.",
+      "question_type": "factual",
+      "id": "26-01_propello-q01"
+    },
+    {
+      "question": "What is the important safety caution when testing a jacked up car?",
+      "answer": "A jacked up car may only be tested or operated when the suspension of driven wheels is supported (deflection angle of output shafts). Never exceed the maximum speed specified for a car jacked up or on a dynamometer, and conform with safety regulations.",
+      "question_type": "safety",
+      "id": "26-01_propello-q02"
+    },
+    {
+      "question": "What special tool is needed for centering the propeller shaft?",
+      "answer": "Special Tool 26 1 020 is required for centering the propeller shaft.",
+      "question_type": "tool",
+      "id": "26-01_propello-q03"
+    },
+    {
+      "question": "What components need to be loosened before centering the propeller shaft?",
+      "answer": "Loosen the exhaust assembly, engine mounts and transmission cross member before applying the centering tool.",
+      "question_type": "procedural",
+      "id": "26-01_propello-q04"
+    },
+    {
+      "question": "What are the application points for checking propeller shaft alignment?",
+      "answer": "The checkpoints are on engine carrier at rear with manual transmission (middle of cast rib), and with automatic transmission at the middle bolt of transmission extension (punch mark the pertinent checkpoint).",
+      "question_type": "factual",
+      "id": "26-01_propello-q05"
+    },
+    {
+      "question": "What special tool is used for checking propeller shaft deflection angle?",
+      "answer": "Special Tool 26 1 030 is placed on an engine surface running perpendicular or parallel to the crankshaft for checking deflection angle.",
+      "question_type": "tool",
+      "id": "26-01_propello-q06"
+    },
+    {
+      "question": "What should be removed before checking propeller shaft deflection angle?",
+      "answer": "Remove exhaust assembly, heat shield and, if applicable, splash guard before checking the deflection angle.",
+      "question_type": "procedural",
+      "id": "26-01_propello-q07"
+    },
+    {
+      "question": "How should the transmission be positioned when checking propeller shaft deflection?",
+      "answer": "Move transmission to the side until the special tool gage shows equal spacing on left and right sides.",
+      "question_type": "procedural",
+      "id": "26-01_propello-q08"
+    },
+    {
+      "question": "What is the graduation value when reading the special tool gage?",
+      "answer": "One graduation equals 5 degrees. Always apply the gage with the scale in the same direction (e.g. scale right).",
+      "question_type": "factual",
+      "id": "26-01_propello-q09"
+    },
+    {
+      "question": "What does the manual specify about car position when measuring propeller shaft angles?",
+      "answer": "The position of the car is not important, since only relative angles are compared.",
+      "question_type": "factual",
+      "id": "26-01_propello-q10"
+    },
+    {
+      "question": "What bearing surfaces are applicable for propeller shaft angle measurement?",
+      "answer": "The following bearing surfaces are applicable depending on engine type and version: Place Special Tool 26 1 030 on the oil pan flange and determine the angle of engine inclination.",
+      "question_type": "procedural",
+      "id": "26-01_propello-q11"
+    },
+    {
+      "question": "What does callout number 26 1 030 indicate in the lower diagram?",
+      "answer": "Callout number 26 1 030 indicates the special tool positioned on the engine for measuring propeller shaft deflection angles.",
+      "question_type": "visual",
+      "id": "26-01_propello-q12"
+    }
+  ]
+}

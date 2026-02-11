@@ -1,0 +1,91 @@
+{
+  "page_id": "33-15_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-15.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:10:55.889768",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 908
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to pull in the wheel bearing assembly?",
+      "answer": "Special Tool 33 4 040 is needed to pull in the wheel bearing assembly.",
+      "question_type": "tool",
+      "id": "33-15_rear-axl-q01"
+    },
+    {
+      "question": "Which BMW models require Special Tool 33 4 049 for the 323 i, 325 e/i procedure?",
+      "answer": "Special Tool 33 4 049 is used for 323 i, 325 e/i and cars with ABS since 1986 models.",
+      "question_type": "factual",
+      "id": "33-15_rear-axl-q02"
+    },
+    {
+      "question": "What special tool is required to install and pull in the output shaft?",
+      "answer": "Special Tool 33 2 110 is required to install and pull in the output shaft with tightening torque.",
+      "question_type": "tool",
+      "id": "33-15_rear-axl-q03"
+    },
+    {
+      "question": "How do you drive in the lockplate according to the procedure shown?",
+      "answer": "Drive in the lockplate with Special Tools 33 4 050 and 00 5 000.",
+      "question_type": "procedural",
+      "id": "33-15_rear-axl-q04"
+    },
+    {
+      "question": "What components are identified by callout numbers 33 4 041, 33 4 043, and 33 4 047 in the wheel bearing assembly procedure?",
+      "answer": "These callout numbers identify the special tools used in the wheel bearing assembly procedure, with 33 4 047 being specifically mentioned for use with Special Tool 33 4 047.",
+      "question_type": "visual",
+      "id": "33-15_rear-axl-q05"
+    },
+    {
+      "question": "What special tools are needed to pull in the stub axle?",
+      "answer": "Special Tools 33 4 040 and 33 4 048 are needed to pull in the stub axle.",
+      "question_type": "tool",
+      "id": "33-15_rear-axl-q06"
+    },
+    {
+      "question": "What instruction is given regarding the circlip installation?",
+      "answer": "The instruction is to insert circlip.",
+      "question_type": "procedural",
+      "id": "33-15_rear-axl-q07"
+    },
+    {
+      "question": "What special tool number 33 4 045 is used for in this procedure?",
+      "answer": "Special Tool 33 4 045 is used in the wheel bearing assembly procedure as shown in the top right diagram.",
+      "question_type": "tool",
+      "id": "33-15_rear-axl-q08"
+    },
+    {
+      "question": "Where can additional specifications for these procedures be found?",
+      "answer": "Additional specifications can be found by referring to the \"See Specifications\" reference at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "33-15_rear-axl-q09"
+    },
+    {
+      "question": "What component is shown being worked on in the bottom left image with tools 33 4 042 and 33 4 041?",
+      "answer": "The bottom left image shows the stub axle being worked on with Special Tools 33 4 042 and 33 4 041 for the pull-in procedure.",
+      "question_type": "visual",
+      "id": "33-15_rear-axl-q10"
+    },
+    {
+      "question": "What is the significance of the tightening torque mentioned for the output shaft installation?",
+      "answer": "The tightening torque is specifically mentioned as part of the installation procedure for the output shaft using Special Tool 33 2 110, indicating proper torque specification must be followed.",
+      "question_type": "procedural",
+      "id": "33-15_rear-axl-q11"
+    },
+    {
+      "question": "Which special tool combination is used with tool 00 5 000?",
+      "answer": "Special Tool 00 5 000 is used in combination with Special Tool 33 4 050 to drive in the lockplate.",
+      "question_type": "tool",
+      "id": "33-15_rear-axl-q12"
+    }
+  ]
+}

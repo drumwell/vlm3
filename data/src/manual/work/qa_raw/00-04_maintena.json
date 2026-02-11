@@ -1,0 +1,91 @@
+{
+  "page_id": "00-04_maintena",
+  "image_path": "raw/00 - Maintenance/00-04.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:10:55.066010",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 724
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for Pre-Delivery Inspection?",
+      "answer": "The procedure code for Pre-Delivery Inspection is 00 00 009.",
+      "question_type": "factual",
+      "id": "00-04_maintena-q01"
+    },
+    {
+      "question": "What should be checked regarding the car's identification during pre-delivery inspection?",
+      "answer": "Check data plate, chassis and engine numbers during pre-delivery inspection.",
+      "question_type": "procedural",
+      "id": "00-04_maintena-q02"
+    },
+    {
+      "question": "What equipment comparison needs to be performed during pre-delivery inspection?",
+      "answer": "Compare ordered car equipment against delivered car equipment to ensure they match.",
+      "question_type": "procedural",
+      "id": "00-04_maintena-q03"
+    },
+    {
+      "question": "What wheel-related items should be installed if applicable during pre-delivery?",
+      "answer": "Install wheel covers, if applicable ornamental rings and tailpipe extension.",
+      "question_type": "procedural",
+      "id": "00-04_maintena-q04"
+    },
+    {
+      "question": "What tools should be placed in the vehicle during pre-delivery inspection?",
+      "answer": "Place car tools in toolbox, secure jack and wheel bolt wrench.",
+      "question_type": "procedural",
+      "id": "00-04_maintena-q05"
+    },
+    {
+      "question": "What BMW-related information should be mounted in the vehicle?",
+      "answer": "Mount label for BMW advice telephone number and annual brake fluid change.",
+      "question_type": "procedural",
+      "id": "00-04_maintena-q06"
+    },
+    {
+      "question": "What documentation should be placed in the glove box during pre-delivery?",
+      "answer": "Place owner's manual, list of BMW service stations, spare keys and key case in glove box.",
+      "question_type": "procedural",
+      "id": "00-04_maintena-q07"
+    },
+    {
+      "question": "What warranty-related items should be included with the vehicle?",
+      "answer": "Battery and accessory warranty cards should be included with the vehicle.",
+      "question_type": "factual",
+      "id": "00-04_maintena-q08"
+    },
+    {
+      "question": "What radio-related manual should be included if the car is equipped with radio?",
+      "answer": "Radio operating manual should be included if the vehicle is equipped with radio.",
+      "question_type": "factual",
+      "id": "00-04_maintena-q09"
+    },
+    {
+      "question": "What factory documentation is referenced in the pre-delivery checklist?",
+      "answer": "Factory Invoice (Monroney Label) is referenced in the pre-delivery checklist.",
+      "question_type": "factual",
+      "id": "00-04_maintena-q10"
+    },
+    {
+      "question": "What tape-related item should be included with the vehicle?",
+      "answer": "Tape unit cleaning cassette kit should be included with the vehicle.",
+      "question_type": "factual",
+      "id": "00-04_maintena-q11"
+    },
+    {
+      "question": "What are the main column headers shown in the General Information table?",
+      "answer": "The main column headers are Repair Manual, Specifications, Nominal Values, Service Information, Owner's Manual, and Important Instructions.",
+      "question_type": "visual",
+      "id": "00-04_maintena-q12"
+    }
+  ]
+}

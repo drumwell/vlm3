@@ -1,0 +1,86 @@
+{
+  "section_id": "16",
+  "section_name": "Fuel Tank and Lines",
+  "index_pages": [
+    "16-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "...",
+      "name": "Fuel tank survey - before 1988 models",
+      "pages": [
+        "16-0",
+        "16-1",
+        "16-10",
+        "16-11",
+        "16-5",
+        "16-9"
+      ]
+    },
+    {
+      "code": "010",
+      "name": "Carbon canister - remove and install or replace",
+      "pages": [
+        "16-11"
+      ]
+    },
+    {
+      "code": "120",
+      "name": "Expansion tank for fuel tank - remove and install or replace",
+      "pages": [
+        "16-4"
+      ]
+    },
+    {
+      "code": "16 11 030",
+      "name": "Fuel tank - remove and install",
+      "pages": [
+        "16-2"
+      ]
+    },
+    {
+      "code": "16 12 002",
+      "name": "Fuel intake (with integrated transfer pump) - remove and install (before 1988 models)",
+      "pages": [
+        "16-8"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "16-0": [
+      "..."
+    ],
+    "16-1": [
+      "..."
+    ],
+    "16-10": [
+      "..."
+    ],
+    "16-11": [
+      "...",
+      "010"
+    ],
+    "16-5": [
+      "..."
+    ],
+    "16-9": [
+      "..."
+    ],
+    "16-4": [
+      "120"
+    ],
+    "16-2": [
+      "16 11 030"
+    ],
+    "16-8": [
+      "16 12 002"
+    ]
+  },
+  "merge_warnings": [
+    "Code ...: name mismatch 'Fuel tank survey - before 1988 models' vs 'Fuel tank survey - since 1988 models'",
+    "Code ...: name mismatch 'Fuel tank survey - before 1988 models' vs 'Fuel tank venting system - check'",
+    "Code ...: name mismatch 'Fuel tank survey - before 1988 models' vs 'Fuel level sender and intake pump - remove and install/disassemble (since 1988 models)'",
+    "Code ...: name mismatch 'Fuel tank survey - before 1988 models' vs 'Fuel return pipe - since 1988 models'",
+    "Code ...: name mismatch 'Fuel tank survey - before 1988 models' vs 'Fuel intake / level transmitter - check'"
+  ]
+}

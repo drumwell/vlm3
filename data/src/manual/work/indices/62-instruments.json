@@ -1,0 +1,131 @@
+{
+  "section_id": "62",
+  "section_name": "Instruments",
+  "index_pages": [
+    "62-00-index-a.jpg",
+    "62-00-index-b.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "62 11 030",
+      "name": "Service indicator printed circuit - replace",
+      "pages": [
+        "62-1"
+      ]
+    },
+    {
+      "code": "62 11 090",
+      "name": "Temperature gage - remove and install or replace",
+      "pages": [
+        "62-2"
+      ]
+    },
+    {
+      "code": "62 11 130",
+      "name": "Fuel gage - remove and install or replace",
+      "pages": [
+        "62-2"
+      ]
+    },
+    {
+      "code": "62 12 000",
+      "name": "Speedometer - remove and install",
+      "pages": [
+        "62-3"
+      ]
+    },
+    {
+      "code": "62 13 000",
+      "name": "Tachometer - remove and install",
+      "pages": [
+        "62-4"
+      ]
+    },
+    {
+      "code": "62 13 050",
+      "name": "Clock - remove and install",
+      "pages": [
+        "62-4"
+      ]
+    },
+    {
+      "code": "62 14 070",
+      "name": "Check control - remove and install",
+      "pages": [
+        "62-5"
+      ]
+    },
+    {
+      "code": "62 16 000",
+      "name": "Fuel level transmitter for fuel gage - check or replace",
+      "pages": [
+        "see Group 16"
+      ]
+    },
+    {
+      "code": "62 16 071",
+      "name": "Sender for speedometer - replace",
+      "pages": [
+        "62-5"
+      ]
+    },
+    {
+      "code": "62 21 000",
+      "name": "Instrument carrier assembly - remove and install",
+      "pages": [
+        "62-6"
+      ]
+    },
+    {
+      "code": "62 99",
+      "name": "Light bulbs in instrument carrier - replace",
+      "pages": [
+        "62-51",
+        "62-6",
+        "62-61",
+        "62-71"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "62-1": [
+      "62 11 030"
+    ],
+    "62-2": [
+      "62 11 090",
+      "62 11 130"
+    ],
+    "62-3": [
+      "62 12 000"
+    ],
+    "62-4": [
+      "62 13 000",
+      "62 13 050"
+    ],
+    "62-5": [
+      "62 14 070",
+      "62 16 071"
+    ],
+    "see Group 16": [
+      "62 16 000"
+    ],
+    "62-6": [
+      "62 21 000",
+      "62 99"
+    ],
+    "62-51": [
+      "62 99"
+    ],
+    "62-61": [
+      "62 99"
+    ],
+    "62-71": [
+      "62 99"
+    ]
+  },
+  "merge_warnings": [
+    "Code 62 99: name mismatch 'Light bulbs in instrument carrier - replace' vs 'Troubleshooting - service indicator'",
+    "Code 62 99: name mismatch 'Light bulbs in instrument carrier - replace' vs 'Troubleshooting - economy control'",
+    "Code 62 99: name mismatch 'Light bulbs in instrument carrier - replace' vs 'Troubleshooting - check control'"
+  ]
+}

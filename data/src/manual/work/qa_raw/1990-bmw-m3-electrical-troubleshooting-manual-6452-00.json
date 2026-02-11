@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6452-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:09:11.049804",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 561
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of Fuse 26 in the A/C compressor control circuit?",
+      "answer": "Fuse 26 is rated at 30 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-00-q01"
+    },
+    {
+      "question": "What wire color is used for the connection between the A/C select switch and the fresh air circulating switch?",
+      "answer": "The connection uses a 1 BK/VI (1 black/violet) wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-00-q02"
+    },
+    {
+      "question": "Which component provides the evaporator temperature input to the solid state control module?",
+      "answer": "The evaporator temperature sensor provides the evaporator temp input to the solid state control module.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-00-q03"
+    },
+    {
+      "question": "What is the ground distribution point number shown at the bottom of the circuit diagram?",
+      "answer": "The ground distribution point is G200.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-00-q04"
+    },
+    {
+      "question": "What wire gauge and color connects from the auxiliary fan to the heating and air conditioning blower controls?",
+      "answer": "A 1 BK (1 black) wire connects from the auxiliary fan to the heating and air conditioning blower controls.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-00-q05"
+    },
+    {
+      "question": "What important note appears regarding some vehicles and ground distribution?",
+      "answer": "Some vehicles may contain an additional splice (see ground distribution).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-00-q06"
+    },
+    {
+      "question": "What wire color designation is shown as 'NOT USED' in this circuit?",
+      "answer": "The 5 BK/VI (5 black/violet) wire is marked as 'NOT USED'.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-00-q07"
+    },
+    {
+      "question": "Where does the power for the A/C control panel come from according to the diagram?",
+      "answer": "The power for the A/C control panel comes from the power distribution box, specifically from Fuse 26 (30 AMP), and is hot in run only from unloader relay K7.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-00-q08"
+    }
+  ]
+}

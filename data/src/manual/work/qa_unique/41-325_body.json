@@ -1,0 +1,85 @@
+{
+  "page_id": "41-325_body",
+  "image_path": "raw/41 - Body/41-325.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:02:20.160904",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 880
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for replacing the right rear side panel on a four-door model?",
+      "answer": "The part number is 41 35 291 for replacing the right rear side panel (partial replacement up to window line) on a four-door model.",
+      "question_type": "factual",
+      "id": "41-325_body-q01"
+    },
+    {
+      "question": "What page should you refer to for information when beginning this rear panel replacement procedure?",
+      "answer": "You should refer to information on page 41-001 when beginning this procedure.",
+      "question_type": "navigation",
+      "id": "41-325_body-q02"
+    },
+    {
+      "question": "What parts need to be removed or disconnected before starting the rear panel replacement?",
+      "answer": "You need to remove or disconnect the trunk trim, trunk lid seal, rear bumper, right tail light assembly, upper tail panel plate, spare wheel, rear seat cushion and backrest, hatrack, rear window with frame, entrance cover strip with plate, roof liner as required, carpet as required, rear seat belt, rear door edge guard, door striker, C pillar plate, rear wheel, wheel house cover, expansion tank, fuel tank and thrust strut mountings.",
+      "question_type": "procedural",
+      "id": "41-325_body-q03"
+    },
+    {
+      "question": "What is the first step shown in the welding removal process?",
+      "answer": "The first step is to remove brazing solder and drill off welding spots.",
+      "question_type": "procedural",
+      "id": "41-325_body-q04"
+    },
+    {
+      "question": "What caution is given regarding the end plate during cutting?",
+      "answer": "The caution states \"Don't damage or bend the end plate.\"",
+      "question_type": "safety",
+      "id": "41-325_body-q05"
+    },
+    {
+      "question": "What important note is given about the paint finish during the cutting process?",
+      "answer": "The note states to make cut in such a manner that the paint finish to the roof can be touched up.",
+      "question_type": "safety",
+      "id": "41-325_body-q06"
+    },
+    {
+      "question": "What action is shown in the image with callout 30 41 383?",
+      "answer": "The image with callout 30 41 383 shows cutting out the side panel along the line.",
+      "question_type": "visual",
+      "id": "41-325_body-q08"
+    },
+    {
+      "question": "What is the procedure for determining where to cut for partial replacement?",
+      "answer": "You should determine the cutting line for partial replacement and cut through the side panel along the cutting line up to the end plate.",
+      "question_type": "procedural",
+      "id": "41-325_body-q09"
+    },
+    {
+      "question": "What does callout 30 41 214 demonstrate?",
+      "answer": "Callout 30 41 214 demonstrates cutting off the side panel along line from tail panel.",
+      "question_type": "visual",
+      "id": "41-325_body-q10"
+    },
+    {
+      "question": "What step is shown with callout number 30 41 381?",
+      "answer": "Callout number 30 41 381 shows uncovering and drilling off welding spots.",
+      "question_type": "visual",
+      "id": "41-325_body-q11"
+    },
+    {
+      "question": "What does the procedure indicate about the cutting line location?",
+      "answer": "The cutting line should be determined for partial replacement and the cut should go through the side panel along this line up to the end plate.",
+      "question_type": "procedural",
+      "id": "41-325_body-q12"
+    }
+  ]
+}

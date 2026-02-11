@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/1364-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:26:14.309165",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 601
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of diagram is shown on page 1364-1 of the injection electronics section?",
+      "answer": "This is an ENGINE BLOCK DIAGRAM for the S14 engine injection electronics system.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-01-q01"
+    },
+    {
+      "question": "Which relay is shown as 'HOT AT ALL TIMES' in the upper right section of the diagram?",
+      "answer": "The OXYGEN SENSOR/FUEL PUMP RELAY is shown as 'HOT AT ALL TIMES' in the upper right section.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-01-q02"
+    },
+    {
+      "question": "What are the two fuel pump components identified in the middle section of the diagram?",
+      "answer": "The two fuel pump components are the MAIN FUEL PUMP and the AUXILIARY FUEL PUMP.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-01-q03"
+    },
+    {
+      "question": "What input signals are shown connecting to the Motronic Control Unit?",
+      "answer": "The input signals to the Motronic Control Unit are: COOLANT TEMPERATURE INPUT, CLOSED THROTTLE INPUT, WIDE OPEN THROTTLE INPUT, and OXYGEN SENSOR INPUT.",
+      "question_type": "signal",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-01-q04"
+    },
+    {
+      "question": "Where is the TDC SENSOR located in relation to the diagnostic connector?",
+      "answer": "The TDC SENSOR is located below and to the right of the DIAGNOSTIC CONNECTOR in the upper right portion of the diagram.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-01-q05"
+    },
+    {
+      "question": "What components are shown in the bottom section connected to ground?",
+      "answer": "The COOLANT TEMPERATURE SENSOR and THROTTLE SWITCH are shown in the bottom section connected to ground.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-01-q06"
+    },
+    {
+      "question": "Which control functions are identified in the solid state section?",
+      "answer": "The solid state section shows IDLE SPEED CONTROL, FUEL PUMP RELAY CONTROL, and various input controls including POWER INPUTS and GROUNDS.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-01-q07"
+    },
+    {
+      "question": "What is the purpose of the SHIELD connection shown near the TDC sensor?",
+      "answer": "The SHIELD connection provides electromagnetic shielding for the TDC sensor signal to prevent interference from affecting the timing signal to the Motronic Control Unit.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-01-q08"
+    }
+  ]
+}

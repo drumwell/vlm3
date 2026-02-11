@@ -1,0 +1,55 @@
+{
+  "page_id": "97-00-index-a_body-cav",
+  "image_path": "raw/97 - Body Cavity Sealing and Undercoating/97-00-index-a.jpg",
+  "section_id": "97",
+  "section_name": "Body Cavity Sealing and Undercoating",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:11:56.140438",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1755,
+    "tokens_output": 392
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers Body Cavity Sealing and Undercoating?",
+      "answer": "Section 97 covers Body Cavity Sealing and Undercoating.",
+      "question_type": "factual",
+      "id": "97-00-index-a_body-cav-q01"
+    },
+    {
+      "question": "What is the page number shown at the top of this manual page?",
+      "answer": "The page number shown at the top is 79.",
+      "question_type": "factual",
+      "id": "97-00-index-a_body-cav-q02"
+    },
+    {
+      "question": "What is the topic code for body cavity sealing for entire car?",
+      "answer": "The topic code is 97 00 010 for body cavity sealing for entire car.",
+      "question_type": "factual",
+      "id": "97-00-index-a_body-cav-q03"
+    },
+    {
+      "question": "On which page can I find information about body cavity sealing for the entire car?",
+      "answer": "Information about body cavity sealing for the entire car can be found on page 97-1.",
+      "question_type": "navigation",
+      "id": "97-00-index-a_body-cav-q04"
+    },
+    {
+      "question": "What are the two main topics covered in section 97?",
+      "answer": "The two main topics covered in section 97 are Body Cavity Sealing and Undercoating.",
+      "question_type": "factual",
+      "id": "97-00-index-a_body-cav-q05"
+    },
+    {
+      "question": "How many subtopics are listed under section 97 on this index page?",
+      "answer": "There is one subtopic listed under section 97: body cavity sealing for entire car (97 00 010).",
+      "question_type": "factual",
+      "id": "97-00-index-a_body-cav-q06"
+    }
+  ]
+}

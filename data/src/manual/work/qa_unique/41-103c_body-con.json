@@ -1,0 +1,73 @@
+{
+  "page_id": "41-103c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-103c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:39:15.606014",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 744
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to the plug spot weld connection on the wheel house at the rear?",
+      "answer": "The plug spot weld connection on the wheel house at rear should be welded.",
+      "question_type": "procedural",
+      "id": "41-103c_body-con-q01"
+    },
+    {
+      "question": "What type of compound should be used to seal off connections after installing the door pillar with reinforcement and rear side panel?",
+      "answer": "Body sealing compound should be used to seal off connections.",
+      "question_type": "procedural",
+      "id": "41-103c_body-con-q02"
+    },
+    {
+      "question": "Where should anti-drumming compound be sprayed during the installation process?",
+      "answer": "Anti-drumming compound should be sprayed on the wheel house, trunk floor plate and entrance from underneath.",
+      "question_type": "procedural",
+      "id": "41-103c_body-con-q03"
+    },
+    {
+      "question": "What components are mentioned as being installed together in the procedure?",
+      "answer": "The door pillar with reinforcement and rear side panel are mentioned as being installed together.",
+      "question_type": "component",
+      "id": "41-103c_body-con-q06"
+    },
+    {
+      "question": "What should be done after the installation of the door pillar with reinforcement and rear side panel?",
+      "answer": "After installation, seal off connections with body sealing compound and spray anti-drumming compound on the wheel house, trunk floor plate and entrance from underneath.",
+      "question_type": "procedural",
+      "id": "41-103c_body-con-q07"
+    },
+    {
+      "question": "What location is shown in the black and white photograph?",
+      "answer": "The photograph shows the plug spot weld connection area on the wheel house at the rear.",
+      "question_type": "visual",
+      "id": "41-103c_body-con-q08"
+    },
+    {
+      "question": "What type of compound is specifically mentioned for reducing noise?",
+      "answer": "Anti-drumming compound is specifically mentioned for reducing noise.",
+      "question_type": "factual",
+      "id": "41-103c_body-con-q09"
+    },
+    {
+      "question": "From what direction should the anti-drumming compound be applied to the entrance?",
+      "answer": "The anti-drumming compound should be applied to the entrance from underneath.",
+      "question_type": "procedural",
+      "id": "41-103c_body-con-q10"
+    },
+    {
+      "question": "What type of connection method is shown for the wheel house at the rear?",
+      "answer": "A plug spot weld connection method is shown for the wheel house at the rear.",
+      "question_type": "visual",
+      "id": "41-103c_body-con-q12"
+    }
+  ]
+}

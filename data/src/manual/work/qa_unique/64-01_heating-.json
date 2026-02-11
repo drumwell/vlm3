@@ -1,0 +1,67 @@
+{
+  "page_id": "64-01_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-01.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:51:54.817930",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1756,
+    "tokens_output": 556
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is identified as item number 1 in this HVAC assembly diagram?",
+      "answer": "Item number 1 is the Blower motor.",
+      "question_type": "component",
+      "id": "64-01_heating--q01"
+    },
+    {
+      "question": "Which component controls the temperature in this heating and air conditioning system?",
+      "answer": "The Temperature control wheel, identified as item number 13, controls the temperature in this system.",
+      "question_type": "component",
+      "id": "64-01_heating--q02"
+    },
+    {
+      "question": "What are the air flap components shown in this diagram?",
+      "answer": "The air flap components shown are: Bypass air flaps (item 2), Fresh air flaps (item 3), Window defrost flaps (item 4), and Footwell flaps (item 9).",
+      "question_type": "component",
+      "id": "64-01_heating--q03"
+    },
+    {
+      "question": "What component is responsible for draining condensation from the system?",
+      "answer": "The Condensation water drain, identified as item number 12, is responsible for draining condensation from the system.",
+      "question_type": "component",
+      "id": "64-01_heating--q04"
+    },
+    {
+      "question": "Where is the heater core located in this HVAC assembly?",
+      "answer": "The heater core (item 8) is located in the central portion of the HVAC housing assembly.",
+      "question_type": "component",
+      "id": "64-01_heating--q05"
+    },
+    {
+      "question": "What switches are shown for controlling the air conditioning system?",
+      "answer": "The switches shown are: Air conditioning switch (item 15), Bypass switch (item 16), and Blower switch (item 17).",
+      "question_type": "component",
+      "id": "64-01_heating--q06"
+    },
+    {
+      "question": "Which component operates the bypass flaps in this system?",
+      "answer": "The Bypass flap motor, identified as item number 10, operates the bypass flaps in this system.",
+      "question_type": "operation",
+      "id": "64-01_heating--q07"
+    },
+    {
+      "question": "What is the function of item number 14 in this HVAC diagram?",
+      "answer": "Item number 14 is the Control lever, which is used to manually control various functions of the heating and air conditioning system.",
+      "question_type": "component",
+      "id": "64-01_heating--q08"
+    }
+  ]
+}

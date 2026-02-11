@@ -1,0 +1,85 @@
+{
+  "page_id": "41-101_body",
+  "image_path": "raw/41 - Body/41-101.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:38:00.716003",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 835
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number and title for replacing the front engine carrier?",
+      "answer": "The procedure is 41 11 011/001 - REPLACING RIGHT/LEFT FRONT ENGINE CARRIER (PARTIAL REPLACEMENT) WITH WHEEL HOUSE - All Wheel Drive.",
+      "question_type": "factual",
+      "id": "41-101_body-q01"
+    },
+    {
+      "question": "What dimension should be marked when cutting according to the sketch?",
+      "answer": "Mark cut according to sketch with dimension A = 30 mm (1.181\").",
+      "question_type": "factual",
+      "id": "41-101_body-q02"
+    },
+    {
+      "question": "What critical warning is given when cutting through the engine carrier?",
+      "answer": "Important! Be careful not to damage metal sheet on inside when cutting through engine carrier on side and bottom.",
+      "question_type": "safety",
+      "id": "41-101_body-q04"
+    },
+    {
+      "question": "What should be done after lifting off the engine carrier from the section?",
+      "answer": "After lifting off the engine carrier from the section, straighten and grind mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-101_body-q05"
+    },
+    {
+      "question": "Which components need to be removed or disconnected according to the parts list?",
+      "answer": "Remove or disconnect: ground lead on battery, bumper, wheel house trim, radiator grill sections, engine hood lock/release, front spoiler, headlights, front fog lamps, bumper brackets, heater well, entrance cover strips, front seat, instrument panel trim, carpet on A pillar, passenger compartment carpets, footwell insulation sheet, brake booster, master cylinder, fuel filter, ignition coil, brake lines, engine, front axle with transmission, engine compartment wires, and radiator trim.",
+      "question_type": "procedural",
+      "id": "41-101_body-q06"
+    },
+    {
+      "question": "What reference is made regarding the front panel wall removal?",
+      "answer": "Remove front panel wall - see 41 33 001.",
+      "question_type": "navigation",
+      "id": "41-101_body-q07"
+    },
+    {
+      "question": "What reference is made regarding wheel house removal?",
+      "answer": "Remove wheel house - see 41 14 021.",
+      "question_type": "navigation",
+      "id": "41-101_body-q08"
+    },
+    {
+      "question": "What important note is given about the ABS acceleration pick-up?",
+      "answer": "If the console holding the ABS acceleration pick-up is straightened or welded on the left wheel house, the acceleration pick-up must be adjusted afterwards. See Group 34 (ABS - All Wheel Drive) for adjusting procedures.",
+      "question_type": "procedural",
+      "id": "41-101_body-q09"
+    },
+    {
+      "question": "What should be done with the determined cut after marking?",
+      "answer": "Transfer determined cut to outside.",
+      "question_type": "procedural",
+      "id": "41-101_body-q10"
+    },
+    {
+      "question": "What operations are mentioned for the spot welds?",
+      "answer": "Drill out spot welds.",
+      "question_type": "procedural",
+      "id": "41-101_body-q11"
+    },
+    {
+      "question": "What should be checked and adjusted during this procedure?",
+      "answer": "Check and adjust front wheel alignment.",
+      "question_type": "inspection",
+      "id": "41-101_body-q12"
+    }
+  ]
+}

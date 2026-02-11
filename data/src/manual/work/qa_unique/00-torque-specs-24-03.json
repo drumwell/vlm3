@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-24-03",
+  "image_path": "raw/00 - Torque Specs/24-03.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:00:09.750653",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 709
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil pan on transmission 4HP-22/4HP-24/A5S 310Z?",
+      "answer": "M6 screws torqued to 6 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-03-q01"
+    },
+    {
+      "question": "What is the screw size and torque for the oil drain plug on A5S 440Z transmission?",
+      "answer": "M16x1.5 screw torqued to 30 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-03-q04"
+    },
+    {
+      "question": "What transmission type uses M18x1.5 screws for the oil filler plug?",
+      "answer": "A5S 440Z transmission uses M18x1.5 screws for the oil filler plug.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-03-q06"
+    },
+    {
+      "question": "What is the torque specification for the oil pan on A4S 270R/A4S 310R transmission?",
+      "answer": "M6 screws torqued to 12 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-03-q07"
+    },
+    {
+      "question": "Which component uses M10 screws and what is its torque specification?",
+      "answer": "The oil drain plug uses M10 screws torqued to 16 Nm for all transmission types.",
+      "question_type": "component",
+      "id": "00-torque-specs-24-03-q08"
+    }
+  ]
+}

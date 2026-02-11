@@ -1,0 +1,91 @@
+{
+  "page_id": "51-131_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-131.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:11:42.558493",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 689
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure section number for replacing the ornamental strip on left or right rain molding?",
+      "answer": "The procedure is section 51 13 311.",
+      "question_type": "factual",
+      "id": "51-131_body-equ-q01"
+    },
+    {
+      "question": "What is the first step when replacing the ornamental strip on rain molding?",
+      "answer": "Slide the clamp.",
+      "question_type": "procedural",
+      "id": "51-131_body-equ-q02"
+    },
+    {
+      "question": "How should you begin removing the ornamental strip?",
+      "answer": "Lift out ornamental strip beginning at the front end.",
+      "question_type": "procedural",
+      "id": "51-131_body-equ-q03"
+    },
+    {
+      "question": "What action is required after lifting the strip from the front end?",
+      "answer": "Turn and lift out the ornamental strip from above.",
+      "question_type": "procedural",
+      "id": "51-131_body-equ-q04"
+    },
+    {
+      "question": "What should be done during installation regarding the clips?",
+      "answer": "Replace clips if necessary and replace clips located in front area if necessary.",
+      "question_type": "procedural",
+      "id": "51-131_body-equ-q05"
+    },
+    {
+      "question": "Which special tool is required for installing the ornamental strip?",
+      "answer": "Special Tool 51 1 060 is required to press on the ornamental strip tightly.",
+      "question_type": "tool",
+      "id": "51-131_body-equ-q06"
+    },
+    {
+      "question": "What is shown in the diagram with callout number 30 51 460?",
+      "answer": "The diagram shows sliding the clamp during the initial removal step.",
+      "question_type": "visual",
+      "id": "51-131_body-equ-q07"
+    },
+    {
+      "question": "What does the diagram numbered 30 51 461 illustrate?",
+      "answer": "It shows lifting out the ornamental strip beginning at the front end.",
+      "question_type": "visual",
+      "id": "51-131_body-equ-q08"
+    },
+    {
+      "question": "What procedure is demonstrated in diagram 30 51 462?",
+      "answer": "It demonstrates turning and lifting out the ornamental strip from above.",
+      "question_type": "visual",
+      "id": "51-131_body-equ-q09"
+    },
+    {
+      "question": "What installation step is shown in diagram 30 51 463?",
+      "answer": "It shows pressing on the ornamental strip tightly with Special Tool 51 1 060.",
+      "question_type": "visual",
+      "id": "51-131_body-equ-q10"
+    },
+    {
+      "question": "What type of convertible component is being serviced in this procedure?",
+      "answer": "The ornamental strip on the rain molding of a convertible.",
+      "question_type": "component",
+      "id": "51-131_body-equ-q11"
+    },
+    {
+      "question": "What should be checked during installation of the ornamental strip?",
+      "answer": "Check if clips need replacement, particularly the clips located in the front area.",
+      "question_type": "inspection",
+      "id": "51-131_body-equ-q12"
+    }
+  ]
+}

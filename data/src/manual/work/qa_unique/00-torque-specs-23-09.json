@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-23-09",
+  "image_path": "raw/00 - Torque Specs/23-09.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:59:30.439733",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 615
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for transmission mounts (rubber) to body?",
+      "answer": "42 Nm using M10 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-09-q01"
+    },
+    {
+      "question": "What screw size is used for the transmission cross member to body mounting?",
+      "answer": "M10 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-09-q02"
+    },
+    {
+      "question": "Are the torque specifications for transmission mounts the same for all vehicle types?",
+      "answer": "Yes, all specifications shown apply to 'All' vehicle types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-09-q04"
+    },
+    {
+      "question": "What is the difference in torque between M10 and M8 transmission mount bolts?",
+      "answer": "M10 bolts require 42 Nm while M8 bolts require 21 Nm, a difference of 21 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-09-q05"
+    },
+    {
+      "question": "What section of the manual covers these transmission mount specifications?",
+      "answer": "Section 23-9 Manual transmission, subsection 23 71 Transmission mounts.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-23-09-q07"
+    },
+    {
+      "question": "How many different torque values are specified for transmission mounts?",
+      "answer": "Two torque values: 42 Nm for M10 screws and 21 Nm for M8 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-09-q08"
+    },
+    {
+      "question": "What components are listed under item 1AZ in the transmission mounts table?",
+      "answer": "Transmission mounts (rubber) to body.",
+      "question_type": "component",
+      "id": "00-torque-specs-23-09-q09"
+    },
+    {
+      "question": "What is the torque specification for item 2AZ transmission cross member to body?",
+      "answer": "42 Nm using M10 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-09-q10"
+    }
+  ]
+}

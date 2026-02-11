@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-23-06",
+  "image_path": "raw/00 - Torque Specs/23-06.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:58:57.657866",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 594
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the retaining plates for bearings on housing?",
+      "answer": "10 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-06-q03"
+    },
+    {
+      "question": "Which transmission types use the retaining plates for bearings on housing specification?",
+      "answer": "S 5 D 310 Z/S 5 D 200 G/250 G",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-06-q04"
+    },
+    {
+      "question": "Which component uses a 9 Nm torque specification in the Case and Cover section?",
+      "answer": "Holder to transfer case (16AZ)",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-06-q06"
+    },
+    {
+      "question": "Which fastener has a higher torque specification - the holder to transfer case or the retaining plates for bearings?",
+      "answer": "The retaining plates for bearings on housing has a higher torque specification at 10 Nm compared to 9 Nm for the holder to transfer case.",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-06-q09"
+    },
+    {
+      "question": "What section of the manual covers these torque specifications?",
+      "answer": "Section 23.11 - Case and Cover under Manual Transmission (23-6)",
+      "question_type": "navigation",
+      "id": "00-torque-specs-23-06-q10"
+    }
+  ]
+}

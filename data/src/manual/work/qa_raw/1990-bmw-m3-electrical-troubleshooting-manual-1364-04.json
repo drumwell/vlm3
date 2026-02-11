@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-04",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/1364-04.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:30:29.939598",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 573
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number is this injection electronics diagram for the S14 engine?",
+      "answer": "This is page 1364-4 of the injection electronics section for the S14 engine.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-04-q01"
+    },
+    {
+      "question": "What are the wire colors connected to the ignition coil primary and secondary terminals?",
+      "answer": "The ignition coil shows 1.5 GN and 75 connected to the primary side, and 5 GN connected to the secondary side.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-04-q02"
+    },
+    {
+      "question": "Which components are connected to the main relay output?",
+      "answer": "The main relay output (terminal 87) connects to the oxygen sensor fuel pump relay, antilock braking system (ABS), and other injection system components.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-04-q03"
+    },
+    {
+      "question": "What is the wire designation for the connection from the fuel pump relay to the main fuel pump?",
+      "answer": "The connection from the fuel pump relay to the main fuel pump uses wire designation 1.5 GN/VI.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-04-q04"
+    },
+    {
+      "question": "What systems are shown connected to the Motronic control unit?",
+      "answer": "The Motronic control unit is connected to the timing control system, idle speed control, solid state coolant temperature sensor, and power distribution box.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-04-q05"
+    },
+    {
+      "question": "What color wire connects the coolant temperature sensor to ground?",
+      "answer": "The coolant temperature sensor connects to ground through a 5 BR/OR wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-04-q06"
+    },
+    {
+      "question": "Which relay controls the auxiliary fuel pump?",
+      "answer": "The auxiliary fuel pump is controlled by a dedicated relay shown in the lower right portion of the diagram, separate from the main fuel pump relay.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-04-q07"
+    },
+    {
+      "question": "What does the notation 'HOT AT ALL TIMES' indicate on this diagram?",
+      "answer": "The 'HOT AT ALL TIMES' notation indicates that the battery junction block provides continuous power regardless of ignition switch position.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-04-q08"
+    }
+  ]
+}

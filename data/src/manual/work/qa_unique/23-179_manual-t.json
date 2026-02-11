@@ -1,0 +1,79 @@
+{
+  "page_id": "23-179_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-179.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:37:01.707980",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 850
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the recommended adjustment specification for play between circlip and guide sleeve?",
+      "answer": "The play between circlip and guide sleeve should be adjusted to 0 to 0.09 mm (0 to 0.0035\").",
+      "question_type": "factual",
+      "id": "23-179_manual-t-q01"
+    },
+    {
+      "question": "What components should be pulled off along with the thrust washer in step 630 23 236?",
+      "answer": "Pull off thrust washer (4), 5th gear (5), brass synchromesh ring (6) and needle bearing (7).",
+      "question_type": "procedural",
+      "id": "23-179_manual-t-q02"
+    },
+    {
+      "question": "Why is it recommended to mark synchromesh rings during disassembly?",
+      "answer": "It is recommended to mark synchromesh rings for a pertinent gear wheel when disassembling the output shaft, in order to avoid mixing up synchromesh rings.",
+      "question_type": "factual",
+      "id": "23-179_manual-t-q03"
+    },
+    {
+      "question": "What special tool is required for pressing off the 1st gear?",
+      "answer": "Special Tool 23 1 490 is required for pressing off 1st gear with guide sleeve and sliding sleeve.",
+      "question_type": "tool",
+      "id": "23-179_manual-t-q04"
+    },
+    {
+      "question": "What must be done with the snap ring before pressing off 1st gear?",
+      "answer": "The snap ring (10) must be removed before pressing off 1st gear.",
+      "question_type": "procedural",
+      "id": "23-179_manual-t-q06"
+    },
+    {
+      "question": "What special tool is mentioned for pressing second gear and related components?",
+      "answer": "Special Tool 23 2 080 is used for pressing second gear, bearing sleeve, third gear, synchromesh ring and guide sleeve with operating sleeve off of output shaft.",
+      "question_type": "tool",
+      "id": "23-179_manual-t-q08"
+    },
+    {
+      "question": "In the version with thrust washer, what components are located between 2nd and 3rd gear wheels?",
+      "answer": "In the version with thrust washer, the thrust washer (2) and ball (3) are located between 2nd and 3rd gear wheels.",
+      "question_type": "visual",
+      "id": "23-179_manual-t-q09"
+    },
+    {
+      "question": "What installation requirement is specified for the snap ring?",
+      "answer": "Always replace snap ring during installation.",
+      "question_type": "procedural",
+      "id": "23-179_manual-t-q10"
+    },
+    {
+      "question": "What should be removed after lifting out the circlip?",
+      "answer": "After lifting out circlip (8), remove spacer (9).",
+      "question_type": "procedural",
+      "id": "23-179_manual-t-q11"
+    },
+    {
+      "question": "What is the section number for this replacing output shaft procedure?",
+      "answer": "This is section 23 21 554 for replacing output shaft with output shaft removed.",
+      "question_type": "navigation",
+      "id": "23-179_manual-t-q12"
+    }
+  ]
+}

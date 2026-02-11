@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-61-02",
+  "image_path": "raw/00 - Torque Specs/61-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:04:38.379951",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 618
+  },
+  "qa_pairs": [
+    {
+      "question": "Do the 91\u00b0C and 99\u00b0C temperature switches have the same torque specification?",
+      "answer": "Yes, both the 91\u00b0C and 99\u00b0C temperature switches have the same torque specification of 14 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-02-q08"
+    },
+    {
+      "question": "Which switch has the lowest torque specification in this table?",
+      "answer": "The light switch on instrument panel for E36/E38 models has the lowest torque specification at 2 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-02-q09"
+    },
+    {
+      "question": "What special note is mentioned for the oil pressure switch installation?",
+      "answer": "The note states 'oil and screw in' for the oil pressure switch installation.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-61-02-q10"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "25-16_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-16.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:51:21.511046",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1756,
+    "tokens_output": 511
+  },
+  "qa_pairs": [
+    {
+      "question": "What is component number 15 in this shift layout drawing?",
+      "answer": "Component number 15 is the Handle.",
+      "question_type": "component",
+      "id": "25-16_gear-shi-q01"
+    },
+    {
+      "question": "What does the shift gate component connect to in this automatic transmission layout?",
+      "answer": "The shift gate (component 11) connects to the transmission switch (component 12) in the assembly.",
+      "question_type": "procedural",
+      "id": "25-16_gear-shi-q02"
+    },
+    {
+      "question": "Which component number represents the cable in this diagram?",
+      "answer": "Component number 17 represents the Cable.",
+      "question_type": "component",
+      "id": "25-16_gear-shi-q03"
+    },
+    {
+      "question": "What is the function of component 12 according to the parts list?",
+      "answer": "Component 12 is the Transmission switch.",
+      "question_type": "factual",
+      "id": "25-16_gear-shi-q04"
+    },
+    {
+      "question": "Where is the selector lever positioned in relation to the shift gate?",
+      "answer": "The selector lever (component 13) is positioned adjacent to and works in conjunction with the shift gate (component 11).",
+      "question_type": "visual",
+      "id": "25-16_gear-shi-q05"
+    },
+    {
+      "question": "What components make up the transmission lever assembly at the bottom of the diagram?",
+      "answer": "The transmission lever assembly includes the transmission lever (component 24), holder (component 21), washers (components 25 and 26), sleeve (component 27), and clamping bolt (component 28).",
+      "question_type": "procedural",
+      "id": "25-16_gear-shi-q06"
+    },
+    {
+      "question": "What is component number 20 in this shift layout?",
+      "answer": "Component number 20 is the Retainer.",
+      "question_type": "component",
+      "id": "25-16_gear-shi-q07"
+    },
+    {
+      "question": "Which components are identified as self-tapping screws in this assembly?",
+      "answer": "Components 3, 4, 9, and 10 are identified as self-tapping screws in the parts list.",
+      "question_type": "factual",
+      "id": "25-16_gear-shi-q08"
+    }
+  ]
+}

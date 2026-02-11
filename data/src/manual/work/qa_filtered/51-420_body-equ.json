@@ -1,0 +1,91 @@
+{
+  "page_id": "51-420_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-420.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:26:23.150925",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 723
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the left or right rear door trim panel?",
+      "answer": "The procedure number is 51 42 001 for replacing left or right rear door trim panel.",
+      "question_type": "factual",
+      "id": "51-420_body-equ-q01"
+    },
+    {
+      "question": "What important note is mentioned when unscrewing the screws from the trim panel?",
+      "answer": "An additional screw holds the armrest on the trim panel from behind.",
+      "question_type": "factual",
+      "id": "51-420_body-equ-q02"
+    },
+    {
+      "question": "What should you do with the door window before lifting off the door trim panel?",
+      "answer": "The door window should be lowered before lifting off the door trim panel with armrest.",
+      "question_type": "procedural",
+      "id": "51-420_body-equ-q03"
+    },
+    {
+      "question": "What happens to the window recess seal when you lift the door trim panel out of clamps?",
+      "answer": "The window recess seal will also be pulled off when the door trim panel is lifted out of clamps.",
+      "question_type": "factual",
+      "id": "51-420_body-equ-q04"
+    },
+    {
+      "question": "What are the four numbered components shown in the installation diagram?",
+      "answer": "1 - Window recess seal, 2 - Ornamental strip, 3 - Clip, 4 - Door trim panel.",
+      "question_type": "visual",
+      "id": "51-420_body-equ-q05"
+    },
+    {
+      "question": "What should you check during installation regarding the clips?",
+      "answer": "Check for correct fit of clips and replace if necessary.",
+      "question_type": "inspection",
+      "id": "51-420_body-equ-q06"
+    },
+    {
+      "question": "In what order should the door trim panel be installed according to the installation note?",
+      "answer": "Install door trim panel complete with window recess seal after lowering door window.",
+      "question_type": "procedural",
+      "id": "51-420_body-equ-q07"
+    },
+    {
+      "question": "What needs to be done with the cover before removing the lock or screw?",
+      "answer": "Lift off cover, then remove lock or unscrew screw.",
+      "question_type": "procedural",
+      "id": "51-420_body-equ-q08"
+    },
+    {
+      "question": "What component needs to be unscrewed according to the first instruction?",
+      "answer": "Unscrew catch button.",
+      "question_type": "procedural",
+      "id": "51-420_body-equ-q09"
+    },
+    {
+      "question": "What should be pulled off after removing the winder and washer?",
+      "answer": "Pull off mask toward rear.",
+      "question_type": "procedural",
+      "id": "51-420_body-equ-q10"
+    },
+    {
+      "question": "What is the reference number for the step showing the door window lowered?",
+      "answer": "The reference number is 30 51 118.",
+      "question_type": "factual",
+      "id": "51-420_body-equ-q11"
+    },
+    {
+      "question": "What should you do if clips are damaged during removal?",
+      "answer": "Check clips, replacing if necessary during installation.",
+      "question_type": "inspection",
+      "id": "51-420_body-equ-q12"
+    }
+  ]
+}

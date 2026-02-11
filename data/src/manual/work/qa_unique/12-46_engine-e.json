@@ -1,0 +1,79 @@
+{
+  "page_id": "12-46_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-46.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:39:35.593098",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 783
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum allowable slip ring out of true measurement?",
+      "answer": "The maximum slip ring out of true is 0.03 mm (0.001\").",
+      "question_type": "factual",
+      "id": "12-46_engine-e-q01"
+    },
+    {
+      "question": "What important note is given regarding soldering when replacing carbon brushes?",
+      "answer": "Only use a small amount of solder for soldering to prevent hardening of leads.",
+      "question_type": "safety",
+      "id": "12-46_engine-e-q03"
+    },
+    {
+      "question": "What components are indicated by callouts 1 and 2 in the voltage regulator removal diagram?",
+      "answer": "Callout 1 indicates the bolts to unscrew, and callout 2 indicates the regulator to take off carefully.",
+      "question_type": "visual",
+      "id": "12-46_engine-e-q04"
+    },
+    {
+      "question": "What inspection should be performed on slip rings during installation?",
+      "answer": "Check slip rings for wear, and if necessary, remove rotor and fine grind as well as polish the slip rings as part of Pos. 12 31 201.",
+      "question_type": "inspection",
+      "id": "12-46_engine-e-q05"
+    },
+    {
+      "question": "What maintenance should be performed on contact surfaces during regulator installation?",
+      "answer": "Clean contact surfaces and check tension of spring contacts, correcting if necessary.",
+      "question_type": "procedural",
+      "id": "12-46_engine-e-q06"
+    },
+    {
+      "question": "How should the regulator be initially mounted during installation?",
+      "answer": "Mount regulator at first with one bolt screwed in finger tight, then press alternator to final installed position carefully, install and tighten all bolts.",
+      "question_type": "procedural",
+      "id": "12-46_engine-e-q07"
+    },
+    {
+      "question": "What procedure number is referenced for slip ring grinding and polishing?",
+      "answer": "Position 12 31 201 is referenced for slip ring grinding and polishing procedures.",
+      "question_type": "navigation",
+      "id": "12-46_engine-e-q08"
+    },
+    {
+      "question": "What should be checked for wear during the carbon brush replacement process?",
+      "answer": "Check slip rings for wear, and fine grinding may be necessary if wear is detected.",
+      "question_type": "inspection",
+      "id": "12-46_engine-e-q09"
+    },
+    {
+      "question": "What is the procedure section number for removing and installing/replacing the voltage regulator?",
+      "answer": "Section 12 32 000 covers removing and installing/replacing the voltage regulator.",
+      "question_type": "navigation",
+      "id": "12-46_engine-e-q11"
+    },
+    {
+      "question": "What precaution should be taken when removing the voltage regulator?",
+      "answer": "Unscrew bolts carefully and take off regulator carefully during the removal process.",
+      "question_type": "safety",
+      "id": "12-46_engine-e-q12"
+    }
+  ]
+}

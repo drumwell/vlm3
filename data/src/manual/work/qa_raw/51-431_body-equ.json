@@ -1,0 +1,91 @@
+{
+  "page_id": "51-431_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-431.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:26:38.531535",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 750
+  },
+  "qa_pairs": [
+    {
+      "question": "What specific step is required for convertibles when removing the rear seat cushion?",
+      "answer": "For convertibles, you must lift out the rear seat cushion, and during installation, the seat cushion must engage in the openings.",
+      "question_type": "procedural",
+      "id": "51-431_body-equ-q01"
+    },
+    {
+      "question": "How do you remove the seat backrest?",
+      "answer": "First unscrew the bolts, then pull out the seat backrest from above. During installation, engage the backrest in the holders at the top.",
+      "question_type": "procedural",
+      "id": "51-431_body-equ-q02"
+    },
+    {
+      "question": "What should you check during installation when working with the spring mechanism?",
+      "answer": "Check for correct fit of spring during installation.",
+      "question_type": "inspection",
+      "id": "51-431_body-equ-q03"
+    },
+    {
+      "question": "What window position is required when unscrewing certain screws?",
+      "answer": "The window must be open when unscrewing the screws.",
+      "question_type": "procedural",
+      "id": "51-431_body-equ-q04"
+    },
+    {
+      "question": "What components need to be removed when pulling off the door weatherstrip?",
+      "answer": "Pull off the door weatherstrip and lift out the trim. If applicable, also pull off the speaker wires.",
+      "question_type": "procedural",
+      "id": "51-431_body-equ-q05"
+    },
+    {
+      "question": "What is the procedure for removing the seat belt mechanism?",
+      "answer": "Unscrew the bolt and lift out the seat belt.",
+      "question_type": "procedural",
+      "id": "51-431_body-equ-q06"
+    },
+    {
+      "question": "What reference numbers are shown for the seat backrest removal procedure?",
+      "answer": "The seat backrest removal procedure is shown with reference numbers 30 51 735 and 30 51 736.",
+      "question_type": "visual",
+      "id": "51-431_body-equ-q07"
+    },
+    {
+      "question": "Which diagram shows the door weatherstrip removal process?",
+      "answer": "Diagram 30 51 769 shows the door weatherstrip removal process.",
+      "question_type": "visual",
+      "id": "51-431_body-equ-q08"
+    },
+    {
+      "question": "What should be done with the plate and trim during removal?",
+      "answer": "If applicable, lift out the plate and pull off the trim.",
+      "question_type": "procedural",
+      "id": "51-431_body-equ-q09"
+    },
+    {
+      "question": "What is indicated by the arrows in the seat backrest diagrams?",
+      "answer": "The arrows indicate the direction to pull out the seat backrest from above and show the engagement points for the backrest holders at the top.",
+      "question_type": "visual",
+      "id": "51-431_body-equ-q10"
+    },
+    {
+      "question": "What reference number corresponds to the seat belt removal procedure?",
+      "answer": "The seat belt removal procedure is shown with reference number 30 51 738.",
+      "question_type": "visual",
+      "id": "51-431_body-equ-q11"
+    },
+    {
+      "question": "What special consideration is mentioned for convertible models during seat cushion installation?",
+      "answer": "For convertible models, the seat cushion must engage in the openings during installation.",
+      "question_type": "factual",
+      "id": "51-431_body-equ-q12"
+    }
+  ]
+}

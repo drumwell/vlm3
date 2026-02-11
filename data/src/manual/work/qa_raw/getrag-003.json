@@ -1,0 +1,91 @@
+{
+  "page_id": "getrag-003",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/003.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:42:07.850901",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 816
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is being held in the hand in the top image?",
+      "answer": "A roll pin, specifically the 2nd 3rd hub roll pin that needs to be removed during the rebuild process.",
+      "question_type": "visual",
+      "id": "getrag-003-q01"
+    },
+    {
+      "question": "What tool setup is shown in the bottom image for working on transmission components?",
+      "answer": "A hydraulic press with protective gloves being used to work on transmission shafts and components.",
+      "question_type": "tool",
+      "id": "getrag-003-q02"
+    },
+    {
+      "question": "Why is the 2nd 3rd hub roll pin described as tricky to remove?",
+      "answer": "It basically hammers down the gap between the gear teeth, making it difficult to extract without proper technique.",
+      "question_type": "procedural",
+      "id": "getrag-003-q03"
+    },
+    {
+      "question": "What collection of small parts is visible on the cardboard in the top image?",
+      "answer": "Multiple roll pins and small fasteners that have been removed during the transmission disassembly process.",
+      "question_type": "visual",
+      "id": "getrag-003-q04"
+    },
+    {
+      "question": "What transmission shaft component is visible on the white cloth in the top image?",
+      "answer": "A transmission input or output shaft with splined gearing that appears to be disassembled from the transmission case.",
+      "question_type": "component",
+      "id": "getrag-003-q05"
+    },
+    {
+      "question": "What safety equipment is being used when operating the hydraulic press?",
+      "answer": "Black protective gloves are being worn to protect the hands during the pressing operation.",
+      "question_type": "safety",
+      "id": "getrag-003-q06"
+    },
+    {
+      "question": "What workspace setup is shown for organizing the removed transmission parts?",
+      "answer": "A cardboard surface is used to organize and keep track of small roll pins and fasteners during disassembly.",
+      "question_type": "procedural",
+      "id": "getrag-003-q07"
+    },
+    {
+      "question": "What type of transmission case is visible in the top image?",
+      "answer": "The Getrag transmission case housing, which appears to be partially disassembled with components removed.",
+      "question_type": "component",
+      "id": "getrag-003-q08"
+    },
+    {
+      "question": "What challenge does the text describe about removing roll pins?",
+      "answer": "The roll pins had to be removed, with the 2nd 3rd hub roll pin being particularly tricky because it hammers down the gap between gear teeth.",
+      "question_type": "troubleshooting",
+      "id": "getrag-003-q09"
+    },
+    {
+      "question": "What color are the roll pins shown in the mechanic's hand and on the cardboard?",
+      "answer": "The roll pins appear to be metallic/silver colored, which is typical for steel roll pins used in transmission assemblies.",
+      "question_type": "visual",
+      "id": "getrag-003-q10"
+    },
+    {
+      "question": "What type of press operation is being performed in the bottom image?",
+      "answer": "A hydraulic press operation to remove or install transmission shaft components, with the shaft being pressed through or out of gear assemblies.",
+      "question_type": "procedural",
+      "id": "getrag-003-q11"
+    },
+    {
+      "question": "What tools are visible on the workbench in the background of the top image?",
+      "answer": "A measuring tape and various hand tools are visible on the workbench, along with what appears to be a laptop computer.",
+      "question_type": "tool",
+      "id": "getrag-003-q12"
+    }
+  ]
+}

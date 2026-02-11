@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-049",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/049.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:21:46.764703",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 505
+  },
+  "qa_pairs": [
+    {
+      "question": "What component is covered under section 11 78 in the emissions-control system?",
+      "answer": "Lambda oxygen sensor",
+      "question_type": "component",
+      "id": "bmwtorquespecs-049-q02"
+    },
+    {
+      "question": "What section of the manual covers engine specifications?",
+      "answer": "11 - 39 Engine",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-049-q05"
+    },
+    {
+      "question": "What unit of measurement is used for the torque specification in this table?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-049-q06"
+    },
+    {
+      "question": "Which emissions control component has a torque specification of 55 Nm?",
+      "answer": "Lambda oxygen sensor (oxygen sensor and oxygen monitor sensor)",
+      "question_type": "component",
+      "id": "bmwtorquespecs-049-q07"
+    },
+    {
+      "question": "What is the document reference number shown at the top of the page?",
+      "answer": "AZD11-35.frb",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-049-q08"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "34-12_brakes",
+  "image_path": "raw/34 - Brakes/34-12.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:15:57.871373",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 917
+  },
+  "qa_pairs": [
+    {
+      "question": "What brake system component is being overhauled in procedure 34 31 012?",
+      "answer": "The brake master cylinder is being overhauled.",
+      "question_type": "factual",
+      "id": "34-12_brakes-q01"
+    },
+    {
+      "question": "Are replacement parts available for brake master cylinders with a recessed stop pin?",
+      "answer": "No, replacement parts are not available for brake master cylinders with a recessed stop pin (ABS).",
+      "question_type": "factual",
+      "id": "34-12_brakes-q02"
+    },
+    {
+      "question": "What should be applied to the cylinder bore before reassembly?",
+      "answer": "Give the cylinder bore a very thin coat of ATE brake cylinder paste.",
+      "question_type": "procedural",
+      "id": "34-12_brakes-q03"
+    },
+    {
+      "question": "How should the intermediate piston be removed from the cylinder housing?",
+      "answer": "Knock out the intermediate piston by knocking the housing on a piece of wood lightly.",
+      "question_type": "procedural",
+      "id": "34-12_brakes-q04"
+    },
+    {
+      "question": "What cleaning method is recommended for the cylinder housing and other parts?",
+      "answer": "Clean the cylinder housing and other parts not contained in the repair kit with alcohol and dry with compressed air.",
+      "question_type": "procedural",
+      "id": "34-12_brakes-q05"
+    },
+    {
+      "question": "What components are included in the repair kit according to the Important note?",
+      "answer": "The repair kit includes: spring (1), support (2), primary cup (3), fill-in washer (4), intermediate piston (5), separating cup (6), long sleeve (7), spring (8), screw (9), push rod piston (10), stop washer (11), secondary cup (12), plastic bushing (13), circlip (14), seal (15), aluminum seal (16), and silicone grease (17).",
+      "question_type": "factual",
+      "id": "34-12_brakes-q06"
+    },
+    {
+      "question": "How should the push rod piston be removed?",
+      "answer": "Apply light pressure on push rod piston (10), lift out circlip (14) and unscrew stop screw (18). Release push rod piston (10) slowly and pull out.",
+      "question_type": "procedural",
+      "id": "34-12_brakes-q07"
+    },
+    {
+      "question": "What tool is recommended for clamping the cylinder housing during assembly?",
+      "answer": "Clamp the cylinder housing in a vise fitted with aluminum jaws.",
+      "question_type": "tool",
+      "id": "34-12_brakes-q08"
+    },
+    {
+      "question": "What should be done with the stepped short sleeve pipe during installation?",
+      "answer": "Push the stepped short sleeve pipe into the cylinder bore against the shoulder and hold.",
+      "question_type": "procedural",
+      "id": "34-12_brakes-q09"
+    },
+    {
+      "question": "How should the assembly sleeve contents be installed?",
+      "answer": "Push contents of assembly sleeve into cylinder bore carefully with a suitable mandrel until the intermediate piston touches the bottom of the cylinder.",
+      "question_type": "procedural",
+      "id": "34-12_brakes-q10"
+    },
+    {
+      "question": "What inspection should be performed on tandem brake master cylinders with surface damage?",
+      "answer": "Tandem brake master cylinders with surface damage in the cylinder bore may not be reused. Check whether all connecting, compensating and feeding bores are clean.",
+      "question_type": "inspection",
+      "id": "34-12_brakes-q11"
+    },
+    {
+      "question": "What components can be removed from the assembly sleeve according to the instructions?",
+      "answer": "The large plugs from assembly sleeve, short sleeve section on long sleeve pipe, stop washer (11), secondary cup (12), plastic bushing (13), circlip (14), aluminum seal (16) and silicone grease (17) can be removed, along with the small plugs.",
+      "question_type": "procedural",
+      "id": "34-12_brakes-q12"
+    }
+  ]
+}

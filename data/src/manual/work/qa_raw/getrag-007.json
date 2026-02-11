@@ -1,0 +1,91 @@
+{
+  "page_id": "getrag-007",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/007.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:43:10.445242",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 825
+  },
+  "qa_pairs": [
+    {
+      "question": "What happened when attempting to remove the 2nd gear from the syncro hub?",
+      "answer": "Getting 2nd gear off managed to 'loose' a ball bearing from the syncro hub never to be found again.",
+      "question_type": "troubleshooting",
+      "id": "getrag-007-q01"
+    },
+    {
+      "question": "What size ball bearing was needed for the syncro hub repair?",
+      "answer": "6.5mm ball bearings were needed for the syncro hub repair.",
+      "question_type": "factual",
+      "id": "getrag-007-q02"
+    },
+    {
+      "question": "Where were the replacement ball bearings sourced from?",
+      "answer": "The bearing shop told them it was an unusual size and BMW NLA part, so replacement ball bearings were found through a quick search on eBay.",
+      "question_type": "factual",
+      "id": "getrag-007-q03"
+    },
+    {
+      "question": "What condition was everything inside the transmission case found to be in?",
+      "answer": "Everything inside the box is covered in black grime and took lots of work to clean it all off.",
+      "question_type": "inspection",
+      "id": "getrag-007-q04"
+    },
+    {
+      "question": "What does BMW NLA mean in the context of parts availability?",
+      "answer": "BMW NLA means the part is No Longer Available from BMW, making it necessary to find alternative sources like eBay.",
+      "question_type": "factual",
+      "id": "getrag-007-q05"
+    },
+    {
+      "question": "What type of gear is shown in the main photograph?",
+      "answer": "The photograph shows a helical gear with angled teeth, likely the 2nd gear that was being removed from the syncro hub.",
+      "question_type": "visual",
+      "id": "getrag-007-q06"
+    },
+    {
+      "question": "What cleaning challenge was encountered during the transmission rebuild?",
+      "answer": "All internal components were covered in black grime that required extensive cleaning work to remove completely.",
+      "question_type": "procedural",
+      "id": "getrag-007-q07"
+    },
+    {
+      "question": "What component can be seen with the threaded portion in the image?",
+      "answer": "A threaded shaft or hub component is visible in the lower portion of the image, which appears to be part of the syncro assembly.",
+      "question_type": "visual",
+      "id": "getrag-007-q08"
+    },
+    {
+      "question": "What alternative sourcing method was used for obsolete BMW parts?",
+      "answer": "When BMW parts were no longer available, eBay was used as an alternative source to find the needed 6.5mm ball bearings.",
+      "question_type": "procedural",
+      "id": "getrag-007-q09"
+    },
+    {
+      "question": "What precaution should be taken when removing gears from syncro hubs?",
+      "answer": "Care should be taken not to lose ball bearings when removing gears from syncro hubs, as they can easily fall out and become lost.",
+      "question_type": "safety",
+      "id": "getrag-007-q10"
+    },
+    {
+      "question": "What type of bearing assembly is shown in the photograph?",
+      "answer": "The image shows a ball bearing assembly with a helical gear, which is part of the syncro hub mechanism for the 2nd gear.",
+      "question_type": "component",
+      "id": "getrag-007-q11"
+    },
+    {
+      "question": "What was the overall condition assessment of the transmission internals?",
+      "answer": "The transmission internals were heavily contaminated with black grime, requiring extensive cleaning work before reassembly could proceed.",
+      "question_type": "inspection",
+      "id": "getrag-007-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "34-01_brakes",
+  "image_path": "raw/34 - Brakes/34-01.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:12:27.496175",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 830
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be inspected before performing a brake test on the test stand?",
+      "answer": "Inspect condition and treads of tires and also check/correct tire inflation pressure prior to testing the brakes.",
+      "question_type": "procedural",
+      "id": "34-01_brakes-q01"
+    },
+    {
+      "question": "What is the maximum time that cars with four wheel drive (325 iX) can be tested on a brake test dynamometer?",
+      "answer": "Cars with four driven wheels (325 iX) must not be tested on a brake test dynamometer longer than 60 seconds or faster than 7.5 km/h (4.5 mph) to avoid damaging the central lock.",
+      "question_type": "safety",
+      "id": "34-01_brakes-q02"
+    },
+    {
+      "question": "What is the maximum pressure drop allowed after 2 minutes during the high pressure leak test?",
+      "answer": "The maximum pressure drop after 2 minutes is 8%.",
+      "question_type": "factual",
+      "id": "34-01_brakes-q03"
+    },
+    {
+      "question": "What range of pressure should be used for the low pressure brake test?",
+      "answer": "The low pressure test should use a pressure range of 2 to 5 bar (28 to 71 psi).",
+      "question_type": "factual",
+      "id": "34-01_brakes-q04"
+    },
+    {
+      "question": "How long should you wait between brake tests if testing needs to be repeated?",
+      "answer": "If testing has to be repeated, wait at least 30 minutes to allow the brakes to cool down.",
+      "question_type": "procedural",
+      "id": "34-01_brakes-q05"
+    },
+    {
+      "question": "What must be done with the engine during the high pressure leak test?",
+      "answer": "The high pressure leak test must be performed with the engine stopped.",
+      "question_type": "safety",
+      "id": "34-01_brakes-q06"
+    },
+    {
+      "question": "What should be done after completing the low pressure brake test?",
+      "answer": "Bleed brake calipers and wheel brake cylinders after finishing the test.",
+      "question_type": "procedural",
+      "id": "34-01_brakes-q07"
+    },
+    {
+      "question": "What is shown in diagram 30.34.001?",
+      "answer": "Diagram 30.34.001 shows the brake test setup with a pressure gauge and brake pedal application.",
+      "question_type": "visual",
+      "id": "34-01_brakes-q08"
+    },
+    {
+      "question": "What roller speed corresponds to 50 rpm wheel speed according to the conversion chart?",
+      "answer": "According to the conversion chart, 50 rpm wheel speed corresponds to 12.5 km/h roller speed.",
+      "question_type": "factual",
+      "id": "34-01_brakes-q09"
+    },
+    {
+      "question": "What condition must the brakes be in before testing?",
+      "answer": "The brakes should have operating temperature, meaning brake discs/drums should be warm and dry by driving the car several times.",
+      "question_type": "procedural",
+      "id": "34-01_brakes-q10"
+    },
+    {
+      "question": "What should you do if pressure drops considerably during the low pressure test?",
+      "answer": "If pressure drops considerably, inspect all rubber parts.",
+      "question_type": "diagnostic",
+      "id": "34-01_brakes-q11"
+    },
+    {
+      "question": "How long should the low pressure test be maintained?",
+      "answer": "The pressure should remain constant during a 5 minute test, and the car and tester must remain still since movement would cause incorrect test results.",
+      "question_type": "procedural",
+      "id": "34-01_brakes-q12"
+    }
+  ]
+}

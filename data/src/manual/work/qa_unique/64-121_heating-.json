@@ -1,0 +1,79 @@
+{
+  "page_id": "64-121_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-121.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:56:58.476713",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 709
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the water valve for heater?",
+      "answer": "The procedure number is 64 11 271.",
+      "question_type": "factual",
+      "id": "64-121_heating--q01"
+    },
+    {
+      "question": "What should be disconnected before removing the water valve for heater?",
+      "answer": "Disconnect battery ground lead.",
+      "question_type": "procedural",
+      "id": "64-121_heating--q02"
+    },
+    {
+      "question": "Which instrument panel components need to be removed and installed?",
+      "answer": "Remove and install instrument panel trim on left side 51 45 180, and remove and install tray 51 16 200.",
+      "question_type": "procedural",
+      "id": "64-121_heating--q03"
+    },
+    {
+      "question": "What coolant system maintenance is required during this procedure?",
+      "answer": "Drain coolant, disconnect both water hoses, bleed cooling system, and check coolant.",
+      "question_type": "procedural",
+      "id": "64-121_heating--q06"
+    },
+    {
+      "question": "What should be done with plug number 1 according to the left image?",
+      "answer": "Pull off plug (1).",
+      "question_type": "procedural",
+      "id": "64-121_heating--q07"
+    },
+    {
+      "question": "How many bolts need to be unscrewed in the middle image sequence?",
+      "answer": "Unscrew bolts (1 and 2).",
+      "question_type": "visual",
+      "id": "64-121_heating--q08"
+    },
+    {
+      "question": "What installation note is provided for the bottom right image?",
+      "answer": "Installation: Replace seal.",
+      "question_type": "procedural",
+      "id": "64-121_heating--q09"
+    },
+    {
+      "question": "What are the reference numbers shown in the images?",
+      "answer": "The reference numbers shown are 30 64 150, 30 64 197, 30 64 198, and 30 64 200.",
+      "question_type": "factual",
+      "id": "64-121_heating--q10"
+    },
+    {
+      "question": "What components are visible being disconnected in the water hose procedure?",
+      "answer": "Both water hoses are being disconnected from the water valve assembly.",
+      "question_type": "visual",
+      "id": "64-121_heating--q11"
+    },
+    {
+      "question": "What cooling system service step must be performed after installation?",
+      "answer": "Bleed cooling system and check coolant after installation.",
+      "question_type": "procedural",
+      "id": "64-121_heating--q12"
+    }
+  ]
+}

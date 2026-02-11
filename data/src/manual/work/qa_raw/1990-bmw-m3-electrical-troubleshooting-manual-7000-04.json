@@ -1,0 +1,70 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-04",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/7000-04.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:13:21.338792",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 545
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the 150\u00b0 compressor oil temperature switch located?",
+      "answer": "The 150\u00b0 compressor oil temperature switch (C151) is located on the lower RH side of the engine compartment.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-04-q01"
+    },
+    {
+      "question": "What component is labeled C140 in the engine compartment?",
+      "answer": "C140 is the ignition coil, located on the RH side of the engine compartment.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-04-q02"
+    },
+    {
+      "question": "Where can I find the coolant level switch?",
+      "answer": "The coolant level switch (C106) is located on the RH side of the engine compartment, as shown in Figure 3.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-04-q03"
+    },
+    {
+      "question": "What components are shown in the RH rear corner of the engine compartment?",
+      "answer": "The RH rear corner of the engine compartment contains the battery junction block, evaporative purge valve relay, oxygen sensor/fuel pump relay, and main relay.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-04-q04"
+    },
+    {
+      "question": "Where is the washer pump located?",
+      "answer": "The washer pump is located on the RH side of the engine compartment, as shown in Figure 2.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-04-q05"
+    },
+    {
+      "question": "What sensor is located forward of the shock tower on the RH side?",
+      "answer": "The right front crash sensor is located on the RH side of the engine compartment, forward of the shock tower.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-04-q06"
+    },
+    {
+      "question": "Where can I locate the oxygen sensor?",
+      "answer": "The oxygen sensor is located in the lower RH rear of the engine compartment, as shown in Figure 6.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-04-q07"
+    },
+    {
+      "question": "How many different engine compartment views are shown on this page?",
+      "answer": "There are 6 different engine compartment views shown on this page, labeled as Figures 1 through 6.",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-7000-04-q08",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

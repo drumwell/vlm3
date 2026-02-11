@@ -1,0 +1,31 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-16",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/0670-16.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:10:19.871216",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 516
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is the G300 ground connection located?",
+      "answer": "Under left side of rear seat back rest",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-16-q03"
+    },
+    {
+      "question": "Which components are shown connected to the G300 ground in the rear section?",
+      "answer": "Main fuel pump, trunk light switch, auxiliary fuel pump, RH dome light, fuel tank sender, LH dome light, high level stop light assembly, LH rear side marker light, LH license light, LH rear light assembly, RH rear light assembly, RH license light, RH rear side marker light, amplifier, rear defogger, and rear lights relay",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-16-q06"
+    }
+  ]
+}

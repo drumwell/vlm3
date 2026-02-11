@@ -1,0 +1,79 @@
+{
+  "page_id": "12-103_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-103.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:24:12.027077",
+    "prompt_template": "service_manual/wiring",
+    "tokens_input": 1743,
+    "tokens_output": 657
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the terminal designation for the alternator charge indicator on models until 1985?",
+      "answer": "The terminal designation for the alternator charge indicator is D+.",
+      "question_type": "factual",
+      "id": "12-103_engine-e-q01"
+    },
+    {
+      "question": "Which terminal is used for the coolant temperature transmitter on pre-1986 models?",
+      "answer": "Terminal FT is used for the coolant temperature transmitter on pre-1986 models.",
+      "question_type": "factual",
+      "id": "12-103_engine-e-q02"
+    },
+    {
+      "question": "What does terminal 15s provide power for on models until 1985?",
+      "answer": "Terminal 15s provides power supply with ignition turned on - fuse protection.",
+      "question_type": "factual",
+      "id": "12-103_engine-e-q03"
+    },
+    {
+      "question": "On 1986 and later models, what is connected to terminal A?",
+      "answer": "On 1986 and later models, terminal A is connected to the diagnosis lead for airbag.",
+      "question_type": "factual",
+      "id": "12-103_engine-e-q04"
+    },
+    {
+      "question": "What is the difference between terminals 15s and 15u on pre-1986 models?",
+      "answer": "Terminal 15s provides power supply with ignition turned on with fuse protection, while terminal 15u provides power supply with ignition turned on but without fuse protection.",
+      "question_type": "factual",
+      "id": "12-103_engine-e-q05"
+    },
+    {
+      "question": "Which terminal designation is used for the electric fuel pump on models since 1986?",
+      "answer": "Terminal EP is used for the electric fuel pump on models since 1986.",
+      "question_type": "factual",
+      "id": "12-103_engine-e-q06"
+    },
+    {
+      "question": "What function does terminal dyn serve on both model years?",
+      "answer": "Terminal dyn serves the oil level dynamic function on both model years.",
+      "question_type": "factual",
+      "id": "12-103_engine-e-q07"
+    },
+    {
+      "question": "How many terminals are listed for the 1986 and later models connection plan?",
+      "answer": "20 terminals are listed for the 1986 and later models connection plan.",
+      "question_type": "factual",
+      "id": "12-103_engine-e-q08"
+    },
+    {
+      "question": "What is terminal 50 used for on both model years?",
+      "answer": "Terminal 50 is used for power while starting on both model years.",
+      "question_type": "factual",
+      "id": "12-103_engine-e-q09"
+    },
+    {
+      "question": "Which terminal provides oil pressure monitoring on 1986 and later models?",
+      "answer": "Terminal \u00d6l provides oil pressure monitoring on 1986 and later models.",
+      "question_type": "factual",
+      "id": "12-103_engine-e-q10"
+    }
+  ]
+}

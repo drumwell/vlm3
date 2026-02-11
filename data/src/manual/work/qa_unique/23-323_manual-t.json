@@ -1,0 +1,85 @@
+{
+  "page_id": "23-323_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-323.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:47:20.361818",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 857
+  },
+  "qa_pairs": [
+    {
+      "question": "What temperature should the new bearing inner race be heated to before installation?",
+      "answer": "Heat the new bearing inner race to approximately 800\u00b0C (175\u00b0F) with a hot air blower and install on layshaft, driving on with Special Tool 23 1 030 if necessary.",
+      "question_type": "procedural",
+      "id": "23-323_manual-t-q01"
+    },
+    {
+      "question": "What special tools are required to drive roller bearings for input shaft and layshaft out of the intermediate case?",
+      "answer": "Special Tools 23 1 130 and 00 5 500 are required to drive roller bearings for input shaft and layshaft out of intermediate case.",
+      "question_type": "tool",
+      "id": "23-323_manual-t-q02"
+    },
+    {
+      "question": "What should be done with the oil plate when dealing with roller bearing for output shaft?",
+      "answer": "Unscrew and turn oil plate (1) in case of roller bearing for output shaft.",
+      "question_type": "procedural",
+      "id": "23-323_manual-t-q03"
+    },
+    {
+      "question": "What should be done after driving in the roller bearings?",
+      "answer": "Drive in roller bearings flush after installing them into the intermediate case.",
+      "question_type": "procedural",
+      "id": "23-323_manual-t-q05"
+    },
+    {
+      "question": "How should the oil plate be positioned during installation?",
+      "answer": "Bolt down oil plate (1) in vertical installed position.",
+      "question_type": "procedural",
+      "id": "23-323_manual-t-q06"
+    },
+    {
+      "question": "What should be checked on the bearing inner race of the output shaft?",
+      "answer": "Check condition of bearing inner race (2) on output shaft, replacing if necessary. If replacement is necessary, press gear set off of output shaft - see 23 21 554.",
+      "question_type": "inspection",
+      "id": "23-323_manual-t-q07"
+    },
+    {
+      "question": "What does callout number 1 indicate in the oil plate diagram?",
+      "answer": "Callout number 1 indicates the oil plate that needs to be bolted down in vertical installed position.",
+      "question_type": "visual",
+      "id": "23-323_manual-t-q08"
+    },
+    {
+      "question": "What does callout number 2 refer to in the bearing inspection diagram?",
+      "answer": "Callout number 2 refers to the bearing inner race on the output shaft that should be checked for condition.",
+      "question_type": "visual",
+      "id": "23-323_manual-t-q09"
+    },
+    {
+      "question": "What cross-reference is provided if the output shaft gear set needs to be pressed off?",
+      "answer": "If replacement of the bearing inner race is necessary and the gear set needs to be pressed off the output shaft, see section 23 21 554.",
+      "question_type": "navigation",
+      "id": "23-323_manual-t-q10"
+    },
+    {
+      "question": "What part faces the gear according to the collar installation instruction?",
+      "answer": "The collar of bearing race faces gear during installation.",
+      "question_type": "factual",
+      "id": "23-323_manual-t-q11"
+    },
+    {
+      "question": "What is the first step mentioned for the output shaft and layshaft procedure in intermediate case?",
+      "answer": "Remove input and output shaft assembly - see 23 21 503.",
+      "question_type": "procedural",
+      "id": "23-323_manual-t-q12"
+    }
+  ]
+}

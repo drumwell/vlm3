@@ -1,0 +1,91 @@
+{
+  "page_id": "00-06_maintena",
+  "image_path": "raw/00 - Maintenance/00-06.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:11:52.159598",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 783
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the order number for the Service Indicator Resetter?",
+      "answer": "The Service Indicator Resetter order number is 62 1 100.",
+      "question_type": "factual",
+      "id": "00-06_maintena-q01"
+    },
+    {
+      "question": "What should be done with the diagnostic system after a test drive?",
+      "answer": "After a test drive, read out the diagnostic system.",
+      "question_type": "procedural",
+      "id": "00-06_maintena-q02"
+    },
+    {
+      "question": "What components should be leak tested during pre-delivery inspection?",
+      "answer": "Leak test the engine, transmission, steering, final drive (front axle transfer case 32E iX only), dust covers on output shafts, fuel system, clutch and brake hydraulic systems, and cooling system.",
+      "question_type": "inspection",
+      "id": "00-06_maintena-q03"
+    },
+    {
+      "question": "What is the adapter order number mentioned in the service indicator reset procedure?",
+      "answer": "The adapter order number is 62 1 140.",
+      "question_type": "factual",
+      "id": "00-06_maintena-q04"
+    },
+    {
+      "question": "How should the service indicator be reset after completing the pre-delivery inspection?",
+      "answer": "Switch off all electrical equipment, turn on ignition without running the engine, plug SI-R with Adapter in diagnosis socket, push in and hold the recessed red INSPECTION button until the green lamp (function control) comes on.",
+      "question_type": "procedural",
+      "id": "00-06_maintena-q05"
+    },
+    {
+      "question": "What should be checked regarding the M3 oxygen sensor and idle settings?",
+      "answer": "Check the M3 oxygen sensor and idle RPM and idle CO and HC.",
+      "question_type": "inspection",
+      "id": "00-06_maintena-q06"
+    },
+    {
+      "question": "What visual inspection items are mentioned for the car's exterior condition?",
+      "answer": "The car should be cleaned and polished, have no damage on the underside, and be without scratches or damage.",
+      "question_type": "visual",
+      "id": "00-06_maintena-q07"
+    },
+    {
+      "question": "How long does the red lamp stay on after the inspection button is released?",
+      "answer": "The red lamp comes on after approximately 3 seconds and goes out after approximately 12 seconds.",
+      "question_type": "operation",
+      "id": "00-06_maintena-q08"
+    },
+    {
+      "question": "What should be done with seat and protective covers during pre-delivery inspection?",
+      "answer": "Remove seat and protective covers.",
+      "question_type": "procedural",
+      "id": "00-06_maintena-q09"
+    },
+    {
+      "question": "What happens when the inspection button is released during the service indicator reset?",
+      "answer": "When the inspection button is released, the green lamp goes out.",
+      "question_type": "operation",
+      "id": "00-06_maintena-q10"
+    },
+    {
+      "question": "What color diode lights should be visible when checking the Service Indicator?",
+      "answer": "All five green diode lights must be on. Yellow and possibly red diodes as well as the INSPECTION sign should go out.",
+      "question_type": "diagnostic",
+      "id": "00-06_maintena-q11"
+    },
+    {
+      "question": "What air system components should be checked during the pre-delivery inspection?",
+      "answer": "Check the assembly of air filter and air inlet.",
+      "question_type": "inspection",
+      "id": "00-06_maintena-q12"
+    }
+  ]
+}

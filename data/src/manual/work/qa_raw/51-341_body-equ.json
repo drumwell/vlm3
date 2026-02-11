@@ -1,0 +1,91 @@
+{
+  "page_id": "51-341_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-341.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:23:29.976380",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 667
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for adjusting the left or right rear door window?",
+      "answer": "The procedure code is 51 34 154.",
+      "question_type": "factual",
+      "id": "51-341_body-equ-q01"
+    },
+    {
+      "question": "What part needs to be removed first when adjusting the rear door window?",
+      "answer": "Remove the rear door trim panel 51 42 001.",
+      "question_type": "procedural",
+      "id": "51-341_body-equ-q02"
+    },
+    {
+      "question": "What should be done with the plastic sheet during disassembly?",
+      "answer": "Pull off plastic sheet partially.",
+      "question_type": "procedural",
+      "id": "51-341_body-equ-q03"
+    },
+    {
+      "question": "What is the installation instruction regarding the plastic sheet?",
+      "answer": "Replace damaged plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-341_body-equ-q04"
+    },
+    {
+      "question": "What is the first step in the window adjustment procedure after removing the trim panel?",
+      "answer": "Close window.",
+      "question_type": "procedural",
+      "id": "51-341_body-equ-q05"
+    },
+    {
+      "question": "How should the window regulator screws be handled during adjustment?",
+      "answer": "Tighten window regulator screws without tension.",
+      "question_type": "procedural",
+      "id": "51-341_body-equ-q06"
+    },
+    {
+      "question": "What diagram number shows the step where screws are loosened?",
+      "answer": "Diagram 30 51 136 shows the step where screws are loosened.",
+      "question_type": "visual",
+      "id": "51-341_body-equ-q07"
+    },
+    {
+      "question": "How should the window be positioned in the slots during adjustment?",
+      "answer": "Align window in slots in such a manner to have an uniform gap between the window glass and window frame at top.",
+      "question_type": "procedural",
+      "id": "51-341_body-equ-q08"
+    },
+    {
+      "question": "What is the final step after aligning the window properly?",
+      "answer": "Tighten screws.",
+      "question_type": "procedural",
+      "id": "51-341_body-equ-q09"
+    },
+    {
+      "question": "What diagram number corresponds to the final adjustment step?",
+      "answer": "Diagram 30 51 139 shows the final adjustment step.",
+      "question_type": "visual",
+      "id": "51-341_body-equ-q10"
+    },
+    {
+      "question": "What should be checked when aligning the window in the slots?",
+      "answer": "Check for an uniform gap between the window glass and window frame at top.",
+      "question_type": "inspection",
+      "id": "51-341_body-equ-q11"
+    },
+    {
+      "question": "What is shown in diagram 30 51 137?",
+      "answer": "Diagram 30 51 137 shows the step where screws are loosened.",
+      "question_type": "visual",
+      "id": "51-341_body-equ-q12"
+    }
+  ]
+}

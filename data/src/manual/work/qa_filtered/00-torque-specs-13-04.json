@@ -1,0 +1,43 @@
+{
+  "page_id": "00-torque-specs-13-04",
+  "image_path": "raw/00 - Torque Specs/13-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:52:25.433615",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 562
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw type is used for the distributor injection pump to holder connection?",
+      "answer": "M21/M51/M41",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-04-q02"
+    },
+    {
+      "question": "Which component has the highest torque specification in this table?",
+      "answer": "The pressure valve holder to injection pump at 45 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-04-q04"
+    },
+    {
+      "question": "Which component uses M51/M41 screws and requires 2.5 Nm torque?",
+      "answer": "Electr. line on fuel cutout device",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-04-q08"
+    },
+    {
+      "question": "What is the tolerance range for the electric shutoff to injection pump torque specification?",
+      "answer": "The specification is 20 \u00b1 5 Nm, giving a range of 15-25 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-04-q09"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "12-09_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-09.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:23:14.351200",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 713
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for checking vacuum advance control?",
+      "answer": "The procedure code is 12 63 075.",
+      "question_type": "factual",
+      "id": "12-09_engine-e-q01"
+    },
+    {
+      "question": "What are the initial steps to prepare for vacuum advance control testing?",
+      "answer": "Take off protective cap, remove advance control relay and pull off plug.",
+      "question_type": "procedural",
+      "id": "12-09_engine-e-q02"
+    },
+    {
+      "question": "What simulator should be used for the vacuum advance control test?",
+      "answer": "Connect relay (3) and plug (4) on advance control simulator 12 1 460.",
+      "question_type": "tool",
+      "id": "12-09_engine-e-q03"
+    },
+    {
+      "question": "What position should switch 1 be set to on the simulator?",
+      "answer": "Set switch (1) on simulator to position A.",
+      "question_type": "procedural",
+      "id": "12-09_engine-e-q04"
+    },
+    {
+      "question": "What test steps should be performed according to the simulator procedures?",
+      "answer": "Perform test steps A through D according to procedures printed on the simulator.",
+      "question_type": "procedural",
+      "id": "12-09_engine-e-q05"
+    },
+    {
+      "question": "What does it mean when lamp MV is not on during the test?",
+      "answer": "If lamp MV is not on, this means the advance control box has vacuum.",
+      "question_type": "diagnostic",
+      "id": "12-09_engine-e-q06"
+    },
+    {
+      "question": "What should you do if specified conditions are not found during the vacuum advance test?",
+      "answer": "Refer to troubleshooting chart for vacuum advance control, if the specified conditions are not found in the test.",
+      "question_type": "troubleshooting",
+      "id": "12-09_engine-e-q07"
+    },
+    {
+      "question": "What test equipment can be used as an alternative to the BMW simulator?",
+      "answer": "Connect BMW service test unit or BMW digital tester.",
+      "question_type": "tool",
+      "id": "12-09_engine-e-q08"
+    },
+    {
+      "question": "What engine test step should be performed for ignition timing?",
+      "answer": "Perform engine test step 06 or check ignition timing.",
+      "question_type": "procedural",
+      "id": "12-09_engine-e-q09"
+    },
+    {
+      "question": "What happens to the ignition timing value when displayed by the simulator?",
+      "answer": "The ignition timing value displayed will be retarded approximately 20\u00b0 on crankshaft by the simulator.",
+      "question_type": "parameter",
+      "id": "12-09_engine-e-q10"
+    },
+    {
+      "question": "What do the resistance measurement points TW and TA represent?",
+      "answer": "TW = Water temperature and TA = Intake air temperature.",
+      "question_type": "component",
+      "id": "12-09_engine-e-q11"
+    },
+    {
+      "question": "What does lamp 'tp' indicate during the test procedure?",
+      "answer": "Lamp 'tp' (load signal) will flash throughout the entire test.",
+      "question_type": "signal",
+      "id": "12-09_engine-e-q12"
+    }
+  ]
+}

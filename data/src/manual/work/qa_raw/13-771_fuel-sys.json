@@ -1,0 +1,94 @@
+{
+  "page_id": "13-771_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-771.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:48:29.272435",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 858
+  },
+  "qa_pairs": [
+    {
+      "question": "What should the resistance be between throttle valve switch connections 2 and 18 with a closed throttle valve?",
+      "answer": "There should be approximately 0 ohm between connections 2 and 18 with a closed throttle valve.",
+      "question_type": "factual",
+      "id": "13-771_fuel-sys-q01"
+    },
+    {
+      "question": "What resistance should be measured between connections 3 and 18 with a wide open throttle valve?",
+      "answer": "There should be approximately 0 ohm between connections 3 and 18 with a wide open throttle valve.",
+      "question_type": "factual",
+      "id": "13-771_fuel-sys-q02"
+    },
+    {
+      "question": "What do the abbreviations LL and VL stand for in the throttle valve switch testing?",
+      "answer": "LL = Idle speed and VL = Full load.",
+      "question_type": "factual",
+      "id": "13-771_fuel-sys-q03"
+    },
+    {
+      "question": "How do you remove the throttle valve switch according to the removal procedure?",
+      "answer": "Pull off multiple-pin plug (3), unscrew screws (1), then take off throttle valve switch (2).",
+      "question_type": "procedural",
+      "id": "13-771_fuel-sys-q04"
+    },
+    {
+      "question": "What components are shown in the numbered callouts in the upper right diagram?",
+      "answer": "Component 1 is screws, component 2 is the throttle valve switch, and component 3 is the multiple-pin plug.",
+      "question_type": "visual",
+      "id": "13-771_fuel-sys-q05"
+    },
+    {
+      "question": "What brand name is visible on the throttle valve switch component?",
+      "answer": "BOSCH is visible on the throttle valve switch component, with 'made in Germany' text below it.",
+      "question_type": "visual",
+      "id": "13-771_fuel-sys-q06"
+    },
+    {
+      "question": "What is the first step in the throttle valve switch adjustment procedure?",
+      "answer": "There must be approx. 0 ohm between connections 2 and 18 with a closed throttle valve, then adjust by loosening screws (1) and turning the throttle valve switch.",
+      "question_type": "procedural",
+      "id": "13-771_fuel-sys-q07"
+    },
+    {
+      "question": "What should happen to the resistance immediately after opening the throttle valve during adjustment?",
+      "answer": "The resistance should rise immediately to \u221e ohms after opening the throttle valve during adjustment.",
+      "question_type": "inspection",
+      "id": "13-771_fuel-sys-q08"
+    },
+    {
+      "question": "What should the resistance drop back to when releasing the throttle valve after adjustment?",
+      "answer": "Resistance must drop again to approximately 0 ohm when releasing the throttle valve.",
+      "question_type": "inspection",
+      "id": "13-771_fuel-sys-q09"
+    },
+    {
+      "question": "What installation check is mentioned for the throttle valve switch?",
+      "answer": "Check code number (1) and adjust throttle valve switch - see 13 63 544.",
+      "question_type": "procedural",
+      "id": "13-771_fuel-sys-q10"
+    },
+    {
+      "question": "What part numbers are visible on this page for reference?",
+      "answer": "Part numbers shown include 30 13 631, 30 13 456, 28 13 63001, and 28 13 63002.",
+      "question_type": "factual",
+      "id": "13-771_fuel-sys-q11",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "Which section should be referenced for throttle valve switch adjustment specifications?",
+      "answer": "See section 13 63 544 for throttle valve switch adjustment specifications.",
+      "question_type": "navigation",
+      "id": "13-771_fuel-sys-q12"
+    }
+  ]
+}

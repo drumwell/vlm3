@@ -1,0 +1,91 @@
+{
+  "page_id": "64-504_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-504.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:58:53.701095",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 714
+  },
+  "qa_pairs": [
+    {
+      "question": "What important warning is given when removing the temperature switch?",
+      "answer": "Don't bend temperature sensor when removing the temperature switch and pulling the temperature sensor out of housing at the same time.",
+      "question_type": "safety",
+      "id": "64-504_heating--q01"
+    },
+    {
+      "question": "How many screws need to be unscrewed in the first step shown?",
+      "answer": "Four screws need to be unscrewed (screws 1 through 4).",
+      "question_type": "procedural",
+      "id": "64-504_heating--q02"
+    },
+    {
+      "question": "What components are numbered 1 and 2 in the plug removal step?",
+      "answer": "Components 1 and 2 are plugs that need to be pulled off.",
+      "question_type": "visual",
+      "id": "64-504_heating--q03"
+    },
+    {
+      "question": "What should be done immediately after disconnecting both pipes from the evaporator?",
+      "answer": "Insert plugs in open connections immediately after disconnecting both pipes.",
+      "question_type": "procedural",
+      "id": "64-504_heating--q04"
+    },
+    {
+      "question": "What tool is needed when working with the expansion valve?",
+      "answer": "A wrench is needed to counterhold on the expansion valve.",
+      "question_type": "tool",
+      "id": "64-504_heating--q05"
+    },
+    {
+      "question": "When should the freezing prevention switch be installed?",
+      "answer": "Install freezing prevention switch only after installation of evaporator.",
+      "question_type": "procedural",
+      "id": "64-504_heating--q06"
+    },
+    {
+      "question": "What needs to be replaced during installation according to the instructions?",
+      "answer": "Replace seals during installation.",
+      "question_type": "procedural",
+      "id": "64-504_heating--q07"
+    },
+    {
+      "question": "What is the final step mentioned for installation?",
+      "answer": "Apply tightening torque as the final step, with the specific value referenced in Specifications.",
+      "question_type": "procedural",
+      "id": "64-504_heating--q08"
+    },
+    {
+      "question": "What component is identified as number 1 in the foam rubber cover removal step?",
+      "answer": "Component 1 is the foam rubber cover that needs to be removed.",
+      "question_type": "visual",
+      "id": "64-504_heating--q09"
+    },
+    {
+      "question": "What special tool is mentioned for straightening condenser cooling fins?",
+      "answer": "A special comb (component 1) is used to straighten bent cooling fins on the condenser.",
+      "question_type": "tool",
+      "id": "64-504_heating--q10"
+    },
+    {
+      "question": "What is the first step in the disassembly procedure shown?",
+      "answer": "Unscrew screws 1 through 4 and remove trim panel 5.",
+      "question_type": "procedural",
+      "id": "64-504_heating--q11"
+    },
+    {
+      "question": "What reference is provided for the tightening torque specification?",
+      "answer": "See Specifications for the tightening torque value.",
+      "question_type": "navigation",
+      "id": "64-504_heating--q12"
+    }
+  ]
+}

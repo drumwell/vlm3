@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-72-02",
+  "image_path": "raw/00 - Torque Specs/72-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:06:23.039328",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 552
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the airbag module on doors?",
+      "answer": "11 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-72-02-q01"
+    },
+    {
+      "question": "Which vehicle models use the airbag module on doors specification?",
+      "answer": "E36, E38, E39",
+      "question_type": "factual",
+      "id": "00-torque-specs-72-02-q02"
+    },
+    {
+      "question": "What type of screw is used for the bracket of ITS head airbag on body?",
+      "answer": "self-tapping screw",
+      "question_type": "factual",
+      "id": "00-torque-specs-72-02-q04"
+    },
+    {
+      "question": "What is the torque specification for the bracket of ITS head airbag on body?",
+      "answer": "2.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-72-02-q05"
+    },
+    {
+      "question": "What is the torque specification for the ITS head airbag on body component?",
+      "answer": "11 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-72-02-q07"
+    },
+    {
+      "question": "What type of bolt is used for the additional steel bracket for ITS head airbag on body?",
+      "answer": "Self-tapping M5 threaded bolt",
+      "question_type": "factual",
+      "id": "00-torque-specs-72-02-q08"
+    },
+    {
+      "question": "Which vehicle model uses the additional steel bracket specification for ITS head airbag?",
+      "answer": "E38 L7",
+      "question_type": "factual",
+      "id": "00-torque-specs-72-02-q10"
+    }
+  ]
+}

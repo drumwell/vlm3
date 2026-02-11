@@ -1,0 +1,91 @@
+{
+  "page_id": "64-04_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-04.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:52:23.281726",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 895
+  },
+  "qa_pairs": [
+    {
+      "question": "What activates the electromagnetic coupling of the compressor in the air conditioning system?",
+      "answer": "Switching on the air conditioner activates electromagnetic coupling (1) of compressor (2).",
+      "question_type": "factual",
+      "id": "64-04_heating--q01"
+    },
+    {
+      "question": "What happens to the refrigerant when the compressor increases its pressure?",
+      "answer": "When the compressor increases the pressure of gaseous refrigerant (Friqon), the refrigerant temperature automatically rises as well.",
+      "question_type": "operation",
+      "id": "64-04_heating--q02"
+    },
+    {
+      "question": "What is the function of component number 3 in the air conditioning system?",
+      "answer": "Component 3 is the condenser, where the refrigerant puts off heat and is condensed (turns into a liquid).",
+      "question_type": "component",
+      "id": "64-04_heating--q03"
+    },
+    {
+      "question": "What are the two safety switches in the system and what do they prevent?",
+      "answer": "Safety switches 5 and 6 stop the compressor when pressure is too high or too low, preventing damage to the air conditioning system.",
+      "question_type": "safety",
+      "id": "64-04_heating--q04"
+    },
+    {
+      "question": "What component meters the amount of refrigerant injected into the evaporator?",
+      "answer": "Expansion valve (7) meters the amount of refrigerant which is injected into evaporator (8).",
+      "question_type": "component",
+      "id": "64-04_heating--q05"
+    },
+    {
+      "question": "What happens to the liquid refrigerant in the evaporator?",
+      "answer": "The liquid refrigerant expands in evaporator (8) and is turned into gas, which produces strong cooling of the refrigerant and evaporator.",
+      "question_type": "operation",
+      "id": "64-04_heating--q06"
+    },
+    {
+      "question": "Why does the freezing prevention switch activate the compressor?",
+      "answer": "Freezing prevention switch (9) switches the compressor to prevent the formation of ice on the evaporator, as ice formation would reduce the cross section opening size and impair cooling efficiency.",
+      "question_type": "operation",
+      "id": "64-04_heating--q07"
+    },
+    {
+      "question": "What happens to moisture in the fresh air circulation?",
+      "answer": "Moisture in the fresh air condenses on the evaporator and is discharged outside of car via lines on the transmission tunnel. This water is normal and not a sign of leakage.",
+      "question_type": "inspection",
+      "id": "64-04_heating--q08"
+    },
+    {
+      "question": "What is component number 4 and what does it do?",
+      "answer": "Component 4 is the drier, which removes residual water from the refrigerant and absorbs it.",
+      "question_type": "component",
+      "id": "64-04_heating--q09"
+    },
+    {
+      "question": "What are components 10, 11, and 12 in the system diagram?",
+      "answer": "Component 10 is high pressure gas, component 11 is high pressure liquid, and component 12 is low pressure liquid.",
+      "question_type": "visual",
+      "id": "64-04_heating--q10"
+    },
+    {
+      "question": "What determines the amount of refrigerant that the expansion valve injects into the evaporator?",
+      "answer": "The amount of refrigerant injected by the expansion valve depends on the temperature and the pressure of refrigerant at outlet of the evaporator.",
+      "question_type": "operation",
+      "id": "64-04_heating--q11"
+    },
+    {
+      "question": "What are the two types of safety switches identified in the component list?",
+      "answer": "Component 5 is the safety switch for low pressure presostat and component 6 is the safety switch for high pressure presostat.",
+      "question_type": "component",
+      "id": "64-04_heating--q12"
+    }
+  ]
+}

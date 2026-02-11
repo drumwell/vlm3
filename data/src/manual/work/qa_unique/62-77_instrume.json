@@ -1,0 +1,67 @@
+{
+  "page_id": "62-77_instrume",
+  "image_path": "raw/62 - Instruments/62-77.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:47:08.511402",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 727
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first thing to check if the tail lights are not working?",
+      "answer": "Check the power supply from terminal 30 via fuses F 22 and F 23, each 7.5 amps, to the light switch terminals 58 LE and 58 RE.",
+      "question_type": "diagnostic",
+      "id": "62-77_instrume-q01"
+    },
+    {
+      "question": "What should you do if there's no power supply to the light switch terminals?",
+      "answer": "Supply electric power and replace the fuse.",
+      "question_type": "troubleshooting",
+      "id": "62-77_instrume-q02"
+    },
+    {
+      "question": "How do you test the light switch operation?",
+      "answer": "Check the light switch by measuring voltage on the outlet to terminals 58 R and 58 L.",
+      "question_type": "diagnostic",
+      "id": "62-77_instrume-q03"
+    },
+    {
+      "question": "What resistance value should you measure in the bulb tester from terminal 31 to terminal 58 KL with lights on?",
+      "answer": "The resistance should be 4.7 ohms in the bulb tester from terminal 31 to terminal 58 KL with lights on.",
+      "question_type": "parameter",
+      "id": "62-77_instrume-q04"
+    },
+    {
+      "question": "What terminals should you check for voltage on the bulb tester outlet?",
+      "answer": "Check voltage on bulb tester outlet terminals 58 L 1 and 58 R 1.",
+      "question_type": "diagnostic",
+      "id": "62-77_instrume-q05"
+    },
+    {
+      "question": "What should you do if the ground wires to left and right tail lights are not okay?",
+      "answer": "Make ground connections and replace light bulbs if the light bulbs are not okay.",
+      "question_type": "troubleshooting",
+      "id": "62-77_instrume-q06"
+    },
+    {
+      "question": "What should you check if there's no voltage from the light switch to the check control terminals?",
+      "answer": "Check wires and supply electric power to terminals 58 R and 58 L.",
+      "question_type": "troubleshooting",
+      "id": "62-77_instrume-q08"
+    },
+    {
+      "question": "Which fuses control the power supply to the tail light system?",
+      "answer": "Fuses F 22 and F 23, each rated at 7.5 amps, control the power supply from terminal 30 to the light switch.",
+      "question_type": "factual",
+      "id": "62-77_instrume-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-004",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/004.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:16:35.617837",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 641
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M6 8.8 screw?",
+      "answer": "9.9 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-004-q01"
+    },
+    {
+      "question": "What torque specification applies to M6 12.9 screws?",
+      "answer": "16.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-004-q02"
+    },
+    {
+      "question": "What is the tightening torque for M7 8.8 thread screws?",
+      "answer": "14.8 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-004-q03"
+    },
+    {
+      "question": "How much torque should be applied to M7 10.9 screws?",
+      "answer": "21.3 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-004-q04"
+    },
+    {
+      "question": "What is the maximum tightening torque for M7 12.9 screws?",
+      "answer": "25.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-004-q05"
+    },
+    {
+      "question": "Which has a higher torque specification: M6 10.9 or M7 8.8 screws?",
+      "answer": "M7 8.8 screws have a higher torque specification at 14.8 Nm compared to M6 10.9 at 14.0 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-004-q06"
+    },
+    {
+      "question": "What torque value is specified for M6 10.9 thread screws?",
+      "answer": "14.0 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-004-q07"
+    },
+    {
+      "question": "What BMW standard should be referenced for the applicable range of tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-torque-specs-004-q08"
+    },
+    {
+      "question": "What is the difference in torque between M7 10.9 and M7 12.9 screws?",
+      "answer": "4.2 Nm difference (M7 12.9 at 25.5 Nm minus M7 10.9 at 21.3 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-004-q09"
+    },
+    {
+      "question": "What units are used for all the torque specifications in this table?",
+      "answer": "Nm (Newton-meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-004-q10"
+    }
+  ]
+}

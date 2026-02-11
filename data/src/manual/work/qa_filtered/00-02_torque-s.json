@@ -1,0 +1,79 @@
+{
+  "page_id": "00-02_torque-s",
+  "image_path": "raw/00 - Torque Specs/00-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:10:13.081647",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 724
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M4 8.8 screw?",
+      "answer": "2.9 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-02_torque-s-q01"
+    },
+    {
+      "question": "What torque specification should I use for an M5 10.9 bolt?",
+      "answer": "8.3 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-02_torque-s-q02"
+    },
+    {
+      "question": "What is the difference in torque between M4 8.8 and M4 12.9 screws?",
+      "answer": "M4 8.8 requires 2.9 Nm while M4 12.9 requires 4.9 Nm, a difference of 2.0 Nm.",
+      "question_type": "factual",
+      "id": "00-02_torque-s-q03"
+    },
+    {
+      "question": "What is the highest torque specification listed for M5 thread bolts?",
+      "answer": "10.0 Nm (ft. lbs.) for M5 12.9 bolts",
+      "question_type": "factual",
+      "id": "00-02_torque-s-q04"
+    },
+    {
+      "question": "Where can I find the applicable range for tightening torques?",
+      "answer": "Refer to extract from company standard BMW N 600 02.0",
+      "question_type": "navigation",
+      "id": "00-02_torque-s-q05"
+    },
+    {
+      "question": "What torque should I apply to an M4 10.9 fastener?",
+      "answer": "4.1 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-02_torque-s-q06"
+    },
+    {
+      "question": "Which has a higher torque specification: M5 8.8 or M4 12.9?",
+      "answer": "M5 8.8 has a higher torque specification at 5.9 Nm compared to M4 12.9 at 4.9 Nm.",
+      "question_type": "factual",
+      "id": "00-02_torque-s-q07"
+    },
+    {
+      "question": "What document reference should I consult for M4 and M5 maximum tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "navigation",
+      "id": "00-02_torque-s-q08"
+    },
+    {
+      "question": "What is the torque specification for an M5 12.9 bolt?",
+      "answer": "10.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-02_torque-s-q09"
+    },
+    {
+      "question": "What are the three different torque values listed for M4 thread fasteners?",
+      "answer": "M4 8.8: 2.9 Nm, M4 10.9: 4.1 Nm, and M4 12.9: 4.9 Nm",
+      "question_type": "factual",
+      "id": "00-02_torque-s-q10"
+    }
+  ]
+}

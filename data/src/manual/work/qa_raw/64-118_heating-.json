@@ -1,0 +1,94 @@
+{
+  "page_id": "64-118_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-118.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:56:15.773362",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 736
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the heater motor?",
+      "answer": "The procedure number is 64 11 210.",
+      "question_type": "factual",
+      "id": "64-118_heating--q01"
+    },
+    {
+      "question": "What are the first four steps for removing the heater motor?",
+      "answer": "1. Disconnect battery ground lead, 2. Pull off rubber strip, 3. Cut off wire strap, 4. Unscrew bolt, and lay cover to aside.",
+      "question_type": "procedural",
+      "id": "64-118_heating--q02"
+    },
+    {
+      "question": "What should you do after opening the retaining straps?",
+      "answer": "Open retaining straps (1) and swing aside.",
+      "question_type": "procedural",
+      "id": "64-118_heating--q03"
+    },
+    {
+      "question": "What important warning is given regarding the air flap?",
+      "answer": "Be careful not to damage the air flap.",
+      "question_type": "safety",
+      "id": "64-118_heating--q04"
+    },
+    {
+      "question": "How do you remove the heater motor from its housing?",
+      "answer": "Disengage clamp (1) and lift out fan motor with fan.",
+      "question_type": "procedural",
+      "id": "64-118_heating--q05"
+    },
+    {
+      "question": "What should you do with the wire plugs during removal?",
+      "answer": "Pull off both wire plugs.",
+      "question_type": "procedural",
+      "id": "64-118_heating--q06"
+    },
+    {
+      "question": "What should you check during installation of the heater motor?",
+      "answer": "Check code number (1) during installation.",
+      "question_type": "inspection",
+      "id": "64-118_heating--q07"
+    },
+    {
+      "question": "What critical warning is given about the motor shaft and fan wheels during installation?",
+      "answer": "Do not remove or turn fan wheels on motor shaft, since motor and fan wheels were balanced in assembled state.",
+      "question_type": "safety",
+      "id": "64-118_heating--q08"
+    },
+    {
+      "question": "What does callout number 1 indicate in the bottom image showing the removed motor?",
+      "answer": "Callout number 1 indicates the code number that should be checked during installation.",
+      "question_type": "visual",
+      "id": "64-118_heating--q09"
+    },
+    {
+      "question": "What component numbers are visible in the diagrams on this page?",
+      "answer": "The visible component numbers are 30 64 097, 30 64 113, 30 64 114, 30 64 115, 30 64 116, 30 64 117, and 30 64 118.",
+      "question_type": "factual",
+      "id": "64-118_heating--q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What does the procedure instruct you to do with the cover?",
+      "answer": "Remove cover and lay cover to aside.",
+      "question_type": "procedural",
+      "id": "64-118_heating--q11"
+    },
+    {
+      "question": "Where can additional specifications be found for this procedure?",
+      "answer": "See Specifications and Spare Part Microfilm.",
+      "question_type": "navigation",
+      "id": "64-118_heating--q12"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "41-508_body",
+  "image_path": "raw/41 - Body/41-508.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:06:54.771156",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 704
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing left or right rear door?",
+      "answer": "The procedure number is 41 52 101.",
+      "question_type": "factual",
+      "id": "41-508_body-q01"
+    },
+    {
+      "question": "What should be done to seal cavities of the new door during installation?",
+      "answer": "Seal cavities of the new door as part of the installation process.",
+      "question_type": "procedural",
+      "id": "41-508_body-q02"
+    },
+    {
+      "question": "Which reference number should be consulted for door trim panel removal?",
+      "answer": "Remove door trim panel - 51 42 001.",
+      "question_type": "navigation",
+      "id": "41-508_body-q03"
+    },
+    {
+      "question": "What is the reference number for removing the window winder or power window regulator?",
+      "answer": "Remove window winder - 51 34 020 or power window regulator - 51 37 000.",
+      "question_type": "factual",
+      "id": "41-508_body-q04"
+    },
+    {
+      "question": "What should be done with door weatherstrips during the replacement procedure?",
+      "answer": "Transfer door weatherstrips from the old door to the new door.",
+      "question_type": "procedural",
+      "id": "41-508_body-q05"
+    },
+    {
+      "question": "What reference number is used for removing the ornamental frame?",
+      "answer": "Remove ornamental frame - 51 34 380.",
+      "question_type": "factual",
+      "id": "41-508_body-q06"
+    },
+    {
+      "question": "What must be done with wire harness during door replacement?",
+      "answer": "If applicable, pull wire harness out of door before removal.",
+      "question_type": "procedural",
+      "id": "41-508_body-q07"
+    },
+    {
+      "question": "What is shown in the bottom diagram with reference number 30 41 417?",
+      "answer": "The bottom diagram shows unscrewing the hinge at the bottom and lifting off the door.",
+      "question_type": "visual",
+      "id": "41-508_body-q08"
+    },
+    {
+      "question": "Where can information about adjusting the rear door be found?",
+      "answer": "Information about adjusting the rear door can be found in section 41 52 004.",
+      "question_type": "navigation",
+      "id": "41-508_body-q10"
+    },
+    {
+      "question": "What should be done with clamps and clips during the replacement?",
+      "answer": "Transfer or replace all clamps and clips as needed.",
+      "question_type": "procedural",
+      "id": "41-508_body-q11"
+    },
+    {
+      "question": "What is the reference number for removing the door lock?",
+      "answer": "Remove door lock - 51 22 090.",
+      "question_type": "factual",
+      "id": "41-508_body-q12"
+    }
+  ]
+}

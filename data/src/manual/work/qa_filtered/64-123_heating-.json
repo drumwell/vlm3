@@ -1,0 +1,85 @@
+{
+  "page_id": "64-123_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-123.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:57:25.323001",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 694
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you disconnect first when beginning heater core removal?",
+      "answer": "Disconnect battery ground lead.",
+      "question_type": "procedural",
+      "id": "64-123_heating--q02"
+    },
+    {
+      "question": "Which tray needs to be removed and installed during this procedure?",
+      "answer": "Remove and install tray 51 16 200.",
+      "question_type": "procedural",
+      "id": "64-123_heating--q03"
+    },
+    {
+      "question": "What component needs to be removed on the left side during heater core service?",
+      "answer": "Remove and install instrument panel trim on left side 51 45 180.",
+      "question_type": "procedural",
+      "id": "64-123_heating--q04"
+    },
+    {
+      "question": "What should you do with the coolant before removing the heater core?",
+      "answer": "Drain coolant.",
+      "question_type": "procedural",
+      "id": "64-123_heating--q05"
+    },
+    {
+      "question": "How many screws need to be loosened according to the drain coolant step?",
+      "answer": "Loosen screw (1).",
+      "question_type": "factual",
+      "id": "64-123_heating--q06"
+    },
+    {
+      "question": "What connector needs to be removed and where is it located?",
+      "answer": "Remove connector (1) on left side between heater (3) and rear area heater duct (2).",
+      "question_type": "procedural",
+      "id": "64-123_heating--q07"
+    },
+    {
+      "question": "What should you do with molded parts during disassembly?",
+      "answer": "Unscrew screws. Take off molded parts.",
+      "question_type": "procedural",
+      "id": "64-123_heating--q08"
+    },
+    {
+      "question": "What is the final step to remove the heater core from its housing?",
+      "answer": "Unscrew bolts. Pull heater core out of housing.",
+      "question_type": "procedural",
+      "id": "64-123_heating--q09"
+    },
+    {
+      "question": "What should be replaced during installation?",
+      "answer": "Installation: Replace seals.",
+      "question_type": "procedural",
+      "id": "64-123_heating--q10"
+    },
+    {
+      "question": "In the bottom left image, what do the numbered callouts 1, 2, and 3 indicate?",
+      "answer": "Callout 1 indicates the connector, callout 2 indicates the rear area heater duct, and callout 3 indicates the heater.",
+      "question_type": "visual",
+      "id": "64-123_heating--q11"
+    },
+    {
+      "question": "What action is required for the bolts when removing the heater core?",
+      "answer": "Unscrew bolts.",
+      "question_type": "procedural",
+      "id": "64-123_heating--q12"
+    }
+  ]
+}

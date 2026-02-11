@@ -1,0 +1,91 @@
+{
+  "page_id": "31-47_front-ax",
+  "image_path": "raw/31 - Front Axle/31-47.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:05:52.121538",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 793
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the part numbers for replacing the constant velocity joints?",
+      "answer": "Part number 31 60 020 for replacing one constant velocity joint (outer) and part number 31 60 021 for replacing one constant velocity joint (inner) of output shaft.",
+      "question_type": "factual",
+      "id": "31-47_front-ax-q01"
+    },
+    {
+      "question": "What should be removed first when servicing the constant velocity joints?",
+      "answer": "Remove front output shaft 31 60 000.",
+      "question_type": "procedural",
+      "id": "31-47_front-ax-q02"
+    },
+    {
+      "question": "What type of hammer should be used to drive the joint off the shaft?",
+      "answer": "Use a plastic hammer to drive the joint off the shaft.",
+      "question_type": "tool",
+      "id": "31-47_front-ax-q03"
+    },
+    {
+      "question": "How should the splines of the shaft and joint be prepared before reassembly?",
+      "answer": "Clean and remove grease on splines of shaft and joint, then coat splines of shaft completely with Loctite No. 270.",
+      "question_type": "procedural",
+      "id": "31-47_front-ax-q04"
+    },
+    {
+      "question": "What is the first step shown for removing the constant velocity joint?",
+      "answer": "Loosen both hose clamps and pull dust cover off of joint.",
+      "question_type": "procedural",
+      "id": "31-47_front-ax-q05"
+    },
+    {
+      "question": "How much grease should be added to the outer constant velocity joint?",
+      "answer": "Add about half of the grease in a 80 gr. tube for the outer constant velocity joint.",
+      "question_type": "factual",
+      "id": "31-47_front-ax-q06"
+    },
+    {
+      "question": "How much grease should be added to the inner constant velocity joint?",
+      "answer": "Add grease from a 80 gr. tube for the inner constant velocity joint.",
+      "question_type": "factual",
+      "id": "31-47_front-ax-q07"
+    },
+    {
+      "question": "What technique is used to remove the joint from the shaft after spreading the circlip?",
+      "answer": "Spread open circlip and drive joint off of the shaft with a plastic hammer.",
+      "question_type": "procedural",
+      "id": "31-47_front-ax-q08"
+    },
+    {
+      "question": "What amount of grease should be added to the inner joint during reassembly?",
+      "answer": "Add grease of 70 gr. tube in joint for the inner joint.",
+      "question_type": "factual",
+      "id": "31-47_front-ax-q09"
+    },
+    {
+      "question": "What should be done to the outer joint during reassembly regarding grease?",
+      "answer": "Add remaining amount of grease in joint for the outer joint.",
+      "question_type": "procedural",
+      "id": "31-47_front-ax-q10"
+    },
+    {
+      "question": "What diagram number shows the process of loosening hose clamps and removing the dust cover?",
+      "answer": "Diagram 30 31 595 shows loosening both hose clamps and pulling dust cover off of joint.",
+      "question_type": "visual",
+      "id": "31-47_front-ax-q11"
+    },
+    {
+      "question": "What diagram illustrates the circlip spreading technique?",
+      "answer": "Diagram 30 31 596 shows spreading open the circlip and driving the joint off the shaft with a plastic hammer.",
+      "question_type": "visual",
+      "id": "31-47_front-ax-q12"
+    }
+  ]
+}

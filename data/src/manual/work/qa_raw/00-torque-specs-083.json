@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-083",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/083.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:31:43.040551",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 659
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the fuel vapor venting tank to body connection on the E24?",
+      "answer": "3 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-083-q01"
+    },
+    {
+      "question": "What torque should be applied to the fuel vapor venting tank to body connection on the E30?",
+      "answer": "4.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-083-q02"
+    },
+    {
+      "question": "What is the specified torque for the fuel vapor venting tank to body connection on the E39?",
+      "answer": "4.0 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-083-q03"
+    },
+    {
+      "question": "Which BMW model requires the highest torque for the fuel vapor venting tank to body connection?",
+      "answer": "The E30 requires the highest torque at 4.5 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-083-q04"
+    },
+    {
+      "question": "Which BMW model has the lowest torque specification for the fuel vapor venting tank to body connection?",
+      "answer": "The E24 has the lowest torque specification at 3 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-083-q05"
+    },
+    {
+      "question": "What section and subsection does this fuel vapor venting specification fall under?",
+      "answer": "Section 16-3 Fuel tank and fuel lines, subsection 16 13 Fuel Vapor Venting",
+      "question_type": "navigation",
+      "id": "00-torque-specs-083-q06"
+    },
+    {
+      "question": "How much more torque is required for the E30 compared to the E24 fuel vapor venting connection?",
+      "answer": "1.5 Nm (ft. lbs.) more torque is required for the E30 compared to the E24",
+      "question_type": "factual",
+      "id": "00-torque-specs-083-q08"
+    },
+    {
+      "question": "What units are used for the torque specifications in this table?",
+      "answer": "Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-083-q09"
+    },
+    {
+      "question": "Are there any screw specifications listed for the fuel vapor venting connections?",
+      "answer": "No, the screw column is empty for all fuel vapor venting connections shown",
+      "question_type": "factual",
+      "id": "00-torque-specs-083-q10"
+    }
+  ]
+}

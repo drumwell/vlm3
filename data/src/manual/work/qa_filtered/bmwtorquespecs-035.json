@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-035",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/035.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:19:01.261277",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 756
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the banjo bolt to VANOS controller?",
+      "answer": "32 Nm with M14 x 1.5 screw specification.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-035-q01"
+    },
+    {
+      "question": "Which components require a 30 Nm torque setting on the VANOS system?",
+      "answer": "The 4/2 way directional valve/solenoid valve on VANOS housing (1AZ).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-035-q02"
+    },
+    {
+      "question": "What thread specification is used for the plug to hydraulic plunger?",
+      "answer": "M36x1 with a torque specification of 60 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-035-q03"
+    },
+    {
+      "question": "What is the torque value for the collar nut on toothed shaft that is secured with Loctite?",
+      "answer": "9 Nm with M6 screw specification on S50 engines.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-035-q04"
+    },
+    {
+      "question": "How much torque should be applied to the filter screw on VANOS adjusting unit?",
+      "answer": "12 Nm with M10x1 thread specification on S50 engines.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-035-q05"
+    },
+    {
+      "question": "What are the different torque specifications for the cover for solenoid valve on VANOS control unit?",
+      "answer": "6 Nm for S50 B 30 with M5 8.8 screws, and 8 Nm for S50 B 32 with M5 10.9 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-035-q06"
+    },
+    {
+      "question": "What is the thread specification for the plug to VANOS adjusting unit?",
+      "answer": "M22 x 1.5 with a torque specification of 50 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-035-q08"
+    },
+    {
+      "question": "What torque should be applied to the cover on VANOS control unit for hydraulic pistons on the exhaust side?",
+      "answer": "13 Nm with M6 10.9 screw specification on S50 B 32 engines.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-035-q09"
+    },
+    {
+      "question": "Which engine types are specified for the Variable Camshaft Control components in this table?",
+      "answer": "M52/S52/S50 US/M50 VANOS for most components, with specific S50 and S50 B 30/B 32 designations for certain items.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-035-q10"
+    }
+  ]
+}

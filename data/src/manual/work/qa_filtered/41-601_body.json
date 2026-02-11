@@ -1,0 +1,85 @@
+{
+  "page_id": "41-601_body",
+  "image_path": "raw/41 - Body/41-601.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:07:10.364678",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 754
+  },
+  "qa_pairs": [
+    {
+      "question": "How much deeper should the engine hood be adjusted compared to the side panels?",
+      "answer": "Adjust height of engine hood so that hood is approximately 1 mm (0.039\") deeper than the side panels.",
+      "question_type": "factual",
+      "id": "41-601_body-q02"
+    },
+    {
+      "question": "What parts are fitted and bolted in an unfinished body shell according to the note?",
+      "answer": "Engine hood, trunk lid and doors are fitted and bolted in an unfinished body shell.",
+      "question_type": "factual",
+      "id": "41-601_body-q03"
+    },
+    {
+      "question": "What must be done to surfaces that could be uncovered during subsequent adjustments?",
+      "answer": "These surfaces must be touched up with paint of same color.",
+      "question_type": "procedural",
+      "id": "41-601_body-q04"
+    },
+    {
+      "question": "What is the first step when adjusting the engine hood in the body opening?",
+      "answer": "Screw in left and right stop pads completely.",
+      "question_type": "procedural",
+      "id": "41-601_body-q05"
+    },
+    {
+      "question": "What should be done with the stop pads after finishing the hood adjustments?",
+      "answer": "Unscrew stop pads after finishing adjustments to have engine hood rest on them with slight tension and in same plane with side panels.",
+      "question_type": "procedural",
+      "id": "41-601_body-q06"
+    },
+    {
+      "question": "What is the procedure for adjusting the rear guide roller?",
+      "answer": "Loosen bolts.",
+      "question_type": "procedural",
+      "id": "41-601_body-q07"
+    },
+    {
+      "question": "How should the engine hood be aligned to the side panels?",
+      "answer": "Align engine hood to side panels at front and sides.",
+      "question_type": "procedural",
+      "id": "41-601_body-q08"
+    },
+    {
+      "question": "What should be checked when adjusting the holder laterally for the guide roller?",
+      "answer": "Check gap between side panel and engine hood on left and right sides.",
+      "question_type": "inspection",
+      "id": "41-601_body-q09"
+    },
+    {
+      "question": "What bolts need to be loosened for engine hood height adjustment at the front end?",
+      "answer": "Loosen bolts (1 and 2) on left and right sides.",
+      "question_type": "procedural",
+      "id": "41-601_body-q10"
+    },
+    {
+      "question": "How is the console adjusted for engine hood height at the front end?",
+      "answer": "Adjust console up or down with screw (2).",
+      "question_type": "procedural",
+      "id": "41-601_body-q11"
+    },
+    {
+      "question": "What is the procedure for adjusting engine hood height at the rear end?",
+      "answer": "Loosen bolts (1 and 2). Adjust catch with bolt (2) in such a manner that surface of closed engine hood is in same plane with side panels.",
+      "question_type": "procedural",
+      "id": "41-601_body-q12"
+    }
+  ]
+}

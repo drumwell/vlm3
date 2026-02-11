@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-24-02",
+  "image_path": "raw/00 - Torque Specs/24-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:59:57.389811",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 845
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the transmission extension on all vehicle types?",
+      "answer": "The transmission extension (1AZ) has a torque specification of 25 Nm using M8 screws for all vehicle types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-02-q01"
+    },
+    {
+      "question": "What screw size and torque is specified for the guard component?",
+      "answer": "The guard (2AZ) uses M6 screws with a torque specification of 9 Nm for all vehicle types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-02-q02"
+    },
+    {
+      "question": "What is the torque specification for the converter bell housing?",
+      "answer": "The converter bell housing (3AZ) requires 25 Nm of torque using M8 screws for all vehicle types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-02-q03"
+    },
+    {
+      "question": "What are the different torque specifications for the A4S 270R/A4S 310R transmission type?",
+      "answer": "For A4S 270R/A4S 310R transmissions, there are two specifications: 32 Nm with 5/16\" screws and 42 Nm with 1/2\" screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-02-q04"
+    },
+    {
+      "question": "What torque specification is used for the plug on transfer plate for all vehicle types?",
+      "answer": "The plug on transfer plate (4AZ) uses M10 screws with a torque specification of 16 Nm for all vehicle types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-02-q06"
+    },
+    {
+      "question": "How many different torque specifications are listed for the 4HP-22/4HP-24 transmission type?",
+      "answer": "There are three different torque specifications for the 4HP-22/4HP-24 transmission type: 46 Nm (M10), 40 Nm (M14), and 50 Nm (M20).",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-02-q07"
+    },
+    {
+      "question": "What is the difference in torque between M8 and M6 screws for the transmission case components?",
+      "answer": "M8 screws require 25 Nm of torque while M6 screws require 9 Nm, making a difference of 16 Nm between them.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-02-q08"
+    },
+    {
+      "question": "Which components use M8 screws according to this specification table?",
+      "answer": "The transmission extension (1AZ) and converter bell housing (3AZ) both use M8 screws, each requiring 25 Nm of torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-02-q09"
+    },
+    {
+      "question": "What section and subsection of the manual does this torque specification table belong to?",
+      "answer": "This table belongs to section 24-2 Automatic Transmission, specifically subsection 24 11 for Transmission Case, Oil Sump.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-24-02-q10"
+    }
+  ]
+}

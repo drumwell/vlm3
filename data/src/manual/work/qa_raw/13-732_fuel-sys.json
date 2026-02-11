@@ -1,0 +1,91 @@
+{
+  "page_id": "13-732_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-732.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:47:32.031227",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 1039
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the specification for adjusting the push rod for throttle valve neck of 3rd and 4th cylinders?",
+      "answer": "Adjust push rod for throttle valve neck of 3rd and 4th cylinders to 97.5 \u00b1 0.4 mm (3.838 \u00b1 0.016\").",
+      "question_type": "factual",
+      "id": "13-732_fuel-sys-q01"
+    },
+    {
+      "question": "What distance should the push rod for throttle valve neck of 1st and 2nd cylinders be adjusted to?",
+      "answer": "Adjust push rod for throttle valve neck of 1st and 2nd cylinders to approximately 100 mm (3.937\").",
+      "question_type": "factual",
+      "id": "13-732_fuel-sys-q02"
+    },
+    {
+      "question": "What is the target distance from throttle valve upper edge to throttle valve neck opening?",
+      "answer": "Adjust distance from throttle valve upper edge to throttle valve neck opening to 21.7 \u00b1 1 mm (0.854 \u00b1 0.039\") with the full load stop screw.",
+      "question_type": "factual",
+      "id": "13-732_fuel-sys-q03"
+    },
+    {
+      "question": "How should the full load stop screw be adjusted?",
+      "answer": "Open throttle valves until valves are parallel to direction of flow. Turn full load stop screw until it bears on the stop of the operating lever.",
+      "question_type": "procedural",
+      "id": "13-732_fuel-sys-q04"
+    },
+    {
+      "question": "What tool setup is required for the dial gauge measurement?",
+      "answer": "Mount dial gauge with holder. Have dial gauge bear with preload on operating lever for 3rd and 4th cylinders.",
+      "question_type": "tool",
+      "id": "13-732_fuel-sys-q05"
+    },
+    {
+      "question": "What is the procedure for shortening the push rod for 1st and 2nd cylinders?",
+      "answer": "Shorten the push rod for 1st and 2nd cylinders until the dial gauge needle begins to move. Both throttle levers must bear uniformly on the idle stop.",
+      "question_type": "procedural",
+      "id": "13-732_fuel-sys-q06"
+    },
+    {
+      "question": "What important warning is given about adjusting push rods?",
+      "answer": "Do not change the adjustment of push rods for this adjustment. Adjust stop screw in such a manner that any possible slight deviation is distributed uniformly to both sides.",
+      "question_type": "safety",
+      "id": "13-732_fuel-sys-q07"
+    },
+    {
+      "question": "What should be done if the 21.7 \u00b1 1 mm distance cannot be achieved by adjusting the full stop screw?",
+      "answer": "If distance 21.7 \u00b1 1 mm (0.854 \u00b1 0.039\") is not possible on all throttle valves by adjusting the full stop screw, replace pertinent components.",
+      "question_type": "troubleshooting",
+      "id": "13-732_fuel-sys-q08"
+    },
+    {
+      "question": "What component is being measured with calipers in diagram 13 54 057?",
+      "answer": "The diagram shows measurement of the throttle valve linkage adjustment with calipers measuring 97.5 \u00b1 0.4mm for the 3rd and 4th cylinder push rod adjustment.",
+      "question_type": "visual",
+      "id": "13-732_fuel-sys-q09"
+    },
+    {
+      "question": "What is shown in the cross-sectional view diagram 13 54 061?",
+      "answer": "The diagram shows a cross-sectional view of the throttle valve assembly with the measurement point for the 21.7mm distance from throttle valve upper edge to throttle valve neck opening.",
+      "question_type": "visual",
+      "id": "13-732_fuel-sys-q10"
+    },
+    {
+      "question": "What adjustment is being performed in the photographs labeled 13 54 064 and 13 54 069?",
+      "answer": "The photographs show the dial gauge setup and procedure for shortening the push rod for 1st and 2nd cylinders until the dial gauge needle begins to move.",
+      "question_type": "visual",
+      "id": "13-732_fuel-sys-q11"
+    },
+    {
+      "question": "What condition must be met for both throttle levers during the push rod adjustment?",
+      "answer": "Both throttle levers must bear uniformly on the idle stop during the push rod adjustment procedure.",
+      "question_type": "inspection",
+      "id": "13-732_fuel-sys-q12"
+    }
+  ]
+}

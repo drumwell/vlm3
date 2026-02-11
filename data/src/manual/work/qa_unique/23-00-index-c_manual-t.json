@@ -1,0 +1,37 @@
+{
+  "page_id": "23-00-index-c_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-00-index-c.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:21:52.237266",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1746,
+    "tokens_output": 328
+  },
+  "qa_pairs": [
+    {
+      "question": "On which page can I find the layout drawing for the transmission?",
+      "answer": "Page 23-165",
+      "question_type": "navigation",
+      "id": "23-00-index-c_manual-t-q02"
+    },
+    {
+      "question": "Where can I find information about replacing the radial oil seal for the output flange?",
+      "answer": "Section 23 12 053 on page 23-172",
+      "question_type": "navigation",
+      "id": "23-00-index-c_manual-t-q04"
+    },
+    {
+      "question": "On which page is the vibration damper remove and install/replace procedure located?",
+      "answer": "Page 23-173a",
+      "question_type": "navigation",
+      "id": "23-00-index-c_manual-t-q06"
+    }
+  ]
+}

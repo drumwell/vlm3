@@ -1,0 +1,91 @@
+{
+  "page_id": "33-04_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-04.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:08:15.099816",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 823
+  },
+  "qa_pairs": [
+    {
+      "question": "What section reference is given for removing the wheel when working on the output shaft?",
+      "answer": "Group 36 is referenced for wheel removal procedures.",
+      "question_type": "navigation",
+      "id": "33-04_rear-axl-q01"
+    },
+    {
+      "question": "What should be done to the bearing surface of the nut during installation?",
+      "answer": "The bearing surface of the nut should be lubricated with oil during installation.",
+      "question_type": "procedural",
+      "id": "33-04_rear-axl-q02"
+    },
+    {
+      "question": "What components are numbered 1 and 2 in the top left diagram?",
+      "answer": "Component 1 appears to be the lockplate and component 2 is the nut that needs to be unscrewed.",
+      "question_type": "visual",
+      "id": "33-04_rear-axl-q03"
+    },
+    {
+      "question": "What special tool is used to press off the output shaft?",
+      "answer": "Special Tool 33 2 110 is used to press off the output shaft.",
+      "question_type": "tool",
+      "id": "33-04_rear-axl-q04"
+    },
+    {
+      "question": "Which special tools have been replaced and what are their current replacements?",
+      "answer": "Spindle 33 2 111 and bridge 33 2 112 are replaced by 33 2 116, and Special Tool 33 2 113 is replaced by 33 2 117 and wheel bolts are used.",
+      "question_type": "tool",
+      "id": "33-04_rear-axl-q05"
+    },
+    {
+      "question": "What is the first step in removing the output shaft according to this procedure?",
+      "answer": "Remove the wheel (see Group 36) and lift out the lockplate.",
+      "question_type": "procedural",
+      "id": "33-04_rear-axl-q06"
+    },
+    {
+      "question": "What should be done with the lockplate during installation?",
+      "answer": "The lockplate should be replaced during installation.",
+      "question_type": "procedural",
+      "id": "33-04_rear-axl-q07"
+    },
+    {
+      "question": "What special tool number is shown in the bottom image for pulling the output shaft?",
+      "answer": "Special Tool 33 2 110 is shown in the bottom image for pulling the output shaft.",
+      "question_type": "visual",
+      "id": "33-04_rear-axl-q08"
+    },
+    {
+      "question": "What additional components are needed when using Special Tool 33 2 110 to pull the output shaft?",
+      "answer": "Bridge 33 2 116 and nut 33 2 115 are needed when using Special Tool 33 2 110.",
+      "question_type": "tool",
+      "id": "33-04_rear-axl-q09"
+    },
+    {
+      "question": "What is the tightening specification requirement mentioned for both installation procedures?",
+      "answer": "Both procedures specify 'Tightening torque*' with a reference to see specifications for the actual values.",
+      "question_type": "factual",
+      "id": "33-04_rear-axl-q10"
+    },
+    {
+      "question": "How should the spindle 33 2 114 be positioned when pulling the output shaft?",
+      "answer": "The spindle 33 2 114 should be screwed in completely when pulling the output shaft.",
+      "question_type": "procedural",
+      "id": "33-04_rear-axl-q11"
+    },
+    {
+      "question": "What drive-in method is referenced for the lockplate installation?",
+      "answer": "Drive in lockplate with Special Tools 33 4 050 and 00 5 000 is referenced for installation.",
+      "question_type": "tool",
+      "id": "33-04_rear-axl-q12"
+    }
+  ]
+}

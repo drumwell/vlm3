@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-11-25",
+  "image_path": "raw/00 - Torque Specs/11-25.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:41:32.508246",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 697
+  },
+  "qa_pairs": [
+    {
+      "question": "What thread size and torque value is specified for the banjo bolt to VANOS controller?",
+      "answer": "M14 x 1.5 thread with 32 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-25-q02"
+    },
+    {
+      "question": "What is the torque specification for the plug to VANOS adjusting unit?",
+      "answer": "50 Nm with M22 x 1.5 thread",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-25-q03"
+    },
+    {
+      "question": "What is the lowest torque value specified in this VANOS variable camshaft control table?",
+      "answer": "5 Nm for the cover on VANOS control unit (hydraulic pistons, intake side)",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-25-q07"
+    },
+    {
+      "question": "What are the two different torque specifications for the cover for solenoid valve on VANOS control unit?",
+      "answer": "6 Nm for S50 B 30 engines with M5 8.8 screws, and 8 Nm for S50 B 32 engines with M5 10.9 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-25-q08"
+    },
+    {
+      "question": "Which component has the highest torque specification in this VANOS table?",
+      "answer": "The plug to hydraulic plunger with 60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-25-q09"
+    }
+  ]
+}

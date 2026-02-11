@@ -1,0 +1,67 @@
+{
+  "page_id": "-004",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/004.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:03:27.320792",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1884,
+    "tokens_output": 619
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the recommended practice before removing seals during transmission work?",
+      "answer": "The trick is to photograph everything and measure where the seals sit before they are removed, especially the input shaft seal.",
+      "question_type": "procedural",
+      "id": "-004-q01"
+    },
+    {
+      "question": "What measurement is shown on the digital calipers in the image?",
+      "answer": "The digital calipers display 1.74 mm.",
+      "question_type": "factual",
+      "id": "-004-q02"
+    },
+    {
+      "question": "What type of measurement tool is being used to measure the transmission component?",
+      "answer": "Digital calipers are being used to measure the transmission component.",
+      "question_type": "tool",
+      "id": "-004-q05"
+    },
+    {
+      "question": "Why is it important to photograph everything before seal removal?",
+      "answer": "Photographing everything helps document the original position and measurements of seals before they are removed for proper reassembly.",
+      "question_type": "procedural",
+      "id": "-004-q06"
+    },
+    {
+      "question": "What is visible in the transmission housing that the calipers are measuring?",
+      "answer": "The calipers are measuring what appears to be a seal bore or housing diameter in the transmission case.",
+      "question_type": "visual",
+      "id": "-004-q07"
+    },
+    {
+      "question": "What precision do the digital calipers provide for measurements?",
+      "answer": "The digital calipers provide measurements to 0.01 mm precision based on the display showing 1.74 mm.",
+      "question_type": "tool",
+      "id": "-004-q08"
+    },
+    {
+      "question": "What color appears to be on the transmission component being measured?",
+      "answer": "The transmission component appears to have a yellowish or gold color coating or finish.",
+      "question_type": "visual",
+      "id": "-004-q09"
+    },
+    {
+      "question": "What documentation practice is recommended when working on transmission seals?",
+      "answer": "It is recommended to photograph everything and measure where the seals sit before removal to ensure proper installation during reassembly.",
+      "question_type": "procedural",
+      "id": "-004-q10"
+    }
+  ]
+}

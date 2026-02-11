@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-020",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/020.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:19:41.378831",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 618
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the difference in torque between M7 and M8 screws for the cylinder head cover?",
+      "answer": "M7 screws require 15 Nm while M8 screws require 15 Nm, so there is no difference.",
+      "question_type": "factual",
+      "id": "00-torque-specs-020-q03"
+    },
+    {
+      "question": "What torque specification applies to the oil trap to cylinder head cover connection on M21 engines?",
+      "answer": "17 Nm for M8 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-020-q04"
+    },
+    {
+      "question": "Which engine types use the 17 Nm torque specification for M8 screws?",
+      "answer": "M21 engines for the oil trap to cylinder head cover connection",
+      "question_type": "factual",
+      "id": "00-torque-specs-020-q05"
+    },
+    {
+      "question": "Which component connection requires 20 Nm torque?",
+      "answer": "Timing case to cylinder head with M8 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-020-q08"
+    },
+    {
+      "question": "How many different torque specifications are listed for the timing case to cylinder head connection?",
+      "answer": "Two specifications: 15 Nm for M7 screws and 20 Nm for M8 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-020-q10"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "page_id": "00-torque-specs-050",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/050.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:25:38.881719",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 635
+  },
+  "qa_pairs": [
+    {
+      "question": "How many different mounting points are covered in the Engine Suspension section 11 81?",
+      "answer": "Three mounting points: rubber mount to front axle carrier (1AZ), rubber mount to engine console (2AZ), and engine console to engine (3AZ)",
+      "question_type": "factual",
+      "id": "00-torque-specs-050-q05"
+    },
+    {
+      "question": "What is the highest torque specification shown for engine suspension mountings?",
+      "answer": "47 Nm for M10 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-050-q08"
+    },
+    {
+      "question": "Which mounting point uses both M8 and M10 screws?",
+      "answer": "All three mounting points (1AZ, 2AZ, and 3AZ) use both M8 and M10 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-050-q09"
+    },
+    {
+      "question": "What section and subsection covers these engine suspension torque specifications?",
+      "answer": "Section 11-40 Engine, subsection 11 81 Engine Suspension",
+      "question_type": "navigation",
+      "id": "00-torque-specs-050-q10"
+    }
+  ]
+}

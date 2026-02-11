@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-11-18",
+  "image_path": "raw/00 - Torque Specs/11-18.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:40:12.530105",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 572
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for M10/M30 connecting rod bolts?",
+      "answer": "55 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-18-q01"
+    },
+    {
+      "question": "What should be done with connecting rod bolts during replacement?",
+      "answer": "Replace, wash and oil conrod bolts",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-18-q02"
+    },
+    {
+      "question": "What is the main torque value after the application torque for connecting rods?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-18-q04"
+    },
+    {
+      "question": "Which screw types are covered in the second torque specification group?",
+      "answer": "M60/1/M60/2/M62",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-18-q06"
+    },
+    {
+      "question": "How does the torque angle differ between the two connecting rod bolt groups?",
+      "answer": "The first group uses 70\u00b0 while the M60/1/M60/2/M62 group uses 80\u00b0",
+      "question_type": "comparison",
+      "id": "00-torque-specs-11-18-q08",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What section number covers Connecting Rods and Bearings?",
+      "answer": "11 24",
+      "question_type": "navigation",
+      "id": "00-torque-specs-11-18-q09"
+    },
+    {
+      "question": "Are the application torque and main torque values the same for both connecting rod bolt groups?",
+      "answer": "Yes, both groups use 5 Nm for application torque and 20 Nm for the main torque",
+      "question_type": "comparison",
+      "id": "00-torque-specs-11-18-q10",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    }
+  ]
+}

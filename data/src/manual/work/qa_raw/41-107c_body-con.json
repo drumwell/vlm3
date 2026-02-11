@@ -1,0 +1,91 @@
+{
+  "page_id": "41-107c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-107c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:41:23.103833",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 793
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the BMW part number for replacing the trunk floor plate on a convertible?",
+      "answer": "The part number is 41 12 570 for replacing the trunk floor plate (partial replacement in front of cross member) with tail panel removed on convertible models.",
+      "question_type": "factual",
+      "id": "41-107c_body-con-q01"
+    },
+    {
+      "question": "What page should you refer to for additional information before starting this trunk floor plate repair?",
+      "answer": "You should refer to information on page 41-001 before beginning the repair work.",
+      "question_type": "navigation",
+      "id": "41-107c_body-con-q02"
+    },
+    {
+      "question": "What precaution must be taken regarding car parts in the repair area?",
+      "answer": "You must remove or cover up all car parts which are located in the repair area or subjected to heat, sparks and dust.",
+      "question_type": "safety",
+      "id": "41-107c_body-con-q03"
+    },
+    {
+      "question": "Where should the trunk floor plate be cut off from the wheel house?",
+      "answer": "Cut off the trunk floor plate from the wheel house on both the left and right sides.",
+      "question_type": "procedural",
+      "id": "41-107c_body-con-q04"
+    },
+    {
+      "question": "What needs to be made accessible before marking cutting lines?",
+      "answer": "Make left and right connections accessible before proceeding with the cutting line marking process.",
+      "question_type": "procedural",
+      "id": "41-107c_body-con-q05"
+    },
+    {
+      "question": "Where should the cutting lines be marked for the transition area?",
+      "answer": "Mark cutting lines at height of transition on left and right sides.",
+      "question_type": "procedural",
+      "id": "41-107c_body-con-q06"
+    },
+    {
+      "question": "What should be done to the spot welds on the left and right sides?",
+      "answer": "Drill out spot welds on left and right sides to remove the connections.",
+      "question_type": "procedural",
+      "id": "41-107c_body-con-q07"
+    },
+    {
+      "question": "How far toward the rear should spot welds be drilled out on the side members?",
+      "answer": "Drill out spot welds on side members forward up to cutting line and approx. 80 mm (3.150\") toward rear.",
+      "question_type": "procedural",
+      "id": "41-107c_body-con-q08"
+    },
+    {
+      "question": "What must be done to make spot welding accessible during reassembly?",
+      "answer": "Make left and right spot welding accessible and drill out spot welds to prepare for new welding connections.",
+      "question_type": "procedural",
+      "id": "41-107c_body-con-q09"
+    },
+    {
+      "question": "What should be done to prepare connections for welding?",
+      "answer": "Make connections accessible and drill out spot welds to prepare the surfaces for new welding.",
+      "question_type": "procedural",
+      "id": "41-107c_body-con-q10"
+    },
+    {
+      "question": "What image reference number shows the cutting line marking procedure?",
+      "answer": "Image reference number 30 41 607 shows the procedure for marking cutting lines at the height of transition.",
+      "question_type": "visual",
+      "id": "41-107c_body-con-q11"
+    },
+    {
+      "question": "What does image reference 30 41 258 demonstrate?",
+      "answer": "Image reference 30 41 258 shows making left and right spot welding accessible and drilling out spot welds.",
+      "question_type": "visual",
+      "id": "41-107c_body-con-q12"
+    }
+  ]
+}

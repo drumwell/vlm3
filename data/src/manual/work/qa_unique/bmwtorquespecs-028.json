@@ -1,0 +1,31 @@
+{
+  "page_id": "bmwtorquespecs-028",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/028.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:17:43.512787",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 664
+  },
+  "qa_pairs": [
+    {
+      "question": "What engines does the M20/M21/M40/M41/M42/M43/M44/M50/M51/M52/S52/S50 US/M70/S70/M73 specification apply to?",
+      "answer": "M20, M21, M40, M41, M42, M43, M44, M50, M51, M52, S52, S50 US, M70, S70, and M73 engines",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-028-q02"
+    },
+    {
+      "question": "What engines does the M60/1/M60/2/M62 specification apply to?",
+      "answer": "M60/1, M60/2, and M62 engines",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-028-q06"
+    }
+  ]
+}

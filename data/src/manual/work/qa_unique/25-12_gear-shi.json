@@ -1,0 +1,85 @@
+{
+  "page_id": "25-12_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-12.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:50:36.351075",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 705
+  },
+  "qa_pairs": [
+    {
+      "question": "What part number is associated with the shift lever console?",
+      "answer": "The shift lever console is part number 25 11 211.",
+      "question_type": "factual",
+      "id": "25-12_gear-shi-q01"
+    },
+    {
+      "question": "What components need to be removed before removing the shift lever?",
+      "answer": "Remove exhaust assembly 18 00 020, remove heat shield and reinforcement carrier, then remove shift lever 25 11 000.",
+      "question_type": "procedural",
+      "id": "25-12_gear-shi-q02"
+    },
+    {
+      "question": "What should be checked during console installation?",
+      "answer": "Check rubber mounts, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "25-12_gear-shi-q03"
+    },
+    {
+      "question": "What is the first step shown in disconnecting the shift lever console?",
+      "answer": "Disconnect plug.",
+      "question_type": "procedural",
+      "id": "25-12_gear-shi-q04"
+    },
+    {
+      "question": "What wires need to be pulled off during console removal?",
+      "answer": "Pull off wires for backup lights.",
+      "question_type": "procedural",
+      "id": "25-12_gear-shi-q05"
+    },
+    {
+      "question": "What type of screws are used for console mounting and what is important about them?",
+      "answer": "Self-locking screws are used, and they will be difficult to unscrew.",
+      "question_type": "factual",
+      "id": "25-12_gear-shi-q06"
+    },
+    {
+      "question": "What should be applied to new screws during installation?",
+      "answer": "Use new screws coated with micro-encapsulating adhesive.",
+      "question_type": "tool",
+      "id": "25-12_gear-shi-q07"
+    },
+    {
+      "question": "What is specified for the tightening torque of the console mounting screws?",
+      "answer": "Tightening torque* (with asterisk indicating to see Specifications).",
+      "question_type": "factual",
+      "id": "25-12_gear-shi-q08"
+    },
+    {
+      "question": "What component needs to be unscrewed in the final step?",
+      "answer": "Unscrew mounting bracket.",
+      "question_type": "procedural",
+      "id": "25-12_gear-shi-q09"
+    },
+    {
+      "question": "What installation tip is provided for the shift lever?",
+      "answer": "Install the shift lever first to make installation of the rubber cover easier.",
+      "question_type": "procedural",
+      "id": "25-12_gear-shi-q10"
+    },
+    {
+      "question": "What reference numbers are shown in the diagrams for this procedure?",
+      "answer": "The diagrams show reference numbers 20 25 001, 20 25 014, 20 25 011, and 20 25 012.",
+      "question_type": "visual",
+      "id": "25-12_gear-shi-q11"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "23-174_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-174.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:35:40.089906",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 817
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to hold the output flange with vibration damper?",
+      "answer": "Special Tool 23 0 020 is needed to hold the output flange with vibration damper.",
+      "question_type": "tool",
+      "id": "23-174_manual-t-q01"
+    },
+    {
+      "question": "Which special tool is used to unscrew the collar nut?",
+      "answer": "Special Tool 23 1 210 is used to unscrew the collar nut.",
+      "question_type": "tool",
+      "id": "23-174_manual-t-q02"
+    },
+    {
+      "question": "What must be removed before removing and installing the input and output shaft assembly?",
+      "answer": "The transmission case front section 23 11 013 must be removed, and the lockplate must be removed.",
+      "question_type": "procedural",
+      "id": "23-174_manual-t-q03"
+    },
+    {
+      "question": "What important precaution is given when driving in pin (7)?",
+      "answer": "Only drive in pin (7) far enough that the selector shaft can be pulled back and out. The gear must be engaged (4th gear) while counterholding during this operation.",
+      "question_type": "safety",
+      "id": "23-174_manual-t-q04"
+    },
+    {
+      "question": "What happens to the radial oil seal during the removal process?",
+      "answer": "The radial oil seal (8) will also be pulled out and must be replaced during installation.",
+      "question_type": "inspection",
+      "id": "23-174_manual-t-q05"
+    },
+    {
+      "question": "What are the three bolts that need to be unscrewed in the lower diagram sequence?",
+      "answer": "Unscrew bolt (1), remove holder (2), and unscrew bolt (3).",
+      "question_type": "procedural",
+      "id": "23-174_manual-t-q06"
+    },
+    {
+      "question": "What special tool is used to pull out the output flange?",
+      "answer": "Special Tool 33 1 150 is used to pull out the output flange.",
+      "question_type": "tool",
+      "id": "23-174_manual-t-q07"
+    },
+    {
+      "question": "What must be done with the operating lever during installation?",
+      "answer": "Install the operating lever so that the notch faces up and in the direction of the selector rail.",
+      "question_type": "procedural",
+      "id": "23-174_manual-t-q08"
+    },
+    {
+      "question": "What type of sealant should be used when installing the end plate?",
+      "answer": "Loctite No. 573 should be used when installing the end plate. The sealing surface must be thoroughly cleaned and dried of oil.",
+      "question_type": "tool",
+      "id": "23-174_manual-t-q09"
+    },
+    {
+      "question": "What components are removed in the sequence showing pin (4), selector rail (6), and operating lever (5)?",
+      "answer": "Pull out pin (4) for operating lever (5), pull out selector rail (6), and remove operating lever (5).",
+      "question_type": "visual",
+      "id": "23-174_manual-t-q10"
+    },
+    {
+      "question": "What gear should be engaged when driving in pin (7)?",
+      "answer": "4th gear should be engaged when driving in pin (7).",
+      "question_type": "procedural",
+      "id": "23-174_manual-t-q11"
+    },
+    {
+      "question": "What needs to be replaced during installation after removing the selector arm?",
+      "answer": "The radial oil seal needs to be replaced, and plug (9) should be replaced during installation.",
+      "question_type": "factual",
+      "id": "23-174_manual-t-q12"
+    }
+  ]
+}

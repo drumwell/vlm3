@@ -1,0 +1,85 @@
+{
+  "page_id": "00-torque-specs-26-01",
+  "image_path": "raw/00 - Torque Specs/26-01.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:03:42.031886",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 673
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the universal joint to propeller shaft and transmission connection using M10 8.8 screws?",
+      "answer": "48 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-01-q01"
+    },
+    {
+      "question": "What torque should be applied to M14 screws on E31/E38/E39 propeller shaft applications?",
+      "answer": "140 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-01-q02"
+    },
+    {
+      "question": "What is the difference in torque specification between M12 8.8 and M12 10.9 screws for E32/E34/E36/E38/E39 applications?",
+      "answer": "M12 8.8 screws require 81 Nm while M12 10.9 screws require 100 Nm",
+      "question_type": "comparison",
+      "id": "00-torque-specs-26-01-q03",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What torque specification applies to the aluminum propeller shaft flexible disk on propeller shaft for E39 models?",
+      "answer": "100 Nm using M12 10.9 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-01-q04"
+    },
+    {
+      "question": "How much torque is required for the aluminum propeller shaft flexible disk on transmission for E39?",
+      "answer": "90 Nm using M12 10.9 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-01-q05"
+    },
+    {
+      "question": "What is the torque specification for coupling propeller shaft to transmission on all vehicle types using M10 screws?",
+      "answer": "60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-01-q06"
+    },
+    {
+      "question": "What torque should be applied to M12 screws when coupling propeller shaft to transmission on E32/E31 models?",
+      "answer": "95 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-01-q07"
+    },
+    {
+      "question": "What is the torque specification for the clamping ring for slide after installation in car on all vehicle types?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-01-q08"
+    },
+    {
+      "question": "How much torque is required for the clamping ring installation on E30 Four Wheel Drive models?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-26-01-q09"
+    },
+    {
+      "question": "What is the highest torque specification shown on this propeller shaft page?",
+      "answer": "140 Nm for M14 screws on E31/E38/E39 applications",
+      "question_type": "comparison",
+      "id": "00-torque-specs-26-01-q10",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    }
+  ]
+}

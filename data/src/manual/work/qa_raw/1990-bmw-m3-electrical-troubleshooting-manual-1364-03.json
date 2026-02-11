@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/1364-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:26:37.758609",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 550
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the page number and section title shown at the top of this wiring diagram?",
+      "answer": "The page is numbered 1364-3 and the section is titled 'S14 ENGINE INJECTION ELECTRONICS'.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-03-q01"
+    },
+    {
+      "question": "What wire gauge is used for the connection from the ignition switch to the power distribution?",
+      "answer": "A 2.5 GN wire is used for the connection from the ignition switch to the power distribution.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-03-q02"
+    },
+    {
+      "question": "Which fuse rating is specified for fuse 21 in the power distribution box?",
+      "answer": "Fuse 21 is rated at 25 AMP according to the diagram.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-03-q03"
+    },
+    {
+      "question": "What page reference is given for continuation to C101?",
+      "answer": "The diagram shows 'TO C101 PAGE 1364-4' for the continuation reference.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-03-q04"
+    },
+    {
+      "question": "What type of sensor is shown in the diagnostic connector section?",
+      "answer": "A TDC SENSOR is shown in the diagnostic connector section at the bottom right of the diagram.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-03-q05"
+    },
+    {
+      "question": "What wire color and gauge connects from the chime module to connector C1?",
+      "answer": "A .5 RD/WT wire connects from the chime module to connector C1.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-03-q06"
+    },
+    {
+      "question": "Which components are marked as 'NOT USED' in this diagram?",
+      "answer": "Pin 10 in the instrument cluster and connector C2 in the on-board computer relay box are marked as 'NOT USED'.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-03-q07"
+    },
+    {
+      "question": "What voltage levels are indicated in the diagnostic connector pinout?",
+      "answer": "The diagnostic connector shows 5 VL (5 volts) connections and ground connections in the pinout diagram.",
+      "question_type": "parameter",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-1364-03-q08"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "41-331_body",
+  "image_path": "raw/41 - Body/41-331.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:03:46.858417",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 712
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for replacing the right rear side panel?",
+      "answer": "41 35 338",
+      "question_type": "factual",
+      "id": "41-331_body-q01"
+    },
+    {
+      "question": "What page should you refer to for additional information when replacing the right rear side panel?",
+      "answer": "Page 41-001",
+      "question_type": "navigation",
+      "id": "41-331_body-q02"
+    },
+    {
+      "question": "What components need to be removed before replacing the right rear side panel?",
+      "answer": "Remove bumper assembly, tail lights, trunk mat, rear trim panel, right wheel house trim panel, tail panel trim panel, tail panel plate, trunk lid seal, fuel tank assembly, right wheel house cover, fuel filler neck and right expansion tank.",
+      "question_type": "procedural",
+      "id": "41-331_body-q03"
+    },
+    {
+      "question": "What type of replacement is being performed for the right rear side panel?",
+      "answer": "Partial replacement up to wheel house",
+      "question_type": "factual",
+      "id": "41-331_body-q04"
+    },
+    {
+      "question": "What is the first step shown in the visual sequence for cutting the side panel?",
+      "answer": "Draw cutting line for partial replacement",
+      "question_type": "procedural",
+      "id": "41-331_body-q05"
+    },
+    {
+      "question": "What should you do around the wheel opening when cutting the side panel?",
+      "answer": "Cut off side panel around the wheel opening",
+      "question_type": "procedural",
+      "id": "41-331_body-q06"
+    },
+    {
+      "question": "Which areas of the side panel need to be cut according to the procedure?",
+      "answer": "Cut off side panel along the line, cut off side panel on the tail panel, and cut off side panel on tail panel and trunk side section",
+      "question_type": "procedural",
+      "id": "41-331_body-q07"
+    },
+    {
+      "question": "What should be done with the side panel section after cutting?",
+      "answer": "Take off side panel section",
+      "question_type": "procedural",
+      "id": "41-331_body-q08"
+    },
+    {
+      "question": "What is the final step shown in the removal process?",
+      "answer": "Remove scrap metal",
+      "question_type": "procedural",
+      "id": "41-331_body-q09"
+    },
+    {
+      "question": "How many numbered images are shown in the step-by-step procedure?",
+      "answer": "Seven numbered images (30 41 065 through 30 41 071)",
+      "question_type": "visual",
+      "id": "41-331_body-q10"
+    },
+    {
+      "question": "What cutting technique is demonstrated in the visual instructions?",
+      "answer": "The procedure shows drawing cutting lines and then cutting along those lines to remove the damaged panel section by section",
+      "question_type": "procedural",
+      "id": "41-331_body-q11"
+    },
+    {
+      "question": "What areas are specifically mentioned for cutting in the tail section?",
+      "answer": "The tail panel and trunk side section both require cutting to remove the damaged side panel",
+      "question_type": "procedural",
+      "id": "41-331_body-q12"
+    }
+  ]
+}

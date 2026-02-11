@@ -1,0 +1,61 @@
+{
+  "page_id": "bmwtorquespecs-012",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/012.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:14:42.085665",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 649
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for main bearing screws on M10/M20/M30 engines?",
+      "answer": "60 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-012-q01"
+    },
+    {
+      "question": "What is the initial torque value for main bearing screws on M70/S70/M73/M52 engines with cast aluminum engine block?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-012-q03"
+    },
+    {
+      "question": "What is the torque specification for M21 main bearing screws?",
+      "answer": "65 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-012-q05"
+    },
+    {
+      "question": "Which engine types use M10 screws with a 70\u00b0 torque angle?",
+      "answer": "M60/1/M60/2/M62 engines with M10 main bearing screws",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-012-q06"
+    },
+    {
+      "question": "What is the initial torque for main bearing screws on S52/M52 engines with cast iron engine block?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-012-q07"
+    },
+    {
+      "question": "What important instruction is given regarding main bearing screws for 2AZ engines?",
+      "answer": "Do not wash off coating on main bearing screw",
+      "question_type": "safety",
+      "id": "bmwtorquespecs-012-q08"
+    },
+    {
+      "question": "Which BMW engine types are listed for the S38/S14/M40/M42/M43/M44/M50/M41/M51/S50/S50 US main bearing screws?",
+      "answer": "S38/S14/M40/M42/M43/M44/M50/M41/M51/S50/S50 US engines using M10 screws",
+      "question_type": "component",
+      "id": "bmwtorquespecs-012-q10"
+    }
+  ]
+}

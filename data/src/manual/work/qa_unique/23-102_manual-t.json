@@ -1,0 +1,61 @@
+{
+  "page_id": "23-102_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-102.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:25:23.627963",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 503
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of transmission is shown in this assembly drawing?",
+      "answer": "This is an assembly drawing of shift parts for the ZF S5-16 five speed overdrive manual transmission.",
+      "question_type": "factual",
+      "id": "23-102_manual-t-q01"
+    },
+    {
+      "question": "Which selector fork is used for 1st and 2nd gear operation?",
+      "answer": "Item 2, the selector fork for 1st/2nd gear, is used for 1st and 2nd gear operation.",
+      "question_type": "component",
+      "id": "23-102_manual-t-q03"
+    },
+    {
+      "question": "What is the function of component number 3 in the shift mechanism?",
+      "answer": "Component number 3 is the leaf spring.",
+      "question_type": "component",
+      "id": "23-102_manual-t-q04"
+    },
+    {
+      "question": "What component connects to the gear shift lever externally?",
+      "answer": "Component number 4, the selector shaft, connects to the gear shift lever externally.",
+      "question_type": "component",
+      "id": "23-102_manual-t-q05"
+    },
+    {
+      "question": "Which component is responsible for reverse and 5th gear selection?",
+      "answer": "Item 6, the selector fork for reverse/5th gear, is responsible for reverse and 5th gear selection.",
+      "question_type": "component",
+      "id": "23-102_manual-t-q06"
+    },
+    {
+      "question": "What is the operating lever identified as in this transmission diagram?",
+      "answer": "The operating lever is identified as item 7 in this transmission diagram.",
+      "question_type": "component",
+      "id": "23-102_manual-t-q07"
+    },
+    {
+      "question": "Where is the selector arm positioned in relation to the other shift components?",
+      "answer": "The selector arm, labeled as item 8, is positioned at the bottom of the shift mechanism assembly.",
+      "question_type": "visual",
+      "id": "23-102_manual-t-q08"
+    }
+  ]
+}

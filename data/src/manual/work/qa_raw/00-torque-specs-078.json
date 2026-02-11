@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-078",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/078.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:30:48.359577",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 548
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the air intake line on the low-pressure unit?",
+      "answer": "22 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-078-q01"
+    },
+    {
+      "question": "What component type is specified for item 1AZ in the fuel system section?",
+      "answer": "Air intake line on low-pressure unit",
+      "question_type": "component",
+      "id": "00-torque-specs-078-q02"
+    },
+    {
+      "question": "What is the screw type specified for the air intake line on the low-pressure unit?",
+      "answer": "316g/518g",
+      "question_type": "factual",
+      "id": "00-torque-specs-078-q03"
+    },
+    {
+      "question": "Which section of the service manual does this torque specification page belong to?",
+      "answer": "13 - 11 Fuel System",
+      "question_type": "navigation",
+      "id": "00-torque-specs-078-q04"
+    },
+    {
+      "question": "What is the item number for air intake valves, low-pressure and vacuum hoses?",
+      "answer": "13 81",
+      "question_type": "factual",
+      "id": "00-torque-specs-078-q05"
+    },
+    {
+      "question": "What unit of measurement is used for the torque specification on this page?",
+      "answer": "Nm (Newton-meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-078-q06",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What document number and date is shown at the top of this page?",
+      "answer": "AZD13-11.frb dated 20/10/97",
+      "question_type": "factual",
+      "id": "00-torque-specs-078-q08"
+    },
+    {
+      "question": "What type of hoses are included under item 13 81?",
+      "answer": "Low-pressure and vacuum hoses",
+      "question_type": "component",
+      "id": "00-torque-specs-078-q09"
+    },
+    {
+      "question": "How many torque specifications are listed on this page?",
+      "answer": "One torque specification is listed (22 Nm for the air intake line)",
+      "question_type": "factual",
+      "id": "00-torque-specs-078-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-01",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6216-01.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:04:09.801037",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 510
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the page number and system being covered in this diagram?",
+      "answer": "This is page 6216-1 covering the Active Check Control system.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-01-q01"
+    },
+    {
+      "question": "What component is labeled as 'SRS INDICATOR' in the diagram?",
+      "answer": "The SRS INDICATOR is shown as a solid state component connected to the SRS DIAGNOSTIC MODULE.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-01-q04"
+    },
+    {
+      "question": "What condition is described for the brake switch?",
+      "answer": "The brake switch is shown as 'CLOSED WITH BRAKE PEDAL DEPRESSED'.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-01-q05"
+    },
+    {
+      "question": "What type of fault indicator is shown in the Active Check Control Unit?",
+      "answer": "A 'BRAKE LIGHTS' FAULT INDICATOR is shown in the Active Check Control Unit.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-01-q06"
+    },
+    {
+      "question": "What wire color coding is used for the connection to the stop lights?",
+      "answer": "The stop lights connection uses 1 GN/RD (Green/Red) wire coding.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-01-q07"
+    },
+    {
+      "question": "What component is identified as C1 in the lower portion of the diagram?",
+      "answer": "C1 is identified as the REAR LIGHTS CHECK RELAY in the lower portion of the diagram.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6216-01-q08"
+    }
+  ]
+}

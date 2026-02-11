@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-61-02",
+  "image_path": "raw/00 - Torque Specs/61-02.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:04:38.379951",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 618
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the 91\u00b0C temperature switch?",
+      "answer": "14 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-02-q01"
+    },
+    {
+      "question": "What torque should be applied to the 99\u00b0C temperature switch?",
+      "answer": "14 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-02-q02"
+    },
+    {
+      "question": "What is the torque specification for oil pressure switches on M10/M40/M42/M21/M51/M20/M30/M50/M60/1/M60/2/M70/S70 engines?",
+      "answer": "40 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-02-q03"
+    },
+    {
+      "question": "What torque should be used for oil pressure switches on S14/S50/S38/M43 engines?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-02-q04"
+    },
+    {
+      "question": "How much torque is specified for the reversing light switch?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-02-q05"
+    },
+    {
+      "question": "What torque should be applied to the transmission switch on shift block?",
+      "answer": "4.5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-02-q07"
+    },
+    {
+      "question": "Do the 91\u00b0C and 99\u00b0C temperature switches have the same torque specification?",
+      "answer": "Yes, both the 91\u00b0C and 99\u00b0C temperature switches have the same torque specification of 14 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-02-q08"
+    },
+    {
+      "question": "Which switch has the lowest torque specification in this table?",
+      "answer": "The light switch on instrument panel for E36/E38 models has the lowest torque specification at 2 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-61-02-q09"
+    },
+    {
+      "question": "What special note is mentioned for the oil pressure switch installation?",
+      "answer": "The note states 'oil and screw in' for the oil pressure switch installation.",
+      "question_type": "procedural",
+      "id": "00-torque-specs-61-02-q10"
+    }
+  ]
+}

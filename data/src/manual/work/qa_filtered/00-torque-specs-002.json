@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-002",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/002.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:16:13.291820",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 613
+  },
+  "qa_pairs": [
+    {
+      "question": "What BMW standard is referenced for the maximum tightening torques?",
+      "answer": "BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "00-torque-specs-002-q01"
+    },
+    {
+      "question": "What lubrication condition should be used for the screws with \u03bc total = 0.125?",
+      "answer": "Unlubricated and also oiled",
+      "question_type": "factual",
+      "id": "00-torque-specs-002-q03"
+    },
+    {
+      "question": "What is the \u03bc total range for cadmium-plated screws or nuts?",
+      "answer": "0.08 to 0.09",
+      "question_type": "factual",
+      "id": "00-torque-specs-002-q04"
+    },
+    {
+      "question": "By what percentage must the tightening torque be reduced for cadmium-plated screws?",
+      "answer": "30% less than shown in the table",
+      "question_type": "factual",
+      "id": "00-torque-specs-002-q05"
+    },
+    {
+      "question": "Are these torque values applicable to necked-down bolts?",
+      "answer": "Not applicable to necked-down bolts, self-tapping screw connections or to connections between parts made of different materials",
+      "question_type": "factual",
+      "id": "00-torque-specs-002-q07"
+    },
+    {
+      "question": "When are these torque specifications not applicable regarding surface conditions?",
+      "answer": "Not applicable when using a different surface or lubricant condition on the thread, or if the height of the nut differs",
+      "question_type": "factual",
+      "id": "00-torque-specs-002-q08"
+    },
+    {
+      "question": "Why is maintaining specified tightening torques important?",
+      "answer": "Maintaining specified tightening torques is vital for performing repair work to a professional standard",
+      "question_type": "factual",
+      "id": "00-torque-specs-002-q09"
+    },
+    {
+      "question": "What type of inspection should torque wrenches be subjected to?",
+      "answer": "Regular inspection with approved torque testing equipment listed in the catalogue of workshop equipment planning documents",
+      "question_type": "procedural",
+      "id": "00-torque-specs-002-q10"
+    }
+  ]
+}

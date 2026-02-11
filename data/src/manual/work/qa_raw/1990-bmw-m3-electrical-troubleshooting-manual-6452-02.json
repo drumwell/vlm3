@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6452-02.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:09:38.506901",
+    "prompt_template": "electrical_manual/troubleshooting",
+    "tokens_input": 1892,
+    "tokens_output": 859
+  },
+  "qa_pairs": [
+    {
+      "question": "What fuse number is associated with the A/C system?",
+      "answer": "Fuse 20 is associated with the A/C system.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02-q01"
+    },
+    {
+      "question": "At what refrigerant pressure will the Refrigerant Pressure Switch disengage the Compressor Clutch?",
+      "answer": "The Refrigerant Pressure Switch will disengage the Compressor Clutch when refrigerant pressure rises above 435 PSI (30.0 Bar), or when it drops below 21.8 PSI (1.5 Bar).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02-q02"
+    },
+    {
+      "question": "What temperature does the Temperature Switch open to remove the compressor load?",
+      "answer": "The Temperature Switch opens to remove the compressor load from the engine if the coolant temperature rises above 226\u00b0F (108\u00b0C).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02-q03"
+    },
+    {
+      "question": "What are the two symptoms listed in the Symptom Table?",
+      "answer": "The two symptoms listed in the Symptom Table are: 1) Compressor Clutch does not engage (symptom A), and 2) Engine idle speed is not high enough when Compressor Clutch engages (325 engine only) (symptom D).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02-q04"
+    },
+    {
+      "question": "What should you check before doing the System Diagnosis according to the troubleshooting hints?",
+      "answer": "Before doing the System Diagnosis, you should: 1) Check Fuse 20 by visual inspection, and 2) Check that Compressor Clutch connector is firmly seated.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02-q05"
+    },
+    {
+      "question": "What terminal number on the Motronic Control Unit receives voltage when the Compressor Clutch is turned on?",
+      "answer": "When the Compressor Clutch is turned on, voltage is applied to terminal 29 of the Motronic Control Unit.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02-q06"
+    },
+    {
+      "question": "In the A/C Isolation Test Table 1, what voltage should be measured between terminals 8 & Ground?",
+      "answer": "In the A/C Isolation Test Table 1, Battery voltage should be measured between terminals 8 & Ground.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02-q07"
+    },
+    {
+      "question": "How often does the Evaporator Temperature Regulator test for continuity?",
+      "answer": "The Evaporator Temperature Regulator tests for continuity by momentarily applying voltage at the Compressor Control every 8 to 10 seconds.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02-q08"
+    },
+    {
+      "question": "What conditions are specified for the A/C Isolation Test in Table 1?",
+      "answer": "The conditions for the A/C Isolation Test in Table 1 are: Ignition Switch: RUN (Engine need not be running), and A/C Selector Switch: ON (Depressed).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02-q09"
+    },
+    {
+      "question": "Where should you go for a guide to normal A/C system operation?",
+      "answer": "For a guide to normal A/C system operation, you should go to Heating and Air Conditioning (6410A-0) System Check.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6452-02-q10"
+    }
+  ]
+}

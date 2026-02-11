@@ -1,0 +1,67 @@
+{
+  "page_id": "12-100_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-100.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:23:35.032493",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 915
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you always disconnect when working on the electrical system for TCI and DME?",
+      "answer": "Always disconnect battery or interrupt power supply to ignition control unit and ignition coil when working on the electrical system.",
+      "question_type": "safety",
+      "id": "12-100_engine-e-q01"
+    },
+    {
+      "question": "Why is it dangerous to work on the ignition system while connected to power?",
+      "answer": "It's dangerous due to primary and secondary voltage as well as danger of destroying the ignition system.",
+      "question_type": "safety",
+      "id": "12-100_engine-e-q02"
+    },
+    {
+      "question": "What should you never do after removing the distributor cap or disconnecting wire on ignition coil term. 4?",
+      "answer": "Never start the engine after removal of distributor cap and/or disconnection of wire on ignition coil term. 4 - pull off plug on ignition control unit.",
+      "question_type": "safety",
+      "id": "12-100_engine-e-q03"
+    },
+    {
+      "question": "Can you disconnect the battery while the engine is running?",
+      "answer": "Never disconnect the battery or leads on the alternator and starter while engine is running.",
+      "question_type": "safety",
+      "id": "12-100_engine-e-q04"
+    },
+    {
+      "question": "What type of parts should be used for replacement on the ignition system?",
+      "answer": "Only install specified original BMW parts.",
+      "question_type": "factual",
+      "id": "12-100_engine-e-q05"
+    },
+    {
+      "question": "What should you never connect to ignition coil term. 1?",
+      "answer": "Never connect a shielded capacitor or test lamp on term. 1 of the ignition coil.",
+      "question_type": "safety",
+      "id": "12-100_engine-e-q06"
+    },
+    {
+      "question": "How should ignition coil term. 1 wire be handled regarding grounding?",
+      "answer": "Never connect wire of ignition coil term. 1 on ground or B+. Consequently the ignition coil term. 1 wire must not be used to prevent engine starting when service installing a burglar alarm system.",
+      "question_type": "safety",
+      "id": "12-100_engine-e-q07"
+    },
+    {
+      "question": "What is the purpose of the shielded resistor in the distributor rotor?",
+      "answer": "The original distributor rotor with 1 k-ohm shielded resistor provides the minimum required shielding for the secondary (high voltage) side of the ignition system.",
+      "question_type": "operation",
+      "id": "12-100_engine-e-q12"
+    }
+  ]
+}

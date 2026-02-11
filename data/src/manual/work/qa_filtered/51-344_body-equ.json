@@ -1,0 +1,91 @@
+{
+  "page_id": "51-344_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-344.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:24:15.977985",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 764
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing window fixed in frame of left or right rear door?",
+      "answer": "The procedure number is 51 34 191.",
+      "question_type": "factual",
+      "id": "51-344_body-equ-q01"
+    },
+    {
+      "question": "What part number is specified for the rear door trim panel?",
+      "answer": "The rear door trim panel part number is 51 42 001.",
+      "question_type": "factual",
+      "id": "51-344_body-equ-q02"
+    },
+    {
+      "question": "What should be done with the plastic sheet during installation of the window?",
+      "answer": "Replace damaged plastic sheet during installation.",
+      "question_type": "procedural",
+      "id": "51-344_body-equ-q03"
+    },
+    {
+      "question": "How should the cover strip and window recess cover be loosened to avoid paint damage?",
+      "answer": "Loosen cover strip and window recess cover on outside by pressing up out of clamps with a wooden wedge or similar tool carefully to avoid damaging the paint finish.",
+      "question_type": "procedural",
+      "id": "51-344_body-equ-q04"
+    },
+    {
+      "question": "What should be done to the door remote control during the installation process?",
+      "answer": "Unscrew door remote control, loosen clips and let remote control hang down, then preload door remote control slightly during installation.",
+      "question_type": "procedural",
+      "id": "51-344_body-equ-q05"
+    },
+    {
+      "question": "What is the first step shown for accessing the window mechanism?",
+      "answer": "Remove rear door trim panel 51 42 001 and pull off plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-344_body-equ-q06"
+    },
+    {
+      "question": "What should be applied to the rubber frame to make installation easier?",
+      "answer": "Coat rubber frame with relaxed water to make installation easier.",
+      "question_type": "procedural",
+      "id": "51-344_body-equ-q07"
+    },
+    {
+      "question": "What is shown in the bottom images regarding the window operation?",
+      "answer": "Wind down window and pull out rear window rubber guide.",
+      "question_type": "procedural",
+      "id": "51-344_body-equ-q08"
+    },
+    {
+      "question": "What must be done with the guide rail during window installation?",
+      "answer": "Loosen guide rail on rubber frame of fixed window and disconnect in retainer at top.",
+      "question_type": "procedural",
+      "id": "51-344_body-equ-q09"
+    },
+    {
+      "question": "What is the critical installation requirement for the rubber frame beads?",
+      "answer": "The beads on the rubber frame must engage in bores of window guide during installation.",
+      "question_type": "procedural",
+      "id": "51-344_body-equ-q10"
+    },
+    {
+      "question": "What component is accessed by pulling off the window recess cover on the inside?",
+      "answer": "Pulling off the window recess cover on the inside provides access to unscrew screws for further disassembly.",
+      "question_type": "visual",
+      "id": "51-344_body-equ-q11"
+    },
+    {
+      "question": "What safety precaution is emphasized when removing exterior trim pieces?",
+      "answer": "Use a wooden wedge or similar tool carefully to avoid damaging the paint finish when pressing clamps to loosen cover strip and window recess cover.",
+      "question_type": "safety",
+      "id": "51-344_body-equ-q12"
+    }
+  ]
+}

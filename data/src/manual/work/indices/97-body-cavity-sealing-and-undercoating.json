@@ -1,0 +1,22 @@
+{
+  "section_id": "97",
+  "section_name": "Body Cavity Sealing and Undercoating",
+  "index_pages": [
+    "97-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "97 00 010",
+      "name": "Body cavity sealing for entire car",
+      "pages": [
+        "97-1"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "97-1": [
+      "97 00 010"
+    ]
+  },
+  "merge_warnings": []
+}

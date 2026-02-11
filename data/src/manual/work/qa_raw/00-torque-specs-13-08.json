@@ -1,0 +1,85 @@
+{
+  "page_id": "00-torque-specs-13-08",
+  "image_path": "raw/00 - Torque Specs/13-08.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:53:11.529274",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 574
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the fuel injector to intake manifold?",
+      "answer": "10 Nm with M6 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-08-q01"
+    },
+    {
+      "question": "What torque should be applied to the coupling nut on fuel injector?",
+      "answer": "25 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-08-q02"
+    },
+    {
+      "question": "Which vehicles does the fuel injector to intake manifold specification apply to?",
+      "answer": "All vehicles.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-08-q03"
+    },
+    {
+      "question": "What type of screw is used for the fuel injector to intake manifold connection?",
+      "answer": "M6 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-08-q04"
+    },
+    {
+      "question": "Which vehicles does the coupling nut on fuel injector specification apply to?",
+      "answer": "All with K-Jetr.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-08-q05"
+    },
+    {
+      "question": "What is the difference in torque values between the fuel injector to intake manifold and the coupling nut on fuel injector?",
+      "answer": "The coupling nut requires 25 Nm while the fuel injector to intake manifold requires 10 Nm, a difference of 15 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-08-q06"
+    },
+    {
+      "question": "What section of the manual covers fuel delivery and metering system specifications?",
+      "answer": "Section 13-8.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-08-q07"
+    },
+    {
+      "question": "What subsection number covers fuel injectors in this manual?",
+      "answer": "13 64.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-13-08-q08"
+    },
+    {
+      "question": "How many different fuel injector torque specifications are listed on this page?",
+      "answer": "Two specifications are listed: fuel injector to intake manifold and coupling nut on fuel injector.",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-08-q09",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What unit of measurement is used for all the torque specifications on this page?",
+      "answer": "Nm (Newton meters).",
+      "question_type": "factual",
+      "id": "00-torque-specs-13-08-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

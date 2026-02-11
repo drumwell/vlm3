@@ -1,0 +1,73 @@
+{
+  "page_id": "18-06_exhaust-",
+  "image_path": "raw/18 - Exhaust System/18-06.jpg",
+  "section_id": "18",
+  "section_name": "Exhaust System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:04:23.194339",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 688
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two different flange versions shown for the final muffler?",
+      "answer": "Three Hole Flange Version and Two Hole Flange Version.",
+      "question_type": "visual",
+      "id": "18-06_exhaust--q03"
+    },
+    {
+      "question": "What is the specified preload for the final muffler holder installation?",
+      "answer": "Preload: 6 mm (0.236\").",
+      "question_type": "factual",
+      "id": "18-06_exhaust--q04"
+    },
+    {
+      "question": "How should the holder for the final muffler be torqued during installation?",
+      "answer": "Torque the holder in such a manner that rubber ring is preloaded.",
+      "question_type": "procedural",
+      "id": "18-06_exhaust--q05"
+    },
+    {
+      "question": "What should be done before taking off the exhaust assembly?",
+      "answer": "Check installed position. Provide sufficient spacing to body and rear axle carrier.",
+      "question_type": "procedural",
+      "id": "18-06_exhaust--q06"
+    },
+    {
+      "question": "What is the proper sequence for adjusting the rear axle carrier holder?",
+      "answer": "Adjust holder by moving and torque only after finishing installation of the exhaust assembly.",
+      "question_type": "procedural",
+      "id": "18-06_exhaust--q08"
+    },
+    {
+      "question": "What component must be unscrewed from the final muffler during installation?",
+      "answer": "Unscrew catalytic convertor on final muffler.",
+      "question_type": "procedural",
+      "id": "18-06_exhaust--q09"
+    },
+    {
+      "question": "Where can the exhaust suspension layout drawing be found?",
+      "answer": "See exhaust suspension layout drawing.",
+      "question_type": "navigation",
+      "id": "18-06_exhaust--q10"
+    },
+    {
+      "question": "What callout number identifies the two hole flange version image?",
+      "answer": "20 11 300.",
+      "question_type": "visual",
+      "id": "18-06_exhaust--q11"
+    },
+    {
+      "question": "What additional reference is mentioned at the bottom of the page for more detailed information?",
+      "answer": "See Specifications.",
+      "question_type": "navigation",
+      "id": "18-06_exhaust--q12"
+    }
+  ]
+}

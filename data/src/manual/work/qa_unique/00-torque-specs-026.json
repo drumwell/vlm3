@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-026",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/026.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:20:56.884306",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 538
+  },
+  "qa_pairs": [
+    {
+      "question": "What is being replaced according to the vibration damper specification?",
+      "answer": "Replace screws",
+      "question_type": "procedural",
+      "id": "00-torque-specs-026-q06"
+    },
+    {
+      "question": "Are there different engine types listed for the vibration damper specifications?",
+      "answer": "Yes, S38 B38 and S50 engine types are listed",
+      "question_type": "factual",
+      "id": "00-torque-specs-026-q08"
+    }
+  ]
+}

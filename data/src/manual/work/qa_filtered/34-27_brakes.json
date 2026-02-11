@@ -1,0 +1,61 @@
+{
+  "page_id": "34-27_brakes",
+  "image_path": "raw/34 - Brakes/34-27.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:19:51.447744",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 492
+  },
+  "qa_pairs": [
+    {
+      "question": "What does callout number 1 identify in this ABS layout drawing?",
+      "answer": "Callout number 1 identifies the Electronic control unit.",
+      "question_type": "component",
+      "id": "34-27_brakes-q01"
+    },
+    {
+      "question": "What component is labeled as number 2 in this diagram?",
+      "answer": "Number 2 identifies the Hydraulic unit.",
+      "question_type": "component",
+      "id": "34-27_brakes-q02"
+    },
+    {
+      "question": "How many pulse sensors are shown in this ABS system layout?",
+      "answer": "There are multiple pulse sensors shown, all labeled with callout number 3.",
+      "question_type": "factual",
+      "id": "34-27_brakes-q03"
+    },
+    {
+      "question": "Where is the hydraulic unit positioned relative to the electronic control unit?",
+      "answer": "The hydraulic unit (2) is positioned below and to the left of the electronic control unit (1).",
+      "question_type": "visual",
+      "id": "34-27_brakes-q04"
+    },
+    {
+      "question": "What type of lines connect the pulse sensors to the main ABS components?",
+      "answer": "Dashed lines connect the pulse sensors to the main ABS components, likely representing electrical connections.",
+      "question_type": "visual",
+      "id": "34-27_brakes-q05"
+    },
+    {
+      "question": "Which wheels have pulse sensors according to this layout drawing?",
+      "answer": "All four wheels have pulse sensors, as indicated by the callout number 3 at each wheel position.",
+      "question_type": "visual",
+      "id": "34-27_brakes-q07"
+    },
+    {
+      "question": "What are the three main components of the ABS system shown in this diagram?",
+      "answer": "The three main components are the Electronic control unit (1), Hydraulic unit (2), and Pulse sensors (3).",
+      "question_type": "component",
+      "id": "34-27_brakes-q08"
+    }
+  ]
+}

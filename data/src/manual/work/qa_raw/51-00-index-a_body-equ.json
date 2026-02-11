@@ -1,0 +1,55 @@
+{
+  "page_id": "51-00-index-a_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-00-index-a.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:07:36.111402",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1746,
+    "tokens_output": 388
+  },
+  "qa_pairs": [
+    {
+      "question": "What page number contains information about front bumper survey for solid plastic version?",
+      "answer": "Page 51-112 contains information about front bumper survey for solid plastic version.",
+      "question_type": "navigation",
+      "id": "51-00-index-a_body-equ-q01"
+    },
+    {
+      "question": "Where can I find instructions for replacing the front bumper impact absorbers?",
+      "answer": "Instructions for replacing front bumper impact absorbers can be found on page 51-116.",
+      "question_type": "navigation",
+      "id": "51-00-index-a_body-equ-q02"
+    },
+    {
+      "question": "What is the page reference for removing and installing the rear bumper?",
+      "answer": "The page reference for removing and installing the rear bumper is 51-121.",
+      "question_type": "navigation",
+      "id": "51-00-index-a_body-equ-q03"
+    },
+    {
+      "question": "Which page covers the procedure for replacing rubbing strips on front doors?",
+      "answer": "Page 51-150 covers the procedure for replacing rubbing strips on front doors.",
+      "question_type": "navigation",
+      "id": "51-00-index-a_body-equ-q04"
+    },
+    {
+      "question": "What section number covers BMW emblem removal and installation procedures?",
+      "answer": "Section 51 14 covers BMW emblem removal and installation procedures, with front emblem on page 51-140 and rear emblem on page 51-140.",
+      "question_type": "navigation",
+      "id": "51-00-index-a_body-equ-q05"
+    },
+    {
+      "question": "Where would I find information about center console removal and installation?",
+      "answer": "Information about center console removal and installation can be found on page 51-162.",
+      "question_type": "navigation",
+      "id": "51-00-index-a_body-equ-q06"
+    }
+  ]
+}

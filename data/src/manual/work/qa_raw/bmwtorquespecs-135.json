@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-135",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/135.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:38:21.325577",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 541
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the safety belt on the B-pillar?",
+      "answer": "31 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-135-q01"
+    },
+    {
+      "question": "What torque value should be used for safety belts on the body, except for B-pillar applications?",
+      "answer": "48 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-135-q02"
+    },
+    {
+      "question": "What is the torque specification for screws used in seatbelt height adjustment on the body?",
+      "answer": "24 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-135-q03"
+    },
+    {
+      "question": "What special installation requirement is noted for the seat belt to seat connection on E31 models?",
+      "answer": "Install bolt with bolt cement",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-135-q04"
+    },
+    {
+      "question": "What is the torque value for the seat belt to seat connection on E31 models?",
+      "answer": "47 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-135-q05"
+    },
+    {
+      "question": "What is the torque specification for headrest to backrest connections?",
+      "answer": "24 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-135-q07"
+    },
+    {
+      "question": "Which vehicle model uses the tension relief between roller blind mount and backrest lock mount specification?",
+      "answer": "E39/2",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-135-q08"
+    },
+    {
+      "question": "What torque value applies to safety belts with belt height adjustment?",
+      "answer": "31 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-135-q09"
+    },
+    {
+      "question": "What is the torque specification for the tension relief between roller blind mount and backrest lock mount?",
+      "answer": "24 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-135-q10"
+    }
+  ]
+}

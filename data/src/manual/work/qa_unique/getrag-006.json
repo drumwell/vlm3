@@ -1,0 +1,79 @@
+{
+  "page_id": "getrag-006",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/006.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:42:54.020428",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 803
+  },
+  "qa_pairs": [
+    {
+      "question": "What procedure is being described for the 2nd gear and inner roller race?",
+      "answer": "The next step was to press the 2nd gear and inner roller race off, using the same procedure but taking the weight by the sides of the teeth.",
+      "question_type": "procedural",
+      "id": "getrag-006-q01"
+    },
+    {
+      "question": "What was the technician concerned about when applying the press force?",
+      "answer": "The technician was hoping the teeth did not break off during the pressing operation.",
+      "question_type": "safety",
+      "id": "getrag-006-q03"
+    },
+    {
+      "question": "What was the outcome regarding the gear teeth after applying 4.5 tons of force?",
+      "answer": "The technician was really glad no teeth were broken and had only a few attempts at it hoping the teeth did not break off.",
+      "question_type": "inspection",
+      "id": "getrag-006-q04"
+    },
+    {
+      "question": "What component is visible in the photograph?",
+      "answer": "A transmission shaft with gear assembly, showing splined sections and gear teeth that have been partially disassembled.",
+      "question_type": "visual",
+      "id": "getrag-006-q05"
+    },
+    {
+      "question": "Where should the pressing force be applied when removing the 2nd gear and inner roller race?",
+      "answer": "The weight should be taken by the sides of the teeth, not directly on the gear teeth themselves.",
+      "question_type": "procedural",
+      "id": "getrag-006-q06"
+    },
+    {
+      "question": "What type of transmission component is shown in the image?",
+      "answer": "A transmission input or output shaft with multiple gears and splined sections, part of a Getrag 265 transmission assembly.",
+      "question_type": "component",
+      "id": "getrag-006-q07"
+    },
+    {
+      "question": "What is the significance of using 4.5 tons of force for this operation?",
+      "answer": "This indicates the components are press-fit with significant interference, requiring substantial force to separate them without damage.",
+      "question_type": "factual",
+      "id": "getrag-006-q08"
+    },
+    {
+      "question": "What precaution should be taken regarding the gear teeth during this pressing operation?",
+      "answer": "Care must be taken to avoid breaking the gear teeth by properly supporting the component and applying force to the sides of the teeth rather than the teeth themselves.",
+      "question_type": "safety",
+      "id": "getrag-006-q09"
+    },
+    {
+      "question": "What tool is required for this gear removal procedure?",
+      "answer": "A hydraulic press capable of applying at least 4.5 tons of force is required.",
+      "question_type": "tool",
+      "id": "getrag-006-q10"
+    },
+    {
+      "question": "What reassembly consideration is implied by this disassembly procedure?",
+      "answer": "The same significant pressing force and careful positioning will likely be required during reassembly to press the components back together.",
+      "question_type": "procedural",
+      "id": "getrag-006-q12"
+    }
+  ]
+}

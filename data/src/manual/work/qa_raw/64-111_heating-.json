@@ -1,0 +1,91 @@
+{
+  "page_id": "64-111_heating-",
+  "image_path": "raw/64 - Heating and Air Conditioning/64-111.jpg",
+  "section_id": "64",
+  "section_name": "Heating and Air Conditioning",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:54:37.629475",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 821
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the cable for window ventilation?",
+      "answer": "The procedure number is 64 11 081.",
+      "question_type": "factual",
+      "id": "64-111_heating--q01"
+    },
+    {
+      "question": "What are the first steps when beginning the window ventilation cable replacement?",
+      "answer": "Disconnect battery ground lead, remove and install instrument panel trim on left side 51 45 180, remove and install tray 51 16 200, open glove box, and disconnect pins (1) of both retaining straps.",
+      "question_type": "procedural",
+      "id": "64-111_heating--q02"
+    },
+    {
+      "question": "What does callout number 1 indicate in the upper right diagram showing the clamp removal?",
+      "answer": "Callout number 1 indicates the clamp that needs to be lifted out.",
+      "question_type": "visual",
+      "id": "64-111_heating--q03"
+    },
+    {
+      "question": "How should you remove the radio opening mask or radio from the control panel?",
+      "answer": "Pull opening covers (1) or switches out of control panel, then pull off plugs (3) on switches (2).",
+      "question_type": "procedural",
+      "id": "64-111_heating--q04"
+    },
+    {
+      "question": "What is the correct installation procedure for connecting the cable in the sliding control?",
+      "answer": "Connect cable (1) in sliding control (2), push sliding control and air flap against stop, turn sleeve (3) enough until it can be placed in opening, and secure cable with clamp (4).",
+      "question_type": "procedural",
+      "id": "64-111_heating--q05"
+    },
+    {
+      "question": "What should you do after unscrewing the screws from the control panel?",
+      "answer": "Pull out control panel slightly.",
+      "question_type": "procedural",
+      "id": "64-111_heating--q06"
+    },
+    {
+      "question": "In the bottom right diagram, what does callout number 2 represent?",
+      "answer": "Callout number 2 represents the stop that the cable sleeve (1) must be flush with during installation.",
+      "question_type": "visual",
+      "id": "64-111_heating--q07"
+    },
+    {
+      "question": "What components need to be disconnected when removing the cable on lever 3?",
+      "answer": "You need to pull out clamp (1) and disconnect cable (2) on lever (3).",
+      "question_type": "procedural",
+      "id": "64-111_heating--q08"
+    },
+    {
+      "question": "What is the proper way to remove the trim panel according to the bottom left procedure?",
+      "answer": "Unscrew screw (1) and take off trim panel (2).",
+      "question_type": "procedural",
+      "id": "64-111_heating--q09"
+    },
+    {
+      "question": "During installation, what is the critical alignment requirement for the cable sleeve?",
+      "answer": "Cable sleeve (1) must be flush with stop (2).",
+      "question_type": "inspection",
+      "id": "64-111_heating--q10"
+    },
+    {
+      "question": "What are the reference numbers mentioned for the instrument panel trim and tray removal?",
+      "answer": "The instrument panel trim reference is 51 45 180 and the tray reference is 51 16 200.",
+      "question_type": "factual",
+      "id": "64-111_heating--q11"
+    },
+    {
+      "question": "What safety precaution should be taken before starting this procedure?",
+      "answer": "Disconnect battery ground lead before beginning any work.",
+      "question_type": "safety",
+      "id": "64-111_heating--q12"
+    }
+  ]
+}

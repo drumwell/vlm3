@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-23-07",
+  "image_path": "raw/00 - Torque Specs/23-07.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:59:08.561963",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 558
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component uses the 1AZ specification in the transmission shafts section?",
+      "answer": "Output flange collar nut installed with bolt cement",
+      "question_type": "component",
+      "id": "00-torque-specs-23-07-q06"
+    },
+    {
+      "question": "What is the difference between initial and final torque for the output flange collar nut?",
+      "answer": "70 Nm (190 Nm initial minus 120 Nm final)",
+      "question_type": "factual",
+      "id": "00-torque-specs-23-07-q07"
+    },
+    {
+      "question": "What section and subsection covers these transmission shaft specifications?",
+      "answer": "Section 23-7 Manual transmission, subsection 23 21 Transmission Shafts",
+      "question_type": "navigation",
+      "id": "00-torque-specs-23-07-q09"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "33-14_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-14.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:10:38.642066",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 939
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number that covers replacing wheel bearings and shaft seal?",
+      "answer": "Section 33 41 151 covers replacing wheel bearings and shaft seal.",
+      "question_type": "factual",
+      "id": "33-14_rear-axl-q01"
+    },
+    {
+      "question": "Which special tool is used to drive out the rear axle shaft?",
+      "answer": "Special Tool 33 4 010 is used to drive out the rear axle shaft.",
+      "question_type": "tool",
+      "id": "33-14_rear-axl-q02"
+    },
+    {
+      "question": "What additional steps are required for 323 i, 325 e/i and ABS models when removing components?",
+      "answer": "For 323 i, 325 e/i and ABS models, you must remove the brake disc and unscrew the exhaust assembly.",
+      "question_type": "procedural",
+      "id": "33-14_rear-axl-q03"
+    },
+    {
+      "question": "What special tool is needed to pull out the wheel bearing on cars with ABS from 1986?",
+      "answer": "Special Tool 33 4 031 is used to pull out the wheel bearing on 323 i, 325 e/i and cars with ABS from 1986 models.",
+      "question_type": "tool",
+      "id": "33-14_rear-axl-q04"
+    },
+    {
+      "question": "What component should be lifted out according to the circlip removal step?",
+      "answer": "The circlip should be lifted out as shown in the diagram.",
+      "question_type": "procedural",
+      "id": "33-14_rear-axl-q05"
+    },
+    {
+      "question": "Which special tool is identified as 33 4 045 in the procedure?",
+      "answer": "Special Tool 33 4 045 is used in conjunction with other tools during the wheel bearing service procedure.",
+      "question_type": "tool",
+      "id": "33-14_rear-axl-q06"
+    },
+    {
+      "question": "What should be done with the inner bearing shell if applicable?",
+      "answer": "If applicable, pull the inner bearing shell off of the rear axle shaft with Special Tool 00 7 500 and a thrust piece.",
+      "question_type": "procedural",
+      "id": "33-14_rear-axl-q07"
+    },
+    {
+      "question": "What are the two special tools needed for 323 i, 325 e/i and cars with ABS from 1986?",
+      "answer": "Special Tools 33 4 090 and 33 1 307 are needed for 323 i, 325 e/i and cars with ABS from 1986 models.",
+      "question_type": "tool",
+      "id": "33-14_rear-axl-q08"
+    },
+    {
+      "question": "What is the first step mentioned in the wheel bearing and shaft seal replacement procedure?",
+      "answer": "The first step is to remove the output shaft assembly using reference 33 21 000, followed by removing the brake drum.",
+      "question_type": "procedural",
+      "id": "33-14_rear-axl-q09"
+    },
+    {
+      "question": "What components are shown being removed with Special Tool 33 4 042 and 33 4 044?",
+      "answer": "Special Tools 33 4 042 and 33 4 044 are shown being used to pull out the wheel bearing assembly.",
+      "question_type": "visual",
+      "id": "33-14_rear-axl-q10"
+    },
+    {
+      "question": "Which tool number 00 7 500 is used for?",
+      "answer": "Tool 00 7 500 is used to pull the inner bearing shell off of the rear axle shaft when applicable, used with a thrust piece.",
+      "question_type": "tool",
+      "id": "33-14_rear-axl-q11"
+    },
+    {
+      "question": "What type of cars require the use of Special Tools 33 4 090 and 33 1 307?",
+      "answer": "Cars with model designations 323 i, 325 e/i and cars with ABS from 1986 models require Special Tools 33 4 090 and 33 1 307.",
+      "question_type": "factual",
+      "id": "33-14_rear-axl-q12"
+    }
+  ]
+}

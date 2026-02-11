@@ -1,0 +1,91 @@
+{
+  "page_id": "54-14_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-14.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:42:02.014771",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 871
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the required distance adjustment between the hardtop and body?",
+      "answer": "The distance between hardtop and body should be adjusted to 5 to 6 mm (0.197 to 0.236 inches).",
+      "question_type": "factual",
+      "id": "54-14_hood-sun-q01"
+    },
+    {
+      "question": "What tool is needed for locking the knurled nut according to the diagram?",
+      "answer": "Special Tool 51 3 170 is needed for locking the knurled nut.",
+      "question_type": "tool",
+      "id": "54-14_hood-sun-q02"
+    },
+    {
+      "question": "What are the first steps when preparing to install the hardtop?",
+      "answer": "Wind down side windows completely, fold in the top, close the top lid, and pull out plug (1).",
+      "question_type": "procedural",
+      "id": "54-14_hood-sun-q03"
+    },
+    {
+      "question": "What do the numbered callouts 1, 2, and 3 represent in the locking mechanism diagram?",
+      "answer": "1 is the locking screw, 2 is the knurled nut for locking with Special Tool 51 3 170, and 3 is the adjusting screw.",
+      "question_type": "visual",
+      "id": "54-14_hood-sun-q04"
+    },
+    {
+      "question": "How should the locking screw be operated to engage the front locks?",
+      "answer": "Turn the locking screw with an open-end ring wrench until the lock is noticed to engage, then engage the front locks.",
+      "question_type": "procedural",
+      "id": "54-14_hood-sun-q05"
+    },
+    {
+      "question": "What should be done with the covers for rear fasteners on the hardtop?",
+      "answer": "Fold down covers for rear fasteners on the hardtop.",
+      "question_type": "procedural",
+      "id": "54-14_hood-sun-q06"
+    },
+    {
+      "question": "What special considerations are noted for hardtop take-ups installation?",
+      "answer": "Connect lead (1) for rear window defogger, screw on left and right hardtop take-ups with three screws (2 to 4), lock bolts with Loctite, and lubricate slip contacts with light coat of contact grease.",
+      "question_type": "procedural",
+      "id": "54-14_hood-sun-q07"
+    },
+    {
+      "question": "Where should the hardtop be mounted according to the installation procedure?",
+      "answer": "Mount hardtop with pins in the take-ups.",
+      "question_type": "procedural",
+      "id": "54-14_hood-sun-q08"
+    },
+    {
+      "question": "What lubricant specification is mentioned for the slip contacts?",
+      "answer": "Lubricate slip contacts with light coat of contact grease.",
+      "question_type": "tool",
+      "id": "54-14_hood-sun-q09"
+    },
+    {
+      "question": "What thread locking compound is specified for the hardtop installation?",
+      "answer": "Lock bolts with Loctite.",
+      "question_type": "tool",
+      "id": "54-14_hood-sun-q10"
+    },
+    {
+      "question": "What does callout number 4 indicate in the hardtop take-up installation diagram?",
+      "answer": "Callout number 4 indicates one of the screws used to secure the hardtop take-ups (screws 2, 3, and 4 are used for installation).",
+      "question_type": "visual",
+      "id": "54-14_hood-sun-q11"
+    },
+    {
+      "question": "What is the purpose of connecting lead (1) during hardtop take-up installation?",
+      "answer": "Lead (1) should be connected for the rear window defogger operation.",
+      "question_type": "factual",
+      "id": "54-14_hood-sun-q12"
+    }
+  ]
+}

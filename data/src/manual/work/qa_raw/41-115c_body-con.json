@@ -1,0 +1,91 @@
+{
+  "page_id": "41-115c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-115c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:45:23.462281",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 712
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the right wheel house outer section and rear side panel on convertibles?",
+      "answer": "The procedure number is 41 14 161.",
+      "question_type": "factual",
+      "id": "41-115c_body-con-q01"
+    },
+    {
+      "question": "What page should you refer to for additional information before starting this procedure?",
+      "answer": "You should refer to information on page 41-001.",
+      "question_type": "navigation",
+      "id": "41-115c_body-con-q02"
+    },
+    {
+      "question": "What section reference is given for removing the right rear side panel?",
+      "answer": "See section 41 35 110 for removing the right rear side panel.",
+      "question_type": "navigation",
+      "id": "41-115c_body-con-q03"
+    },
+    {
+      "question": "What must be removed from cutting surfaces before beginning the repair work?",
+      "answer": "Remove anti-drumming coat on cutting surfaces.",
+      "question_type": "procedural",
+      "id": "41-115c_body-con-q04"
+    },
+    {
+      "question": "What method is used to separate the spot welds during this repair?",
+      "answer": "Drill out spot welds to separate the components.",
+      "question_type": "procedural",
+      "id": "41-115c_body-con-q05"
+    },
+    {
+      "question": "How should the wheel house outer section be removed after cutting?",
+      "answer": "Cut off wheel house outer section along line, then lift off wheel house outer section.",
+      "question_type": "procedural",
+      "id": "41-115c_body-con-q06"
+    },
+    {
+      "question": "What important warning is given when grinding scrap metal in the area of the top box on edge?",
+      "answer": "Important! Don't damage the inner wheel house panel when grinding off scrap metal.",
+      "question_type": "safety",
+      "id": "41-115c_body-con-q07"
+    },
+    {
+      "question": "What should be done to the mating surface after removing scrap metal?",
+      "answer": "Remove scrap metal and straighten mating surface.",
+      "question_type": "procedural",
+      "id": "41-115c_body-con-q08"
+    },
+    {
+      "question": "How many photographic steps are shown in the procedure sequence?",
+      "answer": "There are 6 photographic steps shown, numbered 30 41 585 through 30 41 591.",
+      "question_type": "visual",
+      "id": "41-115c_body-con-q09"
+    },
+    {
+      "question": "What type of vehicle body style is this procedure specifically for?",
+      "answer": "This procedure is specifically for convertible body style vehicles.",
+      "question_type": "factual",
+      "id": "41-115c_body-con-q10"
+    },
+    {
+      "question": "What is the main cutting technique shown for removing the outer section?",
+      "answer": "Cut along a predetermined line to separate the wheel house outer section from the vehicle body.",
+      "question_type": "procedural",
+      "id": "41-115c_body-con-q11"
+    },
+    {
+      "question": "What preparation step is required before drilling out the spot welds?",
+      "answer": "Remove the anti-drumming coat on cutting surfaces before drilling out the spot welds.",
+      "question_type": "procedural",
+      "id": "41-115c_body-con-q12"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "51-140_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-140.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:11:55.054061",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 696
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for removing and installing the front BMW emblem?",
+      "answer": "The procedure code is 51 14 000 for removing and installing the front BMW emblem.",
+      "question_type": "factual",
+      "id": "51-140_body-equ-q01"
+    },
+    {
+      "question": "How should the front BMW emblem be removed?",
+      "answer": "Lift out emblem carefully.",
+      "question_type": "procedural",
+      "id": "51-140_body-equ-q02"
+    },
+    {
+      "question": "What should be replaced during installation of the BMW emblems if necessary?",
+      "answer": "Replace plastic clip, if necessary.",
+      "question_type": "procedural",
+      "id": "51-140_body-equ-q03"
+    },
+    {
+      "question": "What type of tape is specified for use during BMW emblem installation?",
+      "answer": "Use Terostat tape.",
+      "question_type": "tool",
+      "id": "51-140_body-equ-q04"
+    },
+    {
+      "question": "How should the rear BMW emblem be removed?",
+      "answer": "Lift out emblem carefully.",
+      "question_type": "procedural",
+      "id": "51-140_body-equ-q06"
+    },
+    {
+      "question": "What diagram number shows the front BMW emblem removal procedure?",
+      "answer": "Diagram number 30 51 597 shows the front BMW emblem removal procedure.",
+      "question_type": "visual",
+      "id": "51-140_body-equ-q07"
+    },
+    {
+      "question": "What diagram number illustrates the installation components for the front emblem?",
+      "answer": "Diagram number 30 51 598 illustrates the installation components for the front emblem.",
+      "question_type": "visual",
+      "id": "51-140_body-equ-q08"
+    },
+    {
+      "question": "What diagram number shows the rear BMW emblem?",
+      "answer": "Diagram number 30 51 599 shows the rear BMW emblem.",
+      "question_type": "visual",
+      "id": "51-140_body-equ-q09"
+    },
+    {
+      "question": "What diagram number shows the rear emblem installation components?",
+      "answer": "Diagram number 30 51 600 shows the rear emblem installation components.",
+      "question_type": "visual",
+      "id": "51-140_body-equ-q10"
+    },
+    {
+      "question": "Are the installation procedures the same for both front and rear BMW emblems?",
+      "answer": "Yes, both procedures specify to replace plastic clip if necessary and use Terostat tape during installation.",
+      "question_type": "procedural",
+      "id": "51-140_body-equ-q11"
+    },
+    {
+      "question": "What safety precaution is emphasized for both front and rear emblem removal?",
+      "answer": "Both procedures emphasize to lift out emblem carefully to avoid damage.",
+      "question_type": "safety",
+      "id": "51-140_body-equ-q12"
+    }
+  ]
+}

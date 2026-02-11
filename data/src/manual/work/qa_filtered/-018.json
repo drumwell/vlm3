@@ -1,0 +1,73 @@
+{
+  "page_id": "-018",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/018.jpg",
+  "section_id": "",
+  "section_name": "",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:06:38.689537",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1884,
+    "tokens_output": 637
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of tool is being used to clean this engine component?",
+      "answer": "A wire brush with brass or bronze bristles is being used to clean the engine component.",
+      "question_type": "tool",
+      "id": "-018-q01"
+    },
+    {
+      "question": "What part number is visible on this engine component?",
+      "answer": "The part number 11120360300 is visible cast into the engine component.",
+      "question_type": "factual",
+      "id": "-018-q02"
+    },
+    {
+      "question": "How many oil passages or holes are visible on the bottom surface of this component?",
+      "answer": "There are at least 4 circular oil passages or holes visible on the bottom surface of the component.",
+      "question_type": "visual",
+      "id": "-018-q03"
+    },
+    {
+      "question": "What type of engine component is shown being cleaned?",
+      "answer": "This appears to be an engine oil pan or oil sump component based on its cast aluminum construction and multiple oil passages.",
+      "question_type": "component",
+      "id": "-018-q05"
+    },
+    {
+      "question": "What material appears to be used for this engine component?",
+      "answer": "The component appears to be made of cast aluminum based on its appearance and surface finish.",
+      "question_type": "factual",
+      "id": "-018-q06"
+    },
+    {
+      "question": "How should you clean the mating surfaces of this component?",
+      "answer": "Use a wire brush to thoroughly clean all mating surfaces, removing any gasket material, deposits, or debris before reassembly.",
+      "question_type": "procedural",
+      "id": "-018-q07"
+    },
+    {
+      "question": "What inspection should be performed on the oil passages?",
+      "answer": "All oil passages and holes should be inspected to ensure they are clear and free of blockages after cleaning.",
+      "question_type": "inspection",
+      "id": "-018-q08"
+    },
+    {
+      "question": "What type of surface preparation is being shown?",
+      "answer": "Surface preparation for gasket installation is being shown, with wire brush cleaning to ensure proper sealing surface preparation.",
+      "question_type": "procedural",
+      "id": "-018-q09"
+    },
+    {
+      "question": "What should you check for on the component after wire brushing?",
+      "answer": "After wire brushing, check for any cracks, damage to the casting, and ensure all passages are clear and mating surfaces are clean and smooth.",
+      "question_type": "inspection",
+      "id": "-018-q10"
+    }
+  ]
+}

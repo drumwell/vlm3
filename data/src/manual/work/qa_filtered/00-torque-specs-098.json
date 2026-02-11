@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-098",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/098.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:34:39.820530",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 717
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the plug in rear casing section on all transmission types?",
+      "answer": "M20 screw, 60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-098-q01"
+    },
+    {
+      "question": "What torque should be applied to the sealing caps on rear case section for 240/260/280 transmissions?",
+      "answer": "M6 screw, 10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-098-q02"
+    },
+    {
+      "question": "What is the torque specification for clamping claws to rear case section?",
+      "answer": "33 Nm for ZF S-5-16/5 5 D 310 Z transmissions",
+      "question_type": "factual",
+      "id": "00-torque-specs-098-q04"
+    },
+    {
+      "question": "What torque should be applied to screws on detent plate?",
+      "answer": "9 Nm for ZF S-5-16/5 5 D 310 Z transmissions",
+      "question_type": "factual",
+      "id": "00-torque-specs-098-q05"
+    },
+    {
+      "question": "Which transmission type uses M16 screws with 40 Nm torque for the plug in rear casing section?",
+      "answer": "240 transmission type",
+      "question_type": "factual",
+      "id": "00-torque-specs-098-q06"
+    },
+    {
+      "question": "Which components in this section require the lowest torque specification?",
+      "answer": "Screws on detent plate require the lowest torque at 9 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-098-q08"
+    },
+    {
+      "question": "What transmission types use the ZF S-5-16/5 5 D 310 Z designation?",
+      "answer": "The reversing bolt to reversing lever, clamping claws to rear case section, and screws on detent plate all use ZF S-5-16/5 5 D 310 Z transmissions",
+      "question_type": "factual",
+      "id": "00-torque-specs-098-q09"
+    },
+    {
+      "question": "What is the highest torque specification listed in this manual transmission case and covers section?",
+      "answer": "60 Nm, which is used for both the M20 screw (all types) and M22 screw (260/280) for the plug in rear casing section",
+      "question_type": "factual",
+      "id": "00-torque-specs-098-q10"
+    }
+  ]
+}

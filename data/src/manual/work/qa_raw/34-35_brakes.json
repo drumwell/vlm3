@@ -1,0 +1,79 @@
+{
+  "page_id": "34-35_brakes",
+  "image_path": "raw/34 - Brakes/34-35.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:23:39.450923",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 756
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check first when troubleshooting ABS speed sensors?",
+      "answer": "Turn off ignition for single tests, control unit not connected. Check the front left plug connection with a visual inspection.",
+      "question_type": "procedural",
+      "id": "34-35_brakes-q01"
+    },
+    {
+      "question": "What resistance reading indicates a faulty speed sensor?",
+      "answer": "If the DF reading is greater than 999 k-ohms, then the DF reading is lower and there's a fault in the wire harness. Normal readings should be less than 1 ohm.",
+      "question_type": "diagnostic",
+      "id": "34-35_brakes-q02"
+    },
+    {
+      "question": "Which wires should I check for the front left speed sensor?",
+      "answer": "Check flow in wires 4 and 6 (325iX): bridge front left plug on wire harness side. DF reading should then be less than 1 ohm.",
+      "question_type": "wiring",
+      "id": "34-35_brakes-q03"
+    },
+    {
+      "question": "What are the job position codes for front speed sensor testing?",
+      "answer": "Front left speed sensor testing is referenced as job position 61 11 530 and 61 12 510.",
+      "question_type": "navigation",
+      "id": "34-35_brakes-q04"
+    },
+    {
+      "question": "How do I test the rear right speed sensor wiring?",
+      "answer": "Check flow in wires 24 and 26: bridge rear right plug on wire harness side. DF reading should then be less than 1 ohm; if higher, there's a fault in wire harness.",
+      "question_type": "wiring",
+      "id": "34-35_brakes-q05"
+    },
+    {
+      "question": "What should I do if speed sensor resistance to ground reading remains less than 999 k-ohms?",
+      "answer": "If reading remains less than 999 k-ohms, there is a fault in wire harness. Also refer to test step 03 when testing speed sensors.",
+      "question_type": "diagnostic",
+      "id": "34-35_brakes-q06"
+    },
+    {
+      "question": "What connections should I bridge on the electronic relay plug for speed sensor testing?",
+      "answer": "Bridge connections 30a and 86 on electronic relay plug when testing speed sensors.",
+      "question_type": "procedural",
+      "id": "34-35_brakes-q07"
+    },
+    {
+      "question": "What does a safety lamp reading greater than 80 ohms indicate?",
+      "answer": "Reading greater than 80 ohms indicates ABS indicator lamp faulty or poor contact. Check or replace lamp and check connections on lamp and terminal 15.",
+      "question_type": "diagnostic",
+      "id": "34-35_brakes-q08"
+    },
+    {
+      "question": "What should I check if the safety lamp reading is less than 10 ohms?",
+      "answer": "If reading is less than 10 ohms, check wires 1 and 29 for ground out.",
+      "question_type": "troubleshooting",
+      "id": "34-35_brakes-q09"
+    },
+    {
+      "question": "What's the job position code for safety lamp testing?",
+      "answer": "Safety lamp testing is referenced as job position 62 99 080.",
+      "question_type": "navigation",
+      "id": "34-35_brakes-q10"
+    }
+  ]
+}

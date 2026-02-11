@@ -1,0 +1,55 @@
+{
+  "page_id": "getrag-017",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/017.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "text",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:45:31.301318",
+    "prompt_template": "service_manual/text",
+    "tokens_input": 1883,
+    "tokens_output": 409
+  },
+  "qa_pairs": [
+    {
+      "question": "What restoration method was used to clean the cases shown in the image?",
+      "answer": "The cases were restored using brass pot scrub and brass wire brush, which took many hours to complete.",
+      "question_type": "procedural",
+      "id": "getrag-017-q01"
+    },
+    {
+      "question": "What condition are the cases in after the cleaning process?",
+      "answer": "After cleaning with brass pot scrub and brass wire brush, the cases are now in near new condition.",
+      "question_type": "inspection",
+      "id": "getrag-017-q02"
+    },
+    {
+      "question": "How many mounting holes are visible on the transmission case component?",
+      "answer": "There are 7 mounting holes visible on the transmission case component - 5 holes on the upper flange and 2 holes on the lower section.",
+      "question_type": "visual",
+      "id": "getrag-017-q03"
+    },
+    {
+      "question": "What appears to be the primary material of the transmission case shown?",
+      "answer": "The transmission case appears to be made of aluminum or aluminum alloy, based on its metallic appearance and finish after cleaning.",
+      "question_type": "component",
+      "id": "getrag-017-q04"
+    },
+    {
+      "question": "What is the author's approach to restoration work mentioned in the text?",
+      "answer": "The author likes the challenge of not only trying to fix things but bringing them to factory new condition.",
+      "question_type": "factual",
+      "id": "getrag-017-q05"
+    },
+    {
+      "question": "What input shaft feature is visible protruding from the transmission case?",
+      "answer": "A splined input shaft is visible protruding from the transmission case, showing the splined surface that would connect to the clutch disc.",
+      "question_type": "component",
+      "id": "getrag-017-q06"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "page_id": "51-220_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-220.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:15:35.847705",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 657
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do before unscrewing the striker bolts during removal?",
+      "answer": "If applicable, mark installed position.",
+      "question_type": "procedural",
+      "id": "51-220_body-equ-q02"
+    },
+    {
+      "question": "How should the striker bolts be initially tightened during installation?",
+      "answer": "Tighten striker bolts lightly in middle position.",
+      "question_type": "procedural",
+      "id": "51-220_body-equ-q03"
+    },
+    {
+      "question": "What is the correct method for aligning the striker during installation?",
+      "answer": "Close door with opened door handle. This aligns the striker.",
+      "question_type": "procedural",
+      "id": "51-220_body-equ-q04"
+    },
+    {
+      "question": "What should be done after the initial alignment of the striker?",
+      "answer": "Tighten striker bolts, close door, and check, correcting if necessary.",
+      "question_type": "procedural",
+      "id": "51-220_body-equ-q05"
+    },
+    {
+      "question": "What is the critical alignment requirement for the rear door after striker installation?",
+      "answer": "Edge of rear door must be in same plane with side panel.",
+      "question_type": "inspection",
+      "id": "51-220_body-equ-q06"
+    },
+    {
+      "question": "What are the diagram reference numbers shown in the images?",
+      "answer": "30 51 584, 30 51 585, and 29 51 298",
+      "question_type": "visual",
+      "id": "51-220_body-equ-q07"
+    },
+    {
+      "question": "How many installation steps are shown in the diagrams?",
+      "answer": "Three steps are illustrated with corresponding diagrams and instructions.",
+      "question_type": "visual",
+      "id": "51-220_body-equ-q08"
+    },
+    {
+      "question": "What door component is being replaced in this procedure?",
+      "answer": "The left or right rear door striker.",
+      "question_type": "component",
+      "id": "51-220_body-equ-q09"
+    },
+    {
+      "question": "When should you check and correct the door alignment?",
+      "answer": "After tightening the striker bolts and closing the door, check and correct if necessary.",
+      "question_type": "inspection",
+      "id": "51-220_body-equ-q10"
+    },
+    {
+      "question": "What is the purpose of closing the door with the opened door handle?",
+      "answer": "This aligns the striker properly during installation.",
+      "question_type": "operation",
+      "id": "51-220_body-equ-q11"
+    },
+    {
+      "question": "What page section is this procedure found in?",
+      "answer": "Page 51-220 in the Body Equipment section.",
+      "question_type": "navigation",
+      "id": "51-220_body-equ-q12"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-12-10",
+  "image_path": "raw/00 - Torque Specs/12-10.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:48:23.880584",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 622
+  },
+  "qa_pairs": [
+    {
+      "question": "What torque should be applied to the wiring harness connection on the distributor?",
+      "answer": "10 Nm with M8 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-10-q02"
+    },
+    {
+      "question": "Which component reference number corresponds to the battery positive connection point in the power distributor?",
+      "answer": "1AZ with type designation E32/E34/E31/E36.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-10-q03"
+    },
+    {
+      "question": "What screw size is used for both starter wire connections listed in section 12.42?",
+      "answer": "M8 screws are used for both connections.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-10-q05"
+    },
+    {
+      "question": "Which component has the higher torque specification in the starter wiring section?",
+      "answer": "The battery positive connection point in power distributor (1AZ) has the higher torque specification at 20 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-10-q08"
+    },
+    {
+      "question": "Under which main section does the Engine Electrical Equipment fall?",
+      "answer": "Engine Electrical Equipment falls under section 12-10.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-10-q10"
+    }
+  ]
+}

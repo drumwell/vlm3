@@ -1,0 +1,55 @@
+{
+  "page_id": "23-00-index-a_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-00-index-a.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:21:35.544592",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1746,
+    "tokens_output": 380
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of manual transmission is covered in section 23?",
+      "answer": "The Getrag 240 Five Speed Manual Transmission with Overdrive.",
+      "question_type": "factual",
+      "id": "23-00-index-a_manual-t-q01"
+    },
+    {
+      "question": "On which page can I find information about transmission removal and installation?",
+      "answer": "Page 23-4 covers transmission removal and installation.",
+      "question_type": "navigation",
+      "id": "23-00-index-a_manual-t-q02"
+    },
+    {
+      "question": "What procedure is covered on page 23-22?",
+      "answer": "Synchronization - disassemble and assemble is covered on page 23-22.",
+      "question_type": "procedural",
+      "id": "23-00-index-a_manual-t-q03"
+    },
+    {
+      "question": "Which page shows the layout drawing for the shift mechanism?",
+      "answer": "The layout drawing for the shift mechanism is on page 23-2.",
+      "question_type": "visual",
+      "id": "23-00-index-a_manual-t-q04"
+    },
+    {
+      "question": "What is the reference number for the guide sleeve for clutch release procedure?",
+      "answer": "The reference number is 23 12 053 for the guide sleeve for clutch release - remove and install procedure.",
+      "question_type": "factual",
+      "id": "23-00-index-a_manual-t-q05"
+    },
+    {
+      "question": "Where can I find information about replacing the radial oil seal for the selector shaft?",
+      "answer": "Information about replacing the radial oil seal for the selector shaft is on page 23-6, with reference number 23 12 083.",
+      "question_type": "component",
+      "id": "23-00-index-a_manual-t-q06"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "getrag-008",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/008.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:43:22.397421",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1895,
+    "tokens_output": 494
+  },
+  "qa_pairs": [
+    {
+      "question": "What condition is described in the text below the synchronizer component image?",
+      "answer": "Everywhere I looked there was black grime even though oil seemed cleanish.",
+      "question_type": "inspection",
+      "id": "getrag-008-q01"
+    },
+    {
+      "question": "What type of component is shown in the main image?",
+      "answer": "A synchronizer assembly or synchro ring component from the transmission.",
+      "question_type": "component",
+      "id": "getrag-008-q02"
+    },
+    {
+      "question": "What can you observe about the internal splined surface of this component?",
+      "answer": "The component has internal splines visible in the center bore, which would engage with a shaft or hub.",
+      "question_type": "visual",
+      "id": "getrag-008-q03"
+    },
+    {
+      "question": "What type of teeth or engagement surface is visible on the outer edge of this component?",
+      "answer": "There are engagement teeth or dog teeth visible around the outer circumference of the component.",
+      "question_type": "visual",
+      "id": "getrag-008-q04"
+    },
+    {
+      "question": "What is the overall condition assessment mentioned regarding the cleanliness of this transmission component?",
+      "answer": "Despite the oil appearing cleanish, there was black grime found everywhere when examined closely.",
+      "question_type": "inspection",
+      "id": "getrag-008-q05"
+    },
+    {
+      "question": "What material or surface treatment appears to be on this synchronizer component?",
+      "answer": "The component appears to have a dark metallic finish, likely a coating or treatment typical of transmission synchronizer components.",
+      "question_type": "visual",
+      "id": "getrag-008-q06"
+    },
+    {
+      "question": "What shape is the central opening of this transmission component?",
+      "answer": "The central opening is circular with internal splines for shaft engagement.",
+      "question_type": "visual",
+      "id": "getrag-008-q07"
+    },
+    {
+      "question": "What type of surface is this component resting on in the image?",
+      "answer": "The component is resting on what appears to be a colorful striped shop rag or towel.",
+      "question_type": "visual",
+      "id": "getrag-008-q08"
+    }
+  ]
+}

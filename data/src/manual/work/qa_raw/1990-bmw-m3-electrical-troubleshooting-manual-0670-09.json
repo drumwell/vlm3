@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-09",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/0670-09.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:08:53.975512",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 613
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of Fuse 20 shown in the power distribution diagram?",
+      "answer": "Fuse 20 is rated at 30 AMP as shown in the power distribution box.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-09-q01"
+    },
+    {
+      "question": "What wire gauge is used for the main power feed from Fuse 20 to the distribution point S250?",
+      "answer": "The main power feed uses 4 GN/BR (4 gauge green/brown) wire from Fuse 20 to distribution point S250.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-09-q02"
+    },
+    {
+      "question": "Which components are powered through the .5 GN/BR wire circuits from distribution point S250?",
+      "answer": "The .5 GN/BR circuits power the LH Fresh/Recirculating Air Relay, Hot Water Cut-Off Switch, and RH Fresh/Recirculating Air Relay.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-09-q03"
+    },
+    {
+      "question": "What wire gauge connects the Blower Speed Control to the distribution point?",
+      "answer": "The Blower Speed Control is connected with 2.5 GN/BR (2.5 gauge green/brown) wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-09-q04"
+    },
+    {
+      "question": "On which page can I find information about the Control Switches?",
+      "answer": "Control Switches information can be found on pages 6413-0 and 6452-0.",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-09-q05"
+    },
+    {
+      "question": "What connector designation is shown at the main distribution junction point?",
+      "answer": "The main distribution junction point is designated as connector S250.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-09-q06"
+    },
+    {
+      "question": "Which relay is controlled by the 1 WT (1 gauge white) wire?",
+      "answer": "The 1 WT wire connects to the Control Switches section, but the specific relay controlled is not identified on this page.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-09-q07"
+    },
+    {
+      "question": "What is the special operating condition noted for Fuse 20?",
+      "answer": "Fuse 20 is marked as 'HOT IN RUN ONLY FROM UNLOADED RELAY K7', indicating it only receives power during the RUN position through relay K7.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-09-q08"
+    }
+  ]
+}

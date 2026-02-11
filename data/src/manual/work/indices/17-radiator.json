@@ -1,0 +1,98 @@
+{
+  "section_id": "17",
+  "section_name": "Radiator",
+  "index_pages": [
+    "17-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "010",
+      "name": "Leaks between cooling system and combustion chamber - check",
+      "pages": [
+        "17-3"
+      ]
+    },
+    {
+      "code": "039",
+      "name": "Cooling system - bleed",
+      "pages": [
+        "17-3"
+      ]
+    },
+    {
+      "code": "059",
+      "name": "Radiator - flush",
+      "pages": [
+        "17-6.1"
+      ]
+    },
+    {
+      "code": "100",
+      "name": "Coolant expansion tank - remove and install",
+      "pages": [
+        "17-6"
+      ]
+    },
+    {
+      "code": "17 00 009",
+      "name": "Coolant circuit - BMW 318 i",
+      "pages": [
+        "17-1",
+        "17-2",
+        "17-3"
+      ]
+    },
+    {
+      "code": "17 11 000",
+      "name": "Radiator - remove and install",
+      "pages": [
+        "17-4",
+        "17-4.1",
+        "17-5"
+      ]
+    },
+    {
+      "code": "17 40 000",
+      "name": "Extra fan assembly - remove and install",
+      "pages": [
+        "17-7"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "17-3": [
+      "010",
+      "039",
+      "17 00 009"
+    ],
+    "17-6.1": [
+      "059"
+    ],
+    "17-6": [
+      "100"
+    ],
+    "17-1": [
+      "17 00 009"
+    ],
+    "17-2": [
+      "17 00 009"
+    ],
+    "17-4": [
+      "17 11 000"
+    ],
+    "17-4.1": [
+      "17 11 000"
+    ],
+    "17-5": [
+      "17 11 000"
+    ],
+    "17-7": [
+      "17 40 000"
+    ]
+  },
+  "merge_warnings": [
+    "Code 17 00 009: name mismatch 'Coolant circuit - BMW 318 i' vs 'Coolant circuit - BMW 325 e / 325 i'",
+    "Code 17 00 009: name mismatch 'Coolant circuit - BMW 318 i' vs 'Cooling system - check for leaks (with tester)'",
+    "Code 17 11 000: name mismatch 'Radiator - remove and install' vs 'Oil cooler - remove and install'"
+  ]
+}

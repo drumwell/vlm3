@@ -1,0 +1,94 @@
+{
+  "page_id": "51-320_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-320.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:21:34.875691",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 706
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure reference number for removing and installing or replacing window regulator in left or right front door?",
+      "answer": "The procedure reference number is 51 32 020.",
+      "question_type": "factual",
+      "id": "51-320_body-equ-q01"
+    },
+    {
+      "question": "What should you do with the door trim panel when replacing a window regulator?",
+      "answer": "Remove and install door trim panel. Pull off plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-320_body-equ-q02"
+    },
+    {
+      "question": "What reference number is mentioned for installing the door trim panel?",
+      "answer": "Reference number 51 41 001 is mentioned for the installation.",
+      "question_type": "factual",
+      "id": "51-320_body-equ-q03"
+    },
+    {
+      "question": "What should be done with damaged plastic sheet during installation?",
+      "answer": "Replace damaged plastic sheet.",
+      "question_type": "procedural",
+      "id": "51-320_body-equ-q04"
+    },
+    {
+      "question": "How should you position the door window during the procedure?",
+      "answer": "Position door window so that mounting bolts can be loosened.",
+      "question_type": "procedural",
+      "id": "51-320_body-equ-q05"
+    },
+    {
+      "question": "What important note is given about handling the door window glass?",
+      "answer": "Hold door window glass tight.",
+      "question_type": "safety",
+      "id": "51-320_body-equ-q06"
+    },
+    {
+      "question": "What adjustment reference is provided for the door window installation?",
+      "answer": "Adjust door window 51 32 154.",
+      "question_type": "procedural",
+      "id": "51-320_body-equ-q07"
+    },
+    {
+      "question": "How should you handle the window glass when swinging it out of the guide roller?",
+      "answer": "Swing front end of window glass out of guide roller and lower door window glass.",
+      "question_type": "procedural",
+      "id": "51-320_body-equ-q08"
+    },
+    {
+      "question": "What additional step is required for versions with electric windows?",
+      "answer": "For version with Electric Windows: Unscrew clamp and disconnect plug.",
+      "question_type": "procedural",
+      "id": "51-320_body-equ-q09"
+    },
+    {
+      "question": "What should be done with the window regulator itself?",
+      "answer": "Remove window regulator.",
+      "question_type": "procedural",
+      "id": "51-320_body-equ-q10"
+    },
+    {
+      "question": "What should be done with bolts and straps during the procedure?",
+      "answer": "Unscrew bolts and cut off strap.",
+      "question_type": "procedural",
+      "id": "51-320_body-equ-q11"
+    },
+    {
+      "question": "What are the image reference numbers shown in the diagrams on this page?",
+      "answer": "The image reference numbers are 30 51 046, 30 51 029, 30 51 030, 30 51 042, 30 51 043, 30 51 044, and 30 51 045.",
+      "question_type": "visual",
+      "id": "51-320_body-equ-q12",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

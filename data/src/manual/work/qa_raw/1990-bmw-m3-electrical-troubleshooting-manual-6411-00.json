@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6411-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:07:11.539409",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 538
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of Fuse 20 in the power distribution box?",
+      "answer": "Fuse 20 is rated at 30 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-00-q01"
+    },
+    {
+      "question": "What wire gauge is used for the connection from Fuse 20 to the hot water cut off switch?",
+      "answer": "The wire gauge is 4 GN/BR (4 gauge Green/Brown).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-00-q02"
+    },
+    {
+      "question": "What happens to the hot water cut off switch when the rotary temperature control knob is rotated by more than 90 degrees from its leftmost position?",
+      "answer": "The switch is opened when the rotary temperature control knob is rotated by more than 90 degrees from its leftmost position.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-00-q03"
+    },
+    {
+      "question": "What is the amperage rating of the A/C in-line fuse?",
+      "answer": "The A/C in-line fuse is rated at 3 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-00-q04"
+    },
+    {
+      "question": "What wire connects to ground distribution at connection S229?",
+      "answer": "Wire S229 with a 2.5 BR (2.5 gauge Brown) connects to ground distribution.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-00-q05"
+    },
+    {
+      "question": "What special note is provided about some vehicles regarding additional components?",
+      "answer": "Some vehicles may contain an additional splice (see ground distribution).",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-00-q06"
+    },
+    {
+      "question": "When does the hot water system run according to the diagram?",
+      "answer": "The hot water system runs only from unloader relay K7.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-00-q07"
+    },
+    {
+      "question": "What is the function of the water shut off solenoid shown in the diagram?",
+      "answer": "The water shut off solenoid shuts water off to heater core when energized.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6411-00-q08"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "41-117_body",
+  "image_path": "raw/41 - Body/41-117.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:46:13.734991",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 681
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be done to check the door after installation?",
+      "answer": "Install door and check gap. Also clamp on rear side panel if necessary.",
+      "question_type": "procedural",
+      "id": "41-117_body-q01"
+    },
+    {
+      "question": "What maintenance should be performed on joints if necessary?",
+      "answer": "Grind down joints, tinning if necessary. Spray anti-drumming compound on cover after installation of rear side panel.",
+      "question_type": "procedural",
+      "id": "41-117_body-q02"
+    },
+    {
+      "question": "What welding procedure is demonstrated in image 30 41 560?",
+      "answer": "Plug spot weld joint with door pillar.",
+      "question_type": "visual",
+      "id": "41-117_body-q04"
+    },
+    {
+      "question": "When should anti-drumming compound be applied?",
+      "answer": "Anti-drumming compound should be sprayed on cover after installation of rear side panel.",
+      "question_type": "procedural",
+      "id": "41-117_body-q06"
+    },
+    {
+      "question": "What should be clamped during door installation if necessary?",
+      "answer": "Clamp on rear side panel if necessary during door installation.",
+      "question_type": "procedural",
+      "id": "41-117_body-q07"
+    },
+    {
+      "question": "What preparation work may be needed on joints?",
+      "answer": "Grind down joints, tinning if necessary before proceeding with installation.",
+      "question_type": "procedural",
+      "id": "41-117_body-q08"
+    },
+    {
+      "question": "What type of joint connection is made with the door pillar?",
+      "answer": "A plug spot weld joint is made with the door pillar.",
+      "question_type": "factual",
+      "id": "41-117_body-q09"
+    },
+    {
+      "question": "Where is the brazing performed according to the procedure?",
+      "answer": "Braze joint along edge as shown in the welding procedure.",
+      "question_type": "procedural",
+      "id": "41-117_body-q10"
+    },
+    {
+      "question": "What should be checked after door installation?",
+      "answer": "Check gap after installing the door to ensure proper fit.",
+      "question_type": "inspection",
+      "id": "41-117_body-q11"
+    },
+    {
+      "question": "What three different welding methods are demonstrated in the images?",
+      "answer": "Spot weld cover, plug spot weld joint with door pillar, and braze joint along edge.",
+      "question_type": "visual",
+      "id": "41-117_body-q12"
+    }
+  ]
+}

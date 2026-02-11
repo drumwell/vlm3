@@ -1,0 +1,73 @@
+{
+  "page_id": "12-132_1_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-132_1.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:30:01.220443",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 666
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when replacing a cylinder identifying sender?",
+      "answer": "Take off the cover.",
+      "question_type": "procedural",
+      "id": "12-132_1_engine-e-q01"
+    },
+    {
+      "question": "On M20 engines, what should be done with the ignition lead after pulling off the ignition lead shielded plug of cylinder no. 6?",
+      "answer": "Cut off the ignition lead and cut off the sender on the ignition lead.",
+      "question_type": "procedural",
+      "id": "12-132_1_engine-e-q02"
+    },
+    {
+      "question": "What additional step is required for M20 engines when disconnecting the cylinder identifying sender?",
+      "answer": "Disconnect the plug underneath the diagnosis socket.",
+      "question_type": "procedural",
+      "id": "12-132_1_engine-e-q03"
+    },
+    {
+      "question": "What should be measured to check the sender according to the testing procedure?",
+      "answer": "Measure the resistance of coil between leads 1 and 2.",
+      "question_type": "diagnostic",
+      "id": "12-132_1_engine-e-q04"
+    },
+    {
+      "question": "What leads are referenced for testing the cylinder identifying sender resistance?",
+      "answer": "Leads 1 and 2.",
+      "question_type": "diagnostic",
+      "id": "12-132_1_engine-e-q05"
+    },
+    {
+      "question": "What type of value is specified for the resistance measurement but requires looking elsewhere for the actual specification?",
+      "answer": "Nominal value (with an asterisk indicating to see Specifications).",
+      "question_type": "factual",
+      "id": "12-132_1_engine-e-q06"
+    },
+    {
+      "question": "After replacing the sender, what type of connector needs to be installed?",
+      "answer": "Install a shielded connector.",
+      "question_type": "procedural",
+      "id": "12-132_1_engine-e-q08"
+    },
+    {
+      "question": "What reference is provided for installing the shielded connector?",
+      "answer": "See 12 12 072 in Group 12.",
+      "question_type": "navigation",
+      "id": "12-132_1_engine-e-q09"
+    },
+    {
+      "question": "What final step is mentioned for M20 engines after taking off the leads?",
+      "answer": "Plug on new sender.",
+      "question_type": "procedural",
+      "id": "12-132_1_engine-e-q11"
+    }
+  ]
+}

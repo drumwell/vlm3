@@ -1,0 +1,91 @@
+{
+  "page_id": "41-116_body",
+  "image_path": "raw/41 - Body/41-116.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:45:44.551520",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 881
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure title and section number for replacing the cover on left or right side members?",
+      "answer": "The procedure is titled '41 11 510 REPLACING COVER FOR LEFT OR RIGHT SIDE MEMBER (REAR SIDE PANEL REMOVED) - TWO DOOR MODEL'.",
+      "question_type": "factual",
+      "id": "41-116_body-q01"
+    },
+    {
+      "question": "What reference page should be consulted before beginning this procedure?",
+      "answer": "Refer to information on page 41-001 before beginning this procedure.",
+      "question_type": "navigation",
+      "id": "41-116_body-q02"
+    },
+    {
+      "question": "What components need to be removed or disconnected according to the parts list?",
+      "answer": "Remove or disconnect: ground lead on battery, rear bumper, left tail light assembly, trunk mats, wall trim, left wheel house trim, tail panel trim, trunk lid seal, rear window complete with rubber frame, side window, rear seat cushion and backrest, front seat, side trim panel, hatrack, entrance cover strip, front door pillar carpet, passenger compartment carpets partially, roof liner partially, seat belt, door pillar trim, front door seals, door striker, C pillar air extraction mask, rear side panel rubbing strip, left wheel house cover, fuel tank complete, brace on floor assembly and wire harness in trunk partially.",
+      "question_type": "procedural",
+      "id": "41-116_body-q03"
+    },
+    {
+      "question": "What is the first step shown in the repair procedure?",
+      "answer": "Remove brazing solder and pull out cover underneath front door pillar.",
+      "question_type": "procedural",
+      "id": "41-116_body-q04"
+    },
+    {
+      "question": "What preparation is required for the mating surfaces before welding?",
+      "answer": "Straighten and grind mating surfaces, then coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-116_body-q05"
+    },
+    {
+      "question": "What should be done to the side panel according to the procedure?",
+      "answer": "Remove side panel (see 41 35 101), make joints accessible, and drill out spot welds.",
+      "question_type": "procedural",
+      "id": "41-116_body-q06"
+    },
+    {
+      "question": "How should the new cover be prepared before installation?",
+      "answer": "Grind mating surfaces on new cover and coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-116_body-q07"
+    },
+    {
+      "question": "What is the final step shown in the installation process?",
+      "answer": "Set up and clamp cover in position.",
+      "question_type": "procedural",
+      "id": "41-116_body-q08"
+    },
+    {
+      "question": "What type of welding method is used to attach the cover?",
+      "answer": "Spot welding is used to attach the cover, as indicated by the references to drilling out spot welds and preparing surfaces for spot welding.",
+      "question_type": "factual",
+      "id": "41-116_body-q09"
+    },
+    {
+      "question": "What protective coating is specified for welding surfaces?",
+      "answer": "Zinc dust paint is specified to coat mating surfaces needed for spot welding.",
+      "question_type": "factual",
+      "id": "41-116_body-q10"
+    },
+    {
+      "question": "Which section should be referenced for side panel removal?",
+      "answer": "Section 41 35 101 should be referenced for side panel removal procedures.",
+      "question_type": "navigation",
+      "id": "41-116_body-q11"
+    },
+    {
+      "question": "What vehicle model does this procedure apply to?",
+      "answer": "This procedure applies to the two door model, as specified in the title.",
+      "question_type": "factual",
+      "id": "41-116_body-q12"
+    }
+  ]
+}

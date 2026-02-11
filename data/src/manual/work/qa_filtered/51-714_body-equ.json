@@ -1,0 +1,91 @@
+{
+  "page_id": "51-714_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-714.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:31:25.557135",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 738
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the trim panel for cover on side member?",
+      "answer": "The procedure number is 51 71 446.",
+      "question_type": "factual",
+      "id": "51-714_body-equ-q01"
+    },
+    {
+      "question": "What should be removed from the front and rear side panels before replacing the trim panel?",
+      "answer": "Remove the plate on front side panel (see 51 71 434) and remove the plate on rear side panel (see 51 71 440).",
+      "question_type": "procedural",
+      "id": "51-714_body-equ-q02"
+    },
+    {
+      "question": "How should the expansion rivets be removed during disassembly?",
+      "answer": "Lift out expansion rivets at front and rear, then pull off the trim panel.",
+      "question_type": "procedural",
+      "id": "51-714_body-equ-q03"
+    },
+    {
+      "question": "What size holes should be drilled when replacing the side member?",
+      "answer": "Drill 9 mm (0.354\") diameter holes.",
+      "question_type": "factual",
+      "id": "51-714_body-equ-q04"
+    },
+    {
+      "question": "What preparation is required for grommets before installation?",
+      "answer": "Grommets must be softened in water for some time prior to installation.",
+      "question_type": "procedural",
+      "id": "51-714_body-equ-q05"
+    },
+    {
+      "question": "What should be done after drilling new holes in the replacement part?",
+      "answer": "Punch mark position, drill 9 mm dia. holes, deburr and coat edges of holes with zinc dust paint, then pull off the drilling template.",
+      "question_type": "procedural",
+      "id": "51-714_body-equ-q06"
+    },
+    {
+      "question": "How many layers should the new sealing cord have when installed?",
+      "answer": "Pull new sealing cord into trim panel with two layers.",
+      "question_type": "factual",
+      "id": "51-714_body-equ-q07"
+    },
+    {
+      "question": "What components need to be unscrewed during the initial disassembly?",
+      "answer": "Unscrew clamps.",
+      "question_type": "procedural",
+      "id": "51-714_body-equ-q08"
+    },
+    {
+      "question": "What should be done with the protective sheet during installation?",
+      "answer": "Pull protective sheet off of sealing cord.",
+      "question_type": "procedural",
+      "id": "51-714_body-equ-q09"
+    },
+    {
+      "question": "Where should the drilling template be aligned when making new holes?",
+      "answer": "Align drilling template to the same distance at front and rear, and paste it on along the edge.",
+      "question_type": "procedural",
+      "id": "51-714_body-equ-q10"
+    },
+    {
+      "question": "What is shown being lifted out in the upper right diagram?",
+      "answer": "The diagram shows grommets being lifted out, as indicated by the arrows pointing to the grommet locations.",
+      "question_type": "visual",
+      "id": "51-714_body-equ-q11"
+    },
+    {
+      "question": "What installation step is shown in the bottom right image?",
+      "answer": "The bottom right image shows inserting plugs in the trim panel.",
+      "question_type": "visual",
+      "id": "51-714_body-equ-q12"
+    }
+  ]
+}

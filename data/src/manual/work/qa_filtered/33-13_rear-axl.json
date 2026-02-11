@@ -1,0 +1,91 @@
+{
+  "page_id": "33-13_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-13.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:10:21.218494",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2027,
+    "tokens_output": 888
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing rubber mounts for rear axle carrier?",
+      "answer": "The procedure number is 33 33 071 for replacing rubber mounts for rear axle carrier.",
+      "question_type": "factual",
+      "id": "33-13_rear-axl-q01"
+    },
+    {
+      "question": "What components need to be removed according to the Convertibles section before replacing the rubber mounts?",
+      "answer": "For Convertibles, you need to remove the rear seat cushion (52 20 000), remove side trim panel (51 43 000), support trailing arm, and unscrew strut.",
+      "question_type": "procedural",
+      "id": "33-13_rear-axl-q02"
+    },
+    {
+      "question": "What should you check during installation regarding the rubber mount opening?",
+      "answer": "Check the installed position of rubber mount opening in the rear axle carrier.",
+      "question_type": "inspection",
+      "id": "33-13_rear-axl-q03"
+    },
+    {
+      "question": "How much higher is the rubber mount on the 325 iX compared to other models?",
+      "answer": "On the 325 iX, the rubber mount is 8 mm (0.315\") higher.",
+      "question_type": "factual",
+      "id": "33-13_rear-axl-q04"
+    },
+    {
+      "question": "What special tool is placed between the body and rear axle carrier during installation?",
+      "answer": "Special Tool 33 3 111 is placed on the rubber mount between the body and rear axle carrier.",
+      "question_type": "tool",
+      "id": "33-13_rear-axl-q05"
+    },
+    {
+      "question": "What important instruction is given about the flat sides of Special Tool 33 3 111?",
+      "answer": "The flat sides of Special Tool 33 3 111 must face in direction of the openings when applying Special Tool 00 8 550 with its claws in the openings.",
+      "question_type": "procedural",
+      "id": "33-13_rear-axl-q06"
+    },
+    {
+      "question": "What should be applied to the rubber mount and where during installation?",
+      "answer": "Coat the rubber mount with Circolight and apply on the rear axle carrier, pulling it in with Special Tool 33 3 104.",
+      "question_type": "procedural",
+      "id": "33-13_rear-axl-q07"
+    },
+    {
+      "question": "What tool combination is required for pulling out the rubber mount in conjunction with Special Tools 33 3 111 and 00 8 550?",
+      "answer": "The longer Special Tool 33 3 107 is required for pulling out in conjunction with Special Tools 33 3 111 and 00 8 550.",
+      "question_type": "tool",
+      "id": "33-13_rear-axl-q08"
+    },
+    {
+      "question": "What is the new special tool number required for pulling in the rubber mount?",
+      "answer": "New Special Tool 33 3 115 is required for pulling in the rubber mount in conjunction with Special Tools 33 3 103, 33 3 112 and 33 3 104.",
+      "question_type": "tool",
+      "id": "33-13_rear-axl-q09"
+    },
+    {
+      "question": "What important precaution is mentioned about the threads during the procedure?",
+      "answer": "Don't damage the threads. If applicable, cut off protruding rubber at the openings.",
+      "question_type": "safety",
+      "id": "33-13_rear-axl-q10"
+    },
+    {
+      "question": "What should be done with the studs and what direction?",
+      "answer": "Knock out studs upwards.",
+      "question_type": "procedural",
+      "id": "33-13_rear-axl-q11"
+    },
+    {
+      "question": "What installation notes are provided regarding washers and nuts?",
+      "answer": "Use washers, replace self-locking nuts, and apply tightening torque.",
+      "question_type": "procedural",
+      "id": "33-13_rear-axl-q12"
+    }
+  ]
+}

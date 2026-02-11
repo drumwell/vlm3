@@ -1,0 +1,67 @@
+{
+  "page_id": "12-42_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-42.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:38:30.416990",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 708
+  },
+  "qa_pairs": [
+    {
+      "question": "What safety caution must be followed regarding the wire between battery and alternator?",
+      "answer": "Disconnect wire between battery and alternator only when engine is stopped.",
+      "question_type": "safety",
+      "id": "12-42_engine-e-q02"
+    },
+    {
+      "question": "What components need to be removed after disconnecting the battery when removing the alternator?",
+      "answer": "Remove air cleaner and air flow sensor.",
+      "question_type": "procedural",
+      "id": "12-42_engine-e-q03"
+    },
+    {
+      "question": "Which connections need to be unscrewed on the alternator?",
+      "answer": "Unscrew connections B + and D +, and disconnect ground wire.",
+      "question_type": "procedural",
+      "id": "12-42_engine-e-q04"
+    },
+    {
+      "question": "What should not be forgotten during alternator installation?",
+      "answer": "Don't forget the ground wire (see arrow).",
+      "question_type": "procedural",
+      "id": "12-42_engine-e-q06"
+    },
+    {
+      "question": "Where must the pulling hook be positioned when checking belt tightness?",
+      "answer": "This requires pulling hook (2) to be in center of teeth.",
+      "question_type": "procedural",
+      "id": "12-42_engine-e-q09"
+    },
+    {
+      "question": "Where should the indicator be located when checking belt tension?",
+      "answer": "Indicator must be located in scale above the green or yellow field.",
+      "question_type": "inspection",
+      "id": "12-42_engine-e-q10"
+    },
+    {
+      "question": "What is the specified torque for the tensioning wheel nut?",
+      "answer": "Unscrew nut (1) and turn tensioning wheel (3) with a torque of approx. 7 Nm (5 ft.lbs.) and tighten nuts (1).",
+      "question_type": "factual",
+      "id": "12-42_engine-e-q11"
+    },
+    {
+      "question": "What should be done after adjusting the belt tension?",
+      "answer": "Recheck tightness with the tester, correcting if necessary.",
+      "question_type": "procedural",
+      "id": "12-42_engine-e-q12"
+    }
+  ]
+}

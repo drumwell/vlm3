@@ -1,0 +1,91 @@
+{
+  "page_id": "23-07_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-07.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:24:26.088249",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 690
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the radial oil seal for the input shaft?",
+      "answer": "The procedure number is 23 12 503.",
+      "question_type": "factual",
+      "id": "23-07_manual-t-q01"
+    },
+    {
+      "question": "What guide sleeve must be removed before replacing the radial oil seal?",
+      "answer": "Remove guide sleeve 23 11 623.",
+      "question_type": "procedural",
+      "id": "23-07_manual-t-q02"
+    },
+    {
+      "question": "What special tools are required to drive in the radial oil seal?",
+      "answer": "Special Tools 23 1 360 and 00 5 500 are required.",
+      "question_type": "tool",
+      "id": "23-07_manual-t-q03"
+    },
+    {
+      "question": "What component is shown in the upper diagram with the part number 320 23 048?",
+      "answer": "The upper diagram shows the guide sleeve removal tool.",
+      "question_type": "visual",
+      "id": "23-07_manual-t-q04"
+    },
+    {
+      "question": "What must be done to the transmission case before installing the new seal?",
+      "answer": "Open end faces transmission case.",
+      "question_type": "procedural",
+      "id": "23-07_manual-t-q05"
+    },
+    {
+      "question": "What lubrication requirement is specified for the seal installation?",
+      "answer": "Lubricate sealing lip with oil.",
+      "question_type": "procedural",
+      "id": "23-07_manual-t-q06"
+    },
+    {
+      "question": "What is the part number for the seal installation tool shown in the lower diagram?",
+      "answer": "The seal installation tool is part number 23 1 360.",
+      "question_type": "factual",
+      "id": "23-07_manual-t-q07"
+    },
+    {
+      "question": "What component is labeled as 320 23 049 in the lower diagram?",
+      "answer": "Component 320 23 049 appears to be part of the seal installation tool assembly.",
+      "question_type": "visual",
+      "id": "23-07_manual-t-q08"
+    },
+    {
+      "question": "What is the first step when the transmission is already removed?",
+      "answer": "Remove guide sleeve 23 11 623, then remove radial oil seal.",
+      "question_type": "procedural",
+      "id": "23-07_manual-t-q09"
+    },
+    {
+      "question": "What type of seal is being replaced in this procedure?",
+      "answer": "A radial oil seal for the input shaft is being replaced.",
+      "question_type": "factual",
+      "id": "23-07_manual-t-q10"
+    },
+    {
+      "question": "What prerequisite condition is mentioned for this procedure?",
+      "answer": "The transmission must be removed before performing this procedure.",
+      "question_type": "procedural",
+      "id": "23-07_manual-t-q11"
+    },
+    {
+      "question": "How many special tools are shown in the installation diagram?",
+      "answer": "Two special tools are shown: 23 1 360 and 00 5 500.",
+      "question_type": "visual",
+      "id": "23-07_manual-t-q12"
+    }
+  ]
+}

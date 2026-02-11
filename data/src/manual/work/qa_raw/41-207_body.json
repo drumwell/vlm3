@@ -1,0 +1,91 @@
+{
+  "page_id": "41-207_body",
+  "image_path": "raw/41 - Body/41-207.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:52:21.305319",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 832
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing left or right front door pillar?",
+      "answer": "The procedure number is 41 21 501.",
+      "question_type": "factual",
+      "id": "41-207_body-q01"
+    },
+    {
+      "question": "What page should you refer to for information before starting the front door pillar replacement?",
+      "answer": "You should refer to information on page 41-001.",
+      "question_type": "navigation",
+      "id": "41-207_body-q02"
+    },
+    {
+      "question": "What components need to be removed or disconnected before replacing the front door pillar?",
+      "answer": "You need to remove or disconnect the ground lead on battery, roof ornamental strip, front seat, entrance cover strip, entrance cover plate, instrument panel trim, engine hood release lever partially, door pillar carpet, passenger compartment carpets partially, air inlet grill on cowl panel and windshield with rubber frame.",
+      "question_type": "procedural",
+      "id": "41-207_body-q03"
+    },
+    {
+      "question": "What is the first step shown in the procedure for removing the door pillar?",
+      "answer": "The first step is to cut through and plate along line, as shown in image 30 41 527.",
+      "question_type": "procedural",
+      "id": "41-207_body-q04"
+    },
+    {
+      "question": "What should be done to the welding seams during the removal process?",
+      "answer": "You should grind off welding seams and drill out spot welds from underneath, then remove end plate section.",
+      "question_type": "procedural",
+      "id": "41-207_body-q05"
+    },
+    {
+      "question": "What needs to be done to make joints accessible?",
+      "answer": "You need to drill off spot welding seam to make joints accessible.",
+      "question_type": "procedural",
+      "id": "41-207_body-q06"
+    },
+    {
+      "question": "What steps are required for the spot welds and brazing solder?",
+      "answer": "You need to drill out spot welds and remove brazing solder, then lift off the door pillar.",
+      "question_type": "procedural",
+      "id": "41-207_body-q07"
+    },
+    {
+      "question": "What surface preparation is needed after removing scrap metal?",
+      "answer": "You need to straighten and grind mating surfaces, then coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-207_body-q08"
+    },
+    {
+      "question": "What callout number shows the step for drilling out spot welds and removing brazing solder?",
+      "answer": "Callout number 30 41 531 shows this step.",
+      "question_type": "visual",
+      "id": "41-207_body-q09"
+    },
+    {
+      "question": "What is indicated by callout number 30 41 533?",
+      "answer": "Callout number 30 41 533 shows the step to remove scrap metal, straighten and grind mating surfaces, and coat mating surfaces needed for spot welding with zinc dust paint.",
+      "question_type": "visual",
+      "id": "41-207_body-q10"
+    },
+    {
+      "question": "What special coating is required on mating surfaces for welding?",
+      "answer": "Zinc dust paint is required on mating surfaces needed for spot welding.",
+      "question_type": "factual",
+      "id": "41-207_body-q11"
+    },
+    {
+      "question": "What is the source reference for the zinc dust paint requirement?",
+      "answer": "The source reference is HWB (Herstellerweisungen BMW).",
+      "question_type": "factual",
+      "id": "41-207_body-q12"
+    }
+  ]
+}

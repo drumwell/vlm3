@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-24-04",
+  "image_path": "raw/00 - Torque Specs/24-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:00:23.216061",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 657
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw size and torque should I use for the radial shaft seal on converter bell housing?",
+      "answer": "M4 screw with 3 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-04-q07"
+    },
+    {
+      "question": "Which transmission types use the radial shaft seal specification for A4S 270R/A4S 310R?",
+      "answer": "A4S 270R and A4S 310R transmissions",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-04-q09"
+    }
+  ]
+}

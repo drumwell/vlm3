@@ -1,0 +1,243 @@
+{
+  "section_id": "N/A",
+  "section_name": "Electrical Troubleshooting Manual Contents",
+  "index_pages": [
+    "00-01-index-a.jpg",
+    "00-02-index-b.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "0670-1",
+      "name": "Fuse Data Chart",
+      "pages": [
+        "0670-1"
+      ]
+    },
+    {
+      "code": "0670-2",
+      "name": "Auxiliary Fuse",
+      "pages": [
+        "0670-2"
+      ]
+    },
+    {
+      "code": "1230-0",
+      "name": "Charge System",
+      "pages": [
+        "1230-0"
+      ]
+    },
+    {
+      "code": "3435-0",
+      "name": "Brake Warning System",
+      "pages": [
+        "3435-0"
+      ]
+    },
+    {
+      "code": "3450-0",
+      "name": "Antilock Brake",
+      "pages": [
+        "3450-0"
+      ]
+    },
+    {
+      "code": "5126-0",
+      "name": "Central Locking",
+      "pages": [
+        "5126-0"
+      ]
+    },
+    {
+      "code": "6100-1",
+      "name": "Auto-Charging Flashlight",
+      "pages": [
+        "6100-1"
+      ]
+    },
+    {
+      "code": "6210-2",
+      "name": "Fuel Gauge",
+      "pages": [
+        "6210-2"
+      ]
+    },
+    {
+      "code": "6216-0",
+      "name": "Active Check Control",
+      "pages": [
+        "6216-0"
+      ]
+    },
+    {
+      "code": "6411-0",
+      "name": "A/C Temperature Control",
+      "pages": [
+        "6411-0"
+      ]
+    },
+    {
+      "code": "6413-0",
+      "name": "A/C Blower Controls",
+      "pages": [
+        "6413-0"
+      ]
+    },
+    {
+      "code": "6421-0",
+      "name": "A/C Air Delivery Control",
+      "pages": [
+        "6421-0"
+      ]
+    },
+    {
+      "code": "6452-0",
+      "name": "A/C Compressor Controls",
+      "pages": [
+        "6452-0"
+      ]
+    },
+    {
+      "code": "6454-0",
+      "name": "Auxiliary Fan",
+      "pages": [
+        "6454-0"
+      ]
+    },
+    {
+      "code": "6571-0",
+      "name": "Cruise Control",
+      "pages": [
+        "6571-0"
+      ]
+    },
+    {
+      "code": "7000-0",
+      "name": "Component Location Views",
+      "pages": [
+        "7000-0"
+      ]
+    },
+    {
+      "code": "8500-0",
+      "name": "Connector Views",
+      "pages": [
+        "8500-0"
+      ]
+    },
+    {
+      "code": "9000-0",
+      "name": "Component Location Chart",
+      "pages": [
+        "9000-0"
+      ]
+    },
+    {
+      "code": "N/A",
+      "name": "Index",
+      "pages": [
+        "0670-0",
+        "0670-1",
+        "2",
+        "3",
+        "4",
+        "6",
+        "7000-0",
+        "8000-0",
+        "8500-0",
+        "9000-0"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "0670-1": [
+      "0670-1",
+      "N/A"
+    ],
+    "0670-2": [
+      "0670-2"
+    ],
+    "1230-0": [
+      "1230-0"
+    ],
+    "3435-0": [
+      "3435-0"
+    ],
+    "3450-0": [
+      "3450-0"
+    ],
+    "5126-0": [
+      "5126-0"
+    ],
+    "6100-1": [
+      "6100-1"
+    ],
+    "6210-2": [
+      "6210-2"
+    ],
+    "6216-0": [
+      "6216-0"
+    ],
+    "6411-0": [
+      "6411-0"
+    ],
+    "6413-0": [
+      "6413-0"
+    ],
+    "6421-0": [
+      "6421-0"
+    ],
+    "6452-0": [
+      "6452-0"
+    ],
+    "6454-0": [
+      "6454-0"
+    ],
+    "6571-0": [
+      "6571-0"
+    ],
+    "7000-0": [
+      "7000-0",
+      "N/A"
+    ],
+    "8500-0": [
+      "8500-0",
+      "N/A"
+    ],
+    "9000-0": [
+      "9000-0",
+      "N/A"
+    ],
+    "0670-0": [
+      "N/A"
+    ],
+    "2": [
+      "N/A"
+    ],
+    "3": [
+      "N/A"
+    ],
+    "4": [
+      "N/A"
+    ],
+    "6": [
+      "N/A"
+    ],
+    "8000-0": [
+      "N/A"
+    ]
+  },
+  "merge_warnings": [
+    "Code N/A: name mismatch 'Index' vs 'How To Use This Manual'",
+    "Code N/A: name mismatch 'Index' vs 'Wire Size Conversion Chart'",
+    "Code N/A: name mismatch 'Index' vs 'Symbols'",
+    "Code N/A: name mismatch 'Index' vs 'Systematic Troubleshooting'",
+    "Code N/A: name mismatch 'Index' vs 'Connector Views'",
+    "Code N/A: name mismatch 'Index' vs 'Power Distribution Box'",
+    "Code N/A: name mismatch 'Index' vs 'Fuse Data'",
+    "Code N/A: name mismatch 'Index' vs 'Component Location Chart'",
+    "Code N/A: name mismatch 'Index' vs 'Component Location Views'",
+    "Code N/A: name mismatch 'Index' vs 'Splice Location Views'",
+    "Code 6100-1: name mismatch 'Auto-Charging Flashlight' vs 'Cigar Lighter'"
+  ]
+}

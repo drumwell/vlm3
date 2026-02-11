@@ -1,0 +1,70 @@
+{
+  "page_id": "33-10_rear-axl",
+  "image_path": "raw/33 - Rear Axle/33-10.jpg",
+  "section_id": "33",
+  "section_name": "Rear Axle",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:09:51.280768",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1887,
+    "tokens_output": 537
+  },
+  "qa_pairs": [
+    {
+      "question": "What adjustment procedure is shown on this page?",
+      "answer": "This page shows the procedure for changing toe on the left wheel.",
+      "question_type": "procedural",
+      "id": "33-10_rear-axl-q01",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What does callout number 1 represent in the diagram?",
+      "answer": "Callout number 1 represents the forward direction.",
+      "question_type": "component",
+      "id": "33-10_rear-axl-q02"
+    },
+    {
+      "question": "What are the reading points for toe adjustment according to the legend?",
+      "answer": "According to the legend, callout 5 is the reading point for toe increase and callout 6 is the reading point for toe decrease.",
+      "question_type": "factual",
+      "id": "33-10_rear-axl-q03"
+    },
+    {
+      "question": "What does the graph on the left side of the page show?",
+      "answer": "The graph shows the relationship between displacement angle (horizontal axis from 0 to 4.5) and toe change in mm (vertical axis from 0 to 1.2), with a curved line indicating the toe change characteristics.",
+      "question_type": "visual",
+      "id": "33-10_rear-axl-q04"
+    },
+    {
+      "question": "What components are identified as silent blocks in the legend?",
+      "answer": "According to the legend, callout 2 is the forward direction inner silent block, callout 3 is the forward direction outer silent block, and callout 8 is simply labeled as silent block.",
+      "question_type": "component",
+      "id": "33-10_rear-axl-q05"
+    },
+    {
+      "question": "What does callout number 7 represent?",
+      "answer": "Callout number 7 represents the trailing arm eye.",
+      "question_type": "component",
+      "id": "33-10_rear-axl-q06"
+    },
+    {
+      "question": "What are the toe adjustment indicators shown as callouts 9 and 10?",
+      "answer": "Callout 9 represents toe increase and callout 10 represents toe decrease.",
+      "question_type": "component",
+      "id": "33-10_rear-axl-q07"
+    },
+    {
+      "question": "What is the reference number shown at the bottom right of the page?",
+      "answer": "The reference number shown at the bottom right is 730 33 186.",
+      "question_type": "navigation",
+      "id": "33-10_rear-axl-q08"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "34-17_brakes",
+  "image_path": "raw/34 - Brakes/34-17.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:17:19.445710",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 752
+  },
+  "qa_pairs": [
+    {
+      "question": "What wheels need to be removed and installed during this brake force regulator check?",
+      "answer": "Remove and install front wheel 36 10 300 and remove and install rear wheel 36 10 320.",
+      "question_type": "procedural",
+      "id": "34-17_brakes-q02"
+    },
+    {
+      "question": "Where should the first high pressure meter be connected?",
+      "answer": "Connect one high pressure meter in front axle brake circuit.",
+      "question_type": "procedural",
+      "id": "34-17_brakes-q03"
+    },
+    {
+      "question": "Where is the second high pressure meter connected?",
+      "answer": "Connect second high pressure meter in rear wheel brake bleeder screw.",
+      "question_type": "procedural",
+      "id": "34-17_brakes-q04"
+    },
+    {
+      "question": "How many times should the brake pedal be operated during this test?",
+      "answer": "Operate brake pedal firmly at least 5 times.",
+      "question_type": "procedural",
+      "id": "34-17_brakes-q05"
+    },
+    {
+      "question": "What pressure should both high pressure meters display up to 25 bar?",
+      "answer": "Up to a pressure of 25 bar (355 psi) both high pressure meters should display the same value.",
+      "question_type": "factual",
+      "id": "34-17_brakes-q06"
+    },
+    {
+      "question": "What do the letters A, B, and C represent on the pressure diagram?",
+      "answer": "A = Inlet pressure, B = Outlet pressure, C = Switching over pressure.",
+      "question_type": "visual",
+      "id": "34-17_brakes-q07"
+    },
+    {
+      "question": "What are the example pressure values given for Pressure I at the inlet and outlet?",
+      "answer": "Inlet pressure (front axle pressure): 40 bar (569 psi), Outlet pressure (rear axle pressure): 31.8 bar (452 psi).",
+      "question_type": "factual",
+      "id": "34-17_brakes-q08"
+    },
+    {
+      "question": "What should you do if measured values deviate from specified values?",
+      "answer": "If measured values deviate from specified values, replace the brake force regulator.",
+      "question_type": "diagnostic",
+      "id": "34-17_brakes-q10"
+    },
+    {
+      "question": "How should the brake pedal be held during the pressure test?",
+      "answer": "Hold brake pedal pressed down with a pedal prop.",
+      "question_type": "procedural",
+      "id": "34-17_brakes-q11"
+    },
+    {
+      "question": "What is recommended if multiple measurements are needed?",
+      "answer": "If necessary, take mean value from three measurements.",
+      "question_type": "procedural",
+      "id": "34-17_brakes-q12"
+    }
+  ]
+}

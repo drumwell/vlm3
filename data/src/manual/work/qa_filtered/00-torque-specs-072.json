@@ -1,0 +1,43 @@
+{
+  "page_id": "00-torque-specs-072",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/072.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:29:41.231349",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 578
+  },
+  "qa_pairs": [
+    {
+      "question": "Which component has the highest torque specification in the injection pump drive section?",
+      "answer": "The toothed belt pulley to injection pump at 50 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-072-q06"
+    },
+    {
+      "question": "Which two components use the same fastener type M51/M41?",
+      "answer": "The toothed belt pulley to injection pump and the chain tensioner",
+      "question_type": "factual",
+      "id": "00-torque-specs-072-q08"
+    },
+    {
+      "question": "What is the difference in torque between the chain sprocket and toothed belt pulley connections?",
+      "answer": "3 Nm (toothed belt pulley is 50 Nm, chain sprocket is 47 Nm)",
+      "question_type": "factual",
+      "id": "00-torque-specs-072-q09"
+    },
+    {
+      "question": "What section of the service manual does this torque specification table belong to?",
+      "answer": "13-5 Fuel delivery and metering system, specifically 13 52 Injection Pump Drive",
+      "question_type": "navigation",
+      "id": "00-torque-specs-072-q10"
+    }
+  ]
+}

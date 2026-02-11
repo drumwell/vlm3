@@ -1,0 +1,67 @@
+{
+  "page_id": "41-111_body",
+  "image_path": "raw/41 - Body/41-111.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:43:06.420937",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 770
+  },
+  "qa_pairs": [
+    {
+      "question": "What parts need to be removed or disconnected according to the initial instructions?",
+      "answer": "Rear door, front seat, B pillar plate, seat belt, entrance cover strip, front and rear cover plates, front and rear door opening edge guards as required, carpet as required, rear seat cushion, thrust strut mountings and fuel tank.",
+      "question_type": "procedural",
+      "id": "41-111_body-q03"
+    },
+    {
+      "question": "What should you do to the mating surfaces after uncovering them?",
+      "answer": "Uncover mating surfaces and remove brazing solder.",
+      "question_type": "procedural",
+      "id": "41-111_body-q04"
+    },
+    {
+      "question": "What operation is shown in image 30 41 323?",
+      "answer": "Uncovering mating surfaces and removing brazing solder.",
+      "question_type": "visual",
+      "id": "41-111_body-q05"
+    },
+    {
+      "question": "What should you cut through according to image 30 41 325?",
+      "answer": "Cut through rear cover.",
+      "question_type": "procedural",
+      "id": "41-111_body-q07"
+    },
+    {
+      "question": "What operations are performed on the B pillar according to image 30 41 328?",
+      "answer": "Drill off welding spots on B pillar and lift off cover.",
+      "question_type": "procedural",
+      "id": "41-111_body-q08"
+    },
+    {
+      "question": "What should be done with scrap metal according to the final step?",
+      "answer": "Drill off scrap metal, straighten and grind mating surfaces.",
+      "question_type": "procedural",
+      "id": "41-111_body-q09"
+    },
+    {
+      "question": "What coating should be applied to mating surfaces required for spot welding?",
+      "answer": "Coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-111_body-q10"
+    },
+    {
+      "question": "What type of welding spots need to be drilled off in multiple steps of this procedure?",
+      "answer": "Welding spots need to be drilled off at various locations including the general cover area and specifically on the B pillar.",
+      "question_type": "procedural",
+      "id": "41-111_body-q11"
+    }
+  ]
+}

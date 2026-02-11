@@ -1,0 +1,91 @@
+{
+  "page_id": "51-110_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-110.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:08:31.906647",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 879
+  },
+  "qa_pairs": [
+    {
+      "question": "What repair material is used to repair damaged plastic bumpers?",
+      "answer": "3M Repair Material 5900 is used to repair damaged thermo-plastic bumpers.",
+      "question_type": "factual",
+      "id": "51-110_body-equ-q01"
+    },
+    {
+      "question": "What are the required abrasive materials for plastic bumper repair?",
+      "answer": "Aluminous abrasive fiber discs in grain size P 36 and P 80, and sandpaper in grain size P 180.",
+      "question_type": "factual",
+      "id": "51-110_body-equ-q02"
+    },
+    {
+      "question": "What safety precautions must be followed when grinding during bumper repair?",
+      "answer": "Extracting or grinding abrasion, wearing mask and gloves while grinding, working only in well ventilated rooms, washing hands frequently, storing food separately, not eating, drinking or smoking while working, and not inhaling vapors.",
+      "question_type": "safety",
+      "id": "51-110_body-equ-q03"
+    },
+    {
+      "question": "Which types of bumper damage can be repaired in the interest of safety?",
+      "answer": "Only damage that does not have influence on the strength and rigidity of the bumper may be repaired.",
+      "question_type": "inspection",
+      "id": "51-110_body-equ-q04"
+    },
+    {
+      "question": "What is the maximum length allowed for continuous cracks that can still be repaired?",
+      "answer": "Continuous cracks with a length of more than 100 mm (4\") must be replaced and cannot be repaired.",
+      "question_type": "inspection",
+      "id": "51-110_body-equ-q05"
+    },
+    {
+      "question": "What is the maximum size hole that requires bumper replacement?",
+      "answer": "Holes from a size of 100 mm\u00b2 (1.5 in.\u00b2) or larger require the bumper to be replaced.",
+      "question_type": "inspection",
+      "id": "51-110_body-equ-q06"
+    },
+    {
+      "question": "What first aid measures should be taken if dust gets in the eyes?",
+      "answer": "Take off dirty clothes immediately. If dust has gotten in eyes, rinse out with water thoroughly and go to a physician.",
+      "question_type": "safety",
+      "id": "51-110_body-equ-q07"
+    },
+    {
+      "question": "What fire extinguishing agents are recommended for this repair material?",
+      "answer": "Fire extinguishing agents include powders, foam, CO\u2082, halon, and water mist.",
+      "question_type": "safety",
+      "id": "51-110_body-equ-q08"
+    },
+    {
+      "question": "What 3M materials are required for the repair besides the repair material?",
+      "answer": "3M Cement Remover 8984, 3M Aluminum Adhesive Tape Scotch 424, 3M Glass Grid Fabric 9030, and 3M Plastic Repair Material 5900.",
+      "question_type": "factual",
+      "id": "51-110_body-equ-q09"
+    },
+    {
+      "question": "What should be done with single components of the repair material after mixing?",
+      "answer": "Single components of the repair material must be scrapped as special refuse. After mixing the single components and hardening, it can be brought to the normal refuse station.",
+      "question_type": "procedural",
+      "id": "51-110_body-equ-q10"
+    },
+    {
+      "question": "What types of damage on body mounting points cannot be repaired?",
+      "answer": "Damage on body mounting points and damage in immediate vicinity of body mounting points cannot be repaired and the parts must be replaced.",
+      "question_type": "inspection",
+      "id": "51-110_body-equ-q11"
+    },
+    {
+      "question": "Where can information on painting plastic parts be found?",
+      "answer": "Refer to the BMW Painting Manual for information on painting plastic parts.",
+      "question_type": "navigation",
+      "id": "51-110_body-equ-q12"
+    }
+  ]
+}

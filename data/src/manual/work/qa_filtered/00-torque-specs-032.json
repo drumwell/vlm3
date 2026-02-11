@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-032",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/032.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:22:12.651815",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 738
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the flange to camshaft bolt?",
+      "answer": "145 Nm with an M30 screw type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-032-q01"
+    },
+    {
+      "question": "What are the different torque values for the plug for chain tensioner depending on engine type?",
+      "answer": "For M50/S50 US engines: 50 Nm with M22 x 1.5 screw. For all other engines: 40 Nm with M22 x 1.5 screw.",
+      "question_type": "factual",
+      "id": "00-torque-specs-032-q02"
+    },
+    {
+      "question": "What torque should be applied to the cylinder for chain tensioner plunger on M50/M52/S52/S50 US engines?",
+      "answer": "70 Nm with M26 x 1.5 screw type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-032-q03"
+    },
+    {
+      "question": "What is the torque specification for the bearing flange on engine block?",
+      "answer": "13 Nm with M6 screw for M60/1/M60/2 engine types.",
+      "question_type": "factual",
+      "id": "00-torque-specs-032-q04"
+    },
+    {
+      "question": "How much torque is required for the reversing rail on engine block?",
+      "answer": "13 Nm with M6 screw for M62 engine type.",
+      "question_type": "factual",
+      "id": "00-torque-specs-032-q05"
+    },
+    {
+      "question": "What is the torque value for the screw-in pin on camshaft?",
+      "answer": "15 Nm with M7 screw type for all engine applications.",
+      "question_type": "factual",
+      "id": "00-torque-specs-032-q06"
+    },
+    {
+      "question": "What torque should be applied to the nut on screw-in pin?",
+      "answer": "10 Nm with M6 screw type for all applications.",
+      "question_type": "factual",
+      "id": "00-torque-specs-032-q07"
+    },
+    {
+      "question": "How does the cylinder for chain tensioner plunger torque differ between US and other engines?",
+      "answer": "M50/M52/S52/S50 US engines require 70 Nm, while all other engines require 50 Nm, both using M26 x 1.5 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-032-q08"
+    },
+    {
+      "question": "Which camshaft components use the same M6 screw size?",
+      "answer": "Both the bearing flange on engine block and the reversing rail on engine block use M6 screws, both requiring 13 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-032-q09"
+    },
+    {
+      "question": "What section and subsection does this torque specification table cover?",
+      "answer": "Section 11-22 Engine, subsection 11 31 Camshaft.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-032-q10"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "41-329_body",
+  "image_path": "raw/41 - Body/41-329.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:03:15.450293",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 794
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of joint connection should be made on the C pillar?",
+      "answer": "A plug spot weld connection should be made on the C pillar, with an inert gas weld joint inserted.",
+      "question_type": "procedural",
+      "id": "41-329_body-q01"
+    },
+    {
+      "question": "How should the tail panel and side panel be welded together?",
+      "answer": "The tail panel and side panel should be weld webbed from the inside using an autogen welder.",
+      "question_type": "procedural",
+      "id": "41-329_body-q02"
+    },
+    {
+      "question": "What welding method is used for the side panel in the trunk lid opening?",
+      "answer": "Spot welding is used for the side panel in the trunk lid opening.",
+      "question_type": "factual",
+      "id": "41-329_body-q03"
+    },
+    {
+      "question": "What type of joint connection is specified for the area shown in image 30 41 248?",
+      "answer": "A braze joint connection is specified for that area.",
+      "question_type": "visual",
+      "id": "41-329_body-q04"
+    },
+    {
+      "question": "How should the tail panel be attached to the side panel?",
+      "answer": "The tail panel should be spot welded to the side panel.",
+      "question_type": "procedural",
+      "id": "41-329_body-q05"
+    },
+    {
+      "question": "What post-welding procedure is required for the joint between the side panel and tail panel?",
+      "answer": "The joint between the side panel and tail panel should be brazed and ground down.",
+      "question_type": "procedural",
+      "id": "41-329_body-q06"
+    },
+    {
+      "question": "What additional step is required after welding the side panel on the tail panel?",
+      "answer": "After welding the side panel on the tail panel, the welding seam should be ground down.",
+      "question_type": "procedural",
+      "id": "41-329_body-q08"
+    },
+    {
+      "question": "What should be done to the joint on the entrance if necessary?",
+      "answer": "The joint on the entrance should be ground down and tinned if necessary.",
+      "question_type": "procedural",
+      "id": "41-329_body-q09"
+    },
+    {
+      "question": "Which images show spot welding procedures?",
+      "answer": "Images 30 41 089 and 30 41 088 show spot welding procedures for the side panel in trunk lid opening and tail panel on side panel respectively.",
+      "question_type": "visual",
+      "id": "41-329_body-q11"
+    },
+    {
+      "question": "What type of welding connection is used for the area shown in image 30 41 086?",
+      "answer": "The area shown in image 30 41 086 uses welding with an inert gas welder, and the welding seam should be ground down afterward.",
+      "question_type": "visual",
+      "id": "41-329_body-q12"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "page_id": "12-00-index-c_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-00-index-c.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:19:59.225501",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1747,
+    "tokens_output": 363
+  },
+  "qa_pairs": [
+    {
+      "question": "On which page can I find information about DME troubleshooting test procedures?",
+      "answer": "DME troubleshooting test procedures can be found on page 12-111.",
+      "question_type": "navigation",
+      "id": "12-00-index-c_engine-e-q03"
+    },
+    {
+      "question": "What page contains the engine electric layout for M3 models?",
+      "answer": "The engine electric layout for M3 models is on page 12-106.",
+      "question_type": "navigation",
+      "id": "12-00-index-c_engine-e-q04"
+    },
+    {
+      "question": "Where can I find information about the 55-pin plug connections?",
+      "answer": "Information about 55-pin plug connections can be found on page 12-107/3.",
+      "question_type": "navigation",
+      "id": "12-00-index-c_engine-e-q05"
+    },
+    {
+      "question": "Which page covers the fuel supply system information?",
+      "answer": "Fuel supply system information is covered on page 12-114/1.",
+      "question_type": "navigation",
+      "id": "12-00-index-c_engine-e-q06"
+    }
+  ]
+}

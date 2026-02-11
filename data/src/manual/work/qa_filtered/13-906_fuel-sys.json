@@ -1,0 +1,91 @@
+{
+  "page_id": "13-906_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-906.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:55:44.097318",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 834
+  },
+  "qa_pairs": [
+    {
+      "question": "What is Test Position 9 used to test on the BMW E30?",
+      "answer": "Test Position 9 is used to test the temperature time switch.",
+      "question_type": "factual",
+      "id": "13-906_fuel-sys-q01"
+    },
+    {
+      "question": "What should you check for when inspecting the plug connections and coolant level during temperature time switch testing?",
+      "answer": "Check for tight fit, good contact of plug connections and correct level of coolant. Also check for air bubbles as referenced in Gr. 17.",
+      "question_type": "inspection",
+      "id": "13-906_fuel-sys-q02"
+    },
+    {
+      "question": "What action should be taken if the code number check fails for the temperature time switch?",
+      "answer": "Replace the temperature time switch and repair plug contact.",
+      "question_type": "procedural",
+      "id": "13-906_fuel-sys-q03"
+    },
+    {
+      "question": "What resistance values should be measured between Term. G and Ground at 35\u00b0C?",
+      "answer": "The resistance should be between 25 to 80 ohms when measured between Term. G and Ground (Housing) at 35\u00b0C.",
+      "question_type": "factual",
+      "id": "13-906_fuel-sys-q04"
+    },
+    {
+      "question": "What is the resistance range between Term. W and Ground when temperature is above 0\u00b0C?",
+      "answer": "The resistance should be between 100 to 160 ohms when measured between Term. W and Ground (Housing) when temperature is above 0\u00b0C.",
+      "question_type": "factual",
+      "id": "13-906_fuel-sys-q05"
+    },
+    {
+      "question": "How should the temperature time switch be tested if resistance values need to be checked?",
+      "answer": "Check resistance values according to the nominal value table. If necessary, heat to test temperature in a water bath.",
+      "question_type": "procedural",
+      "id": "13-906_fuel-sys-q06"
+    },
+    {
+      "question": "What should be done if the resistance values are outside the specified range?",
+      "answer": "Replace the temperature time switch.",
+      "question_type": "procedural",
+      "id": "13-906_fuel-sys-q07"
+    },
+    {
+      "question": "What is the resistance specification between Term. G and Term. W when temperature is below 0\u00b0C?",
+      "answer": "The resistance should be between 25 to 40 ohms when measured between Term. G and Term. W when temperature is below 0\u00b0C.",
+      "question_type": "factual",
+      "id": "13-906_fuel-sys-q08"
+    },
+    {
+      "question": "What does the 8 sec. specification refer to in the nominal value table?",
+      "answer": "The 8 sec. specification refers to the timing parameter for the 35\u00b0C temperature threshold in the temperature time switch operation.",
+      "question_type": "factual",
+      "id": "13-906_fuel-sys-q09"
+    },
+    {
+      "question": "Where can you find the specifications referenced in this test procedure?",
+      "answer": "See the Specifications section as indicated by the asterisk note at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "13-906_fuel-sys-q10"
+    },
+    {
+      "question": "Where should you look for wiring information related to this temperature time switch test?",
+      "answer": "See the Wiring Diagram as indicated by the double asterisk note at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "13-906_fuel-sys-q11"
+    },
+    {
+      "question": "What are the three main diagnostic checks performed on the temperature time switch?",
+      "answer": "The three main checks are: check code number, check resistance values, and check wires.",
+      "question_type": "diagnostic",
+      "id": "13-906_fuel-sys-q12"
+    }
+  ]
+}

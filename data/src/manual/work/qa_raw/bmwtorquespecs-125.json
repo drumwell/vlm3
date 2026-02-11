@@ -1,0 +1,55 @@
+{
+  "page_id": "bmwtorquespecs-125",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/125.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:36:28.063803",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 531
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the M24x1.5 plug in the transfer box?",
+      "answer": "33 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-125-q01"
+    },
+    {
+      "question": "What torque should be applied to M14 x 1.5 screws in the transfer box?",
+      "answer": "33 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-125-q02"
+    },
+    {
+      "question": "What is the torque value for M18x1.5 screws in the transfer box?",
+      "answer": "23 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-125-q03"
+    },
+    {
+      "question": "What torque specification is required for the transmission cross member to rubber mounts?",
+      "answer": "80 Nm with M12 screws",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-125-q04"
+    },
+    {
+      "question": "What is the torque for the transmission cross member to body connection?",
+      "answer": "24 Nm with M8 screws",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-125-q05"
+    },
+    {
+      "question": "Which section of the manual does this page belong to?",
+      "answer": "27 - 2 Transfer Box - Four Wheel Drive",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-125-q06"
+    }
+  ]
+}

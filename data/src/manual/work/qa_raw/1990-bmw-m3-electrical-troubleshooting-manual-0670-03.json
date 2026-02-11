@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-03",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/0670-03.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:07:44.525642",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 518
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the amperage rating of FUSE 19?",
+      "answer": "FUSE 19 is rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-03-q01"
+    },
+    {
+      "question": "Which fuse has the highest amperage rating shown in the power distribution box?",
+      "answer": "FUSE 16, FUSE 17, and FUSE 18 all have the highest rating at 30 AMP each.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-03-q02"
+    },
+    {
+      "question": "What wire color designation is shown for the connection to the START circuit?",
+      "answer": "The START circuit shows a wire color designation of 5 BK/GN.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-03-q03"
+    },
+    {
+      "question": "What components are controlled by the K2 relay?",
+      "answer": "The K2 relay is labeled as the HORN RELAY.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-03-q04"
+    },
+    {
+      "question": "What is the wire color code for the connection from FUSE 7 downward?",
+      "answer": "The wire color code from FUSE 7 downward is 1 VI/YL.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-03-q05"
+    },
+    {
+      "question": "Which relay is designated as K4 in the power distribution box?",
+      "answer": "K4 is designated as the LOW SPEED RELAY.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-03-q06"
+    },
+    {
+      "question": "What is the amperage rating of the fuse that supplies power to the auxiliary fan circuit?",
+      "answer": "FUSE 18, which supplies the auxiliary fan circuit, is rated at 30 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-03-q07"
+    },
+    {
+      "question": "What connector designation is shown for the accessory connection point?",
+      "answer": "The accessory connection point is designated as C302 (ACCESSORY CONNECTOR).",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-0670-03-q08"
+    }
+  ]
+}

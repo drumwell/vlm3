@@ -1,0 +1,91 @@
+{
+  "page_id": "23-310_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-310.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:43:45.619910",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 928
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for replacing the clutch release guide tube?",
+      "answer": "The part number is 23 11 610 for replacing the clutch release guide tube.",
+      "question_type": "factual",
+      "id": "23-310_manual-t-q01"
+    },
+    {
+      "question": "What temperature should the guide flange be heated to during installation?",
+      "answer": "Heat the guide flange to about 80\u00b0C (175\u00b0F) with a hot air blower.",
+      "question_type": "procedural",
+      "id": "23-310_manual-t-q02"
+    },
+    {
+      "question": "What is the acceptable distance measurement for dimension B in the example shown?",
+      "answer": "For dimension B, the example shows 8.1 mm (0.319\") and 7.8 mm (0.307\") with a 0.3 mm (0.012\") spacer thickness.",
+      "question_type": "factual",
+      "id": "23-310_manual-t-q03"
+    },
+    {
+      "question": "What part number tool is used for removing and installing the sealing cover with guide tube for clutch release?",
+      "answer": "Tool number 23 11 623 is used for removing and installing or sealing cover with guide tube for clutch release.",
+      "question_type": "tool",
+      "id": "23-310_manual-t-q04"
+    },
+    {
+      "question": "What bolt sizes are specified for installation in the clutch release procedure?",
+      "answer": "Bolts (1...3) are 8 x 30 mm and bolts (4...7) are 8 x 22 mm.",
+      "question_type": "factual",
+      "id": "23-310_manual-t-q05"
+    },
+    {
+      "question": "What should be adjusted between the input shaft and guide flange, and what is the tolerance?",
+      "answer": "Adjust ball bearing between input shaft and guide flange to 0...0.09 mm (0 to 0.0035\"). Measure distance (A) from case to ball bearing.",
+      "question_type": "procedural",
+      "id": "23-310_manual-t-q06"
+    },
+    {
+      "question": "What are the example measurements for dimension D?",
+      "answer": "For dimension D, the example shows 4.8 mm (0.189\") and 4.3 mm (0.169\") with 0.5 mm (0.020\") and 0.1...0.2 mm (0.004\"...0.008\") axial play, using 0.3 mm (0.012\") spacer thickness.",
+      "question_type": "factual",
+      "id": "23-310_manual-t-q07"
+    },
+    {
+      "question": "What sealant should be used on sealing surfaces?",
+      "answer": "Coat sealing surfaces with Loctite No. 573. Sealing surfaces must be cleaned thoroughly and dried of oil.",
+      "question_type": "tool",
+      "id": "23-310_manual-t-q08"
+    },
+    {
+      "question": "What important note is given about checking during installation?",
+      "answer": "Check turning lock (1) and install radial oil seal.",
+      "question_type": "inspection",
+      "id": "23-310_manual-t-q09"
+    },
+    {
+      "question": "What should be done with spacers during installation?",
+      "answer": "Hold spacers of calculated thickness in position with grease.",
+      "question_type": "procedural",
+      "id": "23-310_manual-t-q10"
+    },
+    {
+      "question": "What threadlocker should be used for bolt installation and what preparation is required?",
+      "answer": "Install bolts with Loctite No. 573 as threadlocker. Threads should be cleaned to remove old cement before application.",
+      "question_type": "procedural",
+      "id": "23-310_manual-t-q11"
+    },
+    {
+      "question": "How should the roller bearing play be adjusted and what distance should be measured?",
+      "answer": "Adjust roller bearing play between layshaft and guide flange. Measure distance (C) from case to roller bearing outer race.",
+      "question_type": "procedural",
+      "id": "23-310_manual-t-q12"
+    }
+  ]
+}

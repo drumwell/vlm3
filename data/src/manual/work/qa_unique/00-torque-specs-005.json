@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-005",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/005.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:16:48.425699",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 720
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for an M8 thread bolt with 8.8 grade?",
+      "answer": "24 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "00-torque-specs-005-q01"
+    },
+    {
+      "question": "What is the difference in torque between M8 10.9 and M8 12.9 bolts?",
+      "answer": "M8 10.9 requires 34 Nm while M8 12.9 requires 40 Nm, a difference of 6 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-005-q03"
+    },
+    {
+      "question": "What is the highest torque specification listed for M8x1 threaded fasteners?",
+      "answer": "44 Nm (ft. lbs.) for M8x1 12.9 grade bolts.",
+      "question_type": "factual",
+      "id": "00-torque-specs-005-q04"
+    },
+    {
+      "question": "How much more torque does an M8 12.9 bolt require compared to an M8 8.8 bolt?",
+      "answer": "M8 12.9 requires 40 Nm while M8 8.8 requires 24 Nm, so 16 Nm more torque is required.",
+      "question_type": "factual",
+      "id": "00-torque-specs-005-q07"
+    },
+    {
+      "question": "What are the three different bolt grades listed for M8 thread specifications?",
+      "answer": "The three grades are 8.8, 10.9, and 12.9.",
+      "question_type": "factual",
+      "id": "00-torque-specs-005-q08"
+    },
+    {
+      "question": "What is the torque specification for the lowest grade M8x1 bolt listed?",
+      "answer": "26 Nm (ft. lbs.) for M8x1 8.8 grade.",
+      "question_type": "factual",
+      "id": "00-torque-specs-005-q09"
+    },
+    {
+      "question": "What units are used for the torque specifications in this table?",
+      "answer": "Nm (ft. lbs.) - Newton meters with foot-pounds equivalents in parentheses.",
+      "question_type": "factual",
+      "id": "00-torque-specs-005-q10"
+    }
+  ]
+}

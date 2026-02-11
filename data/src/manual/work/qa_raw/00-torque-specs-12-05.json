@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-12-05",
+  "image_path": "raw/00 - Torque Specs/12-05.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:47:29.494735",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 596
+  },
+  "qa_pairs": [
+    {
+      "question": "What screw type is used for the 80 A fuse on glow plug relay?",
+      "answer": "M41/M51",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-05-q02"
+    },
+    {
+      "question": "What section number covers the preheating relay specifications?",
+      "answer": "12 21",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-05-q04"
+    },
+    {
+      "question": "What type of screw is specified for both preheating relay connections?",
+      "answer": "M41/M51",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-05-q05"
+    },
+    {
+      "question": "Which preheating relay component has the higher torque specification?",
+      "answer": "The terminal 30 wire to glow plug relay has the higher torque specification at 4 Nm compared to 2 Nm for the 80 A fuse.",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-05-q06"
+    },
+    {
+      "question": "What is the difference in torque between the two preheating relay components?",
+      "answer": "The difference is 2 Nm (4 Nm for terminal 30 wire minus 2 Nm for 80 A fuse).",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-05-q07"
+    },
+    {
+      "question": "What components are listed under the preheating relay section?",
+      "answer": "Terminal 30 wire to glow plug relay and 80 A fuse on glow plug relay.",
+      "question_type": "component",
+      "id": "00-torque-specs-12-05-q08"
+    },
+    {
+      "question": "What units are used for the torque measurements in this section?",
+      "answer": "Nm (Newton-meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-05-q09"
+    },
+    {
+      "question": "Which row contains the specification for the 80 A fuse on glow plug relay?",
+      "answer": "Row 2AZ",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-05-q10"
+    }
+  ]
+}

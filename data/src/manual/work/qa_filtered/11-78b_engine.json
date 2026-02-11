@@ -1,0 +1,94 @@
+{
+  "page_id": "11-78b_engine",
+  "image_path": "raw/11 - Engine/11-78b.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:19:18.540366",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 705
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to pull off the water pump hub?",
+      "answer": "Special Tool 00 8 500 from Kukko is needed to pull off the hub.",
+      "question_type": "tool",
+      "id": "11-78b_engine-q01"
+    },
+    {
+      "question": "What is the part number for overhauling the water pump?",
+      "answer": "The part number is 11 51 502.",
+      "question_type": "factual",
+      "id": "11-78b_engine-q02"
+    },
+    {
+      "question": "What should be replaced when overhauling the water pump according to the installation instructions?",
+      "answer": "Replace bearing (1) and seal (2). Check impeller (3), replacing if necessary.",
+      "question_type": "procedural",
+      "id": "11-78b_engine-q03"
+    },
+    {
+      "question": "What is the proper installation sequence for the water pump components?",
+      "answer": "Press in bearing (1) against stop, then press on impeller (3).",
+      "question_type": "procedural",
+      "id": "11-78b_engine-q04"
+    },
+    {
+      "question": "What component needs to be removed as shown in the lower left illustration?",
+      "answer": "Remove circlip as shown in the illustration.",
+      "question_type": "procedural",
+      "id": "11-78b_engine-q05",
+      "_warnings": [
+        "Self-referential question: 'as shown'"
+      ]
+    },
+    {
+      "question": "What operation is being performed in the bottom illustration?",
+      "answer": "Press out water pump bearing as shown in the illustration.",
+      "question_type": "procedural",
+      "id": "11-78b_engine-q06"
+    },
+    {
+      "question": "What should be done after assembling the water pump components?",
+      "answer": "Check dimensions after assembling.",
+      "question_type": "inspection",
+      "id": "11-78b_engine-q07"
+    },
+    {
+      "question": "What dimension measurement is shown in the technical drawing?",
+      "answer": "The drawing shows a dimension of 91.8 mm.",
+      "question_type": "factual",
+      "id": "11-78b_engine-q08"
+    },
+    {
+      "question": "What are the numbered callouts (1, 2, 3) in the upper right diagram referring to?",
+      "answer": "1 refers to the bearing, 2 refers to the seal, and 3 refers to the impeller.",
+      "question_type": "visual",
+      "id": "11-78b_engine-q09"
+    },
+    {
+      "question": "What reference number is associated with the detailed cross-section drawing?",
+      "answer": "The cross-section drawing is referenced as 30 11 125.",
+      "question_type": "factual",
+      "id": "11-78b_engine-q10"
+    },
+    {
+      "question": "What reference numbers are shown for the hub removal procedure?",
+      "answer": "The hub removal procedure is referenced as 316 11 240.",
+      "question_type": "factual",
+      "id": "11-78b_engine-q11"
+    },
+    {
+      "question": "What reference number corresponds to the bearing press-out operation?",
+      "answer": "The bearing press-out operation is referenced as 316 11 243.",
+      "question_type": "factual",
+      "id": "11-78b_engine-q12"
+    }
+  ]
+}

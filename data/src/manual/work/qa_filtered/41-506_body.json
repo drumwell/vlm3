@@ -1,0 +1,73 @@
+{
+  "page_id": "41-506_body",
+  "image_path": "raw/41 - Body/41-506.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:06:26.022802",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 694
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the first step when adjusting the door lock?",
+      "answer": "Loosen the Torx bolts.",
+      "question_type": "procedural",
+      "id": "41-506_body-q01"
+    },
+    {
+      "question": "How should the striker be aligned vertically according to step 30 41 421?",
+      "answer": "Align striker vertically until guide engages in door without tension.",
+      "question_type": "procedural",
+      "id": "41-506_body-q02"
+    },
+    {
+      "question": "What is the horizontal alignment procedure for the striker in step 30 41 422?",
+      "answer": "Align striker horizontally until outside surface of closed door (2nd catch) is in same plane with rear side panel.",
+      "question_type": "procedural",
+      "id": "41-506_body-q03"
+    },
+    {
+      "question": "What is the maximum allowable adjustment difference between the rear door and neighboring rear side panel?",
+      "answer": "The rear door may be adjusted deeper than the neighboring rear side panel by max. 1 mm (0.039 inch).",
+      "question_type": "factual",
+      "id": "41-506_body-q04"
+    },
+    {
+      "question": "Why is there a note about adjusting the rear door deeper than the side panel?",
+      "answer": "To prevent wind noise and stone damage or to eliminate optical irregularities.",
+      "question_type": "factual",
+      "id": "41-506_body-q05"
+    },
+    {
+      "question": "What type of bolts need to be loosened for door lock adjustment?",
+      "answer": "Torx bolts",
+      "question_type": "factual",
+      "id": "41-506_body-q09"
+    },
+    {
+      "question": "What is the reference point for horizontal alignment of the striker?",
+      "answer": "The outside surface of the closed door (2nd catch) should be in the same plane with the rear side panel.",
+      "question_type": "procedural",
+      "id": "41-506_body-q10"
+    },
+    {
+      "question": "What should happen when the striker is properly aligned vertically?",
+      "answer": "The guide should engage in the door without tension.",
+      "question_type": "inspection",
+      "id": "41-506_body-q11"
+    },
+    {
+      "question": "What measurement unit is provided in parentheses for the 1 mm specification?",
+      "answer": "0.039 inch",
+      "question_type": "factual",
+      "id": "41-506_body-q12"
+    }
+  ]
+}

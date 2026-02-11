@@ -1,0 +1,91 @@
+{
+  "page_id": "41-112_body",
+  "image_path": "raw/41 - Body/41-112.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:43:39.210597",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 739
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do after drilling off scrap metal from the mating surfaces?",
+      "answer": "Straighten and grind mating surfaces, then coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-112_body-q01"
+    },
+    {
+      "question": "How far should you slide the rear end of the new cover underneath the side panel?",
+      "answer": "Slide the rear end of the new cover underneath the side panel about 25 mm (1\") further than standard.",
+      "question_type": "factual",
+      "id": "41-112_body-q02"
+    },
+    {
+      "question": "What should you do if it's necessary when positioning the new cover?",
+      "answer": "If necessary, remove several welding spots on the side panel.",
+      "question_type": "procedural",
+      "id": "41-112_body-q03"
+    },
+    {
+      "question": "What specific procedure is shown for the B pillar in figure 30 41 330?",
+      "answer": "Straighten and grind mating surfaces on B pillar.",
+      "question_type": "visual",
+      "id": "41-112_body-q04"
+    },
+    {
+      "question": "What coating should be applied to surfaces that require spot welding?",
+      "answer": "Coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "factual",
+      "id": "41-112_body-q05"
+    },
+    {
+      "question": "How should the front end of the cover be positioned according to figure 30 41 334?",
+      "answer": "Push up front end of cover and slide it underneath the A pillar joint.",
+      "question_type": "procedural",
+      "id": "41-112_body-q06"
+    },
+    {
+      "question": "What is the final step shown in figure 30 41 335?",
+      "answer": "Straighten and tack weld cover.",
+      "question_type": "procedural",
+      "id": "41-112_body-q07"
+    },
+    {
+      "question": "What should be checked after installing the front and rear doors?",
+      "answer": "Install front and rear doors, and check gaps.",
+      "question_type": "inspection",
+      "id": "41-112_body-q08"
+    },
+    {
+      "question": "Where should the cover be spot welded according to figure 30 41 337?",
+      "answer": "Spot weld cover at top and bottom.",
+      "question_type": "procedural",
+      "id": "41-112_body-q09"
+    },
+    {
+      "question": "What preparation work needs to be done on the new cover before installation?",
+      "answer": "Grind mating surfaces on new cover and coat mating surfaces required for spot welding with zinc dust paint.",
+      "question_type": "procedural",
+      "id": "41-112_body-q10"
+    },
+    {
+      "question": "What component is shown in figure 30 41 332?",
+      "answer": "The new cover component that will be installed.",
+      "question_type": "visual",
+      "id": "41-112_body-q11"
+    },
+    {
+      "question": "What is the purpose of applying zinc dust paint to the mating surfaces?",
+      "answer": "The zinc dust paint is applied to mating surfaces that are required for spot welding.",
+      "question_type": "factual",
+      "id": "41-112_body-q12"
+    }
+  ]
+}

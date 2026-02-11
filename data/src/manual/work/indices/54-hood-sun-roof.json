@@ -1,0 +1,155 @@
+{
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "index_pages": [
+    "54-00-index-a.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "54 12 004",
+      "name": "Sun roof - adjust",
+      "pages": [
+        "54-1"
+      ]
+    },
+    {
+      "code": "54 12 020",
+      "name": "Sun roof winder - remove and install",
+      "pages": [
+        "54-2"
+      ]
+    },
+    {
+      "code": "54 12 050",
+      "name": "Sun roof winder recess plate - remove and install",
+      "pages": [
+        "54-2"
+      ]
+    },
+    {
+      "code": "54 12 100",
+      "name": "Sun roof lid - remove and install",
+      "pages": [
+        "54-3"
+      ]
+    },
+    {
+      "code": "54 12 120",
+      "name": "Sun roof lid seal - replace",
+      "pages": [
+        "54-3"
+      ]
+    },
+    {
+      "code": "54 12 130",
+      "name": "Sun roof lid liner frame - remove and install or replace",
+      "pages": [
+        "54-3"
+      ]
+    },
+    {
+      "code": "54 12 230",
+      "name": "Sun roof gearbox (manual) - remove and install or replace",
+      "pages": [
+        "54-4"
+      ]
+    },
+    {
+      "code": "54 12 240",
+      "name": "Sun roof drive cables (manual) - replace",
+      "pages": [
+        "54-5"
+      ]
+    },
+    {
+      "code": "54 12 241",
+      "name": "Sun roof drive cables (electric) - replace",
+      "pages": [
+        "54-6"
+      ]
+    },
+    {
+      "code": "54 12 250",
+      "name": "Sun roof gate, left or right - replace",
+      "pages": [
+        "54-7"
+      ]
+    },
+    {
+      "code": "54 13 010",
+      "name": "Sun roof motor/gearbox - remove and install or replace",
+      "pages": [
+        "54-8"
+      ]
+    },
+    {
+      "code": "54 13 012",
+      "name": "Sun roof motor/gearbox microswitch - replace",
+      "pages": [
+        "54-8"
+      ]
+    },
+    {
+      "code": "54 21",
+      "name": "Sun roof - troubleshoot",
+      "pages": [
+        "54-14",
+        "54-14/1",
+        "54-9"
+      ]
+    },
+    {
+      "code": "54 31 020",
+      "name": "Convertible top (canvas) - replace",
+      "pages": [
+        "54-16"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "54-1": [
+      "54 12 004"
+    ],
+    "54-2": [
+      "54 12 020",
+      "54 12 050"
+    ],
+    "54-3": [
+      "54 12 100",
+      "54 12 120",
+      "54 12 130"
+    ],
+    "54-4": [
+      "54 12 230"
+    ],
+    "54-5": [
+      "54 12 240"
+    ],
+    "54-6": [
+      "54 12 241"
+    ],
+    "54-7": [
+      "54 12 250"
+    ],
+    "54-8": [
+      "54 13 010",
+      "54 13 012"
+    ],
+    "54-14": [
+      "54 21"
+    ],
+    "54-14/1": [
+      "54 21"
+    ],
+    "54-9": [
+      "54 21"
+    ],
+    "54-16": [
+      "54 31 020"
+    ]
+  },
+  "merge_warnings": [
+    "Code 54 21: name mismatch 'Sun roof - troubleshoot' vs 'Hardtop - install'",
+    "Code 54 21: name mismatch 'Sun roof - troubleshoot' vs 'Hardtop - repair'"
+  ]
+}

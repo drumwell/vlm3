@@ -1,0 +1,31 @@
+{
+  "page_id": "bmwtorquespecs-080",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/080.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:27:27.253346",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 609
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the difference in torque between the support frame on body and the holder of filler connection on body?",
+      "answer": "40 Nm (45 Nm - 5 Nm)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-080-q08"
+    },
+    {
+      "question": "Which component uses a 516g screw type and has the lowest torque specification?",
+      "answer": "Holder of filler connection on body (3AZ) at 5 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-080-q10"
+    }
+  ]
+}

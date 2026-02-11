@@ -1,0 +1,70 @@
+{
+  "page_id": "00-torque-specs-016",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/016.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:18:57.405616",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 576
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the initial torque specification for cylinder head bolts on the 5AZ engine?",
+      "answer": "80 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-016-q01"
+    },
+    {
+      "question": "How much should all cylinder head bolts be loosened before retorquing on the 5AZ engine?",
+      "answer": "1/2 turn",
+      "question_type": "procedural",
+      "id": "00-torque-specs-016-q02"
+    },
+    {
+      "question": "What is the final torque specification after the torque angle steps for 5AZ cylinder head bolts?",
+      "answer": "50 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-016-q03"
+    },
+    {
+      "question": "What is the warm-running time specification for the cylinder head bolt procedure?",
+      "answer": "25 min",
+      "question_type": "factual",
+      "id": "00-torque-specs-016-q05"
+    },
+    {
+      "question": "What is the torque specification for 6AZ cylinder head bolts with cast iron engine block?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-016-q06"
+    },
+    {
+      "question": "What is the difference in initial torque between 5AZ and 6AZ cylinder head bolts?",
+      "answer": "The 5AZ requires 80 Nm while the 6AZ requires 30 Nm",
+      "question_type": "comparison",
+      "id": "00-torque-specs-016-q07",
+      "_warnings": [
+        "Invalid question_type: comparison"
+      ]
+    },
+    {
+      "question": "What special instruction is given for M52 aluminum engine block cylinder head bolts?",
+      "answer": "Do not wash away coating on cylinder head screws",
+      "question_type": "procedural",
+      "id": "00-torque-specs-016-q08"
+    },
+    {
+      "question": "What is the torque specification for M52 aluminum engine block cylinder head bolts?",
+      "answer": "40 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-016-q09"
+    }
+  ]
+}

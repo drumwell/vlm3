@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/9005-04.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:19:14.751809",
+    "prompt_template": "electrical_manual/specification",
+    "tokens_input": 1909,
+    "tokens_output": 496
+  },
+  "qa_pairs": [
+    {
+      "question": "Where is connector C205 located?",
+      "answer": "Inside LH kick panel, behind speaker",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04-q01"
+    },
+    {
+      "question": "What page reference is given for connector C270?",
+      "answer": "7000-6-2",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04-q02"
+    },
+    {
+      "question": "How many pins does connector C302 have?",
+      "answer": "25 pins",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04-q03"
+    },
+    {
+      "question": "Where can I find connector C240?",
+      "answer": "Below LH side of dash, on SRS diagnostic module bracket",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04-q04"
+    },
+    {
+      "question": "What is the pin count for connector C404?",
+      "answer": "21 pins",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04-q05"
+    },
+    {
+      "question": "Where is connector C217 located in the vehicle?",
+      "answer": "Below LH side of dash, near brake pedal support",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04-q06"
+    },
+    {
+      "question": "Which connector is located behind the center of dash on the digital radio?",
+      "answer": "C214 (1 pin)",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04-q07"
+    },
+    {
+      "question": "What page reference should I use to find connector C503?",
+      "answer": "7000-10-4",
+      "question_type": "navigation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04-q08"
+    },
+    {
+      "question": "How many pins does the C421 connector have and where is it located?",
+      "answer": "4 pins, located below driver's seat",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04-q09"
+    },
+    {
+      "question": "Where can I locate connector C260 in the BMW E30?",
+      "answer": "Underside of steering column, above access panel",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-9005-04-q10"
+    }
+  ]
+}

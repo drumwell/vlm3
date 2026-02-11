@@ -1,0 +1,91 @@
+{
+  "page_id": "51-370_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-370.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:25:13.112976",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 773
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the complete left or right rear power window regulator?",
+      "answer": "The procedure number is 51 37 000.",
+      "question_type": "factual",
+      "id": "51-370_body-equ-q01"
+    },
+    {
+      "question": "Where can I find the procedures for removing and installing the regulator in the left or right rear door?",
+      "answer": "The procedures are identical with those for removing and installing the regulator in left or right rear door - see 51 34 020.",
+      "question_type": "navigation",
+      "id": "51-370_body-equ-q02"
+    },
+    {
+      "question": "What additional steps are required for the rear power window regulator removal compared to the rear door regulator?",
+      "answer": "Additionally, you must disconnect the plug and remove mounting point (1) with three nuts.",
+      "question_type": "procedural",
+      "id": "51-370_body-equ-q03"
+    },
+    {
+      "question": "What does callout number 1 indicate in the top diagram?",
+      "answer": "Callout number 1 indicates the mounting point that needs to be removed with three nuts.",
+      "question_type": "visual",
+      "id": "51-370_body-equ-q04"
+    },
+    {
+      "question": "What does callout number 2 represent in both diagrams?",
+      "answer": "Callout number 2 represents the strap that needs to be loosened during the procedure.",
+      "question_type": "visual",
+      "id": "51-370_body-equ-q05"
+    },
+    {
+      "question": "How far should you lower the window when working with a cable regulator?",
+      "answer": "With cable regulator, lower the window half the distance.",
+      "question_type": "procedural",
+      "id": "51-370_body-equ-q06"
+    },
+    {
+      "question": "What should you do with the window glass after lowering it and unscrewing the screws?",
+      "answer": "Push up the window glass and prevent it from falling down.",
+      "question_type": "safety",
+      "id": "51-370_body-equ-q07"
+    },
+    {
+      "question": "What is the sequence for disconnecting components with a cable regulator?",
+      "answer": "Unscrew screws (1), push up window glass and prevent it from falling down, loosen strap (2), disconnect plug (3), then unscrew screws (4).",
+      "question_type": "procedural",
+      "id": "51-370_body-equ-q08"
+    },
+    {
+      "question": "What does callout number 3 indicate in the bottom diagram?",
+      "answer": "Callout number 3 indicates the plug that needs to be disconnected.",
+      "question_type": "visual",
+      "id": "51-370_body-equ-q09"
+    },
+    {
+      "question": "What does callout number 4 represent in the bottom diagram?",
+      "answer": "Callout number 4 represents the screws that need to be unscrewed.",
+      "question_type": "visual",
+      "id": "51-370_body-equ-q10"
+    },
+    {
+      "question": "What is the final step when removing the window regulator?",
+      "answer": "Turn and lift out the window regulator.",
+      "question_type": "procedural",
+      "id": "51-370_body-equ-q11"
+    },
+    {
+      "question": "How many nuts secure the mounting point that needs to be removed?",
+      "answer": "The mounting point (1) is secured with three nuts.",
+      "question_type": "factual",
+      "id": "51-370_body-equ-q12"
+    }
+  ]
+}

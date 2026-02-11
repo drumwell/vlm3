@@ -1,0 +1,49 @@
+{
+  "page_id": "00-torque-specs-122",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/122.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:50:21.227022",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 730
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the universal joint connecting the propeller shaft to transmission on all BMW E30 models?",
+      "answer": "M10 8.8 screw with 48 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-122-q01"
+    },
+    {
+      "question": "What is the torque specification for the aluminum propeller shaft flexible disk connection to the propeller shaft on E39 models?",
+      "answer": "M12 10.9 screw with 100 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-122-q04"
+    },
+    {
+      "question": "What torque should be applied when coupling the propeller shaft to transmission on E32/E31 models?",
+      "answer": "M12 screw with 95 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-122-q05"
+    },
+    {
+      "question": "What screw type and torque specification applies to coupling the propeller shaft to transmission on all models except E32/E31?",
+      "answer": "M10 screw with 60 Nm torque.",
+      "question_type": "factual",
+      "id": "00-torque-specs-122-q09"
+    },
+    {
+      "question": "Which BMW models use M12 8.8 screws with 81 Nm torque in the propeller shaft assembly?",
+      "answer": "E32/E34/E36/E39 models.",
+      "question_type": "factual",
+      "id": "00-torque-specs-122-q10"
+    }
+  ]
+}

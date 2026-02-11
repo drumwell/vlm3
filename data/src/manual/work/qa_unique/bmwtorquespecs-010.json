@@ -1,0 +1,43 @@
+{
+  "page_id": "bmwtorquespecs-010",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/010.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:14:15.447173",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 650
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the difference in torque between M18x1.5 10.9 and M18x1.5 12.9 threads?",
+      "answer": "87 Nm (527 - 440 = 87 Nm)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-010-q07"
+    },
+    {
+      "question": "What are the two thread types covered in this torque specification table?",
+      "answer": "M18 thread and M18x1.5 thread",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-010-q08"
+    },
+    {
+      "question": "What torque value is specified for M18x1.5 10.9?",
+      "answer": "440 Nm (ft. lbs.)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-010-q09"
+    },
+    {
+      "question": "What document reference appears at the top of this torque specification page?",
+      "answer": "00 00 M18 and M18x1.5 - maximum tightening torques acc. to BMW N 600 02.0",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-010-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "21-03_clutch",
+  "image_path": "raw/21 - Clutch/21-03.jpg",
+  "section_id": "21",
+  "section_name": "Clutch",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:20:22.013047",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 709
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you visually inspect the clutch for during inspection?",
+      "answer": "Visually inspect clutch for cracks, wear and burnt spots.",
+      "question_type": "inspection",
+      "id": "21-03_clutch-q01"
+    },
+    {
+      "question": "What condition must the pressure contact surface be in?",
+      "answer": "Pressure contact surface must be level.",
+      "question_type": "inspection",
+      "id": "21-03_clutch-q02"
+    },
+    {
+      "question": "What should you inspect the clutch rivets for?",
+      "answer": "Visually inspect clutch rivets for wear and tight fit.",
+      "question_type": "inspection",
+      "id": "21-03_clutch-q03"
+    },
+    {
+      "question": "What should you do if the clutch has loose or worn rivets?",
+      "answer": "Replace a clutch with loose or worn rivets.",
+      "question_type": "procedural",
+      "id": "21-03_clutch-q04"
+    },
+    {
+      "question": "What important step should you take when installing a new clutch disc?",
+      "answer": "Remove all corrosion inhibitor when installing a new clutch disc.",
+      "question_type": "procedural",
+      "id": "21-03_clutch-q05"
+    },
+    {
+      "question": "How does the clutch for the double mass flywheel version differ?",
+      "answer": "The clutch for the version with a double mass flywheel is lower in height.",
+      "question_type": "factual",
+      "id": "21-03_clutch-q06"
+    },
+    {
+      "question": "How should you position the clutch disc during installation?",
+      "answer": "Place clutch disc over dowel pins.",
+      "question_type": "procedural",
+      "id": "21-03_clutch-q07"
+    },
+    {
+      "question": "How should you tighten the mounting bolts?",
+      "answer": "Tighten mounting bolts separately and uniformly to specified torque.",
+      "question_type": "procedural",
+      "id": "21-03_clutch-q08"
+    },
+    {
+      "question": "What lubricant should be applied to the transmission input shaft?",
+      "answer": "Give transmission input shaft a light coat of Microlube GL 261 in area of splines and guide pins.",
+      "question_type": "tool",
+      "id": "21-03_clutch-q09"
+    },
+    {
+      "question": "What does callout number 3 identify in the clutch assembly diagram?",
+      "answer": "Callout number 3 identifies the flywheel.",
+      "question_type": "visual",
+      "id": "21-03_clutch-q10"
+    },
+    {
+      "question": "What components are identified by callout numbers 4 and 5 in the clutch assembly?",
+      "answer": "Callout number 4 identifies the drive plate and callout number 5 identifies the thrust plate.",
+      "question_type": "visual",
+      "id": "21-03_clutch-q11"
+    },
+    {
+      "question": "Where can you find the source of supply information for certain components?",
+      "answer": "Source of Supply: HWB, and additional specifications can be found in the Specifications section.",
+      "question_type": "navigation",
+      "id": "21-03_clutch-q12"
+    }
+  ]
+}

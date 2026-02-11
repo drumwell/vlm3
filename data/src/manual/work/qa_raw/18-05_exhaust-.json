@@ -1,0 +1,91 @@
+{
+  "page_id": "18-05_exhaust-",
+  "image_path": "raw/18 - Exhaust System/18-05.jpg",
+  "section_id": "18",
+  "section_name": "Exhaust System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T23:04:08.343499",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 801
+  },
+  "qa_pairs": [
+    {
+      "question": "What silicone compound should be used to seal off plug connections on BMW 325 models?",
+      "answer": "Three Bond Silicone 1207 should be used to avoid plug contact problems.",
+      "question_type": "factual",
+      "id": "18-05_exhaust--q01"
+    },
+    {
+      "question": "What precaution must be taken regarding the oxygen sensor during exhaust work?",
+      "answer": "The oxygen sensor must not be damaged, and it should be removed if there is danger of damaging it - see section 11 78 012.",
+      "question_type": "safety",
+      "id": "18-05_exhaust--q02"
+    },
+    {
+      "question": "What is the preload specification for the final muffler holder?",
+      "answer": "The preload is 6 mm (0.236 inches) and the rubber ring should be preloaded during installation.",
+      "question_type": "factual",
+      "id": "18-05_exhaust--q03"
+    },
+    {
+      "question": "How should the exhaust carrier be handled during installation on cars with automatic transmission?",
+      "answer": "Mount the exhaust carrier without tension by adjusting nut (1), then apply tightening torque.",
+      "question_type": "procedural",
+      "id": "18-05_exhaust--q04"
+    },
+    {
+      "question": "What should be done with gaskets when unscrewing exhaust pipes on the manifold?",
+      "answer": "Check gaskets and replace if necessary, then replace self-locking nuts.",
+      "question_type": "inspection",
+      "id": "18-05_exhaust--q05"
+    },
+    {
+      "question": "What coating should be applied to threads during exhaust pipe installation?",
+      "answer": "Coat threads with copper paste CRC and apply tightening torque.",
+      "question_type": "procedural",
+      "id": "18-05_exhaust--q06"
+    },
+    {
+      "question": "When should the holder be torqued during exhaust carrier installation?",
+      "answer": "Torque holder only after finishing installation of the exhaust assembly to avoid danger of tension.",
+      "question_type": "procedural",
+      "id": "18-05_exhaust--q07"
+    },
+    {
+      "question": "What is indicated by callout number 1 in the oxygen sensor disconnect procedure?",
+      "answer": "Callout number 1 indicates the oxygen sensor plug that needs to be disconnected.",
+      "question_type": "visual",
+      "id": "18-05_exhaust--q08"
+    },
+    {
+      "question": "How should bolts be handled when loosening the exhaust carrier for installation?",
+      "answer": "Loosen bolts (2) for installation without tension, then torque holder only after finishing installation of the exhaust assembly.",
+      "question_type": "procedural",
+      "id": "18-05_exhaust--q09"
+    },
+    {
+      "question": "What spacing consideration is mentioned for exhaust assembly removal?",
+      "answer": "Provide sufficient spacing to body and rear axle carrier when taking off the exhaust assembly.",
+      "question_type": "safety",
+      "id": "18-05_exhaust--q10"
+    },
+    {
+      "question": "What should be done with the rear axle carrier holder if necessary?",
+      "answer": "Loosen holder on rear axle carrier if necessary, then adjust holder by moving and torque only after finishing installation of the exhaust assembly.",
+      "question_type": "procedural",
+      "id": "18-05_exhaust--q11"
+    },
+    {
+      "question": "What reference should be consulted for exhaust suspension layout details?",
+      "answer": "See exhaust suspension layout drawing for proper installation guidance.",
+      "question_type": "navigation",
+      "id": "18-05_exhaust--q12"
+    }
+  ]
+}

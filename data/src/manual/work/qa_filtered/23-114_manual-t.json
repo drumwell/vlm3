@@ -1,0 +1,91 @@
+{
+  "page_id": "23-114_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-114.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:28:47.293107",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 685
+  },
+  "qa_pairs": [
+    {
+      "question": "What must be removed before pressing off the reverse gear according to the important note?",
+      "answer": "Circlip (6) must be removed before pressing off reverse gear.",
+      "question_type": "safety",
+      "id": "23-114_manual-t-q01"
+    },
+    {
+      "question": "What should always be replaced during installation?",
+      "answer": "Always replace circlip.",
+      "question_type": "procedural",
+      "id": "23-114_manual-t-q02"
+    },
+    {
+      "question": "What special tool is used to press on the guide sleeve?",
+      "answer": "Special Tool 23 1 290.",
+      "question_type": "tool",
+      "id": "23-114_manual-t-q03"
+    },
+    {
+      "question": "What must be aligned when pressing on the guide sleeve?",
+      "answer": "Make sure that short tabs of synchromesh ring are aligned with groove in pressure pieces when pressing on guide sleeve.",
+      "question_type": "procedural",
+      "id": "23-114_manual-t-q04"
+    },
+    {
+      "question": "In which direction should the sliding sleeve be moved to adjust the guide sleeve?",
+      "answer": "Move sliding sleeve in reverse gear direction.",
+      "question_type": "procedural",
+      "id": "23-114_manual-t-q05"
+    },
+    {
+      "question": "What component should be adjusted with circlip (6) to take up all play?",
+      "answer": "Adjust guide sleeve with circlip (6) to take up all play.",
+      "question_type": "procedural",
+      "id": "23-114_manual-t-q06"
+    },
+    {
+      "question": "What are available from Parts in different thicknesses?",
+      "answer": "Circlips are available from Parts in different thicknesses.",
+      "question_type": "factual",
+      "id": "23-114_manual-t-q07"
+    },
+    {
+      "question": "What type of synchromesh ring is used only for version with reverse gear synchronization?",
+      "answer": "Brass synchromesh ring with 6 balls.",
+      "question_type": "factual",
+      "id": "23-114_manual-t-q08"
+    },
+    {
+      "question": "What components should be installed with narrow collar facing reverse gear?",
+      "answer": "Install guide and sliding sleeve with narrow collar facing reverse gear.",
+      "question_type": "procedural",
+      "id": "23-114_manual-t-q09"
+    },
+    {
+      "question": "To what temperature should the thrust washer (7) be heated?",
+      "answer": "Heat thrust washer (7) to approx. 80\u00b0 C.",
+      "question_type": "procedural",
+      "id": "23-114_manual-t-q10"
+    },
+    {
+      "question": "What should be installed next to the collar according to the assembly instructions?",
+      "answer": "Install output shaft next to collar.",
+      "question_type": "procedural",
+      "id": "23-114_manual-t-q11"
+    },
+    {
+      "question": "What type of bearing should be removed only for version with reverse gear synchronization?",
+      "answer": "Remove needle bearing. Only for version with reverse gear synchronization.",
+      "question_type": "procedural",
+      "id": "23-114_manual-t-q12"
+    }
+  ]
+}

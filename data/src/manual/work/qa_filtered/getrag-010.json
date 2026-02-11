@@ -1,0 +1,79 @@
+{
+  "page_id": "getrag-010",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/010.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:43:50.294915",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 713
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the condition of the bearing shown in the photograph?",
+      "answer": "The bearing appears to be new and genuine, as indicated by the caption.",
+      "question_type": "inspection",
+      "id": "getrag-010-q02"
+    },
+    {
+      "question": "What can you see in the bearing assembly in the image?",
+      "answer": "The bearing assembly shows the inner race with gear teeth, the outer race, and multiple ball bearings visible in the raceway.",
+      "question_type": "visual",
+      "id": "getrag-010-q03"
+    },
+    {
+      "question": "What is the appearance of the gear teeth on the bearing?",
+      "answer": "The gear teeth appear to be in good condition with clean, sharp edges and no visible wear or damage.",
+      "question_type": "inspection",
+      "id": "getrag-010-q05"
+    },
+    {
+      "question": "What color appears to be on the bearing surfaces?",
+      "answer": "The bearing surfaces appear to be metallic with a natural steel color, showing no signs of discoloration or contamination.",
+      "question_type": "visual",
+      "id": "getrag-010-q06"
+    },
+    {
+      "question": "Is there any visible damage to the bearing races?",
+      "answer": "No visible damage can be seen on either the inner or outer bearing races in the image.",
+      "question_type": "inspection",
+      "id": "getrag-010-q07"
+    },
+    {
+      "question": "What is the overall condition assessment of this bearing?",
+      "answer": "The bearing appears to be in excellent condition as it is described as new and genuine.",
+      "question_type": "inspection",
+      "id": "getrag-010-q08"
+    },
+    {
+      "question": "What type of component is this bearing likely used for?",
+      "answer": "Based on the gear teeth integrated into the inner race, this appears to be a transmission bearing assembly.",
+      "question_type": "component",
+      "id": "getrag-010-q09"
+    },
+    {
+      "question": "What should you verify when installing a new bearing?",
+      "answer": "You should verify that it is a genuine bearing, as emphasized in the caption.",
+      "question_type": "procedural",
+      "id": "getrag-010-q10"
+    },
+    {
+      "question": "What is visible in the background of the image?",
+      "answer": "There appears to be a small container or bottle with markings visible in the background.",
+      "question_type": "visual",
+      "id": "getrag-010-q11"
+    },
+    {
+      "question": "What is the significance of using a genuine bearing?",
+      "answer": "Using a genuine bearing ensures proper fit, quality, and longevity of the transmission assembly.",
+      "question_type": "factual",
+      "id": "getrag-010-q12"
+    }
+  ]
+}

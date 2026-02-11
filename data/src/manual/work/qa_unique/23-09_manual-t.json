@@ -1,0 +1,67 @@
+{
+  "page_id": "23-09_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-09.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:25:02.712586",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 801
+  },
+  "qa_pairs": [
+    {
+      "question": "What should be used between the claws and sealing surface to avoid damage when pressing out the shafts?",
+      "answer": "To avoid damage on the sealing surface, use a piece of wood, aluminum or similar material between claws and sealing surface.",
+      "question_type": "safety",
+      "id": "23-09_manual-t-q02"
+    },
+    {
+      "question": "What is the installation instruction for replacing the pin in the selector fork?",
+      "answer": "Installation: Replace pin.",
+      "question_type": "procedural",
+      "id": "23-09_manual-t-q04"
+    },
+    {
+      "question": "What must not tilt off during the installation step shown in image 30 23 031?",
+      "answer": "The layshaft must not tilt off during this step.",
+      "question_type": "safety",
+      "id": "23-09_manual-t-q06"
+    },
+    {
+      "question": "How are the 2nd and reverse gears engaged according to the procedure shown?",
+      "answer": "Engage 2nd and reverse gears by pushing 1st/2nd and 5th/reverse gear selector rods forward.",
+      "question_type": "procedural",
+      "id": "23-09_manual-t-q08"
+    },
+    {
+      "question": "What components should be installed together with the 3rd/4th gear selector fork?",
+      "answer": "Install 3rd/4th gear selector fork and 1st/2nd as well as 5th/reverse gear selector rods with selector forks.",
+      "question_type": "procedural",
+      "id": "23-09_manual-t-q09"
+    },
+    {
+      "question": "What should be removed from the case rear section according to the final step?",
+      "answer": "Remove all detent and locking balls in case rear section.",
+      "question_type": "procedural",
+      "id": "23-09_manual-t-q10"
+    },
+    {
+      "question": "How should the roller bearings be installed in the case rear section?",
+      "answer": "Install roller bearings with large diameter end facing out.",
+      "question_type": "procedural",
+      "id": "23-09_manual-t-q11"
+    },
+    {
+      "question": "What lubrication is specified for the lockpin and locking lever?",
+      "answer": "Lubricate lockpin and locking lever with oil.",
+      "question_type": "tool",
+      "id": "23-09_manual-t-q12"
+    }
+  ]
+}

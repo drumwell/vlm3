@@ -1,0 +1,67 @@
+{
+  "page_id": "23-10_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-10.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:27:28.020176",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 825
+  },
+  "qa_pairs": [
+    {
+      "question": "What important precaution must be observed when pulling in the shafts?",
+      "answer": "Make sure selector rods and layshaft are not clamped while pulling in parts.",
+      "question_type": "safety",
+      "id": "23-10_manual-t-q03"
+    },
+    {
+      "question": "What are the first steps for preparing the selector rods during assembly?",
+      "answer": "Move selector rods to neutral position. Slide 3rd/4th gear selector rod through selector forks.",
+      "question_type": "procedural",
+      "id": "23-10_manual-t-q04"
+    },
+    {
+      "question": "What is component number 4 in the arrest assembly diagram?",
+      "answer": "Component number 4 is the Detent ball in the arrest assembly.",
+      "question_type": "visual",
+      "id": "23-10_manual-t-q06"
+    },
+    {
+      "question": "How many detent balls should be installed and with what lubricant?",
+      "answer": "Install two detent balls with grease. Push in 3rd/4th gear selector rod against lock.",
+      "question_type": "procedural",
+      "id": "23-10_manual-t-q07"
+    },
+    {
+      "question": "What important note applies to versions with different length springs?",
+      "answer": "Version with Different Length Springs: Install short spring (1) with a relaxed length (A) of 15.9 mm (0.626\") to face the 5th reverse gear selector rod.",
+      "question_type": "inspection",
+      "id": "23-10_manual-t-q09"
+    },
+    {
+      "question": "How many locking balls and springs need to be installed according to the final step?",
+      "answer": "Install three locking balls and three springs.",
+      "question_type": "factual",
+      "id": "23-10_manual-t-q10"
+    },
+    {
+      "question": "What is the purpose of aligning the selector rods during the heating process?",
+      "answer": "Align selector rods during the heating process to ensure proper positioning when the heated bearing inner race is installed.",
+      "question_type": "procedural",
+      "id": "23-10_manual-t-q11"
+    },
+    {
+      "question": "What does component number 7 represent in the arrest assembly?",
+      "answer": "Component number 7 is the Lockpin in the arrest assembly.",
+      "question_type": "visual",
+      "id": "23-10_manual-t-q12"
+    }
+  ]
+}

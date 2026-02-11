@@ -1,0 +1,85 @@
+{
+  "page_id": "41-312_body",
+  "image_path": "raw/41 - Body/41-312.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:58:59.014201",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 835
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the title and model specification for this procedure?",
+      "answer": "REPLACING LEFT REAR SIDE PANEL (UP TO ROOF JOINT) - TWO DOOR MODEL",
+      "question_type": "factual",
+      "id": "41-312_body-q01"
+    },
+    {
+      "question": "Which page should you refer to for information before starting this procedure?",
+      "answer": "Refer to information on page 41-001.",
+      "question_type": "navigation",
+      "id": "41-312_body-q02"
+    },
+    {
+      "question": "What is the main action required for the spot welds throughout this procedure?",
+      "answer": "Make spot welding accessible and drill out spot welds.",
+      "question_type": "procedural",
+      "id": "41-312_body-q04"
+    },
+    {
+      "question": "After drilling out spot welds, what should be done to the brazing solder?",
+      "answer": "Remove brazing solder.",
+      "question_type": "procedural",
+      "id": "41-312_body-q05"
+    },
+    {
+      "question": "What special note is given for drilling in area A?",
+      "answer": "Drill through two panels in area (A) for version with extraction above C pillar.",
+      "question_type": "procedural",
+      "id": "41-312_body-q06"
+    },
+    {
+      "question": "What operation is shown in image 30 41 439?",
+      "answer": "Grind down edge.",
+      "question_type": "procedural",
+      "id": "41-312_body-q07"
+    },
+    {
+      "question": "What action should be performed after uncovering spot welds?",
+      "answer": "Uncover spot welding and drill out spot welds.",
+      "question_type": "procedural",
+      "id": "41-312_body-q08"
+    },
+    {
+      "question": "What image number shows the location of multiple spot welds that need to be drilled out on the lower panel?",
+      "answer": "Image 30 41 435 shows multiple spot weld locations marked with arrows.",
+      "question_type": "visual",
+      "id": "41-312_body-q09"
+    },
+    {
+      "question": "Which image shows the rear side panel separation area?",
+      "answer": "Image 30 41 437 shows the rear side panel separation with visible damage or cutting area.",
+      "question_type": "visual",
+      "id": "41-312_body-q10"
+    },
+    {
+      "question": "What does image 30 41 438 demonstrate?",
+      "answer": "It shows making spot welding accessible and drilling out spot welds on the upper panel area.",
+      "question_type": "visual",
+      "id": "41-312_body-q11"
+    },
+    {
+      "question": "What is shown in the final image 30 41 441?",
+      "answer": "It shows uncovering spot welding and drilling out spot welds on what appears to be the lower panel section with multiple arrows indicating weld locations.",
+      "question_type": "visual",
+      "id": "41-312_body-q12"
+    }
+  ]
+}

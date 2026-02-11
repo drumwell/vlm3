@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-136",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/136.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:55:20.111646",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 573
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the airbag module on doors?",
+      "answer": "11 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-136-q01"
+    },
+    {
+      "question": "What type of screw is specified for the bracket of ITS head airbag on body?",
+      "answer": "Self-tapping screw with 2.5 Nm torque",
+      "question_type": "factual",
+      "id": "00-torque-specs-136-q03"
+    },
+    {
+      "question": "What is the torque specification for the ITS head airbag on body?",
+      "answer": "11 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-136-q04"
+    },
+    {
+      "question": "Which vehicle types use the airbag module on doors specification?",
+      "answer": "E36, E38, E39",
+      "question_type": "factual",
+      "id": "00-torque-specs-136-q05"
+    },
+    {
+      "question": "What type of bolt is used for the additional steel bracket for ITS head airbag on body?",
+      "answer": "Self-tapping M5 threaded bolt",
+      "question_type": "factual",
+      "id": "00-torque-specs-136-q07"
+    },
+    {
+      "question": "What vehicle type is specified for the additional steel bracket for ITS head airbag on body?",
+      "answer": "E38 L7",
+      "question_type": "factual",
+      "id": "00-torque-specs-136-q09"
+    },
+    {
+      "question": "What is the lowest torque specification shown in the airbag generator section?",
+      "answer": "2.5 Nm for the bracket of ITS head airbag on body",
+      "question_type": "factual",
+      "id": "00-torque-specs-136-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "getrag-014",
+  "image_path": "raw/Getrag265:5_Rebuild_ShiftBMW/014.jpg",
+  "section_id": "",
+  "section_name": "Getrag265:5_Rebuild_ShiftBMW",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:44:51.321103",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 2031,
+    "tokens_output": 870
+  },
+  "qa_pairs": [
+    {
+      "question": "What components need to be removed as an assembly along with the shift rod?",
+      "answer": "The reverse gear loose and 1st reverse synchro hub need to be removed as an assembly along with the shift rod by sliding it out along the output shaft.",
+      "question_type": "procedural",
+      "id": "getrag-014-q01"
+    },
+    {
+      "question": "How is the reverse gear and synchro hub removed from the transmission?",
+      "answer": "They are removed by sliding the assembly out along the output shaft.",
+      "question_type": "procedural",
+      "id": "getrag-014-q02"
+    },
+    {
+      "question": "What gear components are visible in the top image?",
+      "answer": "The top image shows the reverse gear loose and 1st reverse synchro hub assembly with helical gear teeth, along with the transmission case housing.",
+      "question_type": "visual",
+      "id": "getrag-014-q03"
+    },
+    {
+      "question": "What is shown in the bottom photograph?",
+      "answer": "The bottom photograph shows the separated transmission case halves with the gear assembly and output shaft visible, displaying the internal gearbox components.",
+      "question_type": "visual",
+      "id": "getrag-014-q04"
+    },
+    {
+      "question": "What issue was discovered with the shimmed items during disassembly?",
+      "answer": "Every shimmed item in the gearbox that was checked was not correct at disassembly with the old bearings and some result with new bearings and same shims.",
+      "question_type": "inspection",
+      "id": "getrag-014-q05"
+    },
+    {
+      "question": "What components are visible on the right side of the bottom image?",
+      "answer": "On the right side of the bottom image, you can see the transmission case half with circular openings and mounting surfaces for bearings and seals.",
+      "question_type": "visual",
+      "id": "getrag-014-q06"
+    },
+    {
+      "question": "What type of gear teeth are visible on the reverse gear?",
+      "answer": "The reverse gear shows helical gear teeth, which are angled cuts that provide smoother engagement compared to straight-cut gears.",
+      "question_type": "visual",
+      "id": "getrag-014-q07"
+    },
+    {
+      "question": "What does the synchro hub connect to in this assembly?",
+      "answer": "The synchro hub connects to the reverse gear and is part of the 1st reverse synchronizer assembly that slides along the output shaft.",
+      "question_type": "component",
+      "id": "getrag-014-q08"
+    },
+    {
+      "question": "Why might the shimming be incorrect during reassembly?",
+      "answer": "The shimming may be incorrect because new bearings have different dimensions than the old bearings, requiring adjustment of the existing shims for proper clearances.",
+      "question_type": "troubleshooting",
+      "id": "getrag-014-q09"
+    },
+    {
+      "question": "What is the relationship between the shift rod and the synchro hub removal?",
+      "answer": "The shift rod and synchro hub must be removed together as an assembly, with the hub sliding along the output shaft during removal.",
+      "question_type": "procedural",
+      "id": "getrag-014-q10"
+    },
+    {
+      "question": "What can be observed about the gear engagement surfaces in the top image?",
+      "answer": "The gear engagement surfaces show the helical tooth pattern and the smooth machined surfaces of the synchro hub, which are critical for proper gear engagement.",
+      "question_type": "inspection",
+      "id": "getrag-014-q11"
+    },
+    {
+      "question": "What does this disassembly reveal about bearing replacement procedures?",
+      "answer": "The disassembly reveals that when replacing bearings, the existing shims will likely need to be recalculated and adjusted to maintain proper clearances and preload.",
+      "question_type": "procedural",
+      "id": "getrag-014-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "62-87_instrume",
+  "image_path": "raw/62 - Instruments/62-87.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:49:53.888059",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1890,
+    "tokens_output": 721
+  },
+  "qa_pairs": [
+    {
+      "question": "What section and page numbers are shown at the top of this page?",
+      "answer": "This is page 62 - 87 from the service manual.",
+      "question_type": "factual",
+      "id": "62-87_instrume-q01"
+    },
+    {
+      "question": "What is the title of section 2.2.3?",
+      "answer": "LEDs and Light Bulbs for SI Signs (Not with 2nd Generation SI).",
+      "question_type": "factual",
+      "id": "62-87_instrume-q02"
+    },
+    {
+      "question": "Which BMW series cars are mentioned for the first procedure?",
+      "answer": "'3' Series Cars are mentioned for connecting the printed circuit board.",
+      "question_type": "factual",
+      "id": "62-87_instrume-q03"
+    },
+    {
+      "question": "What should happen when you connect the printed circuit board on '3' Series cars?",
+      "answer": "All LEDs and both light bulbs must come on.",
+      "question_type": "procedural",
+      "id": "62-87_instrume-q04"
+    },
+    {
+      "question": "Which BMW series cars are mentioned for the second procedure?",
+      "answer": "'5', '6' and '7' Series Cars are mentioned for connecting the plug of printed circuit board.",
+      "question_type": "factual",
+      "id": "62-87_instrume-q05"
+    },
+    {
+      "question": "What is the expected result when connecting the plug on '5', '6' and '7' series cars?",
+      "answer": "All LEDs and both signs must light up.",
+      "question_type": "procedural",
+      "id": "62-87_instrume-q06"
+    },
+    {
+      "question": "What component is being tested in both procedures shown?",
+      "answer": "The printed circuit board is being tested in both procedures.",
+      "question_type": "component",
+      "id": "62-87_instrume-q07"
+    },
+    {
+      "question": "What are the reference numbers for the two images shown?",
+      "answer": "The top image is labeled 30 62 092 and the bottom image is labeled 30 62 053.",
+      "question_type": "factual",
+      "id": "62-87_instrume-q08"
+    },
+    {
+      "question": "What visual indication confirms proper operation in the '3' Series test?",
+      "answer": "All LEDs and both light bulbs coming on confirms proper operation.",
+      "question_type": "inspection",
+      "id": "62-87_instrume-q09"
+    },
+    {
+      "question": "What visual indication confirms proper operation in the '5', '6' and '7' Series test?",
+      "answer": "All LEDs and both signs lighting up confirms proper operation.",
+      "question_type": "inspection",
+      "id": "62-87_instrume-q10"
+    },
+    {
+      "question": "What type of generation SI system is excluded from this procedure?",
+      "answer": "The 2nd Generation SI system is excluded from this procedure.",
+      "question_type": "factual",
+      "id": "62-87_instrume-q11"
+    },
+    {
+      "question": "What appears to be shown in the circular diagnostic images?",
+      "answer": "The images show the printed circuit board connection points with arrows indicating where to connect for testing LEDs and light bulbs.",
+      "question_type": "visual",
+      "id": "62-87_instrume-q12"
+    }
+  ]
+}

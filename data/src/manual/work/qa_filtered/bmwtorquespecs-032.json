@@ -1,0 +1,25 @@
+{
+  "page_id": "bmwtorquespecs-032",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/032.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:18:26.039460",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 589
+  },
+  "qa_pairs": [
+    {
+      "question": "Which engine types use M26 x 1.5 screws for the cylinder for chain tensioner plunger?",
+      "answer": "All engines except M50/M52/S52/S50 US",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-032-q09"
+    }
+  ]
+}

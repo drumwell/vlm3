@@ -1,0 +1,49 @@
+{
+  "page_id": "bmwtorquespecs-017",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/017.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:15:33.573812",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 529
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the torque angles specified for cylinder head bolts after the initial torque?",
+      "answer": "90\u00b0 for both torque angle steps",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-017-q02"
+    },
+    {
+      "question": "What procedure is specified for the cylinder head bolts before installation?",
+      "answer": "Replace, wash and oil cylinder head bolts",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-017-q04"
+    },
+    {
+      "question": "How many torque angle steps are required after the initial torque for cylinder head bolts?",
+      "answer": "Two torque angle steps of 90\u00b0 each",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-017-q05"
+    },
+    {
+      "question": "What unit is used for measuring the torque angles?",
+      "answer": "Degrees (\u00b0)",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-017-q09"
+    },
+    {
+      "question": "What is the complete torque sequence for cylinder head bolts?",
+      "answer": "30 Nm initial torque, followed by 90\u00b0 torque angle, then another 90\u00b0 torque angle",
+      "question_type": "procedural",
+      "id": "bmwtorquespecs-017-q10"
+    }
+  ]
+}

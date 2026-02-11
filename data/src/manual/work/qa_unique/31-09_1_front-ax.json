@@ -1,0 +1,85 @@
+{
+  "page_id": "31-09_1_front-ax",
+  "image_path": "raw/31 - Front Axle/31-09_1.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:01:10.164433",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 844
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the part number for replacing the bearing of the left or right wheel hub drive flange?",
+      "answer": "The part number is 31 21 151.",
+      "question_type": "factual",
+      "id": "31-09_1_front-ax-q01"
+    },
+    {
+      "question": "What special tools are mentioned in the note for pulling the bearing inner race off the drive flange?",
+      "answer": "Special Tools 33 1 307 and 00 7 500 are mentioned for pulling the bearing inner race off the drive flange.",
+      "question_type": "tool",
+      "id": "31-09_1_front-ax-q02"
+    },
+    {
+      "question": "What should be done before removing the output shaft according to the procedure?",
+      "answer": "Remove output shaft 31 60 000 and mount control arm again finger tight, so that the spring strut is held in position for further procedures.",
+      "question_type": "procedural",
+      "id": "31-09_1_front-ax-q03"
+    },
+    {
+      "question": "What component should be lifted out according to the visual instruction?",
+      "answer": "The circlip should be lifted out.",
+      "question_type": "visual",
+      "id": "31-09_1_front-ax-q04"
+    },
+    {
+      "question": "What is the first step when removing the brake system components?",
+      "answer": "Unscrew brake caliper and suspend from body on a piece of wire, ensuring brake line remains connected.",
+      "question_type": "procedural",
+      "id": "31-09_1_front-ax-q05"
+    },
+    {
+      "question": "What should be referenced for tightening torque specifications?",
+      "answer": "The tightening torque specifications should be referenced in Group 34.",
+      "question_type": "navigation",
+      "id": "31-09_1_front-ax-q06"
+    },
+    {
+      "question": "Which special tool numbers are used together for pressing out the bearing?",
+      "answer": "Special Tool 31 2 090 is used with Special Tool 31 2 070, where 31 2 070 is applied and 31 2 090 is mounted again to press out the bearing.",
+      "question_type": "tool",
+      "id": "31-09_1_front-ax-q07"
+    },
+    {
+      "question": "What component is identified by callout number 33 1307 in the diagrams?",
+      "answer": "Callout number 33 1307 identifies Special Tool 33 1 307 used in the bearing removal process.",
+      "question_type": "visual",
+      "id": "31-09_1_front-ax-q09"
+    },
+    {
+      "question": "What is the final step in the bearing replacement procedure?",
+      "answer": "Remove Special Tool 31 2 090 after unscrewing the spindle of Special Tool 31 2 090 and screwing in Special Tool 33 4 032 flush.",
+      "question_type": "procedural",
+      "id": "31-09_1_front-ax-q10"
+    },
+    {
+      "question": "What should remain installed during the bearing pressing procedure?",
+      "answer": "Special Tool 31 2 090 should remain installed during the bearing pressing procedure.",
+      "question_type": "procedural",
+      "id": "31-09_1_front-ax-q11"
+    },
+    {
+      "question": "What is the purpose of Special Tool 31 2 090 with the hook attachment?",
+      "answer": "Special Tool 31 2 090 is mounted with the hook attached on tie rod arm and used to press off the drive flange.",
+      "question_type": "tool",
+      "id": "31-09_1_front-ax-q12"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page_id": "00-torque-specs-11-06",
+  "image_path": "raw/00 - Torque Specs/11-06.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:37:44.653469",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 606
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the initial torque specification for M51/M41 cylinder head bolts?",
+      "answer": "80 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-06-q01"
+    },
+    {
+      "question": "After loosening all bolts 1/2 turn, what is the next torque specification for M51/M41 cylinder head bolts?",
+      "answer": "50 Nm",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-06-q02"
+    },
+    {
+      "question": "What are the torque angle specifications applied after the initial torque for M51/M41 cylinder head bolts?",
+      "answer": "90\u00b0, then another 90\u00b0",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-06-q03"
+    },
+    {
+      "question": "How long is the warm-running time specified for M51/M41 cylinder head bolt installation?",
+      "answer": "25 min",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-06-q04"
+    },
+    {
+      "question": "What is the initial torque specification for M40/M42/M43/M44/M50/S50 US/S52/M52 cylinder head bolts with cast iron engine block?",
+      "answer": "30 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-06-q06"
+    },
+    {
+      "question": "What are the torque angles for cast iron engine block cylinder head bolts?",
+      "answer": "90\u00b0 followed by another 90\u00b0",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-06-q07"
+    },
+    {
+      "question": "What is the initial torque specification for M52 cylinder head bolts with cast aluminum engine block?",
+      "answer": "40 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-06-q08"
+    },
+    {
+      "question": "What important instruction is given for M52 cast aluminum engine block cylinder head bolts regarding coating?",
+      "answer": "Do not wash away coating on cylinder head screws",
+      "question_type": "procedural",
+      "id": "00-torque-specs-11-06-q10"
+    }
+  ]
+}

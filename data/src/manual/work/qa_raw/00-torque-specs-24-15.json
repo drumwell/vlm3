@@ -1,0 +1,70 @@
+{
+  "page_id": "00-torque-specs-24-15",
+  "image_path": "raw/00 - Torque Specs/24-15.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:02:44.570885",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 561
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the selector lever on transmission screw size M8x1?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-15-q01"
+    },
+    {
+      "question": "What is the torque specification for the M8 screw on the A5S 300J transmission type?",
+      "answer": "15 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-15-q03"
+    },
+    {
+      "question": "Which section of the service manual covers automatic transmission specifications?",
+      "answer": "Section 24-15 Automatic Transmission",
+      "question_type": "navigation",
+      "id": "00-torque-specs-24-15-q04"
+    },
+    {
+      "question": "What component is covered under section 24 51?",
+      "answer": "External shift linkage",
+      "question_type": "component",
+      "id": "00-torque-specs-24-15-q05"
+    },
+    {
+      "question": "What are the two different screw sizes specified for the selector lever on transmission?",
+      "answer": "M8x1 and M8",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-15-q06"
+    },
+    {
+      "question": "What transmission type uses the M8 screw specification?",
+      "answer": "A5S 300J",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-15-q07"
+    },
+    {
+      "question": "What is the difference in torque specifications between the M8x1 and M8 screws for the selector lever?",
+      "answer": "The M8x1 screw requires 10 Nm while the M8 screw requires 15 Nm, a difference of 5 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-15-q08"
+    },
+    {
+      "question": "What unit of measurement is used for the torque specifications on this page?",
+      "answer": "Nm (Newton meters)",
+      "question_type": "factual",
+      "id": "00-torque-specs-24-15-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

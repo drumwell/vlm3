@@ -1,0 +1,73 @@
+{
+  "page_id": "bmwtorquespecs-110",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/110.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:33:21.902385",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 793
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the Torx screws used on the F clutch on the transmission case?",
+      "answer": "The Torx screws for F clutch on transmission case (4HP-22/4HP-24) require 10 Nm torque.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-110-q01"
+    },
+    {
+      "question": "What screw size is specified for the ASS 560Z component?",
+      "answer": "The ASS 560Z component uses M8 screws with a torque specification of 23 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-110-q02"
+    },
+    {
+      "question": "What is the torque value for the brake band adjusting screw?",
+      "answer": "The brake band adjusting screw (A 4 S 270 R/A 4 S 310 R) requires 5 Nm torque with a 5/16\" screw size.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-110-q03"
+    },
+    {
+      "question": "What screw size is used for the lock nut of brake band adjusting screw?",
+      "answer": "The lock nut of brake band adjusting screw uses a 5/16\" screw size.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-110-q05"
+    },
+    {
+      "question": "What is the torque specification for the lock nut of brake band adjusting screw?",
+      "answer": "The lock nut of brake band adjusting screw (A 4 S 270 R/A 4 S 310 R) requires 21 Nm torque.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-110-q06"
+    },
+    {
+      "question": "What transmission types are specified for the Torx screws in item 1AZ?",
+      "answer": "The Torx screws for F clutch are specified for 4HP-22/4HP-24 transmission types.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-110-q07"
+    },
+    {
+      "question": "What section of the manual does this page belong to?",
+      "answer": "This page belongs to section 24-8 Automatic Transmission, specifically covering Shift Clutches (24 23).",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-110-q08"
+    },
+    {
+      "question": "What is the screw size for the Torx screws used on the transmission case F clutch?",
+      "answer": "The Torx screws for F clutch on transmission case use M6 screws.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-110-q09"
+    },
+    {
+      "question": "Which components in the shift clutches section use the same transmission type designation?",
+      "answer": "The brake band adjusting screw (2AZ) and lock nut of brake band adjusting screw (3AZ) both use the A 4 S 270 R/A 4 S 310 R transmission type designation.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-110-q10"
+    }
+  ]
+}

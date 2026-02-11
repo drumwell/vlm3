@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-11-30",
+  "image_path": "raw/00 - Torque Specs/11-30.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:42:32.638661",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 608
+  },
+  "qa_pairs": [
+    {
+      "question": "What section of the manual covers the water pump and drive specifications?",
+      "answer": "Section 11 51 Water Pump and Drive",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-30-q03"
+    },
+    {
+      "question": "How many different screw sizes are specified for the water pump to crankcase mounting?",
+      "answer": "Two different screw sizes - M8 and M6",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-30-q04"
+    },
+    {
+      "question": "Which screw size requires more than double the torque of the other when mounting the water pump?",
+      "answer": "The M8 screw requires 22 Nm, which is more than double the 10 Nm required for the M6 screw",
+      "question_type": "factual",
+      "id": "00-torque-specs-11-30-q10"
+    }
+  ]
+}

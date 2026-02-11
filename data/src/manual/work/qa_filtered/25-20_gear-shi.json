@@ -1,0 +1,91 @@
+{
+  "page_id": "25-20_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-20.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:52:21.827028",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 734
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing the selector lever?",
+      "answer": "The procedure number is 25 16 080 for removing and installing selector lever version with cable (All Wheel Drive Cars).",
+      "question_type": "factual",
+      "id": "25-20_gear-shi-q01"
+    },
+    {
+      "question": "What should you do with the display lamp when removing the selector lever?",
+      "answer": "Pull display lamp out of holder and unclip wires.",
+      "question_type": "procedural",
+      "id": "25-20_gear-shi-q02"
+    },
+    {
+      "question": "What does callout number 3 indicate in the upper right diagram?",
+      "answer": "Callout number 3 indicates to take plug out of holder and unscrew screws.",
+      "question_type": "visual",
+      "id": "25-20_gear-shi-q03"
+    },
+    {
+      "question": "How should the selector lever be positioned when removing it from the transmission?",
+      "answer": "Tilt out selector lever together with the transmission switch and shift gate.",
+      "question_type": "procedural",
+      "id": "25-20_gear-shi-q04"
+    },
+    {
+      "question": "What reference number should you check for removing the selector lever complete with base?",
+      "answer": "See reference 25 16 050 for removing selector lever complete with base.",
+      "question_type": "navigation",
+      "id": "25-20_gear-shi-q05"
+    },
+    {
+      "question": "What component grabs onto the selector lever during installation?",
+      "answer": "Fork of transmission switch grabs on selector lever during installation.",
+      "question_type": "procedural",
+      "id": "25-20_gear-shi-q06"
+    },
+    {
+      "question": "What must be done to the shift gate on the transmission switch?",
+      "answer": "Unscrew shift gate on transmission switch.",
+      "question_type": "procedural",
+      "id": "25-20_gear-shi-q07"
+    },
+    {
+      "question": "What should be checked when installing the transmission switch?",
+      "answer": "Make sure that pins on transmission switch engage in holes of shift gate.",
+      "question_type": "inspection",
+      "id": "25-20_gear-shi-q08"
+    },
+    {
+      "question": "What components need to be removed from the shaft according to the lower left procedure?",
+      "answer": "Pull out shaft, take off washer (1), and pull bearing sleeves (2) out of housing.",
+      "question_type": "procedural",
+      "id": "25-20_gear-shi-q09"
+    },
+    {
+      "question": "What maintenance should be performed on bearing surfaces during installation?",
+      "answer": "Replace bearing sleeves and lubricate bearing surfaces.",
+      "question_type": "procedural",
+      "id": "25-20_gear-shi-q10"
+    },
+    {
+      "question": "What does the pin shown in diagram 30 25 043 need to have done to it?",
+      "answer": "Drive out pin as shown in the diagram.",
+      "question_type": "procedural",
+      "id": "25-20_gear-shi-q11"
+    },
+    {
+      "question": "What are the numbered components (1) and (2) shown in the shaft assembly diagram?",
+      "answer": "Component (1) is the washer and component (2) represents the bearing sleeves that need to be pulled out of housing.",
+      "question_type": "component",
+      "id": "25-20_gear-shi-q12"
+    }
+  ]
+}

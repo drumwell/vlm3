@@ -1,0 +1,79 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6131-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "wiring",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:02:20.026396",
+    "prompt_template": "electrical_manual/wiring",
+    "tokens_input": 1957,
+    "tokens_output": 680
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the wire color for the connection between the ignition key switch and the chime module?",
+      "answer": "The wire color is 75 BR/GN (brown/green).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00-q01"
+    },
+    {
+      "question": "Which fuse protects the ignition key warning/seatbelt warning circuit that is hot at all times?",
+      "answer": "Fuse 21, which is a 7.5 amp fuse located in the power distribution box.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00-q02"
+    },
+    {
+      "question": "What happens when the driver's door jamb switch is closed with the door open?",
+      "answer": "When the door jamb switch is closed with the door open, it provides a ground path for the warning circuits.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00-q03"
+    },
+    {
+      "question": "What wire color connects the seatbelt switch to the seatbelt warning timer?",
+      "answer": "The wire color is 75 BR/WT (brown/white).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00-q04"
+    },
+    {
+      "question": "How long does the seatbelt warning timer operate after the timer enable signal is applied?",
+      "answer": "The timer operates for about 5 seconds after the timer enable signal is applied.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00-q05"
+    },
+    {
+      "question": "What component shows a 'fasten seatbelts indicator' symbol?",
+      "answer": "The Active Check Control Unit shows the fasten seatbelts indicator symbol.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00-q06"
+    },
+    {
+      "question": "What wire color is used for the connection that is hot in start or run from fuse 16?",
+      "answer": "The wire color is .75 GN/WT (green/white).",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00-q07"
+    },
+    {
+      "question": "What condition must exist at the ignition key switch for the warning system to activate?",
+      "answer": "The ignition key switch must be shown with key removed for the warning system to activate.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00-q08"
+    },
+    {
+      "question": "Where does the ground connection G200 connect to in this circuit?",
+      "answer": "Ground G200 connects to the ignition key switch circuit at the 75 BR/GN wire.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00-q09"
+    },
+    {
+      "question": "What additional splice may be present in some vehicles according to the diagram?",
+      "answer": "Some vehicles may contain an additional splice in the brake warning system, as noted with the ground distribution reference G200.",
+      "question_type": "troubleshooting",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6131-00-q10"
+    }
+  ]
+}

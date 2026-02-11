@@ -1,0 +1,79 @@
+{
+  "page_id": "65-500_radio-an",
+  "image_path": "raw/65 - Radio and Special Equipment/65-500.jpg",
+  "section_id": "65",
+  "section_name": "Radio and Special Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:06:57.088836",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 959
+  },
+  "qa_pairs": [
+    {
+      "question": "What testers are required for testing the on-board computer Generation II?",
+      "answer": "Universal adapter with connecting lead as well as BMW service test unit (multimeter tests).",
+      "question_type": "tool",
+      "id": "65-500_radio-an-q01"
+    },
+    {
+      "question": "What are the different ignition lock positions and their functions for the on-board computer?",
+      "answer": "0: No display background lighting, not possible to operate buttons. R: Display board illuminated, operation possible, code function free. 15: Same as R, however also distance/time/consumption functions, code function locked. 50: Same as 15, but in this case the starting interlock must only function 6 seconds after taking away the term. 50 signal.",
+      "question_type": "operation",
+      "id": "65-500_radio-an-q02"
+    },
+    {
+      "question": "What is the universal adapter HWB number and its associated connection pins?",
+      "answer": "Universal adapter HWB No. 81 12 9 425 091, with Conn. lead wire harness 26-pin 096 and Conn. lead control unit 26-pin 097.",
+      "question_type": "tool",
+      "id": "65-500_radio-an-q03"
+    },
+    {
+      "question": "How can you call the type of coding plug in ignition lock position 15?",
+      "answer": "The type of coding plug can be called in ignition lock position 15 by pressing buttons 1 and 100 simultaneously. If calling is not possible, check power supply between pins 10 (= B -) and 7 (= term. 15).",
+      "question_type": "procedural",
+      "id": "65-500_radio-an-q04"
+    },
+    {
+      "question": "What should you do if PPPP appears in the display due to a problem in the coding plug on back?",
+      "answer": "Replace coding plug, disconnect power supply, reconnect, perform coding test.",
+      "question_type": "troubleshooting",
+      "id": "65-500_radio-an-q05"
+    },
+    {
+      "question": "What does AAAA appearing in the display indicate?",
+      "answer": "AAAA appears in display indicates an internal BC II defect. The solution is to replace BC II; also refer to point 1.",
+      "question_type": "diagnostic",
+      "id": "65-500_radio-an-q06"
+    },
+    {
+      "question": "What voltage specification should be checked between pins 10 and 6 when there is no display?",
+      "answer": "When there is no display due to power supply missing, check between pin 10 (= B-) and pin 6 (= B+). Specification: U \u2265 10 V.",
+      "question_type": "diagnostic",
+      "id": "65-500_radio-an-q07"
+    },
+    {
+      "question": "What causes a weak time display with no other operations possible in ignition lock position R?",
+      "answer": "This can be caused by no voltage on term. R or BC II defective (e.g. buttons). Check between pin 10 (= B-) and pin 5 (= term. R). Specification: U \u2265 10 V.",
+      "question_type": "troubleshooting",
+      "id": "65-500_radio-an-q08"
+    },
+    {
+      "question": "How is data stored in the on-board computer II cancelled?",
+      "answer": "Data stored in on board computer II is cancelled with the connecting switch of the test adapter (between BC II wire harness plug and BC II).",
+      "question_type": "procedural",
+      "id": "65-500_radio-an-q09"
+    },
+    {
+      "question": "What should be checked regarding the fuel transmitter if BC II needs to be replaced?",
+      "answer": "After replacing BC II check coding and compensate reserve volume: If the tank volume does not equal reserve volume, pull the fuel level transmitter out of tank far enough that float is on bottom stop. Remove anti-tamper lock on BC II (left side next to button 1000). Ignition lock in position 15. Correct the displayed liter value with a screwdriver after pressing buttons 1 and 1000 simultaneously. Reinstall anti-tamper lock.",
+      "question_type": "procedural",
+      "id": "65-500_radio-an-q10"
+    }
+  ]
+}

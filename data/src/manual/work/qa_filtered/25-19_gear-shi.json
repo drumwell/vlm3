@@ -1,0 +1,85 @@
+{
+  "page_id": "25-19_gear-shi",
+  "image_path": "raw/25 - Gear Shift Mechanism/25-19.jpg",
+  "section_id": "25",
+  "section_name": "Gear Shift Mechanism",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:52:06.138852",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 736
+  },
+  "qa_pairs": [
+    {
+      "question": "What type of lubricant should be used when checking bearing sleeves during selector lever installation?",
+      "answer": "Molykote Longterm 2",
+      "question_type": "tool",
+      "id": "25-19_gear-shi-q02"
+    },
+    {
+      "question": "What components need to be removed from the selector lever lower section according to procedure 20 25 023?",
+      "answer": "Remove washer (1) and bearing sleeves (2).",
+      "question_type": "procedural",
+      "id": "25-19_gear-shi-q03"
+    },
+    {
+      "question": "What should you do before removing the selector lever complete with base?",
+      "answer": "See 25 16 050 and drive out pin.",
+      "question_type": "procedural",
+      "id": "25-19_gear-shi-q04"
+    },
+    {
+      "question": "In diagram 20 25 024, what do the numbered callouts 3, 4, and 5 indicate?",
+      "answer": "Callout 3 indicates the plug to pull off, callout 4 indicates the scale light wire to disconnect, and callout 5 indicates the screw to unscrew.",
+      "question_type": "visual",
+      "id": "25-19_gear-shi-q05"
+    },
+    {
+      "question": "What is the procedure for installing the pin of push button according to diagram 30 25 019?",
+      "answer": "Guide pin of push button into pull rod hole.",
+      "question_type": "procedural",
+      "id": "25-19_gear-shi-q06"
+    },
+    {
+      "question": "What should be removed along with the transmission switch according to procedure 20 25 024?",
+      "answer": "Remove transmission switch together with the upper selector lever section.",
+      "question_type": "procedural",
+      "id": "25-19_gear-shi-q07"
+    },
+    {
+      "question": "What installation check is required according to procedure 30 25 018?",
+      "answer": "Check installed position of transmission switch and drive.",
+      "question_type": "inspection",
+      "id": "25-19_gear-shi-q08"
+    },
+    {
+      "question": "How do you remove the handle from the selector lever?",
+      "answer": "Unscrew screw on handle and pull off handle.",
+      "question_type": "procedural",
+      "id": "25-19_gear-shi-q09"
+    },
+    {
+      "question": "What should be done with the gate during installation according to procedure 30 25 020?",
+      "answer": "Check gate, replacing if necessary.",
+      "question_type": "inspection",
+      "id": "25-19_gear-shi-q10"
+    },
+    {
+      "question": "What action is required for the pull rod in procedure 20 25 028?",
+      "answer": "Take pull rod out of selector lever upper section.",
+      "question_type": "procedural",
+      "id": "25-19_gear-shi-q11"
+    },
+    {
+      "question": "What should be checked and possibly replaced during bearing sleeve installation?",
+      "answer": "Check bearing sleeves, replacing if necessary and lubricating with Molykote Longterm 2.",
+      "question_type": "inspection",
+      "id": "25-19_gear-shi-q12"
+    }
+  ]
+}

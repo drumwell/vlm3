@@ -1,0 +1,97 @@
+{
+  "page_id": "13-904_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-904.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:55:27.426284",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 727
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the test position number for the cold start valve test?",
+      "answer": "Test Position 7 - COLD START VALVE.",
+      "question_type": "factual",
+      "id": "13-904_fuel-sys-q01"
+    },
+    {
+      "question": "What should you do if the code number or resistance check fails?",
+      "answer": "Replace cold start valve.",
+      "question_type": "procedural",
+      "id": "13-904_fuel-sys-q02"
+    },
+    {
+      "question": "What power supply voltage is required via terminal 50 during starting?",
+      "answer": "Power supply via terminal 50 must be greater than 9 volts while starting.",
+      "question_type": "factual",
+      "id": "13-904_fuel-sys-q03"
+    },
+    {
+      "question": "What temperature does the ground supply go through for the cold start valve?",
+      "answer": "Ground supply via temperature time switch at 0\u00b0 C/32\u00b0 F temp. switch.",
+      "question_type": "factual",
+      "id": "13-904_fuel-sys-q04"
+    },
+    {
+      "question": "What should you do with the fuel line when removing the cold start valve?",
+      "answer": "Remove cold start valve with fuel line remaining connected.",
+      "question_type": "procedural",
+      "id": "13-904_fuel-sys-q05"
+    },
+    {
+      "question": "What Jetronic test lead should be plugged in and where should it connect?",
+      "answer": "Plug Jetronic test lead 61 1 440 on cold start valve and connect with B + or B -.",
+      "question_type": "procedural",
+      "id": "13-904_fuel-sys-q06"
+    },
+    {
+      "question": "What measurement should be taken when holding the cold start valve?",
+      "answer": "Hold cold start valve in measuring glass 13 3 020.",
+      "question_type": "procedural",
+      "id": "13-904_fuel-sys-q07"
+    },
+    {
+      "question": "What should you check after operating the electric fuel pump?",
+      "answer": "Cold start valve ejecting fuel? Spray angle and flow rate okay?",
+      "question_type": "inspection",
+      "id": "13-904_fuel-sys-q08",
+      "_warnings": [
+        "Answer ends with '?' (may be a question)"
+      ]
+    },
+    {
+      "question": "What happens when you pull off the Jetronic test lead while the electric fuel pump is running?",
+      "answer": "Cold start valve must stop fuel flow. Does cold start valve stop fuel flow?",
+      "question_type": "diagnostic",
+      "id": "13-904_fuel-sys-q09",
+      "_warnings": [
+        "Answer ends with '?' (may be a question)"
+      ]
+    },
+    {
+      "question": "What is the maximum permissible leak rate for the cold start valve?",
+      "answer": "A leak rate of max. 0.3 cc per minute is permissible with electric fuel pump running and Jetronic test lead 61 1 440 disconnected.",
+      "question_type": "factual",
+      "id": "13-904_fuel-sys-q10"
+    },
+    {
+      "question": "What should you do if the leak test fails?",
+      "answer": "Replace cold start valve.",
+      "question_type": "procedural",
+      "id": "13-904_fuel-sys-q11"
+    },
+    {
+      "question": "Where can you find additional information about specifications and wiring?",
+      "answer": "See Specifications and See Wiring Diagram.",
+      "question_type": "navigation",
+      "id": "13-904_fuel-sys-q12"
+    }
+  ]
+}

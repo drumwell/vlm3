@@ -1,0 +1,55 @@
+{
+  "page_id": "52-00-index-a_seats",
+  "image_path": "raw/52 - Seats/52-00-index-a.jpg",
+  "section_id": "52",
+  "section_name": "Seats",
+  "source_type": "service_manual",
+  "content_type": "index",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:37:28.282365",
+    "prompt_template": "service_manual/index",
+    "tokens_input": 1743,
+    "tokens_output": 419
+  },
+  "qa_pairs": [
+    {
+      "question": "What section number covers the seats in this BMW E30 manual?",
+      "answer": "Section 52 covers the seats.",
+      "question_type": "factual",
+      "id": "52-00-index-a_seats-q01"
+    },
+    {
+      "question": "What is the procedure reference for front seat removal and installation?",
+      "answer": "52 10 000 - Front seat remove and install, which can be found on page 52-101.",
+      "question_type": "navigation",
+      "id": "52-00-index-a_seats-q02"
+    },
+    {
+      "question": "Where can I find the procedure for replacing seat rails on the front seat?",
+      "answer": "Seat rails (outer or inner) on front seat remove and install or replace is procedure 100, found on page 52-101.",
+      "question_type": "navigation",
+      "id": "52-00-index-a_seats-q03"
+    },
+    {
+      "question": "What procedure number covers the reclining mechanism on the left or right front seat?",
+      "answer": "Procedure 210 covers the reclining mechanism on left or right front seat remove and install or replace, found on page 52-102.",
+      "question_type": "factual",
+      "id": "52-00-index-a_seats-q04"
+    },
+    {
+      "question": "Which page contains information about back panel removal on front seat backrests?",
+      "answer": "Page 52-103 contains procedure 450 for back panel on left or right front seat backrest remove and install.",
+      "question_type": "navigation",
+      "id": "52-00-index-a_seats-q05"
+    },
+    {
+      "question": "What is the procedure reference for rear seat cushion and backrest work?",
+      "answer": "52 20 000 - Rear seat cushion and backrest remove and install, which can be found on page 52-201.",
+      "question_type": "factual",
+      "id": "52-00-index-a_seats-q06"
+    }
+  ]
+}

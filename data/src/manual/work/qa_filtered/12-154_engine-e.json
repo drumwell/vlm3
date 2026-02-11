@@ -1,0 +1,85 @@
+{
+  "page_id": "12-154_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-154.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:35:32.418601",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1893,
+    "tokens_output": 724
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do before assembling the starter components?",
+      "answer": "Clean all components thoroughly prior to assembling.",
+      "question_type": "procedural",
+      "id": "12-154_engine-e-q02"
+    },
+    {
+      "question": "What reference should you see for removing the solenoid?",
+      "answer": "See 12 41 041.",
+      "question_type": "navigation",
+      "id": "12-154_engine-e-q03"
+    },
+    {
+      "question": "How do you prevent carbon brushes from popping out during installation?",
+      "answer": "Insert a 22 mm wrench socket or a pipe with an outside diameter of approx. 30 mm (1.181\").",
+      "question_type": "procedural",
+      "id": "12-154_engine-e-q04"
+    },
+    {
+      "question": "What are the numbered components shown in the motor and gearbox separation diagram?",
+      "answer": "1 is the motor, 2 is the gearbox, 3 is a groove component, and 4 is the rubber part that must be aligned with groove 3.",
+      "question_type": "visual",
+      "id": "12-154_engine-e-q05"
+    },
+    {
+      "question": "What alignment requirement is specified when separating the motor and gearbox?",
+      "answer": "Groove 3 must be aligned with rubber part 4.",
+      "question_type": "procedural",
+      "id": "12-154_engine-e-q06"
+    },
+    {
+      "question": "What should you inspect on the armature shaft during disassembly?",
+      "answer": "Inspect armature shaft, removing burrs if necessary.",
+      "question_type": "inspection",
+      "id": "12-154_engine-e-q07"
+    },
+    {
+      "question": "What components should you remove when taking off the cap according to reference M 21 12 040?",
+      "answer": "Take off retainer 1 and shims 2.",
+      "question_type": "procedural",
+      "id": "12-154_engine-e-q08"
+    },
+    {
+      "question": "What should you check during installation after removing the cap and retainer?",
+      "answer": "Check axial play, correcting if necessary.",
+      "question_type": "inspection",
+      "id": "12-154_engine-e-q09"
+    },
+    {
+      "question": "What tool is recommended to make installation easier when mounting the unit?",
+      "answer": "Use wrench socket or pipe again to make installation easier.",
+      "question_type": "tool",
+      "id": "12-154_engine-e-q10"
+    },
+    {
+      "question": "What should you unscrew when starting the layshaft removal process?",
+      "answer": "Unscrew heat shield (if applicable), unscrew bracket, and check spacers.",
+      "question_type": "procedural",
+      "id": "12-154_engine-e-q11"
+    },
+    {
+      "question": "What components should be removed according to reference M 21 12 046?",
+      "answer": "Take off cover and rubber pad.",
+      "question_type": "procedural",
+      "id": "12-154_engine-e-q12"
+    }
+  ]
+}

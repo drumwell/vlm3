@@ -1,0 +1,43 @@
+{
+  "page_id": "23-165_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-165.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:32:28.109535",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 509
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the two shafts labeled in this transmission cross-section?",
+      "answer": "The two shafts labeled are the input shaft (callout 6) and the output shaft (callout 7).",
+      "question_type": "component",
+      "id": "23-165_manual-t-q04"
+    },
+    {
+      "question": "Where is the layshaft located in this transmission assembly?",
+      "answer": "The layshaft is located at callout number 8 and runs parallel to the main input and output shafts in the lower portion of the transmission case.",
+      "question_type": "visual",
+      "id": "23-165_manual-t-q05"
+    },
+    {
+      "question": "What gear position is identified by callout number 4?",
+      "answer": "Callout number 4 identifies the fourth gear position.",
+      "question_type": "component",
+      "id": "23-165_manual-t-q06"
+    },
+    {
+      "question": "What does callout number 6 in the lower left area represent?",
+      "answer": "Callout number 6 in the lower left area represents reverse gear.",
+      "question_type": "component",
+      "id": "23-165_manual-t-q08"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "page_id": "31-11_1_front-ax",
+  "image_path": "raw/31 - Front Axle/31-11_1.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:02:26.016776",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 889
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tools are required to replace the lockplate and lock during installation?",
+      "answer": "Special Tools 00 5 500 and 33 4 050 are required to replace the lockplate and lock.",
+      "question_type": "tool",
+      "id": "31-11_1_front-ax-q01"
+    },
+    {
+      "question": "What should be done with the tie rod joint during installation?",
+      "answer": "Keep grease off of pin and out of bore, replace the self-locking nut, and apply the specified tightening torque.",
+      "question_type": "procedural",
+      "id": "31-11_1_front-ax-q03"
+    },
+    {
+      "question": "What special tool is needed to press off the guide joint?",
+      "answer": "Special Tool 31 2 160 is used to unscrew the nut and press off the guide joint.",
+      "question_type": "tool",
+      "id": "31-11_1_front-ax-q04"
+    },
+    {
+      "question": "What are the three main disconnections required when working on the spring strut?",
+      "answer": "Disconnect the brake pad wear indicator plug, disconnect the ground wire, and disconnect wires and brake hose on spring strut holders.",
+      "question_type": "procedural",
+      "id": "31-11_1_front-ax-q05"
+    },
+    {
+      "question": "What happens to the brake line when the brake caliper is unscrewed and suspended?",
+      "answer": "The brake line remains connected when the brake caliper is unscrewed and suspended from the body on a piece of wire.",
+      "question_type": "procedural",
+      "id": "31-11_1_front-ax-q07"
+    },
+    {
+      "question": "What lubrication instruction is given for the output shaft installation?",
+      "answer": "Lubricate splines of output shaft lightly with oil and pull in output shaft with Special Tools 33 2 112, 33 2 114 and 33 4 038.",
+      "question_type": "procedural",
+      "id": "31-11_1_front-ax-q08"
+    },
+    {
+      "question": "What should be done when installing the guide joint according to the safety note?",
+      "answer": "Keep grease out of bore and off of pin, apply tightening torque, and lock the nut with a cotter pin.",
+      "question_type": "safety",
+      "id": "31-11_1_front-ax-q09"
+    },
+    {
+      "question": "What preliminary steps are required before removing the front spring strut assembly?",
+      "answer": "Remove the front wheel (see Group 36) and remove the ABS pulse transmitter (see Gr. 61).",
+      "question_type": "procedural",
+      "id": "31-11_1_front-ax-q10"
+    },
+    {
+      "question": "How should the lockplate be handled during the strut assembly procedure?",
+      "answer": "Lift out the lockplate with a screwdriver and unscrew the collar nut during removal, then apply tightening torque during installation.",
+      "question_type": "procedural",
+      "id": "31-11_1_front-ax-q11"
+    },
+    {
+      "question": "What reference information is provided for additional specifications?",
+      "answer": "See Specifications of Groups 31 and 34 for removal procedures, and see Specifications of Groups 31 and 32 for installation procedures.",
+      "question_type": "navigation",
+      "id": "31-11_1_front-ax-q12"
+    }
+  ]
+}

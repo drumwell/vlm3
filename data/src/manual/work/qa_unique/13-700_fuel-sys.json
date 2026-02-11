@@ -1,0 +1,61 @@
+{
+  "page_id": "13-700_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-700.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:44:36.815816",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 784
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the maximum tightening torque for installing the 0\u00b0C temperature switch?",
+      "answer": "The maximum tightening torque is 30 Nm (22 ft. lbs.).",
+      "question_type": "factual",
+      "id": "13-700_fuel-sys-q01"
+    },
+    {
+      "question": "How do you remove the 0\u00b0C temperature switch?",
+      "answer": "Pull off plug (1), then unscrew the temperature switch.",
+      "question_type": "procedural",
+      "id": "13-700_fuel-sys-q02"
+    },
+    {
+      "question": "What should you check during installation of the temperature switch?",
+      "answer": "Check the code number (1) and switching temperature (2).",
+      "question_type": "inspection",
+      "id": "13-700_fuel-sys-q03"
+    },
+    {
+      "question": "What temperature range in Celsius corresponds to the switching operation?",
+      "answer": "The switch operates between -8\u00b0C and 4\u00b0C, going from 0 ohms below -8\u00b0C to infinite ohms above 4\u00b0C.",
+      "question_type": "operation",
+      "id": "13-700_fuel-sys-q08"
+    },
+    {
+      "question": "What is the equivalent Fahrenheit temperature for the lower switching point?",
+      "answer": "The lower switching point of -8\u00b0C is equivalent to +18\u00b0F.",
+      "question_type": "factual",
+      "id": "13-700_fuel-sys-q09"
+    },
+    {
+      "question": "Where can additional specifications for this component be found?",
+      "answer": "Additional specifications can be found in the Specifications section, as indicated by the note at the bottom of the page.",
+      "question_type": "navigation",
+      "id": "13-700_fuel-sys-q11"
+    },
+    {
+      "question": "What is the part number reference for this temperature switch procedure?",
+      "answer": "The part number reference is 12 63 051 for removing and installing the 0\u00b0C (32\u00b0F) temperature switch.",
+      "question_type": "factual",
+      "id": "13-700_fuel-sys-q12"
+    }
+  ]
+}

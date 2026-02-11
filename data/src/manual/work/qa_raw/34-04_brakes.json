@@ -1,0 +1,91 @@
+{
+  "page_id": "34-04_brakes",
+  "image_path": "raw/34 - Brakes/34-04.jpg",
+  "section_id": "34",
+  "section_name": "Brakes",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:13:32.156065",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1891,
+    "tokens_output": 791
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for removing and installing front brake pads?",
+      "answer": "The procedure number is 34 11 000 for removing and installing front brake pads.",
+      "question_type": "factual",
+      "id": "34-04_brakes-q01"
+    },
+    {
+      "question": "What should you do first when removing front brake pads?",
+      "answer": "Remove front wheels (see procedure 36 10 300) and pull off brake pad wear indicator plug on left side.",
+      "question_type": "procedural",
+      "id": "34-04_brakes-q02"
+    },
+    {
+      "question": "What important note is given about the locking bolt when removing brake calipers?",
+      "answer": "Replace the locking bolt and counterhold on guide pin during installation, then tighten to torque specification.",
+      "question_type": "safety",
+      "id": "34-04_brakes-q03"
+    },
+    {
+      "question": "What does callout number 5 indicate in the brake pad wear indicator diagram?",
+      "answer": "Callout number 5 indicates the brake pad wear indicator that should be driven out carefully and checked when reusing.",
+      "question_type": "visual",
+      "id": "34-04_brakes-q04"
+    },
+    {
+      "question": "What is the procedure number for removing and installing front brake calipers?",
+      "answer": "The procedure number is 34 11 520 for removing and installing front brake calipers.",
+      "question_type": "factual",
+      "id": "34-04_brakes-q05"
+    },
+    {
+      "question": "What special tool is required when removing front brake calipers?",
+      "answer": "A syringe which is used exclusively with brake fluid to draw off brake fluid.",
+      "question_type": "tool",
+      "id": "34-04_brakes-q06"
+    },
+    {
+      "question": "What should you check regarding pad thickness during installation?",
+      "answer": "Check pads and pad thickness, then push back brake pistons completely.",
+      "question_type": "inspection",
+      "id": "34-04_brakes-q07"
+    },
+    {
+      "question": "What critical warning is given about the dust cover during brake work?",
+      "answer": "Be careful not to damage dust cover on brake piston when assembling. Check dust cover and check installed position of springs.",
+      "question_type": "safety",
+      "id": "34-04_brakes-q08"
+    },
+    {
+      "question": "How many caliper mounting bolts need to be unscrewed according to the procedure?",
+      "answer": "One caliper mounting bolt needs to be unscrewed, with tightening torque specified for installation.",
+      "question_type": "factual",
+      "id": "34-04_brakes-q09"
+    },
+    {
+      "question": "What should be done after pulling off the caliper toward the rear?",
+      "answer": "Make sure of correct location of brake pad wear indicator wires with tab of dust cap, and prevent rubbing of the wires on the wheel rim.",
+      "question_type": "procedural",
+      "id": "34-04_brakes-q10"
+    },
+    {
+      "question": "Where can you find the bleeding procedure for the brakes?",
+      "answer": "The bleeding procedure can be found in section 34 00 046/047.",
+      "question_type": "navigation",
+      "id": "34-04_brakes-q11"
+    },
+    {
+      "question": "What does callout number 4 show in the bottom left image?",
+      "answer": "Callout number 4 shows the springs whose installed position should be checked during the installation process.",
+      "question_type": "visual",
+      "id": "34-04_brakes-q12"
+    }
+  ]
+}

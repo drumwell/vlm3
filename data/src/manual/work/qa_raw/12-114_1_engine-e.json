@@ -1,0 +1,94 @@
+{
+  "page_id": "12-114_1_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-114_1.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:28:40.129531",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 697
+  },
+  "qa_pairs": [
+    {
+      "question": "What is Test 15 focused on?",
+      "answer": "Test 15 is focused on the fuel supply system.",
+      "question_type": "factual",
+      "id": "12-114_1_engine-e-q01"
+    },
+    {
+      "question": "What should be checked first when testing the fuel supply to the electric fuel pump?",
+      "answer": "Check the fuel feed to electric fuel pump, then check the filter screen in fuel intake and also refer to Group 16.",
+      "question_type": "procedural",
+      "id": "12-114_1_engine-e-q02"
+    },
+    {
+      "question": "Where can I find more detailed information about troubleshooting fuel injection problems?",
+      "answer": "Refer to TROUBLESHOOTING FUEL INJECTION in Group 13.",
+      "question_type": "navigation",
+      "id": "12-114_1_engine-e-q03"
+    },
+    {
+      "question": "What components should be checked for the electric fuel pump system?",
+      "answer": "Check electric fuel pump, fuel pipes, pressure regulator and fuel pressure.",
+      "question_type": "inspection",
+      "id": "12-114_1_engine-e-q04"
+    },
+    {
+      "question": "What is Test 16 focused on?",
+      "answer": "Test 16 is focused on the intake system.",
+      "question_type": "factual",
+      "id": "12-114_1_engine-e-q05"
+    },
+    {
+      "question": "What should be inspected on the intake manifold during Test 16?",
+      "answer": "Check intake manifold and air cleaner for tight fit and damage.",
+      "question_type": "inspection",
+      "id": "12-114_1_engine-e-q06"
+    },
+    {
+      "question": "What specific connections need to be checked in the intake system?",
+      "answer": "Check connections and caps for tight fit and leaks.",
+      "question_type": "inspection",
+      "id": "12-114_1_engine-e-q07"
+    },
+    {
+      "question": "What maintenance should be performed on the air cleaner filter element?",
+      "answer": "Replace a dirty air cleaner filter element.",
+      "question_type": "procedural",
+      "id": "12-114_1_engine-e-q08"
+    },
+    {
+      "question": "What two main systems are covered by the tests shown on this page?",
+      "answer": "The fuel supply system (Test 15) and the intake system (Test 16).",
+      "question_type": "factual",
+      "id": "12-114_1_engine-e-q09",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    },
+    {
+      "question": "What should be checked in addition to the fuel feed when testing the fuel supply?",
+      "answer": "Check the filter screen in fuel intake and also refer to Group 16.",
+      "question_type": "procedural",
+      "id": "12-114_1_engine-e-q10"
+    },
+    {
+      "question": "What types of damage should be looked for on the intake manifold and air cleaner?",
+      "answer": "Check for tight fit and damage on both the intake manifold and air cleaner.",
+      "question_type": "inspection",
+      "id": "12-114_1_engine-e-q11"
+    },
+    {
+      "question": "What is the page number shown in the header?",
+      "answer": "The page number is 12-114/1.",
+      "question_type": "factual",
+      "id": "12-114_1_engine-e-q12"
+    }
+  ]
+}

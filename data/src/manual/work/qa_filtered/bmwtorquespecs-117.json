@@ -1,0 +1,61 @@
+{
+  "page_id": "bmwtorquespecs-117",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/117.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:34:55.076050",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 618
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the selector lever on transmission for all types?",
+      "answer": "M8x1 screw torqued to 10 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-117-q01"
+    },
+    {
+      "question": "What torque value should be used for the ASS 300J type selector lever?",
+      "answer": "M8 screw torqued to 15 Nm.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-117-q02"
+    },
+    {
+      "question": "What section of the manual covers external shift linkage specifications?",
+      "answer": "Section 24-15 Automatic Transmission, subsection 24 51 External shift linkage.",
+      "question_type": "navigation",
+      "id": "bmwtorquespecs-117-q03"
+    },
+    {
+      "question": "What component is designated as 1AZ in the external shift linkage section?",
+      "answer": "Selector lever on transmission.",
+      "question_type": "component",
+      "id": "bmwtorquespecs-117-q04"
+    },
+    {
+      "question": "How many different torque specifications are listed for the selector lever on transmission?",
+      "answer": "Two specifications: 10 Nm for All types and 15 Nm for ASS 300J type.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-117-q05"
+    },
+    {
+      "question": "What is the difference in torque between the All types and ASS 300J selector lever specifications?",
+      "answer": "The ASS 300J requires 5 Nm more torque (15 Nm vs 10 Nm).",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-117-q07"
+    },
+    {
+      "question": "What document reference and date are shown at the top of this page?",
+      "answer": "Document reference AZD24-15.frb dated 20/10/97.",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-117-q10"
+    }
+  ]
+}

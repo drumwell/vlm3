@@ -1,0 +1,91 @@
+{
+  "page_id": "51-453_body-equ",
+  "image_path": "raw/51 - Body Equipment/51-453.jpg",
+  "section_id": "51",
+  "section_name": "Body Equipment",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:28:06.494140",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 890
+  },
+  "qa_pairs": [
+    {
+      "question": "What are the first two steps when removing the radio opening mask or radio?",
+      "answer": "First, unscrew screw (2), then take off trim panel (1).",
+      "question_type": "procedural",
+      "id": "51-453_body-equ-q01"
+    },
+    {
+      "question": "What components need to be removed from the control panel after removing the radio opening mask?",
+      "answer": "Pull masks (1) or switch (2) out of control panel, then pull off plugs (3) on switches (2).",
+      "question_type": "procedural",
+      "id": "51-453_body-equ-q02"
+    },
+    {
+      "question": "How many bolts need to be unscrewed according to the heating and ventilating controls removal procedure?",
+      "answer": "Unscrew bolts (1 to 4), which means four bolts total need to be removed.",
+      "question_type": "factual",
+      "id": "51-453_body-equ-q03"
+    },
+    {
+      "question": "What should be done after lifting out the sliding control lever?",
+      "answer": "Pull off the mask plate.",
+      "question_type": "procedural",
+      "id": "51-453_body-equ-q04"
+    },
+    {
+      "question": "What are the two plugs that need to be removed from the air conditioning and blower switches?",
+      "answer": "Pull off plug (1) on air conditioner switch and pull off plug (2) on blower switch.",
+      "question_type": "procedural",
+      "id": "51-453_body-equ-q05"
+    },
+    {
+      "question": "In the temperature control housing removal procedure, what is the sequence of components to remove?",
+      "answer": "Pull off plug (1) on temperature control housing, pull off plug (2) on sliding control lever, pull off bulb holder (3), then pull off plug on clock.",
+      "question_type": "procedural",
+      "id": "51-453_body-equ-q06"
+    },
+    {
+      "question": "What should be done with the control unit after removing all the plugs and components?",
+      "answer": "Lay control unit aside.",
+      "question_type": "procedural",
+      "id": "51-453_body-equ-q07"
+    },
+    {
+      "question": "What do callout numbers 1 and 2 indicate in the first image showing screw removal?",
+      "answer": "Number 1 indicates the trim panel to be removed, and number 2 indicates the screw to be unscrewed.",
+      "question_type": "visual",
+      "id": "51-453_body-equ-q08"
+    },
+    {
+      "question": "What components are labeled 1, 2, and 3 in the control panel removal diagram?",
+      "answer": "Number 1 indicates masks to be pulled out, number 2 indicates switches, and number 3 indicates plugs to be pulled off the switches.",
+      "question_type": "visual",
+      "id": "51-453_body-equ-q09"
+    },
+    {
+      "question": "How many numbered bolts are visible in the heating and ventilating controls diagram?",
+      "answer": "Four numbered bolts are visible, labeled 1, 2, 3, and 4.",
+      "question_type": "visual",
+      "id": "51-453_body-equ-q10"
+    },
+    {
+      "question": "What do the numbered callouts 1, 2, and 3 represent in the air conditioning switch removal image?",
+      "answer": "Number 1 indicates the plug on the air conditioner switch, number 2 indicates the plug on the blower switch, and number 3 appears to indicate another component in the assembly.",
+      "question_type": "visual",
+      "id": "51-453_body-equ-q11"
+    },
+    {
+      "question": "What components are identified by numbers 1, 2, and 3 in the temperature control housing procedure?",
+      "answer": "Number 1 indicates the plug on temperature control housing, number 2 indicates the plug on sliding control lever, and number 3 indicates the bulb holder.",
+      "question_type": "visual",
+      "id": "51-453_body-equ-q12"
+    }
+  ]
+}

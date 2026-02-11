@@ -1,0 +1,79 @@
+{
+  "page_id": "54-01_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-01.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:38:55.943606",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 851
+  },
+  "qa_pairs": [
+    {
+      "question": "What two operational modes can the sun roof be operated in?",
+      "answer": "The sun roof can be operated as A) sliding roof and B) lifting roof.",
+      "question_type": "factual",
+      "id": "54-01_hood-sun-q01"
+    },
+    {
+      "question": "What is the ideal height setting for the front of the sun roof lid?",
+      "answer": "The front should be 1 mm (0.040 inch) deeper than the roof panel.",
+      "question_type": "factual",
+      "id": "54-01_hood-sun-q02"
+    },
+    {
+      "question": "What is the proper axial setting distance between the lid and roof?",
+      "answer": "The axial setting should be equal distance at front and rear between lid and roof, approximately 0.2 mm (0.008 inch), checked with plastic gauge.",
+      "question_type": "inspection",
+      "id": "54-01_hood-sun-q04"
+    },
+    {
+      "question": "What do the velvet strip markings V and H indicate?",
+      "answer": "V indicates the front with sealing lip, and H indicates the rear without sealing lip.",
+      "question_type": "visual",
+      "id": "54-01_hood-sun-q05"
+    },
+    {
+      "question": "How far should you open the sun roof lid during the adjustment procedure?",
+      "answer": "Open the sun roof lid about 5 cm (2 inches).",
+      "question_type": "procedural",
+      "id": "54-01_hood-sun-q06"
+    },
+    {
+      "question": "What special tools are needed to loosen the adjustment screws?",
+      "answer": "Special Tools 00 2 102/103 are needed to loosen screws 1 through 3 on left and right sides.",
+      "question_type": "tool",
+      "id": "54-01_hood-sun-q07"
+    },
+    {
+      "question": "What is the tightening torque for the self-locking screws?",
+      "answer": "The tightening torque is 3.5 Nm (2.5 ft. lbs.).",
+      "question_type": "factual",
+      "id": "54-01_hood-sun-q08"
+    },
+    {
+      "question": "When is switching to lift mode possible for the sun roof?",
+      "answer": "Switching to lift is only possible with the lid closed.",
+      "question_type": "operation",
+      "id": "54-01_hood-sun-q09"
+    },
+    {
+      "question": "What key size is used to lock the sun roof in position 0?",
+      "answer": "A 4 mm key is used to lock the sun roof in position 0 on left and right sides.",
+      "question_type": "factual",
+      "id": "54-01_hood-sun-q11"
+    },
+    {
+      "question": "What is the complete procedure for installing the roof liner frame after adjustment?",
+      "answer": "Close the sun roof lid, pull the roof liner frame forward uniformly, open the sun roof lid slightly while holding the roof liner frame by hand, then press in holding clamps for the front roof liner frame.",
+      "question_type": "procedural",
+      "id": "54-01_hood-sun-q12"
+    }
+  ]
+}

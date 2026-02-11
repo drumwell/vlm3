@@ -1,0 +1,61 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6320-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6320-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:06:08.488769",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 426
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the section number for the rear marker/license/trunk lights wiring diagram?",
+      "answer": "6320-0",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6320-00-q01"
+    },
+    {
+      "question": "Which fuse number is shown for the 75 AMP circuit in the power distribution box?",
+      "answer": "Fuse 21",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6320-00-q02"
+    },
+    {
+      "question": "What component is indicated by the designation S326 in the diagram?",
+      "answer": "Rear lights check relay",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6320-00-q03"
+    },
+    {
+      "question": "What is the wire color designation for the ground distribution connection?",
+      "answer": ".75 BR",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6320-00-q04"
+    },
+    {
+      "question": "How many rear side marker lights are shown in the circuit diagram?",
+      "answer": "Four rear side marker lights - LH rear side marker light and RH rear side marker light on each side",
+      "question_type": "visual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6320-00-q05"
+    },
+    {
+      "question": "What type of switch controls the trunk light according to the diagram?",
+      "answer": "Trunk light switch that is closed with trunk open",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6320-00-q07"
+    },
+    {
+      "question": "What wire color connects from the light switch to the various rear lighting components?",
+      "answer": ".75 GY/RD",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6320-00-q08"
+    }
+  ]
+}

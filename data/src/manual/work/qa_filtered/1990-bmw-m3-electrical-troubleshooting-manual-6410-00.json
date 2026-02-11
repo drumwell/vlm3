@@ -1,0 +1,91 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6410-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:07:00.243045",
+    "prompt_template": "electrical_manual/procedure",
+    "tokens_input": 1892,
+    "tokens_output": 776
+  },
+  "qa_pairs": [
+    {
+      "question": "What temperature should the car be outside when performing this heating and air conditioning system check?",
+      "answer": "The car should be outside at about 60 degrees F (16 degrees C) with the engine warm and running at idle.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q01"
+    },
+    {
+      "question": "Where should the temperature control be set during the initial setup for this system check?",
+      "answer": "The temperature control should be fully counterclockwise.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q02"
+    },
+    {
+      "question": "What position should the blower speed control be in for the initial setup?",
+      "answer": "The blower speed control should be at 0 (OFF).",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q03"
+    },
+    {
+      "question": "What happens when you press the Fresh/Recirculating Air Switch to ON?",
+      "answer": "The Fresh/Recirculating pushbutton lights and the blower runs slowly.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q04"
+    },
+    {
+      "question": "How many steps should you rotate the blower speed control through?",
+      "answer": "You should rotate the blower speed control through steps 1 to 4.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q05"
+    },
+    {
+      "question": "What is the normal result when rotating the blower speed control through the steps?",
+      "answer": "Blower speed increases at each step to maximum speed at Step 4.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q06"
+    },
+    {
+      "question": "How much should you rotate the temperature control clockwise?",
+      "answer": "You should rotate the temperature control at least 1/4 turn clockwise.",
+      "question_type": "procedural",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q07"
+    },
+    {
+      "question": "What components run when you depress the A/C button to ON?",
+      "answer": "The A/C button lights, A/C Compressor runs, and Auxiliary Cooling Fan runs.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q08"
+    },
+    {
+      "question": "What happens when you press the A/C button to release it to OFF?",
+      "answer": "The A/C button is no longer lit, A/C Compressor turns off, and Auxiliary Cooling Fan turns off.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q09"
+    },
+    {
+      "question": "What sound might you hear when pressing the Fresh/Recirculating Air Switch to release it?",
+      "answer": "You may hear the sound of Flap Door Motors repositioning flaps.",
+      "question_type": "operation",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q10"
+    },
+    {
+      "question": "Can this system check procedure be performed without disassembly or tools?",
+      "answer": "Yes, each of the steps can be performed without disassembly or the use of tools.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q11"
+    },
+    {
+      "question": "What does it mean if all the steps can be completed as described?",
+      "answer": "If all of the steps can be completed as described, the Heating and Air Conditioning System is operating normally.",
+      "question_type": "diagnostic",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6410-00-q12"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "54-16_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-16.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:42:17.372113",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 794
+  },
+  "qa_pairs": [
+    {
+      "question": "What BMW special tool is used to measure the distance from the side panel to the bearing surface of the top console?",
+      "answer": "Special Tool 00 2 550 is used to measure the distance from the side panel (lower edge of rail) to the bearing surface of the top console at both threaded pins.",
+      "question_type": "tool",
+      "id": "54-16_hood-sun-q01"
+    },
+    {
+      "question": "What should the distance measurement be for the front threaded pin?",
+      "answer": "The distance A should be 181 mm (7.126 inches) for the front threaded pin.",
+      "question_type": "factual",
+      "id": "54-16_hood-sun-q02"
+    },
+    {
+      "question": "What is the specified distance measurement for the rear threaded pin?",
+      "answer": "The distance B should be 159 mm (6.260 inches) for the rear threaded pin.",
+      "question_type": "factual",
+      "id": "54-16_hood-sun-q03"
+    },
+    {
+      "question": "How do you initially position the convertible top for adjustment?",
+      "answer": "Place rails on left and right side panels, ensuring the rails must bear on metal and pull off the rubber partially.",
+      "question_type": "procedural",
+      "id": "54-16_hood-sun-q04"
+    },
+    {
+      "question": "What thickness of shims are available for distance adjustment?",
+      "answer": "Shims are available in thicknesses of 1 mm (0.039 inches) thick.",
+      "question_type": "factual",
+      "id": "54-16_hood-sun-q05"
+    },
+    {
+      "question": "What is the proper way to hold the top during adjustment?",
+      "answer": "Hold the top with nuts (1) - it must still be possible to move the top.",
+      "question_type": "procedural",
+      "id": "54-16_hood-sun-q06"
+    },
+    {
+      "question": "How do you adjust the distance on the front mounting points?",
+      "answer": "Close the top and adjust distance B on the front mounting points with shims (2), which are available in thicknesses of 1 mm (0.039 inches). Then tighten the top nuts.",
+      "question_type": "procedural",
+      "id": "54-16_hood-sun-q07"
+    },
+    {
+      "question": "What callout number indicates the nuts used to hold the top?",
+      "answer": "Callout number (1) indicates the nuts used to hold the top during adjustment.",
+      "question_type": "visual",
+      "id": "54-16_hood-sun-q08"
+    },
+    {
+      "question": "What callout number shows the shims used for adjustment?",
+      "answer": "Callout number (2) indicates the shims used for adjusting the distance on the front mounting points.",
+      "question_type": "visual",
+      "id": "54-16_hood-sun-q09"
+    },
+    {
+      "question": "What is the final step in the top adjustment procedure?",
+      "answer": "Center the top to the side panels.",
+      "question_type": "procedural",
+      "id": "54-16_hood-sun-q10"
+    },
+    {
+      "question": "Where are the shims placed during the adjustment procedure?",
+      "answer": "The shims are placed on the front mounting points to adjust distance B.",
+      "question_type": "procedural",
+      "id": "54-16_hood-sun-q11"
+    },
+    {
+      "question": "What must be verified about the top's movement during the holding procedure?",
+      "answer": "It must still be possible to move the top while holding it with the nuts.",
+      "question_type": "inspection",
+      "id": "54-16_hood-sun-q12"
+    }
+  ]
+}

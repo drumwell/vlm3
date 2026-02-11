@@ -1,0 +1,73 @@
+{
+  "page_id": "62-73_instrume",
+  "image_path": "raw/62 - Instruments/62-73.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:46:15.294149",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1802,
+    "tokens_output": 613
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the wire color for pin 20 '\u00d6l dyn.' (Oil level dynamic)?",
+      "answer": "White",
+      "question_type": "factual",
+      "id": "62-73_instrume-q01"
+    },
+    {
+      "question": "What is the resistance value for pin 22 'K' Low beam indicator when tested with an ohmmeter to pin 9?",
+      "answer": "= 0 ohm",
+      "question_type": "diagnostic",
+      "id": "62-73_instrume-q03"
+    },
+    {
+      "question": "Which wire colors are used for pin 23 '5ASI' Fuse monitor?",
+      "answer": "Violet/white",
+      "question_type": "wiring",
+      "id": "62-73_instrume-q04"
+    },
+    {
+      "question": "What is the expected ohm reading for pin 24 '54KL' Stop light indicator when tested to pin 9?",
+      "answer": "= 4.7 ohms",
+      "question_type": "diagnostic",
+      "id": "62-73_instrume-q05"
+    },
+    {
+      "question": "What function does pin 25 '54' with green/red wire colors serve?",
+      "answer": "Brakes applied, stop lights okay",
+      "question_type": "factual",
+      "id": "62-73_instrume-q06"
+    },
+    {
+      "question": "When testing pin 26 'KKL' License plate light indicator, what resistance should I measure between it and pin 9?",
+      "answer": "= 4.7 ohms",
+      "question_type": "diagnostic",
+      "id": "62-73_instrume-q07"
+    },
+    {
+      "question": "What is the wire color combination for the Low beam indicator (pin 22 'K')?",
+      "answer": "Yellow/black",
+      "question_type": "wiring",
+      "id": "62-73_instrume-q08"
+    },
+    {
+      "question": "Which pins show the same 4.7 ohms resistance value when tested to pin 9?",
+      "answer": "Pin 24 '54KL' Stop light indicator and Pin 26 'KKL' License plate light indicator",
+      "question_type": "diagnostic",
+      "id": "62-73_instrume-q09"
+    },
+    {
+      "question": "What type of tester is specified for checking pin 25 '54' Stop lights?",
+      "answer": "Voltmeter",
+      "question_type": "tool",
+      "id": "62-73_instrume-q10"
+    }
+  ]
+}

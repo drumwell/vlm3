@@ -1,0 +1,85 @@
+{
+  "page_id": "54-18_hood-sun",
+  "image_path": "raw/54 - Hood, Sun Roof/54-18.jpg",
+  "section_id": "54",
+  "section_name": "Hood, Sun Roof",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:42:50.536684",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1894,
+    "tokens_output": 718
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool is needed to press on the top without folds?",
+      "answer": "Special Tool 51 3 070 is needed to press on the top without folds.",
+      "question_type": "tool",
+      "id": "54-18_hood-sun-q01"
+    },
+    {
+      "question": "What should be applied along the rail and on corners during installation?",
+      "answer": "Sealing compound should be applied along the rail and on corners.",
+      "question_type": "procedural",
+      "id": "54-18_hood-sun-q02"
+    },
+    {
+      "question": "What protection should be secured on the inside and outside during this procedure?",
+      "answer": "Window protection should be secured on the inside and outside with masking tape.",
+      "question_type": "safety",
+      "id": "54-18_hood-sun-q03"
+    },
+    {
+      "question": "When should the control banners be cemented?",
+      "answer": "The control banners (2) must only be cemented after the top (1) has been cemented on the frame.",
+      "question_type": "procedural",
+      "id": "54-18_hood-sun-q04"
+    },
+    {
+      "question": "What do the control banners permit?",
+      "answer": "The control banners (2) permit alignment of top edges.",
+      "question_type": "factual",
+      "id": "54-18_hood-sun-q05"
+    },
+    {
+      "question": "Where should cementing of the top begin?",
+      "answer": "Cement the top beginning at center (1), with mark (2) running precisely along the front frame edge.",
+      "question_type": "procedural",
+      "id": "54-18_hood-sun-q06"
+    },
+    {
+      "question": "What should be checked when cementing the top on the frame at rear?",
+      "answer": "Check center mark and proceed from the center when cementing the top on frame at rear.",
+      "question_type": "procedural",
+      "id": "54-18_hood-sun-q07"
+    },
+    {
+      "question": "What is used to pull in the cable?",
+      "answer": "A piece of welding wire is used to pull in the cable and connect it on the spring.",
+      "question_type": "tool",
+      "id": "54-18_hood-sun-q08"
+    },
+    {
+      "question": "In the left diagram, what do callout numbers 1 and 2 indicate?",
+      "answer": "In the left diagram, callout 1 indicates the top and callout 2 indicates the control banners.",
+      "question_type": "visual",
+      "id": "54-18_hood-sun-q09"
+    },
+    {
+      "question": "What should be done with the rail after applying sealing compound?",
+      "answer": "Mount rail and pull on rubber part after applying sealing compound along the rail and on corners.",
+      "question_type": "procedural",
+      "id": "54-18_hood-sun-q11"
+    },
+    {
+      "question": "What instructions should be referred to for cement application?",
+      "answer": "Refer to instructions for application of cement.",
+      "question_type": "navigation",
+      "id": "54-18_hood-sun-q12"
+    }
+  ]
+}

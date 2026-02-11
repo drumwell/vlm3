@@ -1,0 +1,67 @@
+{
+  "page_id": "bmwtorquespecs-032",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/032.jpg",
+  "section_id": "",
+  "section_name": "BMW_Torque_Specs",
+  "source_type": "unknown",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T10:18:26.039460",
+    "prompt_template": "unknown/specification",
+    "tokens_input": 1842,
+    "tokens_output": 589
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the flange to camshaft on M30 engines?",
+      "answer": "145 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-032-q01"
+    },
+    {
+      "question": "What screw size is used for the plug for chain tensioner on M50/S50 US engines?",
+      "answer": "M22 x 1.5",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-032-q02"
+    },
+    {
+      "question": "What is the torque value for the chain tensioner plug on all engines except M50/S50 US?",
+      "answer": "40 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-032-q03"
+    },
+    {
+      "question": "What is the torque specification for the cylinder for chain tensioner plunger on M50/M52/S52/S50 US engines?",
+      "answer": "70 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-032-q04"
+    },
+    {
+      "question": "What is the torque value for the reversing rail on engine block for M62 engines?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-032-q06"
+    },
+    {
+      "question": "What is the torque specification for the nut on screw-in pin?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-032-q08"
+    },
+    {
+      "question": "Which engine types use M26 x 1.5 screws for the cylinder for chain tensioner plunger?",
+      "answer": "All engines except M50/M52/S52/S50 US",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-032-q09"
+    },
+    {
+      "question": "What torque value applies to the bearing flange on engine block for M60/1/M60/2 engines?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "bmwtorquespecs-032-q10"
+    }
+  ]
+}

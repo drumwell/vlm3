@@ -1,0 +1,85 @@
+{
+  "page_id": "41-103_body",
+  "image_path": "raw/41 - Body/41-103.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:39:02.197393",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 720
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with reinforcement plates before plug spot welding?",
+      "answer": "Slide in reinforcement plates half their distance and plug spot weld. Tack weld ends on available reinforcement slightly.",
+      "question_type": "procedural",
+      "id": "41-103_body-q01"
+    },
+    {
+      "question": "How should you weld all reinforcements through provided holes?",
+      "answer": "Plug spot weld all reinforcements through provided holes.",
+      "question_type": "procedural",
+      "id": "41-103_body-q02"
+    },
+    {
+      "question": "What is the procedure for the bottom reinforcement plate?",
+      "answer": "Slide in bottom reinforcement plate half its distance and plug spot weld.",
+      "question_type": "procedural",
+      "id": "41-103_body-q03"
+    },
+    {
+      "question": "Where should the car be positioned during this repair procedure?",
+      "answer": "Set up car on straightening bench. Fit in engine carrier.",
+      "question_type": "procedural",
+      "id": "41-103_body-q05"
+    },
+    {
+      "question": "What should be drilled in the area of reinforcements?",
+      "answer": "Drill holes for plug spot welding in area of reinforcements.",
+      "question_type": "procedural",
+      "id": "41-103_body-q06"
+    },
+    {
+      "question": "What important note is given about reinforcement plates?",
+      "answer": "Reinforcement plates must bear on engine carrier.",
+      "question_type": "factual",
+      "id": "41-103_body-q07"
+    },
+    {
+      "question": "What components should be installed after the welding procedures?",
+      "answer": "Install wheel house and front wall. Coat all joints with body sealing compound and spray out wheel house with anti-drumming compound.",
+      "question_type": "procedural",
+      "id": "41-103_body-q08"
+    },
+    {
+      "question": "What diagram number shows the drilling procedure for plug spot welding?",
+      "answer": "Diagram 30 41 582 shows drilling holes for plug spot welding in area of reinforcements.",
+      "question_type": "visual",
+      "id": "41-103_body-q09"
+    },
+    {
+      "question": "What materials are specified for coating joints after installation?",
+      "answer": "Body sealing compound for coating all joints, and anti-drumming compound for spraying out the wheel house.",
+      "question_type": "tool",
+      "id": "41-103_body-q10"
+    },
+    {
+      "question": "Where can specifications for the sealing and anti-drumming compounds be found?",
+      "answer": "See Specifications.",
+      "question_type": "navigation",
+      "id": "41-103_body-q11"
+    },
+    {
+      "question": "What diagram number corresponds to sliding in the bottom reinforcement plate?",
+      "answer": "Diagram 30 41 580 shows sliding in bottom reinforcement plate half its distance and plug spot welding.",
+      "question_type": "visual",
+      "id": "41-103_body-q12"
+    }
+  ]
+}

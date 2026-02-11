@@ -1,0 +1,91 @@
+{
+  "page_id": "41-501_body",
+  "image_path": "raw/41 - Body/41-501.jpg",
+  "section_id": "41",
+  "section_name": "Body",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:05:12.406172",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 858
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure code for adjusting left or right front door?",
+      "answer": "The procedure code is 41 51 004.",
+      "question_type": "factual",
+      "id": "41-501_body-q01"
+    },
+    {
+      "question": "What must be done to bolts at the top and bottom when adjusting front door on hinges?",
+      "answer": "Unscrew bolts at top and bottom.",
+      "question_type": "procedural",
+      "id": "41-501_body-q02"
+    },
+    {
+      "question": "What surfaces must be touched up with matching color paint during door adjustment?",
+      "answer": "Any unpainted surfaces that are uncovered during subsequent adjustments must be touched up with paint of matching color.",
+      "question_type": "procedural",
+      "id": "41-501_body-q03"
+    },
+    {
+      "question": "What component is used to adjust the door outside panel surface to align with the front side panel?",
+      "answer": "Washers (1) are used to adjust door outside panel surface to same plane as that of the front side panel.",
+      "question_type": "factual",
+      "id": "41-501_body-q04"
+    },
+    {
+      "question": "What thickness washers should be used for basic door adjustments?",
+      "answer": "Basic adjustments should be made with 1 mm (0.039\") thick washers (1).",
+      "question_type": "factual",
+      "id": "41-501_body-q05"
+    },
+    {
+      "question": "What washer thicknesses are recommended for final door adjustments?",
+      "answer": "Use washers (2) for final adjustments with optional thicknesses of 0.5 mm/0.020\" and 1.0 mm/0.039\".",
+      "question_type": "factual",
+      "id": "41-501_body-q06"
+    },
+    {
+      "question": "When might you need to loosen the striker on the door lock?",
+      "answer": "Loosen striker on door lock, if necessary, as noted in the adjustment procedure.",
+      "question_type": "procedural",
+      "id": "41-501_body-q07"
+    },
+    {
+      "question": "What is the maximum allowable difference between door outside panel surface and side panel at the front?",
+      "answer": "The door outside panel surface may be \"adjusted deeper\" than the side panel at front by max. 1 mm (0.039\").",
+      "question_type": "factual",
+      "id": "41-501_body-q08"
+    },
+    {
+      "question": "Why might the door outside panel be adjusted deeper than the side panel?",
+      "answer": "To prevent wind noise and stone damage or to eliminate optical irregularities (tolerances in the curvature).",
+      "question_type": "factual",
+      "id": "41-501_body-q09"
+    },
+    {
+      "question": "How should the door be adjusted for uniform gaps?",
+      "answer": "Adjust door forward and back in such a manner to have uniform gaps at front and rear. Adjust height of door according to embossed edge.",
+      "question_type": "procedural",
+      "id": "41-501_body-q10"
+    },
+    {
+      "question": "What components are labeled as (1) and (2) in the washer diagram?",
+      "answer": "Component (1) is the basic adjustment washer (1 mm thick), and component (2) is the fine adjustment washer (0.5-1.0 mm thick).",
+      "question_type": "visual",
+      "id": "41-501_body-q11"
+    },
+    {
+      "question": "What important note applies to the engine hood, trunk lid and doors before adjustment?",
+      "answer": "Engine hood, trunk lid and doors are fitted and bolted in an unfinished body shell, and subsequent adjustments could uncover unpainted surfaces.",
+      "question_type": "safety",
+      "id": "41-501_body-q12"
+    }
+  ]
+}

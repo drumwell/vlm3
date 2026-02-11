@@ -1,0 +1,73 @@
+{
+  "page_id": "00-torque-specs-100",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/100.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:35:02.322860",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 554
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the initial torque specification for the output flange collar nut installed with bolt cement?",
+      "answer": "190 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-100-q01"
+    },
+    {
+      "question": "What is the final torque specification for the output flange collar nut installed with bolt cement?",
+      "answer": "120 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-100-q02"
+    },
+    {
+      "question": "What type of transmission applies to the gear wheel to layshaft torque specification?",
+      "answer": "265 Sport",
+      "question_type": "factual",
+      "id": "00-torque-specs-100-q03"
+    },
+    {
+      "question": "What is the torque specification for the M10 screw connecting the gear wheel to layshaft?",
+      "answer": "60 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-100-q04"
+    },
+    {
+      "question": "What section and subsection number covers these transmission shaft torque specifications?",
+      "answer": "23-7, subsection 23 21 Transmission Shafts",
+      "question_type": "navigation",
+      "id": "00-torque-specs-100-q05"
+    },
+    {
+      "question": "Which component uses bolt cement for installation according to this specification table?",
+      "answer": "Output flange collar nut",
+      "question_type": "factual",
+      "id": "00-torque-specs-100-q06"
+    },
+    {
+      "question": "What is the difference between initial and final torque values for the output flange collar nut?",
+      "answer": "70 Nm (190 Nm initial minus 120 Nm final)",
+      "question_type": "factual",
+      "id": "00-torque-specs-100-q07"
+    },
+    {
+      "question": "Which transmission types are covered in the output flange specification?",
+      "answer": "All transmission types",
+      "question_type": "factual",
+      "id": "00-torque-specs-100-q09"
+    },
+    {
+      "question": "What procedural step comes between initial torque and final torque for the output flange collar nut?",
+      "answer": "Loosen",
+      "question_type": "procedural",
+      "id": "00-torque-specs-100-q10"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "page_id": "63-03_lights",
+  "image_path": "raw/63 - Lights/63-03.jpg",
+  "section_id": "63",
+  "section_name": "Lights",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:51:03.739963",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1889,
+    "tokens_output": 766
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the procedure number for replacing the light bulb for left or right front turn signal?",
+      "answer": "The procedure number is 63 99 271.",
+      "question_type": "factual",
+      "id": "63-03_lights-q01"
+    },
+    {
+      "question": "What are the first two steps to replace a front turn signal light bulb?",
+      "answer": "First unscrew the screw, then take off the lens.",
+      "question_type": "procedural",
+      "id": "63-03_lights-q02"
+    },
+    {
+      "question": "How do you access the light bulb once the lens is removed from the front turn signal?",
+      "answer": "Unscrew the light bulb in the bulb holder.",
+      "question_type": "procedural",
+      "id": "63-03_lights-q03"
+    },
+    {
+      "question": "What does callout number 1 indicate in the tail light bulb replacement diagram?",
+      "answer": "Callout number 1 indicates the turn signal bulb position.",
+      "question_type": "visual",
+      "id": "63-03_lights-q04"
+    },
+    {
+      "question": "What are all five bulb positions numbered in the tail light assembly?",
+      "answer": "Position 1 is turn signal, position 2 is stop light, position 3 is tail light, position 4 is stop light, and position 5 is backup light.",
+      "question_type": "visual",
+      "id": "63-03_lights-q05"
+    },
+    {
+      "question": "What is the first step to replace a light bulb in the left or right tail light?",
+      "answer": "Remove cover (1).",
+      "question_type": "procedural",
+      "id": "63-03_lights-q06"
+    },
+    {
+      "question": "How do you access the bulbs in the tail light assembly after removing the cover?",
+      "answer": "Unscrew the light bulb in the bulb holder and turn the signal.",
+      "question_type": "procedural",
+      "id": "63-03_lights-q07"
+    },
+    {
+      "question": "What special procedure applies to 1988 models for tail light bulb replacement?",
+      "answer": "On 1988 models, open the fastener and lift out the cover.",
+      "question_type": "procedural",
+      "id": "63-03_lights-q08"
+    },
+    {
+      "question": "Which bulb position in the tail light assembly is used for the backup light?",
+      "answer": "Position 5 is used for the backup light.",
+      "question_type": "factual",
+      "id": "63-03_lights-q09"
+    },
+    {
+      "question": "How many stop light bulbs are there in each tail light assembly?",
+      "answer": "There are two stop light bulbs, located at positions 2 and 4.",
+      "question_type": "factual",
+      "id": "63-03_lights-q10"
+    },
+    {
+      "question": "What method is used to remove the light bulbs from their holders in both front and rear assemblies?",
+      "answer": "The light bulbs are unscrewed from their bulb holders.",
+      "question_type": "procedural",
+      "id": "63-03_lights-q11"
+    },
+    {
+      "question": "What is the procedure number for replacing light bulbs in the left or right tail lights?",
+      "answer": "The procedure number is 63 99 with additional reference numbers shown.",
+      "question_type": "factual",
+      "id": "63-03_lights-q12"
+    }
+  ]
+}

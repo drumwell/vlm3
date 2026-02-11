@@ -1,0 +1,31 @@
+{
+  "page_id": "00-torque-specs-17-04",
+  "image_path": "raw/00 - Torque Specs/17-04.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:56:45.458216",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 548
+  },
+  "qa_pairs": [
+    {
+      "question": "Which oil cooler pipe connection has the highest torque specification?",
+      "answer": "Pipes to engine oil cooler at 28 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-04-q05"
+    },
+    {
+      "question": "Which components are applicable to all vehicle types in the oil cooler pipes section?",
+      "answer": "Pipes to engine oil cooler and holder on oil cooler pipes",
+      "question_type": "factual",
+      "id": "00-torque-specs-17-04-q07"
+    }
+  ]
+}

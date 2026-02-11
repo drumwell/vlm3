@@ -1,0 +1,61 @@
+{
+  "page_id": "00-torque-specs-131",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/131.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:54:27.204185",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 548
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the M6 screw on the E36 comp/touring?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-131-q04"
+    },
+    {
+      "question": "What torque is required for the wiper motor to console connection?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-131-q05"
+    },
+    {
+      "question": "What is the torque specification for the motor crank to wiper motor?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-131-q06"
+    },
+    {
+      "question": "What torque should be applied to the wiper arm to wiper shaft connection?",
+      "answer": "13 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-131-q07"
+    },
+    {
+      "question": "What is the torque specification for the spray nozzle to tailgate?",
+      "answer": "10 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-131-q08"
+    },
+    {
+      "question": "Which BMW variants are specified for the wiper arm to wiper shaft component?",
+      "answer": "E34/E36 Touring / E36 comp, touring",
+      "question_type": "factual",
+      "id": "00-torque-specs-131-q09"
+    },
+    {
+      "question": "What section of the manual contains the tailgate window wiper specifications?",
+      "answer": "61 62 Tailgate Window Wiper under 61-6 General Electrical system",
+      "question_type": "navigation",
+      "id": "00-torque-specs-131-q10"
+    }
+  ]
+}

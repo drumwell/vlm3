@@ -1,0 +1,67 @@
+{
+  "page_id": "23-166_manual-t",
+  "image_path": "raw/23 - Manual Transmission/23-166.jpg",
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "source_type": "service_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:32:39.134494",
+    "prompt_template": "service_manual/diagram",
+    "tokens_input": 1753,
+    "tokens_output": 516
+  },
+  "qa_pairs": [
+    {
+      "question": "What transmission model is shown in this assembly drawing?",
+      "answer": "This is an assembly drawing of shift parts for the Getrag 260 five speed overdrive manual transmission.",
+      "question_type": "factual",
+      "id": "23-166_manual-t-q01"
+    },
+    {
+      "question": "What component is identified by callout number 1?",
+      "answer": "Callout number 1 identifies the selector rod for 1st/2nd gear.",
+      "question_type": "component",
+      "id": "23-166_manual-t-q02"
+    },
+    {
+      "question": "Which selector fork is used for reverse and 5th gear operation?",
+      "answer": "According to the legend, callout number 7 shows the selector rod for reverse/5th gear.",
+      "question_type": "factual",
+      "id": "23-166_manual-t-q03"
+    },
+    {
+      "question": "What is the function of component number 4 in this transmission?",
+      "answer": "Component number 4 is identified as the dog, which is used in gear engagement.",
+      "question_type": "component",
+      "id": "23-166_manual-t-q04"
+    },
+    {
+      "question": "Where is the operating lever located in this assembly?",
+      "answer": "The operating lever is identified as callout number 12 and is located at the top right portion of the transmission assembly.",
+      "question_type": "visual",
+      "id": "23-166_manual-t-q05"
+    },
+    {
+      "question": "What components make up the 3rd/4th gear selection system?",
+      "answer": "The 3rd/4th gear selection system consists of the selector fork (callout 2) and selector rod (callout 3) for 3rd/4th gear.",
+      "question_type": "procedural",
+      "id": "23-166_manual-t-q06"
+    },
+    {
+      "question": "Which callout number identifies the selector arm component?",
+      "answer": "Callout number 10 identifies the selector arm component.",
+      "question_type": "component",
+      "id": "23-166_manual-t-q07"
+    },
+    {
+      "question": "What is the reference number shown at the bottom right of this diagram?",
+      "answer": "The reference number shown at the bottom right is G 30 23 302.",
+      "question_type": "navigation",
+      "id": "23-166_manual-t-q08"
+    }
+  ]
+}

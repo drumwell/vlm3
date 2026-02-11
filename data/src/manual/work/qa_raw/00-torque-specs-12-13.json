@@ -1,0 +1,79 @@
+{
+  "page_id": "00-torque-specs-12-13",
+  "image_path": "raw/00 - Torque Specs/12-13.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:49:01.443135",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1848,
+    "tokens_output": 597
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque specification for the oil pressure switch/oil temperature switch on S14/S50/S38 engines?",
+      "answer": "20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-13-q01"
+    },
+    {
+      "question": "What torque should be applied to the oil pressure switch on M60/M62/M73 engines?",
+      "answer": "27 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-13-q02"
+    },
+    {
+      "question": "What is the torque specification for all other oil pressure switches not specifically listed?",
+      "answer": "35 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-13-q03"
+    },
+    {
+      "question": "Which engine types have the lowest torque requirement for the oil pressure switch?",
+      "answer": "S14/S50/S38 engines at 20 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-13-q04"
+    },
+    {
+      "question": "What component is being referenced under section 12 61?",
+      "answer": "Oil pressure, oil temperature, oil level display",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-13-q05"
+    },
+    {
+      "question": "What is the component designation 1AZ referring to?",
+      "answer": "Oil-pressure switch/oil-temperature switch",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-13-q06"
+    },
+    {
+      "question": "What special instruction is given for the oil pressure switch installation?",
+      "answer": "Note: Oil and screw in",
+      "question_type": "procedural",
+      "id": "00-torque-specs-12-13-q07"
+    },
+    {
+      "question": "How many different torque specifications are listed for the oil pressure switch?",
+      "answer": "Three different specifications: 20 Nm, 27 Nm, and 35 Nm",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-13-q08"
+    },
+    {
+      "question": "What is the torque difference between M60/M62/M73 engines and all other engines for the oil pressure switch?",
+      "answer": "8 Nm difference (27 Nm for M60/M62/M73 versus 35 Nm for all others)",
+      "question_type": "factual",
+      "id": "00-torque-specs-12-13-q09"
+    },
+    {
+      "question": "Which section of the Engine Electrical System covers oil pressure and temperature components?",
+      "answer": "Section 12 61",
+      "question_type": "navigation",
+      "id": "00-torque-specs-12-13-q10"
+    }
+  ]
+}

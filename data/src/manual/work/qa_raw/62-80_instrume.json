@@ -1,0 +1,82 @@
+{
+  "page_id": "62-80_instrume",
+  "image_path": "raw/62 - Instruments/62-80.jpg",
+  "section_id": "62",
+  "section_name": "Instruments",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T09:47:55.564285",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1788,
+    "tokens_output": 660
+  },
+  "qa_pairs": [
+    {
+      "question": "What should I check if Term. 30 s electric power supply is not okay?",
+      "answer": "Check wire to fuse F 5, check fuse F 5 replacing with 8 ampere fuse if necessary, and check power rail in central electric board for fuse F 5.",
+      "question_type": "diagnostic",
+      "id": "62-80_instrume-q01"
+    },
+    {
+      "question": "What fuse controls the Term. 15 electric power supply with ignition turned on?",
+      "answer": "Fuse F 6 controls the Term. 15 electric power supply with ignition turned on.",
+      "question_type": "factual",
+      "id": "62-80_instrume-q02"
+    },
+    {
+      "question": "What additional check is required for Term. 15 power supply beyond checking the fuse?",
+      "answer": "Check wire from fuse F 6 to ignition lock term. 15.",
+      "question_type": "diagnostic",
+      "id": "62-80_instrume-q03"
+    },
+    {
+      "question": "What bridge connection should be checked for Term. R electric power supply?",
+      "answer": "Check bridge between fuse F 8 and fuse F 11.",
+      "question_type": "diagnostic",
+      "id": "62-80_instrume-q04"
+    },
+    {
+      "question": "What amperage fuse should be used to replace fuse F 8 if necessary?",
+      "answer": "Replace with 8 ampere fuse if necessary.",
+      "question_type": "factual",
+      "id": "62-80_instrume-q05"
+    },
+    {
+      "question": "What terminal connection should be checked for Term. R power supply?",
+      "answer": "Check wire from fuse F 11 to ignition lock term. R.",
+      "question_type": "diagnostic",
+      "id": "62-80_instrume-q06"
+    },
+    {
+      "question": "What should be done if Term. 31 ground connection is not okay?",
+      "answer": "Check ground wire, replacing if necessary.",
+      "question_type": "troubleshooting",
+      "id": "62-80_instrume-q07"
+    },
+    {
+      "question": "Which pin on the blue instrument cluster plug should be checked for the central warning lamp?",
+      "answer": "Check wire from check control term ZH to pin 9 of blue instrument cluster plug.",
+      "question_type": "diagnostic",
+      "id": "62-80_instrume-q08"
+    },
+    {
+      "question": "What signal frequency can be measured on pin 9 of the blue instrument cluster plug?",
+      "answer": "A ground signal of 1 Hz can be measured on pin 9 of blue instrument cluster plug with turn signal on.",
+      "question_type": "diagnostic",
+      "id": "62-80_instrume-q09"
+    },
+    {
+      "question": "What is the main diagnostic procedure covered on this page?",
+      "answer": "Test: Power supply and outlet wires on check control.",
+      "question_type": "procedural",
+      "id": "62-80_instrume-q10",
+      "_warnings": [
+        "Self-referential question: 'on this page'"
+      ]
+    }
+  ]
+}

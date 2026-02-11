@@ -1,0 +1,37 @@
+{
+  "page_id": "00-torque-specs-022",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/022.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:20:08.058750",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 685
+  },
+  "qa_pairs": [
+    {
+      "question": "Are the M10 screw torque specifications the same for timing case covers and front/rear end covers?",
+      "answer": "Yes, both use 47 Nm for M10 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-022-q07"
+    },
+    {
+      "question": "Do all engine types use the same torque specifications for M6 and M8 screws on case covers?",
+      "answer": "Yes, all engine types use 10 Nm for M6 screws and 22 Nm for M8 screws",
+      "question_type": "factual",
+      "id": "00-torque-specs-022-q09"
+    },
+    {
+      "question": "What is the difference in torque between M42x1.5 bolts and M20x1.5 sealing plugs on M51/M41 engines?",
+      "answer": "35 Nm difference (65 Nm for M42x1.5 bolts vs 30 Nm for M20x1.5 sealing plugs)",
+      "question_type": "factual",
+      "id": "00-torque-specs-022-q10"
+    }
+  ]
+}

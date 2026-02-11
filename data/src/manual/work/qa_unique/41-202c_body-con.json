@@ -1,0 +1,67 @@
+{
+  "page_id": "41-202c_body-con",
+  "image_path": "raw/41 - Body (Convertibles)/41-202c.jpg",
+  "section_id": "41",
+  "section_name": "Body (Convertibles)",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T08:50:37.349648",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1896,
+    "tokens_output": 687
+  },
+  "qa_pairs": [
+    {
+      "question": "What should you do with the brazing solder when removing the door pillar?",
+      "answer": "Remove the brazing solder and loosen the pillar.",
+      "question_type": "procedural",
+      "id": "41-202c_body-con-q01"
+    },
+    {
+      "question": "Why can't you use perfect resistance spot welding with workshop equipment on these sheet metal panels?",
+      "answer": "The sheet metal panels are too thick for perfect resistance spot welding with workshop equipment.",
+      "question_type": "factual",
+      "id": "41-202c_body-con-q02"
+    },
+    {
+      "question": "What type of welding holes should you drill for plug spot welding?",
+      "answer": "Drill plug spot welding holes in all mating surfaces required for plug spot welding.",
+      "question_type": "procedural",
+      "id": "41-202c_body-con-q03"
+    },
+    {
+      "question": "What should you take spacing between when preparing holes from the removed part?",
+      "answer": "Take spacing between holes from the removed part.",
+      "question_type": "procedural",
+      "id": "41-202c_body-con-q04"
+    },
+    {
+      "question": "What material should be used on the bearing surface of the reinforcement?",
+      "answer": "Use sealing tape on the bearing surface of the reinforcement.",
+      "question_type": "factual",
+      "id": "41-202c_body-con-q05"
+    },
+    {
+      "question": "What should you do to the mating surfaces on the new door pillar?",
+      "answer": "Grind mating surfaces on new door pillar.",
+      "question_type": "procedural",
+      "id": "41-202c_body-con-q07"
+    },
+    {
+      "question": "How should the new door pillar be attached?",
+      "answer": "Mount and tack weld new door pillar.",
+      "question_type": "procedural",
+      "id": "41-202c_body-con-q08"
+    },
+    {
+      "question": "What reference number shows the sealing tape application on the reinforcement?",
+      "answer": "Reference number 30 41 537.",
+      "question_type": "visual",
+      "id": "41-202c_body-con-q12"
+    }
+  ]
+}

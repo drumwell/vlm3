@@ -1,0 +1,79 @@
+{
+  "page_id": "00-14_maintena",
+  "image_path": "raw/00 - Maintenance/00-14.jpg",
+  "section_id": "00",
+  "section_name": "Maintenance",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:14:42.991143",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1802,
+    "tokens_output": 526
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the inspection interval code for the BMW Inspection II maintenance?",
+      "answer": "00 00 230 BMW Inspection II = Inspection I + Additional Jobs",
+      "question_type": "factual",
+      "id": "00-14_maintena-q01"
+    },
+    {
+      "question": "Which group reference covers checking all drive belts and adjusting tension if necessary?",
+      "answer": "Gr. 12/32/64",
+      "question_type": "factual",
+      "id": "00-14_maintena-q02"
+    },
+    {
+      "question": "What group reference is used for replacing spark plugs?",
+      "answer": "Gr. 12",
+      "question_type": "factual",
+      "id": "00-14_maintena-q03"
+    },
+    {
+      "question": "Which group reference covers air cleaner and air filter cartridge replacement?",
+      "answer": "Gr. 13",
+      "question_type": "factual",
+      "id": "00-14_maintena-q04"
+    },
+    {
+      "question": "What is the group reference for replacing the main fuel filter?",
+      "answer": "Gr. 16",
+      "question_type": "factual",
+      "id": "00-14_maintena-q05"
+    },
+    {
+      "question": "Which group reference covers checking the clutch drive plate for wear?",
+      "answer": "Gr. 21",
+      "question_type": "factual",
+      "id": "00-14_maintena-q06"
+    },
+    {
+      "question": "What group reference is used for replacing manual transmission oil and transfer case oil for 325 iX?",
+      "answer": "Gr. 23",
+      "question_type": "factual",
+      "id": "00-14_maintena-q07"
+    },
+    {
+      "question": "Which group reference covers checking front wheel bearing play?",
+      "answer": "Gr. 31",
+      "question_type": "factual",
+      "id": "00-14_maintena-q08"
+    },
+    {
+      "question": "What is the group reference for checking automatic transmission oil level?",
+      "answer": "Gr. 24",
+      "question_type": "factual",
+      "id": "00-14_maintena-q09"
+    },
+    {
+      "question": "Which group reference is listed for the additional job of canoe timing belt service on M20 engines?",
+      "answer": "Gr. 11",
+      "question_type": "factual",
+      "id": "00-14_maintena-q10"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "page_id": "13-810_fuel-sys",
+  "image_path": "raw/13 - Fuel System/13-810.jpg",
+  "section_id": "13",
+  "section_name": "Fuel System",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:50:44.350084",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1789,
+    "tokens_output": 677
+  },
+  "qa_pairs": [
+    {
+      "question": "What multimeter designation is referenced for testing procedures?",
+      "answer": "Quoted multimeter steps (for example, M 01) refer to the BMW SERVICE TEST.",
+      "question_type": "tool",
+      "id": "13-810_fuel-sys-q04"
+    },
+    {
+      "question": "Which terminals should you connect the voltmeter between when checking voltage supply to the idle control unit?",
+      "answer": "Connect voltmeter (M 01) between terminal 2 and car ground.",
+      "question_type": "diagnostic",
+      "id": "13-810_fuel-sys-q05"
+    },
+    {
+      "question": "What voltage reading should the voltmeter display when testing between terminal 2 and ground with ignition on?",
+      "answer": "Voltmeter displaying at least 9 volts?",
+      "question_type": "parameter",
+      "id": "13-810_fuel-sys-q06",
+      "_warnings": [
+        "Answer ends with '?' (may be a question)"
+      ]
+    },
+    {
+      "question": "If there's no voltage between terminal 2 and ground, what should you check?",
+      "answer": "Check green/yellow wire for breaks according to wiring diagram with ohmmeter (M 06). Eliminate breaks.",
+      "question_type": "troubleshooting",
+      "id": "13-810_fuel-sys-q07"
+    },
+    {
+      "question": "What indicates that the voltage supply and ground of the idle control unit are functioning properly?",
+      "answer": "Voltage supply and ground of idle control unit okay!",
+      "question_type": "diagnostic",
+      "id": "13-810_fuel-sys-q10"
+    }
+  ]
+}

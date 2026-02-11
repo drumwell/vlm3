@@ -1,0 +1,347 @@
+{
+  "section_id": "41",
+  "section_name": "Body",
+  "index_pages": [
+    "41-00-index-a.jpg",
+    "41-00-index-b.jpg",
+    "41-00-index-c.jpg",
+    "41-00-index-d.jpg",
+    "41-00-index-e.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "004",
+      "name": "Front door, left or right - adjust",
+      "pages": [
+        "41-501"
+      ]
+    },
+    {
+      "code": "015",
+      "name": "Engine carrier, front, left (with wheel house) - replace",
+      "pages": [
+        "41-104"
+      ]
+    },
+    {
+      "code": "026",
+      "name": "Engine carrier front section and converter section, front, left (with wheel house) - replace",
+      "pages": [
+        "41-106"
+      ]
+    },
+    {
+      "code": "043/044",
+      "name": "Engine carrier, front, left/right without wheel house - replace",
+      "pages": [
+        "41-108"
+      ]
+    },
+    {
+      "code": "080",
+      "name": "Front door, left or right - remove and install (unhingable doors)",
+      "pages": [
+        "41-503",
+        "41-507"
+      ]
+    },
+    {
+      "code": "101",
+      "name": "Front door, left or right - replace",
+      "pages": [
+        "41-504",
+        "41-508"
+      ]
+    },
+    {
+      "code": "291",
+      "name": "Rear side panel, right (partial replacement cut to window line) - replace (2-door cars)",
+      "pages": [
+        "41-318"
+      ]
+    },
+    {
+      "code": "338",
+      "name": "Rear side panel, right (partial replacement up to wheel house) - replace",
+      "pages": [
+        "41-331"
+      ]
+    },
+    {
+      "code": "41 11 011/001",
+      "name": "Engine carrier, front, right/left partial replacement (with wheel house) - replace (four wheel drive)",
+      "pages": [
+        "41-101"
+      ]
+    },
+    {
+      "code": "41 11 101",
+      "name": "Side member cover, left or right - replace (4-door cars)",
+      "pages": [
+        "41-111"
+      ]
+    },
+    {
+      "code": "41 11 121",
+      "name": "Side member cover, left or right (partial replacement without removal of door) - replace (2-door cars)",
+      "pages": [
+        "41-114"
+      ]
+    },
+    {
+      "code": "41 11 510",
+      "name": "Side member cover, left or right (complete) - replace",
+      "pages": [
+        "41-116"
+      ]
+    },
+    {
+      "code": "41 12 535",
+      "name": "Trunk floor plate assembly - replace (tail panel removal)",
+      "pages": [
+        "41-118"
+      ]
+    },
+    {
+      "code": "41 12 545",
+      "name": "Cross member on trunk floor plate - replace (trunk floor plate removed)",
+      "pages": [
+        "41-121"
+      ]
+    },
+    {
+      "code": "41 14 021",
+      "name": "Wheel house, front, left - replace",
+      "pages": [
+        "41-122"
+      ]
+    },
+    {
+      "code": "41 14 132",
+      "name": "Wheel house outer section and side panel (partial replacement up to window line), rear, right - replace",
+      "pages": [
+        "41-127"
+      ]
+    },
+    {
+      "code": "41 14 181",
+      "name": "Wheel house complete and side panel, rear, right - replace",
+      "pages": [
+        "41-129"
+      ]
+    },
+    {
+      "code": "41 21 051",
+      "name": "Center door pillar, left or right - replace (4-door cars)",
+      "pages": [
+        "41-201"
+      ]
+    },
+    {
+      "code": "41 22 501",
+      "name": "Roof frame, left or right - replace (roof panel removed)",
+      "pages": [
+        "41-211"
+      ]
+    },
+    {
+      "code": "41 31 001",
+      "name": "Roof panel - replace",
+      "pages": [
+        "41-301"
+      ]
+    },
+    {
+      "code": "41 32 515",
+      "name": "Cowl panel, left or right - replace (roof panel removed)",
+      "pages": [
+        "41-304"
+      ]
+    },
+    {
+      "code": "41 33 001",
+      "name": "Front panel complete with front wall - replace",
+      "pages": [
+        "41-306"
+      ]
+    },
+    {
+      "code": "41 34 041",
+      "name": "Tail panel - replace",
+      "pages": [
+        "41-309"
+      ]
+    },
+    {
+      "code": "41 35 101",
+      "name": "Rear side panel, left (up to roof joint) - replace (2-door cars)",
+      "pages": [
+        "41-312"
+      ]
+    },
+    {
+      "code": "41 35 291",
+      "name": "Rear side panel, right (partial replacement up to window line) - replace (4-door cars)",
+      "pages": [
+        "41-325"
+      ]
+    },
+    {
+      "code": "41 51",
+      "name": "Bearing sleeves for door hinges - replace",
+      "pages": [
+        "41-500"
+      ]
+    },
+    {
+      "code": "41 52 004",
+      "name": "Rear door, left or right - adjust",
+      "pages": [
+        "41-505"
+      ]
+    },
+    {
+      "code": "41 61 014",
+      "name": "Engine hood - align",
+      "pages": [
+        "41-601"
+      ]
+    },
+    {
+      "code": "41 62 014",
+      "name": "Trunk lid - align",
+      "pages": [
+        "41-602"
+      ]
+    },
+    {
+      "code": "500",
+      "name": "Center door pillar outer section, left or right - replace (4-door cars)",
+      "pages": [
+        "41-204"
+      ]
+    },
+    {
+      "code": "501",
+      "name": "Front door pillar, left or right - replace (front side panel removed)",
+      "pages": [
+        "41-207"
+      ]
+    },
+    {
+      "code": "541",
+      "name": "Roof frame, front - replace (roof panel removed)",
+      "pages": [
+        "41-216"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "41-501": [
+      "004"
+    ],
+    "41-104": [
+      "015"
+    ],
+    "41-106": [
+      "026"
+    ],
+    "41-108": [
+      "043/044"
+    ],
+    "41-503": [
+      "080"
+    ],
+    "41-507": [
+      "080"
+    ],
+    "41-504": [
+      "101"
+    ],
+    "41-508": [
+      "101"
+    ],
+    "41-318": [
+      "291"
+    ],
+    "41-331": [
+      "338"
+    ],
+    "41-101": [
+      "41 11 011/001"
+    ],
+    "41-111": [
+      "41 11 101"
+    ],
+    "41-114": [
+      "41 11 121"
+    ],
+    "41-116": [
+      "41 11 510"
+    ],
+    "41-118": [
+      "41 12 535"
+    ],
+    "41-121": [
+      "41 12 545"
+    ],
+    "41-122": [
+      "41 14 021"
+    ],
+    "41-127": [
+      "41 14 132"
+    ],
+    "41-129": [
+      "41 14 181"
+    ],
+    "41-201": [
+      "41 21 051"
+    ],
+    "41-211": [
+      "41 22 501"
+    ],
+    "41-301": [
+      "41 31 001"
+    ],
+    "41-304": [
+      "41 32 515"
+    ],
+    "41-306": [
+      "41 33 001"
+    ],
+    "41-309": [
+      "41 34 041"
+    ],
+    "41-312": [
+      "41 35 101"
+    ],
+    "41-325": [
+      "41 35 291"
+    ],
+    "41-500": [
+      "41 51"
+    ],
+    "41-505": [
+      "41 52 004"
+    ],
+    "41-601": [
+      "41 61 014"
+    ],
+    "41-602": [
+      "41 62 014"
+    ],
+    "41-204": [
+      "500"
+    ],
+    "41-207": [
+      "501"
+    ],
+    "41-216": [
+      "541"
+    ]
+  },
+  "merge_warnings": [
+    "Code 080: name mismatch 'Front door, left or right - remove and install (unhingable doors)' vs 'Rear door, left or right - remove and install (unhingable doors)'",
+    "Code 101: name mismatch 'Front door, left or right - replace' vs 'Rear door, left or right - replace'"
+  ]
+}

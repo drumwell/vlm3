@@ -1,0 +1,73 @@
+{
+  "page_id": "12-50_engine-e",
+  "image_path": "raw/12 - Engine Electrical Equipment/12-50.jpg",
+  "section_id": "12",
+  "section_name": "Engine Electrical Equipment",
+  "source_type": "service_manual",
+  "content_type": "troubleshooting",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:39:52.342121",
+    "prompt_template": "service_manual/troubleshooting",
+    "tokens_input": 1790,
+    "tokens_output": 753
+  },
+  "qa_pairs": [
+    {
+      "question": "If the starter does not work at all, what should I check first?",
+      "answer": "Bridge connection 30 with connection 50 on solenoid. If starter works, check for defective wires and connections on starter switch or starter switch defective. If starter does not work, turn on lights to further diagnose.",
+      "question_type": "diagnostic",
+      "id": "12-50_engine-e-q02"
+    },
+    {
+      "question": "What causes a starter to turn too slowly?",
+      "answer": "A) Bearings worn or very dirty, or B) Electrical defect in solenoid, armature or coils.",
+      "question_type": "troubleshooting",
+      "id": "12-50_engine-e-q03"
+    },
+    {
+      "question": "If the starter slips, what component should I inspect?",
+      "answer": "Check gear ring teeth on flywheel. If teeth are damaged, remove transmission and replace flywheel. If teeth are okay, repair the starter by checking the drive pinion (one-way clutch) and engaging mechanism.",
+      "question_type": "inspection",
+      "id": "12-50_engine-e-q04"
+    },
+    {
+      "question": "What does it indicate if I only hear a click in the solenoid when trying to start?",
+      "answer": "Turn on lights to diagnose further. If lights go out while starting, there's a short in starter. If lights remain on while starting, check for carbon brushes worn or solenoid defective.",
+      "question_type": "diagnostic",
+      "id": "12-50_engine-e-q05"
+    },
+    {
+      "question": "What should I do if the lights go out while attempting to start the engine?",
+      "answer": "This indicates a short in the starter, which needs to be repaired or replaced.",
+      "question_type": "troubleshooting",
+      "id": "12-50_engine-e-q06"
+    },
+    {
+      "question": "How do I test if the starter solenoid is working properly?",
+      "answer": "Bridge connection 30 with connection 50 on solenoid. If the starter works with this bridge, the solenoid connections are good and the problem is likely in the starter switch or its wiring.",
+      "question_type": "procedural",
+      "id": "12-50_engine-e-q07"
+    },
+    {
+      "question": "What are the possible causes if lights remain on while starting but the starter doesn't turn?",
+      "answer": "A) Carbon brushes worn, or B) Solenoid defective.",
+      "question_type": "troubleshooting",
+      "id": "12-50_engine-e-q08"
+    },
+    {
+      "question": "If the flywheel gear ring teeth are damaged, what repair is required?",
+      "answer": "Remove transmission and replace flywheel.",
+      "question_type": "procedural",
+      "id": "12-50_engine-e-q09"
+    },
+    {
+      "question": "What starter components should be checked if the gear ring teeth are okay but the starter still slips?",
+      "answer": "A) Drive pinion (one-way clutch) and B) Engaging mechanism.",
+      "question_type": "component",
+      "id": "12-50_engine-e-q10"
+    }
+  ]
+}

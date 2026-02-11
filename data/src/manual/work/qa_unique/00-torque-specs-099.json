@@ -1,0 +1,55 @@
+{
+  "page_id": "00-torque-specs-099",
+  "image_path": "raw/00 - Torque Specs/BMW_Torque_Specs/099.jpg",
+  "section_id": "00",
+  "section_name": "Torque Specs",
+  "source_type": "service_manual",
+  "content_type": "specification",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T21:34:51.895761",
+    "prompt_template": "service_manual/specification",
+    "tokens_input": 1882,
+    "tokens_output": 628
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the torque value for the retaining plates for bearings on housing?",
+      "answer": "10 Nm (ft. lbs.).",
+      "question_type": "factual",
+      "id": "00-torque-specs-099-q03"
+    },
+    {
+      "question": "Which transmission types use the retaining plates for bearings on housing (17AZ)?",
+      "answer": "S 5 D 310 Z/S 5 D 200 G/250 G transmissions.",
+      "question_type": "factual",
+      "id": "00-torque-specs-099-q04"
+    },
+    {
+      "question": "What section of the manual covers the Case and Cover specifications?",
+      "answer": "Section 23.11 Case and Cover.",
+      "question_type": "navigation",
+      "id": "00-torque-specs-099-q05"
+    },
+    {
+      "question": "What is the difference in torque specifications between the holder to transfer case and the retaining plates for bearings?",
+      "answer": "The retaining plates for bearings require 10 Nm while the holder to transfer case requires 9 Nm, a difference of 1 Nm.",
+      "question_type": "factual",
+      "id": "00-torque-specs-099-q06"
+    },
+    {
+      "question": "Do both components listed use the same screw size?",
+      "answer": "Yes, both the holder to transfer case and retaining plates for bearings on housing use M6 screws.",
+      "question_type": "factual",
+      "id": "00-torque-specs-099-q07"
+    },
+    {
+      "question": "What type of transmission is the 265 Sport?",
+      "answer": "265 Sport (as listed in the Type column for component 16AZ).",
+      "question_type": "factual",
+      "id": "00-torque-specs-099-q08"
+    }
+  ]
+}

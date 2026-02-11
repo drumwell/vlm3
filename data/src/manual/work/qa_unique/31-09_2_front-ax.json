@@ -1,0 +1,55 @@
+{
+  "page_id": "31-09_2_front-ax",
+  "image_path": "raw/31 - Front Axle/31-09_2.jpg",
+  "section_id": "31",
+  "section_name": "Front Axle",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T02:01:23.964353",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1895,
+    "tokens_output": 766
+  },
+  "qa_pairs": [
+    {
+      "question": "What special tool part numbers are referenced for pulling in the drive flange?",
+      "answer": "Special Tools 33 4 032 / 038 / 045 / 048.",
+      "question_type": "tool",
+      "id": "31-09_2_front-ax-q02"
+    },
+    {
+      "question": "What component does part number 30 31 570 identify in the upper diagram?",
+      "answer": "The circlip installation location or tool position for the drive flange assembly.",
+      "question_type": "visual",
+      "id": "31-09_2_front-ax-q03"
+    },
+    {
+      "question": "What procedure is being shown in the lower diagram?",
+      "answer": "Pull in drive flange with Special Tools 33 4 032 / 038 / 045 / 048.",
+      "question_type": "procedural",
+      "id": "31-09_2_front-ax-q04"
+    },
+    {
+      "question": "What does part number 33 4 038 represent in the lower diagram?",
+      "answer": "One of the special tools required for the drive flange installation procedure.",
+      "question_type": "component",
+      "id": "31-09_2_front-ax-q07"
+    },
+    {
+      "question": "What critical safety instruction is given for circlip installation?",
+      "answer": "It is important to install the circlip with the open end facing down.",
+      "question_type": "safety",
+      "id": "31-09_2_front-ax-q10"
+    },
+    {
+      "question": "How many different special tool part numbers are required for the drive flange procedure?",
+      "answer": "Four different special tool part numbers: 33 4 032, 33 4 038, 33 4 045, and 33 4 048.",
+      "question_type": "tool",
+      "id": "31-09_2_front-ax-q11"
+    }
+  ]
+}

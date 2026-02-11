@@ -1,0 +1,91 @@
+{
+  "page_id": "11-73_engine",
+  "image_path": "raw/11 - Engine/11-73.jpg",
+  "section_id": "11",
+  "section_name": "Engine",
+  "source_type": "service_manual",
+  "content_type": "procedure",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-09T22:17:46.989528",
+    "prompt_template": "service_manual/procedure",
+    "tokens_input": 1888,
+    "tokens_output": 787
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the nominal valve clearance specification for cold conditions?",
+      "answer": "The nominal valve clearance for cold conditions is 0.26 to 0.35 mm (0.010 to 0.014 inches).",
+      "question_type": "factual",
+      "id": "11-73_engine-q01"
+    },
+    {
+      "question": "What is the nominal valve clearance specification for warm conditions?",
+      "answer": "The nominal valve clearance for warm conditions is 0.31 to 0.40 mm (0.012 to 0.016 inches).",
+      "question_type": "factual",
+      "id": "11-73_engine-q02"
+    },
+    {
+      "question": "What special tool is required to crank the engine during valve adjustment?",
+      "answer": "Special Tool 11 3 020 is required to crank the engine during valve adjustment.",
+      "question_type": "tool",
+      "id": "11-73_engine-q03"
+    },
+    {
+      "question": "How do you remove the valve shim for adjustment?",
+      "answer": "Blow out the valve shim with compressed air to remove it.",
+      "question_type": "procedural",
+      "id": "11-73_engine-q04"
+    },
+    {
+      "question": "What should you do if the measured valve clearance is not within specified tolerances?",
+      "answer": "Turn openings of tappets as shown in the picture if the measured valve clearance is not within specified tolerances.",
+      "question_type": "procedural",
+      "id": "11-73_engine-q05"
+    },
+    {
+      "question": "What special tool is shown in the diagram for adjusting tappets?",
+      "answer": "Special Tool 11 3 170 is shown in the diagram for guiding and adjusting the tappets.",
+      "question_type": "tool",
+      "id": "11-73_engine-q06"
+    },
+    {
+      "question": "How should the valve shim be installed after measuring its thickness?",
+      "answer": "Install the shim of required thickness with the lettering facing down.",
+      "question_type": "procedural",
+      "id": "11-73_engine-q07"
+    },
+    {
+      "question": "What must remain in place when checking valves for leaks?",
+      "answer": "Spark plugs remain screwed in when checking valves for leaks with the cylinder head removed.",
+      "question_type": "procedural",
+      "id": "11-73_engine-q08"
+    },
+    {
+      "question": "What should be filled in the combustion chamber during valve leak testing?",
+      "answer": "Fill the combustion chamber with gasoline outdoors or indoors with conformance of fire prevention regulations.",
+      "question_type": "safety",
+      "id": "11-73_engine-q09"
+    },
+    {
+      "question": "What components must be inspected if gasoline runs past the valve heads during leak testing?",
+      "answer": "Valves and valve seats must be inspected if gasoline runs past the valve heads during leak testing.",
+      "question_type": "inspection",
+      "id": "11-73_engine-q10"
+    },
+    {
+      "question": "Where can you find instructions for removing valves?",
+      "answer": "Instructions for removing valves can be found in section 11 34 550.",
+      "question_type": "navigation",
+      "id": "11-73_engine-q11"
+    },
+    {
+      "question": "Where can you find information about machining valve seats?",
+      "answer": "Information about machining valve seats can be found in section 11 12 607.",
+      "question_type": "navigation",
+      "id": "11-73_engine-q12"
+    }
+  ]
+}

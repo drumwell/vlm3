@@ -1,0 +1,67 @@
+{
+  "page_id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-00",
+  "image_path": "raw/1990 BMW M3 Electrical Troubleshooting Manual/6210-00.jpg",
+  "section_id": "1990",
+  "section_name": "1990 BMW M3 Electrical Troubleshooting Manual",
+  "source_type": "electrical_manual",
+  "content_type": "diagram",
+  "procedures_covered": [],
+  "procedures_names": [],
+  "generation": {
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-02-10T01:02:58.285619",
+    "prompt_template": "electrical_manual/diagram",
+    "tokens_input": 1892,
+    "tokens_output": 533
+  },
+  "qa_pairs": [
+    {
+      "question": "What is the fuse rating for Fuse 12 in the power distribution box?",
+      "answer": "Fuse 12 is rated at 7.5 AMP.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-00-q01"
+    },
+    {
+      "question": "What wire colors are used for the headlights connection?",
+      "answer": "The headlights use 5 WT/VI wire color coding.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-00-q02"
+    },
+    {
+      "question": "Which components are connected to the instrument cluster printed circuit according to this diagram?",
+      "answer": "The instrument cluster printed circuit connects to the high beam indicator (blue), fog lights indicator (green), left turn indicator (green), and right turn indicator (green).",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-00-q03"
+    },
+    {
+      "question": "What type of speedometer sender is shown in this wiring diagram?",
+      "answer": "The diagram shows a speedometer sender with a rotating disc that magnetically opens and closes a switch.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-00-q04"
+    },
+    {
+      "question": "What is the wire color specification for the fog lights circuit?",
+      "answer": "The fog lights circuit uses 5 BU/RD wire color coding.",
+      "question_type": "wiring",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-00-q05"
+    },
+    {
+      "question": "What important note is provided about the alternator indicator and charging system?",
+      "answer": "The note states that a resistor allows the alternator indicator to charge if the bulb burns out.",
+      "question_type": "factual",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-00-q06"
+    },
+    {
+      "question": "Which connectors are marked as 'NOT USED' in this instrument cluster diagram?",
+      "answer": "Connectors at positions 14 and 20 are marked as 'NOT USED'.",
+      "question_type": "connector",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-00-q07"
+    },
+    {
+      "question": "What does the oxygen sensor indicator control according to the diagram?",
+      "answer": "The oxygen sensor indicator control manages the O2 sensor and is connected to a fuse rated at 7.5 AMP.",
+      "question_type": "component",
+      "id": "1990-bmw-m3-electrical-troubleshooting-manual-6210-00-q08"
+    }
+  ]
+}

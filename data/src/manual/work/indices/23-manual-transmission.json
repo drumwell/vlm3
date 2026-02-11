@@ -1,0 +1,339 @@
+{
+  "section_id": "23",
+  "section_name": "Manual Transmission",
+  "index_pages": [
+    "23-00-index-a.jpg",
+    "23-00-index-b.jpg",
+    "23-00-index-c.jpg",
+    "23-00-index-d.jpg",
+    "23-00-index-e.jpg",
+    "23-00-index-f.jpg"
+  ],
+  "procedures": [
+    {
+      "code": "032",
+      "name": "Transmission - exchange",
+      "pages": [
+        "23-168a",
+        "23-301",
+        "23-304",
+        "23-3b"
+      ]
+    },
+    {
+      "code": "083",
+      "name": "Radial oil seal for selector shaft - replace",
+      "pages": [
+        "23-173",
+        "23-312",
+        "23-6"
+      ]
+    },
+    {
+      "code": "084",
+      "name": "Radial oil seal for selector shaft - replace",
+      "pages": [
+        "23-107"
+      ]
+    },
+    {
+      "code": "23 00 022",
+      "name": "Transmission - remove and install",
+      "pages": [
+        "23-167",
+        "23-3",
+        "23-300",
+        "23-302"
+      ]
+    },
+    {
+      "code": "23 11 013",
+      "name": "Transmission case front cover - remove and install / seal",
+      "pages": [
+        "23-169",
+        "23-305",
+        "23-4"
+      ]
+    },
+    {
+      "code": "23 11 014",
+      "name": "Transmission case front section - remove and install/seal",
+      "pages": [
+        "23-103"
+      ]
+    },
+    {
+      "code": "23 12 053",
+      "name": "Radial oil seal for output flange - replace",
+      "pages": [
+        "23-172",
+        "23-311",
+        "23-6"
+      ]
+    },
+    {
+      "code": "23 12 054",
+      "name": "Radial oil seal for output flange - replace",
+      "pages": [
+        "23-107"
+      ]
+    },
+    {
+      "code": "23 13 010",
+      "name": "Vibration damper - remove and install / replace",
+      "pages": [
+        "23-173a"
+      ]
+    },
+    {
+      "code": "23 21 503",
+      "name": "Input and output shaft assembly - remove and install",
+      "pages": [
+        "23-174",
+        "23-313",
+        "23-8"
+      ]
+    },
+    {
+      "code": "23 21 504",
+      "name": "Input and output shaft assembly - remove and install",
+      "pages": [
+        "23-109"
+      ]
+    },
+    {
+      "code": "23 23 505",
+      "name": "Synchronization - disassemble and assemble",
+      "pages": [
+        "23-188",
+        "23-22",
+        "23-324"
+      ]
+    },
+    {
+      "code": "23 23 506",
+      "name": "Synchronization - disassemble and assemble",
+      "pages": [
+        "23-120"
+      ]
+    },
+    {
+      "code": "503",
+      "name": "Radial oil seal for input shaft - replace",
+      "pages": [
+        "23-173",
+        "23-312",
+        "23-7"
+      ]
+    },
+    {
+      "code": "522",
+      "name": "Transmission case rear section - remove and install / seal",
+      "pages": [
+        "23-307"
+      ]
+    },
+    {
+      "code": "548",
+      "name": "Radial oil seal for input shaft - replace",
+      "pages": [
+        "23-108"
+      ]
+    },
+    {
+      "code": "554",
+      "name": "Output shaft - replace",
+      "pages": [
+        "23-13",
+        "23-179",
+        "23-319"
+      ]
+    },
+    {
+      "code": "555",
+      "name": "Output shaft - replace",
+      "pages": [
+        "23-113"
+      ]
+    },
+    {
+      "code": "610",
+      "name": "Guide sleeve for clutch release - replace",
+      "pages": [
+        "23-310"
+      ]
+    },
+    {
+      "code": "623",
+      "name": "Guide sleeve for clutch release - remove and install",
+      "pages": [
+        "23-170",
+        "23-310",
+        "23-5"
+      ]
+    },
+    {
+      "code": "624",
+      "name": "Guide sleeve for clutch release - remove and install",
+      "pages": [
+        "23-106"
+      ]
+    },
+    {
+      "code": "703",
+      "name": "Bearings of all transmission shafts - replace",
+      "pages": [
+        "23-18",
+        "23-184",
+        "23-321"
+      ]
+    },
+    {
+      "code": "704",
+      "name": "Bearings for all transmission shafts - replace",
+      "pages": [
+        "23-118"
+      ]
+    }
+  ],
+  "page_to_procedures": {
+    "23-168a": [
+      "032"
+    ],
+    "23-301": [
+      "032"
+    ],
+    "23-304": [
+      "032"
+    ],
+    "23-3b": [
+      "032"
+    ],
+    "23-173": [
+      "083",
+      "503"
+    ],
+    "23-312": [
+      "083",
+      "503"
+    ],
+    "23-6": [
+      "083",
+      "23 12 053"
+    ],
+    "23-107": [
+      "084",
+      "23 12 054"
+    ],
+    "23-167": [
+      "23 00 022"
+    ],
+    "23-3": [
+      "23 00 022"
+    ],
+    "23-300": [
+      "23 00 022"
+    ],
+    "23-302": [
+      "23 00 022"
+    ],
+    "23-169": [
+      "23 11 013"
+    ],
+    "23-305": [
+      "23 11 013"
+    ],
+    "23-4": [
+      "23 11 013"
+    ],
+    "23-103": [
+      "23 11 014"
+    ],
+    "23-172": [
+      "23 12 053"
+    ],
+    "23-311": [
+      "23 12 053"
+    ],
+    "23-173a": [
+      "23 13 010"
+    ],
+    "23-174": [
+      "23 21 503"
+    ],
+    "23-313": [
+      "23 21 503"
+    ],
+    "23-8": [
+      "23 21 503"
+    ],
+    "23-109": [
+      "23 21 504"
+    ],
+    "23-188": [
+      "23 23 505"
+    ],
+    "23-22": [
+      "23 23 505"
+    ],
+    "23-324": [
+      "23 23 505"
+    ],
+    "23-120": [
+      "23 23 506"
+    ],
+    "23-7": [
+      "503"
+    ],
+    "23-307": [
+      "522"
+    ],
+    "23-108": [
+      "548"
+    ],
+    "23-13": [
+      "554"
+    ],
+    "23-179": [
+      "554"
+    ],
+    "23-319": [
+      "554"
+    ],
+    "23-113": [
+      "555"
+    ],
+    "23-310": [
+      "610",
+      "623"
+    ],
+    "23-170": [
+      "623"
+    ],
+    "23-5": [
+      "623"
+    ],
+    "23-106": [
+      "624"
+    ],
+    "23-18": [
+      "703"
+    ],
+    "23-184": [
+      "703"
+    ],
+    "23-321": [
+      "703"
+    ],
+    "23-118": [
+      "704"
+    ]
+  },
+  "merge_warnings": [
+    "Code 23 11 013: name mismatch 'Transmission case front cover - remove and install / seal' vs 'Transmission case front section - remove and install / seal'",
+    "Code 23 00 022: name mismatch 'Transmission - remove and install' vs 'Layout drawing - transmission'",
+    "Code 032: name mismatch 'Transmission - exchange' vs 'Layout drawing - shift mechanism'",
+    "Code 23 11 013: name mismatch 'Transmission case front cover - remove and install / seal' vs 'Transmission case front section - remove and install / seal'",
+    "Code 623: name mismatch 'Guide sleeve for clutch release - remove and install' vs 'Cover with guide sleeve for clutch release - remove and install / seal'"
+  ]
+}
