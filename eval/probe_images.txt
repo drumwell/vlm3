@@ -1,0 +1,30 @@
+# Curated images for manual probe generation.
+# Paths are relative to data/src/manual/prepared/.
+
+# Torque specs (numeric extraction)
+images/raw_00_-_Torque_Specs_BMW_Torque_Specs_044.jpg
+images/raw_00_-_Torque_Specs_BMW_Torque_Specs_046.jpg
+
+# Clutch procedures
+images/raw_21_-_Clutch_21-01.jpg
+images/raw_21_-_Clutch_21-03.jpg
+
+# Brake procedures
+images/raw_34_-_Brakes_34-01.jpg
+images/raw_34_-_Brakes_34-05.jpg
+
+# Transmission rebuild (visual grounding)
+images/raw_Getrag265_5_Rebuild_ShiftBMW_003.jpg
+images/raw_Getrag265_5_Rebuild_ShiftBMW_018.jpg
+images/raw_Getrag265_5_Rebuild_ShiftBMW_023.jpg
+
+# Wiring diagrams
+images/raw_1990_BMW_M3_Electrical_Troubleshooting_Manual_0670-01.jpg
+images/raw_1990_BMW_M3_Electrical_Troubleshooting_Manual_0670-04.jpg
+
+# Maintenance/safety
+images/raw_00_-_Maintenance_00-00-index-a.jpg
+images/raw_00_-_Maintenance_00-01.jpg
+
+# Engine electrical
+images/raw_12_-_Engine_Electrical_Equipment_12-01.jpg
