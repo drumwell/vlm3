@@ -1,0 +1,7 @@
+{
+  "model": "Qwen/Qwen2-VL-7B-Instruct",
+  "adapter_repo": "drumwell/vlm3-lora",
+  "eval_samples": 334,
+  "created": "2026-02-09T04:38:38.198803",
+  "label": "v1-manual-only"
+}
