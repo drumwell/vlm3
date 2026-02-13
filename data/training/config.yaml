@@ -1,7 +1,10 @@
 sources:
   manual:
     path: ../src/manual/prepared
-    weight: 1.0
+    weight: 0.8
+  forum:
+    path: ../src/forum/prepared
+    weight: 0.2
 
 upsample_to_balance: true
 shuffle_seed: 42

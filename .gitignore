@@ -15,6 +15,7 @@ todo
 # Scraped forum data (large, not committed)
 forum_archive/
 aws_results/
+data/src/forum/raw/*.jsonl
 
 # Merged training output (generated, don't commit)
 data/training/merged_*.jsonl

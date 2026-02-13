@@ -14,6 +14,9 @@ data-manual:
 data-status:
 	$(MAKE) -C data status
 
+data-merge:
+	$(MAKE) -C data merge
+
 data-clean:
 	$(MAKE) -C data clean
 
@@ -24,6 +27,15 @@ data-clean:
 # Variables for training (override via command line)
 HF_DATASET_REPO ?= drumwell/vlm3
 HF_MODEL_REPO ?= drumwell/vlm3-lora
+
+upload:
+	python data/src/manual/pipeline/09_upload_vlm.py \
+		--train data/training/merged_train.jsonl \
+		--val data/training/merged_val.jsonl \
+		--images data/training/images \
+		--repo $(HF_DATASET_REPO) \
+		--report data/training/upload_report.md \
+		--config data/src/manual/config.yaml
 
 train:
 	@echo "Starting full training on Modal (detached)..."
@@ -206,19 +218,54 @@ clean-eval:
 	rm -rf eval/reports/*.json eval/reports/*.md
 
 # Archive / list eval report sets
+# Usage: make eval-archive [LABEL=v1-manual-only]
+LABEL ?=
 eval-archive:
 	@if ls eval/reports/*.json eval/reports/*.md 1>/dev/null 2>&1; then \
 		tag=$$(date +%Y%m%d_%H%M%S); \
+		if [ -n "$(LABEL)" ]; then tag="$${tag}_$(LABEL)"; fi; \
 		mkdir -p eval/reports/archive/run_$$tag; \
-		mv eval/reports/*.json eval/reports/*.md eval/reports/archive/run_$$tag/; \
+		for f in eval/reports/*.json eval/reports/*.md; do \
+			case "$$(basename $$f)" in multi_run_comparison.md) continue;; esac; \
+			mv "$$f" eval/reports/archive/run_$$tag/; \
+		done; \
+		python eval/run_meta.py eval/reports/archive/run_$$tag --auto \
+			$$([ -n "$(LABEL)" ] && echo "--label $(LABEL)"); \
 		echo "Archived to eval/reports/archive/run_$$tag/"; \
 	else echo "No eval reports to archive"; fi
+
+# Retroactively label an archived run
+# Usage: make eval-label RUN=run_20260207_134206 LABEL=v1-manual-only
+RUN ?=
+eval-label:
+	@test -n "$(RUN)" || (echo "Error: RUN not set. Usage: make eval-label RUN=run_... LABEL=..." && exit 1)
+	@test -d "eval/reports/archive/$(RUN)" || (echo "Error: eval/reports/archive/$(RUN) not found" && exit 1)
+	python eval/run_meta.py eval/reports/archive/$(RUN) --auto \
+		$$([ -n "$(LABEL)" ] && echo "--label $(LABEL)")
+
+# Multi-run progression comparison
+eval-compare-runs:
+	@echo "Generating multi-run comparison report..."
+	python eval/compare_runs.py --output eval/reports/multi_run_comparison.md
+	@echo ""
+	@echo "Report saved to: eval/reports/multi_run_comparison.md"
 
 eval-runs:
 	@echo "Archived eval runs:"
 	@if [ -d eval/reports/archive ]; then \
 		for d in eval/reports/archive/run_*; do \
-			echo "  $$(basename $$d)  $$(ls $$d/*.json 2>/dev/null | wc -l | tr -d ' ') files"; \
+			name=$$(basename $$d); \
+			files=$$(ls $$d/*.json 2>/dev/null | grep -v run_meta | wc -l | tr -d ' '); \
+			if [ -f "$$d/run_meta.json" ]; then \
+				label=$$(python3 -c "import json; print(json.load(open('$$d/run_meta.json')).get('label',''))" 2>/dev/null); \
+				if [ -n "$$label" ]; then \
+					echo "  $$name  $$files files  [$$label]"; \
+				else \
+					echo "  $$name  $$files files"; \
+				fi; \
+			else \
+				echo "  $$name  $$files files"; \
+			fi; \
 		done; \
 	else echo "  (none)"; fi
 
@@ -234,7 +281,9 @@ help:
 	@echo "  make data              Run all data source pipelines"
 	@echo "  make data-manual       Run manual pipeline only"
 	@echo "  make data-status       Show pipeline status"
+	@echo "  make data-merge        Run merge layer only"
 	@echo "  make data-clean        Clean data pipeline artifacts"
+	@echo "  make upload            Upload merged dataset to HuggingFace"
 	@echo ""
 	@echo "Manual Pipeline (run from data/src/manual/):"
 	@echo "  make -C data/src/manual all        Full pipeline"
@@ -272,12 +321,14 @@ help:
 	@echo "Utilities:"
 	@echo "  make help              Show this help"
 	@echo "  make clean-eval        Clean evaluation artifacts"
-	@echo "  make eval-archive      Archive current eval reports"
+	@echo "  make eval-archive      Archive current eval reports (LABEL= optional)"
+	@echo "  make eval-label        Label an archived run (RUN= LABEL=)"
+	@echo "  make eval-compare-runs Multi-run progression report"
 	@echo "  make eval-runs         List archived eval runs"
 
-.PHONY: data data-manual data-status data-clean \
+.PHONY: data data-manual data-merge data-status data-clean upload \
         train train-dev train-resume train-logs train-archive train-runs train-clean \
         eval-sample eval-baseline eval-finetuned eval-compare eval-probes eval-mock eval-test eval-all clean-eval \
         eval-modal-baseline eval-modal-finetuned eval-modal-checkpoint eval-modal-quick eval-modal-probes eval-modal-all \
-        eval-archive eval-runs \
+        eval-archive eval-label eval-compare-runs eval-runs \
         help
