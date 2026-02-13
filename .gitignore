@@ -19,6 +19,7 @@ data/src/forum/raw/*.jsonl
 
 # Merged training output (generated, don't commit)
 data/training/merged_*.jsonl
+data/training/images/
 
 # Jupyter
 .ipynb_checkpoints/
