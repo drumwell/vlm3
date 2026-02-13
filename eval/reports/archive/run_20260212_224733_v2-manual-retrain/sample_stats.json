@@ -1,0 +1,77 @@
+{
+  "total_records": 1404,
+  "types_found": {
+    "factual": 391,
+    "component": 89,
+    "navigation": 93,
+    "visual": 135,
+    "inspection": 55,
+    "diagnostic": 40,
+    "procedural": 426,
+    "troubleshooting": 24,
+    "tool": 55,
+    "safety": 49,
+    "operation": 12,
+    "connector": 9,
+    "wiring": 20,
+    "parameter": 5,
+    "signal": 1
+  },
+  "sampled_by_type": {
+    "procedural": {
+      "available": 426,
+      "sampled": 87
+    },
+    "factual": {
+      "available": 391,
+      "sampled": 76
+    },
+    "visual": {
+      "available": 135,
+      "sampled": 27
+    },
+    "component": {
+      "available": 89,
+      "sampled": 21
+    },
+    "navigation": {
+      "available": 93,
+      "sampled": 21
+    },
+    "diagnostic": {
+      "available": 40,
+      "sampled": 16
+    },
+    "safety": {
+      "available": 49,
+      "sampled": 16
+    },
+    "wiring": {
+      "available": 20,
+      "sampled": 16
+    },
+    "inspection": {
+      "available": 55,
+      "sampled": 10
+    },
+    "troubleshooting": {
+      "available": 24,
+      "sampled": 10
+    },
+    "tool": {
+      "available": 55,
+      "sampled": 10
+    },
+    "other_pooled": {
+      "available": 27,
+      "sampled": 25
+    }
+  },
+  "pooled_types": [
+    "parameter",
+    "operation",
+    "connector",
+    "signal"
+  ],
+  "total_sampled": 335
+}
