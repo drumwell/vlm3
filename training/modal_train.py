@@ -42,7 +42,7 @@ DEFAULT_CONFIG = {
     "lora_r": 64,
     "lora_alpha": 128,
     "lora_dropout": 0.05,
-    "epochs": 3,
+    "epochs": 1,
     "batch_size": 4,
     "gradient_accumulation_steps": 4,
     "learning_rate": 2e-4,
@@ -350,7 +350,8 @@ def train(
             self.download_image = download_image_fn
 
             # Pre-download all images and filter out failures
-            # VLM training requires images - text-only samples shouldn't be in the dataset
+            # Text-only records use a blank placeholder image (images/blank.jpg)
+            # injected by merge.py, so every record has an image field
             # Images are cached on the Modal volume to skip HF downloads on subsequent runs
             print("Pre-loading images...")
             self.images = {}
@@ -396,7 +397,10 @@ def train(
                     print(f"  Processed {i + 1}/{len(records)} images ({cache_hits} from cache)")
 
             self.records = valid_records
+            blank_count = sum(1 for r in valid_records if r.get("image", "").endswith("blank.jpg"))
             print(f"  Done: {len(self.images)} valid, {failed_count} skipped, {cache_hits} cache hits")
+            if blank_count > 0:
+                print(f"  Text-only (blank placeholder): {blank_count} records")
 
         def __len__(self):
             return len(self.records)
@@ -593,7 +597,7 @@ def train(
         eval_steps=config["eval_steps"] if val_dataset else None,
         save_strategy="steps",
         save_steps=config["save_steps"],
-        save_total_limit=3,
+        save_total_limit=5,
         load_best_model_at_end=True if val_dataset else False,
         fp16=False,
         bf16=True,
