@@ -1,0 +1,184 @@
+# Forum Data Curation Pipeline - Configuration
+# Source: s14.net BMW E30 M3 community forums
+
+# Target forums for Phase 1
+forums:
+  targets:
+    - d-i-y
+    - no-start
+    - ecu-chips
+    - forced-induction
+    - oils-fluids
+    - spark-plugs
+    - water-leaks
+    - batteries
+    - alpha-n-carbon-fiber
+    - engine-swap-cars
+
+# API settings (shared across stages 03, 04, 05)
+api:
+  provider: anthropic
+  max_retries: 3
+  rate_limit_delay_seconds: 0.5
+
+  models:
+    classification: claude-haiku-4-5-20251001   # Fast/cheap for thread classification
+    scoring: claude-sonnet-4-5-20250929         # More capable for quality scoring
+    extraction: claude-sonnet-4-5-20250929      # More capable for Q&A extraction
+
+# Stage 02: Mechanical filtering
+filtering:
+  # Post-level filters
+  min_post_length: 30             # chars after stripping
+  min_first_post_length: 50       # first post must be more substantive
+
+  # Social noise patterns (case-insensitive exact/fuzzy match)
+  social_noise_patterns:
+    - "thanks"
+    - "thank you"
+    - "bump"
+    - "+1"
+    - "subscribed"
+    - "following"
+    - "nice"
+    - "great post"
+    - "well done"
+    - "awesome"
+    - "lol"
+    - "haha"
+    - "good luck"
+    - "congrats"
+
+  # Thread title noise patterns (case-insensitive substring match)
+  title_noise_patterns:
+    - "WTB"
+    - "WTS"
+    - "FS:"
+    - "for sale"
+    - "wanted"
+    - "price check"
+    - "how much"
+    - "shipping"
+
+  # Minimum surviving posts for a thread to remain
+  min_thread_posts: 2
+
+  # Content cleaning
+  strip_post_number_markers: true   # Remove leading #N
+  strip_timestamps: true            # Remove timestamp lines
+  strip_signatures: true            # Remove content after sig dividers
+  normalize_whitespace: true
+  strip_html_artifacts: true
+
+# Stage 03: Thread classification
+classification:
+  # Truncation limits for API input
+  max_preview_chars: 2000           # title + first post + first replies
+  max_replies_for_preview: 3        # number of replies to include
+
+  # Valid thread types
+  thread_types:
+    - troubleshooting
+    - how_to
+    - modification
+    - specification
+    - parts_discussion
+    - experience_report
+    - general_question
+    - off_topic
+
+  # Technical depth levels
+  depth_levels:
+    - high
+    - medium
+    - low
+
+  # Gate: only these pass to scoring
+  min_technical_depth: medium       # medium or high pass
+  require_s14_specific: true
+
+# Stage 04: Quality scoring
+scoring:
+  # Truncation limit for API input
+  max_thread_chars: 4000
+
+  # Scoring dimensions and weights
+  dimensions:
+    factual_specificity: 0.30
+    answer_completeness: 0.25
+    procedural_clarity: 0.20
+    s14_relevance: 0.15
+    unique_knowledge: 0.10
+
+  # Gate: minimum composite score to proceed
+  min_composite_score: 3.0
+
+# Stage 05: Q&A extraction
+extraction:
+  # Max Q&A pairs per thread
+  max_qa_per_thread: 5
+
+  # Max thread content sent to API
+  max_thread_chars: 8000
+
+  # Valid question types (forum-specific)
+  valid_question_types:
+    - troubleshooting
+    - procedural
+    - specification
+    - diagnostic
+    - modification
+    - maintenance
+    - parts
+    - experience
+
+# Stage 06: Cross-reference & filtering
+cross_reference:
+  # Path to manual prepared data (relative to forum source dir)
+  manual_train_path: ../manual/prepared/manual_train.jsonl
+
+  # Semantic similarity threshold for dedup against manual
+  similarity_threshold: 0.85
+  embedding_model: all-MiniLM-L6-v2
+  embedding_batch_size: 64
+
+  # Factual confidence levels
+  confidence_levels:
+    - verified
+    - plausible
+    - unverified
+    - contradicted
+
+filters:
+  # Answer constraints
+  min_answer_length: 50
+  max_answer_length: 2000
+
+  # Question constraints
+  min_question_length: 15
+
+  # Generic answer patterns (reject if answer matches)
+  generic_answer_patterns:
+    - "it depends"
+    - "check the manual"
+    - "hard to say"
+    - "not sure"
+    - "I don't know"
+    - "search the forum"
+    - "google it"
+    - "ask your mechanic"
+
+  # Vague question patterns (reject if question matches)
+  vague_question_patterns:
+    - "what do you think"
+    - "any thoughts"
+    - "anyone else"
+    - "has anyone"
+    - "opinions on"
+
+# Stage 07: Output settings
+output:
+  train_split: 0.90
+  random_seed: 42
+  prefix: forum
+  stratify_by: forum               # Stratify train/val split by forum
