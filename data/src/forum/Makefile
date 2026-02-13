@@ -93,7 +93,7 @@ all: reconstruct filter classify score extract-qa validate emit
 	@echo "Output in prepared/"
 
 # Skip stages 1-2 (threads already reconstructed and filtered)
-quick: classify score extract-qa validate emit
+from-classify: classify score extract-qa validate emit
 
 # Re-extract Q&A only (classification and scoring unchanged)
 regen-qa: extract-qa validate emit
@@ -148,7 +148,7 @@ status:
 	@test -f prepared/forum_train.jsonl && echo "  train: $$(wc -l < prepared/forum_train.jsonl) examples" || echo "  train: pending (run: make emit)"
 	@test -f prepared/forum_val.jsonl && echo "  val:   $$(wc -l < prepared/forum_val.jsonl) examples" || echo "  val:   pending (run: make emit)"
 
-.PHONY: all quick regen-qa refilter \
+.PHONY: all from-classify regen-qa refilter \
         reconstruct filter classify score extract-qa validate emit \
         clean clean-qa clean-classify \
         status
